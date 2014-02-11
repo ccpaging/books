@@ -1,0 +1,12595 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 数理化自学丛书－代数
+\options oneside
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize a5paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 3
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+一次方程组
+\end_layout
+
+\begin_layout Section
+二元一次方程
+\end_layout
+
+\begin_layout Standard
+我们来看下面的问题.
+\end_layout
+
+\begin_layout Standard
+已知两个数的和是
+\begin_inset Formula $4$
+\end_inset
+
+,求这两个数.
+\end_layout
+
+\begin_layout Standard
+这个问题里有两个未知数,如果设一个数是
+\begin_inset Formula $x$
+\end_inset
+
+,另一个数是
+\begin_inset Formula $y$
+\end_inset
+
+,那末根据题意,就可以列出方程:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x+y=4.$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+因为在这个方程里含有未知数
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+的项的次数都是
+\begin_inset Formula $1$
+\end_inset
+
+,我们把它叫做二元一次方程.
+\end_layout
+
+\begin_layout Standard
+含有两个未知数,并且含有未知数的项的次数都是
+\begin_inset Formula $1$
+\end_inset
+
+次的方程叫做
+\series bold
+二元一次方程
+\series default
+.例如,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x+y=4,\quad2x-3y=7,\quad\cfrac{1}{3}x=5y$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+等等都是二元一声方程.
+\end_layout
+
+\begin_layout Standard
+现在我们来看方程
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x+y=4$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+在这个方程里,使
+\begin_inset Formula $x$
+\end_inset
+
+取不同的值,计算出对应的
+\begin_inset Formula $y$
+\end_inset
+
+值,并且把各对对应值列成下表:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="11">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-\cfrac{1}{2\vphantom{_{2_{2}}}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $8.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $9$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $4\cfrac{1}{2\vphantom{_{2_{2}}}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $4$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-4.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+很明显,把这个表里每一对
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+的值代入方程
+\begin_inset Formula $x+y=4$
+\end_inset
+
+,都能使这个等式变成一个恒等式,例如,
+\end_layout
+
+\begin_layout Standard
+取
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x=-5$
+\end_inset
+
+,
+\begin_inset Formula $y=9$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+代入,得到
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\noindent
+\begin_inset Formula $(-5)+9=4$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+这是一个恒等式.
+\end_layout
+
+\begin_layout Standard
+我们说
+\begin_inset Formula $x$
+\end_inset
+
+,
+\begin_inset Formula $y$
+\end_inset
+
+这样的一对值适合原方程.
+\end_layout
+
+\begin_layout Standard
+能够适合一个二元一次方程的一对未知数的值,叫做这个二元一次方程的一个解.例如,上面表里各对
+\begin_inset Formula $x$
+\end_inset
+
+,
+\begin_inset Formula $y$
+\end_inset
+
+的值都是二元一次方程
+\begin_inset Formula $x+y=4$
+\end_inset
+
+的解.
+\end_layout
+
+\begin_layout Standard
+从上面的表里可以知道,在任何一个二元一次方程中,确定了其中一个未知数的一个值,另一个未知数的对应值就可以随着确定,因而得出这个方程的一个解,因此任何一个二元一次
+方程都有无数个解.我们把二元一次方程所有解构成的这个整体,叫做二元一次方程的解的集合.但是,并不是任意的一对
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+的值,都是这个方程的解.例如,在方程
+\begin_inset Formula $x+y=4$
+\end_inset
+
+里,
+\begin_inset Formula $x=3$
+\end_inset
+
+,
+\begin_inset Formula $y=-5$
+\end_inset
+
+就不是它的解.
+\end_layout
+
+\begin_layout Standard
+为了能够清楚地表达二元一次方程的一个解是一对未知数的值,通常用括号“
+\begin_inset Formula $\{$
+\end_inset
+
+”把两个未知数的值并起来写在一起.例如,方程
+\begin_inset Formula $x+y=4$
+\end_inset
+
+的解是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=0,\\
+y=4;
+\end{array}$
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=-1,\\
+y=5.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+等等.
+\end_layout
+
+\begin_layout Example
+在方程
+\begin_inset Formula $2x-3y=5$
+\end_inset
+
+里,设
+\begin_inset Formula $x=-1$
+\end_inset
+
+,
+\begin_inset Formula $0$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+,
+\begin_inset Formula $1$
+\end_inset
+
+,
+\begin_inset Formula $3$
+\end_inset
+
+,
+\begin_inset Formula $6$
+\end_inset
+
+,求对应的
+\begin_inset Formula $y$
+\end_inset
+
+值,并且把各对对应值列成一个表.
+\end_layout
+
+\begin_layout 解*
+把已知方程移项,使含有
+\begin_inset Formula $y$
+\end_inset
+
+的项在左边,不含
+\begin_inset Formula $y$
+\end_inset
+
+的项在右边,得
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $-3y=5-2x$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+两边都除以
+\begin_inset Formula $-3$
+\end_inset
+
+,得
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $y=-\cfrac{5-2x}{3}$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+把所设的
+\begin_inset Formula $x$
+\end_inset
+
+的值依次代入上式右边,计算出对应的
+\begin_inset Formula $y$
+\end_inset
+
+的值,可以列成下面的表.
+\begin_inset Newline newline
+\end_inset
+
+表里的每一组值都是二元一次方程
+\begin_inset Formula $2x-3y=5$
+\end_inset
+
+的一个解.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{1}{3\vphantom{_{2_{2}}}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-2\cfrac{1}{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-1\cfrac{2}{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-1\cfrac{4}{9\vphantom{_{2_{2}}}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2\cfrac{1}{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+在下列方程里,哪些是二元一次方程？哪些不是？
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $3x+4y=0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $5x-\cfrac{1}{2}=7$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $2x^{2}=5y-1$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $y=\cfrac{1}{2}x$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{1}{3}(x-3y+6)=2(4y-5x)+3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $(x+y)(2x-3y+4)-7=x(2x-y)-y(3y+5)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+对于下列每个方程,各求出它的四个解来:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x=2y$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $y=3x-2$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x-y=-5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $y=x+\cfrac{1}{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+先用一个未知数的代数式表示另一个未知数,然后求出方称的四个解来:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $x-3y=5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $2(x-y)=5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $5x+2y-3=0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $4x+2y=x-9y+1$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+求二元一次方程
+\begin_inset Formula $4x-3y=12$
+\end_inset
+
+,在
+\begin_inset Formula $x=0$
+\end_inset
+
+的时候适合于方程的
+\begin_inset Formula $y$
+\end_inset
+
+的值,和在
+\begin_inset Formula $y=0$
+\end_inset
+
+的时候适合于方程的
+\begin_inset Formula $x$
+\end_inset
+
+的值;
+\end_layout
+
+\begin_layout EnumIndent
+把二元一次方程
+\begin_inset Formula $3x+y=8$
+\end_inset
+
+,化成用
+\begin_inset Formula $x$
+\end_inset
+
+的代数式表示
+\begin_inset Formula $y$
+\end_inset
+
+的形式,然后填写适合于方程的数值表:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="9">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{1}{3\vphantom{_{2_{2}}}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+二元一次方程组的意义
+\end_layout
+
+\begin_layout Standard
+我们再来看下面的问题:
+\end_layout
+
+\begin_layout Standard
+甲乙两数的和是
+\begin_inset Formula $4$
+\end_inset
+
+,甲数比乙数大
+\begin_inset Formula $2$
+\end_inset
+
+,求这两个数.
+\end_layout
+
+\begin_layout Standard
+这个问题里有两个条件,如果我们设甲数是
+\begin_inset Formula $x$
+\end_inset
+
+,乙数是
+\begin_inset Formula $y$
+\end_inset
+
+,那末就可以列出两个方程:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+x+y & =4,\\
+x-y & =2.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这样我们只要求出既能适合方程(1),又能适合方程(2)的
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+的值,就能得到这个问题的答案.这也就是说要解答这个问题,只要求出这两个方程的公共解.
+\end_layout
+
+\begin_layout Standard
+方程(1)和(2)都有无数多个解,现在我们取定
+\begin_inset Formula $x$
+\end_inset
+
+的一些值,用列表法把这两个方程的解分别写出几个来,如
+\end_layout
+
+\begin_layout Standard
+方程(1)的解
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="11">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $4$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $4$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+方程(2)的解
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="11">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="right" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $4$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $y$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-4$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+对比一下可以发现
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=3\\
+y=2
+\end{array}$
+\end_inset
+
+既是方程(1)的解,也是方程(2)的解,这个解就是这两个方程的公共解.这样我们也就找到了这个问题的答案:甲数是
+\begin_inset Formula $3$
+\end_inset
+
+,乙数是
+\begin_inset Formula $1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+我们把由几个方程所组成的一组方程叫做
+\series bold
+方程组
+\series default
+.含有相同的两个未知数的几个一次方程所组成的方程组叫做
+\series bold
+二元一次方程组
+\series default
+.例如上面问题中的方程(1)和(2)合在一起就组成了一个二元一次方程组,记作
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+x+y=4,\\
+x-y=2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+方程组里各个方程的公共解,叫做这个方程组的解.例如方程(1)和(2)的公共解
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=3\\
+y=1
+\end{array}$
+\end_inset
+
+是上面这个方程组的解.
+\end_layout
+
+\begin_layout Standard
+求方程组的解的过程叫做
+\series bold
+解方程组
+\series default
+.
+\end_layout
+
+\begin_layout 注意*
+1.
+\begin_inset space \space{}
+\end_inset
+
+在书写方程组的时候,要用括号“
+\begin_inset Formula $\{$
+\end_inset
+
+”把各个方程合写在一起.同样,方程组的解也要用括号合写在一起.因为它实际上就是一个二元一次方程组.
+\begin_inset Newline newline
+\end_inset
+
+2.
+\begin_inset space \space{}
+\end_inset
+
+在§1.2里讲过,一元方程的解,也可以叫做根.但是方程组的解,只能叫解,不能叫根.
+\begin_inset Newline newline
+\end_inset
+
+3.
+\begin_inset space \space{}
+\end_inset
+
+方程组里方程的个数与未知数的个数,一般来说是可以不同的.本章中所研究的一次方程组,都是指未知数的个数和方程的个数相同的一次方程组.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+检验下列二元一次方程组后面括号里的一对未知数的值是不是这个方程组的一个解:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Big\{\begin{array}{l}
+x+y=3,\\
+x-y=1;
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[]
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Bigg(\Big\{\begin{array}{l}
+x=2\\
+y=1
+\end{array}\Bigg)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[(2)]
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Big\{\begin{array}{l}
+x+y=-1,\\
+2x-y=-5.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[]
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Bigg(\Big\{\begin{array}{l}
+x=-3\\
+y=2
+\end{array}\Bigg)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+通过观察,确定下列二元一次方程组有没有解？
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Big\{\begin{array}{l}
+x+y=7,\\
+x+y=-2;
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+x-y=5,\\
+2x-2y=10.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+用代入消元法解二元一次方程组
+\end_layout
+
+\begin_layout Standard
+下面我们来研究二元一次方程组的解法.先来看下面的问题:
+\end_layout
+
+\begin_layout Standard
+两个数的和是
+\begin_inset Formula $8$
+\end_inset
+
+,它们的差是
+\begin_inset Formula $2$
+\end_inset
+
+,求这两个数.
+\end_layout
+
+\begin_layout Standard
+设两个数中较大的一个数是
+\begin_inset Formula $x$
+\end_inset
+
+,较小的一个数是
+\begin_inset Formula $y$
+\end_inset
+
+,就可以列出方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+x+y & =8,\\
+x-y & =2.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+如果利用一元一次方程来解这个问题,可以得出下面的方程来:
+\end_layout
+
+\begin_layout Standard
+因为两数的和是
+\begin_inset Formula $8$
+\end_inset
+
+,所以设较大的数是
+\begin_inset Formula $x$
+\end_inset
+
+,那末较小的数就是
+\begin_inset Formula $8-x$
+\end_inset
+
+.又因两数的差是
+\begin_inset Formula $2$
+\end_inset
+
+,所以可以列出一元一次方程
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+x-(8-x) & =2.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+实际上,从上面的二元一次方程组的方程(1),我们可以得到
+\begin_inset Formula $y=8-x$
+\end_inset
+
+.因为方程组中相同的字母所表示的是同一个未知数,所以在方程(1)和方程(2)中的
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+分别表示相同的未知数,因此可以把
+\begin_inset Formula $8-x$
+\end_inset
+
+代替方程(2)中的
+\begin_inset Formula $y$
+\end_inset
+
+.这样就得到了一元一次方程
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x-(8-x)=2$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+这显然和方程(3)是一样的.
+\end_layout
+
+\begin_layout Standard
+解这个方程,得到
+\begin_inset Formula $x=5$
+\end_inset
+
+.代入
+\begin_inset Formula $y=8-x$
+\end_inset
+
+,得到
+\begin_inset Formula $y=3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\Big\{\begin{array}{l}
+x=5,\\
+y=3
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+就是原二元一次方程组的解.
+\end_layout
+
+\begin_layout Standard
+这种解方程组的方法,叫做
+\series bold
+代入消元法
+\series default
+,简称
+\series bold
+代入法
+\series default
+.
+\end_layout
+
+\begin_layout Example
+用代入法解方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+x+3y & =5,\\
+3x-6y & =6.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout 审题*
+这里,(1)中的
+\begin_inset Formula $x$
+\end_inset
+
+的系数是
+\begin_inset Formula $1$
+\end_inset
+
+,把
+\begin_inset Formula $x$
+\end_inset
+
+化成用
+\begin_inset Formula $y$
+\end_inset
+
+的代数式表示的式子比较简单.
+\end_layout
+
+\begin_layout 解*
+从
+\begin_inset Formula $(1)$
+\end_inset
+
+,得
+\begin_inset Formula $x=5-3y$
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+(3)
+\end_layout
+
+\begin_layout 解*
+\noindent
+代入
+\begin_inset Formula $(2)$
+\end_inset
+
+,得
+\begin_inset Formula $3(5-3y)-6y=6$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+解这个方程,得
+\begin_inset Formula $-15y=-9$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad y=\cfrac{3}{5}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+以
+\begin_inset Formula $y=\cfrac{3}{5}$
+\end_inset
+
+代人
+\begin_inset Formula $(3)$
+\end_inset
+
+,得
+\begin_inset Formula $x=3\cfrac{1}{5}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 检验*
+把
+\begin_inset Formula $x=3\cfrac{1}{5}$
+\end_inset
+
+,
+\begin_inset Formula $y=\cfrac{3}{5}$
+\end_inset
+
+代入方程
+\begin_inset Formula $(1)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\text{左边}=3\cfrac{1}{5}+3\times\cfrac{3}{5}=5=\text{右边.}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+代入方程
+\begin_inset Formula $(2)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\text{左边}=3\times\cfrac{16}{5}-6\times\cfrac{3}{5}=6=\text{右边.}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以原方程组的解是
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=3\cfrac{1}{5},\\
+y=\cfrac{3}{5}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout 注意*
+用代入法解方程组时,从一个方程得出把一个未知数用另一个未知数的代数式表示的式子,必须钯这个代数式代入另一个方程中去,不能代入原来那个方程中.例如在本题中,从方程(
+1)得到
+\begin_inset Formula $x=5-3y$
+\end_inset
+
+后,必须把这个代数式代入方程(2)中.如果代入方程(1),那末得到0=0,这样就不能达到求出
+\begin_inset Formula $x$
+\end_inset
+
+,
+\begin_inset Formula $y$
+\end_inset
+
+的值的目的.
+\end_layout
+
+\begin_layout Example
+用代入法解方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+3x+4y & =2,\\
+2x-y & =5.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout 审题*
+这里,从
+\begin_inset Formula $(2)$
+\end_inset
+
+中把
+\begin_inset Formula $y$
+\end_inset
+
+化成用
+\begin_inset Formula $x$
+\end_inset
+
+的代数式表示的式子比较简单.
+\end_layout
+
+\begin_layout 解*
+从
+\begin_inset Formula $(2)$
+\end_inset
+
+,得
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+y & =2x-5.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+以
+\begin_inset Formula $(3)$
+\end_inset
+
+代入
+\begin_inset Formula $(1)$
+\end_inset
+
+,得
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $3x+4(2x-5)=2$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+解这个方程,
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\noindent
+\begin_inset Formula $\begin{array}{c}
+11x=22,\\
+\therefore\quad x=2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+以
+\begin_inset Formula $x=2$
+\end_inset
+
+代入
+\begin_inset Formula $(3)$
+\end_inset
+
+,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $y=2\times2-5=-1$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout 检验*
+把
+\begin_inset Formula $x=2$
+\end_inset
+
+,
+\begin_inset Formula $y=-1$
+\end_inset
+
+代入方程
+\begin_inset Formula $(1)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\text{左边}=3\times2+4\times(-1)=2=\text{右边.}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+代入方程
+\begin_inset Formula $(2)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\text{左边}=2\times2-(-1)=5=\text{右边.}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以原方程组的解是
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=2,\\
+y=-1.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout 说明*
+用代入法解方程组时,要把一个方程里的一个未知数用另一个未知数的代数式来表示,为了计算简便,一般选用未知数的系数较简单的一个.在例1中,选用方程(1),把
+\begin_inset Formula $x$
+\end_inset
+
+化成
+\begin_inset Formula $y$
+\end_inset
+
+的代数式,而在例2中,选用方程(2),把
+\begin_inset Formula $y$
+\end_inset
+
+化成
+\begin_inset Formula $x$
+\end_inset
+
+的代数式.
+\end_layout
+
+\begin_layout Standard
+从上面两个例子可以看出,用
+\series bold
+代入法解二元一次方程组的一般步骤
+\series default
+是:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex MathBox
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{0.9
+\backslash
+hsize}{[cc]{
+\backslash
+textbf{解分式方程的一般步骤}}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+leftmargin=3em,align=right,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+label=(
+\backslash
+arabic*)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+把一个方程里的一个未知数(例如
+\begin_inset Formula $y$
+\end_inset
+
+)化成用另一个未知数(例如
+\begin_inset Formula $x$
+\end_inset
+
+)的代数式来表示.
+\end_layout
+
+\begin_layout EnumIndent
+把这个代数式代入另一个方程里,消去一个未知数(例如
+\begin_inset Formula $y$
+\end_inset
+
+),得到另一个未知数(例如
+\begin_inset Formula $x$
+\end_inset
+
+)的一个一元方程.
+\end_layout
+
+\begin_layout EnumIndent
+解这个一元方程,求得一个未知数(例如
+\begin_inset Formula $x$
+\end_inset
+
+)的值.
+\end_layout
+
+\begin_layout EnumIndent
+把所求得的值代入第一步所得到的代数式里,求得另一个未知数(例如
+\begin_inset Formula $y$
+\end_inset
+
+)的值.
+\end_layout
+
+\begin_layout EnumIndent
+把所求得的两个未知数的值用“
+\begin_inset Formula $\{$
+\end_inset
+
+”写在一起,就是原方程组的解.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+为了检查计算有没有错误,可以把所求得的两个未知数的值代入原方程组,进行检验.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+检验下列各题后面括号里的
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+的值是不是方程组的解:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Big\{\begin{array}{l}
+3x+5y=19,\\
+4x-3y-6=0;
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[]
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Bigg(\Big\{\begin{array}{l}
+x=3\\
+y=2
+\end{array}\Bigg)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[(2)]
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Big\{\begin{array}{l}
+7x=2y-3,\\
+5x-6y-7=0.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[]
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Bigg(\Big\{\begin{array}{l}
+x=-1\\
+y=-2
+\end{array}\Bigg)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+用代入法解下列各方程组(2~13):
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+resume,cols=2,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Big\{\begin{array}{l}
+y=3x,\\
+7x-2y=2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+y=x+3,\\
+7x+5y=6.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=-2y,\\
+3x+4y=6.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+y=\cfrac{2}{3}x,\\
+3x-4y=2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+x-2y=5,\\
+5x-3y=\cfrac{1}{2}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+5x+3y=0,\\
+12x+7y+1=0.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+8x-12y=-40,\\
+6x+5y=12.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+3x-8y-3=0,\\
+5x+3y=\cfrac{11}{12}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+3x-y=5,\\
+5x+2y=25.2\;.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+2y+3z=-4,\\
+6z+5y+7=0.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+v=2.6+9.8t,\\
+\cfrac{v}{3}-3t=1.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=2(t-9)+3(t-5),\\
+x=\cfrac{t+3}{2}-\cfrac{t+2}{3}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+用加减消元法解二元一次方程组
+\end_layout
+
+\begin_layout Standard
+从上一节用代入法解二元一次方程组的步骤中,可以看到解题的关键是要从这两个方程中设法消去一个未知数,得到一个一元一次方程.现在我们再来看上一节里做过的二元一次方程组
+:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+x+y & =8,\\
+x-y & =2.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+在这个方程组里,方程(1)中
+\begin_inset Formula $y$
+\end_inset
+
+的系数是
+\begin_inset Formula $+1$
+\end_inset
+
+,方程(2)中
+\begin_inset Formula $y$
+\end_inset
+
+的系数是
+\begin_inset Formula $-1$
+\end_inset
+
+,它们是两个相反的数.因此,只要把两个方程的左右两边分别相加,就可以消去
+\begin_inset Formula $y$
+\end_inset
+
+而得到只含有
+\begin_inset Formula $x$
+\end_inset
+
+的一个一元一次方程:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $2x=10$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\noindent
+就是
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x=5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+在这个方程组里,方程(1)中
+\begin_inset Formula $y$
+\end_inset
+
+的系数是
+\begin_inset Formula $+1$
+\end_inset
+
+,方程(2)中
+\begin_inset Formula $y$
+\end_inset
+
+的系数是
+\begin_inset Formula $-1$
+\end_inset
+
+,它们是两个相反的数.因此,只要把两个方程的左右两边分别相加,就可以消去
+\begin_inset Formula $y$
+\end_inset
+
+而得到只含有
+\begin_inset Formula $x$
+\end_inset
+
+的一个一元一次方程:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $2x=10$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\noindent
+就是
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x=5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+把
+\begin_inset Formula $x=5$
+\end_inset
+
+代入方程组里的任何一个方程,就可以求得
+\begin_inset Formula $y=3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+这种解方程组的方法,叫做
+\series bold
+加减消元法
+\series default
+,简称
+\series bold
+加减法
+\series default
+.
+\end_layout
+
+\begin_layout Example
+用加减法解方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+5x+2y & =12,\\
+3x+2y & =6.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout 审题*
+这个方程组里,
+\begin_inset Formula $y$
+\end_inset
+
+的系数相同,所以把方程(1)与方程(2)相减,就可以消去
+\begin_inset Formula $y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+\begin_inset Formula $(1)-(2)$
+\end_inset
+
+,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{c}
+2x=6,\\
+\therefore\quad x=3.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+以
+\begin_inset Formula $x=3$
+\end_inset
+
+代入
+\begin_inset Formula $(2)$
+\end_inset
+
+,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{c}
+3\cdot3+2y=6,\\
+\therefore\quad y=-1\cfrac{1}{2}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以原方程组的解是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=3,\\
+y=-1\cfrac{1}{2}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+检验从略.
+\end_layout
+
+\begin_layout 说明*
+两个方程相减,求得
+\begin_inset Formula $x$
+\end_inset
+
+的值后,也可以用
+\begin_inset Formula $x=3$
+\end_inset
+
+代入方程(1)中,求出
+\begin_inset Formula $y$
+\end_inset
+
+的值,结果是一样的.例如,以
+\begin_inset Formula $x=3$
+\end_inset
+
+代入(1),那末,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $15+22y=12,\qquad\therefore\quad y=-1\cfrac{1}{2}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这与上节所讲必须代入另一个方程中去是不同的.
+\end_layout
+
+\begin_layout Example
+用加减法解方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+x+5y=6,\\
+3x-6y-4=0.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout 审题*
+这个方程组里没有一个未知数的系数的绝对值相等,所以不能直接把两个方程相加或者相减,而消去一个未知数.但是,我们如果把方程(1)两边都乘以一个数
+\begin_inset Formula $3$
+\end_inset
+
+,那末可以得到一个和它同解的方程
+\begin_inset Formula $3x+15y=18$
+\end_inset
+
+,这个方程中
+\begin_inset Formula $x$
+\end_inset
+
+的系数和方程(2)中
+\begin_inset Formula $y$
+\end_inset
+
+的系数相同,这样就可以应用加减消元法把未知数
+\begin_inset Formula $x$
+\end_inset
+
+消去.
+\end_layout
+
+\begin_layout 解*
+\begin_inset Formula $(1)\times3$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{equation}
+3x+15y=18
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+由
+\begin_inset Formula $(2)$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{equation}
+3x-6y=4
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(3)-(4)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $21y=14,\qquad\therefore\quad y=\cfrac{2}{3}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+以
+\begin_inset Formula $y=\cfrac{2}{3}$
+\end_inset
+
+代人
+\begin_inset Formula $(1)$
+\end_inset
+
+,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x+5\times\cfrac{2}{3}=6,\qquad\therefore\quad x=2\cfrac{2}{3}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以原方程组的解是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x=2\cfrac{2}{3},\\
+y=\cfrac{2}{3}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+检验从略.
+\end_layout
+
+\begin_layout 注意*
+在把原方程组中的方程变形后,可加以编号.在消元时,必须注意不要把方程弄错.在解题过程中,不必再把两个方程用“
+\begin_inset Formula $\{$
+\end_inset
+
+”合写在一起.
+\end_layout
+
+\begin_layout Example
+用加减法解方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+\cfrac{x}{4}+\cfrac{y}{3}=\cfrac{4}{3},\\
+5(x-9)=6(y-2).
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+由
+\begin_inset Formula $(1)$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{equation}
+3x+4y=16.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+由
+\begin_inset Formula $(2)$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{equation}
+5x-6y=33.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(3)\times3$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{equation}
+9x+12y=48.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(4)\times2$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{equation}
+10x-12y=66.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(5)+(6)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $19x=114,\qquad\therefore\quad x=6.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以原方程组的解是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x=6,\\
+y=-\cfrac{1}{2}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+检验从略
+\end_layout
+
+\begin_layout 说明*
+用加减法解方程组时,要先把两个方程变形,使含有未知数的项在左边,不含未知数的项在右边,并且合并同类项.
+\end_layout
+
+\begin_layout Standard
+从上面三个例子可以看出,用加减法解
+\series bold
+二元一次方程组的一般步骤
+\series default
+是:
+\end_layout
+
+\begin_layout CenterLine
+\align center
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 1
+use_makebox 0
+width "90col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout EnumIndent
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+leftmargin=2em,align=right,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+label=(
+\backslash
+arabic*)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+把两个方程变形,使含有未知数的项在左边,不含未知数的项在右边,并且合并同类项.
+\end_layout
+
+\begin_layout EnumIndent
+把一个方程或者两个方程的两边乘以适当的数,使两个方程里的某一个未知数的系数的绝对值相等.
+\end_layout
+
+\begin_layout EnumIndent
+把所得的两个方程的两边分别相加或者相减,消去这个未知数,得出另一个未知数的一个一元一次方程.
+\end_layout
+
+\begin_layout EnumIndent
+解这个方程,求得一个未知数的值.
+\end_layout
+
+\begin_layout EnumIndent
+用这个未知数的值代入方程组的任何一个方程,求出另一个未知数的值.
+\end_layout
+
+\begin_layout EnumIndent
+把求得的两个未知数的值用“
+\begin_inset Formula $\{$
+\end_inset
+
+”写在一起,就是原方程组的解.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+为了检查计算有没有错误,可以把所求得的两个未知数的值代入原方程组,进行检验.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+用加减法解下列各方程组(1~16):
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Big\{\begin{array}{l}
+3x+2y=3,\\
+3x-2y=1.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+2x+y=5,\\
+3x-y=15.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+x+3y=33,\\
+2x-y=-4.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+2y-3z=8,\\
+7y-5z=-5.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+2x+5z=25,\\
+4x+3z=15.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+12x+21y=15,\\
+16x-14y=6.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+7x-3y+1=0,\\
+4x-5y=-17.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+3x-4y+11=0,\\
+3y-4x+53=0.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+4(x+2)=1-5y,\\
+3(y+2)=3-2x.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+3(x-1)=4(y-4),\\
+5(y-1)=3(x+5).
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{y}{x}+\cfrac{z}{3}=13,\\
+\cfrac{y}{3}-\cfrac{z}{4}=3.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{2x}{3}+\cfrac{3z}{4}=\cfrac{1}{2},\\
+\cfrac{4x}{5}+\cfrac{5z}{6}=\cfrac{7}{15}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+start=13
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{x+y}{2}+\cfrac{x-y}{3}=6,\\
+4(x+y)-5(x-y)=2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{m+n}{3}-\cfrac{n-m}{4}=-0.46,\\
+4m+\cfrac{3}{4}n=-2.59\;.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{x+y}{5}=\cfrac{x-y}{3}=2.$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:可以取任意两式相等,组成方程组.例如,
+\begin_inset Formula $\cfrac{x+y}{5}=2$
+\end_inset
+
+与
+\begin_inset Formula $\cfrac{x-y}{3}=2$
+\end_inset
+
+.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\Big\{\begin{array}{l}
+(x+3)(y+5)=(x+1)(y+8),\\
+(2x-3)(5y+7)=2(5x-6)(y+1).
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+含有字母系数的二元一次方程组的解法
+\end_layout
+
+\end_inset
+
+含有字母系数的二元一次
+\begin_inset Newline newline
+\end_inset
+
+方程组的解法
+\end_layout
+
+\begin_layout Standard
+解含有字母系数的二元一次方程组的方法,和数字系数的二元一次方程组的解法一样,可以采用代入消元法或者加减消元法.现在举例来说明.
+\end_layout
+
+\begin_layout Example
+用代入法解关于
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+的方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+ & ax-by=a^{2}+b^{2},\\
+ & x-y=2a\qquad\qquad(a\neq b).
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+从
+\begin_inset Formula $(2)$
+\end_inset
+
+,得
+\begin_inset Formula 
+\begin{equation}
+y=x-2a,
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+\noindent
+代入
+\begin_inset Formula $(1)$
+\end_inset
+
+,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{c}
+ax-b(x-2a)=a^{2}+b^{2},\\
+ax-bx=a^{2}+b^{2}-2ab,\\
+(a-b)x=(a-b)^{2}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+因为
+\begin_inset Formula $a\neq b$
+\end_inset
+
+,
+\begin_inset Formula $a-b\neq0$
+\end_inset
+
+,两边都除以
+\begin_inset Formula $a-b$
+\end_inset
+
+,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x=a-b.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+以
+\begin_inset Formula $x=a-b$
+\end_inset
+
+代入
+\begin_inset Formula $(3)$
+\end_inset
+
+,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $y=-a-b$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以原方程组的解是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=a-b,\\
+y=-a-b.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+检验从略.
+\end_layout
+
+\begin_layout 说明*
+解字母系数的方程组时,必须注意题目中的条件.
+\end_layout
+
+\begin_layout Example
+解关于
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+的方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+ & (a-b)x+(a+b)y=2\big(a^{2}-b^{2}\Big),\\
+ & (a+b)x+(a-b)y=2\big(a^{2}+b^{2}\Big)\qquad(a\neq\pm b,ab\neq0).
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+用加减法消去
+\begin_inset Formula $y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+\noindent
+因为
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $a\neq b,\quad a-b\neq0,$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以,可在(1)的两边都乘以
+\begin_inset Formula $a-b$
+\end_inset
+
+,得
+\begin_inset Formula 
+\begin{equation}
+(a-b)^{2}x+(a+b)(a-b)y=2\big(a^{2}-b^{2}\big)(a-b).
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+因为
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $a\neq-b,\quad a+b\neq0,$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以,可在(2)的两边都乘以
+\begin_inset Formula $a+b$
+\end_inset
+
+,得
+\begin_inset Formula 
+\begin{equation}
+(a+b)^{2}x+(a+b)(a-b)y=2\big(a^{2}+b^{2}\big)(a+b).
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(3)-(4)$
+\end_inset
+
+,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{l}
+\big[(a-b)^{2}+(a+b)^{2}\big]x\\
+\phantom{[(}=2\big(a^{2}-b^{2}\big)(a-b)-2\big(a^{2}+b^{2}\big)(a+b),
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{alignat}{2}
+-4abx & = & 4a^{2}b-4ab^{2},\nonumber \\
+-4abx & = & -4ab(a+b).
+\end{alignat}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+因为
+\begin_inset Formula $ab\neq0$
+\end_inset
+
+,所以可在(5)的两边都除以
+\begin_inset Formula $-4ab$
+\end_inset
+
+,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x=a+b$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+以
+\begin_inset Formula $x=a+b$
+\end_inset
+
+代入(1),得
+\begin_inset Formula 
+\begin{alignat}{2}
+(a-b)(a+b)+(a+b)y & = & 2\big(a^{2}-b^{2}\big),\nonumber \\
+(a+b)y & = & a^{2}-b^{2}.
+\end{alignat}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+因为
+\begin_inset Formula $a+b\neq0$
+\end_inset
+
+,(6)的两边都除以
+\begin_inset Formula $a+b$
+\end_inset
+
+,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $y=\cfrac{a^{2}-b^{2}}{a+b}=a-b$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以原方程组的解是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=a+b,\\
+y=a-b.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+检验从略.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+解下列关于无和!/的方程组(1~8):
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Big\{\begin{array}{l}
+x+y=a+b,\\
+5x-7y=5b-7a.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+3x+y=2a+b,\\
+x-3y=2b-a.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+bx+ay=ab,\\
+y-mx=b
+\end{array}\quad(am+b\neq0).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{x}{2}+\cfrac{y}{3}=3a,\\
+x-y=a.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+mx+y=2m+1,\\
+x-my=2-m.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+x+2y=(m+n)^{2},\\
+x-2y=(m-n)^{2}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+mx-ny=a,\\
+x-y=b
+\end{array}\quad(m\neq n).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+ax+by=(a+b)(a-b),\\
+bx-ay=2ab
+\end{array}\quad\big(a^{2}+b^{2}\neq0\big).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+用二阶行列式解二元一次方程组
+\end_layout
+
+\begin_layout Subsection
+二元一次方程组的解的公式
+\end_layout
+
+\begin_layout Standard
+我们来解下面这个方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+ & a_{1}x+b_{1}y=c_{1}.\\
+ & a_{2}x+b_{2}y=c_{2}.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这里,
+\begin_inset Formula $a_{1}$
+\end_inset
+
+,
+\begin_inset Formula $a_{2}$
+\end_inset
+
+和
+\begin_inset Formula $b_{1}$
+\end_inset
+
+,
+\begin_inset Formula $b_{2}$
+\end_inset
+
+分别表示未知数
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+的系数,
+\begin_inset Formula $c_{1}$
+\end_inset
+
+和
+\begin_inset Formula $c_{2}$
+\end_inset
+
+表示常数项,
+\begin_inset Formula $a_{1}$
+\end_inset
+
+,
+\begin_inset Formula $a_{2}$
+\end_inset
+
+,
+\begin_inset Formula $b_{1}$
+\end_inset
+
+,
+\begin_inset Formula $b_{2}$
+\end_inset
+
+和
+\begin_inset Formula $a_{1}b_{2}-a_{2}b_{1}$
+\end_inset
+
+都不等于
+\begin_inset Formula $0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+我们先用加减消元法,在方程(1)和(2)中消去一个未知数
+\begin_inset Formula $y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(1)\times b_{2}-(3)\times b_{1}$
+\end_inset
+
+得
+\end_layout
+
+\begin_layout Standard
+因为
+\begin_inset Formula $a_{1}b_{2}-a_{2}b_{1}\neq0$
+\end_inset
+
+,由(3)可得
+\begin_inset Formula 
+\begin{equation}
+x=\cfrac{c_{1}b_{2}-c_{2}b_{1}}{a_{1}b_{2}-a_{2}b_{1}}.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+把(4)代入(1),得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $a_{1}\Big(\cfrac{c_{1}b_{2}-c_{2}b_{1}}{a_{1}b_{2}-a_{2}b_{1}}\Big)+b_{1}y=c_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+化简并整理后可得
+\begin_inset Formula 
+\begin{equation}
+y=\cfrac{a_{1}c_{2}-a_{2}c_{1}}{a_{1}b_{2}-a_{2}b_{1}}.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这样,我们就求得方程组的解是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x=\cfrac{c_{1}b_{2}-c_{2}b_{1}}{a_{1}b_{2}-a_{2}b_{1}},\\
+y=\cfrac{a_{1}c_{2}-a_{2}c_{1}}{a_{1}b_{2}-a_{2}b_{1}}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout 注意*
+上面的解法中,把
+\begin_inset Formula $x$
+\end_inset
+
+的值代入(1)求另一未知数
+\begin_inset Formula $y$
+\end_inset
+
+的值是比较麻烦的.为了简便,我们也可以直接从方程(1)和(2)中用加减法消去未知数
+\begin_inset Formula $x$
+\end_inset
+
+来求得.如
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(2)\times a_{1}-(1)\times a_{2}$
+\end_inset
+
+得
+\begin_inset Formula 
+\begin{equation}
+\Big(a_{1}b_{2}-a_{2}b_{1}\Big)y=a_{1}c_{2}-a_{2}c_{1}.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+因为
+\begin_inset Formula $a_{1}b_{2}-a_{2}b_{1}\neq0$
+\end_inset
+
+,由(6)可得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $y=\cfrac{a_{1}c_{2}-a_{2}c_{1}}{a_{1}b_{2}-a_{2}b_{1}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+上面求出的这个结果,可以作为公式来应用.例如,解方程组
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+3x+4y=5,\\
+5x-3y=2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这里
+\begin_inset Formula $a_{1}=3$
+\end_inset
+
+,
+\begin_inset Formula $b_{1}=4$
+\end_inset
+
+,
+\begin_inset Formula $c_{1}=5$
+\end_inset
+
+,
+\begin_inset Formula $b_{2}=-3$
+\end_inset
+
+,
+\begin_inset Formula $c_{2}=2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{l}
+a_{1}b_{2}-a_{2}b_{1}=3\cdot(-3)-5\cdot4=-9-20=-29,\\
+c_{1}b_{2}-c_{2}b_{1}=5\cdot(-3)-2\cdot4=-15-8=-23,\\
+a_{1}c_{2}-a_{2}c_{1}=3\cdot2-5\cdot5=6-25=-19.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+代入上面的解的公式,即可求得方程组的解是
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x=\cfrac{23}{29},\\
+y=\cfrac{19}{29}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+二阶行列式
+\end_layout
+
+\begin_layout Standard
+观察上面得出的这个二元一次方程组解的公式,发现分母
+\begin_inset Formula $a_{1}b_{2}-a_{2}b_{1}$
+\end_inset
+
+可以应用下面的方法来计算:先把两个方程中
+\begin_inset Formula $x$
+\end_inset
+
+,
+\begin_inset Formula $y$
+\end_inset
+
+的系数排成下面的形式
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{cccccrc}
+a_{1} &  & b_{1} &  & \text{实线上两数的积取正号} & +a_{1}b_{2}\\
+ & \Cross &  & \rightarrow\\
+a_{2} &  & b_{2} &  & \text{虚线上两数的积取负号} & \underline{\phantom{a_{1}b_{2}}-a_{2}b_{1}} & (+\\
+(-) &  & (+) &  &  & a_{1}b_{2}-a_{2}b_{1}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+如果把
+\begin_inset Formula $x$
+\end_inset
+
+的系数
+\begin_inset Formula $\big(a,a_{2}\big)$
+\end_inset
+
+,或者
+\begin_inset Formula $y$
+\end_inset
+
+的系数
+\begin_inset Formula $\big(b_{1},b_{2}\big)$
+\end_inset
+
+改用常数项
+\begin_inset Formula $\big(c_{1},c_{2}\big)$
+\end_inset
+
+来表示,就可用同样方法来计算(3)或者(4)中的分子.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccccrc}
+c_{1} &  & b_{1} &  & +c_{1}b_{2}\phantom{-c_{2}b_{1}}\\
+ & \Cross &  & \rightarrow\\
+c_{2} &  & b_{2} &  & \underline{\phantom{+a_{1}b_{2}}-c_{2}b_{1}} & (+\\
+(-) &  & (+) &  & c_{1}b_{2}-c_{2}b_{1}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccccrc}
+a_{1} &  & c_{1} &  & +a_{1}c_{2}\phantom{-a_{2}c_{1}}\\
+ & \Cross &  & \rightarrow\\
+a_{2} &  & c_{2} &  & \underline{\phantom{+a_{1}b_{2}}-a_{2}c_{1}} & (+\\
+(-) &  & (+) &  & c_{1}b_{2}-c_{2}b_{1}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+为了方便起见,我们引进记号
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{vmatrix}a_{1} & b_{1}\\
+a_{2} & b_{2}
+\end{vmatrix}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+来表示并把它叫做
+\series bold
+二阶行列式
+\series default
+,就是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{vmatrix}a_{1} & b_{1}\\
+a_{2} & b_{2}
+\end{vmatrix}=a_{1}b_{2}-a_{2}b_{1}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+其中,
+\begin_inset Formula $a_{1}$
+\end_inset
+
+、
+\begin_inset Formula $a_{2}$
+\end_inset
+
+、
+\begin_inset Formula $b_{1}$
+\end_inset
+
+、
+\begin_inset Formula $b_{2}$
+\end_inset
+
+叫做这个二阶行列式的元素,横排叫
+\series bold
+行
+\series default
+,竖排叫
+\series bold
+列
+\series default
+;代数式
+\begin_inset Formula $a_{1}b_{2}-a_{2}b_{1}$
+\end_inset
+
+叫做这个行列式的展开式.
+\end_layout
+
+\begin_layout Standard
+把二阶行列式左上角元素与右下角元素的积减去左下角元素与右上角元素的积就可以得到二阶行列式的值,这个法则通常叫做对角线法则.例如,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{vmatrix}3 & -1\\
+2 & -3
+\end{vmatrix}=3\times(-4)-2\times(-1)=-12+2=-10$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{cl}
+\begin{vmatrix}a+b & 1\\
+-b^{2} & a-b
+\end{vmatrix} & =(a+b)(a-b)-\big(-b^{2}\big)\times1\\
+ & =a^{2}-b^{2}+b^{2}=a^{2}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+用二阶行列式解二元一次方程组
+\end_layout
+
+\begin_layout Standard
+应用二阶行列式,二元一次方程组,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+a_{1}x+b_{1}y=c_{1},\\
+a_{2}x+b_{2}y=c_{2}
+\end{array}\quad\big(a_{1}b_{2}-a_{2}b_{1}\neq0\big)\qquad$
+\end_inset
+
+(I)
+\end_layout
+
+\begin_layout Standard
+\noindent
+的解,就可以简单地表示成
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x=\cfrac{D_{x}}{D},\\
+y=\cfrac{D_{y}}{D},
+\end{array}$
+\end_inset
+
+其中
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{aligned}D & = & \begin{vmatrix}a_{1} & b_{1}\\
+a_{2} & b_{2}
+\end{vmatrix} & =a_{1}b_{2}-a_{2}b_{1}\neq0,\\
+D_{x} & = & \begin{vmatrix}c_{1} & b_{1}\\
+c_{2} & b_{2}
+\end{vmatrix} & =c_{1}b_{2}-c_{2}b_{1},\\
+D_{y} & = & \begin{vmatrix}a_{1} & c_{1}\\
+a_{2} & c_{2}
+\end{vmatrix} & =a_{1}c_{2}-a_{2}c_{1}.
+\end{aligned}
+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+因为二阶行列式
+\begin_inset Formula $D$
+\end_inset
+
+是由方程组
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+项的系数所组成的,所以通常把它叫做二元一次方程组的系数行列式,可以看出,把二元一次方程组(I)中的常数项
+\begin_inset Formula $c_{1}$
+\end_inset
+
+和
+\begin_inset Formula $c_{2}$
+\end_inset
+
+顺次代替系数行列式
+\begin_inset Formula $D$
+\end_inset
+
+中的第一列的元素
+\begin_inset Formula $a_{1}$
+\end_inset
+
+和
+\begin_inset Formula $a_{2}$
+\end_inset
+
+,就能得到二阶行列式
+\begin_inset Formula $D_{x}$
+\end_inset
+
+,代替第二列的元素
+\begin_inset Formula $b_{1}$
+\end_inset
+
+和
+\begin_inset Formula $b_{2}$
+\end_inset
+
+就能得到二阶行列式
+\begin_inset Formula $D_{y}$
+\end_inset
+
+,但是应该注意,应用这种方法写出二元一次方程组的解时,必须把方程组先写成形如(I)的一般形式.
+\end_layout
+
+\begin_layout Example
+解方程组
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+2x-3y-12=0,\\
+3x+7y+5=0.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+原方程组就是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+2x-3y=12,\\
+3x+7y=-5.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{aligned}D & = & \begin{vmatrix}2 & -3\\
+3 & 7
+\end{vmatrix}=a_{1}b_{2}-a_{2}b_{1}\neq0,\\
+D_{x} & = & \begin{vmatrix}12 & -3\\
+-5 & 7
+\end{vmatrix}=84-15=69,\\
+D_{y} & = & \begin{vmatrix}2 & 12\\
+3 & -5
+\end{vmatrix}=-10-36=-46.
+\end{aligned}
+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以方程组的解是:
+\end_layout
+
+\begin_layout CenterLine
+\noindent
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x=\cfrac{D_{x}}{D}=\cfrac{69}{23}=3,\\
+y=\cfrac{D_{y}}{D}=\cfrac{-46}{23}=-2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+解关于
+\begin_inset Formula $x$
+\end_inset
+
+、
+\begin_inset Formula $y$
+\end_inset
+
+的方程组:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+mx+y=m+1,\\
+x+my=2m
+\end{array}(m\neq\pm1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{aligned}D & = & \begin{vmatrix}m & 1\\
+1 & m
+\end{vmatrix}=m^{2}-1=(m+1)(m-1),\\
+D_{x} & = & \begin{vmatrix}m+1 & 1\\
+2m & m
+\end{vmatrix}=m(m+1)-2m=m(m-1),\\
+D_{y} & = & \begin{vmatrix}m & m+1\\
+1 & 2m
+\end{vmatrix}=2m^{2}-m-1\\
+ & = & (2m+1)(m-1).
+\end{aligned}
+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\because\quad m\neq\pm1,\quad\therefore\quad D\neq0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以方积组的解是:
+\end_layout
+
+\begin_layout CenterLine
+\noindent
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x=\cfrac{D_{x}}{D}=\cfrac{m(m-1)}{(m+1)(m-1)}=\cfrac{m}{m+1},\\
+y=\cfrac{D_{y}}{D}=\cfrac{(2m+1)(m-1)}{(m+1)(m-1)}=\cfrac{2m+1}{m+1}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+计算下列行列式的值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\begin{vmatrix}3 & -1\\
+0 & 2
+\end{vmatrix}$
+\end_inset
+
+；
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\begin{vmatrix}-3 & 7\\
+-2 & 5
+\end{vmatrix}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\begin{vmatrix}a+b & c+d\\
+b & d
+\end{vmatrix}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\begin{vmatrix}a+b & a^{2}+ab+b^{2}\\
+a-b & a^{2}-ab+b^{2}
+\end{vmatrix}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+用行列式解下列方程组:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Big\{\begin{array}{l}
+3x+2y=5,\\
+2x-y=8;
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+2x-y+4=0,\\
+x+3y-33=0;
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+2x-8=3y,\\
+7x-5y+5=0;
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big\{\begin{array}{l}
+x+y=5,\\
+(a-1)x+2y=2(a+2)
+\end{array}\quad(a\neq3).$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+三元一次方程组
+\end_layout
+
+\begin_layout Subsection
+三元一次方程
+\end_layout
+
+\begin_layout Standard
+现在我们来看下面的一个方程:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $2x+3y+z=11$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+这个方程里含有三个未知数
+\begin_inset Formula $x$
+\end_inset
+
+,
+\begin_inset Formula $y$
+\end_inset
+
+,
+\begin_inset Formula $z$
+\end_inset
+
+,并且含有未知数的项的次数都是1次.
+\end_layout
+
+\begin_layout Standard
+含有三个未知数,并且含有未知数的项的次数都是1次的方程,叫做
+\series bold
+三元一次方程
+\series default
+.例如,方程
+\begin_inset Formula $2x+3y+z=11$
+\end_inset
+
+就是关于
+\begin_inset Formula $x$
+\end_inset
+
+,
+\begin_inset Formula $y$
+\end_inset
+
+,
+\begin_inset Formula $z$
+\end_inset
+
+的三元一次方程.
+\end_layout
+
+\begin_layout Standard
+任何一个三元一次方程,经过变形后都可以化成
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $ax+by+cz=d$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+的形式,这里,
+\begin_inset Formula $a$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+,
+\begin_inset Formula $c$
+\end_inset
+
+分别叫做
+\begin_inset Formula $x$
+\end_inset
+
+的系数,
+\begin_inset Formula $y$
+\end_inset
+
+的系数,
+\begin_inset Formula $z$
+\end_inset
+
+的系数;
+\begin_inset Formula $d$
+\end_inset
+
+是常数项.
+\end_layout
+
+\begin_layout Standard
+例如,方程
+\begin_inset Formula $5(x-2y)+1=2(z+2y)-3$
+\end_inset
+
+化简后,就可以变成:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $5x-14y-2z=-4$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+在方程
+\begin_inset Formula $2x+3y+z=11$
+\end_inset
+
+里,如果使其中的两个未知数各任意取定一个值,那末就可以求出另一个未知数的值.例如,设
+\begin_inset Formula $x=1$
+\end_inset
+
+,
+\begin_inset Formula $y=2$
+\end_inset
+
+,就得出
+\begin_inset Formula $z=3$
+\end_inset
+
+;设
+\begin_inset Formula $x=3$
+\end_inset
+
+,
+\begin_inset Formula $y=\cfrac{1}{3}$
+\end_inset
+
+,就得出
+\begin_inset Formula $z=4$
+\end_inset
+
+;设
+\begin_inset Formula $x=5$
+\end_inset
+
+,
+\begin_inset Formula $y=-4$
+\end_inset
+
+,就得出
+\begin_inset Formula $z=13$
+\end_inset
+
+,
+\begin_inset Formula $\cdots$
+\end_inset
+
+,所以
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{cases}
+x & =1,\\
+y & =2,\quad\\
+z & =3;
+\end{cases}\begin{cases}
+x & =3,\\
+y & =\cfrac{1}{3},\quad\\
+z & =4;
+\end{cases}\begin{cases}
+x & =5,\\
+y & =-4,\\
+z & =13
+\end{cases}\quad\cdots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+都能够适合于方程
+\begin_inset Formula $2x+3y+z=11$
+\end_inset
+
+,它们都是这个方程的解.很明显,任何一个三元一次方程都有无数多个解.
+\end_layout
+
+\begin_layout Subsection
+三元一次方程组和它的解法
+\end_layout
+
+\begin_layout Standard
+含有三个相同未知数的三个一次方程所组成的方程组,叫做
+\series bold
+三元一次方程组
+\series default
+.例如
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+ & 2x+3y+z=11,\\
+ & x+y+z=6,\\
+ & 3x-y-z=-4.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+就是一个三元一次方程组.
+\end_layout
+
+\begin_layout Standard
+解二元一次方程组时,我们已经知道解方程组的基本方法是消元.同样的,要解三元一次方程组我们也可以用消元的方法,一般的步骤是:
+\end_layout
+
+\begin_layout Standard
+(1)
+\begin_inset space \space{}
+\end_inset
+
+先从方程组的三个方程里,设法消去一个未知数,得出其它两个未知数的两个二元一次方程;
+\end_layout
+
+\begin_layout Standard
+(2)
+\begin_inset space \space{}
+\end_inset
+
+解由这两个二元一次方程所组成的二元一次方程组,求出这两个未知数的一对值;
+\end_layout
+
+\begin_layout Standard
+(3)
+\begin_inset space \space{}
+\end_inset
+
+把求得的这一对值,代入原方程组里的任何一个方程,求出先前被消去的那个未知数的值;
+\end_layout
+
+\begin_layout Standard
+(4)
+\begin_inset space \space{}
+\end_inset
+
+把求得的这三个未知数的值结合在一起,就得到原方程组的解.
+\end_layout
+
+\begin_layout Standard
+例如,上面这个方程组可以这样来解;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(1)-(2)$
+\end_inset
+
+,得
+\begin_inset Formula 
+\begin{equation}
+x+2y+5.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(2)+(3)$
+\end_inset
+
+,得
+\begin_inset Formula 
+\begin{equation}
+4x-y=2.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+解(4),(5)组成的方程组
+\begin_inset Formula $\Big\{\begin{array}{l}
+x+2y=5,\\
+4x-y=2,
+\end{array}$
+\end_inset
+
+得
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=1,\\
+y=2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+把
+\begin_inset Formula $x=1$
+\end_inset
+
+,
+\begin_inset Formula $y=2$
+\end_inset
+
+代入(2),得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $1+2+z=6$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad z=3.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+验算后可知
+\begin_inset Formula $\begin{cases}
+x & =1,\\
+y & =2,\\
+z & =3
+\end{cases}$
+\end_inset
+
+就是原方程组的解.
+\end_layout
+
+\begin_layout 注意*
+上面第一步消去
+\begin_inset Formula $z$
+\end_inset
+
+时,也可以应用代入法.例如由(2)可得
+\begin_inset Formula $z=6-(x+y)$
+\end_inset
+
+,把它分别代入(1)和(3),就可以得出一个二元一次方程钽.具体解法,留给读者.
+\end_layout
+
+\begin_layout Standard
+下面我们再举两个例子.
+\end_layout
+
+\begin_layout Example
+解方程组:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+3x+2y+z=14,\\
+x+y+z=10,\\
+2x+3y-z=1.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout 审题*
+先消去
+\begin_inset Formula $z$
+\end_inset
+
+,得出只含有
+\begin_inset Formula $x$
+\end_inset
+
+,
+\begin_inset Formula $y$
+\end_inset
+
+的二元一次方程组.因为(1)和(3)以及(2)和(3)中
+\begin_inset Formula $z$
+\end_inset
+
+的系数都分别是相反的数
+\begin_inset Formula $+1$
+\end_inset
+
+和
+\begin_inset Formula $-1$
+\end_inset
+
+,所以只要把(1)和(3)相加,(2)和(3)相加,就可以消去
+\begin_inset Formula $z$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+\begin_inset Formula $(1)+(3)$
+\end_inset
+
+,得
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $5x+5y=15,$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+就是
+\begin_inset Formula 
+\begin{equation}
+x+y=3.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(2)+(3)$
+\end_inset
+
+,得
+\begin_inset Formula 
+\begin{equation}
+3x+4y=11.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+解(4)和(5)组成的二元一次方程组,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=1,\\
+y=2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+以
+\begin_inset Formula $x=1$
+\end_inset
+
+,
+\begin_inset Formula $y=2$
+\end_inset
+
+代入(2),得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $1+2+z=10,\quad\therefore\quad z=7$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以原方程组的解是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{cases}
+x & =1,\\
+y & =2,\\
+z & =7.
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+检验从略.
+\end_layout
+
+\begin_layout 说明*
+1.
+\begin_inset space \space{}
+\end_inset
+
+要消去一个未知数,可以利用已知三个方程中的任意两个,只要选择运算比较简便的.本题中,如果消去
+\begin_inset Formula $x$
+\end_inset
+
+或者
+\begin_inset Formula $y$
+\end_inset
+
+显然就比较麻烦.
+\begin_inset Newline newline
+\end_inset
+
+2.
+\begin_inset space \space{}
+\end_inset
+
+在解方程过程中,如果方程的各项系数有公约数时,可以约简,免得运算复杂.如本题中
+\begin_inset Formula $5x+5y=15$
+\end_inset
+
+,就应该约简成
+\begin_inset Formula $x+y=3$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+3.
+\begin_inset space \space{}
+\end_inset
+
+求得两个未知数的值后,可以耙这两个未知数的值代入已知三个方程中的任意一个,只要选择系数比较筒单,使计算简便.如本题中,以
+\begin_inset Formula $x=1$
+\end_inset
+
+,
+\begin_inset Formula $y=2$
+\end_inset
+
+代入(1),那末
+\begin_inset Formula $3+4+z=14$
+\end_inset
+
+,同样可以得出
+\begin_inset Formula $z=7$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+解方程组
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+2x+6y+3z=6,\\
+3x+15y+7z=6,\\
+4x-9y+4z=9.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+先消去
+\begin_inset Formula $x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(1)\times2-(3)$
+\end_inset
+
+,
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+4x+12y+6z=12\nonumber \\
+\underline{4x-\phantom{1}9y+4z=\phantom{1}9} & (-\nonumber \\
+21y+2z=\phantom{1}3
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(2)\times2-(1)\times3$
+\end_inset
+
+,
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+6x+30y+14z=12\nonumber \\
+\underline{6x+18y+\phantom{1}9z=18} & (-\nonumber \\
+21y+5z=-6
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+解(4)和(5)组成的二元一次方程组,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+y=\cfrac{1}{3},\\
+z=-2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+以
+\begin_inset Formula $y=\cfrac{1}{3}$
+\end_inset
+
+,
+\begin_inset Formula $z=-2$
+\end_inset
+
+代入(1),得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $2x+2-6=5,\quad\therefore\quad x=5.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以原方程组的解是
+\begin_inset Formula $\begin{cases}
+x & =5,\\
+y & =\cfrac{1}{3},\\
+z & =-2.
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+检验从略.
+\end_layout
+
+\begin_layout Example
+解方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+x+y=20,\\
+y+z=19,\\
+x+z=21.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这个题目,用代入法或者加减法都可以解.现在另一种解法.
+\end_layout
+
+\begin_layout 解*
+因为原方程组里
+\begin_inset Formula $x$
+\end_inset
+
+,
+\begin_inset Formula $y$
+\end_inset
+
+,
+\begin_inset Formula $z$
+\end_inset
+
+的系数都相同,所以
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $(1)+(2)+(3)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $2(x+y+z)=60$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+\therefore\quad x+y+z=30.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(4)-(1)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $z=10$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(4)-(2)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x=11$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(4)-(3)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $y=9$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以原方程组的解是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{cases}
+x & =11,\\
+y & =9,\\
+z & =10.
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+检验从略.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+解下列各方程组:
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x+2y+3z=11,\\
+x-y+4z=10,\\
+x+3y+2z=2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+7x+6y+7z=100,\\
+x-2y+z=0,\\
+3x+y-2z=0.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\left\{ \begin{array}{l}
+\cfrac{x}{2}+\cfrac{y}{3}-z=4,\\
+\cfrac{x}{3}-\cfrac{y}{2}+\cfrac{z}{2}=3,\\
+\cfrac{x}{2}-\cfrac{y}{3}-\cfrac{z}{4}=3.
+\end{array}\right.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+2x-7y=-10,\\
+9y+4z=18,\\
+11x+8z=-19.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x+y=27,\\
+y+z=33,\\
+x+z=30.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{x}{7}=\cfrac{y}{10}=\cfrac{z}{5},\\
+2x+3y=44.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\left\{ \begin{array}{l}
+x+y+z+u=11,\\
+x+2y+3z+4u=34,\\
+2x+3y+4z+u=25,\\
+3x+4+2z+u=22.
+\end{array}\right.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\left\{ \begin{array}{l}
+x+y+z=7,\\
+y+z+u=15,\\
+z+u+x=11,\\
+u+x+y=9.
+\end{array}\right.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+[提示:第6题,可以把第一个方程写成两个二元一次方程.第7题,先消去其中一个未知数,得出一个三元一次方程组.]
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+可化为一次方程组的分式方程组的解法
+\end_layout
+
+\end_inset
+
+可化为一次方程组的
+\begin_inset Newline newline
+\end_inset
+
+分式方程组的解法
+\end_layout
+
+\begin_layout Standard
+含有分式方程的方程组叫做
+\series bold
+分式方程组
+\series default
+,例如,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+2x-y=3,\\
+\cfrac{x}{y}=\cfrac{3}{4};
+\end{array}\quad\Bigg\{\begin{array}{l}
+\cfrac{2}{x}+\cfrac{3}{y}=-1,\\
+\cfrac{1}{x}-\cfrac{1}{y}=-6
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+等等都是分式方程组.第一个方程组里只有一个方程是分式方程,第二个方程组里,两个方程都是分式方程.
+\end_layout
+
+\begin_layout Standard
+下面我们研究可以化为一次方程组来解的分式方程组的解法.
+\end_layout
+
+\begin_layout Example
+解方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+ & \cfrac{5}{x+2}-\cfrac{1}{y+3}=0,\\
+ & \cfrac{y+5}{x-2}=3.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+先把原方程组变形成整式方程组.
+\begin_inset Newline newline
+\end_inset
+
+方程(1)的两边都乘以
+\begin_inset Formula $(x+2)(y+3)$
+\end_inset
+
+,并加以整理,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $5(y+3)-(x+2)=0$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\noindent
+就是
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+-x+5y=-13.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+方程(2)的两边都乘以
+\begin_inset Formula $(x-2)$
+\end_inset
+
+,得
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+y+5=3(x-2),
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+就是
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+3x-y=11.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+解(3)和(4)组成的方程组,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=3,\\
+y=-2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+把
+\begin_inset Formula $x=3$
+\end_inset
+
+,
+\begin_inset Formula $y=-2$
+\end_inset
+
+代入原方程组M的方程(1)和(2),都能适合.所以原方程组的解是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=3,\\
+y=-2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout 说明*
+由于把分式方程变形成整式方程,所以从解整式方程组中所得到的解,必须代入原分式方程组中进行检验;如果适合,就是原方程组的解,如果不适合,就是增解,应该把它去掉,这
+点和第一章中解一元分式方程时必须进行检验是同样的道理.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+解下列各方程组:
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{x}{y}=\cfrac{2}{3},\\
+\cfrac{x-1}{y+3}=\cfrac{1}{3}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{4}{x+1}=\cfrac{1}{y+4},\\
+\cfrac{y+2}{x-2}+1=0.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{y+2}{x+1}=\cfrac{1}{5},\\
+\cfrac{2x-5}{4}-\cfrac{3y+4}{3}=\cfrac{5}{12}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{4}{x}+\cfrac{5}{y}=0,\\
+\cfrac{x}{x+4}-\cfrac{y+1}{y-3}=0.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{x-1}{x+15}=\cfrac{y-6}{y+2},\\
+\cfrac{x-3}{3}=\cfrac{y-4}{y-1}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+有些特殊形式的分式方程组,我们可以利用改变未知数的方法,把它变成一次方程组再解,下面举例来说明.
+\end_layout
+
+\begin_layout Example
+解方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+\cfrac{2}{x}+\cfrac{3}{y}=-1,\\
+\cfrac{1}{x}-\cfrac{4}{y}=-6.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout 审题*
+观察这个方程组,可以看出,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{2}{x}=2\cdot\cfrac{1}{x},\quad\cfrac{3}{y}=3\cdot\cfrac{1}{y},\quad\cfrac{4}{y}=4\cdot\cfrac{1}{y}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+如果把
+\begin_inset Formula $\cfrac{1}{x}$
+\end_inset
+
+和
+\begin_inset Formula $\cfrac{1}{y}$
+\end_inset
+
+看做新的未知数,那末它就可以变形成二元一次方程组的形式,先求出
+\begin_inset Formula $\cfrac{1}{x}$
+\end_inset
+
+和
+\begin_inset Formula $\cfrac{1}{y}$
+\end_inset
+
+的值,然后再求
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+的值.
+\end_layout
+
+\begin_layout 解*
+设
+\begin_inset Formula $\cfrac{1}{x}=u,\quad\cfrac{1}{y}=v$
+\end_inset
+
+;那末原方程组就变成:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+ & 2u+3v=-1,\\
+ & u-4v=-6.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+解这个方程组,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+u=-2,\\
+v=1.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+就是
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{1}{x}=-2,\\
+\cfrac{1}{y}=1.
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+因此
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x=-\cfrac{1}{2},\\
+y=1.
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+把
+\begin_inset Formula $x=-\cfrac{1}{2}$
+\end_inset
+
+,
+\begin_inset Formula $y=1$
+\end_inset
+
+代入原方程组都能适合.所以原方程组的解是
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x=-\cfrac{1}{2},\\
+y=1.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout 说明*
+1.
+\begin_inset space \space{}
+\end_inset
+
+象本题这样用新的未知数代替原有的未知数的方法,叫做
+\series bold
+辅助未知数法
+\series default
+(也叫做
+\series bold
+换元法
+\series default
+).以后解方程或者解方程组时常会用到.
+\begin_inset Newline newline
+\end_inset
+
+2.
+\begin_inset space \space{}
+\end_inset
+
+本题如果按例1的方法一样,先化成整式方程,将要出现含有
+\begin_inset Formula $xy$
+\end_inset
+
+的项,这就超出了二元一次方程组的范围,不仅目前不能解,并且解法也比较麻烦.这样可以看出引入辅助未知数法的优点了.
+\end_layout
+
+\begin_layout Example
+解方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+\cfrac{2}{x-3}+\cfrac{5}{2y+3}=-4,\\
+\cfrac{6}{x-3}-\cfrac{2}{2y+3}=5.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout 审题*
+利用辅助未知数法,把
+\begin_inset Formula $\cfrac{1}{x-3}$
+\end_inset
+
+和
+\begin_inset Formula $\cfrac{1}{2y+3}$
+\end_inset
+
+看做新的未知数,先求出
+\begin_inset Formula $\cfrac{1}{x-3}$
+\end_inset
+
+和
+\begin_inset Formula $\cfrac{1}{2y+3}$
+\end_inset
+
+的值,然后再求
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+的值.
+\end_layout
+
+\begin_layout 解*
+设
+\begin_inset Formula $\cfrac{1}{x-3}=u$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{1}{2y+3}=v$
+\end_inset
+
+;那末原方程组就变成:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+ & 2u+5v=-4,\\
+ & 6u-2v=5.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+解这个方程组,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+u=\cfrac{1}{2},\\
+v=-1.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+就是
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{1}{x-3}=\cfrac{1}{2},\\
+\cfrac{1}{2y+3}=-1.
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+由
+\begin_inset Formula $\cfrac{1}{x-3}=\cfrac{1}{2},\quad x-3=2,\quad\therefore\quad x=5;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+由
+\begin_inset Formula $\cfrac{1}{2y+3}=-1,\quad2y+3=-1,\quad\therefore\quad y=-2.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+以
+\begin_inset Formula $x=5$
+\end_inset
+
+,
+\begin_inset Formula $y=-2$
+\end_inset
+
+代入原方程组都能适合.所以原方程组的解是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=5,\\
+v=-2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+解方程组
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+\cfrac{1}{x}-\cfrac{2}{y}+\cfrac{1}{z}=1,\\
+\cfrac{2}{x}+\cfrac{3}{y}-\cfrac{1}{z}=-3\cfrac{1}{2},\\
+\cfrac{3}{x}-\cfrac{1}{y}-\cfrac{2}{x}=-9\cfrac{1}{2}.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout 审题*
+把
+\begin_inset Formula $\cfrac{1}{x}$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{1}{y}$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{1}{z}$
+\end_inset
+
+看做新的未知数,用辅助未知数法解这个方程组.
+\end_layout
+
+\begin_layout 解*
+设
+\begin_inset Formula $\cfrac{1}{x}=u$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{1}{y}=v$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{1}{z}=w$
+\end_inset
+
+,那末原方程组就变成:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+u-2v+w=1,\\
+2u+3v-w=-3\cfrac{1}{2},\\
+3u-v-2w=-9\cfrac{1}{2}.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+先消去
+\begin_inset Formula $w$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(4)+(5)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+3u+2v=-2\cfrac{1}{2}.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(4)\times2+(6)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+5u-5v=-7\cfrac{1}{2}.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+解(7)和(8)组成的二元一次方程组,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+u=-1,\\
+v=\cfrac{1}{2}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+以
+\begin_inset Formula $u=-1$
+\end_inset
+
+,
+\begin_inset Formula $v=\cfrac{1}{2}$
+\end_inset
+
+,代入(4),得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $-1-1+w=1$
+\end_inset
+
+,
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad w=3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+就是
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\left\{ \begin{array}{l}
+\cfrac{1}{x}=-1,\\
+\cfrac{1}{y}=\cfrac{1}{2},\\
+\cfrac{1}{z}=3.
+\end{array}\right.\quad\mbox{\therefore}\Biggl\{\begin{array}{l}
+x=-1,\\
+y=2,\\
+z=\cfrac{1}{3}.
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+以
+\begin_inset Formula $x=-1$
+\end_inset
+
+,
+\begin_inset Formula $y=2$
+\end_inset
+
+,
+\begin_inset Formula $z=\cfrac{1}{3}$
+\end_inset
+
+代入原方程组,都能适合.所以原方程组的解是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Biggl\{\begin{array}{l}
+x=-1,\\
+y=2,\\
+z=\cfrac{1}{3}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+解下列各方程组(1~8):
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{1}{x}+\cfrac{1}{y}=\cfrac{5}{6},\\
+\cfrac{1}{x}-\cfrac{1}{y}=\cfrac{1}{6}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{1}{x}-\cfrac{8}{y}=8,\\
+\cfrac{5}{x}+\cfrac{4}{y}=51.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{2}{x+4}+\cfrac{y}{2}=5,\\
+\cfrac{3}{x+4}-\cfrac{y}{3}=1.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{1}{x+y}+\cfrac{1}{y}=2,\\
+\cfrac{1}{x+y}-\cfrac{1}{y}=0.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{10}{x+y}+\cfrac{3}{x-y}+5=0,\\
+\cfrac{15}{x+y}-\cfrac{2}{x-y}+1=0.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{5}{2x-1}+\cfrac{2}{3y+4}=3,\\
+\cfrac{3}{1-2x}-\cfrac{1}{3y+4}=-\cfrac{5}{6}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:第6题中,
+\begin_inset Formula $1-2x$
+\end_inset
+
+应该先化成
+\begin_inset Formula $-(2x-1)$
+\end_inset
+
+,然后用辅助未知数法解.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumCols
+\begin_inset Formula $\left\{ \begin{array}{l}
+\cfrac{1}{x}+\cfrac{2}{y}+\cfrac{3}{z}=\cfrac{5}{12},\\
+\cfrac{2}{x}-\cfrac{1}{y}-\cfrac{4}{z}=\cfrac{5}{6},\\
+\cfrac{3}{x}+\cfrac{5}{y}-\cfrac{2}{z}=2\cfrac{3}{4}.
+\end{array}\right.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\left\{ \begin{array}{l}
+\cfrac{2}{x}-\cfrac{1}{y}=5,\\
+\cfrac{3}{y}=-\cfrac{1}{z},\\
+\cfrac{2}{z}=\cfrac{5}{x}-4.
+\end{array}\right.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+解下列关于
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+的方程组(9~12):
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2,leftmargin=2em,start=9
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{a}{x}+\cfrac{b}{y}=\cfrac{1}{3},\\
+\cfrac{b}{x}+\cfrac{a}{y}=\cfrac{1}{3}
+\end{array}(a^{2}\neq b^{2}).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{a}{2x}+\cfrac{b}{y}=\cfrac{1}{2},\\
+\cfrac{a}{x}-\cfrac{b}{3y}=-1.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{a}{2(x+y)}+\cfrac{b}{3(x-y)}=5,\\
+\cfrac{a}{3(x+y)}+\cfrac{b}{2(x-y)}=5.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{3a}{2x-2}+\cfrac{2b}{6y-3}=1,\\
+\cfrac{b}{1-2y}-\cfrac{a}{1-x}=0.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+[提示:
+\begin_inset Formula $2x-2$
+\end_inset
+
+和
+\begin_inset Formula $6y-3$
+\end_inset
+
+可以分别化成
+\begin_inset Formula $2(x-1)$
+\end_inset
+
+和
+\begin_inset Formula $3(2y-1)$
+\end_inset
+
+,然后用换元法来解.]
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+列出方程组解应用题
+\end_layout
+
+\begin_layout Standard
+前面我们学过列出一元一次方程来解应用题,但是遇到问题中所要求的量多于一个的时候,利用这种解法列出方程有时是比较困难的.在学过了一次方程组以后,我们就可以适当多设几
+个未知数,列出方程组来求这些未知数,使解题比较容易.下面举例来说明.
+\end_layout
+
+\begin_layout Example
+某生产队用
+\begin_inset Formula $1$
+\end_inset
+
+台拖拉机和4架畜力双铧犁耕地,一天共耕了
+\begin_inset Formula $128$
+\end_inset
+
+亩.另外有一块
+\begin_inset Formula $244$
+\end_inset
+
+亩的地,用
+\begin_inset Formula $2$
+\end_inset
+
+台拖拉机和
+\begin_inset Formula $7$
+\end_inset
+
+架畜力双铧犁也是刚好
+\begin_inset Formula $1$
+\end_inset
+
+天耕完.每台拖拉机和每架畜力双铧犁每天各耕地多少亩？
+\end_layout
+
+\begin_layout 审题*
+这个题目里要求两个未知量,如果用一元方程来解,列方程时需要较多的思考,为了容易列出方程,我们可以设两个未知数,列出方程组来解.
+\end_layout
+
+\begin_layout 解*
+设每台拖拉机每天耕地
+\begin_inset Formula $x$
+\end_inset
+
+亩,每架畜力双铧犁每天耕地
+\begin_inset Formula $y$
+\end_inset
+
+亩.那末,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $1$
+\end_inset
+
+台拖拉机和
+\begin_inset Formula $4$
+\end_inset
+
+架畜力双铧犁,一天耕地
+\begin_inset Formula $(x+4y)$
+\end_inset
+
+亩;
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $2$
+\end_inset
+
+台拖拉机和
+\begin_inset Formula $7$
+\end_inset
+
+架畜力双铧犁,一天耕地(
+\begin_inset Formula $2x+7y$
+\end_inset
+
+)亩.
+\begin_inset Newline newline
+\end_inset
+
+根据题意,列出方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+x+4y & =128,\\
+2x+7y & =244.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(1)\times2-(2)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $y=12$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+以代入(1),得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x=80$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\Big\{\begin{array}{l}
+x=80,\\
+y=12.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+检验从略.
+\end_layout
+
+\begin_layout RightLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+答:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+每台拖拉机每天耕地
+\begin_inset Formula $80$
+\end_inset
+
+亩,每架畜
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+力双铧犁每天耕地
+\begin_inset Formula $12$
+\end_inset
+
+亩.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+两种琉酸,一种浓度是
+\begin_inset Formula $60$
+\end_inset
+
+%,另一种浓度是
+\begin_inset Formula $90$
+\end_inset
+
+%.现在要配制浓度是
+\begin_inset Formula $70$
+\end_inset
+
+%的硫酸
+\begin_inset Formula $300$
+\end_inset
+
+克,每种硫酸各取多少克？
+\end_layout
+
+\begin_layout 解*
+设取浓度是
+\begin_inset Formula $60$
+\end_inset
+
+%的硫酸
+\begin_inset Formula $x$
+\end_inset
+
+克,浓度是
+\begin_inset Formula $90$
+\end_inset
+
+%的硫酸
+\begin_inset Formula $y$
+\end_inset
+
+克.那末,
+\begin_inset Newline newline
+\end_inset
+
+浓度是
+\begin_inset Formula $60$
+\end_inset
+
+%的硫酸中取得纯硫酸
+\begin_inset Formula $\cfrac{60}{100}\times x$
+\end_inset
+
+克;
+\begin_inset Newline newline
+\end_inset
+
+浓度是
+\begin_inset Formula $90$
+\end_inset
+
+%的硫酸中取得纯硫酸
+\begin_inset Formula $\cfrac{90}{100}\times y$
+\end_inset
+
+克;
+\begin_inset Newline newline
+\end_inset
+
+浓度是
+\begin_inset Formula $70$
+\end_inset
+
+%的硫酸中应有纯硫酸
+\begin_inset Formula $\cfrac{70}{100}\times300$
+\end_inset
+
+克.
+\begin_inset Newline newline
+\end_inset
+
+因为纯硫酸的重量相等,所以可列出方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+ & x+y=300,\\
+ & \cfrac{60}{100}\times x+\cfrac{90}{100}\times y=\cfrac{70}{100}\times300.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(2)\times100\div30$
+\end_inset
+
+,
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+2x+3y=700.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $(3)-(1)\times2$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $y=100$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+以
+\begin_inset Formula $y=100$
+\end_inset
+
+代入(1),得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x=200$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+检验从略.
+\end_layout
+
+\begin_layout RightLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+答:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+浓度是
+\begin_inset Formula $60$
+\end_inset
+
+%的硫酸要取
+\begin_inset Formula $200$
+\end_inset
+
+克,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+浓度是
+\begin_inset Formula $90$
+\end_inset
+
+%的硫酸要取
+\begin_inset Formula $100$
+\end_inset
+
+克.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+一个工人用普通切削法完成一半任务以后,改用快速切削法做其余的一半,因此在
+\begin_inset Formula $2$
+\end_inset
+
+小时内完成全部任务.如果用普通切削法完成全部任务的
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+后,其余的改用快速切削法,
+\begin_inset Formula $1$
+\end_inset
+
+小时
+\begin_inset Formula $50$
+\end_inset
+
+分钟就可以完成全部任务:单独用普通切削法或者快速切削法完成全部任务,各需要多少小时？
+\end_layout
+
+\begin_layout 解*
+设用普通切削法完成全部任务,需要
+\begin_inset Formula $x$
+\end_inset
+
+小时,用快速切削法完成全部任务,需要
+\begin_inset Formula $y$
+\end_inset
+
+小时.
+\begin_inset Newline newline
+\end_inset
+
+那末,用普通切削法完成一半任务所需的时间是
+\begin_inset Formula $\cfrac{1}{2}x$
+\end_inset
+
+小时,用快速切削法完成其余的一半任务所需的时间是
+\begin_inset Formula $\cfrac{1}{2}y$
+\end_inset
+
+小时.用普通切削法完成全部任务的
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+后,其余的任务就是
+\begin_inset Formula $1-\cfrac{1}{3}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+根据题意,列出方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+ & \cfrac{1}{2}x+\cfrac{1}{2}y=2,\\
+ & \cfrac{1}{3}x+\Big(1-\cfrac{1}{3}\Big)y=1\cfrac{50}{60}.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+整理后,原方程组可以变成:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+ & x+y=4,\\
+ & x+2y=\cfrac{11}{2}.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+解这个方程组,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x=2\cfrac{1}{2},\\
+y=1\cfrac{1}{2}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+检验从略.
+\end_layout
+
+\begin_layout RightLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+答:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+用普通切削法完成全部任务需要
+\begin_inset Formula $2\cfrac{1}{2}$
+\end_inset
+
+小时,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+用快速切削法完成全部任务需要
+\begin_inset Formula $1\cfrac{1}{2}$
+\end_inset
+
+小时,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+列出二元方程组解下列各应用题:
+\end_layout
+
+\begin_layout EnumIndent
+两个数的比等于
+\begin_inset Formula $5:6$
+\end_inset
+
+,它们的和等于
+\begin_inset Formula $18.7$
+\end_inset
+
+,求这两个数.
+\end_layout
+
+\begin_layout EnumIndent
+用
+\begin_inset Formula $5$
+\end_inset
+
+辆胶轮大车和
+\begin_inset Formula $4$
+\end_inset
+
+辆卡车一次能运货
+\begin_inset Formula $24$
+\end_inset
+
+吨;
+\begin_inset Formula $10$
+\end_inset
+
+辆胶轮大车和
+\begin_inset Formula $2$
+\end_inset
+
+辆卡车一次能运货
+\begin_inset Formula $21$
+\end_inset
+
+吨.一辅胶轮大车和一辆卡车一次各能运货多少吨？
+\end_layout
+
+\begin_layout EnumIndent
+一批机器零件共
+\begin_inset Formula $420$
+\end_inset
+
+个.如果甲先做
+\begin_inset Formula $2$
+\end_inset
+
+天,乙与甲合作,那末再做
+\begin_inset Formula $2$
+\end_inset
+
+天完成.如果乙先做
+\begin_inset Formula $2$
+\end_inset
+
+天,甲、乙二人合作,那末再做
+\begin_inset Formula $3$
+\end_inset
+
+天完成.求两人每天各做多少个零件.
+\end_layout
+
+\begin_layout EnumIndent
+一根质置均匀的捧全长是
+\begin_inset Formula $1.5$
+\end_inset
+
+米.在距
+\begin_inset Formula $A$
+\end_inset
+
+,
+\begin_inset Formula $B$
+\end_inset
+
+两端分别是
+\begin_inset Formula $0.7$
+\end_inset
+
+米和
+\begin_inset Formula $0.8$
+\end_inset
+
+米的一点
+\begin_inset Formula $C$
+\end_inset
+
+的地方,挂有
+\begin_inset Formula $180$
+\end_inset
+
+公斤重的物体,在
+\begin_inset Formula $A$
+\end_inset
+
+,
+\begin_inset Formula $B$
+\end_inset
+
+两点各用多少力往上提,才能使棒
+\begin_inset Formula $AB$
+\end_inset
+
+保持平衡？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:
+\begin_inset Formula $A$
+\end_inset
+
+点往上提的力与距离的乘积,应当等于
+\begin_inset Formula $B$
+\end_inset
+
+点往上提的力与
+\begin_inset Formula $BC$
+\end_inset
+
+距离的乘积.]
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-125.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+某工厂第一车间的人数是第二车间人数的
+\begin_inset Formula $\cfrac{4}{5}$
+\end_inset
+
+少
+\begin_inset Formula $30$
+\end_inset
+
+人,如果从第二车间调
+\begin_inset Formula $10$
+\end_inset
+
+个人到第一车间,那末第一车间的人数是第二车间人数的
+\begin_inset Formula $\cfrac{3}{4}$
+\end_inset
+
+,求各车间的人数.
+\end_layout
+
+\begin_layout EnumIndent
+一只船载重量是
+\begin_inset Formula $520$
+\end_inset
+
+吨,容积是
+\begin_inset Formula $2000$
+\end_inset
+
+立方米.现在有甲、乙两种货物,甲种货物每吨的体积是
+\begin_inset Formula $2$
+\end_inset
+
+立方米,乙种货物每吨的体积是
+\begin_inset Formula $8$
+\end_inset
+
+立方米.两种货物应读各装多少吨,才能最大限度利用船的载重量和容积？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:所谓最大限度利用船的载重量和容积,就是说,使甲乙两种货物重量的总和等于
+\begin_inset Formula $520$
+\end_inset
+
+吨,体积的总和等于
+\begin_inset Formula $2000$
+\end_inset
+
+立方米.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+甲、乙两工厂,按计划每月生产
+\begin_inset Formula $360$
+\end_inset
+
+架机床;上个月开展劳动竞赛运动,甲厂完成了计划的
+\begin_inset Formula $112$
+\end_inset
+
+%,乙厂完成了计划的
+\begin_inset Formula $110$
+\end_inset
+
+%,结果两厂一共生产了
+\begin_inset Formula $400$
+\end_inset
+
+架机床.上个月每个工厂各超额生产了多少架机床？
+\end_layout
+
+\begin_layout EnumIndent
+玻璃厂熔炼玻璃液,原料是由石英砂和长石粉混合而成,要求配料中含二氧化硅
+\begin_inset Formula $70$
+\end_inset
+
+%.根据化验,石英砂中含二氧化硅
+\begin_inset Formula $99$
+\end_inset
+
+%,长石粉中含二氧化硅
+\begin_inset Formula $67$
+\end_inset
+
+%.在
+\begin_inset Formula $3.2$
+\end_inset
+
+吨原料中,石英砂和长石粉各需多少吨？
+\end_layout
+
+\begin_layout EnumIndent
+两种酒精,一种含水
+\begin_inset Formula $15$
+\end_inset
+
+%,另一种含水
+\begin_inset Formula $5$
+\end_inset
+
+%.现在要配制含水
+\begin_inset Formula $12$
+\end_inset
+
+%的酒精
+\begin_inset Formula $500$
+\end_inset
+
+克,每种酒精各需要多少克？
+\end_layout
+
+\begin_layout EnumIndent
+铅蓄电池里需要装每立方厘米重
+\begin_inset Formula $1.2$
+\end_inset
+
+克的稀硫酸,已知浓硫酸每立方厘米重
+\begin_inset Formula $1.84$
+\end_inset
+
+克,水每立方厘米重
+\begin_inset Formula $1$
+\end_inset
+
+克.现在要配制
+\begin_inset Formula $2.1$
+\end_inset
+
+升蓄电池用的稀硫酸,浓硫酸和水各需要多少立方厘米？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:假定原来体积的和等于后来的体积,
+\begin_inset Formula $1$
+\end_inset
+
+升
+\begin_inset Formula $=1000$
+\end_inset
+
+立方厘米.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+有一个长方形,如果它的长增加
+\begin_inset Formula $6$
+\end_inset
+
+厘米,宽减少
+\begin_inset Formula $3$
+\end_inset
+
+厘米,它的面积不变,如果长和宽各减少
+\begin_inset Formula $4$
+\end_inset
+
+厘米,那末所得的面积比原来的面积少
+\begin_inset Formula $104$
+\end_inset
+
+平方厘米.原来长方形的面积是多少？
+\end_layout
+
+\begin_layout EnumIndent
+某人乘自行车以每小时
+\begin_inset Formula $15$
+\end_inset
+
+公里的速度从甲地到乙地去,回来时因另有别的事情绕路回来多走了
+\begin_inset Formula $3$
+\end_inset
+
+公里,他行车的速度虽然每小时增加了
+\begin_inset Formula $1$
+\end_inset
+
+公里,但是所费的时间仍旧多用了
+\begin_inset Formula $7\cfrac{1}{2}$
+\end_inset
+
+分钟.去的路程和回来的路程各多少？
+\end_layout
+
+\begin_layout EnumIndent
+代数式
+\begin_inset Formula $ax+b$
+\end_inset
+
+中,已知
+\begin_inset Formula $x=2$
+\end_inset
+
+时,它的值是
+\begin_inset Formula $1.4$
+\end_inset
+
+,
+\begin_inset Formula $x=-2$
+\end_inset
+
+时,它的值是
+\begin_inset Formula $-1.8$
+\end_inset
+
+,求
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $b$
+\end_inset
+
+的值.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+上等稻谷三束,中等稻谷二束,下等稻谷一束,共有谷
+\begin_inset Formula $39$
+\end_inset
+
+斗;上等稻谷二束,中等稻谷三束,下等稻谷一束,共有谷
+\begin_inset Formula $34$
+\end_inset
+
+斗;上等稻谷一束,中等稻谷二束,下等稻谷三束,共有谷
+\begin_inset Formula $26$
+\end_inset
+
+斗.上、中、下三等稻谷每束各有谷多少
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+这是我国古代算书“九章算术”(公元263年刘徽重辑)方程章里的一个题目.原题是:“今有上禾三秉,中禾二秉,下禾一秉,共有实
+\begin_inset Formula $39$
+\end_inset
+
+斗;上禾二秉,中禾三秉,下禾一秉,共有实
+\begin_inset Formula $34$
+\end_inset
+
+斗;上禾一秉,中禾二秉,下禾三秉,共有实
+\begin_inset Formula $26$
+\end_inset
+
+斗.问上中下禾各一秉有实多少？”古代解这问题用“直除”的方法.所谓直除,就是从一个方程累减(或累加)另一个方程的意思,它的原理和加减法解方程组相同.
+\end_layout
+
+\end_inset
+
+？
+\end_layout
+
+\begin_layout 解*
+设上等稻谷一束有谷
+\begin_inset Formula $x$
+\end_inset
+
+斗,中等稻谷一束有谷
+\begin_inset Formula $y$
+\end_inset
+
+斗,下等稻谷一束有谷
+\begin_inset Formula $z$
+\end_inset
+
+斗.
+\begin_inset Newline newline
+\end_inset
+
+根椐题意,列出方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+ & 3x+2y+z=39,\\
+ & 2x+3y+z=34,\\
+ & x+2y+3z=26.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+解这个方程组,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\left\{ \begin{array}{l}
+x=9\cfrac{1}{4},\\
+y=4\cfrac{1}{4},\\
+z=2\cfrac{3}{4}.
+\end{array}\right.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+检验从略.
+\end_layout
+
+\begin_layout RightLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+答:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+上、中、下等稻谷每束分别有谷
+\begin_inset Formula $9\cfrac{1}{4}$
+\end_inset
+
+斗,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $4\cfrac{1}{4}$
+\end_inset
+
+斗,
+\begin_inset Formula $2\cfrac{3}{4}$
+\end_inset
+
+斗.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+用锌、铜、镍三种金属混合成三种不同的合金,第一种合金所含锌、铜、镍的重量的比是
+\begin_inset Formula $2:3:1$
+\end_inset
+
+;第二种合金它们的比是
+\begin_inset Formula $2:4:3$
+\end_inset
+
+;第三种合金它们的比是
+\begin_inset Formula $1:2:1$
+\end_inset
+
+.现在要用这三种合金混合成另一种新的合金,使其中含锌
+\begin_inset Formula $10$
+\end_inset
+
+克,铜
+\begin_inset Formula $18$
+\end_inset
+
+克,镍
+\begin_inset Formula $10$
+\end_inset
+
+克,问这三种合金各用多少克？
+\end_layout
+
+\begin_layout 审题*
+第一种合金中含锌、铜、镍的比是
+\begin_inset Formula $2:3:1$
+\end_inset
+
+,实际意义就是锌占这种合金的
+\begin_inset Formula $\cfrac{2}{6}$
+\end_inset
+
+,铜占
+\begin_inset Formula $\cfrac{3}{6}$
+\end_inset
+
+,镍占
+\begin_inset Formula $\cfrac{1}{6}$
+\end_inset
+
+.现在要用这三种合金混合成另一种新的合金,就是要从三种合金中共得到锌
+\begin_inset Formula $10$
+\end_inset
+
+克,铜
+\begin_inset Formula $18$
+\end_inset
+
+克,镍
+\begin_inset Formula $10$
+\end_inset
+
+克.
+\end_layout
+
+\begin_layout 解*
+设三种合金分别用
+\begin_inset Formula $x$
+\end_inset
+
+克,
+\begin_inset Formula $y$
+\end_inset
+
+克和
+\begin_inset Formula $z$
+\end_inset
+
+克.根据题意,得
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{flalign}
+\cfrac{2}{6}x+\cfrac{2}{9}y+\cfrac{1}{4}z=10,\\
+\cfrac{3}{6}x+\cfrac{4}{9}y+\cfrac{2}{4}z=18,\\
+\cfrac{1}{6}x+\cfrac{3}{9}y+\cfrac{1}{4}z=10.
+\end{flalign}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+解这方程组,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x=12,\\
+y=18,\\
+z=8.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+检验从略.
+\end_layout
+
+\begin_layout RightLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+答:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+第一、第二、第三种合金分别用
+\begin_inset Formula $12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+克、
+\begin_inset Formula $18$
+\end_inset
+
+克扣
+\begin_inset Formula $8$
+\end_inset
+
+克.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+列出三元方程组解下列各应用题:
+\end_layout
+
+\begin_layout EnumIndent
+有一个三位数,它的十位上的数等于个位上的数与百位上的数的和,个位上的数与十位上的数的和等于
+\begin_inset Formula $8$
+\end_inset
+
+,百位上的数与个位上的数互相调换后所得的三位数比原来的三位数大
+\begin_inset Formula $99$
+\end_inset
+
+.求这个三位数.
+\end_layout
+
+\begin_layout EnumIndent
+三个数的和等于
+\begin_inset Formula $51$
+\end_inset
+
+,第一个数除以第二个数,得到商是
+\begin_inset Formula $2$
+\end_inset
+
+而余
+\begin_inset Formula $5$
+\end_inset
+
+;第二个数除以笫三个数,得到商是
+\begin_inset Formula $3$
+\end_inset
+
+而余
+\begin_inset Formula $2$
+\end_inset
+
+,这三个数各是多少？
+\end_layout
+
+\begin_layout EnumIndent
+汽车在平珞上每小时走
+\begin_inset Formula $30$
+\end_inset
+
+公里,上坡珞每小时走
+\begin_inset Formula $28$
+\end_inset
+
+公里,下坡路每小时走
+\begin_inset Formula $35$
+\end_inset
+
+公里.现在走
+\begin_inset Formula $142$
+\end_inset
+
+公里的路程,去的时候用
+\begin_inset Formula $4$
+\end_inset
+
+小时
+\begin_inset Formula $30$
+\end_inset
+
+分钟,回来的时候用
+\begin_inset Formula $4$
+\end_inset
+
+小时
+\begin_inset Formula $42$
+\end_inset
+
+分钟,这段路平路有多少公里？去的时上坡路、下坡路各有多少公里？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:去时的上坡路、下坡路分别是回来时的下坡路和上坡路.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+一个车间每天能生产甲种零件
+\begin_inset Formula $300$
+\end_inset
+
+个,或者乙种零件
+\begin_inset Formula $500$
+\end_inset
+
+个,或者丙种零件
+\begin_inset Formula $600$
+\end_inset
+
+个,甲、乙、丙三种零件各取一个配成一套.现在要在
+\begin_inset Formula $28$
+\end_inset
+
+天内使产品成套,生产甲、乙、丙三种零件应该各用几天？
+\end_layout
+
+\begin_layout EnumIndent
+某工厂一个车间加工机轴和轴承,一个人每天平均可以加工机轴
+\begin_inset Formula $15$
+\end_inset
+
+个或者轴承
+\begin_inset Formula $12$
+\end_inset
+
+个,该车间共有
+\begin_inset Formula $90$
+\end_inset
+
+人,问应当分配多少个人加工机轴,多少个人加工轴承,才能使每天生产的机轴与轴承配套(一个轴承和一个机轴配成一套)？
+\end_layout
+
+\begin_layout EnumIndent
+甲种合金含铅、锑、锡的重量的比是
+\begin_inset Formula $5:2:1$
+\end_inset
+
+;乙种合金含铅和锑的比是
+\begin_inset Formula $7:1$
+\end_inset
+
+;丙种合金含铅和锡的比是
+\begin_inset Formula $2:1$
+\end_inset
+
+.现在要得到一种铸造铅字用的合金
+\begin_inset Formula $100$
+\end_inset
+
+公斤,使其中含铅
+\begin_inset Formula $82$
+\end_inset
+
+公斤,锑
+\begin_inset Formula $15$
+\end_inset
+
+公斤,锡
+\begin_inset Formula $3$
+\end_inset
+
+公斤,甲乙丙三种合金应当各取多少公斤(精确到
+\begin_inset Formula $0.1$
+\end_inset
+
+公斤),才能使溶化后得到所需要的合金？
+\end_layout
+
+\begin_layout EnumIndent
+有三种化学肥料;甲种每公斤含氮
+\begin_inset Formula $53$
+\end_inset
+
+克、磷
+\begin_inset Formula $8$
+\end_inset
+
+克、钾
+\begin_inset Formula $2$
+\end_inset
+
+克;乙种每公斤含氮
+\begin_inset Formula $64$
+\end_inset
+
+克、磷
+\begin_inset Formula $10$
+\end_inset
+
+克、钾
+\begin_inset Formula $0.6$
+\end_inset
+
+克;丙种每公斤含氮
+\begin_inset Formula $70$
+\end_inset
+
+克、磷
+\begin_inset Formula $5$
+\end_inset
+
+克、钾
+\begin_inset Formula $1.4$
+\end_inset
+
+克,某生产队要把上面三种化肥混成一种化肥,总重
+\begin_inset Formula $23$
+\end_inset
+
+公斤,其中共含磷
+\begin_inset Formula $149$
+\end_inset
+
+克、钾
+\begin_inset Formula $30$
+\end_inset
+
+克,三种化肥各需多少公斤？其中共含氮多少克？
+\end_layout
+
+\begin_layout EnumIndent
+代数式
+\begin_inset Formula $ax^{2}+bx+c$
+\end_inset
+
+,在
+\begin_inset Formula $x=1$
+\end_inset
+
+时的值是
+\begin_inset Formula $0$
+\end_inset
+
+,在
+\begin_inset Formula $x=2$
+\end_inset
+
+时的值是
+\begin_inset Formula $3$
+\end_inset
+
+,在
+\begin_inset Formula $x=-3$
+\end_inset
+
+时的值是
+\begin_inset Formula $28$
+\end_inset
+
+.求这个代数式.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:分别以
+\begin_inset Formula $x=1$
+\end_inset
+
+,
+\begin_inset Formula $x=2$
+\end_inset
+
+,
+\begin_inset Formula $x=-3$
+\end_inset
+
+代入,列出关于
+\begin_inset Formula $a$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+,
+\begin_inset Formula $c$
+\end_inset
+
+的三元一次方程组,求
+\begin_inset Formula $a$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+,
+\begin_inset Formula $c$
+\end_inset
+
+的值.]
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+甲、乙两个工人共同工作,原计划
+\begin_inset Formula $6$
+\end_inset
+
+天完成全部任务.他们共同工作
+\begin_inset Formula $4$
+\end_inset
+
+天后,乙因为另有紧急任务需要调走,余下的任务由甲单独工作,
+\begin_inset Formula $5$
+\end_inset
+
+天才全部完成.如果甲、乙两工人单独完成这一任务各要多少天？
+\end_layout
+
+\begin_layout 解*
+设甲单独完成这一任务需要
+\begin_inset Formula $x$
+\end_inset
+
+天,乙单独完成这一任务需要
+\begin_inset Formula $9$
+\end_inset
+
+天.那末,甲单独工作一天能完成全部任务的
+\begin_inset Formula $\cfrac{1}{x}$
+\end_inset
+
+,乙能完成全部任务的
+\begin_inset Formula $\cfrac{1}{y}$
+\end_inset
+
+;甲、乙两人共同工作一天,能完成全部任务的
+\begin_inset Formula $\cfrac{1}{x}+\cfrac{1}{y}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+根据题意,列出方程组
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+6\Big(\cfrac{1}{x}+\cfrac{1}{y}\Big) & =4,\\
+4\Big(\cfrac{1}{x}+\cfrac{1}{y}\Big) & +\cfrac{5}{x}=1.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+整理后,原方程组可以变成
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+\cfrac{6}{x}+\cfrac{6}{y} & =1,\\
+\cfrac{9}{x}+\cfrac{4}{y} & =1.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+设
+\begin_inset Formula $\cfrac{1}{x}=u$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{1}{y}=v$
+\end_inset
+
+,那末方程(3),(4)就变成
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+6u+6v & =1,\\
+9u+4v & =1.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+解(5),(6)组成的方程组,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+u=\cfrac{1}{15},\\
+v=\cfrac{1}{10}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+就是
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{1}{x}=\cfrac{1}{15},\\
+\cfrac{1}{y}=\cfrac{1}{10}.
+\end{array}\qquad\therefore\quad\Big\{\begin{array}{l}
+x=15,\\
+y=10.
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+把
+\begin_inset Formula $x=15$
+\end_inset
+
+,
+\begin_inset Formula $y=10$
+\end_inset
+
+代入方程(1)和(2)都能适合.所以原方程组的解是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=15,\\
+y=10.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+答:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+甲单独完成这一任务需要15天,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+乙单独完成这一任务需要10天.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+\noindent
+轮船顺流航行
+\begin_inset Formula $80$
+\end_inset
+
+公里,逆流航行
+\begin_inset Formula $42$
+\end_inset
+
+公里,共用
+\begin_inset Formula $7$
+\end_inset
+
+小时.另一次在同样时间里,顺流航行了
+\begin_inset Formula $40$
+\end_inset
+
+公里,逆流航行了
+\begin_inset Formula $70$
+\end_inset
+
+公里.求轮船在静水中的速度和水流的速度.
+\end_layout
+
+\begin_layout 解*
+\noindent
+设轮船在静水中的速度是每小时
+\begin_inset Formula $x$
+\end_inset
+
+公里,水流的速度是每小时
+\begin_inset Formula $y$
+\end_inset
+
+公里.那末,顺流航行的速度就是每小时
+\begin_inset Formula $(x+y)$
+\end_inset
+
+公里,逆流航行的速度就是每小时
+\begin_inset Formula $(x-y)$
+\end_inset
+
+公里.
+\end_layout
+
+\begin_layout Standard
+\noindent
+根据题意,列出方程组:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+\cfrac{80}{x+y}+\cfrac{42}{x-y} & =4,\\
+\cfrac{40}{x+y}+\cfrac{70}{x-y} & =7.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+设
+\begin_inset Formula $\cfrac{1}{x+y}=u$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{1}{x-y}=v$
+\end_inset
+
+,那末原方程组就变成
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+80u+42v=7,\\
+40u+70v=7.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+解这个方程组,得
+\end_layout
+
+\begin_layout CenterLine
+\noindent
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+u=\cfrac{1}{20},\\
+v=\cfrac{1}{14}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+就是
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{1}{x+y}=\cfrac{1}{20},\\
+\cfrac{1}{x-y}=\cfrac{1}{14}.
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\Big\{\begin{array}{l}
+x+y=20,\\
+x-y=14.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+解这个方程组,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+x=17,\\
+y=3.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+杷
+\begin_inset Formula $x=17$
+\end_inset
+
+,
+\begin_inset Formula $y=3$
+\end_inset
+
+代入方程(1)和(2)都能适合,所以这就是原方程组的解.
+\end_layout
+
+\begin_layout RightLine
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+答:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+轮船在静水中的速度是每小时
+\begin_inset Formula $17$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+公里,水流的速度是每小时
+\begin_inset Formula $3$
+\end_inset
+
+公里.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+列出方程组解下列应用题:
+\end_layout
+
+\begin_layout EnumIndent
+两只水管同时开放,经过
+\begin_inset Formula $1$
+\end_inset
+
+小时
+\begin_inset Formula $20$
+\end_inset
+
+分钟注满水池.如果第一只水管开放
+\begin_inset Formula $10$
+\end_inset
+
+分钟,第二只水管开放
+\begin_inset Formula $12$
+\end_inset
+
+分钟,那末只能注满水池的
+\begin_inset Formula $\cfrac{2}{15}$
+\end_inset
+
+.每只水管单独注满水池各需多少小时？
+\end_layout
+
+\begin_layout EnumIndent
+一只汽艇顺流航行了
+\begin_inset Formula $24$
+\end_inset
+
+公里,到达目的地后,逆流回来,共用
+\begin_inset Formula $2$
+\end_inset
+
+小时
+\begin_inset Formula $20$
+\end_inset
+
+分钟.另一次在
+\begin_inset Formula $1$
+\end_inset
+
+小时
+\begin_inset Formula $20$
+\end_inset
+
+分钟内,顺流航行了
+\begin_inset Formula $8$
+\end_inset
+
+公里,逆流航行了
+\begin_inset Formula $18$
+\end_inset
+
+公里.求汽艇在静水里的速度和水流的速度.
+\end_layout
+
+\begin_layout EnumIndent
+甲、乙两工人合作,在
+\begin_inset Formula $12$
+\end_inset
+
+天内可以完成一件工作.如果甲工作
+\begin_inset Formula $2$
+\end_inset
+
+天,乙工作
+\begin_inset Formula $3$
+\end_inset
+
+天,那末他们只能完成全部工作的
+\begin_inset Formula $20$
+\end_inset
+
+%.两人单独完成这件工作各要多少天？
+\end_layout
+
+\begin_layout EnumIndent
+一个水池有甲、乙、丙三个进水管.甲、乙两管同时开放,
+\begin_inset Formula $1$
+\end_inset
+
+小时
+\begin_inset Formula $12$
+\end_inset
+
+分钟可以注满水池,乙、丙两管同时开放,
+\begin_inset Formula $2$
+\end_inset
+
+小时可以注满水池;甲、丙两管同时开放,
+\begin_inset Formula $1$
+\end_inset
+
+小时
+\begin_inset Formula $30$
+\end_inset
+
+分钟可以注满水池.甲、乙、丙三个水管单独开放,各要多少小时才能注满水池？
+\end_layout
+
+\begin_layout EnumIndent
+甲、乙、丙三人合做一件工程,
+\begin_inset Formula $15$
+\end_inset
+
+天可以完成.如果甲、乙合做
+\begin_inset Formula $10$
+\end_inset
+
+天,其余的由丙单独做,那末还要
+\begin_inset Formula $30$
+\end_inset
+
+天才能完成;如果甲、丙合做
+\begin_inset Formula $20$
+\end_inset
+
+天,其余的由乙单独做,那末还要
+\begin_inset Formula $8$
+\end_inset
+
+天才能完成.问当甲、乙、丙每人单独做,要多少天才能完成这项工程？
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{addstarbefore}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+待定系数法
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{addstarbefore}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这一节里,我们将学习一次方程组在解某些数学问题中的应用.先来看下面的问题:
+\end_layout
+
+\begin_layout Standard
+不做直式除法,怎祥求多项式
+\begin_inset Formula $2x^{3}-x^{2}+5x+6$
+\end_inset
+
+除以多项式
+\begin_inset Formula $x+2$
+\end_inset
+
+的商式和余式？
+\end_layout
+
+\begin_layout Standard
+在代数第一册里学习带余式的除法时,我们已经知道,被除式、除式、商式和余式之间,有着如下的关系:
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+\text{被除式}=\text{除式}\times\text{商式}+\text{余式}.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这里商式的次数,应该是被除式的次数与除式的次数的差,而余式的次数至少要比除式的次数少
+\begin_inset Formula $1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+根据这一事实,可以确定:
+\end_layout
+
+\begin_layout Standard
+1.
+\begin_inset space \space{}
+\end_inset
+
+因为被除式
+\begin_inset Formula $2x^{3}-x^{2}+5x+6$
+\end_inset
+
+是
+\begin_inset Formula $x$
+\end_inset
+
+的三次式,除式
+\begin_inset Formula $x+2$
+\end_inset
+
+是
+\begin_inset Formula $x$
+\end_inset
+
+的一次式,所以所求的商式应该是x的二次式;
+\end_layout
+
+\begin_layout Standard
+2.
+\begin_inset space \space{}
+\end_inset
+
+因为除式
+\begin_inset Formula $x+2$
+\end_inset
+
+是一次式,所以所求的余式,只能是一个常数.
+\end_layout
+
+\begin_layout Standard
+这样,为了要求出这个商式和余式,我们不妨引进一些未知数.设商式中二次项、一次项和常数项的系数分别是
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+和
+\begin_inset Formula $C$
+\end_inset
+
+,即商式是
+\begin_inset Formula $Ax^{2}+Bx+C$
+\end_inset
+
+,佘式
+\begin_inset Formula $D$
+\end_inset
+
+,是代入(1)就可得到一个恒等式
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $2x^{3}-x^{2}+5x+6=(x+2)\big(Ax^{2}+Bx+C\big)+D$
+\end_inset
+
+,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+也就是
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{alignat}{1}
+2x^{3} & -x^{2}+5x+6\nonumber \\
+ & =Ax^{3}+(2A+B)x^{2}+(2B+C)x+(2C+D)
+\end{alignat}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+因为(2)是一个恒等式,等号两边的这两个三次式都已写成标准形式,对应项的系数要分别相等
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+这是两个多项式恒等的定理,严格的证明,今后在代数第四册里将会学到.
+\end_layout
+
+\end_inset
+
+,由此我们就可列出一个关于未知数
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+、
+\begin_inset Formula $C$
+\end_inset
+
+、
+\begin_inset Formula $D$
+\end_inset
+
+的方程组
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{cases}
+A=2,\\
+2A+B=-1,\\
+2B+C=5,\\
+2C+D=6.
+\end{cases}$
+\end_inset
+
+解之,得
+\begin_inset Formula $\begin{cases}
+A=2,\\
+B=-5,\\
+C=15,\\
+D=-24.
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+代入假设的商式和余式,于是就可求得
+\end_layout
+
+\begin_layout CenterLine
+\noindent
+商式是
+\begin_inset Formula $2x^{2}-5x+15$
+\end_inset
+
+,余式是
+\begin_inset Formula $-24$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+象上面这样的解题方法,叫做
+\series bold
+待定系数法
+\series default
+,我们解题时开始引进的那些未知数
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+、
+\begin_inset Formula $C$
+\end_inset
+
+、
+\begin_inset Formula $D$
+\end_inset
+
+叫做待定系数.
+\end_layout
+
+\begin_layout Standard
+待定系数法是数学里一种重要的解题方法,应用时一般有以下的步骤:
+\end_layout
+
+\begin_layout Standard
+1.
+\begin_inset space \space{}
+\end_inset
+
+先引进一些待定系数,根据题设列出一个恒等式;
+\end_layout
+
+\begin_layout Standard
+2.
+\begin_inset space \space{}
+\end_inset
+
+把列出的恒等式化简,然后根据两个多项式恒等的性质列出一个方程组;
+\end_layout
+
+\begin_layout Standard
+3.
+\begin_inset space \space{}
+\end_inset
+
+解方程组求出那些待定系数,作出最后的结论.
+\end_layout
+
+\begin_layout Standard
+下面我们再举几个应用待定系数法解题的例子.
+\end_layout
+
+\begin_layout Example
+\begin_inset Formula $a$
+\end_inset
+
+、
+\begin_inset Formula $b$
+\end_inset
+
+是什么数值时,多项式
+\begin_inset Formula $x^{4}-5x^{3}+11x^{2}+ax+b$
+\end_inset
+
+能被
+\begin_inset Formula $x^{2}-2x+1$
+\end_inset
+
+整除？并求出它的商式.
+\end_layout
+
+\begin_layout 审题*
+根据题意,多项式能为除式整选,所以余数一定是
+\begin_inset Formula $0$
+\end_inset
+
+.现在被除式是四次多项式,除式是二次式,所以商式一定是二次多项式,并且被除式的最高项是
+\begin_inset Formula $x^{4}$
+\end_inset
+
+,除式的最高项是
+\begin_inset Formula $x^{2}$
+\end_inset
+
+,所以商式的最高项一定是
+\begin_inset Formula $x^{2}$
+\end_inset
+
+项.
+\end_layout
+
+\begin_layout 解*
+设商式
+\begin_inset Formula $x^{2}+mx+n$
+\end_inset
+
+,那末
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $x^{4}+5x^{3}+11x^{2}+ax+b=\big(x^{2}-2x+1\big)\big(x^{2}+mx+n\big)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{x^{4}}=x^{4}+mx^{3}+nx^{2}-2x^{3}-2mx^{2}-2nx+x^{2}+mx+n$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{x^{4}}=x^{4}+(m-2)x^{3}+(n-2m+1)x^{2}+(-2nm)x+n$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+因为上式是恒等式,所以对应项的系数相等.
+\end_layout
+
+\begin_layout 解*
+\noindent
+就是
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\begin{cases}
+m-2=-5,\\
+n-2m+1=11,\\
+-2n+m=a,\\
+n=b.
+\end{cases}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+\noindent
+解得
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\begin{cases}
+m=-3,\\
+n=4,\\
+a=-11,\\
+b=4.
+\end{cases}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+\noindent
+所以,
+\begin_inset Formula $a=-11$
+\end_inset
+
+,
+\begin_inset Formula $b=4$
+\end_inset
+
+,商式是
+\begin_inset Formula $x^{2}-3x+4$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+把分式
+\begin_inset Formula $\cfrac{4x-5}{2x^{2}-5x-3}$
+\end_inset
+
+化成两个分式的和,使这两个分式的分母分别是
+\begin_inset Formula $2x+1$
+\end_inset
+
+和
+\begin_inset Formula $x-3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 审题*
+观察已知分式的分母
+\begin_inset Formula $2x^{2}-5x-3$
+\end_inset
+
+,它可以分解成两个一次因式,
+\begin_inset Formula $2x+1$
+\end_inset
+
+和
+\begin_inset Formula $x-3$
+\end_inset
+
+,用来作为另两个分式的分母,现在的问题是这两个分式的分子是什么？为此我们可以先作出一个假设.因为两个分母的代数式都是一次式,那末它们的分子都应该是常数,所以可设它
+们的分子分别是
+\begin_inset Formula $A$
+\end_inset
+
+和
+\begin_inset Formula $B$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+设两个分式的分子分别为
+\begin_inset Formula $A$
+\end_inset
+
+和
+\begin_inset Formula $B$
+\end_inset
+
+.那末
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{rl}
+\cfrac{4x-5}{2x^{2}-5x-3} & =\cfrac{A}{2x+1}-\cfrac{B}{x-3}=\cfrac{A(x-3)+B(2x+1)}{(2x+1)(x-3)}\\
+ & =\cfrac{(A+2B)x+(-3A+B)}{2x^{2}-5x-3}
+\end{array}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+因为上式是恒等式,现在两个分式的分母相同,所以它们的分子必须是恒等式,因此对应项系数相等,就是
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Big\{\begin{array}{l}
+A+2B=4,\\
+-3A+B=-5.
+\end{array}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+解这个方程组,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+A=2,\\
+B=1.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以,
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{4x-5}{2x^{2}-5x-3}=\cfrac{2}{2x+1}+\cfrac{1}{x-3}.$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 说明*
+这种类型的题目叫做分一个分式为部份分式问题,以后在代数第四册中将作专门研究.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+用待定系数法求
+\begin_inset Formula $3x^{3}+5x^{2}-2x+15$
+\end_inset
+
+除以
+\begin_inset Formula $x+3$
+\end_inset
+
+所得的商式和余式;并且用直式除法检验其结果是否正确？
+\end_layout
+
+\begin_layout EnumIndent
+用待定系数法求
+\begin_inset Formula $\big(2x^{4}+3x^{3}+4x^{2}+x-2\big)\div\big(x^{2}-x+1\big)$
+\end_inset
+
+的商式和余式、
+\end_layout
+
+\begin_layout EnumIndent
+已知
+\begin_inset Formula $x^{4}+4x^{3}+6ax^{2}+4bx+c$
+\end_inset
+
+被
+\begin_inset Formula $x^{3}+3x^{2}+9x+3$
+\end_inset
+
+整除,求
+\begin_inset Formula $a$
+\end_inset
+
+、
+\begin_inset Formula $b$
+\end_inset
+
+、
+\begin_inset Formula $c$
+\end_inset
+
+的值.
+\end_layout
+
+\begin_layout EnumIndent
+把分式
+\begin_inset Formula $\cfrac{x+7}{6x^{2}+7x-3}$
+\end_inset
+
+化成两个分式的和,使这两个分式的分母分别是
+\begin_inset Formula $3x-1$
+\end_inset
+
+和
+\begin_inset Formula $2x+3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumIndent
+把分式
+\begin_inset Formula $\cfrac{3x-9}{\big(x^{2}-1\big)(x-2)}$
+\end_inset
+
+化成分式
+\begin_inset Formula $\cfrac{A}{x-1}$
+\end_inset
+
+、
+\begin_inset Formula $\cfrac{B}{x+1}$
+\end_inset
+
+、
+\begin_inset Formula $\cfrac{C}{x-2}$
+\end_inset
+
+的和,求
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+、
+\begin_inset Formula $C$
+\end_inset
+
+的值.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section-toc*
+本章提要
+\end_layout
+
+\begin_layout EnumIndent
+
+\series bold
+几个重要概念及其一般形式
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+二元一次方程：
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $ax+by=c\quad(a\neq0,b\neq0).$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+二元一次方程组:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Big\{\begin{array}{l}
+a_{1}x+b_{1}y=c_{1},\\
+a_{2}x+b_{2}y=c_{2}
+\end{array}$
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+(
+\begin_inset Formula $x$
+\end_inset
+
+或
+\begin_inset Formula $y$
+\end_inset
+
+的系数不能全为
+\begin_inset Formula $0$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout EnumIndent
+三元一次方程:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $ax+by+cz=d.$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+三元一次方程组:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+a_{1}x+b_{1}y+c_{1}z=d_{1},\\
+a_{2}x+b_{2}y+c_{2}z=d_{2},\\
+a_{3}x+b_{3}y+c_{3}z=d_{3}
+\end{array}$
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{l}
+(x\text{或}y\text{或}z\text{的}\\
+\text{\phantom{(}系数不能全为}0).
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+
+\series bold
+二元一次方程组的解法
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=3
+\end_layout
+
+\end_inset
+
+代入消元法,
+\end_layout
+
+\begin_layout EnumCols
+加减消元法,
+\end_layout
+
+\begin_layout EnumCols
+行列式法.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+二元一次方程组解的三种情况
+\begin_inset Newline newline
+\end_inset
+
+设
+\begin_inset Formula $\Big\{\begin{array}{l}
+a_{1}x+b_{1}y=c_{1},\\
+a_{2}x+b_{2}y=c_{2}
+\end{array}$
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+(
+\begin_inset Formula $a_{1}$
+\end_inset
+
+、
+\begin_inset Formula $a_{2}$
+\end_inset
+
+、
+\begin_inset Formula $b_{1}$
+\end_inset
+
+、
+\begin_inset Formula $b_{2}$
+\end_inset
+
+都不等于
+\begin_inset Formula $0$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+情
+\begin_inset space \qquad{}
+\end_inset
+
+况
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \hfill{}
+\end_inset
+
+方程组解的结果
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \hfill{}
+\end_inset
+
+从系数看
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \hfill{}
+\end_inset
+
+从行列式看
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(1)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+当
+\begin_inset Formula $\cfrac{a_{1}}{a_{2}}\neq\cfrac{b_{1}}{b_{2}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $\begin{array}{l}
+\text{当}D=\Big|\begin{array}{cc}
+a_{1} & b_{1}\\
+a_{2} & b_{2}
+\end{array}\Big|\neq0\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $\begin{array}{l}
+\text{有唯一个解}\\
+\Bigg\{\begin{array}{l}
+x=\cfrac{c_{1}b_{2}-c_{2}b_{1}}{a_{1}b_{2}-a_{2}b_{1}}\\
+y=\cfrac{a_{1}c_{2}-a_{2}c_{1}}{a_{1}b_{2}-a_{2}b_{1}},
+\end{array}\\
+\text{即}\Bigg\{\begin{array}{l}
+x=\cfrac{D_{x}}{D}\\
+y=\cfrac{D_{y}}{D}
+\end{array}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(2)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+当
+\begin_inset Formula $\cfrac{a_{1}}{a_{2}}=\cfrac{b_{1}}{b_{2}}\neq\cfrac{c_{1}}{c_{2}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $\begin{array}{l}
+\text{当}D=0\text{而}D_{x}\neq0\text{或}\\
+\quad D_{x}\neq0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+没有解
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(3)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+当
+\begin_inset Formula $\cfrac{a_{1}}{a_{2}}=\cfrac{b_{1}}{b_{2}}=\cfrac{c_{1}}{c_{2}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $\begin{array}{l}
+\text{当}D=0\text{而}D_{x}=0\text{或}\\
+\quad D_{x}=0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+有无数多个解
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+start=4
+\end_layout
+
+\end_inset
+
+
+\series bold
+三元(三元以上)一次方程组的解法
+\series default
+
+\begin_inset space \quad{}
+\end_inset
+
+用消元法逐次消元,最后转化为解一个二元一次方程组的问题.
+\end_layout
+
+\begin_layout EnumIndent
+
+\series bold
+可化为一次方程组的分式方程组的解法
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+一般方法:去分母,把原方程组中的各个分式方程变成整式方程,求出解后再检验;
+\end_layout
+
+\begin_layout EnumIndent
+换元法.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+
+\series bold
+待定系数法
+\series default
+
+\begin_inset space \quad{}
+\end_inset
+
+先根据题意,假设一个或几个未知系数,列出一个恒等式,然后利用两个多项式恒等,它们对应项的系数必须相等的原理,列出方程组,从而求出假设的未知系数.
+\end_layout
+
+\begin_layout Section-toc*
+复习题三
+\begin_inset space \space{}
+\end_inset
+
+A
+\end_layout
+
+\begin_layout Standard
+\noindent
+解下列各二元一次方程组(1~4):
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\bigg\{\begin{array}{l}
+x(y+1)-y(x-1)=8,\\
+y=x-2.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{2x-3y+1}{2}+\cfrac{3x-2y-3}{3}=1,\\
+\cfrac{x+2y+6}{4}-\cfrac{4x+2y-2}{5}=0.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{2x}{3}+\cfrac{3y}{4}=\cfrac{3x-2y}{2}+1,\\
+\cfrac{3x}{2}-\cfrac{4y}{3}=\cfrac{3x+4y}{6}-1.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{x-1}{x+15}=\cfrac{y-1}{y-9},\\
+\cfrac{x-3}{x}=\cfrac{y+6}{y+9}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+start=5
+\end_layout
+
+\end_inset
+
+解下列关于
+\begin_inset Formula $x$
+\end_inset
+
+,
+\begin_inset Formula $y$
+\end_inset
+
+的二元一次方程组:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\bigg\{\begin{array}{l}
+ax+by=a^{2}+2a+b^{2},\\
+bx+ay=a^{2}+2b+b^{2}
+\end{array}\qquad\big(a^{2}-b^{2}\neq0\big);$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\Big(\cfrac{1}{a}+\cfrac{1}{b}\Big)x+\Big(\cfrac{1}{a}-\cfrac{1}{b}\Big)=4,\\
+\cfrac{x}{a+b}+\cfrac{y}{a-b}=2
+\end{array}\qquad(a>b>0).$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\noindent
+解下列各三元一次方程组(6~7):
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+start=6,cols=2,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x+y+z=6,\\
+y:z=2:3,\\
+3x=z.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\left\{ \begin{array}{l}
+\cfrac{1}{x}+\cfrac{1}{y}+\cfrac{1}{z}=8,\\
+\cfrac{3}{x}-\cfrac{2}{y}-\cfrac{1}{z}=10,\\
+\cfrac{1}{x}-\cfrac{1}{y}-\cfrac{1}{z}=2.
+\end{array}\right.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+start=8
+\end_layout
+
+\end_inset
+
+解下列关于
+\begin_inset Formula $x$
+\end_inset
+
+,
+\begin_inset Formula $y$
+\end_inset
+
+,
+\begin_inset Formula $z$
+\end_inset
+
+的三元一次方程组:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x+y=3m,\\
+x+z=4m,\\
+y+z=5m.
+\end{array}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+当
+\begin_inset Formula $a$
+\end_inset
+
+为何值时,方程组
+\begin_inset Formula $\bigg\{\begin{array}{l}
+ax+3y=9,\\
+2x-y=1
+\end{array}$
+\end_inset
+
+才有唯一的解？
+\end_layout
+
+\begin_layout EnumIndent
+一个工厂去年的总产值比总支出多
+\begin_inset Formula $500$
+\end_inset
+
+万元,今年的总产值比去年增加
+\begin_inset Formula $15$
+\end_inset
+
+%,总支出节约
+\begin_inset Formula $10$
+\end_inset
+
+%,因此总产值比总支出多
+\begin_inset Formula $950$
+\end_inset
+
+万元.求公年的总产值和总支出.
+\end_layout
+
+\begin_layout EnumIndent
+从某人民公社到械市,要先走坡道后走平路.一个通讯员骑自行车以每小时
+\begin_inset Formula $12$
+\end_inset
+
+公里的速度下坡,然后以每小时
+\begin_inset Formula $9$
+\end_inset
+
+公里的速度通过平路,到达城市共用
+\begin_inset Formula $55$
+\end_inset
+
+分钟.他回来的时候,以每小时
+\begin_inset Formula $8$
+\end_inset
+
+公里的速度通过平路,然后以每小时
+\begin_inset Formula $4$
+\end_inset
+
+公里的速度上坡,回到公社就用了
+\begin_inset Formula $1\cfrac{1}{2}$
+\end_inset
+
+小时,问从该人民公社城市有多少公里？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:先要分别求出坡道和平路各有多少公里.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+甲、乙两仓库共存粮的
+\begin_inset Formula $95$
+\end_inset
+
+吨,现在从甲仓库运出它的存粮的
+\begin_inset Formula $\cfrac{2}{3}$
+\end_inset
+
+,从乙仓库运出它的存粮的
+\begin_inset Formula $40$
+\end_inset
+
+%,那末乙仓库所余的粮食是甲仓库的
+\begin_inset Formula $2$
+\end_inset
+
+倍.甲、乙两仓库原来各存粮多少吨？
+\end_layout
+
+\begin_layout EnumIndent
+甲种铁矿右含铁的百分数是乙种铁矿石的
+\begin_inset Formula $1.5$
+\end_inset
+
+倍,甲种铁矿石
+\begin_inset Formula $5$
+\end_inset
+
+份和乙种铁矿石
+\begin_inset Formula $3$
+\end_inset
+
+份混合,就含铁
+\begin_inset Formula $52.$
+\end_inset
+
+5%.求甲、乙两种矿石含铁的百分数.
+\end_layout
+
+\begin_layout EnumIndent
+代数式
+\begin_inset Formula $ax+by$
+\end_inset
+
+,在
+\begin_inset Formula $x=5$
+\end_inset
+
+,
+\begin_inset Formula $y=2$
+\end_inset
+
+的时候,它的值是
+\begin_inset Formula $7$
+\end_inset
+
+;在
+\begin_inset Formula $x=8$
+\end_inset
+
+,
+\begin_inset Formula $y=5$
+\end_inset
+
+的时候,它的值是
+\begin_inset Formula $4$
+\end_inset
+
+.求这个代数式.
+\end_layout
+
+\begin_layout Section-toc*
+复习题三
+\begin_inset space \space{}
+\end_inset
+
+B
+\end_layout
+
+\begin_layout Standard
+\noindent
+解下列各二元一次方程组(1~2):
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\bigg\{\begin{array}{l}
+(x+2)^{2}+(y-3)^{2}=x^{2}+y^{2},\\
+(x-3)^{2}-(y+2)^{2}=x^{2}-y^{2}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{2}{x+y}+\cfrac{5}{x-y}=18,\\
+\cfrac{9}{x+y}-\cfrac{10}{y-x}=66.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:把
+\begin_inset Formula $y-x$
+\end_inset
+
+变成
+\begin_inset Formula $-(x-y)$
+\end_inset
+
+.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+start=3
+\end_layout
+
+\end_inset
+
+解下列关于
+\begin_inset Formula $x$
+\end_inset
+
+,
+\begin_inset Formula $y$
+\end_inset
+
+的二元一次方程组:
+\end_layout
+
+\begin_layout EnumIndent
+解下列各三元一次方程组:
+\end_layout
+
+\begin_layout EnumIndent
+解下列关于
+\begin_inset Formula $x$
+\end_inset
+
+、
+\begin_inset Formula $y$
+\end_inset
+
+、
+\begin_inset Formula $z$
+\end_inset
+
+的三元一次方程组:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x-5y-3z=a,\\
+3x-5y-z=b,\\
+3y-x+5z=c.
+\end{array}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+解方程组:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\bigg\{\begin{array}{l}
+(m-1)^{2}x+\big(m^{2}-1\big)y=(m+1)^{2},\\
+(2m-1)x+(m+1)y=m^{2}-1
+\end{array}\quad(m\neq0,m\neq\pm1).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $A$
+\end_inset
+
+,
+\begin_inset Formula $B$
+\end_inset
+
+两城的距离是
+\begin_inset Formula $50$
+\end_inset
+
+公里.甲乘自行车从
+\begin_inset Formula $A$
+\end_inset
+
+往
+\begin_inset Formula $B$
+\end_inset
+
+,出发
+\begin_inset Formula $1$
+\end_inset
+
+小时
+\begin_inset Formula $30$
+\end_inset
+
+分钟后,乙乘摩托车也从
+\begin_inset Formula $A$
+\end_inset
+
+出发往
+\begin_inset Formula $B$
+\end_inset
+
+.已知乙的速度是甲的速度的
+\begin_inset Formula $2.5$
+\end_inset
+
+倍,并且乙比甲早到
+\begin_inset Formula $1$
+\end_inset
+
+小时,求各人的速度.
+\end_layout
+
+\begin_layout EnumIndent
+一只轮船在一条江里顺流航行
+\begin_inset Formula $100$
+\end_inset
+
+公里,逆流航行
+\begin_inset Formula $64$
+\end_inset
+
+公里,共用
+\begin_inset Formula $9$
+\end_inset
+
+小时,如果逆流航行
+\begin_inset Formula $80$
+\end_inset
+
+公里,顺流航行
+\begin_inset Formula $80$
+\end_inset
+
+公里,那末所需要的时间也是
+\begin_inset Formula $9$
+\end_inset
+
+小时.求轮船在静水里的速度和水流速度.
+\end_layout
+
+\begin_layout EnumIndent
+代数式在
+\begin_inset Formula $ax^{2}+bx+c$
+\end_inset
+
+,在
+\begin_inset Formula $x=-1$
+\end_inset
+
+,
+\begin_inset Formula $x=3$
+\end_inset
+
+,
+\begin_inset Formula $x=\cfrac{1}{2}$
+\end_inset
+
+的时候,它的值分别是
+\begin_inset Formula $10$
+\end_inset
+
+,
+\begin_inset Formula $14$
+\end_inset
+
+,
+\begin_inset Formula $4$
+\end_inset
+
+.求这个代数式.
+\end_layout
+
+\begin_layout EnumIndent
+某车间每天能生产甲种零件
+\begin_inset Formula $500$
+\end_inset
+
+只,或者乙种零件
+\begin_inset Formula $600$
+\end_inset
+
+只,或者丙种零件
+\begin_inset Formula $750$
+\end_inset
+
+只,甲、乙、丙三种零件各一只配成一套,现在要在
+\begin_inset Formula $30$
+\end_inset
+
+天内生产最多的成套产品,问甲、乙、丙三种零件各应生产几天？
+\end_layout
+
+\begin_layout EnumIndent
+一列客车和一列货车在平行的轨道上同向行驶,客车的车身长
+\begin_inset Formula $200$
+\end_inset
+
+米,货车的车身长
+\begin_inset Formula $380$
+\end_inset
+
+米.客车的速度比较快,它从后面赶上货车,如果从车头赶上到车尾超过的时间为
+\begin_inset Formula $1$
+\end_inset
+
+分钟,而两车的速度之比是
+\begin_inset Formula $5:3$
+\end_inset
+
+,求各车的平均速度,如果两车在平行的轨道上相向行驶,从车头相遇到车尾相离的时间需要多少秒钟？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:快车在1分钟内从赶上并且超过货车,实际行驶的距离是快车和货车的车身长的和,就是
+\begin_inset Formula $(200+280)$
+\end_inset
+
+米.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+把分式
+\begin_inset Formula $\cfrac{5x^{2}+14x-1}{2x^{3}+3x^{2}-3x-2}$
+\end_inset
+
+化成三个分式的和,使它们的分母分别为
+\begin_inset Formula $x-1$
+\end_inset
+
+,
+\begin_inset Formula $x+2$
+\end_inset
+
+,
+\begin_inset Formula $2x+1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section-toc*
+第三章
+\begin_inset space \space{}
+\end_inset
+
+测验题
+\end_layout
+
+\begin_layout EnumIndent
+证明恒等式:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Bigg|\begin{array}{cc}
+a_{1} & kb_{1}\\
+a_{2} & kb_{2}
+\end{array}\Bigg|=k\Bigg|\begin{array}{cc}
+a_{1} & b_{1}\\
+a_{2} & b_{2}
+\end{array}\Bigg|$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+解下列方程组:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\bigg\{\begin{array}{l}
+7x-3y-15=0,\\
+5x+6y-27=0;
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+x=\cfrac{2y+4}{3},\\
+y=\cfrac{3x-4}{2};
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{2x-(x-y)}{6}=\cfrac{x+y}{5}-1,\\
+\cfrac{y-2(x+y)}{8}=y-x.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{1}{x+y}+\cfrac{1}{x-y}=\cfrac{5}{8},\\
+\cfrac{1}{x-y}-\cfrac{1}{x+y}=\cfrac{3}{8};
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+2x-y-2z=-10,\\
+4x-y-4x-4z-10=0,\\
+3x+4y-z-8=0;
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{y+z}{4}=\cfrac{z+x}{2}=\cfrac{x+y}{3},\\
+x+y+z=9;
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\left\{ \begin{array}{l}
+\cfrac{1}{x}-\cfrac{1}{y}=1\cfrac{1}{2},\\
+\cfrac{1}{x}+\cfrac{1}{z}=\cfrac{7}{10},\\
+\cfrac{1}{y}-\cfrac{1}{z}=-\cfrac{5}{6};
+\end{array}\right.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Bigg\{\begin{array}{l}
+\cfrac{2}{x-2}+\cfrac{5}{2(2y-3)}=\cfrac{1}{2},\\
+\cfrac{10}{3-2y}-\cfrac{1}{3(2-x)}=2\cfrac{1}{6}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+甲乙两人做同样的机器零件.如果甲先做
+\begin_inset Formula $1$
+\end_inset
+
+天,乙再开始做,
+\begin_inset Formula $5$
+\end_inset
+
+天后,两人做的零件就同样多.如果甲先做
+\begin_inset Formula $30$
+\end_inset
+
+个,乙再开始做,
+\begin_inset Formula $4$
+\end_inset
+
+天后乙反而多做
+\begin_inset Formula $10$
+\end_inset
+
+个.求两人每天各做多少个.
+\end_layout
+
+\begin_layout EnumIndent
+某工厂今年第一季度生产的甲乙两神机床比去年同期多
+\begin_inset Formula $72$
+\end_inset
+
+台,增长了
+\begin_inset Formula $30$
+\end_inset
+
+%,其中甲种机床增长了
+\begin_inset Formula $40$
+\end_inset
+
+%,乙种机床增长了
+\begin_inset Formula $16$
+\end_inset
+
+%.求今年第一季度生产甲种机床和乙种机床各多少台.
+\end_layout
+
+\begin_layout EnumIndent
+有三种合金:按重量算,甲种含金
+\begin_inset Formula $5$
+\end_inset
+
+份、银
+\begin_inset Formula $2$
+\end_inset
+
+份、铅
+\begin_inset Formula $1$
+\end_inset
+
+份;乙种含金
+\begin_inset Formula $2$
+\end_inset
+
+份、银
+\begin_inset Formula $5$
+\end_inset
+
+份、铅
+\begin_inset Formula $1$
+\end_inset
+
+份;丙种含金
+\begin_inset Formula $3$
+\end_inset
+
+份、银
+\begin_inset Formula $1$
+\end_inset
+
+份、铅
+\begin_inset Formula $4$
+\end_inset
+
+份.现在要溶成金、银、铅的量相等的合金
+\begin_inset Formula $27$
+\end_inset
+
+两,问甲,乙、丙三种合金需要各取多少两？
+\end_layout
+
+\end_body
+\end_document

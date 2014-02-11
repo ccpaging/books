@@ -1,0 +1,4687 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 数理化自学丛书－代数
+\options oneside
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize a5paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 3
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter-toc*
+习题答案
+\end_layout
+
+\begin_layout Standard
+第一章
+\end_layout
+
+\begin_layout Standard
+习*1,1 3.
+ (1〉、（4)、（5)、(6
+\backslash
+ (7), (11), (13)、（15)都是；（2)、（3)、（8)、 (10).
+ (12>、(U)、(16)都不是.
+\end_layout
+
+\begin_layout Standard
+习雇 1’2 1.
+ (1)^+7^-8，(2) Zx-5x^-4, <8) ^12,
+\end_layout
+
+\begin_layout Standard
+(4) |疋+|^ = 22, (5) 5(^-2)-15, (6) 0r+3〉s=m
+\end_layout
+
+\begin_layout Standard
+习趣18 2.
+ (1)是，（2)不是，(3)不是,(4)不是;3.〈1)与(4), (3)与 (6)是同解方程；a.
+ <1>是，（2)不是,（3)不是；5，（1)5是方程的粮, 4不是方程的拫；（2)是，
+\end_layout
+
+\begin_layout Standard
+习题 1.4⑴ 2.
+ (1) x=17, (2) ^-1.5, (3) ^5, (4) y=2, (6) *-!,
+\end_layout
+
+\begin_layout Standard
+(6) a=0y (7)y8, (8)^-5, (9)^-1, (10) (11) ^-7,
+\end_layout
+
+\begin_layout Standard
+(12) x=7.
+ '
+\end_layout
+
+\begin_layout Standard
+习應H(2) 2 (1) I (2)見（3)不是，(4)不是；3.⑴ *lfiA
+\end_layout
+
+\begin_layout Standard
+(2) 1=0.7, (3)疋=一1去,(4) a:--10, (5) x=lj, (6) a--1
+\end_layout
+
+\begin_layout Standard
+(7)x=—1》(8) (9)疋《3去，（10X
+\end_layout
+
+\begin_layout Standard
+习題1*6(1) 1.是；2‘不是；3.是；II.不是；5，是；6‘不是；
+\end_layout
+
+\begin_layout Standard
+7.是；B.不是.
+\end_layout
+
+\begin_layout Standard
+习*1.5(2) 1 2; 2.
+ -3- 3.
+ —1; 4, 1; 5, 2; 6.
+ 16； 7 S；
+\end_layout
+
+\begin_layout Standard
+«.
+ 1.U； 9、^3-1； », -7-|； 11.
+ 6; 12.
+ 6^-； 13.
+ 3^； '
+\end_layout
+
+\begin_layout Standard
+丨28
+\end_layout
+
+\begin_layout Standard
+L贫
+\end_layout
+
+\begin_layout Standard
+7
+\end_layout
+
+\begin_layout Standard
+习通 1.
+ X； 2.
+ 5； 3 吃 II.
+ 2； 5.
+ -1-|; 6
+\end_layout
+
+\begin_layout Standard
+8.
+ 6.4; 9.
+ 9； IO.
+ 0,1.
+\end_layout
+
+\begin_layout Standard
+习應 1.5(4) 1.
+ 10； Z 1 如 3.
+ 1； U 3|； 5.
+ 6.
+ -g-； 7.
+ -a|； 8- -4.
+\end_layout
+
+\begin_layout Standard
+习题1.5(5) 1.
+ (2) c=~ 2 s=-vt： 3, a^2b； 4 -«5;
+\end_layout
+
+\begin_layout Standard
+d a
+\end_layout
+
+\begin_layout Standard
+s.叫 6.
+ ^ 7- a.
+ a4b； 9.
+ 10 1； 11 o；
+\end_layout
+
+\begin_layout Standard
+12 (1) (2)3-^-, (3) 13.
+ (1)
+\end_layout
+
+\begin_layout Standard
+a 2a fmj m
+\end_layout
+
+\begin_layout Standard
+(2) （3) (4) W._£L; 15.
+ ^
+\end_layout
+
+\begin_layout Standard
+o tJ ct — X
+\end_layout
+
+\begin_layout Standard
+16.
+ ab； 17.
+ 1; 18.
+ 3； 19.
+ n； 20.如果x==…腳;如果 n»
+\end_layout
+
+\begin_layout Standard
+ft—飀¥
+\end_layout
+
+\begin_layout Standard
+= 无数多个解；如果w = 无解.
+\end_layout
+
+\begin_layout Standard
+习題 U(V) 1 13： 2.
+ 9； 3.
+ 1; «l.
+ 62 台；5.
+ 400 斤；6.
+ 510 吨； 7.
+ 200 毫升；8- 4 天；9.
+ 2.5 分钟；10.
+ 7 天；II.无解，
+\end_layout
+
+\begin_layout Standard
+习题14(2) 1.
+ 5.5 天；2.
+ 4,05 公里 3 1147^| 公里；4.
+ 100 公里；
+\end_layout
+
+\begin_layout Standard
+5.
+ 2小时；6 (1)3小时；（2)2,75小时；7, 15公里；8, 14&公里， 习*1.0〔3) 1.
+ 6 天；2, 3 小时；3.
+ 1+天；H.
+ 20 分钟；5.
+ 10 公斤；
+\end_layout
+
+\begin_layout Standard
+6.
+ 1 公斤；7 .
+ 300 公斤；1240 克；9.
+ 13 克；10.
+ 510 克，
+\end_layout
+
+\begin_layout Standard
+习籩l.«(4) r数学教具48件，物理教具95件；2 25厘米，15厘米
+\end_layout
+
+\begin_layout Standard
+3,煤油7公;^桶1公斤；U.
+ 15根，10根；5.
+ 6吨船4只，7.5吨鯖》 只；S..
+ 20亩103斤；7.
+ 77个，8小时；8.
+ 240立方米，200立方米
+\end_layout
+
+\begin_layout Standard
+9.甲池1S吨,乙池I2吨；10.
+ 10升；11, 12米；12.
+ 54平方厘米.
+\end_layout
+
+\begin_layout Standard
+匀觳1♦岭1 (1) 10秒，⑶13秒；2:吾公里/分，f公里/分；3.
+ 15
+\end_layout
+
+\begin_layout Standard
+分钟；“.3小时，39公里；5+甲:LS个，乙20个，6.
+ 2公里/时;
+\end_layout
+
+\begin_layout Standard
+7.
+ 120； 8 84； 9.
+ 18.
+\end_layout
+
+\begin_layout Standard
+习爆U(6> 1.鈕|克；2, 24人；3,第一神60見第二种180笫
+\end_layout
+
+\begin_layout Standard
+緣.甲种60%,乙种40%; S■金3S0克,银160克.6,甲队12人乙@ 邛人，丙队24; 7生石灰ISO公斤,硫讀如0公斤，氷2100公斤；右
+ 棉丝450公斤,酎火粘土 1050公斤,细磨熱料1500公斤；氤水175公片V 氷泥泌0公斤;黄沙500公斤,捽石1175公斤；10.甲队60儿乙队40人，
+ 丙队20人；11.甲180吨，乙120吨,丙80吨；12.
+ 32平方厘米；》• 28 犀米，17厘米：W 84平方厘米；15.
+ 36亩， ； 、
+\end_layout
+
+\begin_layout Standard
+习題 1*7(1) 1 l|； 2.
+ A； 3 5； a —3; S.
+ 5； 6 10； 7.
+\end_layout
+
+\begin_layout Standard
+8.
+ 2> 9.
+ 1; IO.
+ 1.
+\end_layout
+
+\begin_layout Standard
+习里1‘7(2) 1无解；2.无解；3.无解；U5.
+ -1; 6.
+ 一3} 7, -y： 8 s; 9 V W 2； 11 XJ； 12 (1) ~TJ ⑶
+\end_layout
+
+\begin_layout Standard
+习 111*7(8) 1.
+ b； 3.冬；U.
+ 2a； 5.
+ a^-b； S.
+ d^h
+\end_layout
+
+\begin_layout Standard
+习Jil.8 1.甲组36人，乙组60人；2.
+ 72个；3 2^■天，3倍；H 37公
+\end_layout
+
+\begin_layout Standard
+里/时，小时；5, 46公里/时；6.小汽车60公里/时,公共汽车20公
+\end_layout
+
+\begin_layout Standard
+里/时；7.甲50个，乙150个；8.甲12天,乙6天；9.
+ 6天；10.甲 22天，乙肋天,丙44天;11恥小时；12 5亩.
+ *
+\end_layout
+
+\begin_layout Standard
+复习题一A
+\end_layout
+
+\begin_layout Standard
+^ (1)、（2)都是；5.
+ (I) 21,⑶ 7, (3) 6 (1) | (2) tj;
+\end_layout
+
+\begin_layout Standard
+7.
+ a)无解，（2) 4, (3) -lA； 8.⑴ (2)
+\end_layout
+
+\begin_layout Standard
+4 a m+«
+\end_layout
+
+\begin_layout Standard
+(S) 9.
+ 36 A； 10 27 亩；11 13.5小时；12.
+ 7 公斤；13.
+ ft
+\end_layout
+
+\begin_layout Standard
+酸铜4斤,生石灰6斤，水柳斤；W.
+ 6小时；15.
+ 480米；16.
+ ^ 个,乙20个.
+ '
+\end_layout
+
+\begin_layout Standard
+复习题一B
+\end_layout
+
+\begin_layout Standard
+1 (1)1, (2) 21, (3) 1-J, (4)|; 2.
+ (1) (2) 8； 3 (2)
+\end_layout
+
+\begin_layout Standard
+(3) —7; 4 (I)如果 fl+6-O,无数多解，(2)如果，
+\end_layout
+
+\begin_layout Standard
+»> S m^n,无解；5.桌一车间1TO人,第二车间250人；
+\end_layout
+
+\begin_layout Standard
+6.
+ 120公顷；7.
+ 15公斤；0.
+ 121平方厘米，64平方厘米；9-原计埘，
+\end_layout
+
+\begin_layout Standard
+‘ t甲200合，乙160台；超额』甲24台，乙忉台；10,甲4公里/时，乙g 公里/时;11 •甲36小时，乙45小时;12去--去13 公里/
+\end_layout
+
+\begin_layout Standard
+、时，108公里；W.
+ 0.4元，0t64元，0.8元；1S.普通方法如小时,快速 方法10小时，
+\end_layout
+
+\begin_layout Standard
+笫一章测验題 .
+\end_layout
+
+\begin_layout Standard
+I.不同解，疋-=1; 2.
+ — 3.
+ 3^-; 4 1^-； 5.
+ 7； 6 4； 7.
+ 4；
+\end_layout
+
+\begin_layout Standard
+8.
+ 50 A； 9, 5公里/时；10 228公既II.
+ 15天；12.甲见谷元^乙 如元.
+\end_layout
+
+\begin_layout Standard
+•4»
+\end_layout
+
+\begin_layout Standard
+习通 2 I I.
+ (1) 5 >3, (2) —5 <—3，(3) 5>-3, (4) —5<3』(5) |5[> |3|, (0)!»5|>|-3|, (7)卜
+ 5|>3, (3)—5< 卜礼(9) ^+7>*4-2, (10) 2a-5>2a-9, (11) 2^-3<23：4-l, (12) 3«-2<3a+U；
+ 3,〈1)、
+\end_layout
+
+\begin_layout Standard
+(2>.
+ (3)、（5)、(8)都是绝对不等式，（4)、（6)、(7)都是条件不等式.
+\end_layout
+
+\begin_layout Standard
+习思 2.2 2.
+ (1) 16>6, (2) 一16<—6，(3) —25cl0，(4) 25>-10,
+\end_layout
+
+\begin_layout Standard
+(5) —2>—4, (6) 2<4，(7) -a>-b, (8) -3m<-3n； 3.
+ (1) 8>0, (2> -8<-6, (3)4>3, (4) -2<3, (5) 5>2, (6) a>b； 4.
+ (1) a4-5>
+\end_layout
+
+\begin_layout Standard
+b+5, (2) a-&>0, (3) -Ta<-7br (4) |->|-, (5)
+\end_layout
+
+\begin_layout Standard
+(e) 一 蒼0< 一!^
+\end_layout
+
+\begin_layout Standard
+^fi2*3(l) 1.
+ x>5； 2.
+ ic<-l; 3.
+ x<2l； 4 x<2； 5, ^>0;
+\end_layout
+
+\begin_layout Standard
+u
+\end_layout
+
+\begin_layout Standard
+6.
+ x<d； 7_ 4备；8.
+ x> —2； 9, arc—3; tO, y>15.
+\end_layout
+
+\begin_layout Standard
+习*3_8(2〉1 (1) r2) (3)绝对不等式，（4)绝对不
+\end_layout
+
+\begin_layout Standard
+等式，(5) ^<3, (6)无解；2.
+ (1)疋>一^ C2) $/<^ 3 (1)疋>
+\end_layout
+
+\begin_layout Standard
+*•12, (2) *1- 5.
+ x< —16； S* ic<9； 7 ■ jc>380(台
+\end_layout
+
+\begin_layout Standard
+B.
+ -7(公里/时).
+\end_layout
+
+\begin_layout Standard
+习蓮8-a(8) 1.
+ (1> T>1/ (2) ^>2, (3) (4) 2, ^>16
+\end_layout
+
+\begin_layout Standard
+(公里/时)；3 疋>20(斤)；*1 0SOC土方).
+\end_layout
+
+\begin_layout Standard
+习題於4 1.
+ (1>绝对不等式，⑶W-3或03, (3)无解，⑷一3<
+\end_layout
+
+\begin_layout Standard
+«<3.
+ 2.
+ (1) -4<霉<10, (2)疋<一7或:(3)
+\end_layout
+
+\begin_layout Standard
+(4)绝对不等式.3- (1) 或a：>4 (2) n, (X>
+\end_layout
+
+\begin_layout Standard
+了或劣>1 了 j (2) —
+\end_layout
+
+\begin_layout Standard
+复习题二 A
+\end_layout
+
+\begin_layout Standard
+«l, a> bO, (2) bcO‘ 6, a) X^3|-, (2) (3) ff>2备，
+\end_layout
+
+\begin_layout Standard
+(4) iO-rA, C5) ^<1, (6) 5；<i0.
+ 7.
+ (2)a<6J (S)
+\end_layout
+
+\begin_layout Standard
+0)不一定，⑵一定.3.
+ (1) (2) (3)
+\end_layout
+
+\begin_layout Standard
+⑷
+\end_layout
+
+\begin_layout Standard
+149
+\end_layout
+
+\begin_layout Standard
+216 .
+\end_layout
+
+\begin_layout Standard
+*>i, (4) l<x<;5,〔5)—
+\end_layout
+
+\begin_layout Standard
+x>^j (8) —l<x<4-, 6
+\end_layout
+
+\begin_layout Standard
+c
+\end_layout
+
+\begin_layout Standard
+S.
+ 57.
+\end_layout
+
+\begin_layout Standard
+*1.
+ (1) a:<—4 或;c>4, (2) -5<^<5^ (3)広<一1■或
+\end_layout
+
+\begin_layout Standard
+(7) ,-c<—6 或
+\end_layout
+
+\begin_layout Standard
+0*19.2(厘米).7.
+ $>7+(至少 8 部)•
+\end_layout
+
+\begin_layout Standard
+第二章测验题
+\end_layout
+
+\begin_layout Standard
+1.
+ (1) c>0, (2) c<0, (3) o^=Ot 2.
+ (1) x>5, (2) ^>4, (3) x>0, (4〉x>- —3, (5) .^<1.
+ 3* (1) — |或务，（2)
+\end_layout
+
+\begin_layout Standard
+(3) zl<x<B^, (4) M-l或-{ ^ (1) y>3, (2) y<3#
+\end_layout
+
+\begin_layout Standard
+S.
+ »>邰（至少29个)，
+\end_layout
+
+\begin_layout Standard
+第三章
+\end_layout
+
+\begin_layout Standard
+习*11 I.
+ (1>、(4)、(5>、（6)都是，（2)、⑶都不是；H (1) ^Os 习雇8.8 2.
+ (1)没有解，⑶无数个解.
+ - ,
+\end_layout
+
+\begin_layout Standard
+习*«_8 1.
+ (1)是，（2)是;
+\end_layout
+
+\begin_layout Standard
+iD*=> —2，
+\end_layout
+
+\begin_layout Standard
+2,
+\end_layout
+
+\begin_layout Standard
+6：
+\end_layout
+
+\begin_layout Standard
+3
+\end_layout
+
+\begin_layout Standard
+x-
+\end_layout
+
+\begin_layout Standard
+广6，
+\end_layout
+
+\begin_layout Standard
+(w » —
+\end_layout
+
+\begin_layout Standard
+TTJ
+\end_layout
+
+\begin_layout Standard
+X
+\end_layout
+
+\begin_layout Standard
+5.
+\end_layout
+
+\begin_layout Standard
+to.
+\end_layout
+
+\begin_layout Standard
+15.
+\end_layout
+
+\begin_layout Standard
+rl'
+\end_layout
+
+\begin_layout Standard
+(a«=5:
+\end_layout
+
+\begin_layout Standard
+6.
+\end_layout
+
+\begin_layout Standard
+7
+\end_layout
+
+\begin_layout Standard
+a:=2.
+\end_layout
+
+\begin_layout Standard
+8
+\end_layout
+
+\begin_layout Standard
+x—5,
+\end_layout
+
+\begin_layout Standard
+11
+\end_layout
+
+\begin_layout Standard
+y^r j y~ 18,
+\end_layout
+
+\begin_layout Standard
+h-12；
+\end_layout
+
+\begin_layout Standard
+l 况=7;
+\end_layout
+
+\begin_layout Standard
+广：|6广3，
+\end_layout
+
+\begin_layout Standard
+x = b,
+\end_layout
+
+\begin_layout Standard
+12
+\end_layout
+
+\begin_layout Standard
+X
+\end_layout
+
+\begin_layout Standard
+5; ' 1
+\end_layout
+
+\begin_layout Standard
+-1-^-,
+\end_layout
+
+\begin_layout Standard
+-2：
+\end_layout
+
+\begin_layout Standard
+jx=35,
+\end_layout
+
+\begin_layout Standard
+-29：
+\end_layout
+
+\begin_layout Standard
+x **■* 3j
+\end_layout
+
+\begin_layout Standard
+y=^>
+\end_layout
+
+\begin_layout Standard
+13
+\end_layout
+
+\begin_layout Standard
+x = 7s
+\end_layout
+
+\begin_layout Standard
+v=M
+\end_layout
+
+\begin_layout Standard
+ia
+\end_layout
+
+\begin_layout Standard
+厂
+\end_layout
+
+\begin_layout Standard
+>?»— — l,24j 3.16:
+\end_layout
+
+\begin_layout Standard
+iX=0 x^^{a^-b
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+习题 3.5 1 
+\backslash
+ ^ 2 i 2 3.
+ 
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+I y=o>
+\backslash
+ 1,1、 I
+\end_layout
+
+\begin_layout Standard
+a—nb
+\end_layout
+
+\begin_layout Standard
+x = 4af w — 3a:
+\end_layout
+
+\begin_layout Standard
+**{
+\end_layout
+
+\begin_layout Standard
+«=;2J 石 wa2 + n3, 7
+\end_layout
+
+\begin_layout Standard
+%■-
+\end_layout
+
+\begin_layout Standard
+m — n a^mb
+\end_layout
+
+\begin_layout Standard
+8
+\end_layout
+
+\begin_layout Standard
+•^x* t y=mn
+\end_layout
+
+\begin_layout Standard
+v " Ltf—-
+\end_layout
+
+\begin_layout Standard
+m—n '
+\end_layout
+
+\begin_layout Standard
+^■3<6 1 (1) 6, (2) -1/(3) ad—bCj (4) 2&8 2,
+\end_layout
+
+\begin_layout Standard
+x= —41
+\end_layout
+
+\begin_layout Standard
+-< I ⑶ 2*
+\end_layout
+
+\begin_layout Standard
+3, 一 If U
+\end_layout
+
+\begin_layout Standard
+X V
+\end_layout
+
+\begin_layout Standard
+JT
+\end_layout
+
+\begin_layout Standard
+2
+\end_layout
+
+\begin_layout Standard
+-14；
+\end_layout
+
+\begin_layout Standard
+5.
+\end_layout
+
+\begin_layout Standard
+3j⑶广 10, 
+\end_layout
+
+\begin_layout Standard
+x=^=3f ^-12,
+\end_layout
+
+\begin_layout Standard
+3 - 
+\end_layout
+
+\begin_layout Standard
+产4;
+\end_layout
+
+\begin_layout Standard
+•a: —1, ra；=s
+\end_layout
+
+\begin_layout Standard
+(
+\end_layout
+
+\begin_layout Standard
+(U=—
+\end_layout
+
+\begin_layout Standard
+x—2.
+\end_layout
+
+\begin_layout Standard
+b.
+\end_layout
+
+\begin_layout Standard
+7
+\end_layout
+
+\begin_layout Standard
+g*8-8(iy i.
+ 
+\backslash
+x^；
+\end_layout
+
+\begin_layout Standard
+I «D!
+\end_layout
+
+\begin_layout Standard
+5’{
+\end_layout
+
+\begin_layout Standard
+习 *3.8(3)
+\end_layout
+
+\begin_layout Standard
+I t/=—
+\end_layout
+
+\begin_layout Standard
+ao.
+\end_layout
+
+\begin_layout Standard
+Z'-
+\end_layout
+
+\begin_layout Standard
+3；
+\end_layout
+
+\begin_layout Standard
+4
+\end_layout
+
+\begin_layout Standard
+3
+\end_layout
+
+\begin_layout Standard
+;c= —3,
+\end_layout
+
+\begin_layout Standard
+4
+\end_layout
+
+\begin_layout Standard
+rc = 0^
+\end_layout
+
+\begin_layout Standard
+3(a+b)」
+\end_layout
+
+\begin_layout Standard
+■la,
+\end_layout
+
+\begin_layout Standard
+10
+\end_layout
+
+\begin_layout Standard
+11
+\end_layout
+
+\begin_layout Standard
+a+5
+\end_layout
+
+\begin_layout Standard
+a—b
+\end_layout
+
+\begin_layout Standard
+U
+\end_layout
+
+\begin_layout Standard
+12
+\end_layout
+
+\begin_layout Standard
+i-(13a+6)#
+\end_layout
+
+\begin_layout Standard
+"(13&+6、
+\end_layout
+
+\begin_layout Standard
+12
+\end_layout
+
+\begin_layout Standard
+■ 、y-y __
+\end_layout
+
+\begin_layout Standard
+g«3.9Ci) I.
+ 8.5, 10.2； 2.大车吨，卡车4^吨；3、甲如个，乙
+\end_layout
+
+\begin_layout Standard
+30个；4 4点96公斤，S点84公斤；5.第一车间1TO人,第二车间350 人6.甲种360 BL乙种160吨；7.甲厂24捉，乙厂16架；8.石英砂
+\end_layout
+
+\begin_layout Standard
+0.3吨，长石粉2.9吨；9.含水15%酒粘350克，5%酒精150克；10.浓 硫酸切0立方厘米,水16CiO立方厘米；11, S16平方厘米；12，去15公里，
+\end_layout
+
+\begin_layout Standard
+回18公里;13
+\end_layout
+
+\begin_layout Standard
+习*丨9(2) 1.
+ 253； Z 33, 14, 4； 3.平路33公里，上坡42公里，下坡丨 忉公里；甲种13_|天，乙种8天,丙神6|■天；5，加工机轴的必人;]
+\end_layout
+
+\begin_layout Standard
+加工轴承的50人；5.甲种21.1公斤，乙种77.8公斤,，丙种1_1公斤;I 7.甲种3公斤,乙种5公斤，丙种15公斤，氮1529克；8.
+ b—3, c—lj 代数式 2^ — 3c 4-1*
+\end_layout
+
+\begin_layout Standard
+习通3.9(3) 1.第一只2小时，第二只4小时；2.静水21公里/时，水谦3丨 公里/时；3.甲20天，乙幻天；丨甲2小时，乙3小时/丙6小时;|
+\end_layout
+
+\begin_layout Standard
+5 .甲45天,乙36天，丙60天.
+ ^
+\end_layout
+
+\begin_layout Standard
+习B3.10 1.商式紀一如+叫佘数-15; 2,商式W+細4*7,余灰
+\end_layout
+
+\begin_layout Standard
+3a:—9； 3.
+ a—2j b^3j c^=3； 4 C?"* — 1.
+\end_layout
+
+\begin_layout Standard
+和
+\end_layout
+
+\begin_layout Standard
+3a>-l ' 2a-h3f
+\end_layout
+
+\begin_layout Standard
+(2) {
+\end_layout
+
+\begin_layout Standard
+复习题三
+\begin_inset space \space{}
+\end_inset
+
+A
+\end_layout
+
+\begin_layout Standard
+3;
+\end_layout
+
+\begin_layout Standard
+2.
+\end_layout
+
+\begin_layout Standard
+OGM 二;5.①
+\end_layout
+
+\begin_layout Standard
+十的
+\end_layout
+
+\begin_layout Standard
+C(-bb • 1
+\end_layout
+
+\begin_layout Standard
+r a+b f
+\end_layout
+
+\begin_layout Standard
+ac^ct-f- b, a_&;
+\end_layout
+
+\begin_layout Standard
+6
+\end_layout
+
+\begin_layout Standard
+=1,
+\end_layout
+
+\begin_layout Standard
+2, 7
+\end_layout
+
+\begin_layout Standard
+3；
+\end_layout
+
+\begin_layout Standard
+-h
+\end_layout
+
+\begin_layout Standard
+8.
+ ^ y=°2w, 9
+\backslash
+ —Q
+\backslash
+ ~3m；
+\end_layout
+
+\begin_layout Standard
+tO,产值2000万元,支出1500万元；11.
+ 9公里；12.甲仓45吨,乙仓50 啼；13.甲种 60%,乙种 40%: 1H.
+ 3^-4y.
+ |
+\end_layout
+
+\begin_layout Standard
+1
+\end_layout
+
+\begin_layout Standard
+n_
+\end_layout
+
+\begin_layout Standard
+23
+\end_layout
+
+\begin_layout Standard
+2.
+\end_layout
+
+\begin_layout Standard
+^1,
+\end_layout
+
+\begin_layout Standard
+(2) 5
+\end_layout
+
+\begin_layout Standard
+~3；
+\end_layout
+
+\begin_layout Standard
+3.
+ d-
+\end_layout
+
+\begin_layout Standard
+ab
+\end_layout
+
+\begin_layout Standard
+a-hl}—ab
+\end_layout
+
+\begin_layout Standard
+^*=2,
+\end_layout
+
+\begin_layout Standard
+<>.
+\end_layout
+
+\begin_layout Standard
+« tt«
+\end_layout
+
+\begin_layout Standard
+3?
+\end_layout
+
+\begin_layout Standard
+14
+\end_layout
+
+\begin_layout Standard
+(7o+4i»+5c)，
+\end_layout
+
+\begin_layout Standard
+y=-2g (-^+b-4c), S
+\end_layout
+
+\begin_layout Standard
+(7o+b+10c)_
+\end_layout
+
+\begin_layout Standard
+-
+\end_layout
+
+\begin_layout Standard
+7.甲12公里/时，乙30公里/时；8.静水18公里/时，水流2公里/|#|
+\end_layout
+
+\begin_layout Standard
+9.
+ 2^-ar-HfS; 10,甲12天，乙10天,丙S天；M,客牟1咖米/分_食
+\end_layout
+
+\begin_layout Standard
+车720米/分，15秒；12,
+\end_layout
+
+\begin_layout Standard
+3
+\end_layout
+
+\begin_layout Standard
+2.
+ (1)
+\end_layout
+
+\begin_layout Standard
+1.
+\end_layout
+
+\begin_layout Standard
+笫3聿癱验题 18,
+\end_layout
+
+\begin_layout Standard
+(2)无数針嫩(3)广3⑷广^ (5)
+\end_layout
+
+\begin_layout Standard
+i y=12； lyatr3；
+\end_layout
+
+\begin_layout Standard
+(7)
+\end_layout
+
+\begin_layout Standard
+；19
+\end_layout
+
+\begin_layout Standard
+-fll,
+\end_layout
+
+\begin_layout Standard
+BQt —71j
+\end_layout
+
+\begin_layout Standard
+i
+\end_layout
+
+\begin_layout Standard
+§ 111
+\end_layout
+
+\begin_layout Standard
+3.甲50个,乙册个,
+\end_layout
+
+\begin_layout Standard
+60；
+\end_layout
+
+\begin_layout Standard
+«甲种140台,乙种100台，5.甲种1两，乙种11两,丙种15两.
+\end_layout
+
+\begin_layout Standard
+第四章
+\end_layout
+
+\begin_layout Standard
+习■ W 9.
+ 8, «S； 8, -8; 10 去—去 ^ —各
+\end_layout
+
+\begin_layout Standard
+习蓮4-3 r (1)、⑶、⑶、〈5)、（6)，（8)、（9)都有意义，⑷、（7)、ao)都没 有意义,
+\end_layout
+
+\begin_layout Standard
+习题4、4 1 (1> 4,⑵—4, (3) 9,⑷ ^ (5) 0.6, (6) 1M (7) i, (8) 0, (9) -1； 2.
+ (1) 2.54, (2> 2.54, (3) (4) "
+\end_layout
+
+\begin_layout Standard
+习 114.5 1.
+ 9； 2.
+ 30； 3 16； U.
+ 60； 5.
+ 100： 6
+\end_layout
+
+\begin_layout Standard
+8
+\end_layout
+
+\begin_layout Standard
+15
+\end_layout
+
+\begin_layout Standard
+To;
+\end_layout
+
+\begin_layout Standard
+7
+\end_layout
+
+\begin_layout Standard
+13
+\end_layout
+
+\begin_layout Standard
+17；
+\end_layout
+
+\begin_layout Standard
+)d 
+\backslash
+/ 7，1 .
+ > 6 胳 ^-*-7: J 1 s 21l4j2b 9 { /V ft .
+ c, 1 ♦• W -
+\end_layout
+
+\begin_layout Standard
+1-698夺 d々4s®?6*6ap 猫
+\end_layout
+
+\begin_layout Standard
+則8,iils7.^6.si*6.
+\end_layout
+
+\begin_layout Standard
+习习 习习 习
+\end_layout
+
+\begin_layout Standard
+If； 10
+\end_layout
+
+\begin_layout Standard
+1 26； 2 39； 3 43； 4 47； 5.
+ 253; 10.
+ 506； 11.
+ 707； 12.
+ 3004.
+\end_layout
+
+\begin_layout Standard
+I.
+ 0,59； 2,0.87; 3.
+ 0.37； l|.
+ 0.78； 8.
+ 7,53； 9.
+ 4.08； IO 23.51.
+\end_layout
+
+\begin_layout Standard
+3.87; 2.
+ 9.76； 3.
+ 2.36； 4.
+ 6.07； i.
+ 1.904.
+\end_layout
+
+\begin_layout Standard
+r 1.661； 2
+\end_layout
+
+\begin_layout Standard
+7.
+ 6.703； 8 13.
+ 8.165； 1 f.
+ 18.59； 2 7, 89.80： 8,
+\end_layout
+
+\begin_layout Standard
+58：
+\end_layout
+
+\begin_layout Standard
+el-
+\end_layout
+
+\begin_layout Standard
+se；
+\end_layout
+
+\begin_layout Standard
+0.031； 6.
+ 0.049; 12.53； 6.
+ 0.19；
+\end_layout
+
+\begin_layout Standard
+2.427； 3 3.927; 4’ 1.039;
+\end_layout
+
+\begin_layout Standard
+.7.106； 9 1.444; 10.
+ 3,941;
+\end_layout
+
+\begin_layout Standard
+4.
+ 9A96, 
+\end_layout
+
+\begin_layout Standard
+23.17; 3.
+ 紙12; 4.
+ 30.29;
+\end_layout
+
+\begin_layout Standard
+272.2； 9.
+ 0- .2078； tO.
+ 0.2731; 
+\end_layout
+
+\begin_layout Standard
+14.
+ 0.025m, 
+\end_layout
+
+\begin_layout Standard
+5.
+\end_layout
+
+\begin_layout Standard
+If
+\end_layout
+
+\begin_layout Standard
+4.347；
+\end_layout
+
+\begin_layout Standard
+4.193；
+\end_layout
+
+\begin_layout Standard
+S.
+ 69.66；
+\end_layout
+
+\begin_layout Standard
+12.
+ 0.76i9j 13.
+ 0,8651-习3M-fl 1.
+ 2,057； 2 3.271； 3.
+ 9,655； H.
+ 14.01； 5, 41.09； S.
+ 0,1690;
+\end_layout
+
+\begin_layout Standard
+崎2.3705.3 L i,*7- 0
+\end_layout
+
+\begin_layout Standard
+^-2 4 r,.l
+\end_layout
+
+\begin_layout Standard
+一 2- ) 3T s 艮;1(1)(2)
+\end_layout
+
+\begin_layout Standard
+121;1 城2.,17 .Ll d
+\end_layout
+
+\begin_layout Standard
+T ma)*n(l)
+\end_layout
+
+\begin_layout Standard
+4 4
+\end_layout
+
+\begin_layout Standard
+Til®J3.
+\end_layout
+
+\begin_layout Standard
+习 习
+\end_layout
+
+\begin_layout Standard
+9, -0.3476； 10- -0.4311,
+\end_layout
+
+\begin_layout Standard
+2,23, 2.34, 2,236^ 2.2Z7, 2.23«, 2.2981;
+\end_layout
+
+\begin_layout Standard
+、(2) 0, (3) 
+\backslash
+/~bt -VT, (4) w, -*■
+\end_layout
+
+\begin_layout Standard
+i|.⑶ G.I3762…:>0_lft563"、(8) 5.36&9?1^ <5.36D, (4> 娜…，(5) -2,5^3 ">-2,535456-.,
+\end_layout
+
+\begin_layout Standard
+(6) v"涵>5^, (7) -1*731, (8) -1,26a.
+\end_layout
+
+\begin_layout Standard
+复习邂西A
+\end_layout
+
+\begin_layout Standard
+(1>、⑶正确，⑵、(4)不正璃；2.
+ (1)吾，（2) 3.
+ (1) 1,
+\end_layout
+
+\begin_layout Standard
+1.888, (2) 0.611, 0.612； I|.
+ (1) 4.179, (2) 0.6602, (3> ld.3^
+\end_layout
+
+\begin_layout Standard
+(4) 0.3040, (5) 2.062, (6) 16.02； 7.
+ 11.18厘米•
+\end_layout
+
+\begin_layout Standard
+复习题四B
+\end_layout
+
+\begin_layout Standard
+<1) 37.95, (2) 6.160.
+ 3.
+ (1) a>6, (2) a<b, (3) b>0,
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+0
+\backslash
+<
+\backslash
+b
+\backslash
+;如果3<0, b<0, |a|>|6|；如果G<0, 不定；
+\end_layout
+
+\begin_layout Standard
+»- 4.的厘米；6.
+ 6.3倍，
+\end_layout
+
+\begin_layout Standard
+第四章测验题
+\end_layout
+
+\begin_layout Standard
+I, (1) >1.414, (2) -3.1415926.
+ 2.
+ -0.547.
+ 3，1,32 米， ^ 7,98厘米.5，20海里， .
+\end_layout
+
+\begin_layout Standard
+第五章
+\end_layout
+
+\begin_layout Standard
+习题&*1 1.
+ (1) VB, (2) — VI5, (3) ^9", (4) 2.
+ ^3.
+\end_layout
+
+\begin_layout Standard
+^10> @是根式，、々一 ^在实数范围里没有意义；3.
+ (1»3,
+\end_layout
+
+\begin_layout Standard
+(3) x>y, (3) ^ 3/可以是一切实数/ (4)仏鲁，(5) -可以是一切类^
+\end_layout
+
+\begin_layout Standard
+(6) x<0,〔7)沈>1, (8)料0 的一切实数；*T Cl) -^15, (2) —I^TT; 5.
+ (1) 21, (2) 123, (3) 0.35, (4) 11, (5) i, (6) —|； 6.
+ (1)5,
+\end_layout
+
+\begin_layout Standard
+(3) 7-a, (3) a-7, (4) m-n, (5〕n-my (6) 1.
+ 7.
+ (1) 2b~6a,
+\end_layout
+
+\begin_layout Standard
+(2) x~l, (3) 1—a (4) a-br (5) b-am 8.⑴ 1, (2) m^lt
+\end_layout
+
+\begin_layout Standard
+习通fi-2 1 (1)错，改成(2)错,改成⑶错,改成。VT,.
+\end_layout
+
+\begin_layout Standard
+(4)镑，改成 2.
+ (1) ^ (2)〜(3> (4)必
+\end_layout
+
+\begin_layout Standard
+(5)的（6) y/^t (7) (8) ^4V, (&) (10)
+\end_layout
+
+\begin_layout Standard
+(li) (12) (is) Vec^+sO, (14) V3(^F5),
+\end_layout
+
+\begin_layout Standard
+(15) (16) V~^Tb^； 3+ (1) 1/414, (2) 1.732.
+\end_layout
+
+\begin_layout Standard
+习應5.8 1 夕既⑶奴} ⑶
+\end_layout
+
+\begin_layout Standard
+(4) v^32^, (5) V~^F} ^/343m6n
+\backslash
+ (6)
+\end_layout
+
+\begin_layout Standard
+(7)呢呢呢(8) 1/5", 7^，
+\end_layout
+
+\begin_layout Standard
+m 外卄)5，(10) ^-b)
+\backslash
+ ^V-6^
+\end_layout
+
+\begin_layout Standard
+2 (1) (2) yf^> tf~-9 (3)
+\end_layout
+
+\begin_layout Standard
+(4) v^>^/i23>-yu.
+\end_layout
+
+\begin_layout Standard
+习 *54 r (1)错,应为 (2)错，应为 5, 2.
+ (1) (2) 6^,
+\end_layout
+
+\begin_layout Standard
+(3) — 6, (4) -2^yt (5) 4a^, (6) a£bc9, (7) 143, (S) 528, (9) -504, (10)30;
+ 3.
+ (1)15, (2)24, (3)1.68, (4) 2ab, (5)9,〔6)84, (7> 210/ (8)1003, (9) -^y, (10)
+ 6amb
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+m<9M^
+\end_layout
+
+\begin_layout Standard
+习題 15 I CD §-> (2) li*, (3) -lA, (4) ll； 2.
+ (1)菩，
+\end_layout
+
+\begin_layout Standard
+⑶ I ⑶ ^ (4)黑，(5) 一蕞,(6)旁，(7) ^
+\end_layout
+
+\begin_layout Standard
+(8) 3.⑴去&,⑶岳;“•《益⑵ (3)择
+\end_layout
+
+\begin_layout Standard
+5题5_fl 1.
+ (1〉错，改为
+\backslash
+/矹，(2)错，改为(3)错，改为2VT-：
+\end_layout
+
+\begin_layout Standard
+2.
+ (1>(2) 3aVT, (3) ^absfac, (4) 2ahV~^b^r
+\end_layout
+
+\begin_layout Standard
+a __一 _ 一
+\end_layout
+
+\begin_layout Standard
+(5) r^sPy^/^y, (6) a^bs/ b, (7) 2(s;4-4/) V5(^+yj, (9) (a + 5)
+\backslash
+/25,
+\end_layout
+
+\begin_layout Standard
+(10) (a2-&3)
+\backslash
+/^+F； 3 (1) ViS, (2) VSl, (3)妈,(4) V§^ ]
+\end_layout
+
+\begin_layout Standard
+3 i—!
+\end_layout
+
+\begin_layout Standard
+(5) V-§-> (6) (7) VabCa^-b), (8) V2(x-h2j/)； ,.
+\end_layout
+
+\begin_layout Standard
+a.
+ (1) 6
+\backslash
+/Tc4vT, (2).
+ ^/m<2
+\backslash
+f2J (3) -3%/^<-2^.
+ 丨 习鼉&々 1.
+ (1)错，改为(2)错，改为2.
+ (1) |vi5, !：
+\end_layout
+
+\begin_layout Standard
+(2) i-x/S, (3) iV34, (4) 士仏(5) -1作（6) - j辑
+\end_layout
+
+\begin_layout Standard
+3.
+ (1)iv§5, (2) 4r^ (3) (4) 、!
+\end_layout
+
+\begin_layout Standard
+Ja; 丄U 14a: n , 
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+1 M H ^ ^ •
+\end_layout
+
+\begin_layout Standard
+(5) (6)(7) ▲的两?，(8)
+\end_layout
+
+\begin_layout Standard
+< '<
+\end_layout
+
+\begin_layout Standard
+# t
+\end_layout
+
+\begin_layout Standard
+(2) -^-s/2i3 (3) (4) -^—*'
+\end_layout
+
+\begin_layout Standard
+J~2
+\end_layout
+
+\begin_layout Standard
+习鼉 18 I.
+ 是，其余不是；2_ (1) 3V5", (2) 2
+\backslash
+T3,
+\end_layout
+
+\begin_layout Standard
+(3) 2aV2^, (4) abV3if (5) 3^^, (6) (7) I
+\end_layout
+
+\begin_layout Standard
+OX %jOrO _
+\end_layout
+
+\begin_layout Standard
+* _、.
+\end_layout
+
+\begin_layout Standard
+(8) ~^； 3.
+ (1) 4^VST2, (2) 2^v^T^7“3)
+\end_layout
+
+\begin_layout Standard
+oy m—ft
+\end_layout
+
+\begin_layout Standard
+(4) (5) (6) (1) a>6 时，j
+\end_layout
+
+\begin_layout Standard
+a3
+\end_layout
+
+\begin_layout Standard
+^
+\backslash
+Z~a, a<b ^ —a
+\backslash
+/ o; (2) o>b 时，Va2 —ba, a<b 时,v^b3 —.' 习逮6-9 1.⑴、（2)、（3)、⑷、（6)是，（5)不是；2.
+ 0), (2), (4) *,
+\end_layout
+
+\begin_layout Standard
+(3)不是.
+\end_layout
+
+\begin_layout Standard
+习JS5.10 1__(1)错,改为v^ + ^T,⑶错，改为2+VT, (3)错，改： 为O-(4)错，改为 2V7+5VT.
+ 2.
+ (1) -4Vr3'+7yr3J .
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+/~Q 一 oo
+\end_layout
+
+\begin_layout Standard
+(2) 丁，(3) 3^ + ^ (4) 0, (6) 14*^3 —§-VT, (6) 4 +鲁VI"; 3.
+ (1) 7VT-5*VT+2^, (2) 4b</V-h(5a-2b)
+\backslash
+/ls
+\end_layout
+
+\begin_layout Standard
+(3) {d-b^^b, (4) 2a-VV^^ 4.
+ 300,
+\end_layout
+
+\begin_layout Standard
+习娌5-11(1) I.
+ (1) ^/io, (2) </25y (3) 3xV~2, (4) 3a, (5) 3^
+\end_layout
+
+\begin_layout Standard
+(6) (7) 5^A/Wi9 (8) 6a^^； 2.
+ (1)错，改为1々W,
+\end_layout
+
+\begin_layout Standard
+⑵对，(3)错，改为 3.
+ (1) -M2, (2) (8) 棚,
+\end_layout
+
+\begin_layout Standard
+⑷ xW^', ■! (1) 6n/30, (2) e
+\backslash
+/T, (3) ⑷
+\end_layout
+
+\begin_layout Standard
+S.
+ (1) 600 V15^ (2)去 joys/^y.
+\end_layout
+
+\begin_layout Standard
+B>11(2) 1 (1) 5V"2"-10VX (2) —8aa-12a3+U< St (1)2 -2^4-2^, (2) 2VTaP-3^；
+ 3.
+ (1) 2, (2) -29, <S) -128,
+\end_layout
+
+\begin_layout Standard
+⑷ 2—知 H (1)57-12v!5, (2) (3) (。:二)' 5.
+ (1) -4
+\end_layout
+
+\begin_layout Standard
++2VT, (2) 一7+6
+\backslash
+/T; 7.
+ (2) V^a^T, (3) V^-^</aS^</P,
+\end_layout
+
+\begin_layout Standard
+(4) n,
+\end_layout
+
+\begin_layout Standard
+习麵6.捣 1.
+ (1) 5
+\backslash
+^53 ⑵-27^^^ (3) 0.001<*^/两/
+\end_layout
+
+\begin_layout Standard
+16
+\end_layout
+
+\begin_layout Standard
+(4) ^-a^b^ab, (5) (6) ^
+\backslash
+/7； Z, (1〕a+34/a^+S^/a^
+\end_layout
+
+\begin_layout Standard
+(2) |-V5E+—Vab-2； 3- (1) ^ (2) &-a, (3) 6.
+ o o
+\end_layout
+
+\begin_layout Standard
+为JS6>J3 1.
+ (1) (2) ivT,⑶ ^53, (4) 3V^, (5) 4^,
+\end_layout
+
+\begin_layout Standard
+(6〉8^;' 3.
+ (1) ^2, (2)舍(3) daV~Fj (4) ^-^/^b9
+\end_layout
+
+\begin_layout Standard
+(5) 2^/^, (6) 士分政，(7> (8)
+\end_layout
+
+\begin_layout Standard
+4.
+ (1)30, (2)^+y^3^ ⑶ 8-3^/32, (4)
+\end_layout
+
+\begin_layout Standard
+习應6‘；U 1 CO 巧斜&)
+\backslash
+ ⑶ VlO, (S) vT-^,⑷ 3
+\backslash
+/T+
+\end_layout
+
+\begin_layout Standard
+wy； 2.
+ (1) ⑶ (3) 3^ <4)
+\end_layout
+
+\begin_layout Standard
+3 (2) 6(v/T-瓜(3) 3+V¥, (4) -—39^
+\end_layout
+
+\begin_layout Standard
+(X) (ft—d)
+\backslash
+/a(2) V a -H V 5 ^ (3) —a —Vl+a2,
+\end_layout
+
+\begin_layout Standard
+、(4) 5±^E,⑨四+产;5.
+ (1) g^-±^L+4
+\end_layout
+
+\begin_layout Standard
+W g C.1； -§-，⑷-2-1
+\end_layout
+
+\begin_layout Standard
+T.
+ ^/2-l； 8.
+ —4v^?^; 9,不是根•
+\end_layout
+
+\begin_layout Standard
+30應6.15 1.
+ (1) V2'J (2) (S) (4) V^W； 2.
+ (1)^3*
+\end_layout
+
+\begin_layout Standard
+(2> </J, (3)吾 (4)柯；3 (1) VT, (2)
+\end_layout
+
+\begin_layout Standard
+4.
+ (1) 8,509, (2) 0.851.
+\end_layout
+
+\begin_layout Standard
+霣遒6,16 1.
+ VT+l； 2.
+ 
+\backslash
+^5"-VT； 3, VT+2； U.
+ 4-V6-；
+\end_layout
+
+\begin_layout Standard
+8.
+ 
+\backslash
+/"3 H-1； 6.
+ v^-i; 7’ i(
+\backslash
+/I5WT); 8.
+ ^-(Vio-V'ex I
+\end_layout
+
+\begin_layout Standard
+复习题五A
+\end_layout
+
+\begin_layout Standard
+*.
+ (2) »是偶数，o<l; 3.
+ (1) x>4, (2) ^3, (3) -2cx<2,
+\end_layout
+
+\begin_layout Standard
+⑷ *>1; 6，（I) 5，⑧ 3y—、（3W-1, (4)3 —鉍(5)
+\end_layout
+
+\begin_layout Standard
+<«) (a+b)(b-o>； 7.
+ (1) *-^9, (2) (3) ^-0, (4) x=
+\end_layout
+
+\begin_layout Standard
+气
+\end_layout
+
+\begin_layout Standard
+8.
+ (1) 10x^5, (2) ⑶-必VT, (4)
+\end_layout
+
+\begin_layout Standard
+(5) (6).去77.
+ 9.
+ 
+\backslash
+/H, -VlJ, -V§5 *
+\end_layout
+
+\begin_layout Standard
+•.
+\end_layout
+
+\begin_layout Standard
+.
+ •
+\end_layout
+
+\begin_layout Standard
+同类根式，
+\backslash
+l;，
+\backslash
+W, 是同类根式，h荔w，
+\backslash
+/»^廉
+\end_layout
+
+\begin_layout Standard
+埔类根式，视> 是闻类根式.IO.
+ (1) (^V5)(«-
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+^6), (2) (^+1)(
+\backslash
+/3"^+1)(^^-1), (3) OhV^Oc-VT)2,
+\end_layout
+
+\begin_layout Standard
+(4) (a+VT^Hfi-VTfey1, (6) (*-2+vT)(iC-2-V7-), (6) (2rt*
+\end_layout
+
+\begin_layout Standard
+l+v^Txat-hi^vTx if ⑴ (2) ~|yX
+\end_layout
+
+\begin_layout Standard
+(9)如VI5-8VT-VT-11>, (4) 46
+\backslash
+/T, (5) ^Vs-si,
+\end_layout
+
+\begin_layout Standard
+(6) 1, (7> 428+96
+\backslash
+/15, (8) |(40+9
+\backslash
+/IB), (9) (10) »# 」 12.
+ (1) 5l, (2) 12.
+\end_layout
+
+\begin_layout Standard
+复习題五B
+\end_layout
+
+\begin_layout Standard
+1.
+ d)鉍(2) ⑶ 4，(4)
+\end_layout
+
+\begin_layout Standard
+(6) —L
+\backslash
+/1^Tiw 2.
+ (2) (3)当 W>M 时,y2, 当->卜M
+\end_layout
+
+\begin_layout Standard
+3 0, siifeVIAE^^tt; 3.
+ (1? (2>IE, s F <45
+\end_layout
+
+\begin_layout Standard
+«: (1) 8 户 3 l + ^alffsl^l^ (4) <^v (5)aalo, C6) 3
+\end_layout
+
+\begin_layout Standard
+0 a)l 少(2)十 8.
+ a) G+l.
+ (2) ^ 9.
+ {"Elllw; Io.
+ 5” ir 1w.
+ a) (2) I<HW
+\end_layout
+
+\begin_layout Standard
+9 久吶十 1, (4)会u.
+ C3-1(2+VIS)，(6) ：^(5-fv^l)/
+\end_layout
+
+\begin_layout Standard
+'碘问姍簦餒靡 .9 avow (2) E><0, (3) HAICO、(eI) 10s cs+
+\backslash
+/J)
+\end_layout
+
+\begin_layout Standard
+x〈hi<3)，(2)e+^/-g-)(w_y^)@+y"^)^l<-g)、(3X玲 1X-T
+\end_layout
+
+\begin_layout Standard
+_ _ 1 ^Itl
+\end_layout
+
+\begin_layout Standard
+w (2) (3)丨 u4i
+\end_layout
+
+\begin_layout Standard
+文 5?23>, (4) +<-1(6> +(1 丨 3
+\backslash
+/y> (6) 1扃 ^
+\end_layout
+
+\begin_layout Standard
+3 ♦aolcnN/r)、(3>al十 2VT; p s %(<rli)、
+\end_layout
+
+\begin_layout Standard
+sl^l._
+\end_layout
+
+\begin_layout Standard
+s ^-(3I
+\backslash
+/T)】《■ 5; Ig; 7, fe™^ 6=1_
+\end_layout
+
+\begin_layout Standard
+33»®1 2.
+ (1) (2) 3.
+ a)，9 15
+\end_layout
+
+\begin_layout Standard
+p.
+ a)丨.fe眨 €1i> (2) J tt.
+ (1) u (2V-^^V .
+\end_layout
+
+\begin_layout Standard
+sc 1
+\end_layout
+
+\begin_layout Standard
+产 9 ^ s sc.
+ s il.
+ 、.
+\end_layout
+
+\begin_layout Standard
+3gne& - s 2, (2) 0.
+ s r (4) i; p (1) r (e 士 s 0.
+\end_layout
+
+\begin_layout Standard
+,(4) 1.
+\end_layout
+
+\begin_layout Standard
+s?« ” 9^.
+ 9 1^ @ t s (5> I#
+\end_layout
+
+\begin_layout Standard
+(s1^ M 9 +) Ir (3) pQ)丨 M+Hu9
+\end_layout
+
+\begin_layout Standard
+s 1X10,7 s 3.G6xla> (5〕3x1了； p (2) (3)
+\end_layout
+
+\begin_layout Standard
+3 .
+ (3f.r(33
+\end_layout
+
+\begin_layout Standard
+5.
+ s ♦ s ^ (3) ^ ® _一 ⑦ 3 r
+\end_layout
+
+\begin_layout Standard
+4ai&*+ar#s (2) tc—y 十 ar*〜rH12^J 7 ‘ s s,3+30J2<yll+3n+
+\end_layout
+
+\begin_layout Standard
+zrj C2) 8+JT: s:jr_vh
+\end_layout
+
+\begin_layout Standard
+39n6-4(l> - 9"-sr-s ol>v
+\backslash
+>3 a，
+\end_layout
+
+\begin_layout Standard
+(6)(乞+3，3 s 3H, s (10) '-::, s ?3^, (12HHV>0C+S丄；2.
+ cl) VT, C2) ^
+\end_layout
+
+\begin_layout Standard
+(3)sh，3 ^ 3.
+ a) ^ ^〈Co) ^ s 3 ^ § 2,
+\end_layout
+
+\begin_layout Standard
+3 p (s) t
+\end_layout
+
+\begin_layout Standard
+:3®6,4(s) w.
+ (1) @ (3) 151^ (4) w p)
+\end_layout
+
+\begin_layout Standard
+(3) —600^(4) ^ 0^1^ (S5^免^甸；«.
+ (1) ll6ar“ + 9icl^raL (2) 6aw:;t^4a^—17a—e£^+12、(3) A+免^(4) &al4&J*
+\end_layout
+
+\begin_layout Standard
+3 a-i-ti, (6) alMlwalr^ 0.
+ (1) v+>(to) Mal>
+\end_layout
+
+\begin_layout Standard
+):3*cr^J, s ^ s 3VIIs-J-s .(^avt, (6) _s^..
+ 3 3>
+\end_layout
+
+\begin_layout Standard
+» •
+\end_layout
+
+\begin_layout Standard
+»过瀹>|>
+\end_layout
+
+\begin_layout Standard
+a) lg,a>cs^9 sbsxio*.
+ fi.
+ a) w^.v 3 ^ s 3 龄；
+\end_layout
+
+\begin_layout Standard
+5,0.) (2)气<k s OJlbM, (4) av# (5)0^;
+\end_layout
+
+\begin_layout Standard
+供.(1> (M) 1 &^@ I I^J +1 +
+\end_layout
+
+\begin_layout Standard
+(4) 9ar®】、(5) 33 + 3^34-s;-(g) erCKu)ml, s alMJ (2>
+\end_layout
+
+\begin_layout Standard
+0m Rid
+\end_layout
+
+\begin_layout Standard
+复习题六B
+\end_layout
+
+\begin_layout Standard
+1.
+ (1) 32, (2) 2.
+ (1) xy, (3) a； 3 (1> 0； (2)—夸；鼉.0; 5.
+ (1) f+x+lj <2) 3+2a^+3a'^4-am6.
+\end_layout
+
+\begin_layout Standard
+7.
+ (1) ^ <2) a-b~^ (3)a"d-c4*2b*e»； 8.
+ <1) x, (2)
+\end_layout
+
+\begin_layout Standard
+13
+\end_layout
+
+\begin_layout Standard
+(3) x9 
+\backslash
+ 9, o—2, i>= —1,
+\end_layout
+
+\begin_layout Standard
+第六章测验题
+\end_layout
+
+\begin_layout Standard
+1.
+ (1) 4, (2) 2
+\backslash
+ (3) oTk^, (4) 2’ (1) ⑶
+\end_layout
+
+\begin_layout Standard
+3.
+ (1) a.'1, (2) 4- (1) I6ac , (2) a2
+\backslash
+^； 5- U)
+\end_layout
+
+\begin_layout Standard
+_4 6 ⑶ a ' 6.
+ b'
+\end_layout
+
+\begin_layout Standard
+第七章
+\end_layout
+
+\begin_layout Standard
+3羅 7.1 *.
+ (1) 5^-3iu-2-0, (2) ^+^-14-0, (3) 2^-2a:-13-0,
+\end_layout
+
+\begin_layout Standard
+(4) ars-5x=0, (5) 7d—3s-1-0, (6) V=°.
+ -
+\end_layout
+
+\begin_layout Standard
+5 1 7
+\backslash
+/lT
+\end_layout
+
+\begin_layout Standard
+习題7.2 2.
+ (1〉土⑶ ±0,8, (3) 土} (4) ±3, (5)
+\end_layout
+
+\begin_layout Standard
+(6) 土2, (7) ±1.15, (8)_±1.23； 3.
+ (1) 土备，⑶
+\end_layout
+
+\begin_layout Standard
+(3) 士(知+2队 <4) 土^^ “，（1) 0, ^ (2) 0, (3)0, ly,
+\end_layout
+
+\begin_layout Standard
+(4) 0, D, (5) 0, -1, (6) 0, 0, (7) 0,备V風(8) 0, 7-4^3,
+\end_layout
+
+\begin_layout Standard
+(ft) ±1, (10) 0, 0； S.
+ (1) 0, -J(a-fb-o), C2) 0, a
+\backslash
+ (3) 0, 0.
+\end_layout
+
+\begin_layout Standard
+习《7’8 2 (1)2, ( (2) — 2, -4, (3) -2, 4, (4) 2,―失 3.⑴ 7, -h (3) 5, -2, (3)
+ —3, 1, (4) 5, —8； 4.
+ (1) 3, ^8, (2) 0, 8#
+\end_layout
+
+\begin_layout Standard
+(3) 3, —5, (4) 2, -6; 5.
+ (1) -；，3, (2) -7, <3) 2,3,
+\end_layout
+
+\begin_layout Standard
+(4)下，S-g-^ (5) (6〉—3, 6； S.
+ (1) 一b~a, (2)1* —
+\end_layout
+
+\begin_layout Standard
+⑶ 1,择(4) 0, 士.
+\end_layout
+
+\begin_layout Standard
+r CD ^|)9, (2)(文一3)», C3) (^)
+\backslash
+ ⑷
+\end_layout
+
+\begin_layout Standard
+2±VlO
+\end_layout
+
+\begin_layout Standard
+W ~5一"$
+\end_layout
+
+\begin_layout Standard
+(4)
+\end_layout
+
+\begin_layout Standard
+2.
+ (1) 8, 一9， (2) 12, 13，(3) 3±
+\backslash
+/l5, (4) 一
+\end_layout
+
+\begin_layout Standard
+一6土
+\backslash
+^13 ,严、—7土vV3 ,„、一1士 Vfi-
+\end_layout
+
+\begin_layout Standard
+(6) ~^』（7〉4~，（S) 10-*
+\end_layout
+
+\begin_layout Standard
+习*■?•& 1 (1) 2，—⑶ 2如 12, (3) ^1=|-3-
+\end_layout
+
+\begin_layout Standard
+(6) -4±4
+\backslash
+/~2, (6> 2士3
+\backslash
+/5, (7)鲁,务,(8)毛 w CIO) (ia> 穿，% (12) -vt±2^2p
+\end_layout
+
+\begin_layout Standard
+(13) -2+vr3, 3+V¥, (14) — |-2； 2.
+ (1) 3；22, 0.78y
+\end_layout
+
+\begin_layout Standard
+(2) 4.33, 一0.33, (3)1.06, -0.76； 3 (1) 1, 一 1, (2)0,1, (3)—3,
+\end_layout
+
+\begin_layout Standard
+4,⑷ ―音；a (” |(2+VTK (V2^1)af (2) a,
+\end_layout
+
+\begin_layout Standard
+(3) S' (4) ^ I; 5,⑶ ^ ⑶、-'
+\end_layout
+
+\begin_layout Standard
+习鼉74 1.
+ (1) z3>0, (2) J>0, (3) J-0,⑷」<0, (5) ^<0, (6) A^O, (7> J>0, (8) A>0^ (9)
+ ^>0, (10) ^<0； 2.
+ (1)4, (2> 土巩(8) 63
+\end_layout
+
+\begin_layout Standard
+(4) 0, -4, (5) —(6) 6, (7) 3, 一 17』(8) 一尧 3.
+ (1) k<
+\end_layout
+
+\begin_layout Standard
+(2) (3> i-, k=f=<
+\backslash
+； <1 (1) 两不等实数根；
+\end_layout
+
+\begin_layout Standard
+«=1,两相等实数根;衍>允没有实数根，（幻热两不等实数 根两相等实数根；没有实数根• (3) 淠不等实
+\end_layout
+
+\begin_layout Standard
+数粮;m = —|■，两相等实数裉；me -没有实数根•（4) b_0,两不等实
+\end_layout
+
+\begin_layout Standard
+数根；b=Q,两相等实数根.
+\end_layout
+
+\begin_layout Standard
+习*7々 1,巩15 或—13, -15; 2.
+ 3.3,4, 5; ».
+ 35 或
+\end_layout
+
+\begin_layout Standard
+36； 5.
+ 420米；6.
+ 64平方尺；7.
+ 5厘米，9-厘漱8, 40厘米,20里米；
+\end_layout
+
+\begin_layout Standard
+9.离边5寸；10.
+ 1寸；11, 14.0厘米，9,0厘米；12.部米；
+\end_layout
+
+\begin_layout Standard
+13 60%； 14.
+ 10%； 15.
+ 45%； 16.
+ 35或 53, 44,不可能_
+\end_layout
+
+\begin_layout Standard
+习题 I.
+ (1) 7, 一％ (2) 0, —■!,⑶ ~4- °J ⑷ 一I -i,
+\end_layout
+
+\begin_layout Standard
+(5)鲁，一 I，(6) — — ~g~^ (7) 2V"§^ ^2^ (S) 2a^ a3—b3,
+\end_layout
+
+\begin_layout Standard
+y«、 4oE» 1 ,in、M + M '
+\end_layout
+
+\begin_layout Standard
+(®) -^srz^* 一1, (10) —a ^
+\end_layout
+
+\begin_layout Standard
+rsr •
+\end_layout
+
+\begin_layout Standard
+$ 3, .e ^ s 4-H8 ^ 3cl一-H
+\end_layout
+
+\begin_layout Standard
++-HsH屮 s 3 乂屮 s ^ 3 _ gs.卜 BR1
+\end_layout
+
+\begin_layout Standard
+I k I
+\end_layout
+
+\begin_layout Standard
+> 8，b>屮 ^ (H) .«•+ s ,衣丨 s -N -SI，II
+\end_layout
+
+\begin_layout Standard
+，0 s ^ '0o1.s •+- w 丨o"8 f ^.0 (T) I (TH)glf‘l>Hw
+\end_layout
+
+\begin_layout Standard
+b 尸
+\end_layout
+
+\begin_layout Standard
+•(TH+a7丨身)(«N丨為丨
+\end_layout
+
+\begin_layout Standard
+a^llg.
+ rp+H 十身)(sla^+a't-“sxcq+办丨占)(1 + 身1為) "n ‘€ XII 功+占XS+!丨為)(e'CJ+及丨 xexs-^+為)3
+ ，(11^+5<^+身—^£?)、(1丨身+占)(1+^^0(1> «'〔ai->—t) • ,-r翁珅為(h>+T)丨為 u C9) dc^yv
+ 丨 81丫^2|->+7丫凸 e)
+\end_layout
+
+\begin_layout Standard
+丨s 丨)IB〕+s 丨 丫£|s 1T) f a〕r-t) i0s X蓄+§)(龙-|> s 乂孕丨&(身丨為丫 (T) .1 s‘a«£s
+\end_layout
+
+\begin_layout Standard
+.SI w n g ,布 s z
+\end_layout
+
+\begin_layout Standard
+CST) "(^4-&?為)£-5?尧)sI-t)
+\end_layout
+
+\begin_layout Standard
+...c.
+\end_layout
+
+\begin_layout Standard
+si 古 14s A ■令 iTtiAT^iis
+\end_layout
+
+\begin_layout Standard
+4,: : g :
+\end_layout
+
+\begin_layout Standard
+:lrA+ni7 slA 丨 9ZI 8)r>+gg 长)-e
+\end_layout
+
+\begin_layout Standard
+•(7 悬(I+s(Io) r(s+色 Ct 十為)s zlo十咨pjA(a
+\end_layout
+
+\begin_layout Standard
+' 二 ：(^2i(i^xs '5S A 3 - ?s
+\end_layout
+
+\begin_layout Standard
+•T丨(s)㈡丨 ^ s ^ s (s)
+\end_layout
+
+\begin_layout Standard
+丨 f sO'I-Hs ■«〒沿+者— > (9) "0=5 丨身-+為(s
+\end_layout
+
+\begin_layout Standard
+•fgl^十^£ (寸)"0U 其 T+^z 丨 s#(e) rohg 丨含+t s "0K9
+\end_layout
+
+\begin_layout Standard
+1身+> (T) 《 ^ (i) ^ 3 ^ §、|^丨 s r (s6‘ahw ，费屮 d9>^l>rs ^ ^1 s ^ "7 3 noJt
+ ,a+H(&+itocql«($ls-3(Co) s 、0"sl%6 s 'cnrs+l (e)o"us.o+^T.TI% s ,0=eTI^TI%9T
+ (T) -N 嘁 3Hl-os ^ (Co) ^ j (I) .1 (l)e“sfw
+\end_layout
+
+\begin_layout Standard
+p I j> H n T
+\end_layout
+
+\begin_layout Standard
+±
+\end_layout
+
+\begin_layout Standard
+^ (2) 士〜^", 土a/T,〔3) ±2^3, ±2^, (4) 士#,
+\end_layout
+
+\begin_layout Standard
+习厘 7*13(3)
+\end_layout
+
+\begin_layout Standard
+(1)0，一 4, 士 2, (2)
+\end_layout
+
+\begin_layout Standard
+■liV^ -liVT
+\end_layout
+
+\begin_layout Standard
+CD 4
+\end_layout
+
+\begin_layout Standard
+1, (2) —3,4; 3 (1) 0, 一
+\backslash
+ 一 3,1, (2) ^4-s 土
+\end_layout
+
+\begin_layout Standard
+(3)
+\end_layout
+
+\begin_layout Standard
+%/6
+\end_layout
+
+\begin_layout Standard
+习顯713(1)
+\end_layout
+
+\begin_layout Standard
+(7) - 3, |
+\end_layout
+
+\begin_layout Standard
+(3) 8； 3 (I)
+\end_layout
+
+\begin_layout Standard
+(1) 0, (2) 0，(3) 4, •!, (4)无根，（5) 3,
+\end_layout
+
+\begin_layout Standard
+1Q 17
+\end_layout
+
+\begin_layout Standard
+(8) 2, 9, (0) 0, (10) 1；2.
+ (1) ^
+\end_layout
+
+\begin_layout Standard
+q—4 b
+\end_layout
+
+\begin_layout Standard
+(^)无根, (2) 4,
+\end_layout
+
+\begin_layout Standard
+2)
+\end_layout
+
+\begin_layout Standard
+/IN
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+习籮113(2) 1 2, 3 土 VTD; o e.
+ n —1土
+\end_layout
+
+\begin_layout Standard
+S.
+ 2,
+\end_layout
+
+\begin_layout Standard
+2 2, 一I, 3土2V"J; 3 -t — 3, 6- 2, -=-j 1, 1;
+\end_layout
+
+\begin_layout Standard
+—2.1
+\end_layout
+
+\begin_layout Standard
+7,
+\end_layout
+
+\begin_layout Standard
+1土
+\backslash
+/15
+\end_layout
+
+\begin_layout Standard
+8- 0, 3，
+\end_layout
+
+\begin_layout Standard
+o
+\end_layout
+
+\begin_layout Standard
+5* 7-18(8) 1.
+ 4天；2.甲队24天,乙队48天；3,快车4S公里/时,供 车36公里/时；a静水24公里/时,顺流2|■小时，逆流3小时.
+\end_layout
+
+\begin_layout Standard
+习*7,14(1) 2.
+ (1) 2, (2) 12, (3) 11, -|~，⑷ 1, 4, (6) 3；
+\end_layout
+
+\begin_layout Standard
+£l
+\end_layout
+
+\begin_layout Standard
+3.
+ (1) 15, (2) 73，(3) 2, (4) -2, (5) 3； H.
+ (1) -1, (2) 1,
+\end_layout
+
+\begin_layout Standard
+(3)11, (4) 1.
+\end_layout
+
+\begin_layout Standard
+?|B7-1A(2) 1.
+ (1) 0, -1, (2) 34; Z- (1) A, (2) ^ (3) 0；
+\end_layout
+
+\begin_layout Standard
+'3.
+ (1) 1, -9,⑶ 6, -1，(3) 3, -1,⑷ 0, -5, (5) -X,
+\end_layout
+
+\begin_layout Standard
+(6) 7； H.
+ (1、1> (2) 19, 84； J
+\end_layout
+
+\begin_layout Standard
+25.
+\end_layout
+
+\begin_layout Standard
+复习题七A
+\end_layout
+
+\begin_layout Standard
+2.
+ a)
+\end_layout
+
+\begin_layout Standard
+Jv_ 
+\backslash
+PS 2 3
+\end_layout
+
+\begin_layout Standard
+),5+2^/e, (2) ⑶ ±^g-； (4) 4, 4f ⑶了
+\end_layout
+
+\begin_layout Standard
+13
+\end_layout
+
+\begin_layout Standard
+14
+\end_layout
+
+\begin_layout Standard
+3.
+ (1) -I,*, (2) 0, (3U, 一音；“ (1) 一,, 2」(2)
+\end_layout
+
+\begin_layout Standard
+5' (1) 1/-2, (2) l ⑶ 0； 6 (1) (x-DO—4)(尤-2)(疋一3), W (^+a)(«-o)(acM-&)Ca:-6);
+ 7.
+ (1) -1,2, -2,3, (2) 1, -6；
+\end_layout
+
+\begin_layout Standard
+—-_ .
+ ;■'-'
+\end_layout
+
+\begin_layout Standard
+- ' -• S
+\end_layout
+
+\begin_layout Standard
+« -
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+8‘（1; 2, 3, (2) -A, 1, -A (3) —1，一备，（4) 一2，i 9.
+ (1)3^ ±b3 ⑶ <h b； 10.
+ (1) -2, (2) (3)1, A, (4) 16, -25；
+\end_layout
+
+\begin_layout Standard
+II 13.4厘米，9.4厘米；12.甲队4.2公里/时，乙队3,5公里/协
+\end_layout
+
+\begin_layout Standard
+13.
+ 12； IH l^i-公里/时.
+\end_layout
+
+\begin_layout Standard
+复习题七B
+\end_layout
+
+\begin_layout Standard
+1.
+ a) ±1; (2) l + 
+\backslash
+/y, 3_2V% (3) 卜(4) —2, 1,
+\end_layout
+
+\begin_layout Standard
+— 3)4； (5) «1, -2; (6) — 5+v/^"j 5-//^^ 2.
+ (1)
+\end_layout
+
+\begin_layout Standard
+⑶ m-A, (3) m<^3 (4) m=3, ^-1.
+ 5, (1) 11, (2) -U,
+\end_layout
+
+\begin_layout Standard
+(3> 36, (4) 119, 6, (1) (i) cy3+6t/+a=0, (ii) «ya—6y+c—0, (iii) ay3H-hby+fc3^—0,
+ (2) ay2^(b^2ah)y + (c—bk-
+\backslash
+-a}^)—0m 7.
+ a-*3#
+\end_layout
+
+\begin_layout Standard
+9.
+ (1) 士土(2) at &； IO, (1) —3, —
+\end_layout
+
+\begin_layout Standard
+⑶ 0, 6, (3) ^ 1, (4) 士 1, (5) 626, (6) 35, (7) 16, A., (8)-l>
+\end_layout
+
+\begin_layout Standard
+ia IV
+\end_layout
+
+\begin_layout Standard
+-去，If 30套，12,咖0 块，4 天，13* 5,7,8.
+ W.
+ 40 升.
+\end_layout
+
+\begin_layout Standard
+«»
+\end_layout
+
+\begin_layout Standard
+第七章測验题 '
+\end_layout
+
+\begin_layout Standard
+•
+\end_layout
+
+\begin_layout Standard
+1 (1) ^ ^ ⑶-3, (3) 7, (4) 4, (5) 2, (另两个非实数根>,
+\end_layout
+
+\begin_layout Standard
+(6) 6, 2.
+ ^=2-^, c«=l, 3.
+ (1) ^ (2) 3, 4.当;时，mm 去;当灸=10时,疋=1 士 6.
+ a=4, 6如音.7’大,4小时；小,6小时•
+\end_layout
+
+\begin_layout Standard
+第八章
+\end_layout
+
+\begin_layout Standard
+习题84(幻1.
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+6
+\end_layout
+
+\begin_layout Standard
+4，--I II
+\end_layout
+
+\begin_layout Standard
+X V
+\end_layout
+
+\begin_layout Standard
+*- .4.
+ I.
+\end_layout
+
+\begin_layout Standard
+3, 4,
+\end_layout
+
+\begin_layout Standard
+-1 li
+\end_layout
+
+\begin_layout Standard
+.—1t
+\end_layout
+
+\begin_layout Standard
+C2>
+\end_layout
+
+\begin_layout Standard
+1>
+\end_layout
+
+\begin_layout Standard
+_ 1,
+\end_layout
+
+\begin_layout Standard
+n I!
+\end_layout
+
+\begin_layout Standard
+®w fj.—-
+\end_layout
+
+\begin_layout Standard
+(1)
+\end_layout
+
+\begin_layout Standard
+x= —22,
+\end_layout
+
+\begin_layout Standard
+V
+\end_layout
+
+\begin_layout Standard
+38
+\end_layout
+
+\begin_layout Standard
+2, (lj
+\end_layout
+
+\begin_layout Standard
+x= —«
+\end_layout
+
+\begin_layout Standard
+5*3^
+\end_layout
+
+\begin_layout Standard
+r x
+\end_layout
+
+\begin_layout Standard
+6,
+\end_layout
+
+\begin_layout Standard
+15
+\end_layout
+
+\begin_layout Standard
+29
+\end_layout
+
+\begin_layout Standard
+x=Z,
+\end_layout
+
+\begin_layout Standard
+y=o;
+\end_layout
+
+\begin_layout Standard
+-■ -cl
+\end_layout
+
+\begin_layout Standard
+3
+\end_layout
+
+\begin_layout Standard
+-* -SJ-
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+a;= —10, t
+\end_layout
+
+\begin_layout Standard
+14 (2))
+\end_layout
+
+\begin_layout Standard
+y
+\end_layout
+
+\begin_layout Standard
+— 2,
+\end_layout
+
+\begin_layout Standard
+y=5t
+\end_layout
+
+\begin_layout Standard
+X-
+\end_layout
+
+\begin_layout Standard
+6.
+\end_layout
+
+\begin_layout Standard
+y^t
+\end_layout
+
+\begin_layout Standard
+丨=4,
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+a) n.
+\end_layout
+
+\begin_layout Standard
+3j ~ 3， a：~3j
+\end_layout
+
+\begin_layout Standard
+1)
+\end_layout
+
+\begin_layout Standard
+if:
+\end_layout
+
+\begin_layout Standard
+(1) 1> (2) 士
+\end_layout
+
+\begin_layout Standard
+8.
+ 63厘米，16厘米，65厘米; 乙车24公里/时.
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+9, 8厘米，6厘米；10,甲车30公里/咏
+\end_layout
+
+\begin_layout Standard
+习■ 8.8(1)
+\end_layout
+
+\begin_layout Standard
+X—6.
+\end_layout
+
+\begin_layout Standard
+“)C：：： 1
+\end_layout
+
+\begin_layout Standard
+i
+\end_layout
+
+\begin_layout Standard
+3
+\end_layout
+
+\begin_layout Standard
+5^ f '―4^ (c=5j fx=一 27 y—6,
+\end_layout
+
+\begin_layout Standard
+it—11^
+\end_layout
+
+\begin_layout Standard
+51
+\end_layout
+
+\begin_layout Standard
+(1) j
+\end_layout
+
+\begin_layout Standard
+15
+\end_layout
+
+\begin_layout Standard
+3, 1>
+\end_layout
+
+\begin_layout Standard
+II H
+\end_layout
+
+\begin_layout Standard
+■j Jn
+\end_layout
+
+\begin_layout Standard
+Jl
+\end_layout
+
+\begin_layout Standard
+g(2)
+\end_layout
+
+\begin_layout Standard
+%众广一 5， cc=t.
+\end_layout
+
+\begin_layout Standard
+n
+\end_layout
+
+\begin_layout Standard
+»=»5,
+\end_layout
+
+\begin_layout Standard
+轚=8,
+\end_layout
+
+\begin_layout Standard
+y
+\end_layout
+
+\begin_layout Standard
+aj
+\end_layout
+
+\begin_layout Standard
+X
+\end_layout
+
+\begin_layout Standard
+"2J
+\end_layout
+
+\begin_layout Standard
+x—4,
+\end_layout
+
+\begin_layout Standard
+19
+\end_layout
+
+\begin_layout Standard
+习 *8_3(2) 1.
+\end_layout
+
+\begin_layout Standard
+CL〉{
+\end_layout
+
+\begin_layout Standard
+C2) {
+\end_layout
+
+\begin_layout Standard
+一 T
+\end_layout
+
+\begin_layout Standard
+^~ 2, {a?—j 一2， j x=一2f
+\end_layout
+
+\begin_layout Standard
+& =1> l !/=»—1> l!/=k 少
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+；t-=—y
+\end_layout
+
+\begin_layout Standard
+—1+vi? 7丨
+\end_layout
+
+\begin_layout Standard
+h卩丨2、
+\end_layout
+
+\begin_layout Standard
+丨XI y拉 ^ j
+\end_layout
+
+\begin_layout Standard
+r ficH3_, f«=^3,
+\end_layout
+
+\begin_layout Standard
+SI 二
+\end_layout
+
+\begin_layout Standard
+<r卩丨ww
+\end_layout
+
+\begin_layout Standard
+,=12, hi 丨 2、
+\end_layout
+
+\begin_layout Standard
+1 cn« 丨 3r
+\end_layout
+
+\begin_layout Standard
+— A | n
+\end_layout
+
+\begin_layout Standard
+Hnu I4J
+\end_layout
+
+\begin_layout Standard
+Hnu 14)
+\end_layout
+
+\begin_layout Standard
+M
+\end_layout
+
+\begin_layout Standard
+g
+\end_layout
+
+\begin_layout Standard
+id、h=2、
+\end_layout
+
+\begin_layout Standard
+yij l々=f3, 丨3;
+\end_layout
+
+\begin_layout Standard
+i • .
+\end_layout
+
+\begin_layout Standard
+^ H
+\end_layout
+
+\begin_layout Standard
+II Jl
+\end_layout
+
+\begin_layout Standard
+, ^
+\end_layout
+
+\begin_layout Standard
+,_ * i、
+\end_layout
+
+\begin_layout Standard
+CO
+\end_layout
+
+\begin_layout Standard
+s=.coj :r 彳 12,
+\end_layout
+
+\begin_layout Standard
+11,r= 1,1、
+\end_layout
+
+\begin_layout Standard
+y=1
+\end_layout
+
+\begin_layout Standard
+W
+\end_layout
+
+\begin_layout Standard
+Sw/
+\end_layout
+
+\begin_layout Standard
+icHl、jd:=El、
+\end_layout
+
+\begin_layout Standard
+^a«H.
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+3_ a) {
+\end_layout
+
+\begin_layout Standard
+16 Is
+\end_layout
+
+\begin_layout Standard
+BMO、 fH=w°
+\end_layout
+
+\begin_layout Standard
+<«
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+CO
+\end_layout
+
+\begin_layout Standard
+II
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+w
+\end_layout
+
+\begin_layout Standard
+(
+\end_layout
+
+\begin_layout Standard
+IT-
+\end_layout
+
+\begin_layout Standard
+■^N 丨 2、
+\end_layout
+
+\begin_layout Standard
+SQD.§
+\end_layout
+
+\begin_layout Standard
+✓pN
+\end_layout
+
+\begin_layout Standard
+x=
+\end_layout
+
+\begin_layout Standard
+± V"5",
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+h1
+\end_layout
+
+\begin_layout Standard
+c3
+\end_layout
+
+\begin_layout Standard
+*s_^
+\end_layout
+
+\begin_layout Standard
+«== ±5.
+ I M«
+\end_layout
+
+\begin_layout Standard
+V
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+SHJ-1jviHIJ-11^ y=-2, 一 12, i w
+\end_layout
+
+\begin_layout Standard
+K<-lJ?丨
+\end_layout
+
+\begin_layout Standard
+@
+\end_layout
+
+\begin_layout Standard
+f 1” 日=3j v=4.
+\end_layout
+
+\begin_layout Standard
+s-lu
+\end_layout
+
+\begin_layout Standard
+I y A2, ( y 时丨2,
+\end_layout
+
+\begin_layout Standard
+^nM
+\end_layout
+
+\begin_layout Standard
+Cl?
+\end_layout
+
+\begin_layout Standard
+3
+\end_layout
+
+\begin_layout Standard
+• * ^
+\end_layout
+
+\begin_layout Standard
+e H
+\end_layout
+
+\begin_layout Standard
+Ei !l I尸
+\end_layout
+
+\begin_layout Standard
+3VS
+\end_layout
+
+\begin_layout Standard
+dl.
+\end_layout
+
+\begin_layout Standard
+f £CH 丨.
+\end_layout
+
+\begin_layout Standard
+II
+\end_layout
+
+\begin_layout Standard
+t
+\end_layout
+
+\begin_layout Standard
+;=±5、^=±5;
+\end_layout
+
+\begin_layout Standard
+f4(3) jJ
+\end_layout
+
+\begin_layout Standard
+inlj (yul- 一 yA ll,
+\end_layout
+
+\begin_layout Standard
+录丨 p It4,«:=-4、
+\end_layout
+
+\begin_layout Standard
+丨4, ty==3、丨3,
+\end_layout
+
+\begin_layout Standard
+<§!
+\end_layout
+
+\begin_layout Standard
+13 ,
+\end_layout
+
+\begin_layout Standard
+3
+\backslash
+/S ,, g ‘ 3tvr
+\end_layout
+
+\begin_layout Standard
+/p
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+a??v
+\end_layout
+
+\begin_layout Standard
+!/=p
+\end_layout
+
+\begin_layout Standard
+M
+\end_layout
+
+\begin_layout Standard
+v_^
+\end_layout
+
+\begin_layout Standard
+•、 _■ ’
+\end_layout
+
+\begin_layout Standard
+r
+\end_layout
+
+\begin_layout Standard
+»Ni
+\end_layout
+
+\begin_layout Standard
+*F 7,
+\end_layout
+
+\begin_layout Standard
+夕'
+\end_layout
+
+\begin_layout Standard
+Htf
+\end_layout
+
+\begin_layout Standard
+If
+\end_layout
+
+\begin_layout Standard
+J-»
+\end_layout
+
+\begin_layout Standard
+%
+\end_layout
+
+\begin_layout Standard
+sf
+\end_layout
+
+\begin_layout Standard
+<«
+\end_layout
+
+\begin_layout Standard
+««
+\end_layout
+
+\begin_layout Standard
+irl
+\end_layout
+
+\begin_layout Standard
+If
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+to
+\end_layout
+
+\begin_layout Standard
+J=t
+\end_layout
+
+\begin_layout Standard
+II
+\end_layout
+
+\begin_layout Standard
+1
+\end_layout
+
+\begin_layout Standard
+li
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+Hn丨-
+\end_layout
+
+\begin_layout Standard
+^ wo-
+\end_layout
+
+\begin_layout Standard
+s {
+\end_layout
+
+\begin_layout Standard
+I e=*l.
+\end_layout
+
+\begin_layout Standard
+skp
+\end_layout
+
+\begin_layout Standard
+*MU 丨 2,
+\end_layout
+
+\begin_layout Standard
+If
+\end_layout
+
+\begin_layout Standard
+<«
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+s®.§
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+b=4、B=丨 4,,=2
+\backslash
+/r、丨 2<3 .r=lj tyA
+\backslash
+/3.,^■I<3、
+\end_layout
+
+\begin_layout Standard
+t , f-.••
+\end_layout
+
+\begin_layout Standard
+L.
+\end_layout
+
+\begin_layout Standard
+rV.
+\end_layout
+
+\begin_layout Standard
+i
+\end_layout
+
+\begin_layout Standard
+CC— '"lj
+\end_layout
+
+\begin_layout Standard
+3.
+\end_layout
+
+\begin_layout Standard
+2：=125, a ~ —27
+\end_layout
+
+\begin_layout Standard
+,1
+\end_layout
+
+\begin_layout Standard
+复习题八A
+\end_layout
+
+\begin_layout Standard
+8.
+ (1) 2^-2^+fc2-8-0； (2)当= 3时，两个不相等的实*解 i-VT
+\end_layout
+
+\begin_layout Standard
+和
+\end_layout
+
+\begin_layout Standard
+当石=4时,两个相等的实数解2和2;当b*5时，无实
+\end_layout
+
+\begin_layout Standard
+软解；费.w-5, «-0； m—7, n=12； 10.
+ 15 厘米，8 厘米；！!• 20埋 米，邛厘米，12厘米；12.大的10小时,小的I5小时，
+\end_layout
+
+\begin_layout Standard
+a) ft r% ©
+\end_layout
+
+\begin_layout Standard
+x—a.
+\end_layout
+
+\begin_layout Standard
+Q
+\end_layout
+
+\begin_layout Standard
+2"J
+\end_layout
+
+\begin_layout Standard
+—
+\end_layout
+
+\begin_layout Standard
+TJ
+\end_layout
+
+\begin_layout Standard
+2.
+ (1)
+\end_layout
+
+\begin_layout Standard
+X-
+\end_layout
+
+\begin_layout Standard
+.T,
+\end_layout
+
+\begin_layout Standard
+V3
+\end_layout
+
+\begin_layout Standard
+sT -il fi ^ " /
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+2,
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+y
+\end_layout
+
+\begin_layout Standard
+1
+\end_layout
+
+\begin_layout Standard
+*fv
+\end_layout
+
+\begin_layout Standard
+X
+\end_layout
+
+\begin_layout Standard
+3：t2v%
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+it— —2^ j ac»=一1+s/ j —
+\end_layout
+
+\begin_layout Standard
+y=2j I ^*=1 + 
+\backslash
+/~B^ 11/—1^-
+\backslash
+/ 3 , 、J 干 VlJj
+\end_layout
+
+\begin_layout Standard
+丨=_3 土 
+\backslash
+^3",
+\end_layout
+
+\begin_layout Standard
+y^l^VT),
+\end_layout
+
+\begin_layout Standard
+/ it — — 2.
+ (a：— —3,
+\end_layout
+
+\begin_layout Standard
+(2)H
+\end_layout
+
+\begin_layout Standard
+尤=去(3 士 v^),
+\end_layout
+
+\begin_layout Standard
+jc=6,
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+2, 8.
+ (1) 土 1, (2) —9，(1) a，>
+\end_layout
+
+\begin_layout Standard
+紈(2) (3) a^<4b, 10上坡速度13公里/时，下坡速度18公
+\end_layout
+
+\begin_layout Standard
+里/时，上坡24公里,下坡12公里，
+\end_layout
+
+\begin_layout Standard
+**»■ —2,
+\end_layout
+
+\begin_layout Standard
+4
+\end_layout
+
+\begin_layout Standard
+6
+\end_layout
+
+\begin_layout Standard
+r ^-jg-j
+\end_layout
+
+\begin_layout Standard
+^=o/ v 4 2
+\end_layout
+
+\begin_layout Standard
+y 13
+\end_layout
+
+\begin_layout Standard
+广1,
+\end_layout
+
+\begin_layout Standard
+y^* lff=-1,
+\end_layout
+
+\begin_layout Standard
+r x=4, j x=5t 
+\end_layout
+
+\begin_layout Standard
+I- tf ^5, 
+\backslash
+ 
+\end_layout
+
+\begin_layout Standard
+第八章测验题 10
+\end_layout
+
+\begin_layout Standard
+x—^3 「尤：^
+\backslash
+ fx= —2,
+\end_layout
+
+\begin_layout Standard
+3
+\end_layout
+
+\begin_layout Standard
+P = ^ f
+\end_layout
+
+\begin_layout Standard
+i w*™ %/h.
+ !■"=一 a/h.
+\end_layout
+
+\begin_layout Standard
+7
+\end_layout
+
+\begin_layout Standard
+a;=5,
+\end_layout
+
+\begin_layout Standard
+i：— 一 3, y=-5.
+\end_layout
+
+\begin_layout Standard
+5
+\end_layout
+
+\begin_layout Standard
+x
+\end_layout
+
+\begin_layout Standard
+B.
+ «"»2, i» >-3,
+\end_layout
+
+\begin_layout Standard
+9.
+ m
+\end_layout
+
+\begin_layout Standard
+s:
+\end_layout
+
+\begin_layout Standard
+T'^
+\end_layout
+
+\begin_layout Standard
+tO.
+ 30公里/时,
+\end_layout
+
+\begin_layout Section-toc*
+总复习题
+\begin_inset space \space{}
+\end_inset
+
+A
+\end_layout
+
+\begin_layout Standard
+(1) 0, 一|■是裉,(2) 一3, 2 是根，(3) —1，1,，-VT, 是根，
+\end_layout
+
+\begin_layout Standard
+(4) 是拫，之.(1)同解，$=17, (2)不同解，无解，= —3, (3)同; 解，0-19, C4)不同解，无解，^=3.
+ 3 (1)任意实数，(2) a<0.
+\end_layout
+
+\begin_layout Standard
+hi 4 ninmNWWfciwt 丨
+\end_layout
+
+\begin_layout Standard
+r
+\end_layout
+
+\begin_layout Standard
+(3) a=D； (4) o>0.
+ ft.
+ (1)
+\end_layout
+
+\begin_layout Standard
+—a,当 a>0 时,
+\end_layout
+
+\begin_layout Standard
+0，当 a=0 时，(2) -i a,当(3<0时7
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+# 礞-1,
+\end_layout
+
+\begin_layout Standard
+3)
+\end_layout
+
+\begin_layout Standard
+c
+\end_layout
+
+\begin_layout Standard
+l, S «>o 时，
+\end_layout
+
+\begin_layout Standard
+0，当a>0时;
+\end_layout
+
+\begin_layout Standard
+1,当 a<0 时，(4) 12,当^<0时,
+\end_layout
+
+\begin_layout Standard
+a)-哈（2)
+\end_layout
+
+\begin_layout Standard
+(3) 2, (4) -3，（5) 3.
+ 6 (1) ^ (2) 0, (3) -10, (4)
+\end_layout
+
+\begin_layout Standard
+(3) a;
+\end_layout
+
+\begin_layout Standard
+8S
+\end_layout
+
+\begin_layout Standard
+7.
+ (1)^= ^ , C2) !T=-i-(ct+&+c) 37 "C ^
+\end_layout
+
+\begin_layout Standard
+9
+\end_layout
+
+\begin_layout Standard
+a)a<!^ (2) 0>备
+\end_layout
+
+\begin_layout Standard
+(1) x^l, (2) (S) z=3 或 x= — 1,
+\end_layout
+
+\begin_layout Standard
+士 (2) sc-=0, (3) -1<oc<1 13 (1) ^>2, (2) ®>-： ⑷ *一4-VI§, (5) (6)疋>1 或疋<-J,
+ (7)
+\end_layout
+
+\begin_layout Standard
+12.
+ a)这輯 ,(S) «<-|,
+\end_layout
+
+\begin_layout Standard
+15
+\end_layout
+
+\begin_layout Standard
+16
+\end_layout
+
+\begin_layout Standard
+x>
+\end_layout
+
+\begin_layout Standard
+j丨
+\end_layout
+
+\begin_layout Standard
+f»+«
+\end_layout
+
+\begin_layout Standard
+~2^~, I+wi—n ~2b~J
+\end_layout
+
+\begin_layout Standard
+2a
+\end_layout
+
+\begin_layout Standard
+18
+\end_layout
+
+\begin_layout Standard
+24
+\end_layout
+
+\begin_layout Standard
+a?"l x一2
+\end_layout
+
+\begin_layout Standard
+t9 <7-1.
+\end_layout
+
+\begin_layout Standard
+20.
+ (2) 36—2o) (3) (4)当鉍"5;当 a:=_|, 0;当*<
+\end_layout
+
+\begin_layout Standard
+5-2a：, 21.
+ (1) 3.391, (2) 0.2806, (3) 18,21, <4) 0.35^.
+\end_layout
+
+\begin_layout Standard
+*3 a> 霉<1 (2) fl：=0, (3)】手0 的一切数/ (4) >1 或
+\end_layout
+
+\begin_layout Standard
+24.
+ (1) ^ (2) ^^-|, (3) I, (4) ic<l, (5) x>lf
+\end_layout
+
+\begin_layout Standard
+(6) 0<®<1 或疋>1.
+ 25.
+ (1) x+f/-5, (2) a^-b
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+26
+\end_layout
+
+\begin_layout Standard
+和
+\end_layout
+
+\begin_layout Standard
+13
+\end_layout
+
+\begin_layout Standard
+lliu + lla
+\end_layout
+
+\begin_layout Standard
+(2) ab
+\end_layout
+
+\begin_layout Standard
+27.
+ (1)
+\end_layout
+
+\begin_layout Standard
+■4iC4-6j/ —
+\backslash
+/ a^—y2,
+\end_layout
+
+\begin_layout Standard
+MFj
+\end_layout
+
+\begin_layout Standard
+M.
+\end_layout
+
+\begin_layout Standard
+(2) —2—V^, (3) ob4-be, (4) VT+V^.
+ 28.
+ (1) ci 一 b a
+\end_layout
+
+\begin_layout Standard
+4v/4TP'), (2)去(5
+\backslash
+/5S+6^13—6(3) VJ-vl,
+\end_layout
+
+\begin_layout Standard
+29 (1) -2asrs, (2) -咐(3) o, (4) (—)•
+\end_layout
+
+\begin_layout Standard
+•ff
+\end_layout
+
+\begin_layout Standard
+30
+\end_layout
+
+\begin_layout Standard
+11
+\end_layout
+
+\begin_layout Standard
+11
+\end_layout
+
+\begin_layout Standard
+(1) ra> -(2) rr,< 一^{円.m4= —1; m< — -^y3 但 — 1,
+\end_layout
+
+\begin_layout Standard
+Q q ________—
+\end_layout
+
+\begin_layout Standard
+(3) w <—了,但 —1; 但 — 1, (4) — 2<2
+\backslash
+/ 6 ,
+\end_layout
+
+\begin_layout Standard
+1)^ (15
+\end_layout
+
+\begin_layout Standard
+2 3
+\end_layout
+
+\begin_layout Standard
+3
+\end_layout
+
+\begin_layout Standard
+c-
+\end_layout
+
+\begin_layout Standard
+«_J II .1
+\end_layout
+
+\begin_layout Standard
+2, 4, ⑶ 1, -|p ⑶-
+\end_layout
+
+\begin_layout Standard
+(2) 1, (3) 1, (4) 1 • 33
+\end_layout
+
+\begin_layout Standard
+2?
+\end_layout
+
+\begin_layout Standard
+⑴J = (2)- ?产一
+\end_layout
+
+\begin_layout Standard
+o
+\end_layout
+
+\begin_layout Standard
+2, (3)
+\end_layout
+
+\begin_layout Standard
+y^0s
+\end_layout
+
+\begin_layout Standard
+STy-
+\end_layout
+
+\begin_layout Standard
+0)
+\end_layout
+
+\begin_layout Standard
+3,
+\end_layout
+
+\begin_layout Standard
+36,只窗，15 天.37.
+ 6 天.38- 11, 13, 15,
+\end_layout
+
+\begin_layout Standard
+父=3, (x-
+\end_layout
+
+\begin_layout Standard
+产2, t
+\end_layout
+
+\begin_layout Standard
+39 4,5, 6.
+ 40.
+ 452.
+ m.
+ 5?|、42.
+ 6 小时，*13.进水 5 小时,出 水5小时.，
+\end_layout
+
+\begin_layout Standard
+x
+\end_layout
+
+\begin_layout Section-toc*
+总复习题
+\begin_inset space \space{}
+\end_inset
+
+B
+\end_layout
+
+\begin_layout Standard
+0-)无怠义，文=2，零，-2；⑵无啻义，一0, 二一2.
+ 2.
+ (1) ^>1; (2) $<3且文妾土2.
+ 3 (1)务:
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+P-b2
+\end_layout
+
+\begin_layout Standard
+y2
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+ (3) (4)驾 时，立，当一2<a<2 时，■^当 ac
+\end_layout
+
+\begin_layout Standard
+a1^3 - - ■ …a
+\end_layout
+
+\begin_layout Standard
+一2时，|; (5) 0； (6) 0.
+ 4.
+ 13—8#, 5 -3.
+ 6 —1.
+\end_layout
+
+\begin_layout Standard
+7 (1) 0, 3, 1 (增根)；(2) 20, 4(增根)；(3) -2, -6, -4 + VT：
+\end_layout
+
+\begin_layout Standard
+x=4.
+\end_layout
+
+\begin_layout Standard
+(4) 士 2, 土 3.
+ 8 (1)
+\end_layout
+
+\begin_layout Standard
+x — 7y j a^= 一7f g = 4, ly=—4; " ty = 5.
+\end_layout
+
+\begin_layout Standard
+⑶
+\end_layout
+
+\begin_layout Standard
+3)
+\end_layout
+
+\begin_layout Standard
+(
+\end_layout
+
+\begin_layout Standard
+j —2f j s:=-94- 
+\backslash
+/§7^ ^x = 9 — , y = — 2^ t y~3^ 1 y=9— 
+\backslash
+/87, I«/=9-f-
+\backslash
+/S7； 尤=-4, jj：--10-J-3
+\backslash
+/Il^ tx=~10Ss/n, y^5, (^=-10-3
+\backslash
+/11, ij/=-104-3
+\backslash
+/Il; (5)
+\end_layout
+
+\begin_layout Standard
+f^-72 A 
+\end_layout
+
+\begin_layout Standard
+* .y~ 一 2 _ 3,
+\end_layout
+
+\begin_layout Standard
+fx -5,
+\end_layout
+
+\begin_layout Standard
+(4) j j
+\end_layout
+
+\begin_layout Standard
+h 為一 4,
+\end_layout
+
+\begin_layout Standard
+r^=0f 
+\end_layout
+
+\begin_layout Standard
+y 一，
+\end_layout
+
+\begin_layout Standard
+9.
+ («4-l)3+2(a：+l)+3.
+ IO ^-1, £=-1, C-l.
+\end_layout
+
+\begin_layout Standard
+* ----
+\end_layout
+
+\begin_layout Standard
+2J, •
+\end_layout
+
+\begin_layout Standard
+11 (K—：k+2>2, 12 ^-1.
+ 13 ^2-5, a=3m W Jf-Z,
+\end_layout
+
+\begin_layout Standard
+而=而=一_^, 15.
+ o T b=^St ID.甲 1,5 公里/时j 乙 2 公里/时，
+\end_layout
+
+\begin_layout Standard
+20甲I2天，乙10天厂内8天，
+\end_layout
+
+\begin_layout Section-toc*
+总测验题
+\end_layout
+
+\begin_layout Standard
+⑴ a、ft 同号；⑶以，心异号；（3) «>f；j ?>>0 ^ach, b<.0;⑷ atOj fc —0; C5) h^Q, 2 (1)没有意义彳=土2*，
+WM, ~2<x<2； (：?) x>0 且 #4, 3.
+ (1) a*bc
+\backslash
+ ⑵ ft.
+ (1) 8; (2) 1， 5.
+ (1) 6;
+\end_layout
+
+\begin_layout Standard
+<2) I.
+ 6.
+ 2(t>2),无意义= — 2U‘<2
+\backslash
+ 7.
+ (1) 1, -i 两
+\end_layout
+
+\begin_layout Standard
+个非实数裉；(2) 8, (1)州 1 ^=-25； (2) m=^l； (3) rn-7;
+\end_layout
+
+\begin_layout Standard
+(4) jh = 15.
+ 9.
+ ^=2j 0：=3土
+\backslash
+/^, x=3, f x~5j t d；—4+
+\backslash
+Zj.Oj
+\end_layout
+
+\begin_layout Standard
+{
+\end_layout
+
+\begin_layout Standard
+11 】 , _ 1，ly; 一 i«/—3 — v 10j
+\end_layout
+
+\begin_layout Standard
+乙S里/时，
+\end_layout
+
+\begin_layout Standard
+io a) ^2jj；⑵
+\end_layout
+
+\begin_layout Standard
+如-vTci’说8里,和0里/时,
+\end_layout
+
+\end_body
+\end_document

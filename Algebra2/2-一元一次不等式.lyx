@@ -1,0 +1,8885 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 数理化自学丛书－代数
+\options oneside
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize a5paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 3
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+一元一次不等式
+\end_layout
+
+\begin_layout Section
+不等式
+\end_layout
+
+\begin_layout Standard
+在第一章里,我们已经学过,用等号连结两个代数式所成的式子,叫做等式.现在来研究用不等号“
+\begin_inset Formula $>$
+\end_inset
+
+”或者“
+\begin_inset Formula $<$
+\end_inset
+
+”连结两个代数式所成的式子.
+\end_layout
+
+\begin_layout Subsection
+不等式的意义
+\end_layout
+
+\begin_layout Standard
+在代数第一册里,比较有理数大小的时候,我们用过
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $3>-1$
+\end_inset
+
+,
+\begin_inset Formula $0>-2$
+\end_inset
+
+,
+\begin_inset Formula $-12<-9$
+\end_inset
+
+,
+\begin_inset Formula $7<13$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+等来表示两个数之间的大小关系.为了表示两个代数式的值的大小,我们也可把这两个代数式用不等号“
+\begin_inset Formula $>$
+\end_inset
+
+”或“
+\begin_inset Formula $<$
+\end_inset
+
+”连结起来.例如,我们可以用
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $a+1<3$
+\end_inset
+
+,
+\begin_inset Formula $a+5>a+1$
+\end_inset
+
+,
+\begin_inset Formula $x-2>7$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{x-5}{2}<\cfrac{1}{2}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+等式子分别表示不等号左边的式子的值大于或小于不等号右边的式子的值.
+\end_layout
+
+\begin_layout Standard
+象这样,用不等号“
+\begin_inset Formula $>$
+\end_inset
+
+”或者“
+\begin_inset Formula $<$
+\end_inset
+
+”连结两个代数式所成的式子叫做
+\series bold
+不等式
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+绝对不等式和条件不等式
+\end_layout
+
+\begin_layout Standard
+在不等式
+\begin_inset Formula $a+5>a+1$
+\end_inset
+
+里,我们可以看到,不论
+\begin_inset Formula $a$
+\end_inset
+
+取任何数值,这个不等式总是成立的.例如,
+\begin_inset Formula $a=3$
+\end_inset
+
+的时候,得到
+\begin_inset Formula $8>4$
+\end_inset
+
+;
+\begin_inset Formula $a=0$
+\end_inset
+
+的时候,得到
+\begin_inset Formula $5>1$
+\end_inset
+
+;
+\begin_inset Formula $a=-2$
+\end_inset
+
+的时候,可以得到
+\begin_inset Formula $3>-1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+但是,在不等式
+\begin_inset Formula $x-2>7$
+\end_inset
+
+里,我们可以看到,
+\begin_inset Formula $x$
+\end_inset
+
+只有取大于
+\begin_inset Formula $9$
+\end_inset
+
+的数值,这个不等式才能够成立.例如,当
+\begin_inset Formula $x=10$
+\end_inset
+
+时,这个不等式成立;而当
+\begin_inset Formula $x=9$
+\end_inset
+
+或者
+\begin_inset Formula $x=8$
+\end_inset
+
+时,这个不等式就不成立.这就是说,前一个不等式里字母可取的值不受任何限制,而后一个不等式里字母可取的值却受到数值范围的限制.
+\end_layout
+
+\begin_layout Standard
+如果不论用什么数值代替不等式中的字母,它都能够成立,这样的不等式叫做
+\series bold
+绝对不等式
+\series default
+.例如,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x+7>x-1$
+\end_inset
+
+,
+\begin_inset Formula $a-2<a+5$
+\end_inset
+
+,
+\begin_inset Formula $a^{2}+1>0$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+等等,都是绝对不等式.
+\end_layout
+
+\begin_layout Standard
+两边都是数字而能够成立的不等式,也叫做绝对不等式.例如,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $7>2$
+\end_inset
+
+,
+\begin_inset Formula $3>0$
+\end_inset
+
+,
+\begin_inset Formula $-5<-4$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+等,也都是绝对不等式,
+\end_layout
+
+\begin_layout Standard
+如果只有用某些数值范围内的数值代替不等式中的字母,它才能够成立,这样的不等式叫做
+\begin_inset Formula $条件不等式$
+\end_inset
+
+.例如,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $3x>1$
+\end_inset
+
+,
+\begin_inset Formula $x+1>0$
+\end_inset
+
+,
+\begin_inset Formula $3x-5<\cfrac{x}{2}$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+等等,都是条件不等式,
+\end_layout
+
+\begin_layout 例*
+判断下列不等式中,哪些是绝对不等式？哪些是条件不等式？为什么？
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $2a+9>2a-3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $x+1>0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $x^{2}+1>0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $|-2|<|5|$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $|a|>0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+(1)
+\begin_inset space \space{}
+\end_inset
+
+因为不论
+\begin_inset Formula $a$
+\end_inset
+
+是什么数值,这个不等式总是成立,所以不等式
+\begin_inset Formula $2a+9>2a-3$
+\end_inset
+
+是绝对不等式.
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+因为
+\begin_inset Formula $x$
+\end_inset
+
+只有取大于
+\begin_inset Formula $-1$
+\end_inset
+
+的数值,这个不等式才能够成立,所以不等式
+\begin_inset Formula $x+1>0$
+\end_inset
+
+是条件不等式.
+\begin_inset Newline newline
+\end_inset
+
+(3)
+\begin_inset space \space{}
+\end_inset
+
+因为不论
+\begin_inset Formula $x$
+\end_inset
+
+是什么数值,
+\begin_inset Formula $x^{2}$
+\end_inset
+
+都不是负数,因此,
+\begin_inset Formula $x^{2}+1$
+\end_inset
+
+的值总是大于零;这就是说,不论用什么数值代替不等式
+\begin_inset Formula $x^{2}+1>0$
+\end_inset
+
+中的
+\begin_inset Formula $x$
+\end_inset
+
+,这个不等式都能眵成立,所以不等式
+\begin_inset Formula $x^{2}+1>0$
+\end_inset
+
+是绝对不等式.
+\end_layout
+
+\begin_layout Standard
+(4)
+\begin_inset space \space{}
+\end_inset
+
+因为
+\begin_inset Formula $|-2|=2$
+\end_inset
+
+,
+\begin_inset Formula $|5|=5$
+\end_inset
+
+,而
+\begin_inset Formula $2<5$
+\end_inset
+
+,所以不等式
+\begin_inset Formula $|-2|<|5|$
+\end_inset
+
+是绝对不等式.
+\end_layout
+
+\begin_layout Standard
+(5)
+\begin_inset space \space{}
+\end_inset
+
+因为只有当
+\begin_inset Formula $a$
+\end_inset
+
+是正数或者负数时,
+\begin_inset Formula $|a|>0$
+\end_inset
+
+;而当
+\begin_inset Formula $a=0$
+\end_inset
+
+时,
+\begin_inset Formula $|a|=0$
+\end_inset
+
+,不等式
+\begin_inset Formula $|a|>0$
+\end_inset
+
+不成立,所以不等式
+\begin_inset Formula $|a|>0$
+\end_inset
+
+是条件不等式.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+用不等号“>”或者“<”连结下列各题中的两个式子:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $5$
+\end_inset
+
+和
+\begin_inset Formula $3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-5$
+\end_inset
+
+和
+\begin_inset Formula $-3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $5$
+\end_inset
+
+和
+\begin_inset Formula $-3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-5$
+\end_inset
+
+和
+\begin_inset Formula $3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|5|$
+\end_inset
+
+和
+\begin_inset Formula $|3|$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|-5|$
+\end_inset
+
+和
+\begin_inset Formula $|-3|$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|-5|$
+\end_inset
+
+和
+\begin_inset Formula $3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-5$
+\end_inset
+
+和
+\begin_inset Formula $|-3|$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x+7$
+\end_inset
+
+和
+\begin_inset Formula $x+2$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2a-5$
+\end_inset
+
+和
+\begin_inset Formula $2a-9$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2x-3$
+\end_inset
+
+和
+\begin_inset Formula $2x+1$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $3a-2$
+\end_inset
+
+和
+\begin_inset Formula $3a+11$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $(x+2)^{2}>0$
+\end_inset
+
+是不是绝对不等式？为什么？
+\begin_inset Newline newline
+\end_inset
+
+[提示:要考虑
+\begin_inset Formula $x=-2$
+\end_inset
+
+时,结果怎样？]
+\end_layout
+
+\begin_layout EnumIndent
+为什么说,
+\begin_inset Formula $|a|+1>0$
+\end_inset
+
+是绝对不等式？
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+判断下列不等式中,哪些是绝对不等式？哪些是条件不等式？为什么？
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $5a-8<5a+2$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-a+7>-a+3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $3a^{2}+2>0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x-1<0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-x^{2}-1<0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2x-4>0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-3x>5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|-9|>|2|$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+不等式的性质
+\end_layout
+
+\begin_layout Standard
+我们知道:在等式
+\begin_inset Formula $a=b$
+\end_inset
+
+的两边,如果加上、减去、乘以或者除以(除数不能是零)相同的数,得到的结果仍旧是一个等式.这也就是说,在等式的两边作上述这些运算,等号是不变的.
+\end_layout
+
+\begin_layout Standard
+现在我们来研究,在不等式
+\begin_inset Formula $a>b$
+\end_inset
+
+(或者
+\begin_inset Formula $a<b$
+\end_inset
+
+)的两边作这些运算,将会产生怎样的结果？
+\end_layout
+
+\begin_layout Subsection
+不等式的两边加上(或减去)一个相同的数
+\end_layout
+
+\begin_layout Standard
+我们看下面的例子:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $5>3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $5>3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2=2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(+$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-4=-4$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(+$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $7>5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1>-1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(加上
+\begin_inset Formula $-4$
+\end_inset
+
+,就是减去
+\begin_inset Formula $4$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-4<-3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-4<-3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $5=5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(+$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-2=-2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(+$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1<2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-6<-5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(加上
+\begin_inset Formula $-2$
+\end_inset
+
+,就是减去
+\begin_inset Formula $2$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+比较上面这些例子中的每两个不等式,可以看到:在不等式的两边同时加上一个相同的数,得到的仍旧是一个不等式,而且不等号的方向不变.
+\end_layout
+
+\begin_layout Standard
+一般地,我们有以下的结论:
+\end_layout
+
+\begin_layout 性质
+在不等式的两边加上(或减去)一个相同的数,不等号的方向不变.
+\end_layout
+
+\begin_layout 性质
+这个性质,用式子来表示,就是:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Flex MathBox
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{0.7
+\backslash
+hsize}{[cc]{
+\backslash
+textbf{不等式的性质1}}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering{}
+\end_layout
+
+\end_inset
+
+如果
+\begin_inset Formula $a>b$
+\end_inset
+
+,那末
+\begin_inset Formula $a\pm c>b\pm c$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Plain Layout
+如果
+\begin_inset Formula $a<b$
+\end_inset
+
+,那末
+\begin_inset Formula $a\pm c<b\pm c$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+因为当整式中的字母取定了确定的数值时,这个整式表示一个确定的数,所以从上面这一性质还可以推出一个结论:
+\end_layout
+
+\begin_layout Standard
+在不等式的两边,加上(或减去)一个相同的整式,不等式的方向不变.
+\end_layout
+
+\begin_layout Example
+在下列不等式的两边各加上指定的数(或者整式),会得到怎样的不等式？
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $a-b>0$
+\end_inset
+
+,加上
+\begin_inset Formula $b$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $x+3<0$
+\end_inset
+
+,减去
+\begin_inset Formula $3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+根据不等式的性质可以得到:
+\begin_inset Newline newline
+\end_inset
+
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $a-b+b>0+b,\quad\therefore\quad a>b.$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $x+3-3<0-3,\quad\therefore\quad x<-3$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+从上面这个例子可以看到,在第(1)题
+\begin_inset Formula $a-b>0$
+\end_inset
+
+中,不等号左边的
+\begin_inset Formula $-b$
+\end_inset
+
+移到了右边,并且改变了符号;在第(2)题
+\begin_inset Formula $x+3<0$
+\end_inset
+
+中,左边的
+\begin_inset Formula $3$
+\end_inset
+
+也变号后移到了右边.这种变形和解一元一次方程中的移项法则是一样的.
+\begin_inset Newline newline
+\end_inset
+
+因此,根据不等式的这个性质,我们得到
+\series bold
+解不等式的移项法则
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+不等式中的任何一项,都可以把它的符号改变后,从不等号的一边移到另一边.
+\end_layout
+
+\begin_layout Subsection
+不等式的两边都乘以(或除以)一个相同的正数
+\end_layout
+
+\begin_layout Standard
+我们看下面的例子:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $18>12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $18>12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{1}{2}=\cfrac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2=2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(\times$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(\times$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $36>24$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $9>6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(乘以
+\begin_inset Formula $\cfrac{1}{2}$
+\end_inset
+
+,就是除以
+\begin_inset Formula $2$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-9<-6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-9<-16$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{1}{3}=\cfrac{1}{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3=3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(\times$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(\times$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-27<-18$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-3<-2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(乘以
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+,就是除以
+\begin_inset Formula $3$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+比较上面这些例子中的每两个不等式,可以看到:在不等式的两边都乘以(或除以)一个相同的正数,得到的仍旧是一个不等式,而且不等号的方向不变.
+\end_layout
+
+\begin_layout Standard
+一般地,我们有以下的结论:
+\end_layout
+
+\begin_layout 性质
+不等式的两边都乘以(或除以)一个相同的正数,不等号的方向不变.
+\end_layout
+
+\begin_layout Standard
+这个性质:用式子来表示,就是:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Flex MathBox
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{0.7
+\backslash
+hsize}{[cc]{
+\backslash
+textbf{不等式的性质2}}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering{}
+\end_layout
+
+\end_inset
+
+如果
+\begin_inset Formula $a>b$
+\end_inset
+
+,
+\begin_inset Formula $c>0$
+\end_inset
+
+,那末
+\begin_inset Formula $ac>bc$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Plain Layout
+如果
+\begin_inset Formula $a<b$
+\end_inset
+
+,
+\begin_inset Formula $c>0$
+\end_inset
+
+,那末
+\begin_inset Formula $ac<bc$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+在下列不等式的两边各乘以或除以指定的正数,会得到怎样的不等式？
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $\cfrac{x}{3}<5$
+\end_inset
+
+,乘以
+\begin_inset Formula $3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $2x>-4$
+\end_inset
+
+,除以
+\begin_inset Formula $2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+根据不等式的性质2,可以得到:
+\end_layout
+
+\begin_layout Standard
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{x}{3}\times3<5\times3,\quad\therefore\quad x<15$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $2x\times\cfrac{1}{2}>(-4)\times\cfrac{1}{2},\quad\therefore\quad x>-2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+不等式的两边都乘以(或除以)一个相同的负数
+\end_layout
+
+\begin_layout Standard
+我们看下面的例子:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $18>12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $18>12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-\cfrac{1}{2}=-\cfrac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-2=-2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(\times$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(\times$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-36<-24$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-9<-6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-9<-6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-9<-16$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-\cfrac{1}{3}=-\cfrac{1}{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-3=-3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(\times$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(\times$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $27>18$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3>2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+比较上面这些例子中的每两个不等式,可以看到:在不等式的两边都乘以(或除以)一个相同的负数,得到的仍旧是一个不等式,但是不等号的方向与原来的相反.
+\end_layout
+
+\begin_layout Standard
+一般地,我们有以下的结论:
+\end_layout
+
+\begin_layout 性质
+不等式的两边都乘以(或除以)一个相同的负数,不等号的方句改变.
+\end_layout
+
+\begin_layout Standard
+这个性质,用式子来表示,就是:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Flex MathBox
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{0.7
+\backslash
+hsize}{[cc]{
+\backslash
+textbf{不等式的性质3}}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering{}
+\end_layout
+
+\end_inset
+
+如果
+\begin_inset Formula $a>b$
+\end_inset
+
+,
+\begin_inset Formula $c<0$
+\end_inset
+
+,那末
+\begin_inset Formula $ac<bc$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Plain Layout
+如果
+\begin_inset Formula $a<b$
+\end_inset
+
+,
+\begin_inset Formula $c<0$
+\end_inset
+
+,那末
+\begin_inset Formula $ac>bc$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+应该注意,不等式的性质1和性质2与等式的性质相同,但是不等式的性质3却与等式的性质不同,另外,在等式的两边都乘以0,结果还是等式(
+\begin_inset Formula $0=0$
+\end_inset
+
+),但是在不等式的两边都乘以
+\begin_inset Formula $0$
+\end_inset
+
+,这个不等式就也变成了等式.例如,
+\begin_inset Formula $6>5$
+\end_inset
+
+,但是
+\begin_inset Formula $6\times0=5\times0$
+\end_inset
+
+.所以不等式的两边都乘以一个相同的数时,必须先判定这个乘数是正数、负数还是0,然后正确地应用以上的性质.
+\end_layout
+
+\begin_layout Example
+在下列不等式的两边各乘以或除以指定的负数,会得到怎样的不等式？
+\end_layout
+
+\begin_layout Standard
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $-\cfrac{x}{5}-1$
+\end_inset
+
+,乘以
+\begin_inset Formula $-5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $-4x<12$
+\end_inset
+
+,除以
+\begin_inset Formula $-4$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+根据不等式的性质3,可以得到:
+\begin_inset Newline newline
+\end_inset
+
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\Big(-\cfrac{x}{5}\Big)\times(-5)<(-1)\times(-5),\quad\therefore\quad x<5$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $(-4x)\times\Big(-\cfrac{1}{4}\Big)>12\times\Big(-\cfrac{1}{4}\Big),\quad\therefore\quad x>-3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+在下列各不等式的两边各加上指定的数,所得的不等式是否仍旧成立？
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $9>5$
+\end_inset
+
+,加上
+\begin_inset Formula $3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-9<5$
+\end_inset
+
+,加上
+\begin_inset Formula $-5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-9<-5$
+\end_inset
+
+,加上
+\begin_inset Formula $4$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-\cfrac{1}{2}>-\cfrac{2}{3}$
+\end_inset
+
+,加上
+\begin_inset Formula $\cfrac{1}{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+把下列各不等式的两边各乘以指定的数,写出仍旧能够成立的不等式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $8>3$
+\end_inset
+
+,乘以
+\begin_inset Formula $2$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $8>3$
+\end_inset
+
+,乘以
+\begin_inset Formula $－2$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-5<2$
+\end_inset
+
+,乘以
+\begin_inset Formula $5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-5<2$
+\end_inset
+
+,乘以
+\begin_inset Formula $-5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-4>-8$
+\end_inset
+
+,乘以
+\begin_inset Formula $\cfrac{1}{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-4>-8$
+\end_inset
+
+,乘以
+\begin_inset Formula $-\cfrac{1}{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a<b$
+\end_inset
+
+,乘以
+\begin_inset Formula $-1$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $m>n$
+\end_inset
+
+,乘以
+\begin_inset Formula $-3$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+把下列各不等式的两边各除以指定的数,写出仍旧能眵成立的不等式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $16>12$
+\end_inset
+
+,除以
+\begin_inset Formula $2$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $16>12$
+\end_inset
+
+,除以
+\begin_inset Formula $-2$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-4<-3$
+\end_inset
+
+,除以
+\begin_inset Formula $-1$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $6>-9$
+\end_inset
+
+,除以
+\begin_inset Formula $-3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-25<-10$
+\end_inset
+
+,除以
+\begin_inset Formula $-5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-a<-b$
+\end_inset
+
+,除以
+\begin_inset Formula $-1$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+已知
+\begin_inset Formula $a>b$
+\end_inset
+
+,用不等号“
+\begin_inset Formula $>$
+\end_inset
+
+”或者“
+\begin_inset Formula $<$
+\end_inset
+
+”连结下列各题中的两个式子上:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $a+5$
+\end_inset
+
+和
+\begin_inset Formula $b+5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a-b$
+\end_inset
+
+和
+\begin_inset Formula $0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-7a$
+\end_inset
+
+和
+\begin_inset Formula $-7b$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{a}{3}$
+\end_inset
+
+和
+\begin_inset Formula $\cfrac{b}{3}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{a}{-5}$
+\end_inset
+
+和
+\begin_inset Formula $\cfrac{b}{-5}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-\cfrac{2}{3}a$
+\end_inset
+
+和
+\begin_inset Formula $-\cfrac{2}{3}b$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+一元一次不等式和它的解法
+\end_layout
+
+\begin_layout Subsection
+一元一次不等式的意义
+\end_layout
+
+\begin_layout Standard
+我们来看下面的问题:
+\end_layout
+
+\begin_layout Standard
+什么数与
+\begin_inset Formula $1$
+\end_inset
+
+的和大于
+\begin_inset Formula $3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+如果用字母
+\begin_inset Formula $x$
+\end_inset
+
+表示所求的数,这个问题也就是问:当
+\begin_inset Formula $x$
+\end_inset
+
+取什么数值时,不等式
+\begin_inset Formula 
+\begin{equation}
+x+1>3
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+能够成立？
+\end_layout
+
+\begin_layout Standard
+象方程一样,我们把不等式(1)中的这个字母
+\begin_inset Formula $x$
+\end_inset
+
+叫做未知数.在这个不等式里,只含有一个未知数,而且在不等号两边的两个整式中,只含有未知数的一次项,这样的不等式,叫做
+\series bold
+一元一次不等式
+\series default
+.例如下面这些不等式,对未知数
+\begin_inset Formula $x$
+\end_inset
+
+(或者y)来说,都是一元一次不等式:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{x}{4}<5$
+\end_inset
+
+;
+\begin_inset Formula $3(1-y)>2(y-6)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+一元一次不等式的解和解的集合
+\end_layout
+
+\begin_layout Standard
+在上面这个不等式
+\begin_inset Formula $x+1>3$
+\end_inset
+
+中,容易看出,用大于
+\begin_inset Formula $2$
+\end_inset
+
+的任何一个数(如
+\begin_inset Formula $2.1$
+\end_inset
+
+,
+\begin_inset Formula $3$
+\end_inset
+
+,
+\begin_inset Formula $3\cfrac{1}{2}$
+\end_inset
+
+,
+\begin_inset Formula $\cdots$
+\end_inset
+
+)代替
+\begin_inset Formula $x$
+\end_inset
+
+,这个不等式都能成立;而用等于
+\begin_inset Formula $2$
+\end_inset
+
+或者小于
+\begin_inset Formula $2$
+\end_inset
+
+的任何一个数代替
+\begin_inset Formula $x$
+\end_inset
+
+,这个不等式都不能成立.
+\end_layout
+
+\begin_layout Standard
+在一个含有未知数的不等式中,能够使不等式成立的未知数的值,叫做不等式的解.例如
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $2.1$
+\end_inset
+
+,
+\begin_inset Formula $3$
+\end_inset
+
+,
+\begin_inset Formula $3\cfrac{1}{2}$
+\end_inset
+
+,
+\begin_inset Formula $\cdots$
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+都是不等式
+\begin_inset Formula $x+1>3$
+\end_inset
+
+的解.很明显,不等式
+\begin_inset Formula $x+1>3$
+\end_inset
+
+有无数多个解.通常我们把这些解的全体,叫做这个不等式的
+\series bold
+解的集合
+\series default
+,或者简单地把它叫做这个不等式的
+\series bold
+解集
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+不等式
+\begin_inset Formula $x+1>3$
+\end_inset
+
+的解集(比
+\begin_inset Formula $2$
+\end_inset
+
+大的数的全体)可以记作
+\begin_inset Formula $x>2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+求不等式的解的集合的过程叫做
+\series bold
+解不等式
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+在第一章里,我们知道任何一个有理数都可以用数轴上的一个点表示出来.不等式的解的集合也可以在数轴上直观地表示出来,例如,不等式的解的集合是就可以用数轴上表示
+\begin_inset Formula $2$
+\end_inset
+
+的点的右边部分来表示(图2.1).图中画的一个圆圈,表示不包括
+\begin_inset Formula $2$
+\end_inset
+
+这一点.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-072.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+类似地,如果不等式的解的集合是
+\begin_inset Formula $x<-2$
+\end_inset
+
+,就可以象图2.2中所画的那样来表示.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-073-1.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+一元一次不等式的解法
+\end_layout
+
+\begin_layout Standard
+以前我们学习解一元一次方程时已经知道,解一元一次方程的方法主要是应用方程的两个性质,把所给的方程变形成和它同解的形式象那样的最简单的一元一次方程.解一元一次不等式
+的方法和它一样,我们只要正确地应用§2.2里讲过的不等式的三个性质,把它变形成形式象
+\begin_inset Formula $x>a$
+\end_inset
+
+或者
+\begin_inset Formula $x<a$
+\end_inset
+
+那样的最简单的一元一次不等式,这种不等式救表示了所给不等式的解的集合.下面我们举例来说明.
+\end_layout
+
+\begin_layout Example
+解不等式:
+\begin_inset Formula $3-2x<7$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+根据移项法则,把
+\begin_inset Formula $3$
+\end_inset
+
+移到右边,得
+\begin_inset Formula $-2x<4$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+两边都除以
+\begin_inset Formula $-2$
+\end_inset
+
+,得
+\begin_inset Formula $x>-2$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+这个不等式的解集可以象图2.3那祥,在数轴上表示出来.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-073-2.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 注意*
+把不等式
+\begin_inset Formula $-2x<4$
+\end_inset
+
+的两边都除以
+\begin_inset Formula $-2$
+\end_inset
+
+以后,得到的一个不等式是
+\begin_inset Formula $x>-2$
+\end_inset
+
+,不等号的方向改变了.
+\end_layout
+
+\begin_layout Standard
+从这个例子可以知道,不等式
+\begin_inset Formula $3-x<7$
+\end_inset
+
+根据不等式的性质逐步变形成不等式
+\begin_inset Formula $-2x<4$
+\end_inset
+
+和它们的解集是相同的.象这样的两个不等式
+\begin_inset Formula $3-2x<7$
+\end_inset
+
+和
+\begin_inset Formula $x>-2$
+\end_inset
+
+,叫做
+\series bold
+同解不等式
+\series default
+.
+\end_layout
+
+\begin_layout Example
+解不等式:
+\begin_inset Formula $2(5-3x)>3(4x+2)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+去括号,得
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $10-6x>12x+6$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+移项,得
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $-6x-12x>6-10$
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+合并同类项,得
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $-18x>-4$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+两边都除以
+\begin_inset Formula $-18$
+\end_inset
+
+.得
+\begin_inset Formula $x<\cfrac{4}{18}$
+\end_inset
+
+,就是
+\begin_inset Formula $x<\cfrac{2}{9}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+这个不等式的解集在数轴上表示如图2.3所示.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "48col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-074-1.png
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "48col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-074-2.png
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 说明*
+为了约简分数,从
+\begin_inset Formula $x<\cfrac{4}{18}$
+\end_inset
+
+得出
+\begin_inset Formula $x<\cfrac{2}{9}$
+\end_inset
+
+,必须分步写出,不能错误地写成
+\begin_inset Formula $x<\cfrac{4}{18}<\cfrac{2}{9}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+解不等式:
+\begin_inset Formula $2(x+1)+\cfrac{x-2}{3}<\cfrac{7x}{2}-1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+去分母,得
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $12(x+1)+2(x-2)<21x-6$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+去括号,得
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $12x+12+2x-4<21x-6$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+移项,得
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $12x+2x-21x<-6-12+4$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+合并同类项,得
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $07x<-14$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+两边都除以-7,得
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x>2$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+这个不等式的解集在数轴上表示如图2.5所示.
+\end_layout
+
+\begin_layout Standard
+从上面的例子可以看出,
+\series bold
+解一元一次不等式的一般步骤
+\series default
+如下:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex MathBox
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{0.92
+\backslash
+hsize}{[cc]{
+\backslash
+textbf{解分式方程的一般步骤}}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+leftmargin=3em,align=right,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+label=(
+\backslash
+arabic*)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+去分母;
+\end_layout
+
+\begin_layout EnumIndent
+去括号;
+\end_layout
+
+\begin_layout EnumIndent
+移项;
+\end_layout
+
+\begin_layout EnumIndent
+合并同类项;
+\end_layout
+
+\begin_layout EnumIndent
+不等式的两边都除以未知数的系数(除数是正数,不等号的方向不变;除数是负数,不等号的方命改变).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+由于不等式的形式不同,所以在解不等式时,上面的步骤并不一定都要用到,并且也不一定都要按照上面的顺序进行演算.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+解下列各不等式,并且在数轴上把不等式的解集表示出来;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2,,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $2x-3>7$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $6x+4<2x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $8-2x>3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $10<12-x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $3(x+2)>6$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{x}{2}+1<4$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{x+5}{2}>\cfrac{1}{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{2x-3}{7}<\cfrac{3x+2}{4}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{2(4x-3)}{3}>\cfrac{5(3x+1)}{4}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{5(y-1)}{6}-1>\cfrac{2(y+1)}{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+解下列不等式:
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $\cfrac{x-5}{2}-\cfrac{x+7}{6}>\cfrac{5+x}{3}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $\cfrac{15-x}{2}-\cfrac{7-x}{6}>\cfrac{5-x}{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+(1)
+\begin_inset space \space{}
+\end_inset
+
+去分母,得
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $3x-15-x-7>10+2x$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+移项,得
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3x-x-2x>10+15+7$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+合并同类项,得
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $0\cdot x>32$
+\end_inset
+
+,
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+不论
+\begin_inset Formula $x$
+\end_inset
+
+取什么数,这个不等式都不成立.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad$
+\end_inset
+
+原不等式没有解.
+\end_layout
+
+\begin_layout Standard
+\noindent
+(2)
+\begin_inset space \space{}
+\end_inset
+
+去分母,得
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $45-3x-7+x>10-2x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+移项,得
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $-3x+x+3x>10-45+7$
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+合并同类项,得
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $0\cdot x>-28$
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+不论
+\begin_inset Formula $x$
+\end_inset
+
+为任何值,这个不等式总是成立.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad$
+\end_inset
+
+原不等式是绝对不等式.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+解不等式熟练以后,写法和步骤可以简化.
+\end_layout
+
+\begin_layout Example
+\begin_inset Formula $x$
+\end_inset
+
+是什么数的时候,代数式如
+\begin_inset Formula $3x-7$
+\end_inset
+
+的值
+\end_layout
+
+\begin_layout EnumCol3-idt
+大于零？
+\end_layout
+
+\begin_layout EnumCol3-idt
+等于零？
+\end_layout
+
+\begin_layout EnumCol3-idt
+小于零？
+\end_layout
+
+\begin_layout 解*
+(1)
+\begin_inset space \space{}
+\end_inset
+
+代数式
+\begin_inset Formula $3x-7$
+\end_inset
+
+的值大于零,就是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3x-7>0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3x>7,\quad\therefore\quad x>2\cfrac{1}{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-076-1.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+(2)
+\begin_inset space \space{}
+\end_inset
+
+代数式
+\begin_inset Formula $3x-7$
+\end_inset
+
+的值等于零,就是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3x-7=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3x=7,\quad\therefore\quad x=2\cfrac{1}{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-076-2.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+(3)代数式知-7的值小于零,就是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3x-7<0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3x<7,\quad\therefore\quad x<2\cfrac{1}{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-077.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+答:
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="1">
+<features tabularvalignment="top">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(1)
+\begin_inset space \space{}
+\end_inset
+
+当
+\begin_inset Formula $x$
+\end_inset
+
+取大于
+\begin_inset Formula $2\cfrac{1}{3}$
+\end_inset
+
+的值时,
+\begin_inset Formula $3x-7$
+\end_inset
+
+大于零;
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(2)
+\begin_inset space \space{}
+\end_inset
+
+当
+\begin_inset Formula $x$
+\end_inset
+
+取
+\begin_inset Formula $2\cfrac{1}{3}$
+\end_inset
+
+这个值时,
+\begin_inset Formula $3x-7$
+\end_inset
+
+等于零;
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(3)
+\begin_inset space \space{}
+\end_inset
+
+当
+\begin_inset Formula $x$
+\end_inset
+
+取小于
+\begin_inset Formula $2\cfrac{1}{3}$
+\end_inset
+
+的值时,
+\begin_inset Formula $3x-7$
+\end_inset
+
+小于零.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+某工人在技术革新后,完成的生产量超过原来生产定额的
+\begin_inset Formula $5$
+\end_inset
+
+倍,如果他原来的定额是每月生产
+\begin_inset Formula $60$
+\end_inset
+
+件,这位工人现在每天平均生产的产品是多少？
+\end_layout
+
+\begin_layout 解*
+设这位工人现在每天平均生产
+\begin_inset Formula $x$
+\end_inset
+
+件产品,那末一个月生产
+\begin_inset Formula $30x$
+\end_inset
+
+件产品.
+\begin_inset Newline newline
+\end_inset
+
+根据题意,得到不等式
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $30x>5\times60$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+就是
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $30x>300,\qquad\therefore\quad x>10$
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+答:这位工人现在每天的产品多于
+\begin_inset Formula $10$
+\end_inset
+
+件.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+解下列各不等式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{x-1}{3}-\cfrac{2+x}{5}>\cfrac{x+3}{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{3x+1}{3}-1<\cfrac{7x-3}{5}+\cfrac{2(x-2)}{15}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{3}{2}x-7<\cfrac{1}{6}(9x-1)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{3(2x+5)}{2}>3x-1$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $x-\cfrac{x}{2}+\cfrac{x+1}{3}<1+\cfrac{x+8}{6}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{2x+1}{4}<\cfrac{15x-2}{6}-\cfrac{1}{3}(6x+4)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+下列各代数式中,字母取什么数的时候,它的值是负数？
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\cfrac{6x-1}{4}-2x$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{3y-1}{2}-\cfrac{y}{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+下列各代数式中,字母取什么数的时候,它的值是正数？
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\cfrac{2}{3}x+8$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2(x+1)-3$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $x$
+\end_inset
+
+是什么数的时候,代数式
+\begin_inset Formula $\cfrac{3x-5}{7}-\cfrac{x+4}{3}$
+\end_inset
+
+的值一定小于
+\begin_inset Formula $2$
+\end_inset
+
+？
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $x$
+\end_inset
+
+是什么数的时候,代数式
+\begin_inset Formula $\cfrac{2x-3}{7}-\cfrac{x+4}{3}$
+\end_inset
+
+的值一定大于
+\begin_inset Formula $-1$
+\end_inset
+
+？
+\end_layout
+
+\begin_layout EnumIndent
+一个数的
+\begin_inset Formula $2$
+\end_inset
+
+倍加上
+\begin_inset Formula $5$
+\end_inset
+
+所得的和,大于这个数的
+\begin_inset Formula $3$
+\end_inset
+
+倍减去
+\begin_inset Formula $4$
+\end_inset
+
+所得的差,求这个数的范围.
+\end_layout
+
+\begin_layout EnumIndent
+某机床厂原来的定额是年产车床
+\begin_inset Formula $2280$
+\end_inset
+
+台,计划今年完成的生产量要超过原定额的
+\begin_inset Formula $2$
+\end_inset
+
+倍,这个厂今年每月平均要生产车床多少台？
+\end_layout
+
+\begin_layout EnumIndent
+敌我相距
+\begin_inset Formula $14$
+\end_inset
+
+公里,得知敌军于
+\begin_inset Formula $1$
+\end_inset
+
+小时前以每小时
+\begin_inset Formula $4$
+\end_inset
+
+公里的速度逃跑.现接上级命令,我军必须在不满
+\begin_inset Formula $6$
+\end_inset
+
+小时内追上敌人,问我军应该用什么速度追击？
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+我们再来看下面的问题:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x$
+\end_inset
+
+取什么数值范围里的数时,代数式
+\begin_inset Formula $3x+4$
+\end_inset
+
+的值才不会是负数？
+\end_layout
+
+\begin_layout Standard
+我们知道,有理数可以区分为正数、负数和零三类,正数都大于0,负数都小于0.所以要使
+\begin_inset Formula $3x+4$
+\end_inset
+
+的值不是负数,那末只要它的值大于或者等于零(也就是不小于零).我们用符号
+\begin_inset Formula $\geqslant$
+\end_inset
+
+来表示“大于或者等于”(也就是不小于)这一个关系,那末上面的问题,就可以归纳为解不等式.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3x+4\geqslant0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+应用上面讲过的移项法则,可以求出所求的数值范围是
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x\geqslant-\cfrac{4}{3}$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+这个数值范围在数轴上表示出来如图2.9所示.因为
+\begin_inset Formula $x$
+\end_inset
+
+可以等于
+\begin_inset Formula $-\cfrac{4}{3}$
+\end_inset
+
+,所以图中数轴上表示
+\begin_inset Formula $-\cfrac{4}{3}$
+\end_inset
+
+这一点要用黑点表示出来.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-079-1.png
+	width 40col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-079-2.png
+	width 40text%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+同样的,如果我们要问当
+\begin_inset Formula $x$
+\end_inset
+
+取什么数值范围里的数时,代数式
+\begin_inset Formula $3x+4$
+\end_inset
+
+的值才不是正数,那末就可以用符号“
+\begin_inset Formula $\leqslant$
+\end_inset
+
+”表示“小于或者等于”(也就是不大于)这一个关系,把问题归结为解不等式
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3x+4\leqslant0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+应用移项法则,容易求出所求的数值范围是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x\leqslant-\cfrac{4}{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+在数轴上表示出来,如图2.10所示.
+\end_layout
+
+\begin_layout Example
+一个车间计划在
+\begin_inset Formula $15$
+\end_inset
+
+天内造出大型零件
+\begin_inset Formula $192$
+\end_inset
+
+个,最初
+\begin_inset Formula $3$
+\end_inset
+
+天试制,每天只做了
+\begin_inset Formula $8$
+\end_inset
+
+个.后来改进了技本,结果在规定日期内可以完成甚至可以超额完成计划.问第四天起,平均每天至少做几个？
+\end_layout
+
+\begin_layout 解*
+设第四天起,平均每天做
+\begin_inset Formula $x$
+\end_inset
+
+个零件,那末最后的
+\begin_inset Formula $12$
+\end_inset
+
+天里共做了
+\begin_inset Formula $(15-3)x$
+\end_inset
+
+个零件.
+\begin_inset Newline newline
+\end_inset
+
+因为前三天共做了
+\begin_inset Formula $8\times3=24$
+\end_inset
+
+个零件,所以根据题意,得到不等式
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $24+(15-3)x\geqslant192$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+\noindent
+就是
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $24+12x\geqslant192$
+\end_inset
+
+,
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $12x\geqslant168,\qquad\therefore\quad x>14.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+答:这个车间后来平均每天至少做
+\begin_inset Formula $14$
+\end_inset
+
+个零件.
+\end_layout
+
+\begin_layout Standard
+\noindent
+图2.11表示不等式解的范围.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-079-3.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+求出适合下列各式的-的数值范围,并且在数轴上把它表示出来:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $4-\cfrac{3x-1}{4}\leqslant\cfrac{5(x+3)}{8}+1$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{3x-1}{5}-\cfrac{13-x}{2}\geqslant\cfrac{7x}{3}-\cfrac{11(x+3)}{6}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $(x-1)^{2}\leqslant(x+1)^{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $(x-1)(x-2)+1\geqslant(x+1)(x-3)-1$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+某校学生下乡参加劳动,每小时走
+\begin_inset Formula $4$
+\end_inset
+
+公里,出发后
+\begin_inset Formula $2$
+\end_inset
+
+小时,校方有紧要通知,必须在
+\begin_inset Formula $40$
+\end_inset
+
+分钟内送到.通讯员骑自行车,至少以什么速度才能在
+\begin_inset Formula $40$
+\end_inset
+
+分钟内把信送到.
+\begin_inset Newline newline
+\end_inset
+
+[提示:
+\begin_inset Formula $40$
+\end_inset
+
+分钟内送到,意思就是可以用
+\begin_inset Formula $40$
+\end_inset
+
+分钟或不到
+\begin_inset Formula $40$
+\end_inset
+
+分钟的时间送到.]
+\end_layout
+
+\begin_layout EnumIndent
+某生产队种棉花
+\begin_inset Formula $75$
+\end_inset
+
+亩,收得皮棉
+\begin_inset Formula $13500$
+\end_inset
+
+斤,计划明年在同样面积上的总产量要达到
+\begin_inset Formula $15000$
+\end_inset
+
+斤,问每亩平均产量至少要比现在增产多少斤？
+\end_layout
+
+\begin_layout EnumIndent
+一个工程队规定要在
+\begin_inset Formula $6$
+\end_inset
+
+天内完成
+\begin_inset Formula $300$
+\end_inset
+
+土方的工程,第一天完成了
+\begin_inset Formula $60$
+\end_inset
+
+土方.现在要比原定计划至少提前
+\begin_inset Formula $2$
+\end_inset
+
+天完成任务,以后几天内平均每天至少要完成多少土方？
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+含有绝对值符号的不等式的解法
+\end_layout
+
+\begin_layout Standard
+为了研究含有绝对值符号的不等式的解法,我们先来复习一下绝对值的意义.
+\end_layout
+
+\begin_layout Subsection
+绝对值的意义
+\end_layout
+
+\begin_layout Standard
+在代数第一册里,我们知道,有理数的绝对值的意义是:正数的绝对值就是它的本身,负数的绝对值是和它相反的正数,零的绝对值还是零.
+\end_layout
+
+\begin_layout Standard
+用式子来表示就是:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $|a|=\Bigg\{\begin{array}{ll}
+a, & \text{如果}a>0;\\
+0, & \text{如果}a=0;\\
+-a, & \text{如果}a<0.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+例如,如果
+\begin_inset Formula $|x|=2$
+\end_inset
+
+,那末x的值就有两种可能:
+\end_layout
+
+\begin_layout Standard
+如果
+\begin_inset Formula $x>0$
+\end_inset
+
+,那末
+\begin_inset Formula $x=2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+如果
+\begin_inset Formula $x<0$
+\end_inset
+
+,那末
+\begin_inset Formula $-x=2,\therefore\quad x=-2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+这个等式表明,在数轴上表示数
+\begin_inset Formula $x$
+\end_inset
+
+的点离开原点2个单位,而不管这个点在原点的右边还是左边(图2.12).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-081-1.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+一般地说,一个有理数的绝对值,就表明这个数在数轴上所对应的点和原点间的距离(不考虑方向).
+\end_layout
+
+\begin_layout Standard
+根据绝对值的这一意义,我们也就可以知道不等式
+\begin_inset Formula $|x|<2$
+\end_inset
+
+就是表明:在数轴上表示数
+\begin_inset Formula $x$
+\end_inset
+
+的点离开原点的距离不到
+\begin_inset Formula $2$
+\end_inset
+
+个单位.所以
+\begin_inset Formula $x$
+\end_inset
+
+可取一切既比
+\begin_inset Formula $-2$
+\end_inset
+
+大又比
+\begin_inset Formula $2$
+\end_inset
+
+小的数值;
+\begin_inset Formula $x$
+\end_inset
+
+可取值的范围是:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $-2<x<2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-081-2.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+同样,不等式
+\begin_inset Formula $|x|>2$
+\end_inset
+
+就是表明:在数轴上表示数
+\begin_inset Formula $x$
+\end_inset
+
+的点离开原点的距离超过
+\begin_inset Formula $2$
+\end_inset
+
+个单位,所以
+\begin_inset Formula $x$
+\end_inset
+
+可取一切比
+\begin_inset Formula $-2$
+\end_inset
+
+小或者比
+\begin_inset Formula $2$
+\end_inset
+
+大的数值;
+\begin_inset Formula $x$
+\end_inset
+
+可取值范围是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x<-2$
+\end_inset
+
+或
+\begin_inset Formula $x>2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-081-3.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+一般地,我们可以得出以下的结论:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Flex MathBox
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{0.7
+\backslash
+hsize}{}
+\end_layout
+
+\end_inset
+
+如果
+\begin_inset Formula $|x|>a\;(a>0)$
+\end_inset
+
+,那末
+\begin_inset Formula $x<-a$
+\end_inset
+
+或
+\begin_inset Formula $x>a$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Plain Layout
+如果
+\begin_inset Formula $|x|<a\;(a>0)$
+\end_inset
+
+,那末
+\begin_inset Formula $-a<x<a$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 注意*
+1.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $-2<x<2$
+\end_inset
+
+读作“
+\begin_inset Formula $x$
+\end_inset
+
+大于
+\begin_inset Formula $-2$
+\end_inset
+
+且小于
+\begin_inset Formula $2$
+\end_inset
+
+”.不要把它写成“
+\begin_inset Formula $2>x>-2$
+\end_inset
+
+”因为这样和数轴上表示数的大小的比较的规定不相符合.
+\begin_inset Newline newline
+\end_inset
+
+2.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $x<-2$
+\end_inset
+
+或
+\begin_inset Formula $x>2$
+\end_inset
+
+只能分别写开,不能错误地写成“
+\begin_inset Formula $2<x<-2$
+\end_inset
+
+”或者“
+\begin_inset Formula $-2>x>2$
+\end_inset
+
+”.
+\end_layout
+
+\begin_layout Subsection
+含有绝对值符号的不等式的解法
+\end_layout
+
+\begin_layout Standard
+利用上面所说的绝对值的意义,我们很容易解一些简单的含有绝对值符号的不等式.
+\end_layout
+
+\begin_layout Standard
+例如,解不等式
+\begin_inset Formula $2|x|-5<0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\because\quad2|x|-5<0,\qquad\therefore\quad|x|<\cfrac{5}{2}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+根据绝对值的意义,可以知道
+\begin_inset Formula $x$
+\end_inset
+
+可以取满足条件
+\begin_inset Formula $-\cfrac{5}{2}<x<\cfrac{5}{2}$
+\end_inset
+
+的一切数.通常我们可以说:不等式
+\begin_inset Formula $2|x|-5<0$
+\end_inset
+
+的解的集合(或解集)是
+\begin_inset Formula $-\cfrac{5}{2}<x<\cfrac{5}{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+又如,解不等式
+\begin_inset Formula $2|x|-5>0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\because\quad2|x|-5>0,\qquad\therefore\quad|x|>\cfrac{5}{2}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+根据绝对值的意义,可以知道
+\begin_inset Formula $x$
+\end_inset
+
+可以取满足条件
+\begin_inset Formula $x<-\cfrac{5}{2}$
+\end_inset
+
+或
+\begin_inset Formula $x>\cfrac{5}{2}$
+\end_inset
+
+的一切数,通常我们可以说,不等式
+\begin_inset Formula $2|x|-5>0$
+\end_inset
+
+的解集是
+\begin_inset Formula $x<-\cfrac{5}{2}$
+\end_inset
+
+与
+\begin_inset Formula $x>\cfrac{5}{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+解不等式
+\begin_inset Formula $|x-3|<5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 审题*
+如果先设
+\begin_inset Formula $x-3=y$
+\end_inset
+
+,那末这个不等式就是容易求出
+\begin_inset Formula $-5<y<5$
+\end_inset
+
+,这样也就可知
+\begin_inset Formula $x$
+\end_inset
+
+要同时满足下面两个条件:
+\begin_inset Newline newline
+\end_inset
+
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $x-3>-5$
+\end_inset
+
+,
+\begin_inset space \qquad{}
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $x-3<5$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+这样只要解这两个不等式,就可以把
+\begin_inset Formula $x$
+\end_inset
+
+的取值范围求出.
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\because\quad|x-3|<5,\qquad\therefore\quad-5<x-3<5.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $x$
+\end_inset
+
+要同时满足两个条件:
+\begin_inset Newline newline
+\end_inset
+
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $x-3>-5$
+\end_inset
+
+,由此得
+\begin_inset Formula $x>-2$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $x-3<5$
+\end_inset
+
+,由此得
+\begin_inset Formula $x<8$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+因为这两个条件都要满足,所以
+\begin_inset Formula $x$
+\end_inset
+
+可取值的范围是
+\begin_inset Formula $-2<x<8$
+\end_inset
+
+,所以所求的解集是
+\begin_inset Formula $-2<x<8$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+在数轴上表示如图2.15所示,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-083.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 注意*
+从这个例子坷以看到解形式象
+\begin_inset Formula $|x-a|<b$
+\end_inset
+
+的不等式,只要在数轴上找出表示不等式
+\begin_inset Formula $x-a>-b$
+\end_inset
+
+和不等式
+\begin_inset Formula $x-a<b$
+\end_inset
+
+的解集的那两条半射线的公共部分(不包括端点在内).
+\end_layout
+
+\begin_layout Standard
+理解了上面这种解法,以后在解题时可以把上面的解答过程象下面这样来叙述.
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\because\quad|x-3|<5,\qquad\therefore\quad-5<x-3<5$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad-5+3<x<5+3$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad-2<x<8$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+所以原不等式的解集是
+\begin_inset Formula $-2<x<8$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+解不等式
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $|x+3|>5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\because\quad|x+3|>5$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad x+3<-5\quad$
+\end_inset
+
+或
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $x+3>5$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+就是
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $x<-8\quad$
+\end_inset
+
+与
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $x>2$
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+因为
+\begin_inset Formula $x$
+\end_inset
+
+只要满足上面的任何一个条件,原不等式都能成立,所以原不等式的解集是
+\begin_inset Formula $x<-8$
+\end_inset
+
+与
+\begin_inset Formula $x>2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+这个解集在数轴上表示如图2.16所示
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-084-1.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 注*
+从这个例子可以看到形式象
+\begin_inset Formula $|x-a|>b$
+\end_inset
+
+的不等式的解集在数轴上表示,就是表示不等式
+\begin_inset Formula $x-a<b$
+\end_inset
+
+和不等式
+\begin_inset Formula $x-a>b$
+\end_inset
+
+这两条半射线(不包括端点在内).
+\end_layout
+
+\begin_layout Example
+解不等式
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $|3-2x|\leqslant4$
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-3
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\because & |3-2x|\leqslant4,\\
+\therefore & -4\leqslant3-2x\leqslant4,\\
+\therefore & -7\leqslant-2x\leqslant1,\\
+\therefore & \cfrac{7}{2}\geqslant x\geqslant-\cfrac{1}{2}.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+所以原不等式的解集是
+\begin_inset Formula $-\cfrac{1}{2}\leqslant x\leqslant\cfrac{7}{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+这个解集在数轴上表示如图2.17所示.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-084-2.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+要注意,上面从不等式(1)逐步变形为不等式(4),每步骤的根据是什么？最后得出的解集为什么要表示成
+\begin_inset Formula $-\cfrac{1}{2}\leqslant x\leqslant\cfrac{7}{2}$
+\end_inset
+
+的形式？
+\end_layout
+
+\begin_layout Example
+解不等式
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\Big|3-\cfrac{1}{2}\Big|\geqslant1$
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\because\quad\Big|3-\cfrac{1}{2}\Big|\geqslant1$
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{equation}{0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+\therefore\quad3-\cfrac{1}{2}x\leqslant-1
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+或
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+3-\cfrac{1}{2}x\geqslant1.
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+解不等式(1)得
+\begin_inset Formula $-\cfrac{1}{2}x\leqslant-4,\quad\therefore\quad x\geqslant8$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+解不等式(2)得
+\begin_inset Formula $-\cfrac{1}{2}x\geqslant-2,\quad\therefore\quad x\leqslant4$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+把这两个不等式的解集合在一起,就得到原不等式的解集是
+\begin_inset Formula $x\leqslant4$
+\end_inset
+
+与
+\begin_inset Formula $x\geqslant8$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+这个解集在数轴表示如图2.18所示.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-085.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+解下列不等式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $|x|+3>0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|x|-3>0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|x|+3<0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|x|-3<0$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+解下列不等式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $|x|-3<7$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|x+2|>5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2|x+1|-3<0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $3|x-2|+1>0$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+解下列不等式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $|2x-1|>\cfrac{1}{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|1-3x|\leqslant\cfrac{1}{4}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+解下列不等式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\Big|\cfrac{1}{x}\Big|<\cfrac{4}{5}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big|\cfrac{2}{x}\Big|\geqslant\cfrac{1}{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+[提示:如果
+\begin_inset Formula $\cfrac{1}{x}<\cfrac{1}{2}$
+\end_inset
+
+,那末
+\begin_inset Formula $x>2$
+\end_inset
+
+.]
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section-toc*
+本章提要
+\end_layout
+
+\begin_layout EnumIndent
+
+\series bold
+几个重要概念
+\series default
+
+\begin_inset space \qquad{}
+\end_inset
+
+绝对不等式和条件不等式,不等式的解.
+\end_layout
+
+\begin_layout EnumIndent
+
+\series bold
+不等式的性质
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+如果
+\begin_inset Formula $a>b$
+\end_inset
+
+,那末
+\begin_inset Formula $a+c>b+c$
+\end_inset
+
+(或者
+\begin_inset Formula $a-c>b-c$
+\end_inset
+
+);
+\end_layout
+
+\begin_layout EnumIndent
+如果
+\begin_inset Formula $a>b$
+\end_inset
+
+,
+\begin_inset Formula $c>0$
+\end_inset
+
+,那末
+\begin_inset Formula $ac>bc\Big(\text{或者}\cfrac{a}{c}>\cfrac{b}{c}\Big)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+如果
+\begin_inset Formula $a>b$
+\end_inset
+
+,
+\begin_inset Formula $c<0$
+\end_inset
+
+,那末
+\begin_inset Formula $ac<bc\Big(\text{或者}\cfrac{a}{c}<\cfrac{b}{c}\Big)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+如果
+\begin_inset Formula $a>b$
+\end_inset
+
+,
+\begin_inset Formula $c=0$
+\end_inset
+
+,那末
+\begin_inset Formula $ac=bc$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+
+\series bold
+一元一次不等式的解法
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+应用移项法则,并合并同类项,把不等式先化成下面的形式:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $ax>b\quad\text{或者\quad}ax<b$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+start=2
+\end_layout
+
+\end_inset
+
+再应用性质2或性质3求出不等式的解的集合.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+不等式
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $ax>b$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $ax<b$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $a>0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+解集是
+\begin_inset Formula $x>\cfrac{b}{a\vphantom{_{2_{2}}}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+解集是
+\begin_inset Formula $x<\cfrac{b}{a}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $a<0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+解集是
+\begin_inset Formula $x<\cfrac{b}{a\vphantom{_{2_{2}}}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+解集是
+\begin_inset Formula $x>\cfrac{b}{a}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $a=0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $b>0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+无解
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+可以是任意值
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $b=0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+无解
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+无解
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $b<0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+可以是任意值
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+无解
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+
+\series bold
+含有绝对值符号的不等式的解法
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+不等式
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $|x|>a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $|x|<a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $|x-b|>a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $|x-b|<a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $a>0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $\begin{array}{c}
+\text{解集是}\\
+x<-a\\
+\text{或\,\ensuremath{x>a}}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $\begin{array}{c}
+\text{解集是}\\
+-a<x\\
+\text{且\,\ensuremath{x<a}}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $\begin{array}{c}
+\text{解集是}\\
+x<b-a\\
+\text{或\,\ensuremath{x>b+a}}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $\begin{array}{c}
+\text{解集是}\\
+b-a<x\\
+\text{且\,\ensuremath{x<b+a}}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $a<0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+可以是任意值
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+无解
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+可以是任意值
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+无解
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $a=0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $x\neq0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+无解
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $x\neq b$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+无解
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section-toc*
+复习题二
+\begin_inset space \space{}
+\end_inset
+
+A
+\end_layout
+
+\begin_layout EnumIndent
+绝对不等式和条件不等式有何区别？各举两个例子.
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+如果一个正数大于另一个正数,那末它们的绝对值谁大谁小？举例说明.
+\end_layout
+
+\begin_layout EnumIndent
+如果一个负数大于另一个负数,那末它们的绝对值谁大谁小？举例说明.
+\end_layout
+
+\begin_layout EnumIndent
+如果一个数大于另一个数,那末它们的相反数谁大谁小？举例说明.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+下面两题的解法,对不对？为什么？
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $-x=8$
+\end_inset
+
+,两边都乘以
+\begin_inset Formula $-1$
+\end_inset
+
+,得
+\begin_inset Formula $x=-8$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-x>8$
+\end_inset
+
+,两边都乘以
+\begin_inset Formula $-1$
+\end_inset
+
+,得
+\begin_inset Formula $x>-8$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-x<8$
+\end_inset
+
+,两边都乘以
+\begin_inset Formula $-1$
+\end_inset
+
+,得
+\begin_inset Formula $x\leqslant-6$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+在下列各方框中填入大于符号或小于符号:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+当
+\begin_inset Formula $a>0$
+\end_inset
+
+,
+\begin_inset Formula $b\square0$
+\end_inset
+
+时,那末
+\begin_inset Formula $ab>0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+当
+\begin_inset Formula $a>0$
+\end_inset
+
+,
+\begin_inset Formula $b\square0$
+\end_inset
+
+时,那末
+\begin_inset Formula $ab<0$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+在数轴上,指出表示下列不等式里的力的点所在的范围:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=3
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x>3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x<-2$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $1<x<4$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-3<x<2$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|x|>2$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|x|<3$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+解下列各不等式,并且在数轴上把它们的解集表示出来
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $1+\cfrac{x}{3}>3-\cfrac{x-2}{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $3-\cfrac{3x}{2}>\cfrac{5}{8}-\cfrac{4x-3}{6}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{3}{8}-\cfrac{2x-1}{12}\leqslant\cfrac{3x+1}{6}-\cfrac{5}{4}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x-5-\cfrac{x-1}{3}<\cfrac{2x+3}{2}+\cfrac{x}{3}-1$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $(2x-1)^{2}-1>4(x-1)(x+2)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big(\cfrac{x}{2}-1\Big)^{2}\geqslant\Big(\cfrac{x}{2}+3\Big)\Big(\cfrac{x}{2}-3\Big)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $x$
+\end_inset
+
+取哪些数时,代数式
+\begin_inset Formula $\cfrac{3x}{2}-8$
+\end_inset
+
+的值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+大于
+\begin_inset Formula $7-x$
+\end_inset
+
+的值？
+\end_layout
+
+\begin_layout EnumIndent
+小于
+\begin_inset Formula $7-x$
+\end_inset
+
+的值？
+\end_layout
+
+\begin_layout EnumIndent
+等于
+\begin_inset Formula $7-x$
+\end_inset
+
+的值？
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+并且在数轴上把它们表示出来.
+\end_layout
+
+\begin_layout Section-toc*
+复习题二
+\begin_inset space \space{}
+\end_inset
+
+B
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+如果
+\begin_inset Formula $a>b$
+\end_inset
+
+,是否一定会得到
+\begin_inset Formula $ac^{2}>bc^{2}$
+\end_inset
+
+？为什么？
+\end_layout
+
+\begin_layout Standard
+[提示:要考虑
+\begin_inset Formula $c>0$
+\end_inset
+
+,
+\begin_inset Formula $c<0$
+\end_inset
+
+,
+\begin_inset Formula $c=0$
+\end_inset
+
+三种情况.]
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[(2)]
+\end_layout
+
+\end_inset
+
+如果
+\begin_inset Formula $ac^{2}>bc^{2}$
+\end_inset
+
+,是否一定会得到
+\begin_inset Formula $a>b$
+\end_inset
+
+？为什么？
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $5>4$
+\end_inset
+
+,那末
+\begin_inset Formula $5a>4a$
+\end_inset
+
+,对不对？为什么？
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $-a$
+\end_inset
+
+哪一个大？
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+解下列各不等式,并且在数轴上把它们的解集表示出来:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $3[x-2(x-1)]\leqslant4x$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $5-\cfrac{x}{3}\geqslant3\cfrac{1}{2}-\cfrac{4x+1}{8}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{(2x-7)^{2}}{4}-\cfrac{x-1}{3}\geqslant\Big(x-1\cfrac{1}{2}\Big)^{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\Big(\cfrac{3}{5}x-\cfrac{2}{3}\Big)\Big(\cfrac{3}{5}x+\cfrac{2}{3}\Big)\leqslant\Big(\cfrac{3}{5}x-\cfrac{1}{4}\Big)^{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+解下列各不等式,并且在数轴上把它们的解集表示出来:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $|x|+1>5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|x|-2<3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|2x-3|>5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big|1-\cfrac{x}{3}\Big|<\cfrac{2}{3}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $3|2x+1|-4\leqslant0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2|1-3x|-1\leqslant0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big|\cfrac{2}{x}\Big|\leqslant\cfrac{1}{3}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big|1-\cfrac{1}{x}\Big|>2$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+已知
+\begin_inset Formula $a\neq b$
+\end_inset
+
+,求证:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $(a-b)^{2}>0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $a^{2}-2ab-b^{2}>0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $a^{2}+b^{2}>2ab$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $ab<\cfrac{1}{2}\big(a^{2}+b^{2}\big)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+[提示:证明(1)时,因为
+\begin_inset Formula $a\neq b$
+\end_inset
+
+,只要考虑不论的结果是正数还是负数,
+\begin_inset Formula $(a-b)^{2}$
+\end_inset
+
+应该怎样？证明(2),(3),(4)时,根据(1),利用解不等式的方法来证明]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+在爆破时,如果导火线燃烧的速度是每秒钟
+\begin_inset Formula $0.8$
+\end_inset
+
+厘米,人跑开的速度是每秒钟
+\begin_inset Formula $5$
+\end_inset
+
+米,那末点导火线的人要在爆披时能够跑到
+\begin_inset Formula $120$
+\end_inset
+
+米以外的安全地区去,这根导火线至少要有多少长？
+\end_layout
+
+\begin_layout EnumIndent
+农具厂原计划在一个月内(
+\begin_inset Formula $30$
+\end_inset
+
+天)生产抽水机
+\begin_inset Formula $165$
+\end_inset
+
+部,前
+\begin_inset Formula $8$
+\end_inset
+
+天每天平均生产了
+\begin_inset Formula $5\cfrac{1}{2}$
+\end_inset
+
+部,后来要求提前
+\begin_inset Formula $5$
+\end_inset
+
+天超额完成任务,以后几天里,平均每天至少要生产多少部？
+\end_layout
+
+\begin_layout EnumIndent
+求两位数,其中个位数字比十位数字大
+\begin_inset Formula $2$
+\end_inset
+
+,并且这个两位数介于
+\begin_inset Formula $50$
+\end_inset
+
+与
+\begin_inset Formula $60$
+\end_inset
+
+之间.
+\end_layout
+
+\begin_layout Section-toc*
+第二章
+\begin_inset space \space{}
+\end_inset
+
+测验题
+\end_layout
+
+\begin_layout EnumIndent
+在下列空白处填入适当的条件:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+当
+\begin_inset Formula $a<0$
+\end_inset
+
+,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{
+\backslash
+hbox to 2cm{}}
+\end_layout
+
+\end_inset
+
+时,那末
+\begin_inset Formula $ac<0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+当
+\begin_inset Formula $a<0$
+\end_inset
+
+,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{
+\backslash
+hbox to 2cm{}}
+\end_layout
+
+\end_inset
+
+时,那末
+\begin_inset Formula $ac>0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+当
+\begin_inset Formula $a<b$
+\end_inset
+
+,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{
+\backslash
+hbox to 2cm{}}
+\end_layout
+
+\end_inset
+
+时,那末
+\begin_inset Formula $ac^{2}<bc^{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+解下列不等式,并在数轴上把它们的解集表示出来:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $2(x-3)>4$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2x-3\leqslant5(x-3)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{1}{5}(x-2)\leqslant x-\cfrac{2}{5}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{x}{3}-\cfrac{x-1}{2}<1$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $(3x-4)^{2}\geqslant(3x-2)(3x+2)-4$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+解下列不等式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $5|x|>3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $3|1-2x|-1\leqslant0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big|\cfrac{3x-5}{4}-1\Big|<\cfrac{3}{8}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big|2-\cfrac{1}{x}\Big|\leqslant3$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $y$
+\end_inset
+
+取什么值时,代数式
+\begin_inset Formula $\cfrac{5}{3}y$
+\end_inset
+
+-4的值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+大于
+\begin_inset Formula $\cfrac{3y-1}{2}-y$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+小于
+\begin_inset Formula $\cfrac{3y-1}{2}-y$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+某车工计划在
+\begin_inset Formula $15$
+\end_inset
+
+天里加工
+\begin_inset Formula $420$
+\end_inset
+
+个零件,最初三天中每天加工了
+\begin_inset Formula $24$
+\end_inset
+
+个,以后每天至少要加工多少个才能在规定的时间内超额完成任务？
+\end_layout
+
+\end_body
+\end_document
