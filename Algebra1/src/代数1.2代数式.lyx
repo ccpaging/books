@@ -1,0 +1,8769 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 数理化自学丛书－代数
+\options oneside
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize a5paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 3
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+代数式
+\end_layout
+
+\begin_layout Standard
+在上一章里我们学习了关于有理数的知识.从算术里的数扩大到有理数,这是从算术到代数的一个重要的发展,现在,我们还要学习从算术到代数的另一个重要的发展
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+用字母表示数,从而引进代数式.
+\end_layout
+
+\begin_layout Section
+代数式
+\end_layout
+
+\begin_layout Subsection
+用字母表示数
+\end_layout
+
+\begin_layout Standard
+我们曾经在有理数这一章里学到过加法交换律.就是:在加法里,两个加数的前后位置可以互相对调,它们的和相等.
+\end_layout
+
+\begin_layout Standard
+但是,这句话写起来比较长,领会起来有时也不太容易.可不可以用比较简单明确的方法来叙述呢？
+\end_layout
+
+\begin_layout Standard
+如果我们用两个字母
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $b$
+\end_inset
+
+来表示这两个加数,那末,加法交换律就可以用
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $a+b=b+a$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+来表示,它就很简单,而且很明确.我们在上一章里已经这样用过了.
+\end_layout
+
+\begin_layout Standard
+在算术里我们知道,做两个真分数或假分数的乘法只要把分子分母分别相乘,如果我们用字母
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $b$
+\end_inset
+
+分别表示一个分数的分子和分母,字母
+\begin_inset Formula $c$
+\end_inset
+
+和
+\begin_inset Formula $d$
+\end_inset
+
+分别表示另一个分数的分于和分母,这个运算法则就可以简单明确地表示成
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{a}{b}\times\cfrac{c}{d}=\cfrac{a\times c}{b\times d}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+用同样的方法,我们可以把分数的除法法则表示成
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{a}{b}\div\cfrac{c}{d}=\cfrac{a}{b}\times\cfrac{d}{c}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+在生产、学习、生活和科学研究上,我们会碰到许多计算的公式,用字母来表示有关的数,就可以使这些公式大大简化.例如,在算术里:我们学过矩形(长方形)的面积计算公式是:
+\begin_inset Formula $面积=长\times宽$
+\end_inset
+
+;正方形的面积计算公式是:
+\begin_inset Formula $面积=边长\times边长$
+\end_inset
+
+.如果我们用字母
+\begin_inset Formula $S$
+\end_inset
+
+表示矩形或正方形的面积,字母
+\begin_inset Formula $b$
+\end_inset
+
+和
+\begin_inset Formula $h$
+\end_inset
+
+表示矩形的长和宽,
+\begin_inset Formula $a$
+\end_inset
+
+表示正方形的边长,那末,
+\end_layout
+
+\begin_layout Standard
+矩形的面积公式为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $S=b\times h$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+正方形的面积公式为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $S=a\times a=a^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+这样就很简单明确.
+\end_layout
+
+\begin_layout Subsection
+代数式
+\end_layout
+
+\begin_layout Standard
+用字母表示数之后,我们就会得到包含字母的一些计算式子,象
+\begin_inset Formula $a+b$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{1}{2}\times a\times b$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{a\times c}{b\times d}$
+\end_inset
+
+,
+\begin_inset Formula $a^{2}$
+\end_inset
+
+,
+\begin_inset Formula $(a+b)\times c$
+\end_inset
+
+,
+\begin_inset Formula $\pi\times r^{2}$
+\end_inset
+
+等.我们把这类式子叫做
+\series bold
+代数式
+\series default
+.代数式的共同特点是,它们都包含表示数的数字或字母,同时还常常包含运算的符号,所以我们说:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+用有限次的加、减、乘、除、乘方等运算符号把数字、字母连接起来的式子叫做代数式.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+用数字或者字母表示的一个单独的数,也可以看作是代数式.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+例如:
+\begin_inset Formula $3$
+\end_inset
+
+,
+\begin_inset Formula $-5$
+\end_inset
+
+,
+\begin_inset Formula $x$
+\end_inset
+
+,
+\begin_inset Formula $1$
+\end_inset
+
+,
+\begin_inset Formula $0$
+\end_inset
+
+等也可以看作是代数式.
+\end_layout
+
+\begin_layout Standard
+在算术里,乘号总是用“
+\begin_inset Formula $\times$
+\end_inset
+
+”来表示的,在代数里,我们仍旧使用这个乘号“
+\begin_inset Formula $\times$
+\end_inset
+
+”.但有时,如果两个有理数用括号括起来之后再相乘,或者一个数乘以一个用字母表示的数,或者两个用字母表示的数相乘,我们可以把乘号写做或者就把乘号省略掉.
+\end_layout
+
+\begin_layout Standard
+例如:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(-3)\times(-5)$
+\end_inset
+
+可以写做
+\begin_inset Formula $(-3)\cdot(-5)$
+\end_inset
+
+或者
+\begin_inset Formula $(-3)(-5)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $3\times a$
+\end_inset
+
+可以写做
+\begin_inset Formula $3\cdot a$
+\end_inset
+
+或者
+\begin_inset Formula $3a$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a\times b$
+\end_inset
+
+可以写做
+\begin_inset Formula $a\cdot b$
+\end_inset
+
+或者
+\begin_inset Formula $ab$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+用字母来表示有理数的减法法则:从一个数减去另一个数,等于这个数加上另一个数的相反的数.
+\begin_inset Newline newline
+\end_inset
+
+[提示:以字母表示一个数,用字母表示另一个数,那末另一个数的相反的数就可以用
+\begin_inset Formula $-b$
+\end_inset
+
+来表示.]
+\end_layout
+
+\begin_layout EnumIndent
+用字母来表示分数的基本性质:一个分数的分子分母同乘以一个不是零的数,分数的值不变.
+\begin_inset Newline newline
+\end_inset
+
+[提示:把分数的分子分母分别用字母
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $b$
+\end_inset
+
+来表示,一个不是零的数用
+\begin_inset Formula $m$
+\end_inset
+
+来表示,并注明
+\begin_inset Formula $m\neq0$
+\end_inset
+
+.]
+\end_layout
+
+\begin_layout EnumIndent
+一个三角形的面积等于它的底边与高的乘积的二分之一.如果用字母
+\begin_inset Formula $S$
+\end_inset
+
+表示三角形的面积,
+\begin_inset Formula $b$
+\end_inset
+
+表示它的底边,
+\begin_inset Formula $h$
+\end_inset
+
+表示它的高,试用
+\begin_inset Formula $s$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+,
+\begin_inset Formula $h$
+\end_inset
+
+写出三角形的面积公式.
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/-077.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+一个平行四边形的面积等于它的底边与高的乘积.用字母
+\begin_inset Formula $S$
+\end_inset
+
+表示面积,
+\begin_inset Formula $b$
+\end_inset
+
+表示底边,
+\begin_inset Formula $h$
+\end_inset
+
+表示高,试用
+\begin_inset Formula $S$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+,
+\begin_inset Formula $h$
+\end_inset
+
+写出平行四边形的面积公式.
+\end_layout
+
+\begin_layout EnumIndent
+一个圆的周长等于它的半径乘以圆周率的
+\begin_inset Formula $2$
+\end_inset
+
+倍.如果用字母
+\begin_inset Formula $C$
+\end_inset
+
+表示圆的周长,
+\begin_inset Formula $r$
+\end_inset
+
+表示半径,用希腊字母
+\begin_inset Formula $\pi$
+\end_inset
+
+表示圆周率,写出圆的周长的公式.
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/-078.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+一个圆的面积等于它的半径的平方乘以圆周率.如果用字母
+\begin_inset Formula $S$
+\end_inset
+
+表示圆的面积,
+\begin_inset Formula $r$
+\end_inset
+
+表示半径,用希腊字母
+\begin_inset Formula $\pi$
+\end_inset
+
+表示圆周率,写出圆的面积公式.
+\end_layout
+
+\begin_layout EnumIndent
+一列火车行驶的路程等于它的平均速度乘上行驶的时间.如果用字母
+\begin_inset Formula $s$
+\end_inset
+
+表示它行驶的路程,
+\begin_inset Formula $v$
+\end_inset
+
+表示它的平均速度,
+\begin_inset Formula $t$
+\end_inset
+
+表示它行驶的时间,写出火车行驶路程的公式.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+列代数式
+\end_layout
+
+\begin_layout Standard
+在代数里,我们常常需要把用文字叙述的一句话或一些计算关系列成代数式,举例如下:
+\end_layout
+
+\begin_layout Example
+用代数式表示:
+\end_layout
+
+\begin_layout EnumCol2-idt
+一个数
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+倍;
+\end_layout
+
+\begin_layout EnumCol2-idt
+一个数
+\begin_inset Formula $b$
+\end_inset
+
+的平方;
+\end_layout
+
+\begin_layout EnumCol2-idt
+两个数
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的和;
+\end_layout
+
+\begin_layout EnumCol2-idt
+一个数a的3倍加上5.
+\end_layout
+
+\begin_layout 解*
+(1) 
+\begin_inset Formula $3a$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(2) 
+\begin_inset Formula $b^{2}$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(3) 
+\begin_inset Formula $a+b$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(4) 
+\begin_inset Formula $3a+5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 注意*
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+倍,就是
+\begin_inset Formula $a\times3$
+\end_inset
+
+,但是,习惯上总把数字因数写在前面,所以写做
+\begin_inset Formula $3a$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+用代数式表示:
+\begin_inset Newline newline
+\end_inset
+
+(1) 两个数
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的和的
+\begin_inset Formula $3$
+\end_inset
+
+倍;
+\begin_inset Newline newline
+\end_inset
+
+(2) 一个数
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+倍与另一个数
+\begin_inset Formula $b$
+\end_inset
+
+的
+\begin_inset Formula $5$
+\end_inset
+
+倍的和;
+\begin_inset Newline newline
+\end_inset
+
+(3) 数
+\begin_inset Formula $a$
+\end_inset
+
+的平方与数
+\begin_inset Formula $b$
+\end_inset
+
+的平方的和;
+\begin_inset Newline newline
+\end_inset
+
+(4) 两个数
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的和的平方.
+\end_layout
+
+\begin_layout 解*
+(1) 
+\begin_inset Formula $3(a+b)$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(2) 
+\begin_inset Formula $3a+5b$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(3) 
+\begin_inset Formula $a^{2}+b^{2}$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(4) 
+\begin_inset Formula $(a+b)^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 注意*
+根据先乘除、后加减的运算顺序的规定,在代数式里,要表示先乘除后加减的运算就不必用括号;如果要表示先加减后乘除的运算,就需要用括号.同样的,先乘方后加就不需要括号,
+先如后乘方就需用括号.
+\end_layout
+
+\begin_layout Example
+用代数式表示:
+\begin_inset Newline newline
+\end_inset
+
+(1) 一个数
+\begin_inset Formula $a$
+\end_inset
+
+的平方的
+\begin_inset Formula $3$
+\end_inset
+
+倍;
+\begin_inset Newline newline
+\end_inset
+
+(2) 一个数
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+倍的平方;
+\begin_inset Newline newline
+\end_inset
+
+(3) 一个数
+\begin_inset Formula $a$
+\end_inset
+
+的平方的相反的数;
+\begin_inset Newline newline
+\end_inset
+
+(4) 一个数
+\begin_inset Formula $a$
+\end_inset
+
+的相反的数的平方.
+\end_layout
+
+\begin_layout 解*
+(1) 
+\begin_inset Formula $3a^{2}$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(2) 
+\begin_inset Formula $(3a)^{2}$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(3) 
+\begin_inset Formula $-a^{2}$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(4) 
+\begin_inset Formula $(-a)^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 注意*
+根据先乘方后乘除的运算顺序的规定,在代数式里,表示先乘方后乘除,不必用括号;如果要表示先乘除后乘方,就要用括号.
+\end_layout
+
+\begin_layout Example
+有一个数是
+\begin_inset Formula $x$
+\end_inset
+
+,列出代数式表示比
+\begin_inset Formula $x$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+倍还大
+\begin_inset Formula $5$
+\end_inset
+
+的数以及比
+\begin_inset Formula $x$
+\end_inset
+
+的倒数小
+\begin_inset Formula $6$
+\end_inset
+
+的数.
+\end_layout
+
+\begin_layout 解*
+比
+\begin_inset Formula $x$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+倍还大
+\begin_inset Formula $5$
+\end_inset
+
+的数:
+\begin_inset Formula $3x+5$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+比
+\begin_inset Formula $x$
+\end_inset
+
+的倒数小
+\begin_inset Formula $6$
+\end_inset
+
+的数:
+\begin_inset Formula $\cfrac{1}{x}-6$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+一个分数的分子是
+\begin_inset Formula $x$
+\end_inset
+
+,分母比分子的
+\begin_inset Formula $2$
+\end_inset
+
+倍大
+\begin_inset Formula $3$
+\end_inset
+
+,列出代数式表示这个分数,并列出代数式表示这个分数的倒数.
+\end_layout
+
+\begin_layout 解*
+这个分数是
+\begin_inset Formula $\cfrac{x}{2x+3}$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+这个分数的倒数是
+\begin_inset Formula $\cfrac{2x+3}{x}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+汽车的速度平均每小时
+\begin_inset Formula $m$
+\end_inset
+
+公里,(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $3$
+\end_inset
+
+小时共行多少公里？
+\begin_inset space \quad{}
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $t$
+\end_inset
+
+小时共行多少公里？
+\begin_inset space \quad{}
+\end_inset
+
+(3)
+\begin_inset space \space{}
+\end_inset
+
+要行
+\begin_inset Formula $100$
+\end_inset
+
+公里需要多少小时？
+\begin_inset space \quad{}
+\end_inset
+
+(4)
+\begin_inset space \space{}
+\end_inset
+
+要行
+\begin_inset Formula $s$
+\end_inset
+
+公里需要多少小时？
+\end_layout
+
+\begin_layout 审题*
+速度、时间与行程三个量之间的关系是:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $速度\times时间=行程$
+\end_inset
+
+,或
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $时间=\cfrac{\text{行程}}{\text{速度}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+(1)
+\begin_inset space \space{}
+\end_inset
+
+汽车
+\begin_inset Formula $3$
+\end_inset
+
+小时共行
+\begin_inset Formula $3m$
+\end_inset
+
+公里;
+\begin_inset Newline newline
+\end_inset
+
+(2) 汽车
+\begin_inset Formula $t$
+\end_inset
+
+小时共行
+\begin_inset Formula $mt$
+\end_inset
+
+公里;
+\begin_inset Newline newline
+\end_inset
+
+(3) 要行
+\begin_inset Formula $100$
+\end_inset
+
+公里需要
+\begin_inset Formula $\cfrac{100}{m}$
+\end_inset
+
+小时;
+\begin_inset Newline newline
+\end_inset
+
+(4) 要行
+\begin_inset Formula $s$
+\end_inset
+
+公里需要
+\begin_inset Formula $\cfrac{s}{m}$
+\end_inset
+
+小时.
+\end_layout
+
+\begin_layout Example
+有一块长方形土地,它的长是
+\begin_inset Formula $a$
+\end_inset
+
+米,宽是
+\begin_inset Formula $b$
+\end_inset
+
+米,(1)
+\begin_inset space \space{}
+\end_inset
+
+面积是多少平方米？(2)
+\begin_inset space \space{}
+\end_inset
+
+如果要在这块地的四边挖掘一条沟,这条沟的内圈一共多少长？
+\end_layout
+
+\begin_layout 审题*
+\begin_inset Formula $长方形的面积=长\times宽$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $长方形的周长=(长+宽)\times2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+(1)
+\begin_inset space \space{}
+\end_inset
+
+这块土地的面积是
+\begin_inset Formula $ab$
+\end_inset
+
+平方米;
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+这条沟的内圈的总长是
+\begin_inset Formula $2(a+b)$
+\end_inset
+
+米.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+写出下列代数式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+一个数
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $10$
+\end_inset
+
+倍;[解法举例:
+\begin_inset Formula $10a$
+\end_inset
+
+.]
+\end_layout
+
+\begin_layout EnumIndent
+一个数
+\begin_inset Formula $a$
+\end_inset
+
+加上
+\begin_inset Formula $10$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+一个数
+\begin_inset Formula $a$
+\end_inset
+
+减去
+\begin_inset Formula $5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+从
+\begin_inset Formula $5$
+\end_inset
+
+减去一个数
+\begin_inset Formula $a$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+一个数
+\begin_inset Formula $a$
+\end_inset
+
+除以
+\begin_inset Formula $5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $5$
+\end_inset
+
+除以一个数
+\begin_inset Formula $a$
+\end_inset
+
+;
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+如
+\begin_inset Formula $a$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+表示数,写出下列代数式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的和;[解法举例:
+\begin_inset Formula $a+b$
+\end_inset
+
+.]
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的积;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $4$
+\end_inset
+
+倍与
+\begin_inset Formula $b$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+倍的和;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的积再加上
+\begin_inset Formula $5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+倍与
+\begin_inset Formula $b$
+\end_inset
+
+的五分之一的和;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+的平方与
+\begin_inset Formula $b$
+\end_inset
+
+的平方的和;
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+写出下列代数式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的和的
+\begin_inset Formula $3$
+\end_inset
+
+倍;[解法举例:
+\begin_inset Formula $3(a+b)$
+\end_inset
+
+.]
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的和的平方;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+加
+\begin_inset Formula $3$
+\end_inset
+
+所得的和的平方;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+加
+\begin_inset Formula $b$
+\end_inset
+
+所得的和除以
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的积;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+的平方与
+\begin_inset Formula $b$
+\end_inset
+
+的平方的和的平方.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+写出下列代数式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的和的相反的数;[解法举例:
+\begin_inset Formula $-(a+b)$
+\end_inset
+
+.]
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+的相反的数与
+\begin_inset Formula $b$
+\end_inset
+
+的相反的数的代数和;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+的平方的相反数加上
+\begin_inset Formula $5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+的相反数的平方减去
+\begin_inset Formula $5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+的倒数;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+的倒数与
+\begin_inset Formula $b$
+\end_inset
+
+的倒数的和;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+的平方的倒数加上
+\begin_inset Formula $b$
+\end_inset
+
+的平方的倒数;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的和的倒数.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+写出下列代数式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+的绝对值;[解法举例:
+\begin_inset Formula $|a|$
+\end_inset
+
+.]
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+的相反的数的绝对值;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+的倒数的绝对值;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的和的绝对值;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+减去
+\begin_inset Formula $b$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+倍所得的差的绝对值;
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+一个分数,分子是
+\begin_inset Formula $x$
+\end_inset
+
+,分母比分子的
+\begin_inset Formula $5$
+\end_inset
+
+倍小
+\begin_inset Formula $3$
+\end_inset
+
+,列出这个分数的代数式;列出另一个分子分母都比这个分数的分子分母小
+\begin_inset Formula $1$
+\end_inset
+
+的分数的代数式.
+\end_layout
+
+\begin_layout EnumIndent
+如果一个人骑自行车每小时平均可行
+\begin_inset Formula $a$
+\end_inset
+
+公里,(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $2$
+\end_inset
+
+小时可行多少公里？(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $b$
+\end_inset
+
+小时可行多少公里？(3)
+\begin_inset space \space{}
+\end_inset
+
+要行
+\begin_inset Formula $50$
+\end_inset
+
+公里需要多少小时？(4)
+\begin_inset space \space{}
+\end_inset
+
+要行
+\begin_inset Formula $d$
+\end_inset
+
+公里需要多少小时？
+\end_layout
+
+\begin_layout EnumIndent
+如果一辆汽车平均每小时行
+\begin_inset Formula $a$
+\end_inset
+
+公里,自行车平均每小时行
+\begin_inset Formula $b$
+\end_inset
+
+公里,(1)
+\begin_inset space \space{}
+\end_inset
+
+汽车与自行车同时行
+\begin_inset Formula $3$
+\end_inset
+
+小时,路程相差多少？(2)
+\begin_inset space \space{}
+\end_inset
+
+乘自行车行
+\begin_inset Formula $2$
+\end_inset
+
+小时后再乘汽车行
+\begin_inset Formula $3$
+\end_inset
+
+小时,一共行了多少路程？(3)
+\begin_inset space \space{}
+\end_inset
+
+汽车和自行车各行
+\begin_inset Formula $d$
+\end_inset
+
+公里,汽车比自行车快多少时间？
+\end_layout
+
+\begin_layout EnumIndent
+一个正方形的一边长
+\begin_inset Formula $a$
+\end_inset
+
+厘米,(1)
+\begin_inset space \space{}
+\end_inset
+
+它的面积是多少平方厘米？(2)
+\begin_inset space \space{}
+\end_inset
+
+它的周长是多少厘米？
+\end_layout
+
+\begin_layout EnumIndent
+两个正方形的边长分别是
+\begin_inset Formula $a$
+\end_inset
+
+厘米与
+\begin_inset Formula $b$
+\end_inset
+
+厘米
+\begin_inset Formula $(a>b)$
+\end_inset
+
+,(1)
+\begin_inset space \space{}
+\end_inset
+
+它们的面积一共多少？(2)
+\begin_inset space \space{}
+\end_inset
+
+它们的面积相差多少？(3)
+\begin_inset space \space{}
+\end_inset
+
+它们的周长一共多少？(4)
+\begin_inset space \space{}
+\end_inset
+
+它们的周长相差多少？[提示:要注明单位.]
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+代数式的值
+\end_layout
+
+\begin_layout Standard
+代数式是表示数的计算式子.如果代数式里的字母用指定的数去代替,再依照代数式里所表示的运算进行计算,所得的结果就叫做
+\series bold
+代数式的值
+\series default
+.
+\end_layout
+
+\begin_layout Example
+计算代数式
+\begin_inset Formula $-3a^{2}b$
+\end_inset
+
+的值:
+\begin_inset Newline newline
+\end_inset
+
+(1) 当
+\begin_inset Formula $a=-3$
+\end_inset
+
+,
+\begin_inset Formula $b=5$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+(2) 当
+\begin_inset Formula $a=0.1$
+\end_inset
+
+,
+\begin_inset Formula $b=8$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+(3) 当
+\begin_inset Formula $a=\cfrac{3}{5}$
+\end_inset
+
+,
+\begin_inset Formula $a=-8\cfrac{1}{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+(1) 
+\begin_inset Formula $-3a^{2}b=-3(-3)^{2}(5)=-3\cdot(+9)\cdot5=-135$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+(2) 
+\begin_inset Formula $-3a^{2}b=-3(0.1)^{2}(8)=-3(0.01)(8)=0.24$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+(3) 
+\begin_inset Formula $-3a^{2}b=-3\Big(\cfrac{3}{5}\Big)^{2}\Big(-8\cfrac{1}{3}\Big)=-3\cdot\cfrac{9}{25}\cdot\Big(-\cfrac{25}{3}\Big)=+9$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+计算代数式化
+\begin_inset Formula $2x^{3}-5x^{2}+3x-8$
+\end_inset
+
+的值:
+\end_layout
+
+\begin_layout EnumCol2-idt
+当
+\begin_inset Formula $x=1$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+当
+\begin_inset Formula $x=-\cfrac{1}{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+(1) 
+\begin_inset Formula $2x^{3}-5x^{3}+3x-8=2(1)^{3}-5(1)^{2}+3(1)-8$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{(M)\;2x^{3}-5x^{3}+3x-8}=2-5+3-8=-8$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $2x^{3}-5x^{3}+3x-8$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{(M)M}=2\Big(-\cfrac{1}{2}\Big)^{3}-5\Big(-\cfrac{1}{2}\Big)^{2}+3\Big(-\cfrac{1}{2}\Big)-8$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{(M)M}=2\Big(-\cfrac{1}{8}\Big)-5\Big(+\cfrac{1}{4}\Big)+3\Big(-\cfrac{1}{2}\Big)-8$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{(M)M}=-\cfrac{1}{4}-\cfrac{5}{4}-\cfrac{3}{2}-8=-\cfrac{3}{2}-\cfrac{3}{2}-8=11$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 注意*
+把字母的指定数值代入代数式后,有些乘方或原来省略乘号的地方,需要添上括号或者乘号.
+\end_layout
+
+\begin_layout Example
+计算代数式
+\begin_inset Formula $3(3a-2b)^{2}$
+\end_inset
+
+的值:
+\begin_inset Newline newline
+\end_inset
+
+(1) 当
+\begin_inset Formula $a=-2$
+\end_inset
+
+,
+\begin_inset Formula $b=+3$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+(2) 当
+\begin_inset Formula $a=-0.4$
+\end_inset
+
+,
+\begin_inset Formula $b=-0.3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+(1)
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="top">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3(3a-2b)^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $=3[3(-2)-2(+3)]^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $=3(-6-6)^{2}=3(-12)^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $=3(+144)=432$
+\end_inset
+
+;
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="top">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3(3a-2b)^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $=3[3(-0.4)-2(-0.3)^{2}]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $=3(-1.2+0.6)^{2}=3(-0.6)^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $=3\times0.36=1.08$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+计算代数式
+\begin_inset Formula $\cfrac{a+2b}{2a+b}$
+\end_inset
+
+的值:
+\begin_inset Newline newline
+\end_inset
+
+(1) 
+\begin_inset Formula $a=-1\cfrac{1}{2}$
+\end_inset
+
+,
+\begin_inset Formula $b=1\cfrac{2}{3}$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+(2) 
+\begin_inset Formula $a=-1.3$
+\end_inset
+
+,
+\begin_inset Formula $b=-1.5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+(1) 
+\begin_inset Formula $\cfrac{a+2b}{2a+b}=\cfrac{-1\cfrac{1}{2}+2\Big(1\cfrac{2}{3}\Big)}{2\Big(-1\cfrac{1}{2}\Big)+\Big(1\cfrac{2}{3}\Big)}=\cfrac{-\cfrac{3}{2}+\cfrac{10}{3}}{-3+\cfrac{5}{3}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{(M)\;\cfrac{a+2b}{2a+b}}=\cfrac{-9+20}{-18+10}=\cfrac{11}{-8}=-1\cfrac{3}{8}$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+(2) 
+\begin_inset Formula $\cfrac{a+2b}{2a+b}=\cfrac{-1.3+2(-1.5)}{2(-1.3)+(-1.5)}=\cfrac{-1.3-3}{-2.6-1.5}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{(M)\;\cfrac{a+2b}{2a+b}}=\cfrac{-4.3}{-4.1}=\cfrac{43}{41}=1\cfrac{2}{41}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+计算代数式
+\begin_inset Formula $-a^{2}$
+\end_inset
+
+与
+\begin_inset Formula $(-a)^{2}$
+\end_inset
+
+的值:
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $a=5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $a=-5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $a=0.13$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $a=0.13$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 审题*
+\begin_inset Formula $-a^{2}$
+\end_inset
+
+要先平方再添上负号,
+\begin_inset Formula $(-a)^{2}$
+\end_inset
+
+要先添上括号再平方.
+\end_layout
+
+\begin_layout 解*
+(1) 
+\begin_inset Formula $-a^{2}=-5^{2}=-25$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{(M)}(-a)^{2}=(-5)^{2}=+25$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+(2) 
+\begin_inset Formula $-a^{2}=-(-5)^{2}=-25$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{(M)}(-a)^{2}=[-(-5)]^{2}=5^{2}=25$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+(3) 
+\begin_inset Formula $-a^{2}=-(0.13)^{2}=-0.0169$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{(M)}(-a)^{2}=(-0.13)^{2}=+0.0169$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+(4) 
+\begin_inset Formula $-a^{2}=-(-0.13)^{2}=+0.0169$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{(M)}(-a)^{2}=[-(-0.13)]^{2}=(0.13)^{2}=0.0169$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+求代数式
+\begin_inset Formula $a-b$
+\end_inset
+
+的值(填下表):
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="9">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
+<row bottomspace="1ex">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $+5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $+5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $+\cfrac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-\cfrac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-1\cfrac{2}{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $+3.54$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row bottomspace="1ex">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $b$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $+7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-20$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $+\cfrac{2}{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $+\cfrac{2}{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-3\cfrac{1}{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-5.09$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a-b$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+计算下列代数式的值(2~7):
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+start=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $-\cfrac{2}{3}ab^{2}$
+\end_inset
+
+,
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $a=-3$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $b=-2$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a=-2\cfrac{1}{3}$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $b=-1\cfrac{1}{7}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $-x^{3}+2x^{2}-3x+4$
+\end_inset
+
+,
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x=2$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x=-0.3$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $a^{2}-b^{2}$
+\end_inset
+
+,
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $a=-3$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $b=-5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $a=-5.3$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $b=4.7$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $(a-b)^{2}$
+\end_inset
+
+,
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $a=-3$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $b=-5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $a=-3\cfrac{2}{3}$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $b=5\cfrac{1}{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{(a+b)^{2}}{a^{2}+b^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $a=-2$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $b=-3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $a=0.3$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $b=-0.4$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{1+a+a^{2}}{1-a+a^{2}}$
+\end_inset
+
+,
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $a=-5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $a=+3\cfrac{1}{3}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+求下表空格内有关代数式的值:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
+<row bottomspace="1ex">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{2}{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-\cfrac{2}{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-5\cfrac{1}{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $|a|$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $|-a|$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-|-a|$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+梯形的而积公式是
+\begin_inset Formula $S=\cfrac{(a+b)h}{2}$
+\end_inset
+
+,这里
+\begin_inset Formula $S$
+\end_inset
+
+表示梯形的面积,
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $b$
+\end_inset
+
+表示梯形的两底,表示梯形的高;底和高的单位如果是厘米,那末面积的单位是平方厘米.从下列各已知量,求梯形的面积
+\begin_inset Formula $S$
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $a=15$
+\end_inset
+
+厘米,
+\begin_inset Formula $b=3$
+\end_inset
+
+厘米,
+\begin_inset Formula $h=3\text{厘米}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a=2.4$
+\end_inset
+
+厘米,
+\begin_inset Formula $b=1.2$
+\end_inset
+
+厘米,
+\begin_inset Formula $h=0.9$
+\end_inset
+
+厘米.
+\end_layout
+
+\begin_layout Standard
+[解法举例:(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $S=\cfrac{(a+b)h}{2}=\cfrac{(15+7)\times3}{2}=33\text{(平方厘米)}$
+\end_inset
+
+.]
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/-085.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+长方体的表面积公式是
+\begin_inset Formula $S=2(ab+ac+bc)$
+\end_inset
+
+,这里
+\begin_inset Formula $S$
+\end_inset
+
+表示长方体的表面积,
+\begin_inset Formula $a$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+,
+\begin_inset Formula $c$
+\end_inset
+
+分别表示它的长、宽和高.从下列各已知量,求长方体的表面积:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $a=5\text{厘米}$
+\end_inset
+
+,
+\begin_inset Formula $b=7$
+\end_inset
+
+厘米,
+\begin_inset Formula $c=9$
+\end_inset
+
+厘米;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a=0.3$
+\end_inset
+
+厘米,
+\begin_inset Formula $b=0.2$
+\end_inset
+
+厘米,
+\begin_inset Formula $c=0.4$
+\end_inset
+
+厘米.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+已知代数式的值求某个字母的值
+\end_layout
+
+\begin_layout Standard
+在上一节里,我们研究了已知字母的值求含有这个字母的代数式的值.现在,我们要研究一个相反的问题:已知含有一个字母的代数式的值,求这个字母的数值.让我们先看下面的例子.
+\end_layout
+
+\begin_layout Example
+已知代数式
+\begin_inset Formula $x+5$
+\end_inset
+
+的值等于
+\begin_inset Formula $16$
+\end_inset
+
+,求
+\begin_inset Formula $x$
+\end_inset
+
+的值.
+\end_layout
+
+\begin_layout 审题*
+这里
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $5$
+\end_inset
+
+是两个加数,而
+\begin_inset Formula $16$
+\end_inset
+
+是它们的和数.求
+\begin_inset Formula $x$
+\end_inset
+
+的值就是已知两个加数的和与一个加数求另一个加数,这样的求法是加法的逆运算,就是减法.
+\begin_inset Newline newline
+\end_inset
+
+根据逆运算的关系,得解如下.
+\end_layout
+
+\begin_layout 解*
+\begin_inset Formula $\because\quad x+5=16$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad x=16-5=11$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 注*
+这里所写的
+\begin_inset Formula $x+5=16$
+\end_inset
+
+是一个等式.其中字母
+\begin_inset Formula $x$
+\end_inset
+
+的数值是要求的,叫做
+\series bold
+未知数
+\series default
+,这样
+\series bold
+含有未知数的等式叫做方程
+\series default
+.关于方程的系统研究,我们将在第二册里再讲.
+\end_layout
+
+\begin_layout Example
+已知代数式
+\begin_inset Formula $3x$
+\end_inset
+
+的值是
+\begin_inset Formula $20$
+\end_inset
+
+,求
+\begin_inset Formula $x$
+\end_inset
+
+的值.
+\end_layout
+
+\begin_layout 审题*
+这里
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $3$
+\end_inset
+
+是两个乘数,而
+\begin_inset Formula $20$
+\end_inset
+
+是它们的积.求
+\begin_inset Formula $x$
+\end_inset
+
+的值就是巳知两个数的积和一个乘数求另一个乘数.这样的求法是乘法的逆运算,就是除法.
+\begin_inset Newline newline
+\end_inset
+
+根据逆运算的关系,得解如下.
+\end_layout
+
+\begin_layout 解*
+\begin_inset Formula $\because\quad3=20$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad x=20\div3=6\cfrac{2}{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+已知代数式
+\begin_inset Formula $\cfrac{x}{3}-5$
+\end_inset
+
+的值是
+\begin_inset Formula $3$
+\end_inset
+
+,求
+\begin_inset Formula $x$
+\end_inset
+
+的值.
+\end_layout
+
+\begin_layout 审题*
+这里代数式的值
+\begin_inset Formula $3$
+\end_inset
+
+是
+\begin_inset Formula $x$
+\end_inset
+
+除以
+\begin_inset Formula $3$
+\end_inset
+
+以后再减去
+\begin_inset Formula $5$
+\end_inset
+
+所得的结果.根据逆运算的关系,
+\begin_inset Formula $x$
+\end_inset
+
+除以
+\begin_inset Formula $3$
+\end_inset
+
+以后所得的结果应该是
+\begin_inset Formula $3+5$
+\end_inset
+
+,而
+\begin_inset Formula $x$
+\end_inset
+
+的值又应该是
+\begin_inset Formula $3+5$
+\end_inset
+
+的和再乘以
+\begin_inset Formula $3$
+\end_inset
+
+.因此,得解如下.
+\end_layout
+
+\begin_layout 解*
+\begin_inset Formula $\because\quad\cfrac{x}{3}-5=2$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad\cfrac{x}{3}=3+5=8$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{\therefore\quad}x=8\times3=24$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+已知
+\begin_inset Formula $x-3$
+\end_inset
+
+的值等于
+\begin_inset Formula $3$
+\end_inset
+
+,求
+\begin_inset Formula $x$
+\end_inset
+
+的值.
+\end_layout
+
+\begin_layout EnumIndent
+已知
+\begin_inset Formula $\cfrac{x}{5}$
+\end_inset
+
+的值等于
+\begin_inset Formula $-3$
+\end_inset
+
+,求
+\begin_inset Formula $x$
+\end_inset
+
+的值.
+\end_layout
+
+\begin_layout EnumIndent
+已知
+\begin_inset Formula $3x+2=1$
+\end_inset
+
+,求
+\begin_inset Formula $x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+整式和分式 
+\end_layout
+
+\begin_layout Standard
+让我们看下面的这些代数式:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{cccc}
+3a, & x+y, & a^{2}-b^{2}, & \cfrac{(a+b)h}{2},\\
+\cfrac{1}{a}, & \cfrac{5}{x-3}, & \cfrac{x-y}{x+y}, & \Big(x+\cfrac{1}{x}\Big)^{2}.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这些代数式里所包含的运算都不外乎加、减、乘、除和乘方五种.这样的代数式叫做
+\series bold
+有理代数式
+\series default
+,简称
+\series bold
+有理式
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+上面这些有理式里,
+\begin_inset Formula $3a$
+\end_inset
+
+,
+\begin_inset Formula $x+y$
+\end_inset
+
+,
+\begin_inset Formula $a^{2}-b^{2}$
+\end_inset
+
+等,都没有除法,虽然有除法,但除式里没有字母.这样的有理式叫做
+\series bold
+有理整式
+\series default
+,简称
+\series bold
+整式
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+上面这些有理式里,
+\begin_inset Formula $\cfrac{1}{a}$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{5}{x-3}$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{x-y}{x+y}$
+\end_inset
+
+,
+\begin_inset Formula $\Big(x+\cfrac{1}{x}\Big)^{2}$
+\end_inset
+
+等,不但有除法,而且在除式里有字母出现.这样的有理式叫做
+\series bold
+有理分式
+\series default
+,简称
+\series bold
+分式
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+在下列代数式中,指出哪些是整式,哪些是分式:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $a+5$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{1}{a+5}$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{a-5}{5}$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $a+\cfrac{1}{b}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{1}{3}x^{2}+5x-\cfrac{2}{3}$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{y}{x}$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{x}{x-y}$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $x^{2}-xy+\cfrac{1}{2}y^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+start=2
+\end_layout
+
+\end_inset
+
+当
+\begin_inset Formula $a=\cfrac{1}{2}$
+\end_inset
+
+时,
+\begin_inset Formula $a+5$
+\end_inset
+
+的值是多少？
+\end_layout
+
+\begin_layout EnumIndent
+当
+\begin_inset Formula $a=3$
+\end_inset
+
+时,
+\begin_inset Formula $\cfrac{12}{a}$
+\end_inset
+
+的值是多少？
+\end_layout
+
+\begin_layout EnumIndent
+整式的值一定是整数吗？举例说明.
+\end_layout
+
+\begin_layout EnumIndent
+分式的值一定是分数吗？举例说明.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+单项式
+\end_layout
+
+\begin_layout Subsection
+单项式的概念
+\end_layout
+
+\begin_layout Standard
+让我们研究下列整式:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $-\cfrac{1}{2}$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $a$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $-3a^{2}$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $+\cfrac{1}{3}a^{3}b^{2}c$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $-\cfrac{1}{3}x^{2}y^{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+这些整式有一个共同的特点,就是没有加减运算,这些整式,叫做
+\series bold
+单项式
+\series default
+;这就是说:
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+没有加减运算的整式
+\end_layout
+
+\end_inset
+
+叫做
+\series bold
+单项式
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+象整式
+\begin_inset Formula $3x+5y$
+\end_inset
+
+就不是单项式,因为这里有加法运算,象代数式
+\begin_inset Formula $\cfrac{b}{a}$
+\end_inset
+
+也不是单项式,因为
+\begin_inset Formula $\cfrac{b}{a}$
+\end_inset
+
+不是整式.
+\end_layout
+
+\begin_layout Subsection
+系数
+\end_layout
+
+\begin_layout Standard
+在单项式
+\begin_inset Formula $3a$
+\end_inset
+
+里,
+\begin_inset Formula $3a$
+\end_inset
+
+是数字因数
+\begin_inset Formula $3$
+\end_inset
+
+与字母因数
+\begin_inset Formula $a$
+\end_inset
+
+的积;在代数式
+\begin_inset Formula $-5x$
+\end_inset
+
+里,
+\begin_inset Formula $-5x$
+\end_inset
+
+是数字因数
+\begin_inset Formula $-5$
+\end_inset
+
+与字母因数
+\begin_inset Formula $x$
+\end_inset
+
+的积;在代数式
+\begin_inset Formula $\cfrac{2}{3}a^{2}x$
+\end_inset
+
+里,
+\begin_inset Formula $\cfrac{2}{3}a^{2}x$
+\end_inset
+
+是数字因数
+\begin_inset Formula $\cfrac{2}{3}$
+\end_inset
+
+与字母部分的因数
+\begin_inset Formula $a^{2}x$
+\end_inset
+
+的积.我们把数字部分的因数叫做字母部分因数的
+\series bold
+数字系数
+\series default
+,简称
+\series bold
+系数
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+例如:在
+\begin_inset Formula $3a$
+\end_inset
+
+里,
+\begin_inset Formula $3$
+\end_inset
+
+是
+\begin_inset Formula $a$
+\end_inset
+
+的系数;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\phantom{\text{例如}:}$
+\end_inset
+
+在
+\begin_inset Formula $-5x$
+\end_inset
+
+里,
+\begin_inset Formula $-5$
+\end_inset
+
+是
+\begin_inset Formula $x$
+\end_inset
+
+的系数;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\phantom{\text{例如}:}$
+\end_inset
+
+在
+\begin_inset Formula $\cfrac{2}{3}a^{2}x$
+\end_inset
+
+里,
+\begin_inset Formula $\cfrac{2}{3}$
+\end_inset
+
+是
+\begin_inset Formula $a^{2}x$
+\end_inset
+
+的系数.
+\end_layout
+
+\begin_layout 注*
+1.
+\begin_inset space \space{}
+\end_inset
+
+代数式
+\begin_inset Formula $a$
+\end_inset
+
+就是
+\begin_inset Formula $1$
+\end_inset
+
+与
+\begin_inset Formula $a$
+\end_inset
+
+的积,所以
+\begin_inset Formula $a$
+\end_inset
+
+的系数是
+\begin_inset Formula $1$
+\end_inset
+
+,同样的在
+\begin_inset Formula $a^{2}x^{3}$
+\end_inset
+
+里,
+\begin_inset Formula $a^{2}x^{3}$
+\end_inset
+
+的系数也是1;在
+\begin_inset Formula $-abc$
+\end_inset
+
+里,
+\begin_inset Formula $abc$
+\end_inset
+
+的系数是
+\begin_inset Formula $-1$
+\end_inset
+
+,不要把
+\begin_inset Formula $a$
+\end_inset
+
+的系数说成是零,也不要把
+\begin_inset Formula $-abc$
+\end_inset
+
+的系数说成是负号.
+\begin_inset Newline newline
+\end_inset
+
+2.
+\begin_inset space \space{}
+\end_inset
+
+在将来,我们还可以把一个或几个字母作为主要字母,而把其他字母因数也作为系数或系数的一部分,例如我们可以把
+\begin_inset Formula $x$
+\end_inset
+
+作为主要字母,在
+\begin_inset Formula $ax$
+\end_inset
+
+里,将
+\begin_inset Formula $a$
+\end_inset
+
+看作
+\begin_inset Formula $x$
+\end_inset
+
+的系数,在
+\begin_inset Formula $-3a^{2}x^{3}$
+\end_inset
+
+里,将
+\begin_inset Formula $-3a^{2}$
+\end_inset
+
+看作
+\begin_inset Formula $x^{3}$
+\end_inset
+
+的系数;又如我们可以把
+\begin_inset Formula $x$
+\end_inset
+
+与
+\begin_inset Formula $y$
+\end_inset
+
+作为主要字母,在
+\begin_inset Formula $-3ax$
+\end_inset
+
+里,将
+\begin_inset Formula $3a$
+\end_inset
+
+看作
+\begin_inset Formula $x^{2}y$
+\end_inset
+
+的系数等.所以系数是对特定的字母来说的.在这里,我们还只讲数字系数.
+\end_layout
+
+\begin_layout Subsection
+幂
+\end_layout
+
+\begin_layout Standard
+在讨论有理数的乘方运算时,我们已讲过底数、指数这些名词了.对于含有字母的式子来说,这些名词仍具有同样的意义.例如
+\begin_inset Formula $a^{3}$
+\end_inset
+
+就叫做
+\begin_inset Formula $a$
+\end_inset
+
+的三次方,底数是
+\begin_inset Formula $a$
+\end_inset
+
+,指数是
+\begin_inset Formula $3$
+\end_inset
+
+,而
+\begin_inset Formula $a^{3}$
+\end_inset
+
+就是
+\begin_inset Formula $a\cdot a\cdot a$
+\end_inset
+
+的简写.
+\begin_inset Formula $a^{3}$
+\end_inset
+
+也叫做
+\begin_inset Formula $a$
+\end_inset
+
+的三次幂.同样,
+\begin_inset Formula $x^{5}$
+\end_inset
+
+叫做
+\begin_inset Formula $x$
+\end_inset
+
+的五次方或五次幂,这里底数是
+\begin_inset Formula $x$
+\end_inset
+
+,指数是
+\begin_inset Formula $5$
+\end_inset
+
+,而
+\begin_inset Formula $x^{5}$
+\end_inset
+
+就是
+\begin_inset Formula $x\cdot x\cdot x\cdot x\cdot x$
+\end_inset
+
+的简写.一般说来,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $a^{n}=\underbrace{a\cdot a\cdot a\cdot a\cdot\cdot\cdot a}_{\text{一共有n个}}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset space \qquad{}
+\end_inset
+
+这里
+\series bold
+底数
+\series default
+是
+\begin_inset Formula $a$
+\end_inset
+
+,
+\series bold
+指数
+\series default
+是
+\begin_inset Formula $n$
+\end_inset
+
+,
+\begin_inset Formula $n$
+\end_inset
+
+是任意自然数,
+\begin_inset Formula $a^{n}$
+\end_inset
+
+读做
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $n$
+\end_inset
+
+次方或者
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $n$
+\end_inset
+
+次幂.
+\end_layout
+
+\begin_layout 注意*
+\begin_inset Formula $a$
+\end_inset
+
+也是一个幂,叫做
+\begin_inset Formula $a$
+\end_inset
+
+的一次幂或一次方,这里指数是
+\begin_inset Formula $1$
+\end_inset
+
+.指数是
+\begin_inset Formula $1$
+\end_inset
+
+时,不必写出来.反过来说,不写出来的指数就是1,不要说
+\begin_inset Formula $a$
+\end_inset
+
+没有指数,或者说它的指数是
+\begin_inset Formula $0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+单项式的次数
+\end_layout
+
+\begin_layout Standard
+看单项式
+\begin_inset Formula $-3x^{2}$
+\end_inset
+
+,
+\begin_inset Formula $2x^{3}$
+\end_inset
+
+,
+\begin_inset Formula $a^{2}bc$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{1}{2}x^{3}y$
+\end_inset
+
+,
+\begin_inset Formula $-5$
+\end_inset
+
+,
+\begin_inset Formula $ax^{2}$
+\end_inset
+
+,
+\begin_inset Formula $+\cfrac{1}{2}$
+\end_inset
+
+,
+\begin_inset Formula $a$
+\end_inset
+
+.这些单项式里,有的只有一个字母,有的有两个字母,有的有三个字母,有的只有数字没有字母;各个字母的指数也有是
+\begin_inset Formula $1$
+\end_inset
+
+的,也有是
+\begin_inset Formula $2$
+\end_inset
+
+的,也有是
+\begin_inset Formula $3$
+\end_inset
+
+的或者是
+\begin_inset Formula $4$
+\end_inset
+
+的.我们把
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+一个单项式里各个字母的指数的和
+\end_layout
+
+\end_inset
+
+叫做
+\series bold
+这个单项式关于这些字母的次数
+\series default
+.例如
+\begin_inset Formula $-3x^{4}$
+\end_inset
+
+是关于
+\begin_inset Formula $x$
+\end_inset
+
+的四次单项式,或者简称四次式;
+\begin_inset Formula $2x^{3}$
+\end_inset
+
+是关于
+\begin_inset Formula $x$
+\end_inset
+
+的三次单项式;
+\begin_inset Formula $a^{2}bc$
+\end_inset
+
+是关于字母
+\begin_inset Formula $a$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+,
+\begin_inset Formula $c$
+\end_inset
+
+的四次单项式.为这里
+\begin_inset Formula $a$
+\end_inset
+
+的指数是
+\begin_inset Formula $2$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+和
+\begin_inset Formula $c$
+\end_inset
+
+的指数各是
+\begin_inset Formula $1$
+\end_inset
+
+,而它们的指数的和是
+\begin_inset Formula $2+1+1=4$
+\end_inset
+
+;
+\begin_inset Formula $\cfrac{1}{2}x^{3}y$
+\end_inset
+
+是关于
+\begin_inset Formula $x$
+\end_inset
+
+与
+\begin_inset Formula $y$
+\end_inset
+
+的四次单项式;
+\begin_inset Formula $ax^{3}$
+\end_inset
+
+是关于
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $x$
+\end_inset
+
+的三次单项式;
+\begin_inset Formula $a$
+\end_inset
+
+是关于
+\begin_inset Formula $a$
+\end_inset
+
+的一次单项式.单项式
+\begin_inset Formula $-5$
+\end_inset
+
+与
+\begin_inset Formula $+\cfrac{1}{2}$
+\end_inset
+
+,都只有数字没有字母,叫做零次单项式.
+\end_layout
+
+\begin_layout 注意*
+有时我们只把一个或几个字母作为主要字母,根据这几个字母的指数来计算单项式的次数.例如
+\begin_inset Formula $ax^{2}$
+\end_inset
+
+可以看做是关于
+\begin_inset Formula $a$
+\end_inset
+
+的二次单项式,而把
+\begin_inset Formula $a$
+\end_inset
+
+作为主要字母
+\begin_inset Formula $x$
+\end_inset
+
+的系数,又如
+\begin_inset Formula $3ax^{2}y$
+\end_inset
+
+可以看做是关于
+\begin_inset Formula $x$
+\end_inset
+
+与
+\begin_inset Formula $y$
+\end_inset
+
+的三次单项式,
+\begin_inset Formula $3a$
+\end_inset
+
+可以当做
+\begin_inset Formula $x^{2}y$
+\end_inset
+
+的系数.
+\end_layout
+
+\begin_layout Subsection
+单项式的整理
+\end_layout
+
+\begin_layout Standard
+单项式的整理,一般包栝两个内容:
+\end_layout
+
+\begin_layout Standard
+(i)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+排列各因数的前后次序
+\end_layout
+
+\end_inset
+
+:一个单项式可以包含几个因数,有数字的,也有字母的.因为字母表示的也是数,所以可根据乘法交换律,把这些因数的前后次序互相调换.在习惯上,我们总杷数字因数连同性质符号
+写在最前面,各个字母的前后次序,一般按照拉丁字母的前后次序(也就是拼音字母的次序)排列.
+\end_layout
+
+\begin_layout Example
+整理单项式:(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $a3$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $b^{3}5a$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(3)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $-x\cfrac{1}{3}a^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+整理后得:(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $3a$
+\end_inset
+
+;
+\begin_inset space \qquad{}
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $5ab^{2}$
+\end_inset
+
+;
+\begin_inset space \qquad{}
+\end_inset
+
+(3)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $-\cfrac{1}{3}a^{2}x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(ii)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+相同的字母因数,应该用指数来表示成一个幂.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+整理单项式:(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $3aaa$
+\end_inset
+
+;
+\begin_inset space \qquad{}
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $-3abababa$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 审题*
+根据相同因数可以写成幂的形式,
+\begin_inset Formula $aaa$
+\end_inset
+
+可以写做
+\begin_inset Formula $a^{3}$
+\end_inset
+
+.根据乘法交换律,
+\begin_inset Formula $-3abababa$
+\end_inset
+
+可以写成
+\begin_inset Formula $-3aaaabb$
+\end_inset
+
+,再根据相同因数可以写成幂的形式,
+\begin_inset Formula $aaaa$
+\end_inset
+
+可以写做
+\begin_inset Formula $a^{4}$
+\end_inset
+
+,
+\begin_inset Formula $bbb$
+\end_inset
+
+可以写做
+\begin_inset Formula $b^{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+整理后得:(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $3x^{3}$
+\end_inset
+
+;
+\begin_inset space \qquad{}
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $-3a^{4}b^{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+下列代数式是不是单项式,为什么？
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3$
+\end_inset
+
+;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-5xy$
+\end_inset
+
+;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $+\cfrac{1}{3}ax^{5}$
+\end_inset
+
+;
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a+b$
+\end_inset
+
+;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{3}{x}$
+\end_inset
+
+;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{7}{x+y}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+说出下列各代数式里的系数:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=4
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $3a$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-5ab^{3}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-a^{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{1}{2}a^{2}b^{4}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-\cfrac{2}{3}x^{2}y$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $0.3x$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-1.5a^{4}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+说出下列代数式里各个字母的指数:
+\begin_inset Newline newline
+\end_inset
+
+(1) 
+\begin_inset Formula $5a^{2}b^{4}x$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(2) 
+\begin_inset Formula $-7ax^{4}$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(3) 
+\begin_inset Formula $\cfrac{1}{3}x^{2}y^{5}$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(4) 
+\begin_inset Formula $6abcy^{3}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+[解法举例:在
+\begin_inset Formula $5a^{2}b^{4}x$
+\end_inset
+
+里,
+\begin_inset Formula $a$
+\end_inset
+
+的指数是
+\begin_inset Formula $2$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+的指数是
+\begin_inset Formula $4$
+\end_inset
+
+,
+\begin_inset Formula $x$
+\end_inset
+
+的指数是
+\begin_inset Formula $1$
+\end_inset
+
+.]
+\end_layout
+
+\begin_layout EnumIndent
+说出下列各单项式的次数:
+\begin_inset Newline newline
+\end_inset
+
+(1) 
+\begin_inset Formula $-5a$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(2) 
+\begin_inset Formula $a^{2}b^{2}$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(3) 
+\begin_inset Formula $4x^{2}$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(4) 
+\begin_inset Formula $-\cfrac{1}{2}x^{3}y^{5}z$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+[解法举例:
+\begin_inset Formula $-5a$
+\end_inset
+
+是一次单项式.]
+\end_layout
+
+\begin_layout EnumIndent
+整理下列各单项式:
+\begin_inset Newline newline
+\end_inset
+
+(1) 
+\begin_inset Formula $a4$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(2) 
+\begin_inset Formula $aba$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(3) 
+\begin_inset Formula $5axxaa$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(4) 
+\begin_inset Formula $a\cfrac{1}{2}xbabx$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+多项式
+\end_layout
+
+\begin_layout Subsection
+多项式的概念
+\end_layout
+
+\begin_layout Standard
+让我们来观察下面这些代数式:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a+3$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $x-y$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $-x^{2}+xy+3y^{2}$
+\end_inset
+
+,
+\begin_inset space \enskip{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{1}{3}x^{3}-2x^{2}+\cfrac{1}{2}x-5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+这些代数式里,因为都没有用字母做除数,所以它们都是整式,但是它们都含有加减运算符号,所以它们都不是单项式.
+\end_layout
+
+\begin_layout Standard
+我们可以把这些代数式看做是几个单项式的代数和,例如:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a+3$
+\end_inset
+
+是
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $+3$
+\end_inset
+
+的代数和;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x-y$
+\end_inset
+
+是
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $-y$
+\end_inset
+
+的代数和;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-x^{2}+xy+3y^{2}$
+\end_inset
+
+是
+\begin_inset Formula $-x^{2}$
+\end_inset
+
+,
+\begin_inset Formula $+xy$
+\end_inset
+
+和
+\begin_inset Formula $+3y^{2}$
+\end_inset
+
+的代数和;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cfrac{1}{3}x^{3}-2x^{2}+\cfrac{1}{2}x-5$
+\end_inset
+
+是
+\begin_inset Formula $\cfrac{1}{3}x^{3}$
+\end_inset
+
+,
+\begin_inset Formula $-2x^{2}$
+\end_inset
+
+,
+\begin_inset Formula $+\cfrac{1}{2}x$
+\end_inset
+
+和
+\begin_inset Formula $-5$
+\end_inset
+
+的代数和.
+\end_layout
+
+\begin_layout Standard
+我们把
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+几个单项式的代数和
+\end_layout
+
+\end_inset
+
+叫做
+\series bold
+多项式
+\series default
+.
+\end_layout
+
+\begin_layout Subsection
+多项式的项
+\end_layout
+
+\begin_layout Standard
+在多项式里的每一个单项式,叫做这个多项式的项.多项式里含有几项就叫几项式.例如,在上面这些多项式里,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a+3$
+\end_inset
+
+和
+\begin_inset Formula $x-y$
+\end_inset
+
+都是
+\series bold
+二项式
+\series default
+;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-x^{2}+xy+3y^{2}$
+\end_inset
+
+是
+\series bold
+三项式
+\series default
+;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cfrac{1}{3}x^{3}-2x^{2}+\cfrac{1}{2}x-5$
+\end_inset
+
+是
+\series bold
+四项式
+\series default
+.
+\end_layout
+
+\begin_layout 注意*
+多项式中的项,是包括它前面的正负号的.例如的两项是
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $-y$
+\end_inset
+
+不能说是
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+多项式的次数
+\end_layout
+
+\begin_layout Standard
+在二项式
+\begin_inset Formula $a+3$
+\end_inset
+
+里,第一项
+\begin_inset Formula $a$
+\end_inset
+
+的次数是
+\begin_inset Formula $1$
+\end_inset
+
+,我们把它叫做一次项,
+\begin_inset Formula $+3$
+\end_inset
+
+没有字母,我们把它叫做
+\series bold
+常数项
+\series default
+(或者叫做零次项),这里次数最高的项是一次项.
+\end_layout
+
+\begin_layout Standard
+在三项式
+\begin_inset Formula $3x^{2}-5x-1$
+\end_inset
+
+里,第一项
+\begin_inset Formula $3x^{2}$
+\end_inset
+
+的次数是2,我们把它叫做二次项,
+\begin_inset Formula $-5x$
+\end_inset
+
+是一次项,
+\begin_inset Formula $-1$
+\end_inset
+
+是常数项,这里次数最高的项是二次项.
+\end_layout
+
+\begin_layout Standard
+在四项式
+\begin_inset Formula $-3x^{3}+2x^{2}-\cfrac{1}{2}x+5$
+\end_inset
+
+里,次数最高的项是三次项
+\begin_inset Formula $-3x^{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+我们把一个多项式里次数最高的项的次数叫做这个
+\series bold
+多项式的次数
+\series default
+,多项式的次数是几的,就叫做几次多项式.
+\end_layout
+
+\begin_layout Standard
+例如:
+\begin_inset Formula $a+3$
+\end_inset
+
+是
+\series bold
+一次式
+\series default
+;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $3x^{2}-5x-1$
+\end_inset
+
+是
+\series bold
+二次式
+\series default
+;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-3x^{3}+2x^{2}-\cfrac{1}{2}x+5$
+\end_inset
+
+是
+\series bold
+三次式
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+又如:
+\begin_inset Formula $x^{3}-x^{2}y+xy^{2}-y^{3}$
+\end_inset
+
+,它的四项的次数都是
+\begin_inset Formula $3$
+\end_inset
+
+,它是关于
+\begin_inset Formula $x$
+\end_inset
+
+与
+\begin_inset Formula $y$
+\end_inset
+
+的三次式.
+\end_layout
+
+\begin_layout Subsection
+多项式的整理
+\end_layout
+
+\begin_layout Standard
+为了便于运算,通常我们总要把一个多项式,按照一定的要求进行整理.多项式的整理,一般包括两个内容.
+\end_layout
+
+\begin_layout Standard
+(i)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+排幂
+\end_layout
+
+\end_inset
+
+:我们来看多项式
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x^{2}-2-5x+3x^{3}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\noindent
+这个多项式的许多项都有字母
+\begin_inset Formula $x$
+\end_inset
+
+,我们常常把这样表示变数的字母叫做
+\series bold
+元
+\series default
+.这个多项式是四个单项式
+\begin_inset Formula $x^{2}$
+\end_inset
+
+,
+\begin_inset Formula $-2$
+\end_inset
+
+,
+\begin_inset Formula $-5x$
+\end_inset
+
+,
+\begin_inset Formula $+3x^{3}$
+\end_inset
+
+的代数和,按照元
+\begin_inset Formula $x$
+\end_inset
+
+的次数来研究;这里第一项的次数是
+\begin_inset Formula $2$
+\end_inset
+
+,第二项是常数项(或者说它的次数是
+\begin_inset Formula $0$
+\end_inset
+
+),第三项的次数是
+\begin_inset Formula $1$
+\end_inset
+
+,第四项的次数是
+\begin_inset Formula $3$
+\end_inset
+
+.为了把它整理成整齐形式,通常我们应该按照各项次数从大到小或者从小到大的顺序,把它们重行排列起来.这种整理方法叫做排幂.例如:
+\end_layout
+
+\begin_layout Standard
+多项式
+\begin_inset Formula $x^{2}-2-5x+3x^{3}$
+\end_inset
+
+可以重新排例成
+\begin_inset VSpace -2ex
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+3x^{3}+x^{2}-5x-2
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+或者
+\begin_inset Formula 
+\begin{equation}
+-2-5x+x^{2}+3x^{3}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2ex
+\end_inset
+
+两种形式.
+\end_layout
+
+\begin_layout 注意*
+在有理数这一章里,我们已经知道,在加法运算中,可以交换加数的前后次序(加法交换律).代数式里的字母都表示数,每个单项式表示的也就是数,所以我们可以象有理数加法一样
+,交换多项式里各项的先后次序.
+\end_layout
+
+\begin_layout 注意*
+我们看到,在(1)中,各项是按照字母
+\begin_inset Formula $x$
+\end_inset
+
+的幂的指数从大到小的顺序来排列的,这种排列方法,叫做按这个字母的
+\series bold
+降幂排列
+\series default
+;在(2)中,各项是按照字母
+\begin_inset Formula $x$
+\end_inset
+
+的幂的指数从小到大的顺序来排列的,这种排列方法,叫做按这个字母的
+\series bold
+升幂排列
+\series default
+.
+\end_layout
+
+\begin_layout Example
+依照
+\begin_inset Formula $x$
+\end_inset
+
+的降幂排列,整理下列两个多项式:
+\begin_inset Newline newline
+\end_inset
+
+(1) 
+\begin_inset Formula $x^{2}-2-5x^{4}+3x^{3}$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+(2) 
+\begin_inset Formula $3-4x+5x^{6}-4x^{5}+x^{2}-x^{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+整理后,得
+\begin_inset Newline newline
+\end_inset
+
+(1) 
+\begin_inset Formula $-5x^{4}+3x^{3}+x^{2}-2$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+(2) 
+\begin_inset Formula $5x^{6}-4x^{5}-x^{3}+x^{2}-4x+3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 注意*
+多项式中的项,是包括它前面的性质符号的.在排幂时,每一项的性质符号仍须看作是这一项的一个部分而一起移动.如果原来的第一项省略掉性质符号“
+\begin_inset Formula $+$
+\end_inset
+
+”,搬到后面时就要补上这个“
+\begin_inset Formula $+$
+\end_inset
+
+”号;如果原来的中间项搬到第一项而性质符号是正的,也可以省略掉这一“
+\begin_inset Formula $+$
+\end_inset
+
+”号,但性质符号“
+\begin_inset Formula $-$
+\end_inset
+
+”不能省略.
+\end_layout
+
+\begin_layout Example
+按
+\begin_inset Formula $a$
+\end_inset
+
+的降幂排列整理下列多项式:
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $a^{3}-3ab^{2}+5b^{3}-6a^{2}b$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $-3ab+b^{2}-3a^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+整理后,得
+\begin_inset Newline newline
+\end_inset
+
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $a^{3}-6a^{2}b+3ab^{2}+5b^{3}$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $-3a^{2}-3ab+b^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+按
+\begin_inset Formula $x$
+\end_inset
+
+的升幂排列整理下列多项式:
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $x^{2}-3x^{3}+5x-7$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $y^{3}-3x^{2}y+2xy^{2}+x^{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+整理后,得
+\begin_inset Newline newline
+\end_inset
+
+(1) 
+\begin_inset Formula $-7+5x+x^{2}-3x^{3}$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(2) 
+\begin_inset Formula $y^{3}+2xy^{2}-3x^{2}y+x^{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(ii)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+合并同类项
+\end_layout
+
+\end_inset
+
+:我们来看多项式
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3a^{2}b-5ab^{2}+3a^{2}b+ab^{2}+a^{2}b^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+它是五个单项式
+\begin_inset Formula $3a^{2}b$
+\end_inset
+
+,
+\begin_inset Formula $-5ab^{2}$
+\end_inset
+
+,
+\begin_inset Formula $+3a^{2}b$
+\end_inset
+
+,
+\begin_inset Formula $+ab^{2}$
+\end_inset
+
+,
+\begin_inset Formula $+a^{2}b^{2}$
+\end_inset
+
+的代数和.这些单项式都只含有两个字母,就是
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $b$
+\end_inset
+
+并且:
+\end_layout
+
+\begin_layout Standard
+第一项
+\begin_inset Formula $3a^{2}b$
+\end_inset
+
+和第三项
+\begin_inset Formula $3a^{2}b$
+\end_inset
+
+,
+\begin_inset Formula $a$
+\end_inset
+
+的幂的指数都是
+\begin_inset Formula $2$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+的幂的指数都是
+\begin_inset Formula $1$
+\end_inset
+
+,系数也相同,这两个项是完全一样的.
+\end_layout
+
+\begin_layout Standard
+第二项
+\begin_inset Formula $-5ab^{2}$
+\end_inset
+
+和第四项
+\begin_inset Formula $ab^{2}$
+\end_inset
+
+,
+\begin_inset Formula $a$
+\end_inset
+
+的幂的指数都是
+\begin_inset Formula $1$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+的幂的指数都是
+\begin_inset Formula $2$
+\end_inset
+
+,这两项里只有系数不相同.
+\end_layout
+
+\begin_layout Standard
+多项式里具有这种性质的两个或几个项,叫做同类项.例如第一项
+\begin_inset Formula $3a^{2}b$
+\end_inset
+
+和第三项
+\begin_inset Formula $3a^{2}b$
+\end_inset
+
+是同类项,第二项
+\begin_inset Formula $-5ab^{2}$
+\end_inset
+
+和第四项
+\begin_inset Formula $ab^{2}$
+\end_inset
+
+也是同类项.一般地说,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+多顼式里的某些项,如果彼此完全没有差别,或者彼此只有系数不同,那末这些项就
+\end_layout
+
+\end_inset
+
+叫做
+\series bold
+同类项
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+常数项和常数项也是同类项.
+\end_layout
+
+\begin_layout 注意*
+多项式里的两个项虽然所含字母相同,但是相同字母的幂的指数不同,就不是同类项.例如
+\begin_inset Formula $3a^{2}b$
+\end_inset
+
+和
+\begin_inset Formula $3ab^{2}$
+\end_inset
+
+就不是同类项,
+\begin_inset Formula $3a^{2}b$
+\end_inset
+
+和
+\begin_inset Formula $3a^{2}b^{2}$
+\end_inset
+
+也不是同类项.
+\end_layout
+
+\begin_layout Standard
+在一个多项式里,同类项可以根据乘法对于加法的分配律,把它们合并成一项,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{array}{ccl}
+\text{例如}: & 3a^{2}b+3a^{2}b & =3\times a^{2}b+3\times a^{2}b\\
+ &  & =(3+3)\times a^{2}b=6a^{2}b;\\
+ & -5ab^{2}+ab^{2} & =-5\times ab^{2}+1\times ab^{2}\\
+ &  & =(-5+1)\times ab^{2}=-4ab^{2};
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+因此,根据加法的交换律和结合律,上面所提出的这个多项式可以写成
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(3a^{2}b+3a^{2}b)+(-5ab^{2}+ab^{2})+a^{2}b^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+再合并同类项,把它化简成
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $6a^{2}b-4ab^{2}+a^{2}b^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+把多项式里的同类项合并成一项叫做合并同类项.从上面的例子得到:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Flex MathBox
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{0.80
+\backslash
+hsize}{[rc]{
+\backslash
+textbf{合并同类项法则}}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
+
+合并同类项,只要把系数相加,所得的和作为系数,字母部分连同它们原来的指数仍旧不变.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+整理下列多项式:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $5x^{4}-3x^{2}+6-7x^{3}+12x^{4}+10x^{3}+2x^{2}-3x^{3}+7+10x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 审题*
+先按
+\begin_inset Formula $x$
+\end_inset
+
+的降幂排列,再合并同类项.
+\end_layout
+
+\begin_layout 解*
+\begin_inset Formula $\underline{5x^{4}}-\underline{\underline{\underline{3x^{2}}}}+6-\underline{\underline{7x^{3}}}+\underline{12x^{4}}+\underline{\underline{10x^{3}}}+\underline{\underline{\underline{2x^{2}}}}-\underline{\underline{3x^{3}}}+7+10x$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{M}=\underline{5x^{4}}+\underline{12x^{4}}-\underline{\underline{7x^{3}}}+\underline{\underline{10x^{3}}}-\underline{\underline{3x^{3}}}-\underline{\underline{\underline{3x^{2}}}}+\underline{\underline{\underline{2x^{2}}}}+10x+6+7$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{M}=17x^{4}+0\cdot x^{3}-x^{2}+10x+13$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{M}=17x^{4}-x^{2}+10x+13$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 注意*
+1.
+\begin_inset space \space{}
+\end_inset
+
+为了便于整理,我们可以在同类项下面用横线记号标明,这样就不至于重复或遗漏.
+\begin_inset Newline newline
+\end_inset
+
+2.
+\begin_inset space \space{}
+\end_inset
+
+这一项没有了,因为
+\begin_inset Formula $0$
+\end_inset
+
+乘任何数等于
+\begin_inset Formula $0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+整理下列多项式:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $2a^{4}-8a^{2}b^{2}-ab^{3}+5a^{3}b+3a^{4}+6ab^{2}+5b^{4}+8a^{2}b^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 审题*
+先按
+\begin_inset Formula $a$
+\end_inset
+
+的降幂排列,再合并同类项.
+\end_layout
+
+\begin_layout 解*
+原式
+\begin_inset Formula $=2a^{4}+3a^{4}+5a^{3}b-8a^{2}b^{2}+8a^{2}b^{2}-ab^{3}+6ab^{3}+5b^{4}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{\text{MN}}=5a^{4}+5a^{3}b+5ab^{3}+5b^{4}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 注意*
+\begin_inset Formula $-8a^{2}b^{2}+8a^{2}b^{2}=0$
+\end_inset
+
+,这一项没有了.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+说明下列多项式是几项式,是几次式,并指出它的次数最高的项和常数项:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $3a^{2}-5a-7$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x^{4}-3x^{3}+2x^{2}-56$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $7-y-y^{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $3a^{3}+5a^{5}-7a^{2}+8$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+整理下列多项式,按
+\begin_inset Formula $a$
+\end_inset
+
+或
+\begin_inset Formula $x$
+\end_inset
+
+的降幕排列:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $3+a$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $5x-x^{2}-3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $5a-7a^{2}+16-14a^{4}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $a^{3}b-5a^{2}b^{2}+a^{4}+3ab^{3}-b^{4}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x^{3}-x^{2}y+y^{3}-xy^{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+合并下列多项式里的同类项:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $a^{3}+a^{3}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $5a-3a+7a$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $a^{2}b-3a^{2}b+2a^{2}b$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-3x^{2}y+2x^{2}y+3xy^{2}-2xy^{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{2}{3}a^{2}-6a^{3}+5a-\cfrac{1}{4}+5a^{3}-\cfrac{1}{2}-\cfrac{4}{3}a^{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+整理下列多项式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $3a-2x+5a-7x$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $7a^{2}+3a+8-5a^{2}-3a-8$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $3a+5b-3c-3a+7b-6c$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a^{2}-3a+8-3a^{2}+5a-7$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-10x^{2}+13x^{3}-2+3x^{4}-4x-3+x^{3}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+求当
+\begin_inset Formula $x=0.1$
+\end_inset
+
+时,下列各式的值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $3x^{2}+5x-\cfrac{1}{2}x^{2}-4\cfrac{1}{2}x+0.5-\cfrac{1}{2}x$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{1}{3}x^{3}-2x{}^{2}+\cfrac{2}{3}x^{3}+3x^{2}+5x-4x+7$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+[提示:先整理多项式,再行代入.]
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+有理式中字母的允许值
+\end_layout
+
+\begin_layout Standard
+在有理式里的字母,有的可以取任意的数值,但是有的却只能取某一个范围内的数值.
+\end_layout
+
+\begin_layout Standard
+让我们先看整式.
+\end_layout
+
+\begin_layout Standard
+例如整式
+\begin_inset Formula $3x^{2}-5x+7$
+\end_inset
+
+.在这个整式里,只有加法、减法、乘法和乘方这四种运算.字母
+\begin_inset Formula $x$
+\end_inset
+
+不论取怎样的有理数,包括正的、负的整数、分数或者零,加法、减法、乘法和乘方都总是可以进行的.当
+\begin_inset Formula $x$
+\end_inset
+
+的数值确定以后,这个代数式总可以计算出确定的数值来.这就是说,字母
+\begin_inset Formula $x$
+\end_inset
+
+可以取有理数范围内的任意值.通常我们说,这个整式里字母的允许值是任意有理数.
+\end_layout
+
+\begin_layout Standard
+又如整式
+\begin_inset Formula $\cfrac{1}{3}x^{2}-5x+\cfrac{1}{6}$
+\end_inset
+
+.在这个整式里,虽然有除法运算,但除数是已知的确定的数(不是零),因此,这里字母
+\begin_inset Formula $x$
+\end_inset
+
+不论取怎样的有理数,这个代数式还是总可以求出确定的数值的.这样的代数式里字母
+\begin_inset Formula $x$
+\end_inset
+
+还是可以取任意有理数.
+\end_layout
+
+\begin_layout Standard
+从这两个例子,我们可以得出结论:
+\end_layout
+
+\begin_layout Standard
+整式里的字母的允许值是任意有理数.
+\end_layout
+
+\begin_layout Standard
+现在让我们再来看分式:
+\end_layout
+
+\begin_layout Standard
+例如有分式
+\begin_inset Formula $\cfrac{5}{x}$
+\end_inset
+
+.这个分式里分母
+\begin_inset Formula $x$
+\end_inset
+
+是一个字母.如果
+\begin_inset Formula $x$
+\end_inset
+
+的值不是零,这个分式的值总是可以计算出来的.但如果
+\begin_inset Formula $x$
+\end_inset
+
+的数值是零,那末因为零不能做除数,分式
+\begin_inset Formula $\cfrac{5}{x}$
+\end_inset
+
+就没有意义了.所以这个分式里字母
+\begin_inset Formula $x$
+\end_inset
+
+的允许值是不等于
+\begin_inset Formula $0$
+\end_inset
+
+的任意有理数,或者说
+\begin_inset Formula $x\neq0$
+\end_inset
+
+(符号“
+\begin_inset Formula $\neq$
+\end_inset
+
+”读做“不等于”).
+\end_layout
+
+\begin_layout Standard
+同样地,分式
+\begin_inset Formula $\cfrac{a+3}{a-3}$
+\end_inset
+
+里,分母
+\begin_inset Formula $a-3$
+\end_inset
+
+不能等于
+\begin_inset Formula $0$
+\end_inset
+
+,也就是说字母
+\begin_inset Formula $a$
+\end_inset
+
+不可以等于
+\begin_inset Formula $3$
+\end_inset
+
+.所以这个分式的字母
+\begin_inset Formula $a$
+\end_inset
+
+的允许值是除去
+\begin_inset Formula $3$
+\end_inset
+
+以外的任意有理数,或者说
+\begin_inset Formula $a\neq3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+从上面这两个例子可以看到,在分式里字母的允许值有时是有限制的,明确一些说,分式里的字母的允许值是不使分母等于零的字母的值,对于一些简单的分式,字母的允许值可以用
+观察法找出来.
+\end_layout
+
+\begin_layout Example
+求下列代数式里有关字母的允许值:
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $\cfrac{5}{a+3}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $\cfrac{7}{2x-3}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $\cfrac{7x}{x^{2}-4}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $\cfrac{5}{x^{2}+1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 审题*
+只要看什么时候分母等于零,把这些不允许的值去掉.
+\end_layout
+
+\begin_layout 解*
+(1)
+\begin_inset space \space{}
+\end_inset
+
+在
+\begin_inset Formula $\cfrac{5}{a+3}$
+\end_inset
+
+里,当
+\begin_inset Formula $a=-3$
+\end_inset
+
+时,
+\begin_inset Formula $a+3=0$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{(1)\;}$
+\end_inset
+
+所以
+\begin_inset Formula $a$
+\end_inset
+
+的允许值是除去
+\begin_inset Formula $-3$
+\end_inset
+
+以外的任意有理数,即
+\begin_inset Formula $a\neq-3$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+在
+\begin_inset Formula $\cfrac{7}{2x-3}$
+\end_inset
+
+里,当
+\begin_inset Formula $x=\cfrac{3}{2}$
+\end_inset
+
+时,
+\begin_inset Formula $2x-3=0$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{(2)\;}\therefore\quad x\neq\cfrac{3}{2}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+(3)
+\begin_inset space \space{}
+\end_inset
+
+在
+\begin_inset Formula $\cfrac{7x}{x^{2}-4}$
+\end_inset
+
+里,当
+\begin_inset Formula $x=2$
+\end_inset
+
+或
+\begin_inset Formula $x=-2$
+\end_inset
+
+时,
+\begin_inset Formula $x^{2}-4=0$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{(3)\;}\therefore\quad x\neq2$
+\end_inset
+
+且
+\begin_inset Formula $x\neq-2$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+(4)在
+\begin_inset Formula $\cfrac{5}{x^{2}+1}$
+\end_inset
+
+里,不论
+\begin_inset Formula $x$
+\end_inset
+
+是什么有理数,
+\begin_inset Formula $x^{2}+1$
+\end_inset
+
+都不等于零.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phantom{(4)\;}$
+\end_inset
+
+所以
+\begin_inset Formula $x$
+\end_inset
+
+可以取任意有理数.
+\end_layout
+
+\begin_layout Example
+代数式
+\begin_inset Formula $\cfrac{|x+1|}{x-1}$
+\end_inset
+
+里的
+\begin_inset Formula $x$
+\end_inset
+
+取怎样的值时,
+\end_layout
+
+\begin_layout EnumCol2-idt
+代数式等于零？
+\end_layout
+
+\begin_layout EnumCol2-idt
+代数式没有意义？
+\end_layout
+
+\begin_layout EnumCol2-idt
+代数式的值是正数？
+\end_layout
+
+\begin_layout EnumCol2-idt
+代数式的值是负数？
+\end_layout
+
+\begin_layout 审题*
+可以用观察法来求解.
+\end_layout
+
+\begin_layout 解*
+(1)
+\begin_inset space \space{}
+\end_inset
+
+当
+\begin_inset Formula $x=-1$
+\end_inset
+
+时,代数式
+\begin_inset Formula $\cfrac{|x+1|}{x-1}$
+\end_inset
+
+等于零.
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+当
+\begin_inset Formula $x=1$
+\end_inset
+
+时,代数式
+\begin_inset Formula $\cfrac{|x+1|}{x-1}$
+\end_inset
+
+没有意义.
+\begin_inset Newline newline
+\end_inset
+
+(3)
+\begin_inset space \space{}
+\end_inset
+
+当
+\begin_inset Formula $x>1$
+\end_inset
+
+时,代数式的值是正的.
+\begin_inset Newline newline
+\end_inset
+
+(4)
+\begin_inset space \space{}
+\end_inset
+
+当
+\begin_inset Formula $x<1$
+\end_inset
+
+但不等于
+\begin_inset Formula $-1$
+\end_inset
+
+时,代数式的值是负的.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+用观察法指出下列代数式里字母的允许值:
+\begin_inset Newline newline
+\end_inset
+
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $3a$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $-x+y$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(3)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{2}{3x}$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(4)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{a+4}{a-4}$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(5)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{a-4}{a+4}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumIndent
+用观察法指出下列代数式里字母的允许值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=4
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\cfrac{5}{2x-4}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{6x}{3x+1}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{x^{2}+1}{x^{2}-1}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{x^{2}-1}{x^{2}-1}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+用观察法说明在下列各式里,
+\begin_inset Formula $a$
+\end_inset
+
+或者
+\begin_inset Formula $x$
+\end_inset
+
+取什么值时代数式的值是零,
+\begin_inset Formula $a$
+\end_inset
+
+或者
+\begin_inset Formula $x$
+\end_inset
+
+取什么值时代数式没有意义:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=4
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\cfrac{a+3}{a-3}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{a-3}{a+3}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{a+5}{2a-3}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{x^{2}-1}{x^{2}+1}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+用观察法说明下列各式里,
+\begin_inset Formula $x$
+\end_inset
+
+取什么值时代数式的值是正的,是负的,是零:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=4
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $-x$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x-3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $3-x$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{x+3}{x^{2}+1}.$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section-toc*
+本章提要
+\end_layout
+
+\begin_layout EnumIndent
+用字母表示数来叙述数的运算性质
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $a+b=b+a$
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+(加法交换律);
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $(a+b)-c=a+(b+c)$
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+(加法结合律);
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $ab=ba$
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+(乘法交换律);
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $(ab)c=a(bc)$
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+(乘法结合律);
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a(b+c)=ab+ac$
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+(乘法对于加法的分配律).
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+有理代数式的分类
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\text{有理代数式}\Big\{\begin{array}{ll}
+\text{整式} & \Big\{\begin{array}{l}
+\text{单项式}\\
+\text{多项式}
+\end{array}\\
+\text{分式}
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+本章的重要概念
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+有理代数式(有理式),有理整式(整式),有理分式(分式),字母的允许值,代数式的值;
+\end_layout
+
+\begin_layout EnumIndent
+单项式,系数,幂,指数,单项式的次数;
+\end_layout
+
+\begin_layout EnumIndent
+多项式,多项式的项,常数项,同类项,多项式的元,多项式的次数.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+整式的整理化简
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\text{单项式的整理}\Big\{\begin{array}{l}
+\text{排因数次序，}\\
+\text{把相同字母的因数写做一个幂;}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\text{多项式的整理}\Big\{\begin{array}{l}
+\text{排幂(依某一字母的降幂或升幂排列)，}\\
+\text{合并同类项.}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section-toc*
+复习题二
+\begin_inset space \space{}
+\end_inset
+
+A
+\end_layout
+
+\begin_layout EnumIndent
+什么叫做代数式？写出三个代数式.
+\end_layout
+
+\begin_layout EnumIndent
+什么叫做整式？写出三个整式.
+\end_layout
+
+\begin_layout EnumIndent
+什么叫做分式？写出三个分式.
+\end_layout
+
+\begin_layout EnumIndent
+什么叫做代数式的值？计算当
+\begin_inset Formula $a=5$
+\end_inset
+
+时,
+\begin_inset Formula $a^{2}-5a+3$
+\end_inset
+
+的值.
+\end_layout
+
+\begin_layout EnumIndent
+计算下列代数式的值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $a^{3}-3a^{2}+5a-7$
+\end_inset
+
+,当
+\begin_inset Formula $a=-3$
+\end_inset
+
+时,当
+\begin_inset Formula $a=-\cfrac{1}{3}$
+\end_inset
+
+时;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $2a^{3}-5a+7$
+\end_inset
+
+,当
+\begin_inset Formula $a=-4$
+\end_inset
+
+时,当
+\begin_inset Formula $a=0.2$
+\end_inset
+
+时.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+计算下列代数式的值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{x^{2}-1}{x^{2}-3x-4}$
+\end_inset
+
+,当
+\begin_inset Formula $x=-5$
+\end_inset
+
+时,当
+\begin_inset Formula $x=-\cfrac{2}{3}$
+\end_inset
+
+时;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{3x-5}{-x^{2}+x-3}$
+\end_inset
+
+,当
+\begin_inset Formula $x=-0.2$
+\end_inset
+
+时,当
+\begin_inset Formula $x=-1\cfrac{1}{2}$
+\end_inset
+
+时.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+计算下列代数式的值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="top">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-3x^{2}-2xy+y^{2}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+当
+\begin_inset Formula $x=\cfrac{1}{3}$
+\end_inset
+
+,
+\begin_inset Formula $y=-\cfrac{1}{2}$
+\end_inset
+
+时,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+当
+\begin_inset Formula $x=-\cfrac{1}{2}$
+\end_inset
+
+,
+\begin_inset Formula $y=-\cfrac{1}{3}$
+\end_inset
+
+时;
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="top">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(3a^{2}-2b)^{2}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+当
+\begin_inset Formula $a=-\cfrac{1}{3}$
+\end_inset
+
+,
+\begin_inset Formula $b=\cfrac{1}{2}$
+\end_inset
+
+时,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+当
+\begin_inset Formula $a=-\cfrac{1}{3}$
+\end_inset
+
+,
+\begin_inset Formula $b=-\cfrac{1}{2}$
+\end_inset
+
+时.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+计算
+\begin_inset Formula $\cfrac{1}{\cfrac{1}{x}+\cfrac{1}{y}}$
+\end_inset
+
+的值,当
+\begin_inset Formula $x=-\cfrac{2}{3}$
+\end_inset
+
+,
+\begin_inset Formula $y=\cfrac{1}{2}$
+\end_inset
+
+时.
+\end_layout
+
+\begin_layout EnumIndent
+如果字母
+\begin_inset Formula $a$
+\end_inset
+
+表示一个有理数,列出代数式表示它的相反的数,表示它的绝对值,表示它的
+\begin_inset Formula $3$
+\end_inset
+
+倍,表示比它大
+\begin_inset Formula $3$
+\end_inset
+
+的数,表示它的平方.
+\end_layout
+
+\begin_layout EnumIndent
+如果字母
+\begin_inset Formula $a$
+\end_inset
+
+表示一个不是零的数,列出代数式表示它的倒数,表示它的倒数的相反的数,表示它的平方的倒数,表示它和它的倒数的和的平方.
+\end_layout
+
+\begin_layout EnumIndent
+如果字母
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $b$
+\end_inset
+
+表示两个有理数,列出代数式表示它们的和,表示它们的平方的和,表示它们的和的平方.
+\end_layout
+
+\begin_layout EnumIndent
+用观察法说出下列各代数式里的字母的允许值各有什么限制？
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=4
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\cfrac{3}{a-5}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{a-7}{a+7}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{4}{2a+7}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{a^{2}+1}{a^{2}-1}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+指出下列各式是单项式还是多项式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $3xy^{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-5ab^{2}x^{3}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $a+5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $3x^{2}-x+1$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+说出下列单项式的系数,各字母的指数:(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $-5xy^{3}$
+\end_inset
+
+;(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $a$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumIndent
+说出下列多项式关于字母
+\begin_inset Formula $x$
+\end_inset
+
+的次数:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $-x+3-x^{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $ax^{3}-5x^{2}+6ax-7$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+整理下列单项式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $a5ax$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-3xyxyx$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+整理下列多项式并按
+\begin_inset Formula $x$
+\end_inset
+
+的降幂排列:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $3x^{2}-5x^{3}+6-7x$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $5-4x-5x^{2}-7x^{3}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x^{2}y-5xy^{2}-3xy^{2}-5x^{2}y+y^{3}-3x^{3}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Section-toc*
+复习题二
+\begin_inset space \space{}
+\end_inset
+
+B
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+一定是正数吗？
+\begin_inset Formula $a$
+\end_inset
+
+取什么值的时候是正数？是负数？是零？
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-a$
+\end_inset
+
+一定是负数吗？
+\begin_inset Formula $a$
+\end_inset
+
+取什么值的时候是负数？
+\begin_inset Formula $a$
+\end_inset
+
+取什么值的时候是正数？
+\begin_inset Formula $a$
+\end_inset
+
+取什么值的时候一既不是正数也不是负数？
+\end_layout
+
+\begin_layout EnumIndent
+计算下列代数式的值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="top">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{xy}{x+y}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+当
+\begin_inset Formula $x-5$
+\end_inset
+
+,
+\begin_inset Formula $y=-7$
+\end_inset
+
+时,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+当
+\begin_inset Formula $x=-\cfrac{1}{5}$
+\end_inset
+
+,
+\begin_inset Formula $y=-\cfrac{1}{7}$
+\end_inset
+
+时;
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="top">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{a^{2}+ab+b^{2}}{a^{2}-ab+b^{2}}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+当
+\begin_inset Formula $a=-3$
+\end_inset
+
+,
+\begin_inset Formula $b=2$
+\end_inset
+
+时,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+当
+\begin_inset Formula $a=\cfrac{1}{3}$
+\end_inset
+
+,
+\begin_inset Formula $b=-\cfrac{1}{2}$
+\end_inset
+
+时.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+计算
+\begin_inset Formula $-3(x-2y)^{5}-2(2x-y)^{5}$
+\end_inset
+
+的值,当
+\begin_inset Formula $x=-2$
+\end_inset
+
+,
+\begin_inset Formula $y=-1$
+\end_inset
+
+时.
+\end_layout
+
+\begin_layout EnumIndent
+计算:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $|x+y|+|x-y|$
+\end_inset
+
+的值,当
+\begin_inset Formula $x=-3$
+\end_inset
+
+,
+\begin_inset Formula $y=-5$
+\end_inset
+
+时;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $|3x-2y|-|2x-3y|$
+\end_inset
+
+的值,当
+\begin_inset Formula $x=-0.3$
+\end_inset
+
+,
+\begin_inset Formula $y=0.2$
+\end_inset
+
+时.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+计算
+\begin_inset Formula $|x|+|y|$
+\end_inset
+
+的值与
+\begin_inset Formula $|x+y|$
+\end_inset
+
+的值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+当
+\begin_inset Formula $x=3$
+\end_inset
+
+,
+\begin_inset Formula $y=5$
+\end_inset
+
+时;
+\end_layout
+
+\begin_layout EnumCols
+当
+\begin_inset Formula $x=-3$
+\end_inset
+
+,
+\begin_inset Formula $y=-5$
+\end_inset
+
+时;
+\end_layout
+
+\begin_layout EnumCols
+当
+\begin_inset Formula $x=3$
+\end_inset
+
+,
+\begin_inset Formula $y=-5$
+\end_inset
+
+时;
+\end_layout
+
+\begin_layout EnumCols
+当
+\begin_inset Formula $x=-3$
+\end_inset
+
+,
+\begin_inset Formula $y=5$
+\end_inset
+
+时.
+\end_layout
+
+\begin_layout Standard
+从上面的实践结果回答下列问题:当
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+是怎样的数时,这两个式子相等？当
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+取怎样的数时,这两个式子不相等？不相等时哪一个比较大？
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+列出代数式,表示两个数
+\begin_inset Formula $x$
+\end_inset
+
+与
+\begin_inset Formula $y$
+\end_inset
+
+的和的平方减去这两个数的平方的和.
+\end_layout
+
+\begin_layout EnumIndent
+列出代数式,表示两个数
+\begin_inset Formula $x$
+\end_inset
+
+与
+\begin_inset Formula $y$
+\end_inset
+
+的积除以这两个数的和.
+\end_layout
+
+\begin_layout EnumIndent
+如果两个数的和是
+\begin_inset Formula $26$
+\end_inset
+
+,其中一个数用字母
+\begin_inset Formula $x$
+\end_inset
+
+来表示,列出代数式表示这两个数的积.
+\end_layout
+
+\begin_layout EnumIndent
+如果两个数的积是
+\begin_inset Formula $48$
+\end_inset
+
+,其中一个数用字母
+\begin_inset Formula $x$
+\end_inset
+
+来表示,列出代数式表示这两个数的和.
+\end_layout
+
+\begin_layout EnumIndent
+一个矩形的周长等于
+\begin_inset Formula $50$
+\end_inset
+
+厘米,用一个字母的代数式表示这个矩形的面积.
+\end_layout
+
+\begin_layout EnumIndent
+两个圆的半径的和是
+\begin_inset Formula $15$
+\end_inset
+
+厘米,用一个字母的代数式表示这两个圆的面积的和.
+\end_layout
+
+\begin_layout EnumIndent
+一个圆的半径是另一个圆的半径的
+\begin_inset Formula $3$
+\end_inset
+
+倍,用一个字母的代数式表示这两个圆的周长的和。
+\end_layout
+
+\begin_layout EnumIndent
+一个梯形的下底是上底的
+\begin_inset Formula $2$
+\end_inset
+
+倍,高比上底小
+\begin_inset Formula $3$
+\end_inset
+
+厘米,列出一个字母的代数式表示这个梯形的面积.
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a+b$
+\end_inset
+
+的值一定大于
+\begin_inset Formula $a$
+\end_inset
+
+吗？讨论它.
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a-b$
+\end_inset
+
+的值一定小于
+\begin_inset Formula $a$
+\end_inset
+
+吗？什么时候
+\begin_inset Formula $a-b<a$
+\end_inset
+
+？什么时候
+\begin_inset Formula $a-b=a$
+\end_inset
+
+？什么时候
+\begin_inset Formula $a-b>a$
+\end_inset
+
+？
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $3a$
+\end_inset
+
+一定大于
+\begin_inset Formula $a$
+\end_inset
+
+吗？什么时候
+\begin_inset Formula $3a>a$
+\end_inset
+
+？什么时候
+\begin_inset Formula $3a=a$
+\end_inset
+
+？什么时候
+\begin_inset Formula $3a<a$
+\end_inset
+
+？
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{a}{3}$
+\end_inset
+
+一定小于
+\begin_inset Formula $a$
+\end_inset
+
+吗？什么时候
+\begin_inset Formula $\cfrac{a}{3}<a$
+\end_inset
+
+？什么时候
+\begin_inset Formula $\cfrac{a}{3}=a$
+\end_inset
+
+？什么时候
+\begin_inset Formula $\cfrac{a}{3}>a$
+\end_inset
+
+？
+\end_layout
+
+\begin_layout EnumIndent
+如
+\begin_inset Formula $|a|=a$
+\end_inset
+
+,
+\begin_inset Formula $a$
+\end_inset
+
+是怎样的数？
+\end_layout
+
+\begin_layout EnumIndent
+如
+\begin_inset Formula $|a|=-a$
+\end_inset
+
+,
+\begin_inset Formula $a$
+\end_inset
+
+是怎样的数？
+\end_layout
+
+\begin_layout EnumIndent
+如
+\begin_inset Formula $|a|=|b|$
+\end_inset
+
+,
+\begin_inset Formula $a$
+\end_inset
+
+一定等于b吗？如果
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+不相等时,它们是怎样关系的数？
+\end_layout
+
+\begin_layout EnumIndent
+如
+\begin_inset Formula $|a|>|b|$
+\end_inset
+
+,
+\begin_inset Formula $a$
+\end_inset
+
+一定大于
+\begin_inset Formula $b$
+\end_inset
+
+吗？什么时候
+\begin_inset Formula $a>b$
+\end_inset
+
+？什么时候
+\begin_inset Formula $a<b$
+\end_inset
+
+？会不会
+\begin_inset Formula $a=b$
+\end_inset
+
+呢？
+\begin_inset Formula $a$
+\end_inset
+
+会不会等于零呢？
+\end_layout
+
+\begin_layout Section-toc*
+第二章
+\begin_inset space \space{}
+\end_inset
+
+测验题
+\end_layout
+
+\begin_layout Standard
+\noindent
+求下列代数式的值:(1,2)
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $3x^{2}-5x+6$
+\end_inset
+
+,
+\begin_inset space \quad{}
+\end_inset
+
+(1) 
+\begin_inset Formula $x=0.2$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(2) 
+\begin_inset Formula $x=-1\cfrac{1}{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{x-5}{x+5}$
+\end_inset
+
+,
+\begin_inset space \quad{}
+\end_inset
+
+(1) 
+\begin_inset Formula $x=-2$
+\end_inset
+
+;
+\begin_inset space \quad{}
+\end_inset
+
+(2) 
+\begin_inset Formula $x=-0.4$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+求下列代数式的值:(3,4)
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+start=3
+\end_layout
+
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="top">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{2xy}{2x-3y}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(1) 
+\begin_inset Formula $x=-2$
+\end_inset
+
+,
+\begin_inset Formula $y=-4$
+\end_inset
+
+;
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(2) 
+\begin_inset Formula $x=-2\cfrac{1}{2}$
+\end_inset
+
+,
+\begin_inset Formula $y=3\cfrac{1}{2}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="top">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{|x-y|}{2x-y}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(1) 
+\begin_inset Formula $x=-3$
+\end_inset
+
+,
+\begin_inset Formula $y=\cfrac{1}{3}$
+\end_inset
+
+;
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(2) 
+\begin_inset Formula $x=-1\cfrac{1}{3}$
+\end_inset
+
+,
+\begin_inset Formula $y=-0.3$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+如果一个圆的半径是
+\begin_inset Formula $r$
+\end_inset
+
+,另一个圆的半径比这个圆的半径的
+\begin_inset Formula $2$
+\end_inset
+
+倍小
+\begin_inset Formula $3$
+\end_inset
+
+,列出代数式表示两个圆的面积的和(用
+\begin_inset Formula $x$
+\end_inset
+
+表示圆周率).
+\end_layout
+
+\begin_layout EnumIndent
+一个正方形的周长是
+\begin_inset Formula $p$
+\end_inset
+
+,列出代数式表示这个正方形的面积的
+\begin_inset Formula $10$
+\end_inset
+
+倍.
+\end_layout
+
+\begin_layout EnumIndent
+整理下列代数式,按
+\begin_inset Formula $x$
+\end_inset
+
+的降幕排列并合并同类项:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $-x^{3}+5x^{2}-5x^{4}+3x^{3}-5x^{2}+6x-7+4x$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-\cfrac{1}{3}x^{2}y+\cfrac{1}{2}xy^{2}-\cfrac{2}{3}x^{3}+4y^{3}+2x^{2}y+\cfrac{1}{3}xy^{2}-0.6x^{3}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+用观察法说出下列代数式的值什么时候等于零？什么时候没有意义？
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{5}{2x+3}-1$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+如
+\begin_inset Formula $\cfrac{12}{a}$
+\end_inset
+
+的值是正整数,求
+\begin_inset Formula $a$
+\end_inset
+
+的一切可能的正整数值;
+\end_layout
+
+\begin_layout EnumIndent
+如
+\begin_inset Formula $\cfrac{12}{a}$
+\end_inset
+
+的值是整数,求
+\begin_inset Formula $a$
+\end_inset
+
+的一切可能的整数值.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+如
+\begin_inset Formula $\cfrac{-18}{a}$
+\end_inset
+
+的值是正整数,求
+\begin_inset Formula $a$
+\end_inset
+
+的一切可能的整数值;
+\end_layout
+
+\begin_layout EnumIndent
+如
+\begin_inset Formula $\cfrac{-18}{a}$
+\end_inset
+
+的值是整数,求
+\begin_inset Formula $a$
+\end_inset
+
+的一切可能的整数值.
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
