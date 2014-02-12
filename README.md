@@ -16,19 +16,24 @@ Digital some old math books and build as ebook
 
 Email: <ccpaging@gmail.com>
 
-Algebra1 《数理化自学丛书第二版》代数第一册
 ----
+
+Algebra1
+----
+**《数理化自学丛书第二版》代数 第一册**
+
 已完成 PDF。
 
-Algebra2 《数理化自学丛书第二版》代数第二册
+Algebra2
 ----
+**《数理化自学丛书第二版》代数 第二册**
+
 已完成 OCR。
 正在输入整理中 ...
 
-Mathematics as an Educational Task 《作为教育任务的数学》
+Mathematics as an Educational Task
 ----
-中小学数学教学论著译丛
-作为教育任务的数学
+**作为教育任务的数学**
 【荷兰】弗赖登塔尔 著
 陈昌平 唐瑞芬等 编译
 上海教育出版社
