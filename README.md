@@ -44,13 +44,20 @@ Mathematics as an Educational Task
 
 已完成 PDF。
 
-Help Welcome 帮助该项目
+通过捐款支持本书
 ----
-1. 提供资助。
-2. 纠错。
-3. OCR 文件整理。
-4. 整理成 MarkDown 文件。
-5. 使用 LaTex / LYX 录入整理数学公式。
-6. 其它 ...
+如果你喜欢或受益于这个项目或的话， 可以通过捐款的方式， 支持作者继续更新或者做出其他更多好玩方便的应用。 
+捐款地址： https://me.alipay.com/ccpaging
 
-请发送电子邮件到 <ccpaging@gmail.com>，谢谢。
+Help us 帮助该项目
+----
+如果你要：
+1. 纠错。
+2. 参与 OCR 文件整理。
+3. 整理成 MarkDown 文件。
+4. 使用 LaTex / LYX 录入整理数学公式。
+5. 其它 ...
+
+请发送电子邮件到 <ccpaging@gmail.com>。
+
+谢谢！
