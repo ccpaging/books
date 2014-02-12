@@ -1,0 +1,1396 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+数的概念的发展
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+从代数原理到代数的整体组织
+\end_layout
+
+\begin_layout Section
+代数原理的发展
+\end_layout
+
+\begin_layout Standard
+在第十一章中，我们曾经对代数原理作了静态的描述，现在来谈谈它的发展。
+\end_layout
+
+\begin_layout Standard
+这一发展是从自然数开始的。自然数的加法和乘法运算遵循了一些法则，这些法则可能有一大堆。在较高水平上，人们将它们看作一个整体，这时就可以说，只要其中很少一部分就足
+够了。应该看到这个“足够”的意思不言而喻的，它并不是“对实际需要的足够”或“对下一次考试的足够”或“对升到高一年级的足够”。诸如
+\begin_inset Formula $(a+b)^{2}$
+\end_inset
+
+，
+\begin_inset Formula $(a-b)^{2}$
+\end_inset
+
+，
+\begin_inset Formula $(a+b)(a-b)$
+\end_inset
+
+等等，其中有些公式对实际应用很重要，但前面所讲述的足够与实际应用稍有区别。一些公式有可能从更简单、更基本的法则导出。当然，人们应该知道是否值得去导出某些公式，但
+这又是一个实际问题。
+\end_layout
+
+\begin_layout Standard
+我们应当明白在演绎基础意义上的充分性并不是显然的，巴比仑人或埃及人的数学很不错，但未必知道它；希腊的几何贴近了这一点；代数尽管先前也有了充分性的观念，但直到现代
+才得以实施。因此充分性只有在演绎基础意义上才能被人理解。而要构想这种观念，人们有机会在定律之间应作不止一次的推导。在以演绎的观点组织算术运算法则以前，它们之间的
+逻辑关系一定要先被人们所熟悉，在思想实验中。我们能辨别出学习过程的大致水平：首先进行数的运算，然后注意这些运算需满足的法则，并将其公式化，根据局部联系，局部地组
+织这些法则，最后构成一个完整的演绎体系。
+\end_layout
+
+\begin_layout Standard
+学习过程中可能会遇到意外，某些运算在不加限制的情况下无法进行。引进新的对象就可弥补这一点。它可以以直观的方式引入，而且是在原先的一般法则成公式以前，甚至在还未注
+意到这些法则以前引入。数域的扩充也可以利用理性的工具来达到，即自觉或不自觉地利用了我所说的“代数原理”，这就必须承认旧数域的算术法则，因为数域必须按这个方针来扩
+展，即对新对象运算时，原先的法则仍成立。
+\end_layout
+
+\begin_layout Standard
+从自然数扩展到整数，再扩展到正有理数，进一步到有理数，模式都是相似的，负数可以直观引入，而要构造分数，则必须先承认算术运算法则。
+\end_layout
+
+\begin_layout Section
+从幂到对数
+\end_layout
+
+\begin_layout Standard
+平方和幂运算都不是新运算，人们将其看作一元或二元运算，认识了它们的算术运算法则，并形成了公式。但为什么
+\begin_inset Formula $(xy)^{2}=x^{2}\times y^{2}$
+\end_inset
+
+，而不是
+\begin_inset Formula $(x+y)^{2}=x^{2}+y^{2}$
+\end_inset
+
+？为什么
+\begin_inset Formula $z^{x+y}=z^{x}\cdot z^{y}$
+\end_inset
+
+，
+\begin_inset Formula $z^{xy}=(z^{x})^{y}$
+\end_inset
+
+？这一点上，传统的教学法不灵了，新的教学法的前景恐怕也不妙，这种运算的二重转换仍令人迷惑不解。
+\end_layout
+
+\begin_layout Standard
+为了解二次方程，平方根很早就引入了。开平方在有理数域中是受限制的，因此应当扩展数域。
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+具有两重性，它既是代数数又是实数，既是计算的数又是度量的数，作为运算对象，它的平方是
+\begin_inset Formula $2$
+\end_inset
+
+，但又可被分数或小数按任意精确程度逼近。这两方面都必不可少。学生应当熟练地用
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+进行运算，既把它当作其平方是
+\begin_inset Formula $2$
+\end_inset
+
+的数，又不忘记它介于数轴上两个有理数之间。开方产生大量新的算术法则，虽很陌生，但与幂的运算法则很相像。而对数的
+\end_layout
+
+\begin_layout Standard
+运算法则就大不相同了。在对数计算中，某些教学法专家原则上避开了对数及
+\begin_inset Formula $\log$
+\end_inset
+
+记号，等到学生熟练掌握了对数运算技巧以后才引入。他们将数
+\begin_inset Formula $a$
+\end_inset
+
+改写成
+\begin_inset Formula $10^{p}$
+\end_inset
+
+的形式，以此来解释对数表。若用对数方法计算
+\begin_inset Formula $ab$
+\end_inset
+
+,学生只要将
+\begin_inset Formula $a=10^{p}$
+\end_inset
+
+，
+\begin_inset Formula $b=10^{q}$
+\end_inset
+
+转换成
+\begin_inset Formula $ab=10^{p+q}$
+\end_inset
+
+，再查表看什么是
+\begin_inset Formula $10^{p+q}$
+\end_inset
+
+。这一方法很有用，它避免了学习对数运算法则。
+\end_layout
+
+\begin_layout Standard
+在学习对数之前，必须将幂指数扩充至负数，有理数，甚至实数。这一扩充仍是由代数原理来完成的。现在当然不必引入新对象，只需要按保留的一些运算法则对运算作内推和外推。
+\end_layout
+
+\begin_layout Section
+组织代数的过程
+\end_layout
+
+\begin_layout Standard
+传统的中学代数中包含了大量足够对付考试的算术运算法则，但与算术运算法则相应的演绎顺序却很少。改革者们则提出了相反的观点，他们从演绎顺序开始，选择最直接的途径到达
+比如（或有序域）的公理。的确，只要学生知道算术的四种基本运算，这些公理即可归结出来，随后，从域的公理继续演绎下去。这种做法对教师很有益处，他们不需要为一大堆传统
+的障碍操心了。
+\end_layout
+
+\begin_layout Standard
+学校是不允许学生自己来整体组织教学内容的，不允许他们从大量已有的运算法则中挑选出适当的法则，而只能得到现成的东西；也不允许他们由此导出更复杂的运算法则（或宁愿让
+教师来推导）。现成的法则强加给学生时，他们还不明白法则的互相推导是什么意思，至于大量法则的精简就更不用提了。域的公理确是教师可以信赖的良药，能保证他睡个安稳觉，
+不被恶梦打扰。
+\end_layout
+
+\begin_layout Standard
+这就是违反教学法的颠倒。教师以组织好的形式强加给学生，而学生则毫无机会自己去加以组织，其实教师的东西也不是他自己组织的，而是来自于教科书；教科书作者也不是他自己
+组织的，而是简单模仿了大学的代数课本。
+\end_layout
+
+\begin_layout Standard
+用域的概念组织代数的做法来自大学，在大学水平上这样做有其深刻的道理，但在中学水平上又是另一回事了。如果认为将大学代数稀释到某个度就可以转换成中学代数，那就是奇迹
+中的奇迹了。我们必须经过认真调查研究才能知道域的概念作为一个适当的组织原理是否应在中学阶段出现。
+\end_layout
+
+\begin_layout Standard
+让我们比较一下代数的传统结构与域的结构有何区别，传统的代数有七种运算：加、减、乘、除、乘方、开方、对数，这些都是二元运算（也许除了最后一个）而域的概念中只有加和
+乘两种二元运算，以及取相反数和倒数两种一元运算，除此之外还有序（大于、小于）关系。今天，七种传统的运算仍具有生命力，学生至少应熟悉幂的运算法则，并知道如何由此导
+出开方根的法则。对数的法则可以暂时不要，但最终还是非常有用的。
+\end_layout
+
+\begin_layout Standard
+把中学代数限制在域中最基本的那些运算上是否明智？如果是明智的，那么其他运算又如何处理呢？
+\end_layout
+
+\begin_layout Standard
+域
+\begin_inset Formula $K$
+\end_inset
+
+是关于加法的交换群，
+\begin_inset Formula $K\backslash\{0\}\}$
+\end_inset
+
+是关于乘法的交换群，
+\begin_inset Formula $K$
+\end_inset
+
+中的加法公理和
+\begin_inset Formula $K\backslash\{0\}\}$
+\end_inset
+
+中的乘法公理就是普通的交换群公理。如果学生以前学过了公理化群，那么这些域公理就提供了丰富的内容，而不是一个新问题。群的运算可以解释为加法或乘法。如果学生还不了解
+群，那么仔细观察有理数域中的加法和乘法，就可提供公理化群的模式。从发展的观点看，学生应加强加法和乘法之间的形式类比：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="50text%">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(a+b)=b+a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $ab=ba$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(a+b)+c=a+(b+c)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(ab)c=a(bc)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a+0=a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a\cdot1=a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a+(-a)=0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a\cdot a^{-1}=1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a-b=a+(-b)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{a}{b}=a\cdot b^{-1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-(a+b)=-a=b$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(ab)^{-1}=a^{-1}\cdot b^{-1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a+a=2a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a\cdot a=a^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a+a+a=3a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a\cdot a\cdot a=a^{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(-a)+(-a)=-2a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a^{-1}\cdot a^{-1}=a^{-2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+最后一行的右式可能是一个新的归纳发现
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+定义也可以被发现。这样做的目的是要给学生创造练习组织的机会，而不是给他一个现成的公式，但以下再扩充两行，类比就不一定行了：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="50text%">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a>0\rightarrow a+a>0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a>1\rightarrow ab>1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这是正确的，但在
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="50text%">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a>0\rightarrow a+b>b$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a>1\rightarrow a^{2}>1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+中，右式必须先假设
+\begin_inset Formula $b>0$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+还缺少有关加法和乘法的分配律，即
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{array}{lcl}
+n(a+b)=na+nb &  & (ab)^{n}=a^{n}b^{n}\\
+n(a-b)=na-nb &  & \Big(\cfrac{a}{b}\Big)^{n}=\cfrac{a^{n}}{b^{n}}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+如果非整数指数还没引入的话，则右式中的
+\begin_inset Formula $n$
+\end_inset
+
+必须为整数。
+\end_layout
+
+\begin_layout Standard
+分配律可解释为
+\begin_inset Formula $\bigsqcup_{x}nx$
+\end_inset
+
+，它是域
+\begin_inset Formula $K$
+\end_inset
+
+上的加群到自身内的一个同态，有
+\begin_inset Formula $n(x+y)=nx+ny$
+\end_inset
+
+，及
+\begin_inset Formula $n\cdot(-x)=-nx$
+\end_inset
+
+。同样，与它对应的
+\begin_inset Formula $\bigsqcup_{x}x^{n}$
+\end_inset
+
+是乘群
+\begin_inset Formula $K\backslash\{0\}$
+\end_inset
+
+到自身内的一个同态，有
+\begin_inset Formula $(x\cdot y)^{n}=x^{n}\cdot y^{n}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+下面左边的同态是保序的或反序的：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{array}{l}
+a<b\wedge n>0\rightarrow na<nb\\
+\phantom{a<b\wedge n>0\rightarrow}0<a<b\wedge n>0\rightarrow a^{n}<b^{n}\\
+a<b\wedge n<0\rightarrow na>nb\\
+\phantom{a<b\wedge n>0\rightarrow}0<a<b\wedge n<0\rightarrow a^{n}>b^{n}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这里的类比还是不完全的，因为右边必须附加条件
+\begin_inset Formula $a>0$
+\end_inset
+
+，这就要将同态限于
+\begin_inset Formula $K^{+}$
+\end_inset
+
+，即
+\begin_inset Formula $K$
+\end_inset
+
+的正的部分。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $K$
+\end_inset
+
+的加法结构和
+\begin_inset Formula $K^{+}$
+\end_inset
+
+的乘法结构都从属于群的概念。那么两个有序群之间能否建立起同构呢？事实上对固定的
+\begin_inset Formula $a>1$
+\end_inset
+
+，
+\begin_inset Formula $\bigsqcup_{x\in R}a^{x}$
+\end_inset
+
+就是这样的同构。同样对
+\begin_inset Formula $0<a<1$
+\end_inset
+
+，
+\begin_inset Formula $\bigsqcup_{x\in R}a^{x}$
+\end_inset
+
+是反序的同构。这就是说，依赖
+\begin_inset Formula $a$
+\end_inset
+
+可以决定是加群
+\begin_inset Formula $R$
+\end_inset
+
+及到乘群
+\begin_inset Formula $R^{+}$
+\end_inset
+
+内的同构还是反序同构。这些同构和反序同构就是指数函数。
+\end_layout
+
+\begin_layout Standard
+如果先建立从
+\begin_inset Formula $R$
+\end_inset
+
+到
+\begin_inset Formula $R^{+}$
+\end_inset
+
+的同构
+\begin_inset Formula $f$
+\end_inset
+
+，这里
+\begin_inset Formula $f$
+\end_inset
+
+必须满足
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $f(x+y)=f(x)+f(y)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+则可更直接地得到指数函数。特别是
+\begin_inset Formula $f$
+\end_inset
+
+必然将算术序列
+\begin_inset Formula $0,h,2h,3h,\cdots\cdots$
+\end_inset
+
+映成几何序列
+\begin_inset Formula $1,k,k^{2},k^{3},\cdots\cdots$
+\end_inset
+
+这就是17世纪发明对数表的方法。对数必须允许将几何序列转换成算术序列，并由此将乘、除法转换成加、减法。对数的函数作用越来越得到加强，在几何的观点下，
+\begin_inset Formula $x$
+\end_inset
+
+的自然对数成了积分
+\begin_inset Formula $\int_{1}^{x}\cfrac{dt}{t}$
+\end_inset
+
+。直到欧拉（Euler）才清楚地认识到对数是指数函数的逆。
+\end_layout
+
+\begin_layout Standard
+如果把平方根算作代数内容，那么对数也有同样的“权利”，这里不需要拓扑或分析的知识。对数像代数方程的根一样，也来自代数问题，即来自在加群
+\begin_inset Formula $R$
+\end_inset
+
+和乘群
+\begin_inset Formula $R^{+}$
+\end_inset
+
+之间建立一个保序同构的问题。只要确定哪个数映成
+\begin_inset Formula $1$
+\end_inset
+
+（对常用对数来说是
+\begin_inset Formula $10$
+\end_inset
+
+，对自然对数来说是
+\begin_inset Formula $e$
+\end_inset
+
+），这个同构即可唯一确定，这就是代数特征的概念。
+\end_layout
+
+\begin_layout Standard
+我们着手组成了一个域，它含有加、减、乘、除、乘方、开方与求对数七种运算。虽然未产生域的概念，但所用到的仍是代数性质的方法，如果想要在数学中找出域的概念起作用的地
+方，那么我相信第一个例子就是代数的和超越的附加，但这些概念完全不适宜于中学。
+\end_layout
+
+\begin_layout Section
+代数的整体组织
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+计算尺公理
+\end_layout
+
+\begin_layout Standard
+对中学代数内容的看法尽管存在分歧，但也有一致的意见。代数的内容太丰富了。域的概念无法来概括它，而这个巨大的财富又无法划归到分析的名下，虽然在高年级是不应忽视与分
+析的多边关系的。升大学的考试中常能遇到这样的问题：
+\begin_inset Formula $2^{\sqrt{2}}$
+\end_inset
+
+是什么？学生常取两次对数来计算。但
+\begin_inset Formula $2^{\sqrt{2}}$
+\end_inset
+
+的定义是什么呢？先对有理数
+\begin_inset Formula $r$
+\end_inset
+
+定义
+\begin_inset Formula $2^{r}$
+\end_inset
+
+，再求当
+\begin_inset Formula $r$
+\end_inset
+
+趋向于
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+时
+\begin_inset Formula $2^{r}$
+\end_inset
+
+的极限，作为
+\begin_inset Formula $2^{\sqrt{2}}$
+\end_inset
+
+，但这只是书本知识，考后即忘，何况学生缺乏
+\begin_inset Formula $2^{r}$
+\end_inset
+
+收敛的任何感觉。虽然学生的解答完全正确，但这个表达式之所以存在，完全是因为它可以用对数方法计算。对数或指数函数不能与代数分开，在组织代数时应考虑这个事实。
+\end_layout
+
+\begin_layout Standard
+现在我们用公理化方法来综合我们的结果。
+\end_layout
+
+\begin_layout Standard
+公理1
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $K$
+\end_inset
+
+是具有两种二元运算的有序集，有
+\begin_inset Formula $>$
+\end_inset
+
+，
+\begin_inset Formula $+$
+\end_inset
+
+，
+\begin_inset Formula $\cdot$
+\end_inset
+
+，
+\begin_inset Formula $0$
+\end_inset
+
+ ，
+\begin_inset Formula $1$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+公理2
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $K$
+\end_inset
+
+是关于加法的有序交换群，
+\begin_inset Formula $0$
+\end_inset
+
+为零元。它除了满足有序集及交换群公理外，还满足相容性条件
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $a<b\rightarrow a+c<b+c$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+公理3
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $K\backslash\{0\}$
+\end_inset
+
+是关于乘法的交换群，
+\begin_inset Formula $1$
+\end_inset
+
+为单位元，且
+\begin_inset Formula $K^{+}(=\{a\in K|a>0\})$
+\end_inset
+
+是有序交换群，即除了满足交换群公理外，还满足相容性条件
+\begin_inset Formula $0<a<b\bigwedge c>0\rightarrow0<ac<bc$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+公理4
+\begin_inset space \quad{}
+\end_inset
+
+乘法
+\begin_inset Formula $\bigsqcup_{x\in K}ax$
+\end_inset
+
+是加群K的同态（分配律）。
+\end_layout
+
+\begin_layout Standard
+公理5
+\begin_inset space \quad{}
+\end_inset
+
+乘群
+\begin_inset Formula $K^{+}$
+\end_inset
+
+具有一个作用于加群
+\begin_inset Formula $K$
+\end_inset
+
+上的有序同构，称为
+\begin_inset Formula $\log$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+凭着直观我们可以承认这些公理。最后一条我称它为计算尺公理，可粗略地表示为：存在一个计算尺。
+\end_layout
+
+\begin_layout Standard
+计算尺公理也可称为“对数表公理”，计算尺虽没有通常的对数表精确，但它却能较直观形象地表示连续确定的对数函数。对数比例尺在科学上也被广泛使用，它对数学虽不重要，但
+在数学教学中却不应忽视。
+\end_layout
+
+\begin_layout Standard
+利用计算尺公理足够用来定义中学代数中经常使用的其他运算。首先，从
+\begin_inset Formula $K^{+}$
+\end_inset
+
+到
+\begin_inset Formula $K$
+\end_inset
+
+的同构有许多，将其中任意一个与
+\begin_inset Formula $K^{+}$
+\end_inset
+
+或
+\begin_inset Formula $K$
+\end_inset
+
+的自同构复合，就得到一个新的同构。
+\end_layout
+
+\begin_layout Standard
+设
+\begin_inset Formula $a$
+\end_inset
+
+是由计算尺公理所提供的同构中
+\begin_inset Formula $1$
+\end_inset
+
+的原像，该同构可记为
+\begin_inset Formula $\log_{a}$
+\end_inset
+
+，有
+\begin_inset Formula $\log_{a}a=1$
+\end_inset
+
+，则
+\begin_inset Formula $\bigsqcup_{x^{v}}\log_{a}x$
+\end_inset
+
+也是
+\begin_inset Formula $K^{+}$
+\end_inset
+
+到
+\begin_inset Formula $K$
+\end_inset
+
+内的一个同态，
+\begin_inset Formula $v>0$
+\end_inset
+
+时保序，
+\begin_inset Formula $v<0$
+\end_inset
+
+时反序。特别地由
+\begin_inset Formula $v=(\log_{a}b)^{-1}$
+\end_inset
+
+可得又一个同构：
+\begin_inset Formula $b$
+\end_inset
+
+的像是
+\begin_inset Formula $1$
+\end_inset
+
+，记为
+\begin_inset Formula $\log_{b}$
+\end_inset
+
+。于是有
+\begin_inset Formula $\cfrac{\log_{a}x}{\log_{a}b}=\log_{b}x$
+\end_inset
+
+，由此过程可得由
+\begin_inset Formula $K^{+}$
+\end_inset
+
+到
+\begin_inset Formula $K$
+\end_inset
+
+的同构，其中
+\begin_inset Formula $c\in K^{+}\backslash\{1\}$
+\end_inset
+
+被定义为
+\begin_inset Formula $1$
+\end_inset
+
+的原像。假如
+\begin_inset Formula $K$
+\end_inset
+
+是实数域，则这个过程表达了所有的同构。
+\end_layout
+
+\begin_layout Standard
+在这种公理化的方法中，幂
+\begin_inset Formula $u^{v}(u\in K^{+})$
+\end_inset
+
+可通过
+\begin_inset Formula $\log_{a}U^{v}=v\log_{a}U$
+\end_inset
+
+来定义，此定义不依赖于对数(即
+\begin_inset Formula $a$
+\end_inset
+
+)的选择。对整数
+\begin_inset Formula $v$
+\end_inset
+
+，该定义恰与幂的初等定义相吻合。由
+\begin_inset Formula $\log$
+\end_inset
+
+的同态性立刻可得到如下的幂的算术运算法则，如
+\begin_inset Formula $(u_{1}u_{2})^{\varpi}=u_{1}^{\varpi}u_{2}^{\varpi}$
+\end_inset
+
+，它可从下面的推导中得出：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{cl}
+\log(u_{1}u_{2})^{\varpi} & =\varpi\log(u_{1}u_{2})\\
+ & =\varpi\log u_{1}+\varpi\log u\\
+ & =\log u_{1}^{\varpi}+\log u_{2}^{\varpi}=\log u_{1}^{\varpi}u_{2}^{\varpi}\text{。}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+同样可得
+\begin_inset Formula $u^{\varpi_{1}+\varpi_{2}}u^{\varpi_{1}}u^{\varpi_{2}}$
+\end_inset
+
+，
+\begin_inset Formula $(u^{\varpi_{1}})^{\varpi_{2}}=u^{\varpi_{1}\varpi_{2}}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+事实上由定义知
+\begin_inset Formula $\log_{a}a^{x}=x$
+\end_inset
+
+，它意味着
+\begin_inset Formula $\bigsqcup_{x}a^{x}$
+\end_inset
+
+是
+\begin_inset Formula $\log_{a}$
+\end_inset
+
+的逆，由此可从对数函数的同态性质导出指数函数的同态性质。
+\end_layout
+
+\begin_layout Standard
+计算尺公理的提出是为了补充有序域公理的不足，但以上内容主要是为教师提供信息来源，至于学生是否需要以及能否去进行中学代数的整体组织，还需另加讨论。
+\end_layout
+
+\begin_layout Section
+量角器公理
+\end_layout
+
+\begin_layout Standard
+角不仅要测量，还要计算。例如求两向量所成的角，或已知三角形边长求角，这些问题均可追溯到下面问题：在欧几里得（Euclid）坐标平面中，
+\begin_inset Formula $(x,y)$
+\end_inset
+
+是单位圆上的已知点，求从
+\begin_inset Formula $(0,0)$
+\end_inset
+
+到
+\begin_inset Formula $(x,y)$
+\end_inset
+
+的射线与
+\begin_inset Formula $x$
+\end_inset
+
+轴正方向所夹的角，或度量单位圆上从
+\begin_inset Formula $(1,0)$
+\end_inset
+
+到
+\begin_inset Formula $(x,y)$
+\end_inset
+
+的弧度。
+\end_layout
+
+\begin_layout Standard
+若
+\begin_inset Formula $(x,y)$
+\end_inset
+
+,
+\begin_inset Formula $(x',y')$
+\end_inset
+
+是单位圆上两个点，弧
+\begin_inset Formula $(1,0)$
+\end_inset
+
+,
+\begin_inset Formula $(x',y')$
+\end_inset
+
+被合同变换到弧
+\begin_inset Formula $(x,y)$
+\end_inset
+
+，
+\begin_inset Formula $(x'',y'')$
+\end_inset
+
+，其中
+\begin_inset Formula $(x'',y'')$
+\end_inset
+
+是单位圆上的点，则角或弧度
+\begin_inset Formula $\varpi(mod2\pi)$
+\end_inset
+
+满足可加性，即
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\varpi(x'',y'')=\varpi(x,y)+w(x',y')$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+用模为
+\begin_inset Formula $1$
+\end_inset
+
+的复数
+\begin_inset Formula $z=x+iy$
+\end_inset
+
+比用实数对更合适。这些复数组成乘法群
+\begin_inset Formula $E$
+\end_inset
+
+，于是单位圆的旋转可表示成
+\begin_inset Formula $\bigsqcup_{x\in E}\alpha z$
+\end_inset
+
+，其中
+\begin_inset Formula $|\alpha|=1$
+\end_inset
+
+。角的度量可看成是
+\begin_inset Formula $E$
+\end_inset
+
+到
+\begin_inset Formula $R_{mod2x}$
+\end_inset
+
+的一个函数
+\begin_inset Formula $\varpi$
+\end_inset
+
+，
+\begin_inset Formula $\varpi\in E\curvearrowright R_{mod2\pi}$
+\end_inset
+
+，使
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\varpi(z_{1}\cdot z_{2})=\varpi(z_{1})+\varpi(z_{2})$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+这是一种对数。
+\begin_inset Formula $\varpi$
+\end_inset
+
+是乘法群
+\begin_inset Formula $E$
+\end_inset
+
+到加法群
+\begin_inset Formula $R_{mod2x}$
+\end_inset
+
+的同构，并保持
+\begin_inset Formula $E$
+\end_inset
+
+的循环次序。以上所述可接着前面提到的五个公理，而作为公理6。
+\end_layout
+
+\begin_layout Standard
+公理6
+\begin_inset space \quad{}
+\end_inset
+
+设
+\begin_inset Formula $K(i)$
+\end_inset
+
+是
+\begin_inset Formula $K$
+\end_inset
+
+的复数扩张。对
+\begin_inset Formula $a,b\in K$
+\end_inset
+
+，有模
+\begin_inset Formula $|a+bi|=(a^{2}+b^{2})^{\frac{1}{2}}$
+\end_inset
+
+。设
+\begin_inset Formula $E$
+\end_inset
+
+是模为
+\begin_inset Formula $1$
+\end_inset
+
+的元素所组成的循环有序群，则存在一个
+\begin_inset Formula $E$
+\end_inset
+
+到加法群
+\begin_inset Formula $K$
+\end_inset
+
+的保序同构。
+\end_layout
+
+\begin_layout Standard
+此公理可生成余弦和正弦，
+\begin_inset Formula $\cos\alpha=Re\varpi^{-1}(\alpha)$
+\end_inset
+
+，
+\begin_inset Formula $\sin\alpha=J\varpi^{-1}(\alpha)$
+\end_inset
+
+，以及熟知的性质与公式。
+\end_layout
+
+\begin_layout Standard
+计算尺和量角器是同现实密切联系的，计算尺公理和量角器公理的名称已说明了它们的现实内容。它们是否应成为中学教学中的公理呢？要回答这个问题首先应调查教学中究竟需要教
+怎样的公理系。我认为，像计算尺、量角器这种直观的数学模型，应以较高的观点反复进行讨论。这样做的一个目的是要弄清它们对代数的公理组织的嵌入，另一个目的则是要了解其
+在数学分析中的地位。在任何阶段中，它们都是对数学教学有价值的题材。
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,3501 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+数的概念
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+客观的形成途径
+\end_layout
+
+\begin_layout Standard
+以方法论，发生论和教学论的观点看，数在内容和形式上都存在着许多不同方面的概念。例如，从内容上看，数就有自然数、整数、实数和复数，这几类数通过嵌入关系而互相联系。
+因此，片面地谈论“数的概念”就会产生误解。本章将以方法论的观点比较系统地探讨数的概念的形成，例如，数是怎样形成的？如何扩张及限制它的范围和运算？我们也要提到发生
+论的观点。后面几章则不是很系统地讨论数的概念的内容。
+\end_layout
+
+\begin_layout Standard
+数的概念的形成可以粗略地分成以下几种：计数的数、数量的数、度量的数和计算的数。这里先作一些简单的说明。
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+计数的数
+\shape default
+
+\begin_inset space \qquad{}
+\end_inset
+
+自然数的序列是无穷无尽的。对儿童学习来说，计数的最初几步就像他们学习颜色和字母名称一样艰难，因为找不到可以类比的东西。而后，他们突然地领会了整个无穷序列。这是一
+个概念性的突破。计数的数也是计算活动中不可替代的对象。以后，人们感到需要往回计数，于是就产生了负数。计数的数在数学上称为序数，它通过完全归纳法和皮亚诺（Pean
+o）公理得到形式化。其发展的顶峰就是超限序数。
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+数量的数
+\shape default
+
+\begin_inset space \qquad{}
+\end_inset
+
+数量的数的产生也许早于计数的数。动物尽管不会计数，但能认识小的数量。人们不依赖于计数同样也能够认识一些小的数。儿童很早就学计数了，但他们不会注意到计数能用来确定
+一个集合的数量。数量的数可通过集合的势或基数得到形式化，其发展的顶峰就是无限基数。
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+度量的数
+\shape default
+
+\begin_inset space \qquad{}
+\end_inset
+
+要度量一个量，可以像用勺子一次次地舀空装满水的容器那样，用一个单位去量那个量。这时常常要用到单位的倍数。为了方便地度量长度，人们就在直尺上预先标上单位的刻度。但
+对度量来说，单位的线性排列不是本质性的。例如面积可以用单位面积按不同的次序去量。如果不能完全量尽，那么就形成一个带余除法，或者是将单位等分，产生了分数。度量的数
+在有理数域中得到形式化，并由此通过无限过程而得到实数。不能互相度量的量是非阿基米德域所讨论的问题。
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+计算的数
+\shape default
+
+\begin_inset space \qquad{}
+\end_inset
+
+这是数的有关算法的一个侧面。在这里，数被理解为按照一定法则进行运算的对象。它按公理化方法得到形式化，数是由公理定义的环或域中的元素。
+\end_layout
+
+\begin_layout Section
+计数的数
+\end_layout
+
+\begin_layout Standard
+无论从历史的、发生的还是从系统的角度来看，数的序列都是数学的基石。可以说，没有数的序列就没有数学。如果某些现代的教科书持另一种观点的话，那就是作者的解释错了。实
+际上，对孩子们来说计数不久便成了一种理论需要。儿童的计数活动远远超出了他们的实际需要。原始人没有数的代码，但是他们会用一些标记或符号来表示数。各种语族中，从1到
+10的数、10的倍数、100的倍数，数的代码都相似，但是1000以上就不同了。是否是某些语族的祖先数不下去了？当时是否真有实际需要对10的更高次幂都给以名称？实
+际上，如果数必须写下来，那么这种需要便存在。如果仅是在算盘上作计算，就没有这种需要了。要表示出更高次幂，只须在算盘上添加几列就可以了。在绝大多数语言中，1到20
+的数码的读法和写法是不规则的，但在算盘上和阿拉伯数字里是很有规则的。那就是简单的进位制：1加9时出现了零，而在下一个位置上出现了1。
+\end_layout
+
+\begin_layout Standard
+自古以来，就有这样一个惯例：一年级教数教到20，二年级教到100，三年级教到数的无限序列或相近的内容。但实际上儿童早在一年级就能无限制地数数了。这实在是件大事情
+。在蒙台梭利（Montessori）式的学校里，或幼儿园里，儿童年龄到了某一阶段时，教师就让他们在长纸条上写数：1，2，…，10，11，…也许写到19后，儿童需
+要教师指点一下，到了29后，又需帮助一下。而到了39后，儿童也许就不需要教师的帮助了。一直到99，儿童会重新要求教师帮一下。有一个小女孩专心致志地埋头于这一活动
+。当她写到1024时，不肯再写下去了，而说“就这样继续下去”。这是很了不起的。“就这样继续下去”就是数学。它是人类过去创造了的，而对个人来说正在创造的最早的数学
+，它是伟大而又重要的数学，也是最深奥的数学。我之所以强调这一点，是因为许多人对此还不理解。试问：女孩发现了什么？看起来好像是在说：纸条上的数列在继续，但确切地说
+，应是数的记号在继续。这就是说，女孩突然发现了一条写下所有数的非常简单的原理：0后面是1，1后面是2，…，9后面是0，同时在左边添加1。它简单得足以教会儿童和机
+器。
+\end_layout
+
+\begin_layout Standard
+但是，这个女孩会总结出这一原理吗？恐怕不会。她还没有这种数学能力。然面，她会运用它，也知道它可以无限制地进行下去。这就是说，她发现了无限。这在数学上是一件了不起
+的大事。这正是数学的出发点和归宿。
+\end_layout
+
+\begin_layout Standard
+计数后紧接着便是最基本的算术。加法是继续计数，减法是往回计数，这是传统的教学法中的一项基本原理。形成这项正确原理的灵感来自于数的计数这个侧面，然而它却被新数学的
+教学法专家忽视了。当然，我们不应把数数弄得既沉闷又琐碎。可以向前数，向后数，或是两个两个地数（2，4，6，…），或是三个三个地数（3，6，9，…），或是把一些数
+凑成十或几十（3加7等于10），等等。在传统的算术教科书中，这些都是要认真练习的。这些练习可以与数轴结合起来进行。它能为心算做好准备，也能为计数的算法化和笔算做
+好准备。
+\end_layout
+
+\begin_layout Standard
+此外，单纯的计数也是一种活动。数小石子，数街道上有多少盏路灯、数一列火车有多少节车厢等，其结果得到基数。也可以数有节奏的活动，例如标出一场游戏的时间周期。门牌号
+码、戏院的座位号码等都是按顺序编排的。要在某个体系中数下去，就要懂得它的编排原理。数列中“就这样继续下去”的原理贯串于全部算术教学之中，无论是时间的无限，还是空
+间的无限，都靠这项原理去掌握。表示
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+时，可算到某一位小数，然后点三点，表示可以无限地计算下去。要表示一个圆时，可将它描述为内接多边形的无穷序列，而这些多边形的边数是可以无限增加的。所有这些无限过程
+，从数列的形成到无穷函数列的收敛，都是想象为时间上的无穷无尽，或是看作连续不断地变化。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement L
+overhang 0in
+width "30text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/11-1.png
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+构造帕斯卡（Pascal）三角形（图11-1）也是遵循了上述原理。每一行开始和结束均为
+\begin_inset Formula $1$
+\end_inset
+
+，其他每一位置上的数是其左上角和右上角的两数之和，最后一行省略号的意思是“等等”。实际上，这里有一个现成的封闭的公式：上述第
+\begin_inset Formula $n$
+\end_inset
+
+行（行数从
+\begin_inset Formula $0$
+\end_inset
+
+开始）第
+\begin_inset Formula $k$
+\end_inset
+
+个位置上的数是
+\begin_inset Formula $\left(\begin{array}{c}
+n\\
+k
+\end{array}\right)$
+\end_inset
+
+，它是二项式的一个系数容易证明
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\left(\begin{array}{c}
+n\\
+k
+\end{array}\right)=\cfrac{n!}{k!(n-k)!}$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+其中
+\begin_inset Formula $n!=1\cdot2\cdot3\cdot\cdots\cdot n$
+\end_inset
+
+。这里同样也有三点，读者当然明白它的意思是“等等”。但这不是一个封闭的式子，它要经历一个时间的过程。这种缺点能否消除呢？这是做得到的。让我们先看下面的定义：
+\end_layout
+
+\begin_layout Standard
+定义：
+\begin_inset Formula $0!=1$
+\end_inset
+
+，每当已经定义了
+\begin_inset Formula $n!$
+\end_inset
+
+后，就有
+\begin_inset Formula $(n+1)!=(n+1)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+这种定义看起来稍好一点，但是在定义中却有“已经定义”这样的字眼，并且“每当”两字仍使人想起其中存在一个历时的过程。因此，下面的定义看来更合适一些：
+\end_layout
+
+\begin_layout Standard
+定义：
+\begin_inset Formula $0!=1\wedge\bigwedge_{n\in N}(n+1)!=(n+1)\cdot n!$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+从严格的逻辑观点看，现在确实是一下子被定义了。上述讨论涉及到递归或是数学归纳法。它们能捕获住无限过程。这种情况就像奶粉罐头上印着一位广告女郎，而她手中正捧着一个
+同样的奶粉罐头，通过归纳抓住了无限。我们知道，凡是涉及自然数的命题，要证明它对所有自然数均成立，就需要用完全归纳法。完全妇纳法原理将上述省略号“…”，及其含意“
+等等”加以形式化，把无限掌握在一个小小的空间里，就像奶粉罐上的图片那样。完全归纳法原理的典型公式为：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varphi$
+\end_inset
+
+：令
+\begin_inset Formula $E$
+\end_inset
+
+是涉及自然数的一项性质。（自然数是从
+\begin_inset Formula $1$
+\end_inset
+
+开始的，现在人们往往喜欢从
+\begin_inset Formula $0$
+\end_inset
+
+开始考虑问题）假设
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $E(0)\wedge\bigwedge_{n\in N}(E(n)\rightarrow E(n+1))$
+\end_inset
+
+，则
+\begin_inset Formula $\bigwedge_{n\in N}E(n)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+即如果对数
+\begin_inset Formula $0$
+\end_inset
+
+具有性质
+\begin_inset Formula $E$
+\end_inset
+
+，并且当对自然数
+\begin_inset Formula $n$
+\end_inset
+
+具有性质
+\begin_inset Formula $E$
+\end_inset
+
+时，对它的后继
+\begin_inset Formula $n+1$
+\end_inset
+
+也具有性质
+\begin_inset Formula $E$
+\end_inset
+
+，那么就能断言：对一切自然数都具有性质
+\begin_inset Formula $E$
+\end_inset
+
+。当然，性质
+\begin_inset Formula $E$
+\end_inset
+
+可以是各种各样的。
+\end_layout
+
+\begin_layout Standard
+完全归纳法也可用另一种形式
+\begin_inset Formula $\varphi'$
+\end_inset
+
+来叙述。如果令具有性质
+\begin_inset Formula $E$
+\end_inset
+
+的
+\begin_inset Formula $N$
+\end_inset
+
+中的元素的集合
+\begin_inset Formula $M$
+\end_inset
+
+,为则
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varphi'$
+\end_inset
+
+：令
+\begin_inset Formula $M\subset N$
+\end_inset
+
+，
+\begin_inset Formula $0\in M$
+\end_inset
+
+且
+\begin_inset Formula $\bigwedge_{n\in N}(n\in M)\rightarrow(n+1\in M)$
+\end_inset
+
+，则有
+\begin_inset Formula $M=N$
+\end_inset
+
+。
+\begin_inset Newline newline
+\end_inset
+
+换句话说，这个及的子集I就是及本身。
+\end_layout
+
+\begin_layout Standard
+怎样证明
+\begin_inset Formula $\varphi$
+\end_inset
+
+或
+\begin_inset Formula $\varphi'$
+\end_inset
+
+成立呢？实际上
+\begin_inset Formula $0\in M$
+\end_inset
+
+，由此可得
+\begin_inset Formula $1=0+1\in M$
+\end_inset
+
+，
+\begin_inset Formula $2=1+1\in M$
+\end_inset
+
+，
+\begin_inset Formula $3=2+1\in M$
+\end_inset
+
+，等等，即证明了
+\begin_inset Formula $\varphi'$
+\end_inset
+
+对一切自然数都成立。也就是说，要证明
+\begin_inset Formula $\varphi'$
+\end_inset
+
+，就必须打开小小的空间，全称量词要由时间上的归纳和“等等”来代替。
+\end_layout
+
+\begin_layout Standard
+完全归纳法也可用形式
+\begin_inset Formula $\varphi''$
+\end_inset
+
+来叙述。其方法是把
+\begin_inset Formula $\varphi'$
+\end_inset
+
+看作一个公理：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varphi''$
+\end_inset
+
+：令
+\begin_inset Formula $N$
+\end_inset
+
+是一个具有元素
+\begin_inset Formula $0$
+\end_inset
+
+和到自身的映射
+\begin_inset Formula $f$
+\end_inset
+
+（
+\begin_inset Formula $fx$
+\end_inset
+
+称为
+\begin_inset Formula $x$
+\end_inset
+
+的后继）的集合，其中
+\begin_inset Formula $f$
+\end_inset
+
+是一一映射，
+\begin_inset Formula $fN=N\backslash\{0\}$
+\end_inset
+
+（即
+\begin_inset Formula $N$
+\end_inset
+
+中每一元素都有一个后继，并且除
+\begin_inset Formula $0$
+\end_inset
+
+以外的每一个元素都有一个前驱）。那么
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(0\in M\subset N\wedge fM\subset N)\rightarrow(M=N)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+（即若
+\begin_inset Formula $0$
+\end_inset
+
+属于
+\begin_inset Formula $M$
+\end_inset
+
+，并且
+\begin_inset Formula $M$
+\end_inset
+
+中每一元素的后继也属于
+\begin_inset Formula $M$
+\end_inset
+
+，则
+\begin_inset Formula $M$
+\end_inset
+
+等于
+\begin_inset Formula $N$
+\end_inset
+
+）。
+\end_layout
+
+\begin_layout Standard
+这里其实有一个极小性：
+\begin_inset Formula $N$
+\end_inset
+
+不可能有一个真子集，其中既包含
+\begin_inset Formula $0$
+\end_inset
+
+，又包含子集中任一元素的后继。这个要求是不可缺少的，例如，考虑这样一个集合：
+\begin_inset Formula $N$
+\end_inset
+
+之后添加上
+\begin_inset Formula $Z$
+\end_inset
+
+，即为：
+\begin_inset Formula $0,1,2,\cdots,\cdots,-3',-2',-1',0',1',2',3',\cdots$
+\end_inset
+
+，我们可以得到一个集合
+\begin_inset Formula $K$
+\end_inset
+
+它满足条件：
+\begin_inset Formula $f$
+\end_inset
+
+是一对一的后继函数，且
+\begin_inset Formula $fK=K\backslash\{0\}$
+\end_inset
+
+。但它有一个真子集
+\begin_inset Formula $N$
+\end_inset
+
+，也具有同样性质。这从本质上讲就是自然数序列的皮亚诺公理。
+\end_layout
+
+\begin_layout Standard
+以上从最原始的数的概念（不包括无限）开始，到单纯地计数，到单纯地作出完令归纳法，直至自觉地认识理解，进而有意识地加以形式化，最终以其公理化形式嵌入集合论，已经形
+成了相当复杂的数的概念。它们反映了各种层次上不同的严谨性。但这种严谨性是数学上的，并不一定与学习过程的层次相吻合，因此，在教学中如何加以处理还有待很好地研究。
+\end_layout
+
+\begin_layout Section
+数量的数
+\end_layout
+
+\begin_layout Standard
+一个集合的元素个数通常是由计数而得到，但这并不是唯一的途径。能否撇开计数而建立集合元素个数的概念呢？基数或势就是数量数的形式化。
+\end_layout
+
+\begin_layout Standard
+集合的势是康托（Cantor）提出的。两个集合之间如能一一对应，则称它们等势。例如映射
+\begin_inset Formula $n\rightarrow2n$
+\end_inset
+
+是整数集到偶数集上的一一映射，故整数集与偶数集等势。非等势的集也可以相互比较，如
+\begin_inset Formula $B$
+\end_inset
+
+可以一一映射到
+\begin_inset Formula $A$
+\end_inset
+
+内，而反过来则不行，就称
+\begin_inset Formula $A$
+\end_inset
+
+的势比
+\begin_inset Formula $B$
+\end_inset
+
+的势大。
+\end_layout
+
+\begin_layout Standard
+康托认为，集合的势或基数是所有与它等势的集合所共有的。现在流行的说法是：集合
+\begin_inset Formula $A$
+\end_inset
+
+的势就是与
+\begin_inset Formula $A$
+\end_inset
+
+等势时所有集合的类。在势的观点下，等势集合可看作没有本质区别的。一个无限集可和它的真子集等势，这一现象曾困扰着康托以前的数学家。它可用来定义有限集：有限集是一个
+不能与其真子集等势的集合。空集的势为
+\begin_inset Formula $0$
+\end_inset
+
+，仅有一个元素的集合的势为
+\begin_inset Formula $1$
+\end_inset
+
+，两个元素的集合的势为
+\begin_inset Formula $2$
+\end_inset
+
+，等等。势的和、积、幂的定义一般可从有限集的有关定义导出：如果
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+分别有
+\begin_inset Formula $m$
+\end_inset
+
+、
+\begin_inset Formula $n$
+\end_inset
+
+个元素，并
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+不交，那么并集
+\begin_inset Formula $B$
+\end_inset
+
+的势为
+\begin_inset Formula $m+n$
+\end_inset
+
+；有序对集合
+\begin_inset Formula $(A,B)$
+\end_inset
+
+的势为
+\begin_inset Formula $m\cdot n$
+\end_inset
+
+，而
+\begin_inset Formula $B$
+\end_inset
+
+到
+\begin_inset Formula $A$
+\end_inset
+
+内的映射集合的势为
+\begin_inset Formula $m^{n}$
+\end_inset
+
+，因为对
+\begin_inset Formula $B$
+\end_inset
+
+的
+\begin_inset Formula $n$
+\end_inset
+
+个元素中的每一个元素来说，在
+\begin_inset Formula $A$
+\end_inset
+
+中都有
+\begin_inset Formula $m$
+\end_inset
+
+个可能的元素作为
+\begin_inset Formula $B$
+\end_inset
+
+到
+\begin_inset Formula $A$
+\end_inset
+
+内映射的像。同样，在有限集的情况下，势的比较可看作将通常的自然数按照其次序进行比较。这里各种运算律（交换律、结合律、分配律）的运用也是相当明确的。
+\end_layout
+
+\begin_layout Standard
+势与上面所说的计数数的传统概念及其引入相比要简单得多了，并且能令人信服，在计数中，关于“有多少”这个问题，必须通过数已知集合中元素的个数才能回答。为了比较两个集
+合的大小，就必须数两者。如数目相间，则它们等势；如
+\begin_inset Formula $A$
+\end_inset
+
+比
+\begin_inset Formula $B$
+\end_inset
+
+先数完，则
+\begin_inset Formula $A$
+\end_inset
+
+的势比
+\begin_inset Formula $B$
+\end_inset
+
+的势小。有必要如此复杂吗？从势的观点来看，集合是可以直接比较的。和与积也可很容易地一下子引入，而用计数方法的话，就要有一个颇为麻烦的数的过程。还有，如果用势来定
+义自然数，那么就可以在较早的阶段让儿童学习一些演绎的数学；如果用计数来定义，则必须等学完了完全归纳法，才能对数的概念作演绎处理，而这是相当高级的学习。
+\end_layout
+
+\begin_layout Standard
+很显然，学校中应该这样来教：用势的概念引入数，即让儿童使用这些作为势的数进行运算。刚开始读书时，儿童只知道计数数。他们不知道数的意义，却能倒背如流。这时，数作为
+一个数量的度量，就能起到帮助儿童重新构造思想的极好作用。在较高的层次上，儿童就能够了解这种教学法所依赖的数学理论，就能有意识地通过有限集的势来构造自然数了。
+\end_layout
+
+\begin_layout Section
+关于数量数的深入讨论
+\end_layout
+
+\begin_layout Standard
+当前，有一股神秘的浪潮正冲击着数学教学理论，在一些较高水平的教科书中，关于自然数的理论似乎都是从势的角度去严格展开的。我要指出：从数学角度看，至少从通常对数学的
+理解看，数量数，即势，并不足以成为自然数的一个基础。
+\end_layout
+
+\begin_layout Standard
+如果自然数服从一般的势的概念，人们就必须定义什么是有限势。只定义
+\begin_inset Formula $0$
+\end_inset
+
+、
+\begin_inset Formula $1$
+\end_inset
+
+、
+\begin_inset Formula $2$
+\end_inset
+
+或再多一些数显然是不够的，而要掌握所有的有限势，我们只能说“等等”。它的含意就是：在
+\begin_inset Formula $n$
+\end_inset
+
+个元素的集合上添加一个新元素，便得到
+\begin_inset Formula $n+1$
+\end_inset
+
+个元素的集合。这样的定义是合理的，可以接受的，而且也能导出全部有限势。但遗憾的是，只有当自然数早巳存在时，才可如此定义。先要假设已经知道了
+\begin_inset Formula $N$
+\end_inset
+
+，势
+\begin_inset Formula $n$
+\end_inset
+
+才能简单地定义为有限集
+\begin_inset Formula $\{1,2,\cdots,n\}$
+\end_inset
+
+的势，集合及本身才成为可数无限势的一种表示。
+\end_layout
+
+\begin_layout Standard
+也许有人会说，他的确是用到了
+\begin_inset Formula $N$
+\end_inset
+
+来定义有限势，定义势为
+\begin_inset Formula $0$
+\end_inset
+
+、
+\begin_inset Formula $1$
+\end_inset
+
+、
+\begin_inset Formula $2$
+\end_inset
+
+、…的集合，但只是利用了数的序列，并未用到,中许多深奥的关系，也未用到加、乘等运算。这似乎是允许的，然而却完全错了。为了从
+\begin_inset Formula $M$
+\end_inset
+
+得出有限集及其性质，首先必须证明：每一个
+\begin_inset Formula $n(n\in N)$
+\end_inset
+
+唯一地表示一个势；其次，为了定义势的运算，还必须证明：对两个有限集，它们的并、它们的元素组成的偶对的集合以及一个集合到另一集合的全体映射的集合均为有限集。要真正
+地做到这一切，完全归纳法是必不可少的。那些教科书就是在这一点上存在着漏洞。
+\end_layout
+
+\begin_layout Standard
+不归结为一般性的原理，只是一个接一个地引进有限势，这还是可以接受的。但要从给定的无限集
+\begin_inset Formula $M$
+\end_inset
+
+中取出一个可数无限集，就需要及
+\begin_inset Formula $N$
+\end_inset
+
+全体了。这是不可避免的，想用“等等”来代替也不行。要能这样取出，就需要用到选择原理或与它等价的原理。选择原理保证了对无限集
+\begin_inset Formula $M$
+\end_inset
+
+的每个有限子集
+\begin_inset Formula $X$
+\end_inset
+
+，均可找到一个元素
+\begin_inset Formula $x$
+\end_inset
+
+，使
+\begin_inset Formula $x\in M\backslash X$
+\end_inset
+
+。更精确地说，假设
+\begin_inset Formula $f$
+\end_inset
+
+是
+\begin_inset Formula $M$
+\end_inset
+
+的有限子集的集合到
+\begin_inset Formula $M$
+\end_inset
+
+内的映射，使得
+\begin_inset Formula $fX\in M\backslash X$
+\end_inset
+
+，那么，归纳的道路就畅通了：定义
+\begin_inset Formula $A_{0}=\varnothing$
+\end_inset
+
+，
+\begin_inset Formula $A_{n+1}=A_{n}\cup\{fA_{n}\}$
+\end_inset
+
+，最后得到
+\begin_inset Formula $A=\underset{n=1}{\overset{\infty}{\bigcup}}A_{n}$
+\end_inset
+
+，它是
+\begin_inset Formula $M$
+\end_inset
+
+的可数无限子集。显然，
+\begin_inset Formula $A$
+\end_inset
+
+的构造过程还是利用了完全归纳法。
+\end_layout
+
+\begin_layout Standard
+我提到过有限集的性质：它不能与其任何一个真子集等势。戴德金（Dedekind）利用它反过来定义无限集，一个集合如能与其一个真子集等势的话，该集合就是无限集。于是
+，困难就转到戴德金意义即通常意义的有限集上了。要证明：不与任何真子集等势的集合，就与
+\begin_inset Formula $N$
+\end_inset
+
+的某个子集等势，这需要一个历时的过程，要从中数出一个可数子集，否则就要用到选择原理。戴德金的定义还包含了另一层意思，即要得到
+\begin_inset Formula $N$
+\end_inset
+
+那样的可数无限集，前提是先要存在某个无限集。罗素（Russel）和怀特黑德（Whitehead）的方法与之相差不大，他们按归纳方法定义有限势，同时得到
+\begin_inset Formula $N$
+\end_inset
+
+：空集的势是
+\begin_inset Formula $0$
+\end_inset
+
+，如果
+\begin_inset Formula $M$
+\end_inset
+
+的势是
+\begin_inset Formula $m$
+\end_inset
+
+，则
+\begin_inset Formula $M\cup\{c\}(c\notin M)$
+\end_inset
+
+的势就是
+\begin_inset Formula $m+1$
+\end_inset
+
+。照这种定义，包含
+\begin_inset Formula $0$
+\end_inset
+
+，并且有
+\begin_inset Formula $x$
+\end_inset
+
+就有
+\begin_inset Formula $x+1$
+\end_inset
+
+的最小集合就是
+\begin_inset Formula $N$
+\end_inset
+
+。但他们也无法避开这样一种假设：首先存在某个无限集。
+\end_layout
+
+\begin_layout Standard
+人们可以去设想一种只有有限集的集合论，它也可以具有一些常规运算。在此理论上建立起来的数学，可以定义每一个自然数。但由于没有自然数集合，也就没有任何关于自然数的定
+理，也就无法概括地定义自然数的运算。如果它能称为数学的话，那它就是非常原始的数学，仅仅停留在尚未出现与无限有关的概念的水平上。
+\end_layout
+
+\begin_layout Standard
+我要指出的是，那些教科书中上述方法的错误还只是次要的。他们最主要的错误是，作为教育工作者，对数学方法的要求定得太高。学生接受了由势来引入自然数的观念，他们就不会
+去注意一些具有本质性的定理，因为那些定理是被心照不宣地提出的，证明又被省略了，或者被随便地用“等等”来归结的。于是，自然数、完全归纳法中的精髓被抽去了。这种方法
+就不是促进理解数学的方法。我承认，某一阶段年龄的儿童可能很难理解完仝归纳法，但我们并没有理由要将一种很容易引起错觉的理论强加给他们。读者也许已经注意到集合论不是
+那么简单的，即使是那些通常认为能适应中、小学水平的内容，也有许多棘手的问题，有很多绊脚石，它们甚至对优秀的数学家来说也是障碍。我们不能不加批评地让那些毫无数学经
+验的学生去摹仿那些对数学家来说也会感到头痛的内容。我想规劝那些不能领会我的解释，或更确切地讲，不能重新考虑这一点的人，不要去教那种内容。我的意思不是指其太难了而
+不能学会。如果教师利用成绩来加以剌激，学生也是能达到要求的，问题是教师应当如何处理这些教学内容。如果他不加批判地接受了这种内容，那么，尽管他不应该去教它，他也可
+能去教。而如果他能作出足够的批判，那么尽管他能去教它，但他也不愿去教。
+\end_layout
+
+\begin_layout Standard
+这些教材为什么能被学校采用呢？我猜想是作者受了自然数的数量侧面的迷惑，也许还受了皮亚杰（Piaget）的影响。然而作为数学工作者，他们应该知道，自然数的数量侧面
+并不足以成为自然数引入的基础，它的效果并不大，漏洞却不小。作者们也许会辩解道：“如果要建造一幢大楼，就必须从打基础开始。”我要回答说：“不！你应该从图纸开始，在
+打基础以前就应该先知道究竟要将大搂造得多高。”
+\end_layout
+
+\begin_layout Standard
+那么，中小学的实际教学应怎样进行呢？我认为教等势和势的比较是相当简单的事。只要确实弄清楚自然数和
+\begin_inset Formula $N$
+\end_inset
+
+作为给定的概念，只要它们不被错误地描述成是建立在集合论基础之上的，有限集和可数无限集是可以掌握的。我更深入的想法是利用完全归纳法，以计数数来奠定自然数及其运算的
+基础。这是一种典型的，简捷可靠、富有创造力的方法。它不需要皮亚诺公理，也不必明确地阐述完全归纳法。而且我们知道，用归纳方法定义的加法和乘法与算术中的加法和乘法是
+很接近的。这里所谈的是一种可能性，并不意味着是一种必要性。至于其他的途径，我认为现在已经证明它们是行不通的。
+\end_layout
+
+\begin_layout Standard
+我还要指出：与自然数的计数侧面相比较，数量数不是那么重要的。虽然数量数侧面对描述自然数无法胜任，但它看起来既简单又重要。人们不禁要问：为什么它在数学史上出现得那
+么晚？这个问题其实不难回答，在康托的理论出现以前，它不是一个很重要的问题，而且即使在康托之后，在数学的许多领域中，它仍是无关紧要的，不久便被一些更精致的理论所替
+代了。1940年以前，抽象代数、拓扑、抽象分析中还大量地用到超限基数，但后来查恩（Zorn）引理成了数学的关键，而它在很大程度上是不受势影响的。这里顺便指出，康
+托的成就并不是以数量侧面去解释自然数及其运算，而是他敢于将这种对数来说很自然的解释推广到无限集上。当势的概念被用到无限集上时，才显示出它的深远意义。因此，过多地
+强调基数是不必要的。我认为数量数可以在组合问题中起重要作用。我们不应把它用到会引起误解的地方，去作为数的概念的基础。
+\end_layout
+
+\begin_layout Standard
+我再要指出：从自然数的教学方法看，数量数侧面是不能胜任这项任务的。数的概念的数量侧面对个人来说是怎样发展的呢？儿童很早就开始学计数了，并把它当作是一种乐趣。他们
+的计数能力要远远超出对数量的理解，然而并不一定就懂得计数数和数量数之间的联系。数的概念产生中，计数数是最初始的，最具有意义的。数量只是进一步深入时的一个侧面，这
+一点不应被发展心理学和教育学所忽视。没有证据可以说明儿童是以一一映射下的不变量来构造数的，它不过是数学家的理性化思想。儿童不会从等价集合的类去构造一个一个的数，
+而是在一个广阔得多的范围内来学习这一不变性的。即使在自然数的不变性中，一一映射下的不变性也只是一个特殊情况。人们没有理由要将它作为检验儿童是否掌握数的概念的标准
+。
+\end_layout
+
+\begin_layout Standard
+亳无疑问，正是皮亚杰首先从心理学的角度对数量侧面作了强调。他受康托的影响，转向对数的数量侧面的发展进行研究，却不管其他侧面。他相信完全可以从势的概念来引入自然数
+的概念。从皮亚杰实验中的被试的数学水平看，这在数学上是对的，因为这时自然数只是单个存在的数，尚未组成整体，但他忽视了在整个体系中所存在着的漏洞，这就诱使他将更强
+的结论加到了心理学上，加到了计数侧面上。于是，教学法专家所借用的那些理论，其实并不是实验的
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+结论
+\end_layout
+
+\end_inset
+
+，而是一种错误的，至少是被误解了的数学
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+猜想
+\end_layout
+
+\end_inset
+
+。皮亚杰可能读了一些有关的数学著作，然而他未用那种方式去解释数量。他将“
+\begin_inset Formula $5$
+\end_inset
+
+是
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+等价
+\end_layout
+
+\end_inset
+
+于某个标准集合的集合的类”理解为“
+\begin_inset Formula $5$
+\end_inset
+
+是一个由
+\begin_inset Formula $5$
+\end_inset
+
+个
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+等价
+\end_layout
+
+\end_inset
+
+单位构成的类”。皮亚杰用毫无特色的“等价”一词代替了“等势”，由此产生了误解。
+\end_layout
+
+\begin_layout Standard
+我并不反对皮亚杰关于自然数的观念，但他没有理由认为儿童一开始是按照一种形式的过程去理解数的，而这种过程即使是对未经过数学训练的科学家来说也是难以理解的。可以肯定
+地说，儿童最终必须要学习计数数是一一映射下的不变量，必须学习两个集合的并，必须通过组成偶对的方法来学习乘法，必须在更高的水平上去有意识地达到形式化。这里我所反对
+的是把自然数限制在数量侧面，或是过份强调这一侧面的一种倾向。一旦数的概念与数的运用联系起来，数量侧面就无关紧要了。人们绝不会把数量概念与5点钟、5年级、数轴上的
+点5等等联系起来，它们与数量数完全不同。
+\end_layout
+
+\begin_layout Standard
+现在的实际教学，在较低及较高水平上都过分强调了自然数的基数侧面。例如，一些人用这样的方法教：画一张文恩（Venn）图，上有三枝铅笔、两只铅笔盒、一块橡皮，并有一
+面小旗，旗上标有“6”，说明文恩图表示了6这个数，然后是一个并号或加号，第二张文恩图则有两枝铅笔、两块橡皮，一面标有“4”的小旗，后面还有一个等号。初次看到这类
+问题，我还平静地对它一笑了之，但当我看到电视上的数学课程内容时，我就禁不住捧腹大笑了：一所房子的屋顶上插有标着“6”的旗子，表示它是5扇窗、一扇门的集合；还有另
+一所类似的房子。然后，把两所房子挪到一块，旗子则合二为一。我真不知道如何回答这类问题。
+\end_layout
+
+\begin_layout Standard
+我并不忠实信仰传统方法，但我认为，即使人们热衷于现代的教条，也不能对最复杂的教学法中的古老经验视而不见。我对算术的现代方法作了一些比较，发现好的方法都强调计数。
+当然这并不是说要儿童通过数数的笨方法去学习计算，而是说他们应当系统地学计数，进而在一个可数的格式塔（组织结构）中计算。为此，要用到齐性的、有结构的材料
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+我上面提到的例子既违反了齐性，又违反了结构性。要是那样的话，除了让他们依赖乏味的数数外，并不能使他们直观地利用具体材料学到加法。应该让他们在两条水平直线上，或是
+在算盘上给两个数（如8和5）建立结构关系。这时，齐性的、有结构的集合就能发挥作用了。当然，无结构的、非齐性的例子也不能忽视，它们同样存在于世。
+\end_layout
+
+\begin_layout Standard
+我看到不少算术书完全忽视了计数。由于过份强调数量侧面，致使儿童所学的计数成了单纯、乏味的数数，即没有系统地计数，完全忽视了将加看作继续数，将减看作往回数这种心算
+与笔算之间最重要的环节。
+\end_layout
+
+\begin_layout Standard
+另外，在较高的水平上，甚至很好的教科书也完全忘记了计数数。我提出过数量侧面不足以成为数的基础，但这并不是要忽视它，在哪种程度上了解它是另外一件事。如果学生不仅能
+证明
+\begin_inset Formula $a+b=b+a$
+\end_inset
+
+，
+\begin_inset Formula $a\leqslant b\wedge b\leqslant c\rightarrow a\leqslant c$
+\end_inset
+
+这类公式，而且能进一步了解数的运算性质，那么弄懂自然数的数量特征就更好了。能将自然数的数量侧面进行运算的机会并不多，但也不算少。如能在较高水平上意识到数量侧面，
+它就可在组合数学中作运算了，而完全归纳法则适合于计数数侧面。
+\end_layout
+
+\begin_layout Section
+度量的数
+\end_layout
+
+\begin_layout Standard
+日常生活中最重要的是度量的数，例如，数人或数蛋等等。数量数就是对集合的度量，但要度量的其他东西几乎都不是集合。度量一个量需要标准单位，而度量的结果是一个数。由于
+有许多不同的量，故需有许多不同的单位，如长度、而积、体积、高度、质量、功、电流强度、大气压和货币值等，它们经过度量，便成了量值。有时，学生弄不清楚为什么度量一些
+量需要用不同的单位，而度量长度和宽度又可用同一单位？为什么要用加仑为单位来度量汽油，用千瓦小时来度量电，用不可思议的单位来度量热量？算术中只教以上众多单位中的一
+小部分，为了满足需要，物理学家就制定了合理的度量体系。数学家喜欢将所有标量看作为同一个概念。当单位确定后，就可用同一类的数去度量所有的量，这是数学的优点。但为了
+学会如何应用数学，学生就应该学习各种量的起源、特征，并弄懂它们之间的关系，应该说这也是数学。
+\end_layout
+
+\begin_layout Standard
+当教学法专家问起什么是数学上的度量时，纯数学家就会介绍测度论，即
+\end_layout
+
+\begin_layout Standard
+一个系统
+\begin_inset Formula $M$
+\end_inset
+
+，
+\begin_inset Formula $B$
+\end_inset
+
+，
+\begin_inset Formula $\mu$
+\end_inset
+
+，由集合
+\begin_inset Formula $M$
+\end_inset
+
+、
+\begin_inset Formula $N$
+\end_inset
+
+的子集的集合
+\begin_inset Formula $B$
+\end_inset
+
+及
+\begin_inset Formula $B$
+\end_inset
+
+到实数集内的一个映射
+\begin_inset Formula $\mu$
+\end_inset
+
+所组成，使得
+\end_layout
+
+\begin_layout Standard
+（1）
+\begin_inset Formula $M_{1},M_{2}\in B\longrightarrow M_{1}\cup M_{2}\in B\bigwedge M_{1}\cap M_{2}\in B\wedge M_{1}\backslash M_{2}\in B$
+\end_inset
+
+；
+\end_layout
+
+\begin_layout Standard
+（2）
+\begin_inset Formula $M\in B\longrightarrow\mu(M)\geqslant0$
+\end_inset
+
+；
+\end_layout
+
+\begin_layout Standard
+（3）
+\begin_inset Formula $M_{1},M_{2}\in B\wedge M_{1}\cap M_{2}=\varnothing\longrightarrow\mu(M_{1}\cup M_{2})=\mu(M_{1})+\mu(M_{2})$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+教学法专家还会讨论3kg是什么意思，而3kg=3000g又是什么意义？kg是否仅是代数中使用的字母因子，是否由1kg=1000g通过乘法分配律，即可得3kg=3
+000g。但是，如果拿上述问题去问某些大学数学教授，他们会耸耸肩膀说你可用测度论来解释。”然而，测度论与这些问题并不相干。
+\end_layout
+
+\begin_layout Section
+量
+\end_layout
+
+\begin_layout Standard
+量G是非空集合，有一个序关系（
+\begin_inset Formula $<$
+\end_inset
+
+）和一个加法（
+\begin_inset Formula $+$
+\end_inset
+
+），若
+\begin_inset Formula $a,b,c\in G$
+\end_inset
+
+，则有
+\end_layout
+
+\begin_layout Standard
+（1）
+\begin_inset Formula $a<b$
+\end_inset
+
+或
+\begin_inset Formula $a=b$
+\end_inset
+
+或
+\begin_inset Formula $b<a$
+\end_inset
+
+（“或”是互斥的）；
+\end_layout
+
+\begin_layout Standard
+（2）
+\begin_inset Formula $a<b\wedge b<c\longrightarrow a<c$
+\end_inset
+
+；
+\end_layout
+
+\begin_layout Standard
+（3）
+\begin_inset Formula $(a+b)+c=a+(b+c)$
+\end_inset
+
+；
+\end_layout
+
+\begin_layout Standard
+（4）
+\begin_inset Formula $a+b=b+a$
+\end_inset
+
+；
+\end_layout
+
+\begin_layout Standard
+（5）
+\begin_inset Formula $a+c=b+c\longrightarrow a=b$
+\end_inset
+
+；
+\end_layout
+
+\begin_layout Standard
+（6）
+\begin_inset Formula $a<b\leftrightarrow\bigvee_{c}(a+c=b)$
+\end_inset
+
+（易证
+\begin_inset Formula $c$
+\end_inset
+
+是唯一的）。
+\end_layout
+
+\begin_layout Standard
+从加法导出正整数乘法：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $1\cdot a=a$
+\end_inset
+
+，
+\begin_inset Formula $(1+n)\cdot a=a+n\cdot a(n\in N^{+})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+即
+\begin_inset Formula $n\cdot a=a+a+\cdots+a$
+\end_inset
+
+（
+\begin_inset Formula $n$
+\end_inset
+
+个加项）。通常还需要除法，即
+\end_layout
+
+\begin_layout Standard
+（7）
+\begin_inset Formula $\bigwedge_{a\in G}\bigwedge_{n\in G}+\bigvee_{b\in G}a=n\cdot b$
+\end_inset
+
+（
+\begin_inset Formula $b$
+\end_inset
+
+作为
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $n$
+\end_inset
+
+分之一，也是唯一确定的）。
+\end_layout
+
+\begin_layout Standard
+于是，
+\begin_inset Formula $G$
+\end_inset
+
+对正整数，进而对正有理数（
+\begin_inset Formula $Q^{+}$
+\end_inset
+
+）有乘法和除法。
+\end_layout
+
+\begin_layout Standard
+例如，设
+\begin_inset Formula $G$
+\end_inset
+
+是一个重量系统，它可以这样来得到：在这个系统中，物体的“重量相等”关系可利用天平引入，另一个关系“轻于”亦可用同样方法引入，此外设想两个物体可合并。“重量相等”
+是等价关系，它引出了等价类，这些等价类即通常所说的重景，我们可以称它们为重量类。集合设即这些重量类的全体，称为重量。我们将重量类中物体的“轻于”关系看作为“
+\begin_inset Formula $<$
+\end_inset
+
+”，“合并”关系看作为“
+\begin_inset Formula $+$
+\end_inset
+
+”。于是均可满足以上公理，这是对实际经验的理想化描述。
+\end_layout
+
+\begin_layout Standard
+我们在
+\begin_inset Formula $G$
+\end_inset
+
+中选择一个单位或标准
+\begin_inset Formula $e$
+\end_inset
+
+，
+\begin_inset Formula $e$
+\end_inset
+
+的正有理数倍形成了集合
+\begin_inset Formula $Q^{+}\cdot e$
+\end_inset
+
+，我们可设想
+\begin_inset Formula $G$
+\end_inset
+
+中有元比
+\begin_inset Formula $Q^{+}\cdot e$
+\end_inset
+
+中所有元都小（或都大）。具有此性质的量
+\begin_inset Formula $G$
+\end_inset
+
+称为非阿基米德的。如果以下原则成立就称
+\begin_inset Formula $G$
+\end_inset
+
+为阿基米德的：
+\end_layout
+
+\begin_layout Standard
+（8）对
+\begin_inset Formula $G$
+\end_inset
+
+中的元
+\begin_inset Formula $c$
+\end_inset
+
+，
+\begin_inset Formula $G$
+\end_inset
+
+中不存在小于
+\begin_inset Formula $Q^{+}\cdot c$
+\end_inset
+
+的所有元或大于
+\begin_inset Formula $Q^{+}\cdot c$
+\end_inset
+
+的所有元的元素。
+\begin_inset Newline newline
+\end_inset
+
+即对
+\begin_inset Formula $c,d\in G$
+\end_inset
+
+存在
+\begin_inset Formula $r\in Q^{+}$
+\end_inset
+
+，
+\begin_inset Formula $s\in Q^{+}$
+\end_inset
+
+，使得
+\begin_inset Formula $d<r\cdot c$
+\end_inset
+
+和
+\begin_inset Formula $d>s\cdot c$
+\end_inset
+
+。当然，
+\begin_inset Formula $r$
+\end_inset
+
+可选作整数，
+\begin_inset Formula $s$
+\end_inset
+
+可选作整数的倒数。即对
+\begin_inset Formula $c,d\in G$
+\end_inset
+
+，存在自然数
+\begin_inset Formula $m$
+\end_inset
+
+，
+\begin_inset Formula $n$
+\end_inset
+
+，使得
+\begin_inset Formula $d<m\cdot c$
+\end_inset
+
+，
+\begin_inset Formula $d>\cfrac{1}{n}\cdot c$
+\end_inset
+
+。故有
+\end_layout
+
+\begin_layout Standard
+（8'）
+\begin_inset Formula $\bigwedge_{c,d}\bigvee_{n\in N}d<n\cdot c$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+这是阿基米德公理的一般形式。教科书中通常是从（8'）开始，再由它导出（8）的，这是违反教学法的颠倒。教科书之所以采用这一次序，理由之一是两千多年以来，无人怀疑它
+；理由之二是如果从（8）开始，就显得过分简单了。为迷惑初学者，就从（8'）开始。事实上，作为数学的活动；应该从（8）开始，再简化成（8'）。
+\end_layout
+
+\begin_layout Standard
+现设
+\begin_inset Formula $G$
+\end_inset
+
+是阿基米德的，我们选
+\begin_inset Formula $e\in G$
+\end_inset
+
+，对每个
+\begin_inset Formula $a\in G$
+\end_inset
+
+，按序将
+\begin_inset Formula $Q^{+}\cdot e$
+\end_inset
+
+分成两部分，由此决定
+\begin_inset Formula $Q^{+}$
+\end_inset
+
+的一个划分，即形成两集
+\begin_inset Formula $\{\tau\in Q^{+}|\tau\cdot e\leqslant a\}$
+\end_inset
+
+，
+\begin_inset Formula $\{\tau\in Q^{+}|\tau\cdot e>a\}$
+\end_inset
+
+，这叫做
+\begin_inset Formula $Q^{+}$
+\end_inset
+
+的一个分割。通常，它决定了一实数
+\begin_inset Formula $\alpha\in R^{+}$
+\end_inset
+
+，即
+\begin_inset Formula $\alpha=sup\{\tau\in Q^{+}|\tau\cdot e\leqslant a\}$
+\end_inset
+
+。由定义，
+\begin_inset Formula $a$
+\end_inset
+
+关于
+\begin_inset Formula $e$
+\end_inset
+
+的度量是
+\begin_inset Formula $\alpha$
+\end_inset
+
+，这是一个正实数。令
+\begin_inset Formula $a=\alpha\cdot e$
+\end_inset
+
+，这样对每个
+\begin_inset Formula $a\in G$
+\end_inset
+
+，它就是
+\begin_inset Formula $e$
+\end_inset
+
+的实数倍。可是，前面只提到
+\begin_inset Formula $Q^{+}$
+\end_inset
+
+，不能推出每个正实数都能起到这种作用，因此还需加上另一条公理：
+\end_layout
+
+\begin_layout Standard
+（9）
+\begin_inset Formula $G\supset R^{+}\cdot e$
+\end_inset
+
+，甚至
+\begin_inset Formula $G=R^{+}\cdot e$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+容易证明对
+\begin_inset Formula $\alpha,\beta\in R^{+},\alpha<\beta\rightarrow\alpha\cdot e<\beta\cdot e,(\alpha+\beta)\cdot e=\alpha\cdot e+\beta\cdot e$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+若称
+\begin_inset Formula $a$
+\end_inset
+
+关于
+\begin_inset Formula $e$
+\end_inset
+
+的度量为
+\begin_inset Formula $v(a)$
+\end_inset
+
+，那么，可得
+\end_layout
+
+\begin_layout Standard
+（I）
+\begin_inset Formula $v$
+\end_inset
+
+将
+\begin_inset Formula $G$
+\end_inset
+
+映到
+\begin_inset Formula $R^{+}$
+\end_inset
+
+内（若假设（9）成立，则可将
+\begin_inset Formula $G$
+\end_inset
+
+映到
+\begin_inset Formula $R^{+}$
+\end_inset
+
+上）；
+\end_layout
+
+\begin_layout Standard
+（II）
+\begin_inset Formula $a<b\rightarrow v(a)<v(b)$
+\end_inset
+
+；
+\end_layout
+
+\begin_layout Standard
+（III）
+\begin_inset Formula $v(a+b)=v(a)+v(b)$
+\end_inset
+
+；
+\end_layout
+
+\begin_layout Standard
+（IV）
+\begin_inset Formula $v(e)=1$
+\end_inset
+
+；
+\end_layout
+
+\begin_layout Standard
+（V）
+\begin_inset Formula $v(ta)=tv(a),t\in Q^{+}$
+\end_inset
+
+，这从（III）容易推得。
+\end_layout
+
+\begin_layout Standard
+存在且唯一存在一个函数，具有这些性质，它是
+\begin_inset Formula $a$
+\end_inset
+
+关于
+\begin_inset Formula $e$
+\end_inset
+
+的度量
+\begin_inset Formula $v(a)$
+\end_inset
+
+。如果用
+\begin_inset Formula $e'=\alpha\cdot e$
+\end_inset
+
+代替
+\begin_inset Formula $e$
+\end_inset
+
+，可得
+\begin_inset Formula $a$
+\end_inset
+
+的新度量
+\begin_inset Formula $v'(a)$
+\end_inset
+
+，不过此时是
+\begin_inset Formula $a$
+\end_inset
+
+关于
+\begin_inset Formula $e'$
+\end_inset
+
+的度量。两者有关系：
+\begin_inset Formula $v'(a)=\alpha^{-1}v(a)$
+\end_inset
+
+。这些都很显然，在此只想指出一点，量的理论与集合测度论虽有某些相似之处，但它并未用到集合测度论。
+\end_layout
+
+\begin_layout Standard
+如果已知两个量
+\begin_inset Formula $a_{0}$
+\end_inset
+
+，
+\begin_inset Formula $a_{1}$
+\end_inset
+
+，试图找到一个共同的单位，使它们可用整数表示，这就是欧几里得（Euclid）算法的目的：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{0}=q_{1}a_{1}+a_{2}\quad(0\leqslant a_{2}<a_{1})$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{1}=q_{2}a_{2}+a_{3}\quad(0\leqslant a_{3}<a_{2})$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{0}$
+\end_inset
+
+若能被
+\begin_inset Formula $a_{1}$
+\end_inset
+
+除尽，则余数为
+\begin_inset Formula $0$
+\end_inset
+
+；否则余数
+\begin_inset Formula $a_{2}$
+\end_inset
+
+比
+\begin_inset Formula $a_{1}$
+\end_inset
+
+小。依次类推，如果在某一步出现余数为
+\begin_inset Formula $0$
+\end_inset
+
+，即
+\begin_inset Formula $a_{n-1}=q_{n}a_{n}$
+\end_inset
+
+，则
+\begin_inset Formula $a_{0}$
+\end_inset
+
+，
+\begin_inset Formula $a_{1}$
+\end_inset
+
+容易用
+\begin_inset Formula $a_{n}$
+\end_inset
+
+及整数因子来表示，
+\begin_inset Formula $a_{n}$
+\end_inset
+
+就是
+\begin_inset Formula $a_{0}$
+\end_inset
+
+，
+\begin_inset Formula $a_{1}$
+\end_inset
+
+的共同单位，甚至可能是最大的共同单位，
+\begin_inset Formula $q_{i}$
+\end_inset
+
+是
+\begin_inset Formula $\cfrac{a_{0}}{a_{1}}$
+\end_inset
+
+展开成连分数的分母。如果这一过程不能中止，则可得到一个无限的连分数。
+\end_layout
+
+\begin_layout Standard
+自然而实际的测量方法在古巴比仑时代便有了。若
+\begin_inset Formula $a\in G$
+\end_inset
+
+，且不能用单位
+\begin_inset Formula $e$
+\end_inset
+
+的整数倍量尽，则取一个更小的单位。日常生活中，一个量总有许多单位。例如，距离单位就有哩、噚、呎、吋。巴比仑人用固定关系将同类的标准单位联系起来，他们偏爱因子
+\begin_inset Formula $60$
+\end_inset
+
+。而今天，人们偏爱
+\begin_inset Formula $10$
+\end_inset
+
+。在我们的语言和我们祖先的算盘中都采用十进制。如果单位
+\begin_inset Formula $e$
+\end_inset
+
+太大，就除以
+\begin_inset Formula $10$
+\end_inset
+
+的幂再测量，测量的结果只须移动小数点的位置。其名称可以加上前缀，如将毫、微、毫微、千、兆、千兆等附加在标准单位如秒、吨、米上，作为一个新单位使用。
+\end_layout
+
+\begin_layout Standard
+如果只允许十进位制，则可除性公理7可改为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\bigwedge_{a\in G}\bigvee_{b\in G}a=10\cdot b$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+于是普通分数就消失了，作为测量结果只会遇到有限十进小数，如果将测量过程理想化就会出现无限十进小数。在此系统内，
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+须用无限十进小数表示，一般有理数也是如此。所以，将测量结果解释为普通分数是与测量过程不符合的，普通分数产生于除法而不是来自于测量。
+\end_layout
+
+\begin_layout Section
+度量记号作为函数记号
+\end_layout
+
+\begin_layout Standard
+我们回到老问题：如何解释
+\begin_inset Formula $3\mbox{kg}=3000\mbox{g}$
+\end_inset
+
+？
+\begin_inset Formula $3\mbox{kg}$
+\end_inset
+
+又是什么意思？事实上，可选择千克作为重量单位
+\begin_inset Formula $e$
+\end_inset
+
+，即某些对象的等价类，这个重量类就是
+\begin_inset Formula $e=1\mbox{kg}$
+\end_inset
+
+。对重量类
+\begin_inset Formula $a\mbox{kg}$
+\end_inset
+
+中的对象，度量
+\begin_inset Formula $v$
+\end_inset
+
+关于单位
+\begin_inset Formula $e$
+\end_inset
+
+的取值为
+\begin_inset Formula $v(a)\mbox{kg}$
+\end_inset
+
+，则
+\begin_inset Formula $a\mbox{kg}$
+\end_inset
+
+可看作为函数
+\begin_inset Formula $v$
+\end_inset
+
+中
+\begin_inset Formula $a$
+\end_inset
+
+的原像，或
+\begin_inset Formula $v^{-1}$
+\end_inset
+
+是
+\begin_inset Formula $Q^{+}$
+\end_inset
+
+的一个映射，它给实数指派了重量类。在此，数
+\begin_inset Formula $a$
+\end_inset
+
+对应于重量类
+\begin_inset Formula $a\mbox{kg}$
+\end_inset
+
+，即“
+\begin_inset Formula $\mbox{kg}$
+\end_inset
+
+”的意思与函数记号“
+\begin_inset Formula $v^{-1}$
+\end_inset
+
+”相同，只是一个在自变量的右边，一个在左边。从这个意义上说，我们可以将这个函数记号放到自变量左边，就像目前流行的函数记号一样，即以
+\begin_inset Formula $\mbox{kg}3$
+\end_inset
+
+=
+\begin_inset Formula $\mbox{g}3000$
+\end_inset
+
+代替
+\begin_inset Formula $3\mbox{kg}=3000\mbox{g}$
+\end_inset
+
+，而对自变量不加括号也是可以的。所以，度量记号可以看作为函数记号。$、cm、sec、g等是分别将数映到货币值、长度、时间和重量上的函数，kg和g之间的联系可表示
+成
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\mbox{kg}x=1000\cdot\mbox{g}x$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+即kg是g的
+\begin_inset Formula $1000$
+\end_inset
+
+倍。这一解释非常明显，但不可思议的是至今几乎无人承认它。
+\end_layout
+
+\begin_layout Section
+比例运算法则
+\end_layout
+
+\begin_layout Standard
+量的理论很多。量以各种方式彼此相关，还可由给定的量构造出新的量。
+\end_layout
+
+\begin_layout Standard
+量之间最自然的关系是同态，即存在量集合
+\begin_inset Formula $G$
+\end_inset
+
+到量集合
+\begin_inset Formula $G_{1}$
+\end_inset
+
+的一个映射
+\begin_inset Formula $f$
+\end_inset
+
+，并保持如下结构：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $a<b\rightarrow f(a)<f(b)$
+\end_inset
+
+，
+\begin_inset Formula $f(a+b)=f(a)+f(b)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+由此可推出
+\begin_inset Formula $f(\tau a)=\tau f(a)$
+\end_inset
+
+，
+\begin_inset Formula $,\tau\in Q^{+}$
+\end_inset
+
+对于阿基米德量来说，这是1－1映射。只要（9）成立，它就将
+\begin_inset Formula $G$
+\end_inset
+
+映到
+\begin_inset Formula $G_{1}$
+\end_inset
+
+上。只要对单一的
+\begin_inset Formula $a\in G$
+\end_inset
+
+，给定其像
+\begin_inset Formula $f(a)$
+\end_inset
+
+，则
+\begin_inset Formula $G$
+\end_inset
+
+到
+\begin_inset Formula $G_{1}$
+\end_inset
+
+的同态
+\begin_inset Formula $f$
+\end_inset
+
+即被确定。如果（9）满足，
+\begin_inset Formula $f(a)$
+\end_inset
+
+甚至可在
+\begin_inset Formula $G$
+\end_inset
+
+中任意指定。由于量集合
+\begin_inset Formula $G$
+\end_inset
+
+、
+\begin_inset Formula $G_{1}$
+\end_inset
+
+可分别用度量
+\begin_inset Formula $v$
+\end_inset
+
+和
+\begin_inset Formula $v_{1}$
+\end_inset
+
+描述，因此，
+\begin_inset Formula $f$
+\end_inset
+
+可用
+\begin_inset Formula $R^{+}$
+\end_inset
+
+到自身上的一个映射
+\begin_inset Formula $g$
+\end_inset
+
+来表示，即
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $g=v_{1}fv^{-1}$
+\end_inset
+
+，
+\begin_inset space \quad{}
+\end_inset
+
+或
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $gv(a)=v_{1}f(a)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+它表示
+\begin_inset Formula $g$
+\end_inset
+
+将
+\begin_inset Formula $a$
+\end_inset
+
+的度量映成
+\begin_inset Formula $f(a)$
+\end_inset
+
+的度量，
+\begin_inset Formula $g$
+\end_inset
+
+是
+\begin_inset Formula $R$
+\end_inset
+
+到
+\begin_inset Formula $R$
+\end_inset
+
+的一个线性映射的限制，故
+\begin_inset Formula $g$
+\end_inset
+
+有如下形式
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $g\tau=a\tau(\tau\in R^{+})$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+这里，
+\begin_inset Formula $a$
+\end_inset
+
+是一固定的正实数。这是比例运算法则的数学背景。同样，在反同态基础上可建立比例运算法则的逆，即对于一个
+\begin_inset Formula $f$
+\end_inset
+
+，满足
+\begin_inset Formula $a<b\rightarrow f(a)>f(b)$
+\end_inset
+
+，
+\begin_inset Formula $f(na)=\cfrac{1}{n}f(a)$
+\end_inset
+
+，
+\begin_inset Formula $n\in N^{+}$
+\end_inset
+
+，则有
+\begin_inset Formula $f(\tau a)=\cfrac{1}{\tau}f(a)$
+\end_inset
+
+，
+\begin_inset Formula $\tau\in Q^{+}$
+\end_inset
+
+。同样，若
+\begin_inset Formula $\varphi$
+\end_inset
+
+将
+\begin_inset Formula $a$
+\end_inset
+
+的度量映成
+\begin_inset Formula $f(a)$
+\end_inset
+
+的度量，则可将
+\begin_inset Formula $\varphi$
+\end_inset
+
+写成
+\begin_inset Formula $\varphi(\tau)=a\tau^{-1}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+量的同态例子还有：映射
+\begin_inset Formula $f$
+\end_inset
+
+给重量类指定货币值；或给实物体积指定其重量，量的反同态例子有：如果给定了矩形的面积，对它的长指定其宽；在一个工程问题中，为了完成这一工程，对所需时间指定其工人人
+数。
+\end_layout
+
+\begin_layout Section
+量的乘法和除法
+\end_layout
+
+\begin_layout Standard
+量与量之间不仅有比较关系，而且它们可互乘互除。通过这些运算，可得新的量，如价格/重量，其单位可能是
+\begin_inset Formula $\mbox{\$}/\mbox{pd}$
+\end_inset
+
+；重量/体积，其单位可能是
+\begin_inset Formula $\mbox{g}\cdot\mbox{cm}^{-3}$
+\end_inset
+
+；路程/时间，其单位可能是
+\begin_inset Formula $\mbox{cm}\cdot\mbox{sec}^{-1}$
+\end_inset
+
+或哩/小时，这些量的度量分别称为单价，比重和速度。物理学家以不同的方式去理解量的乘、除，例如他们会写出
+\begin_inset Formula $150\mbox{km}:3\mbox{h}=50\mbox{km}/\mbox{h}$
+\end_inset
+
+。有些数学家则反对这类具体数的计算。但是具体数是绝对严谨的，你无法阻止日常生活所需要的量的乘、除。实际上，在现代数学中，量的乘积就是张量积，互逆的量则称为互相对
+偶。下面作一简单的介绍。
+\end_layout
+
+\begin_layout Standard
+给定两个量
+\begin_inset Formula $G$
+\end_inset
+
+、
+\begin_inset Formula $H$
+\end_inset
+
+根据线性空间和模的张量积的直线平移法则，可建立一个形式积
+\begin_inset Formula $G\cdot H$
+\end_inset
+
+，它由形式积
+\begin_inset Formula $a\cdot b$
+\end_inset
+
+所组成，其中
+\begin_inset Formula $a\in G$
+\end_inset
+
+，
+\begin_inset Formula $b\in G$
+\end_inset
+
+，且规定：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(\alpha a)\cdot b=a\cdot(\alpha b),a\in R^{+}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+由此可知，对单位
+\begin_inset Formula $e\in G$
+\end_inset
+
+，
+\begin_inset Formula $f\in H$
+\end_inset
+
+，
+\begin_inset Formula $(\alpha e)\cdot(\beta f)$
+\end_inset
+
+只依赖于
+\begin_inset Formula $\alpha\beta$
+\end_inset
+
+。如果
+\begin_inset Formula $a=\alpha e$
+\end_inset
+
+，
+\begin_inset Formula $b=\beta f$
+\end_inset
+
+，那么，可将
+\begin_inset Formula $\alpha\beta$
+\end_inset
+
+视为关于单位
+\begin_inset Formula $e\cdot f$
+\end_inset
+
+的度量。而
+\begin_inset Formula $G\cdot H$
+\end_inset
+
+的元的加法和比较，可利用它们的度量单位接着定义（还存在着更抽象的、不用到单位和度量的定义方式）。
+\end_layout
+
+\begin_layout Standard
+例如，功=力·距离，矩形面积＝长·宽。在此，
+\begin_inset Formula $\mbox{kg}\alpha\cdot\mbox{m}\beta=\mbox{kg}\cdot\mbox{m}\alpha\beta$
+\end_inset
+
+是有意义的，
+\begin_inset Formula $\mbox{kg}\cdot\mbox{m}$
+\end_inset
+
+由函数
+\begin_inset Formula $\mbox{kg}$
+\end_inset
+
+和
+\begin_inset Formula $\mbox{m}$
+\end_inset
+
+所组成，将数映到功上。
+\begin_inset Formula $\mbox{cm}\alpha\cdot\mbox{cm}\beta=\mbox{cm}^{2}\alpha\beta$
+\end_inset
+
+，这里
+\begin_inset Formula $\mbox{cm}^{2}$
+\end_inset
+
+将数映到而积上（注意：
+\begin_inset Formula $\mbox{kg}\cdot\mbox{m}$
+\end_inset
+
+不是函数
+\begin_inset Formula $\mbox{m}$
+\end_inset
+
+和
+\begin_inset Formula $\mbox{kg}$
+\end_inset
+
+的复合函数，
+\begin_inset Formula $\mbox{cm}^{2}$
+\end_inset
+
+也不是函数
+\begin_inset Formula $\mbox{cm}$
+\end_inset
+
+的幂）。
+\end_layout
+
+\begin_layout Standard
+从量的逆来解决量的除法是否有意义呢？路程除以时间或者面积除以长度是有意义的。但是，时间和长度的倒数是否都有意义呢？有！长度的倒数在光学中称为屈光度（屈光度为
+\begin_inset Formula $\mbox{m}^{-1}$
+\end_inset
+
+）。而时间的倒数在声学中称为频率（例如音乐会的音高标准为
+\begin_inset Formula $425/秒$
+\end_inset
+
+），或无线电波的千赫。上述每个量至少存在着一种有意义的算术运算（例如，屈光度定律：物体和像的距离的倒数和等于焦距的倒数）。
+\end_layout
+
+\begin_layout Standard
+量的倒数是有运算意义的，例如，频率具有频率·时间=振荡次数。又如，单价=价格/重量，比重=重量/体积，速度=路程/时间。计算这些量可理解为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{rcl}
+\mbox{\$}\alpha\cdot(\mbox{kg}\beta)^{-1} & = & \mbox{\$}\cdot\mbox{kg}^{-1}\alpha\beta^{-1}\text{，}\\
+\mbox{g}\alpha\cdot(cm^{3}\beta)^{-1} & = & \mbox{g}\cdot\mbox{cm}^{-3}\alpha\beta^{-1}\text{，}\\
+\mbox{m}\alpha\cdot(\mbox{sec}\beta)^{-1} & = & \mbox{m}\cdot\mbox{sec}^{-1}\alpha\beta^{-1}\text{。}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+（
+\begin_inset Formula $\mbox{sec}^{-1}$
+\end_inset
+
+与将数映成时间的函数的逆不同，
+\begin_inset Formula $\mbox{sec}^{-1}$
+\end_inset
+
+表示将数映射成时间的倒数。）
+\end_layout
+
+\begin_layout Standard
+除量的乘除之外，还可取量的对数而得到用于描述声音强度水平的度量，称为分贝。
+\end_layout
+
+\begin_layout Section
+数轴
+\end_layout
+
+\begin_layout Standard
+在各种不同水平的教学中，量的模型是十分重要的。根据公理，所有的量都同构，因此知道了一个量也就知道了全体。为了了解各种量及其相互关系，只需用一种模型去研究量的概念
+就足够了。
+\end_layout
+
+\begin_layout Standard
+在所有量中，最数学化的是长度。事实上，它是几何的一个基本概念，比时间更具体。所以，最常见的量的模型是长度，它在无限的尺
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+数轴上实现了高度的具体化。另外在数轴上还讨以确定一维向量。
+\end_layout
+
+\begin_layout Standard
+“数轴”作为数的模型，给人的印象通常是水平的或垂直的。有时两者也可联合使用，以便借此设计图象。它们可以是不同量的模型，例如，一种设备的数量与价格，其图象就是一个
+形象化的价格表，根据比例法则，从表格可得到一个线性函数。此外，我们也可近似地利用数轴对算术四则运算加以形象的解释，数的加、减能解释为数轴的移动和反射；其乘、除能
+解释为数轴上单位的放大和缩小，计算规则显得清晰直观。在现代算术教学法中，数轴是借用于现代数学的最有价值的工具。
+\end_layout
+
+\begin_layout Standard
+数轴像一把尺，它的点可以固定不变地被看作是实数，这在教学上有很大优点。算术教学一开始就应该使用数轴。最初，数轴上只标自然数，然后，由减法得出负整数，由等分和缩小
+得出分数，由测量得出十进小数，先是有限小数，然后是无限小数，于是便逐渐填满整个数轴（这里不是用数和点来填，而是用占有数值的点来填）。但这不是引进数的过程，也不是
+真正的数域的扩展，只是“研究领域”的不断发展。实数的直观形象要比它本身出现得晚，运算也是如此，我们可将加法看作为移动，将乘法看作为扩大。当然，上述方法仍需要进行
+讨论，这不仅涉及到数的概念，也涉及到所有数学概念的教学。在这样的讨论中，最适当的出发点还是数的概念。
+\end_layout
+
+\begin_layout Section
+描述还是创造概念
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+分析还是综合
+\end_layout
+
+\begin_layout Standard
+数轴显示了数的存在性及其内部结构，更确切地说，它能使学生得到在给定的范围里进行计算或运算训练的感受。为了确保存在性，人们还要对所给范围加以更周密的分析和描述。起
+初是表示整数的位置，说明加法及大、小；除法产生分数，最后说明每一实数介于有理数之间。一些描述可能并不完美，到了大学，漏洞就可逐步加以弥补了。从数学和教学法角度讲
+，现在的方法是完全合理、合适的。那么，证明实数域的存在性究竟为了什么呢？实数是从有理数这个有序域用戴德金（Dedekind）分割或有理数的柯西（Cauchy）序
+列来引出的。要找到这些工具，我们就须从集合论中挖掘出子集或子列，挖掘出等价类，挖掘出集合或等价类的代数运算，挖掘出原先的域到新构造的域的同构嵌入。最后还要挖掘出
+最困难的东西：新的域确实具有所要求的拓扑性质，例如，其每一个柯西序列都收敛。这是一个重要的过程，其重要性主要在于它对类似的过程是一个范例，能以完全相同的方式构造
+出度量空间、拓扑群、环、域，从而创造了许多新的结构，这就是该过程的来龙去脉。
+\end_layout
+
+\begin_layout Standard
+同样，从整数出发采用数对导出有理数，这又是一种重要方法。其重要性主要在于能同样应用于任何无零因子的交换环对其商域的嵌入，这就是该方法将得以推广的来龙去脉。
+\end_layout
+
+\begin_layout Standard
+证明存在性，需要我们作化归。对于整数问题就要回到自然数。对自然数呢？就要追溯到集合论和作为等势集的类。事实很清楚，证明一个存在性总要用到另一个存在性作为前提。然
+而，即使有可能拿不出东西去作为最前面的基础，这样做也比一个初学者的理解强。这对中学来说是同样的。我们应当从某个基础开始去作分析和描述，要揭示某个对象作为人类思维
+的自由创造物，必须让初学者多少理解一点为什么应该这样做，否则是没有多大意义的。如果两个存在性的互相化归不是孤立的行为，而是能对新实体的真正的创造起示范作用的话，
+那么它在教学上就更能说服人了。
+\end_layout
+
+\begin_layout Section
+实数
+\end_layout
+
+\begin_layout Standard
+数轴上的实数同有理数一样早就存在。不管实数是否被定义，单位正方形的对角线总有长度。在毕达哥拉斯（Pythagoras）定理形成以前，这个长度就是
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+，它是客观存在的，但不能写成
+\begin_inset Formula $\cfrac{q}{p}$
+\end_inset
+
+（这里都是整数）的形式。如果用十进小数表示
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+则：要使用无数个符号。例如，
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+可写成
+\begin_inset Formula $0.333\cdots$
+\end_inset
+
+，当然
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+和
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+不同，
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+是有理数，而
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+是无理数。人们可根据自己的需要，将
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的测量或计算结果表示到任何一位小数。但这个过裎不必告诉学生，现在不必再学古典的平方根算法了。
+\end_layout
+
+\begin_layout Standard
+希腊人有两种计算这种无理数的好方法，其中之一现称为欧几里得算法（或连分数展开法）：设
+\begin_inset Formula $a_{0}=\sqrt{2}$
+\end_inset
+
+，
+\begin_inset Formula $a_{1}=1$
+\end_inset
+
+，可得
+\begin_inset Formula $q_{1}=1,a_{2}=\sqrt{2}-1,q_{2}=2,a_{3}=(\sqrt{2}-1)^{2},q_{3}=2,\cdots$
+\end_inset
+
+舍去某个余数
+\begin_inset Formula $a_{n}$
+\end_inset
+
+，再倒算，即得
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的逐次逼近值：
+\begin_inset Formula $\cfrac{3}{2},\cfrac{7}{5},\cfrac{17}{12},\cfrac{41}{29},\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+还有一种更有效的方法，它早被古巴比仑时期的数学家们所掌握了。计算
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+就是去找一个面积为
+\begin_inset Formula $2$
+\end_inset
+
+的正方形。为逼近其边长
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+，可先找一个面积为
+\begin_inset Formula $2$
+\end_inset
+
+的矩形，然后使其长、宽之差越来越小。开始时，设矩形的一边为
+\begin_inset Formula $a_{1}=1$
+\end_inset
+
+，则另一边
+\begin_inset Formula $b_{1}=2$
+\end_inset
+
+，取两者的算术平均值作为新边，得
+\begin_inset Formula $a_{2}=\cfrac{1}{2}(a_{1}+b_{1})=\cfrac{3}{2},b_{2}=\cfrac{2}{a_{2}}=\cfrac{4}{3}$
+\end_inset
+
+重复此过程，得
+\begin_inset Formula $a_{3}=\cfrac{1}{2}(a_{2}+b_{2})=\cfrac{17}{12},b_{3}=\cfrac{2}{a_{3}}=\cfrac{24}{17}$
+\end_inset
+
+，两边之差为
+\begin_inset Formula $\cfrac{1}{204}$
+\end_inset
+
+；
+\begin_inset Formula $a_{4}=\cfrac{1}{2}(a_{3}+b_{3})=\cfrac{577}{408},b_{4}=\cfrac{2}{a_{4}}=\cfrac{816}{17}$
+\end_inset
+
+，两边之差为
+\begin_inset Formula $\cfrac{1}{235416}$
+\end_inset
+
+；……容易证得矩形的两边之差趋于
+\begin_inset Formula $0$
+\end_inset
+
+，且边长趋于
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+任一实数可用无限小数表示。但需注意，其表示法是不唯一的，例如，
+\begin_inset Formula $2.3000\cdots\cdots$
+\end_inset
+
+等于
+\begin_inset Formula $2.2999\cdots\cdots$
+\end_inset
+
+如果规定由
+\begin_inset Formula $9$
+\end_inset
+
+组成的一个无限的尾数可用
+\begin_inset Formula $0$
+\end_inset
+
+来代替，且在不同于
+\begin_inset Formula $9$
+\end_inset
+
+的最后一个数字上加一个单位，那么，在此限制条件下，任何实数均可由无限十进小数给定，这些无限十进小数可以按自然的过程进行运算。根据以上所述，可以证明这个系统满足拓
+扑条件，即有界集具有最小上界（设
+\begin_inset Formula $A$
+\end_inset
+
+是
+\begin_inset Formula $0$
+\end_inset
+
+、
+\begin_inset Formula $1$
+\end_inset
+
+之间的数的集合，子集
+\begin_inset Formula $A_{1}$
+\end_inset
+
+由
+\begin_inset Formula $A$
+\end_inset
+
+中第一位小数最大的数组成，在
+\begin_inset Formula $A_{1}$
+\end_inset
+
+中取第二位小数最大的数组成子集继续下去，所有
+\begin_inset Formula $A_{n}$
+\end_inset
+
+的交由一个实数组成，它是
+\begin_inset Formula $A$
+\end_inset
+
+的最小上界）。这说明定义了关系，运算的十进小数集合实质上是实数域。
+\end_layout
+
+\begin_layout Standard
+在中学数学中，可以利用十进小数的例子来证明实数域的存在性（当然这不是对12岁学生的教学内容），还可便学生了解运算的大致定义和有关算术法则（域的公理）的不太严格的
+证明，这一理论可和计算机应用一起引入，当然，这并不是说就应当这样去做。
+\end_layout
+
+\begin_layout Standard
+还有一个问题：如果实数用十进小数来表示很方便，那么为什么还要创造复杂的柯西序列、戴德金分割和区间套呢？无限十进小数是特殊的柯西序列：接连地将十进小数
+\begin_inset Formula $a$
+\end_inset
+
+停止在第
+\begin_inset Formula $p$
+\end_inset
+
+位上，可得数列
+\begin_inset Formula $\{a_{p}\}$
+\end_inset
+
+，它满足：对于任给的
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+，只要
+\begin_inset Formula $10^{-N(\varepsilon)}<\varepsilon$
+\end_inset
+
+，当
+\begin_inset Formula $m,n>N(\varepsilon)$
+\end_inset
+
+时，总有
+\begin_inset Formula $|a_{m}-a_{n}|<\varepsilon$
+\end_inset
+
+，这样的序列显然收敛于
+\begin_inset Formula $a$
+\end_inset
+
+。实数域中这些特殊的柯西序列的收敛意味着所有柯西序列的收敛，因此，只要用特殊的柯西序列就可定义实数了。但是，数学家们并不满足于这种简单的方法。因为，用一般的柯西
+序列或戴德金分割定义实数能显示出理论上的精确。
+\end_layout
+
+\begin_layout Standard
+如果要在中学数学中用柯西序列或戴德金分割来定义实数，我倒不一定反对，但看来这是行不通的。两次大战之间，荷兰就有人将戴德金分割写进了教科书，但教师弃之不用。现在也
+还有这样的教科书。另外，有一些教学法专家认为不能将实数的严密定义引入中学。因此，他们还反对在中学教分析。于是，“严密”就是戴德金分割、柯西序列，等等，这是对严密
+的曲解。
+\end_layout
+
+\begin_layout Standard
+我们知道：一个学生完全能懂得实数是数轴上的一个点，或是一个无限十进小数。他能进行运算，就要比只知道实数定义的人更懂得数学的严密。在数学中也很少再有比无限十进小数
+更适宜进行运算的对象了，因而，把实数解释为十进小数是足够严密的。如果需要在教学中引进实数概念，那么把它理解并解释为十进或二进小数是最适当的。对于这个观点，我已宣
+传了二十多年。教师也许常按此方式进行，但理论家及教科书作者似乎很讨厌它，这就使实数理论因深深的偏见而成为教条。
+\end_layout
+
+\begin_layout Section
+计算的数
+\end_layout
+
+\begin_layout Standard
+人类很早就用位值制来计数和计算了。实际上，它的本质就是算盘。例如，要表示
+\begin_inset Formula $762$
+\end_inset
+
+，可分别在代表个位、十位、百位的列上放2、6、7个算珠或画出相当数量的符号。当印度-阿拉伯数发明后，数的位值表示就由书写形式给出，即利用数字0，1，…，9。其中
+零的引入是重要的一步，它表示明确的舍弃或作为占位符号，在算盘上可解释为空档。
+\end_layout
+
+\begin_layout Standard
+笔算与机器算术（指非自动计算机）的算法相互之间有很大差别。笔算中，乘法被归纳为乘法表，而机器中，乘以一位数字
+\begin_inset Formula $k$
+\end_inset
+
+是按
+\begin_inset Formula $k$
+\end_inset
+
+个相等的加数相加进行的。显然，在一个小机器的存贮器中不能插入太多的表，而对人脑来说，记忆它们没有多大困难。机器能同时在各处相加，但对绝大多数人来说却不行。机器进
+行除法是重复地做减法，而笔算除法，却复杂得多。计算机以二进制为基础，可能利用了极简单的加法、乘法表，而让人使用二进制计算就不一定有利。
+\end_layout
+
+\begin_layout Standard
+在某些国家的教学计划中，过去经常有位值制理论的内容。而在另一些国家中，这些内容却被视为无效的练习而长期屏弃。不可思议的是，一些国家经过各种改革试验后，反而保留了
+这些内容。我认为今天存在着一个场合，可以显示位值制理论的意义。我们可在小学还未教位值算术时，便教如何使用非自动计算机，因为机械计算理论的第一步和位值制理论的第一
+步是等价的。
+\end_layout
+
+\begin_layout Section
+代数原理
+\end_layout
+
+\begin_layout Standard
+我们以前通过等分和测量引入分数，目的在于体现分数的直观形象。在教分数时，人们惯于尽可能快地转入算法，然后归结出约分、扩分，以及运算的法则，并加以应用。这样的教学
+法肯定是站不住脚的。事实上，测量产生的是小数而不是分数。分数的出现是为了使除法可以进行下去。即为了解除除法的限制，而引入分数，则
+\begin_inset Formula $\cfrac{7}{3}$
+\end_inset
+
+可作为除法问题“
+\begin_inset Formula $7:3$
+\end_inset
+
+是多少？”的解而出现。一旦接受了
+\begin_inset Formula $\cfrac{7}{3}$
+\end_inset
+
+，那么在计算中便可将其作为这一除法的结见来加以处理。数学上对如下的表示更为满意：
+\begin_inset Formula $\cfrac{7}{3}$
+\end_inset
+
+可理解为
+\begin_inset Formula $3x=7$
+\end_inset
+
+的解，而
+\begin_inset Formula $x$
+\end_inset
+
+表示满足该方程的一个值。此式将分数由算术带入了代数，显然它是建立在代数基本原理基础上的。在代数中，常常有数域或运算扩充问题。例如，从自然数出发，将
+\begin_inset Formula $-3$
+\end_inset
+
+作为满足
+\begin_inset Formula $（-3）+3=0$
+\end_inset
+
+的数来引入；
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+作为满足
+\begin_inset Formula $(\sqrt{2})^{2}=2$
+\end_inset
+
+的正数来引入；更一般地，将
+\begin_inset Formula $a^{\frac{p}{q}}$
+\end_inset
+
+作为满足
+\begin_inset Formula $(a^{\frac{p}{q}})^{q}=a^{p}$
+\end_inset
+
+的数来引入；
+\begin_inset Formula $i$
+\end_inset
+
+作为满足
+\begin_inset Formula $i^{2}=-1$
+\end_inset
+
+的数来引入。将
+\begin_inset Formula $3x=7$
+\end_inset
+
+两边乘以
+\begin_inset Formula $5$
+\end_inset
+
+，得
+\begin_inset Formula $15x=35$
+\end_inset
+
+，它表明
+\begin_inset Formula $\cfrac{35}{15}$
+\end_inset
+
+与
+\begin_inset Formula $\cfrac{7}{3}$
+\end_inset
+
+是相等的，这就是通常的约分和扩分。两个有理数
+\begin_inset Formula $\cfrac{7}{3}$
+\end_inset
+
+和
+\begin_inset Formula $\cfrac{3}{5}$
+\end_inset
+
+相加，若设其中的一个数为
+\begin_inset Formula $x$
+\end_inset
+
+，而另一个为
+\begin_inset Formula $y$
+\end_inset
+
+，则由方程
+\begin_inset Formula $3x=7$
+\end_inset
+
+，
+\begin_inset Formula $5y=3$
+\end_inset
+
+可导出关于
+\begin_inset Formula $x+y$
+\end_inset
+
+的方程，这只需在上述两方程的两边各乘以
+\begin_inset Formula $5$
+\end_inset
+
+、
+\begin_inset Formula $3$
+\end_inset
+
+，于是得
+\begin_inset Formula $15x=35$
+\end_inset
+
+，
+\begin_inset Formula $15y=9$
+\end_inset
+
+，两式相加可推得
+\begin_inset Formula $15(x+y)=44$
+\end_inset
+
+。在形式上，它与通常的分数加法没有区别，但它又被放到了一个有数学意义的场合中，引出了一个清晰的模式，同时又体现了具有以方程为背景的有意义的过程。也许，有人会感到
+分数的直观性丧失了。但事实上，这种直观性是否存在也值得怀疑。现在的计算是根据一般的模式来进行的，如果没有相当的代数实践经验，人们是不可能真正理解它的。反对这一方
+法的人认为，方程
+\begin_inset Formula $3x=7$
+\end_inset
+
+是否存在解还不知道，故这一方法所用到的代数运算及定律都是凭感觉假设的。但必须指出传统的分数算术也未导出这一存在性。如果以存在性为目标，那么同样能以不同的形式来加
+以表示，实质上它就是取等价数对的方法。只要
+\begin_inset Formula $ab'=a'b$
+\end_inset
+
+，便可定义
+\begin_inset Formula $(a,b)$
+\end_inset
+
+和
+\begin_inset Formula $(a',b')$
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $(b,b'\neq0)$
+\end_inset
+
+是等价的。这一定义可由下列事实得出：根据通常的算术法则，由方程
+\begin_inset Formula $bx=a$
+\end_inset
+
+和
+\begin_inset Formula $b'y=a'$
+\end_inset
+
+，再得到
+\begin_inset Formula $a'bx=a'a$
+\end_inset
+
+和
+\begin_inset Formula $ab'y=aa'$
+\end_inset
+
+，可导出相同的解。同样，数对的加法可以应用通常的运算律，通过求
+\begin_inset Formula $bx=a,dy=c$
+\end_inset
+
+的解的加法而得到，其他运算也可类似地得到。最后，由数对的等价类得到有理数，而有理数的运算可由数对的运算转换过来。
+\end_layout
+
+\begin_layout Standard
+形成抽象的类的教学理论是否有价值是很成问题的。与其介绍等价类，还不如规定当
+\begin_inset Formula $ab'=a'b$
+\end_inset
+
+时，则有
+\begin_inset Formula $\cfrac{a}{b}=\cfrac{a'}{b'}$
+\end_inset
+
+来得自然。大胆一点地说；这就是指：当
+\begin_inset Formula $ab'=a'b$
+\end_inset
+
+时，
+\begin_inset Formula $ax=b,a'y=b'$
+\end_inset
+
+有相同的解。
+\end_layout
+
+\begin_layout Standard
+假如根据笛卡儿（Descartes）模式，将数对映入平面，那么定义有理数（如
+\begin_inset Formula $\cfrac{7}{3}$
+\end_inset
+
+）的等价类会更加直观。在这个映像中，一个数对的等价类就是经过原点的一条直线，经过原点的所有直线（除铅垂线外）只要通过另外一个整数坐标的点在这种表示中就起作用，甚
+至可用这些直线来定义有理数，它是引进有理数的一项独特的建议，但至今为止，还未看到过有关这种概念的系统论述。同样，也可用此法引入实数，只要将经过原点的所有直线都作
+为像（除铅垂线外）便可。
+\end_layout
+
+\begin_layout Standard
+有理数是否要用数对的等价类来定义，并不取决于其过程是否简单直观，或是否能使人信服，而是要看这种方法能否成为一个范例。那么，在哪种情况下采用等价类定义可以成为范例
+呢？唯一的情况是从一般的整环扩展到一个域，即从一个无零因子的交换环扩展到它的商域。对它的证明也要用到元素对的等价类。这种抽象代数的内容是否能在中学里教呢？商域的
+构造对于刚引入有理数时的那种水平来说是不适合的，但可以在中学的最后阶段里教，而且，在采用这种形式化方法之前，应该先用形式化程度稍低一点的方法作一过渡。
+\end_layout
+
+\begin_layout Standard
+例如，我们可用运算
+\begin_inset Formula $\cfrac{a}{b}\cdot b=a$
+\end_inset
+
+来引入有理数
+\begin_inset Formula $\cfrac{a}{b}$
+\end_inset
+
+。对负数也可这样做：定义
+\begin_inset Formula $-3$
+\end_inset
+
+是能满足
+\begin_inset Formula $(-3)+3=0$
+\end_inset
+
+的数，与定义有理数运算的方法相同，可以导出负数的运算。例如，由
+\begin_inset Formula $(-3)+3=0$
+\end_inset
+
+，
+\begin_inset Formula $(-4)+4=0$
+\end_inset
+
+，两式相加得
+\begin_inset Formula $[(-3)+(-4)]+(3+4)=0$
+\end_inset
+
+，于是
+\begin_inset Formula $(-3)+(-4)=-(3+4)$
+\end_inset
+
+。在第一个等式的两边同时乘以
+\begin_inset Formula $4$
+\end_inset
+
+，在第二个等式的两边同时乘以
+\begin_inset Formula $-3$
+\end_inset
+
+，得
+\begin_inset Formula $4\cdot(-3)+4\cdot3=0$
+\end_inset
+
+和
+\begin_inset Formula $(-4)\cdot(-3)+4\times(-3)=0$
+\end_inset
+
+，于是得
+\begin_inset Formula $(-4)\cdot(-3)=4\cdot3$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+再如，根据
+\begin_inset Formula $\sqrt{a}$
+\end_inset
+
+（
+\begin_inset Formula $a$
+\end_inset
+
+为正有理数）具有性质：其平方为
+\begin_inset Formula $a$
+\end_inset
+
+的数，从
+\begin_inset Formula $x^{2}=a$
+\end_inset
+
+，
+\begin_inset Formula $y^{2}=b$
+\end_inset
+
+出发，用乘法及传统的算术定律可推出
+\begin_inset Formula $(xy)^{2}=ab$
+\end_inset
+
+，于是得
+\begin_inset Formula $\sqrt{a}\cdot\sqrt{b}=\sqrt{ab}$
+\end_inset
+
+。这是代数的，即形式的讨论。对于
+\begin_inset Formula $\sqrt{a}$
+\end_inset
+
+是否存在，唯一，独立，则是另外的问题。事实上，我们早已表明该如何处理它了。
+\end_layout
+
+\begin_layout Standard
+同样，运算也可扩充。对
+\begin_inset Formula $a^{n}(a>0)$
+\end_inset
+
+来说，原来规定
+\begin_inset Formula $n$
+\end_inset
+
+是自然数，现在要把
+\begin_inset Formula $n$
+\end_inset
+
+扩展到有理数，仍要求通常的幂的算术运算法则成立，即要求
+\begin_inset Formula $(a^{\frac{1}{n}})^{n}=a^{(\frac{1}{n})\cdot n}=a^{1}=a$
+\end_inset
+
+成立。它定义了
+\begin_inset Formula $a^{\frac{1}{n}}$
+\end_inset
+
+为这样的数，它的
+\begin_inset Formula $n$
+\end_inset
+
+次幂应是
+\begin_inset Formula $a$
+\end_inset
+
+，所以
+\begin_inset Formula $a^{\frac{1}{n}}$
+\end_inset
+
+必须是
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $n$
+\end_inset
+
+次方根，其中可能相差一个符号。唯一需要补充的是，应规定当
+\begin_inset Formula $n$
+\end_inset
+
+为偶数时，
+\begin_inset Formula $a^{\frac{1}{n}}$
+\end_inset
+
+是正的。同样对
+\begin_inset Formula $a^{-n}$
+\end_inset
+
+有：
+\begin_inset Formula $a^{-n}\cdot a^{n}=a^{0}=1$
+\end_inset
+
+，由此可定义
+\begin_inset Formula $a^{-n}=\cfrac{1}{a^{n}}$
+\end_inset
+
+。最后对有理数
+\begin_inset Formula $r=\cfrac{m}{n}(m\in Z,n\in N)$
+\end_inset
+
+，可定义
+\begin_inset Formula $a^{r}=a^{\frac{m}{n}}=(a^{\frac{1}{n}})^{m}$
+\end_inset
+
+，在此，必须检验这种定义是否不依赖于
+\begin_inset Formula $r$
+\end_inset
+
+的特定表示：
+\begin_inset Formula $\cfrac{m}{n}$
+\end_inset
+
+，还必须证明通常的运算法则是可行的。
+\end_layout
+
+\begin_layout Standard
+引入复数时，遇到同样的问题，显然
+\begin_inset Formula $x^{2}=-1$
+\end_inset
+
+无实数解，因此
+\begin_inset Formula $i$
+\end_inset
+
+可作为具有性质
+\begin_inset Formula $i^{2}=-1$
+\end_inset
+
+的新数来给以引入。
+\end_layout
+
+\begin_layout Standard
+从代数一开始，就有一个熟悉的原理，我在本节的小标题中称之为代数原理。数的计算侧面首先应表示为算法的算术：每一个表示特定数的特定符号要按某些固定的法则运算，算法代
+数的符号可以有不同的起源，它们有所指却又不是很清哳地表示一个对象，但至少在一开始就能让人们知道如何作运算。例如
+\begin_inset Formula $\cfrac{7}{4}$
+\end_inset
+
+，就可由乘
+\begin_inset Formula $4$
+\end_inset
+
+得
+\begin_inset Formula $7$
+\end_inset
+
+这个法则完全确定，
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+就由这个数的平方为
+\begin_inset Formula $2$
+\end_inset
+
+这个法则来确定。在代数活动中，我们就不再去考虑数是分数、小数，还是等价类，只考虑数的计算侧面。每个人从自身的代数活动中知道，计算数是一个高度有效的侧面，它不仅支
+配着诸如扩展数的概念及其运算等基本活动，而且一般说来，还支配着方程的建立及求解。设未知量为
+\begin_inset Formula $x$
+\end_inset
+
+，先确定
+\begin_inset Formula $x$
+\end_inset
+
+所满足的条件，再按运算法则作关于
+\begin_inset Formula $x$
+\end_inset
+
+的运算，使条件简化并转变为明确的条件。方程
+\begin_inset Formula $x+3=0$
+\end_inset
+
+，
+\begin_inset Formula $4x=7$
+\end_inset
+
+，
+\begin_inset Formula $x^{2}=2$
+\end_inset
+
+，
+\begin_inset Formula $x^{2}=-1$
+\end_inset
+
+虽然在给定的数集中不可解，但引入了
+\begin_inset Formula $-3$
+\end_inset
+
+，
+\begin_inset Formula $\cfrac{7}{4}$
+\end_inset
+
+，
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+和
+\begin_inset Formula $i$
+\end_inset
+
+这样的新数后就有解了。
+\end_layout
+
+\begin_layout Standard
+我们知道，在数域的扩展中，明确的算法起始于
+\begin_inset Formula $1$
+\end_inset
+
+到
+\begin_inset Formula $9$
+\end_inset
+
+，再明确地扩展到整个位值系统，甚至扩展到有限或无限十进小数。这一扩展是自然的，也是符合教学法的。起先只有自然数及其运算，然后负数作为某类方程的解而出现，并对其实
+施通常的运算，运用这些通常的做法可证明
+\begin_inset Formula $(-4)\cdot(-3)=12$
+\end_inset
+
+等问题。以后，有理数也作为某类方程的解出现，过去的运算在某些条件下得到了扩展，如
+\begin_inset Formula $\cfrac{7}{3}+\cfrac{3}{5}=\cfrac{44}{15}$
+\end_inset
+
+。根式、分数指数也类似，可证明
+\begin_inset Formula $\sqrt{a}\cdot\sqrt{b}=\sqrt{ab}$
+\end_inset
+
+，
+\begin_inset Formula $a^{\frac{1}{2}}=\sqrt{a}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+在这里，某些定律是在某些运算中才成立的，并且在扩展这些运算时，要求这些定律依然成立。“运算律的持续性”是自然的要求。事实上，对运算律持续性的讨论历来决定着这些扩
+展问题。例如，数集扩充到复数域就曾因有序性而受到牵制。
+\end_layout
+
+\begin_layout Section
+对代数原理的评论
+\end_layout
+
+\begin_layout Standard
+来自大学的评论结果是禁止在中学里讨论关于“算术运算律的持续性”的问题，因此，留给中学教师的最安全的事情是简单地规定：
+\begin_inset Formula $(-4)\cdot(-3)=12$
+\end_inset
+
+，
+\begin_inset Formula $\sqrt{a}\cdot\sqrt{b}=\sqrt{ab}$
+\end_inset
+
+，
+\begin_inset Formula $a^{\frac{1}{2}}=\sqrt{a}$
+\end_inset
+
+。这样，他们就屈从了通常的看法：代数是一项无意义的活动。迄今为止，尚有一些教科书规定了这些规则。教学法专家发现了一种方法，试图从严谨的数学家的严厉指责中去拯救这
+些规则。他们认为：上述这样的扩展过程纯粹是约定的。确实，我们似乎能合理地解释为什么要让
+\begin_inset Formula $(-4)\cdot(-3)=12$
+\end_inset
+
+，
+\begin_inset Formula $9^{\frac{1}{2}}=3$
+\end_inset
+
+，但不能证明它。因为它们是任意约定的，可以用另一个约定来代替。教师根据前面所讲的方法似乎合理地解释了
+\begin_inset Formula $(-4)\cdot(-3)=12$
+\end_inset
+
+，然后告诉学生：这不是证明，只是一种似乎合理的论证。因为在我们所谓的证明之中，已经对负数使用了分配律，对此我们从未证明过，连对正数也未证过。
+\end_layout
+
+\begin_layout Standard
+即使教师从不去教公理，他也必须知道什么是公理，并不得不用到有关的知识。这样，他就会以另一种方式来描述他所做的事情。他会说：我们要引入新数
+\begin_inset Formula $-2$
+\end_inset
+
+，
+\begin_inset Formula $-3$
+\end_inset
+
+，使之满足
+\begin_inset Formula $2+(-2)=0$
+\end_inset
+
+，
+\begin_inset Formula $3+(-3)=0$
+\end_inset
+
+，……而且交换律等等仍成立。如果能够满足这些要求的话，那么我们就可同样证明
+\begin_inset Formula $(-2)\cdot(-3)=6$
+\end_inset
+
+等，于是他便按上述的方法继续做下去了。
+\end_layout
+
+\begin_layout Standard
+教师说明
+\begin_inset Formula $(-2)\cdot(-3)=6$
+\end_inset
+
+的方法在数学上是极为重要的，它不是一种似乎合理的论证，而是表明了是否有可能将自然数的概念扩展到整数，并使运算律依然成立且结果在本质上是唯一的。
+\end_layout
+
+\begin_layout Standard
+在数的概念和运算的扩展中，扩展过程的第一步可在较低水平上教，而对扩展的存在性，就要求学生至少处于已懂得新元素的存在性的某种水平上。在低水平上，许多扩展问题可以形
+式化地进行，如果所需条件得到满足，扩展过程肯定可得到唯一的结果。一些教科书不去证明唯一性，而去证明存在性，这从教学法和数学上讲都是荒谬的。
+\end_layout
+
+\begin_layout Section
+形式的附加
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+是一个计算对象，为了确认这个对象的存在性，我们可将它看作数轴上的一个点。但是，如何处理它的最初始的定义呢？能否证明将
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+平方后，所得结果就是
+\begin_inset Formula $2$
+\end_inset
+
+？这个运算方法能否令人满意？为何经常称
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+为实数？对此无论怎么回答，都必须小心谨慎。
+\end_layout
+
+\begin_layout Standard
+若
+\begin_inset Formula $x$
+\end_inset
+
+满足
+\begin_inset Formula $0\cdot x=1$
+\end_inset
+
+，或
+\begin_inset Formula $x^{2}+1=0$
+\end_inset
+
+，或
+\begin_inset Formula $10^{x}=-1$
+\end_inset
+
+”，就会产生矛盾。按照通常的算术运算定律，第一个方程可化为
+\begin_inset Formula $0=1$
+\end_inset
+
+；根据通常有关序的定律，第二、三个方程的左边应为正，而右边则小于或等于
+\begin_inset Formula $0$
+\end_inset
+
+。如果放弃序的定律，则第二个方程有复数解，而对第三个方程，就应讨论如何以一种合理的方式将
+\begin_inset Formula $x$
+\end_inset
+
+由实数扩展到复数，使
+\begin_inset Formula $10^{x}$
+\end_inset
+
+能取负值。
+\end_layout
+
+\begin_layout Standard
+如果要对受到某种方程限制的
+\begin_inset Formula $x$
+\end_inset
+
+进行计算，虽然它可以服从某些算术定律，但其结果可能会与某些东西不相容。事实上，相容性的概念是相对的，在一个域中的不相容在另一个域中可转化为相容，方法之一便是使用
+更加代数化的形式附加方法。
+\end_layout
+
+\begin_layout Standard
+例如，对
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+进行运算是什么意思？我们从有理数
+\begin_inset Formula $Q$
+\end_inset
+
+开始，引入
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+，然后就得到表达式
+\begin_inset Formula $a+b\sqrt{2}(a,b\in Q)$
+\end_inset
+
+。这些表达式可按下列法则进行加、减、乘：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(a+b\sqrt{2})\pm(c+d\sqrt{2})=(a\pm c)+(b\pm d)\sqrt{2}$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(a+b\sqrt{2})\cdot(c+d\sqrt{2})=(ac+2bd)+(ad+bc)\sqrt{2}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+也可进行除：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}[t]{cl}
+\cfrac{1}{a+b\sqrt{2}} & =\cfrac{a-b\sqrt{2}}{(a+b\sqrt{2})(a-b\sqrt{2})}\\
+ & =\cfrac{a}{a^{2}-2b^{2}}+\cfrac{-b}{a^{2}-2b^{2}}\sqrt{2}\text{，}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+其结果还是同类型的数（注意分母不为
+\begin_inset Formula $0$
+\end_inset
+
+，因为
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+不是有理数）。由于通常的算术定律成立，于是它们组成了一个域
+\begin_inset Formula $Q(\sqrt{2})$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+在所有这些计算中，唯一需要知道的是
+\begin_inset Formula $(\sqrt{2})^{2}=2$
+\end_inset
+
+。至于
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+作为实数，介于哪两个有理数之间，那是无关紧要的。是否只有这种“介于”才能保证
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+和
+\begin_inset Formula $Q(\sqrt{2})$
+\end_inset
+
+的存在性呢？不，这里有很简单的方法。考虑元素取自
+\begin_inset Formula $Q$
+\end_inset
+
+的有序对
+\begin_inset Formula $(a,b)$
+\end_inset
+
+，并根据以下方法运算
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(a,b)+(c,d)=(a+c,b+d)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(a,b)\cdot(c,d)=(ac+2bd,ad+bc)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+容易证明这些有序对满足域的公理，故组成一个域。在此域中，
+\begin_inset Formula $a\in Q$
+\end_inset
+
+可表示成有序对
+\begin_inset Formula $(a,0)$
+\end_inset
+
+。由
+\begin_inset Formula $(0,1)\cdot(0,1)=(2,0)$
+\end_inset
+
+，可知
+\begin_inset Formula $(0,1)$
+\end_inset
+
+就是
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+这是抽象代数的内容，那些发誓只信仰一种体系的人会想把它同引进实数完全分离开来。实际上，只要出现根，并用代数方法进行运算，它就是抽象代数。人们可能会感到惊奇的是，
+早在八年级，甚至在布尔巴基（Bourbaki）出现以前，学生就已开始练习抽象代数了。其实早在古巴比仑时期，形式附加就已开始训练了。当然，对根的运算这类活动并不就
+变成抽象代数，除非你已经考虑到它。
+\end_layout
+
+\begin_layout Standard
+前面对
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的讨论用到了数对这个工具，这是否可成为中学数学的一个课题呢？我相信是可以的。当然，不是在刚引入
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+时，以后可让学生通过与数对有关的运算，用来解释先前的初级活动，学会用高观点来看已熟悉的无理性。奇怪的是，如此自然的想法从未在学校中实现过，教科书中也看不到有任何
+形式附加的内容。许多教科书虽然引入了域的概念，但这样做的目的却丝毫没有体现出来。事实上，形式附加为从较高的观点上看初等代数和说明整个抽象代数有何运用提供了一个引
+人注目的学习机会。
+\end_layout
+
+\begin_layout Standard
+在传统教学中，形式附加虽然有时也用作训练，但这是无意识的，只有在实数域过渡到复数域时，它才被正式认可。实际上，通过一些更复杂的例子，还可以更深刻地理解形式附加在
+数的计算侧面上的重要作用。
+\end_layout
+
+\end_body
+\end_document

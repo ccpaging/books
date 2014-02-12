@@ -1,0 +1,2159 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter*
+附录
+\end_layout
+
+\begin_layout Section
+皮亚杰及其学派关于数学概念发展的研究
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+编译者注：
+\end_layout
+
+\begin_layout Standard
+本附录是原书著者对皮亚杰（Piaget）一些工作的评论。我们为力求忠实于原意，对这部分内容不搞编译而照原文翻译，并特请周克希先生对译稿做了校订和修改，谨此志谢。
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+在前面一些章节中，我对皮亚杰工作提出的比较概括性的批评需要有更详细一些的论据。这里我想先要强调的是，他的工作中有着丰富的思想，虽不能说他是天才，但他是有独创性的
+，尽管有时难免聪明过度。
+\end_layout
+
+\begin_layout Standard
+有些教学法专家和教科书作者滥用皮亚杰的名字，来为自己的工作加上一道神圣的光圈。这不能归罪于皮亚杰。相反，数学家们从未对皮亚杰的工作作过响亮的批评，这才是一个不可
+饶恕的过错。本来皮亚杰是能够从他们的批评中得到教益的，也许他还会愿意听取批评的。无论如何这种批评只会使皮亚杰工作的真正重要性何在显得更加明朗。
+\end_layout
+
+\begin_layout Standard
+数学家们的批评不应限于皮亚杰工作中那些纯数学（或可说是伪数学）方面，数学家应能指出，在皮亚杰的问题中哪些是合适的，哪些是歪曲的，而且只要使用点滴常识，他们就能最
+好地揭露皮亚杰的实验和解释中的众多谬误。
+\end_layout
+
+\begin_layout Standard
+我这里的分析将限于皮亚杰及其同事的四本著作
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+N：J.
+\begin_inset space \space{}
+\end_inset
+
+Piaget
+\begin_inset space \space{}
+\end_inset
+
+&
+\begin_inset space \space{}
+\end_inset
+
+Alina
+\begin_inset space \space{}
+\end_inset
+
+Szeminska，La
+\begin_inset space \space{}
+\end_inset
+
+dunombreChezrenfant，Neuchâtel-Paris
+\begin_inset space \space{}
+\end_inset
+
+1941。
+\begin_inset Newline newline
+\end_inset
+
+G：J.
+\begin_inset space \space{}
+\end_inset
+
+Piaget，Bärbel
+\begin_inset space \space{}
+\end_inset
+
+Inhelder
+\begin_inset space \space{}
+\end_inset
+
+&
+\begin_inset space \space{}
+\end_inset
+
+Alina
+\begin_inset space \space{}
+\end_inset
+
+Szemingka，La
+\begin_inset space \space{}
+\end_inset
+
+géométric
+\begin_inset space \space{}
+\end_inset
+
+spontanée
+\begin_inset space \space{}
+\end_inset
+
+de
+\begin_inset space \space{}
+\end_inset
+
+I'enfant，Paris
+\begin_inset space \space{}
+\end_inset
+
+1948。
+\begin_inset Newline newline
+\end_inset
+
+E：J.
+\begin_inset space \space{}
+\end_inset
+
+Piaget
+\begin_inset space \space{}
+\end_inset
+
+&
+\begin_inset space \space{}
+\end_inset
+
+Bärbel
+\begin_inset space \space{}
+\end_inset
+
+Inhelder，La
+\begin_inset space \space{}
+\end_inset
+
+représantation
+\begin_inset space \space{}
+\end_inset
+
+de
+\begin_inset space \space{}
+\end_inset
+
+l'espace
+\begin_inset space \space{}
+\end_inset
+
+chez
+\begin_inset space \space{}
+\end_inset
+
+l'enfant，Paris
+\begin_inset space \space{}
+\end_inset
+
+1948。
+\begin_inset Newline newline
+\end_inset
+
+L：J.
+\begin_inset space \space{}
+\end_inset
+
+Piaget
+\begin_inset space \space{}
+\end_inset
+
+&
+\begin_inset space \space{}
+\end_inset
+
+Bärbel
+\begin_inset space \space{}
+\end_inset
+
+Inhelder，La
+\begin_inset space \space{}
+\end_inset
+
+génèse
+\begin_inset space \space{}
+\end_inset
+
+des
+\begin_inset space \space{}
+\end_inset
+
+structures
+\begin_inset space \space{}
+\end_inset
+
+logiques
+\begin_inset space \space{}
+\end_inset
+
+élementaires，Neuchâtel
+\begin_inset space \space{}
+\end_inset
+
+1959。
+\end_layout
+
+\end_inset
+
+。皮亚杰的工作还有大量的后继文献，其中有许多含有同样类型的错误，还有一些错误甚至是相当严重的，但我在这里不能涉及了。
+\end_layout
+
+\begin_layout Standard
+在读皮亚杰的著作时，数学家们会被许多细节弄糊涂的，尤其是他有借用数学术语的习惯，并以相去甚远的意思来应用。如果一个数学家谈到拓扑空间、射影空间、欧氏空间时，他所
+指的是一些有着完善定义的概念。“拓扑方法”、“射影方法”、“欧氏方法”等可能是含糊的术语，但是不会产生误解，而且如果需要的话，就可以给出精确一些的阐述。例如，通
+过群论的观点加以阐述。如果说，皮亚杰以更加含糊的方式使用这些术语，而且经常与数学上的本意相差很大，那么这是很难责怪他的。但是如果教学法专家和教科书编写者在谈到皮
+亚杰时而不指出皮亚杰所说的概念并不与相应的数学概念一致，那么他们就有分担制造混乱的责任了。皮亚杰对基数、序数、映射、变换群等等数学概念的误解，其后果是很坏的。因
+为所有这些误解都从各个方面对他的实验方法施加了决定性的影响。其中最糟糕的是一些由于无知而产生的大错，例如他竟然以为：一个圆柱体的直径折半而高度增大一倍时，其体积
+不变！
+\end_layout
+
+\begin_layout Section
+皮亚杰对于数学的见解
+\end_layout
+
+\begin_layout Standard
+正如前面已经说过的那样，我并不想讨论那些细节。我想说明的是皮亚杰对整个数学的见解。一般说来，在皮亚杰的任何一本著作中，随处都可以见到带有某些数学色彩的讨论，但E
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+以E为标记的那本书，后文中的四个正体大写字母N，G，E，L皆属此意。
+\end_layout
+
+\end_inset
+
+是其中最突出的一本，这不仅是由于它的规格要比其他著作高，而且也因为它在最后一章里集中讨论了许多数学内容。在读他的其他著作时，人们往往会跳过那些几乎没法读懂的有关
+数学的讨论内容，而在读到E的最后一章时，却无法回避这些集中的数学内容。我从这一章中摘选了一节内容，以便读者了解它的本来面目。我的译文可能不那么流畅，因为我不是一
+名专业翻译家
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+一旦当了专业翻译家，那就往往得翻译一些他本人根本不懂的东西了。下述段落摘自E的第566页到570页，其内容是皮亚杰所谓的构成欧氏空间的八种亚逻辑（infralo
+gical）运算。
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+i
+\begin_inset space \quad{}
+\end_inset
+
+元素的加法和减法
+\end_layout
+
+\begin_layout Standard
+我们取定一个（一维或多维的）物体，它相对于其他物体就占据了一个位置
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+译自法语emplacement。
+\end_layout
+
+\end_inset
+
+，因此它确定了一个图形。该图形可以解释为物体的形状或是它的位置，这就是说，它可以解释为一个“空间的图形”或是位置体系中的一个有界部分。这种位置无非就是下面的运算
+ii所要讨论的物体相互之间的某种联系
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+法语，rapports，我不将它译成“关系”，因为“关系”一词将用于更专业性的地方。
+\end_layout
+
+\end_inset
+
+；从心理学角度讲，运算i所要考虑的毕竟只是物体的形状而不是它的位置。因此，颠倒运算次序是不起作用的。将所考虑的物体的各个部分合并或分离，就构成了运算i的内容：
+\begin_inset Formula $A+A'=B$
+\end_inset
+
+，
+\begin_inset Formula $B+B'=C$
+\end_inset
+
+，等等，它保证了对于该物体本身的位置和形状而言的整体守恒。
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+ii
+\begin_inset space \quad{}
+\end_inset
+
+位置和位移
+\end_layout
+
+\begin_layout Standard
+现在，让我们考虑若干个离散的物体，并将它们按照任意一种排列方式，或是沿着一条直线顺序排列起来。这样就得到了
+\begin_inset Formula $A\rightarrow B\rightarrow C$
+\end_inset
+
+，等等。我们说，这些物体相互之间“排好了位置”。但是，在构成欧氏空间的运算体系中，逆运算并不仅仅指把序列逆向转换成
+\begin_inset Formula $C\rightarrow B\rightarrow A$
+\end_inset
+
+；所谓逆运算是指位置的改变，也就是位移，它可以颠倒整个序列，也可以只颠倒其中一个元素与另外一个或几个元素之间的位置，例如颠倒
+\begin_inset Formula $B\rightarrow C$
+\end_inset
+
+成为
+\begin_inset Formula $A\rightarrow C\rightarrow B$
+\end_inset
+
+。正如我们已经在别处详细说明过的那样，这种位移不仅引进了两种同类型相关运算之间的区分，而且也引进了元素顺序与位置顺序之间的区分。具体到底是哪一种情况，要视所考察
+的是这些运动所能改变的固定位置，还是可移动物体及其可能的位移而定。位移的概念在它被纳入通常称作为“位移群”
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+法语groupe
+\begin_inset space \space{}
+\end_inset
+
+des
+\begin_inset space \space{}
+\end_inset
+
+déplacements
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这样看来，第一类运算是分离和合并，第二类是空间图形或部分空间的位移，例如直线上两段的换位。但是，在groupe
+\begin_inset space \space{}
+\end_inset
+
+des
+\begin_inset space \space{}
+\end_inset
+
+déplacements中，déplacements并不是指一个图形的位移，而是指整个空间的运动。我不将它译成“运动群”是为了表明皮亚杰为何得出这种结论的。在皮
+亚杰的工作中，从未真正弄懂过变换群。位移不一定构成一个群，而皮亚杰考虑的那些位移甚至无法拓广到构成一个群。因此是与运动群毫不相干的。
+\end_layout
+
+\end_inset
+
+的六参数度量群的范畴之前，只能停留在这些定性（内包）概念的水平上。
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+iii
+\begin_inset space \quad{}
+\end_inset
+
+基点的互反性
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+我无法找到更适当的词来翻译“réciprocité”。根据法语数学词汇，这个词是错的。作者是指类似于等价性那样的意思。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+现在让我们假设两个相邻的图形（由物体的形状或是它们的位置构成），以
+\begin_inset Formula $A_{1}$
+\end_inset
+
+为基点出发，按照类型i相加。于是，譬如说就得到了
+\begin_inset Formula $A_{1}+A'_{1}=B_{1}$
+\end_inset
+
+和
+\begin_inset Formula $B_{1}+B'_{1}=C$
+\end_inset
+
+。而以
+\begin_inset Formula $A'$
+\end_inset
+
+或
+\begin_inset Formula $B'_{1}$
+\end_inset
+
+为基点出发，并称之为
+\begin_inset Formula $A_{2}$
+\end_inset
+
+，也能得到同样的和：
+\begin_inset Formula $C$
+\end_inset
+
+。因此，
+\begin_inset Formula $A_{2}+A'_{2}+B_{2}=C$
+\end_inset
+
+。这种运算iii连同高维的网格iv一起，建立了坐标系的互反性，其中
+\begin_inset Formula $A_{1}$
+\end_inset
+
+或
+\begin_inset Formula $A_{2}$
+\end_inset
+
+或
+\begin_inset Formula $A'_{2}$
+\end_inset
+
+看作为所讨论的每个坐标系的“原点”。
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+iv
+\begin_inset space \quad{}
+\end_inset
+
+区间和距离的嵌套
+\series default
+\size default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+这个小标题可能有错。应该用relations
+\begin_inset space \space{}
+\end_inset
+
+symuietrique（对称关系）替代emboîtements（嵌套）；emboîtements可能是指第551页上的一个类似的情况。这个词用在那里是有意义的
+。看来在作校对时这个错误给疏忽了。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+位于一条直线上的两个点之间的区间间隔就是距离。距离的守恒是由下列事实保证的：直线和直线上的点虽然可以借助某个运动的物体实现转移，但却都从属于固定的位置。
+\begin_inset Formula $X$
+\end_inset
+
+与
+\begin_inset Formula $Y$
+\end_inset
+
+之间由位移构成的关系是一种非对称关系
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+在古典哲学词汇里，“关系”是一种容许进行比较的性质；“大”和“小”是关系，两点间的距离也是关系。用这个词时，仍受到了这种影响，但其中也有更“现代”的含义，例如，
+可以说两个城市由一条铁路建立起关系，这个关系是非对称的，因为从X到Y与从Y到X是不一样的，但是它们的距离是相等的，这就是“距离的守恒”。
+\end_layout
+
+\end_inset
+
+。距离则构成了相应的对称的区间关系；它是对称的，因为从
+\begin_inset Formula $X$
+\end_inset
+
+到
+\begin_inset Formula $Y$
+\end_inset
+
+与从
+\begin_inset Formula $Y$
+\end_inset
+
+到
+\begin_inset Formula $X$
+\end_inset
+
+的距离是相同的，即
+\begin_inset Formula $X\leftrightarrow Y=Y\leftrightarrow X$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+v
+\begin_inset space \quad{}
+\end_inset
+
+元素的双重单值
+\series default
+\size default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+法语：bi-univoque。我没有将它译成“一对一”，否则我就不知道怎样翻译vii中的co-univoque了。
+\end_layout
+
+\end_inset
+
+
+\series bold
+\size large
+乘法
+\end_layout
+
+\begin_layout Standard
+元素的线性序
+\begin_inset Formula $A_{1}+A'_{1}=B_{1}$
+\end_inset
+
+，
+\begin_inset Formula $B_{1}+B_{1}=C$
+\end_inset
+
+等等，与另一序列
+\begin_inset Formula $A_{2}+A'_{2}+B_{2}$
+\end_inset
+
+等等相乘，构成面。两者与第三个序列相乘，产生了体积。
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+vi
+\begin_inset space \quad{}
+\end_inset
+
+位置和位移关系的双重单值乘法
+\end_layout
+
+\begin_layout Standard
+这些乘法就是上述的运算，不过现在它们是通过一些恰好构成一个坐标系的非对称关系（位置和位移的序）来表示的。这样的一个坐标系，实际上就是作为那些基点（亦即那些被认为
+固定不动的物体）的函数的一个有序位置的网格
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+这儿的翻译不可靠。由于语法上的不一致（单、复数结构），原文无法确切地译出。网格或者位置是否有序这一点都弄不清楚，尽管两者都难以理解。
+\end_layout
+
+\end_inset
+
+。在这个网格中，所有的位置都同时按二维或三维的方式进行排序。当其中的一个有序序列构成坐标系的一条轴时，另一有序序列就沿另一维构成了第二条轴，有序位置之间的这种区
+间间隔构成了运算iv下的不变距离。正如我们在第十二章到第十四章中所说明的那样，这种坐标系本来无需度量
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+这里作者所指的意思在后文多少就比较清楚了，但在第十三到第十四章中，甚至还没有提到过这些内容。在那几章里，向被试者所提的问题不用到度量也能解答，那甚至还是最简便的
+解法。可能作者是想说：在第十二到第十四章中我们并不研究这种坐标系是否已经被看作是一个度量体系。
+\end_layout
+
+\end_inset
+
+。要弄明白这一点，只要比我们在第三章中的做法更明显地分析运算vi的结构就可以了。我们将每点按二维方式从0出发进行排序，得到一个位置的集合，每个位置在下面表中以黑
+点表示，彼此间则用虚线连接，并设如
+\begin_inset Formula $a_{1}$
+\end_inset
+
+；
+\begin_inset Formula $a'_{1}$
+\end_inset
+
+和
+\begin_inset Formula $b'_{1}$
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+最好用逗号代替分号。
+\end_layout
+
+\end_inset
+
+或如
+\begin_inset Formula $a_{2}$
+\end_inset
+
+；
+\begin_inset Formula $a'_{2}$
+\end_inset
+
+和
+\begin_inset Formula $b'_{2}$
+\end_inset
+
+是联系它们的关系（即续线）。这些关系根据它们是用顺序来表示还是用距离来表示，可以分别地看作非对称或对称的，于是得到了右图。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "50text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/p411.png
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+可以看出，无论是位置关系还是距离关系，序列
+\begin_inset Formula $a_{1}+a'_{1}=b_{1}$
+\end_inset
+
+，
+\begin_inset Formula $b_{1}+b'_{1}=c_{1}$
+\end_inset
+
+等等与
+\begin_inset Formula $a_{2}+a'_{2}=b_{2}$
+\end_inset
+
+，
+\begin_inset Formula $b_{2}+b'_{2}=c_{2}$
+\end_inset
+
+等等，其中的每个序列仍然是内包的。因为在相继的
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $a'$
+\end_inset
+
+和
+\begin_inset Formula $b'$
+\end_inset
+
+之间既没有一个共同的单位，又没有一种确定的联系
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+法语rapport，见前注。
+\end_layout
+
+\end_inset
+
+，但通过（相对于每一维的）双重单值对应，我们可以看出这些区间
+\begin_inset Formula $a_{1}$
+\end_inset
+
+；
+\begin_inset Formula $a'_{1}$
+\end_inset
+
+和
+\begin_inset Formula $b'_{1}$
+\end_inset
+
+或
+\begin_inset Formula $a_{2}$
+\end_inset
+
+；
+\begin_inset Formula $a'_{2}$
+\end_inset
+
+和
+\begin_inset Formula $b'_{2}$
+\end_inset
+
+都是恒同的
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+黑点所在的平行性显然保证了这种定性的相等
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+“恒同（identical）”和“相等（equal）”作同义词用。如果说到一些区间彼此“恒同”那可并不是同义反复；作者是指图中的事先用同样符号标出的那些区间是相
+等的。另一方面，用不同符号标出的区间之间则没有一定的量的关系：“关系仍是内包的”。
+\end_layout
+
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+于是，这种位置关系的乘法表精确地说明了水平IIIB的儿童（第十三章至第十四章）是如何构造他们的参照系的。从距离的观点来看，由于缺少度量，这些被试者除了得出平行线
+之间的区间相等
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+（原注）垂直方向的联系并不是这一理论的必要环节。但它在二维情况下是由对应方向的极大对立原则给出的
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+现作者注：根据作者的意思，在这一水平上的儿童不可能对不同方向上的区间作比较，尽管他们能通过比较不同方向上的区间得出垂直的概念。
+\end_layout
+
+\end_inset
+
+的结论外，只能再得出
+\begin_inset Formula $a_{1}<b_{1}$
+\end_inset
+
+或
+\begin_inset Formula $a'_{1}<b_{1}$
+\end_inset
+
+（如果
+\begin_inset Formula $a_{1}+a'_{1}=b_{1}$
+\end_inset
+
+）的结论。但是容易看出，测度的引入（即建立
+\begin_inset Formula $a'$
+\end_inset
+
+或
+\begin_inset Formula $b$
+\end_inset
+
+在度量上与
+\begin_inset Formula $a$
+\end_inset
+
+的联系）就足以把这样一个网格变换成数学坐标系
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+正如注10中所纠正的那样，这儿的说法也是错误的。作者让被试者以坐标系为工具，将地形纳入一个矩形框架，以设计他们的地图；他们根本没有考虑到儿童是否能通过比较长度的
+办法进行下去。因为按照作者的说法，这种能力是属于“图式化”的较高水平。
+\end_layout
+
+\end_inset
+
+了。
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+vii
+\begin_inset space \quad{}
+\end_inset
+
+元素的多重单值乘法
+\end_layout
+
+\begin_layout Standard
+与适合于前面的两个体系的双重单值对应不同的是，多重单值对应乘法在二维情况下，形成了三角形的概念，而在三维的情a下则形成了四面体的概念
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+viii
+\begin_inset space \quad{}
+\end_inset
+
+关系的多重单值乘法
+\end_layout
+
+\begin_layout Standard
+这一组模式，是由两个渐进值
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+“递增（increasing）”和“渐进（progressive）”是指按透视法的观点，从观察者的方向看上去，距离是增大的。
+\end_layout
+
+\end_inset
+
+的非对称联系
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+法语rapports。
+\end_layout
+
+\end_inset
+
+生成的一个递增的对称区间，即如下图所示：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/p412.png
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+正如第十二章中所说明的那样，这个运算体系引出了一个如何在测度引入前对角进行定性估计的问题。
+\end_layout
+
+\begin_layout Standard
+这些就是我们在欧氏空间的亚逻辑构造中看到过的八组运算，显然，它们从形式上重现了第三章中用拓扑和射影概念描述的八个体系，虽然从每一个整体的体系化开始
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+我不懂这里的原文。
+\end_layout
+
+\end_inset
+
+，有一个新的意义，即当加上限定的说明时，它可使各种拓扑联系一体化了。“八”这个数意味着什么？它为什么不多不少正好是八？首先，这跟亚逻辑运算和逻辑运算之间的对应有
+关：合并，建立关系，以及按照相邻关系或空间位置的差异进行的乘法，或一般地讲，依据相似性和质的差异进行的乘法。虽然这些集合构造的意义从关系的观点来看可能迥然不同，
+但从分组的观点来看却是可以归结为同一回事的
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+这段译文很不可靠。
+\end_layout
+
+\end_inset
+
+。这就是我们为什么要重提前面在逻辑运算的范围里
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+（原注）参见《逻辑符号的”群组”和思想的可逆性》（1942）中的“类，关系与数”。
+\end_layout
+
+\end_inset
+
+描述过的八组形式的原因；从运算思想的功能一致性观点看，这种吻合是相当有趣的。在这一思维过程中，“八”这个数毋宁说是下述组合的一个任意的代表
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这些组合正是根据定性的内包联系所可能有的全部组合：把元素或类（i）以及关系（ii）的简单序列相加；按各种可能的方向把它们相加，从而得出类和元素体系（iii）的互
+反性，并构造对称关系（iv），以及将它们相乘，亦即以类或元素（V）或关系（vi）的双重单值对应为工具，或以类和元素（vii）或关系（viii）的多重单值对应为工
+具，把两个或多个可相加序列结合进二维或多维的网格中去。由于从非对称和对称的对立导致的双重单值对应和多重单值对应的本质区别，我们最终得到了如下的组合：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{clc}
+2\text{（元素或关系）} & \times2\text{（非对称或对称）}\\
+ & \times2\text{（加法或乘法）} & =8\text{。}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+以上就是皮亚杰的主要思想。我们不妨把这个体系弄得更清楚一些：
+\end_layout
+
+\begin_layout Standard
+（1）元素（集合）－关系，
+\end_layout
+
+\begin_layout Standard
+（2）非对称－对称，
+\end_layout
+
+\begin_layout Standard
+（3）加法－乘法。
+\end_layout
+
+\begin_layout Standard
+我们把0、1两个数字分别排列在从右边算起的第一、第二和第三位上来表示上述（1）、（2）、（3），于是就有：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="3">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="60text%">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（i）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+元素，非对称，加法：这是指区间的加法，但这种加法毕竟是可以
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+在对称的意义上
+\end_layout
+
+\end_inset
+
+加以解释的。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+001
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（ii）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+关系，非对称，加法：线性位移，虽然
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+从未
+\end_layout
+
+\end_inset
+
+提及关系的
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+加法
+\end_layout
+
+\end_inset
+
+，i与ii之间的区别不是“加法下的元素关系”之别，而是“位置-位移”之别。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+010
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（iii）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+元素，对称，加法：有不同原点的线性参照系的等价性，亦称互反性。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（iv）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+关系，对称，加法：距离概念。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（v）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+元素，非对称，乘法。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+101
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（vi）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+关系，非对称，乘法：都是坐标系的构造，不过v、vi之间并没有明显的差异，也就是说，既没有i和ii的位置与位移之间的那种差异，也没有000和001的元素和关系之间
+的那种差异。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+110
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（vi）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+元素，对称，乘法。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+111
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（vii）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+关系，对称，乘法。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+按照这个模式，偶对“非对称-对称”是通过偶对“双重单值对应-多重单值对应”（平行射影-中心射影）反映出来的。作者特别强调了这一点，因为其他任何人都可能会反其道而
+行之（如果他真来考虑这个问题的话）。而前文中的两个图形清楚地表明了作者的原意也是正好跟现在的相反的。
+\end_layout
+
+\begin_layout Standard
+作了这样的简短分析之后，上述摘录的本来面目已经非常清楚，无需再加任何评论了。不过，倘若我们问一句：这些思想是否对皮亚杰的工作有决定性的影响？这个问题还是颇为自然
+的。影响肯定是有的，但我怀疑是否有决定性的影响，至少我在E中就有这样的感受。E中的心理学实验集中在有关现象学领域（而不是现象的语言描述）确实能加以检验的陈述上。
+但即使在E中，仍然有不少借助于语言表述的痕迹，尤其是在第十四章里提到的，通过一种暗示性的实验设计，让被试者得以按照皮亚杰的关系间乘法的理论，亦即以笛卡儿（Des
+cartes）坐标系为工具，重新构造起一种景观。把这些过错看得很严重固然没有必要，但倘若有人为了证实某一种教学法理论，对我们大谈其皮亚杰如何以心理学为出发点，利
+用笛卡儿坐标证明了欧氏几何云云，那就确实是大错特错了。
+\end_layout
+
+\begin_layout Section
+语言在皮亚杰实验中的作用
+\end_layout
+
+\begin_layout Standard
+皮亚杰实验中的语言因素颇值得注意，即使是在儿童自己动手的实验中，实验的描述看起来也像是问答游戏。任何研究皮亚杰的人自然要问：被试者是否理解实验者所提的问题？或者
+问：儿童是否知道回答这些没有前因后果的问题到底是什么意思？在某些情况下，甚至实验者是否理解儿童的回答看上去也很令人怀疑。
+\end_layout
+
+\begin_layout Standard
+有好几次，皮亚杰及其同事想必已经注意到了被试者是否理解所提问题这一点。实际上，有几次他们已提出了如下问题（N，第12页）：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+事实上，人们有时可以问自己，他究竟是否弄懂了问题的含意：他是真的已经明白问题所指的是总量呢，还是仅仅以为问的就是杯子的个数有什么变化，或是杯子的高度或宽度有什么
+变化。然而，问题恰恰是要知道儿童能否把觉察到的种种联系
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\size normal
+法语rapports。
+\end_layout
+
+\end_inset
+
+协调起来，从而把数量看成一个整体的对象。因而，不仅对概念本身的误解，而且语言上的误解都可能造成把上述各种联系中的某一种孤立起来的后果，正如上文刚刚提到过的那些儿
+童的情况一样。
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\size normal
+法语原文中错误迭出。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+你也许会想，作者大概是要设法排除第二种可能性的，但是实际上并不是这么回事。能有机会说明被试者之所以没有弄懂问题，主要是由于对概念不理解，而不是语言上有什么误解，
+这就已经完全使他们感到满意了。他们继续往下分析时，已经俨然把这番解释看作无懈可击了。在另外几处，关于被试者是否理解实验者所提出的基本问题的讨论，在真正展开以前就
+被同样粗暴的方式终止了。在N的第55页至66页中，有一个奇怪的情况：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+但是我们不能提出反对，说什么这是由语言上的误解造成的：即使儿童承认当一堆瓶子和一堆杯子集拢在一起时，总数并没有改变，他也会回答：‘这样更多了’
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\size normal
+译文可疑。
+\end_layout
+
+\end_inset
+
+，他的意思只是说，集合的形状变化了，所占的空间增大了。而正是由于存在这种反对意见，以及很难消除由词引起的语言误解，我们才在这两章中添加了各种情况和例子。对新的事
+实调查研究越多，我们在这两种解释之间的选择也就越多
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\size normal
+原文难以理解。
+\end_layout
+
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+但如果观察本身有一贯的误差，那么即使对大量的观察数据取平均值，也还是会与正确的结论相差很远。事实上，在许多情况中，显然是问题未得到理解；有时甚至连儿童也是明确地
+这么说的。此外，由于一整套步骤的方向从一开始就是错误的，所以不妨说它们的难以理解是“先验的”。
+\end_layout
+
+\begin_layout Standard
+作者已经或者至少应该认识到了用适当的语言描述他们所要提的问题的重要性，因为根据被试者的年龄或程度，问题多半采用了不同的措词。对于年龄很小的儿童，措词比较含混，有
+时甚至用的是“婴儿语言”；年龄稍大一些，问题阐述的精确性也增加一些，所以儿童的回答也会有所改进，这当然是并不奇怪的。但我们从中真正观察到的，并不是概念本身的发展
+，而是交流思想的技巧。当然，这一批评并不意味着其中全然没有概念的发展，而是说它并没有从诸多的干扰因素中真正被分离出来。
+\end_layout
+
+\begin_layout Standard
+N的出发点是：考察儿童是否懂得，以及在怎么样的程度上懂得：将一个容器中的液体倒入另一个或几个容器中，并不影响液体的量。对被试者提出的问题是：倒动以后，容器里的液
+体是比原来多了，还是少了，还是跟原来一样。按照作者的意图，问的是液体的量，而不是容器的个数或者液面的高度。但是这一点并未包括在提供给儿童的信息中
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+很难解释为什么要通过例外的情况来提供这个信息。例如，在N，11中对卡克很明确地解释说“较少”是指液体的量而不是指容器的个数。所以，他回答得比其他人好就不足为奇了
+。
+\end_layout
+
+\end_inset
+
+。实验者的问题有时甚至会使人误解，其中主要是由于语言的缘故：英语中的“这个（容器里）多了吗？”和“这些（容器里）多了吗？”译成法语，都是同一句话“y
+\begin_inset space \space{}
+\end_inset
+
+en
+\begin_inset space \space{}
+\end_inset
+
+a-t-il
+\begin_inset space \space{}
+\end_inset
+
+plus？”还有比这更棘手的情况。就我本人的经验而言，我讲不出某个年龄段的儿童是否知道某些词汇。我只知道，讲法语的儿童的词汇量要比讲荷兰语或德语的儿童少。我要指
+出的是，最初步的要求应是在进行这种实验以前先弄清楚字典上的实质意义，而这一点完全被忽视了。我们明显地看到的恰恰是幼小儿童不懂plus和moins（更多和更少），
+或者至少是不懂这两个词在实验的规定情景中的含意。实际上，他们用beaucoup（许多）代替了plus（更多），用peu（一点点）代替了moins（更少）；有时候
+，就连实验者自己也这么说［有些儿童懂得“plus
+\begin_inset space \space{}
+\end_inset
+
+grand”，“moins
+\begin_inset space \space{}
+\end_inset
+
+grand”（“比……大”，“不如……大”）中plus和moins的意思，但这两个词如果不加上表示数量的补足语的话，看来他们就不懂了］
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+但是，存在着很奇怪的不一致的情形。N的第一，二、四章中，被试者除了在作比较的情况外，都不懂plus（更多）和moins（更少）的意思。但是在第三章中，同样年龄的
+儿童却又很熟悉这些词
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+虽说他们对作比较的情形也较生琉。这是什么原因呢？是因为第二组的儿童进行过使用plus，moins的训练呢，还是因为实验者不同，致使编写原则也不一致了呢？
+\end_layout
+
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+“相等”这个词的情况更糟。在与被试者交谈时，即使是对年龄大一些的儿童，实验者也不用autant
+\begin_inset space \space{}
+\end_inset
+
+que（同样多）这个词，可能是觉得这样措词过于文绉绉的缘故吧。他们总是说lamême
+\begin_inset space \space{}
+\end_inset
+
+chose（一样）。所以他们问儿童的是“Ya-t-il
+\begin_inset space \space{}
+\end_inset
+
+la
+\begin_inset space \space{}
+\end_inset
+
+même
+\begin_inset space \space{}
+\end_inset
+
+chose
+\begin_inset space \space{}
+\end_inset
+
+dans
+\begin_inset space \space{}
+\end_inset
+
+les
+\begin_inset space \space{}
+\end_inset
+
+deux
+\begin_inset space \space{}
+\end_inset
+
+verres？”（两个杯子里有的是一样的么？）（N，10），“est_ce
+\begin_inset space \space{}
+\end_inset
+
+qu'il
+\begin_inset space \space{}
+\end_inset
+
+y
+\begin_inset space \space{}
+\end_inset
+
+a
+\begin_inset space \space{}
+\end_inset
+
+la
+\begin_inset space \space{}
+\end_inset
+
+même
+\begin_inset space \space{}
+\end_inset
+
+chose
+\begin_inset space \space{}
+\end_inset
+
+de
+\begin_inset space \space{}
+\end_inset
+
+perles？”（有一样的一些珠子么？）（N，34），“y
+\begin_inset space \space{}
+\end_inset
+
+a-t-il
+\begin_inset space \space{}
+\end_inset
+
+la
+\begin_inset space \space{}
+\end_inset
+
+même
+\begin_inset space \space{}
+\end_inset
+
+chose
+\begin_inset space \space{}
+\end_inset
+
+d'oeufs
+\begin_inset space \space{}
+\end_inset
+
+et
+\begin_inset space \space{}
+\end_inset
+
+de
+\begin_inset space \space{}
+\end_inset
+
+coquetiers？”（有一样的一些蛋和蛋杯么？）（N，61），“c'est
+\begin_inset space \space{}
+\end_inset
+
+encore
+\begin_inset space \space{}
+\end_inset
+
+la
+\begin_inset space \space{}
+\end_inset
+
+même
+\begin_inset space \space{}
+\end_inset
+
+chose？”（还是一样么？）（N，64）。对于“它们一样吗？”这个问题，成人会反问道：“你的意思是什么？是指形状一样，重量一样，还是个数一样？”儿童则显然不敢
+这样问；即使心存疑问，他们也认为无论如何是必须回答的，虽然有时也会说“我不知道”（N，85）。然而，这根本没有能促使实验者去解释“一样”在特定情况下的含义。要是
+他真这么做了，就等于是摊牌了，不正是这样吗？将一些硬币或豆子放在桌上，形成某个构图，再要求儿童摆一个“一样的”。儿童会把这理解为“一样的图形”，而没有人会向他们
+解释实际意义是什么（N，80起）。要他们用火柴梗按照由硬币摆成的图形摆一个一样的图形；如果他们说摆不了，实验者也不向他们作任何解释（N，85）。实验者总是假设被
+试者在每种情况下都是在实验者所指的意义上理解了“一样”的意思。对于年龄大一些的儿童，他们取得成功的机会多一些，于是实验者就认为这证明了“相等的数”，“相等的量”
+，“相等的容量”，“相等的形状”等概念在这样或那样的方式下发展起来了。实际上他们所观察到的结果仅仅是不同年龄的儿童是怎样适应成人的含糊不清的表达方式而已。
+\end_layout
+
+\begin_layout Standard
+语言交流问题在（N，202）开始且在L中又有所推广的系列实验中表现得更为突出。实验者给儿童看一些木制的珠子，其中大部分是棕色的，还有几颗是白色的。然后问这些被试
+者是木珠子多还是棕色珠子多。年龄很小的儿童通常会回答：“棕色珠子多。”这个实验以许多种变化形式作了重复（L，104起）：给被试者看20张彩色图片，其中16张上有
+花；有花的图片中，有8张是报春花，其中又有4张是黄色的。问题是这样提的：“花比报春花多吗？黄色的报春花比报春花多吗？”在一个类似的实验里，则用动物替代了花。根据
+这些实验结果，皮亚杰下结论说儿童并不掌握包含关系。其实，由于这个实验兼有两重困难：首先是包含关系；其次是两个相交集合的数值比较。所以，这个结论无论如何是错误的。
+事实上，典型的问题应该是：“你用棕色珠子或是用木珠子来串成链子，哪一种能串得更长一点？”考察的首要问题应该是确定对两个不能同时形成的集合进行比较是不是太难了。但
+这还不是主要之点，根本问题还是语言上的误解。
+\end_layout
+
+\begin_layout Standard
+如果问一个大人，是棕色珠子多，还是木珠子多（棕色珠子都是木珠子），他就会反问：“你是不是指其他的那些木珠子？”同样，有关花的问题，他会问：“你是不是指报春花比其
+他的花多？黄花比其他颜色的花多？”这种将木珠子与棕色珠子，花与报春花相提并论的做法，在日常语言中是被看作明显的错误的
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+虽然它们有时被用来开玩笑，或是用来表示一种贬意，诸如“狗尾巴比狗长”或是“人与黑人”等等。实验者利用这些错误的句法结构对儿童耍把戏。但是，如果儿童竟然也敢这么随
+意乱说，例如他们也说“花与报春花”的话，作者就会评论说：照孩子们这么说法，“似乎报春花不是花了”（L，130）。为什么不能允许儿童也犯一犯他们看到的大人犯过的语
+言“错误”呢？为什么不能在实验者提出错误的问题之后，也让儿童有权思考“似乎报春花不是花”，然后再按实验者是指“其他的花”这个问题的情况来回答这个问题呢？从这些实
+验完全看不出它们是在测试对包含关系是否掌握，实际上还不如说它们是在对语言行为进行测试。G·A·科恩斯坦姆（Kohnstamm）
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+见Acta
+\begin_inset space \space{}
+\end_inset
+
+Psyohologica
+\begin_inset space \space{}
+\end_inset
+
+21（1963）313页。
+\end_layout
+
+\end_inset
+
+所作的实验证明了，在一次简单的语言训练之后，大部分被试者的回答是符合要求的。其他的实验
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+见I.
+\begin_inset space \space{}
+\end_inset
+
+E.
+\begin_inset space \space{}
+\end_inset
+
+Sigel，Annemarie
+\begin_inset space \space{}
+\end_inset
+
+Roeper
+\begin_inset space \space{}
+\end_inset
+
+and
+\begin_inset space \space{}
+\end_inset
+
+F.H.Hopper：British
+\begin_inset space \space{}
+\end_inset
+
+Journay
+\begin_inset space \space{}
+\end_inset
+
+of
+\begin_inset space \space{}
+\end_inset
+
+Educational
+\begin_inset space \space{}
+\end_inset
+
+Psychology
+\begin_inset space \space{}
+\end_inset
+
+36（1966）301页至311页。
+\end_layout
+
+\end_inset
+
+也表明，一般的语言练习就足以使儿童对皮亚杰式的问题的反应得到改进。
+\end_layout
+
+\begin_layout Standard
+皮亚杰用来说明小年龄儿童不懂得包含概念的另一个实验过程是这样的（L，65起）：例如，向被试者出示蓝色圆形，蓝色方形和红色方形。如果：“问全部的圆形都是蓝的吗？”
+“全部的方形都是红的吗？”小年龄儿童一般都作了“错误回答”。至于这些儿童之所以作出“错误回答”的原因，皮亚杰解释说是他们并不懂得词“全部”在句子中的地位决定了句
+子的意思。实际上，在语言上尚无技巧的儿童怎么能寻找到途径去通过下列一大片问题丛林呢：“全部的圆形都是蓝的吗？”“全部蓝色的都是圆形吗？”“圆的全部是蓝的吗？”“
+蓝的全部是圆的吗？”“这些全部是红的吗？”“全部这些都是红的吗？”这些问题可能对成人来说也是挺难回答的（见L，105）。在他们的漂亮的分析中（L，73～78）作
+者已差不多要得出：儿童面对的所有困难是与“全部”一词的所处地位有关的语言困难的结论了，只是到了最后一刻才出人意料地宣称，所有困难是未掌握包含关系。
+\end_layout
+
+\begin_layout Standard
+然而，这些回答说明了一直被皮亚杰及其同事忽略了的另一方面。我的意思是指儿童还不懂什么叫形式化的答案。如果我走进一间会议室，问：“全部椅子都坐满了吗？”而某人回答
+：“没有，你可以坐在长条凳上。”这就是一种回答，但不是对形式化问题的回答，而是对一个延伸出去的问题：“我可以坐在哪里？”的回答。这就是皮亚杰的被试回答问题的方式
+。他们习惯于从童义上面不是从形式上回答问题，因为他们并不知道这些问题所要适应的是像书籍这样一种供出版的体系。他们压根儿不会想到这一层，因为他们还没有碰到过要应付
+“你是否不再打你妻子了”之类问题的情况。
+\end_layout
+
+\begin_layout Standard
+与“全部”这个词相类似的一大堆问题是关于“一些”的问题（L，79起，尤其是97至98页）。儿童必须竭尽全力去澄清其中的含糊概念。有人对你说：“给我一些郁金香”
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Quelques
+\begin_inset space \space{}
+\end_inset
+
+tulipes（一些郁金香〉
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+法语中不存在两个不同的词分别对应于英语中的some和a
+\begin_inset space \space{}
+\end_inset
+
+few。
+\end_layout
+
+\end_inset
+
+，则你如果给他一枝郁金香，或是把全部郁金香都给他，那都是不对的。而对儿童提出的问题是：“全部的郁金香都是花吗？”“一些郁金香是花吗？一些花是郁金香吗？”“全部的
+花都是郁金香吗？”“全部的郁金香是一些花吗？”
+\end_layout
+
+\begin_layout Section
+单元素集和空集
+\end_layout
+
+\begin_layout Standard
+皮亚杰声称，幼小儿童还没有认识到单元素集也是集合，这可能是对的，因为这些儿童还没有任何形式化的集合的概念。但有趣的是皮亚杰用实验（L，124）证明了它：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+我们用的是一套有三个或六个三角形的卡片。被试者必须猜出哪一张背面打了一个叉。根据下面的特征可以辨认出这张卡片：它在色彩上是唯一的（例如，三张卡片中有两张是黄三角
+形，一张是蓝三角形）……
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+注意，并没有告诉儿童这张卡片就正面来说也是唯一的。这就出现了这样的结果：年龄大一些的儿童的得分要比年龄小的儿童差，即五至七岁的儿童有50%做对了，七至九岁的有7
+5%做对了，十至十二岁的却只有33%做对了。作者以下列论据解释了这种“倒挂”现象：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+被试者人为地将一个对他来说过于简单的问题弄得复杂了。
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+对此已无须评论了。事实上，这个实验与单元素集并不相干。
+\end_layout
+
+\begin_layout Standard
+有关空集也是如此，我从（L，149）摘录如下：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+实验采用最自然的正方形，圆形，三角形卡片，有一些上面画有树、水果、房子等等图画，另一些上面没有图画。由于要分类，先是任意分，而后是一分为二，我们就容易看到被试者
+的反应，他是否会因为某些卡片上没有图画而感到困惑，或者是否会把自己的注意力转移到特征很明显的例如形状一样的全部元素上去。
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+在分类时，被试者忽视了空白卡片的集合：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+“……儿童不肯构造空集。”
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+按照皮亚杰的意思，空白卡片的集合就是空集。看了我们前面引用的E中的内容以后，这些已经不会再令人震惊了。
+\end_layout
+
+\begin_layout Section
+实验的设计
+\end_layout
+
+\begin_layout Standard
+大部分的实验要求过高。他们给儿童的不是一项简单的任务，而是几项任务的组合。像儿童能否在两个集合之间建立一一对应关系这类简单任务，并不是孤立地提出的，而是在非常复
+杂的背景下出现的；在倾倒液体的实验过程中，对几个儿童所提的问题都仅仅是要他们说出长颈瓶中液面的变化情况（他们都答对了），并不要求他们系统地考察这种情况，实验者对
+儿童的态度则是一味在语言上找他们的岔子。
+\end_layout
+
+\begin_layout Standard
+有好几次还出现这种情形：一项实验的一般说明和对一个个被试者的实施情况之间互相并不一致（N，53）。关于实验的讨论有时牵涉到其他的被试者，而不是实验过程（N，16
+2：蒂斯并不存在）；有时讨论到其他事实，而不是以前已经报告过的事实（N，162：狄特）儿童的回答常常被理解错了，突出的例子如下（G，101）：两个类似的布娃娃放
+置在不同高度，问儿童是A到B远还是B到A远
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+按照皮亚杰的观点，年龄很小的儿童是不明白距离的对称性的。
+\end_layout
+
+\end_inset
+
+。被试者答道：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+距离不一样。因为下面的小人看到上面小人的脚，而上面的小人看到下面小人的眼睛……对下面的小人来说要远一些，因为它比较高。
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+可惜的是，在开始那两句说得挺好的评述之后，儿童接下去将上、下弄颠倒了。而更令人遗憾的则是实验者并没有懂得那两句评述。
+\end_layout
+
+\begin_layout Standard
+我最后引述一个更基本的观点.在（E，537）中，我们看到：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+……年龄很小的被试者在实际进行这些活动以前，是无法设身处地地想象这些活动的结果的（甚至是最简单的活动）。
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+的确，这是一条重要的原理。它在E中比别处出现得更经常。然而，在与被试者的谈话中，实验者更多的是停留在思想实验上。这不仅诱发了儿童的错误，而且还有更糟的影响，会导
+致实验者让儿童去参加一些无法以预期的方式进行的实验，或者参加一些一经实际操作其结果便会令实验者大吃一惊的实验。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/004.png
+	lyxscale 60
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/003.jpg
+	lyxscale 60
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,504 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+数学的严谨性
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+庞加莱（H.
+\begin_inset space \space{}
+\end_inset
+
+Poincare）曾经说过：
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+你是否相信逻辑学家总是按形式逻辑规则所指定的那样从一般推导特殊？因为如果用这个方法，他们永远也到不了科学的前沿阵地；科学的征服只能通过特殊情况的一般化来实现。
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+当数学科学变得严谨的时候，它表现出一种不可忽视的人为的特性，它忘掉了自己的历史起源：只显示出问题是如何解决的；却没有显示出问题是如何提出的，以及为什么提出的。
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+这说明逻辑并不充分，证明的科学并非全部科学，我认为应将直观作为一个补充部分，或者说应将直观作为逻辑的对立面，或作为矫正的方法。
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+严谨的层次
+\end_layout
+
+\begin_layout Standard
+数学与其他的思维训练相比而言，有个有利条件，那就是对每一个陈述，你都可以确定它是对还是错。一篇数学论文的好坏，重要与否，富有独创性或是微不足道，这些都不容易确定
+，但是毫无疑问一定能知道它是对还是错。物理就很难确定，除非这种物理实质上是数学。一个物理理论希望在现实中得到证实，但即使未经证实也不一定是错的，也许只是适用范围
+较小。除数学以外的所有科学，有用与否的标准经常与真理的标准有关，但实际上无人真正知道如何来掌握它。而只有数学可以强加上一个有力的演绎结构，从而在数学中不仅可以确
+定结果是否正确，而且甚至
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+或者说实际上仅仅是
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+确定结果是否已经正确地建立起来。这就是所谓数学的严谨性，也是数学的度量标准，教数学也必须用这个标准。
+\end_layout
+
+\begin_layout Standard
+谁来判断所教的数学是否严谨？教师。当然，教师也许可以用红墨水。但学生不能，他必须首先学会什么是严谨性。用不恰当的比喻，就像用电刺激一个老鼠，听到铃响就跳过障碍一
+样。教师并非任意使用红墨水，而是按照适合于学生的规律，因为学生也是人类，我们要借助于红墨水来提高他们的效率。我以前的一位学生第一次给学生上课时，学生问他，代数式
+的项从等号一边移向另一边时要改变符号，这是否也是他的规则，因为原来的教师是这样规定的。学生总是要询问新教师的规则是什么
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+对于数学教师也同样如此。
+\end_layout
+
+\begin_layout Standard
+以红墨水作为教数学的严谨性的手段只能适用于最低层次的学生。对人类而言，除了操练还有教育这一更有效的手段，教育的特点之一就是自由。毫无疑问，学生不可能用其他方式，
+只有通过再创造来学习数学的严谨性，而且还有不同的层次。严谨性可以具体做出来，但却不必知道它是什么；严谨性也可以用于单独讨论的一个有意识的准则；最后还存在一种全局
+性的严谨性概念，以便应用于作为一个整体的数学。
+\end_layout
+
+\begin_layout Standard
+由于各方而的原因造成对严谨性的评价有许多分歧，很多人都未能正确掌握，因而做起来没有想象的那么容易。从历史上看，在数学家的头脑中，数学的严谨性也并不相同，只要不是
+闭眼不看事实，人们都会同意，情况至今仍然未变。直到一个世纪以前，人们还是直观地用无穷小概念进行运算，它工作得很出色，因为它是直观的；随后人们对此提出的批评日益尖
+锐，于是大家转而相信必须用
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+。到现在
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+又失去了地盘，我们期望一、二十年后会有“伟大的发现”，即真正理解了一个世纪前的无穷小方法是完全严谨的，因为微分算法早已现代化了。
+\end_layout
+
+\begin_layout Standard
+当我在大学学习时，严谨的微积分课程开始于一年级的数论基础：自然数、整数、有理数和实数。今天它却开始于一个公理化的定义，实数系是具有某些性质的一个有序域或拓扑域。
+四十年前你可能会被一句话问瘪：“你怎么知道存在这样一个域？”这个问题现在就可以回答：“如果你从整数或集合出发，你怎么能肯定它们一定存在呢？”当然，在内容较深的课
+程中，“存在性证明”（注意，只是一个相对的存在性证明）可以被加进去，但即使这样安排也只是出于一种有意识的考虑教学的选择。更为惊人的是当今的教科书作者，显然由于考
+虑到教材的精确性，试图将原先出于教学法的理由而推迟到大学高年级的课程
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+自然数、整数、有理数与实数及其存在性证明的形式理论
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+放到中学来教。为了忠实于体系，必须使之严谨，因而你必须回到整数，甚至从集合开始。但如认为这是严谨性的顶峰，那就错了，它只是一顶旧帽子，一点也不现代化。真正的现代
+数学家会告知那些革新家，整数比实数更成问题，而集合也比整数更成问题。从某种意义看，试图在中学阶段教形式化的数的理论，从数学与教学法两方面来说都是失败的，因为很难
+使任何人信服。
+\end_layout
+
+\begin_layout Standard
+这只是顺便提到。其实与教学法真正有关的是另一个问题，就是学生是否能理解为什么要严谨就必须由实数归约至有理数，由有理数归约至整数，由整数归约至自然数，并且由自然数
+归约至集合，或者说为什么要严谨就不容许回避这些。只要你无法向学生解释这个决定的含义，而将这个理论强加给学生就是不公平的，因为没有人需要这个理论。
+\end_layout
+
+\begin_layout Standard
+当代有些人相信，除了公理化体系以外，没有严谨的数学。但也没有理由就此停留在公理体系上。进一步的要求是完全形式化，即通过与现实割断一切联系的语言去沟通。这样就更为
+自命不凡，事实上，公理化假设中巳经排除了应当教给非数学家的大量数学。那些提倡在中学教公理系统的人，也知道这个无可否认的事实，也容许非公理化的数学必须当作所谓的经
+验数学来教，因为这是不可缺少的，但同时又想将它与所谓严谨的数学割断关系。这是我们早就指出的数学的两重性，有两种数学的教义，一种是为神提供的，而另一种是为公牛提供
+的。经验的数学即为自由发现的数学，比那些为教师或教科书作者强加的，局限于公理范围的数学更为重要，没有理由说它是不严谨的，严谨性有层次，每一个题材存在着适合它的严
+谨性层次；学生应该通过这些层次而获得他们的严谨性。数学家也应根据不同的严谨性层次进行运算；只有瞎子才会断言只存在一种严谨性。
+\end_layout
+
+\begin_layout Standard
+一个6岁的儿童用手指或用计算器算出
+\begin_inset Formula $8+5$
+\end_inset
+
+，这也许不是数学，但在那个层次，这是一个严格的证明。当他长大后，根据严谨性的要求，
+\begin_inset Formula $8+5$
+\end_inset
+
+必须分解成
+\begin_inset Formula $8+2+3$
+\end_inset
+
+来计算，因为在这个层次有一个隐含的规则，那就是加法表只用于
+\begin_inset Formula $10$
+\end_inset
+
+以内，即
+\begin_inset Formula $a+b=c$
+\end_inset
+
+，其中，
+\begin_inset Formula $1\leqslant a<10$
+\end_inset
+
+，
+\begin_inset Formula $1\leqslant b<10$
+\end_inset
+
+，
+\begin_inset Formula $2\leqslant c<10$
+\end_inset
+
+。稍迟一点，就可以直接利用
+\begin_inset Formula $8+5=13$
+\end_inset
+
+，不必再分解，这也是严谨的，因为这时加法表可用于
+\begin_inset Formula $20$
+\end_inset
+
+以内，即即
+\begin_inset Formula $a+b=c$
+\end_inset
+
+，其中，
+\begin_inset Formula $1\leqslant a<10$
+\end_inset
+
+，
+\begin_inset Formula $1\leqslant b<10$
+\end_inset
+
+，
+\begin_inset Formula $2\leqslant c<10$
+\end_inset
+
+。这里，教师与学生都是严格地按照一些无意识的规则在做游戏。这些规则并非有人特别发明，是参加者相互交流而形成的，也没有人（包括教师在内）能将其明确地阐述。一且学生
+拒绝继续进行老的游戏，就自然地从一个规则体系转到下一个，但这种转换是不连续的。
+\end_layout
+
+\begin_layout Standard
+前面提到的我儿子的论点（她不是一个女孩吗？）是不严谨的，当然解答也是错的，即使玛丽离开商店时剩下75分而不是50分，这个回答也仍然是不严谨的，因为有些女孩并不喜
+欢玩偶。此外，还有另一意义下的不严谨，那是它违反了这类问题中所隐含的规则，就是人的名字是无关紧要的，那个孩子可以不叫玛丽而叫约翰。（这也不是绝对的；到较高层次，
+问题涉及现实的详细情况，名字可能就是很本质的。）
+\end_layout
+
+\begin_layout Section
+局部的组织
+\end_layout
+
+\begin_layout Standard
+如果学生发现，用圆的半径沿圆周量
+\begin_inset Formula $6$
+\end_inset
+
+次正好可以形成一个正六边形，并且指出等边三角形的角是
+\begin_inset Formula $60°$
+\end_inset
+
+，以此来解释这一经验，那么这是严谨的。可是对于有教养的数学家而言，以此作为论据当然令人吃惊。实际上，在这个论据中隐含着多少先决条件？要达到这个结果需要涉及到多少
+公理？能否根据欧几里得（Euclid）、希尔伯特（Hilbert）或线性代数来实现？无论从这个体系或那个体系，要得到这个结果，需要经过漫长的道路，学生必须知道这
+一事实，但是如果将公理体系强加给学生，他就永远不会知道。从教学法观点看，这样做是个错误的过程。严谨性的任务是使人信服，可是现成的数学从来也不能令人信服。要在保证
+严谨性的条件下取得进展，第一步就是要怀疑人们当时相信的严谨性，没有这个怀疑就学不到什么东西，只能听任其他人来规定严谨性的新标准。
+\end_layout
+
+\begin_layout Standard
+当然像正六边形这类问题学生应该问自己：“我实际上作了什么预先假定？”如果他反复地提出这个问题，最终会走入歧途，出现循环论证。我们知道这个问题，但学生却并不知道，
+必须让他经历这个过程，没有这种体会，他就无法掌握公理体系的意义。
+\end_layout
+
+\begin_layout Standard
+直到那时他才能运用所谓一个领域的局部组织。这是一个重要的概念，特别是为了要从教学法角度来理解几何教学。几何概念与关系总是分析到某个任意的界限，或者说到达这样一点
+，似乎能用肉眼分辨出什么是概念的含义，以及能确定命题是否成立。这是经验空间几何中每个人的推理方式；绝对不是从遥远而不可捉摸的公理出发，而是根据模糊、变动但又能假
+定正确的事实。于是领域被组织成或大或小的片断，而不是一个整体。在物理中以及任何用到数学的领域中都是这样做的。
+\end_layout
+
+\begin_layout Section
+逻辑的严谨性
+\end_layout
+
+\begin_layout Standard
+没有理由认为上述过程是不严谨的。局部的组织有它自己的严谨性。比如，辨别一个定理与其逆定理，什么是循环论证，“必要”与“充分”之间的区别，或是存在性与普遍性之间的
+区别
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这在局部组织中就像在整体组织中一样清楚。我甚至认为，严谨性的某些侧面在做出来的数学中要比在现成的数学中更为清楚，特别能理解什么是相关的，什么是不相关的。在现成的
+数学中，“如果一个三角形有四个顶点，它是等边的”这样一个陈述是真的，然而在作为活动的数学中，这却是荒谬的。在现成的数学中，为什么
+\begin_inset Formula $(a+b)(a-b)=a^{2}-b^{2}$
+\end_inset
+
+成立（如果允许提任何问题），可以回答“因为地球是圆的”，这是由于逻辑学家告诉我们，只要
+\begin_inset Formula $q$
+\end_inset
+
+真，那么
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+就真。操作性的数学培养不同的严谨性概念：对“为什么”的回答，必须是相关的，那才是严谨的。因此形式逻辑规则甚至不能告诉我们什么是严谨性。在形式逻辑的结构中无法回答
+下列问题，诸如“为什么你这样下定义？”或是“你能借助那个来证明这个吗？”或是“以前你用过这个方法吗？”然而应该再三强调的是，这些问题就像计算一个整数或是证明一个
+公式一样，确实是数学，但在所有现成的数学中却很容易忘记。要回答这类问题要求一种不同的严谨性，对这种严谨性的含义至今还没有人试图系统地阐述。因为对操作科学的逻辑，
+全人类都处于最低层次。对此我并不遗憾，正好相反，这可以使我们不会按照现成的数学的逻辑来教做出来的数学的逻辑，但是我们应该处处认清楚这也是数学。
+\end_layout
+
+\begin_layout Section
+使数学脱离现实
+\end_layout
+
+\begin_layout Standard
+讨论中有人向我提出抗议说：“最后必须让学生知道数学与现实世界之间有着清晰而严格的区别”。我的回答是：“你是对的，但也是错的。如果你目的在于教数学的严谨性，那是对
+的，但如果你是为教不相关的数学作辩护，那就是错的。如果你强调学习，那是对的，但如果你提倡教现成的公理系，那又是错的”。
+\end_layout
+
+\begin_layout Standard
+学生一开始学计算（我是指开始学那些不相联系的算术时），就已将数学理论与现实世界分开。当然这是需要训练的。但在操练过程中，学生有时可以忘记现实世界中7是由七个单位
+组成的。学生要学会将数学放入一个括号内，以便使它得以安全运转，唯恐接触现实而损坏。也值得花时间去理解确实存在真理它既不依赖于气候，也不决定于好的祝愿，幸运的是学
+生同时也学会了去掉保护纯数学的括号，用数学来解决日常生活中的算术问题，用数学来理解计算机的工作方式。
+\end_layout
+
+\begin_layout Standard
+我的反对者们回答说
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这不是我们的意思。我们想要让学生最终应该学习一种公理化的理论，它是通过防水舱与现实世界隔离的。我会问
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+为什么？数学理论与现实世界的分离应该在较早阶段通过简单例子来体会，这比以后用高度复杂的例子要更好一些。但他们回答说
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+简单例子比如整数，它与现实世界的联系太密切；不能脱离每周七天或是七个矮人。可我的答复是：难道集合、映射与逻辑连接词和现实世界分离会更容易吗？
+\end_layout
+
+\begin_layout Standard
+确实学生应该学会将数学放入现实世界的括号内
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这是数学严谨性的实质
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+但是他也应该知道，相信防水括号的存在只是一种幻想，因为否则的话，他就不会去考虑如何改进括号的防水性能。我想指出，通过本国语言形成的公理系统并非是严谨性的顶峰；因
+为本国语不像吸墨水纸那样可以防水。然而，没有人试图将完全形式的数学带进教室。再则，做出来的数学不在括号内，也不能放进括号内，而且只要某些事情必须用限制在括号内的
+数学来完成，那括号也必然会分解，而这点也是学生应当知道的。
+\end_layout
+
+\begin_layout Standard
+我们的学生喜欢它
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这才是回答。他们习惯于公理体系而不喜欢其他东西。他们反对半严谨性，他们喜欢在毫无疑问的体系内活动，“是”就是“是”，“否”就是“否”。我说
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+那是你自己的过错。考虑一下你是怎么做的！你的一百个学生中也许有一个将成为数学家，九十九个只是用数学，他们所在的世界没有体系，却有的是各种疑问，而且很少有清楚的“
+是”或“否”。是你以假象将学生引入歧途。难道学生真的喜欢那些无余数的长除法、难缠的分数与机械的求微吗？那是因为你教给他们的。教育可以教出真正的热爱。
+\end_layout
+
+\begin_layout Section
+一个问题
+\end_layout
+
+\begin_layout Standard
+电话铃响，我搁下我的笔。昨晚在一群轻松愉快的伙伴中我提出了一个问题。打电话者是在场者之一。他已经解决了那个问题。问题是这样的：
+\end_layout
+
+\begin_layout Standard
+在一个有限定向图（一个“格”）中，给定了一个最高的结点和一个最低的结点，两者不重合。两人玩一种游戏，轮流将棋子放在图的结点上。如果一个结点被占领了，所有较低的结
+点（根据定向）都禁止再放棋子。谁被迫在最高结点上放棋子，谁就输。
+\end_layout
+
+\begin_layout Standard
+证明先开始的人有一种策略可以保证赢。
+\end_layout
+
+\begin_layout Standard
+昨晚我提出问题时，有人问我什么是定向图，另一个人问“禁止”是什么意思。但没有人问“最高最低”、“游戏”、“轮流”是什么意思，也不问“开始”、“放”，“赢”和“输
+”是什么意思，更不问赢的策略又是什么。然而，这里没有括号内的问题。我们可以用任何真实的图，真的来玩游戏，难道我们不能吗？事实上，如果我们要解这个问题，我们是在玩
+游戏中解决，是生活在游戏情境之中。要解这个问题，没有公理系能帮助我们，也不能加括号。恰好相反，只有在现实世界中我们才能理解它。你自然也可以如此严密地解这个问题，
+使之成为能揭示数学的严谨性是什么的最令人信服的例子之一。
+\end_layout
+
+\begin_layout Standard
+如果有哪位教师说这是他的学生所喜爱的问题，那就请来电话告诉我。
+\end_layout
+
+\end_body
+\end_document

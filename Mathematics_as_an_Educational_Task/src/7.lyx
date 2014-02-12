@@ -1,0 +1,721 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+用数学化方法组织一个领域
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+赫胥黎（Huxley）认为“数学训练几乎是纯演绎的。数学家从少量简单的命题出发，命题的证明是如此明显，而被认为是自明的，其余的工作就是从这些简单的命题来进行巧妙
+的演绎。”他又提出“数学是那样一种研究，根本不懂得观察、实验、归纳与因果关系。”事实恰好相反，要对数学进行分析，就经常需要新的原理、新的观念和新的方法的帮助，这
+不可能通过任何词语的形式来定义，而是直接从人类意志的内在力量与活动中涌现出来，从思想的内在世界连续更新的反思中产生出来，这种内在世界的变化现象就像外部的现实世界
+一样要求密切地注意和识别（对个人来说，这种内在世界不妨理解为物体和它的影子之间的对应关系）。数学研究需要不断的观察和比较，它的主要武器之一是归纳，它经常求助于实
+际的试验与证实，同时它还对想象力与创造力进行最好的训练。
+\end_layout
+
+\begin_layout RightLine
+
+\size footnotesize
+（摘自西尔威斯特（Sylvester）数学论文集）
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+到目前为止，有关教学理论的分析主要是局部的观点，还没有看到按照数学的整体结构来进行教学，这里说的整体结构不是将数学作为一个事先建造好的演绎体系，好像一个倒过来的
+金字塔那样，因为如果这样教，显然不符合再创造的教学原则。我们应该理解所教的数学整体结构，并非是一具僵硬的骨架，而是随着学习过程中数学的发展而发展的。正像数学家的
+数学结构也并非像书架上陈列的书那样一成不变，而是每天都在改变，那为什么学生就应该学木乃伊式的数学呢？
+\end_layout
+
+\begin_layout Standard
+数学的整体结构应该存在于现实之中。只有密切联系现实教的数学才能充满着各种关系，学生才能将所学的数学与现实结合，并且能够应用。传统的算术教育就是这样，所学的大多数
+都是可以应用的，要让算术有应用的机会，对这一点的重要性不应低估；人们对于自己已经学得很好、掌握得很牢固的知识，往往会忽视学习它们的困难性和重要性。除了初等算术以
+外，没有哪个数学领域可以使所学的大部分予以应用，即使大学也是如此。这种数学往往远离所赖以生存的现实，处于一种与观实不相关的状态，所以即使学了也立即忘记。
+\end_layout
+
+\begin_layout Standard
+如果说传统的数学教育也涉及到数学的应用，那它根据的模式却经常与教学法颠倒。不是从具体问题出发，再用数学方法进行研究，而是先学数学，将具体问题作为它的“应用”。这
+个问题还不大，更有甚者，人们通常所谓的应用，只是在一般公式的参数中代以某些特定数值，实质上只是一种常规的特殊化。由于数学应用的不切实际，人们对它产生了怀疑，因而
+在近年来的大扫除中，数学与现实的关系被当作垃圾抛弃了。这个大扫除的另一优点就是演绎系统更为纯沽、完美与至高无上，它的不朽形象再也不会被应用所损害。
+\end_layout
+
+\begin_layout Standard
+算术教育已经提供了一条正确的道路。如果要教充满着联系的数学，就应该将它与有关的内容紧密联系起来，无论这种关系的另一部分是数学、物理还是日常生活，必须一而再、再而
+三地从它出发。负数如果要用于杠杆，那就应该从杠杆开始；对数应该从计算尺、大气压力或是双曲线开始，因为它在那儿有用；内积应该开始于力学研究，导数应该开始于速度、密
+度、加速度；而线性函数则应该开始于自然界与社会中每个人都必须了解的所有比例关系。
+\end_layout
+
+\begin_layout Standard
+今天许多人同意，学生也应该学习将非数学的（或是不完全数学的）内容数学化，也就是学习将非数学内容组织成一个合乎数学的精确性要求的结构。将空间完形为图形是空间的数学
+化；整理平行四边形的性质，使之形成推理联系，以得出平行四边形的一个定义，这是平行四边形概念领域的数学化；安排几何定理使之从少量的几个可以推出全体，那是几何的数学
+化（或公理化）；再借助于语言学的方法组织这个体系，这是又一个题材的数学化，现在称之为形式化。历史在重演
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+平行四边形的每个一般陈述都是一个数学陈述，但是这些陈述的整体本身只是一个大杂烩，只有用逻辑关系建立结构，它才成为数学，而这个过程就是数学化。几何定理之间即使局部
+相关，就其全体而言也只是各个章节的混合物，只有借助公理系才能使之数学化；至于以各种语言表达所构成的杂烩，只有借助于语言学的组织才导致形式体系的建立。
+\end_layout
+
+\begin_layout Standard
+前面谈到的实际上已经是数学化过程的较高层次，那就是对局部的数学材料进行整体的组织。凡是写过数学论文的人都会有同样的体会：即使结果及其证明均已确认，也仍必须通过数
+学方法将其组织成一个过程，使得沿此路线可以导出结果。至于建立一个数学定义，则比发现命题或证明具有更本质的作用。很难理解，为什么数学家认为数学化是一个粗制滥造的活
+动，因而将数学化排除在教学之外，并且声称数学化应该是数学家的事，而与学生无关。事实正好相反，毫无疑问学生也应该学习数学化，当然从最低的层次开始，也就是先对非数学
+内容进行数学化，以保证数学的应用性，同时还应该进到下一个层次，即至少能对数学内容进行局部的组织，至于究竟应该进行到何等程度，这个问题还有待于讨论。但是，如果要教
+公理系统与形式体系，那公理化与形式化是不能忽视的。因为没有数学化就没有数学，特别是，没有公理化就没有公理系统，没有形式化也就没有形式体系。我们至少应该记住夸美纽
+斯（Comenius）的教导：教一个活动的最好方法是演示，或者进一步相信，学一个活动的最好方法是做。那就是说，如果将数学解释为一种活动的话，那就必须通过数学化来
+教数学、学数学，通过公理化来教与学公理系统，通过形式化来教与学形式体系。
+\end_layout
+
+\begin_layout Standard
+当前已经有不少人对数学教育提出了数学化的要求，但我担心其结构太狭隘，常常把数学化理解成最低层次的活动，即只能应用于完全非数学的内容。于是，最时髦的提法就是为现实
+中某个微小而孤立的片断
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+所谓“情境”进行数学化，也就是为情境建立一个数学模型。
+\end_layout
+
+\begin_layout Standard
+以数学化方法进行教育的另一种提法是”问题解决”，这里的问题可以是各种层次的。除了前述的“情境”是表示对局部的具体情况进行数学化以外，一般而言，“问题”已经是以比
+较抽象的状态来描述某一情境的核心，因此我反对这种提法。问题应该来自于情境，而儿童则应该学习从情境中辨认问题，提出问题也是数学。
+\end_layout
+
+\begin_layout Standard
+在作了这些准备以后，我希望大家能清楚，我所说的用数学化组织一个领域是什么意思。它是数学教育的必然趋势，它是一条保证实现数学整体结构的广阔途径，而并非金字塔的塔尖
+。情境与模型，问题与求解这些活动作为必不可少的局部手段是重要的，但它们都应该服从于总的方法。
+\end_layout
+
+\begin_layout Standard
+除了前面说的以外，还可以通过更多的例子来理解用数学化组织一个领域的含义。最令人信服的例子还是几何
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+诸如四边形的分类（为了可以辨别定义），对称、用全等图形铺平面、角的概念以及几何的代数化等等。其他领域的还有：杠杆原理，与重心有关的代数，根据各种法则得到的自然量
+之间的关系
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+特别是函数关系，数学化的微观经济（micro-econoniy，一个特别吸引人的课题，据我所知，中学还没有尝试过），以数值方法为出发点所建造的分析学、波的传播以
+及示波器等等。不加渲染地列举这些例子也许就足以说明问题。
+\end_layout
+
+\begin_layout Standard
+上面提到的某些题材通常都被看作是物理的一部分，为此我想说一下近年来所谓的综合训练，以免把我提出的组织一个领域的方法与所谓的课题方法混为一谈。
+\end_layout
+
+\begin_layout Standard
+为什么科学教育至少在开始的时候不分科训练更好，这个问题值得讨论；譬如数学，如能联系实际进行教学，那天地就广阔得多。至于综合的科学教育需要延续多久，那是另一个问题
+。实施综合的科学教育的一个有效手段是组织“课题”，这种例子到处都是，比如“地球空间”、“水”、“营养”，这些课题很适宜于进行现象学的探索，但却缺少科学理论的培养
+。许多人声称要到14岁时理论能力才会超过现象学能力，应该说我并不相信心理学家说的已经证明了这一点，但如果这是真的，可以建议综合的科学教育进行到14岁；在这以后，
+组织各学科的配合教育会比综合教育更好。
+\end_layout
+
+\begin_layout Standard
+在综合的课题中已经包含了数学，因为总有一些东西要相加、相乘或是计算百分数，但这对数学而言并不说明什么问题。在那些课中，8～9岁的儿童所做的数学也许比14岁所做的
+更为深刻。历史上，数学开始得比其他学科早，这当然不说明什么问题，而且正如我前面强调过的，心理学家是否能证明自然科学非得诞生得比数学晚许多年不可，倒是很值得怀疑的
+。不久的将来，必须考虑用数学工具来进行自然科学教育，其实数学早已在自然科学的综合教育中得到了很大发展，至少在物理教育中是如此。
+\end_layout
+
+\begin_layout Standard
+这不应该妨碍我们的协作，特别是与物理的协作。物理需要数学作为一种辅助的训练，当然物理也可以直接存在于现实之中，就是这个现实同样也为数学提供了题材，并从中形成了数
+学组织化；已经设计了一些数学与物理配合的模式，但似乎还不够理想。例如：在物理的某个阶段教折射定律时，不能用数学公式来表示，因为按照数学传统，要两年以后才学正弦，
+那么正弦能否早点出现呢？数学家反对说，这是不可能的，因为三角需要这么多星期来教，因而除非在代数结束之后，否则我是抽不出时间来开始教三角的。这就是体系狂的不合理性
+。根据体系，正弦属于三角，所以必须在三角中教；而在三角中，除了正弦以外，还有余弦、正切、余切、倍角公式、加法公式、正弦定理、余弦定理等一大堆公式与定理，只要你不
+愿吞下整个的苦果，你也就别想先得到正弦，从体系的角度看，或是全部接受，或是一点不提。那么是否可以将正弦作为教学函数的一个奇妙的例子，以几何方式从圆引入，而不是以
+代数方式引入呢？我甚至认为这是学生应当学习的函数的最早例子之一。
+\end_layout
+
+\begin_layout Standard
+另一个例子
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+在体育音乐理论中产生了相互关联的算术序列与几何序列，根据体系的规定，数学还没有学得这么深，但是为什么不能早一点研究这个题材呢？这不是函数联系的一个美妙的例子吗？
+\end_layout
+
+\begin_layout Standard
+对物理学家来说，微积分总是出现得太迟，他们需要微商与积分概念，还有少量函数的导数与积分，希望这些能早点出现，可是数学家却被体系所束缚，他们认为要末是引进全部微积
+分，否则就只能限子所谓中学微积分。物理课中的应用可以有力地带动许多数学概念，如梯度和线积分，但根据规定多变量微积分不属于中学课程，因而数学课上一点也不能提。
+\end_layout
+
+\begin_layout Standard
+另一方面，物理学家也受体系的牵制，质量效应类型的定律诸如重心定律与库仑（Coulomb〉定律，从数学来看是同类型的，但却由于它们来自不同领域而被分开处理。所有“
+比的”量（比重、比热、比电阻等等）有助于数学家引入并解释线性函数，而物理却教得太迟。杠杆原理对代数初步很有价值，可以由此引入并阐述，但物理又很难配合。
+\end_layout
+
+\begin_layout Standard
+如果数学教育与物理教育要真正地配合，必须要求数学家与物理学家双方都放弃自己的体系。代数、三角，解析几何、无穷级数、微积分都不应该看作封闭的单元。只是以数学为一方
+，物理为另一方分别看作一个整休；根据难度及共性相互结合起来。
+\end_layout
+
+\begin_layout Standard
+但是将现代化数学教育与物理结合，会使任务更为复杂，这一做法是否明智？我建议应该在有数学，物理联合会的国家比如德国迸行试验，其他国家需要认真考虑教师培训的问题。
+\end_layout
+
+\begin_layout Standard
+另一个问题是数学教育与物理教育的配合是否真的必要？物理学家是否真的要用那么多数学？如果要教充满着联系的数学，是否也真的应该而且可能涉及这么多物理？如果比较仔细地
+翻阅一下物理教科书，看他们究竟用了多少数学，那一定会使你大失所望。物理学家主要只要求学生能阅读公式；能对参数代以数值；也许提到一些与物理有关的比较容易的数学公式
+和证明，或是在力学中提到微商。但总的说来，他们避免所有真正的、深刻的数学，可以认为物理是彻底的非数学化，即使用到数学也是在很低的层次。教科书中有一些使人震惊的例
+子：比重定义为单位休积的重量，根本不提体积与重量的比例关系，也不管线性函数与比例系数；杠杆原理由矩的概念形成，也不提反比例，因为那要用到一大堆数学；一般而言，不
+论是量的比、或是杠杆、比例与反比例的概念，从更广的背景来看，物理就是回避函数概念，只是将现成的公式强加给学生。
+\end_layout
+
+\begin_layout Standard
+可以理解物理学家的处境，他不愿意由于学生不熟悉所用的数学而影响了物理。所以很自然地他便降低物理教育中的数学水平，因此数学家不必为物理困扰，物理学家也并不希望从数
+学家那儿得到什么，他们满足于自己能想得起来的一点可怜的数学。这是互不关心的一个恶性循环，长此以往，数学教育与物理教育将形成完全割裂的结局。有些国家的情况没有这么
+糟，但在荷兰，几乎所有的中学数学教师只知道自己做中学生时所学的物理，物理教师也一样。
+\end_layout
+
+\begin_layout Standard
+这是因为到了大学，数学仍然不关心物理应用，物理教育中也继续应用那些特别琐碎的、低级的数学。我想在此强调这一点，因为在大学阶段，这个问题是最容易补救的。没有权威来
+规定我们的大纲与日程，只要通过一年级课程的教师之间的正常接触就可以解决很多问题。
+\end_layout
+
+\begin_layout Standard
+同时还有令人担忧的事实，那就是物理学家在教学中用的是低级的数学，因而学生学的就是非数学化的物理，学生不理解数学在物理中如何应用，根据他的体会，数学与物理是不相关
+的。在这种情况下，被物理学家所拒绝的数学，如果再由数学家提供出来，学生能接受吗？
+\end_layout
+
+\begin_layout Standard
+我的回答是，这就是数学家的任务。因为不能指望物理学家会在物理教学中尽力展示数学的可应用性，数学家对此应该更感兴趣。他应该乐于使学生不仅学数学，也学如何用数学，而
+且不仅用于物理上。我没有提化学，那里的情况更糟。虽然化学课要用的都是非常初等的数学，可是数学在化学中可以说是完全失畋的，因为化学家喜欢用他们自己的数学。
+\end_layout
+
+\begin_layout Standard
+数学有它自身的特点，我想应该从数学的角度以不同的方式来理解综合教育。数学的独特性也许相当于本国语言教学的特性。我建议不是数学与其他学科配合，而是围绕数学来综合，
+即以数学为核心学科，再吸收其他学科的题材，让学生将它作为是用数学来组织的领域。这并不是说其他学科不必要或是降低其价值，而是至少让学生学会用数学可以做什么。
+\end_layout
+
+\begin_layout Standard
+实际上，最初学数学就是采取这样的方式。初等算术教育就是这样结合的，当然不是和自然科学结合，因为对于儿童来说，自然科学尚未形成，因而只能和儿童的各种日常活动相结合
+。这种结合应该尽可能维持下去，特别是一直到儿童逐渐进入自然科学概念并受其影响的时候。事实上，存在那么一个过渡阶段，既非物理，又非化学，亦非生物，自然科学家会愿意
+将这种乐趣奉献给数学。我是指当世界上的各种关系还没能用自然科学来分析时，却可以通过函数作数学的描述。
+\end_layout
+
+\begin_layout Standard
+传统的算术教育所涉及的关系大多是社会生活方面的，如偿还贷款，或将两种质量与价格都不同的果脯混在一起，这些都很难符合儿童所接触的生活现实。再如水盆的塞子以及行军队
+伍的相遇和追及问题等，是否可以借此引进适当的观念，也令人怀疑。但如作为单价、比重这类线性函数的比例因子，或是速度、增长率、周期等，这些都是从观察现实的初步分析中
+抽取出来的现象，也许还很难称为自然科学，但却可以促进科学的分析。这些内容都非常适合于早期的数学教育。
+\end_layout
+
+\begin_layout Section
+算法
+\end_layout
+
+\begin_layout Standard
+形成最早的算术概念的分析是很初步的，它没能导致最初的算法。这里“算法”这个词特别贴切，因为按一种模式进行计算，与现用的含义没有太大区别，它最早可能由花拉子米（A
+l
+\begin_inset space \space{}
+\end_inset
+
+Huwàrizmi）提出。在这以前（有些地方甚至在其后几个世纪还这样）人们用算盘上的算珠进行计算，这是使用具体材料的一种直观的活动。数学家通过观察，了解了计算者
+所应用的规则（例如逢5或逢10的转换），计算者本人却不必知道。因为他处于最低层次，他当然可以升到下一层次，但并非必要。接着算珠就被阿拉伯数字所代替，在没有发明纸
+以前，就写在细沙上。开始时，阿拉伯数字不像算盘上的算珠那么具体，计算者要将算盘上的活动翻译成书写的计算，他必须理解自己在做什么。这样他就进入了一个较高的层次，通
+过建立其规则而创造了笔算。经过长期的发展，算法可以自动化到这样的程度，甚至规则也可以从人们的意识中消失，就像开灯关灯，人们不需要知道开关是如何工作的，开关坏了可
+以由懂得原理的人来修理。同样计算出现了误差也可以由懂得这些数码如何工作的人来纠正。儿童直观地计算
+\begin_inset Formula $8+5$
+\end_inset
+
+，如果给以适当的具体材料，他甚至还可以分解成
+\begin_inset Formula $(8+2)+3$
+\end_inset
+
+。最初这也许是一种无意识的技巧，而一旦成为有意识之时，儿童就达到了下一层次，并从而建立了加法的书写算法；如果最后他将这个算法系统地进行阐述，那就又进到了更高的层
+次。当然也可以教给儿童现成的算法，以便跳过中间的层次，这可能加快学习过程，但也可能使学习过程放慢甚至停顿。除非儿童能够证实
+\begin_inset Formula $(8+2)+3$
+\end_inset
+
+这种分解是合理的，并且感到这是必需的，他才能自动地应用算法。理解算法的最好途径是发现它，没有什么比依靠自己的发现更令人信服。如果不给儿童必需的时间，如果算法是生
+硬地灌输的，随之而来的必然是一个糟糕的反应。创造算法的目的与基本原理，就是要使算法能像例行公事那样应用，但如处理不当就不可能做到。如果将算法作为一《规则教给尚未
+达到这一层次的儿童，那是无效的，他们会犯愚蠢的错误，并且会混淆了不同的算法。
+\end_layout
+
+\begin_layout Standard
+对数学来说算法具有极大的重要性，代数、微积分、概率中都有算法。当前数学的强烈趋势就是盛行算法化。同调、上同调、图和范畴的算法都是最近的创造，将一个领域算法化是更
+容易超越该领域的一种方式。算法不会自己自动化，然而却可以信助于常规使之自动化。这是算法的基本原理，但也正是算法为什么会危及教育的理由。算法对师生双方都有吸引力：
+教师宁愿教算法，因为可以不让学生再创造，也许甚至在学生能够再创造以前就将算法强加给学生；学生也很容易被一个巧妙的算法所迷住，就像被一个游戏迷住一样。举个极端的例
+子来说，有些除法问题难道不是一味着眼于结果有没有余数，而对一个数能否被另一个数整除这一点根本不去过问的吗？作为本身的目的，是否根本不需要发明可怕的分数与括号表示
+？是否有一些根本没用的代数算法进入了儿童的头脑？
+\end_layout
+
+\begin_layout Standard
+我想再次强调：算法是好的，数学中的常规也是不可避免的。某些算法必须根据学生的水平，通过再创造来学习。借助操练以获得算法的自动化是必要的，而且操练也是训练的一部分
+，但不能像过去那样常被过于夸大。革新家们倾向于强调自由探索，尤其在最低层次，我不想说他们过于夸大了这一点：但是我早已表示过，希望能更多地注意向更高层次的转移，在
+更高层次上进行探索。操练的自动化也是一个重要的任务，我将在处理代数语言时再谈。
+\end_layout
+
+\begin_layout Standard
+除了算法以外，我们知道还有所谓模式、策略和战略
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这些与算法相比都不适宜于自动使用。譬如有一个模式：购买商店里各种商品，那就用加法。更一般的一个模式：比例法则。有一个策略：设未知数
+\begin_inset Formula $x$
+\end_inset
+
+（以应用代数算法）。还有一个战略：解一个问题，然后加以推广。
+\end_layout
+
+\begin_layout Standard
+我曾向6岁的儿子提出下述问题：“商店橱窗里有价格为50分的书，25分的玩偶和价格为10分的陀螺，玛丽有一个弗罗林，她进商店买了所需要的东西，还剩下50分，试问她
+买了什么？”我儿子毫不犹豫地回答：“一个玩偶”。问他为什么，他说：“玛丽是女孩，不是吗？”一年以后我再问他同样的问题，他回答说：“一个弗罗林85分。”
+\end_layout
+
+\begin_layout Standard
+这是一个不寻常的问题，因为除了数宇以外，还需要在三种可能的解答中作出决定。当然容易理解当时的模式还不是函数，但情况是不平常的。很遗憾我没有调查如果以“一个儿童”
+代替“玛丽”我儿子会怎样回答，问题中的名宇与性别居然会使他错误地理解。我相信在他那个年龄能够找到正确的结果，但也是以并不恰当的方式。在他的年龄，他知道某些算术模
+式，但却没有掌握一个策略，那就是“在文字题中，人的名字是不相干的”。（在日常生活中名字当然有关。对好学生应该利用这些资料进行训练，例如，给出允许有两个数值解的问
+题，其中一个解由于年龄或性别关系而被取消。）
+\end_layout
+
+\begin_layout Standard
+在我儿于那个年龄出现这种情况是显然的。他已经学过系统的算术，过早地熟悉了一些常规，然后就应用下述策略：“一个问题中如果包含两个以上的数，那就将它们相加。”这一类
+策略在最高层次上也仍然会遇到。在一次群论课上，我定义了群和自同构，再引入内自同构作为一个例子，然后我问是否还存在其他的自同构，一个学生回答说：“是的，因为否则你
+就不用区分内自同构。”
+\end_layout
+
+\begin_layout Standard
+总之，模式、策略与战略都和算法一样是重要的，应该进行培养，但却不能太早，必须到学生能够自己进行再创造的那个时候。
+\end_layout
+
+\begin_layout Section
+奇异
+\end_layout
+
+\begin_layout Standard
+相对于算法、模式、策略与战略而言，还有一类奇异的、个别的经验，如希腊语教育中所谓的罕用语
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+只用过一次的语言。历史是由这类奇异事物组成的，但是人们却不想按这样的方式教。数学中确实有很多东西能够学也应当学，但这是由子它本身的原因，比如出于好奇心，但却不能
+作为一个范例。学这个有什么价值呢？我的意思是，对子教师和未来的数学家，他们可能会欣赏这些充满着联系的数学，但是对于一般的学生，是否值得强迫他学呢？这一内容对他究
+竟有什么价值？仅仅遇到一次，以后又随即忘记？
+\end_layout
+
+\begin_layout Standard
+你知道我说的是什么意思
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+所有几何定理与三角公式的那些证明，学过了，可能下节课再重复一次，然后全忘记。这类东西有可能作为范例来学，但需要重新作很多解释。我看到过一套教科书，二年级学集合论
+，一直不用，直到九年级再用。也见到将有理数作为整数的等价类形式地引入，除了满足教师（或教科书作者）渴望的精确性以外，别无其他目的，它们在整个体系中是完全孤立的。
+还有实数的形式公理体系，它的实质性部分（有界集必存在上界，或戴德金分割）永远也不能运算。这类例子还可列举很多：连续性定义从来不用，因为所有考虑的函数都是连续的；
+黎曼（Rienmann）积分也从来不用，因为实际上求积只是求微的逆。
+\end_layout
+
+\begin_layout Standard
+另一类罕用语是数学蛋糕上的葡萄干，是证明课上的展览品。例如，苏格拉底（Socrates）的遗产，倍平方，
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的无理性，或是欧几里得（Euclid）关于无限个素数的存在性等问题。这些问题通过苏格拉底方法和再创造教学，保证能使之顺利解决。但是课后数学教师反问自己：“它是否
+有助于二次方程解的教学呢？”
+\end_layout
+
+\begin_layout Standard
+这话听起来像是在逗笑，其实却是虽不中，但亦不远了。我只想重申一下反对的理由。示范课之所以被人误解，正由于它们是示范课的缘故。从数学蛋糕上拣葡萄干，这
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+本身
+\end_layout
+
+\end_inset
+
+就是一个不切实际的指令。了解一个题材如何符合于数学教育这一整体，这是合乎要求的，也是必不可少的。有人提出，杰出的片断必须容许其保持孤立，但我认为，正因为是杰出的
+，那就更值得努力将其更深入地结合进数学教育中，而不能使之成为罕用语。这就要求教师必须更为仔细地检查教学内容。下面我将通过三个例子以表明它们的教学法是如何受到两千
+年传统的牵累的。
+\end_layout
+
+\begin_layout Standard
+我从10岁的儿子那里学到了门诺（Meno）问题。他告诉我，他会做一些割补的活动，并且漫不经心地说：“我要做一个2平方毫米的方孔”。我即刻进入了苏格拉底的角色，问
+他：“你怎么做？”当然，我想他会作出一个普通的错误回答，但是他的回答却是：“做一个边长为
+\begin_inset Formula $1\cfrac{1}{2}$
+\end_inset
+
+毫米的正方形。”我困惑地问：“为什么？”我想他的回答一定是求
+\begin_inset Formula $1\cfrac{1}{2}$
+\end_inset
+
+的平方。可事实却不是，这个头脑中映像极为逼真的孩子，回答说：“我拿两个边长为
+\begin_inset Formula $1$
+\end_inset
+
+毫米的正方形，将其中一个分割成四个相等的长条，将其粘到另一个的四条边上。”我拉长了脸，他也犹豫不决。实际上这自然是错的，因为每个角上都缺了点什么。我告诉他应该以
+另外的方式将正方形割成相等的部分，但不能割成矩形。要让学生发现用对角线进行分割并不容易，但无论如何这个粘贴法比门诺的方法要更为自然一些。
+\end_layout
+
+\begin_layout Standard
+接着，可以从两个方向对毕达哥拉斯（Pythagoras）定理继续探索，系统地研究割补术，或是转入代数，讨论
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的系统迫近，其中是最粗糙的一个近似值，还可以讨论连分数，边和对角线数，以及代数方程的数值解。这样可以使门诺问题不致孤立。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的无理性可以用老的方法，令
+\begin_inset Formula $\sqrt{2}=p/q$
+\end_inset
+
+（既约分数），平方得
+\begin_inset Formula $p^{2}=2a^{2}$
+\end_inset
+
+，除以
+\begin_inset Formula $2$
+\end_inset
+
+就得出矛盾。问题的这种形式化从教学法角度看是错误的，因为至少这是教学过程中第一次出现无理数，从学习过程的层次来看，在形式化之前还应有一个层次，问题的正确提法应该
+是：作出
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+。意思是先应有个实验结果，而不是一个先验的事先建立好的陈述，这里不可能产生顿悟。这是一个局部问题，也是应该探索的一个领域。此外，作出
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+是什么意思？是否已经作出了？因为我们已经有了算法表达式“
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+”。
+\end_layout
+
+\begin_layout Standard
+更好的方法是这样做，要求解方程
+\begin_inset Formula $x^{3}+3x^{2}+x-4=0$
+\end_inset
+
+，从图象看出方程有解，但不是整数，（在
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的情况下，解的存在与整数解的不存在更为明显，那是个有利条件。）于是试以
+\begin_inset Formula $9/10$
+\end_inset
+
+，稍大，也许是
+\begin_inset Formula $8/10$
+\end_inset
+
+？又太小。从中得到启发要找接近
+\begin_inset Formula $9/10$
+\end_inset
+
+又不太复杂的分数，我们能找到的最好的是
+\begin_inset Formula $8/9$
+\end_inset
+
+，又太小。作了这些类似的准备以后再试
+\begin_inset Formula $p/q$
+\end_inset
+
+（既约），乘以
+\begin_inset Formula $q^{3}$
+\end_inset
+
+，得到
+\begin_inset Formula $p^{3}+3p^{2}q+pq^{2}-4q^{3}=0$
+\end_inset
+
+，在
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的无理性的传统证明中，除以
+\begin_inset Formula $2$
+\end_inset
+
+其实是完全不相干的，只要导出矛盾，即
+\begin_inset Formula $q$
+\end_inset
+
+？中必须包含一个素数因子，于是得出
+\begin_inset Formula $q=1$
+\end_inset
+
+，由此又得出了一个方法可以系统地求出满足方程的整数
+\begin_inset Formula $p$
+\end_inset
+
+。另一方而还可以继续系统逼近，如霍纳（Horner）方法等，这就是一个领域的探索。
+\end_layout
+
+\begin_layout Standard
+最后是关于无限多个素数的存在性，传统的方法是巳知素数
+\begin_inset Formula $p_{1},\cdots,p_{k}$
+\end_inset
+
+，教师由此直接得出
+\begin_inset Formula $p_{1}\cdots p_{k}+1$
+\end_inset
+
+，在试验中，我从未看见过这种解答，往往是其他解法。首先问题的形式应该改成：系统地找出素数，至于是否有无限多，那只能在较高层次上讨论。开始当然用自然数序列，根据埃
+拉托斯散（Eratosthenes）筛选法，
+\begin_inset Formula $2$
+\end_inset
+
+是素数，记下，划掉
+\begin_inset Formula $2$
+\end_inset
+
+的所有倍数，留下哪些数呢？都是
+\begin_inset Formula $2n+1$
+\end_inset
+
+型的数。下一个素数，记下
+\begin_inset Formula $3$
+\end_inset
+
+，划掉
+\begin_inset Formula $3$
+\end_inset
+
+的倍数，又留下哪些数？
+\begin_inset Formula $2\cdot3\cdot m+1$
+\end_inset
+
+与
+\begin_inset Formula $2\cdot3\cdot m+5$
+\end_inset
+
+型的数，其中哪些又不能被
+\begin_inset Formula $5$
+\end_inset
+
+整除？只有
+\begin_inset Formula $2\cdot3\cdot m+5$
+\end_inset
+
+型中
+\begin_inset Formula $m$
+\end_inset
+
+不是
+\begin_inset Formula $3$
+\end_inset
+
+的倍数的那些数适合。由此即可顺利地得到数
+\begin_inset Formula $p_{1}\cdots p_{j}+p_{j+1}\cdots p_{k}$
+\end_inset
+
+，它不能被
+\begin_inset Formula $p_{1},\cdots,p_{k}$
+\end_inset
+
+整除，这样的数必然有新的素数因子，于是最终导致无限多个。至于
+\begin_inset Formula $p_{1}\cdots p_{k}+1$
+\end_inset
+
+这一形式却并不明显。更系统的方法还可以打开其他的思路：
+\end_layout
+
+\begin_layout Standard
+如何找出所有不能被
+\begin_inset Formula $2$
+\end_inset
+
+，
+\begin_inset Formula $3$
+\end_inset
+
+，
+\begin_inset Formula $5$
+\end_inset
+
+整除的数？其形式为
+\begin_inset Formula $2\cdot3\cdot5\cdot m+r$
+\end_inset
+
+，其中
+\begin_inset Formula $r=1,7,11,13,17,19,23,29$
+\end_inset
+
+，即
+\begin_inset Formula $1\leqslant r\leqslant30$
+\end_inset
+
+，且
+\begin_inset Formula $r$
+\end_inset
+
+与
+\begin_inset Formula $30$
+\end_inset
+
+互素。于是形成了模
+\begin_inset Formula $30$
+\end_inset
+
+的互素的余数概念，总共有多少？这就导致欧拉（Euler）函数，原问题也就成为整除性问题领域的一部分。
+\end_layout
+
+\begin_layout Standard
+由此可以得出一个教训，即涉及教学法的问题不应该太简单、太特殊地形成，也不应该太孤立地阐述。
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,2653 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+今日的数学
+\end_layout
+
+\begin_layout Section
+今日是什么
+\end_layout
+
+\begin_layout Standard
+“今日”从何时开始，这不容易说清楚。如果在数学家当中做一次调查，那么占多数的答案也许是：“由布尔巴基（Bourbaki）开始。”虽然布尔巴基圈子里的人未必就同意
+这个说法。另一个大家熟悉的年代是1870年，它是以实数的近代理论和若当（Jordan）的《置换论》这部最早的群论著作为标志的。但以1870年为界有个缺点，那就是
+它距离群论的诞生已有半个世纪，更为欠缺的是，像黎曼（Riemann）这样的现代数学家也刚逝世。
+\end_layout
+
+\begin_layout Standard
+不久前，在一次数学讨论会上，一位青年人在他的报告中说：“这可从石器时代的一条定理得到……”。如果我没有搞错的话，他所指的定理才不过是20年前的事。一位年长的听众
+便打断了他的话：“你指的是新石器时代吗？”事实上，石器时代何时结束，在地球上各个地区显然并不相同，他那么说似乎直到现在还有人生活在石器时代似的。类似地，在数学里
+，许多世代
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+前天、今天和明天
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+会同时并存。人们对新事物接受的快慢程度各不相同，年轻人比年长者更易接受新事物。
+\end_layout
+
+\begin_layout Standard
+按一种常被引述的说法，像抽象代数、拓扑、测度论、泛函分析、希尔伯特（Hilbert）空间等学科在第二次世界大战之前没有学校开设。当然这种说法是过分夸张了，提出这
+种说法的人显然是只就他所知道的大学而论的，但引述的人把他的话引申开去了。我是在1930年取得了博士学位的，当时除了抽象代数以外，我听过由著名数学家讲授的所有这些
+课程。当我在1930年进入另一所大学时，我又学了抽象代数，但那里却不开泛函分析。在那时，测度论和拓扑学已经使用着铅印的课本了。
+\end_layout
+
+\begin_layout Standard
+的确，在1930年前，并非所有的大学，甚至也不是多数大学都讲授这些题材，更不必说像数学基础、李（Lie）群这样的课了（这两门课在我读的大学里是有的），但这不是主
+要的，问题不在于这些课程开不开，而在于怎样开。从今天大量的或多或少雷同的教科书中所见到的
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+线性代数代替了老的解析几何与行列式；抽象代数代替了传统的复数域上的代数；微积分受到了泛函分析的影响等等
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这样一类新的课程大致是1935年开始开设的，约在1950年，这些新课程就在大学教育中占了上风，至迟在1935年，它们已在大学里普及。
+\end_layout
+
+\begin_layout Section
+方式的改变
+\end_layout
+
+\begin_layout Standard
+应该说，大学数学系与物理系一年级学生所需要的数学基础知识在内容上都不是新的，只是新在表达方式上。为要了解数学方式在这几十年的变化，可以拿本世纪初所写的一本书或一
+篇文章逐字逐句地读，并尝试用今天的语言把它表述出来就会知道的。诚然，那时也有一些书
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+例如1914年豪斯道夫（Hausdortff）写的《集合论》
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+读起来就像是昨天才写成的，但它们是新方式的传播者。只要拿豪斯道夫的书同申弗利斯（Schoenflies）写的同样内容的书《通论》（Berichte）作一比较，就
+会知道豪斯道夫的书的先进性了。自然，方式改变的历史至今尚未终结。这种可以称之为形式化（formalizing）的新倾向也许只是才开始。到本世纪末，读起本世纪初所
+写的数学文献来可能像读古文一样。
+\end_layout
+
+\begin_layout Standard
+在这段时期里，进行数学活动与创作的人中，很少人会自觉地意识到这种方式的改变，但是，如果他们拿自己过去的著作同他们今天的著作作一比较，就会发现其中有了很大的变化。
+我记得我在大学读书时，在一堂数学课中，一位学员指出，课中的某些定理可以用群论去解释和证明，对此，教师摇摇头说：“它们之间毫无关系。”而在今天，在证明这些性质时，
+没有人不用群论。直到我读完大学以后才知道伽罗华域
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+以前的人是这样称呼有限域的
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+原来是体（körper）。我读一年级时，有三门不同的课程都讲线性相关与线性无关的概念，讲的是不同的内容，用着三种不同的术语，这使我感到震惊，但不敢相信它们会是相
+同的东西。当我记起坐标变换有时由于某种神秘的原因而变为“逆步”
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+设
+\begin_inset Formula $f$
+\end_inset
+
+为向量空间
+\begin_inset Formula $E$
+\end_inset
+
+的自同构，则
+\begin_inset Formula $f$
+\end_inset
+
+的逆
+\begin_inset Formula $f^{-1}$
+\end_inset
+
+的转置叫做
+\begin_inset Formula $f$
+\end_inset
+
+的逆步
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+编译者注。
+\end_layout
+
+\end_inset
+
+时，感到像做了一场恶梦似的。
+\end_layout
+
+\begin_layout Section
+方式的改变
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+变量
+\end_layout
+
+\begin_layout Standard
+我记不得我是什么时候第一次了解到以下的基本事实：要给出命题，必须对命题形式中的变量加以约束；还有，有存在性的量词与普通的量词的区别，你应该经常明确地说明你指的是
+哪一种。我不相信，在我开始读数学的年代里，就有这样的教师，他对写在黑板上的各种变元的约束问题作了些比口头解释还多的事。而学生喜欢专心抄黑板，不去注意教师的讲解，
+所以笔记通常很糟。在日常用语中，人们对量词的类别往往不予注意，因为这从上下文中就可知道的。例如：“我买了一辆汽车”中的“一”是存在性的量词（有那么一辆汽车，我买
+了它）；而在“一辆汽车很贵”中的“一”却是普通的量词了（对所有汽车而言，一辆汽车是很贵的），因为没有人相信我会占有所有的汽车，或以为我在断言只有一辆汽车是很贵的
+。但是，如果学生只抄黑板而没有记下教师口头所说的量词的类型，那么他们凭藉上下文进行推论的根据有时就不存在了。在我开始教微积分时，对在黑板上用文字写出极限与连续的
+定义，感到很头痛，只是很久以后，我才懂得：每当使用或证明一个序列的收敛性或一个函数的连续性时，都应当在黑板上写下这样祈祷式的文字：“对每个……，存在一个……，使
+得对所有的……，每当……，则……。”当然，半个世纪以来，数学家们就熟悉了这种模式的，但是40年前，在任何数学文献中，都没有清楚地写过这种模式。
+\end_layout
+
+\begin_layout Standard
+在数学中，像上面所说的情形到处可见。一种清晰的表述有时只在长时期的实践之后才得到，而在此之前，学生对他自己一知半解的东西，只好从教师的表情中去猜测。
+\end_layout
+
+\begin_layout Standard
+由于方式的改变，现在人们自觉地使用这些模式了。1938年，我在微积分课程中，突然想起要把连续的否定形式详尽地写出来，先用
+\begin_inset Formula $\varepsilon-\delta$
+\end_inset
+
+定义，后用极限定义，并论证它们的等价性。我回忆起这件事就像发生在昨天，因为那是我第一次意识到强调思维模式在教学法方面的价值。我相信自那时起，不少数学家也有这种感
+觉。他们也许也认为使用逻辑符号能减少在黑板上书写的麻烦，但是他们在数学课上又不敢炫耀得像一个发疯的逻辑学家那样。而现在的式样，不只是要求把逻辑模式显化，而且要求
+直接使用逻辑符号了。当然，我应补充说，在黑板上写出的逻辑材料大部分几乎不适宜于印刷（印刷出来也不是坏事）。
+\end_layout
+
+\begin_layout Standard
+刚才讲了关于变元约束的方式变化，现在也许是来讲一种术语的表达方式的时候了，直到30年代它还相当流行，但在近几十年内逐渐消失了。假设那时有篇文章开头说：“设
+\begin_inset Formula $R$
+\end_inset
+
+是一个拓扑空间”，或“设
+\begin_inset Formula $G$
+\end_inset
+
+是一个群”，或“设
+\begin_inset Formula $f$
+\end_inset
+
+是一个连续函数”或“设
+\begin_inset Formula $P$
+\end_inset
+
+是射影平面上的点”，那么稍后，当作者想谈及一个拓扑空间时，他会说：一个当他想谈及一个群时，他会说一个“
+\begin_inset Formula $P$
+\end_inset
+
+”；当他想谈及射影平面上的一点时，他会说一个“
+\begin_inset Formula $P$
+\end_inset
+
+”。他甚至会这样写：“设
+\begin_inset Formula $S$
+\end_inset
+
+是一个
+\begin_inset Formula $R$
+\end_inset
+
+”，或“设
+\begin_inset Formula $R_{1},\cdots,R_{n}$
+\end_inset
+
+为某几个
+\begin_inset Formula $R$
+\end_inset
+
+”。这样，
+\begin_inset Formula $R$
+\end_inset
+
+便由一个空间转化成一类空间，其他情况也相同。一方面这多少受了日常用语的自然影响，例如在日常用语中，“人”既可以表示单个的个人，又可以表示整个人类。这也许受了传统
+逻辑中像“一切
+\begin_inset Formula $S$
+\end_inset
+
+是
+\begin_inset Formula $P$
+\end_inset
+
+”这样的命题的影响。但是从另一角度看，这也是一种因循，而只要我们懒得去为一些重要的基础概念
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+诸如拓扑空间集、群集、连续函数集、作为点集的射影平面集等等引进简捷的名称或适当的缩写，这种因循的现象也就会继续存在下去。这种因循的现象在口头上还是常见的，但近年
+来在书面上则已少见了。
+\end_layout
+
+\begin_layout Section
+方式的改变
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+函数
+\end_layout
+
+\begin_layout Standard
+我不记得是什么时候，才知道函数不是指
+\begin_inset Formula $f(x)$
+\end_inset
+
+而是指
+\begin_inset Formula $f$
+\end_inset
+
+。估计那是在1935年吧。然而即使我理解了这一点，我却不敢这样表述它。有一段时间，我甚至写：“映射
+\begin_inset Formula $fX\subset Y$
+\end_inset
+
+意思是指映射
+\begin_inset Formula $f$
+\end_inset
+
+：把
+\begin_inset Formula $X$
+\end_inset
+
+映入
+\begin_inset Formula $Y$
+\end_inset
+
+，看起来好像是装模作样。后来，许多年间，我曾指责“函数
+\begin_inset Formula $f(x)$
+\end_inset
+
+”的说法，并不准我的学生们这样说，我却仍然写“序列
+\begin_inset Formula $a_{n}$
+\end_inset
+
+”。
+\end_layout
+
+\begin_layout Standard
+一些固执的人在终于改变了看法之后才认识到这种革新是那样地不可避免。为什么在毫不碍事时也不应随意地用
+\begin_inset Formula $f$
+\end_inset
+
+或
+\begin_inset Formula $f(x)$
+\end_inset
+
+来表示函数呢？当你认为毫不碍事时，你会对别人的那种写法觉得是在演戏法。在只是讨论一个函数或二个函数，或给出的函数是显式的函数组时，怎样写的确是毫无关系的。但是怎
+样表达某个函数属于一个函数集
+\begin_inset Formula $A$
+\end_inset
+
+呢？可以写成
+\begin_inset Formula $f(x)\in A$
+\end_inset
+
+吗？不能！因为它有另外的意思，它表示的不是函数属于
+\begin_inset Formula $A$
+\end_inset
+
+，而表示函数值属于
+\begin_inset Formula $A$
+\end_inset
+
+。当然，从上下文或许也能看出所表述的意思是什么，但这不能作为依据。
+\end_layout
+
+\begin_layout Standard
+如果承认这一点，就不容许再用
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $\begin{array}{c}
+\phantom{\text{或}}\\
+\text{或}
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{rcl}
+S(f(x)) & = & \int_{0}^{1}K(x,y)f(y)dy\\
+T_{a}(f(x)) & = & f(x+a)\text{。}
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+来表示积分算子
+\begin_inset Formula $S$
+\end_inset
+
+或平移算子
+\begin_inset Formula $T_{a}$
+\end_inset
+
+了。它们应该表示为
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $\begin{array}{c}
+\phantom{\text{或}}\\
+\text{或}
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{rcl}
+(Sf)(x) & = & \int_{0}^{1}K(x,y)f(y)dy\\
+(T_{a}f)(x)) & = & f(x+a)\text{。}
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+的确，这并非小事。泛函分析对阐明记号起了许多作用，如果研究的主要对象是函数集合与函数空间，研究这样的一些集合与集合之间的映射，而这些集合又组成空间，这些空间与空
+间之间又进行映射，等等，那么竟然相信上下文能表明你所指的意思，那就太天真了。随着研究对象的抽象性的提高，需要确切的表达方式就越来越不可避免了。
+\end_layout
+
+\begin_layout Section
+方式的改变
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+句法结构的前后不连贯
+\end_layout
+
+\begin_layout Standard
+甚至还有更微妙的东西。让我们分析一下下面众所周知的定理证明。
+\end_layout
+
+\begin_layout Standard
+定理：
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+是无理数。
+\end_layout
+
+\begin_layout Standard
+证明：
+\end_layout
+
+\begin_layout Standard
+（1）假设（将被否定）有整数
+\begin_inset Formula $p$
+\end_inset
+
+、
+\begin_inset Formula $q$
+\end_inset
+
+，使
+\begin_inset Formula $p/q=\sqrt{2}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+（2）可设
+\begin_inset Formula $p$
+\end_inset
+
+和
+\begin_inset Formula $q$
+\end_inset
+
+互质。
+\end_layout
+
+\begin_layout Standard
+（3）将（1）平方，得
+\begin_inset Formula $p^{2}/q^{2}=2$
+\end_inset
+
+，从而
+\end_layout
+
+\begin_layout Standard
+（4）
+\begin_inset Formula $p^{2}=2q^{2}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+（5）
+\begin_inset Formula $2q^{2}$
+\end_inset
+
+是偶数，因此
+\begin_inset Formula $p^{2}$
+\end_inset
+
+是偶数，从而
+\begin_inset Formula $p$
+\end_inset
+
+是偶数。
+\end_layout
+
+\begin_layout Standard
+（6）令
+\begin_inset Formula $p=2p'$
+\end_inset
+
+对于某个整数
+\begin_inset Formula $p'$
+\end_inset
+
+成立。
+\end_layout
+
+\begin_layout Standard
+（7）
+\begin_inset Formula $2q^{2}=4p'^{2}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+（8）
+\begin_inset Formula $q^{2}=2p'^{2}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+（9）
+\begin_inset Formula $q^{2}$
+\end_inset
+
+是偶数，从而
+\begin_inset Formula $q$
+\end_inset
+
+是偶数，这是矛盾。
+\end_layout
+
+\begin_layout Standard
+在（1）中，变量
+\begin_inset Formula $p$
+\end_inset
+
+、
+\begin_inset Formula $q$
+\end_inset
+
+被一个存在性量词所约束，在（2）中，它们却变成自由的了，但显然它们要受到条件（1）的限制，而这在文中未曾提及。在文中，（1）中之
+\begin_inset Formula $p$
+\end_inset
+
+、
+\begin_inset Formula $q$
+\end_inset
+
+与（2）中之
+\begin_inset Formula $p$
+\end_inset
+
+、
+\begin_inset Formula $q$
+\end_inset
+
+是没有联系的；在（1）中
+\begin_inset Formula $p$
+\end_inset
+
+、
+\begin_inset Formula $q$
+\end_inset
+
+是受约束的，它们可以用别的两个字母代替，但如果我们真的这样做，荒谬就变得明显了。在（6）中也有类似的情况，变量
+\begin_inset Formula $p'$
+\end_inset
+
+是被约束的，因此它在（8）中的出现和在（6）中的出现是无关的。
+\end_layout
+
+\begin_layout Standard
+这是吹毛求疵吗？是的，到现在还是，也许明天人们还会以别的方式提出同样的问题的。即使在今天，就有这样一些人，他们会因写出上面例子中的那种证明而感到羞愧。但是，只要
+别人还用这种老的方式写时，他们也就继续这样做，因为多数人都不愿炫耀自己。然而十年，二十年以后也许没人再敢于写如此含糊的东西了。虽然上述方式的谬误很容易改过来，但
+它却如此顽固，这真令人惊奇。其实，我们要做的唯一修饰只是在（1）的末了添上“我们称它们为
+\begin_inset Formula $p$
+\end_inset
+
+、
+\begin_inset Formula $q$
+\end_inset
+
+就可以了”。对于（6）也如此。
+\end_layout
+
+\begin_layout Standard
+另一个在前面提到过而现在已经消失的马虎事是：“映射
+\begin_inset Formula $fR\subset S$
+\end_inset
+
+，它是指映射
+\begin_inset Formula $f$
+\end_inset
+
+把
+\begin_inset Formula $R$
+\end_inset
+
+映入
+\begin_inset Formula $S$
+\end_inset
+
+，现在表述这事的方式是：“映射
+\begin_inset Formula $f$
+\end_inset
+
+：
+\begin_inset Formula $R\rightarrow S$
+\end_inset
+
+”。这种表达方式虽然已经好得多了，但是它仍说明了人们对老的表达方式错在那里还不清楚，否则要求澄清的程度还要强烈些。以下通过几个例子来说明我所指的是什么。例：
+\end_layout
+
+\begin_layout Standard
+设
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+、
+\begin_inset Formula $C$
+\end_inset
+
+、
+\begin_inset Formula $D$
+\end_inset
+
+、
+\begin_inset Formula $E$
+\end_inset
+
+为一般位置上的点，平面
+\begin_inset Formula $\alpha=ABC$
+\end_inset
+
+与直线
+\begin_inset Formula $l=DE$
+\end_inset
+
+交于
+\begin_inset Formula $\alpha\times l=F$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+我选
+\begin_inset Formula $x\notin M$
+\end_inset
+
+；
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z=X\otimes Y$
+\end_inset
+
+称为
+\begin_inset Formula $X$
+\end_inset
+
+与
+\begin_inset Formula $Y$
+\end_inset
+
+的张量积；
+\end_layout
+
+\begin_layout Standard
+序列
+\begin_inset Formula $a_{n}=\cfrac{1}{n^{2}+1}$
+\end_inset
+
+收敛。
+\begin_inset Newline newline
+\end_inset
+
+试问：问题在哪里呢？“
+\begin_inset Formula $fR\subset S$
+\end_inset
+
+”，“
+\begin_inset Formula $\alpha=ABC$
+\end_inset
+
+”，“
+\begin_inset Formula $l=DE$
+\end_inset
+
+”，“
+\begin_inset Formula $\alpha\times l=F$
+\end_inset
+
+”，“
+\begin_inset Formula $x\notin M$
+\end_inset
+
+”，“
+\begin_inset Formula $a_{n}=\cfrac{1}{n^{2}+1}$
+\end_inset
+
+”它们在文法上称为句子，在逻辑上称为命题。如果所讲的是“映射……”、“平面……”、“直线……”，则人们对引号内的三个点的地方，期望着见到映射、平面、直线的名字；
+在“我选”的后面，人们期望着见到的是一个受词。但在上述的各例中所见到的却是一个句子。自然，意思是清楚的，即：在
+\begin_inset Formula $f$
+\end_inset
+
+、
+\begin_inset Formula $\alpha$
+\end_inset
+
+、
+\begin_inset Formula $l$
+\end_inset
+
+、
+\begin_inset Formula $x$
+\end_inset
+
+的后面应加标点，或添括号。就是说应该写作：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="1">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“映射
+\begin_inset Formula $fR\subset S$
+\end_inset
+
+”，
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“平面
+\begin_inset Formula $\alpha=ABC$
+\end_inset
+
+”或“平面
+\begin_inset Formula $\alpha(\alpha=ABC)$
+\end_inset
+
+”，
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“直线
+\begin_inset Formula $l=DE$
+\end_inset
+
+”或“直线
+\begin_inset Formula $l(l=DE)$
+\end_inset
+
+”，
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“我选一点
+\begin_inset Formula $x\notin M$
+\end_inset
+
+”
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+在其他类似的例子中也都如此。
+\end_layout
+
+\begin_layout Standard
+对于映射，已经引入了比较清楚的记号，但在其他情况，马虎现象依然盛行，我相信，许多人是知道这一点的，但他们不愿小题大作。也许十年、二十年后这种杂乱情况会得到澄清。
+\end_layout
+
+\begin_layout Standard
+在上面所引述的例子里，新方式没有战胜老方式。现在有很多人在谈及“现代数学”时充满着自信，好像现在的一切问题都已解决了，直到世界末日，一切都光辉灿烂，连数学的语言
+表达也不例外。
+\end_layout
+
+\begin_layout Standard
+30年前，以下的写法是一种好的方式：
+\end_layout
+
+\begin_layout Standard
+设
+\begin_inset Formula $R$
+\end_inset
+
+与
+\begin_inset Formula $S$
+\end_inset
+
+为紧空间，又设
+\begin_inset Formula $R$
+\end_inset
+
+一对一地连续映射在
+\begin_inset Formula $S$
+\end_inset
+
+上，则
+\begin_inset Formula $R$
+\end_inset
+
+与
+\begin_inset Formula $S$
+\end_inset
+
+同胚。
+\end_layout
+
+\begin_layout Standard
+这是对的，但它比写的人想要证明的或想要表达的意思要少些。当然，
+\begin_inset Formula $R$
+\end_inset
+
+与
+\begin_inset Formula $S$
+\end_inset
+
+是同胚的，但是它们的同胚是由那假设存在着的由
+\begin_inset Formula $R$
+\end_inset
+
+到S上的连续映射所表明的。就是说，写的人要表达的意思是：
+\end_layout
+
+\begin_layout Standard
+设
+\begin_inset Formula $R$
+\end_inset
+
+与
+\begin_inset Formula $S$
+\end_inset
+
+是紧空间，又设
+\begin_inset Formula $f$
+\end_inset
+
+是从
+\begin_inset Formula $R$
+\end_inset
+
+到
+\begin_inset Formula $S$
+\end_inset
+
+上的连续1-1映射，则
+\begin_inset Formula $f$
+\end_inset
+
+是一个同胚对应。
+\end_layout
+
+\begin_layout Standard
+这说明当他引述那定理并加以应用时，他是按他所想的而不是按他所叙述的意思去用的。
+\end_layout
+
+\begin_layout Section
+方式的改变
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+会吠的就是狗
+\end_layout
+
+\begin_layout Standard
+群通常定义如下：
+\end_layout
+
+\begin_layout Standard
+“一个集合
+\begin_inset Formula $G$
+\end_inset
+
+在其中定义了乘法，使得
+\end_layout
+
+\begin_layout Standard
+（1）
+\begin_inset Formula $(ab)c=a(bc)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+（2）
+\begin_inset Formula $ae=ea$
+\end_inset
+
+对某个
+\begin_inset Formula $e$
+\end_inset
+
+成立，
+\end_layout
+
+\begin_layout Standard
+（3）对每个
+\begin_inset Formula $a$
+\end_inset
+
+，存在一个
+\begin_inset Formula $a^{-1}$
+\end_inset
+
+，使
+\begin_inset Formula $aa^{-1}=a^{-1}a=e$
+\end_inset
+
+。”
+\end_layout
+
+\begin_layout Standard
+在这个定义中两次出现“定义”一词，而两处意义不同，这会令人费解；一个定义可以用来作为另一个定义的工具，也显得奇怪。实际上，第二个“定义”只是说在以中存在着一种乘
+法而已。但用“定义”一词使人们以为这乘法可以任意选择。因此，我们应该说：“一集合
+\begin_inset Formula $G$
+\end_inset
+
+，在其中存在着乘法，使得……。”现在变得清楚些了，但还不能令人满意。“乘法”是以约束变元出现的，但如果需要，如何称呼它呢？好！称之为
+\begin_inset Formula $M$
+\end_inset
+
+吧。
+\end_layout
+
+\begin_layout Standard
+“一个集合
+\begin_inset Formula $G$
+\end_inset
+
+，具有乘法
+\begin_inset Formula $M$
+\end_inset
+
+”。
+\end_layout
+
+\begin_layout Standard
+但什么是乘法？显然它是由G的序偶到G的一种映射，我把它写作：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $M\in(G,G)\rightarrow G$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+于是，一个群由两件东西组成，一个集合
+\begin_inset Formula $G$
+\end_inset
+
+和一个乘法
+\begin_inset Formula $M$
+\end_inset
+
+，所以一个群是一对
+\begin_inset Formula $(G,M)$
+\end_inset
+
+。这样我们必须老老实实用
+\begin_inset Formula $M$
+\end_inset
+
+表示乘积，从而把群的定义写为：
+\end_layout
+
+\begin_layout Standard
+“一个群是一集合
+\begin_inset Formula $G$
+\end_inset
+
+与一映射
+\begin_inset Formula $M\in(G,G)\rightarrow G$
+\end_inset
+
+的一对
+\begin_inset Formula $（G,M）$
+\end_inset
+
+，使得
+\end_layout
+
+\begin_layout Standard
+（1）
+\begin_inset Formula $M(M(a,b),c)=M(a,M(b,c))$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+（2）有
+\begin_inset Formula $e\in G$
+\end_inset
+
+，使
+\begin_inset Formula $M(a,e)=M(e,a)=a$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+（3）对每个
+\begin_inset Formula $a\in G$
+\end_inset
+
+，有一个
+\begin_inset Formula $a^{-1}\in G$
+\end_inset
+
+使
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $M(a,a^{-1})=M(a^{-1},a)=e$
+\end_inset
+
+”。
+\end_layout
+
+\begin_layout Standard
+\noindent
+但这还不对，因为这里还有一个存在性约束变元出现，即（2）中之“
+\begin_inset Formula $e$
+\end_inset
+
+”它在（3）中表现为常量，并反复地被引述。此外，对
+\begin_inset Formula $a^{-1}$
+\end_inset
+
+也显得陌生，指数
+\begin_inset Formula $-1$
+\end_inset
+
+究竟是什么类型的记号呢？
+\end_layout
+
+\begin_layout Standard
+最简单的改述方法是把特殊元素
+\begin_inset Formula $e$
+\end_inset
+
+以及“……的逆”这个函数放入群的原始事项中。这样，群的定义就成为
+\end_layout
+
+\begin_layout Standard
+“一个群是一个集合
+\begin_inset Formula $G$
+\end_inset
+
+、一个映射
+\begin_inset Formula $M\in(G,G)\rightarrow G)$
+\end_inset
+
+、一个
+\begin_inset Formula $e(\in G)$
+\end_inset
+
+、一个映射
+\begin_inset Formula $I(\in G\rightarrow G)$
+\end_inset
+
+的四元组，使得：当
+\begin_inset Formula $a,b,c\in G$
+\end_inset
+
+，则
+\end_layout
+
+\begin_layout Standard
+（1）
+\begin_inset Formula $M(M(a,b),c)=M(a,M(b,c))$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+（2）
+\begin_inset Formula $M(a,e)=M(e,a)=a$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+（3）
+\begin_inset Formula $M(a,Ia)=M(Ia,a)=e$
+\end_inset
+
+。”
+\end_layout
+
+\begin_layout Standard
+这样定义以后，一切顾虑都消失了，你就可以放心地写“群
+\begin_inset Formula $G$
+\end_inset
+
+”、
+\begin_inset Formula $(ab)c$
+\end_inset
+
+等等，并按老的方式做一切事。的确，彻底地分析了情况，并按此模式去给出一些数学对象的定义，这是有益的。
+\end_layout
+
+\begin_layout Standard
+日常用语是满足不了数学的精巧要求的。例如“交换群”与“拓扑群”虽具有同样的语法模式，都是用一个修饰词说明一个名词，但两种说明却具有完全不同的特性。交换群是满足
+\begin_inset Formula $ab=ba$
+\end_inset
+
+的一个群，交换群之集合是群之集合的子集合。而拓扑群却不是一个群，它是以
+\begin_inset Formula $G$
+\end_inset
+
+上的一个群和
+\begin_inset Formula $G$
+\end_inset
+
+上的一个拓扑的二元组，并且这二元必须协调，即
+\begin_inset Formula $M$
+\end_inset
+
+和
+\begin_inset Formula $I$
+\end_inset
+
+必须在
+\begin_inset Formula $G$
+\end_inset
+
+的拓扑中连续。在拓扑群中忘其拓扑得群；忘其另一半得拓扑空间。
+\end_layout
+
+\begin_layout Standard
+同样，有限域是域，但有序域不是域而是由一个域及其基础集上的一个序所组成的一个二元组；一个阿基米德（Archimedes）有序域却是一个有序域。一个欧氏向量空间不
+是一类特殊的向量空间，而是具有欧氏度量的向量空间。一个定向的欧氏向量空间也不是一类特殊的欧氏向量空间，而是附加了一个定向的欧氏向量空间，但述语“
+\begin_inset Formula $n$
+\end_inset
+
+维”却永远只是限定词。数学用语的这种区别性，显得微妙，但却是基本的，在日常用语中，不易找到和它类似的东西。
+\end_layout
+
+\begin_layout Standard
+一种类似的情况也长久不为人们所理解，即：实数可看作复数，但反不过来；然而一个复向量空间同时是一个实向量空间，但也反不过来
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+因为，一个向量空间如果允许在其中同复数相乘，那么当然也允许在其中同实数相乘，但（一般地）是反不过来的。如果
+\begin_inset Formula $R$
+\end_inset
+
+作为复向量空间是有限维，那么作为实向量空间时，它的维数加倍。然而，如果在一个实向量空间
+\begin_inset Formula $R$
+\end_inset
+
+中选定了一个基底后，则可用一种自然的方法把
+\begin_inset Formula $R$
+\end_inset
+
+拓广为复向量空间（或者更好地说是
+\begin_inset Formula $R$
+\end_inset
+
+与其基底合成的二元组可加拓广），唯一要做的事是做出基底元素的一切复的线性组合。
+\end_layout
+
+\begin_layout Standard
+上述现象的背后存在着一个简单的事实，即：由
+\begin_inset Formula $M$
+\end_inset
+
+到实数的函数也是由
+\begin_inset Formula $M$
+\end_inset
+
+到复数的函数，但反之不然；然而，由复数到
+\begin_inset Formula $M$
+\end_inset
+
+的函数可以看作由实数到
+\begin_inset Formula $M$
+\end_inset
+
+的函数，那就是通过限制来实现，但这反不过来。
+\end_layout
+
+\begin_layout Standard
+大约从1930年起，各种独立地形成与发展的抽象结构开始系统地互相结合，由此而产生了拓扑群、拓扑环、拓扑域
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+即一个集合，它既有拓扑结构，又有相协调的代数结构，就是说，那代数结构在那拓扑的意义下必须连续；也产生了度量群、度量环、度量域
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+即带有度量的群，等等；也产生了有序群、有序环、有序域、有序拓扑向量空间，等等。这种结合的技巧发展于1930年前后；相应的语言表达方式，如前而所阐述的，则发展于近
+二十年内。
+\end_layout
+
+\begin_layout Standard
+在这个发展过程中，有过一些有趣的事，试述其一：几十年间，拓扑空间被定义为一个集合
+\begin_inset Formula $R$
+\end_inset
+
+，在其中指定某些子集称为开集，使得空集与
+\begin_inset Formula $M$
+\end_inset
+
+本身是开集，且两开集之交以及任意多个开集之并均为开集。当一个拓扑空间已给定时，人们通常说“在基础集合上定义了一个拓扑。”那么试问拓扑是什么？其实就是需要添加到集
+合上去使它成为一个拓扑空间的那个东西。
+\end_layout
+
+\begin_layout Standard
+现在，拓扑空间定义如下：一个拓扑空间是一个二元组
+\begin_inset Formula $(R,T)$
+\end_inset
+
+，其中
+\begin_inset Formula $R$
+\end_inset
+
+是一个集合，
+\begin_inset Formula $T$
+\end_inset
+
+是
+\begin_inset Formula $R$
+\end_inset
+
+的子集组成的集合，使得
+\begin_inset Formula $\varnothing\in T$
+\end_inset
+
+，
+\begin_inset Formula $P$
+\end_inset
+
+，
+\begin_inset Formula $Q\in T\rightarrow P\cap Q\in T$
+\end_inset
+
+，
+\begin_inset Formula $T'\subset T\rightarrow\cup_{P\in T'}P\in T$
+\end_inset
+
+（实际上，
+\begin_inset Formula $T$
+\end_inset
+
+就是由前面定义中称为开集的那些集所组成）。在拓扑空间
+\begin_inset Formula $(R,T)$
+\end_inset
+
+中，
+\begin_inset Formula $R$
+\end_inset
+
+是集合，
+\begin_inset Formula $T$
+\end_inset
+
+是它的拓扑。拓扑就是须添加进去使集合及成为拓扑空间的那个东西，这个东西就是
+\begin_inset Formula $T$
+\end_inset
+
+，那个开集的组。以前，“空间的拓扑”是含糊的东西，现在清楚了，就是它的开集组。
+\end_layout
+
+\begin_layout Standard
+几何公理可作为例子来说明传统能延续多久。古代公理法与现代公理法都来源于几何学，所以几何学保留某些古风在时间上比其他公理化的领域要长，射影几何的公理化可按如下的希
+尔伯特式祥做出：
+\end_layout
+
+\begin_layout Standard
+诸公理是关于某些称为点与线的东西。公理I：过不同两点有且只有一条直线。公理II：两不同直线有一个且只有一个交点。公理III：……等等。
+\end_layout
+
+\begin_layout Standard
+试拿它同群的定义作一次比较吧，那就好像我们在定义群时，可以不用“群”这个字，而只要说有一些东西，它们可以相乘，使得……”似的。
+\end_layout
+
+\begin_layout Standard
+该如何把上而的几何公理化表达得合适呢？
+\end_layout
+
+\begin_layout Standard
+一个射影平而是一个三元组
+\begin_inset Formula $(P,G,I)$
+\end_inset
+
+，它由两个不相交的集合
+\begin_inset Formula $P$
+\end_inset
+
+、
+\begin_inset Formula $G$
+\end_inset
+
+及一个它们之间的关系
+\begin_inset Formula $I$
+\end_inset
+
+所组成，使得……
+\begin_inset Formula $P$
+\end_inset
+
+的元素称为点，
+\begin_inset Formula $G$
+\end_inset
+
+的元素称为线，
+\begin_inset Formula $I$
+\end_inset
+
+称为接合关系；
+\begin_inset Formula $I(x,y)$
+\end_inset
+
+可以说成“
+\begin_inset Formula $x$
+\end_inset
+
+在
+\begin_inset Formula $y$
+\end_inset
+
+上”或“
+\begin_inset Formula $y$
+\end_inset
+
+通过
+\begin_inset Formula $x$
+\end_inset
+
+”。
+\end_layout
+
+\begin_layout Section
+方式的改变
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+形式化的工作
+\end_layout
+
+\begin_layout Standard
+以上关于数学方式改变的例子，都限于语法现象方面的例子，看来好像是在吹毛求疵。责怪数学家吹毛求疵，并非毫无根据，也正因为如此，所以一个显得吹毛求疵的结果有时要经过
+整整一个世代才被人们所接受，也就不足为怪了。尽管有着种种吹毛求疵，我预料某些现时的马虎习惯会再延续几十年之久。原因何在？那是因为数学家和其他人一样是保守的，而改
+革需要克服阻力。然而，到了不可避免的时候，它们最终也将被人们所接受的。当思想能被直观地描述时，马虎的语言是能被接受的；但是一件事越抽象，离直观越远，就越需要用仔
+细的语言来表达。回顾我在大学学习时，我有把握地说，对数学分析的基础，我现在的同事们要比以前的教师讲解得清楚些，这是因为，他们使用了逐步发展起来的更好的语言工具。
+这种语言对高水平的知识交流以及对研究工作都带来了好处。
+\end_layout
+
+\begin_layout Standard
+我强调过：数学语言的完善化是一个连续的过程，它的最终阶段将成为如此准确，以致可以用计算机处理。符号逻辑从整体上表明这套语言的模样是怎样的。但完全不能肯定地说，几
+十年后数学家们就会用符号逻辑的语言来写书和写文章了。和计算机打交道，要用特殊的方式。有人说，这是因为计算机很蠢，而我宁可说那是因为它的智慧和我们的不一样。我们的
+生活经验使我们能把许多事情看成是显然的。而计算机并没有我们的那种经验，所以那些事情对于它们就显得陌生。人际间的信息沟通，可以通过心领神会的方式进行；对搞程序设计
+的人，我们完全不必用机器语言和他进行交往。
+\end_layout
+
+\begin_layout Standard
+语言是一种弹性工具。在用日常语言表达数学事实时，必须改造它，使之适应数学的箱要。这种改造的过程还在继续着。最终阶段情况如何，还很难预料，但也可能是这样：日常用语
+虽然被用逻辑工具强烈地改造过，但却不被完全地形式化；很可能有多种不同程度的形式化，各自适应于一定的特殊目的并在一定的交流环境中使用。
+\end_layout
+
+\begin_layout Standard
+自觉地掌握语言，把它作为准确表达的工具，这就叫做形式化。这是组织现代数学的方法之一。我们在后面将更详细地说明现代数学有一种强烈的组织起来的倾向，而形式化是它的手
+段之一。我敢预言：现在在数学里用得最多的形式化，将来必会成为数学家们最有效的可迁移的一种活动。因为世上没有任何东西能像语言表达那样在人类活动的一切领域中广泛使用
+；数学家们对语言的自觉分析势必到处产生强烈的影响。
+\end_layout
+
+\begin_layout Section
+外延性抽象
+\end_layout
+
+\begin_layout Standard
+在讨论现代数学的特征时，我首先谈到了它的现代化的特点，即：数学表达的再创造和形式化的活动。现在是揭露它的一些更老的渊源的时候了，这些老的渊源仍保有其青春的活力。
+前面我讲过，有些评论家认为现代数学开始于1870年前后，即开始于康托（Cantor）和戴德金（Dedekind）。大家知道，克罗内克尔（Kronecker）曾打
+趣地说过：“上帝创造了整数，其他都是人造的玩意儿”我们确实不知道尘世间究竟是谁创造了数。但是，任何一个没有受过数学教育的外行人都能说出康托做了什么事，这是独一无
+二有如此殊荣的数学家了。当然，这并非坏事。那些人说康托的最伟大的贡献是他发明了“集合”这个术语。实际上“集合”（Menge）一词是后来的创造，当初康托是把它叫做
+“簇”（Mannigfaltigkeit）的。
+\end_layout
+
+\begin_layout Standard
+当然，通常作为最重要的东西介绍给非数学家的，并不是“集合”这个词，也不是把一些对象称为集合的这个观念。而且那也不是空集（那是策梅罗（Zennelo）的发明），也
+不是一些已知集合的子集、交、并等形式，也不是集合能被映射到其他集合上去的观念
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+恰恰是集合论的其他特点给了数学以深远的影响。
+\end_layout
+
+\begin_layout Standard
+我在前面指出了：克罗内克尔说过上帝创造了整数。在康托之前，自然数从未被分析过，它是预先被外加到数学中来的。而在康托手里，自然数变成了“势”这个更具普遍性概念的一
+种特例。互相之间能建立起一一对应的集合称为等势的集合，等势集合所公有的东西就叫做集合的势。势可以相加
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+通过把代表它们的集合（假设不相交）的相加来进行。这自然要证明：相加结果与所选的代表集合无关。按同样的模式，可定义势的积与幂：一个由集合组成的集合
+\begin_inset Formula $\Phi$
+\end_inset
+
+的积是指由
+\begin_inset Formula $\Phi$
+\end_inset
+
+到
+\begin_inset Formula $\Phi$
+\end_inset
+
+中一切集
+\begin_inset Formula $X$
+\end_inset
+
+的并的映射
+\begin_inset Formula $f$
+\end_inset
+
+全体，其中要求这些映射
+\begin_inset Formula $f$
+\end_inset
+
+具有以下的性质：对所有的
+\begin_inset Formula $X\in\Phi,fX\in X$
+\end_inset
+
+成立。类似地可定义幂。这样终于由有限集的势而产生整数
+\begin_inset Formula $(x\geqslant0)$
+\end_inset
+
+及关于它们的运算
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+现代中小学课本中最令人吃惊的地方是对这个理沦所作的错误解释。
+\end_layout
+
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+康托关于势的定义在某一点上不是那么“现代化”的。那就是他说的：势是所有等势集所公有的东西
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这是一种含糊的概念。今天人们是这样说的：“等势”是一种等价关系；势就是这个关系中的等价类；也就是说，
+\begin_inset Formula $M$
+\end_inset
+
+的势就是所有和
+\begin_inset Formula $M$
+\end_inset
+
+等势的集合的类。（我这里谨慎地说“类”和
+\begin_inset Formula $M$
+\end_inset
+
+等势之集的集合“太大”了；如果把通常集合论的招术用到它上面去，会出现一切集之集那一种悖论。）
+\end_layout
+
+\begin_layout Standard
+用外延的办法说明概念，即用此概念所包含的东西全体来说明概念，这是现代数学构造概念的一种枢纽。另一种定义方法是用“……是公有的”，“我把……看成是相等的”这样一类
+语式，这样给出的定义称为意图式定义，因为它把概念表达为概念创造者的意图。用外延来描述概念时称为外延式定义。用外延式定义来描述概念是由康托的集合论开始的，或者至少
+是受到集合论的强烈启示与推动的，这种倾向称为外延论（例如“把
+\begin_inset Formula $A$
+\end_inset
+
+映射到
+\begin_inset Formula $B$
+\end_inset
+
+内”这种说法就像是说明映射的意图，它的外延式表达则为：“由
+\begin_inset Formula $A$
+\end_inset
+
+到
+\begin_inset Formula $B$
+\end_inset
+
+内的映射是二元组集
+\begin_inset Formula $(A,B)$
+\end_inset
+
+的一个子集
+\begin_inset Formula $f$
+\end_inset
+
+，它具有以下性质：对每个
+\begin_inset Formula $a\in A$
+\end_inset
+
+，有且只有一个
+\begin_inset Formula $b\in B$
+\end_inset
+
+，使
+\begin_inset Formula $(a,b)\in f$
+\end_inset
+
+”）。
+\end_layout
+
+\begin_layout Standard
+把整数定义为有限集之势好呢，还是用皮亚诺（Peano）公理来定义好？关于这问题的答案，我们推迟到以后再说，这里要强调的是前面所阐述的概念构造模式己成为现代数学中
+的一种典范，并且已经是数学中的平凡事。下面再举几个别的例子。由整数出发，可把有理数作为分数（或作为整数的有序偶）构造出来，其中如分数
+\begin_inset Formula $2/3$
+\end_inset
+
+与
+\begin_inset Formula $4/6$
+\end_inset
+
+被看成相同，一般地当
+\begin_inset Formula $ab'=ba'$
+\end_inset
+
+时，把
+\begin_inset Formula $a/b$
+\end_inset
+
+与
+\begin_inset Formula $a'/b'$
+\end_inset
+
+看成相同。运算法则的定义，一如既往，也就是把
+\begin_inset Formula $a/b$
+\end_inset
+
+与
+\begin_inset Formula $c/d$
+\end_inset
+
+之和定义为
+\begin_inset Formula $(ad+bc).bd$
+\end_inset
+
+，积定义为
+\begin_inset Formula $ac/bd$
+\end_inset
+
+。容易看出，这里的各项可用表示和它相同的东西来代替而毫无关系。这种构造法，如果用现代的外延式来表达，那就如下：定义一个关系
+\begin_inset Formula $\backsim$
+\end_inset
+
+：
+\begin_inset Formula $a/b\backsim c/d\leftrightarrow ad=bc$
+\end_inset
+
+，这是一个等价关系，而有理数就定义为这个关系的等价类，即一个有理数就是互相等价的数偶的最大集。在这里我们不说：“把
+\begin_inset Formula $a/b$
+\end_inset
+
+、
+\begin_inset Formula $c/d$
+\end_inset
+
+看作相同”这样的话，而是引进了一件新的东西，一件为所有互相等价的数偶所公有的东西，那就是它们的等价类，然后我们把这个等价类称为一个有理数，等价类的和与积是由数偶
+的和与积所导出的。当然，这里要证明：等价数偶加（乘）等价数偶仍是等价数偶。
+\end_layout
+
+\begin_layout Standard
+用这样的技巧，可建造整数mod
+\begin_inset Formula $m$
+\end_inset
+
+的计算，同余的意图式定义是“
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+认为是相等，若它们的差是
+\begin_inset Formula $m$
+\end_inset
+
+的倍数如果用外延式来叙述，它就变为“
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+称为等价，若
+\begin_inset Formula $a-b$
+\end_inset
+
+被
+\begin_inset Formula $m$
+\end_inset
+
+整除；一个等价类就称为一个整数mod
+\begin_inset Formula $m$
+\end_inset
+
+”，同样，这里也要证明：“由某个整数作为代表来进行的加法与乘法，可以迁移到整数mod
+\begin_inset Formula $m$
+\end_inset
+
+”，就是说，和与积不依赖于代表元素的选择。
+\end_layout
+
+\begin_layout Standard
+另一个例是关于mod
+\begin_inset Formula $f(x)$
+\end_inset
+
+的计算，其中
+\begin_inset Formula $f(x)$
+\end_inset
+
+是域
+\begin_inset Formula $P$
+\end_inset
+
+上多项式环
+\begin_inset Formula $P[x]$
+\end_inset
+
+中的一个不可约多项式。要将
+\begin_inset Formula $f(x)$
+\end_inset
+
+的一个根添到
+\begin_inset Formula $P$
+\end_inset
+
+中去就要进行这种运算的。再一个例子是有理数域
+\begin_inset Formula $Q$
+\end_inset
+
+向实数域的扩张：在
+\begin_inset Formula $Q$
+\end_inset
+
+的一切柯西序列所成之集
+\begin_inset Formula $\Omega$
+\end_inset
+
+中，定义一种等价关系，它的等价类就称为实数，然后把
+\begin_inset Formula $Q$
+\end_inset
+
+中的加法与乘法扩充到
+\begin_inset Formula $\Omega$
+\end_inset
+
+，这里同样要证明等价序列加（乘）等价序列得到等价序列。
+\end_layout
+
+\begin_layout Standard
+我还可以举许多例子，但说不出新鲜事来了，都只不过是重复外延性概念的构造模式：由具有等价关系
+\begin_inset Formula $\backsim$
+\end_inset
+
+的集合
+\begin_inset Formula $\Omega$
+\end_inset
+
+，得到等价类集
+\begin_inset Formula $\Omega/\backsim$
+\end_inset
+
+。对于
+\begin_inset Formula $\Omega$
+\end_inset
+
+上的已知结构（无论是由一些关系或由一些运算所确定的），只要知道它是和这等价关系相容，就可以把它迁移到
+\begin_inset Formula $\Omega/\backsim$
+\end_inset
+
+上去。事实上，在数学以外，这种方法也是构造概念的一种重要手段。用“等重”、“等长”、“同颜色”的关系，可以把事物按重、长、色分类（如3kg、5m、淡红），对它们
+可以使用序关系（多与少），也可以相加。但是，在日常生活中，这不是构造概念的唯一原则，例如：“椅子”这个概念是由一些“用途”的准则来确定的。这种概念构造法已在数学
+中出现，它是我们要讨论的另一种工具，它也是现代数学的特点之一。
+\end_layout
+
+\begin_layout Section
+公理化抽象
+\end_layout
+
+\begin_layout Standard
+1870年前后是集合论的开始，并且也是现代公理化的开始，这自然是发生在几何学中。几何学自古以来就是以一些基本公设、公理为基础构建成一个演绎体系，这为世人所熟知。
+非欧几何本来可以引出现代公理化的，但它约在1830年出现后，直到1870年很少被人注意。在19世纪四、五十年代，史陶特（Von.
+\begin_inset space \space{}
+\end_inset
+
+Staudt）曾企图对射影几何与复射影几何公理化。帕施（Pasch）是第一个建立了欧氏几何的无可指责的公理系的人。他教数学家们如何建造公理系，但他的工作很快被希
+尔伯特的卓越著作《几何基础》（1899）所掩盖了。自希尔伯特以后，“公理”与“公理化”成了新的概念，自古希腊直到30世纪初期的哲学文献，“公理”都意味着一类命题
+，它既不能证明，也不需证明，它是任何证明的基础与前提，并且比起由它导出的任何东西都更突出、更必需、更明显、更普遍。像平行公设这样的命题，人们在许多个世纪中都想对
+它加以证明，它在欧几里得的书中或其后的一般几何书中的确不叫做公理，而叫做“公设”（Postulate）。即使是帕施，当他所指的是几何的基本命题时，他也不说成是公
+理。在法语与英语的书籍中，直到本世纪初还称这些基本命题为“公设”大概是亨荷尔茨（Helmholtz）最早称几何公设为公理的。他这样做可能是由于他对康德（Kant
+）的著作作了错误的解释。亨荷尔茨以后，庞加莱（Poincaré）与希尔伯特跟着照样做。是希尔伯特通过他的“几何基础”把现在“公理”与“公理化”的使用神圣化了。
+\end_layout
+
+\begin_layout Standard
+希尔伯特的《几何基础》是用下面的模式开始的：我们设想三类不同的东西，……点，……线，……面，……设想它们之间有一定的关系，诸如“在上
+\begin_inset Quotes erd
+\end_inset
+
+、“介于”、“平行”、“合同”、“连续”、……关于这些关系的确切而完整的描述包含在几何公理系中。
+\end_layout
+
+\begin_layout Standard
+那些期望见到像欧几里得（Euclid）的“一点是没有部分的事物”之类描述的人会感到失望。这在希尔伯特的公理系中没有显性的描述，而是隐性地通过假设点、线、面具有某
+些性质及它们之间具有某些关系来加以说明。例如：“对于两点，有一条直线含有它们”等等。弗雷格（Frege）曾经严厉批评希尔伯特的体系，因为这种体系使他无法判断究竟
+什么是点，特别是无法判断他的表是不是一个点。传说希尔伯特反驳弗雷格（及其他人）说：公理化的实质就在于我们也可以不说点、线、面，而说桌、椅、石头。只有那些明显地叙
+述在公理系中的性质才与演绎推理有关。这和下棋一样，棋子不是由它的形状决定，面是由下棋所必须遵守的法则所决定的。
+\end_layout
+
+\begin_layout Standard
+对隐性定义的认识是一重大进步，它已成为一般科学现代方法论的一个典范。隐性定义的重要性最早是由几何学家热尔岗（Gergonne）（1818年）强调的，这是在背离亚
+里斯多德（Aristotle）科学理论道路上跨出的决定性步骤。从亚里斯多德到热尔岗，都把由显性叙述的原理出发去发展科学看成是一种不容置疑的理想，虽然这种理想几乎
+从未近似地实现过。
+\end_layout
+
+\begin_layout Standard
+当希尔伯特成功地把欧几里得几何建立在公理化的基础上，并用此方式隐性地定义了几何学的诸概念之后，公理化便马上转入了另一个方向，这在希尔伯特的《几何基础》中已见其端
+倪了。希尔伯特的最为重要的目的是在于研究他的各公理间的关系
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+如果抛弃这条或那条公理，会产生什么结果？倘无影响，则此公理可弃。若不可弃，则弃去后而得的较弱公理系所产生的便不是欧氏几何，而是一种较弱的几何学，一种满足截短了的
+公理系的几何学。这类公理系有着许多互不同构的“模型”，它们在希尔伯特之后，获得了发展的势头。应该说，这样的公理系在那以前已被知晓，只是到那时为止当人们谈及时还没
+有称之为公理化罢了。今天，对一个集合赋予假设，使之成为群时，也把这些假设称为公理
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+群的公理，这对传统的所谓公理已跨出一大步了。
+\end_layout
+
+\begin_layout Standard
+公理系如何产生？群概念的历史提供了极好的说明。在19世纪几何复活时期，变换是个关键词。射影、仿射、相似、以及其他各样变换和它们的复合，以及它们形成群的事实，这些
+在人们用“群”这个词来表达这个概念之前许久便已被发现；人们甚至知道和说得出什么是一个群；置换群也是在群概念出现前便被研究了的。1870年前后，群的概念形成了，那
+时不但已有了一大堆的群，而且对群的研究也累积了丰富经验，虽然所有的理论都是用各自的特殊术语论述的。群论于是作为一种组织手段应运而生，它是用把所有的群都具有的关键
+性质明显地叙述出来这种办法去组织那一堆具体的结果。这些性质
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+乘法满足结合律、存在单位元与逆元
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+以后就叫做群的公理。利用一些公设来规定什么是群，这和几何学中的做法是相同的。但是，几何学的公理本质上只被一种模型所实现，而群公理却被许多模型所满足。这恰好是群公
+理合理性的所在：用同一工具处理各种个别情况，这样日于好过得多了。
+\end_layout
+
+\begin_layout Standard
+群的处理方法是构造概念的另一种典范方法，它跟外延法是针锋相对的。制造群的概念不是把所有认为是属于群的那些东西放在一起组成一个集合而命其名为群的，而是把各种巳知的
+群所共有的特点勾画出来，然后把凡有这些特点的对象称为群，这是公设性或公理化的概念构成法。这种方法其实在上述例子之前就已使用，只不过直到本世纪这种公理化概念构成法
+才如此地被广泛应用，以致无法把所有应用的例子一一列举出来了。
+\end_layout
+
+\begin_layout Standard
+域概念有相似的历史，几百年间，人们对有理数系与其四则运算（加、减、乘，除）以及这些运算所遵循的法则都十分熟悉；对具有相同运算与法则的实数系虽不那么熟知，也较少阐
+述，但也是知道的；然后是复数系，它除了缺少有序性外，和前面两种数系没有很大差异。复数系也是代数的基砷，在其中代数运算可以施行，并且一切代数方程在其中可解。实际上
+，它对19世纪的代数活动是范围太大了。当时代数研究所涉及的是一切较小的数系，其特性是可以进行四则运算的数系，这样的数系被戴德金称为“体”（Körper）
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+你不要相信是戴德金发明了域的现代概念这种故事。他所知的只是数域，即复数的子域。同样，他的“环”也只是一些数系，在其中四则运算的前三种可以施行。的确，把域概念推广
+到函数域上去的是19世纪的韦伯（Weber，1893）。此外，在数论里，有限域被知晓，虽然当时被称为“伽罗瓦域”（德文是Galoisfelder，以区别子Zah
+lkörper【数域】）但前面的这些都还不足以引到域概念的发现，一直到
+\begin_inset Formula $p$
+\end_inset
+
+进数域这种新的例子出现以后，人们才得以把所有那些例子置于统一的名称
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+即斯泰尼茨（Steinitz，1910）的一般性的域概念之下，现时所称的“抽象代数”或“近世代数”实际上是由此开始的。在一集合中，假设引进了加法与乘法，使它们具
+有旧的域中那些熟知的性质，那么这个体系就叫做一个域，一个抽象域。这样称呼用以区别子那些旧的域，因为它们已久为人知，所以是更为“具体”。
+\end_layout
+
+\begin_layout Standard
+其他代数概念的历史，大致也都如此，我只想再指出一个例子，它是终于跨出代数领域而也复盖其他学科内容的那批代数概念中最早的一个，那就是“模”（在一个数环上或在一个数
+域上的模）这个代数概念。如果用现代的术语来说，那么它是一个加法子群，它的元素可以和环（或域）的元素相乘。通常，以前只研究有限生成的模。1914年前后，分析学家发
+明了“线性空间”这个名称，用来概括所有熟悉的函数空间。在30年代，解析几何发生了一次教学革新，用具有普适性的公理化术语去定义常见的几何向量空间。其实上述这些都是
+相同的概念，但直到今天还没有一个统一的名称。代数学家叫模，几何学家叫向量空间（这名称为代数学家所接受，如果基础环是一个域的话），分析学家叫线性空间。如果最后一个
+术语能把其他的都排斥掉，也许是可取的。
+\end_layout
+
+\begin_layout Standard
+在希尔伯特以后，代数与拓扑（由弗雷谢（Fréchet）和豪斯道夫（Hausdorff））是最早被公理化了的数学领域（我们前面的例子都取自代数）。现象是相同的：要
+把欧氏空间、黎曼面，流形、函数集等置于统一的名称之下，首先产生的名称是“距离空间”，其次是“拓扑空间”。如果说抽象代数能合理地由旧的代数概念而产生和延续，那么拓
+扑学是在一片零乱中创新概念的；新的基本概念产生于需要，而决不可能从旧的奇特的方法
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+概念中诸如完备性，紧性、可分性、或更为深奥的概念诸如连通性、维数、积空间等当中得到启示。当然，随着时间的推移，代数也需要用新的概念丰满自己。
+\end_layout
+
+\begin_layout Standard
+“抽象”的观点对于分析学，更是起着决定性的作用，因为抽象的方式引出了大量的结果，这些结果在一定意义下是具体的，即它们是能用旧分析的工具表达出来的，但是它们却不能
+用旧的方法获得。我生动地回忆起：殆周期函数理论的例子使我震动得如雷轰顶。波尔（H.
+\begin_inset space \space{}
+\end_inset
+
+Bohr）称一个单元连续函数为殆周期函数，若对
+\begin_inset Formula $\forall\varepsilon>0$
+\end_inset
+
+，有
+\begin_inset Formula $l(\varepsilon)$
+\end_inset
+
+以及在任何长度为
+\begin_inset Formula $l(\varepsilon)$
+\end_inset
+
+的区间内有一个“殆周期”
+\begin_inset Formula $\tau(\varepsilon)$
+\end_inset
+
+，使对
+\begin_inset Formula $\mid f(x+\tau(\varepsilon))-f(x)\mid<\varepsilon$
+\end_inset
+
+，对成立
+\begin_inset Formula $\forall x$
+\end_inset
+
+。如果真能理解，你就知道它是一种绝妙的发明。不过，我应该承认，当我作为大学生参加一个殆周期函数的讨论班时，我对殆周期函数并没有真正的理解。有一天我读到了博赫纳（
+S.
+\begin_inset space \space{}
+\end_inset
+
+Bochner）用抽象形式改述了的殆周期函数的定义，即：对连续有界函数集赋予上确界范数，使它成为线性空间
+\begin_inset Formula $\Phi$
+\end_inset
+
+，并在此空间中考察一切平移算子（即由
+\begin_inset Formula $(T_{a}f)(x)=f(x+a)$
+\end_inset
+
+定义的算子），则
+\begin_inset Formula $\Phi$
+\end_inset
+
+中的元素称为殆周期函数，若由一切
+\begin_inset Formula $T_{a}f$
+\end_inset
+
+所组成的集在
+\begin_inset Formula $\Phi$
+\end_inset
+
+中有紧的闭包。这样我眼里的翳障散尽，使人们突然地懂得了波尔（Bohr）的定义和证明的实质，博赫纳对波尔的定义所作的抽象改写，是我体验到抽象方法威力巨大的最有说服
+力的证明。实际上它大大地推进了波尔的定义，把它从实直线平移群上的殆周期函数推广到任意群上去了。
+\end_layout
+
+\begin_layout Standard
+直至20年代末，代数，拓扑与分析的公理化努力大致是独立地进行的，分析包含着代数与拓扑的因素，它启发人们去把各种结构结合起来。例如实数域，它可以看作是拓扑域、或有
+序域、或度量域，它是两个或多个结构的结合，这些结构必须以适当的方式互相协调。一个拓扑域是一个有了拓扑的域，其中的域运算在此拓扑下连续。一个有序域要求其序在加法或
+在与正数相乘时保持不变，一个度量域有模
+\begin_inset Formula $\mid\cdots\cdots\mid$
+\end_inset
+
+，使
+\begin_inset Formula $|a+b|\leqslant|a|+|b|$
+\end_inset
+
+于
+\begin_inset Formula $|ab|=|a|\times|b|$
+\end_inset
+
+。用同样的方法可得到拓扑群、度量群、拓扑线性空间、度最线性空间。公理化抽象对事物的性质进行分析与分类，能给出更高的清晰度和更深入的理解，即使是对实数理论这种初等
+理论，也值得知道，哪些性质依赖于环公理，哪些依赖于域公理，哪些依赖于乘法交换律，哪些依赖于完备性，哪些依赖于局部紧性等等。
+\end_layout
+
+\begin_layout Section
+几何学中发生了什么事？
+\end_layout
+
+\begin_layout Standard
+看今天的数学结构，好像几何学的荣华已尽。在以往许多个世纪里，即使在代数与分析获得成功之后，几何学始终被尊为唯一的真正的数学，被看作是数学严密性的典范。直至19世
+纪的下半叶，当代数与分析（与几何无关地）建立在严格的基础之上以后，人们看到传统的几何学并不像大家所想象的那样严密，这就动摇了几何学的稳固地位。的确，从古代直到1
+8世纪末，几何学本身没有什么发展，对其他数学的发展也没有做过什么贡献。后来，在19世纪初，几何学苏醒了，获得了新的活力，并由于它的繁荣而极大地促进了群论及代数中
+许多部分的发展，并为现代公理化的形成作了准备。
+\end_layout
+
+\begin_layout Standard
+现在，几何学的情况如何？在布尔巴基的数学体系中它已消失；在杂志中，称为几何的文章不超过篇幅的5%；在大学中，几何学干脆不被提及；可以自称为几何学家的人也因这名称
+显得过时，而不这样称呼自己了。但是，如果仔细考察实际，情况似乎两样。我随机地抽取了一篇文章，按其标题属于分析，但在文章的一段中，我挑出了以下的字眼：“希尔伯特空
+间”、“向量空间”、“维数”、“特征向量”、“相似性”、“映射”、“凸”、“反射”、“邻域”、“数直线”、“中心立方体”、“线性”、“平移”、“包络”、“射影”
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+在一篇非几何的文章中却用了那么多的几何字眼！更引人注目的是还使用了“公理”这个字。这个字是由希尔伯特在他的《几何基础》一书中赋以现代意义的。
+\end_layout
+
+\begin_layout Standard
+词表意，在近世代数与分析中，几何术语的使用表明了几何直观已渗透到了整个数学。这可用一些例子说明：
+\end_layout
+
+\begin_layout Standard
+19世纪复变函数论的迅猛发展就是其中一例，它是由于几何学进入了分析引起的，即高斯（Gauss）用平面上的点来表示复数以后引起的。方程
+\begin_inset Formula $x^{n}=1$
+\end_inset
+
+的代数意义通过它的几何解释以及它与高斯平面上正n边形作图的密切关系而变得清晰；椭圆函数的双周期性通过它的几何解释而变得明白而有趣。尽管在19世纪的最后30年间，
+维尔斯特拉斯（Weierstrass）的函数论代数化看来好像是对几何直观取得了绝对的胜利，但是，1900年前后所解决的大问题都来自黎曼、来自黎曼曲面、共形映照和
+单值化的几何概念
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这些概念起初只是纯粹地用几何方法描述并只用直观方法处理的。
+\end_layout
+
+\begin_layout Standard
+另一个例子是1870年以后数概念获得的新生。数，作为一些事物的个数，作为基数，其根源是直观的。在人类与个人的历史中，做加法与乘法计算都是开始于用手指或卵石。但是
+，数概念迅速地凝固于数的运算法则之中，这特别是作为数范围扩充的结果而体现的。这在人类的群体或个人的发展中都是如此。数作为一些东西的个数，这是最原始的应用，但它同
+数学、同真正的数学全无联系。至少是到了康托，他才第一次把那种不自觉的直观抽象过程，即把直观根源引向形式的数概念的过程自觉化了。那就是我们在前面已经指出过的：集合
+、映射、一一映射及由它们所决定的等价类。
+\end_layout
+
+\begin_layout Standard
+集合论比它以前的任何数学都显得更为抽象，更为严密。也正因为这种原因，几何直观作为一种组织手段与兴奋剂以防止集合论退化为一些单纯的算法，从来没有在任何别的领域里曾
+经显示过那么重要。康托是从数直线的几何学中提炼出了抽象化的序并建立了点集论。集合论在本世纪初的另一个成就是测度论，它来自几何中的面积概念，并使那时巳成了干枯计算
+工具的古典积分概念产生了一场革命。与此同时，点集论常成为一门新的几何学科：拓扑学，它把“连结”这个直观概念加以详细规定，并用于研究几何图形。拓扑学中最强有力的代
+数方法起源于对直观上最简单的几何图形
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+多面体的研究，如布劳韦尔（L.
+\begin_inset space \space{}
+\end_inset
+
+E.
+\begin_inset space \space{}
+\end_inset
+
+J.
+\begin_inset space \space{}
+\end_inset
+
+Brouwer）所做的那样，面对几何直观提出最高要求的却是那些显得病态的反例的构建，这些反例是更抽象的点集拓扑理论的宠儿。根源在于代数与集合论的拓扑方法对近世代
+数与分析产生了强烈的影响。与此同时，几何直观却似乎在拓扑本身里消失了。但这不过是表面现象，在拓扑学这个圈子里不时地冒出的思想与课题都有着强烈的几何背景，并且近年
+来好些老的课题被直接地运用一些不依赖于代数拓扑的几何方法所解决了。
+\end_layout
+
+\begin_layout Standard
+在代数的影响下，朴素的空间观念在19世纪经历了一次重大的精确化。在解析几何里，平面曲线与空间曲面被分别用二元方程与三元方程来描述；反过来，方程的代数性质却可以用
+曲线或曲面的性质来阐明。如果几何学家会想到考察和思考n维空间的话，几何学对于n元方程的研究不是可以有些用处么？如果把n阶行列式解释为n维空间的体积的话，它不是可
+以被更好地理解么？的确，约在19世纪末，n维空间成了几何学家的研究对象。在这里，它的代数根源却十分明显：它由坐标开始，通过代数的方法建立起来。在20世纪出现的新
+的处理是由抽象代数学家推动的。在这点上他们显得比真的几何学家还要纯正，他们要求：在定义与处理n维空间时，点或向量这个几何元素应当是原始的，而坐标是导出的。今天，
+线性空间或向量空间的概念已成为一切数学家的公共财产。
+\end_layout
+
+\begin_layout Standard
+线性代数里的许多内容经过几何解释只会变得更加清楚。突出的例子是，约在1800年发明的最小二乘法，这种代数技巧只有在把平方和理解为毕达哥拉斯（Pythagorea
+n）测度下的距离平方才能理解明白。
+\end_layout
+
+\begin_layout Standard
+与此同时，空间概念推广到了无限维，推广者是分析学家，他们霈要抽象的函数空间为他们的新方法服务。在使用“空间”这术语的同时，他们抓住了整套的几何术语、几何思想方法
+与几何直观。
+\end_layout
+
+\begin_layout Standard
+如前所述，“公理化”这术语与概念是由几何开始征服了数学的。在许多世纪中，几何学是个哲学问题，这问题是：纯理性好像是闭着眼睛一样，它怎么能对现实作出判断呢？（难道
+空间及其中的三角形、平行线、球等等不是现实的一部分么？）而这些判断又是正确的，只要我们睁开眼睛，画出直线，量出角度，就能发现的。经过19世纪中一个缓慢的成熟过程
+，终于引出了希尔伯特《几何基础》中所给出的答案。这个答案被爱因斯坦（Eindltein）简练地表述如下：
+\end_layout
+
+\begin_layout Standard
+“当数学定理涉及现实时，它们是不确切的；当它们是确切时，它们就不涉及现实……公理化的步骤在于把逻辑形式同现实、同实际的直观的内容严格分开……公理是人类精神的自由
+创造”。
+\end_layout
+
+\begin_layout Standard
+希尔伯特的体系并不像欧几里得的那样从定义出发，而是由一些公理出发，即由一些关于不定义的概念如点、线、介于、合同等的命题出发，这些概念的含义是由那些公理规定的。就
+像游戏规则一样，公理是任意的；但为了实际应用，它们是必须满足一定目的的。从逻辑的角度看，要问一个公理系是否真？那是没有意义的，只能问它们是否相容。
+\end_layout
+
+\begin_layout Standard
+几何学的逻辑状况由公理与公理化的概念所阐明，希尔伯特的《几何基础》对此所作的阐述首先产生影响于拓扑学和代数。豪斯道夫把拓扑空间公理化了；而代数则被重建在用公理化
+定义的群、环、域等的基础之上。今天，公理化方法已渗透到了整个数学。起初，几何工作并没有受到这新方法的很大影响，直到30年代，几何学家才想起人的思想有创造公理的自
+由
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这种自由只受几何学家的高明的直观与相容性的要求所检验。希尔伯特在证明几何公理系的相容性时，是通过一套满足这些公理的代数体系（解析几何）去进行的，这种做法可以引导
+新的重要代数体系的发现。事实上，在30年代，几何学的确引出了交换域（一种在乘法结合律上受到某些限制的域）这个新而有活力的代数概念。
+\end_layout
+
+\begin_layout Standard
+这仅是许多例于中的一个。在群论中（其中的结构不比抽象集合论中的结构强多少），几何问题常引出有意义的课理。《代数几何》也许不再是一种几何学了，虽然它有着几何的名称
+，然而它的发展却常常受着真正几何问题的影响。《几何数论》则是在问题与方法上都是真正的几何学。
+\end_layout
+
+\begin_layout Standard
+现代数学的特点之一是它与诸古典学科之间的界线模糊。几何学作为一种联结的领域，其界线已难以辨认，但是几何方法却总是反复地突然露面。为什么几何直观常被宣告已经死亡，
+而强劲依旧，甚至于在一些看来和几何学毫不相干的领域中也是如此？显然这是因为几何直观能告诉我们什么是可能重要、可能有意义和可接近的，并使我们在课题、概念与方法的荒
+漠之中免于陷入歧途之苦，这用康德的话来说，就是：“缺乏概念的直观是空虚的，缺乏直观的概念是盲目的。”
+\end_layout
+
+\begin_layout Section
+思辨数学与算法数学
+\end_layout
+
+\begin_layout Standard
+设有白酒与红酒各一杯，两者份量相同。现从白酒中舀一匙费放入红酒杯中，调匀后，舀回一匙费放入白酒中。问白酒杯中所含红酒是否少于红酒杯中所含的白酒？
+\end_layout
+
+\begin_layout Standard
+实际上两种含量一样多。设酒杯容量为a，匙羹容量为b，在第一次动作之后有……大家知道如何求解，但有1/3的人会因计算中出错而烦恼。只有少数人会思考如下：两个杯子最
+终所盛液体份量相同。设将每杯中的白酒与红酒分离，则盛白酒杯中之红酒是来自红酒杯中之所失，红酒杯中所失之份量是由白酒所代替。因此盛白酒杯中之红酒与盛红酒杯中之白酒
+份量相同。
+\end_layout
+
+\begin_layout Standard
+第一种作法是算法求解；第二种作法是思辨求解。这只是大量例子中的一个，虽然它很典型。我们以后会见到其他的一些。目前这例子的作用在于说明算法数学与思辨数学的区别。关
+于这种区别在教学法上的重要性以后再说，下面先谈一些历史。
+\end_layout
+
+\begin_layout Standard
+“算法”（Algorithm）这个术语是为了纪念阿尔·花拉子米（Al
+\begin_inset space \space{}
+\end_inset
+
+Huwàrizmi）（Muhammad
+\begin_inset space \space{}
+\end_inset
+
+ibn
+\begin_inset space \space{}
+\end_inset
+
+Mûsâ，8世纪）的名字。他整理了印度
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+阿拉伯的计算方法。计算方法或可称为计算诀窍，现在就叫做“算法”。韦达（Vieta）的代数、笛卡儿（Deseartes）的解析几何、莱布尼茨（Leibuiz）的微
+积分就是一些算法。它们的发明者对此是十分自觉的。韦达在他的著作序言中强调了这一点。笛卡儿把他的《几何》看成是他的《方法论》（Discours
+\begin_inset space \space{}
+\end_inset
+
+de
+\begin_inset space \space{}
+\end_inset
+
+la
+\begin_inset space \space{}
+\end_inset
+
+méthode）中所论方法的第一个例子；莱布尼茨则着迷于算法的追求，他虽然实际上只成功过一次，但他的算法被公认为十分巧妙，以致牛顿的实质上等价的工作变得黯然失色
+，没有任何地方能有别的算法像微积分那样显示出它的威力来。一些曾经需要像阿基米德或惠更斯（Huygens）那样的天才方能解决的问题，在莱布尼茨以后任何一个平庸的数
+学工作者都能用机械的办法来解决了。
+\end_layout
+
+\begin_layout Standard
+运用算法可以增强人的自信心，能满足人要游戏的天性，这可能是许许多多无关重要的算法也能在一段时间里蓬勃生长的原因吧。例如：画法几何；不变量理论中的符号方法；计数几
+何学中的舒伯特（Schubert）算法等。那些没有玩过这些算法的人，很难想象出它们多么吸引人。傅里叶（Fourier）级数、更一般地正交函数级数、傅里叶积分、留
+数；高斯
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+格林
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+斯托克斯（Gauas
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+Green
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+Stokes）积分公式；海维赛德（Heaviside）计算法和拉普拉斯（Laplace）变换等，都是19世纪流传下来的著名算法。关于本世纪的算法，最引人注目的例
+子是在拓扑中发明并且还在继续发展的同调理论，以及和它密切联系的同态的图表法。
+\end_layout
+
+\begin_layout Standard
+常有人说：现代数学之不同于古老数学，在于它强调的是思辨的因素而不是算法。我承认这一点，并曾几次指出过：最引人注目的新事物，也就是引起现代化过程发生的事物
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+集合论、抽象代数、分析学、拓扑都是思辨的产物，它们是冲破了算法的僵化外壳喷射而出的。然而，任何熔岩终将凝固，任何思辨的新生事物都在其自身中包含着算法的萌芽，这是
+数学的特点。计算曾是一门科学，在它机械化以后，数论才能茂盛，如果没有微积分的算法，分析也永远不会发展。算法化意味着巩固，意味着由一个平台向更高点的跳跃，算法为更
+深的发掘提供技巧，把算法数学与思辨数学对立起来，好像其中之一是巍巍高塔，可以从它的顶峰藐视着另一方，这是不公正的；我们也不能把它们看作是新与旧的对立。
+\end_layout
+
+\begin_layout Section
+组织与数学化
+\end_layout
+
+\begin_layout Standard
+科学一旦跨出单纯收集材料的阶段，它便将从事于经验的组织。算术与几何所应组织的经验是哪些，这是不难指出的。用数学方法把实际材料组织起来，这在今天就叫做数学化。但是
+数学家有这样的倾向，一旦依赖逻辑的联系能取得更快的进展，他就置实际于不顾，在一堆数学经验形成后，这些经验又要求组织起来，这时有什么方法可供使用？当然，还是数学方
+法，这就是数学本身被数学化的开始：首先是局部的一一怎样进行定义？导出什么结果作为定理？这事作为那事的根据抑或倒转过来？是否应将此事作为另一事的特殊情况来加以证明
+，抑或应先证明此特殊情况然后加以推广？随着时间的推移，数学化将进入整体性的考虑，自觉地建立理论
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+显性的或公理化的理论。
+\end_layout
+
+\begin_layout Standard
+这是个古老的故事了：希腊人知道某种二次方程可以解释为平面曲线，孟纳奇莫斯（Menaichmes）证明了这些曲线就是圆锥曲线。然而阿波罗尼乌斯（Apolloniu
+s）却从圆锥曲线出发，最后导出了它们的方程。近代，又转了回来、从二次方程出发。但在射影几何中，人们把圆锥曲线定义为射影相关的线束中对应直线相交的轨迹，椭圆画数是
+作为椭圆积分之逆而被发现的，它们有双重周期，并满足一定的函数方程。后来的人就试图用这些函数方程或双周期去定义椭圆函数。
+\end_layout
+
+\begin_layout Standard
+今天，把数学数学化是数学家主要关心的事情之一。没有任何其他学科能像数学一样，把重新改造数学变成了数学家的第二天性。数学家的行为好像是说：重复与照抄是法律焚止的。
+任何人讲课都把材料重新组织到自己满意为止。如果这种组织确实是新的、有独创性的，而且比旧材料要好的话，那有什么不好呢？
+\end_layout
+
+\begin_layout Standard
+形式更新的渴望，在其他学科中并没有这么强烈。当我看到理论物理的某些章节在几十年间甚至几百年间从一本书抄到另一本书，而作者甚至没有意识到由不同时代流传下来的材料在
+形式上与内容上的相互矛质，我就不禁感到痛惜。在力学教科书中，下面的情况几乎成了常规：一方面，正交变换按欧拉的方式不使用本征值处理；另一方面对称变换则按拉普拉斯方
+式使用了本征值处理，并且在这两种方式中都使用着数学中早已抛弃了的方法。在统计力学中，历史上前后更迭交替的理论，被说成是等价的，而且各自都使用着很久以前临时创造出
+来的概念与公式，这样的事难道不够奇怪吗？
+\end_layout
+
+\begin_layout Standard
+一个数学家如果不按部就班地依着数学的连续再组织前进，而是要突然地跃过这个发展中的一列环节，那么他将会遇到困难。一个非数学家通常习惯于在他自己的领域中使用他学生时
+代所学到的数学知识，这样他就会倾向于拒绝现代数学。大家知道，物理学家往往对一些连经济学家、心理学家、语言学家都并不感到困难的新数学抱冷淡态度，其原因就是物理学家
+经常使用数学，而另一些人却是新手。从长远看，物理学家想在大学目前所教的，并且不久将来也在中学要教的数学以外并行地培育出自己的数学来，大概是力不能及的。
+\end_layout
+
+\begin_layout Standard
+我们巳强调说过：不断更新数学的方式，这决不是一时的兴致，而是一种需要。大家知道，科学发展极为迅速。为掌握己有的知识，就需要组织。这对数学是如此，对其他学科也是如
+此，唯一的差别只在于数学家对于组织更为自觉，在更高的水平上进行，这是因为在数学中，组织本身是一项数学活动。毫无疑问，即使数学在不断发展，现在的一位数学家比他五十
+年前的同事能通晓大得多的数学领域，原因就在于借助新的组织形式。从长远看，其他的人将从数学家的组织经验中得益，而数学家也能给他们以帮助。在不久的将来，关于经验的组
+织甚至研究领域间的组织的研究，将成为数学家所研究的应用课题。在那里，他们的形式化经验
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+即语言组织
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+将充分发挥其效力。
+\end_layout
+
+\begin_layout Standard
+数学组织的最为壮观的例子自然是布尔巴基，这真是个有说服力的数学组织啊！其说服力如此巨大，以至皮亚杰（Piaget）竟能在发展心理学中重新发现了布尔巴基的体系。真
+是可怜的皮亚杰！他的遭遇不会比康德好。康德才把欧氏空间神化为“一种纯粹的直观”，非欧几何就被发现了！皮亚杰不是数学家，所以他不知道数学体系的建造者是多么地不可信
+赖。当范畴概念的重要性被发现时，布尔巴基的数学体系还未完成。毫无疑问：范畴论将成为重新组建数学的原理，而当布尔巴基的结构被用范畴的式样改建后，旧的痕迹将消失无遗
+。到那时，如果哪位领头的发展心理学家想要来说服我们承认数学概念的范畴发展模式
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+肯定会是这样的
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+那么，那就是范畴式数学体系在尚未完成之际即将被新的原理所代替的时刻来到了，这种新的原理肯定是要来临的。数学永无止境，任何崇拜某一数学体系的人都应留意这份忠告。
+\end_layout
+
+\begin_layout Standard
+现在，范畴概念正在成为组织数学的一种美妙的手段。如果读者不知道什么是范畴，那他不必过于担忧。本书的作者也并不深知它们究竟是什么，原因之一是它们还在旺盛发展，他曾
+以为只要他能教这些内容，他就能使自己和别人相信他是知道范畴是什么的，然而虽几经尝试，他却从未成功（目前他只做到了一点：他更好地理解了范畴作为组织手段的局限性）。
+也许在某一天会有人找到处理它的好方法，然后又有人把它加以改进，这样或者在二十年或更短时间以后，大学一年级的学生就将学习范畴论了。
+\end_layout
+
+\begin_layout Standard
+如果说由于种种原因我还不能说明范畴是什么的话，那么我倒愿意讲个故事给你听，那是一位数学教授和一个写了一篇有关现代题材的论文的人的故事。那人不是教授自己的学生，甚
+至也不是数学家，而是一位工程师，他带了30页的手稿交给教授，希望作为学位论文予以接受。教授很忙，他把稿子粗看了一遍，说：“这必须用范畴论。你是知道范畴论的，对么
+？”“不。”那人回答道。他走了，去学了一下范畴论，这不需要许多时间，因为越是现代化的数学就越简单。于是那三十页的文章被简缩成了三页，而三页的学位论文就太可怜了，
+但过了不久，它又增长成为三十页，内容比原来的增加了十倍。
+\end_layout
+
+\begin_layout Standard
+这故事叫我想起了莫根施特恩（C.
+\begin_inset space \space{}
+\end_inset
+
+Morgenstern）的一首诗，我现在把德语的原诗抄录在下面，然后用英文解释它的意思（这可不易）。
+\end_layout
+
+\begin_layout Standard
+Korf liest gerne schnell und viel；
+\end_layout
+
+\begin_layout Standard
+darum widert ihn das Spiel
+\end_layout
+
+\begin_layout Standard
+all des zwölfmal unerbetnen
+\end_layout
+
+\begin_layout Standard
+Ausgewalzten, Breitgetretnen。
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Meistens ist in sechs bis acht
+\end_layout
+
+\begin_layout Standard
+Wörtern völlig abgemacht，
+\end_layout
+
+\begin_layout Standard
+und in ebensoviel Sätzen
+\end_layout
+
+\begin_layout Standard
+läßt sich Bandwurmweisheit schwätzen。
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Es erfindet drum sein Geist
+\end_layout
+
+\begin_layout Standard
+etwas, was ihn dem entreißt:
+\end_layout
+
+\begin_layout Standard
+Brillen, deren Energieen
+\end_layout
+
+\begin_layout Standard
+ihm den Text - zusammenziehen!
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Beispielsweise dies Gedicht
+\end_layout
+
+\begin_layout Standard
+läse, so bebrillt, man - nicht!
+\end_layout
+
+\begin_layout Standard
+Dreiunddreißig seinesgleichen
+\end_layout
+
+\begin_layout Standard
+gäben erst - Ein - - Fragezeichen!!
+\end_layout
+
+\begin_layout Standard
+\noindent
+（柯尔夫（Korf）爱好读得多读得快。于是脑子里塞满垃圾般的无用之物。本来三言两语就能说清楚，却写成绦虫一般的长文。于是他发明一种裁文眼镜来救自己。臂如用它来读
+本诗，他就只读到一个“不”字！三十三首这样的诗就只变成一个问号符。）
+\end_layout
+
+\begin_layout Section
+应用
+\end_layout
+
+\begin_layout Standard
+读了这一章，会使人相信：现代数学不过是传统数学的一种方式变化，这当然不对。在木世纪里，不仅解决了许多古老的数学问题，而且产生了崭新的数学分支。我前面特别地强调了
+方式因素，那是因为它对中小学的数学教学起着决定性的作用。至于内容上，我相信在近期内，中小学数学不会跨过19世纪的门槛。
+\end_layout
+
+\begin_layout Standard
+当然，我应当指出一个例外，那就是通常所谓的应用数学。在中小学里，一些最时髦的应用数学例子将可能比传统的占优势
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+其原因将在本章后面阐明。
+\end_layout
+
+\begin_layout Standard
+在第一章开始时，我便讲到了应用数学，或者说，讲到了直接有用的数学，因为那是最早的数学；我同时也强调了数学和它的应用之间的相互作用。能否说由于现代数学的变化影响了
+它和应用之间的关系呢？我认为不显著。在自然科学和技术中，数学的最大份额仍属古典领域：代数、特殊函数、微分方程、积分方程、变分法中的比较“具体”的问题等等。现代的
+计算技术使它们变得更重要了，因为许多方法在过去只是一种崇高的理论，而现在可以用世俗的数值途径来处理了。由此，这应该加以强调，以反对大、中学校里那种忽视分析学的倾
+向。
+\end_layout
+
+\begin_layout Standard
+然而，必须指出，在数学的使用者中间，现代数学不很受物理学家的欢迎。这种抗拒在1930年当群论以及希尔伯特空间的埃尔米特（Hermitean）算子进入理论物理时就
+表现出来了。近代物埋是依赖于这一类数学的，但它们从未为物理学家所全心全意地接受，他们把群论还原为古典代数，把群论方法的真正长处都抛弃了；类似地，抽象分析学的抽象
+因素能避免就避免。毫无疑问，物理学家那样企图回避现代数学，而仅使用随机应变的临时手段或总是归结为古典方法，这只会损害他们自己。只有正视现代数学才会符合他们自己的
+利益。
+\end_layout
+
+\begin_layout Standard
+数学应用的现代领域之一是统计。统计学在1930年前后便取得了现在的形式，和所谓“数学物理”相比较，统计学大部分只用了初等数学。因此，毫不奇怪，统计学是各种没有受
+过正规数学教育的人们所能接受的领域。各行各业的科学家和工程师都在这领域中进行工作。1945年以后，统计工作者激增，这种增长势头现在虽然已有减弱，但统计学仍然是数
+学的一种重要应用，并在将来也将继续如此。
+\end_layout
+
+\begin_layout Standard
+在应用学科中出现一种最为令人注目的东西，它的内容不容易用一、二个字说得明白，那就是通常被称为“运筹学”的。它包含：自动装置理论、开关回路与计算机逻辑、计算机系统
+分析、博弈论、通讯技术与信息论、数据与信息处理、线性规划、控制论、图论中的许多内容等等。与其空述，不如举几个例子，即使看来比较平凡或表达含糊，但只要能说明其特点
+也就可以了。
+\end_layout
+
+\begin_layout Standard
+要在一列数中找出最大的数，或把它们按大小次序排列，用什么方法最为迅速？含100个未知量的线性方程组，用什么方法求解？解的精度如何估计？为了一个特定的目的，如何选
+择最好的开关回路？一个电话交换台应当有多大的规模才能避免用户排队或避免电话遗失？庠存多少才能使店主既避开脱销又避开库存过多。赌牌时装假恫吓奏效吗？在某国中走过个
+指定地点的流动推销员该走怎样的公路线最短？在一堆球中有一个比较轻，其余皆同重，用什么方法能最快地找出这个轻球来？要发的电报如何编码最便宜？怎样翻译密码？如何避免
+发报中数码的错误？如何消除信息传递中的噪音？噪音中隐蔽的频率如何发现？如何制作拼板游戏？…
+\end_layout
+
+\begin_layout Standard
+我相信这些例子比前面列举的学科名目更能说明什么是“运筹学”。在古典数学中，这些问题常常不被看重，它们每个都寻求着自己的特殊的数学理论。特别是“有限”问题，即具有
+一个有限步骤解题理论的问题，只有当它具有适当的解题策略，这种理论才有实用价值，因而事实上重要的只是这个策略。
+\end_layout
+
+\begin_layout Standard
+由于这些要求而产生了大的计算机，并对这些计算机发明了各种解题策略，而计算机本身又是问题的源泉，这些问题也要求有解题策略。自古以来，数值方法对天文学非常重要，三角
+函数与对数函数的计算方法就是在其中发展起来的。第二类数值使用者是测量学家与保险学家，他们在19世纪制造了数值计算工具。到世纪末，许多现在流行的数值方法发展起来了
+。计算机的产生，使对数时代宣告结束。1945年自动计算机的问世是真正的计算革命的开始，它们巨大的计算速度使大量数值问题求解成为可能。其结果，数值数学迅猛发展。在
+其中有着层次分明的各种不间的水平，各种各样的人在其中进行工作
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+把实际问题数学化的人，懂得公式并把它变成可以进行数值计算的形式的人，会读公式并把它翻译给机器的人。还有另一个系列：计算机的制造者，策略制订者，计算机语言制订者，
+程序员。的确，这是一门多面的数学，它被各计算中心所研究。
+\end_layout
+
+\begin_layout Standard
+使用数学的领域增加了许多。我们不必逐一地指出计算机在什么地方使用了。类似地，统计材料在哪里处理，数学方法就在那里发展。通常，新的应用领域所需要的，既不是古典分析
+，也不是“数学物理方法”。新的应用问题往往是组合数学问题、优化问题、逻辑间题与组织方面的问题，对于这些问题在文献中找不到现成的解决方法。有些学科通过计算机而进行
+了一次革命。如何使用计算机进行阅读与翻译教材的问题远未解决，但它对语言学家提出了新的挑战，要求他们用新的、受数学影响的观点去研究语言结构。如果要把计算机使用于医
+疗诊断，则各类症状必须按逻辑的方式加以组织。现在的经济学家把症状预测的数学模型用到宏观经济权衡上去了。
+\end_layout
+
+\begin_layout Standard
+现在，谁都知道那种关于计算机的骇人听闻的说法，说计算机会有一天变成了我们的统治者。这只是我们的幻想抑或将来的世界果真如此？无疑，这问题的答案就像解一个微分方程一
+样，是真正的数学。
+\end_layout
+
+\end_body
+\end_document

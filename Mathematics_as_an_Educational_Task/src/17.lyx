@@ -1,0 +1,5217 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+微积分
+\end_layout
+
+\begin_layout Section
+微积分的开端
+\end_layout
+
+\begin_layout Standard
+在本章，我不打算讨论微积分或函数展开的教学技巧，也不打算把微积分处理成“拓扑学”或“混合结构”的一部分，使它显得更适合于某种数学体系。与其他学科相比，微积分更不
+宜于被描写成为一种结构，以取得人们的欣赏。相反，它是一种想使用它的人们所迫切需要的工具，并且在需要时，它也能被有效地运用。要掌握它，不能光靠背诵开集或极限、微商
+或积分等定义，更重要的是要通过几何与数值的途径去感受这些概念。
+\end_layout
+
+\begin_layout Standard
+是否真有必要详细告诉学生，他有着多种多样的途径去感受微积分的基本概念呢？大可不必，但翻阅各种教科书后，我开始怀疑许多作者自己是否曾感受过这些概念，或感受深到足以
+使他们能用自己的方式表达出来。他们中的一些人把微积分的应用搞得像一附录，我担心这些作为应用的例于那么迟才出现，在教学过程中恐怕是起不了作用的。有人以为用速度引入
+微商概念就是密切联系了实际，其实并不尽然，这只是在透过一条狭缝看现实，至于这条缝是否比其他缝更宽些并不重要。那么透过许多缝是否好些呢？也达不到教育目的。我们应该
+沿着在算术教学中被证明为成功的，有着广阔前景的大道走下去，我们还会像过去那样贴近现实。
+\end_layout
+
+\begin_layout Standard
+一个函数的微商或积分意味着什么，这依赖于所给函数本身的意义，而函数的意义是极为丰富的。
+\end_layout
+
+\begin_layout Section
+数值的途径
+\end_layout
+
+\begin_layout Standard
+函数可以用数来描述，比如用一张表，由这张表可以构造出差分表，这对插值法是很有用的。同一函数的差分显然与网格的宽度有关，但这种依赖性可以消除，只要将差分除以网格宽
+度，得到的就是与网格宽度无关的差商，再令网格宽度趋于零，最终得到了微商。反过来的问题是如何由差商表倒推出原来的函数表，其方法是将差商乘以网格宽度；也可对原来的函
+数表作同样的处理，取极限后将得到该函数的积分表。
+\end_layout
+
+\begin_layout Standard
+为了说明这些步骤，应选择一些适当的函数，比如对数函数、二次函数、正弦函数，去发现一些有趣的规律；也可选择一些源于某一具体问题的函数，在解决该问题时需要求微商或积
+分。当然，这种数值的途径必须是实在的而不是模拟的。为此，至少需要一台台式电子计算机。虽然大规模的造表工作是由计算机完成的，但这为学生练习编写程序提供了机会，并可
+补充介绍较复杂的插值法。
+\end_layout
+
+\begin_layout Section
+图象的途径
+\end_layout
+
+\begin_layout Standard
+如果函数是用图象来描述的，那么微商和积分的几何意义就是斜率和（图象下方的）面积。在数值的途径中，这些概念只是模糊地显露出极限的意思；而在图象的途径中，它们给人的
+第一印象便是现成的对象，只有在这里，学生才被迫把它们分析和理解成极限
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这是把直观事物数学化的一个典型例子。图象的斜率是指切线的斜率，而切线是割线的极限，换句话说，图象在某一点的斜率就是逼近那点的那些区间平均斜率的极限。由曲线围成的
+平面区域的面积是近似多边形面积的极限，它们是有向面积，位于x轴下方的部分，即负的函数值导致面积为负，并规定积分路线颠倒时，积分要变号。按照这一约定，即使
+\begin_inset Formula $a$
+\end_inset
+
+、
+\begin_inset Formula $b$
+\end_inset
+
+、
+\begin_inset Formula $c$
+\end_inset
+
+不满足关系式
+\begin_inset Formula $a<b<c$
+\end_inset
+
+，公式
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\int_{a}^{b}+\int_{b}^{c}=\int_{a}^{c}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+也成立。近似多边形可选择阶梯形多边形或分段线性函数的图象（图17-1）。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/17-1.png
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+求导和求积是互逆的运算，这可从两方面来证明，一方面，对函数的积分求导得到的还是该函数；另一方面，对函数的微商求积得到的是该函数加上一个常数。两个证明学生都必须用
+心学习，因为它们对于微积分的许多应用是有典范意义的。
+\end_layout
+
+\begin_layout Standard
+设
+\begin_inset Formula $f$
+\end_inset
+
+是所给的函数，
+\begin_inset Formula $\int_{a}f(\xi)d\xi$
+\end_inset
+
+在
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $x+\Delta x$
+\end_inset
+
+之间的增量就是
+\begin_inset Formula $f$
+\end_inset
+
+图象下从
+\begin_inset Formula $x$
+\end_inset
+
+到
+\begin_inset Formula $x+\Delta x$
+\end_inset
+
+的面积，其值为
+\begin_inset Formula $\int_{x}^{x+\Delta x}f(\xi)d\xi$
+\end_inset
+
+，将它除以
+\begin_inset Formula $\Delta x$
+\end_inset
+
+，得到的就是
+\begin_inset Formula $f$
+\end_inset
+
+在
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $x+\Delta x$
+\end_inset
+
+之间的近似值。当
+\begin_inset Formula $\Delta x$
+\end_inset
+
+趋于零时，这个近似值的极限就是
+\begin_inset Formula $f(x)$
+\end_inset
+
+（图17-2）。
+\end_layout
+
+\begin_layout Standard
+反之，
+\begin_inset Formula $f$
+\end_inset
+
+在
+\begin_inset Formula $x$
+\end_inset
+
+处的微商
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{rcl}
+f'(x) & \thickapprox & \cfrac{f(x+\Delta x)-f(x)}{\Delta x}\text{，}\\
+\therefore\quad f'(x)\Delta x & \thickapprox & f(x+\Delta x)-f(x)\text{。}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+于是从
+\begin_inset Formula $a$
+\end_inset
+
+到
+\begin_inset Formula $b$
+\end_inset
+
+积分，
+\begin_inset Formula $\int_{a}^{b}f'(a)dx=f(b)=f(a)$
+\end_inset
+
+，如图17-3。
+\end_layout
+
+\begin_layout Standard
+对于严格单调的函数，像公式
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{dy}{dx}=\cfrac{1}{\,\frac{dx}{dy}\,}$
+\end_inset
+
+和
+\begin_inset Formula $\cfrac{dz}{dx}=\cfrac{dz}{dy}\cdot\cfrac{dy}{dz}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+都是很直观的。
+\end_layout
+
+\begin_layout Standard
+前面我已说过，
+\begin_inset Formula $\int_{1}^{x}\cfrac{d\xi}{\xi}$
+\end_inset
+
+是一个自然对数函数，对
+\begin_inset Formula $\ln x=y$
+\end_inset
+
+有
+\begin_inset Formula $\cfrac{dy}{dx}=\cfrac{1}{x}$
+\end_inset
+
+，因此对
+\begin_inset Formula $x=e^{y}$
+\end_inset
+
+，有
+\begin_inset Formula $\cfrac{dx}{dy}=e^{y}$
+\end_inset
+
+，即指数函数
+\begin_inset Formula $e^{x}$
+\end_inset
+
+的导函数仍为它本身。一般地，对指数函数
+\begin_inset Formula $x=a^{y}(a>0,a\neq1),y=\log_{a}x$
+\end_inset
+
+，有
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{rcl}
+y & = & \cfrac{\ln x}{\ln a}\text{，}\\
+\cfrac{dy}{dx} & = & \cfrac{1}{x\ln a}\text{，}\\
+\cfrac{dx}{dy} & = & x\ln a=a^{y}\ln a\text{。}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/17-2.png
+	width 40col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/17-3.png
+	width 40col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "40text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "40text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+要对线性函数积分，只需看它的图象就行了，对
+\begin_inset Formula $y=cx,\int_{a}^{b}ydx$
+\end_inset
+
+就是一个梯形的面积，其值为
+\begin_inset Formula $\cfrac{1}{2}(b^{2}-a^{2})c$
+\end_inset
+
+。特别地，
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\int_{0}^{x}\xi d\xi=\cfrac{1}{2}x^{2}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+于是有
+\begin_inset Formula $\cfrac{dx^{2}}{dx}=2x$
+\end_inset
+
+，当然它也可以从定义直接推得。由此，利用分部积分法、反函数的求导法则、复合函数的求导法则，可求解当
+\begin_inset Formula $\alpha$
+\end_inset
+
+是有理数时函数
+\begin_inset Formula $\bigsqcup_{x}x^{\alpha}$
+\end_inset
+
+的积分。若用到对数的话，还可求解
+\begin_inset Formula $\alpha$
+\end_inset
+
+是实数时该函数的积分。可是我还是愿意先让学生直观地理解当
+\begin_inset Formula $\alpha>-1$
+\end_inset
+
+时，
+\begin_inset Formula $F(x)=\int_{0}^{x}\xi^{\alpha}d\xi$
+\end_inset
+
+总是一个固定的常数乘以
+\begin_inset Formula $x^{\alpha+1}$
+\end_inset
+
+的形式：经过将
+\begin_inset Formula $x$
+\end_inset
+
+变到
+\begin_inset Formula $\rho x$
+\end_inset
+
+，将
+\begin_inset Formula $y$
+\end_inset
+
+变到
+\begin_inset Formula $\rho^{\alpha}y$
+\end_inset
+
+这样一个线性映射后，函数
+\begin_inset Formula $y=x^{\alpha}$
+\end_inset
+
+的图象没有改变，但
+\begin_inset Formula $0$
+\end_inset
+
+到
+\begin_inset Formula $\rho x$
+\end_inset
+
+这一曲边梯形的面积是原来
+\begin_inset Formula $0$
+\end_inset
+
+到
+\begin_inset Formula $x$
+\end_inset
+
+曲边梯形面积的
+\begin_inset Formula $\rho^{\alpha+1}$
+\end_inset
+
+倍，即
+\begin_inset Formula $F(\rho x)=\rho^{\alpha+1}F(x)$
+\end_inset
+
+。特别地，令
+\begin_inset Formula $x=1$
+\end_inset
+
+，再用
+\begin_inset Formula $x$
+\end_inset
+
+代替
+\begin_inset Formula $\rho$
+\end_inset
+
+，则有
+\begin_inset Formula $F(x)=F(1)x^{\alpha+1}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Section
+更广意义下的图象的途径
+\end_layout
+
+\begin_layout Standard
+如果我们在比平面曲线更广的意义下考察函数的直观图象，那么微商和积分也有其几何意义，而且很有用。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "45text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/17-4.png
+	lyxscale 80
+	width 45text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+在积分
+\begin_inset Formula $\int_{0}^{a}\xi^{2}d\xi$
+\end_inset
+
+中，
+\begin_inset Formula $\xi^{2}$
+\end_inset
+
+也可看作是边长为
+\begin_inset Formula $|\xi|$
+\end_inset
+
+的正方形的面积，则此积分就成了一个高及底面边长均为
+\begin_inset Formula $a$
+\end_inset
+
+的正四棱锥的体积。类似地，我们可以设想一种更一般的物体，它沿着
+\begin_inset Formula $x$
+\end_inset
+
+轴延伸，如图17-4，若在点
+\begin_inset Formula $x$
+\end_inset
+
+处与
+\begin_inset Formula $x$
+\end_inset
+
+轴垂直的截面面积为
+\begin_inset Formula $f(x)$
+\end_inset
+
+，则从定点
+\begin_inset Formula $a$
+\end_inset
+
+到动点
+\begin_inset Formula $x$
+\end_inset
+
+所夹这段物体的体积
+\begin_inset Formula $F(x)$
+\end_inset
+
+就应当是
+\begin_inset Formula $F(x)=\int_{a}^{x}f(\xi)d\xi$
+\end_inset
+
+，并且
+\begin_inset Formula $F'(x)=f(x)$
+\end_inset
+
+。这一结论可用于许多场合，比如用于具有旋转对称性的物体上。设有一绕
+\begin_inset Formula $x$
+\end_inset
+
+轴旋转的旋转体，其轮廓线由函数
+\begin_inset Formula $f$
+\end_inset
+
+给出，则在点
+\begin_inset Formula $x$
+\end_inset
+
+处的垂直截面面积为
+\begin_inset Formula $\pi f^{2}(x)$
+\end_inset
+
+，从
+\begin_inset Formula $a$
+\end_inset
+
+到
+\begin_inset Formula $x$
+\end_inset
+
+所夹这段旋转体的体积为
+\begin_inset Formula $\pi\int_{a}^{x}f^{2}(\xi)d\xi$
+\end_inset
+
+。令
+\begin_inset Formula $f(x)=ax,a=0,$
+\end_inset
+
+我们得到的就是高为
+\begin_inset Formula $x$
+\end_inset
+
+，底面半径为
+\begin_inset Formula $ax$
+\end_inset
+
+的圆锥体体积，其值为
+\begin_inset Formula $\cfrac{1}{3}\pi a^{2}x^{3}$
+\end_inset
+
+。用同样的方法，可建立以
+\begin_inset Formula $x$
+\end_inset
+
+为半径的球的表面积
+\begin_inset Formula $S(x)$
+\end_inset
+
+与体积
+\begin_inset Formula $V(x)$
+\end_inset
+
+之间的联系：
+\begin_inset Formula $V(x+\Delta x)-V(x)$
+\end_inset
+
+就是以
+\begin_inset Formula $x$
+\end_inset
+
+为内半径，以
+\begin_inset Formula $x+\Delta x$
+\end_inset
+
+为外半径的“球壳”的体积，将其除以“球壳”的厚度应近似等于该球的表面积，因此
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{dV(x)}{dx}=S(x)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+的确，
+\begin_inset Formula $\cfrac{d\big(\cfrac{4}{3}\pi x^{3}\big)}{dx}=4\pi x^{2}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+反之，设想这个球被分割为许多以
+\begin_inset Formula $x$
+\end_inset
+
+为内半径，
+\begin_inset Formula $x+\Delta x$
+\end_inset
+
+为外半径，厚度为
+\begin_inset Formula $\Delta x$
+\end_inset
+
+的“球壳”，每个“球壳”体积近似于
+\begin_inset Formula $S(x)\cdot\Delta x$
+\end_inset
+
+，将所有这些“球壳“的体积相加，并让
+\begin_inset Formula $\Delta x$
+\end_inset
+
+趋于零，则有
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\int_{0}^{x}S(\xi)d\xi=V(x)$
+\end_inset
+
+，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+的确，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\int_{0}^{x}4\pi\xi^{2}d\xi=\cfrac{4}{3}\pi x^{3}$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+像“在一定条件下，表面积函数可用求导的方法从体积函数导出”这种事实可用很多例子来说明，但是，许多中学甚至大学的教科书根本就不提这种事实，可见纯形式化的非直观的微
+积分已经成了人们的习惯。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement L
+overhang 0in
+width "35text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/17-5.png
+	width 35text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+再举一个球冠表面积的例子，如图图17-5，在球半径为
+\begin_inset Formula $R$
+\end_inset
+
+的球上，设
+\begin_inset Formula $K(h)$
+\end_inset
+
+表示高为
+\begin_inset Formula $h$
+\end_inset
+
+，面积为
+\begin_inset Formula $S(h)$
+\end_inset
+
+的一个球冠，则两个球冠
+\begin_inset Formula $K(h+\Delta h)$
+\end_inset
+
+和
+\begin_inset Formula $K(h)$
+\end_inset
+
+之差可近似地看作一母线长为抓底面半径为P的圆台，于是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $S(h+\Delta h)-S(h)\approx2\pi\rho\Delta S$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+由相似三角形对应边成比例得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Delta S:\Delta h\approx R:\rho$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+于是
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{S(h+\Delta h)-S(h)}{\Delta h}\approx2\pi R$
+\end_inset
+
+，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+因此，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{dS}{dh}=2\pi R$
+\end_inset
+
+，
+\begin_inset Formula $S(h)=2\pi Rh$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+对于一般旋转体的表面积计算也很直观。假设该旋转体是绕
+\begin_inset Formula $x$
+\end_inset
+
+轴旋转的，其轮廓线由函数
+\begin_inset Formula $f$
+\end_inset
+
+给出，那么旋转体上从
+\begin_inset Formula $x$
+\end_inset
+
+到
+\begin_inset Formula $x+\Delta x$
+\end_inset
+
+这一薄片仍可近似看作是一母线长为
+\begin_inset Formula $\sqrt{(\Delta x)^{2}+(\Delta y)^{2}}$
+\end_inset
+
+，底面半径为
+\begin_inset Formula $y$
+\end_inset
+
+的圆台。于是该薄片的表面积近似为
+\begin_inset Formula $2\pi y\sqrt{1+\Big(\cfrac{\Delta y}{\Delta x}\Big)^{2}}\Delta x$
+\end_inset
+
+，求积分，即得该旋转体的表面积公式为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $2\pi\int_{a}^{b}f(x)\sqrt{1+[f'(x)]^{2}dx}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Section
+以速度作为一条途径
+\end_layout
+
+\begin_layout Standard
+如果函数描述的是两个物理量之间的关系，那么它的微商和积分就可能含有一点物理意义，比如我们最常提及的速度，它就是路程对时间的微商。但是，教科书几乎从来不提它的反问
+题，即如何从某辆汽车的速度图象上去求出它所经过的路程。速度对时间的导数是加速度，它表明速度的变化率。除位置移动外，在许多其他过程中速度也有意义，比如，液体流入或
+流出某容器的流速，通过导体的电流速度，人口增长的速度，放射性物质衰变的速度。
+\end_layout
+
+\begin_layout Standard
+一个重要的例子就是机械功，它是力沿着路径的积分。设平面上某一质点
+\begin_inset Formula $m$
+\end_inset
+
+似受一力的作用，产生加速度
+\begin_inset Formula $\cfrac{d^{2}x}{dt^{2}}$
+\end_inset
+
+，于是功转化为动能。如果质点在
+\begin_inset Formula $t_{0}$
+\end_inset
+
+到
+\begin_inset Formula $t_{1}$
+\end_inset
+
+这段时间内，速度从
+\begin_inset Formula $v_{0}$
+\end_inset
+
+变到
+\begin_inset Formula $v_{1}$
+\end_inset
+
+，位置从
+\begin_inset Formula $x_{0}$
+\end_inset
+
+变到
+\begin_inset Formula $x_{1}$
+\end_inset
+
+，那么它所累积的动能就是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{cl}
+\int_{x0}^{x1}m\cfrac{d^{2}x}{dt^{2}}dx & =\int_{x0}^{x1}m\cfrac{d^{2}x}{dt^{2}}\cfrac{dx}{dt}dt=\int_{x0}^{x1}\cfrac{1}{2}md\Big(\cfrac{dx}{dt}\Big)^{2}\\
+ & =\cfrac{1}{2}m(v_{1}^{2}-v_{0}^{2})\text{。}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+此值即为动能的增量。若
+\begin_inset Formula $v_{0}=0$
+\end_inset
+
+，则此值为
+\begin_inset Formula $\cfrac{1}{2}mv^{2}$
+\end_inset
+
+，它是具有速度
+\begin_inset Formula $v$
+\end_inset
+
+的质点
+\begin_inset Formula $m$
+\end_inset
+
+所具有的动能，对此我们非常熟悉。
+\end_layout
+
+\begin_layout Standard
+这个例子是相当典型的，而且与其他学科有着密切的联系，所有的中学微积分教学都不应丢弃它，我们不该把它留给物理教师，让他们用似是而非的证明去变出式子
+\begin_inset Formula $\cfrac{1}{2}mv^{2}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Section
+以密度作为一条途径
+\end_layout
+
+\begin_layout Standard
+如果沿一直线（
+\begin_inset Formula $x$
+\end_inset
+
+轴），有一连续分布的物质，其分布函数是已知的，则可求出该物质的密度。设在点
+\begin_inset Formula $x$
+\end_inset
+
+处，密度是
+\begin_inset Formula $f(x)$
+\end_inset
+
+，则在
+\begin_inset Formula $x$
+\end_inset
+
+到
+\begin_inset Formula $x+\Delta x$
+\end_inset
+
+这一小段上就分布着
+\begin_inset Formula $f(x)\Delta x$
+\end_inset
+
+的这种物质，
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+之间就分布着
+\begin_inset Formula $\int_{a}^{b}f(x)dx$
+\end_inset
+
+的这种物质。我们可以把上述物质换成任何在
+\begin_inset Formula $x$
+\end_inset
+
+处密度为
+\begin_inset Formula $f(x)$
+\end_inset
+
+的量。设
+\begin_inset Formula $F(x)$
+\end_inset
+
+表示年龄不大于
+\begin_inset Formula $x$
+\end_inset
+
+的人口百分比，它可视为某一函数的积分函数，于是，
+\begin_inset Formula $f(x)\Delta x$
+\end_inset
+
+表示年龄在
+\begin_inset Formula $x$
+\end_inset
+
+到
+\begin_inset Formula $x+\Delta x$
+\end_inset
+
+间的人口百分比，那么，
+\begin_inset Formula $F(x)$
+\end_inset
+
+可作为任选一人其年龄不大于
+\begin_inset Formula $x$
+\end_inset
+
+的概率，
+\begin_inset Formula $f(x)$
+\end_inset
+
+就是年龄
+\begin_inset Formula $x$
+\end_inset
+
+的概率密度。一般遇到随机量时，我们常要考虑它的分布函数和频率函数，其中，前者是后者的积分。
+\end_layout
+
+\begin_layout Standard
+用密度说明积分概念是最有趣的，尤其是在概率问题中，它所需的概率知识不过是一些常识，对此，我想通过下例来加以说明：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "30text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/17-6.png
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+某人习惯在每天晚上六点至八点之间去某个餐馆用晚餐，每次总是在那儿停留四十五分钟，求任一时刻
+\begin_inset Formula $t$
+\end_inset
+
+他在那儿的概率。又假如另外有一个人，也有和他一样的习惯，那么他们在餐馆相遇的概率是多少？他们在一起的时间平均有多久？
+\end_layout
+
+\begin_layout Standard
+假设一个人是在
+\begin_inset Formula $(6+2x)$
+\end_inset
+
+时刻到达的，而另一个人是在
+\begin_inset Formula $(6+2y)$
+\end_inset
+
+时刻到达的，则图17-6中阴影部分就是他们相遇的
+\begin_inset Formula $(x,y)$
+\end_inset
+
+点对。因此，他们相遇的概率应是阴影部分面积与正方形面积之比，其值为
+\begin_inset Formula $1-\cfrac{25}{64}$
+\end_inset
+
+。他们在一起的时间应该是
+\begin_inset Formula $(\cfrac{3}{4}-2|x-y|)$
+\end_inset
+
+小时，其中
+\begin_inset Formula $x$
+\end_inset
+
+、
+\begin_inset Formula $y$
+\end_inset
+
+都是有约束条件的。要求他们在一起的时间平均有多久，还须对这个函数在阴影部分上积分，最终答案是
+\begin_inset Formula $\cfrac{63}{256}$
+\end_inset
+
+小时。
+\end_layout
+
+\begin_layout Section
+以梯度作为一条途径
+\end_layout
+
+\begin_layout Standard
+若已知沿
+\begin_inset Formula $x$
+\end_inset
+
+轴的温度变化函数是
+\begin_inset Formula $f$
+\end_inset
+
+，那么
+\begin_inset Formula $\cfrac{df}{dx}$
+\end_inset
+
+|就称为温度梯度。它之所以重要在于它揭示了热传导速度的方向与温度梯度相反，大小与温度梯度成正比这一事实。设温度函数为
+\begin_inset Formula $f(x,t)$
+\end_inset
+
+，在时刻
+\begin_inset Formula $t$
+\end_inset
+
+，我们打破
+\begin_inset Formula $x$
+\end_inset
+
+到
+\begin_inset Formula $x+\Delta x$
+\end_inset
+
+这一小段的热平衡，可以发现，在
+\begin_inset Formula $x$
+\end_inset
+
+处的流出速度为
+\begin_inset Formula $k\cfrac{\partial f(x,t)}{\partial x}$
+\end_inset
+
+，在
+\begin_inset Formula $x+\Delta x$
+\end_inset
+
+处的流入速度为
+\begin_inset Formula $k\times\cfrac{\partial f(x+\Delta x,t)}{\partial x}$
+\end_inset
+
+。均衡后，小段内的流入速度为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $k\cfrac{\partial f(x+\Delta x,t)}{\partial x}-k\cfrac{\partial f(x,t)}{\partial x}\thickapprox k\cfrac{\partial^{2}f(x,t)}{\partial x^{2}}\Delta x$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以，小段内每一点热量增加的速度为
+\begin_inset Formula $k\cfrac{\partial^{2}f(x,t)}{\partial x^{2}}$
+\end_inset
+
+，它与
+\begin_inset Formula $x$
+\end_inset
+
+处温度上升的速度相等，这样就得到了著名的热传导方程
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{\partial f}{\partial x}=k\cfrac{\partial^{2}\int}{\partial x^{2}}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+它也可用于其他扩散过程。
+\end_layout
+
+\begin_layout Standard
+对于二维或三维函数其梯度定义为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\mbox{grad}F=\Big(\cfrac{\partial F}{\partial x_{1}},\cfrac{\partial F}{\partial x_{2}}\Big)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+或者
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\mbox{grad}F=\Big(\cfrac{\partial F}{\partial x_{1}},\cfrac{\partial F}{\partial x_{2}},\cfrac{\partial F}{\partial x_{3}}\Big)$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+梯度场是一个向量场，它在每一点上指出了函数增加最快的方向和大小。
+\end_layout
+
+\begin_layout Standard
+因为
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $dF=\sum\cfrac{\partial F}{\partial x_{i}}dx_{i}=(\mbox{grad}F,dx)$
+\end_inset
+
+，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+即
+\begin_inset Formula $\mbox{grad}F$
+\end_inset
+
+与
+\begin_inset Formula $dx$
+\end_inset
+
+的内积，所以
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $F(x)-F(x_{0})=\int(\mbox{grad}F,dx)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\noindent
+其中积分路径是从
+\begin_inset Formula $x_{0}$
+\end_inset
+
+到
+\begin_inset Formula $x$
+\end_inset
+
+。若我们将
+\begin_inset Formula $\mbox{grad}F$
+\end_inset
+
+理解为力的场，则
+\begin_inset Formula $(\mbox{grad}F,dx)$
+\end_inset
+
+就是力沿着路径
+\begin_inset Formula $dx$
+\end_inset
+
+所作的功，于是
+\begin_inset Formula $F(x)-F(x_{0})$
+\end_inset
+
+就是它沿着路径从
+\begin_inset Formula $x_{0}$
+\end_inset
+
+到
+\begin_inset Formula $x$
+\end_inset
+
+所作的功，或者说是
+\begin_inset Formula $x_{0}$
+\end_inset
+
+与
+\begin_inset Formula $x$
+\end_inset
+
+之间的势能差。
+\end_layout
+
+\begin_layout Standard
+这是中学物理课程中的重要内容，由于中学微积分只涉及一元函数，因此数学教师就欣然把这些原本属于数学的知识留给物理教师去讲。如果我们追求的是直观微积分而不是算法微积
+分的话，那么就完全可以冲破这种限制。事实上，梯度可以作为教学的目标，而且是引起学生极大兴趣的出发点。为了直观起见，我们仅限于讨论二维的情况。
+\end_layout
+
+\begin_layout Standard
+我们设想二元函数
+\begin_inset Formula $F$
+\end_inset
+
+刻划了平面上的一座山，
+\begin_inset Formula $F$
+\end_inset
+
+表示这座山的等高线。在每一点上都有一个坡度最大的方向（称为坡度方向），这可以用一个向量来表示，向量的大小与坡度成正比，（在一座真的山上，水流是逆坡度方向的。）
+\end_layout
+
+\begin_layout Standard
+先考虑比较简单的
+\begin_inset Formula $F$
+\end_inset
+
+，即
+\begin_inset Formula $F$
+\end_inset
+
+是一个线性函数
+\begin_inset Formula $F^{*}$
+\end_inset
+
+，这时起伏不平的山变成了一个倾斜的平面。等高线变成了一组平行线，各处的坡度都相等，坡度方向与等高线垂直。设
+\begin_inset Formula $F^{*}(x_{1},x_{2})=a_{0}+a_{1}x_{1}+a_{2}x_{2}$
+\end_inset
+
+，则
+\begin_inset Formula $\Delta F^{*}=(a,\Delta x)$
+\end_inset
+
+，其中
+\begin_inset Formula $\alpha$
+\end_inset
+
+是向量
+\begin_inset Formula $(a_{1},a_{2})$
+\end_inset
+
+，
+\begin_inset Formula $\Delta x$
+\end_inset
+
+是向量
+\begin_inset Formula $(\Delta x_{1},\Delta x_{2})$
+\end_inset
+
+，
+\begin_inset Formula $\Delta F^{*}$
+\end_inset
+
+是
+\begin_inset Formula $F^{*}$
+\end_inset
+
+沿着向量
+\begin_inset Formula $\Delta x$
+\end_inset
+
+方向的增量。若
+\begin_inset Formula $\Delta x$
+\end_inset
+
+与
+\begin_inset Formula $\alpha$
+\end_inset
+
+垂直，则内积
+\begin_inset Formula $\Delta F^{*}$
+\end_inset
+
+等于零，表明
+\begin_inset Formula $\Delta x$
+\end_inset
+
+方向是等高方向。因为
+\begin_inset Formula $\alpha$
+\end_inset
+
+与
+\begin_inset Formula $\Delta x$
+\end_inset
+
+这个方向垂直，所以
+\begin_inset Formula $\alpha$
+\end_inset
+
+的方向是
+\begin_inset Formula $F^{*}$
+\end_inset
+
+增加最快的方向。如果
+\begin_inset Formula $\Delta x$
+\end_inset
+
+是与
+\begin_inset Formula $\alpha$
+\end_inset
+
+同向的单位向量，那么
+\begin_inset Formula $\Delta F^{*}=|\alpha|$
+\end_inset
+
+，这表明
+\begin_inset Formula $\alpha$
+\end_inset
+
+的大小就是
+\begin_inset Formula $F^{*}$
+\end_inset
+
+的最大增量，按照前面对梯度的定义，我们也可以说
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Delta F^{*}=(\mbox{grad}F^{*},\Delta x)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+对于任意的二元函数
+\begin_inset Formula $F$
+\end_inset
+
+，在
+\begin_inset Formula $x_{0}=(x_{01},x_{02})$
+\end_inset
+
+处我们可用一个线性函数
+\begin_inset Formula $F^{*}$
+\end_inset
+
+逼近它，则起伏的山峦在该处被它的切平面代替。在
+\begin_inset Formula $x_{0}$
+\end_inset
+
+处
+\begin_inset Formula $\mbox{grad}F$
+\end_inset
+
+和
+\begin_inset Formula $\mbox{grad}F^{*}$
+\end_inset
+
+相等，可现在
+\begin_inset Formula $F^{*}$
+\end_inset
+
+是处处不同的，相应地，
+\begin_inset Formula $\mbox{grad}F^{*}$
+\end_inset
+
+也处处不同。
+\end_layout
+
+\begin_layout Standard
+将平面上从
+\begin_inset Formula $x_{0}$
+\end_inset
+
+到
+\begin_inset Formula $x_{1}$
+\end_inset
+
+的一段路径分割成许多小段，沿着这条路径的增量
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Delta F=(\mbox{grad}F,\Delta x)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\, F(x)-F(x_{0})=\int(\mbox{grad}F,dx)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/17-7.png
+	width 45col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/17-8.png
+	width 45col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+其中积分途径是从
+\begin_inset Formula $x_{0}$
+\end_inset
+
+到
+\begin_inset Formula $x_{1}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+为了增加一些趣味性，我们还可以研究梯度为零的各神点，可以比较图17-7中最低或最高点附近的等高线，可以研究图17-8中鞍点附近的情况。由此可介绍到关于区域内函数
+的极点、鞍点数的Morse理论。
+\end_layout
+
+\begin_layout Section
+以容量作为一条途径
+\end_layout
+
+\begin_layout Standard
+与微积分概念有关的另一应用就是容量，它在物理学中有好几种称谓。一个导体的容量是指增加它的电势相应地需要充多少电荷，于是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $C=\cfrac{de}{dV}$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+其中
+\begin_inset Formula $V$
+\end_inset
+
+是导体的电势，
+\begin_inset Formula $e$
+\end_inset
+
+是充入的电荷，
+\begin_inset Formula $C$
+\end_inset
+
+是电容，它可能依赖于
+\begin_inset Formula $V$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\because\quad I=\cfrac{de}{dt}$
+\end_inset
+
+，
+\begin_inset Formula $\therefore\quad\cfrac{dV}{dt}=\cfrac{dV}{de}\cdot\cfrac{de}{dt}=\cfrac{1}{C}I$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+于是
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $V(t_{1})-V(t_{0})=\int_{t0}^{t1}\cfrac{1}{C}dt$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+容童这一概念的直观背景是这样的：假设有一个容器，它的横截面大小各异，高度
+\begin_inset Formula $x$
+\end_inset
+
+处的截面而积是
+\begin_inset Formula $f(x)$
+\end_inset
+
+，为使其液面从高度
+\begin_inset Formula $x$
+\end_inset
+
+上升到
+\begin_inset Formula $x+\Delta x$
+\end_inset
+
+，必须注入多少液体？容量就是注入液体的量与液面上升的高度之比在
+\begin_inset Formula $\Delta x$
+\end_inset
+
+趋零时的极限，即
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\underset{\Delta x\rightarrow0}{\lim}\cfrac{\int_{x}^{x+\Delta x}f(x)dx}{\Delta x}=f(x)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+同样地，热容量被定义为获取的热量与温度的增加之比的极限。单位物质的热容量就是常说的比热。
+\end_layout
+
+\begin_layout Standard
+关于容量，有一个很有趣的例子，就是求增加速度所需作的功。设
+\begin_inset Formula $v$
+\end_inset
+
+表示速度，
+\begin_inset Formula $E$
+\end_inset
+
+表示质点
+\begin_inset Formula $m$
+\end_inset
+
+的动能。于是
+\begin_inset Formula $E=\cfrac{1}{2}mv^{2}$
+\end_inset
+
+，所以
+\begin_inset Formula $\cfrac{dE}{dv}=mv$
+\end_inset
+
+。由于人们熟悉近似于常数的容量，因此很少有人意识到增加相同大小的速度所需作的功会不一样。
+\end_layout
+
+\begin_layout Standard
+这里还必须提及出现对数微商的情况。若一根棒的长度
+\begin_inset Formula $l$
+\end_inset
+
+随温度
+\begin_inset Formula $T$
+\end_inset
+
+而变化，则膨胀系数
+\begin_inset Formula $\cfrac{1}{l}\cfrac{dl}{dT}$
+\end_inset
+
+就是反映这种变化的一个量。类似地，弹性系数
+\begin_inset Formula $\cfrac{1}{l}\cfrac{dl}{d\sigma}$
+\end_inset
+
+反映的是棒长
+\begin_inset Formula $l$
+\end_inset
+
+受拉力
+\begin_inset Formula $\sigma$
+\end_inset
+
+影响的程度。
+\end_layout
+
+\begin_layout Standard
+经济领域中也有容量的概念，称为“弹性力”，它反映了产品价值
+\begin_inset Formula $P$
+\end_inset
+
+与售价
+\begin_inset Formula $S$
+\end_inset
+
+之间的依赖关系。如果
+\begin_inset Formula $\cfrac{dS}{dP}$
+\end_inset
+
+很大，则价值上的小变动就会导致售价的大调整，这种现象称为高弹。显然，生活中的主要必需品必须是低弹的。
+\end_layout
+
+\begin_layout Section
+以结构与联系作为一条途径
+\end_layout
+
+\begin_layout Standard
+现在我们来比较两个在运动过程中互相依存的量在几何图象上的变化。我想到的第一个例子就是求正弦函数的导函数，当然，不是用该函数的图象，也不是用它的加法定理，而是直接
+从定义正弦的单位圆出发。如图17-9所示，
+\begin_inset Formula $P$
+\end_inset
+
+是单位圆上距离
+\begin_inset Formula $(1,0)$
+\end_inset
+
+点孤长为
+\begin_inset Formula $s$
+\end_inset
+
+的一点，其坐标为
+\begin_inset Formula $(\cos s,\sin s)$
+\end_inset
+
+。若点
+\begin_inset Formula $P$
+\end_inset
+
+以始终与半径方向垂直的单位速度沿圆周运动，则
+\begin_inset Formula $\cfrac{d(\cos s,\sin s)}{ds}$
+\end_inset
+
+是一个常数
+\begin_inset Formula $\rho$
+\end_inset
+
+乘以
+\begin_inset Formula $(-\sin s,\cos s)$
+\end_inset
+
+，即
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{d\cos s}{ds}=-\rho\sin s$
+\end_inset
+
+，
+\begin_inset Formula $\cfrac{d\sin s}{ds}=-\rho\cos s$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+其中常数
+\begin_inset Formula $\rho$
+\end_inset
+
+可以由
+\begin_inset Formula $s$
+\end_inset
+
+趋于零时计算得到，即
+\begin_inset Formula $\rho=\underset{s\rightarrow v}{\lim}\cfrac{\sin s}{s}$
+\end_inset
+
+，计算这个极限可以有很多种方法，答案是
+\begin_inset Formula $\rho=1$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/17-9.png
+	width 45col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/17-10.png
+	width 45col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+第二个例子是在球极投影下弧长的变化情况。如图17-10，当
+\begin_inset Formula $Q$
+\end_inset
+
+运动至
+\begin_inset Formula $P$
+\end_inset
+
+时，比例
+\begin_inset Formula $PQ:P'Q'$
+\end_inset
+
+的极限是多少？在这一极限中，弧长
+\begin_inset Formula $PQ$
+\end_inset
+
+可以用线段长来代替，而
+\begin_inset Formula $\Delta PNQ$
+\end_inset
+
+和
+\begin_inset Formula $\Delta Q'NP'$
+\end_inset
+
+是一对相似三角形，因此
+\begin_inset Formula $PQ:Q'P'=NP:NQ'$
+\end_inset
+
+、当
+\begin_inset Formula $Q\rightarrow P$
+\end_inset
+
+时，这个比变成
+\begin_inset Formula $NP:NP'$
+\end_inset
+
+、设
+\begin_inset Formula $PQ$
+\end_inset
+
+弧长为
+\begin_inset Formula $s$
+\end_inset
+
+，其在底平面上的投影曲线
+\begin_inset Formula $P'Q'$
+\end_inset
+
+孤长为
+\begin_inset Formula $s'$
+\end_inset
+
+，则
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{ds}{ds'}=\cfrac{NP}{NP'}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+对球上曲面面积
+\begin_inset Formula $\sigma$
+\end_inset
+
+和其在底平面上投影面积
+\begin_inset Formula $\sigma'$
+\end_inset
+
+，有
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{ds}{ds'}=\Big(\cfrac{NP}{NP'}\Big)^{2}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+如果不在乎它的证明是否能被人理解的话，这些结论当然也能从更形式化的微积分中得到。但上述证明是很漂亮的，这又一次说明了用几何直观指导教学的重要性（想埋葬几何的人应
+记住这一点）。
+\end_layout
+
+\begin_layout Standard
+我并不主张微积分教学走那种经典曲线概论的路子，我只是想表明，如果用现代观点思考，那么即使是一个看来已没有生气的老问题也会恢复活力的。
+\end_layout
+
+\begin_layout Section
+所谓的应用
+\end_layout
+
+\begin_layout Standard
+从微积分教学与非数学的知识领域的结合来看，通常的做法是：首先在数学领域内定义微商和积分，然后至多指出微商和速度的关系，而所谓的应用将在以后的微分方程中出现。对此
+做法，我是坚决反对的，因为这种应用出现得太迟了。从初学微积分起就应该让学生体会到它与现实之间的密切联系，学基本概念更应在现实这个大背景下进行。当然，我这样说并不
+是要取消通常所安排的那些应用，相反，我是要拓宽和加深它们。
+\end_layout
+
+\begin_layout Standard
+最简单的应用是用在自由落体运动、斜面上的质点运动和抛射运动上。然后是大量可导出指数函数的微分方程问题，最典型的就是考察一个以某种速度增长或减少的量，比如人口、放
+射性物质等，其增长或减少的速度与现存量近似成正比：
+\begin_inset Formula $\Delta Q\approx\alpha Q\Delta t$
+\end_inset
+
+，于是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{dQ}{dt}=\alpha Q$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+其解为
+\begin_inset Formula $Q(t)=Q(0)e^{xt}$
+\end_inset
+
+。对于人口增长的问题，
+\begin_inset Formula $\alpha$
+\end_inset
+
+为正的常数；对于放射性元素的衰变问题，
+\begin_inset Formula $\alpha$
+\end_inset
+
+为负的常数。
+\end_layout
+
+\begin_layout Standard
+变量之间依赖关系复杂一些的有热传导问题。设传出的热量与温度差分别
+\begin_inset Formula $\Delta Q$
+\end_inset
+
+与
+\begin_inset Formula $\Delta\theta$
+\end_inset
+
+，则由
+\begin_inset Formula $\Delta\theta\approx-k\Delta Q$
+\end_inset
+
+，和
+\begin_inset Formula $\Delta Q\approx\alpha\theta\Delta t$
+\end_inset
+
+，可推出
+\begin_inset Formula $\Delta\theta\approx\alpha k\theta\Delta t$
+\end_inset
+
+，取极限，得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{d\theta}{dt}=-\alpha k\theta$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+其解为
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\theta(t)=\theta(0)e^{-\alpha kt}$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+气压与高度问题是一个经典例子，要导出它的公式是复杂的。设截面积为
+\begin_inset Formula $1$
+\end_inset
+
+的空气柱在高度
+\begin_inset Formula $x$
+\end_inset
+
+处的气压为
+\begin_inset Formula $p(x)$
+\end_inset
+
+，因为空气的比重与压力成正比，而从所降低的气压正是这一薄层内空气的重量，所以
+\begin_inset Formula $\Delta p\approx-kp\Delta x$
+\end_inset
+
+，取极限，得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{dp}{dx}=-kp$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+其解为
+\begin_inset Formula $p(x)=p(0)e^{-kx}$
+\end_inset
+
+。将高度表示成气压的函数，则有
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x=\cfrac{1}{k}\ln\Big(\cfrac{p(0)}{p(x)}\Big)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement L
+overhang 0in
+width "40text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/17-11.png
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+另一个比较复杂的例子是挂在一滚筒上的驱动带的张力问题，如图17-11，在压力的作用下，从
+\begin_inset Formula $A$
+\end_inset
+
+到
+\begin_inset Formula $B$
+\end_inset
+
+的张力逐渐增大，所增加的量正好与皮带和滚筒之间的摩擦力大小相等。我们用角坐标表示滚筒上的点，设在
+\begin_inset Formula $\varphi$
+\end_inset
+
+处皮带的张力为
+\begin_inset Formula $S(\varphi)$
+\end_inset
+
+，因为从
+\begin_inset Formula $\varphi$
+\end_inset
+
+到
+\begin_inset Formula $\varphi+\Delta\varphi$
+\end_inset
+
+皮带与滚筒的摩檫力与张力在法线方向上的分量成正比，于是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Delta S\approx\mu S\sin\Delta\varphi$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+则
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{dS}{d\varphi}=\mu S$
+\end_inset
+
+，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $S(\varphi)=e^{\mu\varphi}S(0)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以，滚筒上皮带张力的增加是以指数形式依赖于角
+\begin_inset Formula $\varphi$
+\end_inset
+
+、而与滚筒的半径无关。
+\end_layout
+
+\begin_layout Standard
+二阶微分方程是由振动问题产生的。一质点
+\begin_inset Formula $m$
+\end_inset
+
+有一维自由度，以弹簧将其与原点连接，该质点受到一个与其振幅
+\begin_inset Formula $c$
+\end_inset
+
+成正比的力的作用，除此之外，它还受到一个与其速度成正比的阻尼力（摩擦力）和一个周期性的外力
+\begin_inset Formula $K$
+\end_inset
+
+的作用。于是可导出一线性微分方程
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $m\cfrac{d^{2}x}{dt^{2}}+\rho\cfrac{dx}{dt}+\mu x=K$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+左边是惯性力、阻尼力和弹性力之和，右边是周期性的外力。如果
+\begin_inset Formula $\rho=0$
+\end_inset
+
+，
+\begin_inset Formula $K=0$
+\end_inset
+
+，则上述微分方程的解是
+\begin_inset Formula $x=e^{\pm i\sqrt{\frac{\mu}{m}}t}$
+\end_inset
+
+，质点的振动周期为
+\begin_inset Formula $\cfrac{2\pi}{\sqrt{\frac{\mu}{m}}}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+描述摆的小幅度摆动的微分方程与描述质点的振动方程差不多，只是现在
+\begin_inset Formula $x$
+\end_inset
+
+表示摆角，并且在方程中，角加速度和角速度都要乘以摆长
+\begin_inset Formula $L$
+\end_inset
+
+。原来的
+\begin_inset Formula $\mu x$
+\end_inset
+
+现在被重力在切线方向的分量
+\begin_inset Formula $mg\sin x$
+\end_inset
+
+所代替，因为是小幅度摆动，所以
+\begin_inset Formula $\sin x$
+\end_inset
+
+可用m代替，于是微分方程变成了
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $m\Big(\cfrac{d^{2}x}{dt^{2}}+\cfrac{\rho}{m}\cfrac{dx}{dt}+\cfrac{g}{L}x\Big)=K$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+当摆所作的是自由摆动时，可求得其摆动周期为
+\begin_inset Formula $2\pi\sqrt{\cfrac{L}{g}}$
+\end_inset
+
+，这是我们都很熟悉的结论。
+\end_layout
+
+\begin_layout Standard
+在电流为
+\begin_inset Formula $I$
+\end_inset
+
+的电路中，电流经过电阻
+\begin_inset Formula $R$
+\end_inset
+
+，电势下降
+\begin_inset Formula $IR$
+\end_inset
+
+，经过自感线圈
+\begin_inset Formula $L$
+\end_inset
+
+，电势下降
+\begin_inset Formula $L\cdot\cfrac{dI}{dt}$
+\end_inset
+
+，经过电容
+\begin_inset Formula $C$
+\end_inset
+
+，电势下降
+\begin_inset Formula $\cfrac{1}{C}\int_{0}^{t}Idt$
+\end_inset
+
+，这些电势差的总和是由电动势
+\begin_inset Formula $E$
+\end_inset
+
+提供的，即
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $L\cfrac{dI}{dt}+RI+\cfrac{1}{C}\int_{0}^{t}Idt=E$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+或者说，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $L\cfrac{d^{2}I}{dt^{2}}+R\cfrac{dI}{dt}+\cfrac{I}{C}=\cfrac{dE}{dt}$
+\end_inset
+
+，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这又是一个二阶微分方裎。
+\end_layout
+
+\begin_layout Standard
+其实，一个二阶微分方程也能隐含在一个一阶微分方程组里。设二阶微分方程是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{d^{2}x}{dt^{2}}+a\cfrac{dx}{dt}+bx+c=0$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+只要令
+\begin_inset Formula $x_{1}=x$
+\end_inset
+
+，
+\begin_inset Formula $x_{2}=\cfrac{dx}{dt}$
+\end_inset
+
+，上述二阶微分方程就化成了一个一阶微分方程组
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{cases}
+\cfrac{dx_{1}}{dt} & =x_{2}\text{，}\\
+\cfrac{dx_{2}}{dt} & =-bx_{1}ax_{2}-c\text{。}
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+反之，若给出
+\begin_inset Formula $x_{1}$
+\end_inset
+
+，
+\begin_inset Formula $x_{2}$
+\end_inset
+
+之间的一个线性关系，则对该一阶微分方程组求一次导数，也能将其化为一个二阶微分方程。
+\end_layout
+
+\begin_layout Standard
+一阶微分方程组
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(*)\begin{cases}
+\cfrac{dx_{1}}{dt} & =a_{11}x_{1}+a_{12}x_{2}+a_{13}\\
+\cfrac{dx_{2}}{dt} & =a_{21}x_{1}+a_{22}x_{2}+a_{23}
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+可简写为
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{dx}{dt}=Ax+C$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement L
+overhang 0in
+width "40text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/17-12.png
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+方程组
+\begin_inset Formula $(*)$
+\end_inset
+
+有一漂亮的几何解释，在平面上点处有一向量在整个平面上就可形成一个向量场，解微分方程
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{dx}{dt}=Ax+C$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+就是要寻找这样的曲线，便其上的每一点切线方向都与场的方向一致（图17-12）。向量场按其零点的特性分类，这是一个诱人的问题。从代数的角度看，这一分类依赖于
+\begin_inset Formula $A$
+\end_inset
+
+的特征值。这是线性代数的一个重要的，甚至可能是最重要的应用例子。有的大学数学课程中有线性代数，但根本不提它在线性微分方程组方面的应用，这简直令人难以置信，但情况
+确实如此。
+\end_layout
+
+\begin_layout Standard
+对方程组
+\begin_inset Formula $(*)$
+\end_inset
+
+还有一些实际的解释。比如，有两种化学物质
+\begin_inset Formula $x_{1}$
+\end_inset
+
+，
+\begin_inset Formula $x_{2}$
+\end_inset
+
+，其增长规律线性地依赖于
+\begin_inset Formula $x_{1}$
+\end_inset
+
+，
+\begin_inset Formula $x_{2}$
+\end_inset
+
+本身，即在也
+\begin_inset Formula $\Delta t$
+\end_inset
+
+时间内
+\begin_inset Formula $x_{i}$
+\end_inset
+
+产生出第一种物质
+\begin_inset Formula $x_{1}$
+\end_inset
+
+的量是
+\begin_inset Formula $a_{1i}x_{i}\Delta t$
+\end_inset
+
+，产生出第二种物质
+\begin_inset Formula $x_{2}$
+\end_inset
+
+的量是
+\begin_inset Formula $a_{21i}x_{i}\Delta t$
+\end_inset
+
+，这时方程组
+\begin_inset Formula $(*)$
+\end_inset
+
+所描述的就是
+\begin_inset Formula $x_{1}$
+\end_inset
+
+，
+\begin_inset Formula $x_{2}$
+\end_inset
+
+的增长情况。自然，当系数为负时，它表明是消耗而不是增长。
+\end_layout
+
+\begin_layout Standard
+一阶微分方程组
+\begin_inset Formula $(*)$
+\end_inset
+
+的特例
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{cases}
+\cfrac{dx_{1}}{dt} & =-\alpha x_{1}+\beta x_{2}\text{，}\\
+\cfrac{dx_{2}}{dt} & =\alpha x_{1}-\beta x_{2}
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+有一个概率解释，它所描述的是一个随机过程：一个系统有两种可能的状态，时刻
+\begin_inset Formula $t$
+\end_inset
+
+它处于这两个状态的概率分别是
+\begin_inset Formula $x_{1}$
+\end_inset
+
+和
+\begin_inset Formula $x_{2}(x_{1}+x_{2}=1)$
+\end_inset
+
+，它在时间间隔
+\begin_inset Formula $\Delta t$
+\end_inset
+
+内从状态1进入状态2的概率是
+\begin_inset Formula $\alpha\Delta t$
+\end_inset
+
+，从状态2进入状态1的概率是
+\begin_inset Formula $\beta\Delta t$
+\end_inset
+
+。这个微分方程组就描述了概率的变化情况。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "40text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/17-13.png
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+另一种应用是研究有关悬链线的问题，它不适合中学教学，所以我们改用一个与悬链线问题类似的，简单的吊桥问题，它适合于中学数学教学。如图17-13有一钢丝绳吊挢，因为
+桥自身很重，所以钢丝绳的重量可以忽略。在力的平衡下，从
+\begin_inset Formula $x_{1}$
+\end_inset
+
+到
+\begin_inset Formula $x_{1}+\Delta x_{1}$
+\end_inset
+
+这一小段钢丝绳受到的力有张力
+\begin_inset Formula $-T(x_{1})$
+\end_inset
+
+，
+\begin_inset Formula $-T(x_{1}+\Delta x_{1})$
+\end_inset
+
+和重力
+\begin_inset Formula $-\mu g\Delta x_{1}e_{2}$
+\end_inset
+
+，其中
+\begin_inset Formula $\mu$
+\end_inset
+
+是单位长度挢的质量，
+\begin_inset Formula $e_{2}$
+\end_inset
+
+是与重力方向相反的基向量。由此得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{dT}{dx_{1}}=\mu ge_{2}$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+于是
+\begin_inset Formula $T=\mu gex_{1}e_{2}+a$
+\end_inset
+
+，其中
+\begin_inset Formula $a$
+\end_inset
+
+是一个固定的向量
+\begin_inset Formula $(a_{1},a_{2})$
+\end_inset
+
+，张力
+\begin_inset Formula $T$
+\end_inset
+
+是一个数乘以切线方向上的向量，故
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{dx_{2}}{dx_{1}}=\cfrac{T_{2}}{T_{1}}=\cfrac{\mu gx_{1}+a_{2}}{a_{1}}$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+其解为
+\begin_inset Formula $x_{2}=\cfrac{1}{2}\cfrac{\mu g}{a_{1}}x_{1}^{2}+\cfrac{a_{2}}{a_{1}}x_{1}+C$
+\end_inset
+
+，它是一条抛物线，
+\begin_inset Formula $x_{1}^{2}$
+\end_inset
+
+的系数的物理意义与弹性系数有关。
+\end_layout
+
+\begin_layout Section
+量的阶
+\end_layout
+
+\begin_layout Standard
+物理学家总是毫无顾忌地谈及量的阶，而数学家却总是小心翼翼地避开它。微枳分教学中极少提及它，似乎只要让学生知道
+\begin_inset Formula $x^{3}$
+\end_inset
+
+比
+\begin_inset Formula $x^{2}$
+\end_inset
+
+，
+\begin_inset Formula $e^{x}$
+\end_inset
+
+比
+\begin_inset Formula $x$
+\end_inset
+
+的任何次幂增长得快就够了。其实，直观地理解量的阶是直观地理解微商和积分的必要前提。微商的定义表明：在
+\begin_inset Formula $x=x_{0}$
+\end_inset
+
+处，函数
+\begin_inset Formula $f$
+\end_inset
+
+可以近似地用一个线性函数
+\begin_inset Formula $f^{*}$
+\end_inset
+
+来表示，当
+\begin_inset Formula $x\rightarrow x_{0}$
+\end_inset
+
+时，其误差
+\begin_inset Formula $f(x)-f^{*}(x)$
+\end_inset
+
+比
+\begin_inset Formula $x-x_{0}$
+\end_inset
+
+更快地趋于零。这是因为当
+\begin_inset Formula $x\rightarrow x_{0}$
+\end_inset
+
+时，
+\begin_inset Formula $\cfrac{f(x)-f(x_{0})}{x-x_{0}}-f'(x_{0})$
+\end_inset
+
+趋于零，所以
+\begin_inset Formula $f(x)-f(x_{0})-f'(x_{0})\times(x-x_{0})$
+\end_inset
+
+比
+\begin_inset Formula $x-x_{0}$
+\end_inset
+
+更快地趋于零。如果
+\begin_inset Formula $y=f(x)$
+\end_inset
+
+二阶可导，则误差
+\begin_inset Formula $f(x)-f^{*}(x)$
+\end_inset
+
+除以
+\begin_inset Formula $(x-x_{0})^{2}$
+\end_inset
+
+仍是有界的。对此学生不仅应该从式子的推导中，而且也应该从函数图象和切线上来加以认识。上述问题还可继续推广：如果函数
+\begin_inset Formula $f$
+\end_inset
+
+在
+\begin_inset Formula $x_{0}$
+\end_inset
+
+处
+\begin_inset Formula $k$
+\end_inset
+
+阶可导，那么在
+\begin_inset Formula $x_{0}$
+\end_inset
+
+附近，函数
+\begin_inset Formula $f$
+\end_inset
+
+可以近似地用一个
+\begin_inset Formula $k$
+\end_inset
+
+次多项式
+\begin_inset Formula $f^{*}$
+\end_inset
+
+来表示，当
+\begin_inset Formula $x\rightarrow x_{0}$
+\end_inset
+
+时，误差
+\begin_inset Formula $f(x)-f^{*}(x)$
+\end_inset
+
+比
+\begin_inset Formula $(x-x_{0})^{k}$
+\end_inset
+
+更快地趋于零。在不久以前，几乎所有的大学微积分教材还不提这一重要的内容，而把注意力放在很复杂的“余项”上。
+\end_layout
+
+\begin_layout Standard
+如果用上、下阶梯函数或分段线性函数近似地代替原来的光滑函数
+\begin_inset Formula $f$
+\end_inset
+
+，那么积分的误差情况如何呢？对于前者，是以长度为
+\begin_inset Formula $h$
+\end_inset
+
+的小区间的左端点（或右端点）的函数值代替这一小区间上的函数值，由于在每一长度为
+\begin_inset Formula $h$
+\end_inset
+
+的小区间里函数的变化
+\begin_inset Formula $\Delta f$
+\end_inset
+
+至多与
+\begin_inset Formula $h$
+\end_inset
+
+同阶，因此，在每一小区间上函数
+\begin_inset Formula $f$
+\end_inset
+
+的积分近似值误差至多与
+\begin_inset Formula $h^{2}$
+\end_inset
+
+同阶，把所有小区间上的误差相加，总误差至多与
+\begin_inset Formula $h$
+\end_inset
+
+同阶；对于后者，是以连结长度为
+\begin_inset Formula $h$
+\end_inset
+
+的小区间的两端点函数值的弦代替这一小区间上的函数图象，由于每一弦总与该小区间内某一点的切线平行，由前面关于导数的讨论知道，误差
+\begin_inset Formula $\Delta f$
+\end_inset
+
+是比
+\begin_inset Formula $h$
+\end_inset
+
+高阶的无穷小，若
+\begin_inset Formula $f$
+\end_inset
+
+又是二阶可导，则误差
+\begin_inset Formula $\Delta f$
+\end_inset
+
+与
+\begin_inset Formula $h^{2}$
+\end_inset
+
+同阶，因此，每一小区间上积分的误差与
+\begin_inset Formula $h^{3}$
+\end_inset
+
+同阶，在整个积分区间上积分的总误差与
+\begin_inset Formula $h^{2}$
+\end_inset
+
+同阶。比较这两种结果，显然后者的近似程度更好些，于是自然产生了一个问题：是否能用更高阶的多项式函数图象代替每一小区间上的函数图象以提高精确度昵？这一问题的深入研
+究产生了一个数学分支
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+插值理论。我们还可以思考一个类似的问题：如果用数值方法对一个用表格表示的函数求导，能否可用类似的方法提高精确度？
+\end_layout
+
+\begin_layout Section
+微分
+\end_layout
+
+\begin_layout Standard
+在推导微分方程，比如高度与气压公式的时候，我们提到过高度从
+\begin_inset Formula $x$
+\end_inset
+
+上升到
+\begin_inset Formula $x+\Delta x$
+\end_inset
+
+，而降低的气压恰是这一薄层内空气的重量
+\begin_inset Formula $kp\Delta x$
+\end_inset
+
+，于是有
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\Delta p\approx-kp\Delta x$
+\end_inset
+
+，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $(**)$
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这里用恒量
+\begin_inset Formula $p$
+\end_inset
+
+代表这一薄层内所有点的气压值是违背实际的，这对结论的科学性是否有影响？没有。这是因为薄层内气压的差值至多与
+\begin_inset Formula $\Delta x$
+\end_inset
+
+同阶，无沦以
+\begin_inset Formula $p$
+\end_inset
+
+到
+\begin_inset Formula $p+\Delta x$
+\end_inset
+
+之间的哪一个值代表薄层内的气压，
+\begin_inset Formula $\Delta p$
+\end_inset
+
+的误差都与
+\begin_inset Formula $(\Delta x)^{2}$
+\end_inset
+
+是同阶的，在
+\begin_inset Formula $(**)$
+\end_inset
+
+的两边同时除以
+\begin_inset Formula $\Delta x$
+\end_inset
+
+得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{\Delta p}{\Delta x}\approx-kp$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+其误差就与
+\begin_inset Formula $\Delta x$
+\end_inset
+
+同阶，当
+\begin_inset Formula $\Delta x\rightarrow0$
+\end_inset
+
+时，就得到了不存在误差的等式
+\begin_inset Formula $\cfrac{dp}{dx}=-kp$
+\end_inset
+
+，其他问题也是如此。
+\begin_inset Formula $(**)$
+\end_inset
+
+也可记为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Delta p=-kp\Delta x+\cdots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+或
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\Delta p=-kp\Delta x+o(\Delta x)$
+\end_inset
+
+，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+其中的省略号和
+\begin_inset Formula $o(\Delta x)$
+\end_inset
+
+表示比
+\begin_inset Formula $\Delta x$
+\end_inset
+
+更快趋于零的量。按传统的记法就是
+\begin_inset Formula $dp=-kp\, dx$
+\end_inset
+
+，然后我们说在
+\begin_inset Formula $x$
+\end_inset
+
+到
+\begin_inset Formula $x+dx$
+\end_inset
+
+办这一无穷小区间中含有重量为
+\begin_inset Formula $-kp\, dx$
+\end_inset
+
+的空气，这一方程表明它等于气压的变化
+\begin_inset Formula $dp$
+\end_inset
+
+，最后，两边同时除以心，即得微分方程
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{dp}{dx}=-kp$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+很多人正在深入讨论中学数学中是否要引入以及怎样引入微分，但这场讨论若不首先回答学微分的目的究竟是什么这一根本的问题，那是没有意义的。无用的知识很快会被忘却。如果
+\begin_inset Formula $dx$
+\end_inset
+
+和
+\begin_inset Formula $dy$
+\end_inset
+
+总是跟在被积函数后面出现，或者总是以
+\begin_inset Formula $\cfrac{dy}{dx}$
+\end_inset
+
+这样一个整体出现，那么要让学生回答微分
+\begin_inset Formula $dx$
+\end_inset
+
+和
+\begin_inset Formula $dy$
+\end_inset
+
+各有什么含意，他就会觉得这个问题简直就像问“‘
+\begin_inset Formula $\log$
+\end_inset
+
+’中‘l’、‘o’、‘g’各有什么含意”一样无意义。其实观察一下链导法则和换元法则
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{dz}{dx}=\cfrac{dz}{dy}\cdot\cfrac{dy}{dx}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\int_{\varphi(a)}^{\varphi(b)}f(x)dx=\int_{a}^{b}f[\varphi(u)]\cfrac{dx}{du}du$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+其中
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $x=\varphi(u)$
+\end_inset
+
+，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+就会发现微分记号是有用的。利用微分运算还可方便地解出形如
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{dy}{dx}=\cfrac{f(x)}{g(y)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这样的微分方程，解的过程是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $f(x)dx=g(y)dy$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\int f(x)dx=\int g(y)dy$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+令
+\begin_inset Formula $F(x)=\int_{a}^{x}f(\xi)d\xi$
+\end_inset
+
+，
+\begin_inset Formula $G(y)=\int_{b}^{y}g(\varsigma)d\varsigma$
+\end_inset
+
+，于是就得到了关系
+\begin_inset Formula $F(x)=G(y)$
+\end_inset
+
+。也可以不用微分而用换元法则方便地来解：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $g(y)\cfrac{dy}{dx}=f(x)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\int g(y)dy=\int g(y)\cfrac{dy}{dx}dx=\int f(x)dx$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+但这对于帮助学生理解其中的过程几乎没有好处，
+\end_layout
+
+\begin_layout Standard
+在讨论微分的教学时，这种应用是从来不谈的。即便谈一点应用，也完全局限于微分的语言现象。那么，为什么对微分总在讨论呢？让人苦恼的是在物理中人们津津乐道于无穷小路径
+、无穷小瞬间、无穷小功等，并把它们互除而忽略不计高阶的项。
+\end_layout
+
+\begin_layout Standard
+我想关于这一点我已经讲得很清楚了，原因不在于物理。一旦用微积分把实际数据数学化，微分就产生了。对于两个互相依存的变量
+\begin_inset Formula $x$
+\end_inset
+
+，
+\begin_inset Formula $y$
+\end_inset
+
+，不先说明微小变化
+\begin_inset Formula $\Delta x$
+\end_inset
+
+和相应的
+\begin_inset Formula $\Delta y$
+\end_inset
+
+，以及
+\begin_inset Formula $\cfrac{\Delta y}{\Delta x}$
+\end_inset
+
+收敛于
+\begin_inset Formula $\cfrac{dy}{dx}$
+\end_inset
+
+，就讲无穷小变化
+\begin_inset Formula $dx$
+\end_inset
+
+，
+\begin_inset Formula $dy$
+\end_inset
+
+和它们的商
+\begin_inset Formula $\cfrac{dy}{dx}$
+\end_inset
+
+，不先说
+\begin_inset Formula $\Delta p\approx-kp\Delta x$
+\end_inset
+
+，其中
+\begin_inset Formula $p$
+\end_inset
+
+取
+\begin_inset Formula $x$
+\end_inset
+
+到
+\begin_inset Formula $x+\Delta x$
+\end_inset
+
+小段中某点上的值，而直接说
+\begin_inset Formula $dp=-kp\, dx$
+\end_inset
+
+。这是物理学家的表达方式，我相信如果让数学家来解这种问题，那么他一定会想到微分。物理教师也是这样教的，如果他具有扎实的数学功底，那他很清楚这样教是完全有道理的，
+反之，他会有点不踏实。然而，在那些有能力把物理学家用的数学教给学生的数学家中，仅有一部分人重视让学生熟悉这种数学，而他们之中敢于教这种数学的人就更少了。中学数学
+受抽象的大学数学影响太深了，而这些数学与人们的实际应用相距甚远。加强中学和大学微积分的多重联系可有很多种途径，我们已谈及的所有那些途径都有将微分作为一种直观对象
+的思想。如果直观地教授多重联系的微积分，那么就没有必要讨论是否要教微分了。因为在这样的土地上，微分会像野草那样生长，就如同我们不必用公理或其他方法去解释如何看几
+何图形一样，也不必去解释什么是微分。我知道，在尚未清晰地把一学科解剖成定义、假设、结论和证明时，就要数学教师去教它是困难的，但他们可以向物理学家学习应该怎么做。
+\end_layout
+
+\begin_layout Standard
+我认为，考虑悬链线上从
+\begin_inset Formula $s$
+\end_inset
+
+到
+\begin_inset Formula $s+\Delta s$
+\end_inset
+
+一小段还是考虑从
+\begin_inset Formula $s$
+\end_inset
+
+到
+\begin_inset Formula $s+ds$
+\end_inset
+
+一无限小段，以及是否将关系
+\begin_inset Formula $T(s+\Delta s)-T(s)\approx ug\Delta s\cdot e_{2}$
+\end_inset
+
+写成方程
+\begin_inset Formula $T(s+ds)-T(s)=ug\, ds\cdot e_{2}$
+\end_inset
+
+都是无关紧要的，然而比较而言第二种描述方法更好些。为了理解物理学家的语言，大学生应向数学家学习这种描述方法，并在中学阶段为接受这种方法作好准备。不应发生数学家教
+的数学是不能用的，而物理学家用的数学却是数学家不教的这种事情。
+\end_layout
+
+\begin_layout Section
+量与函数
+\end_layout
+
+\begin_layout Standard
+上节提到的分歧根深蒂固，随着现代数学的发展，尤其是在集合论与数学语言发展的影响下，这一分歧显得越来越大。如果我们继续用纯而又纯的风格去教数学，而越来越不讲究启发
+（方）式的话，那么数学的使用者们会把他们认为学生需要的数学教给学生，而不管数学家们怎么说。
+\end_layout
+
+\begin_layout Standard
+我早已说过原因是多方面的，不只是因为有人在用
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+，
+\begin_inset Formula $\delta$
+\end_inset
+
+与严格的极限定义，而有人在用无穷小与微分分歧早在函数概念上就表现出来了，并随着函数记号的逐渐改进，分歧也越来越明显。也许读者巳注意到我例子中所用的函数记号并不符
+合我前面介绍过的现代数学中的那种精神，不过请他放心，我不会收回我对现代函数概念的赞誉，我想说的是那种要把一切东西都挤入一个体系的教条主义做法是很危险的，这种做法
+会让我们失去很多客观上和教学上有价值的东西。
+\end_layout
+
+\begin_layout Standard
+我所举的例子中出现了许多诸如
+\begin_inset Formula $\cfrac{dp}{dx}$
+\end_inset
+
+，
+\begin_inset Formula $\cfrac{ds}{ds'}$
+\end_inset
+
+，
+\begin_inset Formula $\cfrac{de}{dV}$
+\end_inset
+
+，
+\begin_inset Formula $\cfrac{dV}{de}$
+\end_inset
+
+的微商记号，它们分别表示气压关于高度的导数，一孤长对另一弧长的导数，电量关于电势的导数和电势关于电量的导数，这是物理学家的数学和数学符号，用起来往往很方便。但在
+数学中，像
+\begin_inset Formula $\cfrac{dV}{de}$
+\end_inset
+
+这种记号已经显得过时了，提倡用
+\begin_inset Formula $V'$
+\end_inset
+
+，表明
+\begin_inset Formula $V$
+\end_inset
+
+关于其自变量的导数，至于称自变量为什么字母无所谓。的确，在描述一个函数时，我们是不在乎
+\begin_inset Formula $V$
+\end_inset
+
+后面的括号内填什么字母的，但
+\begin_inset Formula $\cfrac{de}{dV}$
+\end_inset
+
+和
+\begin_inset Formula $\cfrac{dV}{de}$
+\end_inset
+
+是不允许同时出现的，
+\begin_inset Formula $V$
+\end_inset
+
+不能一会儿代表一个函数，一会儿又代表一个自变量。
+\end_layout
+
+\begin_layout Standard
+其实，例子中所出现的
+\begin_inset Formula $V$
+\end_inset
+
+，
+\begin_inset Formula $e$
+\end_inset
+
+，
+\begin_inset Formula $p$
+\end_inset
+
+，
+\begin_inset Formula $x$
+\end_inset
+
+，
+\begin_inset Formula $s$
+\end_inset
+
+，
+\begin_inset Formula $s'$
+\end_inset
+
+等都不是函数，而是量。它们相互之间有某种依赖关系。比如
+\begin_inset Formula $V$
+\end_inset
+
+依赖于
+\begin_inset Formula $e$
+\end_inset
+
+，
+\begin_inset Formula $p$
+\end_inset
+
+依赖于
+\begin_inset Formula $x$
+\end_inset
+
+，
+\begin_inset Formula $s$
+\end_inset
+
+依赖于
+\begin_inset Formula $s'$
+\end_inset
+
+，这种依赖关系也就是函数依赖关系，只是没有明确表明，也没有用记号说明。
+\end_layout
+
+\begin_layout Standard
+数学家之所以不同意物理学家的做法，是因为后者把量的方法与函数的方法这两种不同的东西混淆起来了。设
+\begin_inset Formula $p$
+\end_inset
+
+，
+\begin_inset Formula $V$
+\end_inset
+
+，
+\begin_inset Formula $T$
+\end_inset
+
+分别表示气体的压力、体积和温度，那么我们该怎样表示
+\begin_inset Formula $p$
+\end_inset
+
+，
+\begin_inset Formula $V$
+\end_inset
+
+，
+\begin_inset Formula $T$
+\end_inset
+
+之间的相互依赖关系呢？物理学家会写
+\begin_inset Formula $p(V)$
+\end_inset
+
+和
+\begin_inset Formula $p(t)$
+\end_inset
+
+，表示当
+\begin_inset Formula $T$
+\end_inset
+
+固定时，
+\begin_inset Formula $p$
+\end_inset
+
+是
+\begin_inset Formula $V$
+\end_inset
+
+的函数；当
+\begin_inset Formula $V$
+\end_inset
+
+固定时，
+\begin_inset Formula $p$
+\end_inset
+
+是
+\begin_inset Formula $T$
+\end_inset
+
+的函数。这是与函数记号的现代发展背道而驰的。在现代数学中，“
+\begin_inset Formula $p$
+\end_inset
+
+”是一个已定义的函数的特定记号，“
+\begin_inset Formula $p$
+\end_inset
+
+”后括号内填什么自变量记号是无关紧要的。
+\end_layout
+
+\begin_layout Standard
+就其本身而言，物理学家的这种做法不会造成严重的冲突，一个人只要在传统的量表示法和新的函数表示法之中选定一个，并且不混用它们就行，但不幸的是物理学家们仍在前后不一
+地使用着传统的表示法，他们称
+\begin_inset Formula $p$
+\end_inset
+
+为压力，称
+\begin_inset Formula $p(V)$
+\end_inset
+
+为当体积是
+\begin_inset Formula $V$
+\end_inset
+
+时的压力，称
+\begin_inset Formula $p(T)$
+\end_inset
+
+是当温度为
+\begin_inset Formula $T$
+\end_inset
+
+时的压力。但如果体积作为温度的函数随温度的变化而变化，我们该用什么来表示压力呢？用
+\begin_inset Formula $p(V)$
+\end_inset
+
+？
+\begin_inset Formula $p(T)$
+\end_inset
+
+？或是
+\begin_inset Formula $p(V(T))$
+\end_inset
+
+？大凡搞过热力学的数学家只要想起这种混乱的事情就会不寒而栗。当然，在物理学家的脑子里有着一个实际问题，他明白自己所用记号的确切含义，就像一个几何学家脑子里有一个
+形象，他能把图形的性质讲得比不联系现实的人更为真切。然而，用一个字母在同一场合里既表示一个量，又表示这个量对另一个量的依赖关系，这总不能认为是合理的事。因此，有
+人建议引入函数记号
+\begin_inset Formula $\phi$
+\end_inset
+
+和
+\begin_inset Formula $\psi$
+\end_inset
+
+，而把上面的问题记作
+\begin_inset Formula $p=\phi(V)$
+\end_inset
+
+，
+\begin_inset Formula $p=\psi(V)$
+\end_inset
+
+，或更一般地记作
+\begin_inset Formula $p=\kappa(V,T)$
+\end_inset
+
+。然而，不必将好的东西连同坏的东西一起丢掉，我们应该允许物理学家和我们自己用字母表示量，允许求一个量对另一个量的导数，允许使用微商记号。这样，若
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $t$
+\end_inset
+
+表示路程与时间，则
+\begin_inset Formula $\cfrac{dx}{dt}$
+\end_inset
+
+就表示速度。进一步，若路程对时间的依赖关系由
+\begin_inset Formula $x=f(t)$
+\end_inset
+
+给出，则速度对时间的依赖关系由
+\begin_inset Formula $\cfrac{dx}{dt}=f'(t)$
+\end_inset
+
+给出。除此之外，我们应该看到，用一个字母既表示量又表示一个函数的传统办法还有一个很大的好处，就是在算法上把一个函数归结为一个量，这在许多情况下是非常便利的。而上
+面所说的引入新的字母来表示一个量对另一个量的依赖关系，这种方法是过于精细且不实用的。有没有更便利的方法呢？
+\end_layout
+
+\begin_layout Standard
+我想起一种办法，即用含
+\begin_inset Formula $x$
+\end_inset
+
+的式子把函数关系表示出来。例如，用
+\begin_inset Formula $x\rightarrow x^{2}$
+\end_inset
+
+表示“……的平方”这个函数。对此，我建议用
+\begin_inset Formula $\bigsqcup_{a}x^{2}$
+\end_inset
+
+来代替。这里我们是否也能用类似的办法呢？若
+\begin_inset Formula $x$
+\end_inset
+
+与
+\begin_inset Formula $t$
+\end_inset
+
+是两个量，比如
+\begin_inset Formula $x$
+\end_inset
+
+是路程，
+\begin_inset Formula $t$
+\end_inset
+
+是时间，则
+\begin_inset Formula $t\rightarrow x$
+\end_inset
+
+表示
+\begin_inset Formula $x$
+\end_inset
+
+关于
+\begin_inset Formula $t$
+\end_inset
+
+的函数，也就是
+\begin_inset Formula $x=f(t)$
+\end_inset
+
+。我将它记作
+\begin_inset Formula $\bigsqcup_{t}x$
+\end_inset
+
+，这里
+\begin_inset Formula $t$
+\end_inset
+
+与
+\begin_inset Formula $x$
+\end_inset
+
+的关系没有明显地表达出来。于是，压力作为温度的函数就是
+\begin_inset Formula $\bigsqcup_{T}p$
+\end_inset
+
+，作为体积的函数就是
+\begin_inset Formula $\bigsqcup_{V}p$
+\end_inset
+
+，作为这两者的函数就是
+\begin_inset Formula $\bigsqcup_{(T,V)}p$
+\end_inset
+
+。还有
+\begin_inset Formula $\bigsqcup_{s}\cfrac{dx}{dt}=(\bigsqcup_{t}x)'$
+\end_inset
+
+,，。在尚未熟悉这种记法之前，我们会感到很不习惯，当然还可以改用其他更熟悉的方法。在时刻
+\begin_inset Formula $t_{0}$
+\end_inset
+
+，路程
+\begin_inset Formula $x$
+\end_inset
+
+及速度
+\begin_inset Formula $\cfrac{dx}{dt}$
+\end_inset
+
+的值可以按老办法分别记作
+\begin_inset Formula $x_{t=t_{0}}$
+\end_inset
+
+与
+\begin_inset Formula $\Big(\cfrac{dx}{dt}\Big)_{t=t_{0}}$
+\end_inset
+
+，按新办法则可记作
+\begin_inset Formula $(\bigsqcup_{t}x)(t_{0})=x_{t=t_{0}}$
+\end_inset
+
+，
+\begin_inset Formula $(\bigsqcup_{t}x)'(t_{0})=\Big(\cfrac{dx}{dt}\Big)_{t=t_{0}}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+我不认为这是最终的方法，应该说问题还没有解决，有能力、有兴趣的人们应该对这个问题作深入地研究。量的运算、微分与微商的记号和方法是行之有效的宝贵方法，我们没有权利
+要求物理学家抛弃好的旧鞋，而去穿挤脚的新鞋。相反，数学家们应该设法找出一套大家乐意接受的，又实际可行的形式体系来。
+\end_layout
+
+\begin_layout Standard
+对于中学教学来说，不管情况如何复杂，我们都必须把最方便的工具教给学生。微分、几何量、物理量及它们的微商是直观微积分的最有效工具。如果我们的教学不能利用它们，而只
+能从集合论出发搞纯粹主义，那么必定会给学生在理解上设下灾难性的障碍。
+\end_layout
+
+\begin_layout Section
+连续和收敛
+\end_layout
+
+\begin_layout Standard
+从逻辑上看，连续和收敛是密切相关的，这是分析和形式化的结果，但从教学上看，却不宜一气呵成。应将这些概念间的关系作为学习进程的目标而不是作为其基础。无论是要证明数
+列、级数或甚至于函数的收敛性，我们都可以在尚未给出收敛的定义之前完成，对于一些具体的特殊数列甚至还能找出在误差允许范围内的极限。但证明连续性的情况就不同了，在给
+出连续的一般定义之前，最多只能说明一次或二次函数是连续的。连续性是一个一般的性质，因为由它可以推导出其他时一些性质来，例如推导出可积性等。
+\end_layout
+
+\begin_layout Standard
+从我们的说明中我们几乎可以完全相信，依靠直观的连续概念可以学到相当多的微积分知识。那么较高水平的深奥理论能掌握吗？中学教连续有用吗？仔细看看就会知道，光是连续性
+与可导性是起不了大作用的，真正重要的是一致连续性与一致可导性。想要证明连续函数时可积性，关键在于证明：当自变量发生很小的变化时，函数值也一致地发生很小的变化。由
+此就可以推断出：当分割的间隔趋于零时，阶梯多边形的面积和曲线下方的面积之差可以任意地小。我们知道，利用海涅-波莱尔（Heine-Borel）定理或波尔察诺-维尔
+斯特拉斯（Bolzano-Weierstrass）定理可以证明：在有界闭区间上连续的函数必定是一致连续的。但是，谁敢在中学里去证明或只是提及这一定理呢？实际上，
+若仅是为了证明连续函数的可积性而安排连续概念的话，那么老实说，这一目的是达不到的。所以只需干脆地给出一致连续的概念就行了，事实上一致连续的概念比连续概念更容易阐
+述。
+\end_layout
+
+\begin_layout Standard
+可导性的情况也类似，重要的是一致可导性。一致可导的意思是：当
+\begin_inset Formula $h$
+\end_inset
+
+足够小时，
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big|\cfrac{f(x+h)-f(x)}{h}-f'(x)\Big|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+的值关于
+\begin_inset Formula $x$
+\end_inset
+
+可以一致地变得任意小。这也就是说：对于任意的
+\begin_inset Formula $\varepsilon>0$
+\end_inset
+
+，存在着
+\begin_inset Formula $\delta>0$
+\end_inset
+
+，使当
+\begin_inset Formula $|h|<\delta$
+\end_inset
+
+时，上式的值小于
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+。换一种说法，也就是：当
+\begin_inset Formula $x_{1}$
+\end_inset
+
+，
+\begin_inset Formula $x_{2}$
+\end_inset
+
+趋于
+\begin_inset Formula $x$
+\end_inset
+
+时，
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{f(x_{1})-f(x_{2})}{x_{1}-x_{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+一致地收敛于
+\begin_inset Formula $f'(x)$
+\end_inset
+
+。这个结论在我们用差商代替微商时经常用到，例如，用于证明导函数的积分和原函数最多相差一个常数，或用于讨论量的阶。
+\end_layout
+
+\begin_layout Standard
+当然，一致可导性可由导函数
+\begin_inset Formula $f'$
+\end_inset
+
+的连续性推出，但这也要用海涅-波莱尔定理证明的，因此，与其假定
+\begin_inset Formula $f'$
+\end_inset
+
+的连续性，还不如直接假定函数
+\begin_inset Formula $f$
+\end_inset
+
+的一致可导性。在这方面，就是大学的微积分教学也没有处理好，不过这里我就不予讨论了。
+\end_layout
+
+\begin_layout Standard
+如果出于某些原因，在中学里一定要教连续或一致连续的话，那么最简单的教法就是把
+\begin_inset Formula $\varepsilon-\delta$
+\end_inset
+
+定义一古脑儿地灌输给学生。如果这样教的话，即使是大学生也难真正掌握。很遗憾，至今没有对连续概念教学的新建议，尤其是缺少对教学情形所作的逻辑分析。学习连续概念的难
+点在于量词和各种量词间的顺序，为了说明这一点，我必须提前运用第十九章逻辑中的一些内容。
+\end_layout
+
+\begin_layout Standard
+对“连续”的直观解释是：
+\begin_inset Formula $x$
+\end_inset
+
+的微小变化引起
+\begin_inset Formula $f(x)$
+\end_inset
+
+的微小变化，或者说
+\begin_inset Formula $x$
+\end_inset
+
+变化一点点，则对应的
+\begin_inset Formula $f(x)$
+\end_inset
+
+也变化一点点。显然，诸如小、大、一点点、很多、短、长这些词都有那么点意思，但都不明确。在“连续”的定义中，第二个“微小”和第一个“微小”就有“任意”和“存在”的
+区别。为了更确切地使用这些量词，首先要让学生对它们作逻辑上的分析。
+\end_layout
+
+\begin_layout Standard
+把直观的“连续”概念译成数学的逻辑语言，学生会遇到两种困难：一是要译出隐含着的量词；二是要将各种量词排序。经验丰富的教师会将这两种困难分开，逐个解决。他们让学生
+先接触量词，尤其是非算法式的量词及这些量词的否定量词，再学习寻找隐含着的量词，最后去掌握量词的序。这是一个漫长的过程，我们不能等到积下很多困难时才开始重视。
+\end_layout
+
+\begin_layout Standard
+为了要形成一个较确切的连续性定义，学生必须先学会把日常语言形式化。必须熟悉“每一个”、“所有”、“处处”、“总是”、“某一个”、“一些”、“某处”、“有时”等量
+词，对非限定的不定冠词“一个”要能够区别它是代表“所有”还是代表“某一”。接着学习寻找隐含着的量词，先从不考虑序的简单训练开始，例如在“慢工出细活”中要求能从“
+慢”字中看到隐含着量词“存在”（“存在一段时间，之后才能出细活）；在“最隐蔽的秘密也将暴露在光天化日之下”中要求能从“最”字中体会出“所有”这个量词（所有的秘密
+都将暴露在光天化日之下）；在“许多猎犬一会儿就把那只野兔抓住了”中要求能从“许多两字中体会出“存在”（存在一大群猎犬致使那只野兔无法逃脱）。
+\end_layout
+
+\begin_layout Standard
+在这些例子中只含一个量词，之后，可进入几个量词同时出现的训练阶段。这时要让学生认识到量词序的重要性。比如“总是有人在这儿的”和“有人总是在这儿的”用的字虽完全一
+样，但由于字的排序不同，就构成了两句含意完全不同的句子。学生要能写出这种句子的否定句。隐含两个或更多的基本量词的句子在中学数学中是不常见的，例如，“
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+是无理数”（不存在非零整数
+\begin_inset Formula $p,q$
+\end_inset
+
+，使得
+\begin_inset Formula $p^{2}=2q^{2}$
+\end_inset
+
+），“
+\begin_inset Formula $x$
+\end_inset
+
+能被
+\begin_inset Formula $5$
+\end_inset
+
+整除”（存在一个整数
+\begin_inset Formula $y$
+\end_inset
+
+，使得
+\begin_inset Formula $x=5y$
+\end_inset
+
+）。我曾指出过，即使是中学水平以上的人，有时也不能分辨出这些结构中的量词，而这离连续性定义的复杂程度还差得远呢。
+\end_layout
+
+\begin_layout Standard
+再后，进入再难些的翻译训练，例如，“对很大的自变量，函数
+\begin_inset Formula $f$
+\end_inset
+
+是正的”，显然，“很大”隐含着一个量词，但它是什么？抑或不止一个？这句话说的是哪种函数？是像函数
+\begin_inset Formula $\bigsqcup_{x}x^{2}$
+\end_inset
+
+，还是像正弦函数？是对所有很大的
+\begin_inset Formula $x$
+\end_inset
+
+都成立，还是对它们中的一部分成立？应该把它说得更明确些：
+\end_layout
+
+\begin_layout Standard
+“对所有很大的自变量，函数
+\begin_inset Formula $f$
+\end_inset
+
+是正的。”或者“对某些任意大的自变量，函数
+\begin_inset Formula $f$
+\end_inset
+
+是正的。”对前者，可译成
+\end_layout
+
+\begin_layout Standard
+“存在一个
+\begin_inset Formula $a$
+\end_inset
+
+，使得对所有大于
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $b$
+\end_inset
+
+，都有
+\begin_inset Formula $f(b)>0$
+\end_inset
+
+。”
+\end_layout
+
+\begin_layout Standard
+\noindent
+对后者，可译成
+\end_layout
+
+\begin_layout Standard
+“对每一个
+\begin_inset Formula $a$
+\end_inset
+
+，存在一个大于
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $b$
+\end_inset
+
+，使得
+\begin_inset Formula $f(b)>0$
+\end_inset
+
+。”
+\end_layout
+
+\begin_layout Standard
+\noindent
+再增加量词：
+\end_layout
+
+\begin_layout Standard
+“对所有很大的自变量，函数
+\begin_inset Formula $f$
+\end_inset
+
+很大。”和“对某些很大的自变量，函数
+\begin_inset Formula $f$
+\end_inset
+
+很大。”
+\end_layout
+
+\begin_layout Standard
+\noindent
+对前者，可说成
+\end_layout
+
+\begin_layout Standard
+“
+\begin_inset Formula $f$
+\end_inset
+
+越过所有的界限。”
+\end_layout
+
+\begin_layout Standard
+\noindent
+比如函数
+\begin_inset Formula $\bigsqcup_{x}x^{2}$
+\end_inset
+
+。对后者，可说成
+\end_layout
+
+\begin_layout Standard
+“
+\begin_inset Formula $f$
+\end_inset
+
+变得越来越大。”
+\end_layout
+
+\begin_layout Standard
+\noindent
+比如函数
+\begin_inset Formula $\bigsqcup_{x}x\sin x$
+\end_inset
+
+与前组句子相比，后组句子是在句子的开头加上一个量词“对每一个
+\begin_inset Formula $M$
+\end_inset
+
+”，并把“函数
+\begin_inset Formula $f$
+\end_inset
+
+的值是正的”换成“函数
+\begin_inset Formula $f$
+\end_inset
+
+的值大于
+\begin_inset Formula $M$
+\end_inset
+
+”。于是就成了
+\end_layout
+
+\begin_layout Standard
+“对每一个
+\begin_inset Formula $M$
+\end_inset
+
+，存在一个
+\begin_inset Formula $a$
+\end_inset
+
+，对所有大于
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $b$
+\end_inset
+
+，都有
+\begin_inset Formula $f(b)>M$
+\end_inset
+
+。”和
+\end_layout
+
+\begin_layout Standard
+“对每一个
+\begin_inset Formula $M$
+\end_inset
+
+和每一个
+\begin_inset Formula $a$
+\end_inset
+
+，存在一个大于
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $b$
+\end_inset
+
+，使得
+\begin_inset Formula $f(b)>M$
+\end_inset
+
+。”
+\end_layout
+
+\begin_layout Standard
+\noindent
+对于这些句子学生也要学会写出否定句。
+\end_layout
+
+\begin_layout Standard
+以上各种练习都是为分析连续性概念作准备的。至于例子的取材，应不局限于数学领域，生活中的很多语句都隐含着量词及其关系，都可以为我们所用。例如，“经过广泛的挑选，许
+多人都能找到他们所要的东西”，“你能在一段时间内蒙骗住所有的人，也能永远蒙骗住某些人，但你不可能永远蒙骗住所有的人”等。
+\end_layout
+
+\begin_layout Standard
+有一句话意思是很小的事能产牛很大的影响，对这句话有两种理解：一是“存在着任意大的影响，它是由很小的起因造成的。”二是“存在着超过某一界限的影响它是由很小的起因造
+成的。”如果我们用变量
+\begin_inset Formula $x$
+\end_inset
+
+代表起因的大小，用变量
+\begin_inset Formula $y$
+\end_inset
+
+代表产生影响的大小，用函数
+\begin_inset Formula $f$
+\end_inset
+
+代表
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+之间的对应关系，那么上述语句译成数学语言就成了“
+\begin_inset Formula $x$
+\end_inset
+
+的一个微小变化能对应
+\begin_inset Formula $y$
+\end_inset
+
+的一个任意大的变化”和“
+\begin_inset Formula $x$
+\end_inset
+
+的一个微小变化能对应
+\begin_inset Formula $y$
+\end_inset
+
+的一个大于某一给定正数
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+的变化。”如果
+\begin_inset Formula $f$
+\end_inset
+
+是连续的，即“对每一个
+\begin_inset Formula $\varepsilon>0$
+\end_inset
+
+，存在一个
+\begin_inset Formula $\delta>0$
+\end_inset
+
+，当
+\begin_inset Formula $x$
+\end_inset
+
+的变化小于
+\begin_inset Formula $\delta$
+\end_inset
+
+时，对应的
+\begin_inset Formula $y$
+\end_inset
+
+的变化就小于
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+”，那么前一语句显然不成立，后一语句也不成立，且对任何一个正数
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+都不能成立，这里
+\begin_inset Formula $x$
+\end_inset
+
+的“微小变化”应理解为任意小，即小于任意的正数
+\begin_inset Formula $\delta$
+\end_inset
+
+。于是，与这两句语句对应的是：“存在一个正数
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+，使对任何
+\begin_inset Formula $\delta>0$
+\end_inset
+
+，存在
+\begin_inset Formula $x$
+\end_inset
+
+的一些变化，其量小于
+\begin_inset Formula $\delta$
+\end_inset
+
+和它对应的
+\begin_inset Formula $y$
+\end_inset
+
+的变化值大于或等于
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+。”这正是连续的反面
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+不连续的定义。当然，在此之前学生应该已会对量词表示否定了。在介绍“不连续”概念时，要尽量借助函数图象，如寄信所付邮资的函数图象等。当学生熟悉了量词符号后，要尽量
+让他们多使用，尤其是要能准确地表示量词的否定。
+\end_layout
+
+\begin_layout Standard
+上述内容有不少是属于逻辑学科的，比如逻辑上的分析以及对“连续”概念的形式化。中学数学对“连续”的形式化应达到怎样一个程度呢？如果学生已有良好的逻辑基础，那么可以
+较多地使用逻辑符号。反之，则要较多地甚至完全依靠直观。但无论怎样，都应从直观的“连续”概念出发，并尽可能地继续利用直观，即使是在给出了“连续”概念的形式定义之后
+也应如此，这将有助于学生了解各种各样的形式化。
+\end_layout
+
+\begin_layout Standard
+在小标题中，我还提到了收敛。前面我已指出，中学微积分中的收敛多从计算入手，要说明数列
+\begin_inset Formula $\{a_{n}\}$
+\end_inset
+
+的极限是
+\begin_inset Formula $a$
+\end_inset
+
+，只要通过
+\begin_inset Formula $|a_{n}-a|$
+\end_inset
+
+很小来说明，几乎没有必要去一般定义什么是数列的极限。但是，一旦在一定程度上把“连续”概念形式化以后，“极限”概念也可用同样的逻辑结构加以定义：
+\end_layout
+
+\begin_layout Standard
+“对每一个
+\begin_inset Formula $\varepsilon>0$
+\end_inset
+
+，存在一个
+\begin_inset Formula $N$
+\end_inset
+
+，使对所有大于或等于
+\begin_inset Formula $N$
+\end_inset
+
+的
+\begin_inset Formula $n$
+\end_inset
+
+，都小于
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+。”
+\end_layout
+
+\begin_layout Standard
+表示
+\begin_inset Formula $f$
+\end_inset
+
+在
+\begin_inset Formula $x_{0}$
+\end_inset
+
+处连续还有一种借助于极限概念的形式化方法，即
+\end_layout
+
+\begin_layout Standard
+若
+\begin_inset Formula $\underset{n\rightarrow\infty}{\lim}x_{n}=x_{0}$
+\end_inset
+
+，有
+\begin_inset Formula $\underset{n\rightarrow\infty}{\lim}f(x_{n})=f(x_{0})$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+或者说，对任何收敛于
+\begin_inset Formula $x_{0}$
+\end_inset
+
+的数列
+\begin_inset Formula $\{x_{n}\}$
+\end_inset
+
+，数列
+\begin_inset Formula $\{f(x_{n})\}$
+\end_inset
+
+收敛于
+\begin_inset Formula $f(x_{0})$
+\end_inset
+
+，则称
+\begin_inset Formula $y=f(x)$
+\end_inset
+
+在
+\begin_inset Formula $x_{0}$
+\end_inset
+
+处连续。可以证明，用极限定义连续与用语言定义连续是等价的。
+\end_layout
+
+\begin_layout Section
+中学微积分的发展
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+关于微积分的基础
+\end_layout
+
+\begin_layout Standard
+中学微积分如何教，教到怎样一个深度，才能使它形成一个知识体系呢？我们先来看一个例子，计算
+\begin_inset Formula $\int_{a}^{b}\cfrac{1}{x}dx(b>a>0)$
+\end_inset
+
+，在前面第十四章中，我们曾用这个积分在微积分学习未正式开始之前引入了对数函数。当时，我们把一条垂直于
+\begin_inset Formula $x$
+\end_inset
+
+轴的固定直线与另一条也垂直于
+\begin_inset Formula $x$
+\end_inset
+
+轴的活动直线间的曲边梯形面积定义为一个对数函数。其实，这里我们已经作了三条假设：
+\end_layout
+
+\begin_layout Standard
+（1）以
+\begin_inset Formula $x=a,x=b,y=f(x)$
+\end_inset
+
+（这里是
+\begin_inset Formula $y=\cfrac{1}{x}$
+\end_inset
+
+）和
+\begin_inset Formula $x$
+\end_inset
+
+轴所围成的曲边梯形的面积存在。
+\end_layout
+
+\begin_layout Standard
+（2）这种面积与以前所教的面积一样，具有可加性。
+\end_layout
+
+\begin_layout Standard
+（3）在特殊的仿射变换下（在一个轴的方向上乘以
+\begin_inset Formula $\rho$
+\end_inset
+
+，在另一个轴的方向上乘以
+\begin_inset Formula $\rho^{-1}$
+\end_inset
+
+），这种面积与平行四边形在这种变换下的面积一样，具有不变性。
+\end_layout
+
+\begin_layout Standard
+现在，在微积分中引入近似多边形，于是，上述三条假设就成了：
+\end_layout
+
+\begin_layout Standard
+（1'）所研究的该曲边梯形的面积存在。
+\end_layout
+
+\begin_layout Standard
+（2'）近似多边形的面积收敛于该曲边梯形的面积。
+\end_layout
+
+\begin_layout Standard
+这里，以前的三条假设变成了两条，这是因为从（2'）能证得（2）和（3）。从直观上看，（2'）是很显然的，不过结合下述的（2''）和（3''）并由该被积函数的（一
+致）连续性，可以这样证明：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\because\quad f_{\varepsilon}(x)-\varepsilon\leqslant f(x)\leqslant f_{\varepsilon}(x)+\varepsilon$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{aligned}\therefore\quad\int_{a}^{b}f_{a}(x)dx-\varepsilon(b-a) & \leqslant\int_{a}^{b}f(x)dx\\
+ & \leqslant\int_{a}^{b}f_{\varepsilon}(x)dx+\varepsilon(b-a)\text{，}
+\end{aligned}
+$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+于是，
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\underset{\varepsilon\rightarrow0}{\lim}\int_{a}^{b}f_{\varepsilon}(x)dx=\int_{a}^{b}f(x)dx$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+这样，假设又变成：
+\end_layout
+
+\begin_layout Standard
+（1''）所研究的该曲边梯形面积存在。
+\end_layout
+
+\begin_layout Standard
+（2''）可以用一个阶梯函数或者一个分段线性函数来逼近连续函数
+\begin_inset Formula $f$
+\end_inset
+
+，其逼近程度可以达到任意小的正数
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+（3''）如果对一切
+\begin_inset Formula $x\in[a,b]$
+\end_inset
+
+，都有
+\begin_inset Formula $g(x)\leqslant f(x)$
+\end_inset
+
+，则
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\int_{a}^{b}g(x)dx\leqslant\int_{a}^{b}f(x)dx$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+直到现在，我们都假设所给函数的积分是存在的。由此可引出积分值、积分性质，并将积分视为一个极限。那么在教学中，我们是对它加以证明，还是待学完后仍作假设呢？翻阅一下
+大学微积分教材就会发现，它们用的是一种全新的方法，即用一列较低的阶梯矩形和一列较高的阶梯矩形从两头来逼近该曲边梯形，分别计算较低的阶梯矩形面积之和与较高的阶梯矩
+形面积之和，得到一个下和与一个上和。随着分割的间隔缩小，可获得一系列的阶梯矩形，这样，可得到一列下和与一列上和，这列下和有一个最小的上界，这列上和有一个最大的下
+界。由于
+\begin_inset Formula $f$
+\end_inset
+
+在
+\begin_inset Formula $[a,b]$
+\end_inset
+
+上是连续的，所以它在
+\begin_inset Formula $[a,b]$
+\end_inset
+
+上是一致连续的。于是，上述的最小上界与最大下界相等，这个公共的值就定义为
+\begin_inset Formula $f$
+\end_inset
+
+在
+\begin_inset Formula $[a,b]$
+\end_inset
+
+上的积分值。像这样巧妙的构思不是学生所能想到的，因此，我认为在中学里严格证明连续函数的可积性是不明智的。
+\end_layout
+
+\begin_layout Standard
+与此类似的还有牛顿-莱布尼兹CNewton-Leibniz）公式，如果已知
+\begin_inset Formula $f(x)$
+\end_inset
+
+在
+\begin_inset Formula $[a,b]$
+\end_inset
+
+上连续，且
+\begin_inset Formula $f(x)=F'(x)$
+\end_inset
+
+，则
+\begin_inset Formula $\int_{a}^{b}f(x)dx=F(b)-F(a)$
+\end_inset
+
+。我们曾在本章一开始由函数
+\begin_inset Formula $F$
+\end_inset
+
+的一致可导给出了这一公式的直观证明，当然，它成立是有条件的，即
+\begin_inset Formula $F$
+\end_inset
+
+的导数
+\begin_inset Formula $f$
+\end_inset
+
+是连续的。我曾指出过，“正确的”可导概念是一致可导，这是最常用的。但是，连续可导和一致可导之间的等价关系不容易证明，它无论如何也不能成为中学的教学内容。但有一种
+解决办法，设
+\begin_inset Formula $f(x)=F'(x)$
+\end_inset
+
+，且
+\begin_inset Formula $f$
+\end_inset
+
+是连续的。若允许假设存在，就不难证明
+\begin_inset Formula $G'(x)=f(x)$
+\end_inset
+
+，于是得这样唯一留待证明的是
+\begin_inset Formula $F$
+\end_inset
+
+和
+\begin_inset Formula $G$
+\end_inset
+
+之差为一个常数，即证明当函数
+\begin_inset Formula $H$
+\end_inset
+
+的导数为零时，
+\begin_inset Formula $H$
+\end_inset
+
+是常数，而这可用中值定理证明。若用我多次提倡的原理，即把连续理解为一致连续，把可导理解为一致可导，那就简单多了。若
+\begin_inset Formula $H$
+\end_inset
+
+在
+\begin_inset Formula $[a,b]$
+\end_inset
+
+上是这个意义下可导的，其导数为零，则对每一个
+\begin_inset Formula $\varepsilon>0$
+\end_inset
+
+，存在一个
+\begin_inset Formula $\delta>0$
+\end_inset
+
+，对所有满足
+\begin_inset Formula $0<h<\delta$
+\end_inset
+
+的
+\begin_inset Formula $h$
+\end_inset
+
+，和所有在区间
+\begin_inset Formula $[a,b-h]$
+\end_inset
+
+中的
+\begin_inset Formula $x$
+\end_inset
+
+，有
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big|\cfrac{H(x+h)-H(x)}{h}\Big|<\varepsilon$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+选择适当的
+\begin_inset Formula $n$
+\end_inset
+
+，使
+\begin_inset Formula $h=\cfrac{b-a}{n}<\delta$
+\end_inset
+
+，并用分点
+\begin_inset Formula $x_{i}$
+\end_inset
+
+把区间分为
+\begin_inset Formula $n$
+\end_inset
+
+个相等的部分，其中
+\begin_inset Formula $a=x_{0}<x_{1}<\cdots<x_{n}=b$
+\end_inset
+
+，得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\Big|\cfrac{H(x_{i+1})-H(x_{i})}{h}\Big|<\varepsilon,\,(i=0,1,2,\cdots,n-1)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{cl}
+|H(x_{i+1})-H(x_{i})|<h\varepsilon & =\cfrac{1}{n}(b-a)\varepsilon,\\
+ & (i=0,1,2,\cdots,n-1)
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+相加得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $|H(b)-H(a)|<\sum_{i}|H(x_{i+1})-H(x_{i})|<(b-a)\varepsilon$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+它对任意小的
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+都成立，于是
+\begin_inset Formula $H(b)=H(a)$
+\end_inset
+
+。而它又对所有的小区间端点都成立，于是证得H为常数。
+\end_layout
+
+\begin_layout Standard
+总之，如果中学微积分一定要超出直观的范围，从整体上去组织内容，那么至少要不加证明地承认可将连续视为一致连续，将可导视为一致可导。如果这样的话，连续函数的可积性、
+导数与积分之间的相互关系就可毫无困难地引入了。如果要将连续概念形式化，就必须在一个符号逻辑范围内好好地进行。
+\end_layout
+
+\begin_layout Section
+中学微积分的发展
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+关于三角函数
+\end_layout
+
+\begin_layout Standard
+我们在讨论对数函数时，由它的导数给出了它的定义，接着利用反函数的求导法则得到了指数函数的导数，最后利用复合函数的求导法则解决了幂函数的导数，这与微积分体系结合得
+很好。但三角函数的情况就不同了，我们以前都是用几何语言定义正弦函数和余弦函数的，某角的正弦值和余弦值是用图形给出的，而角的大小则是用量角器度量的，这就很难恰当地
+将它们嵌入微积分体系。当然，如果将三角代数化，即引入一个函数
+\begin_inset Formula $\omega$
+\end_inset
+
+，它是一个从模为
+\begin_inset Formula $1$
+\end_inset
+
+的复数乘法群（或绕原点的旋转群）到以
+\begin_inset Formula $2\pi$
+\end_inset
+
+为模的实数加法群上的同态映射，就可使三角与微积分联系起来。
+\end_layout
+
+\begin_layout Standard
+也许有人会问：为什么要以
+\begin_inset Formula $2\pi$
+\end_inset
+
+为模？或者更进一步问：什么是
+\begin_inset Formula $2\pi$
+\end_inset
+
+呢？直到现在
+\begin_inset Formula $2\pi$
+\end_inset
+
+还是用来表示一个周角的大小，即
+\begin_inset Formula $360\text{°}$
+\end_inset
+
+。以
+\begin_inset Formula $2\pi$
+\end_inset
+
+为模是因为，在度量一个角的时候，用该角在单位圆上截得的相应弧长来度量很方便，而单位圆的周长是
+\begin_inset Formula $2\pi$
+\end_inset
+
+，你马上会发现用弧长和度量角与微积分有关。到目前为止，我们只是从几何中知道什么是孤长，而不管如何形式地定义弧长。有一点可以肯定，当弧长趋于零时，弦长与弧长之比趋
+于
+\begin_inset Formula $1$
+\end_inset
+
+，于是在单位圆（图17-14）中有
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\underset{x\rightarrow0}{\lim}\cfrac{\sin2x}{2x}=1$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\cfrac{d(\sin x)}{dx}\Big|_{x=0}=1$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement L
+overhang 0in
+width "40text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/17-14.png
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+用单位圆弧长度量角可使正弦函数在
+\begin_inset Formula $x=0$
+\end_inset
+
+处的导数值为
+\begin_inset Formula $1$
+\end_inset
+
+，这是微积分中用单位圆弧长度量角的一个重要原因。
+\end_layout
+
+\begin_layout Standard
+函数
+\begin_inset Formula $\varpi$
+\end_inset
+
+的反函数
+\begin_inset Formula $f$
+\end_inset
+
+的表达式是
+\begin_inset Formula $f(t)=\cos t+i\sin t$
+\end_inset
+
+，它是从实数加法群（不限于以
+\begin_inset Formula $2\pi$
+\end_inset
+
+为模）到模为
+\begin_inset Formula $1$
+\end_inset
+
+的复数乘法群上的同态映射。于是实数可以理解为“旋转”的角度。那么，
+\begin_inset Formula $f$
+\end_inset
+
+是否满足：角度从
+\begin_inset Formula $t_{0}=0$
+\end_inset
+
+转到
+\begin_inset Formula $t_{1}=t$
+\end_inset
+
+，对应单位圆上从
+\begin_inset Formula $f(0)$
+\end_inset
+
+到
+\begin_inset Formula $f(t)$
+\end_inset
+
+的弧长恰好是
+\begin_inset Formula $t$
+\end_inset
+
+呢？要知道迄今为止，我们一直默认着一个必要的条件，即弦长与弧长之比趋于
+\begin_inset Formula $1$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+为了解决这个疑问，首先要知道什么是曲线的孤长。一种方法就是将它定义为当内接折线所有边长都趋于零时的该内接折线长度的极限。如果平面曲线的方程是
+\begin_inset Formula $x_{1}=f_{1}(t),x_{2}=f_{2}(t)$
+\end_inset
+
+，那么，从
+\begin_inset Formula $t_{0}$
+\end_inset
+
+到
+\begin_inset Formula $t_{1}$
+\end_inset
+
+的弧长就是
+\begin_inset Formula $\int_{t0}^{t1}\sqrt{f_{1}^{'2}(t)+f_{2}^{'2}(t)}dt$
+\end_inset
+
+。现在将
+\begin_inset Formula $f_{1}(t)=\cos t$
+\end_inset
+
+，
+\begin_inset Formula $,f_{2}(t)=\sin t$
+\end_inset
+
+，
+\begin_inset Formula $t_{0}=0$
+\end_inset
+
+，
+\begin_inset Formula $t_{1}=t$
+\end_inset
+
+代入弧长公式，可求得弧长是
+\begin_inset Formula $t$
+\end_inset
+
+，这就是说，
+\begin_inset Formula $f$
+\end_inset
+
+的确满足我们的要求。
+\end_layout
+
+\begin_layout Standard
+现在，尽管我们还没有用算法形式表示三角函数，但它们已完全脱离了几何这一出发点。上述的同态映射
+\begin_inset Formula $f$
+\end_inset
+
+所扮演的角色犹如一个指数函数，只是当自变量为实数时，它取（单位圆上的）复数值。于是我们把它与熟知的函数
+\begin_inset Formula $y=e^{t}$
+\end_inset
+
+联系起来，
+\begin_inset Formula $y=e^{t}$
+\end_inset
+
+的展开式是
+\begin_inset Formula $e^{t}=\overset{\infty}{\underset{n=0}{\sum}}\cfrac{t^{n}}{n!}$
+\end_inset
+
+，且当
+\begin_inset Formula $t$
+\end_inset
+
+为复数时也成立。而同态性质也可拓广到复变量，因此函数是从复数的加法群到非零复数的乘法群内的一个映射。如果在
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $e^{t+\bar{t}}=e^{t}e^{\bar{t}}=|e^{t}|^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+中，
+\begin_inset Formula $t$
+\end_inset
+
+取纯虚数值，则
+\begin_inset Formula $t+\bar{t}=0$
+\end_inset
+
+，从而得到
+\begin_inset Formula $|e^{t}|^{2}$
+\end_inset
+
+。这就是说：虚轴被映射到单位圆。于是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $g(t)=e^{it}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+就定义了一个从实数的加法群到模为
+\begin_inset Formula $1$
+\end_inset
+
+的复数乘法群内的映射。这种同态是由一个实数加法群的保序自同构确定的。函数
+\begin_inset Formula $f(t)=\cos t+\sin t$
+\end_inset
+
+正是这样一个同态。在
+\begin_inset Formula $t=0$
+\end_inset
+
+处，
+\begin_inset Formula $f$
+\end_inset
+
+和
+\begin_inset Formula $g$
+\end_inset
+
+有相同的导数
+\begin_inset Formula $i$
+\end_inset
+
+，所以
+\begin_inset Formula $f$
+\end_inset
+
+与
+\begin_inset Formula $g$
+\end_inset
+
+相等，即
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $e^{it}=\cos t+i\sin t$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+有了这个公式后，我们就可以用无穷级数来表示正弦函数和余弦函数了。
+\end_layout
+
+\begin_layout Standard
+以上我们只是粗略地介绍了一种将三角学与微积分联系起来的方法，它能加深学生对角概念的理解，而且所涉及的知识和方法似乎也比现行教学中的许多东西更有价值。
+\end_layout
+
+\begin_layout Section
+中学微积分的发展
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+体系之外的知识
+\end_layout
+
+\begin_layout Standard
+前面我提出了许多对中学教学既有意义，又有教育价值，而且能够从整体上加以组织的微积分专题，并简要介绍了如何才能使它得以实现。当然，是否应该这样做取决于微积分这门课
+实际的教育目的。现在，我想谈谈那些无法归入任何体系，但却可以在中学内教的专题，比如我在本章“更广意义下的图象的途径”一节中所谈及的所有专题：借助截面面积的积分求
+体积（尤其是旋转体的体积）；表面积作为体积的微商；旋转体的表面积等。当时，体积和曲面面积都是在未加定义的情况下就开始计算的，或者说，这些关于面积、体积的求法都是
+在面积这个模糊概念的基础上进行的。这样做虽说不很严谨，但毕竟是一条有效的学习途径。想当初，阿基米德（Archimedes）也是在未给出面积严格定义的倩况下计算出
+天体表面积的，为什么我们的中学生不能像他那样去做呢？其实，这就是数学的局部组织化。除了这些例子外，我还举过速度、密度、梯度等例子，它们也有类似的问题。还有一些概
+念，例如运动、力、压力、张力、振动、电流、悬链线等，我们根本就无法把它们归入任何数学体系，即使是将它们归入物理体系，也是一项还无人敢问津的艰巨工作。比如悬链线，
+它是由一根极细的绳子两端固定所形成的曲线，这根细绳要有弹性，但不能伸长，该怎么定义它呢？所以一切从公理出发是行不通的。不久前，有人试图用提高严谨性来改进微积分教
+学。但我认为，要改进中学微积分教学只有一个办法，那就是尽量把它和现实联系起来，如果抽象的内容不联系实际的话，在学生眼里，它只能是一堆散乱而毫无价值的东西。
+\end_layout
+
+\end_body
+\end_document

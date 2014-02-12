@@ -1,0 +1,496 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter*
+序
+\end_layout
+
+\begin_layout Standard
+像乐章的序曲一样，序言通常是最后才写的，把它放在本书的最前面，这是一种写作风格的反映。我通常把这种风格在数学专著或数学教科书里的表现称为“教学法的颠倒”为适于印
+刷，必须把发现一项成果的顺序颠倒过来加以阐述；特别是对一些关键性的定义，它们其实是结构的最终笔触，却总被摆在最前面。多年来，我把这种教学法的颠倒同思维实验做了对
+比研究。的确，你不该把你的数学成果按照你发现它的那种过程去向别人讲解，而要采取另一种方式，即设想你当时已经有了现在的知识，你将是怎样发现那些成果的；或者设想一个
+学生的学习过程得到指导时，他是应该怎样发现它的。这实际上就是苏格拉底（Socrates）给门诺的奴隶授课时所遵循的宗旨。思维实验的目的就在于找出学生怎样才能把他
+要学的知识“再创造”出来。
+\end_layout
+
+\begin_layout Standard
+我上面说了，序言是教学法颠倒的一种反映。的确，序言并不是书的一个组成部分，它甚至可以被撕毁，但它毕竟是有用的。首先对评论家有用，有了序言就用不着通读全书了；其次
+对作者本人有用，使他能像作曲家一样得到机会回顾一下自己的写作动机。虽然我刚才所谈已经涉及到我的这些动机之一了，但我不想继续这样做下去，而想来说明我似乎有点忽视了
+某些内容的理由。
+\end_layout
+
+\begin_layout Standard
+本书不是一本数学方法论的书，不是要系统地论述某些教材应该怎样教；它甚至也不是对教材作系统的分析。我对那些用统计数字加以评估的课堂教学经验很少涉及；对发展心理学或
+学习心理学的实验结果也极少引述。也许这本书的最大特点之一是它很少引述别的著作。下面我要来讲讲我的道理。
+\end_layout
+
+\begin_layout Standard
+首先，关于心理学的文献，说实话，我觉得丝毫没有必要用那些高雅的心理学来装饰低格调的教育论著的，尤其是那些和教育不相干的文献，更是没有引述的必要了。如果有人一定要
+那样做，那么我想我是要反对的，现在，滥用皮亚杰（Piaget）的名字已经成为教学法文献的一种司空见惯的现象了，这使我有时不得不对此进行评论，并特别在附录中用比较
+连贯的形式说明皮亚杰的研究工作对于数学教育究竟意味着什么。
+\end_layout
+
+\begin_layout Standard
+也许有人期望从学习心理学获得一些有益于数学教学的东西，至少希望经过仔细的钻研后能从中得到教益。然而，尽管我发现在学习心理学中有许多有趣的甚至于是引人入胜的东西，
+但我要寻找的东西却几乎什么也找不到。我原想通过一本出色的现代书籍
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+R.
+ M.
+ Gagné，《The Conditions of Learning》，London，1965。
+\end_layout
+
+\end_inset
+
+去了解什么叫做学习以及怎样把它划分为阶段的，但是我觉得那里所讲的和我自己的经验以及我和别人在一起进行
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+数学
+\end_layout
+
+\end_inset
+
+学习时所得的经验相去很远。对此，我深感惆怅，而不禁自问：数学真的是那么与众不同么？我多么渴望有谁既出色地懂得数学又懂得心理学，能告诉我们沟通这两者的桥梁何在。
+\end_layout
+
+\begin_layout Standard
+除了某些一般性概念外，我不曾从心理学中撷取任何经验性材料。我的材料多数是直接地来自教科书、教学方案、实际课堂教学以及对个别儿童的观察，或者间接地来自与教师的交谈
+与讨论。关于第二类材料的来源，读者在本序言的末段里，可以读到一些人的名字和说明；相反，来自教科书、教案和课堂教学的材料，只要可能，我都不作引述，我这样做是出于不
+得已，因为我经常对这些材料加以评论，而且往往是批评性的。这些材料本来是可以严格地分为严肃认真的和废话连篇的两类，如果我都在脚注中加以引述，那就成了良莠不分，也太
+提高了那些坏作品的身价了，这是我不愿做的，因此除了少数的例外，我都不作引述。
+\end_layout
+
+\begin_layout Standard
+由于一些别的原因，我对数学教学法的研究工作也都不曾提及，其中主要的原因是，对于这些工作，除了某些一般性的内容外，它们的成果我无法使用。下面我来说明为什么。
+\end_layout
+
+\begin_layout Standard
+我想到的第一类研究工作是那样的一类，它们想要说明某些材料的可教性。著者告诉我们这些材料何时在何地做过试验，有时还给出统计数字来说明试验的成果。但是，在多数情况下
+，对所用的教法都不加以说明，这样，就使得这类报告变得毫无价值了。因为，不必再做任何试验便可肯定：任何要试的内容都可以用适当的办法硬塞给儿童的。不久前，我见过一门
+个别教学的课（应该说它是出类拔萃的！），在那里儿童由于受到错误思想的灌输，在几年间，顺从地去证明一些相同的荒谬内容却毫无怨言。而就因为这样便说那些材料是“可教的
+”！
+\end_layout
+
+\begin_layout Standard
+我对这类研究不敢相信，还有更为严肃的理由，那就是它们最多只证明那些材料是“可学的”，而不是证明它是“可教的”。“可教的”与“可学的”的确不是一回事。某些教师能教
+的内容，许多其他的教师不一定能教。如果内容在数学上有错误或教学法上有谬误或者无价值，那么许多教师就会拒绝教，或者教而索然无味，这样它就成为不可教的了。此外，还有
+些内容非常特殊，以致必须详细说明教法，才有可能施教，而这种详细说明却通常都没有给出。我这里说的教法，是指适合于所教内容的教学形式，而不是指教学方法上的细节。本书
+对这一点也是忽略了的。的确，我们在设计教材与教法时，不仅要衡量哪些内容可学和值得学，而且要考虑到教师能否学会教，或者我们能否教会教师去教。当我回顾我自己的活动和
+我这本书时，我不敢说我在这方面的能力是很高的。
+\end_layout
+
+\begin_layout Standard
+现在，我要继续谈我无法有效地使用的第二类研究工作。这就是那些关于某种内容的两种教法或材料安排比较的研究。这些研究，譬如说，会宣称某种方法不比另一种方法差的概率是
+98%。像这样的研究报导，我大约是在三十年前第一次见到。那是关于地理课的而不是关于数学课的研究。那研究工作本身可以说是无可指责的，但令我惊奇的是，地理课和我在中
+学时代所见的一样，依然是最为枯燥无味。从那以后，我所见到的类似研究工作为数不少。这使我往往不敢相信，怎么到今天过仍旧读到这样的东西。
+\end_layout
+
+\begin_layout Standard
+也许我见到的只是一些例外的情况吧。但是，这类研究工作在技术上无论怎样完善，都不能回答教育的基本问题，即该教什么？为什么目的而教？拿这些内容教谁？我要批评的是这类
+研究工作背后的思想，也就是要指出，用统计数字把自己装扮起来并不就是把自然科学的精确性引入到教育研究中来了。那种自负地宣称小数点后面第七位数字是准确的而无视小数点
+左边的数字都错了的态度，并不是科学的态度。我不是从这样的一些试验中学，而是从自己的和别人的课堂教学经验中，从教科书中（不管是我喜欢的或不喜欢的）以及从有经验的教
+师关于教材和学习表现的实事求是的分析中，学到了不少的东西。
+\end_layout
+
+\begin_layout Standard
+真正的教育活动意味着遵循自己的真诚信念去探索正确的教育途径，而教育科学首先应该是对这种真诚信念的合理性作出论证，你可以把它称为哲学。但不管我们叫它做什么，它是不
+可或缺的，任何细节的研究都无法代替它的，相反，只有在健康的教育哲学的土壤上，具体的研究工作才能兴旺起来。
+\end_layout
+
+\begin_layout Standard
+本书虽然也研究了许多细节，但它肯定是一本数学教育哲学的书。我不是第一个写这类书籍的人。我们学习前人的著作应该是学习他们的思想。像本书这样的一类书籍，其科学性不是
+由它有了多少脚注
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+指引用过别人的著作
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+编译者注。
+\end_layout
+
+\end_inset
+
+来衡量，而是要看它对数学教育哲学这个首要问题讨论的彻底性如何。
+\end_layout
+
+\begin_layout Standard
+我对教学作过许多讲演，也写过许多文章。拿本书同已发表过的文章比较，它并没有本质上全新的材料，在个别地方我甚至把发表过的论著全文摘录。在本书中我只是对自己原有的思
+想做了一番整理，这种工作对于像我这样一位数学工作者却不是一件轻而易举的事。问题不在于这里要用辩证的而不是演绎的方式，也不在于局部材料的组织，而是在全局性的组织上
+面，这是主要的难点所在。我不能使用数学课本专著中的形式化组织，写诸如“由定理……（见第……页）及推论……中的条件（见第……页），可知第……页与第……页的定义等价
+”一类的句子，但又找不到别的组织形式。因此，从数学家的观点看来，本书组织得很差，许多重复无法避免。
+\end_layout
+
+\begin_layout Standard
+我向别人学到了许多东西，我这里无法详细叙述，但我完全明白它的重要性，并充满感谢之情。是我的妻子第一个建议我从理论上对教育进行研究，那是我和她一起从事教育工作的时
+候。在教育心理学家中，给我影响最大的，要算德克罗利（O.
+\begin_inset space \space{}
+\end_inset
+
+Decroly）了。在从教育角度去阐述数学方面，我受到了布劳韦尔（L.
+\begin_inset space \space{}
+\end_inset
+
+E.
+\begin_inset space \space{}
+\end_inset
+
+J.
+\begin_inset space \space{}
+\end_inset
+
+Brouwer）的数学观点（而不是他的教育观点）的影响。自1945年到1963年，我从新教育研究会属下的荷兰数学工作组中，学到了许多带原则性的重要知识，也学到了
+许多教学法细节上的知识。对于这个工作组的成员，我异常感激，在他们当中，我只需指出范希尔（P.
+\begin_inset space \space{}
+\end_inset
+
+M.
+\begin_inset space \space{}
+\end_inset
+
+van
+\begin_inset space \space{}
+\end_inset
+
+Hiele）和他巳故的夫人格多芙（D.
+\begin_inset space \space{}
+\end_inset
+
+Geldof）。近年来，由于国际教育研究的活动，我结识了许多新朋友。我对在国际会议上使我获得教益的人们，一律表示感谢，特别是要感谢凯思特努沃（Emma
+\begin_inset space \space{}
+\end_inset
+
+Castelnuovo），克里戈芙丝嘉（Zofia
+\begin_inset space \space{}
+\end_inset
+
+Krygovaka），塞维斯（W.
+\begin_inset space \space{}
+\end_inset
+
+Servais）与勒维（A.
+\begin_inset space \space{}
+\end_inset
+
+Revuz）。我把我的书献给一切从事数学教学的人们。
+\end_layout
+
+\begin_layout RightLine
+弗赖登塔尔
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+1970年12月27日于乌德勒支
+\end_layout
+
+\begin_layout Chapter*
+编译者序
+\end_layout
+
+\begin_layout Standard
+本书的作者弗赖登塔尔（Hans
+\begin_inset space \space{}
+\end_inset
+
+Freiadenthal，1905-1990）是荷兰藉数学家和数学教育家。早在三、四十年代，他就以拓扑学和李代数方面的卓越成就而为世人所知。从五十年代初起，他把
+主要的精力放在数学教育方面，发表了大量著作，也开展了广泛的社会活动，在1967年至1970年间任“国际数学教育委员会”（IOMI）的主席，召开了第一届国称数学教
+育大会，创办了《数学教育研究》（Educational
+\begin_inset space \space{}
+\end_inset
+
+Studiesin
+\begin_inset space \space{}
+\end_inset
+
+Mathematics）杂志，在国际范围内为数学教育事业做出了巨大的贡献。由于这些业绩，有人把他和伟大的几何学家克莱因（F.
+\begin_inset space \space{}
+\end_inset
+
+Klein）相提并论，说：“对于数学教育，在上半世纪是克莱因做出了不朽的功绩，在下半世纪是弗赖登塔尔做出了卓越的成就。”
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+见G.
+\begin_inset space \space{}
+\end_inset
+
+Howson，“Hans
+\begin_inset space \space{}
+\end_inset
+
+Freudenthal
+\begin_inset space \space{}
+\end_inset
+
+and
+\begin_inset space \space{}
+\end_inset
+
+the
+\begin_inset space \space{}
+\end_inset
+
+Foundation
+\begin_inset space \space{}
+\end_inset
+
+of
+\begin_inset space \space{}
+\end_inset
+
+a
+\begin_inset space \space{}
+\end_inset
+
+Disciplitis
+\begin_inset space \space{}
+\end_inset
+
+of
+\begin_inset space \space{}
+\end_inset
+
+Mathematics
+\begin_inset space \space{}
+\end_inset
+
+Education”，Sonderdruck
+\begin_inset space \space{}
+\end_inset
+
+ZDM
+\begin_inset space \space{}
+\end_inset
+
+856。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+弗赖登塔尔关于数学教育的论述，主要收集在他下列三本巨著之中：
+\end_layout
+
+\begin_layout Standard
+1.《作为教育任务的数学》，1973年版；
+\end_layout
+
+\begin_layout Standard
+2.《除草与播种
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+数学教育学的序言》，1978年版；
+\end_layout
+
+\begin_layout Standard
+3.《数学结构的教学法现象学》，1983年版。
+\end_layout
+
+\begin_layout Standard
+\noindent
+其中的第一本是最基本的，他在那里阐述了他对数学和数学教育的各种基本观点；第二本和第三本是这些观点的进一步发挥和发展。本书就是其中第一本的编译。由于原书篇幅太大（
+英文本680页），所以我们除了对最初的十章（这里包括了弗赖登塔尔关于数学和数学教育的主要论点）基本全文翻译外，对其余的九章（其内容是关于一些具体学科教学的论述）
+做了一些删节和组编工作，搞成这个编译本，希望用较少的篇幅把他的主要思想介绍给我国的读者。
+\end_layout
+
+\begin_layout Standard
+弗赖登塔尔是一位学问精深而广博的学者，对数学科学研究有丰富的经验和杰出的成就，对数学教育有广泛的实践经验（他甚至长期地教导儿童学习，以考察儿童的学习和认识过程）
+和深入的理论研究。他对各种问题都有自己独创的见解。数学教育的理论和实践同数学的理论和实践，在本质上有很大的差别，它受制约的因素很多、其正确与谬误有时难于判断，因
+而显出了很大的相对性。但是我们相信，无论读者同意或不同意他的看法，都会从他的书中得到益处，受到启发。为了阅读他的书，事先对他以下两方面的思想有些了解，可能会方便
+些。
+\end_layout
+
+\begin_layout Standard
+第一方面是他对数学的看法。在弗赖登塔尔看来，数学是系统化了的常识。如
+\begin_inset Formula $3+2=5$
+\end_inset
+
+，矩形的面积等于长乘高，都是常识。这些常识是可靠的，不像某些物理现象（如感觉铁比木冷；以为运动物体会无条件地终于停止）会把人引入歧途。因为这样，数学比任何其他自
+然科学都更易于创造：一个聪明的儿童，靠自己就能发现或创造出许多数学知识；在历史上，数学是最古老的学科，它比天文学还早出现了两千年。
+\end_layout
+
+\begin_layout Standard
+常识要成为数学，它必须经过提炼和组织，而凝聚成一定的法则（如加法交换律）。这些法则在高一层次里又成为常识，再一次被提炼、组织，而凝聚成新的法则，新的法则又成为新
+的常识，如此不断地螺旋上升，以至于无穷。这样，数学的发展过程就显出层次性，构成许多等级；同时也形成诸多如抽象、严密、系统等特性。一个人在数学上能达到怎样的层次，
+则因人而异，决定于他的先天和后天条件。但是，一个为多数人都能达到的层次必然存在。数学教育家的任务就在于帮助多数人去达到这个层次，并努力不断地提高这个层次，和指出
+达到这个层次的途径。
+\end_layout
+
+\begin_layout Standard
+第二方面是他关于学习方法的看法。弗赖登塔尔反复强调：学习数学的唯一正确方法是实行“再创造”，也就是由学生本人把要学的东西自己去发现或创造出来；教师的任务是引导和
+帮助学生去进行这种再创造的工作，而不是把现成的知识灌输给学生。他认为这是一种最自然的、最有效的学习方法。说它最自然，是因为生物学上“个体发展过程是群体发展过程的
+重现”这条原理在数学学习上也是成立的，即：数学发展的历程也应在个人身上重现，这才符合人的认识规律。数学在其发展中，走过漫长而曲折的道路，它不断地修正过自己的进程
+，避开过弯路，绕过死胡同，重新明确前进的方向。像这样的历程是不必让它在学生身上重现的。弗赖登塔尔说，他所说的“再创造”是指应该使学生体验到：如果当时的人有幸具备
+了我们现在有了的知识，他们是怎样把那些知识创造出来的。说这种方法最有效，是因为只有通过自己的再创造而获得的知识才真被掌握，和可以灵活应用；而更为重要的是，数学是
+人的一种活动，如同游泳一样，要在游泳中学会游泳，我们也必须在做数学中学习数学，也就是在创造数学中学习数学。弗赖登塔尔指出，搞数学研究的人就是用再创造的方法去阅读
+别人的论文的。
+\end_layout
+
+\begin_layout Standard
+关于再创造学习方法的重要性，弗赖登塔尔还从另外的角度去加以阐述。他经常指出：数学家向来都不是按照他创造数学的思维过程去叙述他的工作成果，而是恰好相反，把思维过程
+颠倒过来，把结果作为出发点，去把其他的东西推导出来。弗赖登塔尔把这种叙述方法称为“教学法的颠倒”指出了这种颠倒掩盖了创造的思维过程，如果学习者不实行再创造，他对
+学习的内容就难以真正的理解，更谈不上灵活应用了。他喜欢举的例子是皮亚诺（Peano）的自然数公理系（虽然他说在初等数学里，这种例子也比比皆是）。
+\end_layout
+
+\begin_layout Standard
+他说在这个公理系中数学归纳法占有关键地位；但数学归纳法在古代便已被人们直观地使用了（例如，在证明
+\begin_inset Formula $a^{m}a^{n}=a^{m+n}$
+\end_inset
+
+中）。到了17世纪，帕斯卡（Pascal）在研究二项系数而建立“帕斯卡三角”（中国数学家杨辉早在13世纪便建立了这个“三角”比帕斯卡早了近四百年）时，发现了这条
+原理，并且相当清晰地叙述了它；18世纪初，詹姆士·贝努利（J·Bernoulli）再一次独立地发现了它；其后是德国数学家克斯特纳（A.
+\begin_inset space \space{}
+\end_inset
+
+Kästner，1719～1800）用比较抽象的形式叙述了它，然后是皮亚诺用抽象的形式把它嵌入到他的公理系中去。这是数学归纳法的历史发展过程。但是大多数教科书不
+讲这些，而是颠倒过来，把皮亚诺公理系作为起点，由它推出数学归纳法，然后把归纳法用到具体的问题上去。弗赖登塔尔认为，学习数学归纳法的正确途径是，向学生提出一些必须
+用数学归纳法才能解决的问题，（这种问题很多，在组合数学中为更多，例如把奇数逐个地相加，就得到一切自然数的平方数。）迫使他直观地去使用这个方法，从而发现这个方法。
+在学生发现了和懂得了这个方法后，再去帮助他用抽象的形式把它叙述出来。至于从数学归纳法再进到皮亚诺公理系，那是一个更大的飞跃了。学生必须对某些简单的内容进行过公理
+化的工作，获得了一些经验以后，才有可能实现这个飞跃。
+\end_layout
+
+\begin_layout Standard
+可以认为，“再创造”是弗赖登塔尔关于数学教学方法的基本思想，它是学习的基本方法，也是判断教法好坏的基本准则。无论是学习数学的抽象（例如对概念的抽象），或数学的公
+理体系，或数学的形式体系（即严格的数学语言和数学符号），或数学的程式（即解决一定问题的具有确定步骤的做法，其中特别包括各种算法
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+Algorithms），都无例外地应该使用“再创造”的方法，而不应该生吞活剥地进行灌输。用弗赖登塔尔本人的话来说，那就是“与其说让学生学习公理体系，不如说让学生
+学习公理化；与其说让学生学习形式体系，不如说让学生学习形式。一句话，与其说让学生学习数学，不如说让学生学习数学化。这和我们所说的“授人以鱼，不如授人以渔”也许有
+某些相同之处。
+\end_layout
+
+\begin_layout Standard
+1987年，弗赖登塔尔曾到华东师范大学和北京讲学，他的讲学得到了广大听众的欢迎和重视。不幸他于1990年月以85岁的高龄谢世，使我们不能再听到他的声音了。就让我
+们以这份编译工作奉献给他，愿他安息。
+\end_layout
+
+\begin_layout Standard
+我们的编译工作分配如下：第一、二章，陈昌平，邹一心；第三至十章，唐瑞芬；第十一、十四章，李士掎，忻重义；第十二、十三章，唐瑞芬，忻重义；第十五章，李士锜；第十六
+章，唐瑞芬：第十七至十九章，李俊；附录，李士锜，并为准确起见，附录的译文特请周克希先生作了审查和校正；本书序是由陈昌平译。由于我们的水平有限，编译工作中一定有许
+多不妥甚至错误之处，我们诚恳希望读者批评指正。
+\end_layout
+
+\begin_layout RightLine
+陈昌平
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+1992年2月24日
+\end_layout
+
+\end_body
+\end_document

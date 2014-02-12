@@ -1,0 +1,1480 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+概率和统计
+\end_layout
+
+\begin_layout Standard
+我认为概率是应用数学的一个典型，不管对应用如何理解，要成为数学，它就必须紧密联系现实并自身充满联系。有许多人不同意这一观点，他们甚至害怕现实会对数学构成威胁，我
+面前就有一本给朝气蓬勃的14～16岁学生写的“绝对纯洁”的教科书。该书作者说：概率教科书都喜欢用非数学的东西，比如钉板、骰子，轮盘赌、顾客的到达、掷硬币、赌博、
+偶发事件、无法区别的物品，等等。许多学概率的学生是被这些东西和措辞（如怎样去赌博）吸引住的，而另外一些学生则被这些东西弄糊涂了。有时，这些东西不仅出现在例子和问
+题中，还出现在定理和证明中。当然，这样做并非一无是处（它增添了概率论的魅力），这些东西可以容易地用来充当描述数学对象的语言，比如借用这些名称来命名特殊的有限概率
+空间（或更一般的概率空间）。然而，对初学者来说，把概率的数学理论和现实世界明确地区分开来也许才有利。比如，对“掷一枚匀称的骰子”这句话，就应该清楚地表明是想要描
+述一项现实世界中的活动，还是想要描述一个特殊的有限概率空间。我曾花了很多笔墨去说明学生应该学会区分数学和现实，它将有助于学生更好地理解数学与现实。但是，教师不该
+把它们分割开来教给学生；应等到数学和现实在学生头脑中有了较强的联系，不会因分割而使任何一方受损的时候，让学生自己去学习分割。总之，像上述引文中那种在学习刚开始就
+将它们截然分开的做法是错误的，毫无疑问，初学者不应学习一种在现实中不起作用的孤立的数学。这些原则已在算术教学中得以充分证实，对概率的教学也同样适合。上述的那位教
+科书作者说：有些人会被联系现实弄糊涂，但是请问：对为什么除数不能为零、为什么乘法是从右边开始而除法是从左边开始、为什么不是所有的函数均为线性的、为什么
+\begin_inset Formula $a^{m}a^{n}=a^{m+n}$
+\end_inset
+
+而
+\begin_inset Formula $(a\cdot b)^{n}=a^{n}b^{n}$
+\end_inset
+
+有些人也弄不清楚，而我们却在教呢？几乎不容怀疑，如果学生学的是人为的孤立的数学，他们就不会喜爱充满联系的数学，因为他们无法借助形式规则来掌握它，而它却要求他们能
+通过自己的活动来理解，迁就于那些一联系现实就弄不清的人的教学是糟糕的教学，而更糟的教学是让其他人也陪着去迁就的教学。
+\end_layout
+
+\begin_layout Standard
+老实说，我相信，促使教师去写，去教脱离现实的概率演算的根源，既不是数学与现实要分离的原则，也不是要顾及一部分学生的特殊困难，而是他们错误地理解数学的严谨性，害怕
+一旦离开纯形式体系的道路就会犯错误。大多数数学家在他们的教学生涯中都曾有过这样的苦恼。在这方面，上述那位教科书作者是说对了，在许多概率教科书中，非数学的东西只不
+过是披在纯数学身上的一块遮羞布，在用现实的东西引起一些兴趣之后，作者马上进入了数学形式体系的安全区，而把现实赶到例子和问题这一隔离区里，以免危及数学。而他做得更
+彻底，一开始就让数学和现实截然分开，令现实不得以任何伪装出现在数学之中。但这就产生了一个问题，即既然数学有那么多有趣的领域，为什么还要教概率呢？
+\end_layout
+
+\begin_layout Standard
+应该指出，概率所需的形式化的数学极少。只要你懂得分数，就可学习相当深的概率。再加上一点代数，就能在一般意义下形成概率的一些原理。相当长的一段时间内可以不用实数和
+微积分的理论，而一旦你能够用一点这种理论，那你就能领会概率中相当深的概念，至于更深的概念还从来没在中学里教过。若将概率公理化，那它是数学中迄今为止最简单的公理体
+系。应用概率于现实就像应用算术那样直接，不必借助于深奥的物理理论，只要用模型的方法就可以了，这是人人都一学就会的。用如此简单的数学就能得到概率中如此丰富的结果，
+这是学生喜欢数学，喜欢概率的一个重要原因。数学家在向人们解释什么是数学的时候，也经常列举概率中的有趣例子。这里就有两个有趣的问题，据说是骑士德·梅雷（de
+ Méré）向帕斯卡（Pascal）提出的：
+\end_layout
+
+\begin_layout Standard
+德·梅雷喜欢赌博，他根据以往的经验，发现将一枚骰子接连掷四次，至少出现一个6这件事发生的可能性是比较大的。于是他认为，将一对骰子接连掷二十四次，至少出现一对6这
+件事所发生的可能性也是比较大的。可是，实际情形并不如此，他向他的朋友帕斯卡抱怨说：颠倒黑白的数学欺骗了他。
+\end_layout
+
+\begin_layout Standard
+帕斯卡回答说：掷一枚骰子出现一个6的概率是
+\begin_inset Formula $\cfrac{1}{6}$
+\end_inset
+
+，不出现6的概率是
+\begin_inset Formula $\cfrac{5}{6}$
+\end_inset
+
+，掷四次均未出现6的概率是
+\begin_inset Formula $\Bigl(\cfrac{5}{6}\Bigr)^{4}$
+\end_inset
+
+，掷四次至少出现一个6的概率是
+\begin_inset Formula $1-\Bigl(\cfrac{5}{6}\Bigr)^{4}\approx0.516$
+\end_inset
+
+，比
+\begin_inset Formula $0.5$
+\end_inset
+
+略大一点。类似地，掷一对骰子不出现一对6的概率是
+\begin_inset Formula $\cfrac{35}{36}$
+\end_inset
+
+，掷二十四次至少出现一对6的概率是
+\begin_inset Formula $1-\Bigl(\cfrac{35}{36}\Bigr)^{24}\approx0.491$
+\end_inset
+
+，比
+\begin_inset Formula $0.5$
+\end_inset
+
+小。从数学的法则和正确的推理来看，德·梅雷是要输钱的。所有诅咒数学的人都将受到惩罚！
+\end_layout
+
+\begin_layout Standard
+德·梅雷的另一个问题是：A、B两人约定对弈，两人取胜的机会相等。每赢一盘棋，胜方得
+\begin_inset Formula $1$
+\end_inset
+
+分，积分先达到
+\begin_inset Formula $5$
+\end_inset
+
+分者为最终胜利者。正当他们玩得高兴时，突然发生了意外，对弈不得不中止，这时A的积分为
+\begin_inset Formula $4$
+\end_inset
+
+分，B为
+\begin_inset Formula $3$
+\end_inset
+
+分。问A获胜与B获胜的机会之比是多少？有人说是
+\begin_inset Formula $4:3$
+\end_inset
+
+，也有人说是
+\begin_inset Formula $(5-3):(5-4)$
+\end_inset
+
+，谁说得对呢？帕斯卡回答说：都不对。假设继续进行两盘比赛，那将会有四种可能的结果：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\begin_inset space \space{}
+\end_inset
+
+赢，
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\begin_inset space \space{}
+\end_inset
+
+赢；
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\begin_inset space \space{}
+\end_inset
+
+赢，
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\begin_inset space \space{}
+\end_inset
+
+赢；
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\begin_inset space \space{}
+\end_inset
+
+赢，
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\begin_inset space \space{}
+\end_inset
+
+赢；
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\begin_inset space \space{}
+\end_inset
+
+赢，
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\begin_inset space \space{}
+\end_inset
+
+赢。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这四种可能中有三种将导致A先达到
+\begin_inset Formula $5$
+\end_inset
+
+分，只有一种将导致B最终获胜，因此，A获胜与B获胜的机会之比是
+\begin_inset Formula $3:1$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+向受过普通教育的人解释什么是数学的例子还有很多，我之所以选择了这两个，一是因为它们和现实的关系很密切，不抽象；二是因为它们指出了数学教学中存在的一个大问题。德·
+梅雷当然是一个有文化的人，他无疑学过数学，但在他必须运用数学的时候却立刻陷入了困境，他不会应用。在第一个问题中，他用了他所知道的比例运算法则
+\begin_inset Formula $(6:4=36:24)$
+\end_inset
+
+；在第二个问题中，他看到三个数据要在两个人中分配，就推测一定是
+\begin_inset Formula $4:3$
+\end_inset
+
+或
+\begin_inset Formula $(5-3):(5-4)$
+\end_inset
+
+。可怜的德·梅雷，若是他根本没有学过数学也许会赌得更好些，如果那样的话，他就可以运用出于不得已而自己创造的数学了。
+\end_layout
+
+\begin_layout Standard
+德·梅雷不只是一个历史人物，今天，学过数学而不会应用的可怜的当代德·梅雷还在不断涌现。
+\end_layout
+
+\begin_layout Standard
+从数学和教育的角度看，要解决德·梅雷的问题最要紧的是什么呢？不是获得答案所需的现成的数学，而是为了得出答案而必须重新发现或再创造的数学。的确，在历史上，这两个问
+题是由帕斯卡解决的，但历史不是一顶旧帽子
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+作者意思是我们应当以历史为鉴，而不应将历史视作一顶旧帽子，一扔了之。
+\end_layout
+
+\end_inset
+
+。每个人都有他自己的历史，都会遇到这种新的，从未听说过的，也未曾解决过的问题。最漂亮的概率演绎体系也无法保证学生学了之后就能应用，不是吗？有些学过概率的人也会和
+常人一样认为两个人的生日是同一天的概率比任选一人的生日是七月十二日的概率要小，或者认为五十个人的集体中有两人的生日是同一天是不大可能的，甚至经验丰富的概率统计专
+家在估计概率的时候也可能出错，例如，当初孟德尔（Mendel）用豌豆做基因实验时，就曾受到概率统计专家们的指责，此外还有一些类似的似是而非的问题。这些事例告诉我
+们，在应用概率的时候一不小心就会出错。如此说来干脆就把概率和现实截然分开，丢掉那些现实的东西，问题不就解决了吗？但人们越来越需要应用概率。如果我们不理睬应用时的
+这些麻烦，那么概率教学的目的又是什么呢？
+\end_layout
+
+\begin_layout Standard
+就连专家们也会出错，可见学概率是不容易的。但这并不意味着我们无法将困难的知识变为容易接受的知识。数学本身不就是一种使事物变得简明的艺术吗？为此，我们要发展数学的
+一般思维模式，并把它们用公理的方法组织起来。在这方面，我们的工作还做得不够好。这些模式中的绝大部分我们只是在无意识地运用，并没有彻底地认识它们。这些思维模式在对
+现实情境的数学化中也存在，然而却从未有人想过如何将它们公理化和形式化。这些模式我们也称之为战术与战略。看来想不提及应用，便把它们归入纯数学范围是无益的。只有在重
+新发现、模仿、运用、并向别人解释和自己的尝试中，才能掌握它们。当然，提醒人们注意某些隐晦的细节可以避免错误的发生，但在提出注意事项之前让他们先尝试一下错误，效果
+会更好。
+\end_layout
+
+\begin_layout Standard
+目前，教师总是试图通过让学生记住法则来避免出错。数理统计是关于如何应用概率的理论，它研究如何用样本去估计概率。令人惊异的是，这一可让思维自由驰骋的数学领域却被处
+理成一个尽是僵死法则的体系，供自然科学和社会科学学生使用的数理统计教科书多数带有这种菜谱式的特征。不管学生是否理解，就把方法和公式往学生的脑袋里装，好在脑袋比胃
+能容纳更多的东西。搞错了的菜谱很少会重复使用。可被误用的，不相干的数学，除了要给出一个令人不满的分数作为回报以外，多半还会使学生毕业后不会再去应用数学。
+\end_layout
+
+\begin_layout Standard
+我提到的有些数学应用往往是很肤浅的，在社会科学、心理学和教育学中，认为把有关的数据资料收集起来，再用数学方法处理一下就是应用，有这种看法的人极为普遍。这些学科的
+一些实验在设计时，不考虑所列的参数是否有关，也不考虑是否还遗漏了更重要的参数。比如，有人曾做过一项实验，目的是要找出在解文宇题中起作用的因素（如关键词，单位换算
+，数的运算等），经别人建议，他又加进了“重复”因素，即重复地解相同运算的问题。最后，经统计学的因素分析才得知，重复因素是其中起主要作用的最重要的因素。如果当初他
+没有考虑这个因素，那么尽管他使用的是科学的因素分析方法，也只能得出错误的结论。
+\end_layout
+
+\begin_layout Standard
+这里，我们巳大致描绘了两种教学流派：一是视概率为一种与现实完全没有联系的抽象体系；二是视其为留待填入数据的关于计算模型的体系。从表面上看，这两种流派是对立的，而
+却以最自然的方式互相补充。如果把应用当作抽象理论的附加物来教，那么除了采用菜谱式的体系外就别无选择。这两种流派甚至能够不可思议地出现在一本教科书里，即理论和问题
+交替出现
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+问题用来说明实际运用，理论使人问心无愧。有本事的教师会跳过理论，通过解例题来演示数学方法的运用。
+\end_layout
+
+\begin_layout Standard
+我曾多次指出，学习数学化对于学生很重要。可惜，即使是基本上同意我的人，当涉及概率时也仅仅是口头上响应，并无实际行动，更不必提那些将概率置于集合论与测度论背景下的
+人了。其实，教概率是我们向学生说明如何数学化，如何应用数学的最好机会，而且恐怕还是算术之后的最后一次机会了。我喜欢概率，也为大学新生上过概率课，但我极其反对在中
+学里教概率，因为我担心它会被糟蹋了，就像许多已做过的试验所表明的那样。我知道，许多概率学家和统计学家也同意我的看法。
+\end_layout
+
+\begin_layout Standard
+下面，我想谈一点我自己教概率的体会。虽然这是从大学教学中得来的，但或许对大学前教育也有用。
+\end_layout
+
+\begin_layout Standard
+我认为，大学教概率的目的是要让学生体会数学的广泛应用性，要使学生的应用能力有显著提高。因此，上这门课时，我从来不从概率的定义讲起，这就像我们教几何时不必从解释什
+么是“点”开始一样。因为，所有的概率问题都可化为赌博问题，所以，我总是从举几个概率的例子开始，但我现在觉得即使这样也不好，这是我在参加了一个初等数学教育周末讨论
+会后意识到的。当时我们讨论的内容是如何为10~11岁的小学生设计一堂课的教案，课题是“赌赛马”。所谓赌赛马就是让参加赌博的人先填好一张赛马成绩预测表，该表上有十
+三条横格对应着十三场比赛，有三条竖格对应着赢、输和平局，然后，按照一种固定的模式，在全猜对、只猜错一个、猜错两个的人中分发赌金。欧洲的小学生对赛马赌金计算是很熟
+悉的。
+\end_layout
+
+\begin_layout Standard
+这节课自然是由教师问学生什么是赌赛马开始。下一个问题是什么呢？有人提议可以问“某人随机地填表却完全正确的概率（或机会）是多大？”但这不好。经过一段不太成功的努力
+，最后我们决定完全放弃使用“概率”“机会”“随机”这些词汇，让教师要求每个学生画一张赛马成绩预测表，并填写表格，填好后与教师事先填好的那张对照，完全一致的为中奖
+者。当然，很可能是没有一个学生中奖，于是教师就问：“如果我们班有一百名学生，那么在我们中间是否有可能有一人中奖？如果有一千名学生，一万名学生，情况又如何呢？”由
+于这一年龄的学生对赌赛马很有经验，因此他们会一直等到教师说一百万名时才回答有。下一步，数学味要更浓一些，应讨论只有一场比赛、二场比赛、三场比赛……的赌赛马问题。
+最后，要学生发现十三场比赛结果全部猜中的概率的含义是什么。
+\end_layout
+
+\begin_layout Standard
+这次讨论会对我的启发很大。如果明年我还教概率的话、我会仿效这一做法，从德·梅雷提出的第一个问题开始，或索性从引出这个问题的经历开始。我将首先问学生：“必须将一枚
+骰子掷多少次，才能使至少出现一个6这件事有百分之五十的可能性发生？”我以前也曾问过这个问题，但那是在第一节课结束时问的，学生常常回答说是三次。若是明年学生还这样
+回答的话，我就和他们一起做试验，将一枚骰子掷三次，记下出现的三个数字，然后重复数次，记下相应的数据。从这些数组中挑出至少有一个6出现的数组，试验结果将否定学生原
+先的猜想，这种数组只在总数中占很小的比例。之后，我将问学生是否还要继续这个试验，等学生确信掷三次是不够的，不必继续试验之后，我们将开始计算掷一次、二次、三次……
+至少出现一个6的概率，于是得到表达式
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{1}{6}+\cfrac{5}{6}\cdot\cfrac{1}{6}+\Bigl(\cfrac{5}{6}\Bigr)^{2}\cdot\cfrac{1}{6}+\cdots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+其间，为了使计算简便，要用到逆事件的概率公式，我将先让学生熟悉如何将一个语句改为等价的否定句。如将语句“至少出现一个6”改为它的等价否定句“不是没有一个6出现”
+。众所周知，在概率中，这种转化等价语句的技能是很重要的。有了这些准备知识以后，德·梅雷的那个掷一对骰子的问题就变得很简单了。
+\end_layout
+
+\begin_layout Standard
+之后，我通常要问一个问题：这里的必须掷四次能否改为同时掷四枚骰子？如果可以的话，那么至少出现一个6的含义又是什么？传统课程往往忽视表明一个事实，即概率中的同一个
+问题常常可以化为多个实质相同但外貌不同的问题。为了使学生了解概率的运用，应多让学生练习如何识别问题的实质，这种识别能力不是从形式定义中可以学来的，而只有通过实践
+才能获得。你不妨做一个试验，随意找一个人，问他：“随机挑选一个人，他的生日正好是六月一日的概率，和随机挑选两个人，他们的生日正好是同一天的概率，这两个概率哪个大
+？”如果他的数学经验不多，那么他会说后一个概率要小一些，但奇怪的是如果你再追问他：“掷一枚骰子出现6的概率和掷一对骰子出现一对相同数的概率，这两个概率哪个大？”
+他却会脱口而出：“一样大。”要使他明白如果不考虑数字上的差别，这两个问题是同构的，你还得费些口舌才行。
+\end_layout
+
+\begin_layout Standard
+简单的组合论是初等概率的主干，这一点在我们的概率教学中不应忘记。在简单的组合问题中出大错是很普遍的现象。组合问题的一个特点就是所用到的数学极简单。因为这种问题通
+常都不是用数学语句描述的，所以要做的最基本的事情就是把问题数学化，而这恰恰是我们以及国外中学在以往教学中极不重视的。困难主要在于一个同构的数学问题可以有那么多不
+同的外貌。
+\end_layout
+
+\begin_layout Standard
+从两个基数分别为
+\begin_inset Formula $m$
+\end_inset
+
+、
+\begin_inset Formula $n$
+\end_inset
+
+的有限子集
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+中取出两个元素构成有序对
+\begin_inset Formula $(a,b)$
+\end_inset
+
+，这神有序对当然共有
+\begin_inset Formula $m\cdot n$
+\end_inset
+
+对。若
+\begin_inset Formula $A$
+\end_inset
+
+与
+\begin_inset Formula $B$
+\end_inset
+
+不交，则它们的并集含有
+\begin_inset Formula $m+n$
+\end_inset
+
+个元素。这是极为简单的。但如果构造和辨认集合的积和并没有系统地学过，那么上述两个结论只不过是无用的抽象理论罢了。例如，有三间客房，每间客房有两张床位。现安排三对
+已婚夫妇去住，要求丈夫和妻子住一间房，两人各睡一张床。问有多少种安排床位的方法。学生们会马上说：首先，将三对夫妇安排在三间客房有
+\begin_inset Formula $3!=6$
+\end_inset
+
+种方法，然后，安排住在第一间客房夫妇的床位又有两种方法，第二、三间的床位也各有两种安排方法，所以总共有
+\begin_inset Formula $6+2+2+2=12$
+\end_inset
+
+种方法，答案是
+\begin_inset Formula $12$
+\end_inset
+
+种方法。如果这是大学生给出的解答，那么这多少甚至相当程度上要归咎于中学数学教学。我要声明，如果新数学如同我在大量教科书中所看到的那样，那么我对它在这方面的改进并
+不抱太大希望。在学习简单的组合论方法中所产生的教育问题，并不能通过教集合论来解决，而应让学生去解决组合论方法起主要作用的复杂问题。这种问题在概率中随处可见，在其
+他领域中也大量存在。
+\end_layout
+
+\begin_layout Standard
+我在讲大学一年级的概率课时，把各种组合问题系统地、逻辑地联系在一起。我从著名的哥尔登（Galton）钉板问题开始，这是一块标有数码的等边直角三角形钉板，最上方的
+0行有一个钉0，下一行（1行）从左至右有两个钉0，1，再下一行（2行）从左至右有三个钉0，1，2，依此类推将几个球从最上方的那个钉处落下，经过反弹，它们以相等的
+概率到达第一行的两个钉处，又遭反弹，转向第二行的钉子。于是，在钉子的反弹作用下，球沿着“之”字形路线在钉子的缝隙间穿行，直至到达底部的那一行。我没有用钉板进行演
+示，但学生们凭常识都能理解大多数球最终将落在中央，只有极少数球会落在两边。接着，我粗略地绘出球的分布曲线，说明以后将对它作更详细的讨论。
+\end_layout
+
+\begin_layout Standard
+为了从数学上去发现球的分布状况，我们想象球在下落过程中，每遇到一个钉子便自动地分为两个与原球完全相同的新球，新球又继续往下落，遇到钉子又一分为二，如此一直继续下
+去。记下经过每一个钉子的球的个数，得到的恰是帕斯卡三角形。我们把经过第
+\begin_inset Formula $n$
+\end_inset
+
+行第
+\begin_inset Formula $k$
+\end_inset
+
+个钉子的球的个数记为
+\begin_inset Formula $\biggl(\begin{array}{c}
+n\\
+k
+\end{array}\biggr)$
+\end_inset
+
+，则帕斯卡三角形就可以由
+\begin_inset Formula $\biggl(\begin{array}{c}
+n+1\\
+k+1
+\end{array}\biggr)=\biggl(\begin{array}{c}
+n\\
+k
+\end{array}\biggr)+\biggl(\begin{array}{c}
+n\\
+k+1
+\end{array}\biggr)$
+\end_inset
+
+来递归定义，当然，其中的
+\begin_inset Formula $n$
+\end_inset
+
+和
+\begin_inset Formula $k$
+\end_inset
+
+还要满足一些约束条件。于是可很容易推出
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\biggl(\begin{array}{c}
+n\\
+k
+\end{array}\biggr)=\cfrac{n!}{k!(n-k)!}$
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+和
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $\underset{i=0}{\overset{n}{\sum}}\biggl(\begin{array}{c}
+n\\
+i
+\end{array}\biggr)=2^{n}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+前面提到了“之”字形路线，其实长度为
+\begin_inset Formula $n$
+\end_inset
+
+的“之”字形路线相当于球在下落过程中作了
+\begin_inset Formula $n$
+\end_inset
+
+次左或右的选择，或者说相当于一个从集合
+\begin_inset Formula $\{1,2,\cdots n\}$
+\end_inset
+
+到集合
+\begin_inset Formula $\{左,右\}$
+\end_inset
+
+上的映射
+\begin_inset Formula $\Phi$
+\end_inset
+
+，
+\begin_inset Formula $n$
+\end_inset
+
+次选择中有
+\begin_inset Formula $k$
+\end_inset
+
+次选了右，则“之“字形路线必在第
+\begin_inset Formula $n$
+\end_inset
+
+行第
+\begin_inset Formula $k$
+\end_inset
+
+个钉子处中止，即
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccl}
+\biggl(\begin{array}{c}
+n\\
+k
+\end{array}\biggr) & = & \text{“右”有}k\text{个原像的，}\text{从}\{1,2,\cdots,n\}\\
+ &  & \text{到}\{左,右\}\text{的映射个数。}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+如果“右”的原像集给定的话，那么这条“之”字形路线也就完全确定了，于是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccl}
+\biggl(\begin{array}{c}
+n\\
+k
+\end{array}\biggr) & = & \text{从}\{1,2,\cdots,n\}\text{取出}k\text{个元素}\\
+ &  & \text{所构成的子集个数。}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+通常，我们称这样的子集为“从
+\begin_inset Formula $n$
+\end_inset
+
+个元素中取出
+\begin_inset Formula $k$
+\end_inset
+
+个的组合”，如果这种取法与顺序是无关的，那么数学上可称之为“从
+\begin_inset Formula $n$
+\end_inset
+
+个元素中取出
+\begin_inset Formula $k$
+\end_inset
+
+个构成一个子集”；如果是与顺序有关的，则称之为“从
+\begin_inset Formula $n$
+\end_inset
+
+个元素中无重复地选取
+\begin_inset Formula $k$
+\end_inset
+
+个元素构成一个子列，即作从
+\begin_inset Formula $\{1,2,\cdots,k\}$
+\end_inset
+
+到所给
+\begin_inset Formula $n$
+\end_inset
+
+个元素集合上的一个一一映射”。显然，这种映射的个数是从
+\begin_inset Formula $n$
+\end_inset
+
+个元素中取出
+\begin_inset Formula $k$
+\end_inset
+
+个的子集个数的
+\begin_inset Formula $k$
+\end_inset
+
+!倍。我认为，用子集和子列，即借助集合和映射的语言来区分排列与组合这两个概念是有益的。可以说，组合是中学数学中运用映射最合适的课题。
+\end_layout
+
+\begin_layout Standard
+学完组合转入概率，首先遇到的重要概念就是独立事件、不独立事件和条件概率。依我的经验，如果不从公理的途径而用大量的例子加以说明，这几个概念学生还是比较容易接受的。
+我是这样介绍独立与不独立事件的：假设有一个装有从1到1000这一千个数字的口袋，已知从中抽取的数能被
+\begin_inset Formula $4$
+\end_inset
+
+整除，那么这对抽取的数也能被
+\begin_inset Formula $10$
+\end_inset
+
+整除的概率有多大影响？即在
+\begin_inset Formula $x\in B$
+\end_inset
+
+（这里集合
+\begin_inset Formula $B$
+\end_inset
+
+是
+\begin_inset Formula $4$
+\end_inset
+
+的倍数所组成的集合）的条件下，对
+\begin_inset Formula $x\in A$
+\end_inset
+
+（这里集合
+\begin_inset Formula $A$
+\end_inset
+
+是10的倍数所组成的集合）有多大影响？如果没有影响，即
+\begin_inset Formula $P(x\in A|x\in B)=P(x\in A)$
+\end_inset
+
+，则
+\begin_inset Formula $A$
+\end_inset
+
+就定义为与
+\begin_inset Formula $B$
+\end_inset
+
+独立。否则，计算条件概率的公式为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $P(x\in A|x\in B)=\cfrac{P(x\in A\cap B)}{P(x\in B)}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+现在，判别
+\begin_inset Formula $A$
+\end_inset
+
+和
+\begin_inset Formula $B$
+\end_inset
+
+是否独立就变为考察等式
+\begin_inset Formula $P(x\in A\cap B)=P(x\in A)\cdot P(x\in B)$
+\end_inset
+
+是否成立了。这个判别法则在
+\begin_inset Formula $P(x\in B)$
+\end_inset
+
+的况下也是适用的，而且它表明
+\begin_inset Formula $A$
+\end_inset
+
+与
+\begin_inset Formula $B$
+\end_inset
+
+之间的独立关系是对称的。
+\end_layout
+
+\begin_layout Standard
+这不过是介绍这些概念的途径之一。依我的经验，了解独立性和条件概率之间的密切联系有助于加快学生对它们的理解。那些喜欢追求体系的人总是把它们割裂开来，并以不独立为出
+发点，我却愿一如既往地强调广泛的联系。然而我也承认，我在这个课程中没有用很复杂的例子去分析条件概率，而是反复提及独立性。
+\end_layout
+
+\begin_layout Standard
+从已知
+\begin_inset Formula $A$
+\end_inset
+
+和
+\begin_inset Formula $B$
+\end_inset
+
+是独立的，我们还可以得到
+\begin_inset Formula $P(x\in\overline{A}\cap B)=P(x\in\overline{A})\cdot P(x\in B)$
+\end_inset
+
+等，即
+\begin_inset Formula $\overline{A}$
+\end_inset
+
+与
+\begin_inset Formula $B$
+\end_inset
+
+、
+\begin_inset Formula $A$
+\end_inset
+
+与
+\begin_inset Formula $\overline{B}$
+\end_inset
+
+、
+\begin_inset Formula $\overline{A}$
+\end_inset
+
+与
+\begin_inset Formula $\overline{B}$
+\end_inset
+
+都是独立的。设
+\begin_inset Formula $P(x\in A)=\alpha,P(x\in B)=\beta$
+\end_inset
+
+，若用表格表示
+\begin_inset Formula $P(x\in A\cap B)$
+\end_inset
+
+、
+\begin_inset Formula $P(x\in\overline{A}\cap B)$
+\end_inset
+
+等的话，就是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $A$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\overline{A}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $B$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\alpha\beta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(1-\alpha)\beta$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\overline{B}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\alpha(1-\beta)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(1-\alpha)(1-\beta)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这张表可以用（下雨，预报下雨）对应值（是，是），（是，否），（否，是），（否，否）来说明。我们当然希望概率都集中在主对角线上，而右上角和左下角的数字为零，这样，
+就可完全信赖天气预报了，这是下雨和预报下雨完全不独立的情形。事实上，这很难实现。我们通常只能要求这两个数字充分地小，非常接近于零。另一个极端是下雨和预报下雨完全
+独立的情形，这时，天气预报就完全失去了作用，不管是否预报下雨，下雨的概率都是一样的。
+\end_layout
+
+\begin_layout Standard
+学生在遇到判断天气和天气预报之间，父、子身高之间是否独立的问题时，常会通过收集、整理数据，给出最终判断。但遇到简单的问题，如掷一对骰子，两个骰子的读数之间是否独
+立的问题，却往往只凭直觉，跳过分析阶段，直接进入综合阶段，在还没有经过很好分析的情况下就直接认为它们是独立的，并使用起概率乘法规则
+\begin_inset Formula $P(x\in A\cap B)=P(x\in A)\cdot P(x\in B)$
+\end_inset
+
+。虽然，这样做常常很有效，也只有那些刻意追求体系的人会反对这样做，但教师不应让学生停留在这个仅依赖于本能的水平上，而要引导他们作更为深入的思考。比如再把这个问题
+改成两枚骰子是由一裉长线或一根短线相牵连的情形，这时，学生就不得不通过观察概率来看使用概率乘法规则是否合理了。
+\end_layout
+
+\begin_layout Standard
+如果我们打算将概率以某种方法同现实联系起来，那么就必须明白地指出独立性的巨大作用。为此，学生必须知道什么是独立性，当然，这不能在一个公理体系下进行，也不能依靠数
+学化的系统来阐述，而应尽可能地联系现实，否则就会造成很多困难。
+\end_layout
+
+\begin_layout Standard
+有一个问题每届学生的解答总不能使我满意，这个问题是这样的：一个口袋中装有四个数1，2，3，4，随机地逐个取出，按取出的先后次序排列，若有一个数字在正确的顺序位置
+上就奖1分，比如，取出的次序是3214，因为2和4是在正确的顺序位置上，所以奖2分。求这样奖励的数学期望是多少？我发现，学生总是先列出1，2，3，4这四个数的所
+有排列，标明每种排列可得的奖分，然后求得奖分的总和是24分，再用公式计算得数学期望是1分，这一答案是出乎他们意料的。有没有更简便的解法呢？当然有！在二十四种排列
+中，1排在第一位
+\begin_inset Formula $(x_{1}=1)$
+\end_inset
+
+有六次，同样2排在第二位
+\begin_inset Formula $(x_{2}=2)$
+\end_inset
+
+、3排在第三位
+\begin_inset Formula $(x_{3}=3)$
+\end_inset
+
+、4排在第四位
+\begin_inset Formula $(x_{4}=4)$
+\end_inset
+
+均有六次。以前我还证明过随机变量之和的数学期望公式
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $E\Bigl(\underset{1}{\overset{n}{\sum}}x_{i}\Bigr)=\underset{1}{\overset{n}{\sum}}E(x_{i})$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+在证明时，强调过无论随机变量之间是否独立，该公式都成立。但没有一个学生想到把它用于四个虽不独立却等可能地取1，2，3，4值的变量
+\begin_inset Formula $x_{1},x_{2},x_{3},x_{4}$
+\end_inset
+
+上，也没有人想到用
+\end_layout
+
+\begin_layout CenterLine
+奖分
+\begin_inset Formula $y_{i}=\begin{cases}
+0, & \text{当}x_{i}\neq i;\\
+1, & \text{当}x_{i}=i
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+来计算所求的
+\begin_inset Formula $E(y_{1}+y_{2}+y_{3}+y_{4})$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+在我把学生的注意力引向这个一般定理时，学生反对说，这里的随机变量之间是不独立的。我让他们回忆这个定理的条件和证明，他们总算是同意用了，可内心的疑虑并未完全消除。
+大多数学生仍不相信逻辑告诉他们的事实
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这些只是大脑的推理，与心无关（帕斯卡的著名格言）。
+\end_layout
+
+\begin_layout Standard
+经验告诉我问题出在教学上，我不该从一般的定理出发，而应从一、二个具体例子着手，用例子中的特殊情况来验证定理，然后再加以一般证明。归结一下所有的排列，显然1排在第
+一位，2排在第二位，3排在第三位，4排在第四位均有六次。把这稍加一般化，就是完整的证明了。在这个例子中，独立性显然是无关紧要的，一般证明中的字母和公式只会掩盖这
+一事实。现在我采取了新方法，并取得了完全成功。例子比一般证明更能说服人，只有领会具体例子的人才会理解一般证明。学习一般证明根本不能保证定理的应用，相反，过早地学
+习定理的一般证明只会使学生连最简单的应用也搞不清楚。
+\end_layout
+
+\begin_layout Standard
+当然，对方差用加法法则需要假设随机变量相互独立，对此，前面的例子可以用来加以说明。对方差加法法则的处理，我的做法和统计学家们的有点不同，我强调根方差（方差的平方
+根），讲根方差按毕达哥拉斯（Pythagoras）式相加，即
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{rcl}
+D\Bigl(\underset{1}{\overset{n}{\sum}}x_{i}\Bigr) & = & \sqrt{n}D(x)\text{，}\\
+D\Bigl(\cfrac{1}{n}\underset{1}{\overset{n}{\sum}}x_{i}\Bigr) & = & \cfrac{1}{\sqrt{n}}D(x)\text{。}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这个公式不仅漂亮，而且恰好准确地刻划了根方差的特点，人们称之为
+\begin_inset Formula $\sqrt{n}$
+\end_inset
+
+－定律。其实，强调方差只不过是统计学家的一种癖好。在自然科学方面的应用中，根方差才是有用的概念。
+\end_layout
+
+\begin_layout Standard
+在自然界中无论概率用于何处
+\begin_inset Formula $\sqrt{n}$
+\end_inset
+
+－定律都是很有用的。可是，有些教科书作者从未注意到这一点。我认为，学生在数学课上就必须学习和领会它，不必等到将来他们念理论物理或实验物理时才学。许多数学家不同意
+我的看法，他们说数学期望和根方差只不过是一个分布的两个参数，应该尽快地进入傅里叶（Fourier）变换或者一些特殊的分布这种高一级的领域。在统计或科学中运用过概
+率的人恐怕都知道，在很多情况下，仅这两个参数就蕴含了一切有用的，有时甚至常常是一切有关的信息。我们用这两个简单的工具能做很多事。
+\end_layout
+
+\begin_layout Standard
+毫无疑问，在有限根方差条件下的大数定律是较为先进的概率基础知识，它的证明很容易，这再次说明了数学期望和根方差的重要性。大数定律是通向统计推断原理的最佳出发点，比
+更有用的，但也更复杂的中心极限定理要好。因为只有在学生理解了它以后，才适合教正态分布和中心极限定理，当然，它们的证明可以略去不教。为了解释中心极限定理，我想回到
+哥尔登钉板的问题上去。它反映了
+\begin_inset Formula $n$
+\end_inset
+
+个独立的，且与总体
+\begin_inset Formula $x$
+\end_inset
+
+同分布的随机变量
+\begin_inset Formula $x_{i}$
+\end_inset
+
+的和的情况，其中
+\begin_inset Formula $x_{i}$
+\end_inset
+
+取值0或1的概率都是
+\begin_inset Formula $\cfrac{1}{2}$
+\end_inset
+
+。从哥尔登钉板上球的最终排列表明，变量
+\begin_inset Formula $\sum x_{i}$
+\end_inset
+
+应该减去它的数学期望
+\begin_inset Formula $\cfrac{n}{2}$
+\end_inset
+
+，即钉板底线的中点应作为尺度的原点。为了使其收敛，很自然地要将
+\begin_inset Formula $\sum x_{i}-\cfrac{n}{2}$
+\end_inset
+
+除以
+\begin_inset Formula $\sum x_{i}$
+\end_inset
+
+的根方差
+\begin_inset Formula $\cfrac{1}{2}\sqrt{n}$
+\end_inset
+
+，即尺度缩减的因于。那么，变量
+\begin_inset Formula $\cfrac{\Bigl(\sum x_{i}-\cfrac{n}{2}\Bigr)}{\cfrac{1}{2}\sqrt{n}}$
+\end_inset
+
+的分布是收敛于正态分布的，就像哥尔登钉板图片上所画的正态曲线。然后，我也许要告诉学生，正态律不仅适用于哥尔登钉板问题，而且还适用于大量随机变量的和。
+\end_layout
+
+\begin_layout Standard
+如果时间允许的活，我还想给学生讲一些对策论（博弈论）和随机过程。它们也适合放入中学概率课中去。这两个领域有着取之不尽的漂亮例子。下面我想举一个对策论中的例子：
+\end_layout
+
+\begin_layout Standard
+A写下1，2，3，4，5五个数字中的一个，让B来猜。假设A写下的是i，B又恰好猜中i，那么B就赢i分；如果B没有猜中，则B得0分。A和B应采取什么策略呢？
+\end_layout
+
+\begin_layout Standard
+显然，如果A写了很多次5，那么他就可能输掉很多5分；如果他不写5，而B又注意到了这一点，那么B就不会猜5，而只猜1，2，3，4，以增加获胜的机会。概率中这种进退
+两难的问题早在18世纪初就为人们所熟知了，最后是用冯·诺依曼（von
+\begin_inset space \space{}
+\end_inset
+
+Neumann）所发现的极大极小原理来解决的：A能够做到让B得分的数学期望的最大值达到最小。用下面的例子来解释这一原理会更简单些。
+\end_layout
+
+\begin_layout Standard
+随机过程的原理都可以用简单的游戏来解释。教随机过程有一个好处，就是为以后练习矩阵运算创造了良好的机会。
+\end_layout
+
+\begin_layout Standard
+概率与其应用联系之紧密已到了要专门用一种理论来述说如何应用的地步了，这一理论就是数理统计。要不要在大学一年级或中学的概率课中讲统计呢？由于统计推断原理容易用一些
+漂亮而简单的例子来加以说明，而这些例子又不需要概率中的复杂技巧，符号检验或双重二分法就足以解释两种假设模式并作深入分析。因此，把统计推断原理与正态分布联系起来是
+完全没有必要的，甚至会把人引入歧途。
+\end_layout
+
+\begin_layout Standard
+如果想用复杂些的例子，那么可选下面这个例子：
+\end_layout
+
+\begin_layout Standard
+现有两种缸，一种装着
+\begin_inset Formula $\cfrac{3}{4}$
+\end_inset
+
+的白球和
+\begin_inset Formula $\cfrac{1}{4}$
+\end_inset
+
+的黑球，另一种装着
+\begin_inset Formula $\cfrac{1}{4}$
+\end_inset
+
+的白球和
+\begin_inset Formula $\cfrac{3}{4}$
+\end_inset
+
+的黑球。这两种缸从外表上看是一模一样的，我们把前一种缸称为白缸，后一种称为黑缸。我面前放着一只缸，要猜一猜它是哪种缸？
+\end_layout
+
+\begin_layout Standard
+当然，我可以从缸中取十次球（取后放回）看看球的颜色。显然若取出了许多白球，我就可以推断那是一只白缸；若取出了许多黑球，那就可以推断那是一只黑缸。但这“许多”究竟
+是多少呢？从白缸中取十次球，取出
+\begin_inset Formula $x$
+\end_inset
+
+只白球的概率是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+x=0,1,2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.003
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.016
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.050
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.146
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+x=7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.250
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.286
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.188
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.056
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+假如我在取出的十只球中发现有七只或更多的白球，于是断定那只缸就是白缸，或发现只有六只或少于六只白球，就断定那只缸是黑缸，那么，我称黑缸为黑缸的概率是
+\begin_inset Formula $99.7\%$
+\end_inset
+
+，称黑缸为白缸的概率是
+\begin_inset Formula $0.3\%$
+\end_inset
+
+，称白缸为黑缸的概率是
+\begin_inset Formula $22\%$
+\end_inset
+
+，称白缸为白缸的概率是
+\begin_inset Formula $78\%$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+我究竟采取哪一个策略取决于选择这一策略的后果。例如，假设我付一百美元得到一只缸，若它是一只白缸，我可以出售，并获利十美元；若它是一只黑缸，我将输光本钱。另外，假
+设每取一只球要付十美分。按照上述那个策略，如果它是一只黑缸，那么我输掉一百美元的概率是
+\begin_inset Formula $0.3\%$
+\end_inset
+
+，可能损失三十美分外加取球时付掉的钱；如果它是一只白缸，那么我赚十美元的概率是
+\begin_inset Formula $78\%$
+\end_inset
+
+，可能获利7.80美元再扣去取球时付掉的钱。最终，我面对的是要么可望获利6.80美元，要么可能损失1.30美元。我的决策将取决于赌场定下的幸运缸（白缸）和倒霉缸（黑缸
+）的出售比率。
+\end_layout
+
+\begin_layout Standard
+这些例子可以作许多变化。然而，我不赞成教大学新生或高中生任何数理统计的技巧。我所看到的包含统计的教科书就像是为训练未来统计学家而编的，人们经常以为学了一些统计后
+就能成为统计学家了，这实在是对数学的很大误会。如果我们给将来不准备当统计学家的人上统计课，那么我们应该培养他们评判的智能，而不应错误地把他们引到高级的技巧上去，
+这是数学教学的普遍原则。我简直无法理解那些教高中学生很多统计技巧的人的想法，我认为他们的想法对教有意义的数学是不利的。尽管我在教学中，必要时总是尽可能多地使用集
+合论的概念和术语。但我在教概率时，总是用装有彩票或彩球的缸把概率具体化，所有的概率问题都可以改写成一个关于缸的问题。在我的课程中，我没有讨论概率公理，因为那样的
+话，会把许多逻辑的深奥理论引入课堂，效果如何令人怀疑。
+\end_layout
+
+\begin_layout Standard
+概率进入中学课程已成定局，这一联系着现实与数学的花朵该如何栽培呢？如果我们把它当作一门高年级的课，而且每周花两小时去教的话，那必将断送它的性命。我完全同意恩格尔
+（A.
+\begin_inset space \space{}
+\end_inset
+
+Engel）的主意，即在学生刚刚了解分数以后，就把概率渗透到所有的数学中去。这样做，不仅可为以后的概率教学带来方便，而且能使学生学的数学更加接近于现实。这样安排
+的概率不是一门充斥着定理和公式的枯燥学问，它充满着大量的具体问题，这时，概率被学生当作生活的一部分来体验。我相信，早期集中体验过概率概念的学生，在更高的水平上能
+更好地体验与吸收远离现实的数学化。描述性统计也是很有用的，但为什么多年来它一直未能进入课程，这仍是教育界的一个谜，直到今天，许多所谓有文化的人还不会看统计图，这
+简直让人难以置信。
+\end_layout
+
+\end_body
+\end_document

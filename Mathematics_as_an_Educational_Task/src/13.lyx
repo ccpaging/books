@@ -1,0 +1,1286 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+数的概念的发展
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+代数方法
+\end_layout
+
+\begin_layout Standard
+我必须对题材特别是标题的安排表示歉意，因为将算术与代数截然分开，确切地说是在荷兰学制中，六年小学与中学是截然分开的。在小学六年级学完算术后开始学代数，这无疑是不
+对的，但实际惜况是如此，这种情况也许还将继续下去。 我相信高年级小学教师是能够将代数方法结合进算术教学中的，但有一个不利条件，即改革小学教育是一件危险的事情，一
+旦打开锁链，教师与学生都将无助地面临变革的数学潮流，这种数学是以“新数学”为幌子的。 代数与算术分开，有一定的理由，那就是算术比较直观，接近现实，或至少它应该如
+此，而代数却典型地以形式符号方法为其特征。不可否认，传统的算术教学早就越过了界线，以冒充初等化的方式侵占了代数方法的领域，如分数及所有涉及比例运算法则的部分。在
+这些地方，代数方法比通常应用得更早些。
+\end_layout
+
+\begin_layout Section
+字母
+\end_layout
+
+\begin_layout Standard
+代数开始的典型特征是文字演算。现代数学的进展在教学中倾向于更早将字母作为数学符号使用，集合是用字母命名的，其元素的名字也都是字母。
+\end_layout
+
+\begin_layout Standard
+教学法专家与教科书作者都非常清楚在代数中引进字母的含义，每个教师也知道。如果不注意的话，代数很快会退化成26个字母的游戏，教师知道，这是个问题，一个关键问题，一
+个困难问题。教科书处理这一问题时，采取的是一个较慢的进程，这一发展由于商业意识或无经验的作者传播的所谓“新数学”的闯入而突然终止，使数学教学理论在这一点上倒退了
+一个世纪。现在与过去都有（不合格的）数学读者开始于“数有整数，负数，分数，阿拉伯数，罗马数，常数与变数。”一位荷兰教学法专家曾告诫过，要注意学生的一个倾向，即在
+代数中除了数集以外还设想一个字母集合。在一次旅行中，我打开一本新书，看到作者引入函数
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(n,a)\rightarrow na$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+明确地将其作为数集
+\begin_inset Formula $Z$
+\end_inset
+
+与字母集
+\begin_inset Formula $L$
+\end_inset
+
+这一集合对到单项式集合的一个映射，盛怒之下我将书丢出了窗外，这仍是相当不负责任的做法，烧掉它可能更安全！
+\end_layout
+
+\begin_layout Standard
+几乎所有的“新数学”都引入了字母的集合。理由是显然的，人们不知道什么是集合，也不知道集合在真正的数学中的作用，因此他们不得不设法编造一些集合和集合应用的例子，但
+又不能用数集，因为数必须由集合来引入，于是剩下的只有字母集合可供使用了。 字母的集合自然是非常合理的，因为集合可用世界上存在的一切东西来构成。但是引入字母的集合
+也是危险的，其危险性就像船只在北冰洋中失事，人们从一块浮冰跳到另一块上，但最终逃脱不了灭顶之灾。
+\end_layout
+
+\begin_layout Standard
+古代的数学就已利用了字母，如
+\begin_inset Formula $C$
+\end_inset
+
+可用来表示平面上的一个点，表示哪一点没有关系，除非要求比如
+\begin_inset Formula $C$
+\end_inset
+
+在直线
+\begin_inset Formula $AB$
+\end_inset
+
+上，但究竟
+\begin_inset Formula $AB$
+\end_inset
+
+是上哪一点也没有关系，除非再要求比如
+\begin_inset Formula $C$
+\end_inset
+
+不是
+\begin_inset Formula $AB$
+\end_inset
+
+的中点；
+\begin_inset Formula $a^{2}$
+\end_inset
+
+中的
+\begin_inset Formula $a$
+\end_inset
+
+根据需要可以是整数、有理数，也可以是实数；要求
+\begin_inset Formula $x^{2}-3x+2=0$
+\end_inset
+
+成立，
+\begin_inset Formula $x$
+\end_inset
+
+就只能是
+\begin_inset Formula $1$
+\end_inset
+
+或
+\begin_inset Formula $2$
+\end_inset
+
+；“
+\begin_inset Formula $\pi$
+\end_inset
+
+”是希腊字母，它表示一个特殊的数。
+\end_layout
+
+\begin_layout Standard
+“
+\begin_inset Formula $3$
+\end_inset
+
+”表示一个特定的数，“
+\begin_inset Formula $x$
+\end_inset
+
+”可表示许多对象，每次都需重新规定容许
+\begin_inset Formula $x$
+\end_inset
+
+取值的范围。如果
+\begin_inset Formula $x$
+\end_inset
+
+所能取值的集合未指明，则它可能是常量，也可能是变量。
+\end_layout
+
+\begin_layout Standard
+教学法专家总是努力向学生解释这一点，学生很不理解怎么可能是
+\begin_inset Formula $a=b$
+\end_inset
+
+，而不是
+\begin_inset Formula $a=a$
+\end_inset
+
+、
+\begin_inset Formula $b=b$
+\end_inset
+
+？于是教师编造了以下问题：
+\begin_inset Formula $a$
+\end_inset
+
+可能是
+\begin_inset Formula $2$
+\end_inset
+
+、
+\begin_inset Formula $4$
+\end_inset
+
+、
+\begin_inset Formula $7$
+\end_inset
+
+、
+\begin_inset Formula $11$
+\end_inset
+
+中的一个，
+\begin_inset Formula $b$
+\end_inset
+
+可能是
+\begin_inset Formula $2$
+\end_inset
+
+、
+\begin_inset Formula $3$
+\end_inset
+
+、
+\begin_inset Formula $7$
+\end_inset
+
+、
+\begin_inset Formula $9$
+\end_inset
+
+中的一个，什么情况下
+\begin_inset Formula $a=b$
+\end_inset
+
+？（如果愿意还可用集合来提问）或者当
+\begin_inset Formula $a$
+\end_inset
+
+、
+\begin_inset Formula $b$
+\end_inset
+
+允许取以上数值时，
+\begin_inset Formula $3u$
+\end_inset
+
+、
+\begin_inset Formula $2a+3b$
+\end_inset
+
+、
+\begin_inset Formula $b^{2}$
+\end_inset
+
+的值是多少？等等。
+\end_layout
+
+\begin_layout Standard
+教师总是极度耐心地给学生灌输代数中的字母表示某种东西，如果不知道公式中的组成部分的意义，那么公式也没有意义，同时也灌输代数决不是
+\begin_inset Formula $26$
+\end_inset
+
+个字母的游戏的思想，但完全无用。
+\end_layout
+
+\begin_layout Standard
+“新数学”的发明者本身受的是哪种教学？在这以前教的又是哪类数学？他们是否被现代数学的远景所迷惑而想脱离传统数学？他们是否意识到已经处在不稳固的基础上？最可能的解
+释是他们想使数学中出现奇迹，创造一种自力更生的学校数学。为了发现
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+这样的东西，你必须在真正的数学中到处寻找，也许找到了
+\begin_inset Formula $\{1,2,3\}$
+\end_inset
+
+，或者
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+是方程的解集，……或者甚至令
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $b$
+\end_inset
+
+，
+\begin_inset Formula $c$
+\end_inset
+
+是三个不同实数（则
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+是三个实数的集合）。当然，若
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $b$
+\end_inset
+
+，
+\begin_inset Formula $c$
+\end_inset
+
+是三个不同的字母，则
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+只是三个字母的集合，但必须小心：
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+也可以是“x”，“y”，“z”，这最后三个字母的集合。
+\end_layout
+
+\begin_layout Standard
+在“新数学”中，每件事情都是混乱的，模糊的。
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+是字母a，b，c的集合，它有三个元素，当然各不相同，要学生求
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+与
+\begin_inset Formula $\{1,2,3\}$
+\end_inset
+
+的交，并使他回答交是空的。因为一个集合由字母组成，而另一个由阿拉伯数字组成，至于罗马数字则又组成了一个不同的集合。
+\end_layout
+
+\begin_layout Standard
+“新数学”中类似这样的畸形是很普遍的，我担心那些一心奉献于教学事业的教师们，是否明白他们现在的工作首先要清除“新数学”的寄生菌，我更害怕面对在小学中接触过这些无
+意义内容的儿童们，我们的代数教师又该怎么办，他们如何教给学生，偶然
+\begin_inset Formula $a$
+\end_inset
+
+也会等于
+\begin_inset Formula $b$
+\end_inset
+
+以及因为
+\begin_inset Formula $(a+b)^{2}=a^{2}+2ab+b^{2}$
+\end_inset
+
+，所以
+\begin_inset Formula $(u+v)^{2}=u^{2}+2uv+v^{2}$
+\end_inset
+
+也成立？如何教给学生代数不是关于
+\begin_inset Formula $26$
+\end_inset
+
+个字母的无意义的游戏？到最后，我们的中学教师是否也会被传染？因为“新数学”的寄生菌正在冲击着一切。
+\end_layout
+
+\begin_layout Standard
+这些还不是最危险的，我更担心的是那些认真而又严密的教科书，至少在数学上是正确的，如果它被指控为教学上的畸形，作者会回答：“你还想要什么？数学是正确的嘛！”
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement L
+overhang 0in
+width "30text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/13-1.png
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+我手头有一本并非无错，但水平相当高的中学第一年（六年级）的数学课本。当然它是从集合论开始的，但几乎都是有限集，这在真正的集合论中是很难遇到的。书中总是将元素明确
+地写在括号内或几乎总是表示成文恩（Venn）图。从不知道元素究竟是什么，常常用拉丁字母表示，有时也用点或其他东西。括号中的字母任意放在文恩图内，因此每个字母a，
+b，c，……总是表示字母本身或文恩图中的位置。将
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $b$
+\end_inset
+
+，
+\begin_inset Formula $c$
+\end_inset
+
+……解释为变量是合适的，因为它们在文恩图中是任意定位的，但这并非作者的本意，学生也不能这样解释，在这个背景下始终不会出现真正的变量。如图13-1所示，是集合
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+的文恩图，作者从来不提这样的问题:
+\begin_inset Formula $x\in\{a,b,c\}$
+\end_inset
+
+吗？答案应是
+\begin_inset Formula $x\in\{a,b,c\}\leftrightarrow x=a\vee x=b\vee x=c$
+\end_inset
+
+，即x属于这个集合当且仅当
+\begin_inset Formula $x$
+\end_inset
+
+是
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $b$
+\end_inset
+
+，
+\begin_inset Formula $c$
+\end_inset
+
+中的一个。然而“新数学”却正好相反，认为
+\begin_inset Formula $x$
+\end_inset
+
+恰好是另一个字母，或是文恩图中另一个确定而未表明的点，因此学生的答案应是
+\begin_inset Formula $x\notin\{a,b,c\}$
+\end_inset
+
+。由于不提变量，因此即使有各种映射图象，也仍缺乏函数表示。该书大部分都是这样的表达方式，但又突然出现了“设
+\begin_inset Formula $a$
+\end_inset
+
+为自然数”并用
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $b$
+\end_inset
+
+，
+\begin_inset Formula $c$
+\end_inset
+
+表示分配律及其他代数性质，即使到此时，“a”也只是a，没有其他意思，既不表示数或任何东西，也不能被其他字母代替，它是个专用名词。接下去又突然出现了从未有过的变量
+概念，在做了一会儿练习之后，又同样突然地恢复了字母的原有用途。面对这种情况，学生怎么办？教师怎么办？小学生长期以来或者中学生一年以来，一直认为字母只代表自己或文
+恩图中的确定点，现在却要求一下子将字母理解成完全不同的东西，即理解成一个任意的不确定的数，结果可想而知，学生毫无生路，根本学不到一丁点儿的代数。看来解决的办法只
+有一个，那就是把这种课本赶出教室。
+\end_layout
+
+\begin_layout Standard
+这方面的罪魁祸首是“新数学”，上面所引的书就是这种新潮流的一个例子，显然作者从未注意到数学中存在变量这种东西，也没有注意到变量是用字母表示的，历来的教学法专家努
+力使学生习惯于字母的用处，而这些作者似乎从未注意到这个问题。“新数学”与传统完全割裂，整个自以为高深的集合论只是关于
+\begin_inset Formula $26$
+\end_inset
+
+个字母的无意义游戏，这是15年改革运动的苦果，因为多年来只是针对题材的革新，而对这种狭隘思想提出警告的人反遭嘲笑，任何教学理论的讨论均沦为笑柄。
+\end_layout
+
+\begin_layout Standard
+我想先解释一下我为何先处理代数，然后才处理集合和映射。我的题材是按照分析次序而不是按照教学次序安排的，由于今天集合论放在所有其他题材之前已被看作当然之事，因为每
+件事情都是以集合论作为基础的，因此我们暂且接受建立的数学必须源于集合论这一观点。但即使如此，也不能说数学的设计必须从集合论开始，数学为某些目的服务，学生必须学代
+数与分析。集合论能极大地改进数学教学，在此观点下，集合论作为改进教学的手段应该教。几年前出版的中学现代代数前面一半是最现代的集合论，而后面一半完全与前面无关，依
+然是传统的使用向量方法的解析几何，这当然不好。但现在又出现了另一种错误，即学了集合论后，学生所学的数学必须从内容和教学两方面都决定于集合论，不允许用别的工具，这
+是更加危险的做法，会使任何进一步的数学教学都不可能进行。如果只考虑有限集，只用文恩图说明集合，教师所演示的字母只是字母本身，或是文恩图中的一个点，那么学生理解变
+量的道路就将被堵住，学生无法理解字母可表示变量，特别可表示一个整数，有理数或实数。
+\end_layout
+
+\begin_layout Standard
+请别误解我的意思，我不是说你应该讲变量，或解释什么是变量，即使可以这样做也是无意义的。关键是要使学生习惯于像“其中
+\begin_inset Formula $a$
+\end_inset
+
+可以是任何正数”这种解释，当他读到或写到数学表达式中的字母时，他必须习惯于问自己：这个字母的含义是什么？必须知道数学不是字母的游戏。
+\end_layout
+
+\begin_layout Standard
+系统地看，字母作为数学符号有两种作用。首先，字母可作为专用名诃，如
+\begin_inset Formula $\pi$
+\end_inset
+
+是个完全确定的数，或用
+\begin_inset Formula $A$
+\end_inset
+
+表示两直线交点。显然特定集合需要使用标准的专用名词，如
+\begin_inset Formula $Z$
+\end_inset
+
+，
+\begin_inset Formula $N$
+\end_inset
+
+。其次，字母可作为不确定的名词，就像日常语言中的“人”，可以表示所有的人，有时无法确定，有时不需要指明。前者是方程中的未知数，后者就是一般叙述中的不定元。
+\end_layout
+
+\begin_layout Standard
+如果字母作为一个数的不确定名词，那又为什么要用这么多
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $b$
+\end_inset
+
+，
+\begin_inset Formula $c$
+\end_inset
+
+，…其实，这就像我们讲到这个人和那个人一样，学生不理解
+\begin_inset Formula $a$
+\end_inset
+
+怎么能等于
+\begin_inset Formula $b$
+\end_inset
+
+，你可以告诉他“实际上，
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+不一定相等，但也可能偶然相等，就像我想象中的人恰好与你想象中的人相同”最本质的一点是要使学生知道字母表示某些东西，不同的字母或表达式可表示相同的东西。例如“伦敦
+”和“英国的首都”意义是相同的。由于这个原因，将字母过多地作为专用名词是教学法上的错误，当然我也不会禁止字母作为专用名词，例如“设
+\begin_inset Formula $A$
+\end_inset
+
+是集合
+\begin_inset Formula $\{1,2,3\}$
+\end_inset
+
+”。
+\end_layout
+
+\begin_layout Standard
+必须强调日常语言与数学语言的某种差异，日常语言中不确定名词可以辨别某一类对象，比如“人”，其意义不言而喻。而代数中的不确定名词如“a”，“b”，“c”，……所表
+示的那类对象必须明确提出。为了消除这一差异，常强调
+\begin_inset Formula $a$
+\end_inset
+
+是“数a”的简写，“
+\begin_inset Formula $A$
+\end_inset
+
+”是“点A”的简写，有时还要求学生将“
+\begin_inset Formula $a^{2}+3b$
+\end_inset
+
+”读作“数
+\begin_inset Formula $a$
+\end_inset
+
+的平方加上数
+\begin_inset Formula $b$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+倍”。这样做法是否切实可行？我前面曾提出过这类问题：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a$
+\end_inset
+
+可能是数
+\begin_inset Formula $1$
+\end_inset
+
+，
+\begin_inset Formula $2$
+\end_inset
+
+，
+\begin_inset Formula $3$
+\end_inset
+
+，
+\begin_inset Formula $4$
+\end_inset
+
+中的一个，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $b$
+\end_inset
+
+可能是数
+\begin_inset Formula $1$
+\end_inset
+
+，
+\begin_inset Formula $2$
+\end_inset
+
+，
+\begin_inset Formula $3$
+\end_inset
+
+，
+\begin_inset Formula $4$
+\end_inset
+
+，
+\begin_inset Formula $5$
+\end_inset
+
+中的一个，
+\end_layout
+
+\begin_layout Standard
+什么是
+\begin_inset Formula $2a$
+\end_inset
+
+，
+\begin_inset Formula $3b$
+\end_inset
+
+，
+\begin_inset Formula $2a+3b$
+\end_inset
+
+，
+\begin_inset Formula $a+b$
+\end_inset
+
+，
+\begin_inset Formula $a-b$
+\end_inset
+
+，
+\begin_inset Formula $(a+b)(a-b)$
+\end_inset
+
+，
+\begin_inset Formula $a^{2}-b^{2}$
+\end_inset
+
+等？
+\end_layout
+
+\begin_layout Standard
+\noindent
+当然也可以用更形式的集合语言来阐述，
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $b$
+\end_inset
+
+分别在集合
+\begin_inset Formula $A$
+\end_inset
+
+，
+\begin_inset Formula $B$
+\end_inset
+
+中变化，则
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a+b$
+\end_inset
+
+的集合是什么？其中
+\begin_inset Formula $a\in A$
+\end_inset
+
+，
+\begin_inset Formula $a\in B$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+这两种方法并不互相排斥，相反倒可以相互补充，从性质与目的来看，这些练习与以前的代入常规有很大区别。
+\end_layout
+
+\begin_layout Standard
+字母的应用从未知数开始，还是从不定元开始，这是一个传统的争端。如果比较一下初始引入的材料（不定元用在一般的代数、几何、物理和日常生活的关系中，而未知数则用于解决
+问题），形势似乎对方程与未知数有利。但仔细审查又难以决定，因为通常总是由简单问题引入，这些问题学生已经在算术中多次练习过，不用“
+\begin_inset Formula $x$
+\end_inset
+
+”就会解。我想不定元比未知数更能恰当地说明不确定名词，如果代数也紧密联系应用的话，不定元会很自然地出现在许多解释自然与社会现象的公式中，而且不定元接近于函数概念
+，前面例子中的
+\begin_inset Formula $2a$
+\end_inset
+
+，
+\begin_inset Formula $3b$
+\end_inset
+
+自然不是函数，但也可解释为
+\begin_inset Formula $a\in A$
+\end_inset
+
+，
+\begin_inset Formula $a\in B$
+\end_inset
+
+的函数。
+\end_layout
+
+\begin_layout Standard
+严格地说，变量总是在限定的形式内才使所在的表达式有意义，然而这种限定应该明确到何等程度，是个未解决的问题。在几何中看起来比较合理，只要说明大写字母表示点，于是“
+点
+\begin_inset Formula $A$
+\end_inset
+
+”，“线段
+\begin_inset Formula $AB$
+\end_inset
+
+”、“三角形
+\begin_inset Formula $ABC$
+\end_inset
+
+”就提醒学生变量所限定的集合。而在代数中，至少一开始，你只能经常强调字母的意义，至于如何明确地使用量词，那是另一回事。有许多形式上的细微差别：
+ 
+\end_layout
+
+\begin_layout Standard
+（1）令
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $b$
+\end_inset
+
+，
+\begin_inset Formula $c$
+\end_inset
+
+为整数，则
+\begin_inset Formula $a(b+c)=ab+ac$
+\end_inset
+
+；
+\end_layout
+
+\begin_layout Standard
+（2）
+\begin_inset Formula $a(b+c)=ab+ac$
+\end_inset
+
+，对所有整数
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $b$
+\end_inset
+
+，
+\begin_inset Formula $c$
+\end_inset
+
+成立；
+\end_layout
+
+\begin_layout Standard
+（3）
+\begin_inset Formula $\bigvee_{a\in Z,b\in Z,c\in Z}a(b+c)=ab+ac$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+等等，其中只有（2），（3）中出现明确的量词（所有与），我并不想宣传不成熟的量词符号；但我要强调在任何情况下都不必限死在一个公式，相反，可以借鉴日常语言的同义语
+，而且变量的限定也可以增进对变量观念的理解。
+\end_layout
+
+\begin_layout Standard
+至于存在的限定在代数开始时，几乎不起作用，这时的存在只是显示所叙述的东西，还远离复杂意义之下的存在，更重要的是了解什么是条件方程，什么是所要解的未知数，看来将这
+类限定形式化比量词更为重要，读者可能注意到，我习惯于将方程写作比如：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(?x)x^{2}-2x+3=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+或
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $(?x)a+x=b$
+\end_inset
+
+ （意思是关于
+\begin_inset Formula $x$
+\end_inset
+
+求解）。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这是代数方法部分，但并非是它的教学理论基础。我试图告诉教学法专家与教师，字母在数学中的用处是什么，并且解释哪些字母作为不确定名词，但并非将它教给学生，就像一个儿
+童学习本国语言，我们不必告诉他什么是副词，只要教他如何用副词。同样，学生应该体验到代数表达式是有意义的，其中的字母是不确定名词而并非字母集合的元素，几乎不必使用
+“不确定名词”这种术语。好的例子比行为规则更能有效地形成好的习惯，当然在更高水平上，“好习惯”可以成为分析或评论的对象，教育工作者应该更有意识地去理解这一点。而
+如果学生由于教师教得不好，虽然掌握了大量数学，却不知道数学表达式中字母是有意义的，那就必须帮助他们有意识地分析这个领域。
+\end_layout
+
+\begin_layout Section
+等号
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $2+7=9$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+这个式子传统的自然解释是：已知2，加上7，结果是9，但另一种解释是将2+7看作一个数，整个表达式就是表示两数相等的一个陈述。
+\end_layout
+
+\begin_layout Standard
+将2+7作为一个数的解释是真正的代数，，它与文字演算紧密相关，如果像上面那样将2+7解释为一个算术问题，那就无法理解这种
+\begin_inset Formula $a+b$
+\end_inset
+
+这种表达式，事实是如果不知道
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $b$
+\end_inset
+
+、又怎能计算
+\begin_inset Formula $a+b$
+\end_inset
+
+？我们不能将
+\begin_inset Formula $a+b$
+\end_inset
+
+解释成将
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $b$
+\end_inset
+
+相加的一道指令，只能说是
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的和，如果
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $b$
+\end_inset
+
+是数，则其和也是数。在代数历史上这种解释最早出现在分数中，人们写下
+\begin_inset Formula $\cfrac{37}{71}$
+\end_inset
+
+，随即决定这是一个数而不是一个问题，后来有人写下
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{2x^{2}+100-20x}{10x-x^{2}}=25$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+又一次将分数解释为数（这再次显示了分数与代数方法之间的紧密联系）。
+\end_layout
+
+\begin_layout Standard
+包含“
+\begin_inset Formula $\leqslant$
+\end_inset
+
+”，“
+\begin_inset Formula $\in$
+\end_inset
+
+”，“
+\begin_inset Formula $\subset$
+\end_inset
+
+”这类符号的式子是一个陈述，但包含“
+\begin_inset Formula $=$
+\end_inset
+
+”就不容易理解了。事实上a=b就意味着a，b是同一个东西，或者说等号的左右两边给出同一个东西的名词，2+7与9是问一个东西的表达式，就像“伦敦”与“英国首都”一
+样。
+\end_layout
+
+\begin_layout Standard
+这个问题还与前面提到的“现成的”数学与“做出来的”数学相联系，在现成的数学中，计算2+7是没有意义的，它已经完成，形式主义者甚至会说，为何一定要得出9，也可以得
+出7十2，1+（1+7）等等。将数学作为现成的产品，或是在形式主义观点下，像“计算
+\begin_inset Formula $(a+b)(a-b)$
+\end_inset
+
+”或“将
+\begin_inset Formula $a^{2}-b^{2}$
+\end_inset
+
+化成乘积形式”这类问题，他们都无法理解或是不想理解，我们当然必须使学生理解这些问题究竟是什么意思。
+\end_layout
+
+\begin_layout Standard
+关于等号的等价关系
+\begin_inset Formula $(a=a,a=b\rightarrow b=a,a=b\vee b=c\rightarrow a=c)$
+\end_inset
+
+其实也只是将
+\begin_inset Formula $a=b$
+\end_inset
+
+解释为
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+是同一东西的必然推论，不必求助于繁琐的公理，那只是一种伪严密性。如果愿意更为形式地描述相等的概念，不妨借用莱布尼兹（Leibniz）的著名定义
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+两个对象是相同的，如果它们所有的性质都相同；两个对象是不相同的：如果它们至少有一个性质不同。我并非建议将以上分析用于中学数学，我只是希望作者与教师应该深思这些问
+题。 
+\end_layout
+
+\begin_layout Section
+代数公式的语言
+\end_layout
+
+\begin_layout Standard
+学生必须学习使用本国语言读写代数公式，每个教师都知道，要达到这个目标有很多麻烦。有的课本对此花了很大功夫，有的则根本不管，他们只考虑违立一个现成的数学体系，而体
+系一旦确立，就没有教学理论的地盘，只是作为附属于体系的逻辑结果。在此过程中，有时为了弥补缺陷，常在体系外面添上附录部分，以训练实际技能。
+\end_layout
+
+\begin_layout Standard
+我并不要求课本对此提供更多的教学理论分析材料，也不知道这方面是否有系统研究，我自己的材料就是与教师谈话及研究课本所获得的经验。学生通过短期或长期的学习，最终掌握
+了代数语言，然而学生与教师都不知道究竟遇到了什么？似乎没人知道最初的学习障碍是什么，以及人们是如何克服这个障碍的。需要长期观察才能理解这一现象，单靠短期经验是不
+够的。 学习代数公式的语言与学习本国的语言虽然有点相像，但毕竟有许多不同。本国语言是永久使用的，而代数公式的语言只有很少的练习机会。代数公式语言与我们自然的语言
+，以及诗句、化学符号都有很大的区别，例如，学生必须知道什么地方需要加括号，什么地方不需要加，就像在计算机上操作时一样，“
+\begin_inset Formula $a+b$
+\end_inset
+
+”常表示计算和的指令，而“
+\begin_inset Formula $(a+b)$
+\end_inset
+
+”则表示和本身，这些都不是很简单的事情。通过括号及惯例才能将代数表达式系统地结构化，这恰是代数语言与本国语言的区别。
+\end_layout
+
+\begin_layout Standard
+在某些国家中规定计算顺序是：幂运算，乘法，除法，开方，加法，最后减法。按照这一顺序，
+\begin_inset Formula $3-7+6-8+4$
+\end_inset
+
+就变成了
+\begin_inset Formula $(((3-7+6)-(8+4)$
+\end_inset
+
+，然而按通常的顺序应是
+\begin_inset Formula $(((3-7)+6)-8)+4$
+\end_inset
+
+。上述规定也无法解释
+\begin_inset Formula $3-5-8$
+\end_inset
+
+应理解成
+\begin_inset Formula $(3-5)-8$
+\end_inset
+
+还是
+\begin_inset Formula $3-(5-9)$
+\end_inset
+
+。加法、乘法与顺序无关，因为它们满足结合律，但减法、除法、幂就与顺序有关，因此对加和减的代数公式语言应遵循：
+\end_layout
+
+\begin_layout Standard
+原理1：从左至右进行运算，即将所有开括号放在最左边的地方。这就是按照排成一行的自然的线性顺序。
+\end_layout
+
+\begin_layout Standard
+原理2：将违反线性顺序的运算式垂直排列，表示将这些式子放在一起。分数就是这种例子。
+\end_layout
+
+\begin_layout Standard
+原理3：在一部分代数表达式上面加一短横线，表示将这些代数式放在一起。 
+\end_layout
+
+\begin_layout Standard
+在使用括号以前，人们就是用短横线表示联系。一些非常特殊的表达式如
+\begin_inset Formula $\overline{n+1}$
+\end_inset
+
+，还一直使用到本世纪初，现在我们仍在根号后使用这一方法，如
+\begin_inset Formula $\sqrt{a+b}$
+\end_inset
+
+此法也可用于共轭复数。
+\end_layout
+
+\begin_layout Standard
+原理4：被括号包括的式子表示一个整体。
+\end_layout
+
+\begin_layout Standard
+原理5：某些代数运算具有连接功能。
+\end_layout
+
+\begin_layout Standard
+这是代数表达式最古老的结构方法，例如相乘就比相加减有更紧密的连接功能，这是自然形成的惯例。从代数公式首次出现起就无人怀疑乘法优先于加减法，幂运算优先于其他运算。
+\end_layout
+
+\begin_layout Standard
+原理6：某些符号是分割记号。
+\end_layout
+
+\begin_layout Standard
+等号就具有此性质，“
+\begin_inset Formula $\geqslant$
+\end_inset
+
+”，“
+\begin_inset Formula $\backsim$
+\end_inset
+
+”等等都是分割记号。阅读长的代数公式的技巧，首先是要找到这些分割记号。 
+\end_layout
+
+\begin_layout Standard
+由此可见，公式语言并不如我们想象的那样简单。例如分数记号
+\begin_inset Formula $2\cfrac{3}{7}$
+\end_inset
+
+早在使用加号之前就有了，但学生常会把它看成是一个乘积，这是不合理的“历史遗产”，是否已经到了可以取消的时候？用加法记号，把
+\begin_inset Formula $2\cfrac{3}{7}$
+\end_inset
+
+表示成为
+\begin_inset Formula $2+\cfrac{3}{7}$
+\end_inset
+
+，或直接写成
+\begin_inset Formula $\cfrac{17}{7}$
+\end_inset
+
+，岂非更好？
+\end_layout
+
+\begin_layout Standard
+加减符号的两重意义（即性质符号及运算符号）容易混淆，这是教学上的另一苦恼。有人提议可用
+\begin_inset Formula $\overline{3}$
+\end_inset
+
+代替
+\begin_inset Formula $-3$
+\end_inset
+
+，这一方法十分有效，因为
+\begin_inset Formula $\overline{3}.25$
+\end_inset
+
+比
+\begin_inset Formula $-2.75$
+\end_inset
+
+容易在数轴上定位。
+\end_layout
+
+\begin_layout Standard
+还有一些表达式的习惯写法，如为什么我们写
+\begin_inset Formula $2a$
+\end_inset
+
+而不写
+\begin_inset Formula $a2$
+\end_inset
+
+？写
+\begin_inset Formula $2ab$
+\end_inset
+
+，而不写
+\begin_inset Formula $a2b$
+\end_inset
+
+？学生常不理解，特别是省略了一些多余的括号，造成了不少错误，如学生不知道
+\begin_inset Formula $2(ab)$
+\end_inset
+
+就是
+\begin_inset Formula $2ab$
+\end_inset
+
+，却错写成
+\begin_inset Formula $(2a)\times(2b)$
+\end_inset
+
+，特别在
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $b$
+\end_inset
+
+是复杂的表达式时。过去的教学法专家懂得这些危险所在，但现在这种认识似乎已经消失，不再组织对代数公式符号的练习，学生也几乎不理解符号在结构化中的作用。
+\end_layout
+
+\begin_layout Standard
+事实上，代数表达式的语言比起普通语言更复杂，为此必须按难度逐渐增加的方式设计好一个计划，引导学生逐渐掌握它，然而这样的材料很难找到。
+\end_layout
+
+\begin_layout Standard
+通常教师很强调代换，但大多限于用数代替字母的练习，而像以
+\begin_inset Formula $2a+3b$
+\end_inset
+
+代替
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $a-4$
+\end_inset
+
+代替
+\begin_inset Formula $b$
+\end_inset
+
+这样的练习却很少，或几乎没有。应该引导学生学会从
+\begin_inset Formula $(a+b)(a-b)=a^{2}-b^{2}$
+\end_inset
+
+中得到
+\begin_inset Formula $(2a+2b+a-4)(2a+3b-a+4)=(2a+3b)^{2}-(a-4)^{4}$
+\end_inset
+
+。学生还可练习将
+\begin_inset Formula $-a$
+\end_inset
+
+代替
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $-b$
+\end_inset
+
+代替
+\begin_inset Formula $b$
+\end_inset
+
+等。而用
+\begin_inset Formula $(\diamondsuit+\bigcirc)(\diamondsuit-\bigcirc)=\diamondsuit^{2}-\bigcirc^{2}$
+\end_inset
+
+这种模式作为普遍熟悉的教学手段可更易于理解公式中的每个字母就像一只箱子，可放入你所想放的任何东西。还有以变量代替数，从而推广数值结果.这也是一种非常重要的代换，但
+在中学里却几乎不加练习，因为中学数学还没有达到这样的形式化程度。
+\end_layout
+
+\begin_layout Standard
+“用任何方法教代数公式的语言总能取得成功”的观点是危险的。语言的使用应当是自动化的，教错后要补救很不容易。学好代数公式语言在很大程度上涉及语言教学问题，教师与教
+科书作者应高度意识到它的特殊性。
+\end_layout
+
+\begin_layout Standard
+代数公式有两种，一种相当于字，一种相当于句子。后者又可分成肯定的，条件的和疑问的。问题应清楚地显示需要解答什么？“字”是否需要转换？依据什么原理？方程中有多于一
+个的字母时，应表明计算哪个字母，以及条件句是否要转换成肯定句，疑问句是否要回答等。
+\end_layout
+
+\begin_layout Standard
+不容忽视代数公式的语言教学不同于其他语言教学的一个重要特性，当学生达到高水平时，公式语言可独立于具体内容的理解而被自动掌握，这不同于日常语言。在代数公式语言的训
+练过程中，根据需要，应该经常从形式语言回归到具体内容，即使形成自动化也不应割断其根源。在教算术时，这个目的可以通过将应用问题分散到纯算术的练习中来达到。纯算术的
+练习中插入些应用内容，但在代数中却不行，学生必须有意识地使用代数语言，不仅会用公式，还要知道为何这样用而不是那样用，否则代数将成为无意义的游戏.
+\end_layout
+
+\end_body
+\end_document

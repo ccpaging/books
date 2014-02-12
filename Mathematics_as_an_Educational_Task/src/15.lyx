@@ -1,0 +1,3623 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+集合与函数
+\end_layout
+
+\begin_layout Section
+集合是什么？
+\end_layout
+
+\begin_layout Standard
+几年前，当新数学出现，并要求中小学教师教集合论时，有人向数学家提出了“集合是什么？”的问题。我不知道当时数学家是怎样回答他们的，但可以肯定，不少回答这类问题的人
+已经犯了大量教学法上的错误。
+\end_layout
+
+\begin_layout Standard
+对集合论概念的解释存在着两个极端，一个极端是给出集合的形式定义，给出这种定义的人甚至还定义了元素是什么，这使我们想起了欧几里得（Euclid）对“单位”所作的定
+义：“单位就是被称作为1的东西”。的确，在数学课中，常常要用到定义，例如，定义平行四边形是什么等等，大概由此可以推想，要是学生不知道“集合是……”，“元素是……
+”，“如果……，那么这个元素就属于这个集合”这类说法，教师怎么能在学校里教集合论呢？
+\end_layout
+
+\begin_layout Standard
+现在，我们都在教公理和公理系统，但实际上，许多人并不知道它们是怎么产生的，公理和公理系统起着整体地组织一定范围内的知识的作用，可是这并不是公理系统的起源。某些人
+认为，集合论应从公理开始教，一开始就须明确规定“集合”“元素”等等概念。这是错误的。按现在的看法，几何公理系统是包含了“点”、“直线”、“在上”等等不加定义的概
+念的命题系统，并根据公理进行运算。集合论如同其他任何领域的理论一样，除非你已经掌握了它，否则你是无法用公理方法把它表达出来的，集合论中同样包含了许多深奥的意义，
+这是中小学生无法了解和掌握的。然而，我就恰恰看到过用公理化方法引进集合概念的中小学教科书，并让只有十一、二岁的孩子去学习。
+\end_layout
+
+\begin_layout Standard
+那么，有没合讲解集合论的新方法呢？回答是肯定的。我们可以采用通常处理数或处理几何图形的那种方法去教，就像我们不需要去解释数是什么，点是什么，我们也不必去明确定义
+集合是什么。有人会提出，这两者是不同的，譬如，我们可用集合的一些概念，如基数，去定义数，因此，集合才是最基础的概念。我认为，采用演绎的方法去定义数是一种错误的教
+学法，就如不必去定义呼吸是什么，走路、游泳是什么一样，人们只要作一些观察，都会学着去做，事实上，作明确的定义是旧时的方法论的特征，这就是集合论解释的一个极端
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+形式的伪定义。
+\end_layout
+
+\begin_layout Standard
+另一个极端就是给出文恩（Venn）图，几乎所有的教材都想让读者相信，如果围绕着一些数码、图形或一些无意义的符号画上一条封闭的曲线，这就是集合。而用括号表示的如
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+,
+\begin_inset Formula $\{\xi,<,0\}$
+\end_inset
+
+同样也是集合。有一位教师说，文恩图和括号是一样的。如果用两条水平的平行线将括号连接起来，它们的差别就消除了，我问他，那么逗号起什么作用呢？他竟回答说，逗号可以省
+略掉，因为集合中的元素应当是不同的。
+\end_layout
+
+\begin_layout Standard
+括号还有一种用法，例如，行星的集合可以记为：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\{x|x\text{是行星}\}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+这种方法比具体罗列元素要方便得多。例如，可以表示骑兵的集合，教室中留长发、戴眼镜的学生的集合。为了明确这点还可以画出文恩图，并且强调骑兵的坐骑以及全体留长发、戴
+眼镜学生的头发和眼镜并不包括在文恩图中。
+\end_layout
+
+\begin_layout Standard
+在数学上已经证明：空集是唯一的，而最引人注意的教学问题是由空集概念引起的。有这样一件事情。一位十岁的小女孩请父亲辅导她学习新数学。作业被老师批改后，父亲发现他的
+看法都被判为是错的。小女孩向父亲解释说，基数相同的两个集合作为集合来说并不一定相同；两个空集的基数都为零，它们也不一定相同。例如，一只空冰箱与一只空纸篓就不相同
+。父亲弄不懂，又很尴尬，就请教了一位数学家。数学家又去拜访小女孩的老师。老师认为，黑扳上两条中间不画任何东西的封闭曲线代表了两个不同的空集。她辩解说，如果我们讨
+论的是人的集合，那么空集就是“无人的集合”；如果讨论的是点，空集就是“无点的集合”。空集是什么，要依赖于全集的内容。我这里给出两个文恩图，就意味着原来的全集就是
+不同的。那位数学家提出了异议：如果由这一对文恩图做出交和并，则它们就不是不同的集合了，老师同意了这种说法。但她又提出，那么围绕两个文恩图的两条封闭曲线的意思是什
+么呢？这就涉及到问题的要害了。
+\end_layout
+
+\begin_layout Section
+括号
+\end_layout
+
+\begin_layout Standard
+如果我写下：“……是一个集合”，那么省略号的地方应该填入什么呢？
+\end_layout
+
+\begin_layout Standard
+我们先来看一个具体问题，“……是一头驴”省略号处应填入什么？如果填入“托马斯”，那么句子是否成立要考虑到具体情况。“托马斯”可能是一头驴的名字，也可能是指一头驴
+的父亲，这时，这个句子是成立的，因为一头驴的父亲也是驴，而省略号处如果填上“时间”就不对了。但是如果说“x是一头驴”对不对呢？我理解在通常情况下x不代表驴的名字
+。而“*是一头驴”的说法就使人糊涂了。因为它可能是指一个文字游戏，记号*仅代表一头驴的符号。
+\end_layout
+
+\begin_layout Standard
+如果想把一头真的驴子放到这里省略号的地方，当然是不可能的。那么，我们就用一张驴的图片来代表。显然，这里不是“一头驴的图片
+\begin_inset Quotes erd
+\end_inset
+
+的意思，否则句子就变成：“一头驴的图片是一头驴”。因此在语言中，习惯于用名称而不是用图片。
+\end_layout
+
+\begin_layout Standard
+对“A是一个字母”这种说法，人们就应更加谨慎一些，这里的“A”不再是某件东西的名称了，而是字母A的一个形象。所以谨慎的说法是：“符号A是一个字母”或是“‘A’是
+一个字母”。
+\end_layout
+
+\begin_layout Standard
+我们再回到原先的问题上去，“……是一个集合”，省略号处可以填上两个集合的并集。如果懂得一些符号或字母的特定意义的话，也可以填上N、Z这样的字母，或者，也可以说“
+\begin_inset Formula $\{7,9,12\}$
+\end_inset
+
+是一个集合；如果我们说“
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+是一个集合”，又会怎样呢？这需要先弄清楚指什么东西。如果
+\begin_inset Formula $a$
+\end_inset
+
+、
+\begin_inset Formula $b$
+\end_inset
+
+、
+\begin_inset Formula $c$
+\end_inset
+
+是三个不同的点，则
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+就是点的集合；如果
+\begin_inset Formula $a$
+\end_inset
+
+、
+\begin_inset Formula $b$
+\end_inset
+
+、
+\begin_inset Formula $c$
+\end_inset
+
+是三场不同的雷雨，则
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+就是雷雨的集合。在大部分教科书中，
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+表示字母的集合。实际上，在
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+中，符号代表了某些东西的名称，它可以是各种各样的数或点，或是雷雨，甚至也可能是字母的名称。一般说来，符号不一定就代表了字母a、b、c本身，而是代表了其他东西。这
+是数学中的习惯，也是很合理的。否则，如果
+\begin_inset Formula $a$
+\end_inset
+
+、
+\begin_inset Formula $b$
+\end_inset
+
+只是字母本身的话，那么谁能理解“
+\begin_inset Formula $a=b$
+\end_inset
+
+”所表示的含意呢？
+\end_layout
+
+\begin_layout Standard
+这并不是吹毛求疵，新数学的教科书中几乎充斥了字母的集合，这样做的理由是什么？我想这些课本的作者很少考虑这种问题，甚至从未想过这样做会引起错误。这是因为他们在展开
+数学内容之前就先引进了集合论，故此他们没有其他的选择余地。他们在讨论集合论问题时，必须装作既不知道数，也不知道点，更不能谈及变量。所以，
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+就变成了不含意义的字母a、b、c的集合。这样就使得数学的建立从基础上一开始就变成了无意义的活动。
+\end_layout
+
+\begin_layout Standard
+我们早就见过符号的集合。例如
+\begin_inset Formula $\{\triangle,\bigcirc,\square\}$
+\end_inset
+
+，它可能有几种含意：在括号之间，可能是一只狮子，一头大象，一匹骆驼，即包含了每种当中的一个；或是一只指定的狮子，一头指定的大象，一匹指定的骆驼，或是指这三神动物
+的集合。如果对象是三角形、圆、正方形，也可以有上述几种含意。当该集合解释为包含一个三角形，一个圆，一个正方形时，就会出现
+\begin_inset Formula $\triangle\notin\{\triangle,\bigcirc,\square\}$
+\end_inset
+
+的情况。因为括号外和括号内的三角形不是同一个三角形。正确的描述应当是：
+\begin_inset Formula $A=\{a,b,c\}$
+\end_inset
+
+，这里
+\begin_inset Formula $a$
+\end_inset
+
+是三角形，
+\begin_inset Formula $b$
+\end_inset
+
+是圆，
+\begin_inset Formula $c$
+\end_inset
+
+是正方形（图15-1）。字母代表对象，而不代表对象的名称。
+\begin_inset Formula $A$
+\end_inset
+
+并不是字母的集合。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "30text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/15-1.png
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+在括号内不用名称而用图片来表示集合的元素是很正统的，一般不会引起异议。图片就像象形文字，是半语言的，但我们仍应该谨慎地分析自己的做法。那就是
+\end_layout
+
+\begin_layout Standard
+（1）每一张图片应表示一个对象，要分得清是哪一个；
+\end_layout
+
+\begin_layout Standard
+（2）如果同一个对象用不同的方式表示，那么就要清楚地说明不同的表示是指同一个对象；
+\end_layout
+
+\begin_layout Standard
+（3）应注意避免用一个个别的对象代表这一种对象，因为它不能清楚地表示串其中的区别。
+\end_layout
+
+\begin_layout Standard
+具体可以这样做：一开始就引入全集，其中包含了儿童、大象、球、洋娃娃、椅子、樱桃等等。儿童各穿不同的衣服，大象则有不同姿势，以示区别。要引用对象时，正规的方法是使
+用名称，这是符合实际生活的，如果要使用图片时，就需要有一个合理的体系，否则会产生误解。
+\end_layout
+
+\begin_layout Section
+文恩图
+\end_layout
+
+\begin_layout Standard
+前面我提出过句子“……是一个集合”的省略号处可填入什么的问题，很清楚，必须填入语言。
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+就是语言的表达。动物的图片虽然不是正规语言，但如果看成是象形文字的话，也可以说是一种语言的代表，而文恩图则不是一种语言现象，我从未见过将文恩图填入省略号处的。
+\end_layout
+
+\begin_layout Standard
+数学课本中，除了文字外还有不少图。例如等边三角形，对数函数图象，皮亚诺（Peano）曲线等等。图总是反映了某样东西。它有时是相当具体的，例如罗马的圣·彼得教堂的
+照片；有时则要求结构精确、可靠，例如该教堂的平面图。一张图也可以带有语言的注解，在边上作一些说明，或是列出一些细节的名称。高度抽象的图常能反映出非常确切的含意。
+一条水平的直线，标上一些数字，就说明了实数集；一条椭圆形的曲线表示了一个开集；一幅框图表示了一个特定的过程。
+\end_layout
+
+\begin_layout Standard
+从教学法角度看，图应当符合哪些要求呢？我认为，第一，它要反映出某样东西；第二，它要简洁明了，无需赘述；第三，表示事物的原理要清晰，易于掌握。我想这些要求是合理的
+。现在我就用这些要求来衡量一下文恩图，看它满足了多少。
+\end_layout
+
+\begin_layout Standard
+最简单的情况是“自然文恩图”，即画在平面上的简单封闭曲线内部的图片。这些图片画得较形象，一看就明白。我读大学时，一开始接触的就是这种文恩图。现在的小孩也容易看懂
+。运用这种图可以画出集合的交，并以及补集等。其目的是要说明集合之间处于什么样的状态或关系，例如分离，相交，包含等等。但是文恩图也有其局限性。像一个集合是另一个集
+合的元素，一个集合究竟是有限集还是无限集、或是有确定数目的元素等，文恩图就很难简单地表示清楚。文恩图也从未用来表示过一个集合的元素究竟是什么东西。
+\end_layout
+
+\begin_layout Standard
+现在这种自然文恩图在数学课本中很少见到了。它们不是用来表示无限集，特别是不用来表示集合之间的关系，只是使用文恩图表示集合本身，其中又犯了不少错误。文恩图虽然保留
+了一个特怔，即封闭的曲线，但它的功能是什么呢？我的印象是，这条曲线只起着把无联系的东西包含在一起的作用。例如，为了把
+\begin_inset Formula $\times$
+\end_inset
+
+，
+\begin_inset Formula $*$
+\end_inset
+
+，
+\begin_inset Formula $\bigcirc$
+\end_inset
+
+等放在一起看成一个集合，就围绕它们画上一条封闭曲线。有人认为这是有疑问的，集合中的图形应当表示出统一性来。要是这样的话，文恩图的封闭曲线也就没有存在的必要了。
+\end_layout
+
+\begin_layout Standard
+另有人认为，文恩图所表示的集合应由明显不同的元素组成。例如，不能同时画上两个三角形。这是一种误解。文恩图所表示的集合与语言符号所表示的集合不是一回事。集合
+\begin_inset Formula $\{\triangle,\triangle\}$
+\end_inset
+
+只表示一个三角形，但文恩图中的两个三角形就是不同的三角形，因为它们分别处在不同的位置上。若用数学符号表示
+\begin_inset Formula $m$
+\end_inset
+
+个不同的三角形，可以写成
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\{\triangle_{1},\triangle_{2},\cdots,\triangle_{m}\}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+但用文恩图表示这个集合，可以画成图15-2，却不能画成图15-3，因为它表示的是三角形名称的集合了。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-2.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-3.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-4.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-5.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-6.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-7.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-8.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-9.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+一般的文恩图只是象征性的草图，图形不必真实。苹果的集合可以画成封闭曲线中的一些小圆。如果要表示桌子上几个筹码所组成的集合，我认为应当画成图15-4，而图15-5
+，图15-6所表示的是平面上的五个点。图15-6还添加了字母，这就超出了文恩图的基本要求了，但作为各点的名称，这还是可以理解的。而图15-7中的数字就很难判定它
+们的意思了。图13-8则完全没有明确表示出元素是什么。它可以理解为集合
+\begin_inset Formula $\{1,3,4,5,7\}$
+\end_inset
+
+。同样，图15-9也会引起误解。总之，这些错误的文恩图都不符合前面所说的三个要求。那些教科书的作者可能从未仔细考虑过这些问题，他们只是相互抄袭而已。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement L
+overhang 0in
+width "40text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/15-10.png
+	width 40col%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+一个倾向性的问题是一些人过分热衷于文恩图，以致文恩图用得太滥了。例如，用图5-10表示每一儿童对应于一体重（千克）的函数。左边的封闭曲线内部是名字，右边的则是数
+。其中“29”有两个。这样就使得整个映射是一对一的。实际上，这种关系用数轴来表达要自然得多。如果只想用图来表示集合本身，而不想表示并、交等关系时，不一定要用文恩
+图，而应首先想到采用其他方式可能会更有效地达到目的，若将一种有用的方法硬性推广到所有的场合中去，便会沦为教条。遗憾的是，这种情况在数学家中并不少见。
+\end_layout
+
+\begin_layout Section
+到哪里去找集合？
+\end_layout
+
+\begin_layout Standard
+在现实世界里能找到数、圆、正弦函数吗？肯定不能。数学与观实世界的关系很微妙，人们为了理解现实世界，采用了简化的模型来模仿它，这就是数学化。这种模型在一开始时可以
+相当具体，经过一段过程后，具体内容就逐渐被抛弃，它就变得越来越抽象。
+\end_layout
+
+\begin_layout Standard
+例如自然数，无论实际事物是怎么数的，数列的结构始终起着数学模型的作用。在人类历史上，具体的模型是手指，或算珠。这种模型是可靠的，从来不会对
+\begin_inset Formula $3+2=5$
+\end_inset
+
+产生误解。然而三头牛加两头牛是否就是五头？这就有赖于具体情况。例如当再去数时，牛可能跑掉了一头，或是死了一头，也可能又生下了一头小牛。
+\end_layout
+
+\begin_layout Standard
+从具体模型到较抽象的模型以及思维模型，步子跨得并不算大。加法对牛、人、钱是适用的，但不会去用在电话号码上，线性函数对商品的“价格－重量”关系，液体的“重量－容积
+”关系来说是很好的模型，而对“工人数－工作时间”“圆周－面积”关系却不适用。有人认为这是数学的失败，其实这是他们自己将模型的适用范围想象得太广了。
+\end_layout
+
+\begin_layout Standard
+集合是很基础的概念。它看起来好像没有用到什么模型作为媒介，而被直接用于实际。可是，如果儿童在课本中看到一张图上画出了三颗樱桃的集合，一个孩子说：“三颗樱桃”，别
+的孩子会知道这句话表示了什么意思。那么，它们是真的樱桃吗？集合论刚开始时会引起这种疑问。我看到过一部电视教学片，其中花了十五分钟将各种物品的图片放到括号中去，同
+时用一个单调的配音重复地说：“这是一个集合。”事实上，只有在已经使用了集合时，譬如用映射比较集合，找出子集的集合等等时，才开始了集合论。这里，映射、子集的集合等
+，都不是具体的现象。它们是一种模型，以这种或那种方法应用于现实。
+\end_layout
+
+\begin_layout Standard
+这就促使我们去考虑另一个问题：
+\end_layout
+
+\begin_layout Section
+如何运用集合论的模型？
+\end_layout
+
+\begin_layout Standard
+这个问题不可能用人为编造的例子来回答。其关键不在于集合是什么，而在于集合有怎样的运用。
+\end_layout
+
+\begin_layout Standard
+我曾提过自然文恩图。若要分析两个国家间的边界这样一个概念，可以这样看：两个国家在地图上用两种颜色的区域表示，它们以类似一条曲线的东西接壤，表示了共同边界。用数学
+术语讲，一个国家就是地图或地球上的某个集合。邻国间的边界就是两个点集的交。如果它们不是邻国，则没有共同边界，即共同边界是空集。当然，国家实际上不是地球上的点集。
+在靠近边界处，很难说清楚某一点是否属于某一国家。国家也不只是二维的，采矿和航空的司法权将它扩展到三维。此外，国家可能用城市、乡村及其人民的集合来定义似乎更好一些
+。国家也有一些方面是无法适合集合论模型的。如果认为国家是陆地表面上点的集合，那么“荷兰是它十一个省的并集”的说法就不错了。我们可以用一条线将国家分为南部和北部，
+或是东部、西部。另一方面，我们也可以将一个国家的人口按一些特征来划分，例如性别，成人和儿童，婚姻状况等等。
+\end_layout
+
+\begin_layout Standard
+这些都是非常特殊的例子。给出了这种集合，你能立即指出它的元素。数学例子可能会深奥一些，如要找到平面上离点
+\begin_inset Formula $M$
+\end_inset
+
+距离为
+\begin_inset Formula $r$
+\end_inset
+
+的点集，就要用到圆规；要找到与
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+两点有相同距离的点的集合，就要用到尺规作图；要找到满足方程
+\begin_inset Formula $x^{2}-3x+2=0$
+\end_inset
+
+的
+\begin_inset Formula $x$
+\end_inset
+
+的集合，就要解这个方程。当然，学生应该了解未明确给出元素的那种集合。但这并不是说，每一个问题都要归结为求解集的题目，也不是说，每一个问题的解都要写成集合的形式。
+例如，表示“谁害怕大灰狼”就裉本没有必要写成
+\begin_inset Formula $\{x|x\text{害怕大灰狼}\}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+人们可以按下述模式去解方程：
+\begin_inset Formula $x^{2}-3x+2=0$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{l}
+\{x|x^{2}-3x+2=0\}\\
+\phantom{\{x}=\Bigl\{ x|x^{2}-2\cdot\cfrac{3}{2}x+\cfrac{9}{4}+2-\cfrac{9}{4}=0\Bigr\}\\
+\phantom{\{x}=\Bigl\{ x\Bigl|\Bigl(x-\cfrac{3}{2}\Bigr)^{2}=\cfrac{1}{4}\Bigr\}\\
+\phantom{\{x}=\Bigl\{ x|x-\cfrac{3}{2}=\cfrac{1}{2}\vee x-\cfrac{3}{2}=-\cfrac{1}{2}\Bigr\}\\
+\phantom{\{x}=\Bigl\{ x|x-\cfrac{3}{2}=\cfrac{1}{2}\Bigr\}\cup\Bigl\{ x|x-\cfrac{3}{2}=-\cfrac{1}{2}\Bigr\}\\
+\phantom{\{x}=\{x|x=2\}\cup\{x|x=1\}\\
+\phantom{\{x}=\{x|x=2\vee x=1\}\text{。}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这里将集合的概念变成了运算的概念。人们也可以说：“半径为1的圆面积的集合是单元素集合
+\begin_inset Formula $\{\pi\}$
+\end_inset
+
+”。这样说本身并不错，但是太做作了。
+\end_layout
+
+\begin_layout Standard
+如果说：“平面上到
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+两点距离相等的点集是线段的垂直平分线”，那么这个集合论模型是可运算的。这一点很重要。它们可比较，且服从集合论的运算。
+\end_layout
+
+\begin_layout Standard
+在教学中引进集合论与在数学中引进集合论的目的并不完全相同，它需要考虑更多的因素，即如何与实际生活和数学内容联系起来，不应该把引入集合当作一种时髦，而应对其各种特
+殊情况作一番深思熟虑后再采用。
+\end_layout
+
+\begin_layout Standard
+有些人在教学中利用集合演绎出自然数，我认为集合并不能做到这一点。一旦用基数概念导出自然数，那么自然数的数量意义就会消失，而集合概念也会失去它的运算性质。
+\end_layout
+
+\begin_layout Standard
+还有人把集合作为函数概念的基础，这既是数学的误解，又是教学法的误解。集合并不是函数的前提。即使集合的引入要早于函数，它对函数概念的形成也不起什么作用。
+\end_layout
+
+\begin_layout Standard
+一些教科书作者喜欢把集合概念搬进所有的场合，把一些毫无关系的东西或不可能做到的东西都塞进集合论的框架中去，这是不恰当的。
+\end_layout
+
+\begin_layout Section
+结构化的全集
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+小世界
+\end_layout
+
+\begin_layout Standard
+集合论的模型从幼儿园起就可以恰当地运用。这一点第纳斯（Dienes）早已认识到了。他提出了一种根据几个特征来划分全集的活动。在这种活动中，集合论的关系和运算是结
+构化和形式化的适当工具，包含、交、并、补集等运算都很自然地紧密联系着实际生活。它还可组成抽象的偶对，从而使给定的集合形成某种结构。这种活动的另一个很大优点是，要
+进行的运算是施加在预先设计好的全集上，而不是施加到任意构成的集合上。这样做符合儿童的心理特点。我们从几何教学中知逍，儿童学习平行四边形、正方形等封闭图形比学习角
+、直线等非封闭图形要更容易些。非封闭的全集由于其对象可以扩展而不易掌握。
+\end_layout
+
+\begin_layout Standard
+简单地讲，第纳斯提出的活动材料是以一盒积木作为全集。它可以按颜色、形状、长度、厚度等不同标准进行分类，以此来进行逻辑游戏。尽管我很赞赏第纳斯的材料，但它实际上仅
+向学生提供了一套“先验”的结构材料，使得他们只能模仿，失去了自己构造全集的机会，而且，他的材料太数学化了。
+\end_layout
+
+\begin_layout Standard
+我设想了一种像玩具盒那样的全集，称为“小世界”，对象是学龄前儿童。“小世界”中有汽车、洋娃娃、积木等等，让儿童按照色彩、形状、大小、意义、功能（会动，不会动）等
+标准进行分类。他们可以练习精细地分类、粗略地分类，还可以按充分或必要条件来分，从中也可以学习什么是必然，什么是偶然，例如在这个“小世界”中正巧所有红色会动的东西
+都是小汽车，然而在另一个“小世界”中却并非如此。玩具盒中的标准也不一定独立，红色的可能都是汽车，而汽车不一定都是红色的。总之可以有各种自然的组合。
+\end_layout
+
+\begin_layout Standard
+最主要的事情不是仅仅使用构造好的材料，而是以这种材料更好地进行构造性活动。我这里要强调偶对的形成，如果是在群论中引出直积的概念，则可以从一个给定的群
+\begin_inset Formula $G$
+\end_inset
+
+的正规子群
+\begin_inset Formula $H$
+\end_inset
+
+、
+\begin_inset Formula $K$
+\end_inset
+
+（除了单位元外，
+\begin_inset Formula $H$
+\end_inset
+
+、
+\begin_inset Formula $K$
+\end_inset
+
+不交）出发，得到具体的直积
+\begin_inset Formula $HK$
+\end_inset
+
+、它具有如下性质：
+\begin_inset Formula $HK$
+\end_inset
+
+也是群，它的每一个元素的表示方式唯一，即用
+\begin_inset Formula $H$
+\end_inset
+
+中的一个元素及
+\begin_inset Formula $K$
+\end_inset
+
+中的一个元素的积来表示。然后，我们可以从两个群
+\begin_inset Formula $H$
+\end_inset
+
+和
+\begin_inset Formula $K$
+\end_inset
+
+来构造抽象的积：偶对
+\begin_inset Formula $(h,k)(h\in H,k\in K)$
+\end_inset
+
+。在其元素之间，我们可以规定一个乘法，使之建立联系：
+\begin_inset Formula $(h,k)\cdot(h_{1},k_{1})=(hh_{1},kk_{1})$
+\end_inset
+
+。在中小学中，我们是用另一种方式引进两个集合
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+的偶对集合
+\begin_inset Formula $(A,B)$
+\end_inset
+
+的。一开始是抽象地组合起
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+的元素，然后才在给定集上具体地构造偶对的结构。
+\end_layout
+
+\begin_layout Standard
+我设想“小世界”可作为学龄前儿童进行逻辑、集合理论练习的材料，但我认为其结构还是太抽象，太程式化了，可能仍是一种思维训练。我宁愿把它看作为一种低层次的玩具，一种
+初级的游戏，甚至可用更自由的材料，以适合于儿童进行构造活动。主要的问题是材料的意义能否被儿童完全理解。我们还要弄清数学教学整体框架中局部的成功能带来什么收获。如
+果集合只是用来解释基数，那么随着这种基数的性质以后在数学中的重要性的降低，它的作用就会很快消失。集合论的运算在结构化的全集中可有本质的运用，但目前还无法知道这个
+问题在整个教育中的意义。
+\end_layout
+
+\begin_layout Section
+突如其来的集合
+\end_layout
+
+\begin_layout Standard
+我们前面提到过构造全集的问题。这种集合可以采用一些常用的运算，例如根据性质找出子集，或组成若干个集合的并、交或补集。而要构造集合
+\begin_inset Formula $V$
+\end_inset
+
+的子集的集合
+\begin_inset Formula $P(V)$
+\end_inset
+
+，则需要有较高水平的抽象能力。一般说来，
+\begin_inset Formula $P(V)$
+\end_inset
+
+是不直观的。在教学上很难实施。像自然数、整数、偶数、小数等等集合，在一定程度上往往可以直观理解，但
+\begin_inset Formula $V$
+\end_inset
+
+的子集的集合则完全不能相提并论。如果找一个基数很小的集合，则可以写出其子集的集合。但是要以这些子集作为一个新的集合
+\begin_inset Formula $P(V)$
+\end_inset
+
+的元素，而且要在该集合上作集合运算的话，抽象水平就大大提高了。“某个集合是不是另一个集合的元素？”，这样的问题对数学来说是带有本质性的，但不能在“小世界”中提出
+来，因为其中的元素都是明显地能触摸到的物体。在较高的层次上，我们可以用另外一种方式问：两件东西放在一起作为集合中的一个元素，你能够理解吗？
+\end_layout
+
+\begin_layout Standard
+应该说，在“小世界”的具体游戏结束后，
+\begin_inset Formula $P(V)$
+\end_inset
+
+这种集合的问题是回避不了的，但这里要有幅度较大的抽象。这时可以举出这样的例子：平面上所有圆的集合
+\begin_inset Formula $\Phi$
+\end_inset
+
+，再把每个圆理解为其上所有点的集合。这样，“点”这个对象就不是个别、具体地去认识了。
+\begin_inset Formula $\Phi$
+\end_inset
+
+的元素不能一个个地罗列出来，但集合
+\begin_inset Formula $\Phi$
+\end_inset
+
+是可以直观想象的。
+\begin_inset Formula $\Phi$
+\end_inset
+
+的子集及其运算也就自然而然地出现了。
+\end_layout
+
+\begin_layout Standard
+还有一个例子，就是整数及其等价类。有理数域
+\begin_inset Formula $Q$
+\end_inset
+
+的形成，要先从整数环
+\begin_inset Formula $Z$
+\end_inset
+
+组成
+\begin_inset Formula $b\neq0$
+\end_inset
+
+的整数对
+\begin_inset Formula $(a,b)$
+\end_inset
+
+，再通过定义等价关系
+\begin_inset Formula $\sim$
+\end_inset
+
+：
+\begin_inset Formula $(a,b)\sim(c,d)\leftrightarrow ad=bc$
+\end_inset
+
+，形成等价类。从数过渡到数对并非易事。具体地讲，在“小世界”中就不可能做到。因为无法在其中组成全体有序对，有时要组成这一对，就要拆散另一对。而且像
+\begin_inset Formula $(b,b)$
+\end_inset
+
+这样两个元素相同的数对也无法具体组成。所以，偶对的集合要作一定程度的抽象，然后通过等价关系形成等价类，最后则考虑所有等价类的集合。等价类就是在特殊情况下的子集，
+要花大量功夫方能将其抽象化，每一个等价类由其一个元素完全确定。等价类可以通过其代表元素来理解，来运算，并用于实践。正是由于这个原因，它要比一般的子集更具体些。也
+由于等价类是相互不交的，所以等价类的集合要比所有子集的集合更易领会。总之，可以用以上那样的例子来介绍所有子集的集合，而不应突如其来地造出一个
+\begin_inset Formula $P(V)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Section
+集合概念中的抽象化层次
+\end_layout
+
+\begin_layout Standard
+我认为，集合论的教学需要区分出各种层次。集合概念发展的最低层次就是“小世界”中的各种对象，元素可以一个个地罗列出来，最高层次就是完全公理化、形式化的集合论，其目
+的是欣赏一种形式。在最低与最高层次之间，则存在着许多层次。“小世界”后面，是画在纸上的集合。然后是思维类型的“小世界”，以及通过思维设计的集合，它们可进行具体的
+或思维的操作。更高级一点的是明确描述了元素的集合和那种易于想象的集合，例如平面上某种圆的集合，可用易于描述的运算法则来运算。一些纯形式的认知和推理内容，应限制在
+极简单的事实上，例如包含关系的传递性
+\begin_inset Formula $(A\subset B\wedge B\subset C)\rightarrow(A\subset C)$
+\end_inset
+
+，以及单射的积仍是单射等等。而把一集合看作为某集合的一个元素，抽象性就很强，因为常常无法将它具体化。例如，关于集合
+\begin_inset Formula $V$
+\end_inset
+
+不可能与其子集的集合
+\begin_inset Formula $P(V)$
+\end_inset
+
+有相同基数的证明本身很简单，但大学一年级的学生就很难弄懂。困难在于集合元素之间的关系只有在具体内容中才会产生具体化的直觉。
+\end_layout
+
+\begin_layout Standard
+我不知道一些教科书的作者是否意识到集合概念拙象化层次的变化。他们常常将其尽可能地具体化，这恰恰也是产生错误的原因之一。在函数问题上，就有不少运用具体化方法不太成
+功的例子。集合论中可以偶尔地运用文恩图，但过分了就会产生错误。我们不应将不适当的方法运用到不适当的课题中去。如果是由于太抽象而不能为学生所掌握的话，还不如干脆忍
+痛割爱将其舍去。
+\end_layout
+
+\begin_layout Section
+伪集合
+\end_layout
+
+\begin_layout Standard
+词“集合”翻译成各国语言会产生非常显著的差异，了解了这一点，我们就可以理解各国在数学教学中引进集合时采用不同例子的原因了。在荷兰，“集合”的译名通常有“收集”的
+意思，所以几乎所有的荷兰课本都以集邮作为集合的开始。于是，按集邮者的习惯，每一种邮票只有一张样票，这一点连同对文恩图的误解造成了错误的集合概念之基础。在法语中，
+“集合”的译名有“一起”的含意，所以法国便无节制地使用文恩图，所谓“一起”就是用封闭曲线把东西圈到一起。在德语中，“集合”有“量”的意思，这就产生出“五磅糖的集
+合”这种例子。在美国与美元的“集合”是用一张5美元的钞票，再加上括号来表示。在英国，则有“1960年某地日平均气温的集合”，在罗列出的一串数字中，有一些会是相同
+的。在美国、英国的教材中，有重复元素的集合的例子很常见。每当教师讲授这类问题时，就会有人吹毛求疵地问：应当如何刻划“有重复元素的集合”？这是课堂教学中一个很平常
+的问题，但非常奇怪，教科书对此都默不作声。如果我们不把它看作集合，而按更重要的特征把它看作函数，即对三百六十五天，分别指派一个数：日平均气温，不是更恰当一些吗？
+\end_layout
+
+\begin_layout Standard
+另一个问题是：可否有
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+这样的表示方法？在较高层次的数学中，
+\begin_inset Formula $\{a\}$
+\end_inset
+
+很常见，
+\begin_inset Formula $\{a,b\}$
+\end_inset
+
+也很普遍，
+\begin_inset Formula $\{a,b,c\}$
+\end_inset
+
+就少见了。而且对
+\begin_inset Formula $\{a,b\}$
+\end_inset
+
+，常常改说：
+\begin_inset Formula $D$
+\end_inset
+
+是集合
+\begin_inset Formula $\{a,b\}$
+\end_inset
+
+，这里已经定义了
+\begin_inset Formula $a\neq b$
+\end_inset
+
+。在数学教材中，如果要表示一个方程的解的集合，例如
+\begin_inset Formula $x^{2}(x-1)=0$
+\end_inset
+
+的解集，可以指出根
+\begin_inset Formula $x=0$
+\end_inset
+
+是二重根，但用
+\begin_inset Formula $\{0,0,1\}$
+\end_inset
+
+的形式表示则不行，因为它与
+\begin_inset Formula $\{0,1\}$
+\end_inset
+
+是一样的。我们为什么不用较高层次的好方法，即它的根是
+\begin_inset Formula $a_{i}(i=1,2,\cdots,p)$
+\end_inset
+
+，重数分别是
+\begin_inset Formula $m_{i}$
+\end_inset
+
+呢？为什么要去生造出一种中小学数学的特定用语，把每样东西都硬塞到集合论中去呢？
+\end_layout
+
+\begin_layout Section
+集合论中的演绎性质
+\end_layout
+
+\begin_layout Standard
+集合论中要引入多少演绎性质？这需根据处理集合论的深度，以及在集合论的基础概念中加入多少种关系而定。从逻辑的角度看，集合论中的所有关系可归结到“
+\begin_inset Formula $\in$
+\end_inset
+
+”关系，利用作工具，就可以定义“
+\begin_inset Formula $\subset$
+\end_inset
+
+”，“
+\begin_inset Formula $\cup$
+\end_inset
+
+”，“
+\begin_inset Formula $\cap$
+\end_inset
+
+”，“
+\begin_inset Formula $\backslash$
+\end_inset
+
+”等关系。对儿童来说，虽然可能还达不到演绎水平，但应能理解“如果
+\begin_inset Formula $a\in A$
+\end_inset
+
+，那么
+\begin_inset Formula $a\in B$
+\end_inset
+
+”这样的模式，它就是的一种描述，而要他们理解
+\begin_inset Formula $((A\subset B)\cap(B\subset C))\rightarrow(A\subset C)$
+\end_inset
+
+或分配律等的演绎证明则未必可能。有人说“
+\begin_inset Formula $\subset$
+\end_inset
+
+”的传递性证明实际上就是用集合语言来表达“
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+”的传递性证明。事实上，我们并没有弄清楚究竟是集合论利用文恩图证明了逻辑的传递性，还是逻辑的传递性以及蕴含的抽象结论证明了集合论的传递性。我认为，集合代数的演绎
+体系不应当在中学里教。而数学家们总是希望以演绎体系来进行集合论的教学，否则就会于心不安。于是，他们的做法就是将所有演绎负担都倾注到数学中去，并将迫切需要考虑的问
+题都留给学生自己去解答。这里我还要指出一类在集合代数中显得很正规的问题，来说明这个专题上实在差劲的教学方法。
+\end_layout
+
+\begin_layout Standard
+教算术的时候有这样的问题：“约翰有
+\begin_inset Formula $5$
+\end_inset
+
+颗小石子，他又得到了
+\begin_inset Formula $3$
+\end_inset
+
+颗，那么他一共有几颗小石子？”学生应当根据给定的条件自己去选择运算。正是这种选择能力才保证了算术的应用。而在集合论中，会出现这样的问题：“
+\begin_inset Formula $A$
+\end_inset
+
+是成人的集合，
+\begin_inset Formula $B$
+\end_inset
+
+是男人的集合，
+\begin_inset Formula $A\cap B$
+\end_inset
+
+是什么？”提这样的问题究竟有什么意义呢？难道它不就是在问：“约翰有
+\begin_inset Formula $5$
+\end_inset
+
+颗小石子，他又得到了
+\begin_inset Formula $3$
+\end_inset
+
+颗，
+\begin_inset Formula $5$
+\end_inset
+
+加
+\begin_inset Formula $3$
+\end_inset
+
+等于多少”！
+\end_layout
+
+\begin_layout Section
+集合论的符号
+\end_layout
+
+\begin_layout Standard
+我早就听到一些教师抱怨说，集合论的符号
+\begin_inset Formula $\in$
+\end_inset
+
+，
+\begin_inset Formula $\notin$
+\end_inset
+
+，
+\begin_inset Formula $\subset$
+\end_inset
+
+，
+\begin_inset Formula $\cup$
+\end_inset
+
+，
+\begin_inset Formula $\cap$
+\end_inset
+
+，
+\begin_inset Formula $\backslash$
+\end_inset
+
+等等使得学生很难掌握。过去我总不太明白。当我研究了大量教科书后，就弄懂了其中的道理。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "30text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/15-11.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+像图15-11与图15-12（1）、（2）那样的情况，文恩图和符号混用，是会让学生和教师无所适从的。但事实上这种情况是可以避免的。更严重的是下列情况：
+\begin_inset Formula $\{x\in V|F(x)\}$
+\end_inset
+
+，它居然未受到批评，所以我对此作了一些调查研究。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/15-12.png
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+首先，第一部分
+\begin_inset Formula $x\in V$
+\end_inset
+
+能不能省略？事实上，
+\begin_inset Formula $x\in V$
+\end_inset
+
+是指一条性质，如果记
+\begin_inset Formula $G(x)=F(x)\cap(x\in V)$
+\end_inset
+
+，那么整个表达式可以改成
+\begin_inset Formula $\{x|G(x)\}$
+\end_inset
+
+。但这样一来，问题就发生了变化。如果
+\begin_inset Formula $G(x)$
+\end_inset
+
+表示成性质
+\begin_inset Formula $x\notin x$
+\end_inset
+
+，就得到了集合
+\begin_inset Formula $\{x|x\notin x\}$
+\end_inset
+
+，这就是：不是它本身的元素的所有集合的集合。由此产生了著名的罗素（Russell）悖论。而如果采用
+\begin_inset Formula $\{x\in V|F(x)\}$
+\end_inset
+
+的形式，则规定了须在给定集合
+\begin_inset Formula $V$
+\end_inset
+
+中按性质
+\begin_inset Formula $F(x)$
+\end_inset
+
+选择元素。这样一来，悖论就避免了。其次，
+\begin_inset Formula $\{x\in V|F(x)\}$
+\end_inset
+
+中的第二部分
+\begin_inset Formula $F(x)$
+\end_inset
+
+，应该使学生理解它指明什么性质。在一些简单的例子中，例如
+\begin_inset Formula $\{x\in R|x<3\}$
+\end_inset
+
+，是不会发生问题的，但要是例子复杂一点的话，就可能出现错误。
+\end_layout
+
+\begin_layout Standard
+有人把“2的幂的集合”记为
+\begin_inset Formula $\{x\in N|x=2^{n},n=1,2,\cdots\}$
+\end_inset
+
+，把“7的倍数的集合”记为
+\begin_inset Formula $\{x\in N|x=7y,y\in N\}$
+\end_inset
+
+，这是不正确的。因为，在括号中我们已经用到了未规定过的变量
+\begin_inset Formula $n$
+\end_inset
+
+或
+\begin_inset Formula $y$
+\end_inset
+
+，对它们的限制未加说明。实际上，如果说“x是7的倍数”，意思是“存在一个y，使得
+\begin_inset Formula $x=7y$
+\end_inset
+
+”，而“x是2的幂”意思是“存在一个
+\begin_inset Formula $n$
+\end_inset
+
+，使得
+\begin_inset Formula $x=2^{n}$
+\end_inset
+
+”，那么它们可以分别表示为
+\begin_inset Formula $\{x\in N|\bigvee_{y\in N}x=7y\}$
+\end_inset
+
+以及
+\begin_inset Formula $\{x\in N|\bigvee_{n\in N}x=2^{n}\}$
+\end_inset
+
+。要真正理解这些表达方式需要具备进一步的知识。我认为，一般的中学生达不到这种水平。有人则认为可以用
+\begin_inset Formula $\{2^{n}|n\in N\}$
+\end_inset
+
+即
+\begin_inset Formula $\{7y|y\in N\}$
+\end_inset
+
+来表示。但这种记号忽略了运用括号时的约定，这里的括号实际上是指明函数值的集合，即函数
+\begin_inset Formula $\bigsqcup_{n\in N}2^{n}$
+\end_inset
+
+及
+\begin_inset Formula $\bigsqcup_{y\in N}7y$
+\end_inset
+
+的值域。有些书上出现了下列记号：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\{ax^{2}+bx+c|2ax+b\geqslant0\}$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\{f(x)\in A||f(x)|\in B\backslash A\}$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+这种方法使人们无法确定到底要对哪个变量作出规定。
+\end_layout
+
+\begin_layout Standard
+有些教材可能已经认识到了这些问题，所以采用了语言的描述，而不用形式符号，例如
+\begin_inset Formula $\{x|x是2的幂\}$
+\end_inset
+
+，
+\begin_inset Formula $\{x|可被7整除\}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+总之，要认真地考虑应用
+\begin_inset Formula $\{x\in V|F(x)\}$
+\end_inset
+
+这种形式是否合适。应该知道，括号本身并没有运算的意思，是否运用括号要取决于形式化的深度。
+\end_layout
+
+\begin_layout Section
+函数、映射的直观解释
+\end_layout
+
+\begin_layout Standard
+函数、映射概念的出现，要出正式的定义早得多，也自然得多。我们“能够”甚至“必须”运用实际中出现的函数概念，而不必先去生造或定义函数、映射。在学生接触了许多函数，
+已经能作出函数以后，再让他们去归结出什么是函数，这才是数学活动的范例。这种新的基础概念的创造，才能明显地表现出活动水平的提高。
+\end_layout
+
+\begin_layout Standard
+自然的或很接近现实的函数例子比比皆是，例如，折扣是总量的函数，重量是体积的函数，飞机、火车的行程是时间的函数，利息是时间的函数，光强度是光源距离的函数等等。
+\end_layout
+
+\begin_layout Standard
+在传统的中小学数学中，函数与图象几乎是同义词，但有些课本却对图象避而不谈，有些则很晚才出现图象。事实上，以上那些例子都可以由自然问题引入，并通过图象表示而自然解
+决。我很强调图象的重要性，但这并不排除其他方面。从教学法观点上看，多方面的探索总比片面的要好。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-13.png
+	width 50col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-14.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-15.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-16.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+映射可以用一些箭头来加以具体化，例如图15-13。它尤其能表示乎面上的平移，同时还能说明向量的概念。平面上的旋转可以用曲线箭头表示（图15-14），反射则应当用
+长度变化的直线箭头表示（图15-15）。
+\end_layout
+
+\begin_layout Standard
+如果有一组映射，例如要在一个图中表示变换群的元素，就会出现困难。在图15-16中，是能够看出哪些箭头表示了相同的映射，哪些表示了不同的映射。但若要表示著名的四元
+群，则会产生问题。四元群可以用置换群来表示；
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="5">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $e1=1,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $e2=2,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $e3=3,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $e4=4,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a1=2,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a2=1,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a3=4,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a4=3,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $b1=3,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $b2=4,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $b3=1,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $b4=2,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c1=4,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c2=3,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c3=2,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c4=1,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这里的
+\begin_inset Formula $e$
+\end_inset
+
+，
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $b$
+\end_inset
+
+，
+\begin_inset Formula $c$
+\end_inset
+
+为作用于符号
+\begin_inset Formula $1$
+\end_inset
+
+，
+\begin_inset Formula $2$
+\end_inset
+
+，
+\begin_inset Formula $3$
+\end_inset
+
+，
+\begin_inset Formula $4$
+\end_inset
+
+上的映射。若要采用更具体化的方法，可设
+\begin_inset Formula $1$
+\end_inset
+
+，
+\begin_inset Formula $2$
+\end_inset
+
+，
+\begin_inset Formula $3$
+\end_inset
+
+，
+\begin_inset Formula $4$
+\end_inset
+
+为一个正方形的四个顶点（图15-17）。现在，映射
+\begin_inset Formula $a$
+\end_inset
+
+是正方形关于垂直轴的反射，映射
+\begin_inset Formula $b$
+\end_inset
+
+是关于水平轴的反射，而映射
+\begin_inset Formula $c$
+\end_inset
+
+则是关于正方形中心的反射，
+\begin_inset Formula $e$
+\end_inset
+
+是恒等映射。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-17.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-18.png
+	width 50col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-19.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/15-20.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+有些研究教学法的人认为这还不够具体，可采用图15-18的表示。这就错了，因为它含有存在四个不同的正方形的意思，实际上，应该将一一对应组成一个群，映射应作用在同一
+个集合上。所以，应该只画一个正方形（图15-19），同时指出，在
+\begin_inset Formula $a$
+\end_inset
+
+的作用下，点水平地互换；在的作用下，点垂直地互换；在
+\begin_inset Formula $b$
+\end_inset
+
+的作用下，点对角地互换。这也可以用箭头来表示（图15-20）。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "30text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/15-21.png
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+还有一种方法，用四块积木，其中两块三角形，两块圆形，并且各分红、蓝两色，作如下定义：
+\end_layout
+
+\begin_layout Standard
+a：互换同样形状的积木；
+\end_layout
+
+\begin_layout Standard
+b：互换同样颜色的积木；
+\end_layout
+
+\begin_layout Standard
+c：互换不同形状、不同颜色的积木。
+\end_layout
+
+\begin_layout Standard
+再加上恒等映射，也形成了一个抽象群.
+\end_layout
+
+\begin_layout Standard
+当积木有次序地对称排列时（图15-21），颜色和形状的互换就变成了：
+\end_layout
+
+\begin_layout Standard
+a：左与右互换；
+\end_layout
+
+\begin_layout Standard
+b：上与下互换；
+\end_layout
+
+\begin_layout Standard
+c：左与右、再上与下互换。
+\end_layout
+
+\begin_layout Standard
+要在某一层次上解释函数
+\begin_inset Formula $f$
+\end_inset
+
+是什么时，只要说将某一对象指派给另一对象。但低于这一层次，就必须对这种指派加以具体化，以便理解。那么怎样将映射具体化呢？平面上的反射是很简单的：面对镜子照一照。
+再具体一点，可以取一张纸对折起来。要解释平移，可以从一叠纸上移动第一张。这样，映射
+\begin_inset Formula $f$
+\end_inset
+
+就描述为将对象
+\begin_inset Formula $x$
+\end_inset
+
+位移到
+\begin_inset Formula $fx$
+\end_inset
+
+。这就是说，
+\begin_inset Formula $f$
+\end_inset
+
+是一种位移法则，移动前和移动后的东西仍是同一个东西，应当具体化的是这种变化。至于移动的是什么东西，那是无关紧要的。
+\end_layout
+
+\begin_layout Standard
+还可以采取另外一种方式，取一个集合，例如取狮子、大象、骆驼。
+\begin_inset Formula $f$
+\end_inset
+
+是循环地变形：将狮子变到大象，大象变到骆驼，骆驼变到狮子。在这个具体化的过程中，映射前、后的对象不同了，成了变形法则，它将一个对象
+\begin_inset Formula $x$
+\end_inset
+
+变到了另一个对象
+\begin_inset Formula $fx$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+为了避免混淆，我们应该清楚地认识到有两种具体的映射：
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="40col%">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+作为位移；
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+作为变形。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+映射作用的集合分别是：
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="40col%">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+位置的集；
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+对象的集合。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+法则
+\begin_inset Formula $f$
+\end_inset
+
+分别
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="40col%">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+将位置
+\begin_inset Formula $x$
+\end_inset
+
+上的对象
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+将对象
+\begin_inset Formula $x$
+\end_inset
+
+变形为
+\begin_inset Formula $fx$
+\end_inset
+
+。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+位移到位置
+\begin_inset Formula $fx$
+\end_inset
+
+；
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这里需要讲清楚的是，
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="40col%">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+位置上的对象；
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+对象的位置。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+不起实质性的作用。在的作用下，对象的变化
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="40col%">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+不依赖它的性质，
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+不依赖它的位置，
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+只依赖它的位置；
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+只依赖它的性质。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这样就有了规定对象和位置的限制，例如
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="40col%">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+初始状态；
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+对象的指派。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+而衡学生是否掌握了映射的概念，要看他们能否进行下列变化中的一种：
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="40col%">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+从对象抽象出位置；
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+从位置抽象出对象。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+也就是能否想象出
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="40col%">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+无对象的位置；
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+无位置的对象。
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+发展心理学的理论认为，上述第二种方法要比第一种方法先学会。这也就是说，“石头”，“三角形”，“圆”等等要比“这里”，“那里”，“左”，“右”等等容易掌握。然而教
+师往往是从第一种方法开始教的。数学家则更熟悉和习惯于第一种方法，至少从几何上看是这样的。在较低层次上，学生至少应能学会从对象抽象出位置，从位置抽象出对象。进入到
+高一些的层次，学生就能作出比较广泛的抽象分析了，而教师则应完全掌握这种分析。
+\end_layout
+
+\begin_layout Section
+函数概念的定义
+\end_layout
+
+\begin_layout Standard
+这里所说的“定义”并不是指形式主义的定义，而是指定义的过程，指定义函数概念的心理学准备和教学法准备，以及它的运算性的定义即实际应用概念的方法，所以，更确切一点说
+，是指函数的表达。
+\end_layout
+
+\begin_layout Standard
+函数是莱布尼兹（Leibniz）提出来的，但当时的含意与现在的意义相去甚远。牛顿（Newton）、莱布尼兹所用的是“量”，量
+\begin_inset Formula $x$
+\end_inset
+
+，
+\begin_inset Formula $y$
+\end_inset
+
+，
+\begin_inset Formula $z$
+\end_inset
+
+可以变化，但又不是独立变化的，而是存在着某种相互依赖的关系。如果
+\begin_inset Formula $x$
+\end_inset
+
+有增量
+\begin_inset Formula $dx$
+\end_inset
+
+，则
+\begin_inset Formula $y$
+\end_inset
+
+便有一个
+\begin_inset Formula $dy$
+\end_inset
+
+的变化，而
+\begin_inset Formula $dy$
+\end_inset
+
+与
+\begin_inset Formula $dx$
+\end_inset
+
+的商则是一个新的量。但是那种依赖关系当时尚未清晰地加以说明过。
+\end_layout
+
+\begin_layout Standard
+欧拉（Euler）和达朗贝尔（D'Alembert）在弦震动的研究中首先采用了函数记号。直到19世纪，教科书中才开始对函数概念作出系统的说明：函数是一个法则，对
+某个范围内的每一个数，依照该法则指派了另一个数，20世纪中，人们又提出了函数是一种特殊的变换。而现在，几乎都认为“函数”与“变换”是同义词。
+\end_layout
+
+\begin_layout Standard
+上述定义中的“法则”是什么呢？法则是一种指派。只要我们知道了
+\begin_inset Formula $R$
+\end_inset
+
+中的每个元素在中的对应元素，那么
+\begin_inset Formula $R$
+\end_inset
+
+到
+\begin_inset Formula $S$
+\end_inset
+
+的函数（指派）也就清楚了。所以，函数就是一个偶对的集合，其第一个元素取自于
+\begin_inset Formula $R$
+\end_inset
+
+，第二个元素取自于
+\begin_inset Formula $S$
+\end_inset
+
+，组成
+\begin_inset Formula $(r,s)$
+\end_inset
+
+。而
+\begin_inset Formula $(R,S)$
+\end_inset
+
+的子集必定满足某种条件。还有另一种说法：
+\begin_inset Formula $R$
+\end_inset
+
+到
+\begin_inset Formula $S$
+\end_inset
+
+的函数是
+\begin_inset Formula $R$
+\end_inset
+
+与
+\begin_inset Formula $S$
+\end_inset
+
+之间的一种特殊关系。因为一般说来，
+\begin_inset Formula $(R,S)$
+\end_inset
+
+的子集恰被称为
+\begin_inset Formula $R$
+\end_inset
+
+与
+\begin_inset Formula $S$
+\end_inset
+
+之间的关系。通俗地讲，关系就是类似于“……比……大”这样的事情，例如为一对对象约翰和玛丽指派一项性质：约翰比玛丽大。当对象被限制在
+\begin_inset Formula $R$
+\end_inset
+
+、
+\begin_inset Formula $S$
+\end_inset
+
+这两个集合上时，逻辑意义上的关系与集合论意义上的关系是一致的。因此，虽然逻辑理论和集合理论是有区别的，但偶对的逻辑关系也形成了集合论的关系。实际上，“关系”这个
+词是数学家从逻辑学家那里窃取来的。“法则”的意思就是逻辑关系，它只是将这种逻辑关系翻译成了集合论关系。如果把“法则”理解为具有这样或那样性质的一个逻辑关系的话，
+那么函数的集合论定义比最初的定义更精确一些。
+\end_layout
+
+\begin_layout Standard
+有人会反对说，“法则”和“指派”都是含糊的概念，子集才是严谨的概念，而事实上，一个集合的某一个子集本身只有通过指派才能得到，也就是对给定集合的元素指派了“是”或
+“不是”这两个值，这种指派也就是二值函数。在数学基础研究中，子集的概念是集合论的一个基本难题。有人想用“关系”来定义“函数”的原因，可能是认为这样做更能满足现代
+数学扩展的要求。但这是一种自我迷惑。
+\end_layout
+
+\begin_layout Standard
+我们怎样按教学法要求来描述函数概念呢？走哪一条路呢？让我们来看一些函数的例子。对函数“汽车的牌照号码”我们是否应该先形成所有的偶对（汽车，牌照号码）的集合，即先
+列出所有可能的汽车和所有可能的牌照号码，然后再确认出哪一个从属于哪一个呢？还是简单地说，对每一辆车指派一个号码，即将指派称作函数：“……的牌照号码”？又如“……
+的母亲”，“……的
+\begin_inset Formula $3$
+\end_inset
+
+倍”，“……的上界”等等，这些函数都说明了指派的直观结构。所以，采用从一般关系的概念引出函数定义的方法只会将简单的事情复杂化。
+\end_layout
+
+\begin_layout Standard
+函数的构成应当从映射入手。在一般关系的范围中，它是一个不确定的，难以理解的运算。
+\end_layout
+
+\begin_layout Standard
+最重要的是函数的关系的定义无论从内容还是从记号上来讲，都没有运算价值。当然，人们可以让学生进行反复的练习来记住它，但这是一种坏的教学法。有些教学内容本来缺乏应用
+价值，只是因为要练习，就在数学教学中加以展开了。而一旦展开之后，就把它视为传统，很难再抛弃。
+\end_layout
+
+\begin_layout Section
+关系应用到哪里？
+\end_layout
+
+\begin_layout Standard
+不少教学法专家认为，关系概念比函数概念更基础、更一般。根据一些教学哲学，应当优先教更基础、更一般的内容。于是，他们就主张教师在教学中用关系来定义函数。当人们用数
+学工具去处理现实的时候，什么地方会出现“关系”呢？在一些语族里，关系的意思就是“亲戚”这样，教科书作者就一头钻进了亲戚关系，去发掘家谱，而不去说明数学关系，结果
+远离了数学及其应用。
+\end_layout
+
+\begin_layout Standard
+关系缺乏应用的原因是它具有类似于一览表那样的记录特征。父子关系只是一种记录，科学的内容则不是描述性的记录，而是联系，例如，打雷与闪电，抽烟与癌，父与子身高之间的
+联系。后者不是指父子关系，即“父、子”偶对的记录，而是偶对的两个性质之间的联系，一种情境的两个或几个方面之间的联系。这种联系不是用关系，而是要用相互关联的程度来
+描述。这里的意思不是记录下“是否”：某人“是否”是某人的儿子，而是通过计算父亲与儿子特定身高的比例，看有多少影响。对于抽烟与癌症的联系，就是通过计算抽烟（或不抽
+烟）人数与患癌症（或不患癌症）人数之间的比例，看有多少关联。由于“函数”适合于因果这样的结构，所以“相互关联”就适合于“随机”结构。我们的结论是，引入函数概念，
+可以不考虑关系。
+\end_layout
+
+\begin_layout Section
+有关函数的争论
+\end_layout
+
+\begin_layout Standard
+函数可以看作为映射。如果映射的值域是数集或向量集合的话，就可以称之为函数。这里有一个问题：
+\begin_inset Formula $A$
+\end_inset
+
+过到
+\begin_inset Formula $B$
+\end_inset
+
+的函数是否要定义在
+\begin_inset Formula $A$
+\end_inset
+
+的每一点上？在法国和比利时的教科书中，就有如下说法：
+\begin_inset Formula $A$
+\end_inset
+
+到
+\begin_inset Formula $B$
+\end_inset
+
+的函数是一种关系，对
+\begin_inset Formula $A$
+\end_inset
+
+中的每一个元素，指派了
+\begin_inset Formula $B$
+\end_inset
+
+中“至多”一个元素。按照这种定义，
+\begin_inset Formula $A$
+\end_inset
+
+到
+\begin_inset Formula $B$
+\end_inset
+
+的函数可能是没有的，这种说法可能是为了满足教学的需要而编造出来的。函数
+\begin_inset Formula $f(x)=\cfrac{1}{x^{2}}(x\in R)$
+\end_inset
+
+的图象怎样作？学生可能会说：这样的函数不存在，但这并没有回答原来的问题。
+\begin_inset Formula $A$
+\end_inset
+
+到
+\begin_inset Formula $B$
+\end_inset
+
+的函数
+\begin_inset Formula $f$
+\end_inset
+
+包含了三项内容：集合
+\begin_inset Formula $A$
+\end_inset
+
+，集合
+\begin_inset Formula $B$
+\end_inset
+
+，以及
+\begin_inset Formula $(A,B)$
+\end_inset
+
+的一个确定的部分。如果要提出一个函数，就必须找出这三项。我认为，上述问题应这样回答：集合
+\begin_inset Formula $A$
+\end_inset
+
+可以是
+\begin_inset Formula $R\backslash\{0\}$
+\end_inset
+
+的任何一部分。为了避免误解，我们可以约定：有确定性质的函数是有最大定义域的函数。但集合
+\begin_inset Formula $B$
+\end_inset
+
+仍有一个含糊的地方：它可以是
+\begin_inset Formula $\{x\in R|x>0\}$
+\end_inset
+
+与
+\begin_inset Formula $R$
+\end_inset
+
+之间的任意集合。我们也不妨约定：
+\begin_inset Formula $B$
+\end_inset
+
+可以取最小的区域。在高一点的层次上，可以这么说：设
+\begin_inset Formula $f$
+\end_inset
+
+是函数
+\begin_inset Formula $f(x)=\cfrac{1}{x^{2}},x\in R$
+\end_inset
+
+且使函数
+\begin_inset Formula $f$
+\end_inset
+
+有意义。
+\end_layout
+
+\begin_layout Section
+函数记号
+\end_layout
+
+\begin_layout Standard
+函数的传统记号是
+\begin_inset Formula $f(x)$
+\end_inset
+
+，
+\begin_inset Formula $y=f(x)$
+\end_inset
+
+，或
+\begin_inset Formula $F(x,y)=0$
+\end_inset
+
+，人们常常搞不清楚哪个是哪个的函数。这些熟悉的记号与表达式得以长期保留，是因为数学家不肯丢掉旧鞋子，除非他们确认巳经有了很合脚的新鞋子。可是，随着泛函分析、拓扑
+学等研究领域的发展，常常要涉及到函数的集合。如果设函数的集合为
+\begin_inset Formula $A$
+\end_inset
+
+，那么
+\begin_inset Formula $f(x)\in A$
+\end_inset
+
+所表示的是函数值属于
+\begin_inset Formula $A$
+\end_inset
+
+，这种表示就错了。同样，
+\begin_inset Formula $(y=f(x))\in A)$
+\end_inset
+
+，
+\begin_inset Formula $(F(x,y)=0)\in A$
+\end_inset
+
+也是错误的。我们所指的函数是
+\begin_inset Formula $f$
+\end_inset
+
+，记号
+\begin_inset Formula $f\in A$
+\end_inset
+
+才是正确的。函数
+\begin_inset Formula $f$
+\end_inset
+
+是将
+\begin_inset Formula $f(x)$
+\end_inset
+
+指派给
+\begin_inset Formula $x$
+\end_inset
+
+，例如，函数
+\begin_inset Formula $\log$
+\end_inset
+
+将
+\begin_inset Formula $\log x$
+\end_inset
+
+指派给
+\begin_inset Formula $x$
+\end_inset
+
+。但是，怎样来表示将
+\begin_inset Formula $x^{2}-3x+2$
+\end_inset
+
+指派给
+\begin_inset Formula $x$
+\end_inset
+
+的函数呢？
+\end_layout
+
+\begin_layout Standard
+（1）
+\begin_inset Formula $f(x)=x^{2}-3x+2$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+它并未明确说明。类似的方法有：
+\end_layout
+
+\begin_layout Standard
+（2）
+\begin_inset Formula $x\rightarrow x^{2}-3x+2$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+逻辑学家习惯使用：
+\end_layout
+
+\begin_layout Standard
+（3）
+\begin_inset Formula $(\lambda x)(x^{2}-3x+2)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+它的缺点是要指出
+\begin_inset Formula $\lambda$
+\end_inset
+
+的含意。我则喜欢使用罗素的方法：
+\end_layout
+
+\begin_layout Standard
+（4）
+\begin_inset Formula $\check{x}(x^{2}-3x+2)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+由于
+\begin_inset Formula $x$
+\end_inset
+
+上面的符号太按近于符号
+\begin_inset Formula $\vee$
+\end_inset
+
+，考虑到印刷上的原因，我建议改用
+\begin_inset Formula $\bigsqcup$
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+印刷书上的符号为
+\begin_inset Graphics
+	filename images/p288.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+：
+\end_layout
+
+\begin_layout Standard
+（5）
+\begin_inset Formula $\bigsqcup_{x}(x^{2}-3x+2)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+这里还可以很方便地写出函数定义域，记为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\bigsqcup_{3<x<4}(x^{2}-3x+2$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+这一点在（1）、（2）两式中是做不到的。
+\end_layout
+
+\begin_layout Standard
+设
+\begin_inset Formula $R$
+\end_inset
+
+是向量空间，那么
+\begin_inset Formula $\bigsqcup_{x}(x+a)$
+\end_inset
+
+就是关于向量
+\begin_inset Formula $a$
+\end_inset
+
+的平移，
+\begin_inset Formula $\bigsqcup_{a}\bigsqcup_{a}(x+a)$
+\end_inset
+
+是指把关于
+\begin_inset Formula $a$
+\end_inset
+
+的平移指派给向量
+\begin_inset Formula $a$
+\end_inset
+
+的映射。按（1）式，它应当形式化为：
+\end_layout
+
+\begin_layout Standard
+设
+\begin_inset Formula $T_{a}$
+\end_inset
+
+定义为
+\end_layout
+
+\begin_layout CenterLine
+对
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $x\in R,T_{a}x=x+a$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+那么，
+\begin_inset Formula $T$
+\end_inset
+
+就定义
+\end_layout
+
+\begin_layout CenterLine
+为对所有的
+\begin_inset Formula $a\in R,Ta=T_{a}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+按（2）式，它就应当定义为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $a\rightarrow(x\rightarrow x+a)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+但它读起来很别扭。
+\end_layout
+
+\begin_layout Standard
+又如，设
+\begin_inset Formula $G$
+\end_inset
+
+是一个群，则
+\begin_inset Formula $\bigsqcup_{x}axa^{-1}$
+\end_inset
+
+是
+\begin_inset Formula $G$
+\end_inset
+
+上的一个内自同构，
+\begin_inset Formula $\bigsqcup_{x}axa^{-1}$
+\end_inset
+
+则是将
+\begin_inset Formula $G$
+\end_inset
+
+映射到其内自同构群内的一个重要的同态映射。
+\end_layout
+
+\begin_layout Standard
+再替如，设
+\begin_inset Formula $f$
+\end_inset
+
+是一个实变函数，则
+\begin_inset Formula $\bigsqcup_{x}f(x-a)$
+\end_inset
+
+指该函数向右位移距离
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $\bigsqcup_{f}\bigsqcup_{x}f(x-a)$
+\end_inset
+
+指任意的函数
+\begin_inset Formula $f$
+\end_inset
+
+向右位移距离
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $\bigsqcup_{l}\bigsqcup_{f}f(x-a)$
+\end_inset
+
+为将上述位移指派给
+\begin_inset Formula $a$
+\end_inset
+
+的映射。
+\end_layout
+
+\begin_layout Standard
+改进函数的记号是一种迫切的需要，大家应当约定适当的记号以结束规在因使用括号而引起的混乱。我的提议能做到这一点。这种记号还具有运算性，可以避免非运算性的形式化东西
+，似应介绍到中学里去。
+\end_layout
+
+\end_body
+\end_document

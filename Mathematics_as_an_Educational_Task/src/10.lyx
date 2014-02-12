@@ -1,0 +1,293 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+数学教师
+\end_layout
+
+\begin_layout Standard
+“征求游泳教师，他本人必须能游泳”，刊登这一招聘启事的人，显然希望保证那位游泳教师能够教游泳。但是由于某些理由，他却要求应征者不仅会教别人，而且自己应该能实践。
+除此以外，还要求教师掌揠游泳的救援工作，训练急救，要懂得一点手臂与腿的肌肉的解剖学、生理学知识，还要学习游泳的历史
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+我不知道今天训练游泳教师要教些什么。
+\end_layout
+
+\begin_layout Standard
+根据美国的一位成功者自传
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+我不记得他是否成为教授或是百万富翁，或者两者兼而有之
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+我只记得一件轶事。当他年轻时，他没有钱，有个聘请捷克语教师的广告，他去应聘了。实际上他根本连一个捷克字也不知道，但这没有问题。他用一半的钱自己先去学，经常是他作
+为学生时所听的课比他作为教师时要教的课提前一节。教师只要比他所教的题材多掌握一节课，就可以达到目的了。正如有人评论说，他们在昨天学的内容，今天就会教，这是多么短
+的消化道！
+\end_layout
+
+\begin_layout Standard
+教的人应该知道得比他所教的内容更多，而且不应该恰好在他要教的时候才知道，还必须稍微早一点。大家都同意这一点。但是应该“多”多少？又需要“早”多少？对此，国内外专
+家、外行均无定论。
+\end_layout
+
+\begin_layout Standard
+这个问题不仅在教师培训中，在教学中也到处存在。一个巴布亚的儿童从他父母那儿学习的，恰好是他生活中必需的知识，因为他自己的生活与他父母的生活没有太大的差别。事实上
+，在发达国家与发展中国家之间存在着很大的差别，我们的儿童与青少年必须学习比他们真正需要的更多的知识。这个超额部分总是由所学事物的形式价值所证实，在数学中则是作为
+一种思维的训练而被证实，但是，现在让我们不要停留在这一点上。
+\end_layout
+
+\begin_layout Standard
+教师关于他所教的专业究竟应该知道些什么？最低限度他必须知道所要教的内容。如果这是一个唯一的条件的话，那么一个聪明的孩子只要在高中法语课或者数学课上获得高分，他就
+可以教中学法语课或数学课，就像前面提到的具有短的肠子的人一样，我是说就题材内容而言他可以教，当然真的要教他还应该知道如何教，然而这一点可能在大学里也没有真正教会
+他们。
+\end_layout
+
+\begin_layout Standard
+法语比数学更为明显，只就有关题材进行培训显然是不够的。就像作为游泳教师要求能游泳，作为法语教师应该希望他能讲，能读、能写。但是这些能力并不属于中学外语教学的目的
+，因而也不能由法语的高分来判定。作为一种现代语言，其必备的严格极限自然也高出了所教的内容。幸运的是我们现在还不需要研究，除这个最低极限外，还应该加上多少梵文、拉
+丁文、历史文法与文献。
+\end_layout
+
+\begin_layout Standard
+数学就不是如此简单。一个学生法语期终考试成绩为A，他可能熟知许多词汇，因而能不用词典翻译一本未见过的教材。但对数学中的这个成绩A，那是表示一个清醒的头脑，能判断
+中学数学中的一个论据是否有效，也能设置问题加以解决和分类。反正，自有数学考试以来，教师就要求应考者知道更多的数学，甚至比以后要教的还要多。这个“多”不仅表示一种
+渐进的区别，而且还是中学数学与高等数学之间的质的区别。前面我们提到过两种数学的哲学，其中一个是另一个的翻版，但却以美丽的神话形式出现。克莱因（F.Klein）创造
+了“双重忘记”这一术语，第一次进入大学时忘记中学数学，随后回到中学当教师又忘记高等数学。自克莱因之后直到不多几年前，这一裂缝在继续加宽。长期以来中学数学很少变化
+，而大学的某些教师甚至渴望在学生回中学当教师以前，将他们领向永远在变动的研究前沿。
+\end_layout
+
+\begin_layout Standard
+大学学习时期的作用是什么？在两次忘记之间的括号内包含着什么？当然，有合适的论据可以说明，为什么中学不应该留给那些“有短的消化道的人们”来支配。我们有充分的理由认
+为，在学数学与教数学之间必然存在一个区间，而如果想填满这个区间，只有服从一个并不陌生的要求，那就是认真研究数学。即使根据这些先决条件，也还是无法知道这个“消化”
+时期应该有多长，4年还是8年。当社会地位升高的梯子比现在更窄的时候，严峻的竞争条件也许有一些作用。考试的权衡在一定程度上决定于社会的供求关系。
+\end_layout
+
+\begin_layout Standard
+有时在口述或书写的教材中，最重要的部分包含在括号之中。这也许同样可用于大学的学习，它相当于教师生涯中的括号。它应该穿过括号而起作用。那么未来的教师在大学里学些什
+么是否有关系呢？当然有关系。但是括号内究竟应该包含什么呢？或者我们可以不管它？
+\end_layout
+
+\begin_layout Standard
+前几年我们努力补上中学数学与大学数学之间的“第一次忘记”的缺口，中学数学大跨步地赶上了一个世纪的积压内容。在数学及其应用方面，要使从中学跨入大学就像在中学里升一
+个年级一样。当然要取得这样的胜利还必须实现许多条件予以保证。
+\end_layout
+
+\begin_layout Standard
+这个改革有一个引人注目的特性，即教师培训应该满足一个重要的准则：即使新的计划与他自己当中学生时流行的计划有巨大的差别，教师也应该能教。根据荷兰的经验，高中教师数
+学培训提高班的基础课程，过去大致达到了这个准则。然而，其他中学教师的初级培训就很难说，更不用提小学教师了。
+\end_layout
+
+\begin_layout Standard
+很显然，这个准则意味着，每一种训练必须包含其自身内部对快速变化的反应的敏感性，这不仅适用子数学教师的培训，实际上也适用于全社会。根据美国报纸的估计，一个大学研究
+生毕业时，现在可平均服务于五种专业，其中的三种目前还不存在。（我无法验证这是否确实，或者我记住的数据是否正确。）
+\end_layout
+
+\begin_layout Standard
+为什么对中学数学与大学数学之间的缺口的弥补工作拖延了这么久？为什么半个世纪以前或者甚至更早提出的要求至今仍未实现？随着数学的社会重要性日益增长，沟通裂缝的迫切要
+求也日益强烈。但是数学本身也在发展。数学在各个方面都在发展，有的愈来愈远离中学数学，但也有更接近中学数学的。我曾多次指出，重建数学常常意味着选择它的最基本的概念
+重新进行探索，而这些概念经常是恰好位于中学数学与大学数学的裂缝面上，今天这个裂缝面已经转变成为接触面。由于数学的发展，两边正在互相靠垅，裂缝也正在填满。
+\end_layout
+
+\begin_layout Standard
+自从克莱因弥补裂缝的企图夭折以来，事情有了什么变化，只要通过对他的“高观点下的初等数学”作一分析就可以清楚。有许多初等数学的现象只有在非初等的理论结构内才能深刻
+地理解。克莱因的观点就想为教师日常的课堂活动提供一个科学的背景。无疑这样做可以缓和一下裂缝。但是克莱因的背景对教师而言，只能作为周末的风景观赏，却不能作为间接的
+手段进入教室。因此，不能影响中学数学。例如，克莱因详细说明了伽罗瓦（Galois）理论是中学二次方程、三次方程求解的背景，但事实上伽罗瓦理论高踞于中学数学水平之
+上。如果中学数学的趋势完全颠倒，可能爱尔兰根纲领会有教学法的效果，但是这与每个人的思想相差太远，因此爱尔兰根纲领还是只能作为一种背景科学。
+\end_layout
+
+\begin_layout Standard
+今天谁想恢复克莱因的企图，去教“高观点下的初等数学”，就必须从接近中学数学的较低水平做起。域与群这类干巴巴的概念已经借助于抽象代数开始渗入中学数学，它们是如此接
+近于教学，因而完全可以包括进去；通过这一新的抽象转向，用以引入和解释概念的例子也可以变得更为简单，像伽罗瓦理论这样深刻的应用也不需要创造更高的科学背景，一些特有
+的概念如公理系统、域和集合论，克莱因甚至还未提到。看来最基础的东西要接近于最初等的东西这是一种顿悟，它需要半个世纪才能成熟。
+\end_layout
+
+\begin_layout Standard
+当某个时期我们对数学结构的理解有很多长进的时候，就可以影响中学数学，这时我们就可以着手处理另一个问题，那就是数学为什么只借助粗糙的经验方法来应用。对这个问题没有
+回答，因为从未有人认真地考虑过它。所以我们可以来回答，如何教数学的应用，只是多少有些犹豫不决，也有不少保留。
+\end_layout
+
+\begin_layout Standard
+根据前面的考虑，我曾经想形成数学教师培训的最低要求，诸如：
+\end_layout
+
+\begin_layout Standard
+（1）使教师能自信地使用现代数学的基本方法，
+\end_layout
+
+\begin_layout Standard
+（2）提供为理解现代数学结构所必需的基本知识，
+\end_layout
+
+\begin_layout Standard
+（3）发展有关如何应用数学的某些概念，
+\end_layout
+
+\begin_layout Standard
+（4）对如何进行数学研究作初步介绍。
+\end_layout
+
+\begin_layout Standard
+稍微作些解释也许更好。（2）两点我只限于基本的。这就是说即使包含非基本的，也只是为了引导到基本的上面或是有助于说明。第（1）点中我强调了活动的自信心，而第（2）
+点中我省略了这条。我曾多次解释过，为什么第（3）点是必不可少的；但我在第（3）点中的阐述方式是希望能避免将教师培训成为应用数学家。第（3）点中明显应包含计算机数
+学。我怀疑，能否通过副修课的学习使未来的教师实现第（3）点；但无论如何副修课的培训只应该对那些已经精通了副修课中有关的数学而且还愿意继续使用的人进行。我加上第（
+4）点是想不仅使教师对领域的整体组织有个概念，而且也希望他们能参加进去。这个可以通过讨论班来实现。
+\end_layout
+
+\begin_layout Standard
+这是对各类中等教育的数学教师的最低计划，当然对中学高年级教师还有更高的要求。以这个计划为基础，教师培训的时间会比现在减少。这不一定是个损失。我不赞成对缩短学习的
+鼓吹。限制课程不是缩短学习的好办法。学生可以在同样时间内少学一些，至少荷兰就是这样做的。我要打破现在的一种幻想，似乎通过考试就打开了通向学术生涯的道路，学生已经
+学会他一生足够使用的知识。我认为学习应该延续一个比较长的时期：第一次短期培训，以后常规的重复补充，以更新知识并适应新的发展。以后我再介绍过去几年内流传很广的这类
+课程的一些特性。
+\end_layout
+
+\begin_layout Standard
+迄今为止，我还没有考虑数学教师的教学法培训。显然教也是属于人们通过做而学习的一种活动，教学法显然也是，但如果停留在这一最低层次那是不合适的。这就是说，在大学里的
+初步学习只能获得一定程度上的教学法训练。如果背离夸美纽斯（Comenius）的理论，我们今天竭力主张对这些理论也应该再创造（所以当然不可能在实践之前），于是一位
+教师在开始教学工作以前只要学少量理论，主要通过自己的和别人的例子来学习，分析人们准备进行、正在进行与已经进行的教学。未来的教师应该学习思想实验的方法以及如何转述
+，这是为教师专业中联系教学实践的理论活动作准备，根据我的经验，没有多少教师以自己与别人的教学作为研究对象。谈到这种活动时，大多数人都相当惊讶。
+\end_layout
+
+\begin_layout Standard
+除了专业文献以外，许多国家的教师继续培训工作直到几年以前还是局限于听不定期的讲座，大多是有关科学题材的，自然也有一些零零落落的讨论班。最初，教师作为一个听众参加
+革新运动；听到有关新题材所作的革命性的讲解，他们感到困惑与害怕；可是最深入教师心中的教学法却几乎不讨论。不久的将来必须考虑教师再培训的新计划。这将导致许多国家必
+须更新课程。开始是作为应急措施而设计的，接着也许进而获得一个常设的地位；这恰是我解释的为什么教师培训的份量应该适当，那是它本身发展的需要。
+\end_layout
+
+\begin_layout Standard
+这些课程的特性有很大变化。有关题材方面就有两个极端的例子：一种是正好教给教师他几年内要教的内容
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+结局就是他恰好会教
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+另一种则是为他提供作为背景的科学，他根本不能用于教学。这类课程发展的方法趋向于让参加者有更大的活动余地，常见的就是讨论班形式。但各国之间差别很大。有些国家或地区
+不可能组织讨论班，因为“有着良好教养的人们”认为那是属于政治家的事。
+\end_layout
+
+\begin_layout Standard
+我可以更详细地谈到我们荷兰自己的经验。几年来已经组织了一些合适的课程，一年两周；课程重点环绕实际的练习，即进行问题解决的个别活动。全国有一半的高中教师参加这些课
+程；大多数都能主动地参与实际练习。较低层次的其他教师参加夜校；结果也令人满意。对这两种培训都开设教学法课程。在这些课程中，也不是告诉教师应该教什么，应该如何教。
+这些课程的任务是对教学法经验作分析，进行小组讨论。如果发现在这种抽象基础上进行的讨论太混乱，那就准备好课堂教学的音像资料供讨论参考。
+\end_layout
+
+\begin_layout Standard
+最大的问题仍然是小学教师（我国小学有六年）。因为数学不是小学教师培训的必修课，即使他最终成绩不及格，还会容许他去教小学的算术与数学，或是有时还超过这个水平，因为
+他可以自夸为懂得有关一元线性方程组以及毕达哥拉斯（Pythagoras）定理的数值应用这些方面的数学。小学教师的人数大约是高中教师人数的50倍。虽然他们的再培训
+问题看起来很难解决，我们还是准备提出一个大规模课题以千方百计地解决问题。
+\end_layout
+
+\begin_layout Standard
+上述课程都是在现代化数学教育的结构下设置的。1970年荷兰教育部决定，将数学题材与教师再培训的发展工作提高到作为一个常设机构的地位。
+\end_layout
+
+\end_body
+\end_document

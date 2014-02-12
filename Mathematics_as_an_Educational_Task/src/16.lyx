@@ -1,0 +1,3907 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+几何的状况
+\end_layout
+
+\begin_layout Standard
+长期以来，几何是数学的同义语。由于几何是一个完整的概念体系，其中各个问题严格地一个接着一个，并最终每个问题都来自于定义和公理，所以人们认为几何是真理，它是神圣不
+可侵犯的。但自帕施（Pasch）和希尔伯特（Hilbert）通过公理体系的研究揭示了传统几何中所存在的缺陷后，几何这种至高无上的地位便逐渐消失了。然而，帕施、希
+尔伯特所建立的公理系十分复杂，我们只能对它们做些基础性的研究，却不能用它做几何，更不能用它教几何。
+\end_layout
+
+\begin_layout Standard
+几何不仅是演绎科学的一种范例，而且也是最古老的教学法的范例。历史上关于上课的最早记载是柏拉图（Plato）所报道的关于苏格拉底（Socrates）给门诺（Men
+o）的奴隶们所上的实验课。柏拉图的报道也许是捏造的，但是，说那堂课的内容是几何，却不是偶然的，就是在今天，几何也还是苏格拉底方法和“再创造”的最好材料，在这方面
+，只有概率论才能和它匹敌。
+\end_layout
+
+\begin_layout Standard
+有人以为今天传统几何走上了没落的道路，甚至有人主张取消它，理由是它的演绎性还不够严格。但这是不对的，依我看原因在于没有像苏格拉底那样运用再创造的方法来教几何，而
+将几何演绎体系强加于人。想要以强化几何的演绎结构来拯救传统几何，那是注定要失败的。事实上，几何不单纯是演绎理论。
+\end_layout
+
+\begin_layout Section
+什么是几何
+\end_layout
+
+\begin_layout Standard
+对此，不同的层次有不同的回答。从高层次上看，几何是数学的一部分，它是以公理系统的方式组织起来的；但从最低的基本层次上看，几何则是对空间的理解。为了生活得更好，我
+们就必须了解，探索，并征服我们所生存的空间。
+\end_layout
+
+\begin_layout Standard
+因此，我们说几何是空间的科学，是现实的物理空间的科学。也许有人认为变化多端的现实世界不能成为高度抽象的数学体系的基础，认为数学是至高无上的演绎体系，它不能受现实
+世界任何非演绎细菌的侵犯与污染，否则它的发展将受到阻碍，这固然也是一种道理，在一定的范围内也是对的。但要知道，有更多的学生，他们学几何并不是为了要建立一个演绎体
+系，而是要了解我们生活的空间，其中的问题是许许多多的，例如：
+\end_layout
+
+\begin_layout Standard
+为什么卷起来的纸不容易弯折？
+\end_layout
+
+\begin_layout Standard
+影子是怎么形成的？
+\end_layout
+
+\begin_layout Standard
+月球表面的明暗界线是哪类曲线？
+\end_layout
+
+\begin_layout Standard
+为什么用许多全等的三角形可以复盖平面，而换成全等五角形一般地却不能？
+\end_layout
+
+\begin_layout Standard
+万花筒的工作原理是什么？
+\end_layout
+
+\begin_layout Standard
+是否每个平面内都包含一条水平直线（或铅直直线）？
+\end_layout
+
+\begin_layout Standard
+为什么右旋螺线和左旋螺线在刚体运动下不能合同？
+\end_layout
+
+\begin_layout Standard
+为什么镜子只改变左右而不改变上下，如果躺在镜子前会产生什么情况？等等。
+\end_layout
+
+\begin_layout Standard
+请注意，我提的都不是实际应用的问题，这些问题也不是“谜语”，而是一些带原则性的重要问题，人们动点脑筋就能给出答案的。我提这些问题是要说明：密切联系实际问题去学习
+数学是何等重要，大多数人学数学并不是以数学为职业的，同实际生活无关的东西很快地被遗忘。因此必须结合日常生活实际，以了解物理空间为出发点去学习几何，它才不易被忘记
+，才会对人的生活产生影响。
+\end_layout
+
+\begin_layout Standard
+我这里所说的从探索物理空间的性质出发去学习几何的观点绝不是新的，它在1741年出版的《几何原本》（克莱罗著）（Clairaut，《Eléments
+\begin_inset space \space{}
+\end_inset
+
+de
+\begin_inset space \space{}
+\end_inset
+
+Géométrie》）这本精采书籍中便有了。荷兰自1920年以来，在塔蒂安娜·爱伦弗斯特（Tatiana
+\begin_inset space \space{}
+\end_inset
+
+Ehrenfest）的倡导下，这种以通过操作实践开始探索空间而不是从演绎论证开始学习几何的做法已经普及，它比帕施-希尔伯特的新发明更受欢迎。
+\end_layout
+
+\begin_layout Section
+为什么教几何
+\end_layout
+
+\begin_layout Standard
+几何除了具有一般数学的共性以外，还有如下特性：
+\end_layout
+
+\begin_layout Standard
+（1）几何经常被认为是一种思维训练，培养逻辑思维与形成演绎体系似乎是几何的特权。
+\end_layout
+
+\begin_layout Standard
+（2）几何有实际应用，这不是从实用主义的观点出发，认为几何只要保留毕达哥拉斯（Pythagoras）定理与相似图形的少量定理，以及长度、面积、体积等少量公式，根
+本不需要传统的欧几里得（Euclid）逻辑体系；而是指通过几何可以更深入地掌握和理解物理空间。
+\end_layout
+
+\begin_layout Standard
+因为作为演绎体系，也许还有比几何更合适的系统，但在认识现实世界与联系实际，使现实数学化方面，几何的作用是无法被代替的。数与形都是对现实世界的反映，通过计算能学思
+维，但借助眼睛、手等各种感官来接触空间形状，是一种最好的引导机会，它更有利于发现与创造，也符合于教育家夸美纽斯（J.Comenius）的观点
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+打开学生的各种感觉器官。
+\end_layout
+
+\begin_layout Standard
+此外，几何作为一个逻辑体系，也许是使儿童感受人类精神力量的一种最有力方法。教几何是理想与现实之间一场无可比拟的斗争，其中显示了人类卓越的智慧。当然这必须运用恰当
+，否则就可能适得其反，使儿童认为自己智力低下，而丧失信心。
+\end_layout
+
+\begin_layout Section
+具体材料
+\end_layout
+
+\begin_layout Standard
+遵循历史发展的规律，人们在观察、思考现实世界的各种空间形式及其性质的过程中，形成了实验几何学。例如，将位置抽象成为一点，将运动路径抽象成为一线等等。因而，教几何
+的初始阶段应该使用具体材料，从某种意义上来说，是重复实验几何学中概念、性质的发现过程，但这并不是严格且进行反复试验的实验科学（像物理实验室所要求的），它实质上已
+经包含了一定程度的抽象意义，目的在于抓住其总体结构，而不拘泥于具体细节。譬如，画方石板铺成的人行道，就不需要画出石头的裂缝及缝中的沙子，我们需要的是从物理现实抽
+象形成的几何内容，从低层次的活动开始，为较高层次作准备。
+\end_layout
+
+\begin_layout Standard
+供选择的具体活动可以是折纸、剪纸、粘贴、画图、油漆、测量、铺路以及拼接等。而用具体材料的目的是让学生通过手脑并用，促进思维活动，形成某个对象的发生式定义
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+如何把它做出来。它也许开始不很严密，但必须符合以后的形式化定义，而且作为逻辑形式的发展应该植根于具体材料之中。
+\end_layout
+
+\begin_layout Standard
+具体材料的几何教学自然应从空间开始，实践证明，从人们实际接触的三维空间直接进入立体几何，可能更有利于空间想象力的培养。而传统的平面几何是丢弃了现实而抽象出来的二
+维空间，练习太多，过于片面，这也许反而束缚了学生的思维，相反，用描述的方法引进肉眼看来直观明显的东西，而不去强求证明，则更有利于几何思维的发展，实质上，这也为进
+一步建立严格逻辑推理的演绎体系打好了基础。
+\end_layout
+
+\begin_layout Standard
+
+\size large
+1.
+\begin_inset space \quad{}
+\end_inset
+
+狄那·范·希尔（Dina
+\begin_inset space \space{}
+\end_inset
+
+van
+\begin_inset space \space{}
+\end_inset
+
+Hiele）的实验
+\end_layout
+
+\begin_layout Standard
+实验对象是中学一年级学生（七年级，12岁），整个实验共分三个学期：
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+第一学期
+\end_layout
+
+\begin_layout Standard
+（1）
+\begin_inset space \quad{}
+\end_inset
+
+从空间图形到平面图形
+\end_layout
+
+\begin_layout Standard
+先从各种材料制成的立方体模型开始，这些模型可以是钢件结构型时，也可以是纸板粘贴成的，或者是其他材料制成的。通过模型给学生介绍立方体的棱、顶点、面，立方体的棱数、
+顶点数及面数，进而掌握立方体是由正方形围成的，可由6个正方形围成一个立方体，同时可以通过两次折叠来介绍直角的概念。在结构立方体中系上带子，或在纸板立方体上画上线
+，就可以引入立方体的两类对角线（面上的和空间的），同时引出立方体的对角面，它是一个矩形，让学生考虑一个立方体有多少条对角线，多少个对角面，以及如何测量对角线时长
+度。接着让学生制作一个正四面体，从中介绍等边三角形，并在画有对角线的正方形图形中，寻找不同于等边三角形的另一类三角形
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+直角三角形。教师再给学生一个正八面体的展开图，让学生制作一个正八面体，还可以在中间附上一个正方形的对角面。
+\end_layout
+
+\begin_layout Standard
+（2）
+\begin_inset space \quad{}
+\end_inset
+
+对称与反射
+\end_layout
+
+\begin_layout Standard
+在黑板上画半只花瓶，让学生画出另一半，并用镜子加以检验。从这个具体的过程，让学生理解对称的含义，并系统地掌握平面上的对称图形，包括中心对称与轴对称图形，例如圆、
+菱形、筝形以及正六棱柱和正八棱锥，可以用4支等长的铅笔做成一个不是正方形的四边形，那就是菱形的模型，也可以用折纸或利用一个活动的绞链模型来加以演示，在此可以讨论
+菱形时两条对称轴以及其他性质，也可以讨论如何寻找圆的对称中心？
+\end_layout
+
+\begin_layout Standard
+讨论圆周长的测量方法，如何舍入以及估计它的精确性，通过圆的内接正六边形和外切正方形，可以估计出圆周长与圆的直径之比必然介于
+\begin_inset Formula $3$
+\end_inset
+
+和
+\begin_inset Formula $4$
+\end_inset
+
+之间，从而可以判定某些测量的错误。
+\end_layout
+
+\begin_layout Standard
+以菱形作为作图的出发点，先作任意菱形，再逐步进展为给出一定条件再作菱形；也可应用筝形这一特殊图形，在此基础上系统地作各种平面图形的镜面反射像，同时让学生获得三角
+形的高和中线的概念。
+\end_layout
+
+\begin_layout Standard
+（3）
+\begin_inset space \quad{}
+\end_inset
+
+角与量角器
+\end_layout
+
+\begin_layout Standard
+用少量几节课介绍角，但不加定义，借助于手臂运动和时钟的例子，形象地描述角的概念，同时引入量角器，并讨论依赖于角的一些概念。
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+第二学期
+\end_layout
+
+\begin_layout Standard
+第一课时
+\begin_inset space \quad{}
+\end_inset
+
+讨论图形的全等。教师讲授的第一个例子是教室里面的全等的椅子（传统的中学几何里只知道全等三角形），通过各种具体例子，使学生理解全等的描述性概念
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+“不可区分的对象”，并能辨别全等与面积相等不是一回事。由于人行道常用全等的方瓷砖铺设，因此可让学生通过对各种不同模式的人行道的描绘与画图，去自然地发现平行线，当
+然它不一定是水平或铅直的直线。
+\end_layout
+
+\begin_layout Standard
+第二课时
+\begin_inset space \quad{}
+\end_inset
+
+让学生模仿教师画出平行线，同时引导他们从带有对角线的正六边形（图16-1）中找出菱形模式，并进一步观察立方体的空间直观图形。
+\end_layout
+
+\begin_layout Standard
+第三课时
+\begin_inset space \quad{}
+\end_inset
+
+教师发给学生各类全等的纸板正多边形，作为瓷砖，要求学生考虑能否用全等的三角形、四边形、五边形、六边形、八边形等各类瓷砖去覆盖平面，如果可以，就画出铺设的方法（正
+五边形允许用量角器画）。
+\end_layout
+
+\begin_layout Standard
+第四课时
+\begin_inset space \quad{}
+\end_inset
+
+教师发给学生不规则的纸板多边形，并提出同样的问题。
+\end_layout
+
+\begin_layout Standard
+第五课时
+\begin_inset space \quad{}
+\end_inset
+
+让学生讨论全等的正五边形为何不能覆盖平面？
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/16-1.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/16-2.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/16-3.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+第六课时
+\begin_inset space \quad{}
+\end_inset
+
+用全等的三角形铺地可形成包含整条直线的平行直线束（图16-2），而用不规则的四边形铺地就不能形成整条的直线（图16-3）。从以上构图中，学生可以发现各种类型的结
+构，三角形的内角和定理，四边形的内角和定理，也可知道为什么全等的正五边形不能覆盖平面。
+\end_layout
+
+\begin_layout Standard
+第七课时
+\begin_inset space \quad{}
+\end_inset
+
+讨论用全等的三角形铺地所形成的大小不同的平行四边形、梯形以及放大变换。讨论能否用全等的六边形或非凸的四边形来覆盖平面？内角和超过
+\begin_inset Formula $360°$
+\end_inset
+
+的全等的多边形能否覆盖平面？是否有某一类全等的五边形能覆盖平面？
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/16-4.png
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+第八课时
+\begin_inset space \quad{}
+\end_inset
+
+得出多边形的内角和与覆盖平面（铺路）之间的逻辑联系，重新研究铺路的结构，从中发现“梯子”和“锯子”（图16-4）。
+\end_layout
+
+\begin_layout Standard
+第九课时
+\begin_inset space \quad{}
+\end_inset
+
+借用“梯子”和“锯子”这些工具，探讨平行线所形成的一些角之间的关系。
+\end_layout
+
+\begin_layout Standard
+第十课时
+\begin_inset space \quad{}
+\end_inset
+
+讨论平行线广梯子”和“锯子”，以及三角形内角和之间各种关系的逻辑结构。
+\end_layout
+
+\begin_layout Standard
+第十一到十七课时
+\begin_inset space \quad{}
+\end_inset
+
+讨论铺路中所产生的放大、旋转变换，瓷砖的系统计数，面积与相似及其系统化的定义。
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+第三学期
+\end_layout
+
+\begin_layout Standard
+让学生重新观察立方体。立方体的对角面将立方体分成两个棱柱，要求学生制作棱柱模型。教师出示一个正四棱锥，以立方体的正方形面为底，以立方体棱的一半为高，提出下列问题
+：多少个这样的正四棱锥可以填满一个立方体？如何制作这些棱锥？它的侧棱有多长？并让学生制作这种棱锥。
+\end_layout
+
+\begin_layout Standard
+讨论这些棱柱与棱锥的体积，再在立方体的每个面上都粘上一个这样的正四棱锥，构成十二菱面体，并讨论它的休积。
+\end_layout
+
+\begin_layout Standard
+同时讨论正多面体与它们的组合图形。
+\end_layout
+
+\begin_layout Standard
+
+\size large
+2.
+\begin_inset space \quad{}
+\end_inset
+
+凡·阿尔巴达（P.
+\begin_inset space \space{}
+\end_inset
+
+J.
+\begin_inset space \space{}
+\end_inset
+
+van
+\begin_inset space \space{}
+\end_inset
+
+Albada）的课程
+\end_layout
+
+\begin_layout Standard
+第一年（试验对象年龄为12岁）是入门课程。
+\end_layout
+
+\begin_layout Standard
+接着是三年系统的几何教学，平面几何与立体几何结合在一起，但对明显的命题都不作证明。第五年以新的体系重复这些理论，这时不证明的命题的数量大大减少。然后以向量丛中的
+直线与平面作为非欧几里得平面几何的一个例子来进行研究，以便弄清欧几里得几何中哪些定理仍然成立，它们能否用一般性的方法加以证明，以及怎样证明。
+\end_layout
+
+\begin_layout Standard
+在入门课程中，首先讨论对称性，接着讲画法几何中一些简单问题，并从透视的角度提出一连串的问题：某一张照片是从哪一个侧面拍摄的？当时太阳的高度是多少？三视图如果已经
+给定了两个投影，如何作出第三个？再讨论正多面体的投影以及它的结构，正多边形与砌瓷砖的问题，制作模型的问题，柱面与锥面上的最短直线，以及地图着色，相贯图形等问题。
+\end_layout
+
+\begin_layout Standard
+在上述两个试验中都包含了用瓷砖铺地面的内容，这里涉及到一个重要概念，那就是妥帖（fitting）。
+\end_layout
+
+\begin_layout Section
+妥帖
+\end_layout
+
+\begin_layout Standard
+空间含有的是物体，平面含有的是图形。图形是画出来的，而物体是造出来的；平面图形便于作逻辑分析，而空间物体则更加直观且利于创造性活动，总而言之，空间比平面更为具体
+。
+\end_layout
+
+\begin_layout Standard
+但是也有例外，在平面上铺瓷砖也是很具体的，这种具体感的心理因素和在空间情况中的相同，那就是妥帖。这是一种运动感觉，心理学家能告诉你在青少年身上这种运动感觉强烈到
+何种程度，以及运动知觉和运动记忆有何等的重要性。
+\end_layout
+
+\begin_layout Standard
+一个框架的各条棱互相妥帖地装配在一起。立方体内可以妥帖地置放棱柱和棱锥；它的对角面妥帖地嵌在它的内部；它六个面的六条对角线构成它内部一个正四面体的六条边；把它内
+部六个全等的棱锥翻出来就可得到一个十二菱面体。瓷砖地板上各块瓷砖妥帖地相配，把直线、平角、星形、平行线等形状显示了出来。
+\end_layout
+
+\begin_layout Standard
+有没有哪个小孩会问：为什么物体能够这样妥帖相配？通常没有。这些奇妙的现象似乎没有给他们留下什么印象。但是，别急，孩子们会有能力将它们慢慢地琢磨出来的。要有耐心，
+这是教师的最大美德。总有一天，孩子们会提出为什么的问题来的，过早地对几何作系统的学习对他们只会有害而无益。“为什么”这个词对于几何的学习是最为关键的词，但不能过
+早地提它，而要等待时机成熟。物体妥帖相配的奇妙性为系统学习几何开辟了道路，为几何思维提供了素材，学生在学习时各个阶段里都会回忆起这些素材而重新加以考察。
+\end_layout
+
+\begin_layout Standard
+空间是安放物体的场所，而妥帖相配是其中最主要的思想。在仿射平面上就无所谓妥帖与否的问题，正因为如此，要学习仿射几何就需要有比较成熟的思维训练，所以仿射几何不可能
+作为几何的入门课程。
+\end_layout
+
+\begin_layout Standard
+在凡·阿尔巴达与范·希尔的两种入门课程之间，有着很大的差别。在凡·阿尔巴达的课程中，有着大量的材料要求学生通过观察和操作去进行思考，它一开始就给出大量画法几何的
+内容，这就是它的一个很大特点。阿尔巴达把画法几何作为几何的入门课，而不是把它作为几何的后继课，我觉得这是一大发现，画法几何远比演绎平面几何容易，它能使学生运用眼
+晴和手去进行思维。
+\end_layout
+
+\begin_layout Standard
+在范·希尔的课程中，它每一步都想通过观察
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+活动的操作把其中的演绎关系揭示出来。例如，通过三角形和四边形的操作活动，分别知道了三角形三个内角和的大小和四边形的四个内角和的大小以后，便提出以下问题：知道了三
+角形三个内角和大小后，能不能利用它去推导出四边形的四个内角和的大小？起初孩子们不懂所谓推导是指什么，经过十天，多数孩子懂得了它的意思，他们想起了梯子与锯子的结构
+，并通过对这种结构的考察去证明平行线之间的夹角相等（图16-5）。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/16-5.png
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+演绎
+\end_layout
+
+\begin_layout Standard
+儿童用逻辑方法组织活动的能力有着一个持久但并不连续的发展过程。在最初阶段，他们通过手、眼以及各种感觉器官进行思维，经过一段时间的亲身体验，通过主动的反思、就会客
+观地描述这些低层次的活动，从而进入一个较高的层次。必须注意，这个高层次的达到，决不能借助算法或形式地灌输来强加给他们。
+\end_layout
+
+\begin_layout Standard
+演绎必须始于定义，它是演绎推理链中的重要一环。但苏格拉底的教学理论不主张用定义来引入几何对象，因为除非你知道这一环如何安装在那个链中，否则你又怎么来锻造这个环？
+为此应该通过直观的方式先给他们一个笼统的印象，替如平行四边形，让他们自己观察并发现这种形状的大量性质，如对边平行且相等，对角相等，邻角和为
+\begin_inset Formula $180°$
+\end_inset
+
+，对角线互相平分，平行四边形有一个对称中心，平行四边形可以分成全等的三角形，以及可用全等的平行四边形来铺满平面等。为了进一步系统地组织这些性质，建立联系，可取性
+质之一作为定义，以其为源而推出其他。这一个学习定义的过程，经历了具体演绎推理形成的步骤，它不是强加的，而是由直观萌芽逐步发展的，因而就学会了演绎地组织一个对象性
+质的方法。
+\end_layout
+
+\begin_layout Standard
+在实际的科学研究工作中，多数定义不是事先想好的，而是组织、推理的结果，学生应该有这个权利，让他们自己来发现，这样既直观、自然，又有相对性，可以充分体会定义的必要
+和作用，并且掌握等价的定义。好的几何教学就应如此，不仅对定义，而且对整个体系的建立也应该采用这样的策略
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+学习组织一个题材，也学习什么是组织，学习具体对象的概念化，也学习什么是概念化。重要的是要带领学生理解过程，让他们有机会组织并发现各神结构与休系，而不是“填鸭式”
+的“硬塞”。要知道，泄漏一个可以由学生自己发现的秘密，那是“坏的”教学法，甚至是罪恶。
+\end_layout
+
+\begin_layout Section
+欧几里得的演绎
+\end_layout
+
+\begin_layout Standard
+苏格拉底对门诺的奴隶所做的是使用具体材料的低层次活动，但其中含有演绎的萌芽；范·希尔的课程甚至揭示了逻辑组织的最初信号。我相信，许多优秀的教学法专家认为学习者的
+局部组织活动是必不可少的，并且偏爱它。其实，几何有着悠久的传统，用现代的标准去评价欧几里得的公理系是不公平的。作为一种综合性的工作，欧氏原本在古代数学中是绝无仅
+有的瑰宝，它的方法虽然并不统一，但也是其组成部分之一。早在欧几里得以前，人们似乎已经形成了一种习惯，要介绍一篇数学论文必须引用若干原理，这些原理就称之为公理、公
+设、假设、定义以及假定等等，这些陈述完全可以从论文中删去，因为它们是从其他地方引用的已知事实，也没有重新加以证明。
+\end_layout
+
+\begin_layout Standard
+欧几里得在原本中插入了他创建的原理衷来介绍各部分数学，由此原本成了逻辑地组织各部分数学之和，而不是数学的逻辑组织。整体组织的可能性当时也许只是一种模糊的哲学观念
+，虽然不能低估亚里士多德（Aristotle）对此问题的贡献，但应该承认古代并未实现这个观念，即使是原本第五、六卷中欧多克斯（Eudoxus）关于量的理论，它在
+古代数学中最接近于现代公理系，但是作为实数的公理系还是不完备的，因为它只不过描述了量，而不是独立地创造了量。
+\end_layout
+
+\begin_layout Standard
+要达到整体组织和现代风格的公理系统，要求编者比欧几里得更有主见。几何公理系的完备性观念可能远远超过希腊的数学水平。其实，几何的现实是描述的，而不是由定义、公设等
+创造的。在任何特定的时刻，描述只是限于特定问题的本质特性，如果缺少了某个特性，那么求助于现实就能弥补它的不足。即使是严密的演绎，其基础也必须适应于现实而不能预先
+假定。用心理学观点看，随着欧氏原本的出现，情况发生了变化。古代像这种权威性的著作很容易被神化，欧几里得成了真理的宝藏，原本的组织成了正确而定形的组织。人们不对原
+本作创造性的批评，所有活动只限于评论，原本成了由确定的原理进行严密演绎的范例。以后用来教学的欧氏几何课本，也只是欧几里得演绎法的稀释物。如果要抱怨这个体系的逻辑
+，那么该抱怨的就不是局部组织的观念，而是它的意图，即这一系统（和欧几里得自已）想实现比局部组织为更多的东西。
+\end_layout
+
+\begin_layout Section
+转向线性代数
+\end_layout
+
+\begin_layout Standard
+早在古希腊时代，几何就与代数发生了联系，甚至像圆锥曲线这类似乎是真正的几何，也起源于代数。到笛卡儿（Descartes）开始引进坐标，从而建立了解析几何，但真正
+几何的桂冠仍属于欧几里得的综合方法。几何越是无法与代数和分析的丰富内涵相比较，就越是被人们所忽视，因而其弱点日益暴露，人们也日益倾向于依赖所谓的解析几何。希尔伯
+特的《几何基础》也不能扭转这个趋势，相反，它更清楚地揭示了欧几里得《几何原本》的缺陷，而且表明要填补这个缺陷是相当艰难的。再者，希尔伯特方法的最终结果不就是几何
+的坐标化与代数化吗？因此，希尔伯特的努力又有什么用呢？为什么不从一开始就将几何作为“解析几何”来引入呢？这种做法的一个最大优点，是代数的高度严密性可以自动渗透于
+几何。
+\end_layout
+
+\begin_layout Section
+转向线性代数的向量空间
+\end_layout
+
+\begin_layout Standard
+自笛卡儿以来，在“解析几何”中，通过坐标系，可用三元数组表示空间一点，用线性方程表示空间一平面，用两个线性方程的联立表示一直线，用毕达哥拉斯（Pythagora
+s）定理表示两点间的距离，用三角函数表示角，这在微积分与力学中，是一种极为有用的方法。更简便的方法可以先验地用数组定义点，将它推广到
+\begin_inset Formula $n$
+\end_inset
+
+维空间，可用
+\begin_inset Formula $n$
+\end_inset
+
+元数组定义点，用线性方程定义平面和超平面。例如，两点
+\begin_inset Formula $(\xi_{1},\cdots,\xi_{n})$
+\end_inset
+
+，
+\begin_inset Formula $(\eta_{1},\cdots,\eta_{n})$
+\end_inset
+
+的距离可定义为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{\underset{i}{\sum}(\xi_{i}-\eta_{i})^{2}}$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+于是一般就可用方程来定义几何图形与关系了。
+\end_layout
+
+\begin_layout Standard
+如果进一步采用向量概念，使代数几何化，就可以创造出一种适用于几何的代数计算。向量作为一个几何对象，以
+\begin_inset Formula $x$
+\end_inset
+
+表示，它的坐标是
+\begin_inset Formula $(\xi_{1},\cdots,\xi_{n})$
+\end_inset
+
+，则向量
+\begin_inset Formula $x$
+\end_inset
+
+就相应于一个
+\begin_inset Formula $n$
+\end_inset
+
+元有序数组
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x=(\xi_{1},\cdots,\xi_{n})$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+数
+\begin_inset Formula $\alpha$
+\end_inset
+
+与向量
+\begin_inset Formula $x$
+\end_inset
+
+之积为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\alpha x=(\alpha\xi_{1},\cdots,\xi_{n})$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+向量
+\begin_inset Formula $x$
+\end_inset
+
+、
+\begin_inset Formula $y$
+\end_inset
+
+之和为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(\xi_{1},\cdots,\xi_{n})+(\eta_{1},\cdots,\eta_{n})=(\xi_{1}+\eta_{1},\cdots,\xi_{n}+\eta_{n}),$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(y=(\eta_{1},\cdots,\eta_{n}))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+向量
+\begin_inset Formula $x$
+\end_inset
+
+，
+\begin_inset Formula $y$
+\end_inset
+
+之内积为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x\cdot y=\underset{i}{\sum}\xi_{i}\eta_{i}$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+所有这些运算都具有相应的几何意义。
+\end_layout
+
+\begin_layout Standard
+这种处理方法的弱点是必须依赖一个与几何无关的坐标系，从而必须相应讨论坐标变换，这是向量分析、张量分析发展之必然。随着几何逐步渗入分析，在讨论无限维的函数空间时，
+其元素也被看作为向量，但这种受到抽象代数影响的几何化分析，单用坐标方法显然是不够的，于是促使了源于几何的向量空间概念，必须由解析方法转化为公理方法，这就诞生了线
+性代数。
+\end_layout
+
+\begin_layout Standard
+实数域、复数域或任意域
+\begin_inset Formula $K$
+\end_inset
+
+上的向量空间
+\begin_inset Formula $V$
+\end_inset
+
+，可定义为一个加法群，相应存在一个同态，并满足以下公理：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left.\begin{array}{l}
+(a+b)+c=a+b(+c)\\
+a+b=b+a\\
+a+0=0+a\\
+a+(-a)=0
+\end{array}\right\} \text{对}a,b\in V$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left.\begin{array}{l}
+\nu(a+b)=\nu a+\nu b\\
+(\alpha+\beta)c=\alpha c+\beta c\\
+\alpha(\beta c)=(\alpha\beta)c\\
+1\cdot a=a
+\end{array}\right\} \text{对}a,b,c\in V,\,\alpha,\beta,\nu\in K$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+进一步可定义
+\begin_inset Formula $V$
+\end_inset
+
+的子集的线性相关、基概念与维数（也许说明只限于2维、3维空间）、平行、线性流形、平面、半空间等等。这个向量空间实质上是仿射几何之基础，它的基本概念是结合性（关联
+性）与平行性，只有平行线段之比，而无距离概念。在建立了这个定义后，应该立即联系现实的几何模型，用2维、3维向量空间中的平行四边形以及相似三角形的有关性质来解释这
+些抽象公理。
+\end_layout
+
+\begin_layout Standard
+作为向量空间公理的第一个最重要的几何结论是体积概念。在
+\begin_inset Formula $n$
+\end_inset
+
+维向量空间中，一个
+\begin_inset Formula $n$
+\end_inset
+
+个向量的函数，叫做行列式，对
+\begin_inset Formula $n$
+\end_inset
+
+个向量
+\begin_inset Formula $a_{1},\cdots,a_{n}$
+\end_inset
+
+，这个函数的值为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\mbox{det}(a_{1},\cdots,a_{n})$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+它给出了由向量
+\begin_inset Formula $a_{1},\cdots,a_{n}$
+\end_inset
+
+所构成的超平行体的“有向”体积（在空间给以一定的赋范之后）。由此可见，行列式与体积的关系是非常基本的，但遗憾的是在行列式的教卞中，很少有人提及引进行列式的几何意
+义
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+体积。为此，我想更周密地对体积的公理化定义作些思考。
+\end_layout
+
+\begin_layout Standard
+应该定义一个向量的函数
+\begin_inset Formula $F$
+\end_inset
+
+，使其满足体积的直观假定，特别它是“有向”体积，也可以取负值。以3维空间向量
+\begin_inset Formula $a_{1}$
+\end_inset
+
+，
+\begin_inset Formula $a_{2}$
+\end_inset
+
+，
+\begin_inset Formula $a_{3}$
+\end_inset
+
+构成的平行六面体为例，其体积是作为“基”的平行四边形面积与“高”的乘积，这个“高”在“基”的一侧为正，在另一侧为负。
+\end_layout
+
+\begin_layout Standard
+当然，高不是仿射概念，但它是确定的。设
+\begin_inset Formula $a_{1}$
+\end_inset
+
+，
+\begin_inset Formula $a_{2}$
+\end_inset
+
+如构成“基平面”则高必为
+\begin_inset Formula $a_{3}$
+\end_inset
+
+的线性函数：假如以
+\begin_inset Formula $\gamma a_{3}$
+\end_inset
+
+的代替
+\begin_inset Formula $a_{3}$
+\end_inset
+
+，则高也乘以
+\begin_inset Formula $\gamma$
+\end_inset
+
+；假如以
+\begin_inset Formula $a'_{3}+a_{3}''$
+\end_inset
+
+代替
+\begin_inset Formula $a_{3}$
+\end_inset
+
+，则对应的“高”也作同样变化。据此可得公设：
+\end_layout
+
+\begin_layout Standard
+（1）
+\begin_inset Formula $F$
+\end_inset
+
+关于每个变量是线性的。
+\end_layout
+
+\begin_layout Standard
+如果向量
+\begin_inset Formula $a_{1},\cdots,a_{n}$
+\end_inset
+
+中有两个重合，那么这些向量所构成的超平行体就瓦解了，于是得公设：
+\end_layout
+
+\begin_layout Standard
+（2）
+\begin_inset Formula $F(a_{1},\cdots,a_{n})=0$
+\end_inset
+
+，如果对某些
+\begin_inset Formula $i\neq j$
+\end_inset
+
+，有
+\begin_inset Formula $a_{i}=a_{j}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+由此推得：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{array}{c}
+\text{假如}\\
+\\
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{l}
+b_{k}=a_{i}+a_{j}\text{，对某些}i,j,\, i\neq j\text{，}\\
+b_{k}=a_{k}\text{，对}k\neq i\text{，}
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $\begin{array}{c}
+\text{则}\\
+\\
+\\
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{l}
+F(b_{1},\cdots,b_{n})=F(a_{1},\cdots,a_{n})\\
+\phantom{F(b_{1},\cdots,b_{n})=}+F(a_{1},\cdots,a_{i},\cdots,a_{j},\cdots,a_{n})\\
+\phantom{F(b_{1},\cdots,b_{n})}=F(a_{1},\cdots,a_{n})\text{。}
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $\begin{array}{c}
+\text{同理，}\text{假如}\\
+\\
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{l}
+c_{j}=b_{i}-b_{i}\text{，对某些}i,j,\, j\neq i\text{，}\\
+c_{k}=b_{k}\text{，对}k\neq j\text{，}
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+则
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $F(c_{1},\cdots,c_{n})=F(b_{1},\cdots,b_{n})$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+另一方面，假如
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{l}
+c_{i}=-a_{j},c_{j}=a_{i}\text{，对某些}i,j,\, i\neq j\text{，}\\
+c_{k}=a_{k}\text{，对}k\neq i,j\text{，}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $\begin{array}{c}
+\text{则}\\
+\\
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{l}
+\phantom{=}F(a_{1},\cdots,a_{i},\cdots,a_{j},\cdots,a_{n})\\
+=-F(a_{1},\cdots,a_{i},\cdots,a_{j},\cdots,a_{n})
+\end{array}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+由此即得
+\end_layout
+
+\begin_layout Standard
+（2'）
+\begin_inset Formula $F$
+\end_inset
+
+是反称的。
+\end_layout
+
+\begin_layout Standard
+对公设（1），（2）[或（1），（2'）]补充一个赋范规定：在选择了一个有序基
+\begin_inset Formula $e_{1},\cdots,e_{n}$
+\end_inset
+
+后，令：
+\end_layout
+
+\begin_layout Standard
+（3）
+\begin_inset Formula $F(e_{1},\cdots,e_{n})=1$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+用通常的方法可以证得，具有性质（1）～（3）的函数存在且唯一，它就是行列式
+\begin_inset Formula $\mbox{det}$
+\end_inset
+
+，它的几何意义就是有向体积。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n$
+\end_inset
+
+维向量空间作为
+\begin_inset Formula $n$
+\end_inset
+
+维仿射几何的空间，可以定义到自身的线性映射，可以规定空间的定向，还可以引入重心概念，并建立凸性理论，这些都是仿射几何的内容。
+\end_layout
+
+\begin_layout Standard
+为了引进初等几何中相等的概念以及线段和角的比较，必须在向量空间的公理基础上，建立内积的概念，它的含义和性质都可以通过2维、3维的具体几何模型进行直观的解释。这个
+具有内积的向量空间是欧氏几何的基础，它有向量长度和距离的概念。由此还可以讨论线性子空间的正交和绝对体积，建立欧氏空间的定向，并在定向欧氏空间中定义向量积。
+\end_layout
+
+\begin_layout Standard
+在向量空间内积的基础上可以定义角的余弦，于是通过反三角函数可得到角，再利用平面旋转变换或复数性质可导出三角函数的加法定理。这样处理角的概念，必须要求有较多的具体
+几何知识作为基础，并且需要介入超越函数（三角函数、反三角函数）。
+\end_layout
+
+\begin_layout Standard
+如果要避免“超越”的途径，可以采取更为形式的纯代数方式来重新组织角的定义，先验地把它理解成某个抽象旋转群的元素，并由此得出有关结论。但这种做法只能为布尔巴基（B
+ourbaki）学派所推崇，虽然它的异常清晰和严谨也许为数学家们所欢迎，但从教学的角度上看，这种脱离现实的几何、三角之基础而不管实际应用的做法，必然会损害学生的
+学习。
+\end_layout
+
+\begin_layout Section
+作为几何的线性代数
+\end_layout
+
+\begin_layout Standard
+有一个大家熟悉的观点，就是由于线性代数的产生，几何就过时了，或者说几何与线性代数是相同的，这是一种荒谬的解释。前面我已详细揭示了有多少几何被包含在线性代数中，以
+及如何用它去促进线性代数的教学，虽然我没有说明线性代数有多么重要，但至少可以指出，它与线性微分方程和随机过程都是有关的。许多教科书作者不知道如何应用线性代数，于
+是他们就把几何作为牺牲品，而唯一适合于几何的任务，即作为促进学习的工具反倒被忽视了。
+\end_layout
+
+\begin_layout Standard
+我曾参加过一次几何教学会议，结果惊奇的是，事实上很少谈到教几何，而谈得更多的是关于几何基础的教学，即有关整体的公理化组织，当然它是预先构想好的。只有少数人提倡要
+花精力去教几何，并且主张在任何几何基础的教学之前，应该有几何本身的教学。也许大多数人从未想到可以而且应当以不太复杂的方式来教几何。
+\end_layout
+
+\begin_layout Standard
+无疑，线性代数是提供给几何体系的一个合适方法，而不管这个体系可能受到怎样的限制。于是，这就是作为几何的线性代数所出现的通常形式。但事实上、只要线性代数像几何一样
+出现，它就会强加给学生，而当学生在线性代数中可以活动时（那还是个问题），它也与几何大相径庭。允许几何随着线性代数的方法扩展，即使这一点也在不断地削弱，老的三角形
+作图是相当无聊的，但所谓线性代数的几何问题比它还不如，而且也令人厌恶。
+\end_layout
+
+\begin_layout Standard
+它的基本错误是要求几何从属于一个数学体系，而线性代数是唯一适合它的，这使人相信所教的线性代数是有用的。至于教多少几何以及以什么方式教只依赖于是否符合这个体系，这
+就意味着它必须从仿射几何开始，而最引人注目的空间性质
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+妥贴却被忽视了，更糟的是，这种僵化的方法没有机会让儿童去探索空间以及其中的物体，也没有机会去组织题材，发明定义和演绎推理。事实上不存在几何所能符合的有意义的体系
+。我们可以用线性代数来计算球与平面或两球之交，但要发现结果是否是圆，就必须知道现实空间中真实的球是怎样的。线性代数完全不适于发现全等三角形能否覆盖平面，以及全等
+五角形一般则不能，甚至也不适于证明这类事实。我们还可以列出更多的事实来说明线性代数在这一领域内是无多大用处的。在线性代数所承认的几何中，最重要的部分就是两条不同
+的直线可以没有或有一个交点，两个圆可以没有或有一个、二个交点，也许在向量代数中还可以证明三角形三边的垂直平分线交于一点，但那是枯燥乏味的。向量空间中唯一可解决的
+几何课题是重心和凸性，但通常又因为不符合数学体系而不加考虑。
+\end_layout
+
+\begin_layout Standard
+几何基础用线性代数来处理更合适，但学生应该先熟悉几何再发展基础，而且由线性代数所得出的几何基础很不自然，因为其中没有角的概念，要重新建立它也有很多麻烦。虽然，可
+以用“超越”的工具，而且每个证明都可以转化成解析方法，但是，在此之前还必须先掌握几何所需要的证明。
+\end_layout
+
+\begin_layout Standard
+如果说所有试图将几何结合进代数的人都是因为他们恨几何，这是不公平的。与其相反，他们是想“拯救几何”而“拯救几何”就意味着必须将几何结合进一个适当的数学体系，不符
+合体系的东西就必须去掉。几何要在数学教学中维持一定的地位，它就必须是严密的，而体系的建造者只知道一种严密的水平，即体系的严密水平，每件事情在此水平之下他们就认为
+是伪造的，在此水平之上才是具有高度趣味的，几何也必须适应这个水平。
+\end_layout
+
+\begin_layout Standard
+事实上，很难证明体系建造者的意图是否合理，因为这样的数学体系并不比传统的几何更稳固，要想根据体系进行推理而不联系现实，那就应垓先从现实去推出这个体系。要把几何解
+释成线性代数，学生首先应该熟悉几何。
+\end_layout
+
+\begin_layout Section
+用公理系统“救几何”
+\end_layout
+
+\begin_layout Standard
+几何公理学家们主张用几何基础
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+帕施、希尔伯特式的几何公理系统来“救几何”。实际上，线性代数也提出了一个严谨演绎的几何公理系统，但是线性代数必须以实数为前提，这就犯了几何的大忌。几何公理学家们
+的最终目标也是要达到几何的线性代数化，但是他们走的是从几何公理到线性代数的道路，即以几何公理作为构造的起点。
+\end_layout
+
+\begin_layout Standard
+先由仿射公理得到向量运算，形成向量群，建立相应的自同态、再加上德沙格（Desargues）公理、帕普斯（Pappus）-帕斯卡（Pascal）公理，就形成域，进
+一步加上几何顺序公理、拓扑公理，就形成了实数域。实际上，应该在学生已熟悉了实数域，并掌握了大量实质性的几何知识之后，再经历前面所说的过程，那才是有意义的；否则，
+这样的教学是无效的。
+\end_layout
+
+\begin_layout Standard
+因为，希尔伯特公理系统并无特殊性，和其他公理系统一样，最终也是证明可以用实数域使几何坐标化和代数化，而公理系统本身给人的印象却是琐碎、复杂、容易忘记且难以理解，
+在这些公理系统中无法进行具体的工作，不能作出发现，连进行命题证明、逻辑的推理都困难，它的演绎结构也是肤浅的。创造欧氏几何公理系统不是为了欧氏几何的具体练习，而是
+为了研究超越几何，为了探索公理的相互关系、公理的独立性、公理的完备性，也就是研究几何的基础，而不是为了发现几何的事实。
+\end_layout
+
+\begin_layout Section
+教学中的几何公理系统
+\end_layout
+
+\begin_layout Standard
+公理系统有实用价值，也有形式价值。几何情况下可以排除实用价值。在几何公理系统中，可向学生介绍严谨的表达方式和正确无误的演绎推理，同时，在公理化过程中还能学习如何
+割断本体论的联系，按照希尔伯特的传统表达方式，就是“我们设想……”因为公理系统的对象是不加定义的，它由同样不加定义的关系，通过隐含的方式来确定，因而可创造出各种
+不同于常规的几何
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这是一个具有重大形式价值的观念。
+\end_layout
+
+\begin_layout Standard
+公理系统能否教以及应该如何教，对此应该明确一点，它必须通过公理化的活动过程来学习，那就是“与其让学生学习公理系统，还不如让学生学习‘公理化’”。要做到这点，那就
+不能仅仅提供学生一个预先构想好的公理系统，且随之作一些机械的操练。在公理系统中引出少量的推论，这是无济于事的。
+\end_layout
+
+\begin_layout Standard
+正确做法应该是通过一些具体模型，给出几何的实质内容，建立起各个局部的组织，再从中找出共同的特性，加以抽象，建立联系，从而形成整体的组织，建立总的系统，再割断那些
+本体论的联系。只有在学生掌握丰富的几何内涵，熟悉具体的几何问题这种条件下，才有可能从本体论的联系中挣脱出来而形成整体结构，否则，他就无法理解单个公理的目的，无法
+理解公理系统内部的关系以及必须导出的那些推论的作用，而反会形成“公理系统只是使简单事情复杂化”这一错觉。
+\end_layout
+
+\begin_layout Standard
+为此，必须这样构造公理系统，既能深入发掘几何的内在联系，但又不是使学生面对一个现成的体系，而是在各类模型中，让学生发现其共性，找到其共同的规律，再从中挑选某些特
+性，导出其他的推论。在这一系列的数学活动中，要求学生忘记以前知道的点及直线，必须限于以公理为基础，更重要的是应该引起学生的疑问，老的方法不行了，是否有新的看法。
+只有这样才能促使思维的发展，现代几何公理系统就是在非欧几何取得胜利后，人们敢于怀疑欧氏几何的基础上才形成的。
+\end_layout
+
+\begin_layout Standard
+总之，只有建立在现实基础上，以大量丰富的几何事实为后盾，在不断组织，不断比较，反复思考，反复探索的数学活动中，在学习公理化的过程中，才能真正掌握几何的公理系统。
+人们不可能组织一个未知的领域，对任何公理系统都一样。从教学法的观点上看，公理系统与传统的演绎之间有极大的差别，传统的演绎几何相应于前面所说的“局部组织”阶段，而
+几何的公理系统却具备“整体组织”的特征。在几何教学中，必须根据学生的学习层次来处理好这两个不同阶段的联系与区别。譬如，最初层次可限于直观组织现实空间的几何形状与
+现象，并形成概念与性质；到较高层次，可通过逻辑关系来组织这些概念和性质；再进一步的层次，那就可进入公理体系了。让学生对其间的关系、逻辑进行研究和探索，但绝对不能
+限死在预先构想的公理系统之中，否则必将导致几何的消亡。
+\end_layout
+
+\begin_layout Section
+局部组织
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+垂直平分线
+\end_layout
+
+\begin_layout Standard
+三角形三边的垂直平分线交于一点，这是学生很容易发现的一个定理。通常作两边的垂直平分线交于一点，再看第三边的乘直平分线是否也通过该点，只要根据线段的垂直平分线是到
+线段两端等距离的所有点的集合这一性质，即可得证。
+\end_layout
+
+\begin_layout Standard
+在这简单的证明中包含着一系列的思想方法，也提供了丰富的教学法论点，这是局部组织的一个很好例子，值得引起注意。
+\end_layout
+
+\begin_layout Standard
+第一，对轨迹概念中正逆命题，必要与充分条件，当且仅当等所反映出来的逻辑复杂性形成了最初的信服心理。
+\end_layout
+
+\begin_layout Standard
+第一，通过线段相等的传递性，使普通的传递性概念初次显示出它的能动作用。
+\end_layout
+
+\begin_layout Standard
+第三，命题本身是对称的，但必须通过不对称的方式来证明它。要学会“三直线共点”与“一直线通过另外两直线的交点”是相同的，这是重要的一步，它说明几何问题的形式是灵活
+多变的，在一定条件下可以相互转化，这是方法论范例的第一个例子，即使在数学的最高层次上也是有用的。
+\end_layout
+
+\begin_layout Standard
+第四，定理本身是关于结合性质的（三直线通过同一点），而其证明却要通过度量性质的讨论，这就反映了几何性质内在深刻的本质联系，对此需作进一步分析。
+\end_layout
+
+\begin_layout Standard
+第五，由此定理可导出三角形外接圆的作图，将逻辑证明与构造性问题联系起来，导致生动、有趣的几何作图的研究。
+\end_layout
+
+\begin_layout Standard
+为了将学习提高到一个更高的层次，还可以在这个定理的基础上，提出一连串的问题，例如，为什么线段的垂直平分线是到线段两端等距离的点的轨迹？为什么相等可以传递？为什么
+三角形两边的垂直平分线必定相交？为什么两直线至多交于一点？等等，对每一个问题的回答往往又包含着新问题的萌芽，这一连串问题可以组成一条无穷尽的链。
+\end_layout
+
+\begin_layout Standard
+当然，这样的安排是遵循着一条探索的道路，引起学生疑问，让他们多问几个为什么，以便更深入地理解和解释现象。如果按照另一种构思哲学，将数学看作一个自我完善的个体，以
+公理化的方式来隐藏原始的定义，而割断它和现实的联系，于是数学就作为一个预先构想的现成体系提供给学生，那就以公理系统作为出发点了。
+\end_layout
+
+\begin_layout Standard
+我们主张将数学作为一种活动的数学，必须由学生自己做出来，这就不能从数学整体的演绎系统着手。因为大多数学生只能组织和理解较短的演绎链，所以使他们学会局部地组织一个
+现实的数学领域，或组织数学本身的一部分，那是可行的，而且也是日常生活与职业所需要的。整体的演绎推理太复杂，过程也太长，难以具体实施，而局部的组织可随着学生的层次
+而变，虽非彻底，但却可以达到一定的合理演绎抽象水平，它符合数学教学的需要。
+\end_layout
+
+\begin_layout Section
+局部组织
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+球极平面射影
+\end_layout
+
+\begin_layout Standard
+球极平面射影将圆映射成圆（或直线），而且保持交角不变。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "30text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/16-6.png
+	width 30text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+证明：如图16-6，球
+\begin_inset Formula $\sigma$
+\end_inset
+
+切平面
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+于南极
+\begin_inset Formula $S$
+\end_inset
+
+，以北极
+\begin_inset Formula $N$
+\end_inset
+
+为射影中心，将球
+\begin_inset Formula $\sigma$
+\end_inset
+
+射影到平面
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+上，将球
+\begin_inset Formula $\sigma$
+\end_inset
+
+上任意三点
+\begin_inset Formula $P$
+\end_inset
+
+、
+\begin_inset Formula $Q$
+\end_inset
+
+、
+\begin_inset Formula $R$
+\end_inset
+
+映射成平面
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+上对应的三点
+\begin_inset Formula $P'$
+\end_inset
+
+、
+\begin_inset Formula $Q'$
+\end_inset
+
+、
+\begin_inset Formula $R'$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+先证圆映射成圆：在直角三角形
+\begin_inset Formula $NSP'$
+\end_inset
+
+中，
+\begin_inset Formula $SP$
+\end_inset
+
+是斜边上的高，
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\overline{NS^{2}}=\overline{NP}\cdot\overline{NP'}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+同理
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\overline{NS^{2}}=\overline{NQ}\cdot\overline{NQ'}$
+\end_inset
+
+，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+得
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\overline{NP}\cdot\overline{NP'}=\overline{NQ}\cdot\overline{NQ'}$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+于是推出
+\begin_inset Formula $P$
+\end_inset
+
+、
+\begin_inset Formula $Q$
+\end_inset
+
+、
+\begin_inset Formula $P'$
+\end_inset
+
+、
+\begin_inset Formula $Q'$
+\end_inset
+
+在同一个圆
+\begin_inset Formula $r$
+\end_inset
+
+上。同理可知，
+\begin_inset Formula $Q$
+\end_inset
+
+、
+\begin_inset Formula $R$
+\end_inset
+
+、
+\begin_inset Formula $Q'$
+\end_inset
+
+、
+\begin_inset Formula $R'$
+\end_inset
+
+也在同一个圆
+\begin_inset Formula $p$
+\end_inset
+
+上。
+\end_layout
+
+\begin_layout Standard
+因为两圆
+\begin_inset Formula $p$
+\end_inset
+
+、
+\begin_inset Formula $e$
+\end_inset
+
+相交于
+\begin_inset Formula $Q$
+\end_inset
+
+、
+\begin_inset Formula $Q'$
+\end_inset
+
+两点，所以
+\begin_inset Formula $p$
+\end_inset
+
+、
+\begin_inset Formula $r$
+\end_inset
+
+必在同一球
+\begin_inset Formula $\sigma$
+\end_inset
+
+上，所以三对对应点共球（若
+\begin_inset Formula $P'$
+\end_inset
+
+、
+\begin_inset Formula $Q'$
+\end_inset
+
+、
+\begin_inset Formula $R'$
+\end_inset
+
+共线，则三对对应点在同一平面上，即圆变成直线）。
+\end_layout
+
+\begin_layout Standard
+现设
+\begin_inset Formula $c$
+\end_inset
+
+是球
+\begin_inset Formula $\sigma$
+\end_inset
+
+上一圆，是它在平面
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+上的像，在
+\begin_inset Formula $c$
+\end_inset
+
+上任选三点
+\begin_inset Formula $P$
+\end_inset
+
+、
+\begin_inset Formula $Q$
+\end_inset
+
+、
+\begin_inset Formula $R$
+\end_inset
+
+，过
+\begin_inset Formula $P$
+\end_inset
+
+、
+\begin_inset Formula $Q$
+\end_inset
+
+、
+\begin_inset Formula $R$
+\end_inset
+
+及对应点
+\begin_inset Formula $Q'$
+\end_inset
+
+可决定一球
+\begin_inset Formula $\tau$
+\end_inset
+
+，由前证可知，
+\begin_inset Formula $\tau$
+\end_inset
+
+必包含对应点
+\begin_inset Formula $P'$
+\end_inset
+
+、
+\begin_inset Formula $R'$
+\end_inset
+
+。球
+\begin_inset Formula $\tau$
+\end_inset
+
+与
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+交于一圆
+\begin_inset Formula $c^{*}$
+\end_inset
+
+，则
+\begin_inset Formula $Q'$
+\end_inset
+
+必在
+\begin_inset Formula $c^{*}$
+\end_inset
+
+上。这对
+\begin_inset Formula $c$
+\end_inset
+
+的任何点
+\begin_inset Formula $Q$
+\end_inset
+
+都成立，所以
+\begin_inset Formula $c$
+\end_inset
+
+的像
+\begin_inset Formula $c'$
+\end_inset
+
+必包含于
+\begin_inset Formula $c^{*}$
+\end_inset
+
+内。反之，如果现在将球极平面射影反过来，显然有
+\begin_inset Formula $c^{*}=c'$
+\end_inset
+
+，所以
+\begin_inset Formula $c'$
+\end_inset
+
+是一圆即证明了球极平面射影将圆映射成圆。
+\end_layout
+
+\begin_layout Standard
+再证保持交角不变：过任一点
+\begin_inset Formula $P$
+\end_inset
+
+的两曲线的交角定义为两曲线在
+\begin_inset Formula $P$
+\end_inset
+
+点的两条切线的交角。设
+\begin_inset Formula $\sigma$
+\end_inset
+
+上过
+\begin_inset Formula $P$
+\end_inset
+
+点有两条曲线
+\begin_inset Formula $k_{1}$
+\end_inset
+
+和
+\begin_inset Formula $k_{2}$
+\end_inset
+
+，在球极平面射影下的像是平面
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+上过
+\begin_inset Formula $P'$
+\end_inset
+
+点的两曲线
+\begin_inset Formula $k'_{1}$
+\end_inset
+
+和
+\begin_inset Formula $k'_{2}$
+\end_inset
+
+、必须证明在
+\begin_inset Formula $P$
+\end_inset
+
+点的交角和
+\begin_inset Formula $k'_{1}$
+\end_inset
+
+、
+\begin_inset Formula $k'_{2}$
+\end_inset
+
+在
+\begin_inset Formula $P'$
+\end_inset
+
+点的交角相等。
+\end_layout
+
+\begin_layout Standard
+因为曲线
+\begin_inset Formula $k_{1}$
+\end_inset
+
+、
+\begin_inset Formula $k_{2}$
+\end_inset
+
+可以用在
+\begin_inset Formula $P$
+\end_inset
+
+点与
+\begin_inset Formula $k_{1}$
+\end_inset
+
+、
+\begin_inset Formula $k_{2}$
+\end_inset
+
+分别相切的任意一对曲线所代替，特别可将
+\begin_inset Formula $k_{1}$
+\end_inset
+
+、
+\begin_inset Formula $k_{2}$
+\end_inset
+
+取作过
+\begin_inset Formula $S$
+\end_inset
+
+点的圆，于是
+\begin_inset Formula $k_{1}$
+\end_inset
+
+、
+\begin_inset Formula $k_{2}$
+\end_inset
+
+就是交于
+\begin_inset Formula $P$
+\end_inset
+
+和
+\begin_inset Formula $S$
+\end_inset
+
+两点的两个圆。根据对称性，它们在
+\begin_inset Formula $P$
+\end_inset
+
+点的交角等于在
+\begin_inset Formula $S$
+\end_inset
+
+点的交角，在球极平面射影下，
+\begin_inset Formula $k_{1}$
+\end_inset
+
+、
+\begin_inset Formula $k_{2}$
+\end_inset
+
+的像是交于
+\begin_inset Formula $P'$
+\end_inset
+
+点和
+\begin_inset Formula $S$
+\end_inset
+
+点的两个圆
+\begin_inset Formula $k'_{1}$
+\end_inset
+
+和
+\begin_inset Formula $k'_{2}$
+\end_inset
+
+（
+\begin_inset Formula $P'$
+\end_inset
+
+是
+\begin_inset Formula $P$
+\end_inset
+
+的对应点，
+\begin_inset Formula $S$
+\end_inset
+
+对应于它自身）。同理可证，
+\begin_inset Formula $k'_{1}$
+\end_inset
+
+和
+\begin_inset Formula $k'_{2}$
+\end_inset
+
+在
+\begin_inset Formula $P$
+\end_inset
+
+点的交角等于在
+\begin_inset Formula $S$
+\end_inset
+
+点的交角。又因
+\begin_inset Formula $k_{1}$
+\end_inset
+
+、
+\begin_inset Formula $k'_{1}$
+\end_inset
+
+在
+\begin_inset Formula $S$
+\end_inset
+
+点相切，
+\begin_inset Formula $k_{2}$
+\end_inset
+
+、
+\begin_inset Formula $k'_{2}$
+\end_inset
+
+也在
+\begin_inset Formula $S$
+\end_inset
+
+点相切，所以
+\begin_inset Formula $k_{1}$
+\end_inset
+
+、
+\begin_inset Formula $k_{2}$
+\end_inset
+
+的交角与
+\begin_inset Formula $k'_{1}$
+\end_inset
+
+、
+\begin_inset Formula $k'_{2}$
+\end_inset
+
+的交角相同，也就是球极平面射影保持对应曲线的交角不变。
+\end_layout
+
+\begin_layout Standard
+当然也可以用反演的方法或代数的方法来证明上述结果，但上述证明是很直观的一种简捷方法，不霈要引进任何新的观点，却可导致新的见解。
+\end_layout
+
+\begin_layout Standard
+在这一例中，仍有许多值得注意的问题。
+\end_layout
+
+\begin_layout Standard
+首先，要考虑点和圆的特殊位置，如果
+\begin_inset Formula $P$
+\end_inset
+
+点重合于北极
+\begin_inset Formula $N$
+\end_inset
+
+、那么它的像就将是平面上新创造的一个无限远点；如果
+\begin_inset Formula $\sigma$
+\end_inset
+
+上一个圆通过北极
+\begin_inset Formula $N$
+\end_inset
+
+，那么它的像就将退化成为平面
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+上的一条直线，它通过这个无限远点。这时，
+\begin_inset Formula $\sigma$
+\end_inset
+
+上通过北极
+\begin_inset Formula $N$
+\end_inset
+
+的圆和它的像位于同一平面上。如果考虑
+\begin_inset Formula $\sigma$
+\end_inset
+
+上通过南极
+\begin_inset Formula $S$
+\end_inset
+
+的圆（不过
+\begin_inset Formula $N$
+\end_inset
+
+），以类似的方法可证明它的像就是
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+上通过
+\begin_inset Formula $S$
+\end_inset
+
+的圆。
+\end_layout
+
+\begin_layout Standard
+对证明过程作进一步考虑，还可提出：为什么通过
+\begin_inset Formula $N$
+\end_inset
+
+与平面
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+不平行的直线，必定会和球
+\begin_inset Formula $\sigma$
+\end_inset
+
+相交？为什么球
+\begin_inset Formula $\sigma$
+\end_inset
+
+在
+\begin_inset Formula $N$
+\end_inset
+
+点处的切线与平面
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+平行？为什么
+\begin_inset Formula $NS$
+\end_inset
+
+垂直于平面？为什么球
+\begin_inset Formula $\tau$
+\end_inset
+
+和平面
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+交于一个圆？为什么交于两点的两圆的两交角相等？对后一个问题，可以通过关于对称平面的反射保持角的度量来加以证明。可是相应的又可以提出一连串问题：为什么反射使圆变成
+圆？使球变成球？甚至于为什么
+\begin_inset Formula $\overline{NS^{2}}=\overline{NP}\cdot\overline{NP'}$
+\end_inset
+
+？如何从
+\begin_inset Formula $\overline{NP}\cdot\overline{NP'}=\overline{NQ}\cdot\overline{NQ'}$
+\end_inset
+
+推出
+\begin_inset Formula $P$
+\end_inset
+
+、
+\begin_inset Formula $Q$
+\end_inset
+
+、
+\begin_inset Formula $P'$
+\end_inset
+
+、
+\begin_inset Formula $Q'$
+\end_inset
+
+共圆等等。学生在这个例子中，可以通过一系列问题组成的演绎链7去学会如何对局部的几何情况进行合乎逻辑的推理绍织工作。可以联系毕达哥拉斯定理，相似三角形以及有关圆和
+球的性质，然后总可以在某个地方终止，即限于某个范围，这在日常生活以及各种科学中也是常见且合乎情理的。相反，要是过于冗长且噜苏地将所有的问题全部塞进证明之中，那就
+会扼杀了几何。但是如果采用线性代数的途径或根据预先构想的几何公理系统，那就无法体会上述这样的局部组织，也失去了许多直观、生动、有趣的几何情境。
+\end_layout
+
+\begin_layout Section
+组织一个领域
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+定向概念
+\end_layout
+
+\begin_layout Standard
+如果说局部组织往往是指某个独立的几何命题，那么在局部组织的基础上就可以进一步对某个概念有关的课题，或环绕着它而形成的一个方面进行系统的演绎推理。
+\end_layout
+
+\begin_layout Standard
+一般而言，几何方法都比代数方法优越，但对此也应一分为二，常常在每个优点的另一侧面就是它的弱点，也就是说几何方法具有两面性。
+\end_layout
+
+\begin_layout Standard
+就以作图与空间想象而言，这本是几何的一个长处，可借助于生动直观的形象来引导人们的思想过程，但常常由于图形或想象的错误，使人们的思维误入歧途。因此我们既要借助直观
+，但又必须在一定条件下摆脱直观而形成抽象概念，或由几何图形转向代数形式，但这种转化是不容易达到的，常会失之于冗长而繁琐。
+\end_layout
+
+\begin_layout Standard
+运用图形时，我们常常会遇到特殊与一般的矛盾。我们希望通过图形与想象获得一个一般的结论，但面对的和依据的又恰巧是某个特殊的图形，当你作出某个图形时，它本身就必然代
+表着特定的一个，是“这一个”而不是“那一个”。譬如，要导出有关三角形的一些性质，我们常常就作出一个锐角三角形，并从具体、直观的图形中，作出有关的结论。而这些结论
+，可能就不符合钝角三角形的情况，即作为一般三角形的命题，那是不成立的。因此必须处理好一般与特殊的辩证关系，要从特殊情况中探索一般的规律，但又不是以特殊来代替一般
+，而是在深入考虑各种特殊情况的区别、联系以后，再找出它们的共同规律。有时在作出一般的结论以后，还得进一步探索一些退化的情况，如某些点重合，或某些直线重合等，这时
+相应的性质或证明方法等都会发生改变，对此必须作全面的考察。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/16-7.png
+	width 40col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/16-8.png
+	width 40col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+我们并不主张在中学几何教学中发展一个完美的、甚至以公理化为基础的定向理论，进行一大堆复杂的演绎推理，而是应该借助于直观，让学生在头脑里自然地形成有关定向的意识。
+参照历史发展的情况，在几何的早期阶段，如欧几里得原本中，多数是借助于图形和逻辑推理的结合，隐含地引入直线上的定向。如图16-7，三角形
+\begin_inset Formula $ABC$
+\end_inset
+
+中，角
+\begin_inset Formula $C$
+\end_inset
+
+的平分线交对边于
+\begin_inset Formula $D$
+\end_inset
+
+，三角形
+\begin_inset Formula $ABC$
+\end_inset
+
+的内切圆切于
+\begin_inset Formula $AB$
+\end_inset
+
+于
+\begin_inset Formula $E$
+\end_inset
+
+，
+\begin_inset Formula $D$
+\end_inset
+
+、
+\begin_inset Formula $E$
+\end_inset
+
+两点在边上的位置怎样？由图可设
+\begin_inset Formula $AC>BC$
+\end_inset
+
+，
+\begin_inset Formula $\angle CAB<\angle CBA$
+\end_inset
+
+，而
+\begin_inset Formula $\angle ACD=\angle BCD$
+\end_inset
+
+，则
+\begin_inset Formula $\angle ADC>\angle BDC$
+\end_inset
+
+。又因为
+\begin_inset Formula $\angle MED$
+\end_inset
+
+是直角，则
+\begin_inset Formula $\angle MDE$
+\end_inset
+
+必为锐角，
+\begin_inset Formula $\angle MDE<\angle ADC$
+\end_inset
+
+，即
+\begin_inset Formula $\angle CDE=\angle CDB$
+\end_inset
+
+。所以
+\begin_inset Formula $E$
+\end_inset
+
+在线段
+\begin_inset Formula $DB$
+\end_inset
+
+上。可以知道这个条件是充分而又必要的。但这里未介绍任何公理、公设、定义；再如在平行线截割定理的讨论中，有时就通过图16-8的两个图形来说明，虽然定向不同，但从直
+观形象即可知道其结论是等价的。至于平面和空间的定向，基本上没有涉及。
+\end_layout
+
+\begin_layout Standard
+到帕施和希尔伯特时代，就有意识地讨论定向问题了。引进了“介于”概念和有关公理，但“介于”是个三元关系（点
+\begin_inset Formula $B$
+\end_inset
+
+介于点
+\begin_inset Formula $A$
+\end_inset
+
+与点
+\begin_inset Formula $C$
+\end_inset
+
+之间），虽然公理严谨，但用来证明推理却不很方便。
+\end_layout
+
+\begin_layout Standard
+更适合于现代概念的是采用线性顺序，前后或左右，这是一个二元关系，具有传递性，即
+\begin_inset Formula $A$
+\end_inset
+
+在
+\begin_inset Formula $B$
+\end_inset
+
+之左，
+\begin_inset Formula $B$
+\end_inset
+
+在
+\begin_inset Formula $C$
+\end_inset
+
+之左，则
+\begin_inset Formula $A$
+\end_inset
+
+在
+\begin_inset Formula $C$
+\end_inset
+
+之左。
+\end_layout
+
+\begin_layout Standard
+定向概念可以在仿射平面内讨论。对每一条直线可以凭直观判定它可以有两个相反的定向，由此可建立射线及线段，并导出凸集概念，通过平行射影，可建立定向直线之间的内部联系
+。如图16-9，直线
+\begin_inset Formula $g$
+\end_inset
+
+到
+\begin_inset Formula $g'$
+\end_inset
+
+的一个平行射影，如果直线上已确定一个定向：
+\begin_inset Formula $A$
+\end_inset
+
+在
+\begin_inset Formula $B$
+\end_inset
+
+之左，
+\begin_inset Formula $B$
+\end_inset
+
+在
+\begin_inset Formula $C$
+\end_inset
+
+之左，……则在直线
+\begin_inset Formula $g'$
+\end_inset
+
+上也有相应的一个定向：对应点
+\begin_inset Formula $A'$
+\end_inset
+
+在
+\begin_inset Formula $B'$
+\end_inset
+
+之左，
+\begin_inset Formula $B'$
+\end_inset
+
+在
+\begin_inset Formula $C'$
+\end_inset
+
+之左，……换言之，平行射影保持直线的定向，这个假设就代替了复杂的帕施公理。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "40text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/16-9.png
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+进一步仍借助直观可知，一直线分平面成两个部分，于是可确定平面的定向，它也有两个相反的定向，在此用代数方法可能容易为人所接受，那就像通常采用的以仿射平面内一对独立
+的有序向量来决定平面的定向（逆时针或顺时针）相应地可以得出面积的正负，即利用体积函数概念，同时可以推出仿射映射保持定向，也保持面积符号。
+\end_layout
+
+\begin_layout Standard
+空间被一平面分成两部分，空间的定向类似地由三个独立的有序向量来决定（右手系或左手系），也有两种相反的定向，相应地可以得出体积的正负，它们当然也是仿射映射下的不变
+性质。
+\end_layout
+
+\begin_layout Section
+组织一个领域
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+循环定向
+\end_layout
+
+\begin_layout Standard
+有向直线是以点的线性顺序为特征的，可是考虑过同一点的有向直线束，就需要另一种定向，那就是循环定向。正如通常在时钟表面上熟悉的那样，我们不能说3点钟在9点钟之前，
+或3点钟在9点钟之后，只能说3点钟，6点钟，9点钟的序列是正确的，当然6点钟，9点钟，9点钟的序列也是正确的。
+\end_layout
+
+\begin_layout Standard
+一般情况下，
+\begin_inset Formula $n$
+\end_inset
+
+个元素
+\begin_inset Formula $a_{1},\cdots,a_{n}$
+\end_inset
+
+的任意排列
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $a_{i_{1},},\cdots,a_{i_{p}},a_{i_{p+1}},\cdots,a_{i_{n}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+和
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $a_{i_{p+1},},\cdots,a_{i_{n}},a_{i_{1}},\cdots,a_{i_{p}}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+称为循环等价，由此可以形成循环等价类。一个有限集的循环定向就是在它元素的循环等价类中选定一个。例如，一个三元组
+\begin_inset Formula $a$
+\end_inset
+
+、
+\begin_inset Formula $b$
+\end_inset
+
+、
+\begin_inset Formula $c$
+\end_inset
+
+只容许两种循环定向，一是
+\begin_inset Formula $abc$
+\end_inset
+
+（它与
+\begin_inset Formula $bca,cab$
+\end_inset
+
+循环等价）；二是
+\begin_inset Formula $acb$
+\end_inset
+
+（它与
+\begin_inset Formula $cba,bac$
+\end_inset
+
+循环等价）。
+\end_layout
+
+\begin_layout Standard
+一个任意集的循环定向就是它的每一个有限子集都有一个确定的循环定向，而且当有限子集有包含关系时，其循环定向必须相容，即符合自然的扩展和限定。譬如，为了确定任意集的
+循环定向，只要对任意集的所有三元子集选定循环定向，但这必须符合一个相容条件：
+\end_layout
+
+\begin_layout Standard
+若
+\begin_inset Formula $abd$
+\end_inset
+
+和
+\begin_inset Formula $bcd$
+\end_inset
+
+符合循环定向，则
+\begin_inset Formula $acd$
+\end_inset
+
+和
+\begin_inset Formula $abc$
+\end_inset
+
+也符合循环定向。
+\end_layout
+
+\begin_layout Standard
+一个循环定向集
+\begin_inset Formula $Z$
+\end_inset
+
+可以在某一个元素
+\begin_inset Formula $u$
+\end_inset
+
+处切开，使之转变为一个线性有序集
+\begin_inset Formula $Z_{u}$
+\end_inset
+
+，这只要作如下规定：
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+定义
+\series default
+
+\begin_inset space \quad{}
+\end_inset
+
+对所有元素
+\begin_inset Formula $x\neq u$
+\end_inset
+
+，
+\begin_inset Formula $x$
+\end_inset
+
+在
+\begin_inset Formula $u$
+\end_inset
+
+的左边。
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+定义
+\series default
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $x$
+\end_inset
+
+在
+\begin_inset Formula $y$
+\end_inset
+
+的左边，当且仅当
+\begin_inset Formula $xyu$
+\end_inset
+
+作符合
+\begin_inset Formula $Z$
+\end_inset
+
+的循环定向。
+\end_layout
+
+\begin_layout Standard
+\noindent
+于是，循环定向的相容条件就转化为线性有序集中的传递性。集合的循环定向也可以通过集合中线性顺序的等价类来确定。还可以由循环定向集
+\begin_inset Formula $Z$
+\end_inset
+
+构成
+\begin_inset Formula $Z$
+\end_inset
+
+的
+\begin_inset Formula $n-$
+\end_inset
+
+重覆盖以及
+\begin_inset Formula $Z$
+\end_inset
+
+的
+\begin_inset Formula $\infty-$
+\end_inset
+
+重覆盖，它们也自然地分别扩展为循环定向集和线性有序集。
+\end_layout
+
+\begin_layout Standard
+在定向平面上过同一点的直线束中，由平面的定向诱导出一个自然的循环定向，它符合上述相容条件，这同样可以方便地利用以向量作为工具的代数方法来验证。由此还可以借助直线
+束的双重覆盖导出射线束的循环定向，同样可检验出它符合相容条件。
+\end_layout
+
+\begin_layout Standard
+容易看出线性映射保持面积符号，也保持直线束及射线束的循环定向。
+\end_layout
+
+\begin_layout Standard
+类似地，可以由直线束或射线束的定向决定平面的定向，实质上平面的定向可以理解为仿射平面上的旋转，当然它也可以有左旋和右旋（即逆时针和顺时针）两种。由平面定向进面推
+出空间的定向，那就相当于现实世界中通常的螺旋运动，它也有右旋和左旋两种。
+\end_layout
+
+\begin_layout Section
+组织一个领域
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+角的概念
+\end_layout
+
+\begin_layout Standard
+几何中有多种角的概念，应该让学生学会如何去分辨，掌握它们的关系，比较它们的异同，而不能像某些教学法专家那样，仅因为某些概念不符合预先构想的体系，而禁止讲授。
+\end_layout
+
+\begin_layout Standard
+欧几里得（Euclid）的角有两种定义，一是将角看成是一对无序射线的倾斜关系，有邻角的区别，但没有零角、平角和大于平角的角；二是将角看成是平面的一部分，于是一对
+无序射线就可以构成两个不同的角，也允许有平角以及大于平角的角，角可以像线段一样进行比较，还可以进行加减运算，也有角的全等概念，在这个运算过程中，实质上已经扩充了
+原始的角的概念，不再局限于小于平角，它可以超过两个直角甚至四个直角，这就造成了一些问题的复杂性。
+\end_layout
+
+\begin_layout Standard
+三角中的角作为一个圆的中心角（通常取单位圆），它和圆弧互相对应，因而角存在一个自然的测度标准：那就是以弧来量。整个圆周以
+\begin_inset Formula $360°$
+\end_inset
+
+或
+\begin_inset Formula $2\pi$
+\end_inset
+
+来量，所以角的测度是无测量单位的数，弧长可以超过
+\begin_inset Formula $2\pi$
+\end_inset
+
+，但角通常作为以
+\begin_inset Formula $2\pi$
+\end_inset
+
+为模的数。实质上，三角中的角是有向平面内一对有序射线对的函数，它由单位圆上的孤来量，而弧的定向符合有向平面自然诱导出来的线束的循环定向，这样才有可能区分
+\begin_inset Formula $\cfrac{1}{2}\pi$
+\end_inset
+
+的角和
+\begin_inset Formula $\cfrac{3}{2}\pi$
+\end_inset
+
+的角。如果平面定向改变，则角也必须相应改变。因此，三角中的角的概念必须在加上一个人为因素
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+平面定向的条件下才能讨论，而且它在三维空间中也无法区别。联系日常生活实际，就可以体会到欧几里得对角的规定还是有一定道理的。在日常语言中，我们是不习惯采用数学家那
+种正、负或逆向、顺向等专门术语的。
+\end_layout
+
+\begin_layout Standard
+解析几何中的角是一对有序直线的角，它是以
+\begin_inset Formula $\pi$
+\end_inset
+
+为模的数。对于直线
+\begin_inset Formula $a:y=ax$
+\end_inset
+
+和
+\begin_inset Formula $b:y=bx$
+\end_inset
+
+来说，如果假设直线
+\begin_inset Formula $a$
+\end_inset
+
+到
+\begin_inset Formula $b$
+\end_inset
+
+的角为
+\begin_inset Formula $\varphi$
+\end_inset
+
+，则
+\begin_inset Formula $\mbox{tg}\varphi=\cfrac{b-a}{1+ab}$
+\end_inset
+
+，因为正切函数周期是
+\begin_inset Formula $\pi$
+\end_inset
+
+，所以
+\begin_inset Formula $\varphi$
+\end_inset
+
+角以
+\begin_inset Formula $\pi$
+\end_inset
+
+为模，当
+\begin_inset Formula $a$
+\end_inset
+
+、
+\begin_inset Formula $b$
+\end_inset
+
+两直线的顺序交换时，
+\begin_inset Formula $\mbox{tg}\varphi$
+\end_inset
+
+和
+\begin_inset Formula $\varphi$
+\end_inset
+
+都改变符号。
+\end_layout
+
+\begin_layout Standard
+立体几何中还有另一种角的概念，那是一对无序直线的角，是只限于
+\begin_inset Formula $0°$
+\end_inset
+
+到
+\begin_inset Formula $90°$
+\end_inset
+
+之间的锐角。
+\end_layout
+
+\begin_layout Standard
+以上四种角的概念可概括、比较列表如下（见下页）。
+\end_layout
+
+\begin_layout Standard
+实际上还有另一种角的概念，被称为解析角。一方面它作为初等几何中角的扩充，用以测量旋转运动，真正说来，它应该属于运动学的范围；另一方面作为正弦、余弦这些以
+\begin_inset Formula $2\pi$
+\end_inset
+
+为周期的解析函数的变量，角可以容许在全体实数域内变化，即从
+\begin_inset Formula $-\infty$
+\end_inset
+
+到
+\begin_inset Formula $\infty$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+在这中间，初等几何的角，三角中的角和解析角这三个概念是最为重要的，但它们的测量方法不同，初等几何的角用半圆量角器可唯一确定，三角中的角必须用全圆量角器，而且在考
+虑有序射线时，必须以第一边为起点，并且使量角器上
+\begin_inset Formula $0\text{°\rightarrow}90°\rightarrow180°$
+\end_inset
+
+的旋转方向符合平面的定向（通常是逆时针），至于解析角只要通过任何一个能计算旋转的里程计之类的东西，记下它旋转了多少圈，或一圈的多少部分即可。
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Graphics
+	filename images/p320.png
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+在平面或空间的运动和对称变换下，角度的变化情况如下：如果讨论非定向平面和空间，因为长度和角度在平面与空间的所有自同构下保持不变，而运动和对称变换都是自同构，所以
+角度在运动和对称变换下不变；
+\end_layout
+
+\begin_layout Standard
+如果讨论定向平面和定向空间，由于它只容许比较小的自同构群，也就是只有运动变换才保持角度不变，面对称变换相应的行列式为负值，故不能保持平面与空间的定向，因而角度在
+对称变换下要改变符号。除非将反射理解为一个定向平面到相反定向平面上的一个映射（即用同构来代替自同构），这时角度才保持不变，但这个映射就不是我们提到的定向平面变换
+到自身的自同构。遗憾的是，在教材纯粹、严谨的结构组织中，往往对这些逻辑上的困难避而不谈，对于作为活动的数学的痕迹一丝不留。
+\end_layout
+
+\begin_layout Standard
+在初等几何的角所组成的集合中，加法是有限制的，因为它只允许
+\begin_inset Formula $0°\sim180\text{°}$
+\end_inset
+
+之间的角。但是以
+\begin_inset Formula $180°$
+\end_inset
+
+为模的角的系统的双重覆盖形成了以
+\begin_inset Formula $360°$
+\end_inset
+
+为模的角的系统，而对后一系统的无限覆盖可以适应于欧氏体系中角的无限制相加，当然欧氏体系中并不容许角的无限制相减。另外，如果在循环定向的射线束中取定一条射线，就可
+以在循环定向的射线束上定义函数，使之与角的集合相对应，于是角的集合也成为循环定向的加法群。加法保持定向，即如果
+\begin_inset Formula $\alpha\beta\gamma$
+\end_inset
+
+符合循环定向，则
+\begin_inset Formula $(\alpha+\xi)(\beta+\xi)(\gamma+\xi)$
+\end_inset
+
+也符合循环定向。但减法则将定向逆转，即
+\begin_inset Formula $(-\alpha)(-\beta)(-\gamma)$
+\end_inset
+
+就不符合循环定向。将这一循环定向的加法群在零角那儿切开，并组成
+\begin_inset Formula $\infty-$
+\end_inset
+
+重覆盖，我们可再次得到一个有序加法群，它对加法保持定向，这实质上就构成了解析角的体系。这里可以像线段测量一样，直观地接受用实数域来测量角度，或更精确地可以推出解
+析角的体系组成一个戴德金（Dedekind）有序群，而这是与实数加法群同构的，
+\end_layout
+
+\begin_layout Standard
+对于这三种角的概念可以这样理解，如果从三角中的角出发，则解析角的体系实质上可以由它的一个无限覆盖得到。因此，解析角体系的形成实际上是一个初等过程，并不依赖于极限
+、微分和积分。欧几里得不考虑负角，所以初等几何的角由无序射线对组成，也不需要平面的定向，从
+\begin_inset Formula $0°\sim180\text{°}$
+\end_inset
+
+之间的角开始，再向一个方向扩展，因而可以说，它只是解析角系统的一半。而在引进了有向平面、有序射线对以后，初等几何的角实质上就转化为三角中的角，再作一次无限覆盖就
+形成了解析角，在这个体系中，就不仅是加法可以无限制，减法也同样可以无限制地进行了。
+\end_layout
+
+\begin_layout Standard
+初等几何的角、三角中的角以及解析角在实际数学教学中都是合适的，不必像某些强调系统化的数学家那样，只承认某一个面排除其他的。迪约多内（Diendonné）特别怀疑
+由射线束的循环定向而导出的解析角的概念，称之为是不相容的，超越的和可笑的。他认为解析角是运动学的概念，避开实数域就不能达到，所以它不是初等的，而是分析的。但强调
+以代数为主线的结构体系，而禁止一些几何的方法，也是不合理的。事实上，在平面定向以后，导出射线束的循环定向，再进一步形成它的无限覆盖，整个过程都是很自然的，应该认
+为这是初等的，而非分析的、或运动学的。当然，这里涉及一个问题，那就是“初等”这个术语用于数学基础理论和在教学法意义下的理解是有区别的。从数学基础上来看，形成无限
+覆盖所需要的整数并不是初等的，相应的初等算术也不是初等的，但我想我们最好能找出在教学法意义下“初等”的含义是什么，如果要这样做，当然不能用教条主义的标准来决定什
+么是属于初等几何教学，或是属于更高级的几何教学。
+\end_layout
+
+\begin_layout Standard
+前面关于定向和角的分析，实质上是数学背景。从教学上看，必须详细考察有关的学习过程，通过测量来具体形成以上三种角的概念是非常自然的，我们几乎应该同时引入，使学生一
+开始就知道在它们之间存在着差异，但可相互补充，不妨用绝对角、角和旋转角这些术语加以称呼以示区别，也可以用
+\begin_inset Graphics
+	filename images/p322-1.png
+	scale 30
+
+\end_inset
+
+和
+\begin_inset Graphics
+	filename images/p322-2.png
+	scale 30
+
+\end_inset
+
+之分别来表示绝对角和角，当然用第二个符号时，纸上要指出平面的转向。
+\end_layout
+
+\begin_layout Standard
+在介绍“角”之前，应该通过时钟或其他器械中所熟悉的旋转意义，以最简单的方式将平面定向，再引入三角的角（即“角”）。根据数轴上线段的加法可以解释为一个平移，相应的
+射线束中的角的加法也可以解释为一个旋转，至于减法则可看作是某个反射。这样，就把角的运算理解为一个实际可以体验的功能过程。当然不能在早期阶段就引入三角函数，但是也
+不必推迟太久，因为三角函数是力学中引进函数最漂亮的例子，它既可以结合图象，又可以在光学中找到应用，当然像加法定理这类复杂的三角公式，应该推迟到真正需要并且容易证
+明的时候再作处理。
+\end_layout
+
+\begin_layout Standard
+“角”和“旋转角”有着密切的联系：因而必须强调前者在加、减法运算中是以周角
+\begin_inset Formula $360°$
+\end_inset
+
+为模以示区别。通过三角函数的图象，一点在单位圆上均匀移动，它在一条直径上的射影就生成了一个调和振动，它的振幅可以表示成角（或时间）的函数。通过直观图形的数学化，
+就能知道这一函数自变量的定义域正好作为圆的无限覆盖，而这也就是我们需要的“旋转角”的直观表示。旋转角有许多应用，可以描绘平面上一条封闭的定向曲线的运动，这可通过
+点的定位向量所经过的旋转角来反映（对空间曲面来说，缺少角这个工具，就很难理解）；也可以具体描述超过
+\begin_inset Formula $180°$
+\end_inset
+
+的绝对角的和。
+\end_layout
+
+\begin_layout Standard
+对于三种角的概念，还应通过运算来加以比较、对照。如何进行加、减运算，它们有何区别？“角”可以进行
+\begin_inset Formula $2$
+\end_inset
+
+倍、
+\begin_inset Formula $3$
+\end_inset
+
+倍以及
+\begin_inset Formula $n$
+\end_inset
+
+倍的运算，这正好类似于射线束或圆的
+\begin_inset Formula $2-$
+\end_inset
+
+重、
+\begin_inset Formula $3-$
+\end_inset
+
+重和
+\begin_inset Formula $n-$
+\end_inset
+
+重覆盖，与此相对的“旋转角”可以二等分、三等分或
+\begin_inset Formula $n$
+\end_inset
+
+等分，它的结果是唯一确定的。可以讨论，角在运动与对称变换下的情况，也可以联系机械传动、速度变化等实际例子。总之，早期阶段角的概念的教学可以包含很多丰富的几何内容
+。
+\end_layout
+
+\begin_layout Standard
+平面的定向当然也应该包括在这个早期阶段中，可是空间的定向就较难处理了。如果我们一开始便选择以向量代数实现几何代数化的道路，那就应当采用纯朴的非公理化方法而不是线
+性代数。当然它以正交基为基础，用向量方法来描述平面。由于学生早已熟悉了运动和反射，所以对以三角函数为系数的矩阵
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $D_{\varphi}=\left(\begin{array}{cc}
+\cos\varphi & -\sin\varphi\\
+\sin\varphi & \cos\varphi
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+表示不会有困难。从矩阵的乘法
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $D_{\varphi}D_{\psi}=D_{\varphi+\psi}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+可很快导出三角函数的加法定理。
+\end_layout
+
+\begin_layout Standard
+如果可能的话，我们能用更形式化的方法来处理平面定向的问题，那就是通过公理化的途径来构造线性代数。前面分析过，对于点、直线、长度、角度、面积等几何对象，都应该以更
+新的观点来加以考虑，它们是在由公理通过演绎到定理这一指导方针下建立的，是符合演绎结构体系的独立的本体论，即由仿射几何开始，转入有序向量对和三元向量组的体积函数的
+公理化定义，这里可以联系平面定向和空间定向问题。当然这必须先考虑在什么时候对哪种类型的学生才能实现这一可能，以及循环定向的一些抽象概念和公式在中学水平是否可加以
+介绍。
+\end_layout
+
+\begin_layout Standard
+更进一步从最美的抽象数学上考虑，可由一个绕原点的旋转群出发，通过纯形式的方式，将它转化为值为
+\begin_inset Formula $1$
+\end_inset
+
+的复数乘法群，或仍借用循环定向群（即绕原点的旋转群）的无限覆盖，构成戴德金有序群，然后建立起与之同构的加法群，我们称之为角，当然，它也同构于实数的加法群。这种做
+法，目的在于使学生从理论上将角理解为一个模糊的交换群的元素。实际上学生又可以在具体的表上读出角的正弦、余弦，知道角可以用数来测量。这在数学教学中将会造成理论脱离
+实际，因而对中学水平的学生是没有必要这么做的。
+\end_layout
+
+\begin_layout Section
+几何中的群
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+批判的分析
+\end_layout
+
+\begin_layout Standard
+自本世纪初，克莱茵（F.
+\begin_inset space \space{}
+\end_inset
+
+Klein）提倡群以来，它最初对中学数学教学并没有造成实质性的影响。直到近年来，群才成了一种时髦的东西，但我们对于群或映射的教学法缺乏研究，应该说，引进运动群是
+一种最可取的做法，这个提议实际上已被采纳。
+\end_layout
+
+\begin_layout Standard
+克莱茵所阐述的从高观点看初等数学，是从这样一个高度来教初等数学的，那就是初等数学不再是具体直观的，这样就与中学数学产生了差距。克莱茵在他著名的爱尔兰根纲领中引进
+了一个过于狭隘的结构，即关于射影群的某个子群的代数不变量的理论。从凯莱（Cayley）测度到五圆坐标，即使是最低水平也和中学数学相距太远。他强调把重点放在几何的
+相互关系上，并通过不变量理论、转换原理和附加原理来加以阐述，但他几乎不容许在同一种几何内用到群，尤其像欧氏几何那样普通、平凡的内容。希尔伯特反对在中学几何中讨论
+群和变换，在某种意义下，正是由于希尔伯特的工作，才使欧几里得方法的生命延长了半个世纪。（但是希尔伯恃并非教条主义者，在他著作的附录中指出：存在一条完全不同的途径
+来介绍几何基础，那就是借助于群论。）
+\end_layout
+
+\begin_layout Standard
+需要重新思考这个题材以及中学几何教学的方法。目前传统的教学方法还占优势，人们还没有认识到变换在几何教学中的重要性，在1958年还没有建立起系统的、以变换概念为基
+础的初等几何课程，主要问题在于人们对变换或映射缺乏正确理解。学生可能把变换简单地理解为将一个图形捡起来放到另一个地方。事实上，图形在平面中的“自由流动”和整个平
+面到其自身上的映射是两种完全不同的概念。如果映射要组成群，那么就必须有一个基础集合，譬如说平面，于是每个映射都把平面一一映射到自身。从
+\begin_inset Formula $Q_{1}$
+\end_inset
+
+地方捡起一个正方形，放到
+\begin_inset Formula $Q_{2}$
+\end_inset
+
+地方，这是一个从
+\begin_inset Formula $Q_{1}$
+\end_inset
+
+到
+\begin_inset Formula $Q{}_{2}$
+\end_inset
+
+的映射
+\begin_inset Formula $f$
+\end_inset
+
+。若
+\begin_inset Formula $f$
+\end_inset
+
+能与
+\begin_inset Formula $Q_{3}$
+\end_inset
+
+到
+\begin_inset Formula $Q_{4}$
+\end_inset
+
+的映射
+\begin_inset Formula $g$
+\end_inset
+
+复合成映射
+\begin_inset Formula $gf$
+\end_inset
+
+，则须满足
+\begin_inset Formula $Q_{2}=Q_{3}$
+\end_inset
+
+。所以，一个群的基本特征就是可以无限制地进行复合运算。一个映射的集合，如果其中某些映射可以复合，而另一些映射不能复合，那么它就构成一个广群（或范畴）。例如前面所
+说的只限于正方形的映射，我们可以将它自然扩展到整个平面，而平面到其自身的所有映射构成群。那也就是说，这个广群可以由另外一个群通过限制来得到。
+\end_layout
+
+\begin_layout Standard
+人们常常由于直观或方便，简单使用某些可动的模型来表明一个特殊图形的变换。譬如说以一个具体的正方形为基础，来表示整个抽象平而的映射。这里必须绝对清楚，变换究竟是在
+哪个基础集合上活动。为了便于理解，可用某个具体图形为例来加以说明，但这绝对不能代替整个集合的映射。要注意过于直观的例子常常会影响学生正确理解比较抽象的概念，但这
+类错误人们近来犯得很多。
+\end_layout
+
+\begin_layout Standard
+有一个常见的例子，是说起立和坐下可作为一对逆运算，并且它们组成了一个变换群。在这个例子中，什么是变换所涉及的基础集合？显然它应该是由人的两种状态
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+立和坐所组成。然而，映射“坐下”只对起立的状态下了定义，而映射“起立”也只对坐下的状态下了定义，即使认为映射“坐下”（或“起立”）保持坐（立）的状态不变，这两个
+映射也不是一一对应的。所以在两个元素
+\begin_inset Formula $a$
+\end_inset
+
+（起立）和
+\begin_inset Formula $b$
+\end_inset
+
+（坐下）的集合内，有一个二元运算，它满足
+\begin_inset Formula $a^{2}=a,b^{2}=b,ab=a,ba=b$
+\end_inset
+
+，却不是一个群。
+\end_layout
+
+\begin_layout Standard
+我们也可以举出一个图形到自身的映射群（它的基础集合就是图形本身，而不是整个平面），例如，一个正方形的八个变换（关于水平对称轴，垂直对称轴和两条对角线的反射，绕正
+方形中心作
+\begin_inset Formula $0°$
+\end_inset
+
+，
+\begin_inset Formula $90°$
+\end_inset
+
+，
+\begin_inset Formula $180°$
+\end_inset
+
+和
+\begin_inset Formula $270\text{°}$
+\end_inset
+
+的旋转），它们组成了一个变换群，而不必把映射扩展到全平面。由于图形本身的有限性，故学生对映射及变换群的理解比较容易。但事实上局限于有限图形的映射可以自然扩展到整
+个平面，甚至整个空间。从几何的最终目的来看，必须掌握这些全局的映射，因面对于这些限于特殊图形上的映射就不应过多强调，以免影响学生对整体映射的理解。但这种情况在传
+统几何教学中也曾有过，那就是学生对立体几何的洞察力会由于多年来平面几何概念的先入为主面受到严重阻碍。
+\end_layout
+
+\begin_layout Standard
+群在中学数学教学中已经或正在成为一种时髦的东西，但教学通常还是由老一代人所支配，他们对新的形式并不是那么容易受影响的，更何况这些新的形式究竟是否合适，是否确实对
+中学数学教学具有促进作用，以及应该如何运用这些新形式等问题尚未解决，所以他们对群的处理还是非常慎重的。
+\end_layout
+
+\begin_layout Standard
+有人主张可以在早期教育中，通过各种游戏的方式来学习有关群的知识。例如，通过三个元素的置换所构成的对称群来学习有关群的抽象结构，这是一种重要的游戏，但它毕竟处于一
+种低层次上，在人们的实验中，他们常常是用公式去套游戏，结果也只是得到了一系列的公式，实质上这是以形式化来代替数学化。比较而言，形式化要比数学化容易，但即使在低层
+次上，以形式化代替数学化实际上也是危险的。因为实验如果只停留在形式化阶段上，那么它与数学化就相差太悬殊了。
+\end_layout
+
+\begin_layout Standard
+再如，可通过这类游戏来认识同构，但这必须通过仔细地组织有关材料来进行，现有的实验常常比较混乱，给儿童介绍的同构是建立在不完备基础上的，或只是以最具体明显的方式向
+儿童演示，接着利用群的表格将其形式化。事实上，唯一真正能使儿童接受同构的方式必须通过概念化，也就是说，应当概念化地理解同构，而不应算法化地理解，因为算法化仅仅只
+是数学的开端。
+\end_layout
+
+\begin_layout Standard
+有些实验为了要使学生从低层次上掌握群的概念，往往会形成错误的具体化。如图16-10，有两个道路网络，其中虚线表示单行道，实线表示双行道。于是有箭头表示定向的虚线
+就代表一个
+\begin_inset Formula $3$
+\end_inset
+
+阶群的元素，而实线则代表另一个
+\begin_inset Formula $2$
+\end_inset
+
+阶群的元素。更精确地说，这些群的元素所起的作用相当于一个映射，它作用在六个点上，使每个点都按行驶的方向对应于另一个点。如果将两个生成运算任意组合，便会形成一个群
+，而组合后的元素对两个网络都是
+\begin_inset Formula $6$
+\end_inset
+
+阶的，只是其中一个是
+\begin_inset Formula $6-$
+\end_inset
+
+循环群，而另一个则同构于三个元素的置换所构成的对称群。
+\end_layout
+
+\begin_layout Standard
+但为何它是一个群呢？这个问题要留待形式化以后才能回答。我们现在至少可以知道由行驶方向所定义的映射是一一对应的，而且这些映射的任意组合也是一一对应的，所有这些一一
+映射组成的集合是一个由一一映时所生成的群
+\begin_inset Formula $G$
+\end_inset
+
+。如果把这看作
+\begin_inset Formula $6$
+\end_inset
+
+个元素的集合变换到它自身的映射所组成的群，那么这种群的元素最多可达
+\begin_inset Formula $6$
+\end_inset
+
+个。而图16-10(1)、(2)所表示的群却只有
+\begin_inset Formula $6$
+\end_inset
+
+个元素，像这种群
+\begin_inset Formula $G$
+\end_inset
+
+我们称之为单可迁群，因为每个点正好由
+\begin_inset Formula $G$
+\end_inset
+
+的一个元素变成另一个点，所以点的集合与群可以看作是等同时。另一种表达方式就是：如果一系列的生成运算作用于
+\begin_inset Formula $A$
+\end_inset
+
+点，其结果仍回到
+\begin_inset Formula $A$
+\end_inset
+
+，那么同一运算序列也必使每个其他的点
+\begin_inset Formula $X$
+\end_inset
+
+也回到
+\begin_inset Formula $X$
+\end_inset
+
+本身，或者说，如果从点
+\begin_inset Formula $A$
+\end_inset
+
+开始沿着一条封闭道路运动，那么从任何点
+\begin_inset Formula $X$
+\end_inset
+
+出发的相应道路也是封闭时。这实际上就等价于：群
+\begin_inset Formula $G$
+\end_inset
+
+的某个元素如果保持
+\begin_inset Formula $A$
+\end_inset
+
+点不动，那么它也保持每个点不动，这就是所谓的单可迁性质。
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+thesubfigure}{
+\backslash
+arabic{subfigure}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/16-10-1.png
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/16-10-2.png
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+但是为什么会有这个结论呢？当然可以通过列举所有可能的情况来证实它是正确的，但这不是数学。实际上，通过直接观察可断言：图16-10(1)定义了一个自同构群（只包含
+旋转，而不包含反射），它又是一个交换群，因此图16-10(1)表示的群和它的自同构群作为变换群来说是等同的。但是图16-10(2)的情况就不同了，它相应的群不是
+交换群，因此它的自同构群即使作为变换群也不会和
+\begin_inset Formula $G$
+\end_inset
+
+等同。而这一区别在两幅直观的道路网络图中学生很难辨认，故此容易产生误解。
+\end_layout
+
+\begin_layout Standard
+对以上两个图形也可以通过另一套理论来加以解释，那就是把图形看作是“群的像”，再由图形的结构来讨论它的自同构。但在群论中，群的像只是作为一种解释的方法，而不是作为
+定义。另外如何来判定某一个图形确实构成一个群的像，也是一个困难的问题，就像前文想要通过单可迁群来理解群一样，这也是一个很难证实的问题。不管怎么说，我们的目标不该
+只是用群、域、基数这些高深的名词来点缀中学数学。如果只有将较高层次的数学变换成完全不同的东西，才能与低层次的数学联系在一起，那还不如删掉这些内容更好，我们不会为
+此丢掉什么。
+\end_layout
+
+\begin_layout Standard
+还有人设计了某种机器，它可以实现某种二元运算。给出两个符号，机器就会产生第三个符号，要求学生去猜测机器所依据的群结构。例如，如果符号
+\begin_inset Formula $\Delta$
+\end_inset
+
+屡次表现出单位元的作用
+\begin_inset Formula $(\Delta\cdot x=x)$
+\end_inset
+
+，学生就应猜想出
+\begin_inset Formula $\Delta$
+\end_inset
+
+是群中的单位元；如果一个符号和自身的乘积屡次生成符号
+\begin_inset Formula $\Delta$
+\end_inset
+
+，学生就应猜测出所有元素都有这一性质；如果屡次发现乘积是可交换的，学生就应推断出运算对所有元素都是可交换的。
+\end_layout
+
+\begin_layout Standard
+这类游戏确实有趣，能够起到一定的探索作用。可是对于学习群的概念来说，游戏能帮什么忙呢？当然二元运算是群的一个特性，借助游戏也许有利于学生去掌握二元运算，但这对任
+何类型的二元运算都可以进行，它只是一种低层次上组织数据结构的练习，可以用来训练学生进行归纳推理，从这一角度上说，它对学习过程有些作用；可从群的角度上看，学生并不
+知道什么是群，更不会直接感受到群的单位元或逆元的存在。因此，若要以这样的游戏来配合群知识的学习，那只能是在有了群的概念之后，作为一种巩固知识的手段，而不能把它作
+为一种知识的开端，更何况在群的概念之中，最实质性的东西也并非是二元运算。
+\end_layout
+
+\begin_layout Standard
+群在数学中确实处于一个很重要的地位，因为任何结构的自同构，都以某种方式组成了群，那就是该结构的自同构群。而从结构的自同构中又可了解有关结构本身的很多特性，这就是
+群的原理。正是这个原理使得群普遍用于数学的各个方面，这是一个重要的原理，它的伟大就在于它简单，而如果说学生必须学习有关群的知识，那么这个原理就贯穿于所有知识之中
+。归根结蒂，群的知识在数学中占有重要地位，我们必须教给学生，但绝不能为了追求庸俗的直观、易懂，而歪曲了群的本质，形成错误的概念，那不是我们所希望的。
+\end_layout
+
+\begin_layout Section
+什么是结构
+\end_layout
+
+\begin_layout Standard
+具体例子：集合
+\begin_inset Formula $M$
+\end_inset
+
+及其元素和子集，加上基本的集合结构
+\begin_inset Formula $x\in M$
+\end_inset
+
+或
+\begin_inset Formula $x\notin M$
+\end_inset
+
+，作为度量空间的欧氏平面，具有线段全等关系的欧氏平面，具有共线关系的仿射平面，具有序关系的有序集，以及具有加法、乘法关系的代数域等等。
+\end_layout
+
+\begin_layout Standard
+所谓结构
+\begin_inset Formula $S$
+\end_inset
+
+，是指具有一个关系
+\begin_inset Formula $R$
+\end_inset
+
+或一个关系体系
+\begin_inset Formula $\phi$
+\end_inset
+
+的集合
+\begin_inset Formula $M$
+\end_inset
+
+。而结构
+\begin_inset Formula $S$
+\end_inset
+
+的一个自同构，是指
+\begin_inset Formula $S$
+\end_inset
+
+映到自身上的一个一一映射
+\begin_inset Formula $f$
+\end_inset
+
+，满足下列性质：
+\end_layout
+
+\begin_layout Standard
+对于
+\begin_inset Formula $\phi$
+\end_inset
+
+中的任何关系
+\begin_inset Formula $R$
+\end_inset
+
+，有
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $R(x,y,z,\cdots)\rightarrow R(fx,fy,fx,\cdots)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+换句话说，要求映射
+\begin_inset Formula $f$
+\end_inset
+
+保持
+\begin_inset Formula $\phi$
+\end_inset
+
+的每个关系
+\begin_inset Formula $R$
+\end_inset
+
+和它的否定
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+非
+\begin_inset Formula $R$
+\end_inset
+
+，即
+\begin_inset Formula $x,y,z,\cdots$
+\end_inset
+
+满足关系
+\begin_inset Formula $R$
+\end_inset
+
+的充要条件是
+\begin_inset Formula $fx,fy,fx,\cdots$
+\end_inset
+
+满足关系
+\begin_inset Formula $R$
+\end_inset
+
+。现在假设
+\begin_inset Formula $S$
+\end_inset
+
+是结构，
+\begin_inset Formula $G$
+\end_inset
+
+是
+\begin_inset Formula $S$
+\end_inset
+
+的自同构集合，那么单位元显然属于
+\begin_inset Formula $G$
+\end_inset
+
+，对于任意
+\begin_inset Formula $f$
+\end_inset
+
+，它的逆也属于
+\begin_inset Formula $G$
+\end_inset
+
+。而对于
+\begin_inset Formula $f$
+\end_inset
+
+，
+\begin_inset Formula $g$
+\end_inset
+
+而言，其复合
+\begin_inset Formula $fg$
+\end_inset
+
+也属于
+\begin_inset Formula $G$
+\end_inset
+
+。这样，结构
+\begin_inset Formula $S$
+\end_inset
+
+的自同构就组成了群，而复合就是这个自同构群的运算。
+\end_layout
+
+\begin_layout Standard
+通过某个结构的自同构群来引入群的方法，其最大优点就是它借助于概念化的途径而不是算法的途径，而这正是现代数学最显著的特点之一。
+\end_layout
+
+\begin_layout Standard
+至于某个结构的自同构集合是否构成群？以及如何建立这个群？当然可以通过概念化的方法，但是对于中学生来说，不妨先介绍一个特殊的例子。假设集合
+\begin_inset Formula $S$
+\end_inset
+
+是平面上所有格点（以整数为坐标的点）的全体，平面上绕原点旋转
+\begin_inset Formula $0,\cfrac{\pi}{2},\pi,\cfrac{3}{2}\pi$
+\end_inset
+
+的四个旋转，关于水平轴的反射，以及使格点变成格点的各种平移，再如上前述三类元素的任意复合，它们的全体就构成了集合
+\begin_inset Formula $S$
+\end_inset
+
+的自同构群。学生常常会牢记这第一个特殊的例子，并且在它的基础上，逐步形成结构及其自同构群的一般概念。
+\end_layout
+
+\begin_layout Standard
+我们认为以自同构群的形式来生成群，从而进入群论的领域，是一条较好的途径。因为它通过低层次的活动达到了目标，又为较高层次的活动作好了准备，这比用群的像或是作为二元
+运算的体系这种算法形式化的途径更为优越，因为这种算法形式化并非数学化或公理化。
+\end_layout
+
+\begin_layout Standard
+当然，有些群可以作为一个具有二元运算的体系来引入，例如整数加群和正数乘群。但实质上，它们也可以通过自同构群的方法来实现。处理数学问题的方法应多样化，而不应定死在
+某个单一的方法上。有人认为映射太抽象，因此想尽量避开它，选择沿具体的途径走向算法的道路。如果说作为群的元素的映射太抽象，那么群论本身也最好回避，要是让群论变形、
+变性，这个代价就太大了。其实，在中学数学教学中，学习群论主要是为其他目的服务的，而它之所以能做到这一点，就是由于群是结构的自同构群。这是特别应该强调的特征。
+\end_layout
+
+\begin_layout Section
+全等群的教学法
+\end_layout
+
+\begin_layout Standard
+在“集合与函数”那一章中，曾对群的教学法作了一个基本分析。现在在“几何”这一章中，又提到了群，这是因为群与几何教学是密切联系的。克莱因将群论渗透到传统的几何概念
+中，这是一个进步。但如何具体实现这一目标需要很好的研究。如果将群的元素具体化，或以单可迁表示来代替群，那么都会使群本身的几何具体化遭到破坏，使重点转移到形式化算
+法上，而模糊了对群的几何理解，更危险的是会将映射只看成是限于平面的一部分，甚至只限于一个有限集。因此，即使对平面上最简单的全等群我们在教学上也应该注意上述问题。
+\end_layout
+
+\begin_layout Standard
+波兰的一种做法是先教平面的反射，然后将旋转和平移看作是某些反射的乘积，其缺点在于反射常常通过图形来作说明，从而过于忽视了全局的观点，而它的优点在于从反射开始可以
+不依赖平行理论。德国的一种做法是从平移开始，用一张透明的方格薄膜材料在一个固定的平面上作移动，使学生能够理解这是整个平面的平移或旋转，避免理解成部分平面的平移或
+旋转。但多数人还是喜欢从反射开始讨论，因为它给人的印象似乎是某些东西确实经过了变换，其感觉要比平移与旋转更为强烈。荷兰也是以反射作为出发点的，而丹麦的课程则是从
+反射引出平面中的全等，以后又处理了相似和仿射变换。它虽没有提及群，却渗入了群论的思想。总的看来，以反射作为用变换群观点来处理几何的出发点，今天已为人们所普遍接受
+了。
+\end_layout
+
+\begin_layout Section
+几何的群论公理体系
+\end_layout
+
+\begin_layout Standard
+最后我还想回到几何的公理化问题，我认为在几何的公理化方法中也应当渗透群论的观点，那就是应该建立几何的群论公理体系，它可简短地叙述如下：
+\end_layout
+
+\begin_layout Standard
+设
+\begin_inset Formula $R$
+\end_inset
+
+只是度量为
+\begin_inset Formula $\rho$
+\end_inset
+
+的度量空间，
+\begin_inset Formula $R$
+\end_inset
+
+的一个等距变换是
+\begin_inset Formula $R$
+\end_inset
+
+到自身上的一个映射
+\begin_inset Formula $f$
+\end_inset
+
+，它保持度量，即
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\rho(fa,fb)=\rho(a,b),\, a,b\in R$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+三点组
+\begin_inset Formula $\{a_{1},a_{2},a_{3}\}$
+\end_inset
+
+和
+\begin_inset Formula $\{a'_{1},a'_{2},a'_{3}\}$
+\end_inset
+
+如果满足
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\rho(a_{i},a_{j})=\rho(a'_{i},a'_{j})$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+那么它们就全等。
+\end_layout
+
+\begin_layout Standard
+在任意维的欧氏空间中，下列结论都是正确的。
+\end_layout
+
+\begin_layout Standard
+（1）全等的三点组可以用全空间的等距变换互相映射。它在双曲空间和球空间内仍然成立，但在椭圆空间内则不一定正确。但下面的命题却成立：
+\end_layout
+
+\begin_layout Standard
+（2）足够小的全等三点组可以由全空间的等距变换互相映射。
+\end_layout
+
+\begin_layout Standard
+这个性质足以让我们在一大类度量空间中去分辨出欧氏空间和非欧空间，更精确地说，设
+\begin_inset Formula $R$
+\end_inset
+
+是具有性质（2）的局部紧致连通的度量空间，则
+\begin_inset Formula $R$
+\end_inset
+
+实质上是一个欧氏空间或非欧空间。
+\end_layout
+
+\begin_layout Standard
+这便是这些空间的极简单的群论特征，接着可定义直线、平面等，最后，欧氏几何可以通过一个单可迁群的存在来加以辨别。
+\end_layout
+
+\begin_layout Standard
+当然以上理论尚未完备，但我认为作为中学的欧氏几何公理体系，应当向这个方向努力。
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,4395 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+逻辑
+\end_layout
+
+\begin_layout Section
+什么是逻辑
+\end_layout
+
+\begin_layout Standard
+为什么是狗摇狗尾巴？因为狗太重，尾巴摇不动狗。
+\end_layout
+
+\begin_layout Standard
+一只猫有四条腿，没有一只猫有五条腿，因此，一只猫有九条腿。
+\end_layout
+
+\begin_layout Standard
+三个男孩+两个女孩＝五个小孩=两个男孩+三个女孩。
+\end_layout
+
+\begin_layout Standard
+听了上述几句话，大概没人会否认它们多少与逻辑有关吧，或许我们还会惊呼：“这是不合逻辑的”，并用逻辑的方法指出其“不合理性”。不过，这些例子与我们数学课本中所说的
+逻辑关系不大。注意，我没有引用
+\end_layout
+
+\begin_layout Standard
+没有一个皇帝是烟囱工人，
+\end_layout
+
+\begin_layout Standard
+所有的烟囱工人都会带来好运，
+\end_layout
+
+\begin_layout Standard
+因此没有一个皇帝会带来好运
+\begin_inset Newline newline
+\end_inset
+
+这样的例子，这种例子与自古以来的逻辑课本的内容多少有些关系，但它们是为了给传统逻辑的存在提供正当理由而人为地编造出来的。为顺利通过逻辑考试而必做的这些问题恰好表
+明：一门学科若脱离了其他学科与现实，就会产生可怕的后果。形式逻辑在上世纪发生了巨大的变化，但是用作说明的那些例子并没有多大改进，其原因有很多。
+\end_layout
+
+\begin_layout Standard
+逻辑与思维有关，如果我们把思维作为我们思维的对象，那就是在研究逻辑。当然，这是一种传统的提法，而形式逻辑学家认为逻辑是一门形式体系的学科。但我们还是想按通常的理
+解去理解逻辑，其实，即使是形式逻辑学家，在他走出他的研究室之后，也是按通常的理解去行事的。
+\end_layout
+
+\begin_layout Section
+程式化和形式化
+\end_layout
+
+\begin_layout Standard
+思维的外显表达就是语言，在某种程度上，思维本身也就是一种“自言自语”。然而，我们不打算像许多形式主义者和行为主义者那样借助语言表达来研究思想。其实，同样的思想可
+以用同一种语言或不同种语言的多种方式来表达。当然，思想与思想的语言表达之间有着紧密的联系。如果我们把思维作为我们思维的对象，那我们就是在运用逻辑，于是不可避免地
+就要考虑我们思维的语言表达问题，并最终把我们对思维的思想用语言表达出来。不过，我们可以强调前者，或者强调后者。有时，我们不拘泥于数学语言的推导，通过分析概念和证
+明，去发现它们的逻辑结构和隐藏着的思维模式，例如，我们对有关垂直平分线的证明所作的分析。有时，我们又通过多半是语言方面的推导来分析语言结构，例如，分析名词“群”
+的各种形容词。这两种活动都属于逻辑范畴，但有必要弄清它们之间的区别，尤其是出于教学上的考虑。当思维仅仅是思维的对象时，我把它称为“程式化”；当语言的明确表达带有
+一种数学特点，尤其是在追求一种数学上无可挑剔的语言时，我把它称为“形式化”。
+\end_layout
+
+\begin_layout Standard
+我很想明确地区分程式化和形式化，但从我所作的解释中大家会清楚地看到要彻底把这两者分开处理是不可能的。当语言表达是一种工具，而不是一种结果时，这里面就有程式化的活
+动；当用数学手段来数学地分析一种语言时，这里面就有形式化的活动。若联系教学，这就意味着：逻辑未必是符号的逻辑，而使用语言符号也未必表明是在学习逻辑。
+\end_layout
+
+\begin_layout Section
+逻辑的模式
+\end_layout
+
+\begin_layout Standard
+今天，经过对思维过程的分析，经过将思维过程分解成基本成分而积累起的大量逻辑模式
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+我称程式化后得到的形式为模式而不是程式。
+\end_layout
+
+\end_inset
+
+应该被认作是什么呢？传统逻辑背离日常思维的简单事例，受某些语言偏向的影响，人们在传统逻辑中发现了一些模式。现在的逻辑深受为表达数学思想而发展起来的更抽象的语言影
+响，因此，它所分析的往往不是实际的思维而是理想化了的思维。当然这并不奇怪，因为数学一直是（被）用来将现实模型理想化的。但是，如果像我们所希望的那样，在教学中运用
+由这种分析得来的结果，那就有必要提出这样的疑问：通过分析这种理想化了的思维过程，我们所了解到的东西是否有助于激发和推进学生的实际思维过程？从思维实验中我们可以调
+查到那种理想化了的思维过程可以模仿到怎样的程度。如果对思维过程的复杂分析和综合的产物背离了实际的思维过程，那么它们显然是毫无教学价值的。如果积极思考的头脑对那些
+未受逻辑学家注意的思维模式更觉运用自如，那么逻辑学家的程式化活动即便没有坏处，也毫无教学效果。当然，这并不是说逻辑学家们的工作是徒劳的，因为，即使人类不按照这些
+模式思考，我们还可以把这些模式教给机器。就在上世纪，我们找到了一种可用机器处理的数学表达形式，它当然不是用来教人类的最好形式，相反，这样做会很不合适。比如，给人
+和给计算机各编一个去加油站的程序，这两个程序就会差别很大。如果我们教的是学生而不是计算机，那只有从我们的学生是人而不是机器这一事实出发，我们才会取得成功。我们已
+指出过：人们长期认为把一个领域研究的基本结果教给学生是最为明智的做法，然而，现在许多人则相信：这些基本结果的重要性取决于是否是学生自己发现它们的。
+\end_layout
+
+\begin_layout Standard
+对由分析而发现的逻辑模式，我们必须提两个问题：这些模式充分吗？如果充分，是否有用？也许还可以提出其他的问题，但那些都不是主要的。是模式就该运用，为此，我们应该了
+解，教授和学习模式，并了解如何教程式化。
+\end_layout
+
+\begin_layout Standard
+假如一种数学思路是正确的，它与用来检查其正确性的那些模式也无矛盾，则我们称这些思维模式是充分的。对形式逻辑的模式我们只能期望这么多，要想用它们来填补没有完成的思
+路，来解决一个面临着的数学问题，或发现一些引人思考的问题，那是不行的。我们可以用形式逻辑的模式去考察一个定义是否按规则构造，但不能期望用它去决定哪些定义最适合组
+织某一领域，一些非常简单的数学事实，也许可用一种随意的顺序由形式逻辑的棋式来加以分析或证明，但这样做不会获得整体上的组织。
+\end_layout
+
+\begin_layout Standard
+到目前为止，我们的研究还没有跳出基本逻辑模式这一领域，这些模式是容易被形式化的，而且，数理逻辑的主要倾向无疑也就是形式化。但是，实际使用着的逻辑模式并不是形式逻
+辑分离出来的这些基本逻辑模式，而是逻辑经验的大杂烩，它们是较难形式化的。其综合的面越广，则其逻辑战术的成分越少而逻辑战略的成分越多。我不敢宣称我们未来仍难以将逻
+辑战略形式化，然而，想用目前人们所熟知的已经形式化了的逻辑模式去处理基本逻辑模式却是要受限制的，人们甚至普遍认为这些东西已经是由最为深入的分析所得到的最终结果了
+。
+\end_layout
+
+\begin_layout Standard
+处于低水平上的战略在高水平上只能算作战术，比如，在“命题逻辑”和“初等代数”尚未分别组成一个领域之前，像“在证明结论之前，先假设它是错误的”或者“设未知量为
+\begin_inset Formula $x$
+\end_inset
+
+”这些建议都是战略。但是，一旦这两个领域组织好了，它们就沦为战术了。下面是几个高水平上的战略例子，可帮助我们理解有关战略和战术取决于水平的观点，从中我们还可以看
+到形式化在这方面所取得的进展很小。
+\end_layout
+
+\begin_layout Standard
+我们先来看整数
+\begin_inset Formula $n_{1},n_{2}$
+\end_inset
+
+的最大公因数
+\begin_inset Formula $d$
+\end_inset
+
+的存在性证明。自古以来，人们就知道用欧几里得（Euclid）算法可以解决这个问题：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n_{1}=q_{1}n_{2}+n_{3}$
+\end_inset
+
+，
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n_{2}=q_{2}n_{3}+n_{4}$
+\end_inset
+
+，
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n_{3}=q_{3}n_{4}+n_{5}$
+\end_inset
+
+，
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots\cdots\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+最后那个非零余数就是最大公因数，同时还可得到最大公因数
+\begin_inset Formula $d=x_{1}n_{1}+x_{2}n_{2}$
+\end_inset
+
+。受
+\begin_inset Formula $d$
+\end_inset
+
+的表达式启发，我们也可以构作以
+\begin_inset Formula $n_{1},n_{2}$
+\end_inset
+
+为生成元的整数加群
+\begin_inset Formula $H$
+\end_inset
+
+来解决这个问题，
+\begin_inset Formula $d$
+\end_inset
+
+就是这个群的最小正数。于是，原问题就转化为在
+\begin_inset Formula $H$
+\end_inset
+
+中寻找最小正数
+\begin_inset Formula $d$
+\end_inset
+
+这样一个具有一般战略意义的问题。由于生成元是
+\begin_inset Formula $n_{1},n_{2}$
+\end_inset
+
+，因此
+\begin_inset Formula $d$
+\end_inset
+
+的表达式是
+\begin_inset Formula $x_{1}n_{1}+x_{2}n_{2}$
+\end_inset
+
+，显然
+\begin_inset Formula $n_{1},n_{2}$
+\end_inset
+
+的所有公因数都是
+\begin_inset Formula $d$
+\end_inset
+
+的因数。现在还需证明
+\begin_inset Formula $d$
+\end_inset
+
+本身也是
+\begin_inset Formula $n_{1},n_{2}$
+\end_inset
+
+的公因数。奇怪的是，改证
+\begin_inset Formula $d$
+\end_inset
+
+是
+\begin_inset Formula $H$
+\end_inset
+
+的所有元素的因数
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+又是一个典型问题，反而简单。我们在
+\begin_inset Formula $H$
+\end_inset
+
+中任取一元素
+\begin_inset Formula $y$
+\end_inset
+
+，除以
+\begin_inset Formula $d$
+\end_inset
+
+，得余数
+\begin_inset Formula $r$
+\end_inset
+
+，即
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $y＝qd+r$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+因为
+\begin_inset Formula $y\in H,d\in H,qd\in h$
+\end_inset
+
+，所以
+\begin_inset Formula $r=y-qd\in H$
+\end_inset
+
+，r作为余数应该小于
+\begin_inset Formula $d$
+\end_inset
+
+，但这是不可能的，因此
+\begin_inset Formula $r=0$
+\end_inset
+
+。当然，我们也可以改用更好的办法：若不是每一个
+\begin_inset Formula $y\in H$
+\end_inset
+
+都能被
+\begin_inset Formula $d$
+\end_inset
+
+整除，则必然有属于
+\begin_inset Formula $H$
+\end_inset
+
+且不能被
+\begin_inset Formula $d$
+\end_inset
+
+整除的最小正数
+\begin_inset Formula $k$
+\end_inset
+
+，于是
+\begin_inset Formula $k-d\in H$
+\end_inset
+
+，它也不能被
+\begin_inset Formula $d$
+\end_inset
+
+整除，且
+\begin_inset Formula $k-d<k$
+\end_inset
+
+，又因为
+\begin_inset Formula $d$
+\end_inset
+
+是
+\begin_inset Formula $H$
+\end_inset
+
+中的最小正数，所以
+\begin_inset Formula $k\geqslant d$
+\end_inset
+
+，于是
+\begin_inset Formula $k-d$
+\end_inset
+
+是
+\begin_inset Formula $H$
+\end_inset
+
+中比
+\begin_inset Formula $k$
+\end_inset
+
+更小的不能被
+\begin_inset Formula $d$
+\end_inset
+
+整除的正数。
+\end_layout
+
+\begin_layout Standard
+三种有着广泛适用性的战略在上述证明中发挥了作用。但请注意，它们抛弃了算术中很重要的欧几里得算法，最后甚至还抛弃了带余除法这一证明工具，这是严重的倒退。毫无疑问，
+在教学中，以上的两种证明方法都该给出，先是构造性的方法，再是概念性的方法。
+\end_layout
+
+\begin_layout Standard
+今天，查恩（Zorn）引理可能巳被归入战术之列了，但它的运用需要战略思想。例如，要证明“群
+\begin_inset Formula $E$
+\end_inset
+
+的某些子群按集合的包含关系是全序的，那么，这些子群的并集也是一个群”，一种证明是：设
+\begin_inset Formula $\Omega$
+\end_inset
+
+是以这些子群为元素的集合，
+\begin_inset Formula $a,b\in\bigcup_{F\in\Omega}F$
+\end_inset
+
+，则存在
+\begin_inset Formula $G,H\in\Omega$
+\end_inset
+
+使
+\begin_inset Formula $a\in G,b\in H$
+\end_inset
+
+。因为
+\begin_inset Formula $\Omega$
+\end_inset
+
+是有序的，所以
+\begin_inset Formula $G\subset H$
+\end_inset
+
+或
+\begin_inset Formula $H\subset G$
+\end_inset
+
+。假设
+\begin_inset Formula $G\subset H$
+\end_inset
+
+，于是
+\begin_inset Formula $a,b\in H$
+\end_inset
+
+，则
+\begin_inset Formula $a^{-1}b\in\bigcup_{F\in\Omega}F$
+\end_inset
+
+，这就证明了这些子群的并集仍是一个群。能熟练运用查恩引理的人都上百次地用过这一推理方法。等到将来某一天人们把这一方法形式化了，那么要掌握它也就不很难了。
+\end_layout
+
+\begin_layout Standard
+这种运用战略的例子还很多，比如最小数原理的运用，由两个结构的逻辑依赖性导出这些结构的某些自同构性质，公理化等等。从中可以看出我们对一些基本思维模式所作的分析还不
+眵，只有那些瞎子或持有偏见的人能让这种状况继续下去。这些基本模式从狭义上讲是可以满足我们需要的，但如果按照只有在实践中被检验为有用才算有用的标准衡量，那么它们就
+满足不了我们的需要。这些基本模式虽然有用，后面我会谈到它们在教学中的意义，但它们的确不能满足我们的需要，我们总不能要求教师去教一门未经逻辑学家们明确阐述，而使用
+者基本上还处于无意识活动状态的这样的逻辑吧，这即使是要求教科书作者的话，也是行不通的。我想做而且也愿意做的是引起大家对这些问题的重视
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+我们使用的是什么战略？我们自己能否意识到它们并指导我们的教学，甚至我们能否把它们形式化，以便让别人也掌握并改善它们的教学。
+\end_layout
+
+\begin_layout Section
+程式化
+\end_layout
+
+\begin_layout Standard
+如前所述，从教学上看，程式化，即制造模式，比模式更为重要。可惜我们没有有意识地去了解我们大多数的模式，看来这对教学是不利的，其实这也有有利的一面，因为我们自己没
+有有意识地去了解，所以我们就不能将模式作为现成的东西有意识地去教给学生，模式只能隐含在我们的程式化中，可以明确教授的只有程式化，而不是模式。不过，这也有一定的分
+寸，它说明了为什么探究式教学是有效的
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+因为教师自己不很了解模式，所以学生只得把注意力集中在教师如何建立模式上，但超出这一分寸，就会不利了。一种思维模式可以形式化到纯粹机械的地步，学生只要感受过这一战
+略就能运用，我将举例说明这一点。自古以来，逻辑就作为程式化或形式化的训练出现在数学教学中，每个教师时而都会教一点逻辑，也或多或少可以系统地去教它。但不管怎样，只
+有抓住逻辑分析的机会，即分析思维情景的机会，才是讲解逻辑概念最好的教学途径，如同前面指出的那样，日常生活中的思维情景太简单了，用来训练数学化很不合适，还是复杂一
+些的思维情景合适些，因为它们显示出更多可数学化的特征。
+\end_layout
+
+\begin_layout Standard
+像“充分必要”和传递性这些逻辑概念，在形式化之后要通过多方面的运用才能发展成为战术。尽管对在更高水平上运用它们的教师来说，它们早就是战术了。但教师并不因此而有权
+力把这些模式强加给学生，相反，学生应该先努力获得这些思维模式，并最后根据需要将其形式化。许多模式在很长一段时间内，甚至永远都将保持未形式化的状态。
+\end_layout
+
+\begin_layout Standard
+我还想举一个例子，这是现在很流行的一种猜谜活动。一名骑士因故被捕，后来又被国王有条件地宽恕了，国王把他带到两扇门之前，要他挑选开哪一扇门，其中一扇门里关的是吃人
+的老虎，另一扇里藏着一位愿与他缔结良缘的公主，每扇门都由一个士兵把守，他们知道自己看守的是什么，一个士兵不会说谎，另一个则只会说谎，而且彼此都知道对方的品行，当
+然，骑士是不知道谁讲真话的。国王允许他问一个士兵一个答复为“是”或“否”的问题，去发现他该开的门。他该问什么呢？
+\end_layout
+
+\begin_layout Standard
+这个问题可以简化。随便叫来一个士兵，不管他是不会说谎还是只会说谎的，骑士问他：“如果我问你公主是否在你这扇门的后面，你将回答我什么？”如果那个士兵是个说谎者而且
+那扇门的后面是公主（或老虎），那么他对公主是否在自己那扇门的后面这一问题的回答应是“否”（“是”），但非要回答骑士的那个问题的话，他就不得不说“是”（“否”），
+说谎者最终说的便是真话，这多亏了双重否定。把这个例子形式化就相当于：有一个黑盒，它可能是一只输入、输出相符的盒子，也可能是一只输入
+\begin_inset Formula $P$
+\end_inset
+
+而输出非
+\begin_inset Formula $P$
+\end_inset
+
+的盒子，不管它是怎样的盒子，只要把一次输入后所得的结果再输入一次，这个盒子所反映的就是最初的信息，结果将是
+\begin_inset Formula $P$
+\end_inset
+
+或非非
+\begin_inset Formula $P$
+\end_inset
+
+，它们是等价的。
+\end_layout
+
+\begin_layout Standard
+自古以来，学校教学中最知名的那些思维模式是由几何所提供的。几何的推理由定义、定理、假设、陈述和证明组成。在作图中，则还需添加一些别的环节。正因为如此，几何自古以
+来就成了灌输模式的典型。尽管这些模式在数学中是重要的，也是典范，但是，它们对那些未感受到有程式化的需要，从而也不理解其必要性的学生来说是毫无价值的，而且，在学生
+还未掌握具体内容，或还未觉察到需要把具体内容组织起来时，就把组织过的模式强加给他们，那是不会有效果的。传统的教学往往走得更远：为了形式化，而去定义什么是定义、定
+理、假设、陈述、证明及作图。
+\end_layout
+
+\begin_layout Section
+间接证明
+\end_layout
+
+\begin_layout Standard
+有一种思维模式我想讨论得详细些，这就是间接证明。在几何教学中，间接证明和换质位法一起是传统的逻辑内容，这一点可能显得有些奇怪。如果我们从逻辑上去考察一下中学几何
+的基本特征，也许会提出在中学阶段可以不引入间接证明的设想。翻看一下教科书，我们的这一设想就会得到进一步证实，因为常常有一些证明看上去像间接证明而实际上却不是，请
+看下面一例。
+\end_layout
+
+\begin_layout Standard
+求证：通过不在一直线上的三点
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+、
+\begin_inset Formula $C$
+\end_inset
+
+至多有一个平平面。
+\end_layout
+
+\begin_layout Standard
+证假设有两个这样的平面
+\begin_inset Formula $\alpha$
+\end_inset
+
+和
+\begin_inset Formula $\beta$
+\end_inset
+
+，根据公理：如果两个平面有两个不同的公共点
+\begin_inset Formula $P$
+\end_inset
+
+和
+\begin_inset Formula $Q$
+\end_inset
+
+，那么它们就有一条公共直线
+\begin_inset Formula $PQ$
+\end_inset
+
+。可得直线
+\begin_inset Formula $AC$
+\end_inset
+
+、
+\begin_inset Formula $BC$
+\end_inset
+
+、
+\begin_inset Formula $CA$
+\end_inset
+
+都既在平面
+\begin_inset Formula $\alpha$
+\end_inset
+
+内也在平面
+\begin_inset Formula $\beta$
+\end_inset
+
+内。现在任取
+\begin_inset Formula $\alpha$
+\end_inset
+
+内不在这些直线上的一点
+\begin_inset Formula $D$
+\end_inset
+
+，则直线中至少有一条分别与不平行，不妨设
+\begin_inset Formula $DA$
+\end_inset
+
+和
+\begin_inset Formula $BC$
+\end_inset
+
+交于与
+\begin_inset Formula $D$
+\end_inset
+
+不同的一点
+\begin_inset Formula $E$
+\end_inset
+
+，于是
+\begin_inset Formula $E$
+\end_inset
+
+在
+\begin_inset Formula $BC$
+\end_inset
+
+上，因此，
+\begin_inset Formula $E$
+\end_inset
+
+在平面
+\begin_inset Formula $\beta$
+\end_inset
+
+上，
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $AE$
+\end_inset
+
+也在平面
+\begin_inset Formula $\beta$
+\end_inset
+
+上。因为
+\begin_inset Formula $D$
+\end_inset
+
+在
+\begin_inset Formula $AE$
+\end_inset
+
+上，所以
+\begin_inset Formula $D$
+\end_inset
+
+也在平面
+\begin_inset Formula $\beta$
+\end_inset
+
+上，这就意味着
+\begin_inset Formula $\alpha$
+\end_inset
+
+上的每一点都在
+\begin_inset Formula $\beta$
+\end_inset
+
+上，同理也可证得
+\begin_inset Formula $\beta$
+\end_inset
+
+上的每一点在
+\begin_inset Formula $\alpha$
+\end_inset
+
+上，所以
+\begin_inset Formula $\alpha$
+\end_inset
+
+和
+\begin_inset Formula $\beta$
+\end_inset
+
+重合。
+\end_layout
+
+\begin_layout Standard
+这是间接证明吗？当然不是，但它通常是被当作一个间接证明而提出的。它以“假设
+\begin_inset Formula $\alpha$
+\end_inset
+
+和
+\begin_inset Formula $\beta$
+\end_inset
+
+是经过
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+、
+\begin_inset Formula $C$
+\end_inset
+
+的两个不同的平面”，开始，所以把它当作间接证明是很自然的。但实际上在整个证明过程中，
+\begin_inset Formula $\alpha\neq\beta$
+\end_inset
+
+这一假设根本没有用过。我们可以在任何一个证明的开始加上一个“要证的结果是错误的”假设而不用它，这样做并不能使这个证明变成间接证明。
+\end_layout
+
+\begin_layout Standard
+又如，在证明平面上某两条直线平行时，有人假设它们是不平行的，并由此引出一个矛盾。这是不是间接证明呢？也不是。因为，平行概念是以否定语句定义的，即定义为不相交的直
+线，而证明某事不发生的直接方法就是假设它发生，所以我不认为这是一个真正的间接证明。同样，通过假设
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+能表示成
+\begin_inset Formula $\cfrac{p}{q}$
+\end_inset
+
+的形式去证明
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+是无理数，也不是真正的间接证明。
+\end_layout
+
+\begin_layout Standard
+从“若
+\begin_inset Formula $P$
+\end_inset
+
+不在线段
+\begin_inset Formula $AB$
+\end_inset
+
+的垂直平分线上，则
+\begin_inset Formula $PA\neq PB$
+\end_inset
+
+”去推出“若
+\begin_inset Formula $PA=PB$
+\end_inset
+
+，则
+\begin_inset Formula $P$
+\end_inset
+
+在线段
+\begin_inset Formula $AB$
+\end_inset
+
+的垂直平分线上”，这也不是间接证明。它是用换质位法（若
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+，则
+\begin_inset Formula $\neg p\rightarrow\neg q$
+\end_inset
+
+把一个陈述换成了另一个陈述。尽管这条原理是间接证明方法的基础。但它本身并不是一个间接证明。
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+告诉我们，无论在什么情况下，
+\begin_inset Formula $p$
+\end_inset
+
+真总包含着
+\begin_inset Formula $q$
+\end_inset
+
+真，于是很显然就有
+\begin_inset Formula $p$
+\end_inset
+
+假包含着
+\begin_inset Formula $q$
+\end_inset
+
+假。当然，就像世上所有的简单事物都可复杂化一样，这一简单事实也可用一长串的推理复杂化：已知
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+，假设
+\begin_inset Formula $\neg q$
+\end_inset
+
+，要证
+\begin_inset Formula $\neg p$
+\end_inset
+
+。假设
+\begin_inset Formula $\neg p\neg p$
+\end_inset
+
+，即
+\begin_inset Formula $p$
+\end_inset
+
+，由已知
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+得
+\begin_inset Formula $q$
+\end_inset
+
+真，这与
+\begin_inset Formula $\neg q$
+\end_inset
+
+矛盾，于是有
+\begin_inset Formula $\neg p$
+\end_inset
+
+。可见，为了模仿间接证明，我们许多话都浪费在比间接证明更为基础的东西上了。也真奇怪，教科书在处理间接证明时总是忘记提及换质位法模式。
+\end_layout
+
+\begin_layout Standard
+对于间接证明，有一本教科书是这样解释的：在间接证明中，人们从列举与结论有关的所有可能的情况开始，然后逐个地加以检查。根据该书作者的观点，如果要证明一个关于三角形
+的定理，可按锐角三角形、直角三角形、钝角三角形逐个地加以验证，这种证明方法就是一个问接证明。但是，尽管分情况证明中可能隐藏着一个间接证明，这仍然不是间接证明。在
+间接证明中，要作一个假设，即假设结论是错的，间接证明的逻辑基础是换质位法，即
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+和
+\begin_inset Formula $\neg p\rightarrow\neg q$
+\end_inset
+
+等价，而上面摘引的方法其逻辑基础其实是
+\begin_inset Formula $[(p\bigvee q)\rightarrow r]$
+\end_inset
+
+和
+\begin_inset Formula $[(p\rightarrow r)\bigwedge(q\rightarrow r)]$
+\end_inset
+
+等价。
+\end_layout
+
+\begin_layout Standard
+如果要证明某件事，先假设它是正确的，这样的证明也不是间接证明，而且是不允许的，道理很明显，因为如果这样的话，我就可以证明
+\begin_inset Formula $1=2$
+\end_inset
+
+，只要先假设它是正确的，然后等式两边都乘以
+\begin_inset Formula $0$
+\end_inset
+
+，得到
+\begin_inset Formula $0=0$
+\end_inset
+
+这一正确结论。或许有人会说：“停，你不可以两边乘以
+\begin_inset Formula $0$
+\end_inset
+
+！”不，只是不允许除以0。的确，两边乘以
+\begin_inset Formula $0$
+\end_inset
+
+这一步是不可逆的。如果我们从欲证的结论
+\begin_inset Formula $p$
+\end_inset
+
+出发，逐步用
+\begin_inset Formula $p$
+\end_inset
+
+的等价命题
+\begin_inset Formula $q$
+\end_inset
+
+、
+\begin_inset Formula $r$
+\end_inset
+
+、
+\begin_inset Formula $w$
+\end_inset
+
+代替，即
+\begin_inset Formula $p\leftrightarrow q$
+\end_inset
+
+，
+\begin_inset Formula $q\leftrightarrow r$
+\end_inset
+
+，
+\begin_inset Formula $r\leftrightarrow s$
+\end_inset
+
+，而
+\begin_inset Formula $w$
+\end_inset
+
+真是显然的事实，那么是可以得到
+\begin_inset Formula $p$
+\end_inset
+
+为真的，但事实上这样做是杀鸡用牛刀了。巳知
+\begin_inset Formula $s$
+\end_inset
+
+是真的，要证明
+\begin_inset Formula $p$
+\end_inset
+
+真，只要有
+\begin_inset Formula $s\rightarrow r$
+\end_inset
+
+，
+\begin_inset Formula $r\rightarrow q$
+\end_inset
+
+，
+\begin_inset Formula $q\rightarrow p$
+\end_inset
+
+就足够了。
+\end_layout
+
+\begin_layout Standard
+什么才是真正的间接证明呢？回答它比回答什么是证明更困难，它只有在一个完全形式化的证明理论中才能得到透彻的解释，而且，与人们的期望相反，它的表述极为形式化。因此，
+我们还是小心谨慎，凭自己的直觉去理解它为好。分情况的证明中可能会隐含间接证明，而纯粹的存在性证明则是名副其实的间接证明。比如，欲证存在具有性质
+\begin_inset Formula $F(x)$
+\end_inset
+
+的
+\begin_inset Formula $x$
+\end_inset
+
+，可先假设不存在这样的
+\begin_inset Formula $x$
+\end_inset
+
+，即
+\begin_inset Formula $\neg\bigvee_{x}F(x)$
+\end_inset
+
+，或者说
+\begin_inset Formula $\bigwedge_{x}\neg F(x)$
+\end_inset
+
+，再从“对每一个
+\begin_inset Formula $x$
+\end_inset
+
+，
+\begin_inset Formula $F(x)$
+\end_inset
+
+是假的”推出一个矛盾，最终得到存在这样的
+\begin_inset Formula $x$
+\end_inset
+
+。连续函数的介值定理就是用这种存在性方法证明的。
+\end_layout
+
+\begin_layout Standard
+由于在初等几何中没有货真价实的存在性证明。因此，教科书作者过去总是想方设法编造一些这种例子。我不知道他们自己对此是否满意，但有些定理明明已被直接证明了，却还要构
+造它的间接证明。要在教科书中寻找间接证明是很容易的，我们只要翻一下书页，在那些虚线非常靠近实线的图象附近就有间接证明，此处课文会说上几段类似“让我们假设那条不经
+过
+\begin_inset Formula $P$
+\end_inset
+
+的直线……”的话，同时，作者为了把这一假设直观化，就在图中画上一条错误的直线。这种表达间接证明的方法是否适合正处于逻辑和直觉交错迷乱阶段的学生值得商榷。
+\end_layout
+
+\begin_layout Standard
+鉴于上述原因，初等几何可以完全排除间接证明，但几何教学是否也要排除间接证明呢？你只要尝试一下就会发现这是办不到的。间接证明就像希腊神话中的多头蛇，砍掉一个脑袋就
+会长出七个新脑袋，它的作用完全不同于教科书所说的那样，它是学习者自由思维活动的一种表达方式，也是一种非常普遍的思维活动（“彼得不在家，因为否则门就不会锁着”）。
+小孩子在考虑问题时会自然地这样推理：“……如果不是这样，那么就会……“。
+\end_layout
+
+\begin_layout Standard
+间接证明是最好的启发手段，让我们来看一个例子：在平面上画一张格子网，每个网眼的顶点都是格点（即坐标为整数的点）。现在问：绕平面上的哪些点旋转可以使网不变？答案很
+明显，它们是各个网眼的顶点及其每条边的中点以及各网眼的中心。但是，怎样来证明这个答案已齐全了呢？有人会这样本能地思考：假如
+\begin_inset Formula $AB$
+\end_inset
+
+边上的一点
+\begin_inset Formula $P$
+\end_inset
+
+离
+\begin_inset Formula $A$
+\end_inset
+
+近而离
+\begin_inset Formula $B$
+\end_inset
+
+远，则
+\begin_inset Formula $A$
+\end_inset
+
+以外的一切格点到
+\begin_inset Formula $P$
+\end_inset
+
+点的距离都大于
+\begin_inset Formula $\overline{AP}$
+\end_inset
+
+。从而绕
+\begin_inset Formula $P$
+\end_inset
+
+旋转时，
+\begin_inset Formula $A$
+\end_inset
+
+不可能变到别的格点。假如
+\begin_inset Formula $P$
+\end_inset
+
+在网眼
+\begin_inset Formula $ABCD$
+\end_inset
+
+内，但不在的垂直平分线上，则……。这样就会得到证明。当然，在写出证明时，我们可以把这种拐弯抹角的东西抛掉，只用直接法证明，而把间接证明留在草稿上。一本几何教科书
+如果完全不出现间接证明，那是一本很好的书，若教师想告诉学生什么是间接证明，那最好不要编造例子，而要在学生无意识地这样思考时，当即抓住时机，指出他所进行的思维活动
+就是间接证明。为了使几何不受任何责难，有人先按一种合适的方式把每个间接证明都改成直接证明，然后，为了让学生至少见识过一个间接证明而去构造一些毫无生气的间接证明，
+这种做法是不理智的。在给出间接证明之前，学生应该对它已积累了一定的经验。
+\end_layout
+
+\begin_layout Section
+程式化与形式化之间
+\end_layout
+
+\begin_layout Standard
+我刚才举的这些例子都是思维模式，语言在其中不是重要角色。以前所举的一些例子，例如“画家中最伟大的诗人，诗人中最伟大的画家”，或关于张先生与李先生的谈话，则强调语
+言的成分，这时逻辑特征被隐藏在语言表达之中，这些例子所用的语言还完全不是数学语言。要理解这种语言，恐怕需要从数学上将它形式化。只有这样，才能弄清楚哪里隐藏着限定
+，以及推理的过程是什么。我们确实能够将日常数学语言所叙述的东西形式化到一个更高的层次，这项工作有时很有用。当然，从非数学的语言到完全形式化的语言要经过一条漫长的
+道路。
+\end_layout
+
+\begin_layout Standard
+必须强调的是，脱离要作形式化的具体内容来教形式化是没有意义的，这一原理对一切形式体系都适合，但逻辑的形式体系在这方面尤其要注意。尽管有人想通过教学把学生训练成能
+解形式化难题的高手，从学生的耐心和热情来看，这种教学也是成功的，但我认为这种数学是所能想象出的、最无聊的数学，甚至这种愚蠢的活动恐怕根本就称不上是数学活动，对此
+计算机可以比学生做得更好。我在前面谈及那些传统逻辑的骇人问题时，还应加上一句：这些旧的记载正面临着新逻辑的问题的尖锐挑战。
+\end_layout
+
+\begin_layout Standard
+我认为逻辑若不是为了逻辑的话，那它是有用的，把逻辑作为其自身的一个目标那是逻辑学家的事。学生必须学会从证明和定理中发现逻辑模式，并在他自己进行形式化的时候运用这
+些模式，但最重要的是他必须学会在非数学语言的情形下利用逻辑。
+\end_layout
+
+\begin_layout Standard
+传统上，逻辑一直是三段论的艺术，在很长的一段历史时期内几乎无人清醒地认识到仅有二段论是无法走远的这样的事实。然而，三段论仅仅适合于对主谓结构的形式化，就连如下的
+推理：
+\end_layout
+
+\begin_layout Standard
+一匹马是一个动物，
+\end_layout
+
+\begin_layout Standard
+于是一匹马的头是一只动物的头。
+\end_layout
+
+\begin_layout Standard
+\noindent
+它也做不出来，对这个推理的叙述要使用多变元的函数与谓词。
+\end_layout
+
+\begin_layout Standard
+逻辑自古以来就与几何结合了，虽然三段论的作用在几何中也很有限，但无人对这一结合表示疑问，也无人去改变逻辑而使它适合几何。直到本世纪60年代初，几何的教科书和教师
+用书对几何是逻辑的训练场所这一观点仍丝毫未表示过怀疑，而代数教科书则从来不谈逻辑，学生学代数只需接受一个很有用的规则体系，按预先指定好的方向转化已知条件就行了，
+但几何没有这种可循的模式。代数中的一些陷阱（如除以零、不等式两边乘以同一个负数等）不是用逻辑分析消除的，而是用那些附加规定填平的。
+\end_layout
+
+\begin_layout Standard
+在传统的学校教学中，代数这个词可以翻译成“完成模式的指导”，或说得更严重些，就是填空，学生把课本内容牢记心头后，他所要做的就是按照课本内容填空，结果就像你无意中
+听见一个人在打电话：“是……是……不……是……三个…不……”敏感的人也许还可以从他的表情、语调的变化中觉察出电话那一头的人在说些什么。每年，当我翻阅文法学校的期
+末考试卷时，我总不由地会佩服那些老师，他们知道学生在填空时脑子里巳记住了哪些东西。考卷中有好几处，甚至很多是填空，这真是代数的一大祸害，对学生的理解丝毫没有益处
+。几何中虽然也有填空，但不像代数中做得那么机械，那么彻底，这是人们认为几何比代数更适合作逻辑训练场所的理由之一。
+\end_layout
+
+\begin_layout Standard
+看一下学生在解一个代数问题时头脑里是怎么想的，会给我们提供大量的信息。例如，对于“求证办
+\begin_inset Formula $3x^{2}+12x$
+\end_inset
+
+有一个最小值，并指出
+\begin_inset Formula $x$
+\end_inset
+
+取何值时恰达到该最小值”有一个学生这样解：
+\end_layout
+
+\begin_layout Standard
+“表达式
+\begin_inset Formula $3x^{2}+12x$
+\end_inset
+
+是一个二次函数，如果提出公因子3，表达式不变，括号内是
+\begin_inset Formula $x^{2}+4x$
+\end_inset
+
+它与
+\begin_inset Formula $(x+2)^{2}$
+\end_inset
+
+不相等，因为我们加了
+\begin_inset Formula $4$
+\end_inset
+
+。为了使其相等，必须减
+\begin_inset Formula $4$
+\end_inset
+
+，
+\begin_inset Formula $(-4)$
+\end_inset
+
+必须乘以
+\begin_inset Formula $3$
+\end_inset
+
+，于是我们得到
+\begin_inset Formula $3(x+2)^{2}-12$
+\end_inset
+
+，它与
+\begin_inset Formula $3x^{2}+12x$
+\end_inset
+
+相等。因为平方项大于或等于
+\begin_inset Formula $0$
+\end_inset
+
+，所以这个表达式有最小值
+\begin_inset Formula $-12$
+\end_inset
+
+。平方项要乘以
+\begin_inset Formula $3$
+\end_inset
+
+，因此它至少是
+\begin_inset Formula $0$
+\end_inset
+
+，即当
+\begin_inset Formula $x=-21$
+\end_inset
+
+时，
+\begin_inset Formula $3(-2+2)^{2}-12=-12$
+\end_inset
+
+。由于平方项的值总为正，
+\begin_inset Formula $\times3$
+\end_inset
+
+后也总为正，因此，最小值是
+\begin_inset Formula $-12$
+\end_inset
+
+。“
+\end_layout
+
+\begin_layout Standard
+我们从中可以看出，学生解题时并不靠逻辑来推论，而是根据计算的规则行事
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这是代数中的一种自然方法。形式已被灌输给了学生，这说明形式化不是在学习进程的最后阶段，而是在学生尚未掌握需要加以形式化的具体材料之前，就往往过早地开始了。
+\end_layout
+
+\begin_layout Standard
+这种做法在几何教学中并不容易。如果把逻辑看作是程式化，那么几何比代数更接近逻辑。代数传统上比几何更形式化。几何中，我们注重思维模式；代数中，我们却注重掌握语言，
+这就是今天人们试图把几何代数化，试图像掌握代数那样通过语言的途径去掌握几何的原因。但是，这种偷懒的做法在学生有了数学是一种无意义语言的感受之后又必须去运用数学时
+，将会显出后果。
+\end_layout
+
+\begin_layout Standard
+只要几何继续倾向于程式化，代数继续倾向于形式化，同时，形式化又没有成为一种有价值的数学活动，那么，几何和逻辑之间的紧密联系就可以理解。随着符号逻辑的发展，承认代
+数的逻辑地位也更加迫切了。不过，我们现在所举的例子中，程式化的大都取自子几何，形式化的大都取自于代数，对此，读者想必不会见怪的。
+\end_layout
+
+\begin_layout Section
+命题领域的形式化
+\end_layout
+
+\begin_layout Standard
+给出方程
+\begin_inset Formula $x^{2}-3x+2=0$
+\end_inset
+
+，学生都会说解是
+\begin_inset Formula $x=1$
+\end_inset
+
+和
+\begin_inset Formula $x=2$
+\end_inset
+
+。当然，这个“和”字一般是只说不写的。要求严格的教师会指出：“
+\begin_inset Formula $x=1$
+\end_inset
+
+和
+\begin_inset Formula $x=2$
+\end_inset
+
+是不相容的。”受过良好训练的学生会解释说：“我的意思是
+\begin_inset Formula $x=1$
+\end_inset
+
+或
+\begin_inset Formula $x=2$
+\end_inset
+
+。”最后教师告诫学生：“如果你的意思是‘或者’，那么就把它写下来。”
+\end_layout
+
+\begin_layout Standard
+我倒要问这位教师：既然早在几十年前我们就已发明了记号“
+\begin_inset Formula $\bigvee$
+\end_inset
+
+”，那你为什么还要让学生写“或者”呢？你总不会让学生去写“左括号a加b右括号的平方根”吧？再说，只要你明白这个答案的含意，那么“
+\begin_inset Formula $x+1$
+\end_inset
+
+和
+\begin_inset Formula $x=2$
+\end_inset
+
+”也应算正确的答案。有些几何教师总把语文教师的任务当作自己的责任，要求提问或回答都得用完整的句子。可在代数中到处都有不完整的句子，如果教师写下
+\begin_inset Formula $x^{2}-3x+2=0$
+\end_inset
+
+，学生就知道是要他找出满足这一方程的
+\begin_inset Formula $x$
+\end_inset
+
+。如果给出的方程是“
+\begin_inset Formula $x^{2}-3ax+2a^{2}=0$
+\end_inset
+
+”，学生会毫不犹豫地计算
+\begin_inset Formula $x$
+\end_inset
+
+而不是
+\begin_inset Formula $a$
+\end_inset
+
+。学生回答“
+\begin_inset Formula $x=1$
+\end_inset
+
+和
+\begin_inset Formula $x=2$
+\end_inset
+
+”并没错，它的意思是“
+\begin_inset Formula $x=1$
+\end_inset
+
+是一个解，而
+\begin_inset Formula $x=2$
+\end_inset
+
+也是一个解”。我们知道
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{c}
+[(x=1)\rightarrow(x^{2}-3x+2=0)]\\
+\bigwedge[(x=2)\rightarrow(x^{2}-3x+2=0)]
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+等价于
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $[(x=1)\bigvee(x=2)]\rightarrow(x^{2}-3x+2=0)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以，如果教师有什么要问的话，应该问：“没有别的解了吗？”即
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(x^{2}-3x+2=0)\overset{?}{\rightarrow}[(x=1)\bigvee(x+2)]$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+前面我解释了逻辑符号的作用，我并没要求所有的代数计算都要用逻辑和集合论的符号来表示，但至少我们应该明确地表明由什么到什么，所用的量词是存在性量同，还是全称量词，
+还是疑问量词？虽说不必详细地指出每一步所用到的逻辑规则或数学公理、定理，不必每一步都重复所有的条件，也不必用括号把解方程的过程写成集合之间的一长串等式，但是，像
+上述有关“和”、“或者”这种讨论若使用逻辑符号就会变得更简单、可行了。
+\end_layout
+
+\begin_layout Standard
+在传统的代数教学中，解方程所依据的模式是逐步用等价方程代替的。这是教师为防止学生出错而发明的人为方法，它只适用于很简单的方程，即便如此，有时还可能很复杂。自然的
+方法是从所给方程出发，比如
+\begin_inset Formula $\sqrt{x+1}+\sqrt{x+4}=\sqrt{x+9}$
+\end_inset
+
+，逐步将其转化为一个直接可解的方程：
+\begin_inset Formula $(3x+28)x=0$
+\end_inset
+
+。在这一过程中，所出现的一系列方程不等价，所导出的方程只是用作一个临时的必要条件。于是
+\begin_inset Formula $\sqrt{x+1}+\sqrt{x+4}=\sqrt{x+9}\rightarrow(3x+28)x=0$
+\end_inset
+
+。然后要验根，把解得的值代入
+\begin_inset Formula $x$
+\end_inset
+
+，检验它们是否适合原方程，哪些是适合的，即检验哪些值能使上述箭头反向也成立。
+\end_layout
+
+\begin_layout Standard
+的确，在解数值的二次方程时，验根步骤可以省去，因为这种方程的所有根都可以用一个公式表示。但这是一种特殊情况，如果所要解的方程是来自于实际问题的，即是对现实情况进
+行数学化后得到的，那么验根就是一个最自然的步骤了。在这种情形下，我们往往不能肯定是否遗漏了一些条件，从数学中求出的解因没有物理意义自然会舍去，这只说明我们对这个
+问题的数学描述还不够完全。在解这类问题时，学生当然应该习惯于仔细检查从数学中得出的答案。
+\end_layout
+
+\begin_layout Standard
+如果方程是逐步通过等价方程来解的，那么中间步骤的说明也许可以省略，但无论在什么情况下，都应该指出，什么是要学生求的未知数，为什么未知数永远是
+\begin_inset Formula $x$
+\end_inset
+
+？解答中也应该明确说明什么是解？如果解不止一个的话，还应该讲明：究竟是“和”还是“或者”？
+\end_layout
+
+\begin_layout Standard
+如果方程不是用这种等价方程替换的严格方法来解的，那么我们要做的事就多了，必须明确指出由什么到什么，一个方程是化为两个联立方程还是化为两个独立方程等等，这些都可以
+用逻辑符号简明扼要地予以说明。
+\end_layout
+
+\begin_layout Standard
+下面，我想给出几个使用逻辑符号表达数学的例子。只要我们联系实际背景谈逻辑，命题就不会是毫无意义的符号堆，相反，它们表达着某一内容，还可以用真值表形式地刻划它们。
+大家都知道真值表，其中0表示假，1表示真：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $q$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\neg p$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p\bigvee q$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p\bigwedge q$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p\leftrightarrow q$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+从真值表上我们可以比较命题的分、合等一些抽象的组合，但真值表的一个更基本、自然的实际用途是观察某些特殊命题之间的关系。比如大家知道，几何中那些具有多个条件和结论
+的定理，可用多种方法去改变其条件与结论。设是
+\begin_inset Formula $ABCD$
+\end_inset
+
+一个四边形，考虑以下四个命题：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p$
+\end_inset
+
+：
+\begin_inset Formula $AB\Vert CD$
+\end_inset
+
+，
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $r$
+\end_inset
+
+：
+\begin_inset Formula $AB=CD$
+\end_inset
+
+，
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $q$
+\end_inset
+
+：
+\begin_inset Formula $AB\Vert CD$
+\end_inset
+
+，
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $s$
+\end_inset
+
+：
+\begin_inset Formula $AD=BC$
+\end_inset
+
+，
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+则有
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $(p\bigwedge q)\leftrightarrow(r\bigwedge s),\quad(p\bigwedge r)\leftrightarrow(q\bigwedge s)$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+但当
+\begin_inset Formula $p$
+\end_inset
+
+和
+\begin_inset Formula $s$
+\end_inset
+
+都为假时，
+\begin_inset Formula $q\bigwedge r$
+\end_inset
+
+却可以为真。
+\begin_inset Formula $p$
+\end_inset
+
+、
+\begin_inset Formula $q$
+\end_inset
+
+、
+\begin_inset Formula $r$
+\end_inset
+
+、
+\begin_inset Formula $s$
+\end_inset
+
+真假排列的所有可能为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="9">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $p$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $q$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $r$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $s$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+当然，在形式化时，我们也可以不用命题
+\begin_inset Formula $p$
+\end_inset
+
+、
+\begin_inset Formula $q$
+\end_inset
+
+、
+\begin_inset Formula $r$
+\end_inset
+
+、
+\begin_inset Formula $s$
+\end_inset
+
+，而用相应的满足条件
+\begin_inset Formula $p$
+\end_inset
+
+、
+\begin_inset Formula $q$
+\end_inset
+
+、
+\begin_inset Formula $r$
+\end_inset
+
+、
+\begin_inset Formula $s$
+\end_inset
+
+的四边形集合
+\begin_inset Formula $P$
+\end_inset
+
+、
+\begin_inset Formula $Q$
+\end_inset
+
+、
+\begin_inset Formula $R$
+\end_inset
+
+、
+\begin_inset Formula $S$
+\end_inset
+
+代替，但这时要用到这些集合的并、交和它们的补集之间的相等、包含、不包含这些关系，这样做也完全合理。然而尽管这两种方法是等价的，有时是用逻辑形式好，有时却用集合论
+形式更好。
+\end_layout
+
+\begin_layout Standard
+我不同意把逻辑与其包含的实际背景截然分开。首先我要声明，我从未听说过这样的教学取得过成功，我怀疑人们是否研究甚至注意过这方面的教学专题。这个专题就是日常语言的逻
+辑习惯和符号逻辑之间存在很大的差别。大家知道，数学家对“或者”的理解比日常语言中人们对它的理解要简洁得多，而且早在符号逻辑之前他们就这样理解了。在数学中，“或者
+”意指兼收并蓄，没有排他的意思。大家也知道，即使
+\begin_inset Formula $V$
+\end_inset
+
+是空的，数学家仍可将命题“
+\begin_inset Formula $V$
+\end_inset
+
+的所有元素
+\begin_inset Formula $x$
+\end_inset
+
+有性质
+\begin_inset Formula $F(x)$
+\end_inset
+
+”看作是真的。但是，在日常语言中，如果我们对违背人们常识的东西予以肯定，那是要被判为错误的（“
+\begin_inset Formula $8+4=11$
+\end_inset
+
+或者
+\begin_inset Formula $12$
+\end_inset
+
+”就被认为是错的，尽管从逻辑形式上说它是正确的）。
+\end_layout
+
+\begin_layout Section
+蕴含
+\end_layout
+
+\begin_layout Standard
+蕴含“如果……那么……”是逻辑知识的要点，通常用一个箭头“
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+”表示它。由两个命题
+\begin_inset Formula $p$
+\end_inset
+
+、
+\begin_inset Formula $q$
+\end_inset
+
+，我们可以复合出命题
+\begin_inset Formula $p\vee q$
+\end_inset
+
+、
+\begin_inset Formula $p\wedge q$
+\end_inset
+
+、
+\begin_inset Formula $\neg p\vee q$
+\end_inset
+
+、
+\begin_inset Formula $\neg(p\vee q)$
+\end_inset
+
+等等，这里“
+\begin_inset Formula $\vee$
+\end_inset
+
+”（或者）、“
+\begin_inset Formula $\wedge$
+\end_inset
+
+”（并且）的意义是很明确的，但什么是
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+呢？我们一般将它连同
+\begin_inset Formula $p$
+\end_inset
+
+和
+\begin_inset Formula $q$
+\end_inset
+
+一起理解为一个命题。比如，“p=当天下雨”，“q=地是湿的”时，
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+就不难理解，它是一句很明白的话“如果天下雨，那么地是湿的”。当“p=天下雨”，而“
+\begin_inset Formula $q=(2\times2=4)$
+\end_inset
+
+”时，
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+就不好理解了。这句话看上去没有什么实在意义。同样当“
+\begin_inset Formula $q=(2\times2=5)$
+\end_inset
+
+”，而“
+\begin_inset Formula $q=(2\times2=4)$
+\end_inset
+
+”或“
+\begin_inset Formula $q=(2\times2=6)$
+\end_inset
+
+”时，也是如此。在日常语言中，甚至在数学的日常语言中，我们一直把“如果……那么……”这种句型理解为“如果我知道这个，我就能推出那个也是成立的”，而不是理解为“或
+者”的组合或“并且”的组合。但这种理解对形式化的要求来说是模糊的。另外，数学中的许多概念，比如，
+\begin_inset Formula $A\subset B$
+\end_inset
+
+的概念、紧致的概念等等，就是用这种句型定义的，所以，搞清“如果……那么……”句子与“或者”或“并且”句子间的等价关系是很有必要的。
+\end_layout
+
+\begin_layout Standard
+如何理解“
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+”呢？这只能借助于“
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+”的真值表从形式上去回答。不考虑
+\begin_inset Formula $p$
+\end_inset
+
+、
+\begin_inset Formula $q$
+\end_inset
+
+的具体内容，把
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+理解为
+\begin_inset Formula $p$
+\end_inset
+
+和
+\begin_inset Formula $q$
+\end_inset
+
+的一个函数，这的确是十分形式化的观点。如果抛弃
+\begin_inset Formula $p$
+\end_inset
+
+、
+\begin_inset Formula $q$
+\end_inset
+
+的具体内容，那么剩下的只有它们的真值，“
+\begin_inset Formula $\vee$
+\end_inset
+
+”和“
+\begin_inset Formula $\wedge$
+\end_inset
+
+”可用
+\begin_inset Formula $p\vee q$
+\end_inset
+
+和
+\begin_inset Formula $p\wedge q$
+\end_inset
+
+的真值表得到令人满意的解释，我们何不同样地去解释“
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+”呢？人们已经承认当且仅当
+\begin_inset Formula $p$
+\end_inset
+
+真而
+\begin_inset Formula $q$
+\end_inset
+
+假时，
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+为假，即
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+与
+\begin_inset Formula $\neg p\vee q$
+\end_inset
+
+等价，这是很合理的，尽管这样做会把一些很奇怪的推理认为是正确的，如
+\end_layout
+
+\begin_layout Standard
+如果地球是一颗行星，那么
+\begin_inset Formula $2\times2=4$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+如果太阳是一颗行星，那么
+\begin_inset Formula $2\times2=4$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+如果太阳是一颗行星，那么
+\begin_inset Formula $3\times2=5$
+\end_inset
+
+。
+\begin_inset Newline newline
+\end_inset
+
+有人会说：这也不错嘛。但是，如果把
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+就理解为
+\begin_inset Formula $\neg p\vee q$
+\end_inset
+
+，那么因为条件和结论都是早就决定了真假的独立命题，所以它不会告诉我们什么新东西。若是
+\begin_inset Formula $p$
+\end_inset
+
+和
+\begin_inset Formula $q$
+\end_inset
+
+本身都依赖于变量，则情况就有点不同了。集合和命题之间有一种大家都很熟悉的关系，集合
+\begin_inset Formula $V$
+\end_inset
+
+上一个关于变量
+\begin_inset Formula $x$
+\end_inset
+
+的命题
+\begin_inset Formula $p_{v}:x\in V$
+\end_inset
+
+，当且仅当
+\begin_inset Formula $x\in V$
+\end_inset
+
+时为真。令
+\begin_inset Formula $U$
+\end_inset
+
+为一个固定的全集，
+\begin_inset Formula $x$
+\end_inset
+
+在
+\begin_inset Formula $U$
+\end_inset
+
+中变化，则容易看出，
+\begin_inset Formula $\cap$
+\end_inset
+
+、
+\begin_inset Formula $\cup$
+\end_inset
+
+、
+\begin_inset Formula $\backslash$
+\end_inset
+
+和
+\begin_inset Formula $\wedge$
+\end_inset
+
+、
+\begin_inset Formula $\vee$
+\end_inset
+
+、
+\begin_inset Formula $\neg$
+\end_inset
+
+互相对应，即
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(p_{a}\wedge p_{b})\leftrightarrow p_{A\cap B}$
+\end_inset
+
+，
+\begin_inset Formula $(p_{a}\vee p_{b})\leftrightarrow p_{A\cup B}$
+\end_inset
+
+，
+\begin_inset Formula $(\neg p_{a})\leftrightarrow p_{U\backslash A}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+那么，“
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+”与什么对应呢？
+\begin_inset Formula $p_{a}\rightarrow p_{b}$
+\end_inset
+
+或者
+\begin_inset Formula $(x\in A)\rightarrow(x\in B)$
+\end_inset
+
+也要对应一个集合，这个集合由使该命题为真的所有
+\begin_inset Formula $x$
+\end_inset
+
+组成。因为无论是前提为假还是结论为真，都认为该蕴含是真的，所以这个集合中的
+\begin_inset Formula $x$
+\end_inset
+
+应是
+\begin_inset Formula $x\notin A$
+\end_inset
+
+且
+\begin_inset Formula $x\in B$
+\end_inset
+
+，即这个集合是
+\begin_inset Formula $U\backslash(A\backslash B)$
+\end_inset
+
+。于是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(p_{A}\rightarrow p_{B})\leftrightarrow p_{U\backslash(A\backslash B)}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+可是，对于
+\begin_inset Formula $(x\in A)\rightarrow(x\in B)$
+\end_inset
+
+，人们往往不会想到
+\begin_inset Formula $x$
+\end_inset
+
+要满足
+\begin_inset Formula $U\backslash(A\backslash B)$
+\end_inset
+
+这样古怪的条件，只会想到满足条件
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\bigwedge_{x}[(x\in A)\rightarrow(x\in B)]$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+于是，导出
+\begin_inset Formula $A$
+\end_inset
+
+和
+\begin_inset Formula $B$
+\end_inset
+
+间的一个关系：
+\begin_inset Formula $A\subset B$
+\end_inset
+
+，它与
+\begin_inset Formula $(x\in A)\rightarrow(x\in B)$
+\end_inset
+
+的联系比
+\begin_inset Formula $U\backslash(A\backslash B)$
+\end_inset
+
+更自然。对
+\begin_inset Formula $\vee$
+\end_inset
+
+、
+\begin_inset Formula $\wedge$
+\end_inset
+
+、
+\begin_inset Formula $\neg$
+\end_inset
+
+作类似的解释，就有
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{x}[(x\in A)\wedge(x\in B)]\leftrightarrow A\cap B=U$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{x}[(x\in A)\vee(x\in B)]\leftrightarrow A\cup B=U$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{x}\neg(x\in A)\leftrightarrow A=\varnothing$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{x}[(x\in A)\wedge(x\in B)]\leftrightarrow A\subset B$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+类似地，还有
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigvee_{x}[(x\in A)\wedge(x\in B)]\leftrightarrow A\cap B\neq\varnothing$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{x}[(x\in A)\vee(x\in B)]\leftrightarrow A\cup B=\varnothing$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge\neg_{x}(x\in A)\leftrightarrow A\neq U$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigvee_{x}[(x\in A)\rightarrow(x\in B)]\leftrightarrow A\backslash B\neq U$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+带有
+\begin_inset Formula $\vee$
+\end_inset
+
+、
+\begin_inset Formula $\wedge$
+\end_inset
+
+、
+\begin_inset Formula $\neg$
+\end_inset
+
+、
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+性质的集合则是：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\{x|(x\in A)\wedge(x\in B)\}=A\cap B$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\{x|(x\in A)\vee(x\in B)\}=A\cup B$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\{x|\neg(x\in A)=U\backslash A$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\{x|(x\in A)\rightarrow(x\in B)\}=U\backslash(A\backslash B)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+从逻辑上说，这些是正确的，并具有一种对称美；但从心理学上说，是完全错误的。要把“
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+”像
+\begin_inset Formula $\vee$
+\end_inset
+
+、
+\begin_inset Formula $\wedge$
+\end_inset
+
+、
+\begin_inset Formula $\neg$
+\end_inset
+
+一样用集合，而不用集合间的关系来表示，实在令人难以习惯，其原因就在于“如果……那么……”具有那种无法避免的非静态的操作性质。比较下列两个句子：
+\end_layout
+
+\begin_layout Standard
+一匹马是一只动物，所以一匹马的头是一只动物的头。
+\end_layout
+
+\begin_layout Standard
+令
+\begin_inset Formula $x=3$
+\end_inset
+
+，则
+\begin_inset Formula $2x=6$
+\end_inset
+
+。
+\begin_inset Newline newline
+\end_inset
+
+“所以”、“则”都不记作“
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+”，而记作“
+\begin_inset Formula $\vdash$
+\end_inset
+
+”。
+\begin_inset Formula $p\vdash q$
+\end_inset
+
+的意思是：如果假设
+\begin_inset Formula $p$
+\end_inset
+
+为真，则
+\begin_inset Formula $q$
+\end_inset
+
+就为真，或者说，
+\begin_inset Formula $q$
+\end_inset
+
+可以从
+\begin_inset Formula $p$
+\end_inset
+
+推出。显然，有
+\begin_inset Formula $p\vdash q$
+\end_inset
+
+则有
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+；但
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+除含有
+\begin_inset Formula $p\vdash q$
+\end_inset
+
+的意思外，即使
+\begin_inset Formula $p$
+\end_inset
+
+为假，也仍有意义，并称这时
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+为真，这时
+\begin_inset Formula $p\vdash q$
+\end_inset
+
+当然没什么意义，而
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+却不仅有意义，还很有用。比如
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(A\subset B)\leftrightarrow\bigwedge_{x}[(x\in A)\rightarrow(x\in B)]$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+若A是空集，则
+\begin_inset Formula $x\in A$
+\end_inset
+
+总为假，于是
+\begin_inset Formula $(x\in A)\rightarrow(x\in B)$
+\end_inset
+
+总为真，
+\begin_inset Formula $A\subset B$
+\end_inset
+
+也就总为真，即空集是任何集合的子集，这是一个很有用的结论，只要我们一承认空集就得马上承认它。现代逻辑学家认为，“所有会飞的象都会下蛋”虽然实际意义不大，却是对的
+。当然，不承认空集的人不会同意这种看法。只要世上有一只会飞的象，这一命题的正确性就不是无关紧要了，我们要检验那些会飞的象会不会下蛋，但只要会飞的象这个集合是空集
+，我们就可以随心所欲地给这些象加上各种各样的性质。
+\end_layout
+
+\begin_layout Standard
+“水温是20°C”的意思是：如果将一只温度计插入水中，过一会儿，温度计的读数就会指向
+\begin_inset Formula $20$
+\end_inset
+
+。对此，你如果指责说：“即使没人将温度计插入水中，那温度也是20°C”。这种指责当然没必要了，日常语言有它自己合理的评判标准，日常语言中的命题不能用真值代替，而
+且，命题间的关系也不能由真值表读出。这些事情如果在一个形式化程度很高的人造语言体系中进行，那就要容易得多了。
+\end_layout
+
+\begin_layout Standard
+形式逻辑和日常语言对蕴含的用法差异之大，致使人们甚至在数学活动的高层次上运用蕴含也常出错。从句中有关蕴含的错误是很常见的，比如，将“如果
+\begin_inset Formula $x^{2}+ax+b=0$
+\end_inset
+
+，可推出
+\begin_inset Formula $x=1$
+\end_inset
+
+或
+\begin_inset Formula $x=2$
+\end_inset
+
+，则且
+\begin_inset Formula $a=-3$
+\end_inset
+
+，且
+\begin_inset Formula $b=2$
+\end_inset
+
+”译成逻辑语言
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccl}
+\bigwedge_{a,b}[\bigwedge_{x}\{(x^{2}+ax+b) & \rightarrow & [(x=1)\vee(x=2)\}]\\
+ & \rightarrow & [(a=-3)\wedge(b=2)],
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+就明显是错的。因为，像
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x^{2}+1=0\rightarrow[(x=1)\bigvee(x=2)]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+在实数域内正确，可是其中
+\begin_inset Formula $a=0$
+\end_inset
+
+，
+\begin_inset Formula $b=1$
+\end_inset
+
+与上述逻辑式不符合
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+参见H.
+\begin_inset space \space{}
+\end_inset
+
+Freudenthal的Language
+\begin_inset space \space{}
+\end_inset
+
+of
+\begin_inset space \space{}
+\end_inset
+
+Logic，Amsterdam，
+\begin_inset space \space{}
+\end_inset
+
+Elsevier,
+\begin_inset space \space{}
+\end_inset
+
+1906,
+\begin_inset space \space{}
+\end_inset
+
+第52-53页。
+\end_layout
+
+\end_inset
+
+已经说过使用括号来表示满足某条件的
+\begin_inset Formula $x$
+\end_inset
+
+的集合会出错，从句中的蕴含也是如此。在一种非形式化的语言中随意运用“满足某条件的所有
+\begin_inset Formula $x$
+\end_inset
+
+的集合”是无碍的，但在一种形式化的语言中，它就与该语言所声称的严谨性不相称了。在未掌握某种形式化的语言之前，就要用它去表达一切，那仅仅是在卖弄知识。对于这个问题
+，我说得比较详细，因为许多教科书作者似乎并未认识到他们将面临的困难有多大，以及一个人在开始教这门课以前必须多么谨慎地去思考一些东西。像用蕴含这样的符号来表达这种
+东西，只在与日常语言背离不太远的，非常简单的背景下才起作用，但在这样的背景下，硬是以无意义的方式将逻辑形式体系与其具体内容分开是没有什么意思的。这不是说我们不能
+把它教给学生，而是因为一种仅有形式而不与任何内容相联系的形式技巧对学生来说只能是一种僵化的知识，没人知道为什么要教这种技巧。我不反对让学生熟悉
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+的真值表，熟悉
+\begin_inset Formula $p\rightarrow q$
+\end_inset
+
+和
+\begin_inset Formula $\neg p\vee q$
+\end_inset
+
+的逻辑等价，但却不认为它们在学生心理上是等价的。想必我们还记得自己当初学习时的情景。比如，用
+\begin_inset Formula $x\in A\rightarrow x\in B$
+\end_inset
+
+定义
+\begin_inset Formula $A\subset B$
+\end_inset
+
+是很好的，但何必改成
+\begin_inset Formula $\neg(x\in A)\vee(x\in B)$
+\end_inset
+
+呢？虽然用
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(A\text{的余集})\cup B=\text{全集}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+来解释很规范，但明智吗？
+\end_layout
+
+\begin_layout Section
+形式化
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+数学语言的结构
+\end_layout
+
+\begin_layout Standard
+在“数的概念”一章中，我详细讨论了代数语言的句法，因为，即使有一点点类似“代数语言的句法是极难理解的”想法，对代数教学也是有害的。我不是说要教这种句法，更不是说
+教代数要从教它的句法开始，但教师应该有意识地掌握它。对于描述公式的数学语言句法，情况也差不多。在所有的形式化工作中，我们在数学语言的句法方面所取得的成绩最令人不
+满。我多次研究过日常语言、数学语言和形式化语言这三者的关系。我认为，如果教学中不先弄清这些关系，那么，零碎的形式化语言就毫无用处。
+\end_layout
+
+\begin_layout Standard
+我曾多次指出日常语言，数学公式语言和形式化语言之间的不同点，还就“群”、“交换群”、“伽罗瓦（Galois）群”的定义作了仔细的分析。虽然，这种微妙的差别是可以
+灌输给学生的，学生掌握它也不困难，但是这种学习不会产生知识的其他迁移。要想让学生学习形式化（我相信，形式化将是未来数学家们的一种重要活动），就应该提出一些迫切需
+要形式化的问题，让学生亲身经历它们的形式化过程，而不是让他们去面对问题的最终结果。另外，有意识地熟练使用一种语言必将对一般语言教育产生实质性的影响。
+\end_layout
+
+\begin_layout Standard
+括号是代数公式语言的一个基本符号，很少有人认清它的本质。在代数教科书中，括号有“去”和“添”的用法，但人们对括号在形式化中还承担一些建立结构的任务却缺乏认识，在
+表示某种约束时，最爱随便用括号“满足某某条件的
+\begin_inset Formula $x$
+\end_inset
+
+的集合”，我曾说过，日常语言中的句法结构、词尾变化、介词、连接词、从句、标点符号等都有很多别的含义，句法结构常须由句子的含义而定，在“成熟的苹果和梨”中，是句子
+的含义而不是句法结构显示出它有不同的添括号方法。数学中不允许我们省略括号，要求我们相信内容会告诉我们括号应该在哪里，数学要求用比日常语言更明确的形式。
+\end_layout
+
+\begin_layout Standard
+日常语言与数学语言对变量的称呼也完全不同。日常语言中，“石头”作为一个普通名词，它代表世界上的所有石头，若要加以区别的话，须在前面添上“这块”或“那块”。最早的
+几何教学也是用“这个点”、“那个点”、“这个圆”、“那条线”等来阐述的。以后，发明了用字母表示点，并由此产生了直线、平行四边形、圆的字母表示法。代数仿效几何的做
+法，也相应地用字母或符号表示未知量和未知量的幂。虽然，在日常语言中，变景“石头”只能代表石头，“老鼠”只能代表老鼠，但是，在数学中，用什么字母代表变量是无所谓的
+。变量
+\begin_inset Formula $a$
+\end_inset
+
+、
+\begin_inset Formula $b$
+\end_inset
+
+、
+\begin_inset Formula $c$
+\end_inset
+
+、
+\begin_inset Formula $\cdots$
+\end_inset
+
+、
+\begin_inset Formula $x$
+\end_inset
+
+、
+\begin_inset Formula $y$
+\end_inset
+
+、
+\begin_inset Formula $z$
+\end_inset
+
+、
+\begin_inset Formula $\cdots$
+\end_inset
+
+、
+\begin_inset Formula $A$
+\end_inset
+
+、
+\begin_inset Formula $B$
+\end_inset
+
+、
+\begin_inset Formula $C$
+\end_inset
+
+、…、
+\begin_inset Formula $\alpha$
+\end_inset
+
+、
+\begin_inset Formula $\beta$
+\end_inset
+
+、
+\begin_inset Formula $\gamma$
+\end_inset
+
+
+\begin_inset Formula $\cdots$
+\end_inset
+
+都有广泛的用途，仅偶尔要受到限制，例如，变量“
+\begin_inset Formula $+$
+\end_inset
+
+”仅用于表示加法，“
+\begin_inset Formula $<$
+\end_inset
+
+”总表示一种序关系。
+\end_layout
+
+\begin_layout Standard
+在表示变量的约束关系上，这两种语言的处理方式更是大相径庭。“在一个三角形中，内角之和是180°”和“作一个三角形”这两句话中都有“一个三角形
+\begin_inset Quotes erd
+\end_inset
+
+但前者指的是所有的三角形，而后者指的则是某个三角形。日常语言的这种麻烦即使使用数词也避免不了。数学中，显化约束关系的种类正越来越成为一种习惯，巳知的约束方式有：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{x}F(x)$
+\end_inset
+
+，全称量词：对所有的
+\begin_inset Formula $x$
+\end_inset
+
+，都有
+\begin_inset Formula $F(x)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigvee_{x}F(x)$
+\end_inset
+
+，存在量词：存在一个
+\begin_inset Formula $x$
+\end_inset
+
+，有
+\begin_inset Formula $F(x)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\{x|F(x)\}$
+\end_inset
+
+，由约束形成的集合：有性质
+\begin_inset Formula $F(x)$
+\end_inset
+
+的所有
+\begin_inset Formula $x$
+\end_inset
+
+组成的集合
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+我建议用符号
+\begin_inset Formula $\uparrow$
+\end_inset
+
+个代替括号。
+\end_layout
+
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $U_{x}F(x)$
+\end_inset
+
+，由约束形成的函数：
+\begin_inset Formula $F(x)$
+\end_inset
+
+是
+\begin_inset Formula $x$
+\end_inset
+
+的一个函数，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\downarrow_{x}F(x)$
+\end_inset
+
+，冠词约束：有
+\begin_inset Formula $F(x)$
+\end_inset
+
+的那个
+\begin_inset Formula $x$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $?_{x}F(x)$
+\end_inset
+
+，疑问词约束：要求出有
+\begin_inset Formula $F(x)$
+\end_inset
+
+的那个
+\begin_inset Formula $x$
+\end_inset
+
+。
+\begin_inset Newline newline
+\end_inset
+
+不属于数学，也不可形式化的是指示约束：这（那）个
+\begin_inset Formula $x$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+把形式符号翻译成日常语言会遇到隔行对照翻译法通常会产生的一些问题，我就以“
+\begin_inset Formula $\neg$
+\end_inset
+
+”、“
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+”、“
+\begin_inset Formula $\vee$
+\end_inset
+
+”、“
+\begin_inset Formula $\wedge$
+\end_inset
+
+”为例来说明这一点吧。
+\end_layout
+
+\begin_layout Standard
+好像还没有哪种语言只需在句首简单加上一个否定词，就可变成否定句的，把“…”读作“……是错的”也不行，因为那就等于承认所有命题都有真值。
+\end_layout
+
+\begin_layout Standard
+“
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+”也很难翻译。在我所熟悉的几种语言中，它都表示关联“如果……那么……”的意思，有人把它读作“推出”也有人把它看成是有侧重的句子，表示什么“跟着”什么。
+\end_layout
+
+\begin_layout Standard
+如果
+\begin_inset Formula $F(x)$
+\end_inset
+
+表示“
+\begin_inset Formula $x$
+\end_inset
+
+是一只会飞的象”，那么把
+\begin_inset Formula $\bigvee_{x}F(x)$
+\end_inset
+
+隔行对照翻译过来就是“存在一个而这个
+\begin_inset Formula $x$
+\end_inset
+
+是一只会飞的象”，与“有会飞的象”相比，它显得累赘了。
+\end_layout
+
+\begin_layout Standard
+隔行对照翻译法最感棘手的是全称量词。让我们考虑一下命题“人总是要死的”。以
+\begin_inset Formula $H$
+\end_inset
+
+表示人类的集合，以谓词
+\begin_inset Formula $M$
+\end_inset
+
+表示“是要死的”，则
+\begin_inset Formula $M(x)$
+\end_inset
+
+可读作“
+\begin_inset Formula $x$
+\end_inset
+
+是要死的”，现在原命题可写成
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{x\in H}M(x)$
+\end_inset
+
+，“对人类集合
+\begin_inset Formula $H$
+\end_inset
+
+中的所有
+\begin_inset Formula $x$
+\end_inset
+
+，
+\begin_inset Formula $x$
+\end_inset
+
+是要死的”，
+\begin_inset Newline newline
+\end_inset
+
+或者
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{x}[(x\in H)\rightarrow M(x)]$
+\end_inset
+
+，“对所有
+\begin_inset Formula $x$
+\end_inset
+
+，如果
+\begin_inset Formula $x$
+\end_inset
+
+属于人类集合
+\begin_inset Formula $H$
+\end_inset
+
+，那么
+\begin_inset Formula $x$
+\end_inset
+
+是要死的”。
+\begin_inset Newline newline
+\end_inset
+
+显然，后两句都比原先的“人总是要死的”累赘。如果要将形式化了的语言列入教学内容，那么这种翻译是必不可少的、有用的练习。若用J表示集合“是要死的”来代替上述谓词
+\begin_inset Formula $M$
+\end_inset
+
+，则上述命题还可以复杂化，变成
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\bigwedge_{x\in H}x\in J$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+或
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\bigwedge_{x}[(x\in H)\rightarrow(x\in J)]$
+\end_inset
+
+，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+或
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $H\subset J$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+对于
+\begin_inset Formula $\bigwedge_{x}F(x)$
+\end_inset
+
+，我们通常把它读作或听人读作半形式化的句子：“对所有的
+\begin_inset Formula $x$
+\end_inset
+
+，
+\begin_inset Formula $F(x)$
+\end_inset
+
+。”我不喜欢用不发音的逗号这种非算法的东西把两个数学句子分开。也有人把它读作：“对所有的
+\begin_inset Formula $x$
+\end_inset
+
+有
+\begin_inset Formula $F(x)$
+\end_inset
+
+成立。”但其中的“成立”又高级了一点，我想还是读作“对所有的
+\begin_inset Formula $x$
+\end_inset
+
+都有
+\begin_inset Formula $F(x)$
+\end_inset
+
+”比较合适。
+\end_layout
+
+\begin_layout Standard
+我们已经注意到日常语言中约束手段的使用很活跃，表示同一种约束可以有许多手段，同一手段又常用来表示不同的约束。尽管现在教科书越来越多地采用符号式编写，但有关数学公
+式的内容通常还是用日常语言编写的，人们试图利用日常语言的复杂性将约束关系简明化，不是简单地说“
+\begin_inset Formula $f(x)$
+\end_inset
+
+为零”而说“对所有的
+\begin_inset Formula $f(x)$
+\end_inset
+
+为零”，或者“
+\begin_inset Formula $f(x)$
+\end_inset
+
+总是为零”，或者“
+\begin_inset Formula $f(x)$
+\end_inset
+
+全都为零”。假如要强调存在性约束，我们就说“对适当的
+\begin_inset Formula $x$
+\end_inset
+
+，
+\begin_inset Formula $f(x)$
+\end_inset
+
+为零”或者“对某个
+\begin_inset Formula $x$
+\end_inset
+
+，
+\begin_inset Formula $f(x)$
+\end_inset
+
+为零”，或者“
+\begin_inset Formula $f(x)$
+\end_inset
+
+有时为零”前面，我谈过如何将连续概念的一种朴素定义“如果
+\begin_inset Formula $x$
+\end_inset
+
+变化一点点，则
+\begin_inset Formula $f(x)$
+\end_inset
+
+也变化一点点”逐步形式化到较高的严谨水平上，这里，第一个“一点点”是“充分地小”含有一个存在量词，第二个“一点点”是“任意地小”，含有一个全称量词，当然，还要注
+意量词的序。所有这些都不是在形式的准则下进行的，因为这个朴素的连续性定义虽然不够精确，但能与精确定义建立正确的联系。如果我们最终将连续性定义彻底形式化了，那么我
+们对量词和量词的序也就不存在任何疑惑了。
+\end_layout
+
+\begin_layout Standard
+在定义连续的过程中，我们用了三种语言：日常语言、一种适应数学需要的日常语言的变形、完全形式化的语言。学生必须学会和掌握将一种语言翻译为另一种语言，但是隔行对照翻
+译法的用处极其有限，要把一段文字从形式化程度较低的语言翻译成形式化程度较高的语言，必须先理解这段文字；反之，则至少要很好地掌握形式化程度较低的语言，以保证译文通
+顺。在过去的几十年中，半形式化的日常语言有了很大发展，现在，大多数数学工作者已经很好地掌握了它，大学生也能学得很轻松。当然，教师要清楚这些学生还不熟悉这种语言，
+要耐心地教，要给学生练习的机会。但要举握完全形式化的语言就不同了，除逻辑学家外，我想恐怕不会有相当多的数学工作者真正熟悉这种语言的，至少可以说，他们（也包括我自
+已）缺少这方面的训练。我们可能在黑板上见过类似
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\exists$
+\end_inset
+
+群
+\begin_inset Formula $G$
+\end_inset
+
+，它满足
+\begin_inset Formula $\forall$
+\end_inset
+
+真子群
+\begin_inset Formula $H\subset\begin{subarray}{c}
+G\end{subarray}$
+\end_inset
+
+，……
+\begin_inset Newline newline
+\end_inset
+
+的写法，存在量词后面跟的不是数学变量而是一个普通名词，并接着说“满足……”，这种写法已成了某些数学工作者的习惯。对没有明确指出量词的日常语言或半形式化的日常语言
+，用隔行对照法翻译成完全形式化的语言，那出错就更多了。比如，将“所有由正数组成的数列的集合”翻译成
+\begin_inset Formula $\{\{a_{n}\}|a_{n}>0\}$
+\end_inset
+
+；将“正系数多项式的集合”翻译成
+\begin_inset Formula $\{a_{0}+a_{1}x+a_{2}x^{2}+\cdots+a_{n}x^{n}|a_{i}>0,i=0,1,\cdots,n\}$
+\end_inset
+
+等。在日常语言中，对其表达方式的限制可以有较大的自由，但在形式化的语言中，我们就必须按照这神语言的精神去做。中学的逻辑教学也存在这个问题，而且更严重。逻辑的运用
+常常是华而不实，只是为了让别人和他自己相信他已处于很高的知识水平，而一旦需要运用实质性的量词，便只好作罢，或者索性回到安全的日常语言中去。如果我们允许让
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\bigwedge_{a,b,c}[(a+b)c=ac+bc]$
+\end_inset
+
+与
+\begin_inset Formula $\{x\in N|x\text{能被\ensuremath{7}整除}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+一起出现，那么，所有代数公式中的全称量词都要明确岂不成了一句空话？不会到处都提倡使用完全形式化的语言，我敢预言，形式化的语言会继续发展，但适应数学的日常语言的变
+形也必将随之日趋成熟。在强调细节时，形式化的语言占优势，但在强调整体理解时，改造过的日常语言则更有效。
+\end_layout
+
+\begin_layout Standard
+训练学生把注意力放在形式化上，而不是放在形式体系上，这并不容易。主要是因为学生不容易掌握量词以及量词之间的约束方式。像“有人”、“没有人”、“有时”、“总是”、
+“某处”、“处处”这些词所隐含的量词以及它们的约束方式都很清楚，但像“一点点”、“多”、“小”、“大”这些词所隐含的是什么量词，以及量词间排的序又怎样，就得花力
+气去发现了。
+\end_layout
+
+\begin_layout Standard
+在表示“对所有的
+\begin_inset Formula $x$
+\end_inset
+
+都有
+\begin_inset Formula $F(x)$
+\end_inset
+
+”时，我将它记作
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F(a)\wedge F(b)\wedge F(c)\wedge\cdots$
+\end_inset
+
+，或者简写为
+\begin_inset Formula $\bigwedge_{x}(F(x))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+在表示“存在一个
+\begin_inset Formula $x$
+\end_inset
+
+有
+\begin_inset Formula $F(x)$
+\end_inset
+
+”时，我将它记作
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F(a)\vee F(b)\vee F(c)\vee\cdots$
+\end_inset
+
+，或者简写为
+\begin_inset Formula $\bigvee_{x}(F(x))$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+但逻辑学家是反对这样写的。他们认为，这种无限的表达式无法恰当定义，并同从有限和不加解释地过渡到无限和这种危险做法是完全一样的。但实际上这种类比是不相干的。我的这
+种记法仅与儿童在停止数数时说“等等”相仿，或者与
+\begin_inset Formula $\cfrac{1}{3}=0.333\cdots$
+\end_inset
+
+中的省略号所表达的意思类似。如果命题逻辑已经建立在公理化的基础上了，而且在有限并和交之后，人们对无限并和交的处理就好像它们也有意义一样，那么这种指责是对的。但我
+们并不是在一个公理系中这样做的，我们用的是开放的，可作修改和补充的语言。如果要我向不懂数学的人解释公式
+\begin_inset Formula $\overset{n}{\underset{i=1}{\sum}}(2i-1)=n^{2}$
+\end_inset
+
+，那么我会演示给他看
+\begin_inset Formula $1+3=4$
+\end_inset
+
+，
+\begin_inset Formula $1+3+5=9$
+\end_inset
+
+，
+\begin_inset Formula $1+3+5+7=16$
+\end_inset
+
+，然后写上“等等”，我希望他看到这“等等”时能知道该怎样继续下去。教逻辑也是这样，为了解释“对所有的
+\begin_inset Formula $x$
+\end_inset
+
+都有
+\begin_inset Formula $F(x)$
+\end_inset
+
+”的含意，我告诉他
+\begin_inset Formula $F(x)$
+\end_inset
+
+对
+\begin_inset Formula $a$
+\end_inset
+
+、对
+\begin_inset Formula $b$
+\end_inset
+
+、对
+\begin_inset Formula $c$
+\end_inset
+
+等等都成立。在教学中，这些做法都是极其自然的，但偏不允许写下来或是印在课本里。其实，要讲清“不是所有的”与“有些不是”,“没有”与“所有的都不是”是一样的，要让
+学生运用量词并观察它们的规则，不联系具体的背景怎么可能呢？有哪一位逻辑学家能只从公理的角度去理解
+\begin_inset Formula $\bigwedge_{x}$
+\end_inset
+
+和
+\begin_inset Formula $\bigvee_{x}$
+\end_inset
+
+，而不受导出这些符号的直观经验的任何影响？即便有这样的逻辑学家，但硬要把学生的心理状态也设想成这样就完全没有道理了。引入
+\begin_inset Formula $\bigwedge_{x}$
+\end_inset
+
+时，我强调从
+\begin_inset Formula $F(a)\wedge F(b)\wedge F(c)\wedge\cdots$
+\end_inset
+
+出发；引入
+\begin_inset Formula $\bigvee_{x}$
+\end_inset
+
+时，强调从
+\begin_inset Formula $F(a)\vee F(b)\vee F(c)\vee\cdots$
+\end_inset
+
+出发，这不仅有助于学生理解
+\begin_inset Formula $\wedge$
+\end_inset
+
+和
+\begin_inset Formula $\vee$
+\end_inset
+
+的规则，也为学生在运用交和并的过程中感受其简洁、合理性提供了一次机会。比如，从
+\begin_inset Formula $\neg\bigwedge_{x}F(x)$
+\end_inset
+
+到
+\begin_inset Formula $\neg(F(a)\wedge F(b)\wedge F(c)\wedge\cdots$
+\end_inset
+
+到
+\begin_inset Formula $\neg(F(a)\vee F(b)\vee F(c)\vee\cdots$
+\end_inset
+
+到
+\begin_inset Formula $\bigvee_{x}F(x)$
+\end_inset
+
+。另外，对
+\begin_inset Formula $\bigwedge_{x}F(x)$
+\end_inset
+
+和
+\begin_inset Formula $\bigvee_{x}F(x)$
+\end_inset
+
+，我建议用
+\begin_inset Formula $\forall_{x}F(x)$
+\end_inset
+
+和
+\begin_inset Formula $\exists_{x}F(x)$
+\end_inset
+
+，这样做既自然又合理。
+\end_layout
+
+\begin_layout Standard
+记号
+\begin_inset Formula $\wedge$
+\end_inset
+
+和
+\begin_inset Formula $\vee$
+\end_inset
+
+后的
+\begin_inset Formula $x$
+\end_inset
+
+常常还要受一定的限制，比如
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hphantom{\text{和}}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\bigwedge_{x\in V}F(x)$
+\end_inset
+
+，对
+\begin_inset Formula $V$
+\end_inset
+
+中所有的
+\begin_inset Formula $x$
+\end_inset
+
+都有
+\begin_inset Formula $F(x）$
+\end_inset
+
+，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+和
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\bigvee_{x\in V}F(x)$
+\end_inset
+
+，
+\begin_inset Formula $V$
+\end_inset
+
+中存在一个
+\begin_inset Formula $x$
+\end_inset
+
+都有
+\begin_inset Formula $F(x）$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+知道如何用不受限制的自由变量
+\begin_inset Formula $x$
+\end_inset
+
+来表达它们很重要，第二句中，“
+\begin_inset Formula $x\in V$
+\end_inset
+
+”是
+\begin_inset Formula $x$
+\end_inset
+
+除有
+\begin_inset Formula $F(x)$
+\end_inset
+
+之外的又一附加条件；第一句中，只要求巳满足
+\begin_inset Formula $x\in V$
+\end_inset
+
+的那些
+\begin_inset Formula $x$
+\end_inset
+
+有
+\begin_inset Formula $F(x)$
+\end_inset
+
+。所以，它们又可记作
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\hphantom{\text{和}}$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\bigwedge_{x}[(x\in V)\rightarrow F(x)]$
+\end_inset
+
+，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+和
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\bigvee_{x}[(x\in V)\wedge F(x)]$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这里，括号中一个是“
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+”，一个是“
+\begin_inset Formula $\wedge$
+\end_inset
+
+”，细心的学生对此常有疑问。虽然理由已经说得很清楚了，但是教学中还是不让它们一起出现为好。为此，应把前者改写为
+\begin_inset Formula $\bigwedge_{x}[\neg(x\in V)\vee F(x)]$
+\end_inset
+
+，即
+\begin_inset Formula $\bigwedge_{x}[(x\in V)\vee F(x)]$
+\end_inset
+
+。它的否定是
+\begin_inset Formula $\bigwedge_{x}\neg[(x\in V)\vee F(x)]$
+\end_inset
+
+，或者
+\begin_inset Formula $\bigvee_{x}[(x\in V)\wedge F(x)]$
+\end_inset
+
+。把
+\begin_inset Formula $x\in V$
+\end_inset
+
+写回到下标，就是
+\begin_inset Formula $\bigvee_{x\in V}\neg F(x)$
+\end_inset
+
+，这就说明
+\begin_inset Formula $\bigwedge_{x\in V}F(x)$
+\end_inset
+
+的否定是
+\begin_inset Formula $\bigvee_{x\in V}\neg F(x)$
+\end_inset
+
+。类似地，可以猜想出
+\begin_inset Formula $\bigvee_{x\in V}F(x)$
+\end_inset
+
+的否定是
+\begin_inset Formula $\bigwedge_{x\in V}\neg F(x)$
+\end_inset
+
+，经验证，也确实如此。
+\end_layout
+
+\begin_layout Standard
+量词的含义直到出现几种量词互换时，才能被鉴别出来，这一点我们在分析连续性概念的时候就有体会了。要研究量词就必须练习量词串。我在自己的《逻辑语言》一书中介绍了大量
+可供练习的例子。请看关系
+\begin_inset Formula $K$
+\end_inset
+
+，
+\begin_inset Formula $xKy$
+\end_inset
+
+读作“
+\begin_inset Formula $x$
+\end_inset
+
+是
+\begin_inset Formula $y$
+\end_inset
+
+的一个孩子。”
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigvee_{x}\bigvee_{y}xKy$
+\end_inset
+
+：某人是一个孩子，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigvee_{y}\bigvee_{x}xKy$
+\end_inset
+
+：有个人有一个孩子，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigvee_{x}\bigwedge_{y}xKy$
+\end_inset
+
+：某人是每个人的孩子，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigvee_{y}\bigwedge_{x}xKy$
+\end_inset
+
+：某人以每个人为他的孩子，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{x}\bigvee_{y}xKy$
+\end_inset
+
+：每个人都是某人的孩子，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{y}\bigvee_{x}xKy$
+\end_inset
+
+：每个人有一个孩子，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{x}\bigwedge_{y}xKy$
+\end_inset
+
+：每个人是每个人的孩子，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{y}\bigwedge_{x}xKy$
+\end_inset
+
+：每个人以每个人为孩子。
+\end_layout
+
+\begin_layout Standard
+\noindent
+再看一例：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $G(x,t)$
+\end_inset
+
+表示：我在时刻
+\begin_inset Formula $t$
+\end_inset
+
+抓住东西
+\begin_inset Formula $x$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $S(x,t)$
+\end_inset
+
+表示：我在时刻
+\begin_inset Formula $t$
+\end_inset
+
+看见东西
+\begin_inset Formula $x$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $t<t'$
+\end_inset
+
+表示：时刻
+\begin_inset Formula $t$
+\end_inset
+
+先于时刻
+\begin_inset Formula $t'$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+翻译下面一段话：
+\end_layout
+
+\begin_layout Standard
+我总是看见一些东西，
+\end_layout
+
+\begin_layout Standard
+有时我什么也没看见，
+\end_layout
+
+\begin_layout Standard
+有朝一日所有东西都会被我看见，
+\end_layout
+
+\begin_layout Standard
+只要我看见什么，我就立刻抓住它，
+\end_layout
+
+\begin_layout Standard
+除非我以前看见过那样东西，否则我就没有抓住它。
+\end_layout
+
+\begin_layout Standard
+\noindent
+答案是：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{t}\bigwedge_{x}S(x,t)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{t}\neg\bigwedge_{x}S(x,t)$
+\end_inset
+
+，等价于
+\begin_inset Formula $\bigwedge_{t}\bigwedge_{x}\neg S(x,t)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{t}\bigwedge_{x}S(x,t)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{t}\bigwedge_{x}[S(x,t)\rightarrow G(x,t)]$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{t}\bigwedge_{x}\{\neg G(x,t)\vee\bigvee_{t'}[(t'<t)\wedge S(x,t')]\}$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+或者写成
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\bigwedge_{t}\bigwedge_{x}\{G(x,t)\rightarrow\bigvee_{t'}[(t'<t)\wedge S(x,t')]\}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+这些看来都是毫无意义的编造，但那些曾花大力气去掌握连续性概念的人都会同意这和数学有关。要想得出连续性的精确定义就必须在带有隐含量词命题的形式化上多加训练。以往，
+人们总认为不等式是造成学习连续性概念的困难所在，其实，这可通过训练解不等式来解决。我国学生从开始学代数起就训练解不等式了，但大学生学习连续概念时仍然常常感到困难
+。所以，问题的关键并不在此，而在于那些量词。连续性是现代数学尤其是微积分不可缺少的复杂的逻辑结构之一，中学数学中是否要引入，以及该到什么深度，我们巳在前面作了探
+讨，但大学数学系的学生却是越早接触量词越好。
+\end_layout
+
+\begin_layout Standard
+几年前我曾考虑过一个问题，中学数学怎样处理量词才能避免量词累积成堆？结果却使我感到惊讶。原来，中学数学早就知道这些危险的量词堆，而且奇怪的是，量词堆是在一向被认
+为从逻辑上说比几何简单的代数中。我从一本问题集中选了一个例子，类似的例子在我们的教科书中也有。这个例子就是：
+\end_layout
+
+\begin_layout Standard
+（a）
+\begin_inset space \quad{}
+\end_inset
+
+如果
+\begin_inset Formula $-x^{2}+ax+b$
+\end_inset
+
+对一切
+\begin_inset Formula $x$
+\end_inset
+
+都为负，那么
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $b$
+\end_inset
+
+必须满足什么条件？
+\end_layout
+
+\begin_layout Standard
+（b）
+\begin_inset space \quad{}
+\end_inset
+
+如果
+\begin_inset Formula $a$
+\end_inset
+
+的值满足上述条件，那么
+\begin_inset Formula $b$
+\end_inset
+
+必须满足什么条件？
+\end_layout
+
+\begin_layout Standard
+（b）形式化后，就是
+\begin_inset Formula $?_{b}\bigvee_{a}\bigwedge_{x}(-x^{2}+ax+a+b<0)$
+\end_inset
+
+。可以看到，尽管这里也出现了量词
+\begin_inset Formula $\bigwedge_{x}$
+\end_inset
+
+和
+\begin_inset Formula $\bigvee_{a}$
+\end_inset
+
+，但和连续性概念中的量词相比，在难度上有很大的差别。这里的
+\begin_inset Formula $\bigwedge_{x}$
+\end_inset
+
+好比是一只纸老虎，由于
+\begin_inset Formula $\bigwedge_{x}(-x^{2}+ax+a+b<0)$
+\end_inset
+
+与
+\begin_inset Formula $a^{2}+4(a+b)<0$
+\end_inset
+
+等价，于是，问题可转化为
+\begin_inset Formula $?_{b}\bigvee_{a}\bigwedge_{x}[a^{2}+4(a+b)<0]$
+\end_inset
+
+。
+\begin_inset Formula $\bigvee_{a}$
+\end_inset
+
+样也是一只纸老虎，利用判别式，可将问题转化为
+\begin_inset Formula $?_{b}(16-16b>0)$
+\end_inset
+
+。这个例子中的量词其实是算法量词，即我们利用算法就可把命题
+\begin_inset Formula $\bigwedge_{x}F(x)$
+\end_inset
+
+化成一个没有量词
+\begin_inset Formula $\bigwedge_{x}$
+\end_inset
+
+的命题。但对连续性概念，我们就无法做到这一点，我们不知道用什么算法可把其中的量词全部去掉，对于这种非算法量词初学者不容易理解，而类似上述含有算法量词的难题看似有
+好几个量词，有一定的逻辑难度，实际上却是吓唬人的东西，这种练习可以很容易地加以简化，练习它们没有好处恐怕还有坏处。学生在解数学问题时所遇到的困难.尤其是在中学向大
+学过渡时期以及直接应用学校数学时所遇到的困难，会不会就是由于训练这些并没有真正逻辑深度的练习而造成的呢？会不会正是这些含有算法量词的长期练习阻碍了学生对非算法量
+词的理解呢？我担心答案恐怕都是“是的”。这种练习对学生和教师都会产生某种障碍，而且对教师的影响更严重，因为青年人还有希望冲破这种障碍。
+\end_layout
+
+\begin_layout Standard
+教师培训的一条原则就是要让教师知道得比他输出的更多，这个“更多”不仅仅指教学内容，也包括同一内容的不同形式，即对教学内容及其逻辑形式都要了如指掌。要达到这一目标
+，他应该具备了解教学内容的逻辑深度的能力，如果逻辑不仅是间接证明、定理的转化、等价性等等，那么逻辑就能帮他具备这种能力。数学教师不仅要教逻辑，更要用逻辑，并使学
+生明白他们自己正在使用着的逻辑。除此之外，教师对自己所选择的展示教学内容的方法也要了如指掌，对此也用得上逻辑分析，倒不是因为知识的逻辑结构决定着教学方法，而是因
+为通过逻辑分析，我们可以发现理解的层次以及层次间的逻辑联系。对此范·希尔夫妇的分析已经告诉我们可以从数学中学到很多东西。他们指出：每一个新的层次都要在前一层次的
+基础上才能达到。
+\end_layout
+
+\end_body
+\end_document

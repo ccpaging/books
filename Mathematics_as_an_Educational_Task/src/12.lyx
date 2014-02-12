@@ -1,0 +1,3253 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+数的概念从直观方法
+\begin_inset Newline newline
+\end_inset
+
+到算法化和推理化的发展
+\end_layout
+
+\begin_layout Standard
+根据数的概念的发展情况，我将有关的学习过程区分为以下几个阶段：直观的运算；算法的运算；代数的运算；整体的组织（域的概念）；便之从属于数学的体系。这种阶段的划分不
+一定与前面提到的学习过程的层次相一致，它并不表示时间上的接续，对于不同的概念，学生常处于不同的学习阶段。而对于间一概念，有时也可能同时在两个不同的阶段上进行运算
+。
+\end_layout
+
+\begin_layout Section
+用结构化材料进行的直观算术
+\end_layout
+
+\begin_layout Standard
+前面我们强调了计数的数在教学中应当优先考虑。自古以来，直观算术的教学法都试图将计数过程系统化，也许至今好的教学方法也仍然如此。儿童通过继续数数来学习加法，通过往
+回数数来学习减法，通过按两个一数、三个一数等数数方法来学习乘法等等。
+\end_layout
+
+\begin_layout Standard
+自古以来，结构化材料在系统计数的教学中起着重要的作用，没有迹象说明这种做法应当改变。文恩（Venn）图的一个很大缺点便是忽视了结构化的必要性；学生当然也应该学会
+用无结构的材料来学习，从中学会如何为其建立结构；但像文恩图那样使用无结构材料或是故意破坏结构，那只能是一种理论上的满足，对算术教学却毫无用处。
+\end_layout
+
+\begin_layout Standard
+文恩图的出现妨碍了对系统计数的学习。在做加法运算时，它们将学生引向重新数数，而不是继续数数。我还未发现用文恩图教减法的方法，我所见到的最聪明的方法是，用
+\begin_inset Formula $5$
+\end_inset
+
+只鸟，
+\begin_inset Formula $3$
+\end_inset
+
+只栖息于树，2只在飞，来解释减法
+\begin_inset Formula $5-2$
+\end_inset
+
+。用文恩图解释减法大多要用拙劣的语言，即使是对成人也不例外。奇怪的是经过这么多失败之后，人们仍对文恩图深信不疑。
+\end_layout
+
+\begin_layout Standard
+计算材料还必须满足另一个要求，那就是它的齐性，算盘上的石子、小球、算珠都被认为是等价的。强调材料的齐性，应当看作是集合论观点的推论，因为集合的一个元素就屉一个元
+素，别无它意。然而，今天大多数算术书作者却显然尽可能在表示集合的非齐性，并且希望儿童用非齐性的集合来学习算术
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+文恩图是一个大杂烩，包括各种不同的字母、数、星形、十字形与其他无意义的图形。这种想法的依据不是教学法原理，而是一个数学上的错误：黑板上两个不同位置的a表示同一物
+体，作者的想法似乎是，在同一个文恩图中不允许两次出现同一符号，因为那就是表示同一元素，而不是不同的元素。这种想法是错误的，因为它先假定了文恩图是一个无意义的符号
+集合，而不是儿童必须计数的图象描述。有些教科书甚至想使儿童相信，一个集合的元素数目只有在所有元素都不相同的情况下才能确定。儿童当然也应该用非齐性材料来进行学习，
+但这并不适宜于训练计算技能。
+\end_layout
+
+\begin_layout Standard
+关于材料的结构化，可区分为逻辑的（或传统的）和直观的两种观点，数系是用位值逻辑地构造而成；在测量及更具体的货币体系中有着相似的结构。在算盘上能摸仿出这种位值结构
+，一个算珠移到左边一列，即是原来的十倍值。但有的算盘就只是一个直观的结构化材料，每一个算珠都表示同一个单位。
+\end_layout
+
+\begin_layout Section
+限于纸上的材料
+\end_layout
+
+\begin_layout Standard
+以前，对比较小的数的运算，总是借助于具体对象的集合，特别是手指，它是一个常用的工具。近年来有个趋势，就是具体有形的对象被它们在纸上的图形所代替，这种做法如果符合
+常识与想象，倒也是合理的观点；可奇怪的是，很多好方法不采用，却由文恩图控制着这一领域。我认为世界上最好的教科书就是匈牙利的算术书，它完全避开了文恩图，只用自然的
+组合来表示集合，例如木块搭成的高楼，书架上的书，长凳上的儿童。并在这种背景下进行数字的加和减，如
+\begin_inset Formula $5-2$
+\end_inset
+
+，即表示一个五层高搂倒塌了两层。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/12-1.png
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/12-2.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/12-3.png
+	width 30col%
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+另一方面，我们也经常可以看到一些毫无意义的文恩图（图12-1）。有的用加号代替
+\begin_inset Formula $\cup$
+\end_inset
+
+号，甚至在代表和的图中用的对象与加项中的对象完全不同。自然也有一些正确的表示（图12-2），它是儿童将两堆算珠相加的真实画像，但与匈牙利人的方法相比，就显得不自
+然，且抽象和拙劣了。图12-3的方法也难以令人满意。另外减法始终是所有文恩图解法的绊脚石。相比较而言，可移动的具体材料和匈牙利人的方法为更好。
+\end_layout
+
+\begin_layout Standard
+我想，如果材料不受限制的话，有经验的，富于想象力的教师会更好地利用所提供的条件去教学。限于纸上的算术教学材料有以下优点：第一，易于检查学生的个别活动；第二，给予
+无经验教师一个完全设计好的、可具体操作的教学法。这一点特别重要，它有利于将教学材料装订成册，以便使教学顺序及教学方法完全固定下来。这个好处不仅适用于算术教学的第
+一阶段，还可以进一步地扩展。
+\end_layout
+
+\begin_layout Section
+结构化材料的例子
+\end_layout
+
+\begin_layout Standard
+许多现代教学材料都被有意识地建立了结构。表示数的基本原理是，每个单位具有相同的形状和大小，再适当地排列，就可以组成更大的对象。例如，第纳斯（Dienes）设计的
+单位立方体的教学材料，它按维数系统地排列，10个单位立方体排成列，100个排成面，1000个又排成一个大的立方体，依此类推。也可以用不同于10的数为基。除了简单
+计算之外，这一教学材料还有其他的用途，如解代数方程等。儿童似乎比数学教师更容易使用这一材料，因为数学教师太依赖于形式方法，反而不善于直观地学习。
+\end_layout
+
+\begin_layout Standard
+教学法专家从未主张用纯计数来推动计算。上述材料偏爱
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+系统的
+\end_layout
+
+\end_inset
+
+计数和结构化的加减法，而它们最终应导致算法的计算。据说儿童接触直观教学材料时间太长，会妨碍算法算术的过渡。我可以想象用手指计数确是一种真正的危险，而用现代的教学
+材料似乎不会形成这一弊端。因此，我想应该让儿童玩直观教学材料，他喜欢玩多久就让他玩多久，只要能熟练地掌握，材料愈复杂，儿童获得的知识也就愈多。
+\end_layout
+
+\begin_layout Section
+偶对集
+\end_layout
+
+\begin_layout Standard
+从数量侧面看，两个自然数的积是由偶对集定义的。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "35text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/12-4.png
+	width 35text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+设
+\begin_inset Formula $A$
+\end_inset
+
+是
+\begin_inset Formula $a$
+\end_inset
+
+个元素的集合，
+\begin_inset Formula $B$
+\end_inset
+
+是
+\begin_inset Formula $b$
+\end_inset
+
+个元素的集合，则
+\begin_inset Formula $a\cdot b$
+\end_inset
+
+是偶对集
+\begin_inset Formula $(A,B)$
+\end_inset
+
+（即
+\begin_inset Formula $(a,b)$
+\end_inset
+
+的集合，
+\begin_inset Formula $a\in A$
+\end_inset
+
+，
+\begin_inset Formula $b\in B$
+\end_inset
+
+）中元素的数。图12-4的矩形模式使乘积
+\begin_inset Formula $3\cdot6$
+\end_inset
+
+具体化了（这里
+\begin_inset Formula $A=\{1,2,3\}$
+\end_inset
+
+，
+\begin_inset Formula $B=\{1,2,3,4,5,6\}$
+\end_inset
+
+）。毫无疑问，矩形模式应广泛用于乘法的直观教学。但在传统算术中，它虽未被忽视也未被推广，显然因为它在算法计算中用处不大。为了看出
+\begin_inset Formula $3\cdot6=18$
+\end_inset
+
+，必须重新排列模式，这就破坏了它扩形状和对称性。为此，教学法专家相信还是计数方式好，只是计数的每一步要大于
+\begin_inset Formula $1$
+\end_inset
+
+。系统计数在理论和实践两方面都是一个有用的工具，然而，有些现代算术书却完全无视这一点。
+\end_layout
+
+\begin_layout Standard
+系统计数就是归纳地构造乘积，例如，将
+\begin_inset Formula $3\cdot6$
+\end_inset
+
+看作
+\begin_inset Formula $6+2.6$
+\end_inset
+
+，一般地，将
+\begin_inset Formula $(1+a)\cdot b$
+\end_inset
+
+看作
+\begin_inset Formula $b+a\cdot b$
+\end_inset
+
+，同时以
+\begin_inset Formula $0\cdot b=0$
+\end_inset
+
+或
+\begin_inset Formula $1\cdot b=b$
+\end_inset
+
+为出发点。这是乘法表的训练原理，大多数台式计算机也是按这样的方法，用加法归纳地构造出乘积的。
+\end_layout
+
+\begin_layout Standard
+乘法化归为加法是获得算术技能的最有效方法，但被某些教育改革家所否定，理由是“以后在域的概念中，乘法的出现独立于加法，因此在早期阶段也应考虑这一点。”这一论点是完
+全错误的，是纯粹的教条主义。在一般域的概念中，乘法和加法
+\begin_inset Flex CJKunderdot
+status collapsed
+
+\begin_layout Plain Layout
+分开
+\end_layout
+
+\end_inset
+
+是合理的，但是一般域的概念只是个空盒于，至少霈要举出一个域的例子，也至少要提供一个有加法、乘法的集合，如果不想将一般域的概念局限于有限域，那么首先形成的域就应该
+是有理数域。而在有理数域中，如果乘法不用形式的定义，就可以省掉不少麻烦。
+\end_layout
+
+\begin_layout Standard
+但是不应该忽视乘法的矩形模式，新数学的一个优点就是强调矩形模式，可以训练学生从矩形模式中看比如像
+\begin_inset Formula $7\cdot8$
+\end_inset
+
+这样的乘积，还可以结合使用前面提到的第纳斯结构化材料，然而也不宜过于强调，因为这种直观方式对大多数教师并不适宜，他们还是习惯于系统计数，习惯于归纳地生成乘积和乘
+法表。
+\end_layout
+
+\begin_layout Standard
+目前的教学理论对矩形模式有点过分强调，但奇怪的是可以运用矩形模式的实际应用反而被忽视。因为许多教育改革家所欣赏的自然数的数量侧面在各种实际应用中不起作用，那些因
+子往往是实数，甚至是负数，而矩形模式的数量基础不适合这些情况。
+\end_layout
+
+\begin_layout Standard
+其实，在算术中常见的应用是组成偶对集。已知两个有限集，
+\begin_inset Formula $A$
+\end_inset
+
+有
+\begin_inset Formula $a$
+\end_inset
+
+个元素，
+\begin_inset Formula $B$
+\end_inset
+
+有
+\begin_inset Formula $b$
+\end_inset
+
+个元素，于是偶对集
+\begin_inset Formula $(A,B)$
+\end_inset
+
+就有
+\begin_inset Formula $ab$
+\end_inset
+
+个元素。例如：“
+\begin_inset Formula $5$
+\end_inset
+
+个男孩、
+\begin_inset Formula $4$
+\end_inset
+
+个女孩可以组成多少男孩－女孩对？”然而真正的应用通常是给定一个集合，要将它构造成一个偶对集。比如，学校的时间可以分成每星期的天数与每天上课的节数，于是就形成一个
+一周
+\begin_inset Formula $5$
+\end_inset
+
+天，一天
+\begin_inset Formula $4$
+\end_inset
+
+节课，每个星期有
+\begin_inset Formula $20$
+\end_inset
+
+节课的模式，这就将原始的学校时间集合
+\begin_inset Formula $\Omega$
+\end_inset
+
+结构化了：
+\begin_inset Formula $A$
+\end_inset
+
+是一星期中天数的集合，
+\begin_inset Formula $B$
+\end_inset
+
+是一天中课时的集合，而
+\begin_inset Formula $(A,B)$
+\end_inset
+
+就是星期几和第几节课所组成的偶对集，这里
+\begin_inset Formula $A$
+\end_inset
+
+，
+\begin_inset Formula $B$
+\end_inset
+
+和
+\begin_inset Formula $(A,B)$
+\end_inset
+
+均可理解为
+\begin_inset Formula $\Omega$
+\end_inset
+
+的子集的集合。
+\end_layout
+
+\begin_layout Standard
+这样的例子随手可得。最引人注意的就是将一个矩形按宽分成
+\begin_inset Formula $5$
+\end_inset
+
+条，按高分成
+\begin_inset Formula $4$
+\end_inset
+
+条（不必相等），于是生成
+\begin_inset Formula $20$
+\end_inset
+
+个子矩形。如果子区间对应于单位，即宽
+\begin_inset Formula $5$
+\end_inset
+
+高
+\begin_inset Formula $4$
+\end_inset
+
+，就可用矩形模式计算面积。至今我还清楚地记得我入学前的第一次数学经验
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+一个矩形的面积如何通过水平与垂直的分割来计算，我对此大为困惑。我所以要讲这件事，是因为成年人太容易忘记究竟什么能使儿童吃惊。现在我才真正理解了那次经验，重要的不
+是
+\begin_inset Formula $5$
+\end_inset
+
+个横条与
+\begin_inset Formula $4$
+\end_inset
+
+个竖列的集合可以算出
+\begin_inset Formula $5\cdot4=20$
+\end_inset
+
+个对象这一事实，真正使我困惑的就是一个无结构的矩形，可以进行构造，并使之结构化。我父亲将它画在沙滩上，书上的矩形加上所有的辅助线都不如这个原始结构直观。
+\end_layout
+
+\begin_layout Standard
+偶对集的势等于因子集的势的乘积，这一点连傻子也能记住，但就像问题中的一般集合必须由特定集合来代替一样都不是我们所要讨论的问题，唯一相关的问题是偶对集的结构必须由
+学生来创造。传统算术中只用矩形证明面积公式，接着就忘记了矩形的结构化。当然计算边长分别为
+\begin_inset Formula $23.46\mbox{cm}$
+\end_inset
+
+与
+\begin_inset Formula $17.89\mbox{cm}$
+\end_inset
+
+的矩形面积，没有人会画一个矩形，并按这些数字来重分。因此，面积公式在算术教学中是不可操作的。但学生可以想象这种重分，要做到这点，他还必须作足够的练习，即如何将一
+个集合结构化为一个偶对集。一个矩形在两个方向上的重分应该是按照两类特性构造一个集合的应用和具体化，而且这种重分不应局限于等距离的。
+\end_layout
+
+\begin_layout Standard
+虽然我强调偶对集可作为一种构造方法，但同时我也必须强调在许多情况下不能使用它。如前所述，如果由
+\begin_inset Formula $5$
+\end_inset
+
+个男孩、
+\begin_inset Formula $4$
+\end_inset
+
+个女孩组成全部男孩-女孩对。偶对集确实是在集合论意义下的正确模型，然而更多情况下偶对集并不适合。例如，
+\begin_inset Formula $5$
+\end_inset
+
+只猫，每一只猫有
+\begin_inset Formula $4$
+\end_inset
+
+个爪，共有多少爪？再如，
+\begin_inset Formula $5$
+\end_inset
+
+人会议必须指定一位主席和一位秘书，共有多少种不同的指定方式？这类问题的数学模型就不是偶对集，而是从集合
+\begin_inset Formula $P$
+\end_inset
+
+到集合
+\begin_inset Formula $Q$
+\end_inset
+
+内的映射，使
+\begin_inset Formula $Q$
+\end_inset
+
+的所有元素都有相同个数的原像。同样，
+\begin_inset Formula $m$
+\end_inset
+
+只篮子，每一只有
+\begin_inset Formula $n$
+\end_inset
+
+个鸡蛋，其中鸡蛋的集合也不能构造成为偶对集，只能通过一个映射
+\begin_inset Formula $f$
+\end_inset
+
+，将每个蛋映射到它所在的篮子。在这一映射中，像集的势是
+\begin_inset Formula $m$
+\end_inset
+
+，而每一个像恰好有
+\begin_inset Formula $n$
+\end_inset
+
+个原像。
+\end_layout
+
+\begin_layout Standard
+这一模型在教学中应该充分运用，它是集合论概念的一项极有价值的应用。
+\end_layout
+
+\begin_layout Section
+矩形模型的推广
+\end_layout
+
+\begin_layout Standard
+一旦利用矩形模型来直观解释自然数的乘法，那么分数乘法马上就变成最直观的运算了。单位正方形可以用
+\begin_inset Formula $5\cdot4$
+\end_inset
+
+个边长分别
+\begin_inset Formula $\cfrac{1}{5}$
+\end_inset
+
+和
+\begin_inset Formula $\cfrac{1}{4}$
+\end_inset
+
+的矩形来填满，这样一个矩形是正方形的
+\begin_inset Formula $\cfrac{1}{20}$
+\end_inset
+
+，于是
+\begin_inset Formula $\cfrac{1}{5}\cdot\cfrac{1}{4}=\cfrac{1}{20}$
+\end_inset
+
+。同样可直观地得出
+\begin_inset Formula $\cfrac{2}{5}\cdot\cfrac{3}{4}=\cfrac{6}{20}$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+这里将矩形面积解释为边长之积，或反之，将两个量之积解释为以给定因子为边的矩形。众所周知，古希腊的几何代数中两个量之积经常被称为矩形，这个术语至今还留下痕迹，我们
+总是将
+\begin_inset Formula $a^{2}$
+\end_inset
+
+读作a-方。在积分概念的定义与应用中，乘积被解释为矩形仍然起着很大的作用。有人以实验揭示，儿童会自发地将力矩看作是力与力臂之积。
+\end_layout
+
+\begin_layout Standard
+以矩形作为乘积的直观形象应当进一步发屐，即不仅用边长与矩形面积，也不仅用自然数因子为例，这是积分概念中的要求，而实际在更为初级的阶段就可以作些尝试，比如可将人－
+小时，千克－米，千瓦－小时和瓦映射成单位正方形，用这些标准测得的量作为矩形，例如将100人－小时（瓦）看作是5人（安培）和20小时（伏特）的矩形或是4人（安培）
+和25小时（伏特）的矩形等等。具体数的乘法在应用与教学中都很重要，但这里我只想强调它的直观形象。
+\end_layout
+
+\begin_layout Standard
+矩形模式最重要的应用是时间乘以速度得到路程（或体积乘以密度得到质量等）。事实上，时间并不比路程长更为直观，而速度、密度等也只是导出量，必须将路程长除以时间，质量
+除以体积才能得到它们。因此人们应当先有对不同速度的体验，估计它们的相互关系，首先是“多”和“少”，然后是“加倍”和“一半”，最后才会找出速度的精确测量。这一过程
+可在重量（质量）与体积上再现，也可在许多其他的量偶上再现。从这些例子中，将一般原理具体化，最终形成一个明确的公式。当然也可以将速度和类似量的计算规则直接告诉学生
+，但这种方法总是不很成功的。
+\end_layout
+
+\begin_layout Standard
+在形成速度概念之前要经历一段漫长的过程。在算术教学的早期阶段，人们应该用逻辑上相似但更为直观的概念，如单价（价格与数量的商）。但一旦出现速度概念，就应得出所有直
+观表示，应该展现作为“时间”与“速度”之积的“路程”矩形，也应容许可变速度，至少要防止学生认为速度是常数。对于等加速运动，其路程的测量应该是速度图象所限定的三角
+形面积，并且通过这样的方法有意识为学习一个函数的积分就是函数图象所限定的面积作好准备。顺便指出，图象也是一种直观形象方法。
+\end_layout
+
+\begin_layout Section
+两种除法
+\end_layout
+
+\begin_layout Standard
+在竭力提倡直观模型之后，必须谨防任何夸大直观的做法。
+\end_layout
+
+\begin_layout Standard
+乘法的矩形模型关于因子是对称的，而当具体数相乘时就没有对称性，如果千克或件数乘以单价，工作时数乘以小时工资，月数乘以
+\begin_inset Formula $30$
+\end_inset
+
+，则在乘数与被乘数之间或多或少地存在着明显的区别。
+\end_layout
+
+\begin_layout Standard
+教学法专家在除法中觉察了这个不对称性，由于除法本身是一种高度直观的运算，“
+\begin_inset Formula $5$
+\end_inset
+
+人分
+\begin_inset Formula $20$
+\end_inset
+
+只面包，每人得多少？”与“分
+\begin_inset Formula $20$
+\end_inset
+
+只面包，使每人得
+\begin_inset Formula $4$
+\end_inset
+
+只，可分给多少人？”两者从直观上看，就是截然不同的事情，前者
+\begin_inset Formula $20$
+\end_inset
+
+只面包由
+\begin_inset Formula $5$
+\end_inset
+
+人分称为分配除法，后者
+\begin_inset Formula $20$
+\end_inset
+
+只面包除以
+\begin_inset Formula $4$
+\end_inset
+
+只面包是比的除法。要求学生用不同的方法解两个问题，特别是两种情况下的长除法是不同的。
+\end_layout
+
+\begin_layout Standard
+确实一般教师应该意识到，具体问题的提出是有区别的，即使在分配除法中也不是唯一的。进一步可考虑所有的除法，面积除以长度得到宽度，千克除以体积得出
+\begin_inset Formula $\mbox{kg}/\mbox{cm}^{3}$
+\end_inset
+
+，路程除以时间得到速度等等。为了相容起见，应当给所有问题发明各种特殊类型的除法，不能认为两种除法就比成百种除法更合理。但是数学的特征就是把同构的步骤归纳成抽象模
+式，矩形模型就是通用于乘除法的模式。学生应学会以矩形模式解释具体数的乘法，数量数可以相乘，测量数也可以。使用模型时，建议注意因子的对称性，于是就不必再按照哪个因
+子作除数而区分两种除法了。
+\end_layout
+
+\begin_layout Standard
+我也认为应该训练学生解两类问题，如“
+\begin_inset Formula $4$
+\end_inset
+
+乘以什么得
+\begin_inset Formula $20$
+\end_inset
+
+？”与“什么乘以
+\begin_inset Formula $4$
+\end_inset
+
+得
+\begin_inset Formula $20$
+\end_inset
+
+？”等等。但是不要在每种情况下得出一个特殊的法则，而应理解为它们具有共同的模型，所以一种法则就足够了。我所以提出这个论题，就是因为如果某些教学法专家不是从量的基
+础理论出发来考虑除法，那么两重除法的问题就会一代一代地死灰复燃。
+\end_layout
+
+\begin_layout Section
+关于数轴的两个错误
+\end_layout
+
+\begin_layout Standard
+由于传统的束缚，数轴总是画成水平的。而大多数常见的数轴却是垂直的：如温度计，房屋的层次，量身高的设备。事实上水平数轴对幼儿并不适宜。可能大家都知道应该怎样去做，
+但总是不能改变，因为传统实在太权威了。
+\end_layout
+
+\begin_layout Standard
+通过极化可以形成许多概念，比如正－负，左－右，但对两极却并不能真正辨别。有些儿童知道从左到右不需要太长时间，但他们不会应用。例如，拨盘上从
+\begin_inset Formula $d$
+\end_inset
+
+到
+\begin_inset Formula $b$
+\end_inset
+
+，钟面上从
+\begin_inset Formula $3$
+\end_inset
+
+点到
+\begin_inset Formula $9$
+\end_inset
+
+点，究竟是右转还是左转。我从报纸上看到有些地区的居民辨别左右很困难，而只能代之以东西南北。成年人往往对儿童遇到的极化困难缺乏理解，他们以为这是不言自明的，与右手
+相应的当然是右腿，右眼以及右转，可是儿童对掌握极化概念却很困难。我不知道困难来自动觉方面还是来自直观领域，也不知道是否有这方面的研究。
+\end_layout
+
+\begin_layout Standard
+自然数首先是作为数量的数，或者是作为计数的数，与时间序列相应。时间也有一个极化过程，那就是过去和未来，但这是一个自然强加于人的极化。要画一条直线并解释为数轴，还
+需要一个方向，通常按习惯在两个中间挑一个。水平或近似于水平的直线，常按画的方向从左至右定向，但垂直的直线却常与画的方向相反，从下到上定向。书写材料的上下也按习惯
+规定，奇怪的是所有文明世界都有同样的惯例：靠近书写者的那边是下。儿童开始时对此并无固定想法，但所有儿童图书上所画的人和动物都是按这种方向站立着，于是他们很快就被
+灌输了“上下”方向。
+\end_layout
+
+\begin_layout Standard
+对幼儿使用数轴，我相信画出由下到上的垂直定向，要比“左－右”的水平定向好得多，也许画条倾斜的数轴会更好，比如借用某些游戏中倾斜的梯子。当然这个建议不大可能被采用
+，因为水平的数轴太根深蒂固，而且垂直的甚至倾斜的数轴会严重破坏教科书版面的美观。数轴表示中还有另一错误，数轴像许多尺一样画有分点或短线，在其左边写下
+\begin_inset Formula $1,2,\cdots\cdots$
+\end_inset
+
+当然不写
+\begin_inset Formula $0$
+\end_inset
+
+，这就造成儿童用尺时常犯的错误（从
+\begin_inset Formula $1$
+\end_inset
+
+量起而不是从
+\begin_inset Formula $0$
+\end_inset
+
+量起）。曾见到一数轴，
+\begin_inset Formula $1,2,\cdots\cdots$
+\end_inset
+
+这些数字恰好写在分点中间，作者显然想给区间编号，这件事本身并不蠢，公元的纪年就是这样做的：公元1年从耶稣降生开始，他的第一次生日就是公元2年的开始。可是这个方法
+用于表示纪元前就不符合实际了：因为纪元前1年之末耶稣降生，因而0年就不存在了。那些想给区间编号的教科书作者，当他继续探索数轴的负方向时，必将遇到困难。
+\end_layout
+
+\begin_layout Section
+作为一种形象化工具的数轴
+\end_layout
+
+\begin_layout Standard
+便用算盘时，认定自然数就是算珠数量，而使用第纳斯结构化材料时，就将自然数看作单位立方体的数量。数轴完全抛弃了这些观点，一系列等距离点像路边的房屋一样编号，而且该
+系列还能越过
+\begin_inset Formula $0$
+\end_inset
+
+而继续向左。所有我看到的教科书都是在教了半年或一年的数量数以后，突然地转向数轴；简单地运用教过的数，根本不涉及数量定义。事实上，数轴的计数特点（虽然受了一种序数
+方法的限制），即使孩子们也是早就很熟悉的了，因为他们在校内外、课内外甚至许多游戏中就早已接触到。可是情况正好相反，数的概念中最活跃的计数侧面，在教学中往往受到抑
+制，却通过祜燥的教科书来教数量侧面；借助于数轴人为地将算术教学孤立于儿童的生活之外，使儿童就像暖房里的花朵一样。
+\end_layout
+
+\begin_layout Standard
+数轴的直现性与前面提到的直观材料不一样，它与位值制无关，因此对于算法计算没有用处，但可以在数轴上直接看出很多东西：“多与少”可由轴的方向直观表达，加法具体化为向
+右移动，减法则是向左，乘法具体化为伸缩（放大或缩小）。把自然数嵌入数轴就表明数轴所包容的不仅是自然数，这预示着数域与运算的扩展。此外映射可以较早出现，毫无疑问这
+是一个有利条件。数轴好像对各方面都是有价值的工具，与其他直观材料相比，数轴是确定的、可长久使用的，它不像有些材料只用一会就被放弃。但要注意一种危险的倾向，那就是
+有人对数轴寄予的希望过大，走得过远。
+\end_layout
+
+\begin_layout Standard
+数轴是否称作教学材料那只是一个名称问题，也许有可移动导轨作为数轴上的计算模型，或像计算尺那样的装置。数轴的原理是简单的，具体化则可以多种多样。数轴可以三种方式用
+于教学：
+\end_layout
+
+\begin_layout Standard
+（1）数轴作为尺，其上的点固定地对应于实数，即尺的解释或实体解释。
+\end_layout
+
+\begin_layout Standard
+（2）直线上原点、单位、方向均可任意标出，点可由实数标出，即坐标解释。
+\end_layout
+
+\begin_layout Standard
+（3）直线作为固定的基础，数像算于（加法算子、乘法算子）一祥活动，即算子解释。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/12-5.png
+	width 65col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/12-6.png
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+先说明如何在实体解释中表示加法，以后再阐明为什么第二、第三种解释从教学法观点看应予否定。我在现代教科书中看到两种方法：（i）以箭头表示
+\begin_inset Formula $0$
+\end_inset
+
+、
+\begin_inset Formula $1$
+\end_inset
+
+、
+\begin_inset Formula $2$
+\end_inset
+
+分别加
+\begin_inset Formula $3$
+\end_inset
+
+（图12-5）；（ii）数轴像尺一样向右移
+\begin_inset Formula $3$
+\end_inset
+
+个单位（图12-6）。两个映射均可想象为由单位跳动而生成的。按照这个想法，向左就解释为加负数。这样负数首先只出现在函数记号中，但立刻可导出它们在数轴上的位置，于
+是可将
+\begin_inset Formula $N$
+\end_inset
+
+扩展成
+\begin_inset Formula $Z$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+这样，映射就被人们用这种方式所理解了，即数轴上的一个元素被指派到数轴上的另一个元紊，而不是改变点的标记，这也就是今天人们所理解的几何变换：点被指派到点；同样，空
+间运动被看作是函数空间的算子。这是直接揭示映射过程的通用方法，也是教学上最有效的方法。
+\end_layout
+
+\begin_layout Section
+坐标解释
+\end_layout
+
+\begin_layout Standard
+坐标解释方法将点与数互相分离，所以它的应用范围有限而且也不太明确。以前常把变换解释成坐标变换，物理学家至今仍保持着这一习惯。当然，只要你固定一个坐标系，并且只作
+一种实际解释，那么是否用坐标就没有关系了，因为将坐标与点分开只是一种不必要的重复。但是推崇坐标解释的人喜欢将这种解释扩展到变换，于是这种做法就显得不自然了，其目
+的也不明确了。
+\end_layout
+
+\begin_layout Standard
+在数轴上引进一种新的刻度，方向与单位不变，只是新的原点放在原来的
+\begin_inset Formula $3$
+\end_inset
+
+上，原刻度用蓝色，新刻度用橙色。加
+\begin_inset Formula $3$
+\end_inset
+
+就解释为改变标记：同一点新的标记
+\begin_inset Formula $x$
+\end_inset
+
+对应于原来的标记
+\begin_inset Formula $x+3$
+\end_inset
+
+。如果说加
+\begin_inset Formula $3$
+\end_inset
+
+就是从新标记对应于原标记，这种提法岂非太蠢！实际上它可以改说成加
+\begin_inset Formula $3$
+\end_inset
+
+就是将原点向左移动
+\begin_inset Formula $3$
+\end_inset
+
+步（或者如果你愿意，说成向右移动
+\begin_inset Formula $-3$
+\end_inset
+
+步）。可是这对那些正为理解左－右极化而苦恼的学生来说，是很容易被弄糊涂的，特别在数轴被画成垂直方向时看起来更荒谬。
+\end_layout
+
+\begin_layout Standard
+乘法也一样，乘以
+\begin_inset Formula $3$
+\end_inset
+
+表示除了原蓝色刻度以外，还引进新的橙色刻度，然后对原标记
+\begin_inset Formula $3x$
+\end_inset
+
+的点指定新标记
+\begin_inset Formula $x$
+\end_inset
+
+，或是将原单位缩小成三分之一。
+\end_layout
+
+\begin_layout Standard
+记得在我大学第一年时，所谓的协变，逆变令我受尽了折磨。当时我对它一点也不理解，直到我自己教一年级课，将它放到现代线性代数结构中才弄懂：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+简单地说，就是：
+\begin_inset Formula $n$
+\end_inset
+
+维向量空间
+\begin_inset Formula $R$
+\end_inset
+
+可以用
+\begin_inset Formula $e_{1},\cdots,e_{n}$
+\end_inset
+
+，为有序基的坐标来描述，点
+\begin_inset Formula $x=\sum\xi_{i}e_{i}$
+\end_inset
+
+的坐标就是
+\begin_inset Formula $\xi_{1},\cdots,\xi_{n}$
+\end_inset
+
+，如果另选另一组基
+\begin_inset Formula $f_{1},\cdots,f_{n}$
+\end_inset
+
+，而
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $f_{j}=\sum_{i}a_{ij}e_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+于是点
+\begin_inset Formula $x$
+\end_inset
+
+就有新坐标
+\begin_inset Formula $\eta_{1},\cdots,\eta_{n}$
+\end_inset
+
+，且满足
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\sum_{i}\eta_{j}f_{j}=\sum_{i}\xi_{i}e_{i}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+由此
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $\xi_{i}=\sum_{j}a_{ij}\eta_{j}$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这表明坐标变换是相对于基而言的，用现代术语很容易理解，但需要到学习的高级阶段才行。
+\end_layout
+
+\begin_layout Standard
+我想，如果引入这样复杂化的运算，数轴就会失去它作为形象化工具的特性。当然到一定的时候必须训练原点与单位的改变，这是解析几何或线性代数的坐标变换问题，教师知道这是
+困难的一章，但并不能因此就把它说成是一种把引进运算和说明它的直观表示的过程都弄得复杂化的方法。
+\end_layout
+
+\begin_layout Section
+算子解释
+\end_layout
+
+\begin_layout Standard
+在算子解释中，数并非等同于直线上的点，而是看作直线的映射，将直线看作一根刚性的棒。直线是基础，而数学的实质则是关于直线的运算。
+\begin_inset Formula $3$
+\end_inset
+
+不是直线上的点，只是将每一点向右移动
+\begin_inset Formula $3$
+\end_inset
+
+个单位的映射；
+\begin_inset Formula $3$
+\end_inset
+
+与
+\begin_inset Formula $5$
+\end_inset
+
+的和是映射
+\begin_inset Formula $3$
+\end_inset
+
+与映射
+\begin_inset Formula $5$
+\end_inset
+
+的复合映射，即右移
+\begin_inset Formula $3$
+\end_inset
+
+与右移
+\begin_inset Formula $5$
+\end_inset
+
+的复合，结果就是右移
+\begin_inset Formula $8$
+\end_inset
+
+。另外的说法是：
+\begin_inset Formula $3$
+\end_inset
+
+是大小为
+\begin_inset Formula $3$
+\end_inset
+
+且指向右面的一个箭头，可以将它放在直线的任何地方，箭头相加就是将它们首尾相接。
+\end_layout
+
+\begin_layout Standard
+这是高等数学中普遍使用的方法，看起来很优美，而且也是正确的。常用的加法解释缺乏对称性，一个数加上另一个数，从文法上分析，一个是运算的直接对象，另一个却是间接的；
+在数轴上看起来也一样，如果
+\begin_inset Formula $5$
+\end_inset
+
+加上
+\begin_inset Formula $3$
+\end_inset
+
+，
+\begin_inset Formula $5$
+\end_inset
+
+是一点，
+\begin_inset Formula $3$
+\end_inset
+
+是一个运算，结果得到
+\begin_inset Formula $8$
+\end_inset
+
+又是一点。而借助算子解释就可消除不对称性。
+\end_layout
+
+\begin_layout Standard
+根据算子解释，自然数集
+\begin_inset Formula $N$
+\end_inset
+
+由数轴上整区间的右移组成，或是由可移动的箭头组成。要得到乘法，可以考虑加法半群
+\begin_inset Formula $N$
+\end_inset
+
+的自同态，即映射
+\begin_inset Formula $f$
+\end_inset
+
+满足
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $f(a+b)=fa+fb,\quad a,b\in N$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+这当然太抽象了，要它能起作用，必须使
+\begin_inset Formula $N$
+\end_inset
+
+有更具体的实质，
+\begin_inset Formula $N$
+\end_inset
+
+不应该由映射组成，而应该是基础本身。我们应该将
+\begin_inset Formula $N$
+\end_inset
+
+看作是由轴上任意固定原点出发的箭头所组成的链，从而将
+\begin_inset Formula $N$
+\end_inset
+
+嵌入数轴。于是
+\begin_inset Formula $N$
+\end_inset
+
+中的加法就成了点的加法而不是箭头的加法，这时才可以讨论乘法。乘法是具有加法结构的数轴的伸缩。将
+\begin_inset Formula $1$
+\end_inset
+
+映成
+\begin_inset Formula $a$
+\end_inset
+
+的伸缩被称为乘以
+\begin_inset Formula $a$
+\end_inset
+
+的乘法，这又是不对称的，因为假如
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的积
+\begin_inset Formula $a\cdot b$
+\end_inset
+
+指
+\begin_inset Formula $b$
+\end_inset
+
+乘以
+\begin_inset Formula $a$
+\end_inset
+
+的结果，那么
+\begin_inset Formula $a$
+\end_inset
+
+是乘数，
+\begin_inset Formula $b$
+\end_inset
+
+是被乘数，这又一次破坏了数学的美。看来更好的办法是定义两个伸缩的乘积，而不是将伸缩就看作乘积。将
+\begin_inset Formula $1$
+\end_inset
+
+映成
+\begin_inset Formula $a$
+\end_inset
+
+与将
+\begin_inset Formula $1$
+\end_inset
+
+映成
+\begin_inset Formula $b$
+\end_inset
+
+的两个伸缩的乘积定义为两个映射的乘积，而
+\begin_inset Formula $ab$
+\end_inset
+
+就定义为乘积映射下
+\begin_inset Formula $1$
+\end_inset
+
+的像。以后又可将从
+\begin_inset Formula $1$
+\end_inset
+
+到
+\begin_inset Formula $a$
+\end_inset
+
+的伸缩等同于数轴上的点
+\begin_inset Formula $a$
+\end_inset
+
+，接着再对它进行到
+\begin_inset Formula $b$
+\end_inset
+
+的伸缩，从而再次得到
+\begin_inset Formula $ab$
+\end_inset
+
+。再往下，就不是将加法与乘法运算定义为映射，而是将直线的某些映射看作是群（或半群）的元素，加法与乘法作为群的运算引入，到以后才将群元素与数轴上的点等同起来，所有
+这些原理与细节，教师都应理解并教给学生。
+\end_layout
+
+\begin_layout Standard
+第一个真正了解这些困难并顺利加以克服的人是第纳斯。他抓住一点，就是将数解释成为算子不可能是无限期的，某个领域的算子，当它要在该领域中进行运算时，必须重新将其解释
+为实体。这种重新解释应该小心进行，因为只有当学生对最初的领域已经熟练掌握到操作时可以不用直观的联系，那才有可能实现。所以尽管数的算子解释能给教学带来好处，但最好
+不要夸大这一点。对教师与学生来说，应当使事情更为容易，而不是使之更为复杂。最终目的是将数作为实体，这是丝毫不容怀疑的，而将数看作算子只会妨碍这一观点。
+\end_layout
+
+\begin_layout Standard
+某些教学法专家将数的算子解释用于乘法情况，特别是分数乘法。如果将数轴放大
+\begin_inset Formula $3$
+\end_inset
+
+倍看作是一个映射并求其逆，就得到缩小
+\begin_inset Formula $3$
+\end_inset
+
+倍，可写作乘以
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+，这就是
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+的定义：用乘法算子解释缩小
+\begin_inset Formula $3$
+\end_inset
+
+倍。放大
+\begin_inset Formula $5$
+\end_inset
+
+倍与缩小
+\begin_inset Formula $3$
+\end_inset
+
+倍的复合，根据定义就产生乘法算子
+\begin_inset Formula $\cfrac{5}{3}$
+\end_inset
+
+；再将这种算子相乘，比如
+\begin_inset Formula $\cfrac{5}{3}$
+\end_inset
+
+乘
+\begin_inset Formula $\cfrac{7}{4}$
+\end_inset
+
+，在映射复合的意义下就是一个直观的运算，乘法规则也很明显，运算对象的加法、乘法关于加法的分配性也容易推出，但是无人能够解释为什么这些算子不仅可乘，还可相加。分数
+相乘在教学上从未遇到过任何麻烦，这是最容易的分数运算。但在分数被解释为算子时，加法仍是一件模糊不清的事，至于除法则跟本不能以此方式引入。
+\end_layout
+
+\begin_layout Section
+实体解释
+\end_layout
+
+\begin_layout Standard
+一开始就确定数是实体，而不是算子，数被固定于数轴上，不能随便移动，也不考虑由于原点、单位改变所引起的变化，映射是把实体指派给实体。
+\end_layout
+
+\begin_layout Standard
+前已提及，许多人不喜欢这种说法：加
+\begin_inset Formula $3$
+\end_inset
+
+就是将
+\begin_inset Formula $5$
+\end_inset
+
+映射成
+\begin_inset Formula $8$
+\end_inset
+
+。其中
+\begin_inset Formula $5$
+\end_inset
+
+与
+\begin_inset Formula $8$
+\end_inset
+
+是实体，而
+\begin_inset Formula $3$
+\end_inset
+
+却是一个算子，因为其中缺少数学的对称美。乘法也一样，
+\begin_inset Formula $5$
+\end_inset
+
+乘以
+\begin_inset Formula $3$
+\end_inset
+
+得到15，这里
+\begin_inset Formula $5$
+\end_inset
+
+与
+\begin_inset Formula $15$
+\end_inset
+
+是实体，
+\begin_inset Formula $3$
+\end_inset
+
+又是一个算子，也不对称。其实这是解释不当的缘故，以乘法为例，
+\begin_inset Formula $3$
+\end_inset
+
+是一个数，是数轴上的一个实体，就像
+\begin_inset Formula $5$
+\end_inset
+
+与
+\begin_inset Formula $15$
+\end_inset
+
+一样；但
+\begin_inset Formula $3$
+\end_inset
+
+同时也决定了一个算子，即起到将某数3倍的作用。这是日常语言中的表达方式，既是数
+\begin_inset Formula $n$
+\end_inset
+
+，又是算子
+\begin_inset Formula $n$
+\end_inset
+
+倍，两者可以很清楚的区分，为什么我们不能借用这种微妙的处理方式呢？
+\end_layout
+
+\begin_layout Standard
+如果将
+\begin_inset Formula $3$
+\end_inset
+
+倍的运算表示为
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3\cdot:x\rightarrow3\cdot x$
+\end_inset
+
+,
+\begin_inset space \quad{}
+\end_inset
+
+或
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $\bigsqcup_{x}3\cdot x$
+\end_inset
+
+，
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bigsqcup_{x}3\cdot x$
+\end_inset
+
+表示
+\begin_inset Formula $3\cdot$
+\end_inset
+
+是
+\begin_inset Formula $x$
+\end_inset
+
+的一个函数，同理，
+\begin_inset Formula $\bigsqcup_{x}\cdots\cdots$
+\end_inset
+
+表示
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+是
+\begin_inset Formula $x$
+\end_inset
+
+的一个函数。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+其中“
+\begin_inset Formula $3\cdot$
+\end_inset
+
+”表示函数符号。对任意数
+\begin_inset Formula $a\in N$
+\end_inset
+
+（或
+\begin_inset Formula $a\in Z$
+\end_inset
+
+，或
+\begin_inset Formula $a\in R$
+\end_inset
+
+），它也决定了一个函数
+\begin_inset Formula $a\cdot$
+\end_inset
+
+，即
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $a\cdot:x\rightarrow a\cdot x$
+\end_inset
+
+,
+\begin_inset space \quad{}
+\end_inset
+
+或
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $a\cdot=\bigsqcup_{x}(a\cdot x)$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+这样就很容易处理数
+\begin_inset Formula $a$
+\end_inset
+
+与算子
+\begin_inset Formula $a\cdot$
+\end_inset
+
+之间的转换了，两者记号不同，也就不会使学生困惑。（注：这些函数记号当然不是教给学生的语言，只是进行教学理论分析的语言。）
+\end_layout
+
+\begin_layout Standard
+为什么加法不能作同样的简化呢？以“
+\begin_inset Formula $a+$
+\end_inset
+
+”表示算子：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $a+:x\rightarrow a+x$
+\end_inset
+
+,
+\begin_inset space \quad{}
+\end_inset
+
+或
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $a+=\bigsqcup_{x}(a+x)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+意思是右移
+\begin_inset Formula $a$
+\end_inset
+
+，这里数
+\begin_inset Formula $a$
+\end_inset
+
+是实体，同时它又决定了一个算子
+\begin_inset Formula $a+$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+同样，减法可理解为函数
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $-:x\rightarrow-x$
+\end_inset
+
+,
+\begin_inset space \quad{}
+\end_inset
+
+或
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $-=\bigsqcup_{x}(-x)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+可将它形象地看成是关于原点的反射。而如
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $7-:x\rightarrow7-x$
+\end_inset
+
+,
+\begin_inset space \quad{}
+\end_inset
+
+或
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $7-=\bigsqcup_{x}7-x$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+它是数轴的一个反演，使
+\begin_inset Formula $0$
+\end_inset
+
+与
+\begin_inset Formula $7$
+\end_inset
+
+交换（图12-7）。一般的，
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $a-:x\rightarrow a-x$
+\end_inset
+
+,
+\begin_inset space \quad{}
+\end_inset
+
+或
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $a-=\bigsqcup_{x}(a-x)$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/12-7.png
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+它是使
+\begin_inset Formula $0$
+\end_inset
+
+与
+\begin_inset Formula $a$
+\end_inset
+
+交换的一个反演。当然可以将“
+\begin_inset Formula $-$
+\end_inset
+
+”理解为“
+\begin_inset Formula $a-$
+\end_inset
+
+”的特例，即表示“
+\begin_inset Formula $0-$
+\end_inset
+
+”。
+\end_layout
+
+\begin_layout Standard
+儿童掌握减法的这种形象化表示毫无困难。如进行如图12-7那样的反演，使
+\begin_inset Formula $0$
+\end_inset
+
+与
+\begin_inset Formula $7$
+\end_inset
+
+交换，这时数
+\begin_inset Formula $3$
+\end_inset
+
+对应的数就是
+\begin_inset Formula $7-3$
+\end_inset
+
+这一结果，儿童理解
+\begin_inset Formula $a-b$
+\end_inset
+
+要比成年人更快，因为他们不受算法的约束。
+\end_layout
+
+\begin_layout Section
+数轴的系统化
+\end_layout
+
+\begin_layout Standard
+最初，数轴上标出的点只是自然数集
+\begin_inset Formula $N$
+\end_inset
+
+的元素。加
+\begin_inset Formula $3$
+\end_inset
+
+即右移
+\begin_inset Formula $3$
+\end_inset
+
+个单位，而加
+\begin_inset Formula $3$
+\end_inset
+
+与加
+\begin_inset Formula $5$
+\end_inset
+
+复合，即得加
+\begin_inset Formula $8$
+\end_inset
+
+的运算，由此可导出加法的结合律。减法“
+\begin_inset Formula $7-$
+\end_inset
+
+”是交换
+\begin_inset Formula $0$
+\end_inset
+
+与
+\begin_inset Formula $7$
+\end_inset
+
+的反演，它的直观价值前已提及。
+\begin_inset Formula $(a+b)-b$
+\end_inset
+
+和
+\begin_inset Formula $(a+b)-a$
+\end_inset
+
+有着不同的直观意义。
+\end_layout
+
+\begin_layout Standard
+为使加法的求逆不受限制，负数的像就必须出现在数轴上。于是
+\begin_inset Formula $(-3)$
+\end_inset
+
+被解释为加法算子
+\begin_inset Formula $(-3)+$
+\end_inset
+
+中的决定性部分，而算子
+\begin_inset Formula $(-3)+$
+\end_inset
+
+则被视作算子
+\begin_inset Formula $3+$
+\end_inset
+
+的逆；或是为了使
+\begin_inset Formula $a+x=b$
+\end_inset
+
+这类问题中的解
+\begin_inset Formula $x$
+\end_inset
+
+不受限制，而先在数轴上标出
+\begin_inset Formula $-1,-2,-3,\cdots\cdots$
+\end_inset
+
+但
+\begin_inset Formula $(-a)+$
+\end_inset
+
+仍作为
+\begin_inset Formula $a+$
+\end_inset
+
+的逆，而
+\begin_inset Formula $b-a$
+\end_inset
+
+就是
+\begin_inset Formula $a+x=b$
+\end_inset
+
+的解。
+\end_layout
+
+\begin_layout Standard
+正因子的乘法可理解为数轴的伸缩，因子
+\begin_inset Formula $a$
+\end_inset
+
+即表示将
+\begin_inset Formula $1$
+\end_inset
+
+映成
+\begin_inset Formula $a$
+\end_inset
+
+的伸缩，但如何解释负因子的乘法在此上下文中并不明显，这有待以后讨论。乘法像加法一样可以复合，也可以推出相应的规则。最后对乘法求逆，比如乘
+\begin_inset Formula $3$
+\end_inset
+
+的逆，就出现了分母为
+\begin_inset Formula $3$
+\end_inset
+
+的分数，而
+\begin_inset Formula $\cfrac{1}{3}\cdot$
+\end_inset
+
+就成为一个新的乘法算子，将
+\begin_inset Formula $\cfrac{1}{3}\cdot$
+\end_inset
+
+与
+\begin_inset Formula $7\cdot$
+\end_inset
+
+复合就得
+\begin_inset Formula $\cfrac{7}{3}$
+\end_inset
+
+，于是得到一般的有理乘法算子
+\begin_inset Formula $r\cdot$
+\end_inset
+
+，这里
+\begin_inset Formula $r$
+\end_inset
+
+是有理数（也可以负数）。
+\end_layout
+
+\begin_layout Standard
+分数被解释为算子，形象而直观，不少人将其用于分数的教学，课堂实践也令人满意。但这个方法有局限性，如果分数能以某种方法解释为乘法算子，那么分数相乘就像映射复合一样
+是个自然的过程，可是这种算子的加与减就很难理解了。
+\end_layout
+
+\begin_layout Standard
+于是为了使分数加法能够形象化，就不是将分数作为算子，而是想象成对整数集
+\begin_inset Formula $Z$
+\end_inset
+
+的乘法求逆时，分数就出现在数轴上。对数轴还应再重分，使分数的加减也可看作是数轴上的移动。
+\end_layout
+
+\begin_layout Standard
+除法可作为乘法的求逆，但无论用数轴或是用另外的形象化手段，或是什么都不用，对于非整数的除法总是一种形式运算，找不到它的直观本质。在数轴上或是用矩形模式，乘法总可
+看作某物的倍数，但除法却不能反映分配过程，当然可以将除法解释为乘法之逆，但这是一种逻辑解释而非直观解释，要理解这一运算，需要具备的前提与算术中常用的大为不同。
+\end_layout
+
+\begin_layout Standard
+还想指出一点，为了直观处理算术运算，数轴这一工具也并非万能的，没有哪一种直观材料或模型可以复盖整个领域，但若共同使用则可以取长补短。有一种自然的倾向，就是往往过
+于强调某一种直观材料，其实教学法专家应该在他的思想实验中对各种可能性进行试验，如果某些方法失败，那就应该放弃。就像实验科学中，若有一个实验失败，就绝不会自欺欺人
+地将它保留下来，那为什么教学理论却要谋求自身的失败呢？
+\end_layout
+
+\begin_layout Section
+作为一种形象化工具的图象
+\end_layout
+
+\begin_layout Standard
+我们已经多次讨论了具体数的相乘，它的一种直观形象就是矩形模型，另一种直观形象是借助于线性函数的图象表示，有人提出过一个可使线性函数具体化的装置，即将可动的透明尺
+安装在一块格子板上。传统上由比例运算法则所统治的领域很少使用图象表示，一张价格表是很实用的，它给出了某商品从
+\begin_inset Formula $1\mbox{kg}$
+\end_inset
+
+到
+\begin_inset Formula $10\mbox{kg}$
+\end_inset
+
+的价格。但是一个图象会更令人信服，在路程作为时间函数的图象中应格外留意：运动不一定是等速的。很少有人真正知道速度（或称速率）是什么，如果你从伦敦飞到阿姆斯特丹，
+\begin_inset Formula $55$
+\end_inset
+
+分钟的飞行距离是
+\begin_inset Formula $350\mbox{km}$
+\end_inset
+
+，而飞机上广播正在告知旅客，飞机正以每小时
+\begin_inset Formula $850\mbox{km}$
+\end_inset
+
+的平均速度飞行，这里的平均速度常常是指最大速度，不管怎么说，非等速运动的图象不容忽视。
+\end_layout
+
+\begin_layout Standard
+用图象表示函数显然不仅是一种形象化的工具，也是一种解题工具。即使是那些不现实的自行车相遇与超过问题，控制湖水量的源与流问题，以及酒与饮料的混合问题，都可以通过图
+象来自然地解决。当然这并不是说要去处理这些问题，我只是指那种模式，它同样也通用于一些合乎情理的题材。
+\end_layout
+
+\begin_layout Standard
+在函数出现以前就使用图象，函数的图象表示就可以更系统地学习了。例如，男孩生于1962年7月1曰，他父亲生于1937年1月1日：什么时候男孩年龄是他父亲年龄的一半
+？［图12-3(1)］又如列车从A和B两地以不同速度相向而行：什么时候两车相遇？［图12-8(2)］再如，甲每月从自己的帐上转一笔金额到乙的帐上：什么时候乙的帐
+户总金额会大于甲？［图12-8(3)］最后以船的顺流或逆流而行为例说明图象加法与减法［图12-8(4)］，以时钟的两个指针的定期相遇问题为例说明周期运动的图象表
+示［图12-8(5)］。最早讨论的函数
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\bigsqcup_{x}(a+x)$
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+与
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $\bigsqcup_{x}a\cdot x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+自然不应忘记，而且其中的数值变量
+\begin_inset Formula $a$
+\end_inset
+
+有着非常具体的含义。
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+thesubfigure}{
+\backslash
+arabic{subfigure}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/12-8-1.png
+	width 55text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/12-8-2.png
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{figure}{7}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{subfigure}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/12-8-3.png
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/12-8-4.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/12-8-5.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+杠杆
+\end_layout
+
+\begin_layout Standard
+我曾多次提到杠杆可作为一种形象化的工具，它不仅可用来显示负数及某些运算，还能显示代数规则。
+\end_layout
+
+\begin_layout Standard
+整数（或有理数、实数）在杠杆上有两种表示法：一是像水平数轴上那样，以杠杆臂上支点右边的距离为正，左边的为负，以支点作原点；二是作为力（重量），从上至下为正，反之
+为负。两类不同的量的乘积在物理上称为矩（力乘力臂），其加法也是物理意义上相加。如果力矩的和，即乘积的某种和为零，则杠杆平衡。
+\end_layout
+
+\begin_layout Standard
+如何解释两个表达式的相等？平衡应当以天平两侧的量值相等为标准，但杠杆上的距离，一侧为正，另一侧为负，无法比较。平衡即力矩和为零，即某些乘积表达式之和为零。也许可
+以将力矩理解成直观的旋转效应，在不同臂上由重量实现的两种表达式如果显示出同样的旋转效应，则它们是相等的。但旋转运动与力矩都不够初等，要在相当高的水平才能应用。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement L
+overhang 0in
+width "40text%"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/12-9.png
+	lyxscale 60
+	width 40text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+还有一种更具体的方式定义杠杆上两个表达式的相等，即它们都与在某一确定力臂上的一个确定重量相平衡，如
+\begin_inset Formula $3\cdot(-4)=4\cdot(-3)$
+\end_inset
+
+，因这两者都与
+\begin_inset Formula $4\cdot3$
+\end_inset
+
+平衡（图12-9）。
+\end_layout
+
+\begin_layout Standard
+杠杆表示生成了乘积的和，但如何表示减法？用“取走”无法解释，当然如有需要可以设想减数悬挂在杠杆的“错的一侧”但这种解释实在太不自然了。
+\end_layout
+
+\begin_layout Standard
+尽管有这些问题，我还是相信杠杆是个有价值的装置，只要不是将全部算术都压上去使之负担过重，我们可以利用它来解释代数观念，并给出负数的一个最重要的应用。使用杠杆可以
+显示某些表达式是正还是负，即它们使杠杆右转还是左转。我说过旋转效应不容易理解，那是指定量的理解，如果从定性的角度，即只要决定某个力是使杠杆右转还是左转，那是容易
+感受的。用这个方法可以决定
+\begin_inset Formula $5\cdot7$
+\end_inset
+
+，
+\begin_inset Formula $(-5)\cdot7$
+\end_inset
+
+，
+\begin_inset Formula $5\cdot(-7)$
+\end_inset
+
+，
+\begin_inset Formula $(-5)\cdot(-7)$
+\end_inset
+
+这些表达式中哪个是正，哪个是负，特别是杠杆还能简单地显示出乘积中的负号可以相互抵消。
+\end_layout
+
+\begin_layout Standard
+可能要问：为什么对
+\begin_inset Formula $(-a)\cdot(-b)=ab$
+\end_inset
+
+要作这么多的解释，而不是采取简单规定的方式？而且就算真的需要解释，那又为什么不限定一个例子？回答是因为通过一个负号形成相反的运动是通向负数的全部应用的线索；也因
+为使用乘法是一种检验标准，用以了解这种应用是否符合实际，是否深入。算术以后的数学充满了关系，你甚至一个也不能丢失，但是你当然应该忍住，不把一个模型挤干到最后一滴
+，在陷入困境之前就应停止，并推迟关于杠杆的更加系统的处理。
+\end_layout
+
+\begin_layout Section
+计算机
+\end_layout
+
+\begin_layout Standard
+算盘是一个教十进位值的直观材料，计算机也是，当然我指的是非自动的，曲柄台式计算机（不是电子计算机）。我建议在刚引入加法，像
+\begin_inset Formula $8+5$
+\end_inset
+
+时，就开始使用计算机，同时也不丢弃算盘。我们可以对计算机这个材料寄予什么希望呢？
+\end_layout
+
+\begin_layout Standard
+首先是为学生今后进一步使用计算机打好基础，这方面相对来说并不重要。更为重要的是非自动计算机能帮助学生透彻理解十进位值制，它是位值加、减法和转换的直觉演示，它表明
+数字如何存入，乘、除如何由重复进行加、减法完成，以及什么是余项，小数点的位置如何等等。另一个优点是使学生可以面对实际，把学生从陷于计算错误而不能自拔的窘境中解救
+出来，特别在长除法中。
+\end_layout
+
+\begin_layout Standard
+我知道有人反对，他们担心学生被计算机宠坏以后，就不再去学加法、乘法表的使用，当然我们要防止这一点。善于思索的教师会设计出许多对策，如让学生用计算机算出
+\begin_inset Formula $1\cdot7,2\cdot7,\cdots\cdots$
+\end_inset
+
+并记下结果，这远比用他自己的方法建立乘法表来得可靠，而且也达到了同样的目的；让同学之间比赛乘除法，一个用计算机，一个用心算，那个用汁算机的人会知道而且永远不会忘
+记，计算机计算
+\begin_inset Formula $9\cdot9$
+\end_inset
+
+也需要很多时间。
+\end_layout
+
+\begin_layout Standard
+在上述各种直观方法中，使用汁算机计算最接近笔算。当然我并不取消多位数笔算，如果我以后不再讨论这些技能，那只是说明我不知道在传统的教学理论中，除了和计算机使用有着
+密切联系的内容外，还应加上什么。随着计算机使用的推广，心算、笔算的技巧无疑将会有所削弱，但这并不值得遗憾，虽然一百多年来，每一代人总在抱怨年轻一代算术技能下降了
+，可实际上，过去这方面的技能也并不像人们所想象得那么好。
+\end_layout
+
+\begin_layout Standard
+但有两个算法我不能避而不谈
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+分数与比例运算法则，它们在传统算术中有着推理的而不是直观的基础，在这方面，它们不同于整数的纯算术算法。在此，我必须转向一个更为基本的问题。
+\end_layout
+
+\begin_layout Section
+推理方法与直观方法
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+比例运算法则和分数
+\end_layout
+
+\begin_layout Standard
+算术的结构应当扩展到什么范围？在算术的教学中，数与运算一开始都是直观的数据，应用也有相当的直观性。接着算术逐渐变得愈来愈抽象，所涉及的数与应用问题的内容都超过了
+想象，熟练的教学法专家设计了更为复杂的直观工具，成功地通过了这些障碍。前面提到的线性函数图象就是其中一例，但在多于一个变量时它就失效了，在这个领域中传统的组织工
+具是比例运算法则，它非但不直观而且非常具有逻辑性。那些学过代数的人会用代数方法来解问题，即使问题比较复杂，他也会设置未知数以使问题代数化。教师与教科书作者如果懂
+得代数，却让学生以传统的算术方法来解这类问题，那是在骗人；如果他们不懂代数，那就只能带着学生在暗中摸索。这是双重标准的教学法，即将一个题材初等化。可是这种初等的
+描述只有那些掌握了非初等描述的人才能理解
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+这是一种该受指责的教学哲学的特性。如果代数是解一个问题的最适当的方法，那么学生像教师一样有同样的权利用这一方法来解。如果四年级的学生问：是否可以使用
+\begin_inset Formula $x$
+\end_inset
+
+来解？回答是：等到八年级。这是宣告了教学法的破产，因为到了八年级，学生必须化更多的精力在下一个目标
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+二次方程上，根本没有机会再去从事四年级的算术问题，这样大多数学生就从未学会用代数来解。
+\end_layout
+
+\begin_layout Standard
+用传统的应用题，我们能做些什么？三个量中
+\begin_inset Formula $a$
+\end_inset
+
+、
+\begin_inset Formula $b$
+\end_inset
+
+、
+\begin_inset Formula $c$
+\end_inset
+
+中，
+\begin_inset Formula $ab=c$
+\end_inset
+
+，已知两个量，求第三个量；或四个量
+\begin_inset Formula $a$
+\end_inset
+
+、
+\begin_inset Formula $b$
+\end_inset
+
+、
+\begin_inset Formula $c$
+\end_inset
+
+、
+\begin_inset Formula $d$
+\end_inset
+
+中，
+\begin_inset Formula $abc=d$
+\end_inset
+
+，已知三个量，求第四个量（例如，
+\begin_inset Formula $路程\text{＝}速度\times时间$
+\end_inset
+
+，或
+\begin_inset Formula $利息=本金\times利率\times年数$
+\end_inset
+
+等等，也包括“什么数乘以……，可得……”或是“必须将……乘以什么数才得……”的问题）。这些都是产生于算术而又非算术的问题，我们不应把它们从算术中驱逐出去，但也不
+应采取过去的做法。学生应通过多样化的直观方法去对付这些问题，直观方法自然处于准数学的基础水平，因而学生又不应停留在这一水平上，因为他还必须继续学数学。在这样的背
+景下，最早表现出来的数学动向，就是分析与理解一个人的行为，一些有才能的算术教学法专家尝试了这个方法，但却很少成功。他们希望学生能逻辑地分析自己的活动，先借用于日
+常语言
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+像这一类的阐述：
+\begin_inset Formula $a$
+\end_inset
+
+与
+\begin_inset Formula $b$
+\end_inset
+
+的商是一个数，
+\begin_inset Formula $b$
+\end_inset
+
+乘以它得
+\begin_inset Formula $a$
+\end_inset
+
+。它确实比用
+\begin_inset Formula $x$
+\end_inset
+
+简单，但这种描述方式也就是我前面反对的人为的初等化，认为学生不够成熟，不会使用
+\begin_inset Formula $x$
+\end_inset
+
+，但却相信他们能用这样的阐述来解题，那是一个错误。
+\end_layout
+
+\begin_layout Standard
+上述练习作为学习代数的准备是有意义的。但这一准备如果作得过早，由于学生还没有较强的数学思维能力，那就会显得无意义。但也不能延迟太久，以至错过为学习代数作好准备的
+机会。
+\end_layout
+
+\begin_layout Standard
+对比例运算法则的讨论同样可应用于传统的分数教学，几乎不容怀疑分数教学是教学法的一大失败，我相信只要它仍然被限制在现有的算术背景下，它将继续失败。
+\end_layout
+
+\begin_layout Standard
+传统上直观引入分数的效果极好，因为儿童可用直观的分数进行计算，但教师随即转向算法的分数，就使学生陷入了进退维谷的困境。虽然学了化简法则、四则运算法则以及混合运算
+，但这只是无意义的游戏。因为像
+\begin_inset Formula $\cfrac{2}{3}+\cfrac{1}{3}$
+\end_inset
+
+，
+\begin_inset Formula $\cfrac{2}{3}-\cfrac{1}{3}$
+\end_inset
+
+，
+\begin_inset Formula $\cfrac{2}{3}\cdot\cfrac{1}{3}$
+\end_inset
+
+，
+\begin_inset Formula $\cfrac{2}{3}:\cfrac{1}{3}$
+\end_inset
+
+这样简单的运算，只要睁开眼就可在数轴上看出来，但对复杂的分数如
+\begin_inset Formula $\cfrac{127}{131}$
+\end_inset
+
+和
+\begin_inset Formula $\cfrac{8}{47}$
+\end_inset
+
+学生能做些什么呢？当然这些数能在数轴上找到大致位置，但学生先应学会粗略估计以免出错。分数运算中最有意义、最直观的是乘法。化简也有意义，虽然可以导出但缺乏直观。加
+减法相对比较直观，但不易导出，也很少有意义。至于除法在算术中是最不直观的，难以导出而且是无意义的。复杂分数的运算在算术中是很难激发学生兴趣的。
+\end_layout
+
+\begin_layout Standard
+复杂分数及其运算是教师的发明，它只能在高水平上理解，范·希尔（Van·Hiele）注意到并强调了一个事实，渗透于分数中的观念显然是代数观念，引入分数及其运算是为
+了使四则运算及其规则的适用范围不受限制，一个域关于某些运算封闭的观念完全是代数的，它是所有代数本质的基础。分数及其运算由于缺乏直观性，应该由上述代数观念导出。我
+认为唯一诚实的做法就是告诉学生，引入分数就是为了要求算术运算的适用范围不受限制。这是一种抽象的导出概念，几乎不受实际需要的影响。负数的存在也归功于减法不受限制的
+要求，除了分数与负数以外，其他的都可以直观作为导出的动力。
+\end_layout
+
+\begin_layout Standard
+现今，人们作了许多努力以改进算术结构下的分数教学，其中有些是值得注意的，只要它们没有转移对现实问题的注意，我会第一个表示欢迎。如果这些努力只是在教学上有价值的话
+，那么它们同时也是特别危险的，因为它们只是推迟了对问题的真正解决，也许这是无限期的推迟。依我看来，唯一可接受的解决办法是在代数中处理分数。
+\end_layout
+
+\begin_layout Standard
+这当然不是说要将分数作为数对的等价类。前节讲过，构造
+\begin_inset Formula $\cfrac{7}{3}$
+\end_inset
+
+这一分数是为了解方程
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3x=7$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+于是取一个
+\begin_inset Formula $x$
+\end_inset
+
+，认为它是满足上式的，我称这个行为规则为“代数原理”。两边乘以
+\begin_inset Formula $5$
+\end_inset
+
+，得到
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $15x=35$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+这就是说
+\begin_inset Formula $\cfrac{7}{3}$
+\end_inset
+
+与
+\begin_inset Formula $\cfrac{35}{15}$
+\end_inset
+
+是相同的。为了将
+\begin_inset Formula $\cfrac{7}{3}$
+\end_inset
+
+与
+\begin_inset Formula $\cfrac{3}{5}$
+\end_inset
+
+相加，可以由
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3x=7$
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+和
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $5y=3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+导出关于
+\begin_inset Formula $x+y$
+\end_inset
+
+的方程，即
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $15(x+y)=44$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+则
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $x+y=\cfrac{44}{15}$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+其他运算应该用类似方式来教，意思就是将
+\begin_inset Formula $x,y,\cdots\cdots$
+\end_inset
+
+看作是某些方程的解，并利用通常的算术规则对它们进行运算。必然有人指责，这个策略要预先假定和、积等的存在性。我们不妨用一种正面的描述：假设和、积等的存在性，再严格
+证明扩展体系中的算术法则，以及和、积等的算法形式，这一点比存在性更为重要，因为这是经常需要用到的性质。
+\end_layout
+
+\begin_layout Section
+推理方法与直观方法
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+负数
+\end_layout
+
+\begin_layout Standard
+关于比例运算法则和分数的教学，我建议从直观方法直接到代数方法。直观是有局限性的，长期限于直观教学将妨碍学生的思维。学习算术的目的是为了掌握算法的技能。
+\end_layout
+
+\begin_layout Standard
+本世纪初的实验表明算术之所以薄弱常常由于对数的概念有一种顽固的直观看法。正常情况下，思维活动中的直观成分应逐渐下降，这并不说明直观没有用。学生能做
+\begin_inset Formula $7+5$
+\end_inset
+
+，因为他以前曾直观地做过；学生能进行笔算，那是他的算盘经验的后效；如果说最终他能以各种方式熟练地应用算术，起决定性作用的可能就是他了解多种形式中运算的直观意义。
+\end_layout
+
+\begin_layout Standard
+但并不建议太多地依靠直观作为教学工具，分数与比例运算法则的教学都说明，直观方法可能有效，但不够；我的结论是应该及时退出直观方法，而强调推理的方法，当然这种推理方
+法必须是真正的数学。
+\end_layout
+
+\begin_layout Standard
+即使在早期阶段，也应考虑直观教学达到何种程度。在一形成算术法则时就要问，是借助于直观还是让学生用推理方法证明？交换律与结合律看起来如此明显，而它们的根据却只能在
+高水平上探究，当然可以不言而喻地应用，比如求
+\begin_inset Formula $8+5$
+\end_inset
+
+就借助
+\begin_inset Formula $8+(2+3)=(8+2)+3$
+\end_inset
+
+，这实际上就是一个算术法则，但是否需要点明呢？为了说明
+\begin_inset Formula $8+x=13$
+\end_inset
+
+可以通过
+\begin_inset Formula $x=13-8$
+\end_inset
+
+来解，只要利用加减法的直观意义也就足够了，即使像分配律，它是较高程度的算法，也没有理由认为需要比直观证明更多的东西，像
+\begin_inset Formula $a-(b+c)=a-b-c$
+\end_inset
+
+这个法则也是非常直观的，人们常喜欢用词语去表达这个直观思想：为了将
+\begin_inset Formula $b$
+\end_inset
+
+和
+\begin_inset Formula $c$
+\end_inset
+
+一起拿走，可以代之以一个一个地拿走。
+\end_layout
+
+\begin_layout Standard
+我认为需要超越直观而运用推理方法的首先是负数。我喜欢将负数放在分数之前，尽管按传统理解，分数是算术，负数是代数；负数及其运算可利用数轴直观进行，而且效果甚佳。但
+对此我心中并不踏实，理由之一是前面提到的极化的干扰，它可能降低数轴的价值。
+\end_layout
+
+\begin_layout Standard
+我巳经讨论过处理负数的一种推理方法，有一
+\begin_inset Formula $x$
+\end_inset
+
+满足
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $x+a=0$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+另有一
+\begin_inset Formula $y$
+\end_inset
+
+，满足
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $y+b=0$
+\end_inset
+
+，
+\end_layout
+
+\begin_layout Standard
+\noindent
+要求加法与乘法满足通常的法则。于是从
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $(x+y)+(a+b)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+推出
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $-(a+b)=-a-b$
+\end_inset
+
+；
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+从
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $b(x+a)=0$
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+和
+\begin_inset space \quad{}
+\end_inset
+
+ 
+\begin_inset Formula $(y+b)x=0$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+推出
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $xy-ab=0$
+\end_inset
+
+，
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+则
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $(-a)\cdot(-b)=ab$
+\end_inset
+
+。
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+显然，教学负数的困难不在于引入，也不在于像
+\begin_inset Formula $3-7$
+\end_inset
+
+，
+\begin_inset Formula $7+(-3)$
+\end_inset
+
+，
+\begin_inset Formula $(-7)+3$
+\end_inset
+
+，
+\begin_inset Formula $2\cdot(-5)$
+\end_inset
+
+这些问题，而在于像
+\begin_inset Formula $3-(-7)$
+\end_inset
+
+，
+\begin_inset Formula $10-(-7)$
+\end_inset
+
+，
+\begin_inset Formula $(-3）\pm(-7)$
+\end_inset
+
+，
+\begin_inset Formula $(-2）\cdot(-5)$
+\end_inset
+
+这类问题。论证一种负数教学的新方法，就得花时间去检查哪类问题包栝进去了，哪类遗漏了。
+\end_layout
+
+\begin_layout Standard
+多年来我宣传归纳外推法，让学生填写下列表格：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{array}{llll}
+3+2=5, & 3-2=1, & 3\cdot2=6, & (-3)\cdot2=-6,\\
+3+1=4, & 3-1=2, & 3\cdot1=3, & (-3)\cdot1=-3,\\
+3+0=3, & 3-0=3, & 3\cdot0=0, & (-3)\cdot0=0,
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{array}{ll}
+3+(-1)=\underline{\phantom{-2}}, & 3-(-1)=\underline{\phantom{-2}},\\
+3\cdot(-1)=\underline{\phantom{-2}}, & (-3)\cdot(-1)=\underline{\phantom{-2}},\\
+3+(-2)=\underline{\phantom{-2}}, & 3-(-2)=\underline{\phantom{-2}},\\
+3\cdot(-2)=\underline{\phantom{-2}}, & (-3)\cdot(-2)=\underline{\phantom{-2}}\text{。}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这是超越
+\begin_inset Formula $0$
+\end_inset
+
+的归纳外推，这个方法可以与直观方法相结合，由于它要通过计算与推断来检查，因而可以作为数轴的生动补充，如果不用数轴，那它就是最自然的方法。而且，虽然不是形式归纳，
+但蕴含着真正的数学，它再现了计算过程中计数的数所遇到的情况，因而也预示了它在一个更高水平上可成为严密的证明。
+\end_layout
+
+\begin_layout Section
+应用算术
+\end_layout
+
+\begin_layout Standard
+本节并不意味着，在算术教学中应用应该成为独立的一章。相反，我要强调它与“纯”算术的密切联系。事实上，这是一个老传统，算术教学开始于应用，又回到应用，至少到分数为
+止是这样的。浏览一下算术书就会看到大量丰富的应用，它内容详细、系统而且完整，看起来好像作者已经彻底分析了应用算术的所有可能性与必要性，其实这是悠久的传统留给我们
+的多层次积累，它的教育效果也确实不坏。从市场与商店可以看到很多人都掌握算术，特别值得注意的是算术教学不仅在算术上成功，在应用上也成功，这是算术教学与代数几何教学
+的区别，后者的题材脱离现实，人们掌握了暂时也不会用，这并非说算术的应用比较简单，只是因为算术教得比较好。
+\end_layout
+
+\begin_layout Standard
+在“新数学”以前的算术书上有这类例子，印出一张火车时刻表，并提问“某人从甲地旅行到乙地，准备8点钟出发，应该乘哪次车？何时到达乙地？”我担心“新数学”会对这种陈
+词滥调耸肩一笑，因为问题没有叙述清楚。我们不应该求某一组火车出发时间的最大下界吗？至少它也应该是个像样的公式，虽说只要它没有构成公理体系就不能算是像样的数学。
+\end_layout
+
+\begin_layout Standard
+同一个计算问题可以出现许多不同的表达方法，例如：
+\end_layout
+
+\begin_layout Standard
+（1）甲
+\begin_inset Formula $16$
+\end_inset
+
+岁，几年前他是
+\begin_inset Formula $10$
+\end_inset
+
+岁？
+\end_layout
+
+\begin_layout Standard
+（2）甲
+\begin_inset Formula $10$
+\end_inset
+
+岁，乙
+\begin_inset Formula $16$
+\end_inset
+
+岁，乙比甲大多少？
+\end_layout
+
+\begin_layout Standard
+（B）甲
+\begin_inset Formula $10$
+\end_inset
+
+岁，乙
+\begin_inset Formula $16$
+\end_inset
+
+岁，乙几年前与甲现在一样大？
+\end_layout
+
+\begin_layout Standard
+是否要把同一个问题16－10编造出一千种不同形式？一般公民解这些问题都绰绰有余，如果你认为这太烦琐，那就证明你的算术已经学好了。
+\end_layout
+
+\begin_layout Standard
+这么多人能学会算术是不是一个奇迹？这是奇迹，但也不是奇迹，它太容易解释了。因为算术教学密切联系应用，从而再也不会产生有关应用方面的问题。应用算术过去是，现在仍然
+是最直观的一章，也最接近学生的想象。
+\end_layout
+
+\begin_layout Standard
+这样看来我似乎满意了算术教学的成果，那为什么我又为它花了这么多时间？因为我一点也不满意。我是否从中发现了大量错误？事实上我无法查证今天的教学对儿童的社会影响。我
+只能从现行的教科书来判断今天的教学。近年来的算术教科书有个趋势，就是离开应用，虽是想尽量直观
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+那是可喜的
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+但更强调抽象，就本身而言，这并非坏事，但抽象常常伴随着形成体系，于是就要排除一切不符合体系的东西，这是危险的。数的体系是：自然数，整数，有理数，实数，而自然数的
+原理是势，只有少量应用才能适合这一体系，火车时刻表中的数是有理数还是自然数？在算术体系中没有时刻表的地位。传统的算术书清楚地表明问题从易到难的发展，不很强调系统
+性，同一问题一再重复只是改变数据。16－10的问题借助各种可能的表达法分散在一个较长的时期内教，而不是一下子教，在新类型的问题中又重复着老问题，事实上，这种重复
+还很多，像这样的教科书在每个系统论者看来都是个怪物，没人喜欢怪物，然而每个数学家都喜欢系统性。
+\end_layout
+
+\begin_layout Standard
+大量可供选择的应用题是连续积累下来的，也许到了该清理的时候，也许更为抽象比许多具体应用会带来更大的进步，但我看到有一种过于夸大的趋势，我担心这种趋势如果占了上风
+，我们的儿童将学习更多无用的数学，甚至还有比这更坏的副作用。
+\end_layout
+
+\begin_layout Standard
+我承认，更抽象些可能会有效地代替应用并超越应用，这应该认真地研究，例如16－10的表达法可以归结为两个等价的问题，即“
+\begin_inset Formula $a$
+\end_inset
+
+早于
+\begin_inset Formula $b$
+\end_inset
+
+多少？”和“
+\begin_inset Formula $b$
+\end_inset
+
+迟于
+\begin_inset Formula $a$
+\end_inset
+
+多少？”再使用少量逻辑结构模式，还可以归结为同一问题。儿童当然应该学会将这类表达法解释成同一逻辑模式的不同模型，在这方面，强调逻辑结构可能比强调算术更好。在算术
+教学中的这种逻辑结构是很值得研究的，通常改革家将逻辑领域限制得非常狭窄，他们喜欢的题材是关系。可能学生知道了“大于”关系的传递性，但这对算术教学是无用的。
+\end_layout
+
+\begin_layout Standard
+儿童在算术教学中经常学到这些原理，但只是作为低水平的一种活动，不带有意识的知觉或至少没有任何明确的阐述，应该要求在这方面的教学目标就是将学生提到高水平。
+\end_layout
+
+\begin_layout Standard
+这使我想起了代数，那儿的情况更糟，在算术中，我们只是抱怨学生无限制地停留在低水平，而在代数中，学生甚至连低水平也没有学会。无疑通过仔细分析具体情况会有所好转，但
+这就意味着要离开封闭系统这一象牙之塔。
+\end_layout
+
+\begin_layout Standard
+我曾寻求过另外一些教应用算术的系统，其中并无什么新观念，有时我也尝试将其推迟到6～8年级，然而较早一些可能更容易成功。传统教学中应用算术是分散进行的，我并不主张
+以独立的一章“应用算术”来代替，我宁愿以综合的方式去引入问题，对详细情况用数值来表达同时又作算术的解释，就像以前的商业算术那样，那些问题今天已经过时，不能引起兴
+趣，但在描述统计领域内，这种处理是自然的，在这方面，有些好的教科书取得了惊人的效果。在通常祜燥的抽象化之后，读到这种现实主义的书令人耳目一新。
+\end_layout
+
+\end_body
+\end_document

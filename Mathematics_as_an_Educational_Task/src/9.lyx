@@ -1,0 +1,247 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 作为教育任务的数学
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+教学
+\end_layout
+
+\begin_layout Section
+理论家的权威
+\end_layout
+
+\begin_layout Standard
+大多数教育家将他们的哲学系统地阐述为各种要求。他们习惯于告诉其他人应该如何教。其中有些人可能也演示一下，应该怎么做。早自17世纪以来，有些人巡回旅行，通过他们的
+示范博得了大家的赞美。他们以各种理论补充其实践。但是我们常常不知道两者该如何配合。不管情况如何，当然无人能否认他们是有才能的人。但就凭这一点，难道他们就有权规定
+别人应该如何进行教学吗？
+\end_layout
+
+\begin_layout Standard
+总之，教育家是产生了一些影响，然而也许还不够。我们要问这种影响究竟有多大？是否没有限制？首先是在理解方面的限制：对他们的理解有多深？其次是人类本性的限制：是更鼓
+励教育家，还是着眼于人类的能力？第三是社会的限制：他们追求的教育在所生存的社会中是否可能实现？
+\end_layout
+
+\begin_layout Standard
+用传统的术语来讲，这是“理想与现实”这一论题的许多变种之一。只是不要忘记理想也是现实，不过是比同代人看得更远一点的现实。
+\end_layout
+
+\begin_layout Standard
+我没有足够的根据来规定其他人的教学方法。在中学教室里我不是作为教师，而是作为学生和观众出现。如何教大学生，已给我带来了很大困难
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+但在这方面我倒是学到了不少。其实，我最长的经历与最大的困难是教我自己这个最糟的学生。然而，如果有人说苏格拉底（Socrates）方法或再创造方法是不现实的，也是
+不可能的，那我可以保证，我曾亲眼看到这些方法的使用，我只是对实际的经验加了点逻辑分析。我也曾在教室里和教材中看到如何组织一个领域的例子，当然在推广这个观点之前，
+对教材作更多的分析是必不可少的。
+\end_layout
+
+\begin_layout Standard
+顺便说一下，我并不认为本书的宗旨以及我在教学理论中提倡的要点就是，我应该为实际教育工作者规定教学方法。当然，我的哲学仍然是与以违反教学理论的方式来影响中学教学的
+任何企图作斗争。特别反对纯粹由内容决定的教学，以及所有的教条主义观点，它们忽视了数学教学的心理学前提及社会内涵。这些教条主义的影响常常是由大学教授的本性所造成的
+，他们倾向于将中学数学看成是有关的题材内容，看作是一个体系。有时候甚至中学教师也会陷入于题材之中，从而越来越被教材所俘虏。大学教师所作的有关中学数学的讲座通常也
+只限于题材内容，而不敢涉及教学的可能性；经常无目的地、简单地通过题材的选择与表示来选择教学法，即喜欢教现成的、不相关的数学，而反对教学生可以应用的数学。如果由中
+学教师来编写教材，也许可以发挥这方面的影响；前面我曾解释过，在编写教材过程中，教学法是如何被扼杀的。
+\end_layout
+
+\begin_layout Standard
+教条主义如何影响我们的工作，可以从历史上的例子来说明。如果一位权威宣称，对某件事的这一种处理方式是严谨的，而另一种方式则是马虎的，那就可能对教学起了决定性的影响
+，也不管对此问题是否真正理解。例如，有一位权威发现了欧几里得（Euclid）的第一个合同定理的证明不严密（实际上是完全正确的），可是为了不想让自己丢脸，没有人敢
+去触动这个定理，或者用任何其他方式去介绍它。有位大学教师对汉克（Hankel）的代数定律持久性作了一个理解错误的注解以后，就无人再敢不严格地扩展数的概念；只是将
+代数定律作为不很明确的公设来介绍。在德国，对克莱因（Klein）思想的不加考虑的抄袭，阻碍了许多合理的发展。我记得荷兰在19世纪30年代也曾发生过类似的事情。1
+937年荷兰高中数学课程进行改革；这次改革是少数教师理想主义的表现，他们简单地依赖数学演绎的强制力量，作为教学法的自动启动的动因，认为不需要任何教育学和教学法的
+论证，也不需要任何社会背景来验证他们的建议。坦率地说，那些报告中所鼓吹的计划如果不说是异想天开至少也是不现实的。几十年的教学实践证明了这一点，但是当时却几乎无人
+敢反对这些观念。少数例外之一，是伟大的范·戴齐格（D.
+\begin_inset space \space{}
+\end_inset
+
+van
+\begin_inset space \space{}
+\end_inset
+
+Dantzig），他以十分令人信服的论据与这种教学哲学作斗争，这种教学哲学不考虑心理条件与社会条件，也不考虑对数学教学的影响。然而，范·戴齐格的争论并未能使谁抛
+弃那些理想主义的理论。好的教师有他们自己的标准，可能认为自己正在实现这一计划，即使他们的标准与所要实现的计划并不很匹配，但他们完全有权相信自己正在执行。但是大多
+数教师不愿意承认自己不能实现这一不现实的计划，因为该计划显然已经赢得了普遍的同意。1937年改革的基本观念不是被驳倒，而是被简单地背叛了。少数教科书作者想简单地
+实现一小部分的理想主义计划，但只有很少的学校使用他们的书。另一批作者并不理解计划的真正含义，或者即使理解的话，在他们的教科书中对这个宏伟的计划也只是口头上说得好
+听。计划内所包含的一些课题，原来考虑能有助于对数学的深刻理解，现在被教科书作者转换成必教与必学的题材，但却不要求理解，甚至简单地被删掉。
+\end_layout
+
+\begin_layout Standard
+我叙述这段历史不只是揭示计划与课程的不可靠性，而且因为这种情况看起来很典型，所以我担心历史会重演。当时被称为“严谨”与“粗糙”的角色，如今被称为“现代”与“过时
+”有时看起来就像女式时装店那样。实际上真的发生过这种事，1955年被某个权威所否定的，谁知到了1965年却成了最现代的式样。照样也没人反对。但是这表明对数学的题
+材与方法需要经常进行再思，某些东西是否是新的并不是决定教学的准则。当然没有人愿意落后，也没有教师愿意承认，自己不能按照大学教授或教科书作者规定的那样严密地教。其
+实，我担心的是在中学教学中鼓吹“现代”数学和“现代”的严谨性，这不仅反映了对它们的重视，往往也预兆着挫折：人们害怕权威的批评的眼光，人们担心，如果谁承认对极限概
+念的处理稍微粗糙了一些，或是谁认为几何公理系不可能在九年级教，那就会被人视为落后或是过时。事实上，我不能理解，为什么中学教师几乎从来也不抗议，甚至从不反对所有的
+证据都表明那只是幻想的课题。难道他们认为不值得这样做？或是他们真以为有些事情就像权威所说的那样简单，怀疑这一点是愚蠢的？
+\end_layout
+
+\begin_layout Section
+教学的实践
+\end_layout
+
+\begin_layout Standard
+如果将理论性的、纲领性的文献排除在外，那就不容易了解教师实际上是如何教的。大部分材料由以下几方面组成：
+\end_layout
+
+\begin_layout Standard
+（1）课程与计划，
+\end_layout
+
+\begin_layout Standard
+（2）教科书与大纲，
+\end_layout
+
+\begin_layout Standard
+（3）考卷，
+\end_layout
+
+\begin_layout Standard
+（4）理论性的教学研究，
+\end_layout
+
+\begin_layout Standard
+（5）经验性的教学研究。
+\end_layout
+
+\begin_layout Standard
+课程大多数比较模糊，并且通常容许作多种解释。计划一般比较详细，但其主要特征是制定目的与标准，它们不管这些目的能否达到，或是这些标准是否与实际教育相匹配。前面提到
+的报告，它导致了1937年荷兰高中的数学课程改革，就是一个引人注目的例子；这次改革仅仅是在纸面上进行，因为它的基本观念是非常不现实的。
+\end_layout
+
+\begin_layout Standard
+能否由教科书来判断教学呢？无论哪里的教科书都有好有坏。哪一种最有影响？通常好的教科书只用于少量班级，即使是否定的征兆也不能证明什么。再说我也不相信数学教育真的像
+所用的教科书那么糟。教育作为一种人类活动，它是那么复杂，不能由教科书作全面的反映。一本好的教科书其特征是，作者对题材进行逻辑的分析，根据他的教学理论（或明或暗的
+）对题材作深思熟虑的安排，某些情况下甚至还加上一点评论。如果一位教师拿到这样一本书，他的反应可能具有两重性。或者他不理解该书的基本教学观念，他只是注意到该书的安
+排不同于自己过去所学的，也不符合他的习惯，于是他就直截了当地说这本书是混乱的。或者他倒是理解该书的基本教学理论，但是却并不赞成。无论是哪种情况，他都有很大的可能
+去求助于那些毫无特色的教科书，这种书在编写时，既不事先对题材作任何的分析，也没有任何教学法的背景，只是以任意方式罗列一下问题的目录，然后为了问心无愧而将零星的理
+论片断拼凑在一起。一位普通教师用这类教科书，再补充上他自己的理论来进行教学，完全有可能超过一位好教师的教学，如果那位好的教师只是局限于一本有特色的教科书，但书的
+特色又不能与他自身的教学特色相配合的话。
+\end_layout
+
+\begin_layout Standard
+实际教学的第三个信息来源是考卷，假定有谁非常了解准备考试时的操练特色，也熟悉评估结果的技巧，那就知道这是一个很有价值的信息源。一个外国人如果单看我们的立体几何考
+试题，或是看到三种外国语的翻译考卷，他会真的相信我们的学生都是几何或语言的天才，除非到他发现了，几何成绩是进行了高度特殊化训练的结果，而语言成绩则是根据了相当低
+标准评估的结果。
+\end_layout
+
+\begin_layout Standard
+理论性的教学研究经常具有这种特点，就是告诉其他人必须如何教。然而这只是计划，经常是实现不了的。提出这个观念的人根据自己的实际教学经验，对它坚信不疑，并声称巳经证
+明他的方法是成功的，但其他人可能怀疑，他的成功是否更多地由于他的个人品质，而并非方法本身。经验性的教学研究经常由于试验情境的不现实而受到损害。试验的班级特别可疑
+，是否会在不同于中学一般情况的特殊条件下发生。教育心理学家的实验室甚至缺少适当的、可以认为具有代表性的实验环境。数学课的现场实录在教学法研究中仍是卓越的成就。
+\end_layout
+
+\begin_layout Standard
+我在中学访问的经历中，发现两个极端：一方面是高度实现了我所谓的再创造教学，另一方面则是权威的教学面对被动的听众，那是我自己做学生时从未见到过的；甚至大学的情况也
+不是经常如此糟糕。我也必须承认，在最自命不凡的现代数学与最陈旧的教学法之间存在一个很高的正相关。
+\end_layout
+
+\begin_layout Standard
+这可能是由于偶然性。什么是两个极端之间的中间状态，也许并不引人注目，但我相信一定存在许多中间状态。因为如我早先解释的，教学的情况也许要比教科书好一些。
+\end_layout
+
+\begin_layout Section
+教学的组织
+\end_layout
+
+\begin_layout Standard
+要实现真正的现代数学教育，必须从根本不同的方式组织教学，否则是不可能的。在传统的课堂里，再创造方法不可能得到自由的发展。它要求有个实验室，学生可以在那儿个别活动
+或是小组活动，教师可以观察学生的活动，以便必要时可以介入。从另一个角度看，课堂也应被取消：教师不应该单独教，而是应该组成2～3人的小组，互相观摩，互相学习。这意
+味着应该组成混合班，相同年龄的或者是不同年龄的。当然，实验室工作还应结合教师与学生的大组进行的大型对话以作为补充。
+\end_layout
+
+\begin_layout Standard
+已经有这样的教学材料可以代替教科书用于上述这类教学中。甚至还可以结合书本进行再创造教学，已存在着这种方法的萌芽。然面还可以想象一个更为高级的阶段：循序渐进的再创
+造教学。
+\end_layout
+
+\begin_layout Standard
+欧洲各国今天大约有1%的人从事教育工作。以后几十年内教育事业将成倍或三倍地增长，每位教师所面对的学生数，也许今天还很少，到时也会大量增加。这意味着如果还是采用目
+前的教学方法，那么从事教育工作的人数将增长到5～10倍。这就表明我们目前的方法必然要失败。由个别教师对年龄较大的层次进行教学的做法很快就会像手抄本一样地过时。当
+代的浪漫而激进的青年一代要求更为个性化的教学，我们应该以此为重点。要让他们像数学家那样以同样的方式阅读文献，自由地再创造，为此我们应该教育我们的青少年，使之具备
+正确的态度，并学会正确的方法，会在学习过程中进行循序渐进的再创造。
+\end_layout
+
+\end_body
+\end_document
