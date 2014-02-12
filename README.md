@@ -2,6 +2,7 @@ books
 =====
 
 Digital some old math books and build as ebook
+
 把一些适用于数学普及教育的老书（PDF 扫描版）做成数字化的PDF，适合用 Kindle 等6寸显示屏设备阅读。
 
 ----
@@ -34,8 +35,11 @@ Algebra2
 Mathematics as an Educational Task
 ----
 **作为教育任务的数学**
+
 【荷兰】弗赖登塔尔 著
+
 陈昌平 唐瑞芬等 编译
+
 上海教育出版社
 
 已完成 PDF。
