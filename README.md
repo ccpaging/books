@@ -51,7 +51,7 @@ Mathematics as an Educational Task
 
 Help us 帮助该项目
 ----
-如果你要：
+如果你要：  
 1. 纠错。  
 2. 参与 OCR 文件整理。  
 3. 整理成 MarkDown 文件  。
