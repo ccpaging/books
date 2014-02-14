@@ -2,20 +2,14 @@
  
 MD = markdown
 MDFLAGS = -T
-SOURCES := $(wildcard *.md)
-OBJECTS := $(patsubst %.md, %.html, $(wildcard *.md))
+
+all: index.html
  
-all: build
- 
-build: html
- 
-html: $(OBJECTS)
- 
-$(OBJECTS): %.html: %.md
-	@echo "== Build $@ ... =="
-	$(MD) $(MDFLAGS) -o $@.bak $<
-	cat head.t $@.bak footer.t > $@
-	rm -f $@.bak
+index.html: README.md
+	@echo "== Build index.html ... =="
+	cat head.t > $@
+	$(MD) $(MDFLAGS) $< >> $@
+	cat footer.t >> $@
 
 clean:
-	rm -f $(OBJECTS)
+	rm -f index.html

@@ -12,10 +12,7 @@ build: html
 html: $(OBJECTS)
  
 $(OBJECTS): %.html: %.md
-	@echo "== Build $@ ... =="
-	$(MD) $(MDFLAGS) -o $@.bak $<
-	cat ../head.t $@.bak ../footer.t > $@
-	rm -f $@.bak
+	cat ../head.t > $@ && $(MD) $(MDFLAGS) $< >> $@ && cat ../footer.t >> $@
 
 clean:
 	rm -f $(OBJECTS)
