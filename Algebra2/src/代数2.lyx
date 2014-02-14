@@ -125,63 +125,63 @@ mainmatter
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "1-一元一次方程.lyx"
+filename "01-一元一次方程.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "2-一元一次不等式.lyx"
+filename "02-一元一次不等式.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "3-一次方程组.lyx"
+filename "03-一次方程组.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "4-数的开方和实数.lyx"
+filename "04-数的开方和实数.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "5-根式.lyx"
+filename "05-根式.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "6-有理数指数幂.lyx"
+filename "06-有理数指数幂.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "7-一元二次方程.lyx"
+filename "07-一元二次方程.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "8-二元二次方程组.lyx"
+filename "08-二元二次方程组.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "9-总复习.lyx"
+filename "09-总复习.lyx"
 
 \end_inset
 

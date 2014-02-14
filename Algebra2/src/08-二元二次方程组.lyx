@@ -1,0 +1,3008 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 数理化自学丛书－代数
+\options oneside
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize a5paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 3
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+二元二次方程组
+\end_layout
+
+\begin_layout Section
+二元二次方程组
+\end_layout
+
+\begin_layout Standard
+我们来看下面两个问题：
+\end_layout
+
+\begin_layout Standard
+(1)已知直角三角形的斜边长25尺,两条直角边的和 等于31尺,求两条直角边的长.
+\end_layout
+
+\begin_layout Standard
+设一条直角边是$尺，另一条直角边是 y尺(图8，1),那末根据题意得到方程组：
+\end_layout
+
+\begin_layout Standard
+l^+^=25ap (2)
+\end_layout
+
+\begin_layout Standard
+解这个方程组，就可以求得两条直角边 的长.
+ ® 8,1
+\end_layout
+
+\begin_layout Standard
+(2)两个正整数，它们的积是221.如果一个数臧去
+\end_layout
+
+\begin_layout Standard
+4,另一个数加上2,那末它们的积就等于171,求这两个数.
+\end_layout
+
+\begin_layout Standard
+设一个数为％另一个数为y,那末根据越意得到方程
+\end_layout
+
+\begin_layout Standard
+组••
+\end_layout
+
+\begin_layout Standard
+ra^-221,
+\end_layout
+
+\begin_layout Standard
+1 (* - 4) (y + 2) —171,
+\end_layout
+
+\begin_layout Standard
+整理后,得
+\end_layout
+
+\begin_layout Standard
+|吨=^221, (3)
+\end_layout
+
+\begin_layout Standard
+t 啤十2尤 一 4^=179, (4)
+\end_layout
+
+\begin_layout Standard
+解这个方程组,就可以求得这两个数.
+\end_layout
+
+\begin_layout Standard
+从上面两个问题得出的方程组来看，每个方程里都含 有两个未知数$和％第一个方程组里的方程（1)，含有未
+\end_layout
+
+\begin_layout Standard
+知数的项的次数都是1;第一个方程组里的方程(2)和第二 个方程组里的方程(3)，考有未知数的项的_都是2;第二 个方程组里的方程(4)，^有未知数的项的最高次数
+是2.
+\end_layout
+
+\begin_layout Standard
+象这样,一个含有两个未知数，并且各项中含未知数项 的最高次数是2的整式方程，叫做二元二次方程.例如,上 面的方程(2), (3)和(4)都是二元二次方程，
+\end_layout
+
+\begin_layout Standard
+二元二次方程的一般形式是：
+\end_layout
+
+\begin_layout Standard
+ao^ -f bxy cy2 ey-
+\backslash
+-f = 0^
+\end_layout
+
+\begin_layout Standard
+这里，a, 6, c至少要有一个不是零，其中^< bxp和oys 叫做二次項，办和印叫做一次项，/叫做常数项.
+\end_layout
+
+\begin_layout Standard
+根据定义，二元二次方程是含未知数的项的最髙次数 为2的方程，因此7它的一般形式中除了有二次项外，还应 该包含有低于2次的项^即应包含一次项和常数项,所以有
+ 上面的形式.
+\end_layout
+
+\begin_layout Standard
+由(相同未知数的)一个二元一次方程和一个二元二次 方程,或者由两个二元二次方程所组成的方程组,叫做二元 二次方程组.
+\end_layout
+
+\begin_layout Standard
+二元二次方程组有两种类型：
+\end_layout
+
+\begin_layout Standard
+(1)第一种类型的二元二次方程组例如,问题(1)中 所列出的方程组是由一个二元一次方1程和一个二元二次方 程所组成的，它是第一种类型的二元二次方程组.这种方
+ 程组的一般彤式是：
+\end_layout
+
+\begin_layout Standard
+f (mt n 不都是零)，
+\end_layout
+
+\begin_layout Standard
+t 01^+6邮十呀+/=0 (at l3 c 不都是零）•
+\end_layout
+
+\begin_layout Standard
+(2)第二种类型的二元二次方程组例如问题（2)中 所列出的方程组是由两个二元二次方程所组成的，它是第 二种类型的二元二次方程组.这种方程组的一般形式
+ 是：
+\end_layout
+
+\begin_layout Standard
+我们来解下面的方程组：
+\end_layout
+
+\begin_layout Standard
+= (1)
+\end_layout
+
+\begin_layout Standard
+1 +2 观+3j/a — 3^+1 = 0, (2)
+\end_layout
+
+\begin_layout Standard
+过去我们曾经用代入法解过二元一次方程组，并且知 道解方程组的基本方法是消元.很明显，上面这个方程组 也可以利用代入消元法来解.
+\end_layout
+
+\begin_layout Standard
+由(1)得
+\end_layout
+
+\begin_layout Standard
+j/ = 2一3(0^ (3),
+\end_layout
+
+\begin_layout Standard
+把〔3)代入(2)，得
+\end_layout
+
+\begin_layout Standard
+w2 + 2x(2-3x)~h3(2~3^)s-^l = 0m
+\end_layout
+
+\begin_layout Standard
+化简后得
+\end_layout
+
+\begin_layout Standard
+22^-35^+13 = 0, (4)
+\end_layout
+
+\begin_layout Standard
+* : - *
+\end_layout
+
+\begin_layout Standard
+W^m
+\end_layout
+
+\begin_layout Standard
+81
+\end_layout
+
+\begin_layout Standard
+a^a?+h 例 + (hys -f dxx+ety +/i=0
+\end_layout
+
+\begin_layout Standard
+(«2, &3? Ci不都是零L a^js? + b&jcy+4- +e2y +/3 = 0
+\end_layout
+
+\begin_layout Standard
+(a2, ba, Ca不都是零)，
+\end_layout
+
+\begin_layout Standard
+下面我们将分别研究这两种类型的二元二次方程组的
+\end_layout
+
+\begin_layout Standard
+解法.
+\end_layout
+
+\begin_layout Standard
+1-下列各方程是几元几次方程？
+\end_layout
+
+\begin_layout Standard
+(1) Sx-i-5y^ 4； (2)卿=1;
+\end_layout
+
+\begin_layout Standard
+(3) 2or,s ~y=7x-i-5； (4) 2^ = 0;
+\end_layout
+
+\begin_layout Standard
+(5) 5 — Bpa^3y*f (6) 3^ ——4t/3 —2^y + l,
+\end_layout
+
+\begin_layout Standard
+t x^v—7
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+2.下列^和y的值释不是方程组的解？为什么？
+\end_layout
+
+\begin_layout Standard
+(1) x^3 p=4； (2) x^4：, !/=3;
+\end_layout
+
+\begin_layout Standard
+(3) x^=2, y=^5* (4) —3, y—~-4^
+\end_layout
+
+\begin_layout Section
+由一个二元一次方程和一个二元二次 方程所组成的方程组的解法
+\end_layout
+
+\begin_layout Standard
+SC5
+\end_layout
+
+\begin_layout Standard
+就是 0-1) (22^-13) =0,
+\end_layout
+
+\begin_layout Standard
+解这个方程，得
+\end_layout
+
+\begin_layout Standard
+$ = 1 或 $ =菩■
+\end_layout
+
+\begin_layout Standard
+把1 = 1代入(3),得 把代入⑶，得
+\end_layout
+
+\begin_layout Standard
+(5)
+\end_layout
+
+\begin_layout Standard
+〃 22m 由此即得原方程组的解是
+\end_layout
+
+\begin_layout Standard
+h
+\end_layout
+
+\begin_layout Standard
+x
+\end_layout
+
+\begin_layout Standard
+13
+\end_layout
+
+\begin_layout Standard
+22
+\end_layout
+
+\begin_layout Standard
+22*
+\end_layout
+
+\begin_layout Standard
+从上面这个例子的解法中可以看到：解由一个二元* 次方程和一个二元二次方程所组成的二元二次方程组，• 般都可以采取以下的步骤：
+\end_layout
+
+\begin_layout Standard
+(1)把二元一次方程里的一个未知数用另 一个^著就是得到两个未^ 知教的关系式；
+\end_layout
+
+\begin_layout Standard
+(2)把这个关系式代到二元二次方程里， 得到一个一元方程；
+\end_layout
+
+\begin_layout Standard
+(3)解这个一元方程，求得一个未知数的
+\end_layout
+
+\begin_layout Standard
+值；
+\end_layout
+
+\begin_layout Standard
+(4)把所求得的值代入第一步所得到的关 系式里，求得另一个未知数的值；
+\end_layout
+
+\begin_layout Standard
+(5)把所求得的一个来知数的值和相应的 另一个未知数的值按组写在一起，就是原方程 组的解.
+\end_layout
+
+\begin_layout Standard
+例1 解§&1中问題(1)列出的方程组:
+\end_layout
+
+\begin_layout Standard
+并求出这个问题的答案， im 从(1),得
+\end_layout
+
+\begin_layout Standard
+y = 3t~^
+\end_layout
+
+\begin_layout Standard
+把(3)代入⑶，得
+\end_layout
+
+\begin_layout Standard
+ot? + (31 — 2 — 625„
+\end_layout
+
+\begin_layout Standard
+逸理后，得
+\end_layout
+
+\begin_layout Standard
+23—62a?+336 = 0, d — 31® +168 = 0,
+\end_layout
+
+\begin_layout Standard
+(x — 7) (x — 24) = 0, '
+\end_layout
+
+\begin_layout Standard
+人 a?i = 7, a?a = 24,
+\end_layout
+
+\begin_layout Standard
+* ,
+\end_layout
+
+\begin_layout Standard
+把巧=7代入（3),得
+\end_layout
+
+\begin_layout Standard
+^1^24；
+\end_layout
+
+\begin_layout Standard
+把而=24代入（3),得 人这个方程钽的解是
+\end_layout
+
+\begin_layout Standard
+f w± = >7 f f 办=24,
+\end_layout
+
+\begin_layout Standard
+I ^i = 24； 12/a=7.
+\end_layout
+
+\begin_layout Standard
+因为一条直角边是7尺，另一条直角边是24尺的直鑭 三角飱和一条直角边是24尺,另一条直角边是7尺的直焦 三角形,实际上是同一个直角三角形,所以就这个应用__
+ 讲,只需回答两条直角边分别是7尺和24尺4
+\end_layout
+
+\begin_layout Standard
+供2 解方程组：
+\end_layout
+
+\begin_layout Standard
+r3y—2 = 0, (1)
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+ ((?-Zy1 -
+\backslash
+-2x-^Zy(2)
+\end_layout
+
+\begin_layout Standard
+[解] 从⑴，得
+\end_layout
+
+\begin_layout Standard
+a? = 3发 + 2.
+\end_layout
+
+\begin_layout Standard
+把(3)代入(2),得
+\end_layout
+
+\begin_layout Standard
+(%+2)a-2(%+2)女一3ys + 2(3s/+2) 一办+14=0.
+ 整理后，得
+\end_layout
+
+\begin_layout Standard
+lly + 22-O,
+\end_layout
+
+\begin_layout Standard
+-2.
+\end_layout
+
+\begin_layout Standard
+把代入(3),得
+\end_layout
+
+\begin_layout Standard
+sr= — 4,
+\end_layout
+
+\begin_layout Standard
+/.原方程组有一个解是
+\end_layout
+
+\begin_layout Standard
+—4】
+\end_layout
+
+\begin_layout Standard
+-2
+\end_layout
+
+\begin_layout Standard
+在上面的例2中，如果用z的代数式来表示V，能不能解？对于 这个例瓸来说，用哪一个未知数的代数式来表示另一个未知数, 解方程组比较简便？
+\end_layout
+
+\begin_layout Standard
+在上面的例1中，求得句=7, ^=24后，如果把吻=7代入(?)， 得
+\end_layout
+
+\begin_layout Standard
+^=■-625 - 49-576,
+\end_layout
+
+\begin_layout Standard
+二 沒=士 24，
+\end_layout
+
+\begin_layout Standard
+把幻=24代人（2),得
+\end_layout
+
+\begin_layout Standard
+^^625-576=49,
+\end_layout
+
+\begin_layout Standard
+:• y=" 士 7
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+这样,方程组的解是
+\end_layout
+
+\begin_layout Standard
+x—2Ai
+\end_layout
+
+\begin_layout Standard
+a:—24,
+\end_layout
+
+\begin_layout Standard
+g
+\end_layout
+
+\begin_layout Standard
+这样的解法正确吗？
+\end_layout
+
+\begin_layout Standard
+解下列各方程组(3〜7): f
+\end_layout
+
+\begin_layout Standard
+t 10* t^+^=625j
+\end_layout
+
+\begin_layout Standard
+j #+啤《：2,
+\end_layout
+
+\begin_layout Standard
+1 y — 3；r — 7； j 2it^ — 3a; — 3y ~ 0t t 7a:-％=4;
+\end_layout
+
+\begin_layout Standard
+)
+\end_layout
+
+\begin_layout Standard
+C3
+\end_layout
+
+\begin_layout Standard
+<4)
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+{ac-aP
+\end_layout
+
+\begin_layout Standard
+—知=1, 4^3^5«0.
+\end_layout
+
+\begin_layout Standard
+(7^5—6a^/—8—0j 1 2a:—Sy—5=0;
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+3x^6y=Xs
+\end_layout
+
+\begin_layout Standard
+1)1)幻 D /V ( f.
+\end_layout
+
+\begin_layout Standard
+56,7
+\end_layout
+
+\begin_layout Standard
+j ^2+^4'^3+3；+5^—0^ i v? -
+\backslash
+-^—^x—ly=%
+\end_layout
+
+\begin_layout Standard
+1 flc+2«/»0; I <c+34/=0,
+\end_layout
+
+\begin_layout Standard
+j3a^—3卿一没2—4；r_ 办+3 = 0，
+\end_layout
+
+\begin_layout Standard
+13x—y— 8—0；
+\end_layout
+
+\begin_layout Standard
+r 2a:2 - 5 邛 + f +10^ +1办=100,
+\end_layout
+
+\begin_layout Standard
+12x —3y — 1 = 0.
+\end_layout
+
+\begin_layout Standard
+(1-1)0/—1)=2,
+\end_layout
+
+\begin_layout Standard
+x y ，
+\end_layout
+
+\begin_layout Standard
+可十言^1;
+\end_layout
+
+\begin_layout Standard
+x—y ar+y
+\end_layout
+
+\begin_layout Standard
+⑶，
+\end_layout
+
+\begin_layout Standard
+2(y+3)-(3a：i)(%—沈)，
+\end_layout
+
+\begin_layout Standard
+有些方程组，形式上看来不是这种类型的二元二次方 程组，但是经过变形后，如果可以化成由一个二元一次方程 和一个二元二次方程所组成的方程组，那末就可以用上面
+ 的方法来觯•
+\end_layout
+
+\begin_layout Standard
+但是必须注意,如果解方程组时，因为变形时把方程的 两边同乘以一个含有未知数的代数式（遇到分式方程时)， 或者把方程的两边都乘方相同的次数（遇到无理方程时)，
+ 那末最后求得的解，必须代入原方程组里的每一个方程,进 行检验.
+\end_layout
+
+\begin_layout Standard
+解方程组；
+\end_layout
+
+\begin_layout Standard
+如一5 ; 2g/-3 _0 /-(
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+3a? —= 1.
+ (2)
+\end_layout
+
+\begin_layout Standard
+方程（1)是分式方程，所以把（1>的两边都乘以 («—2)0/—1),得
+\end_layout
+
+\begin_layout Standard
+(2^-5)(沒-1) + 0-2) (2y 3) =2(边—2)
+\end_layout
+
+\begin_layout Standard
+整理后,得
+\end_layout
+
+\begin_layout Standard
+2xy — 3i» — 5^/+7 — 0.
+ (3)
+\end_layout
+
+\begin_layout Standard
+因此只需在0 — 2) (y-1) ^0的条件下,解由(2), (3)
+\end_layout
+
+\begin_layout Standard
+C检验〕 例*
+\end_layout
+
+\begin_layout Standard
+Dtf]
+\end_layout
+
+\begin_layout Standard
+mm
+\end_layout
+
+\begin_layout Standard
+组成的方程组;
+\end_layout
+
+\begin_layout Standard
+f Sa> — 4i/ ~1,
+\end_layout
+
+\begin_layout Standard
+I 2xy-3x-5t/~h7 = 0.
+\end_layout
+
+\begin_layout Standard
+解这个方程组,得
+\end_layout
+
+\begin_layout Standard
+___11
+\end_layout
+
+\begin_layout Standard
+f ^ ~ 3, U = -
+\end_layout
+
+\begin_layout Standard
+把这两组解代入0r_2) (2/-1),都不为零，所以它们都 是原方程组的解.
+\end_layout
+
+\begin_layout Standard
+解方程组：
+\end_layout
+
+\begin_layout Standard
+a?+^ = 10, 〈2)
+\end_layout
+
+\begin_layout Standard
+方程(1)是无理方程,所以把(1)的两边平方,得
+\end_layout
+
+\begin_layout Standard
+V 疋4*
+\end_layout
+
+\begin_layout Standard
+两边都乘以整理后,得
+\end_layout
+
+\begin_layout Standard
+4a^—17a^+4^-0.
+ (3)
+\end_layout
+
+\begin_layout Standard
+解由(3)和(2)组成的方程组
+\end_layout
+
+\begin_layout Standard
+r 4o；a—17师+ 4女货江0/
+\end_layout
+
+\begin_layout Standard
+I a7+y=10j f f x= 2,
+\end_layout
+
+\begin_layout Standard
+I y "2； I 8,
+\end_layout
+
+\begin_layout Standard
+把a^8, 代入(1),左边~2—去=吾，左边右
+\end_layout
+
+\begin_layout Standard
+边‘代入(2),左边= 8+2 = 10，左边=右边,所以它是原 方程组的解，
+\end_layout
+
+\begin_layout Standard
+把x=2，代入(1),左边=各—2 —左边—右
+\end_layout
+
+\begin_layout Standard
+得
+\end_layout
+
+\begin_layout Standard
+边,所以它不是原方程组的解,
+\end_layout
+
+\begin_layout Standard
+3B4S
+\end_layout
+
+\begin_layout Standard
+C说明〕 例6
+\end_layout
+
+\begin_layout Standard
+[审题] [解]
+\end_layout
+
+\begin_layout Standard
+因此，原方程组的解是
+\end_layout
+
+\begin_layout Standard
+8,
+\end_layout
+
+\begin_layout Standard
+2.
+\end_layout
+
+\begin_layout Standard
+检验时，所求得的解不适合原方程组中的任何一个方 程,就不是原方程组的解.
+\end_layout
+
+\begin_layout Standard
+解方程组
+\end_layout
+
+\begin_layout Standard
+4
+\end_layout
+
+\begin_layout Standard
+5
+\end_layout
+
+\begin_layout Standard
+(1)
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+如果把两个方稈分别去分母,那末方程(2)会得出# 的四次项，方程(1)是二元二次方程,这样就不会解了.因 此,我们利用换元法来解.
+ 、
+\end_layout
+
+\begin_layout Standard
+变形成
+\end_layout
+
+\begin_layout Standard
+从(3),得
+\end_layout
+
+\begin_layout Standard
+v = u — 2,
+\end_layout
+
+\begin_layout Standard
+擎 <<
+\end_layout
+
+\begin_layout Standard
+把(5)代入(4)，整理后,得
+\end_layout
+
+\begin_layout Standard
+4«a—8w+3 = 0j (2«—1) (2u — S) =0,
+\end_layout
+
+\begin_layout Standard
+1 3
+\end_layout
+
+\begin_layout Standard
+把= 分别代入(5)，得
+\end_layout
+
+\begin_layout Standard
+3 1
+\end_layout
+
+\begin_layout Standard
+丨i=—■2"/ ~~2*
+\end_layout
+
+\begin_layout Standard
+1 r _ 3
+\end_layout
+
+\begin_layout Standard
+Wi = * fu2 —
+\end_layout
+
+\begin_layout Standard
+B 1
+\end_layout
+
+\begin_layout Standard
+= 一—j i t1a=——,
+\end_layout
+
+\begin_layout Standard
+(3)
+\end_layout
+
+\begin_layout Standard
+⑷
+\end_layout
+
+\begin_layout Standard
+mt
+\end_layout
+
+\begin_layout Standard
+C检验〕
+\end_layout
+
+\begin_layout Standard
+8*2
+\end_layout
+
+\begin_layout Standard
+X2)
+\end_layout
+
+\begin_layout Standard
+J/= 一 2;
+\end_layout
+
+\begin_layout Standard
+把$和V的值代入原方程,分母都不等于零,所以原方 程组的解是 ’
+\end_layout
+
+\begin_layout Standard
+x = A,
+\end_layout
+
+\begin_layout Standard
+一 2;
+\end_layout
+
+\begin_layout Standard
+x
+\end_layout
+
+\begin_layout Standard
+1.
+\end_layout
+
+\begin_layout Standard
+解下列各方程组(1〜
+\end_layout
+
+\begin_layout Standard
+| (a；"3)(^-l-2) = Cfl；-i-4)(y-0).
+ 
+\backslash
+2^-ys=3cy'
+\backslash
+-2
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+J (rcH-3)(^-2) =xy, l^3—3?/24-3a: —2y-f 38=0,
+\end_layout
+
+\begin_layout Standard
+1)2) ( c
+\end_layout
+
+\begin_layout Standard
+:>
+\end_layout
+
+\begin_layout Standard
+X
+\end_layout
+
+\begin_layout Standard
+V
+\end_layout
+
+\begin_layout Standard
+2^+3^ — —10;
+\end_layout
+
+\begin_layout Standard
+a?—1 y+1
+\end_layout
+
+\begin_layout Standard
+a ix—
+\backslash
+Ty =3,
+\end_layout
+
+\begin_layout Standard
+(2) 
+\backslash
+ ” ，
+\end_layout
+
+\begin_layout Standard
+S
+\end_layout
+
+\begin_layout Standard
+x-i-B y9
+\end_layout
+
+\begin_layout Standard
+3 f 4
+\end_layout
+
+\begin_layout Standard
+77 77
+\end_layout
+
+\begin_layout Standard
+x~ u
+\end_layout
+
+\begin_layout Standard
+34
+\end_layout
+
+\begin_layout Standard
+1
+\end_layout
+
+\begin_layout Standard
+c
+\end_layout
+
+\begin_layout Standard
+a: 4-5 .女一 3
+\end_layout
+
+\begin_layout Standard
+ic—2 t/—0
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+/£c+l+
+\backslash
+/y^X*=3j
+\end_layout
+
+\begin_layout Standard
+-0,
+\end_layout
+
+\begin_layout Standard
+x v
+\end_layout
+
+\begin_layout Standard
+s
+\end_layout
+
+\begin_layout Standard
+(1) {
+\end_layout
+
+\begin_layout Standard
+-4-—=9,
+\end_layout
+
+\begin_layout Standard
+^ y 11
+\end_layout
+
+\begin_layout Standard
+4li
+\end_layout
+
+\begin_layout Standard
+2)
+\end_layout
+
+\begin_layout Standard
+(
+\end_layout
+
+\begin_layout Standard
+⑶
+\end_layout
+
+\begin_layout Standard
+4 25
+\end_layout
+
+\begin_layout Standard
+7十7
+\end_layout
+
+\begin_layout Standard
+200,
+\end_layout
+
+\begin_layout Standard
+x
+\end_layout
+
+\begin_layout Standard
++.
+\end_layout
+
+\begin_layout Standard
+20.
+\end_layout
+
+\begin_layout Standard
+r 0c+2)(y—2>面吼
+\end_layout
+
+\begin_layout Standard
+I V(^+1)(^4*4)
+\end_layout
+
+\begin_layout Standard
+7.
+ *等于什么数值时，下列方程组有相等的两个实数解？
+\end_layout
+
+\begin_layout Standard
+iy^kt^2； ^ f j t jc-r$r=A:„.
+ j
+\end_layout
+
+\begin_layout Standard
+[提参消去一个未知数后，使^=oS ' "〜一"
+\end_layout
+
+\begin_layout Standard
+8.已吳直角三角形的面积等于504乎方厘米，两条直角边的差等 于4?厘米.求这三角形各边的长 fe：直角三角形的面积等于两条直角边的乘枳的一半、]
+\end_layout
+
+\begin_layout Standard
+9某工人要把一根长28厘米的铁丝折成面积是48平方厘米的长 方形零件.这长方形的长和宽应该是多少？
+\end_layout
+
+\begin_layout Standard
+10.甲、乙两列车从相距360公里的两城相向而行，如果乙车比甲车 早出发1小时30分，那末两车恰巧在略途的中点相遇；如杲同 时出发,那末5小时后，两车还相距90公
+里.求各车的速度，
+\end_layout
+
+\begin_layout Section
+由两个二元二次方程所组成 的方程组的解法
+\end_layout
+
+\begin_layout Standard
+我们先来看下面的方程组t
+\end_layout
+
+\begin_layout Standard
++ (1)
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+这个方程组是由两个二元二次方程所组成的，如果我们用 代入法消去一个未知数，例如消去I就会得出一个一元四 次方程;
+\end_layout
+
+\begin_layout Standard
+a：™ (a?3 —3)^+1,
+\end_layout
+
+\begin_layout Standard
+就是
+\end_layout
+
+\begin_layout Standard
+a?* — 6cc* — a;+10=0, (3>
+\end_layout
+
+\begin_layout Standard
+因为我们还没有学过一般的一元四次方程的解法®, 所以这个方程组我们现在还不能觯.
+\end_layout
+
+\begin_layout Standard
+但是某些第二类型的工元二次方程组，只要仔细分析 方程组中两个方程各对应項的系数间的关系，进行适当的 变形；就可以导出一个二元一次方程或者一个一元二次方
+\end_layout
+
+\begin_layout Standard
+(D 一皎的一元四次方程游十—0,栗到高等代敢中才 能学到，
+\end_layout
+
+\begin_layout Standard
+程，这类方程组就可以用我们前面学过的方法来解.下面 我们分别举例来说明这种特殊类型的二元二次方程组的解 法.
+\end_layout
+
+\begin_layout Standard
+可以消去二次项导出一个二元一次方程的 *
+\end_layout
+
+\begin_layout Standard
+例如要解方程组
+\end_layout
+
+\begin_layout Standard
+(2y^x-y-3f (1)
+\end_layout
+
+\begin_layout Standard
+1 ^ya -2x-
+\backslash
+~y= 0.
+ (2)
+\end_layout
+
+\begin_layout Standard
+这个方程组的两个二元二次方程都只含有一个二次项 容易看出应用加减消元法，从这两个方程中可以导出 _个二元一次方程.
+\end_layout
+
+\begin_layout Standard
+(I)x3-⑵ X2,得
+\end_layout
+
+\begin_layout Standard
+7疋一知工9.
+ (3)
+\end_layout
+
+\begin_layout Standard
+这样只要解由方程(3)和方程(1)[或者方程(2)]钽成的方 、 程组
+\end_layout
+
+\begin_layout Standard
+紀+$-穸=3,
+\end_layout
+
+\begin_layout Standard
+S3
+\end_layout
+
+\begin_layout Standard
+f «r—.
+\end_layout
+
+\begin_layout Standard
+供
+\end_layout
+
+\begin_layout Standard
+[审題]
+\end_layout
+
+\begin_layout Standard
+'49
+\end_layout
+
+\begin_layout Standard
+y
+\end_layout
+
+\begin_layout Standard
+在实际解題时,可以仿照下列所示的叙述方法.
+\end_layout
+
+\begin_layout Standard
+解方程组i
+\end_layout
+
+\begin_layout Standard
+(2:^ + 4^/—% — 沒+2 = 0, (1)
+\end_layout
+
+\begin_layout Standard
+1—(2)
+\end_layout
+
+\begin_layout Standard
+•这里两个方程中都含有二次项#和卿，而且这两种二 次项的对应项的系数成比例，就是2:3-4:6.由此看出可 以应用加减消元法消去这两个二次项,导出一个二元一次
+ 方程，
+\end_layout
+
+\begin_layout Standard
+mi
+\end_layout
+
+\begin_layout Standard
+(2) x2-(l) x3,得乜 +时一6 = 0,
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+n
+\end_layout
+
+\begin_layout Standard
+8‘3
+\end_layout
+
+\begin_layout Standard
+(1)
+\end_layout
+
+\begin_layout Standard
+y = -^r(3-2a:).
+\end_layout
+
+\begin_layout Standard
+(3)
+\end_layout
+
+\begin_layout Standard
+把(3)代入(1)，整理后得尤3十釦+6 = 0，
+\end_layout
+
+\begin_layout Standard
+...X = 一2 或 £J；= 把方=一2和尤:=一3分别代入(3),得
+\end_layout
+
+\begin_layout Standard
+14
+\end_layout
+
+\begin_layout Standard
+—3.
+\end_layout
+
+\begin_layout Standard
+V
+\end_layout
+
+\begin_layout Standard
+所以原方程组的解是
+\end_layout
+
+\begin_layout Standard
+y
+\end_layout
+
+\begin_layout Standard
+-2i
+\end_layout
+
+\begin_layout Standard
+14
+\end_layout
+
+\begin_layout Standard
+从上面所举例子可以看到，如果二元二次方程组里爾、 个方程都含有同类的二次项，而且各对应二次项的系 比例，我们就可以利思加减消元法消去这些二次项，得由一
+ 个二元一次方程，这样,就可以利用:§ 8-2里所讲的方法來 解.
+\end_layout
+
+\begin_layout Standard
+解下列各方程组：
+\end_layout
+
+\begin_layout Standard
+(X)
+\end_layout
+
+\begin_layout Standard
+txy-x+y^79
+\end_layout
+
+\begin_layout Standard
+^)
+\end_layout
+
+\begin_layout Standard
+fN
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+j 8j/=36,
+\end_layout
+
+\begin_layout Standard
+t 2^-3疋-4^=3.
+\end_layout
+
+\begin_layout Standard
+| x1I—2y!l—y-l=0, t 3^—4*/24-d；—6^0； t 2a^ —^+2a; + j/ + 2^0,
+\end_layout
+
+\begin_layout Standard
+1 ——2y2-f3x-f %+4—0; r 2^4-2a^4-4t/2-t-x=96# ' t a^^-xy-
+\backslash
+-2y2 — y—43^
+\end_layout
+
+\begin_layout Standard
+j 2a3a—5ay+33c—2y»10, i 5办一W 十 7*—办*<10二
+\end_layout
+
+\begin_layout Standard
+2.可以消去一个未知数,导出一个一元二次方程的
+\end_layout
+
+\begin_layout Standard
+例如,要解方程组
+\end_layout
+
+\begin_layout Standard
+广+浐=57 (1)
+\end_layout
+
+\begin_layout Standard
+1^ = 4^ ⑵
+\end_layout
+
+\begin_layout Standard
+容易看出，把(2)代入(1),就可导出一个关于®的二次方程
+\end_layout
+
+\begin_layout Standard
+? + 如—5-0.
+ (3)
+\end_layout
+
+\begin_layout Standard
+这样只需求出方程(3)的两个根$ = — 5,就把问題转
+\end_layout
+
+\begin_layout Standard
+化成解两个第一类型的二元二次方程组
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+ f ^ — 5, ^ v
+\end_layout
+
+\begin_layout Standard
+2 .
+ ■ , ^ (无解）
+\end_layout
+
+\begin_layout Standard
+I y2 ^ 4^； I y2 = 4x,
+\end_layout
+
+\begin_layout Standard
+由此即可从前面这个方程组求出原方程组的解是
+\end_layout
+
+\begin_layout Standard
+| 1, 「；c = 1,
+\end_layout
+
+\begin_layout Standard
+1沒=2; ly= — 2.
+\end_layout
+
+\begin_layout Standard
+在实际解题时，可以仿照下列所示的叙述方法.
+\end_layout
+
+\begin_layout Standard
+解方程组：
+\end_layout
+
+\begin_layout Standard
+f # 一 15吨—％2 +2尤+% - 98 = 0, (1)
+\end_layout
+
+\begin_layout Standard
+I 5xy+21 = 0.
+ (2)
+\end_layout
+
+\begin_layout Standard
+这里两个方裎都是二元二次方程，而且含y的各对应 项的系数成比例，就是（―1S) ：5-= (一3) ：1 = 9： (-3), m 此可以用加减消元法消去所有含
+K的各项，得出$的一元 二次方程.
+\end_layout
+
+\begin_layout Standard
+(1) + (2)叫得
+\end_layout
+
+\begin_layout Standard
+疋3+2a； — 35 = 0，(x 一 5)(必+7) = 0，
+\end_layout
+
+\begin_layout Standard
+■•.
+ sc[5 或 A；=—7,
+\end_layout
+
+\begin_layout Standard
+把访=5代入(2)，整理后得f+2匆+21=0,就是 (p-hl)(i/-h21)=0,
+\end_layout
+
+\begin_layout Standard
+/.
+ y= —1, -21.
+\end_layout
+
+\begin_layout Standard
+由此得方程组的两个解是：{^5
+\backslash
+ 
+\backslash
+X=&'
+\end_layout
+
+\begin_layout Standard
+^y= -21.
+\end_layout
+
+\begin_layout Standard
+把®= — 7代入(2),整理后得#一3卸+21 = 0,
+\end_layout
+
+\begin_layout Standard
+'解这个方程,得
+\end_layout
+
+\begin_layout Standard
+58 土 V383 - 4 x 21 38 士 "巧丽
+\end_layout
+
+\begin_layout Standard
+2
+\end_layout
+
+\begin_layout Standard
+19i2^g.
+\end_layout
+
+\begin_layout Standard
+由此得方程组的另外两个解是:
+\end_layout
+
+\begin_layout Standard
+{
+\end_layout
+
+\begin_layout Standard
+无一 7,
+\end_layout
+
+\begin_layout Standard
+19+ 2^/85；
+\end_layout
+
+\begin_layout Standard
+{
+\end_layout
+
+\begin_layout Standard
+x
+\end_layout
+
+\begin_layout Standard
+- 7,
+\end_layout
+
+\begin_layout Standard
+19-2%/85.
+\end_layout
+
+\begin_layout Standard
+所以原方程组有四个解:
+\end_layout
+
+\begin_layout Standard
+{x = 5f
+\end_layout
+
+\begin_layout Standard
+V = 一
+\end_layout
+
+\begin_layout Standard
+5，
+\end_layout
+
+\begin_layout Standard
+-21：
+\end_layout
+
+\begin_layout Standard
+x^= —*1,
+\end_layout
+
+\begin_layout Standard
+19+2^85?
+\end_layout
+
+\begin_layout Standard
+{
+\end_layout
+
+\begin_layout Standard
+一 7,
+\end_layout
+
+\begin_layout Standard
+19-2v^S‘
+\end_layout
+
+\begin_layout Standard
+从上面所举的例子可以看到，如果二元二次方程组里 两个方程中含某一个未知数的各对应项的f数成比例，我 们就可以消去这个方程组里的一个未知数/得出另一个未
+ 知数的一元方程,求出这个未知数的值，再把所求得的值代 入原方程组里的一个方程，就可以得出另一个未知数的对 应的值，
+\end_layout
+
+\begin_layout Standard
+解下列各方程组：
+\end_layout
+
+\begin_layout Standard
+#切2=5， 0 一
+\end_layout
+
+\begin_layout Standard
+(1)
+\end_layout
+
+\begin_layout Standard
+) ) ) V}- )
+\end_layout
+
+\begin_layout Standard
+3 13 12
+\end_layout
+
+\begin_layout Standard
+(4)
+\end_layout
+
+\begin_layout Standard
+j 3^ + */2-4-^4-^ = 18^ 
+\backslash
+jp—y2-{-x—y =6;
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+{尤+砂一 5^5)
+\end_layout
+
+\begin_layout Standard
+iic2—3y+2=0, ta^+Sa^—y2+2ir+3^ —2^=0； j a^ — 3icy+ 2^4-40:4-%-1 = 0, 12a：3—6
+ 卻+g3+8a；+2y-3=0.
+\end_layout
+
+\begin_layout Standard
+2.
+\end_layout
+
+\begin_layout Standard
+3_-^r=5, j ^ + —3y3=3, 
+\backslash
+e2a? ^2osy -
+\backslash
+-^y7 — XQ
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+一个(成者两个)方程可以分解成两个一次方程的
+\end_layout
+
+\begin_layout Standard
+从上面所讲的两种特殊的二元二次方程组的解法中,
+\end_layout
+
+\begin_layout Standard
+/
+\end_layout
+
+\begin_layout Standard
+已经可以看到解题的思想方法主要是设法把原方輕组变形 成和它同解的一个或两个由一个一次方程（一元的或者二 元的)和一个二元二次方程所组成的方程组.这种方法也就
+ 是“降次根据这样的思想方法，如果所给方程组中有一 个方程能眵用因式分解法分解成两个二元一次方程，那末 我们也就可以把解第二类型的二元二次方程组的问题，转
+ 化成解两个第一类型的二元二次方程组的问题来解决.现 在举例来说明.
+\end_layout
+
+\begin_layout Standard
+.
+ 解方程组t
+\end_layout
+
+\begin_layout Standard
+r (1)
+\end_layout
+
+\begin_layout Standard
+t ar*+3^-1-a; —11^—2^ 0.
+ (2)
+\end_layout
+
+\begin_layout Standard
+#一5哗+ 办）($ —3jO,所以牢題可以转化
+\end_layout
+
+\begin_layout Standard
+成两个第一类型的二元二次方裎组来解.
+\end_layout
+
+\begin_layout Standard
+由C0, .
+ 0—匈)0-办)=0, •
+\end_layout
+
+\begin_layout Standard
+/.
+ x—2y—{yt (3)
+\end_layout
+
+\begin_layout Standard
+£c — — 0, ^4)
+\end_layout
+
+\begin_layout Standard
+由⑶和(3),⑶和⑷分别组成方程组,那末原方— 可以化成两个方程组，就是
+\end_layout
+
+\begin_layout Standard
+1#切3+卜11卜2 = 0,
+\end_layout
+
+\begin_layout Standard
+(II) 广 3”0厂
+\end_layout
+
+\begin_layout Standard
+1 #+空3+沈一lly—2 = O,
+\end_layout
+
+\begin_layout Standard
+分别解方程组a)和(xi),得原方程组的解是
+\end_layout
+
+\begin_layout Standard
+3,、 1;
+\end_layout
+
+\begin_layout Standard
+35 = 4,
+\end_layout
+
+\begin_layout Standard
+5J
+\end_layout
+
+\begin_layout Standard
+--g-； L 穸
+\end_layout
+
+\begin_layout Standard
+如果所给方程组中的两个方程都可以用因式分解法， 分解成两个二元一次方程，那末还可以把这种类型的方程
+\end_layout
+
+\begin_layout Standard
+组转化成四个二元一次方程组来解.
+\end_layout
+
+\begin_layout Standard
+解方程组：
+\end_layout
+
+\begin_layout Standard
+o^-
+\backslash
+-2a>y-
+\backslash
+-^ = 9, (1)_
+\end_layout
+
+\begin_layout Standard
+{a: — y)2SQc—y) +2 = 0, (2)
+\end_layout
+
+\begin_layout Standard
+可以看出，方程CL)的两边都是完全平方< 因此可以分 解成两个一次方程；方程（2)也可以分解成两个一次方程， 因此,原方程组可以化成四个二元一次方程组.
+\end_layout
+
+\begin_layout Standard
+从(1),
+\end_layout
+
+\begin_layout Standard
+/,丨切=3, (3)
+\end_layout
+
+\begin_layout Standard
+(4)
+\end_layout
+
+\begin_layout Standard
+从⑶，
+\end_layout
+
+\begin_layout Standard
+Qv 一y ^ 2) — y 一 1) = 0,
+\end_layout
+
+\begin_layout Standard
+y_2 = 0^ (6)
+\end_layout
+
+\begin_layout Standard
+y —1 = 0, (6)
+\end_layout
+
+\begin_layout Standard
+由(3)，（4)和(5), (6),原方稈组可以化成四个二元一 次方程组,就是 + 、
+\end_layout
+
+\begin_layout Standard
+x
+\end_layout
+
+\begin_layout Standard
+st>
+\end_layout
+
+\begin_layout Standard
+(I)
+\end_layout
+
+\begin_layout Standard
+(III)
+\end_layout
+
+\begin_layout Standard
+iuH-y^=3j (3)
+\end_layout
+
+\begin_layout Standard
+a; — — 2 0； (5)
+\end_layout
+
+\begin_layout Standard
+疋■一 t (4)
+\end_layout
+
+\begin_layout Standard
+^c-y-2=0t (5)
+\end_layout
+
+\begin_layout Standard
+n)
+\end_layout
+
+\begin_layout Standard
+-f
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+Civ)
+\end_layout
+
+\begin_layout Standard
+(S)
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+x 一 梦一1 =* 0; (ft)
+\end_layout
+
+\begin_layout Standard
+,• •
+\end_layout
+
+\begin_layout Standard
+—3,⑷
+\end_layout
+
+\begin_layout Standard
+穸— 1«0‘ (0)
+\end_layout
+
+\begin_layout Standard
+x-
+\end_layout
+
+\begin_layout Standard
+分别解这四个方程组,得原方程组的觯是
+\end_layout
+
+\begin_layout Standard
+y
+\end_layout
+
+\begin_layout Standard
+V
+\end_layout
+
+\begin_layout Standard
+2
+\end_layout
+
+\begin_layout Standard
+本題的分解方法，可以这样来理解：
+\end_layout
+
+\begin_layout Standard
+把(1)分觯成(3)和(4)后,原方程组就分解成两个方韉
+\end_layout
+
+\begin_layout Standard
+⑶’与f⑷，
+\end_layout
+
+\begin_layout Standard
+(2h 1(2).
+ r(3) rC3) r
+\end_layout
+
+\begin_layout Standard
+个方程组又分别分解成两个方程组和{ (5)j
+\end_layout
+
+\begin_layout Standard
+组
+\end_layout
+
+\begin_layout Standard
+{
+\end_layout
+
+\begin_layout Standard
+再把（2)分解成（5)和（6)后,那末这两
+\end_layout
+
+\begin_layout Standard
+⑶，f⑶，〜f⑷.
+\end_layout
+
+\begin_layout Standard
+•辑
+\end_layout
+
+\begin_layout Standard
+题 43)
+\end_layout
+
+\begin_layout Standard
+{
+\end_layout
+
+\begin_layout Standard
+⑷g
+\end_layout
+
+\begin_layout Standard
+所以最后只能分解成下面这四个二元一次方程组:
+\end_layout
+
+\begin_layout Standard
+(in)
+\end_layout
+
+\begin_layout Standard
+*
+\end_layout
+
+\begin_layout Standard
+1
+\end_layout
+
+\begin_layout Standard
+S
+\end_layout
+
+\begin_layout Standard
+(3)
+\end_layout
+
+\begin_layout Standard
+(i)
+\end_layout
+
+\begin_layout Standard
+(i)
+\end_layout
+
+\begin_layout Standard
+(4)
+\end_layout
+
+\begin_layout Standard
+|(3), (II) r(3),
+\end_layout
+
+\begin_layout Standard
+k&h 1(6)；
+\end_layout
+
+\begin_layout Standard
+丨⑷， (IV) |(4),
+\end_layout
+
+\begin_layout Standard
+t(6).
+\end_layout
+
+\begin_layout Standard
+Us)； 
+\end_layout
+
+\begin_layout Standard
+;方程组： 
+\end_layout
+
+\begin_layout Standard
+1 (2) l (汉—-)(y+疋X
+\end_layout
+
+\begin_layout Standard
+t —5， ⑵ j 知j/+3ys=0.
+\end_layout
+
+\begin_layout Standard
+12^-3^-3^=0; 1 10；
+\end_layout
+
+\begin_layout Standard
+jSs-ht/2=25J (4) f 6名3—5吻十 y2 = 0,
+\end_layout
+
+\begin_layout Standard
+t 0c+j/)2=^49; I ^+^+^=7,
+\end_layout
+
+\begin_layout Standard
+r^c2—t/5 — 
+\end_layout
+
+\begin_layout Standard
+* Oc - # 一 2(;c —y) —3 兰 0; 
+\end_layout
+
+\begin_layout Standard
+j j/3—;c2—5 0, 
+\end_layout
+
+\begin_layout Standard
+1 4a;2 ^4xy + y2-h4^o 十 2y -3.
+ 
+\end_layout
+
+\begin_layout Standard
+f (a: +穸一 2) (a:—泛+3) 二 o, 
+\end_layout
+
+\begin_layout Standard
+I (Sic—^H-l)(3a:+3/^4) — 0; •
+\end_layout
+
+\begin_layout Standard
+f (丨切)3=七 (3), f 4JC5-V=0,
+\end_layout
+
+\begin_layout Standard
+飞 0c- 
+\end_layout
+
+\begin_layout Standard
+j a^-t-2a^-|-4/2 4*^：+y —2 = 0, 
+\end_layout
+
+\begin_layout Standard
+1 a^3—2a^+iV3—ac-Hy — 2=0, 
+\end_layout
+
+\begin_layout Standard
+.•两个方程都没有一次项的
+\end_layout
+
+\begin_layout Standard
+有些二元二次方程组，虽然方程组中的两个方程都不 能分解成一次方程,但是进行适当的变形以后，可以导出一 个能够分解成两个一次方程的二元二次方程，那末也就可
+ 以应用前面I?说的方法来解.举例如下|
+\end_layout
+
+\begin_layout Standard
+例5 解方程组：
+\end_layout
+
+\begin_layout Standard
+# 一 2啤+ (1)
+\end_layout
+
+\begin_layout Standard
+4^-5o^ + 6^=-30# (2)
+\end_layout
+
+\begin_layout Standard
+[审題]
+\end_layout
+
+\begin_layout Standard
+rL
+\end_layout
+
+\begin_layout Standard
+〔说明〕
+\end_layout
+
+\begin_layout Standard
+本題的两个方程都不能分解成一次方程.但是这两个 方程都不含一次项,把这两个方程消去常数项以后,可以导 出一个二元二次齐次方程，形如w+^/+<=o.这样
+ 只要沪-4时>0，我们就能把导出的这个方程分解成两 个一次方程，分别与(1)[或者与(2)]组成两个第一类型的 二元二次方程组来解.
+\end_layout
+
+\begin_layout Standard
+消去常数项.
+\end_layout
+
+\begin_layout Standard
+(1) X10,
+\end_layout
+
+\begin_layout Standard
+10x2 - 20xy+30^3 - 90.
+ (3)
+\end_layout
+
+\begin_layout Standard
+⑵X3,
+\end_layout
+
+\begin_layout Standard
+12# —15 吵+18^ - 90, (4)
+\end_layout
+
+\begin_layout Standard
+(4)一(3), 2a^+5fl^-" 12^-0,
+\end_layout
+
+\begin_layout Standard
+(2x-dy)=0t /.
+ <c-
+\backslash
+-4.y=0, (5) 2aj-3^-0, (6)
+\end_layout
+
+\begin_layout Standard
+由(1)和作)，（6),原方程组可以化成两个方程组，就是 f ^-2^+%a = 9, r ^-2^+3^=^
+\end_layout
+
+\begin_layout Standard
+ta:+4^=0; 12iP—8g/ -= 0,
+\end_layout
+
+\begin_layout Standard
+分别解这两个方程组,得原方程组的解是
+\end_layout
+
+\begin_layout Standard
+{
+\end_layout
+
+\begin_layout Standard
+1 1 1 —
+\end_layout
+
+\begin_layout Standard
+^ ; L ^ ^ 
+\backslash
+j s 1
+\end_layout
+
+\begin_layout Standard
+=3, r —3,
+\end_layout
+
+\begin_layout Standard
+=2； 
+\backslash
+y= -2.
+\end_layout
+
+\begin_layout Standard
+消去常数项，分解成两个二元一次方程,每个方程可以 和原方程组里的任何一个方程组成方程组来解，选择系数 比较小的.解起来可以简便.
+\end_layout
+
+\begin_layout Standard
+从上面所举的这个例子，可以看出凡是所给方程组中
+\end_layout
+
+\begin_layout Standard
+的两个方程都没有一次项的，那末都可以利用消去常数项, 导出一个二元二次齐次方程来解.
+\end_layout
+
+\begin_layout Standard
+1)
+\end_layout
+
+\begin_layout Standard
+(3)
+\end_layout
+
+\begin_layout Standard
+1
+\end_layout
+
+\begin_layout Standard
+yfv
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+|/
+\end_layout
+
+\begin_layout Standard
+3
+\end_layout
+
+\begin_layout Standard
+✓1%
+\end_layout
+
+\begin_layout Standard
+解下列各方程组:
+\end_layout
+
+\begin_layout Standard
+^ + 2^3 = 18,
+\end_layout
+
+\begin_layout Standard
+^ + —24; |^.fV3=5,
+\end_layout
+
+\begin_layout Standard
+1 ity=2;
+\end_layout
+
+\begin_layout Standard
+r^ —2a^-?y3 = 2,
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+1 吻=6，
+\end_layout
+
+\begin_layout Standard
+ia^-s^+2ya=4：r
+\end_layout
+
+\begin_layout Standard
+(1)
+\end_layout
+
+\begin_layout Standard
+(3；
+\end_layout
+
+\begin_layout Standard
+i 2^—3x^—2y5=6
+\backslash
+ j x3+巧+j/3=38,
+\end_layout
+
+\begin_layout Standard
+/V
+\end_layout
+
+\begin_layout Standard
+s
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+2)
+\end_layout
+
+\begin_layout Standard
+/V
+\end_layout
+
+\begin_layout Standard
+j x2+ot/=15,
+\end_layout
+
+\begin_layout Standard
+1 j/2—13a^ —14—C r 3^+巧+4j^=6,
+\end_layout
+
+\begin_layout Standard
+1 a^+8^=14.
+ ra^ + ^^12,
+\end_layout
+
+\begin_layout Standard
+I ^ + ^ = 24;
+\end_layout
+
+\begin_layout Section
+二元二次方程组的一些特殊解法
+\end_layout
+
+\begin_layout Standard
+二元二次方程组除去可以利用§ 和§ 8-3里这蘗 解法以外,我们还可以根据方程组中两个方程的特点,采用 一些特殊的解法.下面举几个例子，
+\end_layout
+
+\begin_layout Standard
+解方程组：
+\end_layout
+
+\begin_layout Standard
+r^^ = Wt 0)
+\end_layout
+
+\begin_layout Standard
+1蹲=3, (2)
+\end_layout
+
+\begin_layout Standard
+这个方程M消去y后可以导出一个关于a的双二次方 程,所以也可用消元法来解4但是把(2)式两边乘以2再与 (1)式相加,可以导出方程i>+幻a=i6,它能分解成两
+个方 程《+y=4, a；+y=-4；同样由（1)—2x (2)可以导出方程 它也能分解成两个方程女=2，a>-y=^-2t 所以可以把它转化为四个二元一次方程
+组来解.
+\end_layout
+
+\begin_layout Standard
+(1) +⑶X2,得Or切)3 =巩
+\end_layout
+
+\begin_layout Standard
+(3)
+\end_layout
+
+\begin_layout Standard
+(1) —(2)x2,得 g/)a = 4,
+\end_layout
+
+\begin_layout Standard
+•♦, x-y= ±2.
+ ⑷
+\end_layout
+
+\begin_layout Standard
+由(3)和(4)，原方程组可以化成四个方程组,就是
+\end_layout
+
+\begin_layout Standard
+•⑴(II) j*切=4, i^—y = 2； I a;~^ — 2?
+\end_layout
+
+\begin_layout Standard
+an) {…―4， (iv)丨―—<
+\end_layout
+
+\begin_layout Standard
+I a?—j/ —2； I x 一 y=_ 2^
+\end_layout
+
+\begin_layout Standard
+分别解这四个方程组,得原方程组的解是 j x = 3^ j x = l3 J <x>= —lj j — 3,
+\end_layout
+
+\begin_layout Standard
+13/^1； ly = 3； 
+\backslash
+y^ —3； ly--1.
+\end_layout
+
+\begin_layout Standard
+解方程组：
+\end_layout
+
+\begin_layout Standard
+j (1) I —4^y-h3i/3= — 1, (2)
+\end_layout
+
+\begin_layout Standard
+这里方稈(1)和（2)的左边都可以分解因式,而且这两 个多项式有公因式又这两个方程的右边都是不等于 零的常数，所以只要把CO式和(2)式两边分别相餘，
+\end_layout
+
+\begin_layout Standard
+出一个二元一次方程，这样本题就可以转化为第一类： 二元二次方程组来解.
+\end_layout
+
+\begin_layout Standard
+方程(1)可以变形成
+\end_layout
+
+\begin_layout Standard
+Oc+y) =3.
+ (3)
+\end_layout
+
+\begin_layout Standard
+方裎(2)可以变形成 、
+\end_layout
+
+\begin_layout Standard
+(x—Zy) (x — y) ^ -1# (4)
+\end_layout
+
+\begin_layout Standard
+(3) + (4),得
+\end_layout
+
+\begin_layout Standard
+一_q 、
+\end_layout
+
+\begin_layout Standard
+_
+\end_layout
+
+\begin_layout Standard
+整理后,得
+\end_layout
+
+\begin_layout Standard
+& = 2仏 (5)
+\end_layout
+
+\begin_layout Standard
+类置的
+\end_layout
+
+\begin_layout Standard
+解方程组
+\end_layout
+
+\begin_layout Standard
+即得原方程组的解是
+\end_layout
+
+\begin_layout Standard
+从这个例子可以看到如果方程组里的两个方程，一边 的两个多项式有公因式，另一边是不等于零的常数,那末就 可以用除法,从这两个方程导出一个次数较低的方程,从而
+ 有可能利用学过的方法来解.
+\end_layout
+
+\begin_layout Standard
+某些二元高次方程组，只要满足上面所说的条件,也可 以用这种方法来解，
+\end_layout
+
+\begin_layout Standard
+解方程组：
+\end_layout
+
+\begin_layout Standard
+并且两个方程的右边都是不等于零的常数，因此可以用除 法得到次数降低的方程，
+\end_layout
+
+\begin_layout Standard
+方程(1)可以变形成
+\end_layout
+
+\begin_layout Standard
+' r ^ — ps = 21S,
+\end_layout
+
+\begin_layout Standard
+1 ^+^-[-^ = 109* 方程(1)的左边可以分解因式,得
+\end_layout
+
+\begin_layout Standard
+(必一 iO C^ + ^H-y9) =218.
+\end_layout
+
+\begin_layout Standard
+⑶+(2),得
+\end_layout
+
+\begin_layout Standard
+x—y = 2ti
+\end_layout
+
+\begin_layout Standard
+解方程组
+\end_layout
+
+\begin_layout Standard
+| #+啤切3 = 109,
+\end_layout
+
+\begin_layout Standard
+I x—y = 2, x^T, (a；™ 一5,
+\end_layout
+
+\begin_layout Standard
+4
+\end_layout
+
+\begin_layout Standard
+解下列各方程组:
+\end_layout
+
+\begin_layout Standard
+1.
+\end_layout
+
+\begin_layout Standard
+28,
+\end_layout
+
+\begin_layout Standard
+y
+\end_layout
+
+\begin_layout Standard
+[提示：利用换元法解.]
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+g
+\end_layout
+
+\begin_layout Standard
+⑷
+\end_layout
+
+\begin_layout Standard
+a:3-tj/3=9J ac+y = :3,
+\end_layout
+
+\begin_layout Standard
+#+2/3 =呵 ^+t/=5； ^-(-4^2-5 -Oj
+\end_layout
+
+\begin_layout Standard
+xy —
+\end_layout
+
+\begin_layout Section-toc*
+本章提要
+\end_layout
+
+\begin_layout Standard
+1.
+ 二元二次方程组的两种类型
+\end_layout
+
+\begin_layout Standard
+(1)第一类型——由一个二元一次方程(或一元一次 方程)和个二元二次方程组成.
+\end_layout
+
+\begin_layout Standard
+一&式：
+\end_layout
+
+\begin_layout Standard
+J mx^ny=p (mr n 不都是 0),
+\end_layout
+
+\begin_layout Standard
+又0^ + 6吨+(^+办+印+/=0 {a} h，o 不都是 O).
+\end_layout
+
+\begin_layout Standard
+(2)第二类型——由两个二元二次方程组成.
+\end_layout
+
+\begin_layout Standard
+—般形式：
+\end_layout
+
+\begin_layout Standard
+'十(al3 b±, Ox 不都是 0),
+\end_layout
+
+\begin_layout Standard
+.(au, bSj 七不都是 0).
+ s第一类型二元二次方程组的解法一般都可用代 入法来解，
+\end_layout
+
+\begin_layout Standard
+8,.第二类型二元二次方程组的解法消元后，一般要
+\end_layout
+
+\begin_layout Standard
+导出一个一元四次方程，所以目前还只能解一些特殊形式 的方程组.解这类方程组的基本思想是“消元'“降次”常 见的有以下几种:
+\end_layout
+
+\begin_layout Standard
+⑴消元后可以导出一个一元二次方程的(两个方程 中含某一未知数的各对应项的系数成比例时，都可用这梓 方法来解).
+\end_layout
+
+\begin_layout Standard
+.(2)用加减消元法可以导出一个二元一次方程的（两 个方程屮对应的二次廣的系数成比例时，都可用这种方法 V
+\end_layout
+
+\begin_layout Standard
+(3) —个方程(或二个方程)可以用因式分解法拆成两 个一次方程的.
+\end_layout
+
+\begin_layout Standard
+(4)由方程组的两个方程，可以导出一个二元二次齐.
+ 次方程的(两个方程中都不含一次项时，都可以用这种方珠 来解).
+ •丨
+\end_layout
+
+\begin_layout Standard
+(5)可以用除法，从两个方程中导出一个二元一次方I: 程的(两个方程一边的两个多项式有公因式:另一边是不等 于零的常数时,都可用这种方法来解)•
+ • i
+\end_layout
+
+\begin_layout Section-toc*
+复习题八
+\begin_inset space \space{}
+\end_inset
+
+A
+\end_layout
+
+\begin_layout Standard
+解下列各方程组(1〜仍
+\end_layout
+
+\begin_layout Standard
+4xH-%=25；
+\end_layout
+
+\begin_layout Standard
+Hi
+\end_layout
+
+\begin_layout Standard
+3 A
+\end_layout
+
+\begin_layout Standard
+y
+\end_layout
+
+\begin_layout Standard
+Uy-2y^3{x^i
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+、 L iT3 —f/2—3：+^ —4；
+\end_layout
+
+\begin_layout Standard
+⑶！#13+卜卜i
+\end_layout
+
+\begin_layout Standard
+aP—tj7+:r—f/td, x2'hy2—2xiy — 9*
+\end_layout
+
+\begin_layout Standard
+- y2—s—y ^=6， x^-
+\backslash
+-2cry +y2 — 25, 4^—^+2^—1—0.
+ x'2-'^3—0.
+\end_layout
+
+\begin_layout Standard
+6.
+ (1)产伽十2〉：0,
+\end_layout
+
+\begin_layout Standard
+1 (aH-l；(s/—2) —0;
+\end_layout
+
+\begin_layout Standard
+L已知
+\end_layout
+
+\begin_layout Standard
+x 二 一 5 V"S"， x—6,
+\end_layout
+
+\begin_layout Standard
+， 2 — ■g'vTI
+\end_layout
+
+\begin_layout Standard
+是方程j—的两个解，求正数a、b的值， 8 (1)从方程组
+\end_layout
+
+\begin_layout Standard
+中，消去h得出$于$的二次方程；
+\end_layout
+
+\begin_layout Standard
+(2)当&=3时，这个a：的二次方程有几个实数解？当b=4时 呢？当£^5时呢？
+\end_layout
+
+\begin_layout Standard
+9已知方程P+ma:+ft=0的两根的积比两根的和大5，并且两根 的平方和等于25，求»的值.
+\end_layout
+
+\begin_layout Standard
+1D.矩形的面积是120平方厘米，对角线的长是17厘米，求矩形的 长和宽，
+\end_layout
+
+\begin_layout Standard
+11.直角三角形的周长等于48厘米，它的面积等于昶平方厘米，求 直角三角形各边的长■
+\end_layout
+
+\begin_layout Standard
+12.两部大小不同的起重机同时工作，6小时就杷船上的货物全部 卸完.如杲由它们单独工作，那末大的一部机器比小的一部珂 以少用5小时卸完.两部机器单独工作各黹多少时间才
+能把船 上的货物卸完？
+\end_layout
+
+\begin_layout Section-toc*
+复习题八
+\begin_inset space \space{}
+\end_inset
+
+B
+\end_layout
+
+\begin_layout Standard
+解下列各方程组(1〜7)
+\end_layout
+
+\begin_layout Standard
+f V^Ti+Vy^i—5,
+\end_layout
+
+\begin_layout Standard
+I 13；
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+x3-2xy^-y2^9J 1 -h 4scy -t- 4ty2 -r .r+2?y — 2； r ^+^—8 — 0,
+\end_layout
+
+\begin_layout Standard
+if>+l)s4 -1)2,
+\end_layout
+
+\begin_layout Standard
+j y? -f' 2a^/ -f 2^2 — = 0,
+\end_layout
+
+\begin_layout Standard
+1 ;十j/3 + 3j/ + 1 = 0;
+\end_layout
+
+\begin_layout Standard
+t x2H-2/2H-10y — 0.
+\end_layout
+
+\begin_layout Standard
+| fl^+^ + tf2 —2a: —2i/ = l,
+\end_layout
+
+\begin_layout Standard
+J —a —t/ = 12,
+\end_layout
+
+\begin_layout Standard
+I xj/ —2a: —2j/ + 8 = 0,
+\end_layout
+
+\begin_layout Standard
+r —
+\end_layout
+
+\begin_layout Standard
+I a^H-flTy3—10;
+\end_layout
+
+\begin_layout Standard
+f f>+s03-40c 切）=45,
+\end_layout
+
+\begin_layout Standard
+V1
+\end_layout
+
+\begin_layout Standard
+ab
+\end_layout
+
+\begin_layout Standard
+—2.
+\end_layout
+
+\begin_layout Standard
+2)
+\end_layout
+
+\begin_layout Standard
+c
+\end_layout
+
+\begin_layout Standard
+y 江 La：+y=6,
+\end_layout
+
+\begin_layout Standard
+2,
+\end_layout
+
+\begin_layout Standard
+y
+\end_layout
+
+\begin_layout Standard
+{x+y+V?+y==：20, a^+ya：=136;
+\end_layout
+
+\begin_layout Standard
+碍n
+\end_layout
+
+\begin_layout Standard
+-Oc+y)(疋+«) =12,
+\end_layout
+
+\begin_layout Standard
+〈2) ■ {y+s)(y-^x)=y5, .(ff+60e+y)=20.
+\end_layout
+
+\begin_layout Standard
+讯是什么数值时,下面的方程组有两个相同的解彳并且求出 这时方程组的解.
+\end_layout
+
+\begin_layout Standard
+(a^-f 2y* ^6=0^ t y=tux+3;
+\end_layout
+
+\begin_layout Standard
+(2) m是什么数值时,上面的方程没有实数解？
+\end_layout
+
+\begin_layout Standard
+在什么情況下,矣于$和y的方程组
+\end_layout
+
+\begin_layout Standard
+at
+\end_layout
+
+\begin_layout Standard
+t icy = &
+\end_layout
+
+\begin_layout Standard
+(1)有两个不相等的实数解？
+\end_layout
+
+\begin_layout Standard
+(2)有两个相等的实数解？
+\end_layout
+
+\begin_layout Standard
+(3)没有实数解？
+\end_layout
+
+\begin_layout Standard
+10.甲、乙两地间道路的一部分是上坡路,其余的部分是下坡路.自 行车在一小时内，下坡比上坡多走6公里.已知这自行车从甲 地到乙地需要2小时40分钟，而从乙地回到甲地，
+可以少用30 分钟.如果全路长36公里，求自行车上坡和下坡的速度以及上 坡路和下坡路的长.
+\end_layout
+
+\begin_layout Section-toc*
+第八章
+\begin_inset space \space{}
+\end_inset
+
+测验题
+\end_layout
+
+\begin_layout Standard
+解下列各方程组(1〜7):
+\end_layout
+
+\begin_layout Standard
+1 j a? — y2 — Z.r,-
+\backslash
+-2y^V^>
+\end_layout
+
+\begin_layout Standard
+I aj+jy — 7,
+\end_layout
+
+\begin_layout Standard
+1 !2(>-2)3 - 3(卜 1)2=5.
+\end_layout
+
+\begin_layout Standard
+5
+\end_layout
+
+\begin_layout Standard
+j 少3=^98, 已知
+\end_layout
+
+\begin_layout Standard
+1.
+\end_layout
+
+\begin_layout Standard
+r(iC-2)a+(v-l-3)3=9,
+\end_layout
+
+\begin_layout Standard
+13a：—2«/=6.
+\end_layout
+
+\begin_layout Standard
+f 吻 一y2+3i«+2j^3,
+\end_layout
+
+\begin_layout Standard
+t 3a:4-2—0( r aj+t/-hV^+y^l3j
+\end_layout
+
+\begin_layout Standard
+x
+\end_layout
+
+\begin_layout Standard
+Vs,
+\end_layout
+
+\begin_layout Standard
+卜7V
+\end_layout
+
+\begin_layout Standard
+是方程〒r+~b~=l的两个解，求正數<»、&的值，
+\end_layout
+
+\begin_layout Standard
+9.似取什么数值时,方程组
+\end_layout
+
+\begin_layout Standard
+f j/3=4it!,
+\end_layout
+
+\begin_layout Standard
+I y=^2x+m
+\end_layout
+
+\begin_layout Standard
+有两个相等的实教解？并且求出这时方麁组的解.
+\end_layout
+
+\begin_layout Standard
+10,甲、丙两车同时从A站开出，十分钟后，乙车出发追赶甲车.追 到后,立即返回，在回来途中5公里处遇到丙车，已知甲车每水 时行24公里,乙车的逋度为丙车速度的2倍
+，求乙车的逋度，
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,6620 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 数理化自学丛书－代数
+\options oneside
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize a5paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 3
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+—元二次方程和可以化成
+\begin_inset Newline newline
+\end_inset
+
+一元二次方程来解的方程
+\end_layout
+
+\begin_layout Section
+—元二次方程
+\end_layout
+
+\begin_layout Standard
+我们来看下面这个问题：
+\end_layout
+
+\begin_layout Standard
+一块矩形钢板的面积是10平方米，它的长比宽多8 米.求这块钢板的长和宽，
+\end_layout
+
+\begin_layout Standard
+设钢板的宽是0米，那末钢板的长是(® + 3)米，钢柜 的面积是-0+3)平方米.根据題意,列出方程丨 、 a; +3) ^ 10+
+\end_layout
+
+\begin_layout Standard
+去栝号'得
+\end_layout
+
+\begin_layout Standard
+a^-h8a:^lQ.
+\end_layout
+
+\begin_layout Standard
+w
+\end_layout
+
+\begin_layout Standard
+我们看到,上面这个方程是含有一个未知数,并且未知 数的最高次数是2的方程， 1
+\end_layout
+
+\begin_layout Standard
+含有一个未知数，并且未知数的最高次数是2的整式 方程,叫做一元二次方程.
+\end_layout
+
+\begin_layout Standard
+在研究一元二次方程的时候，常常把方程的各项移到 等号的左边，而使等号的右边为零.例如，上面这个方程, 经过这样移项以后，就可以化成下面的形式：
+\end_layout
+
+\begin_layout Standard
+—10 —0,
+\end_layout
+
+\begin_layout Standard
+任何一个关于^的一元二次方程，经过适当的变形以 后,都可以化成下面的形式：
+\end_layout
+
+\begin_layout Standard
+ax2^bx-
+\backslash
+-c — 0 (a ^ 0),
+\end_layout
+
+\begin_layout Standard
+这种形式叫做~元二次方程的一般形式.在这个方程里,
+\end_layout
+
+\begin_layout Standard
+ad叫做二次项，&叫做一次项，c叫做常数项.a是二次
+\end_layout
+
+\begin_layout Standard
+项的系数，6是一次项的系数，
+\end_layout
+
+\begin_layout Standard
+因为一元二次方程是一个等式.所以当一元二次方程 中的二次项的系数是负数时，我们还可以在方程的两边都 乘以—1，使二次项的系数是正数.因此在把一个一元二
+ 次方程化成一般形式时，通常我们都把二次项的系数变成 正数.
+\end_layout
+
+\begin_layout Standard
+应该注意，一次项系数&和常数项c可以是任何实数 (包括零)，但是二次项系数《就不能是零，因为如果《是 零，那末ez#也是零，这个方程就变成一元一次方程了.
+\end_layout
+
+\begin_layout Standard
+6和0都不是零的一冗二次方程，叫做完全一元二次|、 方程；&和c有一个是零或者两个都是零的一元二次方I 1 叫做不完全一元二次方程•
+\end_layout
+
+\begin_layout Standard
+不完4一元二次方程有下面三种不同形式： ；
+\end_layout
+
+\begin_layout Standard
+⑴（z^+c = 0 & =0, c^O)；
+\end_layout
+
+\begin_layout Standard
+(2) aa^^O (a^Oj &=0) c = 0)；
+\end_layout
+
+\begin_layout Standard
+> (3) aa^+6a; = 0 c—0),
+\end_layout
+
+\begin_layout Standard
+把下列一元二次方程化成一般形式；并且写出方程中：
+\end_layout
+
+\begin_layout Standard
+的二次项系数,一次项系数和常数项： .|
+\end_layout
+
+\begin_layout Standard
+(1 — fe) (a:+3、= 2#+1_
+\end_layout
+
+\begin_layout Standard
+〔l-3^)0+3)=2V+l,
+\end_layout
+
+\begin_layout Standard
+ic 一 +3 — 9ic =紀+
+\end_layout
+
+\begin_layout Standard
+— 8尤+2 = 0,
+\end_layout
+
+\begin_layout Standard
+就是 53+8尤一2 = 0.
+\end_layout
+
+\begin_layout Standard
+所以，二次项系数是艮一次项系数是8』常数顼是一2.
+\end_layout
+
+\begin_layout Standard
+1,化下列一元二次方程成一般形式，并且写出各肀方程中的二次' 项系数，一次项系数和常数项：
+\end_layout
+
+\begin_layout Standard
+(1) 5^=3x+2； (2> (®+5>U-4) = -6；
+\end_layout
+
+\begin_layout Standard
+(3〉(a;H-3)(2£-~5) —3iC—2* (4) 3a：(疋一 4j
+\end_layout
+
+\begin_layout Standard
+(5) 2a:(3-站+a^Or-l”；
+\end_layout
+
+\begin_layout Standard
+(6) (^+
+\backslash
+/^")(?/-^) + (2^+1)9=4^-5.
+\end_layout
+
+\begin_layout Standard
+2下列方程中哪些是不完全一元二次方程？并且写出各个方程中
+\end_layout
+
+\begin_layout Standard
+的二次项系数，一次项系数和常数项：
+\end_layout
+
+\begin_layout Standard
+(1) 3x^6^2xi (2) 4—5^=0;
+\end_layout
+
+\begin_layout Standard
+(3) 4^=0; 〔4) W=l;
+\end_layout
+
+\begin_layout Standard
+(5) a-jp-bx^c (a, b: c 都不等于零），
+\end_layout
+
+\begin_layout Standard
+3.下列方程中哪些是一元二次方程？哪些不是一元二次方程：
+\end_layout
+
+\begin_layout Standard
+(X) 0r + 2)3 = (x+3)b-3); (2) ^ + 2a: + 5«l;
+\end_layout
+
+\begin_layout Standard
+(3) (4^-3)(；r+.l)-5^-3； (4) 9^-4a：2-0,
+\end_layout
+
+\begin_layout Section
+不完全一元二次方程的解法
+\end_layout
+
+\begin_layout Standard
+和一元一次方程的情形一样,对于一元二次方程,能够 使方程左右两边的值相等的未知数的值，叫做这个一元二 次方程的解,也叫做方程的根I求方程的解或根的过程，叫
+ 做解方程.
+\end_layout
+
+\begin_layout Standard
+下面我们先分别研究三种不完全一元二次方程的解
+\end_layout
+
+\begin_layout Standard
+法.
+\end_layout
+
+\begin_layout Standard
+,不完全一元二次方程a*^+c=0(ci_0, 的解法 先来看下面的二个例子：
+\end_layout
+
+\begin_layout Standard
+例 1 =
+\end_layout
+
+\begin_layout Standard
+[»] 把常数项移到方程的右边，得到4^ = 9,两边除以4, 得到根据方根的意义就是|的平方根，所以
+\end_layout
+
+\begin_layout Standard
+* 広-土=
+\end_layout
+
+\begin_layout Standard
+这就是说，方程有两个根，+|■和一j,如果用勿和 的分别表示这个一元二次方程的两个根.我们就可以写成
+\end_layout
+
+\begin_layout Standard
+C注意〕 巧，而仅是表示方程的两个根.至于哪一个根应作为 巧,* 一个应作为办,那是可以任意指定的.
+\end_layout
+
+\begin_layout Standard
+例 2 r^+42 = 0.
+\end_layout
+
+\begin_layout Standard
+[解] 把常数项移到方程的右边,得到
+\end_layout
+
+\begin_layout Standard
+7^--42,
+\end_layout
+
+\begin_layout Standard
+就是 — 6.
+\end_layout
+
+\begin_layout Standard
+因为任何实数的平方都不能是负数，所以6在 实数范围内没有意义,也就是说,这个方程没有实数根.
+\end_layout
+
+\begin_layout Standard
+一般地说，我们可得不完全一元二次方程^*+0-0 (c谇0, c弄0)的解法是：
+\end_layout
+
+\begin_layout Standard
+咖a+c = 0,
+\end_layout
+
+\begin_layout Standard
+移项,得 -C,
+\end_layout
+
+\begin_layout Standard
+两边除以《(-/0丢0),得义，
+\end_layout
+
+\begin_layout Standard
+^ (JL
+\end_layout
+
+\begin_layout Standard
+(1)如果《和《的符号相反，那末是一个正数,
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+这个方程就有两个实数根：
+\end_layout
+
+\begin_layout Standard
+士就是巧^奶=一/^•
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+(2)如果05和0的符号相同，那末一+是一个负歎f
+\end_layout
+
+\begin_layout Standard
+f~ a
+\end_layout
+
+\begin_layout Standard
+因为-1在实数范围内没有意义,所以这个方程没有实 数根,
+\end_layout
+
+\begin_layout Standard
+〔说明〕 这种类型的方程如果有解,一定有两个根,它们互为相 反的数■
+\end_layout
+
+\begin_layout Standard
+例8 解下列关于0)的方程：
+\end_layout
+
+\begin_layout Standard
+(1) (3) 4r*+25-0f
+\end_layout
+
+\begin_layout Standard
+o
+\end_layout
+
+\begin_layout Standard
+(3) (®+a)s =(2尤+吾)(a^O)
+\end_layout
+
+\begin_layout Standard
+TJ
+\end_layout
+
+\begin_layout Standard
+[»
+\end_layout
+
+\begin_layout Standard
+c注意〕
+\end_layout
+
+\begin_layout Standard
+(1) O.SiC3--g =0,
+\end_layout
+
+\begin_layout Standard
+士 士
+\end_layout
+
+\begin_layout Standard
+所以这个方程有两个根：
+\end_layout
+
+\begin_layout Standard
+V6 VT
+\end_layout
+
+\begin_layout Standard
+丁；吻---「•.
+\end_layout
+
+\begin_layout Standard
+(2) 4^4-25-0；
+\end_layout
+
+\begin_layout Standard
+紀=- 25,
+\end_layout
+
+\begin_layout Standard
+所以这个方程没有实数根.
+\end_layout
+
+\begin_layout Standard
+(3)(疋+0尸=(如+音)(a^0)m
+\end_layout
+
+\begin_layout Standard
+汶a
+\end_layout
+
+\begin_layout Standard
+0^+2 咖+¥ = 4^+2 咖+了,
+\end_layout
+
+\begin_layout Standard
+••.
+ ±^―C£3 — 土了 |过丨—土 成_
+\end_layout
+
+\begin_layout Standard
+所以这个方程有两个辑：<i,吻-.在（3)中，当eC>0时,土音丨a卜士去〜当《<0时, 士 4丨《卜土 |( 一《)=平|〜所以只要这个方 程的两个根都是和
+\end_layout
+
+\begin_layout Standard
+不完全一元二次方程oo?a = 0(a—0)的解法
+\end_layout
+
+\begin_layout Standard
+把方程的两边都除以c(因为a —0),就得到
+\end_layout
+
+\begin_layout Standard
+a? = 0,
+\end_layout
+
+\begin_layout Standard
+很明显，只有当®-0的时候，这个等式才能成立.通 常我们说方程《#=0有两个相同的根；巧-办-0,
+\end_layout
+
+\begin_layout Standard
+解这种类型的方程时，不要说方程只有一个根，^-0.
+\end_layout
+
+\begin_layout Standard
+解方程：（a:—2a)a = 4Ga —4财.
+\end_layout
+
+\begin_layout Standard
+(x—2a)2 = 4a3 — 4aXj x2—4aa}-h4aa=4aa — 4tzxr
+\end_layout
+
+\begin_layout Standard
+所以这个方程有两个相同的根：A = 3^ = 0.
+\end_layout
+
+\begin_layout Standard
+3.不完全一元二次方程a^+fci^0(a锌0, 6妗0)的解法
+\end_layout
+
+\begin_layout Standard
+我们来看下面的方程： r
+\end_layout
+
+\begin_layout Standard
+这个方程的左边可以分解因式,得到
+\end_layout
+
+\begin_layout Standard
+®(3 勿一 3)=0: |
+\end_layout
+
+\begin_layout Standard
+这样，方程的左边是两个因式m和钿-5的积,而右边i 是零.我们知道，两个因数的积等于零,那末这两个因数中i 至少要有一个因数是零;反过来,如果两个因数中有一个因i
+ ' 数是零，那末它们的积就等于零.同样,如果两个因式的积， 等于零,那末这两个因式中至少要有一个因式等于零;反过I 来，如果两个因式中有一个因式等于零,它们的积
+也就等于 零.这就是说，要使两个整式义和5的积等于零,必须I 2=0或者5 = 0.因此，要使》(細_古）=<),必须或 者 3；c5=0.
+\end_layout
+
+\begin_layout Standard
+分别解两个一元一次方程0=0和&一5 — 0，得到它 们的根,^=0 ^==1—„
+\end_layout
+
+\begin_layout Standard
+因此,方程3?-&2? = 0有两个根：371 = 0, =
+\end_layout
+
+\begin_layout Standard
+• 一般地说,我们可得到不完全一元二次方程.
+\end_layout
+
+\begin_layout Standard
+J.
+ 4- TJ
+\end_layout
+
+\begin_layout Standard
+意 解 注任C
+\end_layout
+
+\begin_layout Standard
+C
+\end_layout
+
+\begin_layout Standard
+—0 (a^07 J^O)
+\end_layout
+
+\begin_layout Standard
+的觯法是： = i(aa?+£)=0.
+\end_layout
+
+\begin_layout Standard
+使3^=0,得到一个根％ = 0;
+\end_layout
+
+\begin_layout Standard
+使咖+卜0,得到另一个根忠3 = -上（V a=^0).
+\end_layout
+
+\begin_layout Standard
+(h
+\end_layout
+
+\begin_layout Standard
+解下列各方程：
+\end_layout
+
+\begin_layout Standard
+⑴ ®3=iC;
+\end_layout
+
+\begin_layout Standard
+(2)(卜VTV = (lWT)%
+\end_layout
+
+\begin_layout Standard
+x2 — x = 0j a:(x—l) -0#
+\end_layout
+
+\begin_layout Standard
+使 35 = 0, /, a^.^0；
+\end_layout
+
+\begin_layout Standard
+使 a; —1=0, /,匆=1,
+\end_layout
+
+\begin_layout Standard
+所以这个方程有两个根：
+\end_layout
+
+\begin_layout Standard
+解这个方程的时候，不能把方程两边的公因式尤约去, 否则就会使方程失去一个根0=0.
+\end_layout
+
+\begin_layout Standard
+(2)(卜^V = (iWI)®.
+\end_layout
+
+\begin_layout Standard
+(1-^2)^ - (l-h*yj)x^0,
+\end_layout
+
+\begin_layout Standard
+tf[(l- 
+\backslash
+J 2)疋一 (i~h
+\backslash
+/ 2 )] =0,
+\end_layout
+
+\begin_layout Standard
+使 a^O,人 %=0；
+\end_layout
+
+\begin_layout Standard
+谀 (1-V2)w-(1 + V2~)^0f
+\end_layout
+
+\begin_layout Standard
+.匕—i+V歹一 （l+v^r
+\end_layout
+
+\begin_layout Standard
+吻—i^/T~aH)(i+n/T>
+\end_layout
+
+\begin_layout Standard
+所以这个方程有两个拫：®i=0，呜一一3-2、/T,
+\end_layout
+
+\begin_layout Standard
+下面力程的解法对吗？为什么9如杲不对，应该怎样解?
+\end_layout
+
+\begin_layout Standard
+(1)解方程：3x^4.
+\end_layout
+
+\begin_layout Standard
+解 扣=±2,
+\end_layout
+
+\begin_layout Standard
+(2)解方程：
+\end_layout
+
+\begin_layout Standard
+解方程两边都除以％得方程的根是:
+\end_layout
+
+\begin_layout Standard
+2解下列各方程：
+\end_layout
+
+\begin_layout Standard
+(1) 81^-25 = 0; (2) ^^0.64^0;
+\end_layout
+
+\begin_layout Standard
+⑶ 4.3-6^-2.8； (4) a2-
+\backslash
+/83=0；
+\end_layout
+
+\begin_layout Standard
+(5) O — 5)0+3) + (尤―2)(a:+4) 二26;
+\end_layout
+
+\begin_layout Standard
+2mx7^3n (wi>0，m>0); (2a:—a)2 ~a (3a —4a;).
+\end_layout
+
+\begin_layout Standard
+2^2—3^;~-~(^—6«)j
+\end_layout
+
+\begin_layout Standard
+(5) (3^+1) (1 - 3a:) - 5(^ - 2) +11；
+\end_layout
+
+\begin_layout Standard
+(6) (x^3)a+(^+3)fl-3(^H-6)；
+\end_layout
+
+\begin_layout Standard
+(7) (8) (2WT^«(2-a/T)螂 (9) %~5 =2； (10)(料1)3-U-l)3=2,
+\end_layout
+
+\begin_layout Standard
+5-解下列关于-的方程：
+\end_layout
+
+\begin_layout Standard
+(1) c)a: —2^；
+\end_layout
+
+\begin_layout Standard
+(2) Oc—cO(ar+J>) + 0c+fl)0r—&) — 2a{ax — b)%
+\end_layout
+
+\begin_layout Standard
+(3) (^ + b)s4- (a-b^-o^ + b2 (a2 + &B^=0).
+\end_layout
+
+\begin_layout Section
+完全一元二次方程的解法(一） ——因式分解法
+\end_layout
+
+\begin_layout Standard
+在上一节里研究不完全一元二次方程的 时候,我们知道,如果方程的一边能够分解成两个因式而另
+\end_layout
+
+\begin_layout Standard
+13^-4 20-3J3 q5
+\end_layout
+
+\begin_layout Standard
+(6) —---18—=39-；
+\end_layout
+
+\begin_layout Standard
+(7) M-4=0 (楕确到 0.01);
+\end_layout
+
+\begin_layout Standard
+(8) ^--：-0.7-1 (精确到 0.(U).
+\end_layout
+
+\begin_layout Standard
+o
+\end_layout
+
+\begin_layout Standard
+解下列关于-的方程：
+\end_layout
+
+\begin_layout Standard
+(1) 4a^-9b^0 (a古0); (2) (3) d—9a3—12ab - 4&3=0； (4)
+\end_layout
+
+\begin_layout Standard
+解下列各方程：
+\end_layout
+
+\begin_layout Standard
+a) ac(3j：H-7)-0; (2)
+\end_layout
+
+\begin_layout Standard
+(3) 7a33-5i^2^+a:; <4)
+\end_layout
+
+\begin_layout Standard
+峰MS
+\end_layout
+
+\begin_layout Standard
+一边等于零,那就能使每一个因式等于零，得到两个一元一 次方程,解这两个方程，就得到原方程的两个根.现在来研 究完全一元二次方程
+\end_layout
+
+\begin_layout Standard
+丨3 — 7尤 +12 二 0
+\end_layout
+
+\begin_layout Standard
+的解法.这个方程的左边可以分解成两个一次因式,就是
+\end_layout
+
+\begin_layout Standard
+0^ — 7$+12= — (；r—4),
+\end_layout
+
+\begin_layout Standard
+因此,这个方程就变形成
+\end_layout
+
+\begin_layout Standard
+(卜3) 0 — 4) =0,
+\end_layout
+
+\begin_layout Standard
+便疋—3-0,得到一个根巧=3;
+\end_layout
+
+\begin_layout Standard
+使= 得到另一个根而=4.
+\end_layout
+
+\begin_layout Standard
+所以这个方程有两个根：<^1=3, £^^4,
+\end_layout
+
+\begin_layout Standard
+这种解一元二次方程的方法,叫做因式分解法.
+\end_layout
+
+\begin_layout Standard
+从上面这个例子可以得出，用因式分解法解一元二次 方程的步*是：
+\end_layout
+
+\begin_layout Standard
+(1)把方程变形成为两个一次因式的积等 于零的形式；
+\end_layout
+
+\begin_layout Standard
+(2)使每个一次因式等于零，得到两个一 元一次方程；
+\end_layout
+
+\begin_layout Standard
+(3)解所得的两个一元一次方程，就得到 原方程的两个根(分别用吻和勿表示）•
+\end_layout
+
+\begin_layout Standard
+觯方程：#+^-10 = 0, ■
+\end_layout
+
+\begin_layout Standard
+把方輕的左边分解因式,得
+\end_layout
+
+\begin_layout Standard
+(a; — 2) (re+5) = 0,
+\end_layout
+
+\begin_layout Standard
+使 《—2 = 0， ••‘ 2；
+\end_layout
+
+\begin_layout Standard
+使 $+5 = 0, •••江广-3.
+\end_layout
+
+\begin_layout Standard
+所以原方程的根是巧=2; xa= —5.
+\end_layout
+
+\begin_layout Standard
+解方程t -^4-18-把方程化成标准形式,得
+\end_layout
+
+\begin_layout Standard
+m明〕 例3
+\end_layout
+
+\begin_layout Standard
+[解]
+\end_layout
+
+\begin_layout Standard
+习腰 7*3
+\end_layout
+
+\begin_layout Standard
+^-3it-18 = 0.
+\end_layout
+
+\begin_layout Standard
+把方程的左边分解因式，得
+\end_layout
+
+\begin_layout Standard
+(尤―6) ($+3) 二0.
+\end_layout
+
+\begin_layout Standard
+使 义_6:。0,得；c = 6;
+\end_layout
+
+\begin_layout Standard
+使 疋-卜3=0, 得a; 二一3.
+\end_layout
+
+\begin_layout Standard
+所以原方程的根是h = %= — 3.
+\end_layout
+
+\begin_layout Standard
+如果二次项系数是负数，为了便于分解因式起见,先把 二次项系数变为正数，然后再解，
+\end_layout
+
+\begin_layout Standard
+解关于$的方程：
+\end_layout
+
+\begin_layout Standard
+(1) o? + 2«ai 一 8as = 0; (2) x2—2ax — <as#
+\end_layout
+
+\begin_layout Standard
+(1) x2 -f 2az — Sa2 — 0,
+\end_layout
+
+\begin_layout Standard
+分解因式，得
+\end_layout
+
+\begin_layout Standard
+(x-
+\backslash
+-4：a) (co~2a) =^0.
+\end_layout
+
+\begin_layout Standard
+使 ®+4a = 0，得 as - — 4a;
+\end_layout
+
+\begin_layout Standard
+使 (c—2c ™ 07 得：t=2a.
+\end_layout
+
+\begin_layout Standard
+所以庖方程的根是勿=一4a, ^2a.
+\end_layout
+
+\begin_layout Standard
+(2) P - 2财—6a=-炫'
+\end_layout
+
+\begin_layout Standard
+移项，得 （a?a - 2 似： + as) —沪二 0,
+\end_layout
+
+\begin_layout Standard
+(浓一 a)a —i^=0,
+\end_layout
+
+\begin_layout Standard
+分解因式,得[
+\end_layout
+
+\begin_layout Standard
+(x-a-^-V) (cc^a — b) —0
+\end_layout
+
+\begin_layout Standard
+使 x — aJrb = Q,年發 m^a-h
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+4
+\end_layout
+
+\begin_layout Standard
+使 x — a~b — 0,得 sc — a-yb^
+\end_layout
+
+\begin_layout Standard
+所以原方程的根是xfa — b, xra七b,
+\end_layout
+
+\begin_layout Standard
+1.下面方程的解法对吗？如果不对，应该怎样解？
+\end_layout
+
+\begin_layout Standard
+解方程： Or - 2)0r-3)=l.
+\end_layout
+
+\begin_layout Standard
+麻 x-2=l, •_.
+ xj=3;
+\end_layout
+
+\begin_layout Standard
+- a：—3=1； •*• sca^4a
+\end_layout
+
+\begin_layout Standard
+用因式分解法解下列各方程(2^5)r,： -J>^
+\backslash
+J：i； h
+\end_layout
+
+\begin_layout Standard
+4.
+\end_layout
+
+\begin_layout Standard
+(1) x3"6.r+8-0；
+\end_layout
+
+\begin_layout Standard
+(3) a:3 —2；c —8—0；
+\end_layout
+
+\begin_layout Standard
+(1) sr^ — ^c = 21;
+\end_layout
+
+\begin_layout Standard
+(3) 14=5^：
+\end_layout
+
+\begin_layout Standard
+(1) v(f/+5)^24：
+\end_layout
+
+\begin_layout Standard
+(3) — 1) (rr-[ 3) —12；
+\end_layout
+
+\begin_layout Standard
+(1) x(2x^7)^{2x^7))
+\end_layout
+
+\begin_layout Standard
+(3) 30—2>2—冗(兄一2)=0; (5) —3、y-2.
+\end_layout
+
+\begin_layout Standard
+(2) x9-{-6x+8^0;
+\end_layout
+
+\begin_layout Standard
+(4) x2十2x—8 = 0.
+\end_layout
+
+\begin_layout Standard
+(2) 10 + 3z - P =
+\end_layout
+
+\begin_layout Standard
+(4) 3i=K ⑶ f/(t/-4)=4^；
+\end_layout
+
+\begin_layout Standard
+(4)(卜3)(^+7) = -
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+(2) <3x-iy^(2x+3y；
+\end_layout
+
+\begin_layout Standard
+(4) 4(^+3)5-25<^-2)^
+\end_layout
+
+\begin_layout Standard
+(6)(卜 1)(丨+3)-20^)2+3(奸3)(卜3)=0.
+\end_layout
+
+\begin_layout Standard
+6.解下列关于$的方程；
+\end_layout
+
+\begin_layout Standard
+(1) 2oir+a20; (2) o:(a;*4-a—X) —a*
+\end_layout
+
+\begin_layout Standard
+(3) #-2a；+l-AOc3-1) = 0 {k^iyy
+\end_layout
+
+\begin_layout Standard
+(4) aV+&x—-)- tfcK (as^=6s)(
+\end_layout
+
+\begin_layout Standard
+[提示：第(2)题，先整理成二次方桎的一般形式再分解因式；第
+\end_layout
+
+\begin_layout Standard
+(3)和(4)题，先提取公因式•]
+\end_layout
+
+\begin_layout Section
+完全一元二次方程的解法(二） ——配方法
+\end_layout
+
+\begin_layout Standard
+我们先来看下面的方程，
+\end_layout
+
+\begin_layout Standard
+⑴
+\end_layout
+
+\begin_layout Standard
+这个方程就是说*一2的平方等于3,因此，根据方根的意 义，®_2就是3的平方根,所以
+\end_layout
+
+\begin_layout Standard
+a?—2= i *v^§", (2〉
+\end_layout
+
+\begin_layout Standard
+2^ V3 ^ 得到一个根 & = 2 + 
+\backslash
+/3;
+\end_layout
+
+\begin_layout Standard
+解无―2= _ sf%，得到另一个根吻=2—VI.
+\end_layout
+
+\begin_layout Standard
+这就是说，如果一元二次方程的一边是一个平方的形 式,另一边是一个常数,就利用开平方的方法来解.
+\end_layout
+
+\begin_layout Standard
+现在再来看下面的方程
+\end_layout
+
+\begin_layout Standard
+X2 — 4x-rl = 0^
+\end_layout
+
+\begin_layout Standard
+这个方程的左边不是一个平方形式，也不容易分解因式.所
+\end_layout
+
+\begin_layout Standard
+以也不能直接利用因式分解法来解.
+\end_layout
+
+\begin_layout Standard
+为了解这种类型的方程，我们可以设法把它化成方程
+\end_layout
+
+\begin_layout Standard
+(1)的形式.
+\end_layout
+
+\begin_layout Standard
+先把常数项移到方程的右边，得
+\end_layout
+
+\begin_layout Standard
+—1.
+\end_layout
+
+\begin_layout Standard
+为了使等号左边变成一个一次二项式的平方，我们在方程 的两边都加上4,得
+\end_layout
+
+\begin_layout Standard
+0 — 知 + 4 = — 1 + 4,
+\end_layout
+
+\begin_layout Standard
+就是 0 — 2)a = 3,
+\end_layout
+
+\begin_layout Standard
+解这个方程，得
+\end_layout
+
+\begin_layout Standard
+卬一2; 土
+\end_layout
+
+\begin_layout Standard
+我们再来看一个例子：
+\end_layout
+
+\begin_layout Standard
+3a^-!-2a： — 6™ 0,
+\end_layout
+
+\begin_layout Standard
+这个方程&二次項系数不是1而是3,为了容易把方 程的左边变成一个平方的形式，所以先把方程的各项除以
+\end_layout
+
+\begin_layout Standard
+8,再把常数项移到方程的右边,得
+\end_layout
+
+\begin_layout Standard
+ws-
+\backslash
+- ^ a? ™ 2 S
+\end_layout
+
+\begin_layout Standard
+把方程的两边各如上就是各加上一次项系# 4一半的乎方，左边就变成一个平方的形式，右边是一个 常数：
+\end_layout
+
+\begin_layout Standard
+(等I
+\end_layout
+
+\begin_layout Standard
+解这个方程,得
+\end_layout
+
+\begin_layout Standard
+1 Vl9 -I-n/19
+\end_layout
+
+\begin_layout Standard
+这种解一元二次方程的方法,叫做配方法.
+\end_layout
+
+\begin_layout Standard
+从上面两个例子,可以得出，用K方法解一元二次方程 的步*是：
+\end_layout
+
+\begin_layout Standard
+(1)如果二次項的系數不是1,用二次项 的系数除方程的各项；
+\end_layout
+
+\begin_layout Standard
+(2)把二次項和一次项移在方程的左边, 常数項移在方程的右边；
+\end_layout
+
+\begin_layout Standard
+(3)方程的两边各加上一次项系数一半的 平方，使方程的左边变成一个平方的形式，右边 是一个常教；
+\end_layout
+
+\begin_layout Standard
+(4)求出方程左右两此的平方根，右边要 添上正负号，得到两个一元一次方程，解这两个 方程，就得到原方程的两个根.
+\end_layout
+
+\begin_layout Standard
+觯方程：=
+\end_layout
+
+\begin_layout Standard
+奸(备)3=1+(备)丫
+\end_layout
+
+\begin_layout Standard
+/ 5 97 5 V§7
+\end_layout
+
+\begin_layout Standard
+V~H) 土一IF"'
+\end_layout
+
+\begin_layout Standard
+• 5 V97 5+V97
+\end_layout
+
+\begin_layout Standard
+“ 12~12~»
+\end_layout
+
+\begin_layout Standard
+5 V97 5-
+\backslash
+/97
+\end_layout
+
+\begin_layout Standard
+1.配上适当的數，使下列各等式成为恒等式:
+\end_layout
+
+\begin_layout Standard
+(1)丨3 + 5丨+ =(x+ 尸； (2) 仏十 ^ (j:—
+\end_layout
+
+\begin_layout Standard
+⑶d- +料 =0〜 (4) + —j:4- ^(ac + a
+\end_layout
+
+\begin_layout Standard
+用配方法解下列各方程： 
+\end_layout
+
+\begin_layout Standard
+(1> j：2 + a-72 = 0； ⑶ a? 一 25x+156—0；
+\end_layout
+
+\begin_layout Standard
+(3) P — 6^-6 = 0; (4) 6^+3^2=0;
+\end_layout
+
+\begin_layout Standard
+(5) 3x2-2-4x* (^) 3^2+5sc+l—0;
+\end_layout
+
+\begin_layout Standard
+(7) 2^=3 —7；r; (8) 5a：2—2=^ —xw
+\end_layout
+
+\begin_layout Section
+完全一元二次方程的解法(三） ——公式法
+\end_layout
+
+\begin_layout Standard
+我在我们来解一般形式的一元二次方程：•
+\end_layout
+
+\begin_layout Standard
+(3^+6aj+c = 0 (a#0),
+\end_layout
+
+\begin_layout Standard
+这个方程W以用配方法来解，
+\end_layout
+
+\begin_layout Standard
+因为用二次项系数a除方程的各项，得
+\end_layout
+
+\begin_layout Standard
+^ +A a；H- —^0, a a
+\end_layout
+
+\begin_layout Standard
+把常数项移到方程的右边，得
+\end_layout
+
+\begin_layout Standard
+^ -3-—^==— a 1 a
+\end_layout
+
+\begin_layout Standard
+(
+\end_layout
+
+\begin_layout Standard
+在方程的两边各加上一次项系数一半的乎方(
+\end_layout
+
+\begin_layout Standard
+得
+\end_layout
+
+\begin_layout Standard
+因为4d>0,所以：
+\end_layout
+
+\begin_layout Standard
+⑴如果沪一4oc>0,那末就得
+\end_layout
+
+\begin_layout Standard
+& V &a—4时
+\end_layout
+
+\begin_layout Standard
+士士一~25’
+\end_layout
+
+\begin_layout Standard
+b 
+\backslash
+/bu — ^ac 一&士 W -"- 
+\backslash
+ao
+\end_layout
+
+\begin_layout Standard
+• ’ x=z -瓦土~~2a = 2a
+\end_layout
+
+\begin_layout Standard
+所以原方程有两个根：
+\end_layout
+
+\begin_layout Standard
+—b+ 
+\backslash
+/b2 — Aac 一i — 
+\backslash
+fb^4ao
+\end_layout
+
+\begin_layout Standard
+^--Ta ，2^ •
+\end_layout
+
+\begin_layout Standard
+⑶如果&3 —4m = 0,那末严$气0,就得
+\end_layout
+
+\begin_layout Standard
+所以原方程有两个相等的根：— 1
+\end_layout
+
+\begin_layout Standard
+(3)如杲 &3 - kco,那末 所以原方程没有实数根.
+\end_layout
+
+\begin_layout Standard
+从上面所说的,可以得到；一元二次方程0^+6*+<! 0(fl—0)的求根公式：
+\end_layout
+
+\begin_layout Standard
+在解一元二次方程时，我们只要把方程中各项系数七 代入上面这个公式，就可以求得原方程的两个裉.这 种解方程的方法，叫做公式法，
+\end_layout
+
+\begin_layout Standard
+用公式法可以求得任何一元二次方程的两个根（只要 方程有实数根)，但是解某些一元二次方程，用因式分解法 或者两边开平方的方法比较简便,这时,就不一定用公式法
+ 来解.
+\end_layout
+
+\begin_layout Standard
+解下列方程：
+\end_layout
+
+\begin_layout Standard
+(1) 2^3+8i»-7-0；
+\end_layout
+
+\begin_layout Standard
+<2) ^ - (2-2VT)ir-2V2"'3.
+\end_layout
+
+\begin_layout Standard
+(1) 2#+知-7 = 0.
+\end_layout
+
+\begin_layout Standard
+这里 a-2, &^87 —7.
+\end_layout
+
+\begin_layout Standard
+8D~4x2x (-7) -120.
+\end_layout
+
+\begin_layout Standard
+~~8土
+\backslash
+/120 — 8土 2
+\backslash
+^30 —4士 *v/30
+\end_layout
+
+\begin_layout Standard
+x
+\end_layout
+
+\begin_layout Standard
+所以原方程的裉是
+\end_layout
+
+\begin_layout Standard
+-4+s/30 一 4—
+\backslash
+/涵
+\end_layout
+
+\begin_layout Standard
+卬 i = 2 ，丨 3 ^ 2 — _
+\end_layout
+
+\begin_layout Standard
+(2)把方程写成一觖形式,得
+\end_layout
+
+\begin_layout Standard
+3?-(2-2vT)^-fS~2V^-0.
+ 这里 a-l, — (2〜2、, 2 ), 0 = 3—2V 2 _ b9-4ac= ( — 2 + 2VXfs 一4(3 — 2VT)-
+\end_layout
+
+\begin_layout Standard
+2 — 2VI 土 0
+\end_layout
+
+\begin_layout Standard
+1-V2.
+\end_layout
+
+\begin_layout Standard
+*•• sox=x^=l — 
+\backslash
+/~2 M
+\end_layout
+
+\begin_layout Standard
+所以原方程有两个相等的拫：办=1 —
+\end_layout
+
+\begin_layout Standard
+1.应用公式法解一元二次方程,必须把療方程先写成 一般形式：
+\end_layout
+
+\begin_layout Standard
+aa:a4-&®-f c=0 (d^O),
+\end_layout
+
+\begin_layout Standard
+2.在这个方程里，6s-4ac-0.这个方程有两个相等 的根.
+ .
+\end_layout
+
+\begin_layout Standard
+解关于《的方程：^
+\end_layout
+
+\begin_layout Standard
+3?-a{^c~2a-
+\backslash
+-b) —
+\end_layout
+
+\begin_layout Standard
+整理后，得
+\end_layout
+
+\begin_layout Standard
+a^ —3a®+ (2a2—ab — fcs) — 0,
+\end_layout
+
+\begin_layout Standard
+这里，#的系数是$的系数是一3a/常数项是 2as —a&™62,而
+\end_layout
+
+\begin_layout Standard
+(—3a) 2 — 4 (2a2—ab — ba) =^a2+4o&.-f 46*
+\end_layout
+
+\begin_layout Standard
+-(a+划
+\end_layout
+
+\begin_layout Standard
+所以原方程的根是
+\end_layout
+
+\begin_layout Standard
+3a4-+2& 0 | t 3体一一2b 1
+\end_layout
+
+\begin_layout Standard
+灼。-g-= 2a-i-bJ ^2 =-^~~ =这一办•
+\end_layout
+
+\begin_layout Standard
+这个方程里的字母系数是《和6,因此，不能再写成 b^Aac- {-Zay-^-ab^)的形式，以免混淆,可 以直接写出
+\end_layout
+
+\begin_layout Standard
+(—3«)3 — 4 (2aa — ab — 6a) =aaH-4a6+46a
+\end_layout
+
+\begin_layout Standard
+=(a+26)3.
+\end_layout
+
+\begin_layout Standard
+1.用公式法解下列各方程： (1) 3^-6a：-2=0;
+\end_layout
+
+\begin_layout Standard
+(3) 2^+2^—1=0；
+\end_layout
+
+\begin_layout Standard
+〔5) x(a:+8) =16；
+\end_layout
+
+\begin_layout Standard
+(7) 0.09^-0.2Lr+0*l
+\end_layout
+
+\begin_layout Standard
+⑶ 2#-29尤+60 =
+\end_layout
+
+\begin_layout Standard
+(4) ^+2(c-2-0；
+\end_layout
+
+\begin_layout Standard
+(6) j：(ic—4) —41；
+\end_layout
+
+\begin_layout Standard
+(8) 0.8^+丨=0_3；
+\end_layout
+
+\begin_layout Standard
+(10) v'—|v-2;
+\end_layout
+
+\begin_layout Standard
+(U) 3^+l = 2^y；
+\end_layout
+
+\begin_layout Standard
+(12) 
+\backslash
+/T^+4VT^-2VT=0；
+\end_layout
+
+\begin_layout Standard
+(13) ^^(l+2
+\backslash
+/T)^+
+\backslash
+/T(l-V^)-0；
+\end_layout
+
+\begin_layout Standard
+(14) 2VL—
+\backslash
+/T0^+l卜0.
+\end_layout
+
+\begin_layout Standard
+[提示：（7)〜(10)题可以先化成整数系数•].
+\end_layout
+
+\begin_layout Standard
+2.用公式法解下列各方程,并且计算根的近似值到0.01)： (1〉2^~8a:-f 5=0j ' (2) ^ 2 =0;
+\end_layout
+
+\begin_layout Standard
+(3)
+\end_layout
+
+\begin_layout Standard
+• 9 t>
+\end_layout
+
+\begin_layout Standard
+8.解下列各方程：
+\end_layout
+
+\begin_layout Standard
+(1) (3a:-4)if-(4；z:-3)^ (2) ^-(^^1)3^1；
+\end_layout
+
+\begin_layout Standard
+(3) (^+5)2+(20：-1)2^ (^+5)(2^-1)=67：
+\end_layout
+
+\begin_layout Standard
+(4)
+\end_layout
+
+\begin_layout Standard
+1---r-X (x
+\end_layout
+
+\begin_layout Standard
+)]
+\end_layout
+
+\begin_layout Standard
+解下列关于f的二次方程：
+\end_layout
+
+\begin_layout Standard
+(1) V^ic2 —3ax+a2~0; (2) (d5 — a) *=b {aP — nt3');
+\end_layout
+
+\begin_layout Standard
+(3) (a2—=a2 — b?；
+\end_layout
+
+\begin_layout Standard
+(4) abd—(a4+fcJ)o；+ct3i>3^=0,
+\end_layout
+
+\begin_layout Standard
+[提示:'(2), (3), (4)题用因式分解法来解比较简便.]
+\end_layout
+
+\begin_layout Standard
+5 (1) $是什么值的时候—鈿+12的值等于零？
+\end_layout
+
+\begin_layout Standard
+[解法举例：Or-2)05-6)=^
+\end_layout
+
+\begin_layout Standard
+；Ti — 2； ^ = 6,
+\end_layout
+
+\begin_layout Standard
+所以当或#6时，y的值是零.]
+\end_layout
+
+\begin_layout Standard
+⑶尤是什么值的时候，y=3：3-&c+：L2的值等于一4?
+\end_layout
+
+\begin_layout Standard
+(3) $是卄么值的时候，f+如-9的值和5—刼的直相等?
+\end_layout
+
+\begin_layout Section
+一元二次方程的根的判别式
+\end_layout
+
+\begin_layout Standard
+从上节,我们知道任何一个一元二次方程 aa^+ft^+c^O (a#-0)
+\end_layout
+
+\begin_layout Standard
+都能利用配方法变形成为、
+\end_layout
+
+\begin_layout Standard
+(、b 
+\backslash
+* 6a—4<w V+2^) =4^*
+\end_layout
+
+\begin_layout Standard
+因此，
+\end_layout
+
+\begin_layout Standard
+(1)、当6a—4^>€(时,方程有两个不相等的实数槻！丨
+\end_layout
+
+\begin_layout Standard
+—& + VAa—4 此 —6 — 
+\backslash
+/i^~^4.ac
+\end_layout
+
+\begin_layout Standard
+(2)当&a_4«c = 0时,方程有两个相等的实数根； 1
+\end_layout
+
+\begin_layout Standard
+b
+\end_layout
+
+\begin_layout Standard
+一 IT
+\end_layout
+
+\begin_layout Standard
+(3)当P —4ac<0时,方程没有实数根①.
+\end_layout
+
+\begin_layout Standard
+由此可以看出,一元二次方程0&_0)有； 没有实数根，有两个示相等的实数根还是两个相等的实数, 根,要从护-4虹的值来决定,也就是说’ 6a—4此的值可以.
+\end_layout
+
+\begin_layout Standard
+①将来数的概念从实数范围进一步扩大到复数范围以后，可以艽遘, 当&a_4flc<0时，一元二次方程W十&*十>0:有两个不柜等的處
+\end_layout
+
+\begin_layout Standard
+t说明〕 例1
+\end_layout
+
+\begin_layout Standard
+[解]
+\end_layout
+
+\begin_layout Standard
+判定一元二次方程W+fcr+ciOb+O)的根的性质.
+\end_layout
+
+\begin_layout Standard
+我们把b2-4ac叫做一元二次方程财 («^0)的根的判别式,通常用符号“J”®来表示.
+\end_layout
+
+\begin_layout Standard
+归结起来说:当」>0时，一元二次方程aP + k + c = 0 有两个不相等的实数根；
+\end_layout
+
+\begin_layout Standard
+当」=0时，一元二次方程cP + k+csO有两个相等 的实数根；
+\end_layout
+
+\begin_layout Standard
+当d<0时，一元二次方程c = 0没有实数根.
+\end_layout
+
+\begin_layout Standard
+反过来，一元二次方程咖3 + ^ + c = 0有两个不相等 的实数根的时候，」>0;有两个相等的实数裉的时候，A=0； 没有实数根的时候，」<0.
+\end_layout
+
+\begin_layout Standard
+应该注意，如果只研究一元二次方程^+k+c = 0 (a^O)有没有实数根，而不研究这两个根是不相等的实数 根还是相等的实数根,可以说,当」>0时,一元二次方程
+有 两个实数根；」<0时,方程没有实数根.反过来,一元二次 方程有两个实数根时，—元二次方程没有实数根时， J<0.
+\end_layout
+
+\begin_layout Standard
+在计算判别式的值时,为了避免方程各项系数的错误， 应该先把方程整理成一般形式再代入判别式中计算.
+\end_layout
+
+\begin_layout Standard
+不解方程,判别下列各方程的根的情况：
+\end_layout
+
+\begin_layout Standard
+(1) (2) Idx^ = 24^-9；
+\end_layout
+
+\begin_layout Standard
+/-Q- f-K
+\end_layout
+
+\begin_layout Standard
+(3)枷0—2)，一7; ⑷ =
+\end_layout
+
+\begin_layout Standard
+(1) ./ d=(-7尸—4.2•( —3)=49+24>0,
+\end_layout
+
+\begin_layout Standard
+人这个方程有两个不相等的实数根.
+\end_layout
+
+\begin_layout Standard
+(2)先移项，整寧成一般形式，得16戶一24$+9 = 0.
+\end_layout
+
+\begin_layout Standard
+Y A-= (-24)a-4x16x9 = 576-576-0,
+\end_layout
+
+\begin_layout Standard
+/.这个方程有两个相等的实数根.
+\end_layout
+
+\begin_layout Standard
+①％”是希腊字母黑作delta,
+\end_layout
+
+\begin_layout Standard
+(3)整理后，得3o；3-fe十7=0.
+\end_layout
+
+\begin_layout Standard
+V J=(-6)3-4x3x7-36-84 <0,
+\end_layout
+
+\begin_layout Standard
+••.这个方程没有实数根.
+\end_layout
+
+\begin_layout Standard
+⑷这个方程就是n/^t+2-O,
+\end_layout
+
+\begin_layout Standard
+.•.」=(一^A¥)3 -1-VT*2-2-8
+\backslash
+/y<0,
+\end_layout
+
+\begin_layout Standard
+这个方程没有实数根.
+ w是什么数时，方程^a— (M + 6)a;+m —2 = 0的两个 裉相等？
+\end_layout
+
+\begin_layout Standard
+A= [― (m屮6)]s — 4x9 f、m,~2)
+\end_layout
+
+\begin_layout Standard
+~ma-r- 12m + 36 — 36m+72 =ma — 24^71- + 10B.
+\end_layout
+
+\begin_layout Standard
+如果要使方程fe3— (m-h6)x-hm-2 = 0的两个根相 等,必须」=0.
+\end_layout
+
+\begin_layout Standard
+/.
+ ma — 24m+108 = 0, (m — 6) (m 〜18) — 0,
+\end_layout
+
+\begin_layout Standard
+饥 d = 18,
+\end_layout
+
+\begin_layout Standard
+答：当或者m = 时，方程9»2- (m+6)®
+\end_layout
+
+\begin_layout Standard
+2=0的两个根相等■
+\end_layout
+
+\begin_layout Standard
+A是什么数时』方程fek(2&+l：U+bO有两个不相
+\end_layout
+
+\begin_layout Standard
+等的实数根？
+\end_layout
+
+\begin_layout Standard
+[一（2必+1)]2 —4右■左【4P+4A+1 —4先】
+\end_layout
+
+\begin_layout Standard
+~ 4 右+1,
+\end_layout
+
+\begin_layout Standard
+要使方程淨+ 1>十^0有两个不相等的实数 根,必须」>0.
+\end_layout
+
+\begin_layout Standard
+:• 4丨十IX),
+\end_layout
+
+\begin_layout Standard
+但是,根据一元二次方程的意义,二次项的系数不能是 零i所以，这里&不能是零，也就是说，在丨>-+的范围 里,应该除掉A=o.
+\end_layout
+
+\begin_layout Standard
+• 267
+\end_layout
+
+\begin_layout Standard
+答：当 ■(但 440)时,方程 ba —
+\end_layout
+
+\begin_layout Standard
++ A = 0有两个不相等的实数根.
+\end_layout
+
+\begin_layout Standard
+解这类问题时，必须注意所得的结果不能使二次项的 系数等于零；如果有某些数使二次项的系数为零，应该除 掉.
+\end_layout
+
+\begin_layout Standard
+判别关于*的方程2P— (4m>3)x+2ma+l-0的根 的性质.
+\end_layout
+
+\begin_layout Standard
+_ A= [― (tei + 3)]a —4.2(2m3+l)=24m+l,
+\end_layout
+
+\begin_layout Standard
+(1)当24训+ 1>0时，即时，方程有两个
+\end_layout
+
+\begin_layout Standard
+不相等的实数根；
+\end_layout
+
+\begin_layout Standard
+(2)当24m+l = 0时，即m = -j时，方程有两个
+\end_layout
+
+\begin_layout Standard
+相等的实数根；
+\end_layout
+
+\begin_layout Standard
+(3)当24饥+1<0时，即m< —j时，方程没有实
+\end_layout
+
+\begin_layout Standard
+数根.
+\end_layout
+
+\begin_layout Standard
+求证方程（P屮1)#一2知?+(护+ 4)=0没有实数
+\end_layout
+
+\begin_layout Standard
+要证明这个方程没有实数根,必须证明」<0.现在
+\end_layout
+
+\begin_layout Standard
+—2幻3 — 4(P+1)(妒+4)
+\end_layout
+
+\begin_layout Standard
+—20P —16
+\end_layout
+
+\begin_layout Standard
+=—4(A4 + 4P4-4)
+\end_layout
+
+\begin_layout Standard
+--4(P+2)a.
+\end_layout
+
+\begin_layout Standard
+因为A是任何实数时，（F+2)a—定是正数，那末 -4(Aa+2)a 一定是负数.
+\end_layout
+
+\begin_layout Standard
+所以方程（妒+1>3 — 2^+ (P + 4) =0 —定没有实数
+\end_layout
+
+\begin_layout Standard
+1.不解方程,判别下列各方程的根的倩況:
+\end_layout
+
+\begin_layout Standard
+⑴ 11a;+6=0; ⑶ 紀+7冗+5=0;
+\end_layout
+
+\begin_layout Standard
+(3> +12;c + 9 = 0; (4) 加2_2a:+1 — 0;
+\end_layout
+
+\begin_layout Standard
+(5) 5jp(a:+2) +6 = 0； (6) 9x^4： ^12a；
+\end_layout
+
+\begin_layout Standard
+(7) 5(>3-2) -7；r-0; 〈8) 0.2a:2—5-1-^-jp;
+\end_layout
+
+\begin_layout Standard
+(9) 士:c2- 
+\backslash
+/~5 = 
+\backslash
+TTsc; (10) 4(^+0.9)-2.^
+\end_layout
+
+\begin_layout Standard
+6是什么数时，下列各方程有两个相等的实数根？ 
+\end_layout
+
+\begin_layout Standard
+(1) H++1 u 0; ⑶ 4~0； 
+\end_layout
+
+\begin_layout Standard
+(3) (ft —2)a;+3.~0; (4) (a：—l)2~fer； 
+\end_layout
+
+\begin_layout Standard
+(5) ks?— (6) ^-9+k{x^r3)^ 
+\end_layout
+
+\begin_layout Standard
+(7) (及一l：^ + 2(女—7)丨+2* + 2 = 0; 
+\end_layout
+
+\begin_layout Standard
+(8) {h—2)^—3(而一5S；-h6 ~ 
+\end_layout
+
+\begin_layout Standard
+3.七是什么数时,下列各方程有两个不相等的实数根？
+\end_layout
+
+\begin_layout Standard
+(1) #+(2fc—5)$+妒=0; (2) 2^4*2^-(4ft:-hl)^ (3) 2知2+(说+1)$-—躲.
+\end_layout
+
+\begin_layout Standard
+4.判别下列关于$的二次方程的根的情况： —
+\end_layout
+
+\begin_layout Standard
+(1) a^+2it+m=：0; (2) {??»—2)^—4x+3=0;
+\end_layout
+
+\begin_layout Standard
+(3) 3^™2(3m+l)®+3wa-l=0； ■
+\end_layout
+
+\begin_layout Standard
+(4) (o4-b)a5a—2ast+ Ca—&) ™0,
+\end_layout
+
+\begin_layout Section
+列出方程解应用
+\end_layout
+
+\begin_layout Standard
+*9
+\end_layout
+
+\begin_layout Standard
+列出一元二次方程来觯应用问题，跟前几章里学过的 列出一元一次方程来解应用问通一样主要关键在于正确V 地选择未知数，并且根据題目里数量之间的关系列出方程
+ 来.下面举几个例子来说明.
+\end_layout
+
+\begin_layout Standard
+§ 7.1里的问翅:一块矩形钢板的面积是10平方米,它 的长比宽多3米/求这块钢板的长和宽.
+\end_layout
+
+\begin_layout Standard
+设钢板的宽是-米,那末钢板的长是@+3)米,钢板的 面积是$&+3)平方米…
+\end_layout
+
+\begin_layout Standard
+根据题意,钢板的面积是10平方米,得到方程：
+\end_layout
+
+\begin_layout Standard
+*撕•
+\end_layout
+
+\begin_layout Standard
+a?(^+3) —10,
+\end_layout
+
+\begin_layout Standard
+去括号、移項，得
+\end_layout
+
+\begin_layout Standard
+10 = 0, (® —2)(尤+5) -0,
+\end_layout
+
+\begin_layout Standard
+••• ^： = 2, x2 = —5.
+\end_layout
+
+\begin_layout Standard
+因为钢板的宽不能是负数，5不合题意，所以
+\end_layout
+
+\begin_layout Standard
+«»= 2m 于是;p+3-5,
+\end_layout
+
+\begin_layout Standard
+答：钢板的长是5米，宽是2米，
+\end_layout
+
+\begin_layout Standard
+如果设钢板的长是无米，那末宽是化-3)米.根据《 意，得方程_ 3) = 10.解这方程，得z = 5 - 2不合 题意X所以
+\end_layout
+
+\begin_layout Standard
+有一块长方形的铁皮,长40厘米,宽30厘米.现在把 它的四角各剪去一个小方 块，然后把四边祈起来做成 —只没有盖的盒子，使这个
+\end_layout
+
+\begin_layout Standard
+10-«1
+\end_layout
+
+\begin_layout Standard
+-盒子的底面积是原来铁皮面 积的一半,求这盒子的离(图 7.1).
+ 
+\end_layout
+
+\begin_layout Standard
+设盒子的高是m厘米.
+ a 7i
+\end_layout
+
+\begin_layout Standard
+因为小方块每边长a厘米/所以金子的长和宽分别是 (40-2^)厘米和（30—此）厘米.
+\end_layout
+
+\begin_layout Standard
+根据题意，列得方程：
+\end_layout
+
+\begin_layout Standard
+(40—2疋)(30 -办)=40 X 30 X 备*
+\end_layout
+
+\begin_layout Standard
+M
+\end_layout
+
+\begin_layout Standard
+变形得P- 35r+150-0,即
+\end_layout
+
+\begin_layout Standard
+(疋―30)(；c - 5)^0,
+\end_layout
+
+\begin_layout Standard
+•■• — 30, Zs=5^
+\end_layout
+
+\begin_layout Standard
+^i-SO和q = 5虽然都是正数,但是只有$-5是适合 应用埋的条件的.因为如果盒子的髙是30厘米,那末铁皮 的两边各荽剪去恥厘米，而原来铁皮的长和宽分别只有
+\end_layout
+
+\begin_layout Standard
+m
+\end_layout
+
+\begin_layout Standard
+40厘米和30厘米，显然这是不合理的.
+\end_layout
+
+\begin_layout Standard
+答：盒子的高是5厘米.
+\end_layout
+
+\begin_layout Standard
+把100厘米长的铅丝折成一个长方形的模型.（1)要 便这个长方形的面积是525平 方厘米，它的长和宽应该各是 多少厘米？（2)面积是他5平 方厘米呢？⑶面积是70
+0平
+\end_layout
+
+\begin_layout Standard
+方厘米呢？ '----
+\end_layout
+
+\begin_layout Standard
+设这个长方形的宽是*厘 m 7Z
+\end_layout
+
+\begin_layout Standard
+米，那末它的长是d —彳厘米，它的面积是<50—*)
+\end_layout
+
+\begin_layout Standard
+平方厘米（图7 *2).
+\end_layout
+
+\begin_layout Standard
+(1)当长方形的面积是525平方厘米时,根据鬮童,殚 方程r
+\end_layout
+
+\begin_layout Standard
+^525,
+\end_layout
+
+\begin_layout Standard
+(^-15) ^-35)^0,
+\end_layout
+
+\begin_layout Standard
+人 a；a=35,
+\end_layout
+
+\begin_layout Standard
+50-16-35,恥一35=15/
+\end_layout
+
+\begin_layout Standard
+当长方形的面积是625平方厘米时,根撅題意,n
+\end_layout
+
+\begin_layout Standard
+®(50-ic)-625,
+\end_layout
+
+\begin_layout Standard
+(疋一25)a^0,
+\end_layout
+
+\begin_layout Standard
+•' «i^«a = 25,
+\end_layout
+
+\begin_layout Standard
+50-25-25.
+\end_layout
+
+\begin_layout Standard
+当长方形的面积是700乎方厘米时,根据靥意,死 ^(50-^=700.
+\end_layout
+
+\begin_layout Standard
+d—50a+70(X
+\end_layout
+
+\begin_layout Standard
+•广 A^= (一 50”—4‘1‘706^^00<0.
+\end_layout
+
+\begin_layout Standard
+即
+\end_layout
+
+\begin_layout Standard
+⑶
+\end_layout
+
+\begin_layout Standard
+方程；
+\end_layout
+
+\begin_layout Standard
+即
+\end_layout
+
+\begin_layout Standard
+⑶
+\end_layout
+
+\begin_layout Standard
+方程：
+\end_layout
+
+\begin_layout Standard
+即
+\end_layout
+
+\begin_layout Standard
+/.这个方程没有实数根.
+\end_layout
+
+\begin_layout Standard
+答：C0这个长方形模型的长是35厘米，
+\end_layout
+
+\begin_layout Standard
+宽是15厘米；
+\end_layout
+
+\begin_layout Standard
+(2)这个长方形模型的长和宽都是 25厘米,这时做成一个正方形；
+\end_layout
+
+\begin_layout Standard
+(3)要用W0厘米长的铅丝做成一个 面积是too平方厘米的长方形， 是不可能的.
+\end_layout
+
+\begin_layout Standard
+在问题⑴中，按照方程的解,可以得出长方形的长是 35厘米、宽是15厘米,或者长是15厘米、宽是35厘米,但 是这表明是同一大小的长方形，因此，只要回答一种结果,
+ 不必重复.
+ /
+\end_layout
+
+\begin_layout Standard
+某钢铁厂一月份的钢产暈为_吨，三月份上升到 5202吨,这两个月平均每月增长的百分率是多少？
+\end_layout
+
+\begin_layout Standard
+设平均每月增长的百分率为％那末二月份的钢产量 是（6000+5000^吨，就是5000(1+®)吨；三月份的钢产 量是[5000(1+30+5000(14^)0
+]吨，就是
+\end_layout
+
+\begin_layout Standard
+5600(14^) Ct+W -S000(l+i»)a
+\end_layout
+
+\begin_layout Standard
+吨.根据題意,列方程：
+\end_layout
+
+\begin_layout Standard
+5000(l^a>y = 5202,
+\end_layout
+
+\begin_layout Standard
+即 (l + i&)B-l,0404,
+\end_layout
+
+\begin_layout Standard
+•' 1+怎=±1.0次 ^-0.02, a;2- -2.02,
+\end_layout
+
+\begin_layout Standard
+因为增长率不能为负数，所以只能取^0力2 = 2洚.
+\end_layout
+
+\begin_layout Standard
+答：平均每月增长的百分率是2%.
+\end_layout
+
+\begin_layout Standard
+1.两个连续奇数的积是195,求这两个数.
+\end_layout
+
+\begin_layout Standard
+[提示：设一个奇数是S那末另一个奇数就是04^或尤-2.]
+\end_layout
+
+\begin_layout Standard
+2_两个数的和是一积是-求这两个数.
+\end_layout
+
+\begin_layout Standard
+3三个连渎正整数中,前两个数的平方和等于第三个數的平方，求 这三个教.
+\end_layout
+
+\begin_layout Standard
+4.
+ 一个两位数等于它个位上的数的平方，个位上的数比十位上的 数大3,求这个两位数.
+\end_layout
+
+\begin_layout Standard
+5.某木民公社为了增产粮食，计划开辟一块面积是10800平方米 的长方形水稻田，并且要使它的宽是长的75%,求这块水稻田 的周长，
+\end_layout
+
+\begin_layout Standard
+6.某Z人从一块正方形的铁片上截去3尺宽的一条长方形，剩下 的面积是40平方尺•原来这块铁片的面积是多少？
+\end_layout
+
+\begin_layout Standard
+7.两个正方形的面积的和是106平方厘米，它们周长的差是16厘 米，这两个正方形的边长各是多少？
+\end_layout
+
+\begin_layout Standard
+S.用一块长方形的铁皮，把它的四角各自剪去一个边长是4厘米 的小方块，然后把四边折起来，做成一个没有盖的盒子.已知铁 片的长是宽的2倍，做成盒子的容积是1S36立方
+厘米，求这块 铁片的长和宽.
+\end_layout
+
+\begin_layout Standard
+9.有一块长30寸、宽20寸的铁板，要在它上面挖成一个面 20G平方寸的长方形的孔，并且使剩下四周一样宽，这个孔荜* 挖在什么地方？
+\end_layout
+
+\begin_layout Standard
+10.—张长20寸、宽16寸的年画,要在它的四周镲上一条同样宽的
+\end_layout
+
+\begin_layout Standard
+1 Q
+\end_layout
+
+\begin_layout Standard
+金色纸边.如果要使金边的面积是年画面积的金边的II应: 该是多少？
+\end_layout
+
+\begin_layout Standard
+[提示：第9和10两题，先根据题意画出一张示意图,然后列方 程
+\end_layout
+
+\begin_layout Standard
+11.要做一个容积是750立方厘米、高是6厘米、底面的长比宽多.5 厘米的长方体匣子，底面的长和宽应该各是多少？（精确到0.1 厘米.) *
+\end_layout
+
+\begin_layout Standard
+12.如图,在宽为20米、长为32米 的矩形地面上，修筑同样宽的 两条互相垂直的道路，余下的 部分作为耕也要使耕地的面 .
+ 
+\end_layout
+
+\begin_layout Standard
+积力540平方米，道珞的贫应 ^-—：
+\end_layout
+
+\begin_layout Standard
+该是多少米？ （第12埋）
+\end_layout
+
+\begin_layout Standard
+13解放前,老贫农杨大爷向地主借了玉米50斤，刚过两年,地主按 “利滚利”计算，硬要杨大爷还玉米，算一箅，这笔阎王债 的年利率是多少？ # •
+\end_layout
+
+\begin_layout Standard
+14-某生产队的锒食产貴在两年内从60万斤增加到72.6万斤，平 均每年增产的百分率是多少？
+\end_layout
+
+\begin_layout Standard
+15.油质育每•素每瓶售价原来是4.01元，经过两次大輻度降#后， 每瓶售价降低为U元，求平均每次降价百分之几(精知到 1%),
+\end_layout
+
+\begin_layout Standard
+16有一个两位数，它十位上的数与个位上的数的和是8,如果把十 位上的数和个位上的数调换后所得的两位数，乘以原来的两位 数就得1S55,原来的数是什么？如果乘以原
+来的数得1936呢?
+\end_layout
+
+\begin_layout Standard
+能不能得26^3呢？
+\end_layout
+
+\begin_layout Section
+一元二次方程的根与系数的关系
+\end_layout
+
+\begin_layout Standard
+在前面我们已经看到,一元二次方程
+\end_layout
+
+\begin_layout Standard
+a^-
+\backslash
+-bx^-o = ^ (a^O),
+\end_layout
+
+\begin_layout Standard
+当它的判别式d = M — 4oc>0时,它的两个拫％和抑可以 用系数
+\backslash
+ c的代数式表示出来：
+\end_layout
+
+\begin_layout Standard
+— b-h
+\backslash
+/Wa—4ao
+\end_layout
+
+\begin_layout Standard
+& =-25-， ⑴
+\end_layout
+
+\begin_layout Standard
+—6 — 
+\backslash
+^bs—4fZG
+\end_layout
+
+\begin_layout Standard
+^-‘ ⑶
+\end_layout
+
+\begin_layout Standard
+现在我们来讨论相反的问题：怎样应用一元二次方程 o^+k+C = 0(>#0)的两个根％和％的表达式来表示它 的系数~
+\end_layout
+
+\begin_layout Standard
+观察上面根的表达式(1)和(2),容易看出：
+\end_layout
+
+\begin_layout Standard
+1.把两个根相加,就可得到
+\end_layout
+
+\begin_layout Standard
+一 6 + 
+\backslash
+/ &a — 4ao ~h_
+\backslash
+JV2 — 4：ao
+\end_layout
+
+\begin_layout Standard
+2a 2a
+\end_layout
+
+\begin_layout Standard
+~2b _ b 2a a ’
+\end_layout
+
+\begin_layout Standard
+2.把两根相乘,就可得到
+\end_layout
+
+\begin_layout Standard
+— b]-y/b'J — 4ao —b — 
+\backslash
+/bi—4ac 2^---Ya-
+\end_layout
+
+\begin_layout Standard
+(—fc)^- (
+\backslash
+/—4ao)s 4ac o
+\end_layout
+
+\begin_layout Standard
+—id — ^
+\end_layout
+
+\begin_layout Standard
+这样，我们就可以得到一元二次方程的根与系数的关 系是：
+\end_layout
+
+\begin_layout Standard
+设+ k + c二0 (<7^0)的两个根是 办，那末
+\end_layout
+
+\begin_layout Standard
+, 6
+\end_layout
+
+\begin_layout Standard
+%+a广-—；
+\end_layout
+
+\begin_layout Standard
+o
+\end_layout
+
+\begin_layout Standard
+畈•处=7,
+\end_layout
+
+\begin_layout Standard
+--元二次方程根与系数的关系-
+\end_layout
+
+\begin_layout Standard
+这就是说，一元二次方程的两个根的和，等于它昀一次 项系数除以二次项系数所得的商的相反数i两个根的积,響 于它的常數项除以二次项系数所得的商，
+\end_layout
+
+\begin_layout Standard
+根与系数的这种关系通常也把它叫做韦达定理®.
+ 如果把方程+ (a —0)变形为
+\end_layout
+
+\begin_layout Standard
+a?-H—=0,
+\end_layout
+
+\begin_layout Standard
+★ Gt €t -
+\end_layout
+
+\begin_layout Standard
+a a
+\end_layout
+
+\begin_layout Standard
+式：
+\end_layout
+
+\begin_layout Standard
+从而按韦达定理,可以得出：
+\end_layout
+
+\begin_layout Standard
+如果方程a^+3^+5-0的两个根是％和 Xsi,那末
+\end_layout
+
+\begin_layout Standard
+Xj -bxa^ —p, iCi*®2 = gfc ——简化一元二次方程的根与系数的关系——
+\end_layout
+
+\begin_layout Standard
+①韦达是法国数学家<i540年一1603年
+\end_layout
+
+\begin_layout Standard
+Uft«
+\end_layout
+
+\begin_layout Standard
+应用韦达定理，求下列关于*的方程t两根的和与两 根的积：
+\end_layout
+
+\begin_layout Standard
+(1) 3^-
+\backslash
+-7x — 2
+\end_layout
+
+\begin_layout Standard
+(2) oa^+e = 0;
+\end_layout
+
+\begin_layout Standard
+(3) aa^=^0；
+\end_layout
+
+\begin_layout Standard
+⑷ a?+ &$ = ()♦
+\end_layout
+
+\begin_layout Standard
+设方程的两个根是A和吻，
+\end_layout
+
+\begin_layout Standard
+7 2
+\end_layout
+
+\begin_layout Standard
+(1) %+a；s — —g-； x±*x2^
+\end_layout
+
+\begin_layout Standard
+(2) Xx = 0; Xi*X2 =—,
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+(3) a^+apa = 0; =
+\end_layout
+
+\begin_layout Standard
+j
+\end_layout
+
+\begin_layout Standard
+(4) £tx~h(^n ---;
+\end_layout
+
+\begin_layout Standard
+Qt
+\end_layout
+
+\begin_layout Standard
+1.从第（2)题可以知道，如果方程的两个根互为相反 数,那末一次项系數一定等于0.
+\end_layout
+
+\begin_layout Standard
+2.从第（3),⑷题可以知道,如臬方程有一个根是0, 那末常数项一定等于0.可与§7.2中的结论相比较.
+\end_layout
+
+\begin_layout Standard
+1.不解下列关于$的方程,求两根的和与两根的积:
+\end_layout
+
+\begin_layout Standard
+(1) ^-7^2-0； (2) 2ira-5-0；
+\end_layout
+
+\begin_layout Standard
+(3) 3a^+4a:=0; (4)
+\end_layout
+
+\begin_layout Standard
+(5) 2^-5^=2i (6) |^+知=1;
+\end_layout
+
+\begin_layout Standard
+(7) V^2"^-4^3"^»2
+\backslash
+/2"-0；
+\end_layout
+
+\begin_layout Standard
+〈8) ac^—2ax 4- a3=(9) (a2—bs)jc9—^abx—a2— (10) fl&ic2—(a*+&4〉a：十 W=0,
+\end_layout
+
+\begin_layout Standard
+2-下列答案有没有镨误？如果有错误,应该怎样改正？
+\end_layout
+
+\begin_layout Standard
+(1)方程的两根的和是9;
+\end_layout
+
+\begin_layout Standard
+(2)方程2^—ftr+5-O的两根的和是9;
+\end_layout
+
+\begin_layout Standard
+(3)方程紀―9^5的两根的积是
+\end_layout
+
+\begin_layout Standard
+W方程知的两根的和是—!*•
+\end_layout
+
+\begin_layout Section
+韦达定理的应用
+\end_layout
+
+\begin_layout Standard
+应用韦达定理,可以不通过解方程来解下面几种问*:
+\end_layout
+
+\begin_layout Standard
+1.已知一个一元二次方程的一个根，求另一个根
+\end_layout
+
+\begin_layout Standard
+设方程财2 + &+0=0 (a — O)的两个根是办和办，梭
+\end_layout
+
+\begin_layout Standard
+•据韦达定理,可以知道，
+\end_layout
+
+\begin_layout Standard
+.
+ & 0
+\end_layout
+
+\begin_layout Standard
+巧十名3=--, = —•
+\end_layout
+
+\begin_layout Standard
+Cb CS
+\end_layout
+
+\begin_layout Standard
+如果巳知办中的任何一个，就可以代入上面关系式里 的任何一个而求得另一个根，并且还可以用另一个关系式 来检验.
+\end_layout
+
+\begin_layout Standard
+例1 已知4^，1=Lb+6=0有一个根是2,求它的另一个襁.
+ [解] 设另一个根是匕那末
+\end_layout
+
+\begin_layout Standard
+• —3
+\end_layout
+
+\begin_layout Standard
+答：另一个根是
+\end_layout
+
+\begin_layout Standard
+〔说明〕 本题也可以从吒求得证明计算投有 错误，
+\end_layout
+
+\begin_layout Standard
+2.已知一个方程的两个根,作出这个方程
+\end_layout
+
+\begin_layout Standard
+设吻和吻是一元二次方程的两个根，那末这个方繼 就可以表示成
+\end_layout
+
+\begin_layout Standard
+Or-A) (x-x^) =0m 也就是 ①2 —+
+\end_layout
+
+\begin_layout Standard
+所以只要把已知两个裉的和的;jg反法方程的一次項
+\end_layout
+
+\begin_layout Standard
+系数'两根的积做常数项，而把二次项系数作为1,这样，就 能作出这个方程，
+\end_layout
+
+\begin_layout Standard
+求作一元二次方程,使它的两个根是：
+\end_layout
+
+\begin_layout Standard
+⑴可和一(2) 3+%/2 和 3 —
+\end_layout
+
+\begin_layout Standard
+(1)设所求的一元二次方程是那末
+\end_layout
+
+\begin_layout Standard
+^ 音 X( 一 3|) 一誓.
+\end_layout
+
+\begin_layout Standard
+所以所求的方程是 ’
+\end_layout
+
+\begin_layout Standard
+, 27 ^ - 0
+\end_layout
+
+\begin_layout Standard
+X ^ x 5 _U,
+\end_layout
+
+\begin_layout Standard
+去分母，得
+\end_layout
+
+\begin_layout Standard
+10^ + 27^-28-0.
+\end_layout
+
+\begin_layout Standard
+答：所求的方程是10^+27$—28 = 0.
+\end_layout
+
+\begin_layout Standard
+(2)设所求的一元二次方程是#+辦+g = 0，那末 p ~ 一 [(这 + 2) + (3 — x^2™) ] 5=1 一
+\end_layout
+
+\begin_layout Standard
+卜(3+VY) (3~ VT) =7.
+\end_layout
+
+\begin_layout Standard
+所以所求的方程長
+\end_layout
+
+\begin_layout Standard
+a?a—6a?+7 = 0,
+\end_layout
+
+\begin_layout Standard
+答：所求的方程是# 一6^+7 = 0.
+\end_layout
+
+\begin_layout Standard
+1，设所求方程时，只须设一元二次方程的简化形 式：V+p+9^0,这祥可以减少计算上的繁琐.如果所求 方程的二次项系数原来并不是1,那末在计算夕和^?的值
+ 时，会得到分数，这时去分母后所得的方程，它的二次项系 数必然不等于1,例如第（1)题可以说明这一点.
+\end_layout
+
+\begin_layout Standard
+2.所求的方程，遇有分数系数时，通常要把它变形成 为整数系数的方程.
+\end_layout
+
+\begin_layout Standard
+3.这种类型铂问題，在熟练之后，遇到已知两个根是
+\end_layout
+
+\begin_layout Standard
+比较简单时,可以直接写出所求的一元二次方程来,不必仍 按上面那样的格式书写.
+\end_layout
+
+\begin_layout Standard
+例
+\end_layout
+
+\begin_layout Standard
+mi
+\end_layout
+
+\begin_layout Standard
+已知两数的和与积，求这两个数
+\end_layout
+
+\begin_layout Standard
+利用根与系数的关系，我们可以把所求的两个数当作 护这样形式的一元二次方程（二次项系数作为 1)的两个根,也就是说,把已知两数的和的相反数做一次项
+ 系数，两数的积做常数项而得出一元二次方程.然后解这 个一元二次方程,那末方程的两个根就是所求的两个数.
+\end_layout
+
+\begin_layout Standard
+3 已知两个数的和等于10,它们的积等于22,求这两个 数.
+\end_layout
+
+\begin_layout Standard
+根据根与系数的关系,得出方程
+\end_layout
+
+\begin_layout Standard
+^腰
+\end_layout
+
+\begin_layout Standard
+7-9
+\end_layout
+
+\begin_layout Standard
+(1)
+\end_layout
+
+\begin_layout Standard
+^^10^+22-0,
+\end_layout
+
+\begin_layout Standard
+解这个方程，得到它@两个根是 —
+\end_layout
+
+\begin_layout Standard
+这就是所求的两个数.
+\end_layout
+
+\begin_layout Standard
+答：这两个数是5+#和5 — #.
+\end_layout
+
+\begin_layout Standard
+1.
+ (1)已知方程2^—鈿—3=0的一个根是3,求它的另一个根； (2>已知方程#一釭+1=0的一个根是2+Vr,求它的另一
+\end_layout
+
+\begin_layout Standard
+个根；
+\end_layout
+
+\begin_layout Standard
+(3) 1是不是方程紀-64^+舡=0的根？求这个方程的另— 个根；
+\end_layout
+
+\begin_layout Standard
+(4) 1是不是二次方程—a)=0的根? 它的另一个根是什么？ (a—6-^0.)
+\end_layout
+
+\begin_layout Standard
+2.求作一个二次方程,使它的两个根是：
+\end_layout
+
+\begin_layout Standard
+(1)-音和音；
+\end_layout
+
+\begin_layout Standard
+(3) -7 和 0;
+\end_layout
+
+\begin_layout Standard
+(5> 2VT+1 和 2
+\backslash
+/U’
+\end_layout
+
+\begin_layout Standard
+(2) 0.6和0_5;
+\end_layout
+
+\begin_layout Standard
+VT 〜VT
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+)y
+\end_layout
+
+\begin_layout Standard
+C4
+\end_layout
+
+\begin_layout Standard
+和
+\end_layout
+
+\begin_layout Standard
+-b
+\end_layout
+
+\begin_layout Standard
+a—b >M a-
+\backslash
+-b 4 已知两个数的和与它们的积分别等芽苄列各数，隶这两个
+\end_layout
+
+\begin_layout Standard
+•Tf%
+\end_layout
+
+\begin_layout Standard
+(1)和等于一S,积等于一 14;
+\end_layout
+
+\begin_layout Standard
+13 3 w
+\end_layout
+
+\begin_layout Standard
+C2)和等于I，积等于一I;
+\end_layout
+
+\begin_layout Standard
+(3)和等于V了;积等于
+\end_layout
+
+\begin_layout Standard
+(4)和等于如,积等于如2 —必2,
+\end_layout
+
+\begin_layout Standard
+e知一个一元二次方程，不解这个方程，求一元二次方程根的 对称式的值
+\end_layout
+
+\begin_layout Standard
+设h和办是一元二次方程a^ + 6a!+c-0(a—0)的 两个根.我们来考察下面这些代数式：
+\end_layout
+
+\begin_layout Standard
+这些代数式有着一个共同的特点，就是把办和吻交换以 后，除去位置变换以外』原来的式子并不改变.例如，把匆 和物交换以后，M + 4变成了趟+W,只是把巧和勿交換
+ 了一个位置.象这样的代数式，我们把它叫做一元二次方 程根的对称式.
+\end_layout
+
+\begin_layout Standard
+一元二次方程根的对称式，经过恒等变形以后都可以 用关于（而+而）和〜^的代数式表示出来.柄如：
+\end_layout
+
+\begin_layout Standard
+, ■
+\end_layout
+
+\begin_layout Standard
+■ ■
+\end_layout
+
+\begin_layout Standard
+(3) + («1 + 而）~ 秘3 +
+\end_layout
+
+\begin_layout Standard
+^ (怎1+吻）— 8o^a：fl]
+\end_layout
+
+\begin_layout Standard
+=(x!^x2) [Oi+irs)a —32^]
+\end_layout
+
+\begin_layout Standard
+={xx-
+\backslash
+-x2)a — S^a(x±-
+\backslash
+-x2) •
+\end_layout
+
+\begin_layout Standard
+1 1 Jl 
+\backslash
+ J2, 〔 1 〜'.a 2x±Xa
+\end_layout
+
+\begin_layout Standard
+畚
+\end_layout
+
+\begin_layout Standard
+应用这种变换和韦达定理，我们就可以不觯方程求出
+\end_layout
+
+\begin_layout Standard
+一元二次方程根的对称式的值.
+\end_layout
+
+\begin_layout Standard
+例4 已知方程紀+細-3-0.不解方程，求出：（1)它的
+\end_layout
+
+\begin_layout Standard
+两个根的平方和；（2〉它的两个根的负倒数的和.
+\end_layout
+
+\begin_layout Standard
+0»] 设方程的两个根是而和那宋根据韦达定理，
+\end_layout
+
+\begin_layout Standard
+3 5
+\end_layout
+
+\begin_layout Standard
+3：1+而=g", ^ 2"*
+\end_layout
+
+\begin_layout Standard
+⑴ g+尤! - (xi -f-办)3 一 2x^x2
+\end_layout
+
+\begin_layout Standard
+^(~f) -2•(-鲁卜7佘
+\end_layout
+
+\begin_layout Standard
+(2) -H —f 丄+丄
+\end_layout
+
+\begin_layout Standard
+3
+\end_layout
+
+\begin_layout Standard
+_ 答/两个根的平方和是7.,两个 ' 根的负倒数的和是
+\end_layout
+
+\begin_layout Standard
+5*已知一个二次方程，不解这个方程，求作男一个二次方程，*它 的核与两方程的根有某些特殊关系
+\end_layout
+
+\begin_layout Standard
+例如,求作一个二次方程，使它的两个根是原方程的两 个根的平方,或者是原方程的两个根的倒数等.
+\end_layout
+
+\begin_layout Standard
+' 设原方程的两个根是巧和办，根据韦达定理，躭可以
+\end_layout
+
+\begin_layout Standard
+求得原方程的两根的和与两裉的积的值，根据題目里所鎗 新方程的两根与原方程的两根的关系，可以用吻和吻的 代数式写出求作方程的两个裉;并且按照第4準问題那样,
+ 还可以求得新方程的两根的和与两根的积的值.再应用韦 达定理，就可以求得新方程的系数，林而得出所求的方程 来* ...1 ： 1'
+\end_layout
+
+\begin_layout Standard
+例5 已知方程P-如-不解这个方程，求作一个新 的一元二次方程，使新方程的根是原方程各根的立方*
+\end_layout
+
+\begin_layout Standard
+WH 设方程？ —3$-4 = 0的两个根是句和〜那末
+\end_layout
+
+\begin_layout Standard
++^2 = 3, tCjXa — — 4,
+\end_layout
+
+\begin_layout Standard
+设所求的新方程是
+\end_layout
+
+\begin_layout Standard
+y2-i-pi/-hg = 0,
+\end_layout
+
+\begin_layout Standard
+它的两个根是3/i和仍，那末
+\end_layout
+
+\begin_layout Standard
+= (j^i + ^3)s-3wx^2 (^1+^3)
+\end_layout
+
+\begin_layout Standard
+=33-3*(-4)*3^63;
+\end_layout
+
+\begin_layout Standard
+■ ^4(4=(而％)s-(-4)s- -61,
+\end_layout
+
+\begin_layout Standard
+因此， p=—(奶+妁）=—63，
+\end_layout
+
+\begin_layout Standard
+? = S/a^= 一 64_
+\end_layout
+
+\begin_layout Standard
+所以所求的新方程是
+\end_layout
+
+\begin_layout Standard
+y — 63y—64 = 0.
+\end_layout
+
+\begin_layout Standard
+答:所求的方程是炉一 63#—64 = 0.
+\end_layout
+
+\begin_layout Standard
+〔说明〕 1.
+ 吻)3 —3巧吻(朽+如)见第4类问《
+\end_layout
+
+\begin_layout Standard
+的(3).
+\end_layout
+
+\begin_layout Standard
+^解这种题目的步骤可以参照下列图表的輕序：
+\end_layout
+
+\begin_layout Standard
+,原方程一'^原方程的两根的和与两根的积的值
+\end_layout
+
+\begin_layout Standard
+新方程的两根的和与两根的积的值
+\end_layout
+
+\begin_layout Standard
+新方程 <-新方程的系数
+\end_layout
+
+\begin_layout Standard
+6.利用给出的条件,确定一个一元二次方程中某些字母系数的值
+\end_layout
+
+\begin_layout Standard
+根据韦达定理,列出含有某些字母的关系式,再解关于 这个字母的方程,从而就可求得这个字母的值.
+\end_layout
+
+\begin_layout Standard
+供《 巳知方程2V +知十mkO的两个根的平方和是队求 肌的值.
+\end_layout
+
+\begin_layout Standard
+设原方程的两个根是％和那末
+\end_layout
+
+\begin_layout Standard
+—2^=^ —2， x
+\backslash
+ -Ixl = (xx-hx^)0-2秘a
+\end_layout
+
+\begin_layout Standard
+~ 2)a — 2* (寻)~ 4 — ^
+\end_layout
+
+\begin_layout Standard
+根据題意，得W+鸿= 34.
+\end_layout
+
+\begin_layout Standard
+■•• 4：—m^S4, m— —30.
+\end_layout
+
+\begin_layout Standard
+答：讯的值是-30.
+\end_layout
+
+\begin_layout Standard
+1.设巧和抑是方悝的两个根，不解这个方程,求T 列各式的值： -
+\end_layout
+
+\begin_layout Standard
+(1)互+至； (2) W+而办+4;
+\end_layout
+
+\begin_layout Standard
+ct-i xt
+\end_layout
+
+\begin_layout Standard
+(3) ^i-2)fe^2)； (4>
+\end_layout
+
+\begin_layout Standard
+2.不解方程,作一个新的二次方程，使它的两个根：
+\end_layout
+
+\begin_layout Standard
+(1)分别是方程6^-公一2=0的两个根的倒数；
+\end_layout
+
+\begin_layout Standard
+(2)分别是方程紀+5$-10=0的两个根的3倍；
+\end_layout
+
+\begin_layout Standard
+(3)分别是方程20-5z=12的两个根的平方；
+\end_layout
+
+\begin_layout Standard
+(4)分别是方程3F-5^=5的两个根的负数；
+\end_layout
+
+\begin_layout Standard
+(5)分别是方程—3=0的两个根的负倒数：
+\end_layout
+
+\begin_layout Standard
+(6)分别比方程的两个根大3.
+\end_layout
+
+\begin_layout Standard
+3.
+ (1)已知方程怖ic+21-fl的两个根的平方和是58,求w的
+\end_layout
+
+\begin_layout Standard
+值；
+\end_layout
+
+\begin_layout Standard
+(2)已知方程a:2+2r+rrt = 0的两个根的差的平方是16,求w的 值；
+\end_layout
+
+\begin_layout Standard
+(3)已知方程#+ ^ + w = 0的两个根的差是5，求w的值；
+\end_layout
+
+\begin_layout Standard
+(4)已知方程#+3$+州=0的一个根是另一个根的2倍，求m
+\end_layout
+
+\begin_layout Standard
+的值.
+ ，
+\end_layout
+
+\begin_layout Standard
+4.
+ (1)已知方程2^+啲-2抑+1=0的两个根的平方的和是
+\end_layout
+
+\begin_layout Standard
+7^-,求w的值；
+\end_layout
+
+\begin_layout Standard
+(2)已知方程3^2 + (w十l);c+(m-4) = 0的两个根互为相反的 数，求忉的值.
+\end_layout
+
+\begin_layout Standard
+M3
+\end_layout
+
+\begin_layout Section
+二次三项式的因式分解
+\end_layout
+
+\begin_layout Standard
+在代数第一册里,我们曾经学过在有理数范围里，分解 某些二次三项式的方法.现在我们来研究，怎 样在实数范围里分解一般的二次三项式的因式.
+\end_layout
+
+\begin_layout Standard
+首先，我们采用加一项减一项的方法把这个二次三项 式的前二项配成一个完全平方式：
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+?+2(士X去）-(
+\end_layout
+
+\begin_layout Standard
+b
+\end_layout
+
+\begin_layout Standard
+2a A 
+\backslash
+ 2a b 
+\backslash
+a b3—4<zo
+\end_layout
+
+\begin_layout Standard
+2a
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+2a
+\end_layout
+
+\begin_layout Standard
+Aa3
+\end_layout
+
+\begin_layout Standard
+如果那末因为4如
+\end_layout
+
+\begin_layout Standard
+2a
+\end_layout
+
+\begin_layout Standard
+)
+\end_layout
+
+\begin_layout Standard
+/上
+\end_layout
+
+\begin_layout Standard
+式就可以写成
+\end_layout
+
+\begin_layout Standard
+応+。=邙
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+X
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+2a
+\end_layout
+
+\begin_layout Standard
+X —
+\end_layout
+
+\begin_layout Standard
+X
+\end_layout
+
+\begin_layout Standard
+b -J b^—Arn
+\end_layout
+
+\begin_layout Standard
+2a 2a
+\end_layout
+
+\begin_layout Standard
+b , ^b^—Aao
+\end_layout
+
+\begin_layout Standard
+2a
+\end_layout
+
+\begin_layout Standard
+2a
+\end_layout
+
+\begin_layout Standard
+—& 4- V t2 — 2a
+\end_layout
+
+\begin_layout Standard
+—5 —n/63— 2a
+\end_layout
+
+\begin_layout Standard
+观察上面分解所得的结果，容易看出因式中的 一 fc+x/63—和6 也正是一元二 次方
+\end_layout
+
+\begin_layout Standard
+2a
+\end_layout
+
+\begin_layout Standard
+2a
+\end_layout
+
+\begin_layout Standard
+56 «0?*4-&»4^0 0乒0)的两个根処和办.这就启发我
+\end_layout
+
+\begin_layout Standard
+们分解一般的二次三项式的因式，也可以直接利用一元二 次方程的求根公式,就是
+\end_layout
+
+\begin_layout Standard
+(1)先用求根公式，求出一元二次方程 a^^-bx-]-o=0(a^0)的两个根:^ 和疋3;
+\end_layout
+
+\begin_layout Standard
+(2)再把所给的二次三项式写成^+ bx-
+\backslash
+-G^a(x — a>^) (sc—Xq)的形式*
+\end_layout
+
+\begin_layout Standard
+〔注意〕 （1)如果M-4oo<0, 二次方程役有实数根,这个二次' 三项式在实数范围里就不能分解因式.
+\end_layout
+
+\begin_layout Standard
+(2)因为二次三项式不是一个等式,所以#项的系蕭, 0只能用提取公因式法把它提出，而不能象解一元二次方!' 程那样用两边同除以0的方法,把它消去.
+ 一
+\end_layout
+
+\begin_layout Standard
+例1 分解V —鉍一5的因式， 丨：
+\end_layout
+
+\begin_layout Standard
+[解] 方程办一5=0的裉是
+\end_layout
+
+\begin_layout Standard
+2±^4+20 2土2〜^ g^-2-= 1 士 Vb,
+\end_layout
+
+\begin_layout Standard
+即 a：a = l^-v^6",
+\end_layout
+
+\begin_layout Standard
+人 [ie-(l + VT)].[a:-(1-^/6)] 丨
+\end_layout
+
+\begin_layout Standard
+=(a: — 1 ^ 
+\backslash
+/~Q ) (x—14- v^6~)» j
+\end_layout
+
+\begin_layout Standard
+m 9 分解一w+s^i的因式，
+\end_layout
+
+\begin_layout Standard
+D»] 方程的根是
+\end_layout
+
+\begin_layout Standard
+一8 士 ^64 —16 一8土2^F
+\backslash
+/~W i
+\end_layout
+
+\begin_layout Standard
+仏-Zs-^ — 2—】
+\end_layout
+
+\begin_layout Standard
+„„ 2— v^3~ 2+
+\end_layout
+
+\begin_layout Standard
+BP ^1= 2 i 2 •
+\end_layout
+
+\begin_layout Standard
+=** 一 (2^ 一 2 + s/ 3 ) (2iC 一 2 — ) •
+\end_layout
+
+\begin_layout Standard
+〔说明〕 这里，把4看做2x2,然后撼两冷思式分_以2.
+ |
+\end_layout
+
+\begin_layout Standard
+分解鉍+5的因式，
+\end_layout
+
+\begin_layout Standard
+方程2#-8;r+5=0的根是
+\end_layout
+
+\begin_layout Standard
+8±V64^40 S±2s/^ 4士 V
+\end_layout
+
+\begin_layout Standard
+4--- 
+\backslash
+/ 6 *1 一 ％/ 6
+\end_layout
+
+\begin_layout Standard
+-一 o
+\end_layout
+
+\begin_layout Standard
+■ ‘、D。- “ I 、/ 4— a/6* 
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+,,2^~%x-
+\backslash
+ 0 = 2 
+\backslash
+x — ~—2-八疋一---2-/■
+\end_layout
+
+\begin_layout Standard
+这里系数2无法化去两个因式里的分数，因此保持原 来形式，
+\end_layout
+
+\begin_layout Standard
+1-分解下列二次三项式的因式
+\end_layout
+
+\begin_layout Standard
+(1) ¥+洳-2故 (3)紀 + 2卜 5;
+\end_layout
+
+\begin_layout Standard
+(5) W+t—3;
+\end_layout
+
+\begin_layout Standard
+(7) U-n-x-2x^f ■
+\end_layout
+
+\begin_layout Standard
+(9) xs —5<*j；+a5
+\end_layout
+
+\begin_layout Standard
+(11) 4jP — 4a% -ha* — h*;
+\end_layout
+
+\begin_layout Standard
+02)一 PV—4abx - (W -的.
+\end_layout
+
+\begin_layout Standard
+2.化简下列各分式：
+\end_layout
+
+\begin_layout Standard
+(1) 如+2 ‘ (公）3
+\end_layout
+
+\begin_layout Standard
+(2) W 十 7x+5;
+\end_layout
+
+\begin_layout Standard
+(4)
+\end_layout
+
+\begin_layout Standard
+(6) 3^-25x4-2；
+\end_layout
+
+\begin_layout Standard
+(8) l-*dx^5x；_
+\end_layout
+
+\begin_layout Standard
+(10) ^-66^-(402-9&3);
+\end_layout
+
+\begin_layout Standard
+一5a+ 6, lV~lly+2 *
+\end_layout
+
+\begin_layout Standard
+[提示：先分解分子和分母的因式,再行约简幻 8已知二次三项式W+0+1)jc+(5-w)的两个根相等,求m的 值.
+\end_layout
+
+\begin_layout Section
+二元二次多项式的因式分解
+\end_layout
+
+\begin_layout Standard
+在代数第一册里，我们还曾学过应用十字相乘法在有 理数范围内分解某些二元二次多项式.例如，2W+吵一3# 或者#|柯一2々3-a+7y-6的方法.一个关于A
+ 1的二 次多项式,如果把其中的一个宇母看作常数,那末也就可以 把它变形成关于另一个宇母的二次三项式.例如
+\end_layout
+
+\begin_layout Standard
+2X2 l-xy—3^ = 2^ —
+\end_layout
+
+\begin_layout Standard
+— £C+Y 沒 _ 0
+\end_layout
+
+\begin_layout Standard
+^^-^-(y~l)x- (2y3-T^+6)
+\end_layout
+
+\begin_layout Standard
+都可看成是关于z的二次三项式，这样我们也就可以应用 上节所学过的方法来分觯它们的因式（如果可以分解的 话)，
+\end_layout
+
+\begin_layout Standard
+分解下列各式的因式
+\end_layout
+
+\begin_layout Standard
+(1) ⑶？+2卿一没'
+\end_layout
+
+\begin_layout Standard
+本題中的(1),可以应用十字相乘法来分解因式.本魉 中的⑵，把夕看成j常数,那末因为（办)3—4(—0)=%* -= (2V"§V)a是一个完全平方式，所以也可应
+用 求根公式来分解因式.
+\end_layout
+
+\begin_layout Standard
+(1) 2ic3+ ；T7/ —(2«-f-3^) {x—y
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+(2)把y看成是常数,方程為^一0^0的根是
+\end_layout
+
+\begin_layout Standard
++ 為.
+\end_layout
+
+\begin_layout Standard
+[>— (一 1 +V 2 )y] x 0- (-l-
+\backslash
+f2)y].
+\end_layout
+
+\begin_layout Standard
+本题中的两个多项式，都含有二个未知数,并且各项的 次数都是2,这样的多項式叫做二元二次齐次三項式，它的 一鷇形式可以写成诚、^十印*.这类多项式，当」-沪
+ -4ac>0时,都可以在实数范围内分解成两个一次因式.
+\end_layout
+
+\begin_layout Standard
+2 分觯 ^+sry—2j#*—— 6 的因式•
+\end_layout
+
+\begin_layout Standard
+把原式整理成为达的二次三项式，并使它等于1得到 方程 —6=0,它的裉是
+\end_layout
+
+\begin_layout Standard
+-(好—1) 士 V {y—i)a+4 (2# — 7y^0) x^~-2
+\end_layout
+
+\begin_layout Standard
+—y+1 土 V只8产一30^-0$ — y+1 士（3y — 5)
+\end_layout
+
+\begin_layout Standard
+即 —2,办=一2女+3.
+\end_layout
+
+\begin_layout Standard
+=0- 仏-2)] 0-（―2// + S)]
+\end_layout
+
+\begin_layout Standard
+^ (尤一 V + 2) Or + 2夕-3), '
+\end_layout
+
+\begin_layout Standard
+本题因为根号内的式子卹3 —卿+25=(勿一5)3是一 个完全平方式，所以才能分解因式.
+ i
+\end_layout
+
+\begin_layout Standard
+i是什么数值时，多项式
+\end_layout
+
+\begin_layout Standard
+2观一3女 a + 3;c —办屮 2 (k^O)
+\end_layout
+
+\begin_layout Standard
+才能分解成两个一次因式？这时分解的结果是什么？
+\end_layout
+
+\begin_layout Standard
+把原式整理成*的二次三项式，并使它等于0,得到方
+\end_layout
+
+\begin_layout Standard
+程
+\end_layout
+
+\begin_layout Standard
+ha? —(时一3)名_ (紀+如一2)广0.
+\end_layout
+
+\begin_layout Standard
+它的根是
+\end_layout
+
+\begin_layout Standard
+2y—3 士 V (2^ - 3)3 + 41(%2+% - 2)
+\end_layout
+
+\begin_layout Standard
+2y — 3 士 sj (12 k+4) f + (20fc 二 12) v — (Sk - 9) 〜、
+\end_layout
+
+\begin_layout Standard
+- ~Y2k • W
+\end_layout
+
+\begin_layout Standard
+原式能够分解成两个一次因式，
+\end_layout
+
+\begin_layout Standard
+(12k + 4) 0 + (20* —12)女一（8A—9) (2)
+\end_layout
+
+\begin_layout Standard
+必须是一个完全平方式，因此方程
+\end_layout
+
+\begin_layout Standard
+(12A + 4)j^+(2'0A —12)^/一（8i — 9) =0
+\end_layout
+
+\begin_layout Standard
+0须有等裉.所以
+\end_layout
+
+\begin_layout Standard
+^ (20k一 12)s + 4(12h^4) (Sk 一9) = 0,
+\end_layout
+
+\begin_layout Standard
+化简后得 i：(A-i> = o.
+\end_layout
+
+\begin_layout Standard
+^==0 或者 i = l.
+\end_layout
+
+\begin_layout Standard
+伹是题设0,所以只能取fc = l.
+\end_layout
+
+\begin_layout Standard
+当A = 1时,代入(2),得
+\end_layout
+
+\begin_layout Standard
+(12A+4) 2/^ + (20i.—12) y 一（8A - 9)
+\end_layout
+
+\begin_layout Standard
+=16j/a 4-8^ rfl = (4^+1)a.
+\end_layout
+
+\begin_layout Standard
+代入(1),得
+\end_layout
+
+\begin_layout Standard
+由此得
+\end_layout
+
+\begin_layout Standard
+2^3^ — 3 2/^ + 一 +2
+\end_layout
+
+\begin_layout Standard
+=(<c—3y-
+\backslash
+-l) (x-
+\backslash
+-y+2)^
+\end_layout
+
+\begin_layout Standard
+« 1.分解下列各式的因式：
+\end_layout
+
+\begin_layout Standard
+7 • 11 (1) — 2frs + lhr,y — 13j/2； (2) + 5aJ>^y — 3b3va；
+\end_layout
+
+\begin_layout Standard
+(3) ^-2xy-2tf； <4) P+均
+\end_layout
+
+\begin_layout Standard
+(5) j^ + 6^/ + 7j/2; (6) 4^ 一 4^cy™y3.
+\end_layout
+
+\begin_layout Standard
+2.分解下列各式的因式
+\end_layout
+
+\begin_layout Standard
+(1) 2；^+吻一3y2+a:~My—1; (2) 6^3-t-a:+7y—2^
+\end_layout
+
+\begin_layout Standard
+(3) 6^—icy—ISf/5—5^-f 21y—6；
+\end_layout
+
+\begin_layout Standard
+(4) W-23^-5^H-133：-h&/-3.
+\end_layout
+
+\begin_layout Standard
+"3.
+ w是什么数值时，12^—10吻+V+l!a:-5汉+m能分解成两
+\end_layout
+
+\begin_layout Standard
+个一次因式？这时求得的结果是什么？
+\end_layout
+
+\begin_layout Standard
+*4.
+ m是什么数值时，崎+妒—匆-2能分解成两个一次因 式？这时求得的结果是什么？
+\end_layout
+
+\begin_layout Section
+可化为一元二次方程的整式方程的解法
+\end_layout
+
+\begin_layout Standard
+—个整式方程'经过整理以后，如果只含有一个未知 数，并且未知数的最髙次数大于1这样的方程叫做一元 高次方程.例如，^-25^4-144=0, ⑷+鉍)3-
+ 1403+鉍）一 15 = 0等等.有些特殊的一元高 次方程,可以利用因式分解或者换元法(见§3‘8)把它们转 化成一元一次方程或者一元二次方程来解.下面分别举例
+丨 来说明.
+ *
+\end_layout
+
+\begin_layout Standard
+^利用因式分解法解一元离次方程
+\end_layout
+
+\begin_layout Standard
+例 1 解方程：20—30-14^=0.
+\end_layout
+
+\begin_layout Standard
+Mtt •丨
+\end_layout
+
+\begin_layout Standard
+[审題]
+\end_layout
+
+\begin_layout Standard
+TJ
+\end_layout
+
+\begin_layout Standard
+解
+\end_layout
+
+\begin_layout Standard
+U
+\end_layout
+
+\begin_layout Standard
+§
+\end_layout
+
+\begin_layout Standard
+C说明〕
+\end_layout
+
+\begin_layout Standard
+这是一个三次方程，方程等号左边各项有公因式a可 以变形成两个因式$与2d —仏一14的积，右边为0.所以 可以利用因式分解法，把它转化为一个一元•-次方程和一
+ 个一元二次方程来解，
+\end_layout
+
+\begin_layout Standard
+原方程可变形成
+\end_layout
+
+\begin_layout Standard
+x (2；i；a — 3a;—14) — 0.
+\end_layout
+
+\begin_layout Standard
+使 ® = •••
+\end_layout
+
+\begin_layout Standard
+使 -14-0，（2怎—7) (x+2)-0,
+\end_layout
+
+\begin_layout Standard
+7
+\end_layout
+
+\begin_layout Standard
+/.
+ —2.
+\end_layout
+
+\begin_layout Standard
+所以原方程的根是负=0, x^，^--2.
+\end_layout
+
+\begin_layout Standard
+L
+\end_layout
+
+\begin_layout Standard
+解方程紀-5r-6 = 0.
+\end_layout
+
+\begin_layout Standard
+这个方程等号的#边是$的三次式，如果它能分解因 式，其中的那个一次舍式,只可能是$±1, $士2, $士3或 所以可以利用综合除法试除,把这种因式找出，然后
+ 转化成一个一元一次方程和一个一元二次方程来解.
+\end_layout
+
+\begin_layout Standard
+1 +2 —5 —6 —1 一 1 -1 +6 1 H-1 一 6 十 0
+\end_layout
+
+\begin_layout Standard
+H
+\end_layout
+
+\begin_layout Standard
+■•, —知―6* (®+l) — 6〉，
+\end_layout
+
+\begin_layout Standard
+原方程可变形成0+1) (ct?-hx-6) =0.
+\end_layout
+
+\begin_layout Standard
+使 疋+1 = 0,得 ％。一 1;
+\end_layout
+
+\begin_layout Standard
+使 — 6 = 即（a： — 2) 0+3) -0,
+\end_layout
+
+\begin_layout Standard
+得 知^2，—3.
+\end_layout
+
+\begin_layout Standard
+所以原方程的根是而=—1, ^3-2, a；3-~3.
+\end_layout
+
+\begin_layout Standard
+一个整数系数的一元三次方程#十?^+辦+ r = 0,如 果它能够用因式分解法来解,都可以采用上题这种方法.如 果经过试除,所有的那些可能的一次因式,都不是方程左
+边
+\end_layout
+
+\begin_layout Standard
+习題 712
+\end_layout
+
+\begin_layout Standard
+⑴
+\end_layout
+
+\begin_layout Standard
+那个三次式的因式,那末这种方程就不含有有理数的根,我 们现在就不能解它.
+\end_layout
+
+\begin_layout Standard
+h解下列方程：
+\end_layout
+
+\begin_layout Standard
+(1)
+\end_layout
+
+\begin_layout Standard
+(3)
+\end_layout
+
+\begin_layout Standard
+2-解下列关于$的方程：
+\end_layout
+
+\begin_layout Standard
+(1) -
+\backslash
+-Sa3 = 0；
+\end_layout
+
+\begin_layout Standard
+3.解下列方程：
+\end_layout
+
+\begin_layout Standard
+(1) ^3-2^-5,r4-.10-0;
+\end_layout
+
+\begin_layout Standard
+(2) 3#+1知2+乜-0; ⑷（# + 2)(料3)二6.
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+(2)沈3—1).
+\end_layout
+
+\begin_layout Standard
+用换元法解一元高次方程
+\end_layout
+
+\begin_layout Standard
+我们来看下面这个方程：
+\end_layout
+
+\begin_layout Standard
+x4-29x^100 = 09
+\end_layout
+
+\begin_layout Standard
+这个方程虽然是z的四次方程，但是,它只含有#项、0项 和常数项，而不含有#项和$项.象这样,只含有未知数 的偶次项的一元四次方程，叫做双二次方程.双二次方程
+ 的r•般形式是：
+\end_layout
+
+\begin_layout Standard
+似;4 +紀+<?=0 (a_0).
+\end_layout
+
+\begin_layout Standard
+解这类方程，我们可以用辅助未知教》来代替式子里 的< 这样就可以用Z来代替.于是上面这个一元四 次方程就改变成关于少的一元二次方程：
+\end_layout
+
+\begin_layout Standard
+这种用辅助未知数解方程的方法,叫做辅助未知数法(也叫 做换元法)，
+\end_layout
+
+\begin_layout Standard
+例如，在上面的方程0-290+100 = 0中，设
+\end_layout
+
+\begin_layout Standard
+那末,原方程就变成 ..
+\end_layout
+
+\begin_layout Standard
+# 一 29^ + 100 = 0,
+\end_layout
+
+\begin_layout Standard
+解这个方程，
+\end_layout
+
+\begin_layout Standard
+(S/-4) (y-25)-0,
+\end_layout
+
+\begin_layout Standard
+* 2flf 灰
+\end_layout
+
+\begin_layout Standard
+求出g的值以后,只要求出每个值的平方根,就可以得 到原方程的根.
+\end_layout
+
+\begin_layout Standard
+当2/1 = 4时，
+\end_layout
+
+\begin_layout Standard
+®9=-4, 士2;
+\end_layout
+
+\begin_layout Standard
+当讥=25时，
+\end_layout
+
+\begin_layout Standard
+a? 25} 士 5.
+\end_layout
+
+\begin_layout Standard
+所以原方程的根是= x2= —2, x3^Bf —5, 解方程：疋4-2&3+144 = 0.
+\end_layout
+
+\begin_layout Standard
+设那末于是原方程就变成 ya -25^-^144 = 0,(女一 9)(罗一 16) = 0,
+\end_layout
+
+\begin_layout Standard
+人 a/i=9,讥=16.
+\end_layout
+
+\begin_layout Standard
+当时，
+\end_layout
+
+\begin_layout Standard
+/* 卒=±3,
+\end_layout
+
+\begin_layout Standard
+当女3=16时，
+\end_layout
+
+\begin_layout Standard
+^-16, •*, 土4.
+\end_layout
+
+\begin_layout Standard
+所以原方程的根是：办=3,吻-—3, %*=4, (r*= -4, 解方程；#+5®3-36由0.
+\end_layout
+
+\begin_layout Standard
+设宁是原方程就变成
+\end_layout
+
+\begin_layout Standard
+p + 5岁—36 = Qp (^—4) (y+&)^0,
+\end_layout
+
+\begin_layout Standard
+/.
+ ^^4, —9.
+\end_layout
+
+\begin_layout Standard
+当时，
+\end_layout
+
+\begin_layout Standard
+^==4, /•如=±2*
+\end_layout
+
+\begin_layout Standard
+当讥=—9时，
+\end_layout
+
+\begin_layout Standard
+-9,
+\end_layout
+
+\begin_layout Standard
+因为任何实数的平方都不能是负数，所以没 有实数根圓
+\end_layout
+
+\begin_layout Standard
+所以原方程只有两个实数根:办=2,足 解方程：^+18^+86-0.
+\end_layout
+
+\begin_layout Standard
+设V-纪得浐+13女+36，0,
+\end_layout
+
+\begin_layout Standard
+0/+4)(双+9卜0,
+\end_layout
+
+\begin_layout Standard
+—4，-9#
+\end_layout
+
+\begin_layout Standard
+也就是 — 4，a:3--9.
+\end_layout
+
+\begin_layout Standard
+这两个方程都没有实数根，所以原方程没有实数根.
+\end_layout
+
+\begin_layout Standard
+从上面三个例子可以看到,解双二次方程时,在利用辅
+\end_layout
+
+\begin_layout Standard
+助未知数y把原方程变成
+\end_layout
+
+\begin_layout Standard
+<^/3+bj/+c = 0 (a^O)
+\end_layout
+
+\begin_layout Standard
+的形式后,如果」=^一4邮>0,就得到方程的两个根扒和 的.如果Vi和如都是正数,就得到®的四个根：沈=±在、 士 如果2/i和3/a中一个是正数,一个是负数，就
+得到® 的两个实根；如果仍和約都是负数，那末原曀¥的双二次方 程没有实数根•
+\end_layout
+
+\begin_layout Standard
+解下列各方程：
+\end_layout
+
+\begin_layout Standard
+1, (1) x4—5d+4=(^ (幻 a;1—13^-f 36=0；
+\end_layout
+
+\begin_layout Standard
+(3) 4^—5i^+l=0; ⑷ 3&C4—25^+ 4=0.
+\end_layout
+
+\begin_layout Standard
+2.
+ (1)疋70—18=0; (2) 2a?4—7^—4=0；
+\end_layout
+
+\begin_layout Standard
+(3) 25^*4-71^-12-0； W a：14-8;c3+15—0,
+\end_layout
+
+\begin_layout Standard
+3.
+ Cl) 2^-19^+9=0； (2) a^—Sic3 4-6=0；
+\end_layout
+
+\begin_layout Standard
+(3) d—24^+144=0; (4) 81a：1-400^=25.
+\end_layout
+
+\begin_layout Standard
+下面我们再举几个利用换元法来解高次方程的例子, 解方程：
+\end_layout
+
+\begin_layout Standard
+Os+2®) a t 14 0®+細）-15 = 0.
+\end_layout
+
+\begin_layout Standard
+设于是原方程就变成 :
+\end_layout
+
+\begin_layout Standard
+j/9 —14^—15 =^0,
+\end_layout
+
+\begin_layout Standard
+(jz+ilo,
+\end_layout
+
+\begin_layout Standard
+/.
+ Vi- -1, Vi -15.
+\end_layout
+
+\begin_layout Standard
+皆—1时，
+\end_layout
+
+\begin_layout Standard
+aj24-2* = — a^-
+\backslash
+-2x-hl = 0t (x-
+\backslash
+-l)s=0,
+\end_layout
+
+\begin_layout Standard
+••.
+ a>i^ —1, xa— — 1*
+\end_layout
+
+\begin_layout Standard
+〔注意3
+\end_layout
+
+\begin_layout Standard
+例7
+\end_layout
+
+\begin_layout Standard
+[审題]
+\end_layout
+
+\begin_layout Standard
+阑]
+\end_layout
+
+\begin_layout Standard
+当夕a; 15时，
+\end_layout
+
+\begin_layout Standard
+ns^-62x --15, ic3+2；c —15=0，($—3) ($+5) =0,
+\end_layout
+
+\begin_layout Standard
+..尤3 = 3, U/4 ~ 一 5,
+\end_layout
+
+\begin_layout Standard
+所以原方程的裉是巧=—1, ^3= —1,巧=3, 一5.
+\end_layout
+
+\begin_layout Standard
+这里当y - —1时，得到# + = -1,方程是成立的, 不能和例4或例5中所讲的— 9或V# -4那样就说 方程没有实数根.
+\end_layout
+
+\begin_layout Standard
+解方程：（2Z - 3«+1)3 = 22；^ — 3鉍 + 1，
+\end_layout
+
+\begin_layout Standard
+如果把方程左边的（2沪一鉍+1尸展开出来,就要得到 一个一元四次方程，解起来就比较麻烦.现在利用换元法 来觯，设法把方程右边变成有（2#—細+1)项的形式.因
+ 为22?-83^11(20-如)，所以只要添上一个常数项11, 就可以得出11(2# —鉍+1) 了，
+\end_layout
+
+\begin_layout Standard
+原方程可以变形成
+\end_layout
+
+\begin_layout Standard
+(2W —鉍+1尸二 (22^-33x^11^-10,
+\end_layout
+
+\begin_layout Standard
+就是 （20-洳+1)3-11(2#—3无+1)+10 = 0，
+\end_layout
+
+\begin_layout Standard
+设2# — 3$+1=扒于是方程就变成
+\end_layout
+
+\begin_layout Standard
+一11^-hlO=0*
+\end_layout
+
+\begin_layout Standard
+(2/-10)(y-l)=0, v .*■女i = 10, s/2=l#
+\end_layout
+
+\begin_layout Standard
+绉yi-10时，
+\end_layout
+
+\begin_layout Standard
+2^ — 3a: +■ 1 = 10^ 3) (2ic+3) = 0,
+\end_layout
+
+\begin_layout Standard
+* o 容
+\end_layout
+
+\begin_layout Standard
+• • 叫=一"
+\end_layout
+
+\begin_layout Standard
+当时，
+\end_layout
+
+\begin_layout Standard
+2a?3—3x +1 = 1，x (2d — 3) — 0^
+\end_layout
+
+\begin_layout Standard
+•••
+\end_layout
+
+\begin_layout Standard
+所以原方程的根是h = 办=—了，^"2".
+\end_layout
+
+\begin_layout Standard
+解下列各方程：
+\end_layout
+
+\begin_layout Standard
+1.
+ (1) (>+1)4 —10(nl)3?9=0;
+\end_layout
+
+\begin_layout Standard
+(2) (2x ^ 1) 8(2o; 15=0,
+\end_layout
+
+\begin_layout Standard
+2‘（1) (6^2 - 7.r)3 - 2(C^ - 7a:) - 3 - 0;
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+3.
+ (1) (j^+^)3-3j：a-6^=0； (2) (2a:a-3)3-8^+X2-0；
+\end_layout
+
+\begin_layout Standard
+(3) (^a+l)(3^-2)-12；
+\end_layout
+
+\begin_layout Standard
+(4) {3P-2x-h^YJ=4^-Bxl'i l7^
+\end_layout
+
+\begin_layout Section
+分式方程
+\end_layout
+
+\begin_layout Standard
+在第一章里，我们已经学过可以利用一次.方程来解的 分式方程，现在进一步学习可以利用二次方程来解的分式 方程.我们知道,解分式方程，需要把方程的两边同乘以一
+ 个含有未知数的整式^去分母后，使它变成一个整式方程, 所以有引进增根的可能，因此最后必须把从整式方程中求 得的根代入所乘的整式(或者代入原方程中各分式的分母)
+ 去检验:不使这个整式等于零的根就是原方程的根;使这个 整式等于零的根就是增根.所有这些解分式方程的原理和 步骤,现在同样适用，
+\end_layout
+
+\begin_layout Standard
+觯分式方程：
+\end_layout
+
+\begin_layout Standard
+最简公分母是（i—岣a+岣.用（1—w a+*)乘方 程的两边，去掉分母，得
+\end_layout
+
+\begin_layout Standard
+1+®- (3sc-P)，2(l—iB) (1+汜)‘
+\end_layout
+
+\begin_layout Standard
+整理后，得3^ 2名一1 = 0.即
+\end_layout
+
+\begin_layout Standard
+(細 + 1) (^― 1,) 0,
+\end_layout
+
+\begin_layout Standard
+• 1 一1
+\end_layout
+
+\begin_layout Standard
+• .
+ «!=*--g-, iTa 工1.
+\end_layout
+
+\begin_layout Standard
+(检验〕
+\end_layout
+
+\begin_layout Standard
+把^一^代入（1 一它不等于零,
+\end_layout
+
+\begin_layout Standard
+例9
+\end_layout
+
+\begin_layout Standard
+[解]
+\end_layout
+
+\begin_layout Standard
+mm
+\end_layout
+
+\begin_layout Standard
+例3
+\end_layout
+
+\begin_layout Standard
+{M}
+\end_layout
+
+\begin_layout Standard
+• 29B泰
+\end_layout
+
+\begin_layout Standard
+/, 是原方程的裉，
+\end_layout
+
+\begin_layout Standard
+把$-1代入（1 一它等于零，
+\end_layout
+
+\begin_layout Standard
+:3^1是增根，
+\end_layout
+
+\begin_layout Standard
+所以原方程的根是 解方程；
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+CD , _ 18
+\end_layout
+
+\begin_layout Standard
+a：H-3 a；—3 xa —9 •
+\end_layout
+
+\begin_layout Standard
+方程两边都乘以#一9,得
+\end_layout
+
+\begin_layout Standard
+x{x-S)-^x (疋+ 3) —18.
+\end_layout
+
+\begin_layout Standard
+整理后,得 20 = 18.
+\end_layout
+
+\begin_layout Standard
+*
+\backslash
+ %=*3^ a?a^ —3.
+\end_layout
+
+\begin_layout Standard
+把疋=3或者-3代入0 — 9,都等于零,所以《 和疋=一3都是增根.
+\end_layout
+
+\begin_layout Standard
+所以原方程没有根.
+\end_layout
+
+\begin_layout Standard
+觯方程：
+\end_layout
+
+\begin_layout Standard
+3 4 12
+\end_layout
+
+\begin_layout Standard
+3； — 2 疋一1 £C 一 4 11/^3 *
+\end_layout
+
+\begin_layout Standard
+两边分别通分，得
+\end_layout
+
+\begin_layout Standard
+3^c —B —x — 3_2^t;+8 ~(^-1) (®：：2) [ {x-Z)(x-^) *
+\end_layout
+
+\begin_layout Standard
+化简后，得
+\end_layout
+
+\begin_layout Standard
+一 x 十») — x-
+\backslash
+- 5
+\end_layout
+
+\begin_layout Standard
+= x^x
+\backslash
+i2*
+\end_layout
+
+\begin_layout Standard
+去分母，得
+\end_layout
+
+\begin_layout Standard
+—(—x-
+\backslash
+-5) (ir3 —8x + 2)
+\end_layout
+
+\begin_layout Standard
+( — a;+5)[(怎3 —7疋+12) — (a;3 — 3a;+2)] =0, (一尤+5) ( —4^ + 10) =0j
+\end_layout
+
+\begin_layout Standard
+••• 51 ^ _ ~2m 把^^5和分别代入原方程中，分母都不等于 零，所以它们都是原方程的裉.
+\end_layout
+
+\begin_layout Standard
+所以原方程的根是巧=5，
+\end_layout
+
+\begin_layout Standard
+h这个方程如果一上来就去分母，计箅比较繁复，所 以采用两边分别通分的方法，可以简便一些.
+\end_layout
+
+\begin_layout Standard
+2.棚民姊能把因式
+\end_layout
+
+\begin_layout Standard
+-®+5约去,否则就要失去一个根$ = 5.
+\end_layout
+
+\begin_layout Standard
+解方程：
+\end_layout
+
+\begin_layout Standard
+x I 汜一9 — x-[-X r~8
+\end_layout
+
+\begin_layout Standard
+~x^W*
+\end_layout
+
+\begin_layout Standard
+这个方程中，每一个分式中分子分母都是一次式.可 以先把它化成一个常数与真分式®的和，这样消去等号两 边的常数项后再分别通分，可降低分子的次数，使解题简
+ 便，
+\end_layout
+
+\begin_layout Standard
+原方程变形成
+\end_layout
+
+\begin_layout Standard
+就是 2(叾—一
+\end_layout
+
+\begin_layout Standard
+—5 — 一5 ic2 — 9a?H-14 a?9™7a:4-0 $
+\end_layout
+
+\begin_layout Standard
+P — 7无+6 — 9丨 +14,
+\end_layout
+
+\begin_layout Standard
+®分子的次数低于分母的次数的分式，叫雔真分式，否则就叫撖假分
+\end_layout
+
+\begin_layout Standard
+2»r>>
+\end_layout
+
+\begin_layout Standard
+〔检验〕
+\end_layout
+
+\begin_layout Standard
+菏m 7*13
+\end_layout
+
+\begin_layout Standard
+(1)
+\end_layout
+
+\begin_layout Standard
+例5
+\end_layout
+
+\begin_layout Standard
+把z = 4代入原方程，分母都不等于零， 所以原方程的根是^ = 4.
+\end_layout
+
+\begin_layout Standard
+解下列分式方程： *
+\end_layout
+
+\begin_layout Standard
+1) (2) °
+\end_layout
+
+\begin_layout Standard
+2x-l 4^—1, 1-^ 1切，
+\end_layout
+
+\begin_layout Standard
+3) ^±L--^_zl^o； (4)奸1 -)- X^1 P+7
+\end_layout
+
+\begin_layout Standard
+刼一7 工-3 _ , w x-1 ®-Hl ~2(^-X)J
+\end_layout
+
+\begin_layout Standard
+O f _ A
+\end_layout
+
+\begin_layout Standard
+5)
+\end_layout
+
+\begin_layout Standard
+6)
+\end_layout
+
+\begin_layout Standard
+7)
+\end_layout
+
+\begin_layout Standard
+8)
+\end_layout
+
+\begin_layout Standard
+尤2—4 X—1 , f? — %r, + 2 : •: 0 *
+\end_layout
+
+\begin_layout Standard
+尤+1 1 x—1 a^-飞一 1 -1? 6 —a;
+\end_layout
+
+\begin_layout Standard
+2—ic x-2 紀―12，
+\end_layout
+
+\begin_layout Standard
+4丨 ：r 一 3 x—45
+\end_layout
+
+\begin_layout Standard
+z — 5 12—疋 必 a-17x^60
+\end_layout
+
+\begin_layout Standard
+提示：（7)、（8)两题中，分别先把3d-12和0—17$+00.分 解因式.]
+\end_layout
+
+\begin_layout Standard
+qv 邡十 1___2a;—2 一 6a:
+\end_layout
+
+\begin_layout Standard
+；(^^1) ~ (^+3) (2«a?) _ (1—ic)(x_2〉j
+\end_layout
+
+\begin_layout Standard
+°>Tw(-Tfr)^(1+OT)^^ a
+\end_layout
+
+\begin_layout Standard
+解下列分式方程：
+\end_layout
+
+\begin_layout Standard
+1)
+\end_layout
+
+\begin_layout Standard
+2)
+\end_layout
+
+\begin_layout Standard
+x—y x—a 丨+2 , 8
+\end_layout
+
+\begin_layout Standard
+7 10
+\end_layout
+
+\begin_layout Standard
+.AC —10
+\end_layout
+
+\begin_layout Standard
+q
+\backslash
+ £c一 8 , j?一 4 __ x—10 iC—6
+\end_layout
+
+\begin_layout Standard
+解下列关于$的方程: 1)
+\end_layout
+
+\begin_layout Standard
+iC"~ 5 ar_3 sc~T 洋一5 ' x—7
+\end_layout
+
+\begin_layout Standard
+x—7 x—9 *
+\end_layout
+
+\begin_layout Standard
+5
+\end_layout
+
+\begin_layout Standard
+I +
+\end_layout
+
+\begin_layout Standard
+X3 &
+\end_layout
+
+\begin_layout Standard
+⑵
+\end_layout
+
+\begin_layout Standard
+4(b^hx) a — x
+\end_layout
+
+\begin_layout Standard
+在解分式的时候，我们要设法做到变形后所得的整式 方程,次数愈低愈好.为了达到这个目的,有时我们也可以 采用引进辅助未知数的方法〈换元法).下面举例说明.
+ 解方程：
+\end_layout
+
+\begin_layout Standard
+298 ^
+\end_layout
+
+\begin_layout Standard
+[审班]
+\end_layout
+
+\begin_layout Standard
+u
+\end_layout
+
+\begin_layout Standard
+[«¥
+\end_layout
+
+\begin_layout Standard
+〔检验〕
+\end_layout
+
+\begin_layout Standard
+2(^ + 1) , 6'>4-1) _7 • x+l ' a^4-t *
+\end_layout
+
+\begin_layout Standard
+这个方程如果一上来就去分母，会得到一个四次方程，
+\end_layout
+
+\begin_layout Standard
+解起来就有困难.但是仔细观察一下，发现两个分式
+\end_layout
+
+\begin_layout Standard
+P + 和士±^_中的分子和分母互相调换.根据这个特
+\end_layout
+
+\begin_layout Standard
+x-yl 尤a --丄
+\end_layout
+
+\begin_layout Standard
+点，所以利用换元法来解.
+\end_layout
+
+\begin_layout Standard
+办十吾4
+\end_layout
+
+\begin_layout Standard
+由此得 2f—
+\end_layout
+
+\begin_layout Standard
+(22/ —3〕(p~2 ) 0,
+\end_layout
+
+\begin_layout Standard
+3
+\end_layout
+
+\begin_layout Standard
+•、y^~2^ 1h 〒艺•
+\end_layout
+
+\begin_layout Standard
+当时，
+\end_layout
+
+\begin_layout Standard
+y+1 只
+\end_layout
+
+\begin_layout Standard
+x-
+\backslash
+-l 21
+\end_layout
+
+\begin_layout Standard
+• ^ 3 土 v,lT
+\end_layout
+
+\begin_layout Standard
+0,
+\end_layout
+
+\begin_layout Standard
+当約=2时，
+\end_layout
+
+\begin_layout Standard
+名艺J- 1
+\end_layout
+
+\begin_layout Standard
+人 ^l±^=1±vT#
+\end_layout
+
+\begin_layout Standard
+^1±^2分别代入原方程中,分 母都不等于零,所以它们都是原方程的根.
+\end_layout
+
+\begin_layout Standard
+所以原方程的根是z = 3，x^l±V^m 解方程：
+\end_layout
+
+\begin_layout Standard
+1 18 18 0
+\end_layout
+
+\begin_layout Standard
+a^-i 2x -3 a?M-2^ + 2 ^+2*+1
+\end_layout
+
+\begin_layout Standard
+• 239
+\end_layout
+
+\begin_layout Standard
+这个方程如果按照一般方法通分，方程的次数较髙,解 题就困难.观察后，可以看到方程里三个分式的分母中，二 次项与一次项的系数相同，所以如果设P+M+l-y,那
+\end_layout
+
+\begin_layout Standard
+末7疋2 + 2卜3-y —4, ^ 
+\backslash
+ 2x^2-- y^X这样运算就较简 便.
+\end_layout
+
+\begin_layout Standard
+设^^2^1 = 1那末原方程就变形成
+\end_layout
+
+\begin_layout Standard
+1 .
+ m is
+\end_layout
+
+\begin_layout Standard
+就是
+\end_layout
+
+\begin_layout Standard
+y-^ 2/+1 "¥
+\end_layout
+
+\begin_layout Standard
+_ 18 — 18 1 了 yhl3
+\end_layout
+
+\begin_layout Standard
+^-17^+72-0,
+\end_layout
+
+\begin_layout Standard
+2/3 = 9,
+\end_layout
+
+\begin_layout Standard
+0.
+\end_layout
+
+\begin_layout Standard
+8
+\end_layout
+
+\begin_layout Standard
+ij
+\end_layout
+
+\begin_layout Standard
+S/H
+\end_layout
+
+\begin_layout Standard
+化简，得 解之，得 当时，
+\end_layout
+
+\begin_layout Standard
+无3+ 2疋+1 = 8，
+\end_layout
+
+\begin_layout Standard
+/,而=一吻=—1 —2
+\backslash
+/2
+\end_layout
+
+\begin_layout Standard
+当扒=9时，
+\end_layout
+
+\begin_layout Standard
+fl5s+2^+1^9,
+\end_layout
+
+\begin_layout Standard
+/* 疋3 = 2, ^4— ~ 4.
+\end_layout
+
+\begin_layout Standard
+经检验，A，办，抑，q都是原方程的稂4 用换元法解下列各方程；
+\end_layout
+
+\begin_layout Standard
+1
+\end_layout
+
+\begin_layout Standard
+,# 一 1
+\end_layout
+
+\begin_layout Standard
++^r
+\end_layout
+
+\begin_layout Standard
+20
+\end_layout
+
+\begin_layout Standard
+jP-3
+\end_layout
+
+\begin_layout Standard
+3a:
+\end_layout
+
+\begin_layout Standard
+13
+\end_layout
+
+\begin_layout Standard
+ar-bx *
+\end_layout
+
+\begin_layout Standard
+^ (钟貯)一
+\end_layout
+
+\begin_layout Standard
+6' «)3-4(0-0.
+\end_layout
+
+\begin_layout Standard
+7 4j;j + 2：t.
+ a^H-6
+\end_layout
+
+\begin_layout Standard
++ 6 4i2^ + 2x *
+\end_layout
+
+\begin_layout Standard
+8 n矿5 rar~-
+\end_layout
+
+\begin_layout Standard
+•某车间加工300个零件，在加工完60个零件后改进了 操作方法，每天可以多加工如个零件7最后共用4天完成 了任务.改进操作方法后每天可以加工多少个零件？
+\end_layout
+
+\begin_layout Standard
+设改进操作方法后每天加工$个零件.那末在这以前 每天加工化-20)个零件，根据题意，列得方程
+\end_layout
+
+\begin_layout Standard
+两边都乘以-20)，得
+\end_layout
+
+\begin_layout Standard
+60a:十 240 (so — 20) = — 20),
+\end_layout
+
+\begin_layout Standard
+整理后,得 W - 9^+1200 = 0,
+\end_layout
+
+\begin_layout Standard
+(^-80>(^-15)-0,
+\end_layout
+
+\begin_layout Standard
+/, aa = 80^ ;ca=15.
+\end_layout
+
+\begin_layout Standard
+经检验，而=80与％ = 都是原方程的根，
+\end_layout
+
+\begin_layout Standard
+伹就实际问題说，因为改进操作方法后每天加工的零 件数应该大于20,所以^15不合理，就是说,不是应用癟 的解，
+\end_layout
+
+\begin_layout Standard
+答：改进操作方法后每天加工SO个零件.
+\end_layout
+
+\begin_layout Standard
+甲、乙两组工人合做某项工作，4天以后，因乙组另有 任务，剩下的工作由甲组独做，2天后才完成.已知独撖这 项工作，甲组比乙组可以快3天完成.求各组独做这项工
+ 作所爾的天数，
+\end_layout
+
+\begin_layout Standard
+设甲组独做这项工作需0天，那末乙组独做箱（$+3)
+\end_layout
+
+\begin_layout Standard
+天.
+\end_layout
+
+\begin_layout Standard
+甲、乙两组合作4天，做这项X作的),甲 组独做2天,做工作的
+\end_layout
+
+\begin_layout Standard
+根据航得4(丢+士)+20就是
+\end_layout
+
+\begin_layout Standard
+两边都乘以$0+3),整理后,得
+\end_layout
+
+\begin_layout Standard
+(a; — 9)(> + 2)=0，
+\end_layout
+
+\begin_layout Standard
+• ~ ^ ~ _2.
+\end_layout
+
+\begin_layout Standard
+因为或者a^-2都不使z(a； + 3)等于零，所以 它们都是原方程的根.但是实际工作的天数不能是负数, 所以一2不是应用题的解，
+\end_layout
+
+\begin_layout Standard
+从& 9,得
+\end_layout
+
+\begin_layout Standard
+a:+3 = 9+3-12.
+\end_layout
+
+\begin_layout Standard
+答：甲组独做需9天。乙组独做需12天.
+\end_layout
+
+\begin_layout Standard
+1.
+ 一个生产队计划在一定时期内种蔬菜60亩，在播种的时侯，每 天比原定计划多种了 3亩,因此提前1天完成，实际种了几天？
+\end_layout
+
+\begin_layout Standard
+2-甲、乙两个工程队合做一项工程，16天可以完成.两队一起工 作了 4天后，剩下的工程由乙队独做，所需要的天数比甲队单独 完成全部工程所需要的天数多12天.求甲、乙
+两队单独完成全 部工程所需要的天数，
+\end_layout
+
+\begin_layout Standard
+3.甲、乙两个车站相距如公里.快车和慢车同时从甲站开出，1小 时后,快车在慢车前12公里.到达乙站，快车比慢车早40分钟.
+ 快车和悛车的速度各是多少？
+\end_layout
+
+\begin_layout Standard
+[提示：1小时后，抉车在悝车前12公里，就是说，快车的速度 比慢车每小时多12公里.]
+\end_layout
+
+\begin_layout Standard
+4.
+ 一汽艇顺流下行63公里，到目的地，然后逆流回航，共航行了 5 小时20分钟.已知水流速度是每小时3公里，汽艇在静水中 的速度是多少？汽艇顺流下行和逆流固航的时间
+各是多少？
+\end_layout
+
+\begin_layout Section
+无理方程
+\end_layout
+
+\begin_layout Standard
+我们来看下面一个问題：
+\end_layout
+
+\begin_layout Standard
+用一条S6寸长的铅丝弯成一个直角三角形，使它的一 条直角边等于9寸4应该怎样弯法？
+\end_layout
+
+\begin_layout Standard
+如果要正确地弯成一个直角三角形，就必须先知道另 —条直角边的长.
+\end_layout
+
+\begin_layout Standard
+设另一条直角边的长是-寸,那末根据勾股定理，斜边 的长是寸(图74).
+\end_layout
+
+\begin_layout Standard
+例如- 艺Vi —
+\backslash
+/,12^-x = 5J 
+\backslash
+/ P+1
+\end_layout
+
+\begin_layout Standard
+•斜h 等都是无理方程.但
+\end_layout
+
+\begin_layout Standard
+是方程 v^v+&_vi=o, ：7fcr+^^i 等都
+\end_layout
+
+\begin_layout Standard
+不是无理方程,因为这些方程中根号里都不含有未知数，这 两个方程中，前者是含有无理数系数的整式方程,后者是分 式方程,也含有无理数系数.为了和无理方程区别起见,我
+ 们把以前所讲的整式方程和分式方程统称有理方程.
+ 下面我们来研究无理方程的解法.
+\end_layout
+
+\begin_layout Standard
+我们先来看下面的方程：
+\end_layout
+
+\begin_layout Standard
+为了把这个方程变形成有理方程，我们把方程(1)的两 边平方,得
+\end_layout
+
+\begin_layout Standard
+显然，^3和尤=-1都是方程⑶的根.但是，它们 是不是也都是方程(1)的根呢？
+\end_layout
+
+\begin_layout Standard
+把^3代入方程(1),左边=1右边=所 以是方程(1)的根.
+\end_layout
+
+\begin_layout Standard
+①根号里含有未知数的“无理方程”,有的书上乜把它叫做“根式方程'
+\end_layout
+
+\begin_layout Standard
+9+3；+V81+P'=36,
+\end_layout
+
+\begin_layout Standard
+这个方稈的未知数^含在根号里.象 这样根号里含有未知数的方程，叫做无理 方程①.
+\end_layout
+
+\begin_layout Standard
+解这个方程，
+\end_layout
+
+\begin_layout Standard
+a?a — 2;r — S = 03 (a?—3) =0
+\end_layout
+
+\begin_layout Standard
+/_ 0^ = 3, £T3=—l.
+\end_layout
+
+\begin_layout Standard
+把h — 1代入方程⑴』左边—— 1,右边=%/— 2 + 3 -1,所以$=-1不是方程（1)的根，它是解方程过程中引 进的增根，
+\end_layout
+
+\begin_layout Standard
+为什么会引进增根呢？下面我们来硏究产生增根的原因，
+\end_layout
+
+\begin_layout Standard
+方程(1)就是 广_
+\end_layout
+
+\begin_layout Standard
+x — V 2a; -f 3 — 0^ •
+\end_layout
+
+\begin_layout Standard
+方程C2)就是d-(2rr+3)=0,也就是
+\end_layout
+
+\begin_layout Standard
+(sc—
+\backslash
+/2a;+3) V2a:+3) —0.
+\end_layout
+
+\begin_layout Standard
+比较这两个方程可以知道，方程（2)除了含有方程;
+\end_layout
+
+\begin_layout Standard
+=0的根之外,还有方程;的根.上面说过，无=3是方 程尤一的根^再看,把一 1代入方程 可知^^一 1是方程a + = 0的根#因此,方程（2)除了含有
+\end_layout
+
+\begin_layout Standard
+方程ar-的根a=3之外,还有方程iC+v^T^=0的根
+\end_layout
+
+\begin_layout Standard
+由此可知，增根是由于把方程(1)的两边平方引进的.因 为把方程(1)的两边平方,实质上就是把方程a-V^3=0的两边 同乘以 而得到方程 Oc-
+\backslash
+/2^T5)Oc+v^R)：=o.
+\end_layout
+
+\begin_layout Standard
+我们知良把方程的两边同乘以一个代数式是可能引进增根的* 一般地说,如果把方程的两边都乘方相同的次数，那末就有产生 增根的可能•
+\end_layout
+
+\begin_layout Standard
+从上面的例子知道，解无理方程时,为了要使它变形成 为脊理方程，就需要把方程的两边都乘方相同的次数,这样 就有产生增根的可能.因此,解无理方程时,必须把变形后
+ 所得有理方程的根，代入原方程进行检验，如果适合，那末 它是原方程的根,如果不适合，它就是增根.
+\end_layout
+
+\begin_layout Standard
+从上面所说的可以知道,解无理方程的一觖步骤是：
+\end_layout
+
+\begin_layout Standard
+(1)把原方程适当的移项，然后把方程的两 边都乘方相同的次数，使它变形成一个有理方程；
+\end_layout
+
+\begin_layout Standard
+(2)解这个有理方程；
+\end_layout
+
+\begin_layout Standard
+(3)把解有理方程所得的根，代入原方程中 逬行检验.适合的，就是所求的根.
+\end_layout
+
+\begin_layout Standard
+例1 解方程:+
+\end_layout
+
+\begin_layout Standard
+[解] 移项，得=
+\end_layout
+
+\begin_layout Standard
+两边平方」得
+\end_layout
+
+\begin_layout Standard
+紀+尤=16x°—1&-X+ 4,
+\end_layout
+
+\begin_layout Standard
+整理后,得
+\end_layout
+
+\begin_layout Standard
+13?-17a: 4-4-0, (x-1) (13® 一 4) = 0,
+\end_layout
+
+\begin_layout Standard
+• ’ 1 4
+\end_layout
+
+\begin_layout Standard
+•• —，X^-LS' .
+\end_layout
+
+\begin_layout Standard
+〔輪验〕 把^1代人原方程，
+\end_layout
+
+\begin_layout Standard
+左边存v^Vi+2== 4,右边
+\end_layout
+
+\begin_layout Standard
+•' 是原方程的根.
+\end_layout
+
+\begin_layout Standard
+把代入原方程，
+\end_layout
+
+\begin_layout Standard
+左边=4/^iy^£+2、/M+2=2—%
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+ 
+\backslash
+1^/ ^13 V 169 13w 右边= 4x^=1去
+\end_layout
+
+\begin_layout Standard
+•_.
+ ■不是原方程的裉,而是增根.
+\end_layout
+
+\begin_layout Standard
+所以原方程的拫是$ = 1.
+\end_layout
+
+\begin_layout Standard
+C说明〕 h计算应该取算术根如果取-渺
+\end_layout
+
+\begin_layout Standard
+末左边由此把看做方程的根是错误的，'
+\end_layout
+
+\begin_layout Standard
+2-解这无理方程的第一步是先移项，移项的目的是使 两边平方后能变形成有理方程，如果不先移项而直接两边 平方，那末会得到：SP+ir十4八品^ +
+ 4“：16#，这样麹
+\end_layout
+
+\begin_layout Standard
+达不到化去根号的目的，平方后得到的萍是h理方程.这 点应该注意•
+\end_layout
+
+\begin_layout Standard
+例 2 解方程：vr^-i--Vi2+^-5.
+\end_layout
+
+\begin_layout Standard
+OH] 移项，得 -VBTi.
+\end_layout
+
+\begin_layout Standard
+•她：
+\end_layout
+
+\begin_layout Standard
+mm
+\end_layout
+
+\begin_layout Standard
+c说酌 供»
+\end_layout
+
+\begin_layout Standard
+■OH
+\end_layout
+
+\begin_layout Standard
+mm
+\end_layout
+
+\begin_layout Standard
+^•009*
+\end_layout
+
+\begin_layout Standard
+平方，得 —10VHT^-12+叭 将移项，得 10
+\backslash
+zl2~
+\backslash
+:'x-2a：+30,就是 5 Vl2+a； = ;tH-18,
+\end_layout
+
+\begin_layout Standard
+平方，得 300 -f.
+ 25x=^x^++324.
+\end_layout
+
+\begin_layout Standard
+a;34 lLc-^24-0, 0+3) 0+8) -0,
+\end_layout
+
+\begin_layout Standard
+^i = —3, x^ = — 8.
+\end_layout
+
+\begin_layout Standard
+把.3代入原方程，
+\end_layout
+
+\begin_layout Standard
+左边+ Vl^=5,右边 ”-5,
+\end_layout
+
+\begin_layout Standard
+•' 3是原方程的拫•
+\end_layout
+
+\begin_layout Standard
+把$=一8代入原方程，
+\end_layout
+
+\begin_layout Standard
+左边二-f 
+\backslash
+/4 ^5,右边^5,
+\end_layout
+
+\begin_layout Standard
+①=—8是原方程的根，
+\end_layout
+
+\begin_layout Standard
+所以原方程的根是$=—3和3：二 一 8.
+\end_layout
+
+\begin_layout Standard
+1.如果不先移项,直接平方,就得到
+\end_layout
+
+\begin_layout Standard
+l — a: i 2
+\backslash
+/(l—iv) (12+lu) +12七0；『25,
+\end_layout
+
+\begin_layout Standard
+解起来就比较繁复.
+\end_layout
+
+\begin_layout Standard
+2.这题要平方两次才能化去根号.
+\end_layout
+
+\begin_layout Standard
+解方程： _
+\end_layout
+
+\begin_layout Standard
+sj^co 9 — 
+\backslash
+/x — 4 一 
+\backslash
+J2?+1 ^ 0,
+\end_layout
+
+\begin_layout Standard
+移项，得 ^2cc-l-9" 
+\backslash
+/®一4+ VW+i,
+\end_layout
+
+\begin_layout Standard
+平方7得
+\end_layout
+
+\begin_layout Standard
+2sc+9 = iK 一 4 + 2
+\backslash
+j (x 一 4) {p& -f-T) +ic+l_, 整理，得
+\end_layout
+
+\begin_layout Standard
+2v^a； —4) (a:-1-1) 12, V(®—4) (x-hi)— 平方,得
+\end_layout
+
+\begin_layout Standard
+—4™36> a?3—3® —40=0, (ir™8)〔《+5) =0，
+\end_layout
+
+\begin_layout Standard
+^h.
+ = SJ ；r9 = —5,
+\end_layout
+
+\begin_layout Standard
+把*=8代入原方程，
+\end_layout
+
+\begin_layout Standard
+左边= -与右边相等，
+\end_layout
+
+\begin_layout Standard
+$-8是原方程的根.
+\end_layout
+
+\begin_layout Standard
+把-5代入原方程，平方根号里的数是负数，负数 的平方根没有意义,所以把它舍去，
+\end_layout
+
+\begin_layout Standard
+所以原方程的根是$ = 8.
+\end_layout
+
+\begin_layout Standard
+从这个例子我们可以看到，验根是解无理方程的必要 步骤之一，但是，对于有些方程，根据根式的意义，可以直’ 接判定它没有实数根，不必解方程后再行验根,这样可以简
+ 捷得多，
+\end_layout
+
+\begin_layout Standard
+例如,根据算术根都不能是负数这一性质,我们立即可 以看出下列的方程
+\end_layout
+
+\begin_layout Standard
+v^-f-2 = — 3, -f-3 + >/3~hi + 5=0
+\end_layout
+
+\begin_layout Standard
+都无解，
+\end_layout
+
+\begin_layout Standard
+1-下列关于$的方程中,哪S是无理方程？哪些不是无理方程？
+\end_layout
+
+\begin_layout Standard
+⑴(V +1)j:2+-^==~~—=2；
+\end_layout
+
+\begin_layout Standard
+(2) Voi -h 5—<?£&；
+\end_layout
+
+\begin_layout Standard
+(3) (4)
+\end_layout
+
+\begin_layout Standard
+解下列各方程（2~句：
+\end_layout
+
+\begin_layout Standard
+2.
+ (1) x-^
+\backslash
+^2=2； (2) 2%/^^3-0：-6；
+\end_layout
+
+\begin_layout Standard
+(3) 5V^2£c4-3 — 3— 2^=0；
+\end_layout
+
+\begin_layout Standard
+(4) V(i^2)(ai—3) — y/~2 =0j
+\end_layout
+
+\begin_layout Standard
+(5) 
+\backslash
+/紀+丨+]0 =2a：+l.
+\end_layout
+
+\begin_layout Standard
+3.
+ (1) (2) 
+\backslash
+^Ti-VxT2=^
+\backslash
+T3;
+\end_layout
+
+\begin_layout Standard
+(3) >/^+i"—
+\backslash
+/~£2；
+\end_layout
+
+\begin_layout Standard
+(4) 4 ^^+七; (5) V^+3
+\backslash
+7^+l—S™0e
+\end_layout
+
+\begin_layout Standard
+4.
+ (1) 
+\backslash
+/知+5+ Vx+1=V%+10；
+\end_layout
+
+\begin_layout Standard
+(2) V3i： + 1+ —3 — V5ic4-4 = 0j
+\end_layout
+
+\begin_layout Standard
+(3) s/x — l — 
+\backslash
+/a;—10= Vx+5— V：c —2;
+\end_layout
+
+\begin_layout Standard
+(4) V7^-5+ 
+\backslash
+/4.t-"I-
+\backslash
+/7^4^
+\backslash
+/4^2a 1
+\end_layout
+
+\begin_layout Standard
+5.不解方程，说明下列各方程为什么无解：
+\end_layout
+
+\begin_layout Standard
+8999^
+\end_layout
+
+\begin_layout Standard
+(1) -6—2; (2) 十4=0;
+\end_layout
+
+\begin_layout Standard
+(3) V2a; —3 +Var + 4~0; (4) V^c3 — 9 + 
+\backslash
+/知—1 + 2=0,
+\end_layout
+
+\begin_layout Standard
+下面我们再举例说明几个比较复杂一些的无理方程的 解法，
+\end_layout
+
+\begin_layout Standard
+解方程：=
+\end_layout
+
+\begin_layout Standard
+移项，得一知一7=^-1.
+\end_layout
+
+\begin_layout Standard
+两边都立方,得
+\end_layout
+
+\begin_layout Standard
+x3-^x — 7 — 3^3+3a： — 1,
+\end_layout
+
+\begin_layout Standard
+3^2^7x-6 = 0, 0—3) (3x-h2) =0,
+\end_layout
+
+\begin_layout Standard
+n 2 = 一'
+\end_layout
+
+\begin_layout Standard
+检验后知道，它们都是原方程的根.
+\end_layout
+
+\begin_layout Standard
+如果不移项，直接乘立方,那末会得出
+\end_layout
+
+\begin_layout Standard
+Q?，3a^V—鈿―7 + 3® «/^-^-T) *
+\end_layout
+
+\begin_layout Standard
+—(^3 — 4^c — 7) 1.
+\end_layout
+
+\begin_layout Standard
+这样,不仅计算繁复,并且没有化去根号,无从求解.
+\end_layout
+
+\begin_layout Standard
+, 解方程t
+\end_layout
+
+\begin_layout Standard
+2#+如+3 = 5 +3®+9.
+\end_layout
+
+\begin_layout Standard
+如桌把方程的两边平方，那末会得出$的四次方程;一 般不能解，即便能解，也很繁琐.可是我们观察一下，在被 开方数2#+3«+9和左边的有理式20+3®+3中，二次
+ 项和一次项都是相同的,只有常数项不同,我们可以设法把 2护+fe+3变形成为（sy+ar+w-e,这样，就可以利用 换元法来解.
+\end_layout
+
+\begin_layout Standard
+原方程变形成为
+\end_layout
+
+\begin_layout Standard
+(&s+3尤+9) — 6 = 5
+\end_layout
+
+\begin_layout Standard
+设那末2? + 3尤十9 =沢原方程变
+\end_layout
+
+\begin_layout Standard
+为
+\end_layout
+
+\begin_layout Standard
+y9-6 = %J
+\end_layout
+
+\begin_layout Standard
+就是 —6=0,
+\end_layout
+
+\begin_layout Standard
+2/广一 1.
+\end_layout
+
+\begin_layout Standard
+当?/ = 6时，
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+/2^J-l-Sa>-h9 — 6,
+\end_layout
+
+\begin_layout Standard
+2J + 枷 + 9 = 36, 2of + 如一 27 - 0,
+\end_layout
+
+\begin_layout Standard
+(x — 3) (2^+9) ^ 0,
+\end_layout
+
+\begin_layout Standard
+, …Q — 9
+\end_layout
+
+\begin_layout Standard
+• r a _i — o,化a — —
+\end_layout
+
+\begin_layout Standard
+当?一 1时』
+\end_layout
+
+\begin_layout Standard
+、/I3ica + H^9 = ~ 1.
+\end_layout
+
+\begin_layout Standard
+根据算术稂的规定，V2^ + fe4-9 - —1是不可能的, 所以这个方程不必去解，
+\end_layout
+
+\begin_layout Standard
+把尤=3，分别代入V^34^—+9=6,都适
+\end_layout
+
+\begin_layout Standard
+合，所以它们都是原方程的根.
+\end_layout
+
+\begin_layout Standard
+所以原方程的裉是広=一
+\end_layout
+
+\begin_layout Standard
+1.检验时为了简便起见，只要把求得的根代入方程
+\end_layout
+
+\begin_layout Standard
+v^SiK3-)-3^ 4j 9
+\end_layout
+
+\begin_layout Standard
+中,不必代入原方裎.
+\end_layout
+
+\begin_layout Standard
+2-解題时遇有象—-1这种情况时，只 需说明方程无解,不必再做下去.
+\end_layout
+
+\begin_layout Standard
+解下列各方程a〜4):
+\end_layout
+
+\begin_layout Standard
+1, (1) v^TT-^+l； (2) ^S^V^Tl+^-O.
+\end_layout
+
+\begin_layout Standard
+2, (1) vOT + 4^4;
+\end_layout
+
+\begin_layout Standard
+v^h-i
+\end_layout
+
+\begin_layout Standard
+(2) ,-L.^o；
+\end_layout
+
+\begin_layout Standard
+Vit 十 1 
+\backslash
+/x—i Vi2—1
+\end_layout
+
+\begin_layout Standard
+(s)
+\end_layout
+
+\begin_layout Standard
+3‘ (1) +8iC+ y/aP+Sx =12；
+\end_layout
+
+\begin_layout Standard
+(2) —5x ^-2
+\backslash
+/x~—5a;-fH -12；
+\end_layout
+
+\begin_layout Standard
+(3) 6V^2^2^4^ =2112尤一
+\end_layout
+
+\begin_layout Standard
+(4) 3x^ +l,5：r-h W-jU - 2;
+\end_layout
+
+\begin_layout Standard
+[提示:移项后，把W+:LU变形成3(P+5r-l.：n—5.]
+\end_layout
+
+\begin_layout Standard
+(5) 4.r2 - lOx -17；
+\end_layout
+
+\begin_layout Standard
+(6) J^-±i _ J.^±? : ^_L 「蝴..m J^i± ^ ] W V v + 2 V 办 + 2 12' L従习、：^V " y'j
+\end_layout
+
+\begin_layout Standard
+4 (1) 2x^"h-
+\backslash
+/T~3-0； ⑵ +
+\end_layout
+
+\begin_layout Standard
+6.打一个数，它的平方根比它倒数的平方根的10倍多l求这个 数，
+\end_layout
+
+\begin_layout Chapter-toc*
+本章提要
+\end_layout
+
+\begin_layout Standard
+1.
+ 一元二次方程的分类
+\end_layout
+
+\begin_layout Standard
+f 完全的c^0t ai?-
+\backslash
+-bxJrO = 0, a^-
+\backslash
+-bx+0^ / a .
+ n
+\end_layout
+
+\begin_layout Standard
+J , r a^-ho^O,
+\end_layout
+
+\begin_layout Standard
+(a^O) I ,b = 0 {
+\end_layout
+
+\begin_layout Standard
+1不完全的{ U=0,似=0,
+\end_layout
+
+\begin_layout Standard
+o^=Oy aa?-
+\backslash
+-bx=^%
+\end_layout
+
+\begin_layout Standard
+2,方程咖3+^+cM)(c^0)的根的公式
+\end_layout
+
+\begin_layout Standard
+p (护—4 时 >(>)• '
+\end_layout
+
+\begin_layout Standard
+8方程M+k+c=0(a癸0)的根的判别式
+\end_layout
+
+\begin_layout Standard
+d^b^ — 4ao.
+\end_layout
+
+\begin_layout Standard
+判 别.
+ 式 方 程 的 根
+\end_layout
+
+\begin_layout Standard
+A>0 两个不相等的实数裉
+\end_layout
+
+\begin_layout Standard
+两个相等的实数根
+\end_layout
+
+\begin_layout Standard
+」<0 没有实数根
+\end_layout
+
+\begin_layout Standard
+4方程o^+k + c-0O_0)的根与系数的关系 (韦达定理）.
+\end_layout
+
+\begin_layout Standard
+设邮⑷嶠0)的根是叼和和，那末
+\end_layout
+
+\begin_layout Standard
+xt-
+\backslash
+-z^=——r X^ = ~9 d Q
+\end_layout
+
+\begin_layout Standard
+(逆命题也成立.)
+\end_layout
+
+\begin_layout Standard
+6, 二次三项式邮3 + 6^-c(a#0)的因式分解 设I化+ 0的根是A和；C3,那末
+\end_layout
+
+\begin_layout Standard
+ax3-rbx 
+\backslash
+-G-=a(x—x1')(怎一丨a},
+\end_layout
+
+\begin_layout Standard
+6.简单高次方程的解法
+\end_layout
+
+\begin_layout Standard
+解题的基本思想是：
+\end_layout
+
+\begin_layout Standard
+髙次方程@ 一次方程或二次方程，
+\end_layout
+
+\begin_layout Standard
+解题方法是：
+\end_layout
+
+\begin_layout Standard
+(1)因式分解法;
+\end_layout
+
+\begin_layout Standard
+(2)换元法.
+\end_layout
+
+\begin_layout Standard
+7分式方程的解法 解題的基本思想是：
+\end_layout
+
+\begin_layout Standard
+分式方程整式方程 8.无理方程的解法
+\end_layout
+
+\begin_layout Standard
+解题的基本思想是： ,
+\end_layout
+
+\begin_layout Standard
+无理方程有理方程 .解题步骤是：
+\end_layout
+
+\begin_layout Standard
+(1)先把原方程变形成有理方程(两边乘同次方， 或用换元法)；
+\end_layout
+
+\begin_layout Standard
+(2)解所得的有理方程；
+\end_layout
+
+\begin_layout Standard
+(3)必须检验.
+\end_layout
+
+\begin_layout Chapter-toc*
+复习题七
+\begin_inset space \space{}
+\end_inset
+
+A
+\end_layout
+
+\begin_layout Standard
+1.在一元二次方程 + + c = 0 中 Ca40〉，
+\end_layout
+
+\begin_layout Standard
+CD当& = 0时，用什么方法来解比较方便？这时《和c的符号 应该怎样,方程才有实数根？在什么请a下，方程没有实数
+\end_layout
+
+\begin_layout Standard
+.31
+\end_layout
+
+\begin_layout Standard
+根？
+\end_layout
+
+\begin_layout Standard
+(2)当C=0时，用什么方法来解比较方便？这时方程的根是伶 么？
+\end_layout
+
+\begin_layout Standard
+解下列f方程：
+\end_layout
+
+\begin_layout Standard
+(1) V s (P-r) 义)；
+\end_layout
+
+\begin_layout Standard
+(2) Or + lXa；-1) =2
+\backslash
+TZx^ (3) (x-l)Oc-3) =；2a;-l)3;
+\end_layout
+
+\begin_layout Standard
+(4) (a：-2)2(a:-7)-(2;+2)(a：-3)(a;-G);
+\end_layout
+
+\begin_layout Standard
+艾是什么数值时,代数式2#-a:+l与
+\end_layout
+
+\begin_layout Standard
+(1) 2奸6相等? (2) 相等?
+\end_layout
+
+\begin_layout Standard
+(5) V2^^TS 相等？
+\end_layout
+
+\begin_layout Standard
+无是什么数值时，下列方程有两个相等的实数根？：
+\end_layout
+
+\begin_layout Standard
+(1) Qt+0；
+\end_layout
+
+\begin_layout Standard
+(2) ^+2(^-4>-H^+6A^3=0,
+\end_layout
+
+\begin_layout Standard
+w是什么数值时，方程2^+l)a^+4m®+3m-2^=0 (1)有两 个相等的实数根？（2)有一个根等于零？（3)两个根是互为相反 的数？
+\end_layout
+
+\begin_layout Standard
+分解下列各式成^的四个一次因式的积：
+\end_layout
+
+\begin_layout Standard
+(1)'(一一 5冗”丄 10(^—50+24；
+\end_layout
+
+\begin_layout Standard
+(2) ^-(^-^b^aP^a2b
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+解下列方程：
+\end_layout
+
+\begin_layout Standard
+(1) (^-^)3-4(2^%-3；-0;
+\end_layout
+
+\begin_layout Standard
+[提示,把载2#—刼_3>变形成80^-4—12,再利用换元法 解.]
+\end_layout
+
+\begin_layout Standard
+(2) +5疋 + 4) Oc3+5iic + 6) = 120, -[提示：设f + 5n.]
+\end_layout
+
+\begin_layout Standard
+解下列各方程： _
+\end_layout
+
+\begin_layout Standard
+m 37(忠_公）_ 3(ic—2) _ .rtv 5^+^ic 5
+\end_layout
+
+\begin_layout Standard
+(3) -i_______]L.
+\end_layout
+
+\begin_layout Standard
+^4-5 £c + 4 rc + 3 ^ + 2J
+\end_layout
+
+\begin_layout Standard
+⑷—^±?.
+ +-, ^_ + ..
+ ^ + 3 v V 2^_7糾 3 T #一‘一3 卞 2^+ir-a •
+\end_layout
+
+\begin_layout Standard
+解下列关于Z的方程： ，
+\end_layout
+
+\begin_layout Standard
+(1) r3—4cr^-f 4a2—£»2—0；
+\end_layout
+
+\begin_layout Standard
+(2) -™—-i-~(a&孕0, a+&弄O).
+ x a b x—a—b
+\end_layout
+
+\begin_layout Standard
+10.解下列各方程：
+\end_layout
+
+\begin_layout Standard
+(1) x
+\backslash
+J^ -4 — x2 + 2：r； (2) 
+\backslash
+f~x — 1 —^ = 1;
+\end_layout
+
+\begin_layout Standard
+(3) ^L^^^2-x；⑷ 风 vVf J.
+ + 
+\backslash
+/：r—1 v ^ v a：+9
+\end_layout
+
+\begin_layout Standard
+U,要做一个容积是冗0立方厘米、高6厘米、底面的长比宽多4匾
+\end_layout
+
+\begin_layout Standard
+米的长方体匣子，底面的长和宽应该各是多少？（精确到0_1厘
+\end_layout
+
+\begin_layout Standard
+米•）
+\end_layout
+
+\begin_layout Standard
+12-甲、乙两队学生^到离校1.4公里的地方去劳动，甲队比乙队每 小时多走0.7公里，所以早到4分钟.两队学生每小时的速度 各是多少公里？
+\end_layout
+
+\begin_layout Standard
+13- 一个两位数，它的个位上的数比十位上的数大1，如果把个位上
+\end_layout
+
+\begin_layout Standard
+的数与十位上的数互相交換，那末所得的新数的倒数比原数的
+\end_layout
+
+\begin_layout Standard
+*, .
+\end_layout
+
+\begin_layout Standard
+倒数小汆这个两位数.
+\end_layout
+
+\begin_layout Standard
+14.
+ 一汽船在舰流中航行40公里和逆流中航行S4公里所需的间， 恰好等于它在諍水中航行80公里所需的时间.已知水流的&度 是每小时2公里,求汽船在静水中航行的速度，
+\end_layout
+
+\begin_layout Chapter-toc*
+复习题七
+\begin_inset space \space{}
+\end_inset
+
+B
+\end_layout
+
+\begin_layout Standard
+1.解下列各方程：
+\end_layout
+
+\begin_layout Standard
+(3) (^-3)4"6(2^^3)»+9-0；
+\end_layout
+
+\begin_layout Standard
+(4)〔P-x)3—4(2#—鉍一3)=0;
+\end_layout
+
+\begin_layout Standard
+(5) 十知 + 4) (；r2 + 3；r + 5) = 6;
+\end_layout
+
+\begin_layout Standard
+(6) 0+1){> + 2)^ + 3)0+4)+1=^
+\end_layout
+
+\begin_layout Standard
+2.
+ m取什么数值时，方程d+(2w+l)x+0»-2)、0 (1>有两 个不相等的实数根；（2)有两个相等的实数拫；（3)没有实数根;
+\end_layout
+
+\begin_layout Standard
+• M寒,
+\end_layout
+
+\begin_layout Standard
+(Ci两个根。它们的乘积等于:L.
+\end_layout
+
+\begin_layout Standard
+证明方程(加一 一坑= 为任意实数）必定有实 数根.
+\end_layout
+
+\begin_layout Standard
+记明方裎W-rt — b) -1 = 0有两个不相等的实数根.
+\end_layout
+
+\begin_layout Standard
+设幻、仏是方程F—-1 二0的两个裉，求下列各式的值：
+\end_layout
+
+\begin_layout Standard
+(1) 4+在 ⑶ ;
+\end_layout
+
+\begin_layout Standard
+工2
+\end_layout
+
+\begin_layout Standard
+(3) ^r
+\backslash
+ + (r}y: (4)
+\end_layout
+
+\begin_layout Standard
+(1)求作一个一元二次方程,使它的根是方程ad + k + tO的 根的倒數，相反数，々倍；
+\end_layout
+
+\begin_layout Standard
+(2)东作一个一元二次方程,使它的两个根各比方程o^+k+C =0的两个根大fc.
+\end_layout
+
+\begin_layout Standard
+已知关于迄的方程a(3^3)+b(加一2)^1鉍+5有无数多个 解,求0和?>的值.
+ *
+\end_layout
+
+\begin_layout Standard
+[提示:任取方程的两个解,代人方程,求a、b的值• J 如果方程o^+知+#0的两个根的比为2:3,求证6&2=25oc.
+ 解下列关于$的方程：
+\end_layout
+
+\begin_layout Standard
+(1) aW - {a*+fc4)^+-0 (a^O, b^Q);
+\end_layout
+
+\begin_layout Standard
+(2) V»——』
+\end_layout
+
+\begin_layout Standard
+解下列各方程：
+\end_layout
+
+\begin_layout Standard
+…8(^+2^) .
+ 3(^-1) _ a〉_m #+刼-n；
+\end_layout
+
+\begin_layout Standard
+⑶(x-3)3 +V^r6^+16-13j
+\end_layout
+
+\begin_layout Standard
+.
+ .
+ o
+\end_layout
+
+\begin_layout Standard
+(3) ^ +3"= -g-(a;+1);
+\end_layout
+
+\begin_layout Standard
+(4) ^3^13 -t- 
+\backslash
+/3^+13 -6；
+\end_layout
+
+\begin_layout Standard
+(5) 丨-1)^15; (6) ic-3^-10-0；
+\end_layout
+
+\begin_layout Standard
+(7) S^-65^4-3=0； (8) l-fS^+9^-0,
+\end_layout
+
+\begin_layout Standard
+[提示：第（6)题中设第（7)题中设$1==义]
+\end_layout
+
+\begin_layout Standard
+一个木工生产小组准备用6立方米杉木做课桌椅若干套，如果
+\end_layout
+
+\begin_layout Standard
+每套课桌椅节约|立方米杉木，那末就能多做3套，原计划
+\end_layout
+
+\begin_layout Standard
+做多少套？
+\end_layout
+
+\begin_layout Standard
+—个泥工小组，砌一道砖墙，原计划在一定日期里砌20000块
+\end_layout
+
+\begin_layout Standard
+砖.按原计划工作2天后，由于改进了技术，结果每天比原计姊 多砌2000块砖，因比提前1天完成，原计划每天砌多少块砖？ % 呩砌了几天？
+\end_layout
+
+\begin_layout Standard
+[提示：设胳计划每天砌^块砖，再根据天数的等量戈系列方 程,]
+\end_layout
+
+\begin_layout Standard
+1S.有连续的:二个正整数，鉍大数的立方与最小数的立方之羞，比中 可一个数的40倍大16.求这三个数.
+\end_layout
+
+\begin_layout Standard
+14舟液体纯农药一桶，倒出8升后，用水冲满一桶，后来又倒出痛 合液（冲淡后的农药)4升，再用永冲满，经过测定,这时楠内的 农药与水的比为18：7,求这桶的容积多
+少升？
+\end_layout
+
+\begin_layout Chapter-toc*
+第七章
+\begin_inset space \space{}
+\end_inset
+
+测验题
+\end_layout
+
+\begin_layout Standard
+1-解下列各方程：
+\end_layout
+
+\begin_layout Standard
+V(l)(刼+1)3丄+ —2)：^3;
+\end_layout
+
+\begin_layout Standard
+3 1 1 4
+\end_layout
+
+\begin_layout Standard
+(sr2 — 3工十 2 — £ k — 2 + x2 —仏；
+\end_layout
+
+\begin_layout Standard
+(3) 
+\backslash
+/2iC - 5 十 3 
+\backslash
+/3文+4;
+\end_layout
+
+\begin_layout Standard
+(4) 
+\backslash
+/JT5 + _i= = %/^4:4;
+\end_layout
+
+\begin_layout Standard
++5
+\end_layout
+
+\begin_layout Standard
+X蚌去)一3卜分:L;
+\end_layout
+
+\begin_layout Standard
+(6) 2^-14ic-3
+\backslash
+/^-7iC+10 -f 18-0.
+\end_layout
+
+\begin_layout Standard
+2如果2+VT是方程h+c_0的一个根，求方稈的另一个 根，并求c的值.
+\end_layout
+
+\begin_layout Standard
+3.设別、x2是方程2#-仏+3=0的两个根，不解方程，求下列备 一式的值:
+\end_layout
+
+\begin_layout Standard
+(1) (2)(灼一韌）3,
+\end_layout
+
+\begin_layout Standard
+4.
+ k取什么数值好，方程(k-^2)x + h-1^0有两个相等的实 教根？并求出这时方程的根.
+\end_layout
+
+\begin_layout Standard
+5.证明方程>—1)0-= P有两个不相等的实数根，
+\end_layout
+
+\begin_layout Standard
+6.已知1与2都是方程a{£~iy^Zb^{a.^S)的根，求<1与& 的值.
+\end_layout
+
+\begin_layout Standard
+*咐卜
+\end_layout
+
+\begin_layout Standard
+大、小两台抽水机给一块地浇水，两台合浇了 2小时以后，由小 抽水机继续独浇了1小时才浇完.巳知小抽水机独浇这块田所 需的时间是大抽水机独浇所需时间的1.5帒，求大、
+小两台抽水 机单独浇这块田各需多少小时？
+\end_layout
+
+\begin_layout Standard
+证明方程（方+0X3 +办J + + + 必
+\end_layout
+
+\begin_layout Standard
+定有实数根.
+\end_layout
+
+\begin_layout Standard
+勢
+\end_layout
+
+\end_body
+\end_document

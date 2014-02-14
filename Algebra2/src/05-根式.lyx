@@ -1,0 +1,6248 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 数理化自学丛书－代数
+\options oneside
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize a5paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 3
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+根 式
+\end_layout
+
+\begin_layout Section
+根式的意义
+\end_layout
+
+\begin_layout Standard
+在第四章里,我们知道,如果$就叫做《的w次 方根‘当n是奇数的时候,》可以是任何实数,并且规定用 d{n为奇数)来表示这个方根;当n是偶数的时候,«可
+ 以是任何正实数或者零,并且规定用为偶数)表示 正的一个方根,用—为偶数)表示负的一个方根.
+ 我们把表示方根的代数式叫做格式.例如,4^.
+\end_layout
+
+\begin_layout Standard
+^ x ^ W+l, V疋一女等都是根式.
+\end_layout
+
+\begin_layout Standard
+我们也把式子6^叫做根式,这里,6叫做根式的 系数,
+\end_layout
+
+\begin_layout Standard
+—我们知道,负数的偶次方根没有意义,因此,在式子 里如果根指数n是偶数而被开方数《是负数,在实数
+\end_layout
+
+\begin_layout Standard
+范围里没有意义,例如,H V-(?+i)等
+\end_layout
+
+\begin_layout Standard
+在实数范围里没有意义.
+\end_layout
+
+\begin_layout Standard
+设A V都是实数,下列各式在什么条件下才有意义7
+\end_layout
+
+\begin_layout Standard
+(1) ⑶ s/^j
+\end_layout
+
+\begin_layout Standard
+⑶ v^; (4)
+\end_layout
+
+\begin_layout Standard
+(1)因为根指数是偶数,所以$必须是任何正实数或 者零.
+\end_layout
+
+\begin_layout Standard
+(2)因为根指数是奇数,所以-可以是任何实数.
+\end_layout
+
+\begin_layout Standard
+(3)因为根指数是偶敫,所以1 一^/必须大于0或者等 于丨就是1 —解这个不等式7得到2/<l.
+\end_layout
+
+\begin_layout Standard
+因此,3/可以是不大于1的正实数.
+\end_layout
+
+\begin_layout Standard
+(4)因为根指数是偶数,所以1必须大于0或者等于
+\end_layout
+
+\begin_layout Standard
+(C
+\end_layout
+
+\begin_layout Standard
+0.但是1不能等于0,所以丄>0.解这个不等式得到
+\end_layout
+
+\begin_layout Standard
+3? 0}
+\end_layout
+
+\begin_layout Standard
+因此,$可以是任何正实数.
+\end_layout
+
+\begin_layout Standard
+^是什么数值的时候。下列各式才有意义:
+\end_layout
+
+\begin_layout Standard
+⑴ n/i+p; ⑶
+\end_layout
+
+\begin_layout Standard
+(1)因为不论^是什么实数,护都不是负数,所以 i+w>o,因此,当$是任何实数时,都有意义.
+\end_layout
+
+\begin_layout Standard
+(2)就根式看,^可以是任何实数,但是v当 的时候^^=0,这个分式没有意义.所以必
+\end_layout
+
+\begin_layout Standard
+须除掉•因此当^是不等于1的任何实数时,原式才有意 义.
+ — _
+\end_layout
+
+\begin_layout Standard
+根据方根的意义,当有意义的时候,式子就 表示一个数,它的n次方等于^得到下面的公式:
+\end_layout
+
+\begin_layout Standard
+(n是大于1的整数).
+\end_layout
+
+\begin_layout Standard
+因为y舒-一3, 所以任
+\end_layout
+
+\begin_layout Standard
+何负数的奇次方根都可以化成和某一个算术根相反的数.
+ 这就是说,在求负数的奇次方根时,可以把负号移到根号的 前面,然后求正数的算术根.
+\end_layout
+
+\begin_layout Standard
+由此可知,在根式&有意义的时候,根式&都可 以改用算术根来表示.因此,我们研究根式的性质的时候, 只要研究算术根的性质就可以了.
+\end_layout
+
+\begin_layout Standard
+把下列各式中的根式改用算术根来表示:
+\end_layout
+
+\begin_layout Standard
+(1) ⑶ 1 [解] (1) n—奶''
+\end_layout
+
+\begin_layout Standard
+⑶善4/1;告(—4^)= 一善4/1.
+\end_layout
+
+\begin_layout Standard
+在本章里,如果没有特别说明,所有的字母都表示正 数,所有作为根指数的字母都表示大于1的正整数.
+\end_layout
+
+\begin_layout Standard
+例4 在下列各种情况,求、»-的值:
+\end_layout
+
+\begin_layout Standard
+(1) a>5; (2) a<5; (3) a=5.
+\end_layout
+
+\begin_layout Standard
+[解] 因为 VO —5)3 = >—5|, 、
+\end_layout
+
+\begin_layout Standard
+(1)连 cz>5 时,那末
+\end_layout
+
+\begin_layout Standard
+V(« —5)a ^ = a —5,
+\end_layout
+
+\begin_layout Standard
+(2)当《<5 时,那末 a — 5<0,
+\end_layout
+
+\begin_layout Standard
+/, {a —5)2 ^~S| = — (d — S) =5 —a.
+\end_layout
+
+\begin_layout Standard
+(3)当卜3时,那宋卜5 = 0,
+\end_layout
+
+\begin_layout Standard
+•,.
+ “卜 0,
+\end_layout
+
+\begin_layout Standard
+例5 当如<36时,计算:
+\end_layout
+
+\begin_layout Standard
+W_12«&+962 ,
+\end_layout
+
+\begin_layout Standard
+[解] 先把根号里的被开方数4V—12妫+ 9&a化成完全平 方式•
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+j4a2 ~12it6 + 96a_ = a/ (2^ — 36) 2 = | - 361,
+\end_layout
+
+\begin_layout Standard
+*.* 2a<Sb, /.
+ 2a—3&<0, V4^-12a5 + 9&2 - |2d| = —(2a-36)
+\end_layout
+
+\begin_layout Standard
+—3b一 2这.
+\end_layout
+
+\begin_layout Standard
+1.写出满足下列条件的一个稂式:
+\end_layout
+
+\begin_layout Standard
+S*1 (1) 一个正数,它的平方等于15;
+\end_layout
+
+\begin_layout Standard
+n ⑶—个负數,它的平方等于15;
+\end_layout
+
+\begin_layout Standard
+(3)—个数,它的立方等于9;
+\end_layout
+
+\begin_layout Standard
+(4)—个数,它的立方等于
+\end_layout
+
+\begin_layout Standard
+• 183
+\end_layout
+
+\begin_layout Standard
+判别下列各式哪些是根式？哪些式子在实数范围里没有意义?
+\end_layout
+
+\begin_layout Standard
+4:1~2
+\end_layout
+
+\begin_layout Standard
+设A 2/都表示实数,下列各式在什么条件下才有意义: Cl) V^3*
+\end_layout
+
+\begin_layout Standard
+«*v f 夕
+\end_layout
+
+\begin_layout Standard
+y 1
+\end_layout
+
+\begin_layout Standard
+一 + 3C
+\end_layout
+
+\begin_layout Standard
+VI/ 
+\backslash
+iy
+\end_layout
+
+\begin_layout Standard
+3 5 ( (
+\end_layout
+
+\begin_layout Standard
+(7)
+\end_layout
+
+\begin_layout Standard
+(2〕Vx-y;
+\end_layout
+
+\begin_layout Standard
+(4) V2^5;
+\end_layout
+
+\begin_layout Standard
+(的 7-f^
+\end_layout
+
+\begin_layout Standard
+(s) H
+\end_layout
+
+\begin_layout Standard
+</•
+\end_layout
+
+\begin_layout Standard
+把下列各式中的根式改用算术根来表示:
+\end_layout
+
+\begin_layout Standard
+(1) %/^w;
+\end_layout
+
+\begin_layout Standard
+求下列各式的值:
+\end_layout
+
+\begin_layout Standard
+(1) (VS)3;
+\end_layout
+
+\begin_layout Standard
+(3) (VoTSSy:
+\end_layout
+
+\begin_layout Standard
+(2) 4^.;
+\end_layout
+
+\begin_layout Standard
+(2) (^123)3;
+\end_layout
+
+\begin_layout Standard
+⑹(得
+\end_layout
+
+\begin_layout Standard
+(5)
+\end_layout
+
+\begin_layout Standard
+T;
+\end_layout
+
+\begin_layout Standard
+求下列各式的值^
+\end_layout
+
+\begin_layout Standard
+(1) VCa~by (ct^l5, 6-20);
+\end_layout
+
+\begin_layout Standard
+(2) V(7-ay (7>a);
+\end_layout
+
+\begin_layout Standard
+⑶ (7<^);
+\end_layout
+
+\begin_layout Standard
+(4) V—
+\end_layout
+
+\begin_layout Standard
+(5) V(m—n)a {m<n)
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+(6) 
+\backslash
+/(4a-36)3 {a^2f 6=3).
+\end_layout
+
+\begin_layout Standard
+根据括号里的条件,计算下列各式:
+\end_layout
+
+\begin_layout Standard
+(1) V(5^-26)2 (5a<2&); (2) V^-^ + l" (ar>l);
+\end_layout
+
+\begin_layout Standard
+(3) (a;<l); (4) vV —(a>6); (5) VV —2必十 b2 (acb')^
+\end_layout
+
+\begin_layout Standard
+计箅下列各式:
+\end_layout
+
+\begin_layout Standard
+(1) 
+\backslash
+/(a-2)3-.
+\backslash
+/(3-a)2 (a>3);
+\end_layout
+
+\begin_layout Standard
+[提示:根据a>3的条件,分别求两个根式的值,再行计箅J
+\end_layout
+
+\begin_layout Standard
+(2) VC5-2w)£ (m>5).
+\end_layout
+
+\begin_layout Section
+根式的基本性质
+\end_layout
+
+\begin_layout Standard
+我们来解答下面的两个问题:
+\end_layout
+
+\begin_layout Standard
+问题 (1)不求方根的值,判断夕萨和VI是否相等？
+\end_layout
+
+\begin_layout Standard
+根据上一节里的公式^(71广=〜可以得到:
+\end_layout
+
+\begin_layout Standard
+(^y = Z
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+(n^")4 = [(V¥)〒=3'
+\end_layout
+
+\begin_layout Standard
+A #和V万都是32的4次算术根.
+\end_layout
+
+\begin_layout Standard
+但是33的4次算术根只有一个,
+\end_layout
+
+\begin_layout Standard
+二
+\end_layout
+
+\begin_layout Standard
+问题 (2) ^7和@是否相等？(这里a>0)
+\end_layout
+
+\begin_layout Standard
+V (犯X (^)8 - [d)4]3= (a^y = aP,
+\end_layout
+
+\begin_layout Standard
+人V歹和都是V的S次算术根.
+\end_layout
+
+\begin_layout Standard
+但是d的8次算术根只有一个,
+\end_layout
+
+\begin_layout Standard
+一般地说,如果OK
+\end_layout
+
+\begin_layout Standard
+V (%^^)np^a^
+\end_layout
+
+\begin_layout Standard
+[(v^)n]v- (amy = am^f '
+\end_layout
+
+\begin_layout Standard
+■•, nV^和^都是a-的吵次算术根,
+\end_layout
+
+\begin_layout Standard
+但是a-的印次算术根只有一个,所以得到下面的公 式r _
+\end_layout
+
+\begin_layout Standard
+U (a>0)f —
+\end_layout
+
+\begin_layout Standard
+这就是说,一个根式(算术根)的根指数和被开方数的 指数都乘以或者除以同一个正整数,根式的值不变.
+\end_layout
+
+\begin_layout Standard
+这个畦质/叫做根式的基本性质.
+ ,
+\end_layout
+
+\begin_layout Standard
+对于根式的基本性质,应该特别注意算术根这个条件.'
+\end_layout
+
+\begin_layout Standard
+• 185 4
+\end_layout
+
+\begin_layout Standard
+例1
+\end_layout
+
+\begin_layout Standard
+0J
+\end_layout
+
+\begin_layout Standard
+rL
+\end_layout
+
+\begin_layout Standard
+例2 [解] • 166 *
+\end_layout
+
+\begin_layout Standard
+如果不是算术根,那末这个性质就不一定成立.例如,
+\end_layout
+
+\begin_layout Standard
+v^8--2, *
+\end_layout
+
+\begin_layout Standard
+而 ^/(-8)3 --5/64-2,
+\end_layout
+
+\begin_layout Standard
+所以 — (― 8)^.
+\end_layout
+
+\begin_layout Standard
+又如,当a<0时,想一想,为什么?)
+\end_layout
+
+\begin_layout Standard
+用同样的方法,我们也可以证明幂的算术根公式:
+\end_layout
+
+\begin_layout Standard
+Va^"=aOT (a>0),
+\end_layout
+
+\begin_layout Standard
+在这个公式里,如果m-1,那末所以我们 知道,在访是正数或者零的时候,
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+/~^=<i («>0),
+\end_layout
+
+\begin_layout Standard
+根据根式的基本性质,可以知道:
+\end_layout
+
+\begin_layout Standard
+一个箅术根,当它的被开方数的指数和根指数有公约 数时,可以约去这个公约数;反过来,也可以把被开方数的 指数和根指数都扩大相同的倍数.
+\end_layout
+
+\begin_layout Standard
+这个性质,在以后根式的运算中经常要用到,应该牢固 掌握.
+\end_layout
+
+\begin_layout Standard
+约简下列各根式中被开方数的指数和根指数:
+\end_layout
+
+\begin_layout Standard
+(2) 8^( ^ t
+\end_layout
+
+\begin_layout Standard
+(3) ^/WxSf% ^^'
+\end_layout
+
+\begin_layout Standard
+⑴ Wl3;
+\end_layout
+
+\begin_layout Standard
+(2) =况
+\end_layout
+
+\begin_layout Standard
+(3) l/W^ -SJl^c^Y6' =
+\end_layout
+
+\begin_layout Standard
+⑷ V~anb2ncHn = V(ab26^)n =-4/^crm 求V济精确到0.001的值• .
+ n/27 - S/¥ - ^"8 -1.732,
+\end_layout
+
+\begin_layout Standard
+S-2
+\end_layout
+
+\begin_layout Standard
+1.下列各题的计算有没有错误？如果有错误,应当怎样改正？ (1) (2) V(-3ab2)2 ^V~3ab^ (3) (4)
+\end_layout
+
+\begin_layout Standard
+2.约简下列根式中被开方数的指数和根指数:
+\end_layout
+
+\begin_layout Standard
+(3)
+\end_layout
+
+\begin_layout Standard
+(2) 
+\end_layout
+
+\begin_layout Standard
+⑷ 
+\end_layout
+
+\begin_layout Standard
+(6) 
+\end_layout
+
+\begin_layout Standard
+々25祝; (8) ;
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+/8aW ; (10) A/27^yv^
+\end_layout
+
+\begin_layout Standard
+(12) 
+\end_layout
+
+\begin_layout Standard
+"v/3d(ir+^)2; (14) ^27(« + &)s;
+\end_layout
+
+\begin_layout Standard
+^256(:c + 2/)8; (16) ^V+〜V+64.
+\end_layout
+
+\begin_layout Standard
+(1)求</了精确到0.001的近似值;
+\end_layout
+
+\begin_layout Standard
+(2)求精确到0.001的近似值,
+\end_layout
+
+\begin_layout Section
+同次根式
+\end_layout
+
+\begin_layout Standard
+两个或者凡个稂式,如果它们的根指数相同,这些根式 就叫做同次根式.例如,#和#是同次根式,
+\end_layout
+
+\begin_layout Standard
+两个或者几个根式,如果根指数不相同,这些根式就叫 做异次根式.例如j ■和M是异次根式.异次根式• 可以根据根式的基本性质化为同次根式,把异次根式化为
+ 同次根式的方法和分数里的通分很相象,就是,先求出各个 根式的根指数的最小公倍数,然后应用根式的基本性质,把 各个根式的根指&都化成这个最小公倍数.
+\end_layout
+
+\begin_layout Standard
+例1 把^^ 化成同次根式.
+\end_layout
+
+\begin_layout Standard
+[审题] 这里,两个根式的根指数一个是3, —个是2,它们的 最小公倍数是6,应用根式的基本性质,把这两个根式化 成6次的同次根式.
+\end_layout
+
+\begin_layout Standard
+[解] v^5 - = ^/23,
+\end_layout
+
+\begin_layout Standard
+* isr*
+\end_layout
+
+\begin_layout Standard
+例
+\end_layout
+
+\begin_layout Standard
+I_I
+\end_layout
+
+\begin_layout Standard
+3 TJ
+\end_layout
+
+\begin_layout Standard
+彳解 伊s
+\end_layout
+
+\begin_layout Standard
+^ ^ V27.
+\end_layout
+
+\begin_layout Standard
+把下列根式化成同次根式:
+\end_layout
+
+\begin_layout Standard
+*J^y, 
+\backslash
+/2^2,
+\end_layout
+
+\begin_layout Standard
+^/xy = 3
+\backslash
+/ x<}yQ ;
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+/2xy2 — 'V (挪2)4 = 1Vl6^V" i
+\end_layout
+
+\begin_layout Standard
+</n^v -1 V(~^p=V2k:y.
+\end_layout
+
+\begin_layout Standard
+比较VI和—#的大小.
+ ^5 ―奶一辟一 ^25, —^/~S = — n/33 =—之,27*
+\end_layout
+
+\begin_layout Standard
+v m轧 / -收
+\end_layout
+
+\begin_layout Standard
+杷下列根式化成同次根式:
+\end_layout
+
+\begin_layout Standard
+(1) VY;
+\end_layout
+
+\begin_layout Standard
+(3) ^2j)2 , 
+\backslash
+/5x;
+\end_layout
+
+\begin_layout Standard
+(5) 2m?i f 
+\backslash
+Z.7miJns;
+\end_layout
+
+\begin_layout Standard
+(2)呢,
+\backslash
+/%:
+\end_layout
+
+\begin_layout Standard
+(4) V3^f V2^: (G)
+\end_layout
+
+\begin_layout Standard
+(3) 4/S,
+\end_layout
+
+\begin_layout Standard
+(7) VT,化
+\end_layout
+
+\begin_layout Standard
+(9) VW+% ^ Visc-
+\backslash
+-y)
+\end_layout
+
+\begin_layout Standard
+(10) 
+\backslash
+Za — b^ 々“。一£i% ^/H-b2
+\end_layout
+
+\begin_layout Standard
+不求方根的值,比较下列根式的太小
+\end_layout
+
+\begin_layout Standard
+(1) VO和(2)占和爲
+\end_layout
+
+\begin_layout Standard
+y y-
+\end_layout
+
+\begin_layout Standard
+(a>&)_
+\end_layout
+
+\begin_layout Standard
+10,
+\end_layout
+
+\begin_layout Standard
+(3) 和一v^; (4) f Vli, 
+\backslash
+/l23(
+\end_layout
+
+\begin_layout Section
+乘积的算术根
+\end_layout
+
+\begin_layout Standard
+我们来解答下而两个问题: (1)不求方根的值,判断和是否 相等？
+\end_layout
+
+\begin_layout Standard
+••• (VT^><9)3=16x9,
+\end_layout
+
+\begin_layout Standard
+(n/16 x y/~9j 2 = (V16) 2 X (VT) a-16x9,
+\end_layout
+
+\begin_layout Standard
+188
+\end_layout
+
+\begin_layout Standard
+Vl6x9fn Vl6x V9*都是16x9的算术平方
+\end_layout
+
+\begin_layout Standard
+稂,
+\end_layout
+
+\begin_layout Standard
+但是16 X 9的粦术平方根只有一个,
+\end_layout
+
+\begin_layout Standard
+Vl6x9- Vl6x nAT.
+\end_layout
+
+\begin_layout Standard
+⑵和是否相等？
+\end_layout
+
+\begin_layout Standard
+•/ (v/4xlB)3-4xl8,
+\end_layout
+
+\begin_layout Standard
+C^/Tx^/18)s = {{f^y X (x/l3)3=4xl3,
+\end_layout
+
+\begin_layout Standard
+二 和</Tx</T^都是4x13的算术立方
+\end_layout
+
+\begin_layout Standard
+根,
+\end_layout
+
+\begin_layout Standard
+但是4x13的算术立方根只有一个,
+\end_layout
+
+\begin_layout Standard
+人 ^/4xT3=^/Txv/l3.
+\end_layout
+
+\begin_layout Standard
+—般地说, *
+\end_layout
+
+\begin_layout Standard
+Y (K/~^by = ab,
+\end_layout
+
+\begin_layout Standard
+(^'^Ty = (v^)n* (^/T)n = abt
+\end_layout
+
+\begin_layout Standard
+••.
+ 和都是a6的n次算术根.
+\end_layout
+
+\begin_layout Standard
+但是d的n次算术根只有一个,所以得到下面的公
+\end_layout
+
+\begin_layout Standard
+式:
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+/ab = 
+\backslash
+/ a ^ b («>0^
+\end_layout
+
+\begin_layout Standard
+^一^乘积的算术根--
+\end_layout
+
+\begin_layout Standard
+应诙特别注意,这个公式只能适用于算术根.
+\end_layout
+
+\begin_layout Standard
+根据这个公式,我们还可以推导出
+\end_layout
+
+\begin_layout Standard
+(tbo = sf~a * 6 • sf~o
+\end_layout
+
+\begin_layout Standard
+寺
+\end_layout
+
+\begin_layout Standard
+这就是说,乘积的箅术根,等于乘积中各个因式的同次 算术根的乘积-
+\end_layout
+
+\begin_layout Standard
+计算:Vi的X225.
+\end_layout
+
+\begin_layout Standard
+V169X225-%/■ X 
+\backslash
+/225 = 13x15 = 195,
+\end_layout
+
+\begin_layout Standard
+计算:
+\end_layout
+
+\begin_layout Standard
+109
+\end_layout
+
+\begin_layout Standard
+[解]
+\end_layout
+
+\begin_layout Standard
+例8
+\end_layout
+
+\begin_layout Standard
+U
+\end_layout
+
+\begin_layout Standard
+解
+\end_layout
+
+\begin_layout Standard
+rL
+\end_layout
+
+\begin_layout Standard
+〔注意〕
+\end_layout
+
+\begin_layout Standard
+习题 S-4
+\end_layout
+
+\begin_layout Standard
+(1) VOS;
+\end_layout
+
+\begin_layout Standard
+(3) V0.0367;
+\end_layout
+
+\begin_layout Standard
+(2) -^27000; (4) n/570.
+\end_layout
+
+\begin_layout Standard
+(1) VO^ = Vi6x0.0i-^/idx
+\backslash
+/oM
+\end_layout
+
+\begin_layout Standard
+= 4x0,1 = 0.4.
+\end_layout
+
+\begin_layout Standard
+(2) x/27000 = ^/27 X1000 =卿 X v/1000
+\end_layout
+
+\begin_layout Standard
+— 3x10=30.
+\end_layout
+
+\begin_layout Standard
+(3) VO.0867 = V3,67x0.01 = V3T67xn/0^I
+\end_layout
+
+\begin_layout Standard
+^1,916x0,1 = 0,1916,
+\end_layout
+
+\begin_layout Standard
+(4) v^TO = V5.739x100= V5T739XVl00
+\end_layout
+
+\begin_layout Standard
+^2,396x10-23.96,
+\end_layout
+
+\begin_layout Standard
+计算:
+\end_layout
+
+\begin_layout Standard
+(1) VeS^lG5*.
+ (2) ^-60x16x25.
+\end_layout
+
+\begin_layout Standard
+(1)应用两数平方差的公式来计算,可以简便,
+\end_layout
+
+\begin_layout Standard
+V"652 - 16a" = V(65+16) (65—16) - V31 x 49
+\end_layout
+
+\begin_layout Standard
+—v^81 X ^/49 = 9 X 7 =63.
+\end_layout
+
+\begin_layout Standard
+(2)如果利用公式计算,乘积中的三个因数开立方都 开不尽,所以先作因数分解,再行计算,
+\end_layout
+
+\begin_layout Standard
+A - 60xl8x23=-^/22.3.5x2*3ax52
+\end_layout
+
+\begin_layout Standard
+= -^/23xS3x5y=-^/25'xv^x^/55' = — (2x3x5) 二一30.
+\end_layout
+
+\begin_layout Standard
+遇到求负数的奇次方根时,先把负号提到根号的前面,
+\end_layout
+
+\begin_layout Standard
+1.下列计算有没有错误？为什么？
+\end_layout
+
+\begin_layout Standard
+(1) s/Sa^ — 2a;
+\end_layout
+
+\begin_layout Standard
+计算下列各题:
+\end_layout
+
+\begin_layout Standard
+(1) VWj
+\end_layout
+
+\begin_layout Standard
+(3) ^8x(-27);
+\end_layout
+
+\begin_layout Standard
+(5)
+\end_layout
+
+\begin_layout Standard
+(7) Vl5TxT65;
+\end_layout
+
+\begin_layout Standard
+(9) 
+\backslash
+/~3~43 x 512 x 729; 计算下列各题:
+\end_layout
+
+\begin_layout Standard
+(2) VW37-4+3=7.
+\end_layout
+
+\begin_layout Standard
+(2) ^/125xY ;
+\end_layout
+
+\begin_layout Standard
+(4)
+\end_layout
+
+\begin_layout Standard
+(6)
+\end_layout
+
+\begin_layout Standard
+(8) Vl6xl21xl44; (10) ^81x16x655.
+\end_layout
+
+\begin_layout Standard
+♦
+\end_layout
+
+\begin_layout Standard
+190
+\end_layout
+
+\begin_layout Standard
+wrnm$
+\end_layout
+
+\begin_layout Standard
+mm'
+\end_layout
+
+\begin_layout Standard
+m
+\end_layout
+
+\begin_layout Standard
+(1) Vl7a—83 ; (2) 
+\backslash
+/2^-W'3
+\end_layout
+
+\begin_layout Standard
+(3) (4) V (o2 )2 一(a2 —
+\end_layout
+
+\begin_layout Standard
+(5) 
+\backslash
+/153-122; C6) V21xbx7x8;
+\end_layout
+
+\begin_layout Standard
+(7) 
+\backslash
+/45xlOx98j (8) V9t;x 56x189;
+\end_layout
+
+\begin_layout Standard
+C9) (10) 
+\end_layout
+
+\begin_layout Section
+分式的算术根
+\end_layout
+
+\begin_layout Standard
+例
+\end_layout
+
+\begin_layout Standard
+1
+\end_layout
+
+\begin_layout Standard
+解
+\end_layout
+
+\begin_layout Standard
+[
+\end_layout
+
+\begin_layout Standard
+和乘积的算术根一样,我们可以用同样的方法来证明 分式的算术根的公式.
+\end_layout
+
+\begin_layout Standard
+_ (^~a)R a
+\end_layout
+
+\begin_layout Standard
+An _ a (sfa^
+\end_layout
+
+\begin_layout Standard
+T) wt,
+\end_layout
+
+\begin_layout Standard
+和g都是+ 次算:术根•
+\end_layout
+
+\begin_layout Standard
+但是|的n次算术根只有一个,所以得到下面的公
+\end_layout
+
+\begin_layout Standard
+式I
+\end_layout
+
+\begin_layout Standard
+T=^ (a>0^ &>0)‘
+\end_layout
+
+\begin_layout Standard
+分式的算术根
+\end_layout
+
+\begin_layout Standard
+应该注意,这个公式只能适用于算术根.
+\end_layout
+
+\begin_layout Standard
+这就是说,分式的算术根,等于分子的同次算术根除以 分母的同次算术根,
+\end_layout
+
+\begin_layout Standard
+计算:
+\end_layout
+
+\begin_layout Standard
+(1)
+\end_layout
+
+\begin_layout Standard
+25,
+\end_layout
+
+\begin_layout Standard
+7
+\end_layout
+
+\begin_layout Standard
+1
+\end_layout
+
+\begin_layout Standard
+J
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+⑶
+\end_layout
+
+\begin_layout Standard
+27
+\end_layout
+
+\begin_layout Standard
+毚
+\end_layout
+
+\begin_layout Standard
+计算:
+\end_layout
+
+\begin_layout Standard
+3a3-12a-I-12
+\end_layout
+
+\begin_layout Standard
+—12®+S
+\end_layout
+
+\begin_layout Standard
+0>2),
+\end_layout
+
+\begin_layout Standard
+/^"z"-12a+i¥ / 3(a—2)a _V (a-2)J f^.2a2-12a-
+\backslash
+-B —V S{2a-l)s ~
+\end_layout
+
+\begin_layout Standard
+a — 2
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+(L 一 2
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+2a-l
+\backslash
+ 2a-l 解题时要把用到的已知条件写出.
+\end_layout
+
+\begin_layout Standard
+a>2)
+\end_layout
+
+\begin_layout Standard
+计箅下列各题(1〜3): 1, (1)
+\end_layout
+
+\begin_layout Standard
+144
+\end_layout
+
+\begin_layout Standard
+) ) ) ) ) )
+\end_layout
+
+\begin_layout Standard
+(3(1(3(5(7(1计
+\end_layout
+
+\begin_layout Standard
+2S9’
+\end_layout
+
+\begin_layout Standard
+~W;
+\end_layout
+
+\begin_layout Standard
+v 196
+\end_layout
+
+\begin_layout Standard
+[4^b
+\end_layout
+
+\begin_layout Standard
+V-a3
+\end_layout
+
+\begin_layout Standard
+&C13
+\end_layout
+
+\begin_layout Standard
+27a6&« *
+\end_layout
+
+\begin_layout Standard
+49o^
+\end_layout
+
+\begin_layout Standard
+(G+b)3,
+\end_layout
+
+\begin_layout Standard
+/ a3+6tj6+9^
+\end_layout
+
+\begin_layout Standard
+V ^4-100^ + 35^
+\end_layout
+
+\begin_layout Standard
+a3+2ab+&2 (1) a>bi
+\end_layout
+
+\begin_layout Standard
+⑶
+\end_layout
+
+\begin_layout Standard
+s
+\end_layout
+
+\begin_layout Standard
+2)
+\end_layout
+
+\begin_layout Standard
+yfK
+\end_layout
+
+\begin_layout Standard
+c
+\end_layout
+
+\begin_layout Standard
+23
+\end_layout
+
+\begin_layout Standard
+49
+\end_layout
+
+\begin_layout Standard
+"25":
+\end_layout
+
+\begin_layout Standard
+2^V"
+\end_layout
+
+\begin_layout Standard
+i25aW;
+\end_layout
+
+\begin_layout Standard
+(S)
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+— 1
+\end_layout
+
+\begin_layout Standard
+a^ + 6(^+12x-bB
+\end_layout
+
+\begin_layout Standard
+(3)
+\end_layout
+
+\begin_layout Section
+根号里面和外面的因式的移动
+\end_layout
+
+\begin_layout Standard
+根据乘积的算术根公式,可以得致,
+\end_layout
+
+\begin_layout Standard
+(2) IJ1W = qa'W、a^=识项
+\end_layout
+
+\begin_layout Standard
+= abijab^ •
+\end_layout
+
+\begin_layout Standard
+从上面两个例子可以看出,如果被开方数中有的因式 开方能够开得尽,那末这些因式可以用它们算术根来代替 而移到根号外面,开不尽的因式仍旧保留在根号里面.这
+ 样,就可以使被开方数的每一个因式的指数都低于根指数, 而使被开方数比较简单,
+\end_layout
+
+\begin_layout Standard
+把下列各式中根号里可以移到根号外面的因式移到根
+\end_layout
+
+\begin_layout Standard
+号外面: 
+\end_layout
+
+\begin_layout Standard
+(1) 、/ (2)
+\end_layout
+
+\begin_layout Standard
+(3) 
+\backslash
+/27^Y; ⑷獅
+\end_layout
+
+\begin_layout Standard
+(1) 、/ 2a3 — ( r2*2a = s/^ *
+\backslash
+/2a — a
+\backslash
+/2a*t
+\end_layout
+
+\begin_layout Standard
+⑵ ^lSa%c^ = 「V -2&61 = 3a<?V ;
+\end_layout
+
+\begin_layout Standard
+(3) ^/2W = :
+\backslash
+/'27^V*^a =-Sx2y
+\backslash
+/ icV ?
+\end_layout
+
+\begin_layout Standard
+⑷ ^54^^/27x2-3</2t 
+\end_layout
+
+\begin_layout Standard
+在根式的变形过程中,有时醅要把根号外面的因式移 
+\end_layout
+
+\begin_layout Standard
+到根号里面,这时应该先把这个因式乘方,使它的乘方指数
+\end_layout
+
+\begin_layout Standard
+等于根指数,然后把这乘方后的式子写在根号里面.
+\end_layout
+
+\begin_layout Standard
+很明显,把根号里面的因式移到根号外面,和把根号外 面的因式移到根号里面,是根据根式的基本性质而进行的 两种相反的变形过程•
+\end_layout
+
+\begin_layout Standard
+把下列各式中根号外面的因式移到根号里面*
+\end_layout
+
+\begin_layout Standard
+(1) 3V% (2) a
+\backslash
+^ab}
+\end_layout
+
+\begin_layout Standard
+(3) v/2^jr; ⑷
+\end_layout
+
+\begin_layout Standard
+(3) 2xp2 
+\backslash
+/2^y 
+\backslash
+/ (Sa^3) ^ ^
+\end_layout
+
+\begin_layout Standard
+『
+\backslash
+/ 16cc5^/7 ;
+\end_layout
+
+\begin_layout Standard
+不求方根的值,比较3v"V和2VII的大小.
+\end_layout
+
+\begin_layout Standard
+S-s/ 5 = -n/33*5 — 
+\backslash
+/ 45,
+\end_layout
+
+\begin_layout Standard
+2 V^T 二 
+\backslash
+,会3「11 — 
+\backslash
+/44,
+\end_layout
+
+\begin_layout Standard
+V %/4§> x/44,
+\end_layout
+
+\begin_layout Standard
+人 3Vl>WH,
+\end_layout
+
+\begin_layout Standard
+下列计算对不对？如果不对,应当怎样改正？
+\end_layout
+
+\begin_layout Standard
+(1) ; (2) 3^ =
+\end_layout
+
+\begin_layout Standard
+(3) ^16-2
+\backslash
+/Tf
+\end_layout
+
+\begin_layout Standard
+把根号里面可以移到根号外面的0式移到根号外面.•
+\end_layout
+
+\begin_layout Standard
+(1) V2^; (2) VSTo5-;
+\end_layout
+
+\begin_layout Standard
+(B) 3V4a352c; (4) -—^/STo^dc5;
+\end_layout
+
+\begin_layout Standard
+_ •
+\end_layout
+
+\begin_layout Standard
+(5) j (6)
+\end_layout
+
+\begin_layout Standard
+(7) ; (8)
+\end_layout
+
+\begin_layout Standard
+[解法举例:Vi®—ic3^3 =- —y*) =? x^/ 丨3,]
+\end_layout
+
+\begin_layout Standard
+(9) V^FTw+SO^i (10) V(^-6a) (a*~64) (a>&X [提示:箄(9), (10)题兜分解因式J 把根号外面的因式移到拫号里面:
+\end_layout
+
+\begin_layout Standard
+(1) ^vT; (2) 3^3"; ^
+\end_layout
+
+\begin_layout Standard
+⑶(4)如
+\end_layout
+
+\begin_layout Standard
+(5) 土(6〉2a3Z? ^3abcJ ;
+\end_layout
+
+\begin_layout Standard
+(7W 丢 4; ® 錄n/^5^
+\end_layout
+
+\begin_layout Standard
+[提示:第(8)题先把V+S巧H*8^分解因式J 不求方¥勺值,比g下列根式的大小.
+\end_layout
+
+\begin_layout Standard
+(1) 6VT 和 4VT; (2) ^63 m 2V^;
+\end_layout
+
+\begin_layout Standard
+⑶一3%^和一2々T.
+\end_layout
+
+\begin_layout Standard
+[提示:笫(2), (3)题要化成同次根式然后比较,]
+\end_layout
+
+\begin_layout Section
+化去根号里的分母
+\end_layout
+
+\begin_layout Standard
+根据分式的算术根的性质,可以得致t
+\end_layout
+
+\begin_layout Standard
+一^2~?
+\end_layout
+
+\begin_layout Standard
+一~
+\end_layout
+
+\begin_layout Standard
+一般地说,
+\end_layout
+
+\begin_layout Standard
+这就是说,如果被开方数是一个分母开方幵得尽的分 式:那宋这个分式的分母可以用它的算术根来代替而移到 根号外面,这样就化去了根号里的分母.
+\end_layout
+
+\begin_layout Standard
+因为分式的分子和分母同乘以一个不等于零的代数 式,它的值不变,所以如果被开方数是一个分母开方开不尽 的分式,我们可以把分子和分母闻乘以一个适当的代数式,
+ 使分母开方开得尽.这样,仍1日可以用它的算术根来代替 而移到根号外面,
+\end_layout
+
+\begin_layout Standard
+化去下到各式中根号里的分母:
+\end_layout
+
+\begin_layout Standard
+例2
+\end_layout
+
+\begin_layout Standard
+[解]
+\end_layout
+
+\begin_layout Standard
+〔注意〕
+\end_layout
+
+\begin_layout Standard
+例
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+t注意〕
+\end_layout
+
+\begin_layout Standard
+另—~s S7
+\end_layout
+
+\begin_layout Standard
+化去拫式里的分母.
+\end_layout
+
+\begin_layout Standard
+/!= iHl= /T _ ^"6 一 1 nr
+\end_layout
+
+\begin_layout Standard
+本题虽然也可以象下面这样来做,
+\end_layout
+
+\begin_layout Standard
+丨3一= / 3x8 _ V24_ 1 ;2l_ 1 /TTTfi
+\end_layout
+
+\begin_layout Standard
+V 耳-V T^n7§*r _ i i
+\end_layout
+
+\begin_layout Standard
+—x 2 v^" -7- v^6", o 4
+\end_layout
+
+\begin_layout Standard
+不过这种做法,第一步虽然化去了根号里的分母,但是 得到的根式孤,还可以移因式到根号外面,再进行约分, 这就增加了麻烦,
+\end_layout
+
+\begin_layout Standard
+从这个例子可以看出,所谓适当的代数式,首先要把分 母化成质因数或质因式的幂的积,然后找出一个代数式,用 它同乘分子和分母,使分母能以最低次的形式开得尽,
+\end_layout
+
+\begin_layout Standard
+化去下列各式中根号里的分母:
+\end_layout
+
+\begin_layout Standard
+ft
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+a /
+\end_layout
+
+\begin_layout Standard
+s 2
+\end_layout
+
+\begin_layout Standard
+3
+\end_layout
+
+\begin_layout Standard
+' y y 0 + 6)3.
+\end_layout
+
+\begin_layout Standard
+,9、/ d — h 一 l(a — b) (a + b) V a3 — b2
+\end_layout
+
+\begin_layout Standard
+{ } V、a+b)、叫' (a-^by 飞+ 6,
+\end_layout
+
+\begin_layout Standard
+一 D-6V
+\end_layout
+
+\begin_layout Standard
+(a^i)
+\end_layout
+
+\begin_layout Standard
+把根号里的分母移到根号外面时,必须仍旧写在分母 的位置上.例如(1)中,不能错误地写成
+\end_layout
+
+\begin_layout Standard
+1-下列的计箅对不对？如果不对,应该怎样改正？
+\end_layout
+
+\begin_layout Standard
+a)尽續4巧
+\end_layout
+
+\begin_layout Standard
+化去根号里的分母(2〜4):
+\end_layout
+
+\begin_layout Standard
+[解法举例(2)
+\end_layout
+
+\begin_layout Section
+最筒根式
+\end_layout
+
+\begin_layout Standard
+我们看下面三个根式变形的例子:
+\end_layout
+
+\begin_layout Standard
+^/54 —、/ 38 • 2.
+ 3v^ *2 tt3 
+\backslash
+/^6")
+\end_layout
+
+\begin_layout Standard
+• 4«t
+\end_layout
+
+\begin_layout Standard
+2
+\end_layout
+
+\begin_layout Standard
+Sx9
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+12
+\end_layout
+
+\begin_layout Standard
+(6) J 一
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+16
+\end_layout
+
+\begin_layout Standard
+50
+\end_layout
+
+\begin_layout Standard
+9Sx
+\end_layout
+
+\begin_layout Standard
+27WJ
+\end_layout
+
+\begin_layout Standard
+>IJ-
+\end_layout
+
+\begin_layout Standard
+0
+\end_layout
+
+\begin_layout Standard
+(6)
+\end_layout
+
+\begin_layout Standard
+(8)
+\end_layout
+
+\begin_layout Standard
+(“)原(a>&)
+\end_layout
+
+\begin_layout Standard
+35
+\end_layout
+
+\begin_layout Standard
+4^:
+\end_layout
+
+\begin_layout Standard
+o+b
+\end_layout
+
+\begin_layout Standard
+t m ?' XJ
+\end_layout
+
+\begin_layout Standard
+io
+\end_layout
+
+\begin_layout Standard
+(3)
+\end_layout
+
+\begin_layout Standard
+m+竹
+\end_layout
+
+\begin_layout Standard
+(jn—n尸
+\end_layout
+
+\begin_layout Standard
+鲁音— 3V 6 ■
+\end_layout
+
+\begin_layout Standard
+以上三个根式形式虽然不同,但蕃可以变形成根式
+\end_layout
+
+\begin_layout Standard
+3~, a ..
+\end_layout
+
+\begin_layout Standard
+同样可以看到,
+\end_layout
+
+\begin_layout Standard
+a
+\backslash
+Z~^b^ ^ a
+\backslash
+/ (ab)a = as/ab
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+— 
+\backslash
+/ a^^ab ah'
+\end_layout
+
+\begin_layout Standard
+= ^ J ~-=--a2^^=aVabt
+\end_layout
+
+\begin_layout Standard
+M a y or a
+\end_layout
+
+\begin_layout Standard
+这与个不同形式的根式都可以变形成根式 观^一下根式3八¥和《^,可以看出,它们都有这 样的特点;被开方数的指数和根指数没有公约数,被开方数 的每一个因式的指数都
+小于根指数,并且被开方数不含有 分母.
+\end_layout
+
+\begin_layout Standard
+如果一个拫式适合下面三个条件:
+\end_layout
+
+\begin_layout Standard
+(1)被开方数的指数和根搢数没有公约数;
+\end_layout
+
+\begin_layout Standard
+(2)被开方数的每一个因式的指数都小于根指数;
+\end_layout
+
+\begin_layout Standard
+(3)被开方数不含有分母;
+\end_layout
+
+\begin_layout Standard
+这样的根式就叫做最简根式.例如,根式a^/ab,
+\end_layout
+
+\begin_layout Standard
+等都是最简根式,而根式V34, 2愿
+\end_layout
+
+\begin_layout Standard
+等都不是最筒根式.
+\end_layout
+
+\begin_layout Standard
+一个根式,如果不是最简根式,可以经过约简被开方数 的指数和根指数,把根号里能开得尽的因式移到根号外面, 化去根号里的分母以后,把它化成最简根式.
+\end_layout
+
+\begin_layout Standard
+应该注意,在进行根式运算时,如果没有特别说明,最 后结果中的根式,都要化成最简根式.
+\end_layout
+
+\begin_layout Standard
+钯下列根式化成最简拫式:
+\end_layout
+
+\begin_layout Standard
+(1)"丽;(2) (3)
+\end_layout
+
+\begin_layout Standard
+mi
+\end_layout
+
+\begin_layout Standard
+mm
+\end_layout
+
+\begin_layout Standard
+c说明〕
+\end_layout
+
+\begin_layout Standard
+c说明〕 例2
+\end_layout
+
+\begin_layout Standard
+[解]
+\end_layout
+
+\begin_layout Standard
+t注意〕
+\end_layout
+
+\begin_layout Standard
+(1) = i/~(2ab^ -
+\end_layout
+
+\begin_layout Standard
+— b
+\backslash
+/2abi
+\end_layout
+
+\begin_layout Standard
+化简到n/2M'只做了符合最简根式的条件(1),必须 再把可以开方的因式移到根号外面_
+\end_layout
+
+\begin_layout Standard
+⑵題=讲'
+\end_layout
+
+\begin_layout Standard
+化简到只做了符合条件(2),必须再化去根号 里的分母.
+\end_layout
+
+\begin_layout Standard
+化简铐只做了符合条件W;化简到呼
+\end_layout
+
+\begin_layout Standard
+只做了符合条件⑴和⑶;必须再化去根号里的分母, 化镝下列根式:
+\end_layout
+
+\begin_layout Standard
+⑵
+\end_layout
+
+\begin_layout Standard
+最简公分母是？,而不是
+\end_layout
+
+\begin_layout Standard
+(2) !/ °n+" =V ..•〜一 V》V a^3»fa V ■沪 anbn、62
+\end_layout
+
+\begin_layout Standard
+例9
+\end_layout
+
+\begin_layout Standard
+[解]
+\end_layout
+
+\begin_layout Standard
+S8
+\end_layout
+
+\begin_layout Standard
+已知化简根式
+\end_layout
+
+\begin_layout Standard
+a% ab
+\end_layout
+
+\begin_layout Standard
+u
+\end_layout
+
+\begin_layout Standard
+ab 62
+\end_layout
+
+\begin_layout Standard
+62 一 2<z6 + d'
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+ab
+\end_layout
+
+\begin_layout Standard
+a2b2
+\end_layout
+
+\begin_layout Standard
+[
+\end_layout
+
+\begin_layout Standard
+w
+\end_layout
+
+\begin_layout Standard
+(
+\backslash
+*a>6>0)
+\end_layout
+
+\begin_layout Standard
+下列根式中哪些是最简根式？哪些不是？为什么？
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+/50; v^;
+\end_layout
+
+\begin_layout Standard
+把下列根式化成最筒根式(2〜3);
+\end_layout
+
+\begin_layout Standard
+3)5)7)u
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+^5;
+\end_layout
+
+\begin_layout Standard
+16a4;
+\end_layout
+
+\begin_layout Standard
+"108^10:
+\end_layout
+
+\begin_layout Standard
+32^
+\end_layout
+
+\begin_layout Standard
+v 9a^b^ 
+\backslash
+/l6aa+32o^ ;
+\end_layout
+
+\begin_layout Standard
+3) (m —»)
+\end_layout
+
+\begin_layout Standard
+(m+»)4 • («i — h)g 3
+\end_layout
+
+\begin_layout Standard
+5)
+\end_layout
+
+\begin_layout Standard
+2a / P b5 36 v a4 a6
+\end_layout
+
+\begin_layout Standard
+2)4)0)s)s>4)
+\end_layout
+
+\begin_layout Standard
+VI2;
+\end_layout
+
+\begin_layout Standard
+^9a^fa™;
+\end_layout
+
+\begin_layout Standard
+3J^y.
+\end_layout
+
+\begin_layout Standard
+v紀,
+\end_layout
+
+\begin_layout Standard
+^ 3I~
+\end_layout
+
+\begin_layout Standard
+6)
+\end_layout
+
+\begin_layout Standard
+已知〜&都是正数,化简下面的根式:
+\end_layout
+
+\begin_layout Standard
+1) -™^-Vaa-2a2Z>+c!^
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+提示要分成两种情况来考虑.j
+\end_layout
+
+\begin_layout Standard
+2) ^a4-2as£?2+64.
+\end_layout
+
+\begin_layout Section
+同类拫式
+\end_layout
+
+\begin_layout Standard
+我们来化简下列的根式』
+\end_layout
+
+\begin_layout Standard
+V^8i 挪
+\end_layout
+
+\begin_layout Standard
+应用上节讲过的方法,可以得到:
+\end_layout
+
+\begin_layout Standard
+n/18>/¥x2 -3
+\end_layout
+
+\begin_layout Standard
+观察上面化简后的三个根式3#, V2-和
+\end_layout
+
+\begin_layout Standard
+它们都已经是最简根式,而它们的被开方数相同(都是2), 根指数也相同(都是2>.
+\end_layout
+
+\begin_layout Standard
+几个根式化成最简根式以后,如果被开方数相同,根攢 数也相同末这几个根式就叫做同类根式.例如,v^,
+\end_layout
+
+\begin_layout Standard
+via和是同类根式,但是象和^2-yr
+\end_layout
+
+\begin_layout Standard
+和2@就不是同类根式,因为这些根式虽然都是最简根 式,但是彳和的根指数不同,和2V?■的被 开方数不同•
+\end_layout
+
+\begin_layout Standard
+应该注意;要判别几个根式是不是同类根式,必须先把 各个根式化成最简根式.
+\end_layout
+
+\begin_layout Standard
+下列各式中哪些是同类根式?
+\end_layout
+
+\begin_layout Standard
+V2^i ^/2^;
+\end_layout
+
+\begin_layout Standard
+err-
+\end_layout
+
+\begin_layout Standard
+*sj%^ — 
+\backslash
+j2x*^ x
+\backslash
+J2^;
+\end_layout
+
+\begin_layout Standard
+ifW - V (2^a)a - </2^(
+\end_layout
+
+\begin_layout Standard
+例2
+\end_layout
+
+\begin_layout Standard
+TJ
+\end_layout
+
+\begin_layout Standard
+B
+\end_layout
+
+\begin_layout Standard
+习s
+\end_layout
+
+\begin_layout Standard
+是同类根式,
+\end_layout
+
+\begin_layout Standard
+v/2^, V^-和是同类根式.
+ 下列根式是不是同类根式？
+\end_layout
+
+\begin_layout Standard
+tt4-c^3 _ /V{a*-6s)
+\end_layout
+
+\begin_layout Standard
+4
+\end_layout
+
+\begin_layout Standard
+&
+\end_layout
+
+\begin_layout Standard
+V
+\end_layout
+
+\begin_layout Standard
+一.
+\end_layout
+
+\begin_layout Standard
+!4 2
+\end_layout
+
+\begin_layout Standard
+70(z
+\end_layout
+
+\begin_layout Standard
+V
+\end_layout
+
+\begin_layout Standard
+7 I分
+\end_layout
+
+\begin_layout Standard
+/F f i, 
+\backslash
+ i
+\end_layout
+
+\begin_layout Standard
+2
+\end_layout
+
+\begin_layout Standard
+b
+\end_layout
+
+\begin_layout Standard
+(a^b)(a~b)
+\end_layout
+
+\begin_layout Standard
+c
+\end_layout
+
+\begin_layout Standard
+-b
+\end_layout
+
+\begin_layout Standard
+^和4/^+y是同类根式,
+\end_layout
+
+\begin_layout Standard
+y b4 沪 a—b
+\end_layout
+
+\begin_layout Standard
+下列各组根式是不是同类根式(i~2>:
+\end_layout
+
+\begin_layout Standard
+1.
+ a> 3V54 和 5v^s; (2) lV73 和 3揚;
+\end_layout
+
+\begin_layout Standard
+(3) 4^ 和 VfTB; (4) 和
+\end_layout
+
+\begin_layout Standard
+(5) VT3 和 
+\backslash
+/S; ' (6) 2M 和 士会.
+\end_layout
+
+\begin_layout Standard
+[提示:第⑶,(4)题中,0.5和1.125先化成分数;2 |■先化成
+\end_layout
+
+\begin_layout Standard
+假分数.] 2.(巧 ^FF,
+\end_layout
+
+\begin_layout Standard
+〔说明〕
+\end_layout
+
+\begin_layout Section
+根式的加减法
+\end_layout
+
+\begin_layout Standard
+在代数第一册里,我们知道,几个单项式相加减,只要 把它们写成代数和的形式,再合并同类项,计算根式的加 减,和计算单项式的加减一样,只要把它们先写成代数和的
+ 形式,再合并同类根式(把各根式的系数相加,根式的其余 部分不变),例如,计算:
+\end_layout
+
+\begin_layout Standard
+2
+\backslash
+/ 2 -各+ 各+ V 3 ♦
+\end_layout
+
+\begin_layout Standard
+Z 6
+\end_layout
+
+\begin_layout Standard
+这里,2V1, 和一 是同类根式,
+\end_layout
+
+\begin_layout Standard
+和巧也是同类根式.
+\end_layout
+
+\begin_layout Standard
+:• 2 v^2~— — "i~ 
+\backslash
+/~S^
+\end_layout
+
+\begin_layout Standard
+-2 VT+j —VT—丢 VT
+\end_layout
+
+\begin_layout Standard
+o M
+\end_layout
+
+\begin_layout Standard
+根式的系数如果是假分数,不要化成带分数形式*例 如不要写成1 音〜•
+\end_layout
+
+\begin_layout Standard
+又如,计算• _
+\end_layout
+
+\begin_layout Standard
+s/Y 4- -J~8.
+\end_layout
+
+\begin_layout Standard
+«2oa*
+\end_layout
+
+\begin_layout Standard
+首先把#化成最简根式2#.那末可以得到
+\end_layout
+
+\begin_layout Standard
+V2" + vr8-VT+2vA2" = 3V2'.
+\end_layout
+
+\begin_layout Standard
+这里我们可以看出,为了合并同类根式,应当先把各个 根式化成最简根式,
+\end_layout
+
+\begin_layout Standard
+因此,根式加减法的法则是:
+\end_layout
+
+\begin_layout Standard
+根式相加减,先把各个根式化成最筒 根式,再把同类根式分别合并,
+\end_layout
+
+\begin_layout Standard
+计算:
+\end_layout
+
+\begin_layout Standard
+y £W^+6ir(y
+\end_layout
+
+\begin_layout Standard
+~x
+\backslash
+/ x -
+\backslash
+-2w
+\backslash
+fx — 2x
+\backslash
+/~x —x
+\backslash
+J x ,
+\end_layout
+
+\begin_layout Standard
+计算:2#+W¥)—s/^),
+\end_layout
+
+\begin_layout Standard
+- 2抑+5
+\backslash
+D — (4 -々
+\end_layout
+
+\begin_layout Standard
+-巧-2^ + S VT 一 々 +W
+\end_layout
+
+\begin_layout Standard
+一 2vT + 善VT + 3n/T
+\end_layout
+
+\begin_layout Standard
+A o
+\end_layout
+
+\begin_layout Standard
+=警音VT.
+\end_layout
+
+\begin_layout Standard
+计算:
+\end_layout
+
+\begin_layout Standard
+08]
+\end_layout
+
+\begin_layout Standard
+C注意〕
+\end_layout
+
+\begin_layout Standard
+5*10
+\end_layout
+
+\begin_layout Standard
+a<b}
+\end_layout
+
+\begin_layout Standard
+—V^ — (« — b) J-r-~ + ^A/ a1 — 2ab + 62 — J—
+\end_layout
+
+\begin_layout Standard
+a y b — a 3 
+\backslash
+ x
+\end_layout
+
+\begin_layout Standard
+X }一一 a —b r.- p 2 4/tt-va 1 r~Z
+\end_layout
+
+\begin_layout Standard
+=一V oc ——-v o —a +—v (o ~ a)--v 怎
+\end_layout
+
+\begin_layout Standard
+a b-a 3 a?
+\end_layout
+
+\begin_layout Standard
+fc—^ 〜/ x + -zr-^s/b一cl一-—%/ 名
+\end_layout
+
+\begin_layout Standard
+a 3 «
+\end_layout
+
+\begin_layout Standard
+&('f^v)N/¥+(1+T)x/^
+\end_layout
+
+\begin_layout Standard
+a?2 — n /— .
+ 5 /j--
+\end_layout
+
+\begin_layout Standard
+^ —-v aJ + -ttv 6 — o
+\end_layout
+
+\begin_layout Standard
+<73/ 8
+\end_layout
+
+\begin_layout Standard
+由于已知条件a<b, ^/a^2ab^不能错误地写成 
+\backslash
+[a — b •
+\end_layout
+
+\begin_layout Standard
+1.下列计算是否正确？如杲有错误>指出错在哪里？
+\end_layout
+
+\begin_layout Standard
+(1) VT+VT-VT; (2) 2+V2'*=2Vr2;
+\end_layout
+
+\begin_layout Standard
+(3) a
+\backslash
+TE^Qk—b
+\backslash
+/x
+\backslash
+ 〔4) 2Vra +5v^b ^7Vo&B 计算下列各题(2〜3):
+\end_layout
+
+\begin_layout Standard
+2.
+ (1) VlS- 
+\backslash
+/584-2v^- V27;
+\end_layout
+
+\begin_layout Standard
+〔2) VT-
+\end_layout
+
+\begin_layout Standard
+(3)
+\end_layout
+
+\begin_layout Standard
+⑷ %/32+S^^X- ^si.
+ -|V48;
+\end_layout
+
+\begin_layout Standard
+(5) 5^81-4-2
+\backslash
+/^24-~5%/12"3^^3+4-
+\end_layout
+
+\begin_layout Standard
+3.
+\end_layout
+
+\begin_layout Standard
+6>1)幻
+\end_layout
+
+\begin_layout Standard
+/V /
+\backslash
+ /%
+\end_layout
+
+\begin_layout Standard
+^):
+\end_layout
+
+\begin_layout Standard
+/、
+\end_layout
+
+\begin_layout Standard
+r /r ^
+\end_layout
+
+\begin_layout Standard
+(3)(仙释瓶卜
+\end_layout
+
+\begin_layout Standard
+(4) V 4^—4a^ V 9ba—9a3 — V (o—d)a (a<bj,
+\end_layout
+
+\begin_layout Standard
+4.已知 a=25,v = ;15,计算:
+\end_layout
+
+\begin_layout Standard
+'/ js -f ^-}--j-^ 4-、/+ d+x,y ,
+\end_layout
+
+\begin_layout Standard
+[提示:先把原式化简,再行代入计算J
+\end_layout
+
+\begin_layout Section
+根式的乘法
+\end_layout
+
+\begin_layout Standard
+我们把乘积的算术根的公式
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+fab ~ d m
+\backslash
+/ b (a^Oj 6>0)
+\end_layout
+
+\begin_layout Standard
+反过来,就得到
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+Ta * ^fb sfab (^0^ &>0) •
+\end_layout
+
+\begin_layout Standard
+从这个结果,可以得出同次根式相乘的法ij:
+\end_layout
+
+\begin_layout Standard
+同次根式相乘^把被开方数相乘,根指数不变.
+\end_layout
+
+\begin_layout Standard
+如果根号前面有系数,那末把各个系数相乘,仍旧作为 根号前的系数.
+\end_layout
+
+\begin_layout Standard
+应该注意,在计算根式的乘法时,最后结果必须化成最 简根式.
+\end_layout
+
+\begin_layout Standard
+计算:
+\end_layout
+
+\begin_layout Standard
+(1) (2) 6VT.3VT.
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+(1) a*s/2x * —
+\backslash
+/Ex = a • —
+\backslash
+/10a;2
+\end_layout
+
+\begin_layout Standard
+a a
+\end_layout
+
+\begin_layout Standard
+(2) 6V*3 -3^-18V^8^18*3s^-54va2'.
+\end_layout
+
+\begin_layout Standard
+如果是异次根式,怎样计算呢?我们看下面的例子.
+ 计算:
+\end_layout
+
+\begin_layout Standard
+(1) Va (2) s/~a*
+\backslash
+rat
+\end_layout
+
+\begin_layout Standard
+这里,和^■与AT和次7都不是同次根式, 就不能直接应用上面的法则,必须先把它们化成同次根式 后7再根据同次根式相乘法则进行计
+\end_layout
+
+\begin_layout Standard
+(1) Wh d;,、
+\end_layout
+
+\begin_layout Standard
+所以 V <5 • a = * 5/aa %/a5 ;
+\end_layout
+
+\begin_layout Standard
+⑵因为
+\end_layout
+
+\begin_layout Standard
+所以 •夕i 'VI
+\end_layout
+
+\begin_layout Standard
+从这个例子,可以得出异次根式相乘的法则:
+\end_layout
+
+\begin_layout Standard
+异次根式相乘,先化成同次根式,然后相乘
+\end_layout
+
+\begin_layout Standard
+计算
+\end_layout
+
+\begin_layout Standard
+U)
+\end_layout
+
+\begin_layout Standard
+/%a?
+\end_layout
+
+\begin_layout Standard
+= 
+\backslash
+/2a^ •
+\end_layout
+
+\begin_layout Standard
+计算下列各厘: (1) V2-VJ;
+\end_layout
+
+\begin_layout Standard
+(3) *s/Bx*^/6x* (5)
+\end_layout
+
+\begin_layout Standard
+(7)
+\end_layout
+
+\begin_layout Standard
+(2) mV1!;
+\end_layout
+
+\begin_layout Standard
+(4)
+\end_layout
+
+\begin_layout Standard
+(6) 2V2a:' 
+\backslash
+TSak
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+(8) 3</2a^^ie^M
+\end_layout
+
+\begin_layout Standard
+下列各题计算是否正确？如果有错误,指出镨在哪里？
+\end_layout
+
+\begin_layout Standard
+(1) x/T-^3--^*6; (2) 3
+\backslash
+^2 *4
+\backslash
+/"3'^12
+\backslash
+r6';
+\end_layout
+
+\begin_layout Standard
+(3) V^rr-v^ — ^2jc2 *
+\backslash
+/^
+\end_layout
+
+\begin_layout Standard
+计算下列各题:
+\end_layout
+
+\begin_layout Standard
+,wr
+\end_layout
+
+\begin_layout Standard
+n> W-r r"7"^
+\end_layout
+
+\begin_layout Standard
+4 TJ XV TJ s -J 1J
+\end_layout
+
+\begin_layout Standard
+例, 嫵 例谰 例 gcft
+\end_layout
+
+\begin_layout Standard
+(1) V~2-VJ^
+\end_layout
+
+\begin_layout Standard
+(3) m
+\end_layout
+
+\begin_layout Standard
+(1) 3
+\backslash
+/20-4
+\backslash
+/
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+(4) WF.
+\end_layout
+
+\begin_layout Standard
+⑶鲁
+\end_layout
+
+\begin_layout Standard
+(4)
+\end_layout
+
+\begin_layout Standard
+(3)
+\end_layout
+
+\begin_layout Standard
+(1) 3vT^.3
+\backslash
+/IO-5
+\backslash
+/50;
+\end_layout
+
+\begin_layout Standard
+(2) ^-^/ic3 *b
+\backslash
+/<ryJ ^
+\end_layout
+
+\begin_layout Standard
+o a
+\end_layout
+
+\begin_layout Standard
+计算:
+\end_layout
+
+\begin_layout Standard
+(1) (£3 + a/F)(®-n/T),
+\end_layout
+
+\begin_layout Standard
+(2) (-
+\backslash
+- 
+\backslash
+Jx—V) (^
+\backslash
+f~x 一 *yfx — V) (a?> 1),
+\end_layout
+
+\begin_layout Standard
+(1) (a^rsJT) (a- VT) ^ aa- (V6~)a = a3-6#
+\end_layout
+
+\begin_layout Standard
+(2) (v^H-V^ —i) (N^~ - V^K = i)
+\end_layout
+
+\begin_layout Standard
+=(V x)2 — (3—a;— (a?—1) —14
+\end_layout
+
+\begin_layout Standard
+计算:
+\end_layout
+
+\begin_layout Standard
+(2V^b-Ss/^'+Ve'Xv^-Sv^)* (2^-3n/2>V6') (V~6 -5^/~3)
+\end_layout
+
+\begin_layout Standard
+• 
+\backslash
+! 6 —3
+\backslash
+/ 2 • 
+\backslash
+/6" + *s/^"«
+\end_layout
+
+\begin_layout Standard
+一 2 3 * 5v^~S™+2 *5
+\backslash
+/_3^ — 6 ■ 5n^ 3* -2s/l8-3vl2^6-80+15V6"-5
+\backslash
+/l8 --24 + 15^-3^18-3^
+\end_layout
+
+\begin_layout Standard
+一24M- 15v^ 6 一%sj 2 —6
+\backslash
+^3~#
+\end_layout
+
+\begin_layout Standard
+计算:
+\end_layout
+
+\begin_layout Standard
+(s^-Vs-hV^) (VF+^■-vt).
+\end_layout
+
+\begin_layout Standard
+本题应用乘法公式计算,比较简便.
+\end_layout
+
+\begin_layout Standard
+(vT-x^ + a/2-) (^4-^/3"-V"2)
+\end_layout
+
+\begin_layout Standard
+^ [V5-〜(V¥-n/2")] [V5~ + (V"3 -]
+\end_layout
+
+\begin_layout Standard
+-(V¥r - (vy - vy”
+\end_layout
+
+\begin_layout Standard
+=5—(3—2-^^6 +2).=2v^.
+ 6*
+\end_layout
+
+\begin_layout Standard
+计箅下列各题(1 二5): _
+\end_layout
+
+\begin_layout Standard
+1.
+ (1) (VI0-2v/15)-
+\backslash
+/T;
+\end_layout
+
+\begin_layout Standard
+(2) +去
+\backslash
+^3
+\end_layout
+
+\begin_layout Standard
+2.
+ (1) [V 2"™ v/T-h ^ S") ■ VT;
+\end_layout
+
+\begin_layout Standard
+(2) (2>/3^ —3"^/ x) 'V x •
+\end_layout
+
+\begin_layout Standard
+3‘(1) (
+\backslash
+/T + 
+\backslash
+/T) (V^-VT);
+\end_layout
+
+\begin_layout Standard
+(2) (4-3
+\backslash
+A5)(4+3V5);
+\end_layout
+
+\begin_layout Standard
+(3) (7
+\backslash
+/~S ^-2
+\backslash
+/~6)^y/T-7V^3h
+\end_layout
+
+\begin_layout Standard
+(4) (VSFP2 + V5;) ( 
+\backslash
+/3^Ta - V5S).
+\end_layout
+
+\begin_layout Standard
+4_ ⑴(3v^-2、/Tn (2) (--1 y^),:
+\end_layout
+
+\begin_layout Standard
+(3) (7|-v^),
+\end_layout
+
+\begin_layout Standard
+5.〔1) (Ih-v^-VTxi^vT-s-n/T);
+\end_layout
+
+\begin_layout Standard
+(2) (v^-V^ + (V"2+V3""V¥),
+\end_layout
+
+\begin_layout Standard
+6.求证下列恒等式:
+\end_layout
+
+\begin_layout Standard
+(1) a& ) (v^o5 — ^yob + v^) — a + 6;
+\end_layout
+
+\begin_layout Standard
+[提示:如果把看做公式里的</T看做fl,那末抑 呢=^2,就可应用乘法公式O十B)(f 二AS+
+\end_layout
+
+\begin_layout Standard
+(2) {^/~m — 
+\backslash
+/~n ) (j^/ m2 + ^/mn 4- ) — m —
+\end_layout
+
+\begin_layout Standard
+7.下列各恒等式里,写出P应该是怎样的代数式？
+\end_layout
+
+\begin_layout Standard
+(1) (a+v^5") -i^=(i3—
+\end_layout
+
+\begin_layout Standard
+[解法举例:V (a4 V~6")(a-Vb^^a^-b, ;.
+ F-a-^/T.']
+\end_layout
+
+\begin_layout Standard
+(2) (V a — V & ) •F=^a—b: (3) (
+\backslash
+/ ce — ^ & ) -i* —<j—6;
+\end_layout
+
+\begin_layout Standard
+(4) — 
+\backslash
+/mn -t-m+«•
+\end_layout
+
+\begin_layout Standard
+〔注意〕第6,r题中所列的恒等式,是从乘法公式推导出来,在 PJ后的根式运算中,应用较广,必须熟练掌握.
+\end_layout
+
+\begin_layout Section
+根式的乘方
+\end_layout
+
+\begin_layout Standard
+我们知道,乘方就是求相同因数的积的运算,所以计算 根式的乘方,同样可以根据幂的意义和根式乘法的法则进
+\end_layout
+
+\begin_layout Standard
+行.例如,计算(M)3,可以得到,
+\end_layout
+
+\begin_layout Standard
+(^) 3 = 4UY.
+ = ^2^2 = ^S,
+\end_layout
+
+\begin_layout Standard
+一般地有
+\end_layout
+
+\begin_layout Standard
+(n/ a)m q * Zi a …3 a = ama***a
+\end_layout
+
+\begin_layout Standard
+=^.
+ 所以得到下而的公式:
+\end_layout
+
+\begin_layout Standard
+{^~a)m=
+\backslash
+T^ (ce>0) 一~■根式的乘方——
+\end_layout
+
+\begin_layout Standard
+也就是说,根式的乘方可以应用以下的法则: 根式乘方,把被开方数乘方:根指数不变.
+ 计算:
+\end_layout
+
+\begin_layout Standard
+⑴(-崎)8; (2) VT 1+^
+\end_layout
+
+\begin_layout Standard
+a) - c^^)e = VW^
+\end_layout
+
+\begin_layout Standard
+⑶幅、漏
+\end_layout
+
+\begin_layout Standard
+v (i+a)
+\end_layout
+
+\begin_layout Standard
+1+<i 计算:
+\end_layout
+
+\begin_layout Standard
+(1)(一号⑵
+\end_layout
+
+\begin_layout Standard
+⑴h々)s—靡--iv?
+\end_layout
+
+\begin_layout Standard
+a
+\end_layout
+
+\begin_layout Standard
+z
+\end_layout
+
+\begin_layout Standard
+Vab=~
+\end_layout
+
+\begin_layout Standard
+如果根式前有系数,把系数乘方,仍旧作系数,
+\end_layout
+
+\begin_layout Standard
+(2) n+1 = an+L =
+\backslash
+/an^a =as/ ct •
+\end_layout
+
+\begin_layout Standard
+计算:
+\end_layout
+
+\begin_layout Standard
+(i) n/io+• Vio-
+\backslash
+T2;
+\end_layout
+
+\begin_layout Standard
+210*
+\end_layout
+
+\begin_layout Standard
+.II
+\end_layout
+
+\begin_layout Standard
+习ib
+\end_layout
+
+\begin_layout Standard
+(2) (Vi —V;r 一Vl+W)2 (0<*<1),
+\end_layout
+
+\begin_layout Standard
+(1) Vio+VT VIo^VT
+\end_layout
+
+\begin_layout Standard
+=s/lO2- (^2)2 -二^i6o~-2 ~ 
+\backslash
+/98 = 7'^/^2 |
+\end_layout
+
+\begin_layout Standard
+(2) (%/1 — x -
+\backslash
+,1 +V w)2
+\end_layout
+
+\begin_layout Standard
+—X 一 
+\backslash
+f iV _ 2
+\backslash
+/ (1_ sj 30 ) (1 + X )
+\end_layout
+
+\begin_layout Standard
++1 +VV = 2 — 2Vl-x (
+\backslash
+- 0<£t<l)9
+\end_layout
+
+\begin_layout Standard
+计算下列各殷(i〜3):
+\end_layout
+
+\begin_layout Standard
+(1) tVT)a; C2X —
+\end_layout
+
+\begin_layout Standard
+(4}(-吾^/^)、
+\end_layout
+
+\begin_layout Standard
+(6〕
+\end_layout
+
+\begin_layout Standard
+(2)(々吾-兵)
+\end_layout
+
+\begin_layout Standard
+(3) (O.I^W)8-
+\end_layout
+
+\begin_layout Standard
+(5) (W命
+\end_layout
+
+\begin_layout Standard
+(1) (^V;-U)s:.
+\end_layout
+
+\begin_layout Standard
+(1) Va:4j'/rri -hi —.
+ J
+\end_layout
+
+\begin_layout Standard
+(2) (a<6);
+\end_layout
+
+\begin_layout Standard
+(3).
+ (V2WT^Vs^vT)3,
+\end_layout
+
+\begin_layout Standard
+求证:
+\end_layout
+
+\begin_layout Standard
+r + V^Z4| + («,>处
+\end_layout
+
+\begin_layout Section
+根式的除法
+\end_layout
+
+\begin_layout Standard
+我们把分式的算术根的公式 «/ a s/ a,
+\end_layout
+
+\begin_layout Standard
+</~b
+\end_layout
+
+\begin_layout Standard
+(a^O, b>0)
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+/b
+\end_layout
+
+\begin_layout Standard
+(a>0, &>0),
+\end_layout
+
+\begin_layout Standard
+从这个结果,可以得出同次*式相賒的法
+\end_layout
+
+\begin_layout Standard
+同次根式相除,把被开方数相除,根指数不变,'
+\end_layout
+
+\begin_layout Standard
+和根式的乘法一样,如果根号前面有系数,那末把各个 系数相除,仍旧作为根号前的系数;并且应该注意,最后结 杲必须化成最简根式.
+\end_layout
+
+\begin_layout Standard
+计算:
+\end_layout
+
+\begin_layout Standard
+⑴〜 ⑵
+\end_layout
+
+\begin_layout Standard
+(1) - $更=
+\end_layout
+
+\begin_layout Standard
+x
+\end_layout
+
+\begin_layout Standard
+b 各rw.
+ 7 4/t b 1 v"^~« 1 v-^
+\end_layout
+
+\begin_layout Standard
+„ 1 /6~_ 1 — 1 ‘ /了
+\end_layout
+
+\begin_layout Standard
+—a / ~^ = •— •----=s - y (Z0%
+\end_layout
+
+\begin_layout Standard
+aM a a a a
+\end_layout
+
+\begin_layout Standard
+如果是异次根式相除,和根式的乘法一样,必须先把它 们化成同次根式后,再按照同次根式相除的法则进行计算,-计算:
+\end_layout
+
+\begin_layout Standard
+(1) W(2)
+\end_layout
+
+\begin_layout Standard
+a)巧—设=%r'
+\end_layout
+
+\begin_layout Standard
+(2) w•设+ 况=
+\end_layout
+
+\begin_layout Standard
+-V学-w-K
+\end_layout
+
+\begin_layout Standard
+i.计箅下列各题:
+\end_layout
+
+\begin_layout Standard
+(l) (2) 7^-V^s
+\end_layout
+
+\begin_layout Standard
+(3) -r ys; (4) </9^ + 释
+\end_layout
+
+\begin_layout Standard
+C5)蒼^~+0.25^^; (6)
+\end_layout
+
+\begin_layout Standard
+2.下列各題计算是否正确？如果不对,错误在哪里?
+\end_layout
+
+\begin_layout Standard
+a) (2)々〜伐
+\end_layout
+
+\begin_layout Standard
+计箅下列各题(3〜勾:
+\end_layout
+
+\begin_layout Standard
+4‘ (1) (10^48 - 6V27 + 4VI2) ^ 
+\backslash
+/~S *
+\end_layout
+
+\begin_layout Standard
+(2) (V^,v + — 3^y) -r Vj^;
+\end_layout
+
+\begin_layout Standard
+(3) (4
+\backslash
+/"8 ~6^2)-~
+\backslash
+/T;
+\end_layout
+
+\begin_layout Standard
+(4) (
+\backslash
+/) -r v^)* [提示:先提取公因式.]
+\end_layout
+
+\begin_layout Standard
+1.有理化因式
+\end_layout
+
+\begin_layout Standard
+在§5.11里做根式的乘法时,我们可以发现,当两个 根式相乘的时候,有时候它们的积可以是一个不含有根式 的有理式.例如
+\end_layout
+
+\begin_layout Standard
+Q/ + ^ ) (j**J <2 — si ~ d 一 b
+\backslash
+
+\end_layout
+
+\begin_layout Standard
++ >/"S~) + 
+\backslash
+^6a) —df-h5;
+\end_layout
+
+\begin_layout Standard
+等等.
+\end_layout
+
+\begin_layout Standard
+两个含有根式的代数式相乘,如果它们的积是一个有 -理式,那末这两个代数式叫做5为有理化因式.例如,上面 这些等式中,等号左边的两个因式,都是瓦为有理化因式•
+\end_layout
+
+\begin_layout Standard
+3.
+ (1) *ym;
+\end_layout
+
+\begin_layout Standard
+(3 ) 25aPx + 5a- 
+\backslash
+^~x ;
+\end_layout
+
+\begin_layout Standard
+(2) 2^^3
+\backslash
+/7; (4) 3a36-^2
+\backslash
+/^*;
+\end_layout
+
+\begin_layout Section
+把分母有理化
+\end_layout
+
+\begin_layout Standard
+例I 求下列各根式的有理化因式:
+\end_layout
+
+\begin_layout Standard
+(!) (a>0,
+\end_layout
+
+\begin_layout Standard
+(2) ra V a —U
+\backslash
+Tbt [解] (1) ...
+ v^- s/a^ - v/cm+c^,ri> = s/^^=a,
+\end_layout
+
+\begin_layout Standard
+•的有理化因式是
+\end_layout
+
+\begin_layout Standard
+(2) / (m
+\backslash
+/a —n^b) (m
+\backslash
+/~a ^n
+\backslash
+fS)
+\end_layout
+
+\begin_layout Standard
+^ (m v^o")3 — (n
+\backslash
+/b )2—/sn2<i—n1ib,
+\end_layout
+
+\begin_layout Standard
+■' m
+\backslash
+/ a —n
+\backslash
+/~b的有理化因式是
+\end_layout
+
+\begin_layout Standard
+m 
+\backslash
+Ta 七 n
+\backslash
+T5.
+\end_layout
+
+\begin_layout Standard
+C注意〕 根据有理化因式的意义,一个根式的有理化因式可以 有无数多个,例如^
+\backslash
+T^W W = a
+\backslash
+…KR,识3 sR7…都可以认为是☆^的 有理化因式.找一个根式的有理化因式,通常我们都是找 其中最简年的一个.
+\end_layout
+
+\begin_layout Standard
+2.杷分母有理化
+\end_layout
+
+\begin_layout Standard
+在根式的运算中,有財需要把分母中的根号化去,使计 算比较简便.
+\end_layout
+
+\begin_layout Standard
+钶如,计算*精确,到0.001的近似值.如果直接用 n^ = ;L4142代入计算
+\end_layout
+
+\begin_layout Standard
+^^1^42^0'707-这里要傲一次除数是五位数的除法.如果先把分母中的根
+\end_layout
+
+\begin_layout Standard
+号化去,再来计算可得
+\end_layout
+
+\begin_layout Standard
+1 sf% ^ 1.4142
+\end_layout
+
+\begin_layout Standard
+«0.707.
+\end_layout
+
+\begin_layout Standard
+sj~% 2 2
+\end_layout
+
+\begin_layout Standard
+这里虽然也要做一次除法,但除数是2,就比较简单.
+\end_layout
+
+\begin_layout Standard
+又如,要计算#■精确到匕001的近似值,如
+\end_layout
+
+\begin_layout Standard
+%»t4
+\end_layout
+
+\begin_layout Standard
+2 TJ TJ 3 TJ
+\end_layout
+
+\begin_layout Standard
+彳题 解 y 解 例?sM 0 □
+\end_layout
+
+\begin_layout Standard
+果先把分母中的根号化去,再来计算,就比较简便.
+\end_layout
+
+\begin_layout Standard
+Tn-^Ti 一 Ws - V2-) (V 3 + s/2) 3—;2 '
+\end_layout
+
+\begin_layout Standard
+-VT + ^ 1 - 7321+1,4142 3.156,
+\end_layout
+
+\begin_layout Standard
+把分母中的根号化去,叫做把分母有理化.
+\end_layout
+
+\begin_layout Standard
+从上面的例子,可以看出要把一个根式的分母有理化, 只爵用分母的一个最简单的有理化因式去同乘分子和分 母.
+\end_layout
+
+\begin_layout Standard
+把下列各式的分母有理化:
+\end_layout
+
+\begin_layout Standard
+(1) ▲ ⑶
+\end_layout
+
+\begin_layout Standard
+(1)先把化成最简根式5#,由此可知有理化 因式可以取v3.
+\end_layout
+
+\begin_layout Standard
+⑶把72先分解因数,得72=^8 = 3~23.由此可知 <5/72 = i/W^¥的有理化因式,可以取
+\end_layout
+
+\begin_layout Standard
+⑴ ^ 3______8_ 阿
+\end_layout
+
+\begin_layout Standard
+(1) WT^ WWT= ioV2^
+\end_layout
+
+\begin_layout Standard
+4 4 4^/108
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+把下列各式的分母有理化
+\end_layout
+
+\begin_layout Standard
++4^/' 2
+\end_layout
+
+\begin_layout Standard
+⑵
+\end_layout
+
+\begin_layout Standard
+s
+\end_layout
+
+\begin_layout Standard
+4^2 * …
+\end_layout
+
+\begin_layout Standard
+3VT+WI 3^5-^4VT
+\end_layout
+
+\begin_layout Standard
+_(3V"5_+4V2}a ^ (Ss/d'-WT) (3
+\backslash
+/5"4-4^/2_)
+\end_layout
+
+\begin_layout Standard
+45+24%/10+^_ = _1_ 07 十 24v^
+\end_layout
+
+\begin_layout Standard
+45-32 13 U ^ V J
+\end_layout
+
+\begin_layout Standard
+C说明〕 例4
+\end_layout
+
+\begin_layout Standard
+[审題]
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+•耋 46*
+\end_layout
+
+\begin_layout Standard
+(^7 -</T)iX!^+iJi^cA+^/¥) 6(^/49-f v^84-^/l6)
+\end_layout
+
+\begin_layout Standard
+7 — 4
+\end_layout
+
+\begin_layout Standard
+-2(^/49 + </28-f</l6)
+\end_layout
+
+\begin_layout Standard
+^ 2 (</西 + </涵+2^/Y) •
+\end_layout
+
+\begin_layout Standard
+从这个例子可以看到分母中含有二次根式的要把它有 理化,常常要用到平方差公式;含有三次根式的耍把它有理 化,常常要用到立方差公式.
+\end_layout
+
+\begin_layout Standard
+把下式的分母有理化:
+\end_layout
+
+\begin_layout Standard
+2
+\end_layout
+
+\begin_layout Standard
+1—U+W
+\end_layout
+
+\begin_layout Standard
+本题分母1—中有两个二次根式,不能直 接应用平方差公式,但是把_两项并在一起,看做是一 项,1—7^+^二[(1一八1)+^],那末就可以利用
+ 平方差公式把V互化去,这样下一步只要把巧化去就 可以了.
+\end_layout
+
+\begin_layout Standard
+1—瓦
+\end_layout
+
+\begin_layout Standard
+— 2(1-VT — a/3)
+\end_layout
+
+\begin_layout Standard
+^[a^vT) wr] [(i-v^T-vT]"
+\end_layout
+
+\begin_layout Standard
+一 2(1-n/T-nAB) _ 2(1-V~2- VT)
+\end_layout
+
+\begin_layout Standard
+(f-)2 -各 2-
+\backslash
+^ 2
+\end_layout
+
+\begin_layout Standard
+1 —n/歹一VT (VT+x/"2-1)*V2
+\end_layout
+
+\begin_layout Standard
+z _ •丄- i - •••
+\end_layout
+
+\begin_layout Standard
+v^2 、厂2々2
+\end_layout
+
+\begin_layout Standard
+• -x- ( 
+\backslash
+/~b + 2 — js/^i ).
+\end_layout
+
+\begin_layout Standard
+解上面这类问题,一般都要分两步进行.本题也可以 把1一 看做[(1+^〉一彳了],用它的有理化
+\end_layout
+
+\begin_layout Standard
+因式[(1 + V^)+N^]去同乘分子和分母,或者看做[1-(V2*-n/T)],用它的有理化因式[l+(、/Y_V^")]去 同乘分子和分母,但是运算上都比
+较繁一些.读者可以自 行练习,以作比较.
+\end_layout
+
+\begin_layout Standard
+2.
+\end_layout
+
+\begin_layout Standard
+5,
+\end_layout
+
+\begin_layout Standard
+7;
+\end_layout
+
+\begin_layout Standard
+写出下列各式的有理化因式: 
+\end_layout
+
+\begin_layout Standard
+(1) </a^b} (2) V40;
+\end_layout
+
+\begin_layout Standard
+(3) (4) 3V2"-4%/¥.
+\end_layout
+
+\begin_layout Standard
+杷下列各式的分母有理化(2〜 6); ab
+\end_layout
+
+\begin_layout Standard
+(1) y (2) 
+\end_layout
+
+\begin_layout Standard
+2V3_J V2^b,
+\end_layout
+
+\begin_layout Standard
+(3) 3x ⑷ 4a2b
+\end_layout
+
+\begin_layout Standard
+(1) V~3 /ty
+\backslash
+ 12
+\end_layout
+
+\begin_layout Standard
+5-VT^ W 2
+\backslash
+^"+V8'#
+\end_layout
+
+\begin_layout Standard
+(3) sVs 7^/Y-5
+\backslash
+/T
+\end_layout
+
+\begin_layout Standard
+作一 4a SV"3-7V6*
+\end_layout
+
+\begin_layout Standard
+• (1) ⑶ a—b
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+! a —Vb9
+\end_layout
+
+\begin_layout Standard
+(3) i (4) V«+6 +Va—6
+\end_layout
+
+\begin_layout Standard
+V«4-& ——&
+\end_layout
+
+\begin_layout Standard
+(5) VV+1 — va^—1 
+\end_layout
+
+\begin_layout Standard
+-(1) .(1) 1 ⑶ (2) i^vT+
+\backslash
+/T
+\end_layout
+
+\begin_layout Standard
+V"2+V 5~-VT* 1 1+V2' - d 5
+\end_layout
+
+\begin_layout Standard
+VJ+i, </可+ W
+\end_layout
+
+\begin_layout Standard
+化简下列各式(7〜8): 1 2 2 
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+/3+V2 
+\backslash
+/ 2 4-1 V 3 4-1 •
+\end_layout
+
+\begin_layout Standard
+V^c+l + 
+\backslash
+/ ^ Vx+1^ V aJ* 
+\end_layout
+
+\begin_layout Standard
+[提示:第7, S鹿先把分母有理化,]
+\end_layout
+
+\begin_layout Standard
+9,检验#是不是方程的根,
+\end_layout
+
+\begin_layout Standard
+cc—I X
+\end_layout
+
+\begin_layout Section
+根式的开方
+\end_layout
+
+\begin_layout Standard
+@在我们来研究根式开方的法則.例如我们来计算 *JsJ~a (00),
+\end_layout
+
+\begin_layout Standard
+V (V^T)e - [ 3 ]3 = Cv^")3
+\end_layout
+
+\begin_layout Standard
+^%T^Y = a,
+\end_layout
+
+\begin_layout Standard
+/.
+ 和2x^/i都是a的6次算术根.
+\end_layout
+
+\begin_layout Standard
+但是的e次算术根只有一个/
+\end_layout
+
+\begin_layout Standard
+一般地说,可以得到下面的公式:
+\end_layout
+
+\begin_layout Standard
+s/ 
+\backslash
+/ a =m^J Q (G!>0),
+\end_layout
+
+\begin_layout Standard
+应该注意,这个公式只适用于算术根.
+\end_layout
+
+\begin_layout Standard
+从这个公式,可以得到单项根式开方的法则:
+\end_layout
+
+\begin_layout Standard
+单项根式开方,被开方数不变,把根指数相乘.
+\end_layout
+
+\begin_layout Standard
+计算:
+\end_layout
+
+\begin_layout Standard
+⑴ 11^0' (2) 
+\backslash
+j%aifa ^
+\end_layout
+
+\begin_layout Standard
+(X)
+\end_layout
+
+\begin_layout Standard
+(2) x/s^/T = - s/s^F9
+\end_layout
+
+\begin_layout Standard
+1.根式最后结果必须化成最简根式,如第(1)题中把 W化成
+\end_layout
+
+\begin_layout Standard
+2.如果根式前面有系数,先把这系数移到根式里面, 然后再按法则计算,如第(2)題中把化成
+\end_layout
+
+\begin_layout Standard
+计算下列各题(1〜3)
+\end_layout
+
+\begin_layout Standard
+(2) 
+\backslash
+/y?;
+\end_layout
+
+\begin_layout Standard
+(3)
+\end_layout
+
+\begin_layout Standard
+2 ‘ (1)
+\end_layout
+
+\begin_layout Standard
+(4) V</aW,
+\end_layout
+
+\begin_layout Standard
+(2) 3:',
+\end_layout
+
+\begin_layout Standard
+3.
+ (l)
+\end_layout
+
+\begin_layout Standard
+4.利用平方根表和立方根表,计算下列各式的近似&
+\end_layout
+
+\begin_layout Standard
+[提示;第(1)题连续求两次箅术平方根;第(幻题连续求它的» 术平方根和立方根J
+\end_layout
+
+\begin_layout Section
+的算术平方根
+\end_layout
+
+\begin_layout Standard
+根据根式的乘方法剿,我钔知道,
+\end_layout
+
+\begin_layout Standard
+〔VT+*/^)3 二3+2n/¥+2 = 5+2vX
+\end_layout
+
+\begin_layout Standard
+所以歹是的算术平方根,但是 的算术平方榍只有一个,所以
+\end_layout
+
+\begin_layout Standard
+同样,@为_
+\end_layout
+
+\begin_layout Standard
+- sTTf -3-2^+2 = 5-2
+\backslash
+^6,
+\end_layout
+
+\begin_layout Standard
+所以 V5 二^百-VT.
+\end_layout
+
+\begin_layout Standard
+观察上面这两个结果,可以看出,5是3与2的和,6 是3与2的积.
+\end_layout
+
+\begin_layout Standard
+一”说,
+\end_layout
+
+\begin_layout Standard
+(n/V + v7"^")3 =a:H-2-v^+y= Ot+i/) -h2
+\backslash
+/^,
+\end_layout
+
+\begin_layout Standard
+(V ^ — 
+\backslash
+T^ y =x-2s/^f-]-y— (a+3/) — 2
+\backslash
+/ (xy9
+\end_layout
+
+\begin_layout Standard
+如果设邛那末
+\end_layout
+
+\begin_layout Standard
+(1)
+\end_layout
+
+\begin_layout Standard
+(2) </08
+\end_layout
+
+\begin_layout Standard
+••• 
+\backslash
+/^4-2
+\backslash
+/ b —a/ (
+\backslash
+/ x + V ?T)a — 
+\backslash
+T~^ + 、 (n/^ —W)a -a-2VT,
+\end_layout
+
+\begin_layout Standard
+:• s/^27V=s/TTT^T^y ^ | - V71
+\end_layout
+
+\begin_layout Standard
+—[
+\backslash
+f7- v/_^ (如果忠>女),
+\end_layout
+
+\begin_layout Standard
+K7^ 一、! x (如果 x<y),
+\end_layout
+
+\begin_layout Standard
+从这个结果,可以看到,如果耍求o±2n/T的箅术平 方根,只要找到两个数^与?/,使$+?/ = «,卿
+\end_layout
+
+\begin_layout Standard
+根裾这个道理,得到求《土3VF的算术平方根的法
+\end_layout
+
+\begin_layout Standard
+则:
+\end_layout
+
+\begin_layout Standard
+ia±^n的算术平方根,.可以找出两个 数,使它们的和等于A并且它们的积等于
+\backslash
+那 末这两个数的算术乎方根的和或者差就是所要 求的算术平方根®.
+\end_layout
+
+\begin_layout Standard
+C注意〕 1* 一定要符合0土2#的彤式,特别是前面有 系数2.
+\end_layout
+
+\begin_layout Standard
+2.求Va-2#时,两个数中的大数的算术平方根 写在前面,小数的算术平方根写在后面.
+\end_layout
+
+\begin_layout Standard
+例I 计算:V6+2VT.
+\end_layout
+
+\begin_layout Standard
+[审题] 要使两个数的和等于t并且它们的积等于5,这两个 , 数应该是S与1.
+\end_layout
+
+\begin_layout Standard
+:mi V6+2V5 = W5'+VT)^V5"+1.
+\end_layout
+
+\begin_layout Standard
+例 2 计算:%/9- 2Vii.
+\end_layout
+
+\begin_layout Standard
+[解] 
+\backslash
+/9 — 2%/13 
+\backslash
+J (V 〒一 *
+\backslash
+/ 2)2 = 
+\backslash
+T^ — 2 ,
+\end_layout
+
+\begin_layout Standard
+〔说明〕 不能错误地写成s/9^2Vl4
+\end_layout
+
+\begin_layout Standard
+如果前面的系数不是2,又应该怎样计算呢？下 爾分三种情况来研究:
+\end_layout
+
+\begin_layout Standard
+①如果找不到这祥的两个有理数,郅末《:±:27¥的箅术平方根就不 能用两+有理敎的平方根的和或者差来表示•
+\end_layout
+
+\begin_layout Standard
+(1) #前面的系数是j的倍数,把前面2以外 的因数移到根号里面,使、丨飞的系数变成2.
+\end_layout
+
+\begin_layout Standard
+例8 计算:V8+4我 [审題] 这里M前面的系数是气把因数2移到根号里面,得
+\end_layout
+
+\begin_layout Standard
+3 = 
+\backslash
+j%七 2
+\backslash
+ZX2^
+\end_layout
+
+\begin_layout Standard
+于是就可用上面的方法来解.
+\end_layout
+
+\begin_layout Standard
+[解] VB4-"4^7T - x/8+2Vl2 = V(VT+vTy
+\end_layout
+
+\begin_layout Standard
+^ 
+\backslash
+/^6" +
+\end_layout
+
+\begin_layout Standard
+(2) vt前面的系数是苁为了便vy的系数变成
+\end_layout
+
+\begin_layout Standard
+2,把各项乘以2,整个式子再除以2.
+ ^
+\end_layout
+
+\begin_layout Standard
+例4 计算:
+\end_layout
+
+\begin_layout Standard
+[解].V5W21^ ^ ^ (10-27211
+\end_layout
+
+\begin_layout Standard
+=^V(vT-s/"3)a
+\end_layout
+
+\begin_layout Standard
+■
+\end_layout
+
+\begin_layout Standard
+■=鲁(Vl4 - •
+\end_layout
+
+\begin_layout Standard
+(3) VT前面的系数既不是1,又不是2的倍数.先 把前面的系数移到根号里面,再按照第(2)种淸况计
+\end_layout
+
+\begin_layout Standard
+*
+\end_layout
+
+\begin_layout Standard
+算.
+\end_layout
+
+\begin_layout Standard
+例5 计算:Ve^WT.
+ _
+\end_layout
+
+\begin_layout Standard
+mi V6 —
+\end_layout
+
+\begin_layout Standard
+• (12 -尸两功 -VT)*
+\end_layout
+
+\begin_layout Standard
+■=^^^(3-V 3) = i(3— sf 6 ).
+\end_layout
+
+\begin_layout Standard
+计算下列各題; 1.
+ V3+2VT,
+\end_layout
+
+\begin_layout Standard
+3, V9+4VT.
+\end_layout
+
+\begin_layout Standard
+5.
+ ViwH.
+\end_layout
+
+\begin_layout Standard
+7, Vs+vTe
+\end_layout
+
+\begin_layout Standard
+2.
+ Vt^2V®,
+\end_layout
+
+\begin_layout Standard
+4.
+ V32-8VT.
+\end_layout
+
+\begin_layout Standard
+6.
+ Ve^vSo.
+\end_layout
+
+\begin_layout Standard
+8.
+ Vi^Vls.
+\end_layout
+
+\begin_layout Section-toc*
+本章提要
+\end_layout
+
+\begin_layout EnumIndent
+
+\series bold
+根式
+\begin_inset Formula $\sqrt[n]{a}$
+\end_inset
+
+成立的条件
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+当
+\begin_inset Formula $n$
+\end_inset
+
+是奇数时,
+\begin_inset Formula $a$
+\end_inset
+
+可以是任何实数;
+\end_layout
+
+\begin_layout EnumIndent
+当
+\begin_inset Formula $n$
+\end_inset
+
+是偶数时,
+\begin_inset Formula $a\geqslant0$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+
+\series bold
+关于根式
+\begin_inset Formula $\sqrt[n]{a}$
+\end_inset
+
+的恒等式
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $(\sqrt[n]{a})^{n}=a$
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+(
+\begin_inset Formula $n$
+\end_inset
+
+是大于
+\begin_inset Formula $1$
+\end_inset
+
+的整数);
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt[n]{a^{n}}=a$
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+(
+\begin_inset Formula $n$
+\end_inset
+
+是大于
+\begin_inset Formula $1$
+\end_inset
+
+的整数,
+\begin_inset Formula $a\geqslant0$
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+
+\series bold
+对于算术根说,根式有下面的性质
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt[np]{a^{mp}}=\sqrt[n]{a^{m}}\quad(a\geqslant0)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt[n]{ab}=\sqrt[n]{a}\cdot\sqrt[n]{b}\quad(a\geqslant0,b\geqslant0)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt[n]{\cfrac{a}{b}}=\cfrac{\sqrt[n]{a}}{\sqrt[n]{b}}\quad(a\geqslant0,b>0)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $(\sqrt[n]{a})^{m}=\sqrt[n]{a^{m}}\quad(a\geqslant0)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt[m]{\sqrt[n]{a}}=\sqrt[mn]{a}\quad(a\geqslant)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+
+\series bold
+最简根式的条件
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+被开方数的指数和根指数没有公约数;
+\end_layout
+
+\begin_layout EnumIndent
+被开方数的每一个因式的指数都小于根指数;
+\end_layout
+
+\begin_layout EnumIndent
+被开方数不含有分母.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+
+\series bold
+同次根式和同类根式的定义
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+同次根式:
+\begin_inset space \quad{}
+\end_inset
+
+根指数相同的两个或几个根式;
+\end_layout
+
+\begin_layout Standard
+同类根式:
+\begin_inset space \quad{}
+\end_inset
+
+根指数相同而被开方数也相同(或者能够 化成相同)的两个或几个根式,
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+
+\series bold
+根式的运算
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+根式的加减法:
+\begin_inset space \quad{}
+\end_inset
+
+把各个根式化成最简根式,再合并同类根式;
+\end_layout
+
+\begin_layout EnumIndent
+根式的乘除法:
+\begin_inset space \quad{}
+\end_inset
+
+把各个根式化成同次根式,再应用下列公式进行运算: 
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt[n]{a}\cdot\sqrt[n]{b}=\sqrt[n]{ab}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{\sqrt[n]{a}}{\sqrt[n]{b}}=\sqrt[n]{\cfrac{a}{b}}\quad(b\neq0)$
+\end_inset
+
+;
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+根式的乘方:
+\begin_inset space \quad{}
+\end_inset
+
+应用下列公式进行运算:
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Formula $(\sqrt[n]{a})^{m}=\sqrt[n]{a^{m}}$
+\end_inset
+
+;
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+根式的开方:
+\begin_inset space \quad{}
+\end_inset
+
+应用下列公式进行运算:
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt[m]{\sqrt[n]{a}}=\sqrt[mn]{a}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout EnumIndent
+
+\series bold
+\begin_inset Formula $a\pm2\sqrt{b}$
+\end_inset
+
+的算术平方根应用下列公式进行运算:
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{a\pm2\sqrt{b}}=\sqrt{x}\pm\sqrt{y}\quad(x>y)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+这里,
+\begin_inset Formula $x+y=a$
+\end_inset
+
+,
+\begin_inset Formula $xy=b$
+\end_inset
+
+,而
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+可以从观察求得.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+
+\series bold
+把分母有理化
+\series default
+
+\begin_inset space \quad{}
+\end_inset
+
+把分母有理化的法则是把分子和分母都乘以分母的有理化因式.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $\sqrt[n]{a^{m}}$
+\end_inset
+
+和
+\begin_inset Formula $\sqrt[n]{a^{n-m}}$
+\end_inset
+
+互为有理化因式
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a+\sqrt{b}$
+\end_inset
+
+和
+\begin_inset Formula $a-\sqrt{b}$
+\end_inset
+
+互为有理化因式; 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a+n\sqrt{b}$
+\end_inset
+
+和
+\begin_inset Formula $a-n\sqrt{b}$
+\end_inset
+
+互为有理化因式;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sqrt{a}+\sqrt{b}$
+\end_inset
+
+和
+\begin_inset Formula $\sqrt{a}-\sqrt{b}$
+\end_inset
+
+互为有理化因式;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m\sqrt{a}+n\sqrt{b}$
+\end_inset
+
+和
+\begin_inset Formula $m\sqrt{a}-n\sqrt{b}$
+\end_inset
+
+互为有理化因式;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sqrt[3]{a}+\sqrt[3]{b}$
+\end_inset
+
+和
+\begin_inset Formula $\sqrt[3]{a^{a}}-\sqrt[3]{ab}+\sqrt[3]{b^{2}}$
+\end_inset
+
+互为有理化因式;
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sqrt[3]{a}-\sqrt[3]{b}$
+\end_inset
+
+和
+\begin_inset Formula $\sqrt[3]{a^{a}}+\sqrt[3]{ab}+\sqrt[3]{b^{2}}$
+\end_inset
+
+互为有理化因式.
+\end_layout
+
+\end_deeper
+\begin_layout Section-toc*
+复习题五
+\begin_inset space \space{}
+\end_inset
+
+A
+\end_layout
+
+\begin_layout EnumIndent
+如果
+\begin_inset Formula $a$
+\end_inset
+
+是任何实数,等式
+\begin_inset Formula $\sqrt[3]{a^{3}}$
+\end_inset
+
+总能成立吗？等式
+\begin_inset Formula $\sqrt{a^{2}}=a$
+\end_inset
+
+总能成立吗？在什么条件下,等式
+\begin_inset Formula $\sqrt[n]{a^{n}}$
+\end_inset
+
+能够成立？
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+在什么条件下,
+\begin_inset Formula $\sqrt[n]{a}$
+\end_inset
+
+在实数范围内有意义?
+\end_layout
+
+\begin_layout EnumIndent
+在什么条件下,
+\begin_inset Formula $\sqrt[n]{a-1}$
+\end_inset
+
+不是实数？
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+在实数范围内,下列各式中的
+\begin_inset Formula $x$
+\end_inset
+
+允许取啷些数值？
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{x-4}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{x^{2}-4}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{1}{\sqrt{4-x^{2}}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{x}\cdot\sqrt{x-1}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+下面的计算错在什么地方？
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Formula $-2\sqrt{5}=\sqrt{(-2)^{2}\cdot5}=\sqrt{20}=2\sqrt{5}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt{9a^{2}+4b^{2}}=3a+2b$
+\end_inset
+
+对吗?为什么？
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+甲、乙两同学计算
+\begin_inset Formula $\sqrt{9-6x+x^{2}}(x>3)$
+\end_inset
+
+,甲的演算是
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{9-6x+x^{2}}=\sqrt{(3-x)^{2}}=3-x$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+乙的演算是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{9-6x+x^{2}}=\sqrt{x^{2}-6x+9}=\sqrt{(x-3)^{2}}=x-3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+究竟哪一个对？为什么？
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+计算下列各式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{(x+5)^{2}}\quad(x<-5)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{(2x-3y)^{2}}\quad\Big(x<\cfrac{3}{2}y\Big)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{x^{2}-2x+1}\quad(x\geqslant1)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{4x^{2}-12x+9}\quad(2x-3)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{(x+y)^{2}c^{2}}\quad(x+y>0,c>0)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{(a+b)^{2}(a-b)^{2}}\quad(0<a<b)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+当
+\begin_inset Formula $x$
+\end_inset
+
+是什么数值时,下列各式的值最小？这个最小值是多少？
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{9+x}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{9-x}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{1+x^{2}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{1-x^{2}}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+最简根式的条件是什么？把下列各式化成最简根式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{500}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{4\cfrac{2}{3}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{3a^{2}b^{2}}\quad(a>0,b<0)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x^{2}\sqrt{\cfrac{y}{8x}}\quad(x>0)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt[3]{\cfrac{2}{3ab^{2}}}\quad(a>0,b>0)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{\cfrac{x^{2}-y^{2}}{a}}\quad(a>0)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+什么叫做同类根式？下列根式里,哪几个是同类根式？
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sqrt{\ensuremath{44}}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sqrt{\cfrac{1}{x}}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-\sqrt{1\cfrac{5}{11}}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sqrt{\ensuremath{x^{3}y^{2}}}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sqrt{175}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2\sqrt{a^{2}x}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cfrac{1}{2}\sqrt{63}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-\sqrt{99}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $5\sqrt{3\cfrac{4}{7}}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sqrt{\cfrac{m}{1-2x+x^{2}}}$
+\end_inset
+
+,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sqrt{225m^{8}}$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+在实数范围内,把下列各多项式分解因式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x^{2}-5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $4y^{4}-1$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x^{4}-6x^{2}+9$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $a^{4}-10a^{2}b^{2}+25b^{4}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x^{2}-4x-3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $4x^{2}+4x-1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+[提示:第(5)的题中,把
+\begin_inset Formula $x^{2}-4x-3$
+\end_inset
+
+变形成
+\begin_inset Formula $(x-2)^{2}-7$
+\end_inset
+
+.第(6)题仿此.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+计算下列各题:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt{\cfrac{1}{2}}+\sqrt{\cfrac{1}{8}}-\sqrt{\cfrac{1}{32}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\Big(\sqrt{24}-\sqrt{\cfrac{1}{2}}+2\sqrt{\cfrac{2}{3}}\Big)-\Big(\sqrt{\cfrac{1}{8}}+\sqrt{6}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{\sqrt{5}}{\sqrt{3}+1}+\cfrac{\sqrt{3}}{\sqrt{5}-\sqrt{3}}-\cfrac{2+\sqrt{3}}{2-\sqrt{3}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $9\sqrt{45}\div3\sqrt{\cfrac{1}{5}}\times\cfrac{3}{2}\sqrt{2\cfrac{2}{3}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\Big(6\sqrt{\cfrac{3}{2}}-5\sqrt{\cfrac{1}{2}}\Big)\Big(\cfrac{1}{4}\sqrt{8}-\sqrt{\cfrac{2}{3}}\Big)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $(\sqrt{x}+\sqrt{x-1})(\sqrt{x}-\sqrt{x-1})\quad(x>1)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $(8\sqrt{5}+6\sqrt{3})^{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $(5\sqrt{3}+2\sqrt{5})\div(2\sqrt{3}-\sqrt{5})$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{1+\sqrt{2}+\sqrt{3}}{1-\sqrt{2}+\sqrt{3}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{n+2+\sqrt{n^{2}-4}}{n+2-\sqrt{n^{2}-4}}+\cfrac{n+2-\sqrt{n^{2}-4}}{n+2+\sqrt{n^{2}-4}}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+已知:
+\begin_inset Formula $x=\cfrac{1}{2}(\sqrt{7}+\sqrt{5})$
+\end_inset
+
+,
+\begin_inset Formula $y=\cfrac{1}{2}(\sqrt{7}-\sqrt{5})$
+\end_inset
+
+,求下列各式的值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x^{2}-xy+y^{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{x}{y}+\cfrac{y}{x}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Section-toc*
+复习题五
+\begin_inset space \space{}
+\end_inset
+
+B
+\end_layout
+
+\begin_layout EnumIndent
+化简:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $x+y+\sqrt{x^{2}-2xy+y^{2}}\quad(x>y)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $(x-y)\sqrt{\cfrac{b^{8}}{x^{2}-y^{2}}}\quad(x>y>0)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt{(a-3)^{2}}+\sqrt{(a-7)^{2}}\quad(3<a<7)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt[n]{\cfrac{c^{n+2}}{a^{2}b^{2n-1}}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt{1+\cfrac{1}{m^{2}}}\quad(m<0)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+计算下列各题:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt{x^{2}-10x+25}$
+\end_inset
+
+;
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[解题举例:本题分三种情况来计算:
+\end_layout
+
+\begin_layout Standard
+1)
+\begin_inset space \space{}
+\end_inset
+
+当
+\begin_inset Formula $x>5$
+\end_inset
+
+时,
+\begin_inset Formula $\sqrt{x^{2}-10x+25}=\sqrt{(x-5)^{2}}=x-5$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+2)
+\begin_inset space \space{}
+\end_inset
+
+当
+\begin_inset Formula $x=5$
+\end_inset
+
+时,
+\begin_inset Formula $\sqrt{x^{2}-10x+25}=0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+3)
+\begin_inset space \space{}
+\end_inset
+
+当
+\begin_inset Formula $x<5$
+\end_inset
+
+时,
+\begin_inset Formula $\sqrt{x^{2}-10x+25}=\sqrt{(5-x)^{2}}=5-x$
+\end_inset
+
+.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt{x^{4}-2x^{2}y^{2}+y^{4}}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+不求方根的值,决定下列各式的结果是正的,还是负的？
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\cfrac{3}{2}\sqrt{5}-\sqrt{13}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt[4]{65}-2\sqrt{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt[3]{-12}+\sqrt{5}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{1}{\sqrt{3}-\sqrt{2}}-\cfrac{4}{\sqrt{2}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:先化成同次根式,或者把分母有理化,再比较它们的大 小.]
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $b$
+\end_inset
+
+都是正数,求证:
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Formula $a+b>\sqrt{a^{2}+b^{2}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+[提示:把不等式两边平方.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+计算下列各题:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt[n+1]{a^{3n+3}b^{n^{3}-1}c^{n^{2}-1}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt[6]{54}\cdot\sqrt{6}\cdot\sqrt[6]{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $(x-1+\sqrt{2})(x+2+\sqrt{3})(x-1-\sqrt{2})(x+2-\sqrt{3})$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt{ab}-\sqrt{\cfrac{a}{b}}-\sqrt{\cfrac{b}{a}}+\sqrt{\cfrac{a}{b}+\cfrac{b}{a}+2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $(5+2\sqrt{3})^{3}+(5-2\sqrt{3})^{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt[7]{2\sqrt{2\sqrt{2}}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{(3-\sqrt{2})(2+\sqrt{3})}{(2-\sqrt{3})(3+\sqrt{2})}$
+\end_inset
+
+;
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:分子和分母都乘以分母的有理化因式.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{1}{\sqrt[3]{2}-1}+\cfrac{1}{\sqrt[3]{2}+1}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:先把分母有理化.]
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout EnumIndent
+计算:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{-b+\sqrt{b^{2}-4ac}}{2a}+\cfrac{-b-\sqrt{b^{2}-4ac}}{2a}\quad(b^{2}\geqslant4ac)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\Bigg(\cfrac{-b+\sqrt{b^{2}-4ac}}{2a}\Bigg)\cdot\Bigg(\cfrac{-b-\sqrt{b^{2}-4ac}}{2a}\Bigg)\,(b^{2}\geqslant4ac)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+求证下列恒等式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $a\Bigg(\cfrac{-b+\sqrt{b^{2}-4ac}}{2a}\Bigg)^{2}+b\Bigg(\cfrac{-b+\sqrt{b^{2}-4ac}}{2a}\Bigg)+c$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $=0\quad\quad(b^{2}\geqslant4ac)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $a\Bigg(\cfrac{-b-\sqrt{b^{2}-4ac}}{2a}\Bigg)^{2}+b\Bigg(\cfrac{-b-\sqrt{b^{2}-4ac}}{2a}\Bigg)+c$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $=0\quad\quad(b^{2}\geqslant4ac)$
+\end_inset
+
+;
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+解下列方程:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt{6}(x+1)=\sqrt{7}(x-1)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{\sqrt{3}x}{\sqrt{2}}+1=\cfrac{2\sqrt{2}x}{\sqrt{3}}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+解方程组:
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Formula $\Big\{\begin{array}{l}
+\sqrt{3}x-\sqrt{2}y=1,\\
+\sqrt{2}x-\sqrt{3}y=0.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+如果
+\begin_inset Formula $\sqrt[2n+3]{3a+b}$
+\end_inset
+
+与
+\begin_inset Formula $\sqrt[3n-2]{3a-b}$
+\end_inset
+
+是同次根式,求
+\begin_inset Formula $n$
+\end_inset
+
+的值.
+\end_layout
+
+\begin_layout EnumIndent
+已知最简根式
+\begin_inset Formula $\sqrt[3a+2]{4a+3b}$
+\end_inset
+
+与
+\begin_inset Formula $\sqrt[b+4]{2a-b+6}$
+\end_inset
+
+是同类根式,求
+\begin_inset Formula $a$
+\end_inset
+
+、
+\begin_inset Formula $b$
+\end_inset
+
+的值.
+\end_layout
+
+\begin_layout EnumIndent
+计算下列各题:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{5+2\sqrt{6}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{11-\sqrt{120}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{6+\sqrt{20}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{9-6\sqrt{2}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{\cfrac{7+2\sqrt{10}}{2}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{14+5\sqrt{3}}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Section-toc*
+第五章
+\begin_inset space \space{}
+\end_inset
+
+测验题
+\end_layout
+
+\begin_layout EnumIndent
+把正确结论填入空白地方:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $|a|=a$
+\end_inset
+
+,那末
+\begin_inset Formula $a\underline{\qquad\qquad}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt{a^{4}b^{2}}=-a^{2}b$
+\end_inset
+
+,那末
+\begin_inset Formula $b\underline{\qquad\qquad}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt{(x+3)^{2}}=-x-3$
+\end_inset
+
+,那末
+\begin_inset Formula $x\underline{\qquad\qquad}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt{x-2}+(y-3)^{2}=0$
+\end_inset
+
+,那末
+\begin_inset Formula $x\underline{\qquad\qquad}$
+\end_inset
+
+,
+\begin_inset Formula $y\underline{\qquad\qquad}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+在实数范围内,分解因式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=3
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $x^{2}-3$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $y^{4}-7y^{2}+10$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $x^{2}-2x-2$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+计算下列各式:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt[15]{1024a^{5}b^{10}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{2a}{x^{2}y}\sqrt[6]{\cfrac{81x^{8}y^{10}}{16a^{4}b^{2}}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $7\sqrt{a}+5\sqrt{a^{2}x}-4\sqrt{\cfrac{b^{2}}{a}}-6\sqrt{\cfrac{b^{2}x}{9}}\quad(b>0)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2\sqrt{12}\times\cfrac{1}{4}\sqrt{3}\div5\sqrt{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $(2\sqrt{x}-3\sqrt{8x^{3}})\div8\sqrt{\cfrac{x}{4}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $(2\sqrt{3}+3\sqrt{6})(2\sqrt{3}-3\sqrt{6})$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\Big(\cfrac{3}{2}\sqrt{1\cfrac{2}{3}}-\sqrt{1\cfrac{1}{4}}\Big)^{2}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{3\sqrt{2}+2\sqrt{3}}{3\sqrt{2}-2\sqrt{3}}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+计算下列各题:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{5-\sqrt{21}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{6-3\sqrt{3}}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+求
+\begin_inset Formula $\sqrt{(x-2)^{2}}+\sqrt{(x+3)^{2}}$
+\end_inset
+
+的值
+\begin_inset Formula $(-3<x<2)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumIndent
+已知
+\begin_inset Formula $a=\cfrac{1}{2-\sqrt{3}}$
+\end_inset
+
+,
+\begin_inset Formula $b=\cfrac{1}{2+\sqrt{3}}$
+\end_inset
+
+,求
+\begin_inset Formula $7a^{2}+11ab+7b^{2}$
+\end_inset
+
+的值.
+\end_layout
+
+\begin_layout EnumIndent
+已知最简根式
+\begin_inset Formula $\sqrt[4a-3]{5a+2b}$
+\end_inset
+
+与
+\begin_inset Formula $\sqrt[b+4]{3a-b+7}$
+\end_inset
+
+是同类根式,求
+\begin_inset Formula $a$
+\end_inset
+
+、
+\begin_inset Formula $b$
+\end_inset
+
+的值.
+\end_layout
+
+\end_body
+\end_document
