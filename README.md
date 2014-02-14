@@ -17,8 +17,6 @@ Digital some old math books and build as ebook
 
 Email: <ccpaging@gmail.com>
 
-----
-
 Algebra1
 ----
 **《数理化自学丛书第二版》代数 第一册**
