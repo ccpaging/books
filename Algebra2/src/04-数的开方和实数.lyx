@@ -108,7 +108,7 @@
 \series bold
 二次方根
 \series default
-,也 叫做
+,也叫做
 \begin_inset Formula $25$
 \end_inset
 
@@ -511,7 +511,7 @@
 \begin_inset space \space{}
 \end_inset
 
- 
+
 \begin_inset Formula $\because\quad(0.2)^{3}=0.008$
 \end_inset
 
@@ -540,7 +540,7 @@
 \begin_inset space \space{}
 \end_inset
 
- 
+
 \begin_inset Formula $\because\quad\Big(\cfrac{3}{5}\Big)^{2}=\cfrac{9}{25},\Big(-\cfrac{3}{5}\Big)^{2}=\cfrac{9}{25}$
 \end_inset
 
@@ -646,7 +646,7 @@
 \begin_inset space \space{}
 \end_inset
 
- 
+
 \begin_inset Formula $\because\quad(\pm11)^{2}=121$
 \end_inset
 
@@ -679,7 +679,7 @@
 \begin_inset space \space{}
 \end_inset
 
- 
+
 \begin_inset Formula $\because\quad\Big(\pm\cfrac{5}{8}\Big)^{2}=\cfrac{25}{64}$
 \end_inset
 
@@ -839,7 +839,7 @@ status open
 \begin_inset Formula $-\cfrac{1}{64}$
 \end_inset
 
-的立方 根？
+的立方根？
 \end_layout
 
 \begin_layout EnumIndent
@@ -1752,7 +1752,7 @@ cols=2
 \begin_inset Formula $27$
 \end_inset
 
-的立方根; 
+的立方根;
 \end_layout
 
 \begin_layout EnumCols
@@ -1899,7 +1899,7 @@ egroup
 \begin_inset Formula $-\sqrt[n]{a}$
 \end_inset
 
-来表示.为了区别这两个方根, 我们规定:
+来表示.为了区别这两个方根,我们规定:
 \end_layout
 
 \begin_layout Standard
@@ -2790,7 +2790,7 @@ cols=2
 \begin_inset Formula $\sqrt{(2.54)^{2}}$
 \end_inset
 
-; 
+;
 \end_layout
 
 \begin_layout EnumCols
@@ -2839,36 +2839,180 @@ egroup
 我们来看下面这些等式:
 \end_layout
 
-\begin_layout Standard
-26-一~> 0.04一 (0,2}fl.
+\begin_layout CenterLine
+\begin_inset Formula $25=5^{2},\cfrac{9}{16}=\Big(\cfrac{3}{4}\Big)^{2},0.04=(0.2)^{3}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-这里第一个等式就是说,25这个数等于另一个数5的
+这里第一个等式就是说,
+\begin_inset Formula $25$
+\end_inset
+
+这个数等于另一个数
+\begin_inset Formula $5$
+\end_inset
+
+的平方的结果.同样,
+\begin_inset Formula $\cfrac{9}{16}$
+\end_inset
+
+和
+\begin_inset Formula $0.04$
+\end_inset
+
+分别是
+\begin_inset Formula $\cfrac{3}{4}$
+\end_inset
+
+和
+\begin_inset Formula $0.2$
+\end_inset
+
+的平方的结果.
 \end_layout
 
 \begin_layout Standard
-平方的结果.同样,^和0.04分别是|■和0.2的平方 的结果.
+如果一个有理数
+\begin_inset Formula $a$
+\end_inset
+
+等于另一个有理数
+\begin_inset Formula $b$
+\end_inset
+
+的平方,就是
+\begin_inset Formula $a=b^{2}$
+\end_inset
+
+那末,这个有理数
+\begin_inset Formula $a$
+\end_inset
+
+叫做
+\series bold
+完全平方数
+\series default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+有的书上定义“自然数平方以后所得到的数叫做完全平方数”.
+\end_layout
+
+\end_inset
+
+.例如,
+\begin_inset Formula $25$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{9}{16}$
+\end_inset
+
+,
+\begin_inset Formula $0.04$
+\end_inset
+
+等都是完全平方数.
 \end_layout
 
 \begin_layout Standard
-如果一个有理数a等于另一个有理数&的平方,就是 C = 那末,这个有理数《叫做完全平方数①.例如,25,
+因为没有一个数的平方等于负数,也就是说,任何一个负数都不能等于另一个数的平方.因此,很明显,负数都不可能是完全平方数.
 \end_layout
 
 \begin_layout Standard
-各0,04等都是完全平方礙.
+一些简单的完全平方数,我们可以用心算的方法求得它们的算术平方根.
 \end_layout
 
 \begin_layout Standard
-因为没有一个数的平方等于负数,也就是说,任何一个 负数都不能等于另一个数的甲方.因此,很明显,负数都不 可能是完全平方数.
+例如:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sqrt{121}=11$
+\end_inset
+
+;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sqrt{169}=13$
+\end_inset
+
+;
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-一些简单的完全平方数,我们可以用心算的方法求得 它们的算术平方根, .
-\end_layout
-
-\begin_layout Standard
-例如; s/121 ^11; 
+s/121 ^11; 
 \backslash
 /1^9 = 13;
 \end_layout
@@ -2918,10 +3062,6 @@ egroup
 
 \begin_layout Standard
 因此,如杲分数里的分子和分母都是完全平方数,我们
-\end_layout
-
-\begin_layout Standard
-Q有的书上定义“自然敎平方以后所得到的_做完全平方数”,
 \end_layout
 
 \begin_layout Standard
