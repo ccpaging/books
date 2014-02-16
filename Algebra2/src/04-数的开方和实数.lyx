@@ -2932,257 +2932,256 @@ status open
 例如:
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout CenterLine
-\begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="2">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="0">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\sqrt{121}=11$
-\end_inset
-
-;
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\sqrt{169}=13$
-\end_inset
-
-;
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
+\begin_inset Formula $\begin{array}{lcl}
+\sqrt{121}=11; & \quad & \sqrt{169}=13;\\
+\sqrt{225}=15; &  & \sqrt{289}=17;\\
+\sqrt{324}=18; &  & \sqrt{361}=19.
+\end{array}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-s/121 ^11; 
-\backslash
-/1^9 = 13;
+由以上的例子看出,被开方数越大,它们的算术平方根也越大.
 \end_layout
 
 \begin_layout Standard
-
-\backslash
-^225 = 15- V289 = 17;
+分数是由分子和分母(都是整数)所组成,如果能够找到一个规律,把分数的开平方转化成分子和分母的开平方,就可以按照上面的方法计算了,我们看到:
 \end_layout
 
 \begin_layout Standard
+因为
+\begin_inset Formula $\Big(\cfrac{4}{5}\Big)^{2}=\cfrac{16}{25}$
+\end_inset
 
-\backslash
-^324 = 18; V361 = 19.
-\end_layout
+,所以
+\begin_inset Formula $\sqrt{\cfrac{16}{25}}=\cfrac{4}{5}$
+\end_inset
 
-\begin_layout Standard
-由以上的例子看出,被开方数越大,它们的算术平方根 也越大.
-\end_layout
-
-\begin_layout Standard
-分数是由分子和t分母(都是整数)所组成,如果能够找 到一个规律,把分数的开平方转化成分子和分母的开平方, 就可以按照上面的方法计算了,我们看到4
-\end_layout
-
-\begin_layout Standard
-因为⑷所以
-\end_layout
-
-\begin_layout Standard
-但是 5 = 
-\backslash
-/2Ef
-\end_layout
-
-\begin_layout Standard
 .
- /16^ s/16
 \end_layout
 
 \begin_layout Standard
-…V 25^ V25*
+但是
+\begin_inset Formula $4=\sqrt{16},5=\sqrt{25}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{\cfrac{16}{25}}=\cfrac{\sqrt{16}}{\sqrt{25}}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-这就是说,分子和分母都是正数的分数,它的算术平方 根就是兩分子的算术平方根做分子,分母的算术平方根做 分母所组成的分数.
+这就是说,分子和分母都是正数的分数,它的算术平方根就是用分子的算术平方根做分子,分母的算术平方根做分母所组成的分数.
 \end_layout
 
 \begin_layout Standard
-因此,如杲分数里的分子和分母都是完全平方数,我们
+因此,如杲分数里的分子和分母都是完全平方数,我们就可以用完全平方数的开平方方法求得它的算术平方根.
 \end_layout
 
-\begin_layout Standard
-例
+\begin_layout 例*
+求下列各分数的算术平方根:
 \end_layout
 
-\begin_layout Standard
-[解]
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{16}{49};\quad\cfrac{25}{144};\quad2\cfrac{34}{81}$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
-〔说明〕
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
 \end_layout
 
-\begin_layout Standard
-习題
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-4*5
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{\cfrac{16}{49}}=\cfrac{\sqrt{16}}{\sqrt{49}}=\cfrac{4}{7}$
+\end_inset
+
+;
 \end_layout
 
-\begin_layout Standard
-就可以用完全平方数的开平方方法求得它的算术平方根.
- 求下列各分数的算术平方根:
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{\cfrac{25}{144}}=\cfrac{\sqrt{25}}{\sqrt{144}}=\cfrac{5}{12}$
+\end_inset
+
+;
 \end_layout
 
-\begin_layout Standard
-i 49
-\end_layout
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{2\cfrac{34}{81}}=\sqrt{\cfrac{196}{81}}=\cfrac{\sqrt{196}}{\sqrt{81}}=\cfrac{14}{9}=1\cfrac{5}{9}$
+\end_inset
 
-\begin_layout Standard
-2^
-\end_layout
-
-\begin_layout Standard
-144
-\end_layout
-
-\begin_layout Standard
-2
-\end_layout
-
-\begin_layout Standard
-34
-\end_layout
-
-\begin_layout Standard
-81
-\end_layout
-
-\begin_layout Standard
-16 2d 0 34
-\end_layout
-
-\begin_layout Standard
-49 1 144 ？ H,
-\end_layout
-
-\begin_layout Standard
-4
-\end_layout
-
-\begin_layout Standard
-V49 1,
-\end_layout
-
-\begin_layout Standard
-V25 5
-\end_layout
-
-\begin_layout Standard
-、/■ 12 T
-\end_layout
-
-\begin_layout Standard
-/196 V196 14
-\end_layout
-
-\begin_layout Standard
-/ 81 n/8I 9
+.
 \end_layout
 
 \begin_layout 说明*
-如果被开方数是带分数,先把它化成假分数,然后开乎方,并将最后结果仍旧化成带分数.
+如果被开方数是带分数,先把它化成假分数,然后开平方,并将最后结果仍旧化成带分数.
 \end_layout
 
 \begin_layout Standard
-求下列各数的算术平方根: •
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-1.
- 81.
- 2.
- 400, 3.
- 256h 4 .
- 3600.
- 5.
- 10000,
+回答下列各问题:求下列各数的算术平方根:
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=5,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $81$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $400$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $256$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $3600$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $10000$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{49}{100}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{169}{289}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{225}{361}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2\cfrac{46}{49}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $18\cfrac{1}{16}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-49 „ 169 ^
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
 \end_layout
 
-\begin_layout Standard
-6
-\end_layout
+\end_inset
 
-\begin_layout Standard
-46
-\end_layout
 
-\begin_layout Standard
-49
-\end_layout
-
-\begin_layout Standard
-J 10.
- 18
 \end_layout
 
 \begin_layout Section
