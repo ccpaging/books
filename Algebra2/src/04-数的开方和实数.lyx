@@ -3485,13 +3485,13 @@ egroup
 \end_layout
 
 \begin_layout CenterLine
-\begin_inset Formula $\begin{array}{rrcl}
- & 2\phantom{'2}3\\
- & \sqrt{5'29} & \cdots\cdots & (20+a)^{2}\\
- & \underline{\phantom{x}4\phantom{'}00} & \cdots\cdots & 20^{2}\\
-20\times20+a=40+3=43 & \mid1\phantom{'}29 & \cdots\cdots & 2\times20a+a^{2}\\
-a=3 & \underline{\mid1\phantom{'}29} & \cdots\cdots & (2\times20+a)\cdot a=43\times3\\
- & 0
+\begin_inset Formula $\begin{array}{rl}
+2\phantom{'2}3\\
+\sqrt{5'29} & \cdots\cdots(20+a)^{2}\\
+4\phantom{'}00 & \cdots\cdots20^{2}\\
+20\times20+a=40+3=\overline{43\mid1\phantom{'}29} & \cdots\cdots2\times20a+a^{2}\\
+a=3\underline{\mid1\phantom{'}29} & \cdots\cdots(2\times20+a)\cdot a=43\times3\\
+0
 \end{array}$
 \end_inset
 
@@ -3503,13 +3503,13 @@ a=3 & \underline{\mid1\phantom{'}29} & \cdots\cdots & (2\times20+a)\cdot a=43\ti
 \end_layout
 
 \begin_layout CenterLine
-\begin_inset Formula $\begin{array}{rr}
- & 2\phantom{'2}3\\
- & \sqrt{5'29}\\
- & \underline{\phantom{x}4\phantom{'}00}\\
-43 & \mid1\phantom{'}29\\
- & \underline{\mid1\phantom{'}29}\\
- & 0
+\begin_inset Formula $\begin{array}{r}
+2\phantom{'2}3\\
+\sqrt{5'29}\\
+4\phantom{'}00\\
+\overline{43\mid1\phantom{'}29}\\
+\underline{\mid1\phantom{'}29}\\
+0
 \end{array}$
 \end_inset
 
@@ -3626,215 +3626,736 @@ a=3 & \underline{\mid1\phantom{'}29} & \cdots\cdots & (2\times20+a)\cdot a=43\ti
 \end_layout
 
 \begin_layout Example
-求 s/1444.
+求
+\begin_inset Formula $\sqrt{1444}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout 解*
-Ayrvn
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+3\phantom{'2}8\\
+\sqrt{14'44}\\
+9\phantom{'00}\\
+\overline{68\mid5\phantom{'}44}\\
+\underline{\mid5\phantom{'}44}\\
 0
+\end{array}$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-68 544 f 544
-\end_layout
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{1444}=38$
+\end_inset
 
-\begin_layout Standard
-VI444-38
+.
 \end_layout
 
 \begin_layout 说明*
-在本题中,先把1414从右阳左每隔两位用撇号分开.
- 根据左边第一段里的数因为沪=9,而3a<14 听以1444的算术平方根的十位数字只能是3.从:U 中减去32(就是9),余5,再把被开方数的第二段44移下
- 来得到544.在竖线的左边写上3x2 = 6(实际表示60); 将544除以60,得到试商9,那末竖线左边照理应该写89, 但是69x9 = 621;大于54氕
-所以改用8,而68x8的积« 巧等于544.因此,确定了 1444的算术平方根的个位数字 是8.
+在本题中,先把
+\begin_inset Formula $1414$
+\end_inset
+
+从右向左每隔两位用撇号分开.根据左边第一段里的数
+\begin_inset Formula $14$
+\end_inset
+
+,因为
+\begin_inset Formula $3^{2}=9$
+\end_inset
+
+,
+\begin_inset Formula $4^{2}=16$
+\end_inset
+
+,而
+\begin_inset Formula $3^{2}<14<4^{2}$
+\end_inset
+
+,所以
+\begin_inset Formula $1444$
+\end_inset
+
+的算术平方根的十位数字只能是3.从
+\begin_inset Formula $14$
+\end_inset
+
+中减去
+\begin_inset Formula $3^{2}$
+\end_inset
+
+(就是
+\begin_inset Formula $9$
+\end_inset
+
+),余
+\begin_inset Formula $5$
+\end_inset
+
+,再把被开方数的第二段
+\begin_inset Formula $44$
+\end_inset
+
+移下来得到
+\begin_inset Formula $544$
+\end_inset
+
+.在竖线的左边写上
+\begin_inset Formula $3\times2=6$
+\end_inset
+
+(实际表示
+\begin_inset Formula $60$
+\end_inset
+
+);将
+\begin_inset Formula $544$
+\end_inset
+
+除以
+\begin_inset Formula $60$
+\end_inset
+
+,得到试商
+\begin_inset Formula $9$
+\end_inset
+
+,那末竖线左边照理应该写
+\begin_inset Formula $69$
+\end_inset
+
+,但是
+\begin_inset Formula $69\times9=621$
+\end_inset
+
+;大于
+\begin_inset Formula $544$
+\end_inset
+
+,所以改用
+\begin_inset Formula $8$
+\end_inset
+
+,而
+\begin_inset Formula $68\times8$
+\end_inset
+
+的积刚巧等于
+\begin_inset Formula $544$
+\end_inset
+
+.因此,确定了
+\begin_inset Formula $1444$
+\end_inset
+
+的算术平方根的个位数字是
+\begin_inset Formula $8$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-四位数以上的整数的开平方,也可以按照同样的方法 来计算.
+四位数以上的整数的开平方,也可以按照同样的方法来计算.
 \end_layout
 
 \begin_layout Example
 求
+\begin_inset Formula $\sqrt{84681}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout 解*
-把84681从右向左每隔两位用撤号分开,得到三段,计 算的时候,还是根据左边第一段先确定百位数字』然后依次 确定十位数宇和个位数字.
+把
+\begin_inset Formula $84681$
+\end_inset
+
+从右向左每隔两位用撇号分开,得到三段,计算的时候,还是根据左边第一段先确定百位数字,然后依次确定十位数字和个位数字.
 \end_layout
 
-\begin_layout Standard
-49 446 
-\end_layout
-
-\begin_layout Standard
-441 
-\end_layout
-
-\begin_layout Standard
-581 581
-\end_layout
-
-\begin_layout Standard
-• 5 8-1
-\end_layout
-
-\begin_layout Standard
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+2\phantom{'4}9\phantom{'2}1\\
+\sqrt{8'46'81}\\
+4\phantom{'46'00}\\
+\overline{49\mid4\phantom{'}46\phantom{'00}}\\
+\mid4\phantom{'}41\phantom{'00}\\
+\overline{581\mid5\phantom{'}81}\\
+\underline{\mid5\phantom{'}81}\\
 0
+\end{array}$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-v/8468i.-291.
- ' ,
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{84681}=291$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout 说明*
-在本题第二步计算中,446除以40得到试商1总但是 这里只能是一位数,所以改用9.
- 49 X 9 = 441, 446一441 -5S苒把被开方数的第三段81移下来得到581v :在确定 个位数字的时候,把29 x2=58(实际表示580)写
-在竖线的 左边,按照第二步计算的同祥方法来求得个位数字4要恃
-\end_layout
+在本题第二步计算中,
+\begin_inset Formula $446$
+\end_inset
 
-\begin_layout Standard
-tS3
-\end_layout
+除以
+\begin_inset Formula $40$
+\end_inset
 
-\begin_layout Standard
-' 9406 56436 66436
-\end_layout
+得到试商
+\begin_inset Formula $11$
+\end_inset
 
-\begin_layout Standard
-n/22146436 = 4706,
-\end_layout
+,但是这里只能是一位数,所以改用
+\begin_inset Formula $9$
+\end_inset
 
-\begin_layout Standard
-C说明〕 在本厫第三步计算中,用dAO去除564,不够商1,所 以在算术平方根的第三位上写0,再把被开方数的第四段 站写下来,得到5643G.然后用MOO去除56
-436,求得 商t
-\end_layout
+.
+\begin_inset Formula $49\times9=441$
+\end_inset
 
-\begin_layout Standard
-U940»>*i.i
-\end_layout
+,
+\begin_inset Formula $446-441=5$
+\end_inset
 
-\begin_layout Standard
-别注意,不能只把9x2 = 18(实际表示180〉写在竖线的左 边,进行计算.
+,再把被开方数的第三段
+\begin_inset Formula $81$
+\end_inset
+
+移下来得到
+\begin_inset Formula $581$
+\end_inset
+
+.在确定个位数字的时候,把
+\begin_inset Formula $29\times2=58$
+\end_inset
+
+(实际表示
+\begin_inset Formula $580$
+\end_inset
+
+)写在竖线的左边,按照第二步计算的同样方法来求得个位数字,要特别注意,不能只把
+\begin_inset Formula $9\times2=18$
+\end_inset
+
+(实际表示
+\begin_inset Formula $180$
+\end_inset
+
+)写在竖线的左边,进行计算.
 \end_layout
 
 \begin_layout Example
-.求 s/5012^
+求
+\begin_inset Formula $\sqrt{501264}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout 解*
-7 0 8
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-n/5 0^1 49
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
 \end_layout
 
-\begin_layout Standard
-1408 11264
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-11264
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+7\phantom{'1}0\phantom{'6}8\\
+\sqrt{50'12'64}\\
+49\phantom{'12'64}\\
+\overline{1408\mid1\phantom{'}12\phantom{'}64}\\
+\underline{\mid1\phantom{'}12\phantom{'}64}\\
+0
+\end{array}$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-〔说明〕
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{501264}=708$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout 说明*
-在本题第一步计算中,30减去賴,余V写下被开方 数的下一段I2得到112.用140去除112,不够商1,所 以在算术平方根的第二位上写0(就是十位数字等于0),再
- 把被开方数的第三段64写下来,得到11264,然后用1400 去除11264,求得商8.
+在本题第一步计算中,
+\begin_inset Formula $50$
+\end_inset
+
+减去
+\begin_inset Formula $49$
+\end_inset
+
+,余
+\begin_inset Formula $1$
+\end_inset
+
+.写下被开方数的下一段
+\begin_inset Formula $12$
+\end_inset
+
+得到
+\begin_inset Formula $112$
+\end_inset
+
+.用
+\begin_inset Formula $140$
+\end_inset
+
+去除
+\begin_inset Formula $112$
+\end_inset
+
+,不够商
+\begin_inset Formula $1$
+\end_inset
+
+,所以在算术平方根的第二位上写
+\begin_inset Formula $0$
+\end_inset
+
+(就是十位数字等于
+\begin_inset Formula $0$
+\end_inset
+
+),再把被开方数的第三段
+\begin_inset Formula $64$
+\end_inset
+
+写下来,得到
+\begin_inset Formula $11264$
+\end_inset
+
+,然后用
+\begin_inset Formula $1400$
+\end_inset
+
+去除
+\begin_inset Formula $11264$
+\end_inset
+
+,求得商
+\begin_inset Formula $8$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Example
-求V涵
+求
+\begin_inset Formula $\sqrt{22146436}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-4 7 0 6
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+4\phantom{'1}7\phantom{'1}0\phantom{'6}6\\
+\sqrt{22'14'64'36}\\
+16\phantom{'14'64'36}\\
+\overline{87\mid6\phantom{'}14\phantom{'64'36}}\\
+\mid6\phantom{'}09\phantom{'64'36}\\
+\overline{9406\mid5\phantom{'}64\phantom{'}36}\\
+\underline{\mid5\phantom{'}64\phantom{'}36}\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{22146436}=4706$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 说明*
+在本题第三步计算中,用
+\begin_inset Formula $940$
+\end_inset
+
+去除
+\begin_inset Formula $564$
+\end_inset
+
+,不够商
+\begin_inset Formula $1$
+\end_inset
+
+,所以在算术平方根的第三位上写
+\begin_inset Formula $0$
+\end_inset
+
+,再把被开方数的第四段
+\begin_inset Formula $36$
+\end_inset
+
+写下来,得到
+\begin_inset Formula $56436$
+\end_inset
+
+.然后用
+\begin_inset Formula $9400$
+\end_inset
+
+去除
+\begin_inset Formula $56436$
+\end_inset
+
+,求得商
+\begin_inset Formula $6$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-16
+\begin_inset Flex MathBox
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{0.90
+\backslash
+hsize}{[rc]{
+\backslash
+textbf{整数开平方的一般方法}}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+leftmargin=2em,align=right,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+label=(
+\backslash
+arabic*)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+把被开方数从右向左每隔两位用撇号分开.
+\end_layout
+
+\begin_layout EnumIndent
+从左边第一段求得算术平方根的第一位数字.
+\end_layout
+
+\begin_layout EnumIndent
+从第一段减去这第一位数字的平方,再把被开方数的第二段写下来,作为第一个余数.
+\end_layout
+
+\begin_layout EnumIndent
+把所得的第一位数字乘以
+\begin_inset Formula $20$
+\end_inset
+
+,去除第一个余数,所得的商的整数部分作为试商(如果这个整数部分大于或者等于
+\begin_inset Formula $10$
+\end_inset
+
+,就改用
+\begin_inset Formula $9$
+\end_inset
+
+作试商.如果第一个余数小于第一位数字乘以
+\begin_inset Formula $20$
+\end_inset
+
+的积,则得试商
+\begin_inset Formula $0$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout EnumIndent
+把第一位数字的
+\begin_inset Formula $20$
+\end_inset
+
+倍加上试商的和,乘以这个试商,如果所得的积大于余数时,就要把试商减
+\begin_inset Formula $1$
+\end_inset
+
+再试,直到积小于或者等于余数为止,这个试商就是算术平方根的第二位数字.
+\end_layout
+
+\begin_layout EnumIndent
+用同样的方法,继续求算术根的其他各位数字.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-4 9
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
 \end_layout
 
-\begin_layout Standard
--lo
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-(1)把被开方数从右向左每隔两位用撇号 分开.
+\begin_layout 习题(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
 \end_layout
 
-\begin_layout Standard
-(2)从左边第一段求得算术平方根的第一 位数字.
-\end_layout
+\end_inset
 
-\begin_layout Standard
-(3)从第一段减去这第一位数字的平方, 再把被开方数的第二段写下来,作为第一个余
-\end_layout
 
-\begin_layout Standard
-(4)把所得的第一位数字乘以20,去除第 一个余数,所得的商的整数部分作为试商(如果 这个整数部分大于或者等于川,就改用9作试 商.如果第一个佘数小于第一位数宇乘
-以20的 积,则得试商0).
-\end_layout
-
-\begin_layout Standard
-(5)把第一位数字的20倍加上试商的和,
-\end_layout
-
-\begin_layout Standard
-乘以这个试商,如果所得的积大于余数时,就要 把试商减试,直到积小于或者等于余数为 止,这个试商就是算术平方根的第二位数宇.
-\end_layout
-
-\begin_layout Standard
-' (6)用同样的方法,继续求算术根的其他
-\end_layout
-
-\begin_layout Standard
-各位数字.
-\end_layout
-
-\begin_layout Standard
--;-整数开平方的一般方法^
 \end_layout
 
 \begin_layout Standard
 用直式开平方法求下列各式的值:
 \end_layout
 
-\begin_layout Standard
-4,g 1.
- V676.
- 2- VI521, 3.
- 
-\backslash
-/lS49t 4.
- 
-\backslash
-/^209, (1) 5, V33S4.
- 6, VWm, 1,Vrm, 8, 
-\backslash
-/9604.
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=4,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{676}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{1251}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{1849}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{2209}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{3364}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{3721}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{7396}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{9604}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{64009}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{256036}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{499849}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{64064016}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-'" 9- Veiaoa.
- 10.
- 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
 \backslash
-Z25iiiM, 11.
- V4ti9S4y, 12.
- 
-\backslash
-/64564U16„
+egroup
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3842,26 +4363,66 @@ Z25iiiM, 11.
 \end_layout
 
 \begin_layout Standard
-求小数的算术平方根,也可以用整数开平方的一般方 法来计算,但是在用撇号分段的时候有所不同.求纯小数 的平方根,分段时要从小数点起向右每隔两位用撖号分开,
- 如果小数点后的最后一段只有一位,就忝上一个零补成两
+求小数的算术平方根,也可以用整数开平方的一般方法来计算,但是在用撇号分段的时候有所不同.求纯小数的平方根,分段时要从小数点起向右每隔两位用撖号分开,如果小数点后的
+最后一段只有一位,就添上一个零补成两位.例如把
+\begin_inset Formula $0.6257$
+\end_inset
+
+撇成
+\begin_inset Formula $0.62'57$
+\end_inset
+
+,
+\begin_inset Formula $0.801$
+\end_inset
+
+撇成
+\begin_inset Formula $0.80'10$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-位.例如把 0.6257 撇成 0,62,57, 0.801 撇成 0.80U0.
+因为混小数有两部分,小数点的左面是整数部分,小数点的右面是小数部分,所以求混小数的平方根,分段时要从小数点起向左把整数部分每隔两位用撇号分开,从小数点起向右把小
+数部分每隔两位也用撇号分开,例如把
+\begin_inset Formula $175.2976$
+\end_inset
+
+撇成
+\begin_inset Formula $1'75.29'76$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-因为混小数有两部分,小数点的左面是整数部分,小 数点的右面是小数部分,所以求混小数的平方根,分段时 要从小数点起向左把整数部分毎隔两位用撇号分开,从小
- 数点起向右把小数部分每隔两位也用撇号分开,例如把 175.2976 撇成 176,2976.
-\end_layout
-
-\begin_layout Standard
-不论求纯小数或者混小数的平方根,除了分段跟求整 数平方根的分段不同外,其余的计算和求整数平方根里所 讲的一样,但是要注意所得的平方根里的小数点的位置,
- 就是说平方根的小数点要对准被开方数的小数点.
+不论求纯小数或者混小数的平方根,除了分段跟求整数平方根的分段不同外,其余的计算和求整数平方根里所讲的一样,但是要注意所得的平方根里的小数点的位置,就是说平方根的
+小数点要对准被开方数的小数点.
 \end_layout
 
 \begin_layout Example
-求(1) V074624; (2) ^0,000729^
+求(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\sqrt{0.4624}$
+\end_inset
+
+;
+\begin_inset space \qquad{}
+\end_inset
+
+ (2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\sqrt{0,000729}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout 解*
@@ -3869,88 +4430,302 @@ Z25iiiM, 11.
 \end_layout
 
 \begin_layout Standard
-23 7 0
-\end_layout
+\begin_inset ERT
+status open
 
-\begin_layout Standard
-69
-\end_layout
+\begin_layout Plain Layout
 
-\begin_layout Standard
-2604~ro'4'i 6 10416
-\end_layout
 
-\begin_layout Standard
-0.
- 6 8 VO.4 6^4 36
-\end_layout
-
-\begin_layout Standard
-一 ~102l 1024
-\end_layout
-
-\begin_layout Standard
-128
-\end_layout
-
-\begin_layout Standard
-47 329
-\end_layout
-
-\begin_layout Standard
-329
-\end_layout
-
-\begin_layout Standard
-VO.
- 000729-0.027.
- 1
-\end_layout
-
-\begin_layout Standard
-1 3.
- 0 4 /r7 0.0 4^16
-\end_layout
-
-\begin_layout Standard
-n/X70.TT416 = 13.04.
-\end_layout
-
-\begin_layout Standard
-用直式TT平方法求下列各式的值:
-\end_layout
-
-\begin_layout Standard
-1.
- V048I.
- 2.
- 3.
- Vo.ism, 4.
- 
 \backslash
-/0.6084.
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+0.\phantom{4}6\phantom{'2}8\\
+\sqrt{0.46'24}\\
+36\phantom{'24}\\
+\overline{128\mid10\phantom{'}24}\\
+\underline{\mid10\phantom{'}24}\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{0.4624}=0.68$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-n.
- n/oTooOMI.
- 6.
- VO.002祖.
- 7.
- 
-\backslash
-/0,003249.
+(2)
 \end_layout
 
 \begin_layout Standard
-8, v'^TOO^.
- 9.
- 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
 \backslash
-/Uumim 10.
- 
+vspace{-
 \backslash
-/552.7201#
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+0.\phantom{0}0\phantom{'0}2\phantom{'2}7\\
+\sqrt{0.00'07'29}\\
+4\phantom{'29}\\
+\overline{47\mid3\phantom{'}29}\\
+\underline{\mid3\phantom{'}29}\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{0.000729}=0.027$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{170.0416}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+1\phantom{'7}3.\phantom{0}0\phantom{'6}4\\
+\sqrt{1'70.04'16}\\
+1\phantom{'70.04'16}\\
+\overline{23\mid70\phantom{.04'16}}\\
+\mid69\phantom{\phantom{.04'16}}\\
+\overline{2604\mid1\phantom{'}04\phantom{'}16}\\
+\underline{\mid1\phantom{'}04\phantom{'}16}\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{170.0416}=13.04$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+用直式开平方法求下列各式的值:
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=4,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{0.3481}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{0.7569}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{0.1369}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{0.6084}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=3,leftmargin=2em,start=5
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{0.000961}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{0.002401}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{0.003249}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{56.7009}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{16.6464}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{552.7201}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -4289,7 +5064,7 @@ l.fi 1.378 1遍 I.3S6 1.389 1.393 L396 1.鄕 1.404 1-407 1.4X1 0 X 1 1 •* iJ a
 \end_layout
 
 \begin_layout Standard
-我们在平方根表里,看到表的右边有九行小格子,这叫 做修正值,是用来计算被开方数的第四个数字的,也就是 说,利用修正值,我们可以杏出有四个数宇的被开方数的平
+我们在平方根表里,看到表的右边有九行小格子,这叫 做修正值,是用来计算被开方数的第四个数字的,也就是 说,利用修正值,我们可以杏出有四个数字的被开方数的平
  方根.现在看下面的例子.
 \end_layout
 
@@ -4720,7 +5495,7 @@ a b •
 \end_layout
 
 \begin_layout Standard
-0.21,横着向右查到顶上标有数宇4的一行,得到' 这就是0.214的近似立方根.
+0.21,横着向右查到顶上标有数字4的一行,得到' 这就是0.214的近似立方根.
 \end_layout
 
 \begin_layout Standard
@@ -4827,8 +5602,8 @@ _ _!
 \end_layout
 
 \begin_layout 解*
-把小数点向左移动三位(就是把6耵40缩小1000倍), 得到63.74.因为在立方根表里只能查三个数宇的立方根 (没有修正值部分),所以要先把63,74四舍五入变为
-三个 数宇,得到63'就是
+把小数点向左移动三位(就是把6耵40缩小1000倍), 得到63.74.因为在立方根表里只能查三个数字的立方根 (没有修正值部分),所以要先把63,74四舍五入变为
+三个 数字,得到63'就是
 \end_layout
 
 \begin_layout Standard
