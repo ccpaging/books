@@ -14107,7 +14107,7 @@ egroup
 \end_layout
 
 \begin_layout Standard
-这是一个单项式除以单项式的问題.我们仍旧可以利用除法是乘法的逆运算这一关系来推出计算的法则.
+这是一个单项式除以单项式的问题.我们仍旧可以利用除法是乘法的逆运算这一关系来推出计算的法则.
 \end_layout
 
 \begin_layout CenterLine
@@ -15871,7 +15871,7 @@ end{addstarbefore}
 \end_layout
 
 \begin_layout Standard
-这样的写法比较繁琐,能不能再简単一些呢？
+这样的写法比较繁琐,能不能再简单一些呢？
 \end_layout
 
 \begin_layout Standard
@@ -15932,7 +15932,7 @@ end{addstarbefore}
 \begin_inset Formula $0$
 \end_inset
 
-补上去,乘积的最髙项应为
+补上去,乘积的最高项应为
 \begin_inset Formula $12x^{5}$
 \end_inset
 

@@ -3189,7 +3189,7 @@ egroup
 \end_layout
 
 \begin_layout Standard
-一些简单的完全平方数於开平方,我们可以从某数的 平方结果试算出来,但是出较复杂一些的,就很不容易看 出.下面我们来研究一个正数的开乎方的方法.
+一些简单的完全平方数的开平方,我们可以从某数的平方结果试算出来,但是出较复杂一些的,就很不容易看出.下面我们来研究一个正数的开平方的方法.
 \end_layout
 
 \begin_layout Subsection
@@ -3197,161 +3197,432 @@ egroup
 \end_layout
 
 \begin_layout Standard
-我们来研究这样一个题目:求529的算术平方根.
- 第一步;首先确定529的算术平方根的位数.我们知
+我们来研究这样一个题目:求
+\begin_inset Formula $529$
+\end_inset
+
+的算术平方根.
 \end_layout
 
 \begin_layout Standard
-道
+第一步:首先确定
+\begin_inset Formula $529$
+\end_inset
+
+的算术平方根的位数.我们知道
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+1^{2}=1, & \qquad & 9^{2}=81,\\
+10^{2}=100, &  & 99^{2}=9801,\\
+100^{2}=10000, &  & 999^{2}=998001,\\
+\cdots\cdots\cdots\cdots\cdots\cdots &  & \cdots\cdots\cdots\cdots\cdots\cdots\cdots
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Is 一 92 = 81 ^
+这里,
+\begin_inset Formula $1$
+\end_inset
+
+和
+\begin_inset Formula $9$
+\end_inset
+
+都是一位数,
+\begin_inset Formula $1$
+\end_inset
+
+是最小的一位数;
+\begin_inset Formula $9$
+\end_inset
+
+是最大的一位数.同样,
+\begin_inset Formula $10$
+\end_inset
+
+和
+\begin_inset Formula $99$
+\end_inset
+
+是二位数,一个最小,一个最大;
+\begin_inset Formula $100$
+\end_inset
+
+和
+\begin_inset Formula $999$
+\end_inset
+
+是三位数,一个最小,一个最大,…….由此可见,一位数的平方是一位数或者两位数,两位数的平方是三位数或者四位数,三位数的平方是五位数或者六位数,…….反过来,也可以看
+到,一位数和二位数的平方根有一位整数,三位数和四位数的平方根有两位整数,五位数和六位数的平方根有三位整数,…….根据这个规律,我们可以把 一个整数从右向左每隔两位
+用一个撇号分开,所分得的段数就是这个数的算术平方根的整数位数,例如把
+\begin_inset Formula $529$
+\end_inset
+
+撇成
+\begin_inset Formula $529$
+\end_inset
+
+,它有两段,所以
+\begin_inset Formula $529$
+\end_inset
+
+的算术平方根是两位整数.
 \end_layout
 
 \begin_layout Standard
-XO^^IOO, 992 = 9801,
+第二步:根据它的左边第一段里的数,确定算术平方根的第一位上的数.
 \end_layout
 
 \begin_layout Standard
-100a =10000, 999a = 998001,
+因为
+\begin_inset Formula $2^{2}=4$
+\end_inset
+
+,
+\begin_inset Formula $3^{2}=9$
+\end_inset
+
+,而左边第一段里的数是
+\begin_inset Formula $5$
+\end_inset
+
+,
+\begin_inset Formula $2^{2}<5<3^{2}$
+\end_inset
+
+,所以
+\begin_inset Formula $529$
+\end_inset
+
+的算术平方根的十位数字只能是
+\begin_inset Formula $2$
+\end_inset
+
+(如果是
+\begin_inset Formula $3$
+\end_inset
+
+, 
+\begin_inset Formula $3^{2}$
+\end_inset
+
+大于
+\begin_inset Formula $5$
+\end_inset
+
+,显然不可能).
 \end_layout
 
 \begin_layout Standard
-• 150*
+第三步:确定
+\begin_inset Formula $\sqrt{529}$
+\end_inset
+
+的个位数字,假设个位数字是
+\begin_inset Formula $a$
+\end_inset
+
+,因为十位数是
+\begin_inset Formula $2$
+\end_inset
+
+,实际表示
+\begin_inset Formula $2\times10=20$
+\end_inset
+
+,所以就可以把这个算术平方根写成
+\begin_inset Formula $20+a$
+\end_inset
+
+的形式,就是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{529}=20+a$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-这里,1和9都是一位数,1是最小的一位数;9是最 大的一位数.同样,10和99是二位数,一个最小,一个最 大;！00和即9是三位数,一个最小,一个最大,…….由此
- 可见,-•位数的平方是一位数或者两位数,两位数的平方是 三位数或者叫位数,三位数的平方是五位数或者六位数,… ….反过来,也可以看到,一位数和二位数的平方根有一
-位 整数,三位数和四位数的平方根苻两位整数,五位数和六位 数的平方根有三位整数,…….根据这个规律,我们可以把 一个整数从右問左每隔两位用一个撇号分开,所分得的
- 段数就是这个数的算术平方根的整数位数,例如把529撤 成V29,它有两段,所以5'29的算术平方根是两位整数.
+两边平方,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $529=(20+a)^{2}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-第二步:根据它的左边第一段里的数,确定算术乎方根 的第一位上的数.
+\noindent
+就是
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $529=20^{2}+2\times20a+a^{2}$
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-因为2 = 4, 3^9,而左边第一段里的数是5,23<5 <3%所以529的算术平方根的十位数字只能是2 (如杲是
+两边都减去
+\begin_inset Formula $20^{2}$
+\end_inset
+
+(就是
+\begin_inset Formula $400$
+\end_inset
+
+),得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $129=2\times20a+a^{2}=(2\times20+a)\cdot a$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-3, 32大于5,显然不可能).
+就是说,所得的
+\begin_inset Formula $129$
+\end_inset
+
+应该等于
+\begin_inset Formula $(2\times20+a)\cdot a$
+\end_inset
+
+.从这个关系,我们就可以求出这个平方根的个位数字
+\begin_inset Formula $a$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-第三步:确定_的个位数字,假设个位数宇是 因为十位数是2,实际表示2x10 = 20,所以就可以把这个 奠术平方根写成的形式,就是
+如果把
+\begin_inset Formula $(2\times20+a)$
+\end_inset
+
+看作近似于
+\begin_inset Formula $2\times20$
+\end_inset
+
+,用
+\begin_inset Formula $2\times20$
+\end_inset
+
+(就是
+\begin_inset Formula $40$
+\end_inset
+
+)去试除
+\begin_inset Formula $129$
+\end_inset
+
+,得到
+\begin_inset Formula $3$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-V^ = 20+'
+要确定
+\begin_inset Formula $a$
+\end_inset
+
+的值是不是
+\begin_inset Formula $3$
+\end_inset
+
+,只要把
+\begin_inset Formula $3$
+\end_inset
+
+代入
+\begin_inset Formula $(2\times20+a)\cdot a$
+\end_inset
+
+,-看它的值是不是等于
+\begin_inset Formula $129$
+\end_inset
+
+就可以了.现在
+\begin_inset Formula $(2\times20+3)\cdot3=129$
+\end_inset
+
+,这就说明
+\begin_inset Formula $a$
+\end_inset
+
+的值的确是
+\begin_inset Formula $3$
+\end_inset
+
+.因此,
+\begin_inset Formula $\sqrt{529}=23$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-两边平方』得
+上面所说的计算过程,可以用下面的形式写出来:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{rrcl}
+ & 2\phantom{'2}3\\
+ & \sqrt{5'29} & \cdots\cdots & (20+a)^{2}\\
+ & \underline{\phantom{x}4\phantom{'}00} & \cdots\cdots & 20^{2}\\
+20\times20+a=40+3=43 & \mid1\phantom{'}29 & \cdots\cdots & 2\times20a+a^{2}\\
+a=3 & \underline{\mid1\phantom{'}29} & \cdots\cdots & (2\times20+a)\cdot a=43\times3\\
+ & 0
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-529= (20-1 <z)a,
+在计算的时候,上面这个书写形式可以简写成下面的形式;
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{rr}
+ & 2\phantom{'2}3\\
+ & \sqrt{5'29}\\
+ & \underline{\phantom{x}4\phantom{'}00}\\
+43 & \mid1\phantom{'}29\\
+ & \underline{\mid1\phantom{'}29}\\
+ & 0
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-就是 529 = 2(P+2x20a+Ga.
-\end_layout
+这里,在根号上面对着第一段
+\begin_inset Formula $5$
+\end_inset
 
-\begin_layout Standard
-两边都减去20^就是400),得
-\end_layout
+,先写十位数字
+\begin_inset Formula $2$
+\end_inset
 
-\begin_layout Standard
-129 = 2 x 20(7 + ^ (2 X 20+cl) * 疗,
-\end_layout
+(实际表示
+\begin_inset Formula $20$
+\end_inset
 
-\begin_layout Standard
-就是说,所得的129应该等于(2x20 + ^^.从这个关系/ 我们就可以求出这个平方根的个位数宇t,
-\end_layout
+),把
+\begin_inset Formula $2^{2}=4$
+\end_inset
 
-\begin_layout Standard
-如果把(2x20+d)看作近似于2X20,用2xM(就 是40)去试除129,得到3.
-\end_layout
+(实际表示
+\begin_inset Formula $400$
+\end_inset
 
-\begin_layout Standard
-TB1 •
-\end_layout
+)写在
+\begin_inset Formula $5$
+\end_inset
 
-\begin_layout Standard
-要确定《的值是不是3,只要把3代入(2x20+^ 一 -看它的值是不是等于129就可以了.、现在(2x20 + 3).3 129.这就说明c的值的确是3.因此;=
-\end_layout
+的下面,
+\begin_inset Formula $5-4=1$
+\end_inset
 
-\begin_layout Standard
-上面所说的计算过程,可以用下面的形式写出来4
-\end_layout
+(实际表示
+\begin_inset Formula $100$
+\end_inset
 
-\begin_layout Standard
-2_ B s/W2~d-400.
-\end_layout
+),把被开方数的第二段
+\begin_inset Formula $29$
+\end_inset
 
-\begin_layout Standard
-2x20-f-<？ = 40-f-3 = 43
-\end_layout
+移下来得到
+\begin_inset Formula $129$
+\end_inset
 
-\begin_layout Standard
-129
-\end_layout
+.在竖线的左边写上
+\begin_inset Formula $2$
+\end_inset
 
-\begin_layout Standard
-129
-\end_layout
+的
+\begin_inset Formula $2$
+\end_inset
 
-\begin_layout Standard
-•(2o-
-\backslash
-^y
-\end_layout
+倍(实际表示
+\begin_inset Formula $2\times20=40$
+\end_inset
 
-\begin_layout Standard
-■202
-\end_layout
+),用
+\begin_inset Formula $40$
+\end_inset
 
-\begin_layout Standard
-•2x20aH-aa * (2 x 20~h = IS X 3
-\end_layout
+去试除
+\begin_inset Formula $129$
+\end_inset
 
-\begin_layout Standard
-在计算的时候,上面这个书写形式可以筒写成下面的
-\end_layout
+得到试商
+\begin_inset Formula $3$
+\end_inset
 
-\begin_layout Standard
-形式;
-\end_layout
+,在根号上面对着第二段
+\begin_inset Formula $29$
+\end_inset
 
-\begin_layout Standard
-^29
-\end_layout
+写上
+\begin_inset Formula $3$
+\end_inset
 
-\begin_layout Standard
-4
-\end_layout
+,同时在竖线左边的
+\begin_inset Formula $4$
+\end_inset
 
-\begin_layout Standard
-4§ir^
-\end_layout
+的右边写上
+\begin_inset Formula $3$
+\end_inset
 
-\begin_layout Standard
-129
-\end_layout
+,得到
+\begin_inset Formula $43$
+\end_inset
 
-\begin_layout Standard
-V529 ^ 23,
-\end_layout
+.用
+\begin_inset Formula $43$
+\end_inset
 
-\begin_layout Standard
-这里,在根号上面对着第一段5,先写十辟数字2 (实 际表示20),把2s = 4 (实际表示400)写在5的下面,5-4 «1(实际表汞100),把被开方数的第
-二段29移下来得到 129.在竖线的左边写上2的2倍(实际表示2x20=40), 用40去试除129得到试商3,在根号上面对着第二段29 写上I同时在竖线左边的4.
-的右边写上3,得到43.用 43 乘以 3,得到 129, 129^129 = 0,这就得到 
-\backslash
-/529=23# 
+乘以
+\begin_inset Formula $3$
+\end_inset
+
+,得到
+\begin_inset Formula $129$
+\end_inset
+
+,
+\begin_inset Formula $129-129=0$
+\end_inset
+
+,这就得到
+\begin_inset Formula $\sqrt{529}=23$
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Example
