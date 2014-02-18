@@ -4733,197 +4733,513 @@ egroup
 \end_layout
 
 \begin_layout Standard
-上两节里所讲的开平方,由于被开方数都是完全平方 数,所以开方都能够开尽.但是并不是所有被开方数都是 完全平方数,例如,我们要求2的算术平方根,开方就永远
- 开不尽.
+上两节里所讲的开平方,由于被开方数都是完全平方数,所以开方都能够开尽.但是并不是所有被开方数都是完全平方数,例如,我们要求
+\begin_inset Formula $2$
+\end_inset
+
+的算术平方根,开方就永远开不尽.
 \end_layout
 
 \begin_layout Standard
-我们知道J.a<2,就是VI〉:!,而23>2,就是 <2,所以看出巧一定介于1和2之间,就是
-\end_layout
+我们知道,
+\begin_inset Formula $1^{2}<2$
+\end_inset
 
-\begin_layout Standard
-2.这就是说,1接近于但是小于而2接近于 n/I但是大于彳.在这祌情况下,我们说,1是#的 精确到1的不足近似值,2是、^的精确到1的过射进似 鼠•
- •
+,就是
+\begin_inset Formula $\sqrt{2}>1$
+\end_inset
+
+,而
+\begin_inset Formula $2^{2}>2$
+\end_inset
+
+,就是
+\begin_inset Formula $\sqrt{2}<2$
+\end_inset
+
+,所以看出
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+一定介于
+\begin_inset Formula $1$
+\end_inset
+
+和
+\begin_inset Formula $2$
+\end_inset
+
+之间,就是
+\begin_inset Formula $1<\sqrt{2}<2$
+\end_inset
+
+.这就是说,
+\begin_inset Formula $1$
+\end_inset
+
+接近于
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+但是小于
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+,而
+\begin_inset Formula $2$
+\end_inset
+
+接近于
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+但是大于
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+.在这种情况下,我们说,
+\begin_inset Formula $1$
+\end_inset
+
+是
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的 精确到
+\begin_inset Formula $1$
+\end_inset
+
+的
+\series bold
+不足近似值
+\series default
+,
+\begin_inset Formula $2$
+\end_inset
+
+是
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的精确到
+\begin_inset Formula $1$
+\end_inset
+
+的
+\series bold
+过剩近似值
+\series default
+.
 \end_layout
 
 \begin_layout 说明*
-所谓精确到L就是把数值计算精确到个位.如果说精确到0.1,就是_值计算精确到十分位.余类推.
+所谓精确到
+\begin_inset Formula $1$
+\end_inset
+
+,就是把数值计算精确到个位.如果说精确到
+\begin_inset Formula $0.1$
+\end_inset
+
+,就是把数值计算精确到十分位.余类推.
 \end_layout
 
 \begin_layout Standard
-一个正数开平方,如果只求出它的不足近似值或者过 剩近似值,那末这个求得的近似值/叫做这个数的近似平方 相.
+一个正数开平方,如果只求出它的不足近似值或者过剩近似值,那末这个求得的近似值,叫做这个数的
+\series bold
+近似平方根
+\series default
+.
 \end_layout
 
 \begin_layout Standard
-求一个正整数或者正小数的近似算术平方根』我们仍 旧可以用前面学过的开平方的一般方法算出精确到任意嫌 一位的近似值.下面举例来说明.
- 1
+求一个正整数或者正小数的近似算术平方根,我们仍旧可以用前面学过的开平方的一般方法算出精确到任意哪 一位的近似值.下面举例来说明.
 \end_layout
 
 \begin_layout Example
-求彳(精确到0.001).
+求
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.001$
+\end_inset
+
+).
 \end_layout
 
 \begin_layout 审题*
-题中要求精.确到0.001,开方要计算到四位小数,再应用四舍五入法则/取三位,小数...• '
+题中要求精确到0.001,开方要计算到四位小数,再应用四舍五入法则,取三位小数.
 \end_layout
 
 \begin_layout 解*
-u
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-0
-\end_layout
+\begin_inset ERT
+status open
 
-\begin_layout Standard
-rL
-\end_layout
+\begin_layout Plain Layout
 
-\begin_layout Standard
-1.
- 4 14 2
-\end_layout
-
-\begin_layout Standard
 
 \backslash
-/2 .0'0/0 0,0 ovd
+vspace{-
+\backslash
+baselineskip}
 \end_layout
 
-\begin_layout Standard
-21 1 0" 0 -一
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-96
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+1.\phantom{0}4\phantom{'0}1\phantom{'0}4\phantom{'0}2\\
+\sqrt{2.00'00'00'00}\\
+1\phantom{.00'00'00'00}\\
+\overline{24\mid1\phantom{.}00\phantom{'00'00'00}}\\
+\mid\phantom{1.}96\phantom{\phantom{'00'00'00}}\\
+\overline{281\mid4\phantom{'}00\phantom{\phantom{'00'00}}}\\
+\mid2\phantom{'}81\phantom{\phantom{'00'00}}\\
+\overline{2824\mid1\phantom{'}19\phantom{'}00\phantom{\phantom{'00}}}\\
+\mid1\phantom{'}12\phantom{'}96\phantom{\phantom{'00}}\\
+\overline{28282\mid6\phantom{'}04\phantom{\phantom{'}}00}\\
+\underline{\mid5\phantom{`}65\phantom{`}64}\\
+38\phantom{`}36
+\end{array}$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-28lT''4l>0' "
-\end_layout
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{2}\thickapprox1.414$
+\end_inset
 
-\begin_layout Standard
-! 2SI 2824 TT 9 0 0 一
-\end_layout
-
-\begin_layout Standard
-11296
-\end_layout
-
-\begin_layout Standard
-282821^60400"
-\end_layout
-
-\begin_layout Standard
-56564
-\end_layout
-
-\begin_layout Standard
-一 38 3F ...、/Tm4.
+.
 \end_layout
 
 \begin_layout 说明*
-i.这里,幵方开到1后,没有开尽,添两个零成一段再 幵方,得1.七还开不尽,再添两个零成一段再开方,得 1-41,还开不尽,再添两个零成一段再开方,直到算出平方
- 根到四位小数为止,
-\end_layout
+1.
+\begin_inset space \space{}
+\end_inset
 
-\begin_layout Standard
-2.因为万分位上是2,它小于5,根据四舍五入法则 把它舍去即得2精确到0.CKU的近似乎方根1.414.
-\end_layout
+这里,开方开到
+\begin_inset Formula $1$
+\end_inset
 
-\begin_layout Standard
-3.符号是近似符号,就是说这个值是近似值.
+后,没有开尽,添两个零成一段再开方,得
+\begin_inset Formula $1.4$
+\end_inset
+
+,还开不尽,再添两个零成一段再开方,得
+\begin_inset Formula $1.41$
+\end_inset
+
+,还开不尽,再添两个零成一段再开方,直到算出平方根到四位小数为止.
+\begin_inset Newline newline
+\end_inset
+
+2.
+\begin_inset space \space{}
+\end_inset
+
+因为万分位上是
+\begin_inset Formula $2$
+\end_inset
+
+,它小于
+\begin_inset Formula $5$
+\end_inset
+
+,根据四舍五入法则把它舍去即得
+\begin_inset Formula $2$
+\end_inset
+
+精确到
+\begin_inset Formula $0.001$
+\end_inset
+
+的近似乎方根
+\begin_inset Formula $1.414$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+3.
+\begin_inset space \space{}
+\end_inset
+
+符号是近似符号,就是说这个值是近似值.
 \end_layout
 
 \begin_layout Example
-求精确到0.01).
+求
+\begin_inset Formula $\sqrt{10.3}$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+).
 \end_layout
 
 \begin_layout 审题*
-题中要求精确到0.01,开方要计算到三位小数,再应 用四舍五入法则取二位小数,
+题中要求精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+,开方要计算到三位小数,再应用四舍五入法则取二位小数.
 \end_layout
 
 \begin_layout 解*
-3.
- 2 0 9
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-vrowooo
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
 \end_layout
 
-\begin_layout Standard
-62 130 
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-124 
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+3.\phantom{3}2\phantom{'0}0\phantom{'0}9\\
+\sqrt{10.30'00'00}\\
+9\phantom{.30'00'00}\\
+\overline{62\mid1\phantom{.}30\phantom{'00'00}}\\
+\mid1\phantom{.}24\phantom{'00'00}\\
+\overline{6409\mid6\phantom{'}00\phantom{'}00}\\
+\underline{\mid5\phantom{'}76\phantom{'}81}\\
+23\phantom{`}19
+\end{array}$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-6409 60000
-\end_layout
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{10.3}\thickapprox3.21$
+\end_inset
 
-\begin_layout Standard
-5 7 6 8 1
-\end_layout
-
-\begin_layout Standard
-2319
-\end_layout
-
-\begin_layout Standard
-人 N/i078^3.21.
+.
 \end_layout
 
 \begin_layout 说明*
-这里,被开方数原来是10.3.因为小数点后只有一 位,所以先添一个零补成两位.开到3.2后,没有开尽,再
+这里,被开方数原来是
+\begin_inset Formula $10.3$
+\end_inset
+
+.因为小数点后只有一位,所以先添一个零补成两位.开到
+\begin_inset Formula $3.2$
+\end_inset
+
+后,没有开尽,再添两个零成一段再开方,以下相同.照题目要求,
+\begin_inset Formula $10.3$
+\end_inset
+
+的算术平方根只要精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+,但是千分位上的数开出来是
+\begin_inset Formula $9$
+\end_inset
+
+,所以根据四舍五入法则,把百分位上的0改成1,取
+\begin_inset Formula $\sqrt{10.3}\thickapprox3.21$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-添两个零成一段再开方,以下相同.照题目要求,10,3的 算木平方根只要精确到0.01,但晃千分位上的数开出来是 ^所以根据四舍五入法则,把百分位上的0改成1,取
+求分数的近似算术平方根,可把分数化成小数后再计算.例如,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{3\cfrac{2}{7}}\thickapprox\sqrt{3.2857}\thickapprox1.81$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
-求分数的近似算术平方根,可把分数化成小数后再汁
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-例如,
+求下列各数的近似算术平方根:
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $15$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $95.3$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $5.57$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $36.85$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $157.1$
+\end_inset
+
+(精确到0.01).
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $0.0348$
+\end_inset
+
+(精确到0.01).
+\end_layout
+
+\begin_layout EnumCols
+1866.2(精确到
+\begin_inset Formula $0.1$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $3\cfrac{5}{8}$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.001$
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
-/ •
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
 \end_layout
 
-\begin_layout Standard
-y^-二 = 汾(精确到 0,01.)#
-\end_layout
+\end_inset
 
-\begin_layout Standard
-求下列各数的近似算术平方报:
-\end_layout
 
-\begin_layout Standard
-1_ 15(精确到 0,01)„ 2.叩.3(精确到 0,01).
-\end_layout
-
-\begin_layout Standard
-3,5-57(楮确到 0,01), 4.
- 36,邪(精确到 0.01),
-\end_layout
-
-\begin_layout Standard
-5.
- 157.1(精确到 O.Oi).
- 6.
- 0.034S(精确到 O.Oi),
-\end_layout
-
-\begin_layout Standard
-7.
- :1866,2(精确到0.:]:;1.
- 8- 3|(精确到 0.001).
 \end_layout
 
 \begin_layout Section
@@ -4931,149 +5247,172 @@ y^-二 = 汾(精确到 0,01.)#
 \end_layout
 
 \begin_layout Standard
-利用上面的开平方的方法,我们可以求出一个正数的 算术平方根或者近似算术平方根.但是这样的计算比较麻 烦,为了迅速而正确地求出一个正数的算术平方根,可利用
- 平方根表来查得.在《中学数学用表》(中小学通用教材数 学编写组编,人民教育出版社出版,1978年1月第1版)这 本小册子里就附有平方根表,下面就根据这个平方根表
-来 讲它的用法,
+利用上面的开平方的方法,我们可以求出一个正数的算术平方根或者近似算术平方根.但是这样的计算比较麻烦,为了迅速而正确地求出一个正数的算术平方根,可利用平方根表来查得.
+在《中学数学用表》(中小学通用教材数学编写组编,人民教育出版社出版,1978年1月第1版)这本小册子里就附有平方根表,下面就根据这个平方根表来讲它的用法,
 \end_layout
 
 \begin_layout Standard
-根据《中学数学用表> 中的平方根表所求出的平方根, 通常是近似根,这个表中的平方根都是取四个数字.就是 说,近似数从左面第一个不是零的数起到最末一位数止,有
- 四个数字,而宋位数是由四舍五入得出的.
+根据《中学数学用表》中的平方根表所求出的平方根,通常是近似根,这个表中的平方根都是取四个数字.就是说,近似数从左面第一个不是零的数起到最末一位数止,有四个数字,而
+末位数是由四舍五入得出的.
 \end_layout
 
 \begin_layout Standard
-在《中学数学用表》的平方根表(第5页至9页)中,是 把:L00到99.9的各个数的算术平方根编列成的.下面举
-\end_layout
+在《中学数学用表》的平方根表(第5页至9页)中,是把
+\begin_inset Formula $1.00$
+\end_inset
 
-\begin_layout Standard
-1* TJ
-\end_layout
+到
+\begin_inset Formula $99.9$
+\end_inset
 
-\begin_layout Standard
-例g
-\end_layout
-
-\begin_layout Standard
-2 ]
-\end_layout
-
-\begin_layout Standard
-«解 例rL
-\end_layout
-
-\begin_layout Standard
-• 160 •
-\end_layout
-
-\begin_layout Standard
-例来说明这个表的用法、
+的各个数的算术平方根编列成的.下面举例来说明这个表的用法、
 \end_layout
 
 \begin_layout Example
 求
+\begin_inset Formula $\sqrt{1.65}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout 解*
-从《中学数学用表》第5页的表里最左边的标有“if”的 这一直行中,找出被开方数的前两位数i.a从这个数横 着向右看,查到顶上第…横行里标有数字5的一行,得到
- 1.285,这就适1.M的近似算术平方根.
+从《中学数学用表》第5页的表里最左边的标有“N”的这一直行中,找出被开方数的前两位数
+\begin_inset Formula $1.6$
+\end_inset
+
+,从这个数横着向右看,查到顶上第一横行里标有数字
+\begin_inset Formula $5$
+\end_inset
+
+的一行,得到
+\begin_inset Formula $1.285$
+\end_inset
+
+,这就是
+\begin_inset Formula $1.65$
+\end_inset
+
+的近似算术平方根.
 \end_layout
 
-\begin_layout Standard
-^TM ^1.285,
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{1.65}\thickapprox1.285$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
-A' 0丨1 i ^ 丨 6 
-\backslash
- 4 5 fi r i s ( 9 1 yp 4 5 6 7 8 d
-\end_layout
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-163-1.png
+	scale 40
 
-\begin_layout Standard
-r 1 1 3.5 1,225 1‘卿 1.棚 I.24I 1.245 1.249 1.253 1.257 1.261 0 1 1 2 2 2 3 9 4
-\end_layout
+\end_inset
 
-\begin_layout Standard
-3.6 1,2册 1.269 :』73 1,281 ],2S5 X.2S8 1,292 1.296 1.300 0 1 1 2 2 2 3 s
-\end_layout
 
-\begin_layout Standard
-1.7 1,304 1.30S 1.311 1.315.
- 1.319 1,323 1,327 1,330 1.384 1*338, 0 1 1 2 2 2 3 3H ) 
-\end_layout
-
-\begin_layout Standard
-1.8 1.342 1.345 二 349 1.363 1.356 1溯 1.364 1,367 1.371 1.375 0 1 1 I 2 2 S 33 
-\end_layout
-
-\begin_layout Standard
-l.fi 1.378 1遍 I.3S6 1.389 1.393 L396 1.鄕 1.404 1-407 1.4X1 0 X 1 1 •* iJ a S S1
- 
 \end_layout
 
 \begin_layout Example
 求
+\begin_inset Formula $\sqrt{16.5}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout 解*
-从第7页的表里最左边的标有“N”的这一直行中,找 出被开方数的前面两位数16,从这个数横着向右看,查到 顶上第一横行里标有数字5的一行,得到4.062,这就是
- 16.5的近似算术平方根.
+从第7页的表里最左边的标有“N”的这一直行中,找出被开方数的前面两位数
+\begin_inset Formula $16$
+\end_inset
+
+,从这个数横着向右看,查到顶上第一横行里标有数字
+\begin_inset Formula $5$
+\end_inset
+
+的一行,得到
+\begin_inset Formula $4.062$
+\end_inset
+
+,这就是
+\begin_inset Formula $16.5$
+\end_inset
+
+的近似算术平方根.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-163-2.png
+	scale 40
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-^16-3^4.062,
-\end_layout
+从上面两个例子可以看出,查平方根表的时候,必须注意被开方数的小数点的位置.例如,
+\begin_inset Formula $\sqrt{1.65}$
+\end_inset
 
-\begin_layout Standard
-0 3 4 5 6 ] 7 8 9 1 2 "r 34 i 5 6 T ( S 9
-\end_layout
+和
+\begin_inset Formula $\sqrt{16.5}$
+\end_inset
 
-\begin_layout Standard
-15 * ' 3.873 3.S86 3.S99 3,^12 3.924 3.937 3.950 3,962 3.9753^87 1 3 4 5 6 8 9
- 10 11
-\end_layout
+的查法就不同,因为
+\begin_inset Formula $1.65$
+\end_inset
 
-\begin_layout Standard
-16 4-000 iM2 4.025 4,037 050 4.062 4,074 4.0S7 4.099' 尖111 1 2 4 5 6 ( 9 10
- 11
-\end_layout
+的整数部分只有一位数,而
+\begin_inset Formula $16.5$
+\end_inset
 
-\begin_layout Standard
-17 4.123 4.135 4.147 4,159 4.171 4.1S3 4.195 4.207 4.219 4.231 1 2 4 5 6 7 8 10 11
-\end_layout
-
-\begin_layout Standard
-]8 4.243 4.254 4,266 4.278 4.290 4,301 4,313 4,324 4.336 4-347 1 2 3 5 6 7 9
- 10
-\end_layout
-
-\begin_layout Standard
-19 4.359 4-370 4.382 4.393 4.405 4.416 4.427 4.433 4.450 1461 丄 2 3 5 6 7 8 9 10
-\end_layout
-
-\begin_layout Standard
-从上面两个例子可以看出,查平方根表的时候,必须注 意被开方数的小数点盼位置,例如,和八IO的 査法就不同,因为1.65的整数部分只有一位数,而16.5的
- 整数部分有两位数,所以在查平方根表时就要在两个不同
-\end_layout
-
-\begin_layout Standard
-的地方去査.
+的整数部分有两位数,所以在查平方根表时就要在两个不同的地方去查.
 \end_layout
 
 \begin_layout 说明*
-在表的底下一行和顶上一行标有间样瘀“iT和0到9 十个数字,它的作用只是为_广在用到表的下半部分的数时 丧看方便,并且可以避看错格子,造成错误,
+在表的底下一行和顶上一行标有间样瘀“N”和
+\begin_inset Formula $0$
+\end_inset
+
+到
+\begin_inset Formula $9$
+\end_inset
+
+十个数字,它的作用只是为了在用到表的下半部分的数时查看方便,并且可以避免看错格子,造成错误.
 \end_layout
 
 \begin_layout Standard
-我们在平方根表里,看到表的右边有九行小格子,这叫 做修正值,是用来计算被开方数的第四个数字的,也就是 说,利用修正值,我们可以杏出有四个数字的被开方数的平
- 方根.现在看下面的例子.
+我们在平方根表里,看到表的右边有九行小格子,这叫做
+\series bold
+修正值
+\series default
+,是用来计算被开方数的第四个数字的.也就是说,利用修正值,我们可以查出有四个数字的被开方数的平方根.现在看下面的例子.
 \end_layout
 
 \begin_layout Example
 求
+\begin_inset Formula $\sqrt{15.73}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-现在被开方数15.73有四个数字,但是按照上面两个 例的那样查法,平方根表里只能查出三个数字,就是15.7, 那末第四个数字3怎样查呢？这就要利用修正值,
+现在被开方数
+\begin_inset Formula $15.73$
+\end_inset
+
+有四个数字,但是按照上面两个例的那样查法,平方根表里只能查出三个数字,就是
+\begin_inset Formula $15.7$
+\end_inset
+
+, 那末第四个数字
+\begin_inset Formula $3$
+\end_inset
+
+怎样查呢？这就要利用修正值.
 \end_layout
 
 \begin_layout 解*
@@ -6045,7 +6384,7 @@ n A 6 2 n 16 一t 15 1
 \end_layout
 
 \begin_layout Section
-实 数
+实数
 \end_layout
 
 \begin_layout Subsection
