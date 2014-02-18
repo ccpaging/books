@@ -5306,7 +5306,7 @@ egroup
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-163-1.png
-	scale 40
+	scale 50
 
 \end_inset
 
@@ -5344,7 +5344,7 @@ egroup
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-163-2.png
-	scale 40
+	scale 50
 
 \end_inset
 
@@ -5396,7 +5396,7 @@ egroup
 \begin_inset Formula $\sqrt{15.73}$
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Standard
@@ -5416,108 +5416,351 @@ egroup
 \end_layout
 
 \begin_layout 解*
-先按照上面例子中所讲方法查出VlO«3.962 (|fe 是标有“15”的横行与顶上标有“T”的直行的交叉地方的数 值
-\backslash
-再从标有“15”的横行向右看,査到表的右边的修正值 这一部分里顶上标有戰字反的一行(就是从表的最右边算 起的第七行),得到修正值是炙因此要在3.962的末位数
- 上加上4.就是 -
+先按照上面例子中所讲方法查出
+\begin_inset Formula $\sqrt{15.7}\approx3.962$
+\end_inset
+
+(就是标有“15”的横行与顶上标有“7”的直行的交叉地方的数值).再从标有“15”的横行向右看,查到表的右边的修正值这一部分里顶上标有数字
+\begin_inset Formula $3$
+\end_inset
+
+的一行(就是从表的最右边算起的第七行),得到修正值是
+\begin_inset Formula $4$
+\end_inset
+
+,因此要在
+\begin_inset Formula $3.962$
+\end_inset
+
+的末位数 上加上
+\begin_inset Formula $4$
+\end_inset
+
+.就是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3.962+0.004=3.966$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{15.73}\thickapprox3.966$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-3.962+0.004 = 3.966,
-\end_layout
-
-\begin_layout Standard
-ViK73^ 3.966.
-\end_layout
-
-\begin_layout Standard
-如果要查四位以上的数的算术平方根,因为超出了中 学数学用表可以查的范围,所以先要把这个数根据四舍五 入法则变为从第一个不是零的数字起只有四个数字的数/
- I 再按上面方法查表.
+如果要查四位以上的数的算术平方根,因为超出了中学数学用表可以查的范围,所以先要把这个数根据四舍五入法则变为从第一个不是零的数字起只有四个数字的数,再按上面方法查
+表.
 \end_layout
 
 \begin_layout Example
-求 s/4G.082m
+求
+\begin_inset Formula $\sqrt{46.082}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout 解*
-按四舍五入法则,46.082tf46.0^
+按四舍五入法则,
+\begin_inset Formula $46.082\approx46.08$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{46.082}\thickapprox\sqrt{46.08}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-V467082^V4O8,
+\noindent
+先在第8页的表中查出
+\begin_inset Formula $\sqrt{46.0}\approx6.782$
+\end_inset
+
+,再在修正值部分找到相应于
+\begin_inset Formula $8$
+\end_inset
+
+的修正值是
+\begin_inset Formula $6$
+\end_inset
+
+,所以 |
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $6.782+0.006=6.788$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{46.082}\thickapprox6.788$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-先在第8页的表中查出Vi^f6.782,再在修正餵 部分找到相应于8的修正值是6,所以1 |
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
 \end_layout
 
-\begin_layout Standard
-i届f • 1
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-i习1i
+\begin_layout 习题(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
 \end_layout
 
-\begin_layout Standard
-6.782 + 0.006 =6.788, /, V4C082^6.788,
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 利用平方根表,求下列各数的近似算术平方根:
 \end_layout
 
-\begin_layout Standard
-1.
- 2.76, 2.
- 洲, 3.
- 8,57.
- 4.
- 1.08
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=4,leftmargin=2em
 \end_layout
 
-\begin_layout Standard
-5.
- 18.9, 6.
- 37.4.
- 7.
- 4o.
+\end_inset
+
+
+\begin_inset Formula $2.76$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $5.89$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $8.57$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $1.08$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $18.9$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $37.4$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $45$
+\end_inset
+
+.
  
 \end_layout
 
-\begin_layout Standard
-9.
- 2.087 10.
- 8.G49.
- 11.
- }7.5Sm 12.
- 42,06
+\begin_layout EnumCols
+\begin_inset Formula $50.5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2.087$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $8.640$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $17.58$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $42.06$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $66.66$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $90.17$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-13.
- 66.66 14.
- 00.U 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-上面四个例子甩的被开方数都是大于1小于100的 数,现在来介绍大于姻和小于1的各数的算术平方根的 查法.
+上面四个例子里的被开方数都是大于
+\begin_inset Formula $1$
+\end_inset
+
+小于
+\begin_inset Formula $100$
+\end_inset
+
+的数,现在来介绍大于
+\begin_inset Formula $100$
+\end_inset
+
+和小于
+\begin_inset Formula $1$
+\end_inset
+
+的各数的算术平方根的查法.
 \end_layout
 
 \begin_layout Standard
-利用平方根表求大于100或者小于1的数的算术平方 根的方法是:
+利用平方根表求大于
+\begin_inset Formula $100$
+\end_inset
+
+或者小于
+\begin_inset Formula $1$
+\end_inset
+
+的数的算术平方根的方法是:
 \end_layout
 
 \begin_layout Standard
-如果这个数大宁100,因为不能宜接从表里查出它 的算术平方根,所以先把它缩小100债、10000倍或者 1000000倍、、……(就是把小数点向左移动两位、四位
-或者 六位、……),变成表里查得到的数,査出这个数的算术平方 根后,再把这个算术平方根相应地扩大10倍、100倍或者 1000倍、……(就是相应地把小数咸向右移
-动一位、两位或 者三位、……),这样就得到原来这个数的近似算术平方根
+如果这个数大于100,因为不能直接从表里查出它的算术平方根,所以先把它缩小
+\begin_inset Formula $100$
+\end_inset
+
+倍、
+\begin_inset Formula $10000$
+\end_inset
+
+倍或者
+\begin_inset Formula $1000000$
+\end_inset
+
+倍、……(就是把小数点向左移动两位、四位或者六位、……),变成表里查得到的数,查出这个数的算术平方根后,再把这个算术平方根相应地扩大
+\begin_inset Formula $10$
+\end_inset
+
+倍、
+\begin_inset Formula $100$
+\end_inset
+
+倍或者
+\begin_inset Formula $1000$
+\end_inset
+
+倍、……(就是相应地把小数点向右移动一位、两位或者三位、……),这样就得到原来这个数的近似算术平方根.
 \end_layout
 
 \begin_layout Standard
-如果这个数小于1,先把它扩大100倍、10000倍或者 1000000倍、……(就是把小数点向右移动两位,四位或者 六位、……),变成表里查得到的数,查出算术平
-方根后,再 把它相应地缩小川倍、X00倍或者1000倍、……(就是相 应地把小数点向左移动一位、两位或者三位这样就 得到原来这个数的近似算术平方根了4
- 下面举例来说明 
+如果这个数小于1,先把它扩大
+\begin_inset Formula $100$
+\end_inset
+
+倍、
+\begin_inset Formula $10000$
+\end_inset
+
+倍或者
+\begin_inset Formula $1000000$
+\end_inset
+
+倍、……(就是把小数点向右移动两位,四位或者六位、……),变成表里查得到的数,查出算术平方根后,再把它相应地缩小
+\begin_inset Formula $10$
+\end_inset
+
+倍、
+\begin_inset Formula $100$
+\end_inset
+
+倍或者
+\begin_inset Formula $1000$
+\end_inset
+
+倍、……(就是相应地把小数点向左移动一位、两位或者三位这样就 得到原来这个数的近似算术平方根了.
+\end_layout
+
+\begin_layout Standard
+下面举例来说明.
 \end_layout
 
 \begin_layout Example
@@ -5525,7 +5768,7 @@ i习1i
 \end_layout
 
 \begin_layout 解*
-因为表里不能直接査出739的平方根,所以把739缩
+因为表里不能直接查出739的平方根,所以把739缩
 \end_layout
 
 \begin_layout Standard
@@ -5554,7 +5797,7 @@ V73^27.18.
 \end_layout
 
 \begin_layout Standard
-为了便丁掌捤査平方根表的方法,可以列成图表形式 如下;
+为了便丁掌捤查平方根表的方法,可以列成图表形式 如下;
 \end_layout
 
 \begin_layout Standard
@@ -5602,7 +5845,7 @@ r^ »»■ • m*..• .
 \end_layout
 
 \begin_layout 解*
-把小数点向左移动两位(就是把似56缩小100倍),得 到82.56.从第9页的表中』先查出％^Od083,再査 得相应于6的修正值棊那末9.083 +
+把小数点向左移动两位(就是把似56缩小100倍),得 到82.56.从第9页的表中』先查出％^Od083,再查 得相应于6的修正值棊那末9.083 +
  (T003 = 9,086,所 以
 \backslash
 /^^09.086,把9,086的小数点向右移动一位,就 得到90.86.
@@ -5637,7 +5880,7 @@ r^ »»■ • m*..• .
 \end_layout
 
 \begin_layout 解*
-把0.0236的小数点向右移动两位〈就是把0,0236扩 大100倍兑得到2.36.从第5页的表中,査出 1-536.然后把1.536缩小10倍,就是把1.536的小数点
+把0.0236的小数点向右移动两位〈就是把0,0236扩 大100倍兑得到2.36.从第5页的表中,查出 1-536.然后把1.536缩小10倍,就是把1.536的小数点
  向左移动一位,得到0,1536,
 \end_layout
 
@@ -5760,7 +6003,7 @@ a b •
 \end_layout
 
 \begin_layout 说明*
-本題如果还是把小数点向右移动两位,那末得到0.4762,这个数在表内还是査不到.
+本題如果还是把小数点向右移动两位,那末得到0.4762,这个数在表内还是查不到.
 \end_layout
 
 \begin_layout Standard
@@ -5875,7 +6118,7 @@ m]
 \end_layout
 
 \begin_layout Standard
-倍、……(就是把小数点向左移动三位、六位、变成表 里査得到的数,查表得到算术立方根后,再把它相应地扩大 10倍、100倍1……(就是相应地把小数点向右移动一位、
+倍、……(就是把小数点向左移动三位、六位、变成表 里查得到的数,查表得到算术立方根后,再把它相应地扩大 10倍、100倍1……(就是相应地把小数点向右移动一位、
  二位、•),这样就得到所要求的算术立方根了.
 \end_layout
 
