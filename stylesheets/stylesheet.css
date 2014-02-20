@@ -188,13 +188,21 @@ pre code {
   box-shadow: none;
 }
 
-blockquote {
+#blockquote {
   color: #666;
   margin-bottom: 20px;
   padding: 0 0 0 20px;
   border-left: 3px solid #bbb;
 }
 
+blockquote {
+  border: 1px solid black;
+  font-family: sans-serif;
+  margin-left: 2em;
+  padding-left: 4px;
+  padding-right: 4px;
+  background: #ccc;
+}
 
 ul, ol, dl {
   margin-bottom: 15px
