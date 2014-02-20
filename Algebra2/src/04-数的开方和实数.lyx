@@ -5495,7 +5495,7 @@ egroup
 \begin_inset Formula $6$
 \end_inset
 
-,所以 |
+,所以
 \end_layout
 
 \begin_layout CenterLine
@@ -5765,286 +5765,452 @@ egroup
 
 \begin_layout Example
 求
+\begin_inset Formula $\sqrt{739}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout 解*
-因为表里不能直接查出739的平方根,所以把739缩
+因为表里不能直接查出
+\begin_inset Formula $739$
+\end_inset
+
+的平方根,所以把739缩小
+\begin_inset Formula $100$
+\end_inset
+
+倍(就是把小数点向左移动两位),得到
+\begin_inset Formula $7.39$
+\end_inset
+
+,从第6页的表中查得
+\begin_inset Formula $\sqrt{7.39}\approx2.718$
+\end_inset
+
+.然后把
+\begin_inset Formula $2.718$
+\end_inset
+
+扩大
+\begin_inset Formula $10$
+\end_inset
+
+倍,就是把
+\begin_inset Formula $2.718$
+\end_inset
+
+的小数点向右移动一位,得到
+\begin_inset Formula $27.18$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{739}\thickapprox27.18$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-0 TJ
+为了便于掌握查平方根表的方法,可以列成图表形式 如下;
 \end_layout
 
-\begin_layout Standard
-对解 例 L
-\end_layout
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+\boxed{\sqrt{739}} & = & \boxed{27.18}\\
+| &  & \uparrow\\
+\text{小数点向左} &  & \text{小数点向右}\\
+\text{移动两位} &  & \text{移动一位}\\
+\downarrow & \text{查表} & |\\
+\boxed{\sqrt{7.39}} & = & \boxed{2.718}
+\end{array}$
+\end_inset
 
-\begin_layout Standard
-例7
-\end_layout
 
-\begin_layout Standard
-[解]
-\end_layout
-
-\begin_layout Standard
-小100倍(就是把小数点向左移动两位),得到7.39,从第 6页的表中查得vU-2,718,然后把2.T18扩大10 倍,就是把2,7忉的小数点向右移动一位,得到2
-7,18.
-\end_layout
-
-\begin_layout Standard
-V73^27.18.
-\end_layout
-
-\begin_layout Standard
-为了便丁掌捤查平方根表的方法,可以列成图表形式 如下;
-\end_layout
-
-\begin_layout Standard
-I
-\end_layout
-
-\begin_layout Standard
-小数点向左 移动两位
-\end_layout
-
-\begin_layout Standard
-s=..=
-\end_layout
-
-\begin_layout Standard
-^7J.8 
-\backslash
-
-\end_layout
-
-\begin_layout Standard
-小数点岗右
-\end_layout
-
-\begin_layout Standard
-移动一位
-\end_layout
-
-\begin_layout Standard
-r^ »»■ • m*..• .
- * .
- «*««
-\end_layout
-
-\begin_layout Standard
-2,718
-\end_layout
-
-\begin_layout Standard
-■1
 \end_layout
 
 \begin_layout Example
-求、硕涵,
+求
+\begin_inset Formula $\sqrt{8256}$
+\end_inset
+
+,
 \end_layout
 
 \begin_layout 解*
-把小数点向左移动两位(就是把似56缩小100倍),得 到82.56.从第9页的表中』先查出％^Od083,再查 得相应于6的修正值棊那末9.083 +
- (T003 = 9,086,所 以
-\backslash
-/^^09.086,把9,086的小数点向右移动一位,就 得到90.86.
+把小数点向左移动两位(就是把
+\begin_inset Formula $8256$
+\end_inset
+
+缩小
+\begin_inset Formula $100$
+\end_inset
+
+倍),得到
+\begin_inset Formula $82.56$
+\end_inset
+
+.从第9页的表中,先查出
+\begin_inset Formula $\sqrt{82.5}\approx9.083$
+\end_inset
+
+,再查得相应于
+\begin_inset Formula $6$
+\end_inset
+
+的修正值是
+\begin_inset Formula $3$
+\end_inset
+
+,那末
+\begin_inset Formula $9.083+0.003=9.086$
+\end_inset
+
+,所以
+\begin_inset Formula $\sqrt{82.56}=9.086$
+\end_inset
+
+,把
+\begin_inset Formula $9.086$
+\end_inset
+
+的小数点向右移动一位,就 得到
+\begin_inset Formula $90.86$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
-二 n/8256^90.86.
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{8256}\thickapprox90.86$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
-%/8256
-\end_layout
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+\boxed{\sqrt{8256}} & = & \boxed{90.86}\\
+| &  & \uparrow\\
+\text{小数点向左} &  & \text{小数点向右}\\
+\text{移动两位} &  & \text{移动一位}\\
+\downarrow & \text{查表} & |\\
+\boxed{\sqrt{82.56}} & = & \boxed{9.086}
+\end{array}$
+\end_inset
 
-\begin_layout Standard
-90.86
-\end_layout
 
-\begin_layout Standard
-小数A向左 小数点向右
-\end_layout
-
-\begin_layout Standard
-移动两位 移动一位
-\end_layout
-
-\begin_layout Standard
-!=S^i 9.086
 \end_layout
 
 \begin_layout Example
-求、硕236.
+求
+\begin_inset Formula $\sqrt{0.0236}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout 解*
-把0.0236的小数点向右移动两位〈就是把0,0236扩 大100倍兑得到2.36.从第5页的表中,查出 1-536.然后把1.536缩小10倍,就是把1.536的小数点
- 向左移动一位,得到0,1536,
+把
+\begin_inset Formula $0.0236$
+\end_inset
+
+的小数点向右移动两位(就是把
+\begin_inset Formula $0.0236$
+\end_inset
+
+扩大
+\begin_inset Formula $100$
+\end_inset
+
+倍),得到
+\begin_inset Formula $2.36$
+\end_inset
+
+.从第5页的表中,查出
+\begin_inset Formula $\sqrt{2.36}\approx1.536$
+\end_inset
+
+.然后把
+\begin_inset Formula $1.536$
+\end_inset
+
+缩小
+\begin_inset Formula $10$
+\end_inset
+
+倍,就是把
+\begin_inset Formula $1.536$
+\end_inset
+
+的小数点向左移动一位,得到
+\begin_inset Formula $0.1536$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
-/.
- ^070236^ 0.1586.
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{0.02356}\thickapprox0.1536$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
-• ies«
-\end_layout
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+\boxed{\sqrt{0.02356}} & = & \boxed{0.1536}\\
+| &  & \uparrow\\
+\text{小数点向左} &  & \text{小数点向右}\\
+\text{移动两位} &  & \text{移动一位}\\
+\downarrow & \text{查表} & |\\
+\boxed{\sqrt{2.36}} & = & \boxed{1.536}
+\end{array}$
+\end_inset
 
-\begin_layout Standard
-例8
-\end_layout
 
-\begin_layout Standard
-[解]
-\end_layout
-
-\begin_layout Standard
-g /_ 说r-2 _ S 习 4C;
-\end_layout
-
-\begin_layout Standard
-「~0.1536 I
-\end_layout
-
-\begin_layout Standard
-£.............•: I ____.
- _____ _j
-\end_layout
-
-\begin_layout Standard
-小数i响右 小数,4向:左
-\end_layout
-
-\begin_layout Standard
-移动两位 菩动一位
-\end_layout
-
-\begin_layout Standard
-i I
-\end_layout
-
-\begin_layout Standard
-▼ .4,« .
- .
- .
- _ .
- _
-\end_layout
-
-\begin_layout Standard
-I ,- 
-\backslash
- F？ :} ^ I J
-\end_layout
-
-\begin_layout Standard
-i V2/66 :一.-' _-• 1 .5 56 S
-\end_layout
-
-\begin_layout Standard
-S_••.
- ...................j : :
 \end_layout
 
 \begin_layout Example
-求v,inr见涵.
+求
+\begin_inset Formula $\sqrt{0.004762}$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
-把0.004762的小数点向右移动四位(就是把0.004762 扩大10000倍),得到47.似.从第8页的表中,查出 V47^«6.89^相应于2的修正值是1,那末6.8
-99 + 0.001 = 6.900,所以、/？厂涵二6.900.把6.900的小数点 向左移动两位,得0,06900.
+\begin_layout 解*
+把0.004762的小数点向右移动四位(就是把
+\begin_inset Formula $0.004762$
+\end_inset
+
+扩大
+\begin_inset Formula $10000$
+\end_inset
+
+倍),得到
+\begin_inset Formula $47.62$
+\end_inset
+
+.从第8页的表中,查出
+\begin_inset Formula $\sqrt{47.62}\approx6.899$
+\end_inset
+
+.相应于
+\begin_inset Formula $2$
+\end_inset
+
+的修正值是
+\begin_inset Formula $1$
+\end_inset
+
+,那末
+\begin_inset Formula $6.899+0.001=6.900$
+\end_inset
+
+,所以
+\begin_inset Formula $\sqrt{47.62}\approx6.900$
+\end_inset
+
+.把
+\begin_inset Formula $6.900$
+\end_inset
+
+的小数点向左移动两位,得
+\begin_inset Formula $0.06900$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
-,■, VO *004762 ^ 0,06900.
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{0.004762}\thickapprox0.06900$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
-b _ t» w w • SSSSS>SS>SSSSSSS4 *备
-\end_layout
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+\boxed{\sqrt{0.004762}} & = & \boxed{0.06900}\\
+| &  & \uparrow\\
+\text{小数点向左} &  & \text{小数点向右}\\
+\text{移动两位} &  & \text{移动一位}\\
+\downarrow & \text{查表} & |\\
+\boxed{\sqrt{47.6}} & = & \boxed{6.899}
+\end{array}$
+\end_inset
 
-\begin_layout Standard
-Vo,00476y i -j 0.06900 j
-\end_layout
 
-\begin_layout Standard
-^_^_sssss^MMsba^Bn*nraTP^
-\end_layout
-
-\begin_layout Standard
-I |
-\end_layout
-
-\begin_layout Standard
-小数点向右 小数点向左
-\end_layout
-
-\begin_layout Standard
-移动囚位 移动两位
-\end_layout
-
-\begin_layout Standard
-i 1 T I - • ___
-\end_layout
-
-\begin_layout Standard
-厂 V烈 |
-\end_layout
-
-\begin_layout Standard
-i > p J
-\end_layout
-
-\begin_layout Standard
-a b •
 \end_layout
 
 \begin_layout 说明*
-本題如果还是把小数点向右移动两位,那末得到0.4762,这个数在表内还是查不到.
+本题如果还是把小数点向右移动两位,那末得到
+\begin_inset Formula $0.4762$
+\end_inset
+
+,这个数在表内还是查不到.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 利用平方根表,求下列各数的近似算术平方根;
 \end_layout
 
-\begin_layout Standard
-1.
- 345.7, 2, 536.9,
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $345.7$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $536.9$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $790.8$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $917.7$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $4853$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2408$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $8063$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $74090$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $0.0433$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $0.07461$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $0.002819$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $0.5805$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $0.7483$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $0.0006705$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-3.
- 790,8, 4.
- 虹7.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
 \end_layout
 
-\begin_layout Standard
-5.
- 4853, 6, 2A08.
-\end_layout
+\end_inset
 
-\begin_layout Standard
-7 ‘ 8063.
- 8.
- 74090,
-\end_layout
 
-\begin_layout Standard
-9, 0.043^ 10, 0.07461.
-\end_layout
-
-\begin_layout Standard
-11.
- 0.002819, 12.
- 0.5805,
-\end_layout
-
-\begin_layout Standard
-13 ‘ 0.7483, 14.
- 0,0006705,
 \end_layout
 
 \begin_layout Section
