@@ -5,6 +5,8 @@
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
 
+    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/stylesheet.css">
+
     <!-- mathjax config similar to math.stackexchange -->
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
@@ -25,3 +27,7 @@
   </head>
 
   <body>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
