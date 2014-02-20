@@ -27,6 +27,16 @@
   </head>
 
   <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ccpaging/books">View on GitHub</a>
+
+          <h1 id="project_title">代数 第二册</h1>
+          <h2 id="project_tagline">数理化自学丛书 第二版</h2>
+        </header>
+    </div>
+
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
