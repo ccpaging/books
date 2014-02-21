@@ -5964,7 +5964,7 @@ egroup
 \begin_inset Formula $\begin{array}{ccc}
 \boxed{\sqrt{0.02356}} & = & \boxed{0.1536}\\
 | &  & \uparrow\\
-\text{小数点向左} &  & \text{小数点向右}\\
+\text{小数点向右} &  & \text{小数点向左}\\
 \text{移动两位} &  & \text{移动一位}\\
 \downarrow & \text{查表} & |\\
 \boxed{\sqrt{2.36}} & = & \boxed{1.536}
@@ -6037,7 +6037,7 @@ egroup
 \begin_inset Formula $\begin{array}{ccc}
 \boxed{\sqrt{0.004762}} & = & \boxed{0.06900}\\
 | &  & \uparrow\\
-\text{小数点向左} &  & \text{小数点向右}\\
+\text{小数点向右} &  & \text{小数点向左}\\
 \text{移动两位} &  & \text{移动一位}\\
 \downarrow & \text{查表} & |\\
 \boxed{\sqrt{47.6}} & = & \boxed{6.899}
@@ -6218,79 +6218,197 @@ egroup
 \end_layout
 
 \begin_layout Standard
-关于数的开立方的一般方法,因为比较复杂,并且应用
+关于数的开立方的一般方法,因为比较复杂,并且应用也不大,所以本书不作介绍.现在只讲怎样利用立方根表来求一个数的立方根.
 \end_layout
 
 \begin_layout Standard
-1M
-\end_layout
+《中学数学用表》里,从第16页到22页有立方根表,它是把
+\begin_inset Formula $0.100$
+\end_inset
 
-\begin_layout Standard
-也不大,所以本书不作介绍.现在只讲怎样利用立方根表 来求一个数的立方根.
-\end_layout
+到
+\begin_inset Formula $99.9$
+\end_inset
 
-\begin_layout Standard
-«中学数学用表》里,从第16页到22页有立方根表,它 是把0.100到99.9的各个数的立方根编列成的.跟平方 根表一样,表中所查出的立方根,通常也是近似根,立方根
- 表的查法和平方根表的查法相类似,只是被开方数扩大或 者缩小时,小数点移动的位数是不同的.下面举例来说明 这个表的用法■
+的各个数的立方根编列成的.跟平方根表一样,表中所查出的立方根,通常也是近似根,立方根表的查法和平方根表的查法相类似,只是被开方数扩大或者缩小时,小数点移动的位数是
+不同的.下面举例来说明 这个表的用法.
 \end_layout
 
 \begin_layout Example
 求
+\begin_inset Formula $\sqrt[3]{0.214}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout 解*
-[解] 从第16页的表里最左边标有“况”的这一直行中,找出
+从第16页的表里最左边标有“N”的这一直行中,找出
+\begin_inset Formula $0.21$
+\end_inset
+
+,横着向右查到顶上标有数字
+\begin_inset Formula $4$
+\end_inset
+
+的一行,得到
+\begin_inset Formula $0.5981$
+\end_inset
+
+,这就是
+\begin_inset Formula $0.214$
+\end_inset
+
+的近似立方根.
 \end_layout
 
-\begin_layout Standard
-0.21,横着向右查到顶上标有数字4的一行,得到' 这就是0.214的近似立方根.
-\end_layout
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt[3]{0.241}\approx0.5981$
+\end_inset
 
-\begin_layout Standard
-/.
- ^/0T2l4^0.5981, ,
+.
 \end_layout
 
 \begin_layout Example
-例2 求^33.
+求
+\begin_inset Formula $\sqrt[3]{2.14}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout 解*
-[解] 从第18页的表里最左边标有的这一直行中,找出' 2.1,横着向右查到顼上标有数字4的一行,得到这 就是2.14的近似立方根.
+从第18页的表里最左边标有“N”的这一直行中,找出
+\begin_inset Formula $2.1$
+\end_inset
+
+,横着向右查到顶上标有数字
+\begin_inset Formula $4$
+\end_inset
+
+的一行,得到
+\begin_inset Formula $1.289$
+\end_inset
+
+,这就是
+\begin_inset Formula $2.14$
+\end_inset
+
+的近似立方根.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt[3]{2.14}\approx1.289$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Example
-例8 求
-\end_layout
+求
+\begin_inset Formula $\sqrt[3]{21.4}$
+\end_inset
 
-\begin_layout Standard
-m] 
+.
 \end_layout
 
 \begin_layout 解*
-从第20页的表里标有“JT的这一行中,找出礼横着; 向右查到顶上标有数字4的一行,得到2.776,这就是__ 的近似立方根>
+从第20页的表里标有“N”的这一行中,找出
+\begin_inset Formula $21$
+\end_inset
+
+,横着向右查到顶上标有数字
+\begin_inset Formula $4$
+\end_inset
+
+的一行,得到
+\begin_inset Formula $2.776$
+\end_inset
+
+,这就是
+\begin_inset Formula $21.4$
+\end_inset
+
+的近似立方根.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt[3]{21.4}\approx2.776$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-如果被开方数小于0.10或者大于100,可以仿照求乎 方根的方法把被开方数经过扩大或者缩小后,由查表求得 它的立方根‘
+如果被开方数小于
+\begin_inset Formula $0.10$
+\end_inset
+
+或者大于
+\begin_inset Formula $100$
+\end_inset
+
+,可以仿照求平方根的方法把被开方数经过扩大或者缩小后,由查表求得 它的立方根.
 \end_layout
 
 \begin_layout Standard
-利用立方根表求大于100或者小于0.1的数的算术立 方根的方法是:
+利用立方根表求大于
+\begin_inset Formula $100$
+\end_inset
+
+或者小于
+\begin_inset Formula $0.1$
+\end_inset
+
+的数的算术立方根的方法是:
 \end_layout
 
 \begin_layout Standard
-如果这个数大于103,先把它缩小4000倍、1000000
+如果这个数大于
+\begin_inset Formula $100$
+\end_inset
+
+,先把它缩小
+\begin_inset Formula $1000$
+\end_inset
+
+倍、
+\begin_inset Formula $1000000$
+\end_inset
+
+倍、……(就是把小数点向左移动三位、六位、……),变成表里查得到的数,查表得到算术立方根后,再把它相应地扩大
+\begin_inset Formula $10$
+\end_inset
+
+倍、
+\begin_inset Formula $100$
+\end_inset
+
+倍、……(就是相应地把小数点向右移动一位、二位、……),这样就得到所要求的算术立方根了.
 \end_layout
 
 \begin_layout Standard
-倍、……(就是把小数点向左移动三位、六位、变成表 里查得到的数,查表得到算术立方根后,再把它相应地扩大 10倍、100倍1……(就是相应地把小数点向右移动一位、
- 二位、•),这样就得到所要求的算术立方根了.
-\end_layout
+如果这个数小于
+\begin_inset Formula $0.1$
+\end_inset
 
-\begin_layout Standard
-如果这个数小于0.17先把它扩大iooo倍、1000000 倍、……(就是把小数点向右移动三位、六位、……),变成表 里查得到的数,查表得到算术立方根后,再把它相
-应地缩小 10倍、100倍、……(就是相应地把小数点向左移动一位、 二位、……),这样就得到所要求的算术立方根了,
+,先把它扩大
+\begin_inset Formula $1000$
+\end_inset
+
+倍、
+\begin_inset Formula $1000000$
+\end_inset
+
+倍、……(就是把小数点向右移动三位、六位、……),变成表里查得到的数,查表得到算术立方根后,再把它相应地缩小
+\begin_inset Formula $10$
+\end_inset
+
+倍、
+\begin_inset Formula $100$
+\end_inset
+
+倍、……(就是相应地把小数点向左移动一位、二位、……),这样就得到所要求的算术立方根了.
 \end_layout
 
 \begin_layout Standard
@@ -6299,213 +6417,408 @@ m]
 
 \begin_layout Example
 求
+\begin_inset Formula $\sqrt[3]{4300}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout 解*
-因为表里不能直接查出4300的立方根,所以把4300 缩小1000倍(就是把小数点向左移动三位),得到4.30,从 第招页的表中」查到Wr涵= 1.626.然后把1.6
-26扩大 10倍,就是把1.626的小数点向右移动一位,得到16,26.
+因为表里不能直接查出
+\begin_inset Formula $4300$
+\end_inset
+
+的立方根,所以把
+\begin_inset Formula $4300$
+\end_inset
+
+缩小
+\begin_inset Formula $1000$
+\end_inset
+
+倍(就是把小数点向左移动三位),得到
+\begin_inset Formula $4.30$
+\end_inset
+
+.从第19页的表中,查到
+\begin_inset Formula $\sqrt[3]{4.30}\approx1.626$
+\end_inset
+
+,然后把
+\begin_inset Formula $1.626$
+\end_inset
+
+扩大
+\begin_inset Formula $10$
+\end_inset
+
+倍,就是把
+\begin_inset Formula $1.626$
+\end_inset
+
+的小数点向右移动一位,得到
+\begin_inset Formula $16.26$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt[3]{4300}\approx16.26$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+\boxed{\sqrt[3]{4300}} & = & \boxed{16.26}\\
+| &  & \uparrow\\
+\text{小数点向左} &  & \text{小数点向右}\\
+\text{移动三位} &  & \text{移动一位}\\
+\downarrow & \text{查表} & |\\
+\boxed{\sqrt[3]{4.3}} & = & \boxed{1.626}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt[3]{63740}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+把小数点向左移动三位(就是把
+\begin_inset Formula $63740$
+\end_inset
+
+缩小
+\begin_inset Formula $1000$
+\end_inset
+
+倍),得到
+\begin_inset Formula $63.74$
+\end_inset
+
+.因为在立方根表里只能查三个数字的立方根(没有修正值部分),所以要先把
+\begin_inset Formula $63.74$
+\end_inset
+
+四舍五入变为三个数字,得到
+\begin_inset Formula $63.7$
+\end_inset
+
+,就是
+\begin_inset Formula $\sqrt[3]{63.74}\approx\sqrt[3]{63.7}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-/.
- ^/4300^16.26.
+\noindent
+从第21页的表中,查得
+\begin_inset Formula $\sqrt[3]{63.7}\approx3.994$
+\end_inset
+
+.把
+\begin_inset Formula $3.994$
+\end_inset
+
+的小数点向右移动一位,得到
+\begin_inset Formula $39.94$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt[3]{63740}\approx39.94$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+\boxed{\sqrt[3]{63740}} & = & \boxed{39.94}\\
+| &  & \uparrow\\
+\text{小数点向左} &  & \text{小数点向右}\\
+\text{移动三位} &  & \text{移动一位}\\
+\downarrow & \text{查表} & |\\
+\boxed{\sqrt[3]{63.74}} & = & \boxed{3.994}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt[3]{0.000278}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+把
+\begin_inset Formula $0.000278$
+\end_inset
+
+的小数点向右移动三位(就是把
+\begin_inset Formula $0.000278$
+\end_inset
+
+扩大
+\begin_inset Formula $1000$
+\end_inset
+
+倍),得到
+\begin_inset Formula $0.278$
+\end_inset
+
+.从第16页的表中查得
+\begin_inset Formula $\sqrt[3]{0.278}\approx0.6527$
+\end_inset
+
+.然后把
+\begin_inset Formula $0.6527$
+\end_inset
+
+的小数点向左移动一位,得到
+\begin_inset Formula $0.06527$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt[3]{0.000278}\approx0.06527$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+\boxed{\sqrt[3]{0.000278}} & = & \boxed{0.06527}\\
+| &  & \uparrow\\
+\text{小数点向右} &  & \text{小数点向左}\\
+\text{移动三位} &  & \text{移动一位}\\
+\downarrow & \text{查表} & |\\
+\boxed{\sqrt[3]{0.278}} & = & \boxed{0.6527}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt[3]{-521}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+根据方根的性质,我们知道,负数的立方根是一个负数,所以
+\begin_inset Formula $\sqrt[3]{-521}=-\sqrt[3]{521}$
+\end_inset
+
+.这样,我们就可以利用立方 根表先求出
+\begin_inset Formula $521$
+\end_inset
+
+的立方根,再取它的相反的数就可以了.
 \end_layout
 
 \begin_layout Standard
-j ^4500 丨=丨 16.26 ]
+\noindent
+把
+\begin_inset Formula $521$
+\end_inset
+
+的小数点向左移动三位,得到
+\begin_inset Formula $0.521$
+\end_inset
+
+,从第17页的表中查得
+\begin_inset Formula $\sqrt[3]{0.521}\approx0.8047$
+\end_inset
+
+,把
+\begin_inset Formula $0.8047$
+\end_inset
+
+的小数点向右移动一位,得到
+\begin_inset Formula $8.047$
+\end_inset
+
+,那末
+\begin_inset Formula $\sqrt[3]{521}\approx8.047$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt[3]{-521}\approx-8.047$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+\boxed{\sqrt[3]{-521}} & = & \boxed{-8.047}\\
+\downarrow &  & \uparrow\\
+\boxed{-\sqrt[3]{521}} &  & |\\
+| &  & \text{小数点向右}\\
+\text{小数点向左} &  & \text{移动一位}\\
+\text{移动三位} &  & |\\
+\downarrow & \text{查表} & |\\
+\boxed{-\sqrt[3]{0.521}} & = & \boxed{-0.8047}
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-a i J
-\end_layout
+\begin_inset ERT
+status open
 
-\begin_layout Standard
-L 个
-\end_layout
+\begin_layout Plain Layout
 
-\begin_layout Standard
-小数点向左 小数点向右
-\end_layout
 
-\begin_layout Standard
-■移动三位 移动一位
-\end_layout
-
-\begin_layout Standard
-............k一一 , I ,
-\end_layout
-
-\begin_layout Standard
-! i.626 n
-\end_layout
-
-\begin_layout Standard
-j 1 
 \backslash
-_ _!
+bgroup
 \end_layout
 
-\begin_layout Example
-求(/福雨.
+\end_inset
+
+
 \end_layout
 
-\begin_layout 解*
-把小数点向左移动三位(就是把6耵40缩小1000倍), 得到63.74.因为在立方根表里只能查三个数字的立方根 (没有修正值部分),所以要先把63,74四舍五入变为
-三个 数字,得到63'就是
+\begin_layout 习题
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
 \end_layout
 
-\begin_layout Standard
-从第21页的表中,查得把3,994的 小数点向右移动一位,得到S9.94.
- '
-\end_layout
+\end_inset
 
-\begin_layout Standard
-• ^/63740^39.94.
-\end_layout
 
-\begin_layout Standard
-抑 3740 ••• J 39.94
-\end_layout
-
-\begin_layout Standard
-I 个
-\end_layout
-
-\begin_layout Standard
-小数点向左 小数点
-\end_layout
-
-\begin_layout Standard
-侈动三位 移动…位
-\end_layout
-
-\begin_layout Standard
-I |
-\end_layout
-
-\begin_layout Standard
-.......................•眘表:•............'...........
-\end_layout
-
-\begin_layout Standard
-63.74 ii=^:丄 994
-\end_layout
-
-\begin_layout Example
-求
-\end_layout
-
-\begin_layout 解*
-把化_278的小数点向右移动三位(就是把0,000278 扩大1000倍),得到0,278.从第16页的表中查得 «0,6527.然后把0.6&7的小数点向左移动一位
-,得到
-\end_layout
-
-\begin_layout Standard
-0.06527.
-\end_layout
-
-\begin_layout Standard
-_' </0,000278^ 0.06527,
-\end_layout
-
-\begin_layout Standard
-;夕0.000278 :_■ .
- ; 0.06527 L-___I ？_____
-\end_layout
-
-\begin_layout Standard
-[_ t ^
-\end_layout
-
-\begin_layout Standard
-小数点向右 小数点向左
-\end_layout
-
-\begin_layout Standard
-移动三位 移动一位
-\end_layout
-
-\begin_layout Standard
-一一"一一^查表一一i••••一•一
-\end_layout
-
-\begin_layout Standard
-j </0.278 L^^rj 0.6527 j
-\end_layout
-
-\begin_layout Example
-求
-\end_layout
-
-\begin_layout 解*
-根据方根的性质,我们知道,负数的立方根是一个负 数,所以一 </@I.这样,我们就可以利用立方 根表先求出521的立方根,再取它的相反的数就可以了..
-\end_layout
-
-\begin_layout Standard
-把521的小数点向左移动三位,得到0,521,从第17 页的表中查得^^1=0,8047,把0,8047的小数点向右 移动一位,得到&047,那末^I-8.047.
-\end_layout
-
-\begin_layout Standard
-,,</^521^-3.047.
-\end_layout
-
-\begin_layout Standard
-M , • •■ • 9V,, •,
-\end_layout
-
-\begin_layout Standard
-! -8.047 I
-\end_layout
-
-\begin_layout Standard
--^521 |
-\end_layout
-
-\begin_layout Standard
-…1
-\end_layout
-
-\begin_layout Standard
-小数点向左 栘动三位 一 丄
-\end_layout
-
-\begin_layout Standard
--^021 I:
-\end_layout
-
-\begin_layout Standard
-小数点阆右 移动一位
-\end_layout
-
-\begin_layout Standard
-0.8047
 \end_layout
 
 \begin_layout Standard
 利用立方根表,求下列各数的近似立方根:
 \end_layout
 
-\begin_layout Standard
-•4.© 1- 8.7.
- 2.
- 35.
- 3.
- 900.
- 4.
- 2750.
- 5.
- 69380,
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=5,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $8.7$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2.35$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $900$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2750$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $69380$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $0.00483$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-70$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-742$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-0.042$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-0.08007$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-1 ^ 6.
- 0.00483, 7.
- -70.
- 8.
- -742.
- 9.
- .-0.042.
- 10, -0.08007.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
