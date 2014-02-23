@@ -1,0 +1,7852 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass 数理化自学丛书－代数
+\options oneside
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize a5paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 3
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+数的开方与实数
+\end_layout
+
+\begin_layout Section
+方根的意义
+\end_layout
+
+\begin_layout Standard
+我们来看这样一个问题:
+\end_layout
+
+\begin_layout Standard
+什么数的平方等于
+\begin_inset Formula $25$
+\end_inset
+
+？这个问题就是要求平方后等于
+\begin_inset Formula $25$
+\end_inset
+
+的这样一个数.我们把这个数叫做
+\begin_inset Formula $25$
+\end_inset
+
+的
+\series bold
+二次方根
+\series default
+,也叫做
+\begin_inset Formula $25$
+\end_inset
+
+的
+\series bold
+平方根
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+因为
+\begin_inset Formula $5^{2}=25$
+\end_inset
+
+,
+\begin_inset Formula $(-5)^{2}=25$
+\end_inset
+
+,所以
+\begin_inset Formula $5$
+\end_inset
+
+和
+\begin_inset Formula $-5$
+\end_inset
+
+都是
+\begin_inset Formula $25$
+\end_inset
+
+的平方根.同样,
+\begin_inset Formula $\big(\cfrac{2}{3}\big)^{2}=\cfrac{4}{9}$
+\end_inset
+
+,
+\begin_inset Formula $\big(-\cfrac{2}{3}\big)^{2}=\cfrac{4}{9}$
+\end_inset
+
+,所以
+\begin_inset Formula $\cfrac{2}{3}$
+\end_inset
+
+和
+\begin_inset Formula $-\cfrac{2}{3}$
+\end_inset
+
+都是
+\begin_inset Formula $\cfrac{4}{9}$
+\end_inset
+
+的平方根;
+\begin_inset Formula $(0.6)^{2}=0.36$
+\end_inset
+
+,
+\begin_inset Formula $(-0.6)^{2}=0.36$
+\end_inset
+
+,所以
+\begin_inset Formula $0.6$
+\end_inset
+
+和
+\begin_inset Formula $-0.6$
+\end_inset
+
+都是
+\begin_inset Formula $0.36$
+\end_inset
+
+的平方根.
+\end_layout
+
+\begin_layout Standard
+一般地说,如果一个数的平方等于
+\begin_inset Formula $a$
+\end_inset
+
+,那末这个数就叫做
+\begin_inset Formula $a$
+\end_inset
+
+的
+\series bold
+平方根
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+我们再看:
+\begin_inset Formula $4^{3}=64$
+\end_inset
+
+,我们就说
+\begin_inset Formula $4$
+\end_inset
+
+是
+\begin_inset Formula $64$
+\end_inset
+
+的
+\series bold
+三次方根
+\series default
+,也叫做
+\begin_inset Formula $64$
+\end_inset
+
+的
+\series bold
+立方根
+\series default
+.又如,
+\begin_inset Formula $(-3)^{3}=-27$
+\end_inset
+
+,所以
+\begin_inset Formula $-3$
+\end_inset
+
+是
+\begin_inset Formula $-27$
+\end_inset
+
+的立方根;
+\begin_inset Formula $\big(\cfrac{2}{3}\big)^{3}=\cfrac{8}{27}$
+\end_inset
+
+,所以
+\begin_inset Formula $\cfrac{2}{3}$
+\end_inset
+
+是
+\begin_inset Formula $\cfrac{8}{27}$
+\end_inset
+
+的立方根.
+\end_layout
+
+\begin_layout Standard
+一般地说,如果一个数的立方等于
+\begin_inset Formula $a$
+\end_inset
+
+,那末这个数就叫做
+\begin_inset Formula $a$
+\end_inset
+
+的
+\series bold
+立方根
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+同样,因为
+\begin_inset Formula $2^{4}=16$
+\end_inset
+
+,
+\begin_inset Formula $(-2)^{4}=16$
+\end_inset
+
+,所以
+\begin_inset Formula $2$
+\end_inset
+
+和
+\begin_inset Formula $-2$
+\end_inset
+
+是
+\begin_inset Formula $16$
+\end_inset
+
+的
+\series bold
+四次方根
+\series default
+.
+\begin_inset Formula $(-3)^{5}=-243$
+\end_inset
+
+,所以
+\begin_inset Formula $-3$
+\end_inset
+
+是
+\begin_inset Formula $-243$
+\end_inset
+
+的
+\begin_inset Formula $五次方根$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+一般地说,如果一个数
+\begin_inset Formula $x$
+\end_inset
+
+的
+\begin_inset Formula $n$
+\end_inset
+
+次方等于
+\begin_inset Formula $a$
+\end_inset
+
+,就是
+\begin_inset Formula $x^{n}=a$
+\end_inset
+
+,我们就说
+\begin_inset Formula $x$
+\end_inset
+
+是
+\begin_inset Formula $a$
+\end_inset
+
+的
+\series bold
+
+\begin_inset Formula $n$
+\end_inset
+
+次方根.
+\end_layout
+
+\begin_layout Standard
+求一个数的方根的运算叫做
+\series bold
+开方
+\series default
+.求
+\begin_inset Formula $a$
+\end_inset
+
+的平方根的运算叫做把a
+\series bold
+开平方
+\series default
+;求
+\begin_inset Formula $a$
+\end_inset
+
+的立方根的运算叫做把
+\begin_inset Formula $a$
+\end_inset
+
+
+\series bold
+开立方
+\series default
+.一般地说,求
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $n$
+\end_inset
+
+次方根的运算叫做把
+\begin_inset Formula $a$
+\end_inset
+
+
+\series bold
+开
+\begin_inset Formula $n$
+\end_inset
+
+次方
+\series default
+.这里,
+\begin_inset Formula $a$
+\end_inset
+
+叫做
+\series bold
+被开方数
+\series default
+,
+\begin_inset Formula $n$
+\end_inset
+
+叫做
+\series bold
+开方的次数
+\series default
+.例如:
+\end_layout
+
+\begin_layout Standard
+把
+\begin_inset Formula $25$
+\end_inset
+
+开平方,被开方数是
+\begin_inset Formula $25$
+\end_inset
+
+,开方的次数是
+\begin_inset Formula $2$
+\end_inset
+
+;把
+\begin_inset Formula $64$
+\end_inset
+
+开立方,被开方数是
+\begin_inset Formula $64$
+\end_inset
+
+,开方的次数是
+\begin_inset Formula $3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 注意*
+开方是一种运算,方根是开方运算的结果;正象加、减、乘、除、乘方是运算,和、差、积、商、幂是运算结果一样.
+\end_layout
+
+\begin_layout Standard
+根据方根的意义,我们可以知道,乘方和开方互为逆运算(就是说开方是乘方的逆运算,乘方是开方的逆运算),所以我们可以利用乘方来检验开方的结果是不是正确,或用观察的方
+法求某些简单的数的方根.
+\end_layout
+
+\begin_layout Example
+检验下列各题:
+\begin_inset Newline newline
+\end_inset
+
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $0.2$
+\end_inset
+
+是不是
+\begin_inset Formula $0.008$
+\end_inset
+
+的立方根？
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\cfrac{3}{5}$
+\end_inset
+
+和
+\begin_inset Formula $-\cfrac{3}{5}$
+\end_inset
+
+是不是
+\begin_inset Formula $\cfrac{9}{25}$
+\end_inset
+
+的平方根？
+\begin_inset Newline newline
+\end_inset
+
+(3)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $3$
+\end_inset
+
+和
+\begin_inset Formula $-3$
+\end_inset
+
+是不是
+\begin_inset Formula $-27$
+\end_inset
+
+的立方根？
+\end_layout
+
+\begin_layout 解*
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\because\quad(0.2)^{3}=0.008$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout 解*
+\begin_inset space \hspace{}
+\length -0.5em
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad0.2$
+\end_inset
+
+是
+\begin_inset Formula $0.008$
+\end_inset
+
+的立方根.
+\end_layout
+
+\begin_layout 解*
+\noindent
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\because\quad\Big(\cfrac{3}{5}\Big)^{2}=\cfrac{9}{25},\Big(-\cfrac{3}{5}\Big)^{2}=\cfrac{9}{25}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout 解*
+\noindent
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad\cfrac{3}{5}$
+\end_inset
+
+和
+\begin_inset Formula $-\cfrac{3}{5}$
+\end_inset
+
+都是
+\begin_inset Formula $\cfrac{9}{25}$
+\end_inset
+
+的平方根.
+\end_layout
+
+\begin_layout 解*
+\noindent
+(3)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\because\quad(-3)^{3}=-27$
+\end_inset
+
+,而
+\begin_inset Formula $3^{3}=27$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout 解*
+\noindent
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad-3$
+\end_inset
+
+是
+\begin_inset Formula $-27$
+\end_inset
+
+的立方根,
+\end_layout
+
+\begin_layout 解*
+\noindent
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+
+\begin_inset Formula $\phantom{\therefore\quad}$
+\end_inset
+
+而
+\begin_inset Formula $3$
+\end_inset
+
+不是
+\begin_inset Formula $-27$
+\end_inset
+
+的立方根.
+\end_layout
+
+\begin_layout Example
+求下列各数的平方根:
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $121$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol2-idt
+\begin_inset Formula $\cfrac{25}{64}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\because\quad(\pm11)^{2}=121$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout 解*
+\begin_inset space \hspace{}
+\length -0.5em
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad121$
+\end_inset
+
+有两个平方根
+\begin_inset Formula $11$
+\end_inset
+
+和
+\begin_inset Formula $-11$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+\noindent
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\because\quad\Big(\pm\cfrac{5}{8}\Big)^{2}=\cfrac{25}{64}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.5em
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad\cfrac{25}{64}$
+\end_inset
+
+有两个平方根
+\begin_inset Formula $\cfrac{5}{8}$
+\end_inset
+
+和
+\begin_inset Formula $-\cfrac{5}{8}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+回答下列各问题:
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $7$
+\end_inset
+
+和
+\begin_inset Formula $-7$
+\end_inset
+
+是不是
+\begin_inset Formula $49$
+\end_inset
+
+的平方根？
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+是不是
+\begin_inset Formula $\cfrac{1}{27}$
+\end_inset
+
+的立方根？
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $2$
+\end_inset
+
+和
+\begin_inset Formula $-2$
+\end_inset
+
+是不是
+\begin_inset Formula $8$
+\end_inset
+
+的立方根？
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{1}{9}$
+\end_inset
+
+和
+\begin_inset Formula $-\cfrac{1}{9}$
+\end_inset
+
+是不是
+\begin_inset Formula $\cfrac{1}{81}$
+\end_inset
+
+的平方根？
+\begin_inset Formula $9$
+\end_inset
+
+是不是
+\begin_inset Formula $\cfrac{1}{81}$
+\end_inset
+
+的平方根？
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $0.3$
+\end_inset
+
+和
+\begin_inset Formula $-0.3$
+\end_inset
+
+是不是
+\begin_inset Formula $0.0081$
+\end_inset
+
+的四次方根？
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $-\cfrac{3}{4}$
+\end_inset
+
+和
+\begin_inset Formula $\cfrac{3}{4}$
+\end_inset
+
+是不是
+\begin_inset Formula $-\cfrac{27}{64}$
+\end_inset
+
+的立方根？
+\begin_inset Formula $-\cfrac{1}{4}$
+\end_inset
+
+是不是
+\begin_inset Formula $-\cfrac{1}{64}$
+\end_inset
+
+的立方根？
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{2}{3}$
+\end_inset
+
+和
+\begin_inset Formula $-\cfrac{2}{3}$
+\end_inset
+
+是不是
+\begin_inset Formula $-\cfrac{1}{32}$
+\end_inset
+
+的四次方根？
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\cfrac{1}{2}$
+\end_inset
+
+和
+\begin_inset Formula $-\cfrac{1}{2}$
+\end_inset
+
+是不是
+\begin_inset Formula $-\cfrac{1}{32}$
+\end_inset
+
+的五次方根？
+\end_layout
+
+\begin_layout EnumIndent
+平方后等于
+\begin_inset Formula $64$
+\end_inset
+
+的数,共有哪几个？
+\begin_inset Formula $64$
+\end_inset
+
+的平方根共有哪几个？
+\end_layout
+
+\begin_layout EnumIndent
+平方后等于
+\begin_inset Formula $\cfrac{16}{169}$
+\end_inset
+
+的数有哪几个？
+\begin_inset Formula $\cfrac{16}{169}$
+\end_inset
+
+的平方根有哪几个？
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+方根的性质
+\end_layout
+
+\begin_layout Standard
+在上一节里,我们看到,
+\begin_inset Formula $5$
+\end_inset
+
+和
+\begin_inset Formula $-5$
+\end_inset
+
+都是
+\begin_inset Formula $25$
+\end_inset
+
+的平方根,
+\begin_inset Formula $2$
+\end_inset
+
+和
+\begin_inset Formula $-2$
+\end_inset
+
+都是
+\begin_inset Formula $16$
+\end_inset
+
+的四次方根;
+\begin_inset Formula $4$
+\end_inset
+
+是
+\begin_inset Formula $64$
+\end_inset
+
+的立方根,
+\begin_inset Formula $-3$
+\end_inset
+
+是
+\begin_inset Formula $-243$
+\end_inset
+
+的五次方根.从开方次数来看,开平方,它的开方次数是
+\begin_inset Formula $2$
+\end_inset
+
+,开四次方,它的开方次数是
+\begin_inset Formula $4$
+\end_inset
+
+,
+\begin_inset Formula $2$
+\end_inset
+
+和
+\begin_inset Formula $4$
+\end_inset
+
+都是偶数,所以说,平方根,四次方根都是偶次方根.开立方,它的开方次数是
+\begin_inset Formula $3$
+\end_inset
+
+,开五次方,它的开方次数是
+\begin_inset Formula $5$
+\end_inset
+
+,
+\begin_inset Formula $3$
+\end_inset
+
+和
+\begin_inset Formula $5$
+\end_inset
+
+都是奇数,所以说,立方根和五次方根都是奇次方根.下面就分奇次方根和偶次方根来研究方根的性质.
+\end_layout
+
+\begin_layout Subsection
+奇次方根的性质
+\end_layout
+
+\begin_layout Standard
+我们来看下面的例子:
+\end_layout
+
+\begin_layout Standard
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $2^{5}=32$
+\end_inset
+
+,
+\begin_inset Formula $2$
+\end_inset
+
+就是
+\begin_inset Formula $32$
+\end_inset
+
+的
+\begin_inset Formula $5$
+\end_inset
+
+次方根;任何不等于
+\begin_inset Formula $2$
+\end_inset
+
+的数,它的
+\begin_inset Formula $5$
+\end_inset
+
+次方都不等于
+\begin_inset Formula $32$
+\end_inset
+
+;所以,
+\begin_inset Formula $32$
+\end_inset
+
+的
+\begin_inset Formula $5$
+\end_inset
+
+次方根只有一个数
+\begin_inset Formula $2$
+\end_inset
+
+.又如,
+\begin_inset Formula $\Big(\cfrac{1}{3}\Big)^{3}=\cfrac{1}{27}$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+就是
+\begin_inset Formula $\cfrac{1}{27}$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+次方根;任何不等于
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+的数,它的
+\begin_inset Formula $3$
+\end_inset
+
+次方都不等于
+\begin_inset Formula $\cfrac{1}{27}$
+\end_inset
+
+;所以,
+\begin_inset Formula $\cfrac{1}{27}$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+次方根只有一个数
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+.不仅如此,我们还可以看到,
+\begin_inset Formula $32$
+\end_inset
+
+是正数,它的
+\begin_inset Formula $5$
+\end_inset
+
+次方根
+\begin_inset Formula $2$
+\end_inset
+
+也是正数;同样,正数
+\begin_inset Formula $\cfrac{1}{27}$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+次方根
+\begin_inset Formula $\cfrac{1}{3}$
+\end_inset
+
+也是正数.这就是说,正数的奇次方根是一个正数.
+\end_layout
+
+\begin_layout Standard
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $(-0.3)^{3}=-0.027$
+\end_inset
+
+,
+\begin_inset Formula $-0.3$
+\end_inset
+
+是
+\begin_inset Formula $-0.027$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+次方根;任何不等于
+\begin_inset Formula $-0.3$
+\end_inset
+
+的数,它的
+\begin_inset Formula $3$
+\end_inset
+
+次方都不等于
+\begin_inset Formula $-0.027$
+\end_inset
+
+;所以,
+\begin_inset Formula $-0.027$
+\end_inset
+
+的
+\begin_inset Formula $3$
+\end_inset
+
+次方根只有一个数
+\begin_inset Formula $-0.3$
+\end_inset
+
+.又如,
+\begin_inset Formula $\Big(-\cfrac{1}{2}\Big)^{2}=-\cfrac{1}{32}$
+\end_inset
+
+,
+\begin_inset Formula $-\cfrac{1}{2}$
+\end_inset
+
+是
+\begin_inset Formula $-\cfrac{1}{32}$
+\end_inset
+
+i的
+\begin_inset Formula $5$
+\end_inset
+
+次方根;任何不等于
+\begin_inset Formula $-\cfrac{1}{2}$
+\end_inset
+
+的数,它的
+\begin_inset Formula $5$
+\end_inset
+
+次方都不等于
+\begin_inset Formula $-\cfrac{1}{32}$
+\end_inset
+
+;所以,
+\begin_inset Formula $-\cfrac{1}{32}$
+\end_inset
+
+的
+\begin_inset Formula $5$
+\end_inset
+
+次方根只有一个数
+\begin_inset Formula $-\cfrac{1}{2}$
+\end_inset
+
+.同样我们还可以看到,
+\begin_inset Formula $-0.027$
+\end_inset
+
+是负数,而
+\begin_inset Formula $-0.3$
+\end_inset
+
+也是负数;
+\begin_inset Formula $-\cfrac{1}{32}$
+\end_inset
+
+是负数,而
+\begin_inset Formula $-\cfrac{1}{2}$
+\end_inset
+
+也是负数.这就是说,负数的奇次方根是一个负数.
+\end_layout
+
+\begin_layout Standard
+(3)
+\begin_inset space \space{}
+\end_inset
+
+因为零的任意次幂都等于零,所以零的奇次方根仍旧是零.
+\end_layout
+
+\begin_layout Standard
+综合上面的例子,我们可以得出奇次方根的性质如下:
+\end_layout
+
+\begin_layout CenterLine
+\align center
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 1
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
+
+正数的奇次方根只有一个,并且是一个正数;负数的奇次方根也只有一个,并且是一个负数;零的奇次方根仍旧是零.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+偶次方根的性质
+\end_layout
+
+\begin_layout Standard
+我们再来看下面几个例子:
+\end_layout
+
+\begin_layout Standard
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $7^{2}=49,(-7)^{2}=49$
+\end_inset
+
+,
+\begin_inset Formula $7$
+\end_inset
+
+和
+\begin_inset Formula $-7$
+\end_inset
+
+都是
+\begin_inset Formula $49$
+\end_inset
+
+的平方根;任何绝对值不等于
+\begin_inset Formula $7$
+\end_inset
+
+的数,它的平方都不等于
+\begin_inset Formula $49$
+\end_inset
+
+;我们还知道,
+\begin_inset Formula $49$
+\end_inset
+
+是一个正数,
+\begin_inset Formula $7$
+\end_inset
+
+和
+\begin_inset Formula $-7$
+\end_inset
+
+虽然一个是正数,一个是负数,但是它们的绝对值是相同的,它们是两个互为相反的数.所以,
+\begin_inset Formula $49$
+\end_inset
+
+的平方根有两个,并且只有两个互为相反的数
+\begin_inset Formula $7$
+\end_inset
+
+和
+\begin_inset Formula $-7$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+又如,
+\begin_inset Formula $(0.2)^{4}=0.0016,(-0.2)^{4}=0,0016$
+\end_inset
+
+,
+\begin_inset Formula $0.2$
+\end_inset
+
+和
+\begin_inset Formula $-0.2$
+\end_inset
+
+都是
+\begin_inset Formula $0.0016$
+\end_inset
+
+的四次方根;任何绝对值不等于
+\begin_inset Formula $0.2$
+\end_inset
+
+的数,它的四次方都不等于
+\begin_inset Formula $0.0016$
+\end_inset
+
+;同样,我们还知道,
+\begin_inset Formula $0.2$
+\end_inset
+
+和
+\begin_inset Formula $-0.2$
+\end_inset
+
+是两个互为相反的数.所以,
+\begin_inset Formula $0.0016$
+\end_inset
+
+的四次方根也有两个,并且只有两个互为相反的数
+\begin_inset Formula $0.2$
+\end_inset
+
+和
+\begin_inset Formula $-0.2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+这就是说,正数的偶次方根是两个相反的数.
+\end_layout
+
+\begin_layout Standard
+(2)
+\begin_inset space \space{}
+\end_inset
+
+因为正数的平方是正数,负数的平方还是正数,零的平方也是零,所以没有一个数的平方等于负数因此负数没有平方根.
+\end_layout
+
+\begin_layout Standard
+(3)
+\begin_inset space \space{}
+\end_inset
+
+因为零的任意次幂都等于零,所以零的偶次方根仍旧是零.
+\end_layout
+
+\begin_layout Standard
+综合上面的例子,我们可以得出偶次方根的性质如下:
+\end_layout
+
+\begin_layout CenterLine
+\align center
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 1
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
+
+正数的偶次方根是两个相反的数;负数的偶次方根没有意义;零的偶次方根仍旧是零.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 注意*
+关于零的方根,我们综合起来说:零的任何次方根仍旧是零.
+\end_layout
+
+\begin_layout Section
+方根的记法
+\end_layout
+
+\begin_layout Standard
+前面我们已经学过方根的意义,懂得了什么叫做方根,为了书写简便,我们需要用一个符号来表示它.
+\end_layout
+
+\begin_layout Standard
+从上一节方根的性质里,我们知道,一个数的奇次方根只有一个,所以当
+\begin_inset Formula $n$
+\end_inset
+
+是奇数的时候,
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $n$
+\end_inset
+
+次方根可以用一个符号
+\begin_inset Formula $\sqrt[n]{a}$
+\end_inset
+
+来表示(这里
+\begin_inset Formula $n$
+\end_inset
+
+是奇数).符号“
+\begin_inset Formula $\sqrt{\phantom{a}}$
+\end_inset
+
+”叫做
+\series bold
+根号
+\series default
+,这里
+\begin_inset Formula $a$
+\end_inset
+
+是
+\series bold
+被开方数
+\series default
+,
+\begin_inset Formula $n$
+\end_inset
+
+是
+\series bold
+根指数
+\series default
+.例如,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $8$
+\end_inset
+
+的立方根用符号
+\begin_inset Formula $\sqrt[3]{8}$
+\end_inset
+
+表示;
+\begin_inset Formula $-32$
+\end_inset
+
+的五次方根用符号
+\begin_inset Formula $\sqrt[5]{-32}$
+\end_inset
+
+表示;
+\begin_inset Formula $-\cfrac{1}{27}$
+\end_inset
+
+的立方根用符号
+\begin_inset Formula $\sqrt[3]{-\cfrac{1}{27}}$
+\end_inset
+
+表示.
+\end_layout
+
+\begin_layout Standard
+因为正数的偶次方根有两个,它们是两个相反的数,所以当
+\begin_inset Formula $n$
+\end_inset
+
+是偶数时,正数
+\begin_inset Formula $a$
+\end_inset
+
+的偶次方根就需要用两个符号来表示,通常用符号
+\begin_inset Formula $\sqrt[n]{a}$
+\end_inset
+
+来表示正的一个,而用符号
+\begin_inset Formula $-\sqrt[n]{a}$
+\end_inset
+
+来表示负的一个(这里
+\begin_inset Formula $a$
+\end_inset
+
+是正数,
+\begin_inset Formula $n$
+\end_inset
+
+是偶数).例如,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $16$
+\end_inset
+
+的四次方根有两个:
+\begin_inset Formula $+2$
+\end_inset
+
+和
+\begin_inset Formula $-2$
+\end_inset
+
+,我们用
+\begin_inset Formula $\sqrt[4]{16}$
+\end_inset
+
+来表示正的一个,就是
+\begin_inset Formula $+2$
+\end_inset
+
+,而用
+\begin_inset Formula $-\sqrt[4]{16}$
+\end_inset
+
+来表示负的一个,就是
+\begin_inset Formula $-2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\cfrac{1}{81}$
+\end_inset
+
+的四次方根有两个:
+\begin_inset Formula $+\cfrac{1}{3}$
+\end_inset
+
+和
+\begin_inset Formula $-\cfrac{1}{3}$
+\end_inset
+
+,我们用
+\begin_inset Formula $\sqrt[4]{\cfrac{1}{81}}$
+\end_inset
+
+表示正的一个,就是
+\begin_inset Formula $+\cfrac{1}{3}$
+\end_inset
+
+,而用
+\begin_inset Formula $-\sqrt[4]{\cfrac{1}{81}}$
+\end_inset
+
+表示负的一个,就是
+\begin_inset Formula $-\cfrac{1}{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+表示正数的偶次方根,为了简便起见,有时可以把它的两个方根合并写在一起,用符号
+\begin_inset Formula $\pm\sqrt[n]{a}$
+\end_inset
+
+来表示(这里,
+\begin_inset Formula $n$
+\end_inset
+
+是偶数,
+\begin_inset Formula $a$
+\end_inset
+
+是正数).例如,上面两个例子里,
+\begin_inset Formula $16$
+\end_inset
+
+的四次方根可以用符号
+\begin_inset Formula $\pm\sqrt[4]{16}$
+\end_inset
+
+来表示;
+\begin_inset Formula $\cfrac{1}{81}$
+\end_inset
+
+的四次方根可以用符号
+\begin_inset Formula $\pm\sqrt[4]{\cfrac{1}{81}}$
+\end_inset
+
+来表示.
+\end_layout
+
+\begin_layout Standard
+用符号表示平方根的时候,通常把根指数
+\begin_inset Formula $2$
+\end_inset
+
+省略不写.例如,
+\begin_inset Formula $9$
+\end_inset
+
+的平方根有两个,一个是
+\begin_inset Formula $\sqrt{9}$
+\end_inset
+
+,就是
+\begin_inset Formula $+3$
+\end_inset
+
+,另一个是
+\begin_inset Formula $-\sqrt{9}$
+\end_inset
+
+,就是
+\begin_inset Formula $-3$
+\end_inset
+
+,而不写成
+\begin_inset Formula $\sqrt[2]{9}$
+\end_inset
+
+和
+\begin_inset Formula $-\sqrt[2]{9}$
+\end_inset
+
+.如果合并起来写,就写成
+\begin_inset Formula $\pm\sqrt{9}$
+\end_inset
+
+,而不必写成
+\begin_inset Formula $\pm\sqrt[2]{9}$
+\end_inset
+
+,同样,
+\begin_inset Formula $36$
+\end_inset
+
+的两个平方根可以合并写成
+\begin_inset Formula $\pm\sqrt{36}$
+\end_inset
+
+,而不必写成
+\begin_inset Formula $\pm\sqrt[2]{36}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 注意*
+用根号来表示方根的时候,书写必须清楚,根指数要用小一点的字体写在根号的左上角,如果写成“
+\begin_inset Formula $n\sqrt{a}$
+\end_inset
+
+”的形式,那就错误地变成n和
+\begin_inset Formula $\sqrt{a}$
+\end_inset
+
+的乘积了.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+下面的一些方根里,哪些有意义？哪些没有意义？有意义的要求出方根的值,没有意义的要说明为什么没有意义.
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $27$
+\end_inset
+
+的立方根;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-27$
+\end_inset
+
+的立方根;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{1}{4}$
+\end_inset
+
+的平方根;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-4$
+\end_inset
+
+的平方根;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $0.0001$
+\end_inset
+
+的四次方根;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $0$
+\end_inset
+
+的四次方根;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-1$
+\end_inset
+
+的四次方根;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $32$
+\end_inset
+
+的五次方根;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-\cfrac{1}{8}$
+\end_inset
+
+的立方根;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-0.0016$
+\end_inset
+
+的四次方根.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+用方根的符号表示下列各题:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $36$
+\end_inset
+
+的平方根;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $100$
+\end_inset
+
+的平方根;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-64$
+\end_inset
+
+的立方根;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-\cfrac{8}{27}$
+\end_inset
+
+的立方根;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-32$
+\end_inset
+
+的五次方根.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+算术根
+\end_layout
+
+\begin_layout Standard
+在研究方根的性质时,我们已经知道,正数的偶次方根是两个相反的数,并且用符号
+\begin_inset Formula $\sqrt[n]{a}$
+\end_inset
+
+表示正的一个方根,而负的一个方根则用
+\begin_inset Formula $-\sqrt[n]{a}$
+\end_inset
+
+来表示.为了区别这两个方根,我们规定:
+\end_layout
+
+\begin_layout Standard
+正数的正的方根,叫做
+\series bold
+算术根
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+零的任何次方根都是零,通常我们也把它叫做算术根,就是说,我们规定
+\series bold
+零的算术根是零
+\series default
+.这样规定以后,当
+\begin_inset Formula $a$
+\end_inset
+
+是正数或者零的时候,符号
+\begin_inset Formula $\sqrt[n]{a}$
+\end_inset
+
+所表示的方根都是算术根.
+\end_layout
+
+\begin_layout Standard
+例如,
+\begin_inset Formula $4$
+\end_inset
+
+的平方根有两个:
+\begin_inset Formula $\sqrt{4}$
+\end_inset
+
+和
+\begin_inset Formula $-\sqrt{4}$
+\end_inset
+
+就是
+\begin_inset Formula $+2$
+\end_inset
+
+和
+\begin_inset Formula $-2$
+\end_inset
+
+,而
+\begin_inset Formula $+2$
+\end_inset
+
+叫做
+\begin_inset Formula $4$
+\end_inset
+
+的算术平方根,
+\begin_inset Formula $81$
+\end_inset
+
+的四次方根有两个:
+\begin_inset Formula $\sqrt[4]{81}$
+\end_inset
+
+和
+\begin_inset Formula $-\sqrt[4]{81}$
+\end_inset
+
+,就是
+\begin_inset Formula $+3$
+\end_inset
+
+和
+\begin_inset Formula $-3$
+\end_inset
+
+,而
+\begin_inset Formula $+3$
+\end_inset
+
+是
+\begin_inset Formula $81$
+\end_inset
+
+的四次算术根.
+\end_layout
+
+\begin_layout Standard
+从算术根的意义可以看出,如果方根满足下列两个条件的,就是算术根:一个条件是被开方数是正数(或者是零),另一个条件是方根的值是正的(或者是零).象前面所举的例子中,
+被开方数
+\begin_inset Formula $4$
+\end_inset
+
+是正数,取正的一个方根
+\begin_inset Formula $2$
+\end_inset
+
+,所以
+\begin_inset Formula $2$
+\end_inset
+
+是
+\begin_inset Formula $4$
+\end_inset
+
+的算术平方根,同样,我们知道,正数的奇次方根是一个正数,显然,被开方数是正的,方根的值也是正的,它也满足算术根的两个条件,所以也叫做算术根.例如,
+\begin_inset Formula $\sqrt[3]{8}=2$
+\end_inset
+
+,被开方数
+\begin_inset Formula $8$
+\end_inset
+
+是正数,方根的值也是正数,所以
+\begin_inset Formula $2$
+\end_inset
+
+是
+\begin_inset Formula $8$
+\end_inset
+
+的算术立方根.同样,
+\begin_inset Formula $3$
+\end_inset
+
+是
+\begin_inset Formula $27$
+\end_inset
+
+的算术立方根,
+\begin_inset Formula $\cfrac{1}{2}$
+\end_inset
+
+也是
+\begin_inset Formula $\cfrac{1}{8}$
+\end_inset
+
+的算术立方根.
+\end_layout
+
+\begin_layout Standard
+但是,
+\begin_inset Formula $-2$
+\end_inset
+
+不是
+\begin_inset Formula $-8$
+\end_inset
+
+的算术立方根,
+\begin_inset Formula $-3$
+\end_inset
+
+也不是
+\begin_inset Formula $-27$
+\end_inset
+
+的算术立方根,因为被开方数都不是正数,并且方根的值也都不是正数.
+\end_layout
+
+\begin_layout Example
+求下列各式的值:
+\end_layout
+
+\begin_layout EnumCol3-idt
+\begin_inset Formula $\sqrt[3]{125}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol3-idt
+\begin_inset Formula $\sqrt[3]{-1}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol3-idt
+\begin_inset Formula $\sqrt[4]{81}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol3-idt
+\begin_inset Formula $\sqrt{(-5)^{2}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol3-idt
+\begin_inset Formula $\sqrt{(-3.4)^{2}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCol3-idt
+\begin_inset Formula $\sqrt{\Big(-\cfrac{2}{3}\Big)^{2}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\because\quad5^{3}=125,\qquad\therefore\quad\sqrt[3]{125}=5$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\because\quad(-1)^{3}=-1,\qquad\therefore\quad\sqrt[3]{-1}=-1$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+(3)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\because\quad3^{4}=81,(-3)^{4}=-81$
+\end_inset
+
+,而
+\begin_inset Formula $\sqrt[4]{81}$
+\end_inset
+
+表示
+\begin_inset Formula $4$
+\end_inset
+
+次幂是
+\begin_inset Formula $81$
+\end_inset
+
+的两个数中正的一个,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad\sqrt[4]{81}=3$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(4)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\because\quad\sqrt{(-5)^{2}}=\sqrt{25}$
+\end_inset
+
+,而
+\begin_inset Formula $\sqrt{25}$
+\end_inset
+
+表示平方是
+\begin_inset Formula $25$
+\end_inset
+
+的两个数中正的一个(或者叫做
+\begin_inset Formula $25$
+\end_inset
+
+的算术平方根),
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad\sqrt{(-5)^{2}}=5$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(5)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\because\quad\sqrt{(-3.4)^{2}}=\sqrt{3.4^{2}}=\sqrt{11.56}$
+\end_inset
+
+,而
+\begin_inset Formula $\sqrt{11.56}$
+\end_inset
+
+表示平方是
+\begin_inset Formula $11.56$
+\end_inset
+
+的两个数中正的一个,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad\sqrt{(-5)^{2}}=5$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(6)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\because\quad\sqrt{\Big(-\cfrac{2}{3}\Big)^{2}}=\sqrt{\Big(\cfrac{2}{3}\Big)^{2}}=\sqrt{\cfrac{4}{9}}$
+\end_inset
+
+,而
+\begin_inset Formula $\sqrt{\cfrac{4}{9}}$
+\end_inset
+
+表示平方是
+\begin_inset Formula $\cfrac{4}{9}$
+\end_inset
+
+的两个数中正的一个(或者叫做
+\begin_inset Formula $\cfrac{4}{9}$
+\end_inset
+
+的算术平方根),
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad\sqrt{\Big(-\cfrac{2}{3}\Big)^{2}}=\cfrac{2}{3}$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\sqrt{6^{2}}$
+\end_inset
+
+是不是等于
+\begin_inset Formula $6$
+\end_inset
+
+？
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\sqrt{(-6)^{2}}$
+\end_inset
+
+是不是等于
+\begin_inset Formula $-6$
+\end_inset
+
+？
+\end_layout
+
+\begin_layout 解*
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\because\quad\sqrt{6^{2}}=\sqrt{36}$
+\end_inset
+
+,而
+\begin_inset Formula $\sqrt{36}$
+\end_inset
+
+表示
+\begin_inset Formula $36$
+\end_inset
+
+的算术平方根
+\begin_inset Formula $6$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad\sqrt{6^{2}}=6$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\because\quad\sqrt{(-6)^{2}}=\sqrt{36}$
+\end_inset
+
+,而
+\begin_inset Formula $\sqrt{36}$
+\end_inset
+
+表示
+\begin_inset Formula $36$
+\end_inset
+
+的算术平方根
+\begin_inset Formula $6$
+\end_inset
+
+,
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centerline{
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad\sqrt{(-6)^{2}}\neq-6$
+\end_inset
+
+,
+\begin_inset space \quad{}
+\end_inset
+
+而
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $\sqrt{(-6)^{2}}=6$
+\end_inset
+
+.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+从这个例子可以得到启发:当
+\begin_inset Formula $a$
+\end_inset
+
+是正数的时候,
+\begin_inset Formula $\sqrt{a^{2}}=a$
+\end_inset
+
+;当
+\begin_inset Formula $a$
+\end_inset
+
+是负数的时候,
+\begin_inset Formula $\sqrt{a^{2}}$
+\end_inset
+
+不等于
+\begin_inset Formula $a$
+\end_inset
+
+,而等于
+\begin_inset Formula $a$
+\end_inset
+
+的相反的数
+\begin_inset Formula $-a$
+\end_inset
+
+;当
+\begin_inset Formula $a=0$
+\end_inset
+
+的时候,
+\begin_inset Formula $\sqrt{a^{2}}=\sqrt{0}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+例如上题中的⑴,
+\begin_inset Formula $a=6$
+\end_inset
+
+,是正数,所以
+\begin_inset Formula $\sqrt{a^{2}}=a$
+\end_inset
+
+,就是
+\begin_inset Formula $\sqrt{6^{2}}=6$
+\end_inset
+
+.但是在(2)中,
+\begin_inset Formula $a=-6$
+\end_inset
+
+,是负数,所以
+\begin_inset Formula $\sqrt{a^{2}}\neq a$
+\end_inset
+
+,而
+\begin_inset Formula $\sqrt{a^{2}}=-a$
+\end_inset
+
+,就是
+\begin_inset Formula $\sqrt{(-6)^{2}}=-(-6)=6$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+在代数第一册里学有理数的绝对值时,已经知道,正数的绝对值就是它本身;负数的绝对值是和它相反的数;零的绝对值是零.如果用数学式子来写,就是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $|a|=\left\{ \begin{array}{rcl}
+a & \quad & (\text{当}a>0\text{的时候}),\\
+0 &  & (\text{当}a=0\text{的时候}),\\
+-a &  & (\text{当}a<0\text{的时候}).
+\end{array}\right.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+如果跟这里所讲的
+\begin_inset Formula $\sqrt{a^{2}}$
+\end_inset
+
+的情况相对比,可以看出它们的结果是一样的.因此,我们可以得到:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 1
+use_makebox 0
+width "65col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{a^{2}}=|a|=\left\{ \begin{array}{rcl}
+a & \quad & (\text{当}a>0\text{时}),\\
+0 &  & (\text{当}a=0\text{时}),\\
+-a &  & (\text{当}a<0\text{时}).
+\end{array}\right.$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 注意*
+这个结论要清楚地掌握,以后经常要应用/
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+求下列各式的值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt[3]{64}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt[3]{-64}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{81}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{\cfrac{9}{25}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{0.36}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{1}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt[n]{1}$
+\end_inset
+
+(
+\begin_inset Formula $n$
+\end_inset
+
+是大于
+\begin_inset Formula $1$
+\end_inset
+
+的整数);
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt[n]{0}$
+\end_inset
+
+(
+\begin_inset Formula $n$
+\end_inset
+
+是大于
+\begin_inset Formula $1$
+\end_inset
+
+的整数);
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt[2n+1]{-1}$
+\end_inset
+
+(n是任意正整数).
+\end_layout
+
+\begin_layout Standard
+[提示:先考虑当
+\begin_inset Formula $n$
+\end_inset
+
+是任意正整数时,
+\begin_inset Formula $2n+1$
+\end_inset
+
+是奇数还是偶数.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+求下列各式的值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{(2.54)^{2}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{(-2.54)^{2}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{\Big(\cfrac{3}{7}\Big)^{2}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{\Big(-\cfrac{3}{7}\Big)^{2}}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+完全平方数的开平方
+\end_layout
+
+\begin_layout Standard
+我们来看下面这些等式:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $25=5^{2},\cfrac{9}{16}=\Big(\cfrac{3}{4}\Big)^{2},0.04=(0.2)^{3}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+这里第一个等式就是说,
+\begin_inset Formula $25$
+\end_inset
+
+这个数等于另一个数
+\begin_inset Formula $5$
+\end_inset
+
+的平方的结果.同样,
+\begin_inset Formula $\cfrac{9}{16}$
+\end_inset
+
+和
+\begin_inset Formula $0.04$
+\end_inset
+
+分别是
+\begin_inset Formula $\cfrac{3}{4}$
+\end_inset
+
+和
+\begin_inset Formula $0.2$
+\end_inset
+
+的平方的结果.
+\end_layout
+
+\begin_layout Standard
+如果一个有理数
+\begin_inset Formula $a$
+\end_inset
+
+等于另一个有理数
+\begin_inset Formula $b$
+\end_inset
+
+的平方,就是
+\begin_inset Formula $a=b^{2}$
+\end_inset
+
+那末,这个有理数
+\begin_inset Formula $a$
+\end_inset
+
+叫做
+\series bold
+完全平方数
+\series default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+有的书上定义“自然数平方以后所得到的数叫做完全平方数”.
+\end_layout
+
+\end_inset
+
+.例如,
+\begin_inset Formula $25$
+\end_inset
+
+,
+\begin_inset Formula $\cfrac{9}{16}$
+\end_inset
+
+,
+\begin_inset Formula $0.04$
+\end_inset
+
+等都是完全平方数.
+\end_layout
+
+\begin_layout Standard
+因为没有一个数的平方等于负数,也就是说,任何一个负数都不能等于另一个数的平方.因此,很明显,负数都不可能是完全平方数.
+\end_layout
+
+\begin_layout Standard
+一些简单的完全平方数,我们可以用心算的方法求得它们的算术平方根.
+\end_layout
+
+\begin_layout Standard
+例如:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{lcl}
+\sqrt{121}=11; & \quad & \sqrt{169}=13;\\
+\sqrt{225}=15; &  & \sqrt{289}=17;\\
+\sqrt{324}=18; &  & \sqrt{361}=19.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+由以上的例子看出,被开方数越大,它们的算术平方根也越大.
+\end_layout
+
+\begin_layout Standard
+分数是由分子和分母(都是整数)所组成,如果能够找到一个规律,把分数的开平方转化成分子和分母的开平方,就可以按照上面的方法计算了,我们看到:
+\end_layout
+
+\begin_layout Standard
+因为
+\begin_inset Formula $\Big(\cfrac{4}{5}\Big)^{2}=\cfrac{16}{25}$
+\end_inset
+
+,所以
+\begin_inset Formula $\sqrt{\cfrac{16}{25}}=\cfrac{4}{5}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+但是
+\begin_inset Formula $4=\sqrt{16},5=\sqrt{25}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{\cfrac{16}{25}}=\cfrac{\sqrt{16}}{\sqrt{25}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+这就是说,分子和分母都是正数的分数,它的算术平方根就是用分子的算术平方根做分子,分母的算术平方根做分母所组成的分数.
+\end_layout
+
+\begin_layout Standard
+因此,如杲分数里的分子和分母都是完全平方数,我们就可以用完全平方数的开平方方法求得它的算术平方根.
+\end_layout
+
+\begin_layout 例*
+求下列各分数的算术平方根:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{16}{49};\quad\cfrac{25}{144};\quad2\cfrac{34}{81}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{\cfrac{16}{49}}=\cfrac{\sqrt{16}}{\sqrt{49}}=\cfrac{4}{7}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{\cfrac{25}{144}}=\cfrac{\sqrt{25}}{\sqrt{144}}=\cfrac{5}{12}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{2\cfrac{34}{81}}=\sqrt{\cfrac{196}{81}}=\cfrac{\sqrt{196}}{\sqrt{81}}=\cfrac{14}{9}=1\cfrac{5}{9}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 说明*
+如果被开方数是带分数,先把它化成假分数,然后开平方,并将最后结果仍旧化成带分数.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+回答下列各问题:求下列各数的算术平方根:
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=5,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $81$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $400$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $256$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $3600$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $10000$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{49}{100}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{169}{289}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\cfrac{225}{361}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2\cfrac{46}{49}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $18\cfrac{1}{16}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+开平方的一般方法
+\end_layout
+
+\begin_layout Standard
+一些简单的完全平方数的开平方,我们可以从某数的平方结果试算出来,但是出较复杂一些的,就很不容易看出.下面我们来研究一个正数的开平方的方法.
+\end_layout
+
+\begin_layout Subsection
+整数的开平方
+\end_layout
+
+\begin_layout Standard
+我们来研究这样一个题目:求
+\begin_inset Formula $529$
+\end_inset
+
+的算术平方根.
+\end_layout
+
+\begin_layout Standard
+第一步:首先确定
+\begin_inset Formula $529$
+\end_inset
+
+的算术平方根的位数.我们知道
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+1^{2}=1, & \qquad & 9^{2}=81,\\
+10^{2}=100, &  & 99^{2}=9801,\\
+100^{2}=10000, &  & 999^{2}=998001,\\
+\cdots\cdots\cdots\cdots\cdots\cdots &  & \cdots\cdots\cdots\cdots\cdots\cdots\cdots
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这里,
+\begin_inset Formula $1$
+\end_inset
+
+和
+\begin_inset Formula $9$
+\end_inset
+
+都是一位数,
+\begin_inset Formula $1$
+\end_inset
+
+是最小的一位数;
+\begin_inset Formula $9$
+\end_inset
+
+是最大的一位数.同样,
+\begin_inset Formula $10$
+\end_inset
+
+和
+\begin_inset Formula $99$
+\end_inset
+
+是二位数,一个最小,一个最大;
+\begin_inset Formula $100$
+\end_inset
+
+和
+\begin_inset Formula $999$
+\end_inset
+
+是三位数,一个最小,一个最大,…….由此可见,一位数的平方是一位数或者两位数,两位数的平方是三位数或者四位数,三位数的平方是五位数或者六位数,…….反过来,也可以看
+到,一位数和二位数的平方根有一位整数,三位数和四位数的平方根有两位整数,五位数和六位数的平方根有三位整数,…….根据这个规律,我们可以把 一个整数从右向左每隔两位
+用一个撇号分开,所分得的段数就是这个数的算术平方根的整数位数,例如把
+\begin_inset Formula $529$
+\end_inset
+
+撇成
+\begin_inset Formula $529$
+\end_inset
+
+,它有两段,所以
+\begin_inset Formula $529$
+\end_inset
+
+的算术平方根是两位整数.
+\end_layout
+
+\begin_layout Standard
+第二步:根据它的左边第一段里的数,确定算术平方根的第一位上的数.
+\end_layout
+
+\begin_layout Standard
+因为
+\begin_inset Formula $2^{2}=4$
+\end_inset
+
+,
+\begin_inset Formula $3^{2}=9$
+\end_inset
+
+,而左边第一段里的数是
+\begin_inset Formula $5$
+\end_inset
+
+,
+\begin_inset Formula $2^{2}<5<3^{2}$
+\end_inset
+
+,所以
+\begin_inset Formula $529$
+\end_inset
+
+的算术平方根的十位数字只能是
+\begin_inset Formula $2$
+\end_inset
+
+(如果是
+\begin_inset Formula $3$
+\end_inset
+
+, 
+\begin_inset Formula $3^{2}$
+\end_inset
+
+大于
+\begin_inset Formula $5$
+\end_inset
+
+,显然不可能).
+\end_layout
+
+\begin_layout Standard
+第三步:确定
+\begin_inset Formula $\sqrt{529}$
+\end_inset
+
+的个位数字,假设个位数字是
+\begin_inset Formula $a$
+\end_inset
+
+,因为十位数是
+\begin_inset Formula $2$
+\end_inset
+
+,实际表示
+\begin_inset Formula $2\times10=20$
+\end_inset
+
+,所以就可以把这个算术平方根写成
+\begin_inset Formula $20+a$
+\end_inset
+
+的形式,就是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{529}=20+a$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+两边平方,得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $529=(20+a)^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+就是
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $529=20^{2}+2\times20a+a^{2}$
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+两边都减去
+\begin_inset Formula $20^{2}$
+\end_inset
+
+(就是
+\begin_inset Formula $400$
+\end_inset
+
+),得
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $129=2\times20a+a^{2}=(2\times20+a)\cdot a$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+就是说,所得的
+\begin_inset Formula $129$
+\end_inset
+
+应该等于
+\begin_inset Formula $(2\times20+a)\cdot a$
+\end_inset
+
+.从这个关系,我们就可以求出这个平方根的个位数字
+\begin_inset Formula $a$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+如果把
+\begin_inset Formula $(2\times20+a)$
+\end_inset
+
+看作近似于
+\begin_inset Formula $2\times20$
+\end_inset
+
+,用
+\begin_inset Formula $2\times20$
+\end_inset
+
+(就是
+\begin_inset Formula $40$
+\end_inset
+
+)去试除
+\begin_inset Formula $129$
+\end_inset
+
+,得到
+\begin_inset Formula $3$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+要确定
+\begin_inset Formula $a$
+\end_inset
+
+的值是不是
+\begin_inset Formula $3$
+\end_inset
+
+,只要把
+\begin_inset Formula $3$
+\end_inset
+
+代入
+\begin_inset Formula $(2\times20+a)\cdot a$
+\end_inset
+
+,-看它的值是不是等于
+\begin_inset Formula $129$
+\end_inset
+
+就可以了.现在
+\begin_inset Formula $(2\times20+3)\cdot3=129$
+\end_inset
+
+,这就说明
+\begin_inset Formula $a$
+\end_inset
+
+的值的确是
+\begin_inset Formula $3$
+\end_inset
+
+.因此,
+\begin_inset Formula $\sqrt{529}=23$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+上面所说的计算过程,可以用下面的形式写出来:
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{rl}
+2\phantom{'2}3\\
+\sqrt{5'29} & \cdots\cdots(20+a)^{2}\\
+4\phantom{'}00 & \cdots\cdots20^{2}\\
+20\times20+a=40+3=\overline{43\mid1\phantom{'}29} & \cdots\cdots2\times20a+a^{2}\\
+a=3\underline{\mid1\phantom{'}29} & \cdots\cdots(2\times20+a)\cdot a=43\times3\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+在计算的时候,上面这个书写形式可以简写成下面的形式;
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+2\phantom{'2}3\\
+\sqrt{5'29}\\
+4\phantom{'}00\\
+\overline{43\mid1\phantom{'}29}\\
+\underline{\mid1\phantom{'}29}\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这里,在根号上面对着第一段
+\begin_inset Formula $5$
+\end_inset
+
+,先写十位数字
+\begin_inset Formula $2$
+\end_inset
+
+(实际表示
+\begin_inset Formula $20$
+\end_inset
+
+),把
+\begin_inset Formula $2^{2}=4$
+\end_inset
+
+(实际表示
+\begin_inset Formula $400$
+\end_inset
+
+)写在
+\begin_inset Formula $5$
+\end_inset
+
+的下面,
+\begin_inset Formula $5-4=1$
+\end_inset
+
+(实际表示
+\begin_inset Formula $100$
+\end_inset
+
+),把被开方数的第二段
+\begin_inset Formula $29$
+\end_inset
+
+移下来得到
+\begin_inset Formula $129$
+\end_inset
+
+.在竖线的左边写上
+\begin_inset Formula $2$
+\end_inset
+
+的
+\begin_inset Formula $2$
+\end_inset
+
+倍(实际表示
+\begin_inset Formula $2\times20=40$
+\end_inset
+
+),用
+\begin_inset Formula $40$
+\end_inset
+
+去试除
+\begin_inset Formula $129$
+\end_inset
+
+得到试商
+\begin_inset Formula $3$
+\end_inset
+
+,在根号上面对着第二段
+\begin_inset Formula $29$
+\end_inset
+
+写上
+\begin_inset Formula $3$
+\end_inset
+
+,同时在竖线左边的
+\begin_inset Formula $4$
+\end_inset
+
+的右边写上
+\begin_inset Formula $3$
+\end_inset
+
+,得到
+\begin_inset Formula $43$
+\end_inset
+
+.用
+\begin_inset Formula $43$
+\end_inset
+
+乘以
+\begin_inset Formula $3$
+\end_inset
+
+,得到
+\begin_inset Formula $129$
+\end_inset
+
+,
+\begin_inset Formula $129-129=0$
+\end_inset
+
+,这就得到
+\begin_inset Formula $\sqrt{529}=23$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{1444}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+3\phantom{'2}8\\
+\sqrt{14'44}\\
+9\phantom{'00}\\
+\overline{68\mid5\phantom{'}44}\\
+\underline{\mid5\phantom{'}44}\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{1444}=38$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 说明*
+在本题中,先把
+\begin_inset Formula $1414$
+\end_inset
+
+从右向左每隔两位用撇号分开.根据左边第一段里的数
+\begin_inset Formula $14$
+\end_inset
+
+,因为
+\begin_inset Formula $3^{2}=9$
+\end_inset
+
+,
+\begin_inset Formula $4^{2}=16$
+\end_inset
+
+,而
+\begin_inset Formula $3^{2}<14<4^{2}$
+\end_inset
+
+,所以
+\begin_inset Formula $1444$
+\end_inset
+
+的算术平方根的十位数字只能是3.从
+\begin_inset Formula $14$
+\end_inset
+
+中减去
+\begin_inset Formula $3^{2}$
+\end_inset
+
+(就是
+\begin_inset Formula $9$
+\end_inset
+
+),余
+\begin_inset Formula $5$
+\end_inset
+
+,再把被开方数的第二段
+\begin_inset Formula $44$
+\end_inset
+
+移下来得到
+\begin_inset Formula $544$
+\end_inset
+
+.在竖线的左边写上
+\begin_inset Formula $3\times2=6$
+\end_inset
+
+(实际表示
+\begin_inset Formula $60$
+\end_inset
+
+);将
+\begin_inset Formula $544$
+\end_inset
+
+除以
+\begin_inset Formula $60$
+\end_inset
+
+,得到试商
+\begin_inset Formula $9$
+\end_inset
+
+,那末竖线左边照理应该写
+\begin_inset Formula $69$
+\end_inset
+
+,但是
+\begin_inset Formula $69\times9=621$
+\end_inset
+
+;大于
+\begin_inset Formula $544$
+\end_inset
+
+,所以改用
+\begin_inset Formula $8$
+\end_inset
+
+,而
+\begin_inset Formula $68\times8$
+\end_inset
+
+的积刚巧等于
+\begin_inset Formula $544$
+\end_inset
+
+.因此,确定了
+\begin_inset Formula $1444$
+\end_inset
+
+的算术平方根的个位数字是
+\begin_inset Formula $8$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+四位数以上的整数的开平方,也可以按照同样的方法来计算.
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{84681}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+把
+\begin_inset Formula $84681$
+\end_inset
+
+从右向左每隔两位用撇号分开,得到三段,计算的时候,还是根据左边第一段先确定百位数字,然后依次确定十位数字和个位数字.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+2\phantom{'4}9\phantom{'2}1\\
+\sqrt{8'46'81}\\
+4\phantom{'46'00}\\
+\overline{49\mid4\phantom{'}46\phantom{'00}}\\
+\mid4\phantom{'}41\phantom{'00}\\
+\overline{581\mid5\phantom{'}81}\\
+\underline{\mid5\phantom{'}81}\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{84681}=291$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 说明*
+在本题第二步计算中,
+\begin_inset Formula $446$
+\end_inset
+
+除以
+\begin_inset Formula $40$
+\end_inset
+
+得到试商
+\begin_inset Formula $11$
+\end_inset
+
+,但是这里只能是一位数,所以改用
+\begin_inset Formula $9$
+\end_inset
+
+.
+\begin_inset Formula $49\times9=441$
+\end_inset
+
+,
+\begin_inset Formula $446-441=5$
+\end_inset
+
+,再把被开方数的第三段
+\begin_inset Formula $81$
+\end_inset
+
+移下来得到
+\begin_inset Formula $581$
+\end_inset
+
+.在确定个位数字的时候,把
+\begin_inset Formula $29\times2=58$
+\end_inset
+
+(实际表示
+\begin_inset Formula $580$
+\end_inset
+
+)写在竖线的左边,按照第二步计算的同样方法来求得个位数字,要特别注意,不能只把
+\begin_inset Formula $9\times2=18$
+\end_inset
+
+(实际表示
+\begin_inset Formula $180$
+\end_inset
+
+)写在竖线的左边,进行计算.
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{501264}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+7\phantom{'1}0\phantom{'6}8\\
+\sqrt{50'12'64}\\
+49\phantom{'12'64}\\
+\overline{1408\mid1\phantom{'}12\phantom{'}64}\\
+\underline{\mid1\phantom{'}12\phantom{'}64}\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{501264}=708$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 说明*
+在本题第一步计算中,
+\begin_inset Formula $50$
+\end_inset
+
+减去
+\begin_inset Formula $49$
+\end_inset
+
+,余
+\begin_inset Formula $1$
+\end_inset
+
+.写下被开方数的下一段
+\begin_inset Formula $12$
+\end_inset
+
+得到
+\begin_inset Formula $112$
+\end_inset
+
+.用
+\begin_inset Formula $140$
+\end_inset
+
+去除
+\begin_inset Formula $112$
+\end_inset
+
+,不够商
+\begin_inset Formula $1$
+\end_inset
+
+,所以在算术平方根的第二位上写
+\begin_inset Formula $0$
+\end_inset
+
+(就是十位数字等于
+\begin_inset Formula $0$
+\end_inset
+
+),再把被开方数的第三段
+\begin_inset Formula $64$
+\end_inset
+
+写下来,得到
+\begin_inset Formula $11264$
+\end_inset
+
+,然后用
+\begin_inset Formula $1400$
+\end_inset
+
+去除
+\begin_inset Formula $11264$
+\end_inset
+
+,求得商
+\begin_inset Formula $8$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{22146436}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+4\phantom{'1}7\phantom{'1}0\phantom{'6}6\\
+\sqrt{22'14'64'36}\\
+16\phantom{'14'64'36}\\
+\overline{87\mid6\phantom{'}14\phantom{'64'36}}\\
+\mid6\phantom{'}09\phantom{'64'36}\\
+\overline{9406\mid5\phantom{'}64\phantom{'}36}\\
+\underline{\mid5\phantom{'}64\phantom{'}36}\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{22146436}=4706$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 说明*
+在本题第三步计算中,用
+\begin_inset Formula $940$
+\end_inset
+
+去除
+\begin_inset Formula $564$
+\end_inset
+
+,不够商
+\begin_inset Formula $1$
+\end_inset
+
+,所以在算术平方根的第三位上写
+\begin_inset Formula $0$
+\end_inset
+
+,再把被开方数的第四段
+\begin_inset Formula $36$
+\end_inset
+
+写下来,得到
+\begin_inset Formula $56436$
+\end_inset
+
+.然后用
+\begin_inset Formula $9400$
+\end_inset
+
+去除
+\begin_inset Formula $56436$
+\end_inset
+
+,求得商
+\begin_inset Formula $6$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex MathBox
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{0.90
+\backslash
+hsize}{[rc]{
+\backslash
+textbf{整数开平方的一般方法}}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+leftmargin=2em,align=right,
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+label=(
+\backslash
+arabic*)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+把被开方数从右向左每隔两位用撇号分开.
+\end_layout
+
+\begin_layout EnumIndent
+从左边第一段求得算术平方根的第一位数字.
+\end_layout
+
+\begin_layout EnumIndent
+从第一段减去这第一位数字的平方,再把被开方数的第二段写下来,作为第一个余数.
+\end_layout
+
+\begin_layout EnumIndent
+把所得的第一位数字乘以
+\begin_inset Formula $20$
+\end_inset
+
+,去除第一个余数,所得的商的整数部分作为试商(如果这个整数部分大于或者等于
+\begin_inset Formula $10$
+\end_inset
+
+,就改用
+\begin_inset Formula $9$
+\end_inset
+
+作试商.如果第一个余数小于第一位数字乘以
+\begin_inset Formula $20$
+\end_inset
+
+的积,则得试商
+\begin_inset Formula $0$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout EnumIndent
+把第一位数字的
+\begin_inset Formula $20$
+\end_inset
+
+倍加上试商的和,乘以这个试商,如果所得的积大于余数时,就要把试商减
+\begin_inset Formula $1$
+\end_inset
+
+再试,直到积小于或者等于余数为止,这个试商就是算术平方根的第二位数字.
+\end_layout
+
+\begin_layout EnumIndent
+用同样的方法,继续求算术根的其他各位数字.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+用直式开平方法求下列各式的值:
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=4,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{676}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{1251}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{1849}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{2209}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{3364}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{3721}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{7396}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{9604}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{64009}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{256036}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{499849}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{64064016}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+小数的开平方
+\end_layout
+
+\begin_layout Standard
+求小数的算术平方根,也可以用整数开平方的一般方法来计算,但是在用撇号分段的时候有所不同.求纯小数的平方根,分段时要从小数点起向右每隔两位用撖号分开,如果小数点后的
+最后一段只有一位,就添上一个零补成两位.例如把
+\begin_inset Formula $0.6257$
+\end_inset
+
+撇成
+\begin_inset Formula $0.62'57$
+\end_inset
+
+,
+\begin_inset Formula $0.801$
+\end_inset
+
+撇成
+\begin_inset Formula $0.80'10$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+因为混小数有两部分,小数点的左面是整数部分,小数点的右面是小数部分,所以求混小数的平方根,分段时要从小数点起向左把整数部分每隔两位用撇号分开,从小数点起向右把小
+数部分每隔两位也用撇号分开,例如把
+\begin_inset Formula $175.2976$
+\end_inset
+
+撇成
+\begin_inset Formula $1'75.29'76$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+不论求纯小数或者混小数的平方根,除了分段跟求整数平方根的分段不同外,其余的计算和求整数平方根里所讲的一样,但是要注意所得的平方根里的小数点的位置,就是说平方根的
+小数点要对准被开方数的小数点.
+\end_layout
+
+\begin_layout Example
+求(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\sqrt{0.4624}$
+\end_inset
+
+;
+\begin_inset space \qquad{}
+\end_inset
+
+ (2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\sqrt{0,000729}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+(1)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+0.\phantom{4}6\phantom{'2}8\\
+\sqrt{0.46'24}\\
+36\phantom{'24}\\
+\overline{128\mid10\phantom{'}24}\\
+\underline{\mid10\phantom{'}24}\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{0.4624}=0.68$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(2)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+0.\phantom{0}0\phantom{'0}2\phantom{'2}7\\
+\sqrt{0.00'07'29}\\
+4\phantom{'29}\\
+\overline{47\mid3\phantom{'}29}\\
+\underline{\mid3\phantom{'}29}\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{0.000729}=0.027$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{170.0416}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+1\phantom{'7}3.\phantom{0}0\phantom{'6}4\\
+\sqrt{1'70.04'16}\\
+1\phantom{'70.04'16}\\
+\overline{23\mid70\phantom{.04'16}}\\
+\mid69\phantom{\phantom{.04'16}}\\
+\overline{2604\mid1\phantom{'}04\phantom{'}16}\\
+\underline{\mid1\phantom{'}04\phantom{'}16}\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{170.0416}=13.04$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+用直式开平方法求下列各式的值:
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=4,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{0.3481}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{0.7569}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{0.1369}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{0.6084}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=3,leftmargin=2em,start=5
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{0.000961}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{0.002401}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{0.003249}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{56.7009}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{16.6464}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{552.7201}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+近似平方根
+\end_layout
+
+\begin_layout Standard
+上两节里所讲的开平方,由于被开方数都是完全平方数,所以开方都能够开尽.但是并不是所有被开方数都是完全平方数,例如,我们要求
+\begin_inset Formula $2$
+\end_inset
+
+的算术平方根,开方就永远开不尽.
+\end_layout
+
+\begin_layout Standard
+我们知道,
+\begin_inset Formula $1^{2}<2$
+\end_inset
+
+,就是
+\begin_inset Formula $\sqrt{2}>1$
+\end_inset
+
+,而
+\begin_inset Formula $2^{2}>2$
+\end_inset
+
+,就是
+\begin_inset Formula $\sqrt{2}<2$
+\end_inset
+
+,所以看出
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+一定介于
+\begin_inset Formula $1$
+\end_inset
+
+和
+\begin_inset Formula $2$
+\end_inset
+
+之间,就是
+\begin_inset Formula $1<\sqrt{2}<2$
+\end_inset
+
+.这就是说,
+\begin_inset Formula $1$
+\end_inset
+
+接近于
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+但是小于
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+,而
+\begin_inset Formula $2$
+\end_inset
+
+接近于
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+但是大于
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+.在这种情况下,我们说,
+\begin_inset Formula $1$
+\end_inset
+
+是
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的 精确到
+\begin_inset Formula $1$
+\end_inset
+
+的
+\series bold
+不足近似值
+\series default
+,
+\begin_inset Formula $2$
+\end_inset
+
+是
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的精确到
+\begin_inset Formula $1$
+\end_inset
+
+的
+\series bold
+过剩近似值
+\series default
+.
+\end_layout
+
+\begin_layout 说明*
+所谓精确到
+\begin_inset Formula $1$
+\end_inset
+
+,就是把数值计算精确到个位.如果说精确到
+\begin_inset Formula $0.1$
+\end_inset
+
+,就是把数值计算精确到十分位.余类推.
+\end_layout
+
+\begin_layout Standard
+一个正数开平方,如果只求出它的不足近似值或者过剩近似值,那末这个求得的近似值,叫做这个数的
+\series bold
+近似平方根
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+求一个正整数或者正小数的近似算术平方根,我们仍旧可以用前面学过的开平方的一般方法算出精确到任意哪 一位的近似值.下面举例来说明.
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.001$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout 审题*
+题中要求精确到0.001,开方要计算到四位小数,再应用四舍五入法则,取三位小数.
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+1.\phantom{0}4\phantom{'0}1\phantom{'0}4\phantom{'0}2\\
+\sqrt{2.00'00'00'00}\\
+1\phantom{.00'00'00'00}\\
+\overline{24\mid1\phantom{.}00\phantom{'00'00'00}}\\
+\mid\phantom{1.}96\phantom{\phantom{'00'00'00}}\\
+\overline{281\mid4\phantom{'}00\phantom{\phantom{'00'00}}}\\
+\mid2\phantom{'}81\phantom{\phantom{'00'00}}\\
+\overline{2824\mid1\phantom{'}19\phantom{'}00\phantom{\phantom{'00}}}\\
+\mid1\phantom{'}12\phantom{'}96\phantom{\phantom{'00}}\\
+\overline{28282\mid6\phantom{'}04\phantom{\phantom{'}}00}\\
+\underline{\mid5\phantom{`}65\phantom{`}64}\\
+38\phantom{`}36
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{2}\thickapprox1.414$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 说明*
+1.
+\begin_inset space \space{}
+\end_inset
+
+这里,开方开到
+\begin_inset Formula $1$
+\end_inset
+
+后,没有开尽,添两个零成一段再开方,得
+\begin_inset Formula $1.4$
+\end_inset
+
+,还开不尽,再添两个零成一段再开方,得
+\begin_inset Formula $1.41$
+\end_inset
+
+,还开不尽,再添两个零成一段再开方,直到算出平方根到四位小数为止.
+\begin_inset Newline newline
+\end_inset
+
+2.
+\begin_inset space \space{}
+\end_inset
+
+因为万分位上是
+\begin_inset Formula $2$
+\end_inset
+
+,它小于
+\begin_inset Formula $5$
+\end_inset
+
+,根据四舍五入法则把它舍去即得
+\begin_inset Formula $2$
+\end_inset
+
+精确到
+\begin_inset Formula $0.001$
+\end_inset
+
+的近似乎方根
+\begin_inset Formula $1.414$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+3.
+\begin_inset space \space{}
+\end_inset
+
+符号是近似符号,就是说这个值是近似值.
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{10.3}$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout 审题*
+题中要求精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+,开方要计算到三位小数,再应用四舍五入法则取二位小数.
+\end_layout
+
+\begin_layout 解*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-
+\backslash
+baselineskip}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{r}
+3.\phantom{3}2\phantom{'0}0\phantom{'0}9\\
+\sqrt{10.30'00'00}\\
+9\phantom{.30'00'00}\\
+\overline{62\mid1\phantom{.}30\phantom{'00'00}}\\
+\mid1\phantom{.}24\phantom{'00'00}\\
+\overline{6409\mid6\phantom{'}00\phantom{'}00}\\
+\underline{\mid5\phantom{'}76\phantom{'}81}\\
+23\phantom{`}19
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{10.3}\thickapprox3.21$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 说明*
+这里,被开方数原来是
+\begin_inset Formula $10.3$
+\end_inset
+
+.因为小数点后只有一位,所以先添一个零补成两位.开到
+\begin_inset Formula $3.2$
+\end_inset
+
+后,没有开尽,再添两个零成一段再开方,以下相同.照题目要求,
+\begin_inset Formula $10.3$
+\end_inset
+
+的算术平方根只要精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+,但是千分位上的数开出来是
+\begin_inset Formula $9$
+\end_inset
+
+,所以根据四舍五入法则,把百分位上的0改成1,取
+\begin_inset Formula $\sqrt{10.3}\thickapprox3.21$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+求分数的近似算术平方根,可把分数化成小数后再计算.例如,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\sqrt{3\cfrac{2}{7}}\thickapprox\sqrt{3.2857}\thickapprox1.81$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+求下列各数的近似算术平方根:
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $15$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $95.3$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $5.57$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $36.85$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $157.1$
+\end_inset
+
+(精确到0.01).
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $0.0348$
+\end_inset
+
+(精确到0.01).
+\end_layout
+
+\begin_layout EnumCols
+1866.2(精确到
+\begin_inset Formula $0.1$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $3\cfrac{5}{8}$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.001$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+平方根表和它的用法
+\end_layout
+
+\begin_layout Standard
+利用上面的开平方的方法,我们可以求出一个正数的算术平方根或者近似算术平方根.但是这样的计算比较麻烦,为了迅速而正确地求出一个正数的算术平方根,可利用平方根表来查得.
+在《中学数学用表》(中小学通用教材数学编写组编,人民教育出版社出版,1978年1月第1版)这本小册子里就附有平方根表,下面就根据这个平方根表来讲它的用法,
+\end_layout
+
+\begin_layout Standard
+根据《中学数学用表》中的平方根表所求出的平方根,通常是近似根,这个表中的平方根都是取四个数字.就是说,近似数从左面第一个不是零的数起到最末一位数止,有四个数字,而
+末位数是由四舍五入得出的.
+\end_layout
+
+\begin_layout Standard
+在《中学数学用表》的平方根表(第5页至9页)中,是把
+\begin_inset Formula $1.00$
+\end_inset
+
+到
+\begin_inset Formula $99.9$
+\end_inset
+
+的各个数的算术平方根编列成的.下面举例来说明这个表的用法、
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{1.65}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+从《中学数学用表》第5页的表里最左边的标有“N”的这一直行中,找出被开方数的前两位数
+\begin_inset Formula $1.6$
+\end_inset
+
+,从这个数横着向右看,查到顶上第一横行里标有数字
+\begin_inset Formula $5$
+\end_inset
+
+的一行,得到
+\begin_inset Formula $1.285$
+\end_inset
+
+,这就是
+\begin_inset Formula $1.65$
+\end_inset
+
+的近似算术平方根.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{1.65}\thickapprox1.285$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-163-1.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{16.5}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+从第7页的表里最左边的标有“N”的这一直行中,找出被开方数的前面两位数
+\begin_inset Formula $16$
+\end_inset
+
+,从这个数横着向右看,查到顶上第一横行里标有数字
+\begin_inset Formula $5$
+\end_inset
+
+的一行,得到
+\begin_inset Formula $4.062$
+\end_inset
+
+,这就是
+\begin_inset Formula $16.5$
+\end_inset
+
+的近似算术平方根.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-163-2.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+从上面两个例子可以看出,查平方根表的时候,必须注意被开方数的小数点的位置.例如,
+\begin_inset Formula $\sqrt{1.65}$
+\end_inset
+
+和
+\begin_inset Formula $\sqrt{16.5}$
+\end_inset
+
+的查法就不同,因为
+\begin_inset Formula $1.65$
+\end_inset
+
+的整数部分只有一位数,而
+\begin_inset Formula $16.5$
+\end_inset
+
+的整数部分有两位数,所以在查平方根表时就要在两个不同的地方去查.
+\end_layout
+
+\begin_layout 说明*
+在表的底下一行和顶上一行标有间样瘀“N”和
+\begin_inset Formula $0$
+\end_inset
+
+到
+\begin_inset Formula $9$
+\end_inset
+
+十个数字,它的作用只是为了在用到表的下半部分的数时查看方便,并且可以避免看错格子,造成错误.
+\end_layout
+
+\begin_layout Standard
+我们在平方根表里,看到表的右边有九行小格子,这叫做
+\series bold
+修正值
+\series default
+,是用来计算被开方数的第四个数字的.也就是说,利用修正值,我们可以查出有四个数字的被开方数的平方根.现在看下面的例子.
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{15.73}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+现在被开方数
+\begin_inset Formula $15.73$
+\end_inset
+
+有四个数字,但是按照上面两个例的那样查法,平方根表里只能查出三个数字,就是
+\begin_inset Formula $15.7$
+\end_inset
+
+, 那末第四个数字
+\begin_inset Formula $3$
+\end_inset
+
+怎样查呢？这就要利用修正值.
+\end_layout
+
+\begin_layout 解*
+先按照上面例子中所讲方法查出
+\begin_inset Formula $\sqrt{15.7}\approx3.962$
+\end_inset
+
+(就是标有“15”的横行与顶上标有“7”的直行的交叉地方的数值).再从标有“15”的横行向右看,查到表的右边的修正值这一部分里顶上标有数字
+\begin_inset Formula $3$
+\end_inset
+
+的一行(就是从表的最右边算起的第七行),得到修正值是
+\begin_inset Formula $4$
+\end_inset
+
+,因此要在
+\begin_inset Formula $3.962$
+\end_inset
+
+的末位数 上加上
+\begin_inset Formula $4$
+\end_inset
+
+.就是
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $3.962+0.004=3.966$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{15.73}\thickapprox3.966$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+如果要查四位以上的数的算术平方根,因为超出了中学数学用表可以查的范围,所以先要把这个数根据四舍五入法则变为从第一个不是零的数字起只有四个数字的数,再按上面方法查
+表.
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{46.082}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+按四舍五入法则,
+\begin_inset Formula $46.082\approx46.08$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{46.082}\thickapprox\sqrt{46.08}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+先在第8页的表中查出
+\begin_inset Formula $\sqrt{46.0}\approx6.782$
+\end_inset
+
+,再在修正值部分找到相应于
+\begin_inset Formula $8$
+\end_inset
+
+的修正值是
+\begin_inset Formula $6$
+\end_inset
+
+,所以
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $6.782+0.006=6.788$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{46.082}\thickapprox6.788$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+利用平方根表,求下列各数的近似算术平方根:
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=4,leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $2.76$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $5.89$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $8.57$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $1.08$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $18.9$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $37.4$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $45$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $50.5$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $2.087$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $8.640$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $17.58$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $42.06$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $66.66$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $90.17$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+上面四个例子里的被开方数都是大于
+\begin_inset Formula $1$
+\end_inset
+
+小于
+\begin_inset Formula $100$
+\end_inset
+
+的数,现在来介绍大于
+\begin_inset Formula $100$
+\end_inset
+
+和小于
+\begin_inset Formula $1$
+\end_inset
+
+的各数的算术平方根的查法.
+\end_layout
+
+\begin_layout Standard
+利用平方根表求大于
+\begin_inset Formula $100$
+\end_inset
+
+或者小于
+\begin_inset Formula $1$
+\end_inset
+
+的数的算术平方根的方法是:
+\end_layout
+
+\begin_layout Standard
+如果这个数大于100,因为不能直接从表里查出它的算术平方根,所以先把它缩小
+\begin_inset Formula $100$
+\end_inset
+
+倍、
+\begin_inset Formula $10000$
+\end_inset
+
+倍或者
+\begin_inset Formula $1000000$
+\end_inset
+
+倍、……(就是把小数点向左移动两位、四位或者六位、……),变成表里查得到的数,查出这个数的算术平方根后,再把这个算术平方根相应地扩大
+\begin_inset Formula $10$
+\end_inset
+
+倍、
+\begin_inset Formula $100$
+\end_inset
+
+倍或者
+\begin_inset Formula $1000$
+\end_inset
+
+倍、……(就是相应地把小数点向右移动一位、两位或者三位、……),这样就得到原来这个数的近似算术平方根.
+\end_layout
+
+\begin_layout Standard
+如果这个数小于1,先把它扩大
+\begin_inset Formula $100$
+\end_inset
+
+倍、
+\begin_inset Formula $10000$
+\end_inset
+
+倍或者
+\begin_inset Formula $1000000$
+\end_inset
+
+倍、……(就是把小数点向右移动两位,四位或者六位、……),变成表里查得到的数,查出算术平方根后,再把它相应地缩小
+\begin_inset Formula $10$
+\end_inset
+
+倍、
+\begin_inset Formula $100$
+\end_inset
+
+倍或者
+\begin_inset Formula $1000$
+\end_inset
+
+倍、……(就是相应地把小数点向左移动一位、两位或者三位这样就 得到原来这个数的近似算术平方根了.
+\end_layout
+
+\begin_layout Standard
+下面举例来说明.
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{739}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout 解*
+因为表里不能直接查出
+\begin_inset Formula $739$
+\end_inset
+
+的平方根,所以把739缩小
+\begin_inset Formula $100$
+\end_inset
+
+倍(就是把小数点向左移动两位),得到
+\begin_inset Formula $7.39$
+\end_inset
+
+,从第6页的表中查得
+\begin_inset Formula $\sqrt{7.39}\approx2.718$
+\end_inset
+
+.然后把
+\begin_inset Formula $2.718$
+\end_inset
+
+扩大
+\begin_inset Formula $10$
+\end_inset
+
+倍,就是把
+\begin_inset Formula $2.718$
+\end_inset
+
+的小数点向右移动一位,得到
+\begin_inset Formula $27.18$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{739}\thickapprox27.18$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+为了便于掌握查平方根表的方法,可以列成图表形式 如下;
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+\boxed{\sqrt{739}} & = & \boxed{27.18}\\
+| &  & \uparrow\\
+\text{小数点向左} &  & \text{小数点向右}\\
+\text{移动两位} &  & \text{移动一位}\\
+\downarrow & \text{查表} & |\\
+\boxed{\sqrt{7.39}} & = & \boxed{2.718}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{8256}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout 解*
+把小数点向左移动两位(就是把
+\begin_inset Formula $8256$
+\end_inset
+
+缩小
+\begin_inset Formula $100$
+\end_inset
+
+倍),得到
+\begin_inset Formula $82.56$
+\end_inset
+
+.从第9页的表中,先查出
+\begin_inset Formula $\sqrt{82.5}\approx9.083$
+\end_inset
+
+,再查得相应于
+\begin_inset Formula $6$
+\end_inset
+
+的修正值是
+\begin_inset Formula $3$
+\end_inset
+
+,那末
+\begin_inset Formula $9.083+0.003=9.086$
+\end_inset
+
+,所以
+\begin_inset Formula $\sqrt{82.56}=9.086$
+\end_inset
+
+,把
+\begin_inset Formula $9.086$
+\end_inset
+
+的小数点向右移动一位,就 得到
+\begin_inset Formula $90.86$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{8256}\thickapprox90.86$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+\boxed{\sqrt{8256}} & = & \boxed{90.86}\\
+| &  & \uparrow\\
+\text{小数点向左} &  & \text{小数点向右}\\
+\text{移动两位} &  & \text{移动一位}\\
+\downarrow & \text{查表} & |\\
+\boxed{\sqrt{82.56}} & = & \boxed{9.086}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{0.0236}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+把
+\begin_inset Formula $0.0236$
+\end_inset
+
+的小数点向右移动两位(就是把
+\begin_inset Formula $0.0236$
+\end_inset
+
+扩大
+\begin_inset Formula $100$
+\end_inset
+
+倍),得到
+\begin_inset Formula $2.36$
+\end_inset
+
+.从第5页的表中,查出
+\begin_inset Formula $\sqrt{2.36}\approx1.536$
+\end_inset
+
+.然后把
+\begin_inset Formula $1.536$
+\end_inset
+
+缩小
+\begin_inset Formula $10$
+\end_inset
+
+倍,就是把
+\begin_inset Formula $1.536$
+\end_inset
+
+的小数点向左移动一位,得到
+\begin_inset Formula $0.1536$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{0.02356}\thickapprox0.1536$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+\boxed{\sqrt{0.02356}} & = & \boxed{0.1536}\\
+| &  & \uparrow\\
+\text{小数点向左} &  & \text{小数点向右}\\
+\text{移动两位} &  & \text{移动一位}\\
+\downarrow & \text{查表} & |\\
+\boxed{\sqrt{2.36}} & = & \boxed{1.536}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Example
+求
+\begin_inset Formula $\sqrt{0.004762}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout 解*
+把0.004762的小数点向右移动四位(就是把
+\begin_inset Formula $0.004762$
+\end_inset
+
+扩大
+\begin_inset Formula $10000$
+\end_inset
+
+倍),得到
+\begin_inset Formula $47.62$
+\end_inset
+
+.从第8页的表中,查出
+\begin_inset Formula $\sqrt{47.62}\approx6.899$
+\end_inset
+
+.相应于
+\begin_inset Formula $2$
+\end_inset
+
+的修正值是
+\begin_inset Formula $1$
+\end_inset
+
+,那末
+\begin_inset Formula $6.899+0.001=6.900$
+\end_inset
+
+,所以
+\begin_inset Formula $\sqrt{47.62}\approx6.900$
+\end_inset
+
+.把
+\begin_inset Formula $6.900$
+\end_inset
+
+的小数点向左移动两位,得
+\begin_inset Formula $0.06900$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\therefore\quad\sqrt{0.004762}\thickapprox0.06900$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+\boxed{\sqrt{0.004762}} & = & \boxed{0.06900}\\
+| &  & \uparrow\\
+\text{小数点向左} &  & \text{小数点向右}\\
+\text{移动两位} &  & \text{移动一位}\\
+\downarrow & \text{查表} & |\\
+\boxed{\sqrt{47.6}} & = & \boxed{6.899}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout 说明*
+本题如果还是把小数点向右移动两位,那末得到
+\begin_inset Formula $0.4762$
+\end_inset
+
+,这个数在表内还是查不到.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题(N)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+利用平方根表,求下列各数的近似算术平方根;
+\end_layout
+
+\begin_layout Standard
+1.
+ 345.7, 2, 536.9,
+\end_layout
+
+\begin_layout Standard
+3.
+ 790,8, 4.
+ 虹7.
+\end_layout
+
+\begin_layout Standard
+5.
+ 4853, 6, 2A08.
+\end_layout
+
+\begin_layout Standard
+7 ‘ 8063.
+ 8.
+ 74090,
+\end_layout
+
+\begin_layout Standard
+9, 0.043^ 10, 0.07461.
+\end_layout
+
+\begin_layout Standard
+11.
+ 0.002819, 12.
+ 0.5805,
+\end_layout
+
+\begin_layout Standard
+13 ‘ 0.7483, 14.
+ 0,0006705,
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+立方根表和它的用法
+\end_layout
+
+\begin_layout Standard
+关于数的开立方的一般方法,因为比较复杂,并且应用
+\end_layout
+
+\begin_layout Standard
+1M
+\end_layout
+
+\begin_layout Standard
+也不大,所以本书不作介绍.现在只讲怎样利用立方根表 来求一个数的立方根.
+\end_layout
+
+\begin_layout Standard
+«中学数学用表》里,从第16页到22页有立方根表,它 是把0.100到99.9的各个数的立方根编列成的.跟平方 根表一样,表中所查出的立方根,通常也是近似根,立方根
+ 表的查法和平方根表的查法相类似,只是被开方数扩大或 者缩小时,小数点移动的位数是不同的.下面举例来说明 这个表的用法■
+\end_layout
+
+\begin_layout Example
+求
+\end_layout
+
+\begin_layout 解*
+[解] 从第16页的表里最左边标有“况”的这一直行中,找出
+\end_layout
+
+\begin_layout Standard
+0.21,横着向右查到顶上标有数字4的一行,得到' 这就是0.214的近似立方根.
+\end_layout
+
+\begin_layout Standard
+/.
+ ^/0T2l4^0.5981, ,
+\end_layout
+
+\begin_layout Example
+例2 求^33.
+\end_layout
+
+\begin_layout 解*
+[解] 从第18页的表里最左边标有的这一直行中,找出' 2.1,横着向右查到顼上标有数字4的一行,得到这 就是2.14的近似立方根.
+\end_layout
+
+\begin_layout Example
+例8 求
+\end_layout
+
+\begin_layout Standard
+m] 
+\end_layout
+
+\begin_layout 解*
+从第20页的表里标有“JT的这一行中,找出礼横着; 向右查到顶上标有数字4的一行,得到2.776,这就是__ 的近似立方根>
+\end_layout
+
+\begin_layout Standard
+如果被开方数小于0.10或者大于100,可以仿照求乎 方根的方法把被开方数经过扩大或者缩小后,由查表求得 它的立方根‘
+\end_layout
+
+\begin_layout Standard
+利用立方根表求大于100或者小于0.1的数的算术立 方根的方法是:
+\end_layout
+
+\begin_layout Standard
+如果这个数大于103,先把它缩小4000倍、1000000
+\end_layout
+
+\begin_layout Standard
+倍、……(就是把小数点向左移动三位、六位、变成表 里查得到的数,查表得到算术立方根后,再把它相应地扩大 10倍、100倍1……(就是相应地把小数点向右移动一位、
+ 二位、•),这样就得到所要求的算术立方根了.
+\end_layout
+
+\begin_layout Standard
+如果这个数小于0.17先把它扩大iooo倍、1000000 倍、……(就是把小数点向右移动三位、六位、……),变成表 里查得到的数,查表得到算术立方根后,再把它相
+应地缩小 10倍、100倍、……(就是相应地把小数点向左移动一位、 二位、……),这样就得到所要求的算术立方根了,
+\end_layout
+
+\begin_layout Standard
+现在举例来说明,
+\end_layout
+
+\begin_layout Example
+求
+\end_layout
+
+\begin_layout 解*
+因为表里不能直接查出4300的立方根,所以把4300 缩小1000倍(就是把小数点向左移动三位),得到4.30,从 第招页的表中」查到Wr涵= 1.626.然后把1.6
+26扩大 10倍,就是把1.626的小数点向右移动一位,得到16,26.
+\end_layout
+
+\begin_layout Standard
+/.
+ ^/4300^16.26.
+\end_layout
+
+\begin_layout Standard
+j ^4500 丨=丨 16.26 ]
+\end_layout
+
+\begin_layout Standard
+a i J
+\end_layout
+
+\begin_layout Standard
+L 个
+\end_layout
+
+\begin_layout Standard
+小数点向左 小数点向右
+\end_layout
+
+\begin_layout Standard
+■移动三位 移动一位
+\end_layout
+
+\begin_layout Standard
+............k一一 , I ,
+\end_layout
+
+\begin_layout Standard
+! i.626 n
+\end_layout
+
+\begin_layout Standard
+j 1 
+\backslash
+_ _!
+\end_layout
+
+\begin_layout Example
+求(/福雨.
+\end_layout
+
+\begin_layout 解*
+把小数点向左移动三位(就是把6耵40缩小1000倍), 得到63.74.因为在立方根表里只能查三个数字的立方根 (没有修正值部分),所以要先把63,74四舍五入变为
+三个 数字,得到63'就是
+\end_layout
+
+\begin_layout Standard
+从第21页的表中,查得把3,994的 小数点向右移动一位,得到S9.94.
+ '
+\end_layout
+
+\begin_layout Standard
+• ^/63740^39.94.
+\end_layout
+
+\begin_layout Standard
+抑 3740 ••• J 39.94
+\end_layout
+
+\begin_layout Standard
+I 个
+\end_layout
+
+\begin_layout Standard
+小数点向左 小数点
+\end_layout
+
+\begin_layout Standard
+侈动三位 移动…位
+\end_layout
+
+\begin_layout Standard
+I |
+\end_layout
+
+\begin_layout Standard
+.......................•眘表:•............'...........
+\end_layout
+
+\begin_layout Standard
+63.74 ii=^:丄 994
+\end_layout
+
+\begin_layout Example
+求
+\end_layout
+
+\begin_layout 解*
+把化_278的小数点向右移动三位(就是把0,000278 扩大1000倍),得到0,278.从第16页的表中查得 «0,6527.然后把0.6&7的小数点向左移动一位
+,得到
+\end_layout
+
+\begin_layout Standard
+0.06527.
+\end_layout
+
+\begin_layout Standard
+_' </0,000278^ 0.06527,
+\end_layout
+
+\begin_layout Standard
+;夕0.000278 :_■ .
+ ; 0.06527 L-___I ？_____
+\end_layout
+
+\begin_layout Standard
+[_ t ^
+\end_layout
+
+\begin_layout Standard
+小数点向右 小数点向左
+\end_layout
+
+\begin_layout Standard
+移动三位 移动一位
+\end_layout
+
+\begin_layout Standard
+一一"一一^查表一一i••••一•一
+\end_layout
+
+\begin_layout Standard
+j </0.278 L^^rj 0.6527 j
+\end_layout
+
+\begin_layout Example
+求
+\end_layout
+
+\begin_layout 解*
+根据方根的性质,我们知道,负数的立方根是一个负 数,所以一 </@I.这样,我们就可以利用立方 根表先求出521的立方根,再取它的相反的数就可以了..
+\end_layout
+
+\begin_layout Standard
+把521的小数点向左移动三位,得到0,521,从第17 页的表中查得^^1=0,8047,把0,8047的小数点向右 移动一位,得到&047,那末^I-8.047.
+\end_layout
+
+\begin_layout Standard
+,,</^521^-3.047.
+\end_layout
+
+\begin_layout Standard
+M , • •■ • 9V,, •,
+\end_layout
+
+\begin_layout Standard
+! -8.047 I
+\end_layout
+
+\begin_layout Standard
+-^521 |
+\end_layout
+
+\begin_layout Standard
+…1
+\end_layout
+
+\begin_layout Standard
+小数点向左 栘动三位 一 丄
+\end_layout
+
+\begin_layout Standard
+-^021 I:
+\end_layout
+
+\begin_layout Standard
+小数点阆右 移动一位
+\end_layout
+
+\begin_layout Standard
+0.8047
+\end_layout
+
+\begin_layout Standard
+利用立方根表,求下列各数的近似立方根:
+\end_layout
+
+\begin_layout Standard
+•4.© 1- 8.7.
+ 2.
+ 35.
+ 3.
+ 900.
+ 4.
+ 2750.
+ 5.
+ 69380,
+\end_layout
+
+\begin_layout Standard
+1 ^ 6.
+ 0.00483, 7.
+ -70.
+ 8.
+ -742.
+ 9.
+ .-0.042.
+ 10, -0.08007.
+\end_layout
+
+\begin_layout Section
+无理数
+\end_layout
+
+\begin_layout Subsection
+无理数的意义
+\end_layout
+
+\begin_layout Standard
+到现在为止,我们所学到的数,还只限于有理数,如果
+\end_layout
+
+\begin_layout Standard
+我们把整数看成是以1为分母的分数,例如一3i
+\end_layout
+
+\begin_layout Standard
+-0=冬,那末我们就可以把一切有理数都表示成！
+\end_layout
+
+\begin_layout Standard
+11 n
+\end_layout
+
+\begin_layout Standard
+的形式,这里m是整数,n是自然数#反过来也就可以说, 这种形式的数都是有理数.
+\end_layout
+
+\begin_layout Standard
+• 任何一个有理数,都可以改用小数表示出来:
+\end_layout
+
+\begin_layout Standard
+(1)如果这个有理数是整数,那末可以把它看成小数 点后面是0的小数.例如
+\end_layout
+
+\begin_layout Standard
+0 = 0.0, 3 = 3.0, 一3 -*3,0,
+\end_layout
+
+\begin_layout Standard
+如果这个数是分母中只含有质因数2、5的分数,那末 .一定可以把它化成一个只含有有限个小数数位的小数.例
+\end_layout
+
+\begin_layout Standard
+[1+2 = 0.5, -I 一一 H0.45.
+\end_layout
+
+\begin_layout Standard
+上面这类只有有限多个小数数位的小数,叫做有限小
+\end_layout
+
+\begin_layout Standard
+数,,
+\end_layout
+
+\begin_layout Standard
+C2)如果这个数是分数,把它化成最简分数以后,分母 中不含有质因数2,5,或者含有质因数% 5但同时也含有 其他质因数,那末这个分数一定可以化成无限循环小数,例
+\end_layout
+
+\begin_layout Standard
+如,
+\end_layout
+
+\begin_layout Standard
+= ■^■ = 0.466 = 0.2323 ….
+\end_layout
+
+\begin_layout Standard
+O 丄O ^7C7
+\end_layout
+
+\begin_layout Standard
+反过来,任何一个有限小数(包栝小数部分为0的整 数)或者无限循环小数,也都可以把它化成！的形式 例如
+\end_layout
+
+\begin_layout Standard
+n A 6 2 n 16 一t 15 1
+\end_layout
+
+\begin_layout Standard
+°'b = ^r 0.16 一 一 90 ' _一 W ■ 6'
+\end_layout
+
+\begin_layout Standard
+所以我们说,一切有限小数或者无限循环小数郝是有 理数■
+\end_layout
+
+\begin_layout Standard
+但是在实际问题中』我们还会遇到不能用上面所说的; 这两种小数来表示的数/例如,前面我们在计算2的算术i 平方根时,可以发秤,开方的过程可以无限继续下去,得到:
+ 的那个无限小数1.41421+“就不是无限循环小数.
+\end_layout
+
+\begin_layout Standard
+我们把这种无限不循环小数叫做无理数.
+\end_layout
+
+\begin_layout Standard
+例如,VI是一个无理数,除此之外,象八v/H,丨 2^", 等也都是无理数,圆周率兀=3.141甜…也丨
+\end_layout
+
+\begin_layout Standard
+是无理数-
+\end_layout
+
+\begin_layout 注意*
+开方得到的数并不都是无理数,因为有些数是开方弁;
+\end_layout
+
+\begin_layout Standard
+得尽的数,例如 d-^0.125^
+\end_layout
+
+\begin_layout Standard
+5等等,这些数都是有理数.而无理数并不都,
+\end_layout
+
+\begin_layout Standard
+是从开方得到的,例如上面所说的圆周率I也就是说,开丨 方开不尽的数都是无理数,而无理数就不#定都是开方开; 不尽的数.
+\end_layout
+
+\begin_layout Subsection
+无理数的近似值
+\end_layout
+
+\begin_layout Standard
+上一节里讲过,因为无理数是无限不循环小数,娇以用
+\end_layout
+
+\begin_layout Standard
+①任何一个无限循坏小数都可以化成分数•今后在代敷第三册里将 要学到•
+\end_layout
+
+\begin_layout Standard
+小数形式,我们不可能把它全部写出来,但是我们可以按照 某种法则确定它的任何一个数位上的数字,例如,我们用
+\end_layout
+
+\begin_layout Standard
+开平方的方法就可以确定的个位上的数字是t十分 位上的数字是4,百分位上的数字是1,千分位上的数字是 4,等等,
+\end_layout
+
+\begin_layout Standard
+在实际应用时,我们可以根据耑要取无理数精确到某 一位的近似值(不足近似值或者过剩近似值),这样得出的 近似值是有限小数.例如,
+\end_layout
+
+\begin_layout Standard
+(1) s/2 一1.41421一.
+\end_layout
+
+\begin_layout Standard
+因此,的精确到0.1,0.01,0.001, 0.0001的不 足近似值和过剩近似值,可以列表如下;
+\end_layout
+
+\begin_layout Standard
+粮确度 0.1 0.01 0.001 0.0001
+\end_layout
+
+\begin_layout Standard
+^2"的不足近似值 1.4 1.41 1.414 1.4142
+\end_layout
+
+\begin_layout Standard
+^的过剥近以值 1*5 1A2 1.415 1.4143
+\end_layout
+
+\begin_layout Standard
+.两个近似饉的差 0A 0,01 0-001 0.0001
+\end_layout
+
+\begin_layout Standard
+;2) = 3.14159263….
+\end_layout
+
+\begin_layout Standard
+因此,沈的精确到0.01, 0.001,0.0001的不足近似值 和过瘸近似值,可以列表如下:
+\end_layout
+
+\begin_layout Standard
+精确度 0.01 0.001 0.0001
+\end_layout
+
+\begin_layout Standard
+界的不足近似值 3.14 S.U1 3.1415
+\end_layout
+
+\begin_layout Standard
+3T的过剩近似值 3,15 3.U2 3.1416
+\end_layout
+
+\begin_layout Standard
+两个近似■■直的差 0.01 0.001 0,0001
+\end_layout
+
+\begin_layout Standard
+从上面两个表里,我们可以看到,同样精确度的过剩近 似值和不足近似值的差,等于所取的小数最末一位的一个 单位.这祥,如果知道某一个无理数的不足近似值和过剩
+ 近似值中的任何一个,就可以得出另一个来,
+\end_layout
+
+\begin_layout Standard
+例如,知道VI精确到0.01的不足近似值是1.71
+\end_layout
+
+\begin_layout Standard
+习题 410
+\end_layout
+
+\begin_layout Standard
+那末相应的过剩近似值就是1.73+0.01 -1.74;如 果知道VI精确到0.00:[的过剩近似值是1.731那末 VT相应的不足近似值就是1.733一0.001
+ = 1.732,
+\end_layout
+
+\begin_layout Standard
+一个无理数的准确值,永远介于它的不足近似値和过 剩近似俵之间,增加不足近似值和过剩近似值的小数位数, 就可以提高近似值的精确度.需要怎样精确度的近似值,
+ 这就要由实际问题的件质来决定,
+\end_layout
+
+\begin_layout Standard
+1,回答下列各题,并且说明理由:
+\end_layout
+
+\begin_layout Standard
+(1)整数是有理数吗？有理数都是鹋数吗？为什么？
+\end_layout
+
+\begin_layout Standard
+(2)小数是有理数吗？小数是无理数吗？为什么？
+\end_layout
+
+\begin_layout Standard
+(3)无限小数都是无理数吗？无理数都是无限小数吗？为什 么？
+\end_layout
+
+\begin_layout Standard
+(4)带根号的数都是无理数吗？为卄么？
+\end_layout
+
+\begin_layout Standard
+2-下列各数哪些是有理数？哪些是无理数？
+\end_layout
+
+\begin_layout Standard
+3,1416; sTfx VB; -VU; -3|1;
+\end_layout
+
+\begin_layout Standard
+0.3333- ■; 0.5714357143; -
+\backslash
+/l0; 2jt.
+\end_layout
+
+\begin_layout Standard
+3.
+ (1)求 crr = 3 J415汜6535…精确到 0,01,0.0001, 0.00001,
+\end_layout
+
+\begin_layout Standard
+0.0000001的不足近似值和过剩近似値;
+\end_layout
+
+\begin_layout Standard
+(2)求精确到0.IU 0-01, 0.001, 0.0001的不足近似值和
+\end_layout
+
+\begin_layout Standard
+过剩近似值.
+\end_layout
+
+\begin_layout Standard
+[提示:先用开平方的方法计算的值.]
+\end_layout
+
+\begin_layout Standard
+4.
+ (1)已知精确到0.01的不足近似值是1.6$求它的相
+\end_layout
+
+\begin_layout Standard
+应的过剩近似值;
+\end_layout
+
+\begin_layout Standard
+(2)已知精确到0.001的过剩近似值是4.70A求它 的相应的不足近似值.
+\end_layout
+
+\begin_layout Section
+实数
+\end_layout
+
+\begin_layout Subsection
+实数的意义
+\end_layout
+
+\begin_layout Standard
+上两节里学过了无理数,这样,我们又把数的概念扩展 了,就是说,把数的范围从原来知道的有理数,增添了一种
+\end_layout
+
+\begin_layout Standard
+新的数一一无理数.
+\end_layout
+
+\begin_layout Standard
+有理数和无理数总起来叫做实数.
+\end_layout
+
+\begin_layout Standard
+我们把所学过的各种数,用下面的表表示出来:
+\end_layout
+
+\begin_layout Standard
+f整数(正憝数,零,负整数〕1 r有理数 有限小数或者无限循环小数
+\end_layout
+
+\begin_layout Standard
+实数| I分数OF.分数,负分数)J
+\end_layout
+
+\begin_layout Standard
+.无理数(正无理数,负无浬数):无限不循环小效
+\end_layout
+
+\begin_layout Standard
+从这个表里,我们可以看出,实数都可以用有限小数或 者无限小数表示;其中用无限不循环小数表示的数就是无 理数,
+\end_layout
+
+\begin_layout Standard
+在代数第一册里,我们知道,具有相反方向的量,可以 分别用正有理数和负有理数来表示.对于无理数,同样也 可以区分正无理数和负无理数.因此,对应于每一个正实
+ 数就有一个和它相反的负实数.例如,5和一5是两个相 反的数,#和-VI也是两个相反的数,a和-w也是 两个相反的数.一般的说,如果《表示一个正实数,一a就
+ 表示一个负实数.《和-《互为相反的数.0的相反数仍 旧是0.
+\end_layout
+
+\begin_layout Subsection
+实数的绝对值
+\end_layout
+
+\begin_layout Standard
+实数的绝对值的定义和有理数的一样:一个正实数的 绝对值就是它本身,一个负实数的绝对值是和它相反的数, 零的绝对值是例如二 一
+\end_layout
+
+\begin_layout Standard
+| | = ,卜 v^=v^,
+\end_layout
+
+\begin_layout Standard
+|？r| =^,丨一？rj=:7r,|0|=0
+\end_layout
+
+\begin_layout Standard
+一般地说,实数《的绝对值是:
+\end_layout
+
+\begin_layout Standard
+* a (当 fl>0 时), 
+\backslash
+a
+\backslash
+0 (当 ce-0时), ^ [-« (当《<0时)_
+\end_layout
+
+\begin_layout Subsection
+用数轴上的点表示实数
+\end_layout
+
+\begin_layout Standard
+在有理数里,我们已经学过,所有有理数都可以用数轴 上的点来表示.但是,数轴上所有的点并不都能用有理数 来表示.例如,在数轴上,从原点o起向右截取一线段0M
+ (图4_1),使它的长度等于每边长是一个单位的正方形的 对角线的长.根据勾股定理,我们知道
+\end_layout
+
+\begin_layout Standard
+0B2 = 0A2 + AB
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+•/ 0A=AE-1J
+\end_layout
+
+\begin_layout Standard
+那末
+\end_layout
+
+\begin_layout Standard
+就是01的长是VI个单位,所以点见就不能用有; 理数来表示.当我们引进无理数之后,数袖上的这种点,就| 可以用无理数来表汞,
+\end_layout
+
+\begin_layout Standard
+B
+\end_layout
+
+\begin_layout Standard
+囤4.1
+\end_layout
+
+\begin_layout Standard
+由此可以看到,数轴上的每一个点都可以用一个实数
+\end_layout
+
+\begin_layout Standard
+来表示它.
+\end_layout
+
+\begin_layout Standard
+反过来,每一个有理数都可以用数轴上的点来表示,同; 样,每一个无理数也都可以用数轴上的点来表示.这躭是; 说,每一个实数都可以用数轴上的点来表汞,
+\end_layout
+
+\begin_layout Standard
+根据上面所说的,归结起来说,把数从有理数扩展到实 数以后,数轴上的每一个点,都可以由唯一的一个实数来表 示;反过来,每一个实数,都可以用数轴上的唯一的一个点
+ 来表示.换句话说,实数和数轴上的点是一一■对应的,
+\end_layout
+
+\begin_layout Standard
+由于每一个实数都可以用数轴上的唯…的一个点来表;
+\end_layout
+
+\begin_layout Standard
+示,所以实数的绝对值也可以说是:实数a的绝对值k |,就 是在数轴上表示a这个点和原点间的距离.
+\end_layout
+
+\begin_layout Subsection
+实数的运算
+\end_layout
+
+\begin_layout Standard
+把有理数扩展到实数以后,在实数范围内四则运算总 可实施,它的运算结果还是实数.在进行实数的四则运算 时,前面学过的有理数的运算规律也同样适用> 特别要指
+ 出,在有理数范围内,正数的开方运算不趕都能实施,而在 实数范围内,疋数的开方运算就都可以实施了,我们知道, 任何正数、负数或零的偶次乘方都不能是负数(或者叫做
+非 负数X因此,在实数范围内,负数珂以冇奇次方根,但是没 有偶次方根,例如,vi(«<o)、夕1等在实数 范围内都是没有意义的.
+\end_layout
+
+\begin_layout Standard
+在实数运算中如果遇到元理有时需要根据问题的 要求,用它的近似值代替,然后进#计算.
+\end_layout
+
+\begin_layout 例*
+例 计算:
+\end_layout
+
+\begin_layout Standard
+〔1) 精确到 o.oi);
+\end_layout
+
+\begin_layout Standard
+(2) s/Txv^(精确到 0.01).
+ ■
+\end_layout
+
+\begin_layout 解*
+[解] (1) 
+\backslash
+^5~+^^2,286 + 3.142^5.38;
+\end_layout
+
+\begin_layout Standard
+(2) s/Y X V 2'^ 1.732 x 1,414^ 2 (45#
+\end_layout
+
+\begin_layout Subsection
+实数大小的比较
+\end_layout
+
+\begin_layout Standard
+和有理数的情形一样,实数在数轴上表示出来以后t我 们仍旧可以利用数轴上的点的位置关系来规定怎样比较两 -3-个实数的大小•
+\end_layout
+
+\begin_layout Standard
+__b _设有两个实数a和b,
+\end_layout
+
+\begin_layout Standard
+A X并且设数轴上的2点表示
+\end_layout
+
+\begin_layout Standard
+^ ^ 5 一2实数A忍点表示实数6
+\end_layout
+
+\begin_layout Standard
+m 42 (图 4.2).
+\end_layout
+
+\begin_layout Standard
+* 174*
+\end_layout
+
+\begin_layout Standard
+利用j, S两点在数袖上不同的位置关系,我们规定 实数的大小:
+\end_layout
+
+\begin_layout Standard
+如果A点在G点的左边,戏们说T U小于&,写成 a<h
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+如架乂点和B点蜇合,我们说a等于b,'运ma = h'
+\end_layout
+
+\begin_layout Standard
+如果j点在〃点的右边,我们说,a大千b,写成 o’>1k
+\end_layout
+
+\begin_layout Standard
+从这个规定我们得到:
+\end_layout
+
+\begin_layout Standard
+(1)任何正实数都大于零,任何负实数都小于零,任何 正实数都大于住何负实数,
+\end_layout
+
+\begin_layout Standard
+(2)两个正实数比较大小,先比较整数部分,如果对应 数位上的数字都相同,那术这两个正实数相等;如果整数部 分不同,那末整数大的正实数较大;如果整数部分相同,而
+ 小数第一位不同,那末小数第一位大的正实数较大;如果小 数第一位也相同,就比较第二位小数,那末小数第二位大的 正实数较大;以下依次类推.
+\end_layout
+
+\begin_layout Standard
+(3)两个负实数比较大小,看它们的绝对值,如果两个 负实数的绝对值相等,那末这两个负实数相等;如果两个负 实数的绝对值不等,那末绝对值大的负实数较小.
+\end_layout
+
+\begin_layout Example
+比较4,7956和•的大小.
+ 一
+\end_layout
+
+\begin_layout 解*
+•/ V^ = 4.795S…,4,7956<4.7958…; 4.7956<
+\backslash
+/23,
+\end_layout
+
+\begin_layout Example
+比较^和的大小.
+\end_layout
+
+\begin_layout 解*
+Y jr = 3.1415926“.,|^| = 3.1415929-,
+\end_layout
+
+\begin_layout Standard
+11d
+\end_layout
+
+\begin_layout Standard
+而 3.1415926*..
+ <3.1415929,
+\end_layout
+
+\begin_layout Example
+比较一VI5和一f的大小.
+\end_layout
+
+\begin_layout 解*
+一
+\backslash
+/lO 一一3.162…,一？ ^ 一一3,166…;
+\end_layout
+
+\begin_layout Standard
+o
+\end_layout
+
+\begin_layout Standard
+而 一3,1.62…> 一3.166…,
+\end_layout
+
+\begin_layout Standard
+o
+\end_layout
+
+\begin_layout 说明*
+在比较实数的大小时,小数位数需要计算几位,要看题 目的具体情况而定.例如在例1中,n/23要取ITO58 因为小数部分第一位、第二位、第三位和4.7956都相同,如
+ 果不计算到小数第四位,就无法比较大小.又如例2,因为 小数部分第一位到第六位都相同,所以必须计算到第七位, 才能看出它们的大小.例4中,只要计算到小数部分第三
+ 位就可以了.
+\end_layout
+
+\begin_layout Standard
+1.
+ a>有理数都是实数吗？实数都是有理数吗？为什么？举例说
+\end_layout
+
+\begin_layout Standard
+(2)无理数都是实数吗？实数都是无理数吗？为什么？举例说 明‘'
+\end_layout
+
+\begin_layout Standard
+2求出下列等式里的实数而
+\end_layout
+
+\begin_layout Standard
+a) 1一|; ⑶
+\end_layout
+
+\begin_layout Standard
+(3)丨工卜(4) |x|=d 3-计算:
+\end_layout
+
+\begin_layout Standard
+(1) V诏一如(楕确到0.01);
+\end_layout
+
+\begin_layout Standard
+(2) 
+\backslash
+Z7xvTc精确到 0.01)4
+\end_layout
+
+\begin_layout Standard
+^用不等式表示下列各组数的大小:
+\end_layout
+
+\begin_layout Standard
+(1) 3.14159 和 3.1416; (2) 0_ 13762…和 0,13沉3…;
+\end_layout
+
+\begin_layout Standard
+[解法举例:3 ‘ 14159 <3.1416.]
+\end_layout
+
+\begin_layout Standard
+(3) 5.368971...和 5.36七(4) 1.5 和一1.555 (5) 一2.5353一和一2,5:^^56...;
+\end_layout
+
+\begin_layout Standard
+03) 
+\backslash
+/远和 5^^ (7) -v/T 和一
+\end_layout
+
+\begin_layout Standard
+(8) -V2 和一1.262,
+\end_layout
+
+\begin_layout Standard
+•5.把和~
+\backslash
+/了正确地在数轴上表示出来,
+\end_layout
+
+\begin_layout Standard
+[f示:利用直角三角形,根据勾段定理,先正确地求出J和 的线叚长度来.例如,以1个单位长锨直角三角形的一条 直3边,2个单位长做釦边,那来另一条直角边的长就表示
+ VT.然后在数轴上从原点起向右截钗一段线段等亍这条直角 边的长.同样,以1个单位和2个单位长的线段做直角边,那末 斜边的长就是#.]
+\end_layout
+
+\begin_layout Section-toc*
+本章提要
+\end_layout
+
+\begin_layout EnumIndent
+1方根的性质
+\end_layout
+
+\begin_layout EnumIndent
+被开方数a 根指数》 方 根
+\end_layout
+
+\begin_layout EnumIndent
+™是奇数 只有一个IE数
+\end_layout
+
+\begin_layout EnumIndent
+ff >U w是偶数 有两个互为相反的数
+\end_layout
+
+\begin_layout EnumIndent
+a=0 竹是奇数或偶数 
+\end_layout
+
+\begin_layout EnumIndent
+o<0 ft是奇数 只有一个负数
+\end_layout
+
+\begin_layout EnumIndent
+«是偶数 没有意义
+\end_layout
+
+\begin_layout EnumIndent
+2算术平方根
+\end_layout
+
+\begin_layout EnumIndent
+a (当炫>0的时候), l-a (当a<0的时候)•
+\end_layout
+
+\begin_layout EnumIndent
+3数的开平方
+\end_layout
+
+\begin_layout EnumIndent
+(1)利用逆运算关系(适用于一些简单的完全平方
+\end_layout
+
+\begin_layout EnumIndent
+(2) 一般方法;
+\end_layout
+
+\begin_layout EnumIndent
+(3)查乎方根表法.
+\end_layout
+
+\begin_layout EnumIndent
+4.数的开立方查立方根表法.
+\end_layout
+
+\begin_layout EnumIndent
+5.实数
+\end_layout
+
+\begin_layout EnumIndent
+IT7
+\end_layout
+
+\begin_layout EnumIndent
+(1)无理数的意义;无理数的不足近似值和过剩近似
+\end_layout
+
+\begin_layout EnumIndent
+值,
+\end_layout
+
+\begin_layout EnumIndent
+(2)实数的分类
+\end_layout
+
+\begin_layout EnumIndent
+实数
+\end_layout
+
+\begin_layout EnumIndent
+右理数
+\end_layout
+
+\begin_layout EnumIndent
+止:有理数
+\end_layout
+
+\begin_layout EnumIndent
+负有理数
+\end_layout
+
+\begin_layout EnumIndent
+无理数{
+\end_layout
+
+\begin_layout EnumIndent
+(3)实数的绝对值
+\end_layout
+
+\begin_layout EnumIndent
+正无理数 负无理数
+\end_layout
+
+\begin_layout EnumIndent
+正整数(就娃自然数) 正分数(包括正有限小数 或者正无限循环小数)
+\end_layout
+
+\begin_layout EnumIndent
+负整数
+\end_layout
+
+\begin_layout EnumIndent
+负分数(包括负有限小数 或者负无限循环小数)
+\end_layout
+
+\begin_layout EnumIndent
+a (当 a>0 时),
+\end_layout
+
+\begin_layout EnumIndent
+
+\backslash
+a 
+\backslash
+ 0 (当 a = 0 时),
+\end_layout
+
+\begin_layout EnumIndent
+一a (当 a<0 时)•
+\end_layout
+
+\begin_layout EnumIndent
+(4)实数和数轴上的点的一一对应关系.
+\end_layout
+
+\begin_layout Section-toc*
+复习题四
+\begin_inset space \space{}
+\end_inset
+
+A
+\end_layout
+
+\begin_layout EnumIndent
+下列语句是正确的还是错误的？为什么？
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $-5$
+\end_inset
+
+的平方是
+\begin_inset Formula $25$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-49$
+\end_inset
+
+的平方根是
+\begin_inset Formula $-7$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-1$
+\end_inset
+
+的立方根是
+\begin_inset Formula $-1$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $(-5)^{2}$
+\end_inset
+
+的算术根是
+\begin_inset Formula $-5$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+求下列各式的值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{m^{2}}\Big(m=-\cfrac{2}{3}\Big)$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{n^{2}}\Big(n=\cfrac{3}{5}\Big)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+利用开平方法求下列各数的近似算术平方根,精确到
+\begin_inset Formula $0.001$
+\end_inset
+
+.并且写出它的不足近似值和过剩近似值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{3.562}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{0.374}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+利用平方根表或者立方根表求下列各题的值:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=3
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{17.468}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{0.43592}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt[3]{4359}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt[3]{0.02807}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{\ensuremath{4\cfrac{1}{4}}}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt[3]{4107\cfrac{1}{2}}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+对于任意两个实数,是不是都能够进行加、减、乘、除、乘方的运算？
+\end_layout
+
+\begin_layout EnumIndent
+在实数范围里永远可以开奇次方吗？在有理数范围里呢？
+\end_layout
+
+\begin_layout EnumIndent
+在实数范围里永远可以开偶次方吗？
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+在加、减、乘、除、乘方和开方六种运算中,哪些运算在正有理数范围里都能实施？哪些运算在有理数范围里都能实施？有些什么例外？哪些运算在实数范围里都能实施？有些什么例
+外？
+\end_layout
+
+\begin_layout EnumIndent
+一个正方形的面积是
+\begin_inset Formula $125$
+\end_inset
+
+平方厘米,求它的边长(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+厘米).
+\end_layout
+
+\begin_layout Section-toc*
+复习题四
+\begin_inset space \space{}
+\end_inset
+
+B
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+设
+\begin_inset Formula $x^{2}=a$
+\end_inset
+
+,
+\begin_inset Formula $a$
+\end_inset
+
+是
+\begin_inset Formula $x$
+\end_inset
+
+的什么数？
+\begin_inset Formula $x$
+\end_inset
+
+是
+\begin_inset Formula $a$
+\end_inset
+
+的什么数？
+\end_layout
+
+\begin_layout EnumIndent
+设
+\begin_inset Formula $y^{3}=b$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+是
+\begin_inset Formula $y$
+\end_inset
+
+的什么数？
+\begin_inset Formula $y$
+\end_inset
+
+是
+\begin_inset Formula $b$
+\end_inset
+
+的什么数？
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+查表求下列各式的值;
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $3.472^{2}+5.089^{2}$
+\end_inset
+
+; 
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{3.472^{2}+5.089^{2}}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+回答下列各个问题:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+如果
+\begin_inset Formula $a>0$
+\end_inset
+
+, 
+\begin_inset Formula $b<0$
+\end_inset
+
+,那末
+\begin_inset Formula $a$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+两数中哪一个？
+\end_layout
+
+\begin_layout EnumIndent
+如果
+\begin_inset Formula $a<0$
+\end_inset
+
+, 
+\begin_inset Formula $b<0$
+\end_inset
+
+,而且
+\begin_inset Formula $|a|>|b|$
+\end_inset
+
+,那末
+\begin_inset Formula $a$
+\end_inset
+
+,
+\begin_inset Formula $b$
+\end_inset
+
+两数中哪一个 大？
+\end_layout
+
+\begin_layout EnumIndent
+如果
+\begin_inset Formula $a<b$
+\end_inset
+
+,那末
+\begin_inset Formula $|a|$
+\end_inset
+
+和
+\begin_inset Formula $|b|$
+\end_inset
+
+中哪一个大？(要讨论)
+\end_layout
+
+\begin_layout Standard
+[提示:就
+\begin_inset Formula $a>0$
+\end_inset
+
+,
+\begin_inset Formula $b<0$
+\end_inset
+
+;
+\begin_inset Formula $a<0$
+\end_inset
+
+,
+\begin_inset Formula $b<0$
+\end_inset
+
+;
+\begin_inset Formula $a<0$
+\end_inset
+
+,
+\begin_inset Formula $b>0$
+\end_inset
+
+三种情况来讨论.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+一个比例的两个外项分别是
+\begin_inset Formula $1\cfrac{2}{15}$
+\end_inset
+
+和
+\begin_inset Formula $\cfrac{68}{375}$
+\end_inset
+
+,两个内项是相等的正数,这两个内项各是多少？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:根据比例的性质,两个内项的乘积等于两个外项的乘积.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+如果球的半径是
+\begin_inset Formula $r$
+\end_inset
+
+,那末球的体积用公式
+\begin_inset Formula $V=\cfrac{4}{3}\pi r^{3}$
+\end_inset
+
+来计算,当球体积
+\begin_inset Formula $V=500$
+\end_inset
+
+立方厘米时,半径
+\begin_inset Formula $r$
+\end_inset
+
+是多少厘米？(
+\begin_inset Formula $\pi$
+\end_inset
+
+取
+\begin_inset Formula $3.14$
+\end_inset
+
+,
+\begin_inset Formula $r$
+\end_inset
+
+精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+厘米.)
+\end_layout
+
+\begin_layout EnumIndent
+把一个长方形的长和宽分别扩大相同的倍数,使面积扩大
+\begin_inset Formula $40$
+\end_inset
+
+倍,求长和宽分别扩大的倍数.(精确到
+\begin_inset Formula $0.1$
+\end_inset
+
+.) [提示:设长方形的长和宽分别是
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $b$
+\end_inset
+
+,扩大的倍数是
+\begin_inset Formula $k$
+\end_inset
+
+,列出方程再解.]
+\end_layout
+
+\begin_layout Section-toc*
+第四章
+\begin_inset space \space{}
+\end_inset
+
+测验题
+\end_layout
+
+\begin_layout EnumIndent
+比较下列各组里两个实数的大小:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+和
+\begin_inset Formula $1.414$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-\pi$
+\end_inset
+
+和
+\begin_inset Formula $-3.1415926$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+计算:
+\begin_inset Formula $\sqrt[3]{-1.45}\times(-1.45)^{2}\div4.35$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout EnumIndent
+一个长方体的木箱,它的底是正方形.木箱的高是
+\begin_inset Formula $125$
+\end_inset
+
+米,体积是
+\begin_inset Formula $2.178$
+\end_inset
+
+立方米,求这木箱的底的每边的长.(精确到0.01 米.)
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:长方体的体枳等于底面积乘以高.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+如果圆的半径是
+\begin_inset Formula $r$
+\end_inset
+
+,那末圆的面积用公式
+\begin_inset Formula $A=\pi r^{2}$
+\end_inset
+
+来计算.当圆面积
+\begin_inset Formula $A=200$
+\end_inset
+
+平方厘米时,半径
+\begin_inset Formula $r$
+\end_inset
+
+是多少厘米？(
+\begin_inset Formula $\pi$
+\end_inset
+
+取
+\begin_inset Formula $3.14$
+\end_inset
+
+,
+\begin_inset Formula $r$
+\end_inset
+
+精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+厘米.)
+\end_layout
+
+\begin_layout EnumIndent
+一艘轮船以每小时
+\begin_inset Formula $16$
+\end_inset
+
+海里的速度离开港口向东南方向航行;另一艘轮船在同时同地以每小时
+\begin_inset Formula $12$
+\end_inset
+
+海里的速度向西南方向航行.它们离开港口一小时半以后相距多远？
+\end_layout
+
+\end_body
+\end_document
