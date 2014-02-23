@@ -5,7 +5,7 @@
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="/books/stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <!-- mathjax config similar to math.stackexchange -->
     <script type="text/x-mathjax-config">
