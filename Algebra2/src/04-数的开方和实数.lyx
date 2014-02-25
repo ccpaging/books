@@ -5983,7 +5983,11 @@ egroup
 \end_layout
 
 \begin_layout 解*
-把0.004762的小数点向右移动四位(就是把
+把
+\begin_inset Formula $0.004762$
+\end_inset
+
+的小数点向右移动四位(就是把
 \begin_inset Formula $0.004762$
 \end_inset
 
@@ -6830,116 +6834,228 @@ egroup
 \end_layout
 
 \begin_layout Standard
-到现在为止,我们所学到的数,还只限于有理数,如果
+到现在为止,我们所学到的数,还只限于有理数,如果我们把整数看成是以1为分母的分数,例如
+\begin_inset Formula $3=\cfrac{3}{1}$
+\end_inset
+
+,
+\begin_inset Formula $-3=\cfrac{-3}{1}$
+\end_inset
+
+,
+\begin_inset Formula $0=\cfrac{0}{1}$
+\end_inset
+
+,那末我们就可以把一切有理数都表示成
+\begin_inset Formula $\cfrac{m}{n}$
+\end_inset
+
+的形式,这里
+\begin_inset Formula $m$
+\end_inset
+
+是整数,
+\begin_inset Formula $n$
+\end_inset
+
+是自然数.反过来也就可以说, 这种形式的数都是有理数.
 \end_layout
 
 \begin_layout Standard
-我们把整数看成是以1为分母的分数,例如一3i
+任何一个有理数,都可以改用小数表示出来:
 \end_layout
 
 \begin_layout Standard
--0=冬,那末我们就可以把一切有理数都表示成！
+(1)
+\begin_inset space \space{}
+\end_inset
+
+如果这个有理数是整数,那末可以把它看成小数点后面是
+\begin_inset Formula $0$
+\end_inset
+
+的小数.例如
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $0=0.0$
+\end_inset
+
+,
+\begin_inset Formula $3=3.0$
+\end_inset
+
+,
+\begin_inset Formula $-3=-3.0$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-11 n
+如果这个数是分母中只含有质因数
+\begin_inset Formula $2$
+\end_inset
+
+、
+\begin_inset Formula $5$
+\end_inset
+
+的分数,那末一定可以把它化成一个只含有有限个小数数位的小数.例
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{1}{2}=1\div2=0.5,\quad-\cfrac{9}{20}=-9\div20=0.45$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-的形式,这里m是整数,n是自然数#反过来也就可以说, 这种形式的数都是有理数.
+上面这类只有有限多个小数数位的小数,叫做有限小数.
 \end_layout
 
 \begin_layout Standard
-• 任何一个有理数,都可以改用小数表示出来:
+(2)
+\begin_inset space \space{}
+\end_inset
+
+如果这个数是分数,把它化成最简分数以后,分母中不含有质因数
+\begin_inset Formula $2$
+\end_inset
+
+,
+\begin_inset Formula $5$
+\end_inset
+
+,或者含有质因数
+\begin_inset Formula $2$
+\end_inset
+
+,
+\begin_inset Formula $5$
+\end_inset
+
+,但同时也含有其他质因数,那末这个分数一定可以化成无限循环小数.例如,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\cfrac{1}{3}=0.33\cdots;\quad\cfrac{7}{15}=0.466\cdots;\quad\cfrac{23}{99}=0.2323\cdots$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-(1)如果这个有理数是整数,那末可以把它看成小数 点后面是0的小数.例如
+反过来,任何一个有限小数(包栝小数部分为
+\begin_inset Formula $0$
+\end_inset
+
+的整数)或者无限循环小数,也都可以把它化成
+\begin_inset Formula $\cfrac{m}{n}$
+\end_inset
+
+的形式
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+任何一个无限循坏小数都可以化成分数.今后在代数第三册里将要学到.
+\end_layout
+
+\end_inset
+
+.例如
 \end_layout
 
 \begin_layout Standard
-0 = 0.0, 3 = 3.0, 一3 -*3,0,
+\begin_inset Formula $0.125=\cfrac{125}{1000}=\cfrac{1}{8}$
+\end_inset
+
+;
 \end_layout
 
 \begin_layout Standard
-如果这个数是分母中只含有质因数2、5的分数,那末 .一定可以把它化成一个只含有有限个小数数位的小数.例
+\begin_inset Formula $0.6=\cfrac{6}{9}=\cfrac{2}{3};\qquad0.16-\cfrac{16-1}{90}=\cfrac{15}{90}=\cfrac{1}{6}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-[1+2 = 0.5, -I 一一 H0.45.
+所以我们说,一切有限小数或者无限循环小数都是有理数.
 \end_layout
 
 \begin_layout Standard
-上面这类只有有限多个小数数位的小数,叫做有限小
+但是在实际问题中,我们还会遇到不能用上面所说的这两种小数来表示的数.例如,前面我们在计算
+\begin_inset Formula $2$
+\end_inset
+
+的算术平方根时,可以发现,开方的过程可以无限继续下去,得到的那个无限小数
+\begin_inset Formula $1.41421\cdots$
+\end_inset
+
+就不是无限循环小数.
 \end_layout
 
 \begin_layout Standard
-数,,
+我们把这种无限不循环小数叫做
+\series bold
+无理数
+\series default
+.
 \end_layout
 
 \begin_layout Standard
-C2)如果这个数是分数,把它化成最简分数以后,分母 中不含有质因数2,5,或者含有质因数% 5但同时也含有 其他质因数,那末这个分数一定可以化成无限循环小数,例
-\end_layout
+例如,
+\begin_inset Formula $\sqrt{2}$
+\end_inset
 
-\begin_layout Standard
-如,
-\end_layout
+是一个无理数,除此之外,象
+\begin_inset Formula $\sqrt{3}$
+\end_inset
 
-\begin_layout Standard
-= ■^■ = 0.466 = 0.2323 ….
-\end_layout
+,
+\begin_inset Formula $\sqrt[3]{11}$
+\end_inset
 
-\begin_layout Standard
-O 丄O ^7C7
-\end_layout
+,
+\begin_inset Formula $2\sqrt{5}$
+\end_inset
 
-\begin_layout Standard
-反过来,任何一个有限小数(包栝小数部分为0的整 数)或者无限循环小数,也都可以把它化成！的形式 例如
-\end_layout
+,
+\begin_inset Formula $-\sqrt[3]{6}$
+\end_inset
 
-\begin_layout Standard
-n A 6 2 n 16 一t 15 1
-\end_layout
+等也都是无理数.圆周率
+\begin_inset Formula $\pi=3.14159\cdots$
+\end_inset
 
-\begin_layout Standard
-°'b = ^r 0.16 一 一 90 ' _一 W ■ 6'
-\end_layout
-
-\begin_layout Standard
-所以我们说,一切有限小数或者无限循环小数郝是有 理数■
-\end_layout
-
-\begin_layout Standard
-但是在实际问题中』我们还会遇到不能用上面所说的; 这两种小数来表示的数/例如,前面我们在计算2的算术i 平方根时,可以发秤,开方的过程可以无限继续下去,得到:
- 的那个无限小数1.41421+“就不是无限循环小数.
-\end_layout
-
-\begin_layout Standard
-我们把这种无限不循环小数叫做无理数.
-\end_layout
-
-\begin_layout Standard
-例如,VI是一个无理数,除此之外,象八v/H,丨 2^", 等也都是无理数,圆周率兀=3.141甜…也丨
-\end_layout
-
-\begin_layout Standard
-是无理数-
+也是无理数.
 \end_layout
 
 \begin_layout 注意*
-开方得到的数并不都是无理数,因为有些数是开方弁;
-\end_layout
+开方得到的数并不都是无理数,因为有些数是开得尽的数,例如
+\begin_inset Formula $\sqrt{4}=2$
+\end_inset
 
-\begin_layout Standard
-得尽的数,例如 d-^0.125^
-\end_layout
+,
+\begin_inset Formula $\sqrt[3]{27}=3$
+\end_inset
 
-\begin_layout Standard
-5等等,这些数都是有理数.而无理数并不都,
-\end_layout
+,
+\begin_inset Formula $\sqrt{\cfrac{9}{4}}=\cfrac{3}{2}$
+\end_inset
 
-\begin_layout Standard
-是从开方得到的,例如上面所说的圆周率I也就是说,开丨 方开不尽的数都是无理数,而无理数就不#定都是开方开; 不尽的数.
+,
+\begin_inset Formula $\sqrt[3]{0.125}=\sqrt[3]{\cfrac{1}{8}}=\cfrac{1}{2}=0.5$
+\end_inset
+
+等等,这些数都是有理数.而无理数并不都是从开方得到的,例如上面所说的圆周率
+\begin_inset Formula $\pi$
+\end_inset
+
+.也就是说,开方开不尽的数都是无理数,而无理数就不一定都是开方开不尽的数.
 \end_layout
 
 \begin_layout Subsection
@@ -6947,162 +7063,895 @@ n A 6 2 n 16 一t 15 1
 \end_layout
 
 \begin_layout Standard
-上一节里讲过,因为无理数是无限不循环小数,娇以用
+上一节里讲过,因为无理数是无限不循环小数,所以用小数形式,我们不可能把它全部写出来,但是我们可以按照某种法则确定它的任何一个数位上的数字.例如,我们用开平方的方法
+就可以确定
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的个位上的数字是
+\begin_inset Formula $1$
+\end_inset
+
+,十分位上的数字是
+\begin_inset Formula $4$
+\end_inset
+
+,百分位上的数字是
+\begin_inset Formula $1$
+\end_inset
+
+,千分位上的数字是
+\begin_inset Formula $4$
+\end_inset
+
+,等等.
 \end_layout
 
 \begin_layout Standard
-①任何一个无限循坏小数都可以化成分数•今后在代敷第三册里将 要学到•
+在实际应用时,我们可以根据需要取无理数精确到某一位的近似值(不足近似值或者过剩近似值),这样得出的近似值是有限小数.例如,
 \end_layout
 
 \begin_layout Standard
-小数形式,我们不可能把它全部写出来,但是我们可以按照 某种法则确定它的任何一个数位上的数字,例如,我们用
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\sqrt{2}=1.41421\cdots$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-开平方的方法就可以确定的个位上的数字是t十分 位上的数字是4,百分位上的数字是1,千分位上的数字是 4,等等,
+因此,
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的精确到
+\begin_inset Formula $0.1$
+\end_inset
+
+,
+\begin_inset Formula $0.01$
+\end_inset
+
+,
+\begin_inset Formula $0.001$
+\end_inset
+
+,
+\begin_inset Formula $0.0001$
+\end_inset
+
+的不足近似值和过剩近似值,可以列表如下:
 \end_layout
 
 \begin_layout Standard
-在实际应用时,我们可以根据耑要取无理数精确到某 一位的近似值(不足近似值或者过剩近似值),这样得出的 近似值是有限小数.例如,
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+精确度
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.01$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.0001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的不足近似值
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.4$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.41$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.414$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.4142$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+的过剩近似值
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.42$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.415$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.4143$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+两个近似值的差
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.01$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.0001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(1) s/2 一1.41421一.
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\pi=3.14159263\cdots$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-因此,的精确到0.1,0.01,0.001, 0.0001的不 足近似值和过剩近似值,可以列表如下;
+因此,
+\begin_inset Formula $\pi$
+\end_inset
+
+的精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+,
+\begin_inset Formula $0.001$
+\end_inset
+
+,
+\begin_inset Formula $0.0001$
+\end_inset
+
+的不足近似值和过剩近似值,可以列表如下:
 \end_layout
 
 \begin_layout Standard
-粮确度 0.1 0.01 0.001 0.0001
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+精确度
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.01$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.0001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pi$
+\end_inset
+
+的不足近似值
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.14$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.141$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.1415$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\pi$
+\end_inset
+
+的过剩近似值
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.15$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.142$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.1416$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+两个近似值的差
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.01$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.0001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-^2"的不足近似值 1.4 1.41 1.414 1.4142
+从上面两个表里,我们可以看到,同样精确度的过剩近似值和不足近似值的差,等于所取的小数最末一位的一个单位.这祥,如果知道某一个无理数的不足近似值和过剩近似值中的任何
+一个,就可以得出另一个来.
 \end_layout
 
 \begin_layout Standard
-^的过剥近以值 1*5 1A2 1.415 1.4143
+例如,知道
+\begin_inset Formula $\sqrt{3}$
+\end_inset
+
+精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+的不足近似值是
+\begin_inset Formula $1.73$
+\end_inset
+
+,那末
+\begin_inset Formula $\sqrt{3}$
+\end_inset
+
+相应的过剩近似值就是
+\begin_inset Formula $1.73+0.01=1.74$
+\end_inset
+
+;如果知道
+\begin_inset Formula $\sqrt{3}$
+\end_inset
+
+精确到
+\begin_inset Formula $0.001$
+\end_inset
+
+的过剩近似值是
+\begin_inset Formula $1.733$
+\end_inset
+
+,那末
+\begin_inset Formula $\sqrt{3}$
+\end_inset
+
+相应的不足近似值就是
+\begin_inset Formula $1.733-0.001=1.732$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-.两个近似饉的差 0A 0,01 0-001 0.0001
-\end_layout
-
-\begin_layout Standard
-;2) = 3.14159263….
-\end_layout
-
-\begin_layout Standard
-因此,沈的精确到0.01, 0.001,0.0001的不足近似值 和过瘸近似值,可以列表如下:
-\end_layout
-
-\begin_layout Standard
-精确度 0.01 0.001 0.0001
-\end_layout
-
-\begin_layout Standard
-界的不足近似值 3.14 S.U1 3.1415
-\end_layout
-
-\begin_layout Standard
-3T的过剩近似值 3,15 3.U2 3.1416
-\end_layout
-
-\begin_layout Standard
-两个近似■■直的差 0.01 0.001 0,0001
-\end_layout
-
-\begin_layout Standard
-从上面两个表里,我们可以看到,同样精确度的过剩近 似值和不足近似值的差,等于所取的小数最末一位的一个 单位.这祥,如果知道某一个无理数的不足近似值和过剩
- 近似值中的任何一个,就可以得出另一个来,
-\end_layout
-
-\begin_layout Standard
-例如,知道VI精确到0.01的不足近似值是1.71
-\end_layout
-
-\begin_layout Standard
-习题 410
-\end_layout
-
-\begin_layout Standard
-那末相应的过剩近似值就是1.73+0.01 -1.74;如 果知道VI精确到0.00:[的过剩近似值是1.731那末 VT相应的不足近似值就是1.733一0.001
- = 1.732,
-\end_layout
-
-\begin_layout Standard
-一个无理数的准确值,永远介于它的不足近似値和过 剩近似俵之间,增加不足近似值和过剩近似值的小数位数, 就可以提高近似值的精确度.需要怎样精确度的近似值,
+一个无理数的准确值,永远介于它的不足近似值和过剩近似值之间,增加不足近似值和过剩近似值的小数位数,就可以提高近似值的精确度.需要怎样精确度的近似值,
  这就要由实际问题的件质来决定,
 \end_layout
 
 \begin_layout Standard
-1,回答下列各题,并且说明理由:
-\end_layout
+\begin_inset ERT
+status open
 
-\begin_layout Standard
-(1)整数是有理数吗？有理数都是鹋数吗？为什么？
-\end_layout
+\begin_layout Plain Layout
 
-\begin_layout Standard
-(2)小数是有理数吗？小数是无理数吗？为什么？
-\end_layout
 
-\begin_layout Standard
-(3)无限小数都是无理数吗？无理数都是无限小数吗？为什 么？
-\end_layout
-
-\begin_layout Standard
-(4)带根号的数都是无理数吗？为卄么？
-\end_layout
-
-\begin_layout Standard
-2-下列各数哪些是有理数？哪些是无理数？
-\end_layout
-
-\begin_layout Standard
-3,1416; sTfx VB; -VU; -3|1;
-\end_layout
-
-\begin_layout Standard
-0.3333- ■; 0.5714357143; -
 \backslash
-/l0; 2jt.
+bgroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EnumIndent
+回答下列各题,并且说明理由:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+整数是有理数吗？有理数都是整数吗？为什么？
+\end_layout
+
+\begin_layout EnumIndent
+小数是有理数吗？小数是无理数吗？为什么？
+\end_layout
+
+\begin_layout EnumIndent
+无限小数都是无理数吗？无理数都是无限小数吗？为什 么？
+\end_layout
+
+\begin_layout EnumIndent
+带根号的数都是无理数吗？为什么？
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+下列各数哪些是有理数？哪些是无理数？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $3,1416$
+\end_inset
+
+;
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\sqrt{8}$
+\end_inset
+
+;
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\sqrt{7}$
+\end_inset
+
+;
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\sqrt{\ensuremath{16}}$
+\end_inset
+
+;
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $-\sqrt{16}$
+\end_inset
+
+;
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $-3\cfrac{21}{31}$
+\end_inset
+
+;
 \end_layout
 
 \begin_layout Standard
-3.
- (1)求 crr = 3 J415汜6535…精确到 0,01,0.0001, 0.00001,
+\begin_inset Formula $0.3333\cdots$
+\end_inset
+
+;
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $0.5714357143$
+\end_inset
+
+;
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\sqrt{10}$
+\end_inset
+
+;
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $2\pi$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
-0.0000001的不足近似值和过剩近似値;
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
 \end_layout
 
-\begin_layout Standard
-(2)求精确到0.IU 0-01, 0.001, 0.0001的不足近似值和
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-过剩近似值.
+\begin_deeper
+\begin_layout EnumIndent
+求
+\begin_inset Formula $\pi=3.1415926535\cdots$
+\end_inset
+
+精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+,
+\begin_inset Formula $0.0001$
+\end_inset
+
+,
+\begin_inset Formula $0.00001$
+\end_inset
+
+,
+\begin_inset Formula $0.0000001$
+\end_inset
+
+的不足近似值和过剩近似值;
 \end_layout
 
-\begin_layout Standard
-[提示:先用开平方的方法计算的值.]
+\begin_layout EnumIndent
+求
+\begin_inset Formula $\sqrt{5}$
+\end_inset
+
+精确到
+\begin_inset Formula $0.1$
+\end_inset
+
+,
+\begin_inset Formula $0.01$
+\end_inset
+
+,
+\begin_inset Formula $0.001$
+\end_inset
+
+,
+\begin_inset Formula $0.0001$
+\end_inset
+
+的不足近似值和过剩近似值.
+\begin_inset Newline newline
+\end_inset
+
+[提示:先用开平方的方法计算
+\begin_inset Formula $\sqrt{5}$
+\end_inset
+
+的值.]
 \end_layout
 
-\begin_layout Standard
-4.
- (1)已知精确到0.01的不足近似值是1.6$求它的相
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
 \end_layout
 
-\begin_layout Standard
-应的过剩近似值;
+\end_inset
+
+
 \end_layout
 
+\begin_deeper
+\begin_layout EnumIndent
+已知
+\begin_inset Formula $\sqrt{2.71}$
+\end_inset
+
+精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+的不足近似值是
+\begin_inset Formula $1.64$
+\end_inset
+
+,求它的相应的过剩近似值;
+\end_layout
+
+\begin_layout EnumIndent
+已知
+\begin_inset Formula $\sqrt{22.146}$
+\end_inset
+
+精确到
+\begin_inset Formula $0.001$
+\end_inset
+
+的过剩近似值是
+\begin_inset Formula $4.706$
+\end_inset
+
+,求它的相应的不足近似值.
+\end_layout
+
+\end_deeper
 \begin_layout Standard
-(2)已知精确到0.001的过剩近似值是4.70A求它 的相应的不足近似值.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -7114,41 +7963,112 @@ n A 6 2 n 16 一t 15 1
 \end_layout
 
 \begin_layout Standard
-上两节里学过了无理数,这样,我们又把数的概念扩展 了,就是说,把数的范围从原来知道的有理数,增添了一种
+上两节里学过了无理数,这样,我们又把数的概念扩展了,就是说,把数的范围从原来知道的有理数,增添了一种新的数
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "2em"
+height "1pt"
+
+\end_inset
+
+无理数.
 \end_layout
 
 \begin_layout Standard
-新的数一一无理数.
-\end_layout
-
-\begin_layout Standard
-有理数和无理数总起来叫做实数.
+有理数和无理数总起来叫做
+\series bold
+实数
+\series default
+.
 \end_layout
 
 \begin_layout Standard
 我们把所学过的各种数,用下面的表表示出来:
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-f整数(正憝数,零,负整数〕1 r有理数 有限小数或者无限循环小数
+\noindent
+\begin_inset Formula $\begin{array}{cc}
+\text{实数\ensuremath{\Bigg\{}} & \begin{array}{ll}
+\text{有理数} & \begin{array}{l}
+\left\{ \begin{array}{l}
+\text{整数(正整数,零,负整数)}\\
+\text{分数(正分数,负分数)}
+\end{array}\right\} \begin{array}{c}
+\text{有限小数或者}\\
+\text{无限循环小数}
+\end{array}\end{array}\\
+\text{无理数} & (\text{正无理数,负无理数:无限不循环小数})
+\end{array}\end{array}$
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-实数| I分数OF.分数,负分数)J
+从这个表里,我们可以看出,实数都可以用有限小数或者无限小数表示;其中用无限不循环小数表示的数就是无 理数.
 \end_layout
 
 \begin_layout Standard
-.无理数(正无理数,负无浬数):无限不循环小效
-\end_layout
+在代数第一册里,我们知道,具有相反方向的量,可以分别用正有理数和负有理数来表示.对于无理数,同样也可以区分正无理数和负无理数.因此,对应于每一个正实数就有一个和它相
+反的负实数.例如,
+\begin_inset Formula $5$
+\end_inset
 
-\begin_layout Standard
-从这个表里,我们可以看出,实数都可以用有限小数或 者无限小数表示;其中用无限不循环小数表示的数就是无 理数,
-\end_layout
+和
+\begin_inset Formula $-5$
+\end_inset
 
-\begin_layout Standard
-在代数第一册里,我们知道,具有相反方向的量,可以 分别用正有理数和负有理数来表示.对于无理数,同样也 可以区分正无理数和负无理数.因此,对应于每一个正实
- 数就有一个和它相反的负实数.例如,5和一5是两个相 反的数,#和-VI也是两个相反的数,a和-w也是 两个相反的数.一般的说,如果《表示一个正实数,一a就
- 表示一个负实数.《和-《互为相反的数.0的相反数仍 旧是0.
+是两个相反的数,
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+和
+\begin_inset Formula $-\sqrt{2}$
+\end_inset
+
+也是两个相反的数,
+\begin_inset Formula $\pi$
+\end_inset
+
+和
+\begin_inset Formula $-\pi$
+\end_inset
+
+也是两个相反的数.一般的说,如果
+\begin_inset Formula $a$
+\end_inset
+
+表示一个正实数,
+\begin_inset Formula $-a$
+\end_inset
+
+就表示一个负实数.
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $-a$
+\end_inset
+
+互为相反的数.
+\begin_inset Formula $0$
+\end_inset
+
+的相反数仍旧是
+\begin_inset Formula $0$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -7156,27 +8076,46 @@ f整数(正憝数,零,负整数〕1 r有理数 有限小数或者无限循环小
 \end_layout
 
 \begin_layout Standard
-实数的绝对值的定义和有理数的一样:一个正实数的 绝对值就是它本身,一个负实数的绝对值是和它相反的数, 零的绝对值是例如二 一
+实数的绝对值的定义和有理数的一样:一个正实数的绝对值就是它本身,一个负实数的绝对值是和它相反的数, 零的绝对值是零.例如,
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $|\sqrt{2}|=\sqrt{2},\quad|-\sqrt{2}|=\sqrt{2},$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $|\pi|=\pi,\quad|-\pi|=\pi,\quad|0|=0$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-| | = ,卜 v^=v^,
+\noindent
+等.
 \end_layout
 
 \begin_layout Standard
-|？r| =^,丨一？rj=:7r,|0|=0
+一般地说,实数
+\begin_inset Formula $a$
+\end_inset
+
+的绝对值是:
 \end_layout
 
-\begin_layout Standard
-一般地说,实数《的绝对值是:
-\end_layout
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{cc}
+|a| & =\left\{ \begin{array}{rl}
+a & (\text{当\ensuremath{a>0}时}),\\
+0 & (\text{当\ensuremath{a=0}时}),\\
+-a & (\text{当\ensuremath{a<0}时}).
+\end{array}\right.\end{array}$
+\end_inset
 
-\begin_layout Standard
-* a (当 fl>0 时), 
-\backslash
-a
-\backslash
-0 (当 ce-0时), ^ [-« (当《<0时)_
+
 \end_layout
 
 \begin_layout Subsection
@@ -7184,59 +8123,145 @@ a
 \end_layout
 
 \begin_layout Standard
-在有理数里,我们已经学过,所有有理数都可以用数轴 上的点来表示.但是,数轴上所有的点并不都能用有理数 来表示.例如,在数轴上,从原点o起向右截取一线段0M
- (图4_1),使它的长度等于每边长是一个单位的正方形的 对角线的长.根据勾股定理,我们知道
+在有理数里,我们已经学过,所有有理数都可以用数轴上的点来表示.但是,数轴上所有的点并不都能用有理数来表示.例如,在数轴上,从原点
+\begin_inset Formula $O$
+\end_inset
+
+起向右截取一线段
+\begin_inset Formula $OM$
+\end_inset
+
+ (图4.1),使它的长度等于每边长是一个单位的正方形的对角线的长.根据勾股定理,我们知道
 \end_layout
 
-\begin_layout Standard
-0B2 = 0A2 + AB
-\backslash
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{l}
+OB^{2}=OA^{2}+AB^{2},\\
+\because\quad OA=AB=1,\\
+\therefore\quad OB^{2}=2,
+\end{array}$
+\end_inset
 
-\end_layout
 
-\begin_layout Standard
-•/ 0A=AE-1J
 \end_layout
 
 \begin_layout Standard
 那末
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $OB=\sqrt{2}$
+\end_inset
+
+.
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-就是01的长是VI个单位,所以点见就不能用有; 理数来表示.当我们引进无理数之后,数袖上的这种点,就| 可以用无理数来表汞,
+就是
+\begin_inset Formula $OM$
+\end_inset
+
+的长是
+\begin_inset Formula $\sqrt{2}$
+\end_inset
+
+个单位,所以点
+\begin_inset Formula $M$
+\end_inset
+
+就不能用有理数来表示.当我们引进无理数之后,数轴上的这种点,就可以用无理数来表示.
 \end_layout
 
 \begin_layout Standard
-B
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/images-176.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-囤4.1
+由此可以看到,数轴上的每一个点都可以用一个实数来表示它.
 \end_layout
 
 \begin_layout Standard
-由此可以看到,数轴上的每一个点都可以用一个实数
+反过来,每一个有理数都可以用数轴上的点来表示,同样,每一个无理数也都可以用数轴上的点来表示.这就是说,每一个实数都可以用数轴上的点来表示.
 \end_layout
 
 \begin_layout Standard
-来表示它.
+根据上面所说的,归结起来说,把数从有理数扩展到实数以后,数轴上的每一个点,都可以由唯一的一个实数来表示;反过来,每一个实数,都可以用数轴上的唯一的一个点来表示.换
+句话说,实数和数轴上的点是一一对应的.
 \end_layout
 
 \begin_layout Standard
-反过来,每一个有理数都可以用数轴上的点来表示,同; 样,每一个无理数也都可以用数轴上的点来表示.这躭是; 说,每一个实数都可以用数轴上的点来表汞,
-\end_layout
+由于每一个实数都可以用数轴上的唯一的一个点来表示,所以实数的绝对值也可以说是:实数
+\begin_inset Formula $a$
+\end_inset
 
-\begin_layout Standard
-根据上面所说的,归结起来说,把数从有理数扩展到实 数以后,数轴上的每一个点,都可以由唯一的一个实数来表 示;反过来,每一个实数,都可以用数轴上的唯一的一个点
- 来表示.换句话说,实数和数轴上的点是一一■对应的,
-\end_layout
+的绝对值
+\begin_inset Formula $|a|$
+\end_inset
 
-\begin_layout Standard
-由于每一个实数都可以用数轴上的唯…的一个点来表;
-\end_layout
+,就是在数轴上表示
+\begin_inset Formula $a$
+\end_inset
 
-\begin_layout Standard
-示,所以实数的绝对值也可以说是:实数a的绝对值k |,就 是在数轴上表示a这个点和原点间的距离.
+这个点和原点间的距离.
 \end_layout
 
 \begin_layout Subsection
@@ -7244,17 +8269,29 @@ B
 \end_layout
 
 \begin_layout Standard
-把有理数扩展到实数以后,在实数范围内四则运算总 可实施,它的运算结果还是实数.在进行实数的四则运算 时,前面学过的有理数的运算规律也同样适用> 特别要指
- 出,在有理数范围内,正数的开方运算不趕都能实施,而在 实数范围内,疋数的开方运算就都可以实施了,我们知道, 任何正数、负数或零的偶次乘方都不能是负数(或者叫做
-非 负数X因此,在实数范围内,负数珂以冇奇次方根,但是没 有偶次方根,例如,vi(«<o)、夕1等在实数 范围内都是没有意义的.
+把有理数扩展到实数以后,在实数范围内四则运算总可实施,它的运算结果还是实数.在进行实数的四则运算时,前面学过的有理数的运算规律也同样适用.特别要指出,在有理数范围内
+,正数的开方运算不是都能实施,而在实数范围内,正数的开方运算就都可以实施了.我们知道,任何正数、负数或零的偶次乘方都不能是负数(或者叫做非负数).因此,在实数范围内
+,负数可以有奇次方根,但是没有偶次方根,例如,
+\begin_inset Formula $\sqrt{-2}$
+\end_inset
+
+、
+\begin_inset Formula $\sqrt{a}(a<0)$
+\end_inset
+
+、
+\begin_inset Formula $\sqrt[4]{-5}$
+\end_inset
+
+等在实数范围内都是没有意义的.
 \end_layout
 
 \begin_layout Standard
-在实数运算中如果遇到元理有时需要根据问题的 要求,用它的近似值代替,然后进#计算.
+在实数运算中如果遇到无理数,有时需要根据问题的要求,用它的近似值代替,然后进行计算.
 \end_layout
 
 \begin_layout 例*
-例 计算:
+计算:
 \end_layout
 
 \begin_layout Standard
@@ -7267,7 +8304,7 @@ B
 \end_layout
 
 \begin_layout 解*
-[解] (1) 
+(1) 
 \backslash
 ^5~+^^2,286 + 3.142^5.38;
 \end_layout
