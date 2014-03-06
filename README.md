@@ -36,12 +36,13 @@ Email: <ccpaging@gmail.com>
 
 Help us 帮助该项目
 ----
-如果你要：  
-1. 纠错。  
-2. 参与 OCR 文件整理。  
-3. 整理成 MarkDown 文件  。
-4. 使用 LaTex / LYX 录入整理数学公式。  
-5. 其它 ...  
+如果你要：
+
+1. 纠错。
+2. 参与 OCR 文件整理。
+3. 整理成 MarkDown 文件。
+4. 使用 LaTex / LYX 录入整理数学公式。
+5. 其它 ...
 
 请发送电子邮件到 <ccpaging@gmail.com>
 
