@@ -2157,7 +2157,11 @@ egroup
 \text{负整数}
 \end{array}\\
 \text{\text{分数}} & \Big\{\begin{array}{l}
+<<<<<<< HEAD
 \text{正分数}\\
+=======
+\text{负分数}\\
+>>>>>>> 8e84615054c57df5c86a28444f79871b6f7fb067
 \text{负分数}
 \end{array}
 \end{array}\end{array}$
