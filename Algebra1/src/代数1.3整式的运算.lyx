@@ -16555,7 +16555,7 @@ status open
 
 \begin_layout CenterLine
 \begin_inset Formula $\begin{array}{ccr}
- & \leftarrow & 2\,\text{\boxed{-1+3}}\phantom{+3}\\
+ & \leftarrow & 2\,\boxed{-1+3}\phantom{+3}\\
 \mid & 1-1 & \sqrt{2-3+4-3}\\
 \mid &  & \underline{-2-1-3}\\
  & \rightarrow & -1+3\phantom{+3^{2}}

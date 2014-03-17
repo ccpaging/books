@@ -2831,7 +2831,7 @@ status open
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Formula $ab-a+b\text{－}1$
+\begin_inset Formula $ab-a+b-1$
 \end_inset
 
 .
@@ -6995,7 +6995,7 @@ cols=2,leftmargin=2em
 \end_layout
 
 \begin_layout EnumCols
-\begin_inset Formula $a^{2}\text{－}3ab+2b^{2}$
+\begin_inset Formula $a^{2}-3ab+2b^{2}$
 \end_inset
 
 .
