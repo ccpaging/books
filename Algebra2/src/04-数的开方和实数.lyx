@@ -8292,25 +8292,62 @@ centering
 
 \begin_layout 例*
 计算:
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-〔1) 精确到 o.oi);
-\end_layout
+(1)
+\begin_inset space \space{}
+\end_inset
 
-\begin_layout Standard
-(2) s/Txv^(精确到 0.01).
- ■
+
+\begin_inset Formula $\sqrt{5}+\pi$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+);
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\sqrt{3}\times\sqrt{2}$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+).
 \end_layout
 
 \begin_layout 解*
-(1) 
-\backslash
-^5~+^^2,286 + 3.142^5.38;
-\end_layout
+(1)
+\begin_inset space \space{}
+\end_inset
 
-\begin_layout Standard
-(2) s/Y X V 2'^ 1.732 x 1,414^ 2 (45#
+
+\begin_inset Formula $\sqrt{5}+\pi\approx2.236+3.142\approx5.38$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\sqrt{3}\times\sqrt{2}\approx1.732\times1.414\approx2.45$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -8318,45 +8355,158 @@ centering
 \end_layout
 
 \begin_layout Standard
-和有理数的情形一样,实数在数轴上表示出来以后t我 们仍旧可以利用数轴上的点的位置关系来规定怎样比较两 -3-个实数的大小•
+和有理数的情形一样,实数在数轴上表示出来以后,我们仍旧可以利用数轴上的点的位置关系来规定怎样比较两个实数的大小.
 \end_layout
 
 \begin_layout Standard
-__b _设有两个实数a和b,
-\end_layout
+\noindent
+\begin_inset Wrap figure
+lines 0
+placement L
+overhang 0in
+width "45text%"
+status open
 
-\begin_layout Standard
-A X并且设数轴上的2点表示
-\end_layout
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/images-177.png
+	lyxscale 80
+	scale 40
 
-\begin_layout Standard
-^ ^ 5 一2实数A忍点表示实数6
-\end_layout
+\end_inset
 
-\begin_layout Standard
-m 42 (图 4.2).
-\end_layout
 
-\begin_layout Standard
-* 174*
-\end_layout
+\begin_inset Caption
 
-\begin_layout Standard
-利用j, S两点在数袖上不同的位置关系,我们规定 实数的大小:
-\end_layout
-
-\begin_layout Standard
-如果A点在G点的左边,戏们说T U小于&,写成 a<h
-\backslash
+\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Standard
-如架乂点和B点蜇合,我们说a等于b,'运ma = h'
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-如果j点在〃点的右边,我们说,a大千b,写成 o’>1k
+设有两个实数
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $b$
+\end_inset
+
+,并且设数轴上的
+\begin_inset Formula $A$
+\end_inset
+
+点表示实数
+\begin_inset Formula $a$
+\end_inset
+
+,
+\begin_inset Formula $B$
+\end_inset
+
+点表示实数
+\begin_inset Formula $b$
+\end_inset
+
+(图
+\begin_inset space \space{}
+\end_inset
+
+4.2).
+\end_layout
+
+\begin_layout Standard
+利用
+\begin_inset Formula $A$
+\end_inset
+
+,
+\begin_inset Formula $B$
+\end_inset
+
+两点在数袖上不同的位置关系,我们规定实数的大小:
+\end_layout
+
+\begin_layout Standard
+如果
+\begin_inset Formula $A$
+\end_inset
+
+点在
+\begin_inset Formula $B$
+\end_inset
+
+点的左边,我们说,
+\begin_inset Formula $a$
+\end_inset
+
+小于
+\begin_inset Formula $b$
+\end_inset
+
+,写成
+\begin_inset Formula $a<b$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+如果
+\begin_inset Formula $A$
+\end_inset
+
+点和
+\begin_inset Formula $B$
+\end_inset
+
+点重合,我们说
+\begin_inset Formula $a$
+\end_inset
+
+等于
+\begin_inset Formula $b$
+\end_inset
+
+,写成
+\begin_inset Formula $a=b$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Standard
+如果
+\begin_inset Formula $A$
+\end_inset
+
+点在
+\begin_inset Formula $B$
+\end_inset
+
+点的右边,我们说,
+\begin_inset Formula $a$
+\end_inset
+
+大于
+\begin_inset Formula $b$
+\end_inset
+
+,写成
+\begin_inset Formula $a>b$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -8364,140 +8514,486 @@ m 42 (图 4.2).
 \end_layout
 
 \begin_layout Standard
-(1)任何正实数都大于零,任何负实数都小于零,任何 正实数都大于住何负实数,
+(1)
+\begin_inset space \space{}
+\end_inset
+
+任何正实数都大于零,任何负实数都小于零,任何正实数都大于任何负实数.
 \end_layout
 
 \begin_layout Standard
-(2)两个正实数比较大小,先比较整数部分,如果对应 数位上的数字都相同,那术这两个正实数相等;如果整数部 分不同,那末整数大的正实数较大;如果整数部分相同,而
- 小数第一位不同,那末小数第一位大的正实数较大;如果小 数第一位也相同,就比较第二位小数,那末小数第二位大的 正实数较大;以下依次类推.
+(2)
+\begin_inset space \space{}
+\end_inset
+
+两个正实数比较大小,先比较整数部分,如果对应数位上的数字都相同,那末这两个正实数相等;如果整数部分不同,那末整数大的正实数较大;如果整数部分相同,而小数第一位不
+同,那末小数第一位大的正实数较大;如果小数第一位也相同,就比较第二位小数,那末小数第二位大的正实数较大;以下依次类推.
 \end_layout
 
 \begin_layout Standard
-(3)两个负实数比较大小,看它们的绝对值,如果两个 负实数的绝对值相等,那末这两个负实数相等;如果两个负 实数的绝对值不等,那末绝对值大的负实数较小.
+(3)
+\begin_inset space \space{}
+\end_inset
+
+两个负实数比较大小,看它们的绝对值,如果两个负实数的绝对值相等,那末这两个负实数相等;如果两个负实数的绝对值不等,那末绝对值大的负实数较小.
 \end_layout
 
 \begin_layout Example
-比较4,7956和•的大小.
- 一
+比较
+\begin_inset Formula $4.7956$
+\end_inset
+
+和
+\begin_inset Formula $\sqrt{23}$
+\end_inset
+
+的大小.
 \end_layout
 
 \begin_layout 解*
-•/ V^ = 4.795S…,4,7956<4.7958…; 4.7956<
-\backslash
-/23,
+\begin_inset Formula $\because\quad\sqrt{23}=4.7958\cdots$
+\end_inset
+
+,
+\begin_inset Formula $4.7956<4.7958\cdots$
+\end_inset
+
+;
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad4.7956<\sqrt{23}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Example
-比较^和的大小.
+比较
+\begin_inset Formula $\pi$
+\end_inset
+
+和
+\begin_inset Formula $\cfrac{355}{113}$
+\end_inset
+
+的大小.
 \end_layout
 
 \begin_layout 解*
-Y jr = 3.1415926“.,|^| = 3.1415929-,
-\end_layout
+\begin_inset Formula $\because\quad\pi=3.1415926\cdots,\quad\cfrac{355}{113}=3.1415929\cdots$
+\end_inset
 
-\begin_layout Standard
-11d
-\end_layout
+;
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-而 3.1415926*..
- <3.1415929,
+而
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Formula $3.1415926\cdots<3.1415929$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad\pi<\cfrac{355}{113}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Example
-比较一VI5和一f的大小.
+比较
+\begin_inset Formula $-\sqrt{10}$
+\end_inset
+
+和
+\begin_inset Formula $-\cfrac{19}{6}$
+\end_inset
+
+的大小.
 \end_layout
 
 \begin_layout 解*
-一
-\backslash
-/lO 一一3.162…,一？ ^ 一一3,166…;
-\end_layout
+\begin_inset Formula $\because\quad-\sqrt{10}=-3.162\cdots,\quad-\cfrac{19}{6}=-3.166\cdots$
+\end_inset
 
-\begin_layout Standard
-o
-\end_layout
+;
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-而 一3,1.62…> 一3.166…,
-\end_layout
+而
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-o
+
+\begin_inset Formula $-3.162\cdots<-3.166\cdots$
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\therefore\quad-\sqrt{10}>-\cfrac{19}{6}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout 说明*
-在比较实数的大小时,小数位数需要计算几位,要看题 目的具体情况而定.例如在例1中,n/23要取ITO58 因为小数部分第一位、第二位、第三位和4.7956都相同,如
- 果不计算到小数第四位,就无法比较大小.又如例2,因为 小数部分第一位到第六位都相同,所以必须计算到第七位, 才能看出它们的大小.例4中,只要计算到小数部分第三
- 位就可以了.
+在比较实数的大小时,小数位数需要计算几位,要看题目的具体情况而定.例如在例1中,
+\begin_inset Formula $\sqrt{23}$
+\end_inset
+
+要取
+\begin_inset Formula $4.7958\cdots$
+\end_inset
+
+,因为小数部分第一位、第二位、第三位和
+\begin_inset Formula $4.7956$
+\end_inset
+
+都相同,如果不计算到小数第四位,就无法比较大小.又如例2,因为小数部分第一位到第六位都相同,所以必须计算到第七位, 才能看出它们的大小.例4中,只要计算到小数部分第
+三位就可以了.
 \end_layout
 
 \begin_layout Standard
-1.
- a>有理数都是实数吗？实数都是有理数吗？为什么？举例说
-\end_layout
+\begin_inset ERT
+status open
 
-\begin_layout Standard
-(2)无理数都是实数吗？实数都是无理数吗？为什么？举例说 明‘'
-\end_layout
+\begin_layout Plain Layout
 
-\begin_layout Standard
-2求出下列等式里的实数而
-\end_layout
 
-\begin_layout Standard
-a) 1一|; ⑶
-\end_layout
-
-\begin_layout Standard
-(3)丨工卜(4) |x|=d 3-计算:
-\end_layout
-
-\begin_layout Standard
-(1) V诏一如(楕确到0.01);
-\end_layout
-
-\begin_layout Standard
-(2) 
 \backslash
-Z7xvTc精确到 0.01)4
+bgroup
 \end_layout
 
-\begin_layout Standard
-^用不等式表示下列各组数的大小:
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-(1) 3.14159 和 3.1416; (2) 0_ 13762…和 0,13沉3…;
+\begin_layout 习题A
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
 \end_layout
 
-\begin_layout Standard
-[解法举例:3 ‘ 14159 <3.1416.]
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-(3) 5.368971...和 5.36七(4) 1.5 和一1.555 (5) 一2.5353一和一2,5:^^56...;
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+有理数都是实数吗？实数都是有理数吗？为什么？举例说明;
+\end_layout
+
+\begin_layout EnumIndent
+无理数都是实数吗？实数都是无理数吗？为什么？举例说明.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+求出下列等式里的实数
+\begin_inset Formula $x$
+\end_inset
+
+;
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2,leftmargin=0.5em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $|x|=\cfrac{3}{4}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|x|=0$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|x|=\sqrt{5}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $|x|=\pi$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+计算:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt{10}+\cfrac{1}{4}$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+);
+\end_layout
+
+\begin_layout EnumIndent
+\begin_inset Formula $\sqrt{5}\times\sqrt{2}$
+\end_inset
+
+(精确到
+\begin_inset Formula $0.01$
+\end_inset
+
+).
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+用不等式表示下列各组数的大小:
+\end_layout
+
+\begin_deeper
+\begin_layout EnumCols
+\begin_inset Argument
+status open
+
+\begin_layout Plain Layout
+cols=2,leftmargin=0.5em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $3.14159$
+\end_inset
+
+和
+\begin_inset Formula $3.1416$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $0.13762\cdots$
+\end_inset
+
+和
+\begin_inset Formula $0.13563\cdots$
+\end_inset
+
+;
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
-03) 
+[解法举例:
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $3.14159<3.1416$
+\end_inset
+
+.]
+\end_layout
+
+\end_deeper
+\begin_layout EnumCols
+\begin_inset Formula $5.368971\cdots$
+\end_inset
+
+和
+\begin_inset Formula $5.369$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $1.5$
+\end_inset
+
+和
+\begin_inset Formula $-1.555\cdots$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-2.5353\cdots$
+\end_inset
+
+和
+\begin_inset Formula $-2.535456\cdots$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $\sqrt{29}$
+\end_inset
+
+和
+\begin_inset Formula $5\cfrac{5}{13}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-\sqrt{3}$
+\end_inset
+
+和
+\begin_inset Formula $-1.731$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout EnumCols
+\begin_inset Formula $-\sqrt[3]{2}$
+\end_inset
+
+和
+\begin_inset Formula $-1.262$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+[*5.]
+\end_layout
+
+\end_inset
+
+把
+\begin_inset Formula $\sqrt{3}$
+\end_inset
+
+和
+\begin_inset Formula $-\sqrt{5}$
+\end_inset
+
+正确地在数轴上表示出来.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+[提示:利用直角三角形,根据勾段定理,先正确地求出
+\begin_inset Formula $\sqrt{3}$
+\end_inset
+
+和
+\begin_inset Formula $\sqrt{5}$
+\end_inset
+
+的线段长度来.例如,以
+\begin_inset Formula $1$
+\end_inset
+
+个单位长做直角三角形的一条直角边,
+\begin_inset Formula $2$
+\end_inset
+
+个单位长做斜边,那末另一条直角边的长就表示
+\begin_inset Formula $\sqrt{3}$
+\end_inset
+
+.然后在数轴上从原点起向右截取一段线段等于这条直角边的长.同样,以
+\begin_inset Formula $1$
+\end_inset
+
+个单位和
+\begin_inset Formula $2$
+\end_inset
+
+个单位长的线段做直角边,那末斜边的长就是
+\begin_inset Formula $\sqrt{5}$
+\end_inset
+
+.]
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
 \backslash
-/远和 5^^ (7) -v/T 和一
+egroup
 \end_layout
 
-\begin_layout Standard
-(8) -V2 和一1.262,
-\end_layout
+\end_inset
 
-\begin_layout Standard
-•5.把和~
-\backslash
-/了正确地在数轴上表示出来,
-\end_layout
 
-\begin_layout Standard
-[f示:利用直角三角形,根据勾段定理,先正确地求出J和 的线叚长度来.例如,以1个单位长锨直角三角形的一条 直3边,2个单位长做釦边,那来另一条直角边的长就表示
- VT.然后在数轴上从原点起向右截钗一段线段等亍这条直角 边的长.同样,以1个单位和2个单位长的线段做直角边,那末 斜边的长就是#.]
 \end_layout
 
 \begin_layout Section-toc*
@@ -8505,141 +9001,347 @@ Z7xvTc精确到 0.01)4
 \end_layout
 
 \begin_layout EnumIndent
-1方根的性质
+
+\series bold
+方根的性质
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+被开方数
+\begin_inset Formula $a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+根指数
+\begin_inset Formula $n$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+方 根
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a>0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n$
+\end_inset
+
+是奇数
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ 只有一个正数
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n$
+\end_inset
+
+是偶数
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ 有两个互为相反的数
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a=0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n$
+\end_inset
+
+是奇数或偶数 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+零
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a<0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n$
+\end_inset
+
+是奇数
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+只有一个负数
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n$
+\end_inset
+
+是偶数
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+没有意义
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+
+\series bold
+算术平方根
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $\sqrt{a^{2}}=|a|=\begin{cases}
+a & (\text{当}a\geqslant0\text{的时候}),\\
+-a & (\text{当}a<0\text{的时候}).
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+
+\series bold
+数的开平方
+\end_layout
+
+\begin_deeper
+\begin_layout EnumIndent
+利用逆运算关系(适用于一些简单的完全平方数);
 \end_layout
 
 \begin_layout EnumIndent
-被开方数a 根指数》 方 根
+一般方法;
 \end_layout
 
 \begin_layout EnumIndent
-™是奇数 只有一个IE数
+查平方根表法.
+\end_layout
+
+\end_deeper
+\begin_layout EnumIndent
+
+\series bold
+数的开立方
+\series default
+
+\begin_inset space \quad{}
+\end_inset
+
+查立方根表法.
 \end_layout
 
 \begin_layout EnumIndent
-ff >U w是偶数 有两个互为相反的数
-\end_layout
 
-\begin_layout EnumIndent
-a=0 竹是奇数或偶数 
-\end_layout
-
-\begin_layout EnumIndent
-o<0 ft是奇数 只有一个负数
-\end_layout
-
-\begin_layout EnumIndent
-«是偶数 没有意义
-\end_layout
-
-\begin_layout EnumIndent
-2算术平方根
-\end_layout
-
-\begin_layout EnumIndent
-a (当炫>0的时候), l-a (当a<0的时候)•
-\end_layout
-
-\begin_layout EnumIndent
-3数的开平方
-\end_layout
-
-\begin_layout EnumIndent
-(1)利用逆运算关系(适用于一些简单的完全平方
-\end_layout
-
-\begin_layout EnumIndent
-(2) 一般方法;
-\end_layout
-
-\begin_layout EnumIndent
-(3)查乎方根表法.
-\end_layout
-
-\begin_layout EnumIndent
-4.数的开立方查立方根表法.
-\end_layout
-
-\begin_layout EnumIndent
-5.实数
-\end_layout
-
-\begin_layout EnumIndent
-IT7
-\end_layout
-
-\begin_layout EnumIndent
-(1)无理数的意义;无理数的不足近似值和过剩近似
-\end_layout
-
-\begin_layout EnumIndent
-值,
-\end_layout
-
-\begin_layout EnumIndent
-(2)实数的分类
-\end_layout
-
-\begin_layout EnumIndent
+\series bold
 实数
 \end_layout
 
+\begin_deeper
 \begin_layout EnumIndent
-右理数
+无理数的意义;无理数的不足近似值和过剩近似值.
 \end_layout
 
 \begin_layout EnumIndent
-止:有理数
+实数的分类
 \end_layout
 
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Formula $\text{实数}\begin{cases}
+\text{有理数} & \begin{cases}
+\text{正有理数} & \Bigg\{\begin{array}{l}
+\text{正整数(\text{就是自然数})}\\
+\text{正分数(包括正有限小数}\\
+\quad\text{或者正无限循环小数)}
+\end{array}\\
+\text{零}\\
+\text{负有理数} & \Bigg\{\begin{array}{l}
+\text{负整数}\\
+\text{负分数(包括负有限小数}\\
+\quad\text{或者负无限循环小数)}
+\end{array}
+\end{cases}\\
+\text{无理数} & \Big\{\begin{array}{l}
+\text{正无理数}\\
+\text{负无理数}
+\end{array}
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout EnumIndent
-负有理数
+实数的绝对值
 \end_layout
 
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Formula $|a|=\begin{cases}
+a & (\text{当}a>0\text{时}),\\
+0 & (\text{当}a=0\text{时}),\\
+-a & (\text{当}a<0\text{时}).
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout EnumIndent
-无理数{
+实数和数轴上的点的一一对应关系.
 \end_layout
 
-\begin_layout EnumIndent
-(3)实数的绝对值
-\end_layout
-
-\begin_layout EnumIndent
-正无理数 负无理数
-\end_layout
-
-\begin_layout EnumIndent
-正整数(就娃自然数) 正分数(包括正有限小数 或者正无限循环小数)
-\end_layout
-
-\begin_layout EnumIndent
-负整数
-\end_layout
-
-\begin_layout EnumIndent
-负分数(包括负有限小数 或者负无限循环小数)
-\end_layout
-
-\begin_layout EnumIndent
-a (当 a>0 时),
-\end_layout
-
-\begin_layout EnumIndent
-
-\backslash
-a 
-\backslash
- 0 (当 a = 0 时),
-\end_layout
-
-\begin_layout EnumIndent
-一a (当 a<0 时)•
-\end_layout
-
-\begin_layout EnumIndent
-(4)实数和数轴上的点的一一对应关系.
-\end_layout
-
+\end_deeper
 \begin_layout Section-toc*
 复习题四
 \begin_inset space \space{}
