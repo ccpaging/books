@@ -10,8 +10,8 @@
 \language_package default
 \inputencoding utf8-plain
 \fontencoding global
-\font_roman 微软雅黑
-\font_sans 微软雅黑
+\font_roman default
+\font_sans default
 \font_typewriter default
 \font_default_family default
 \use_non_tex_fonts true
@@ -22,7 +22,7 @@
 
 \graphics default
 \default_output_format pdf4
-\output_sync 0
+\output_sync 1
 \bibtex_command default
 \index_command default
 \float_placement h
@@ -35,7 +35,7 @@
 \pdf_bookmarksopenlevel 1
 \pdf_breaklinks true
 \pdf_pdfborder true
-\pdf_colorlinks false
+\pdf_colorlinks true
 \pdf_backref false
 \pdf_pdfusetitle true
 \pdf_quoted_options "colorlinks=true,linkcolor=blue"
@@ -50,7 +50,7 @@
 \use_indices false
 \paperorientation portrait
 \suppress_date false
-\use_refstyle 1
+\use_refstyle 0
 \index Index
 \shortcut idx
 \color #008000

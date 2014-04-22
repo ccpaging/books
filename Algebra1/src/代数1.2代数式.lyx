@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass 数理化自学丛书－代数
@@ -13,13 +13,13 @@
 \font_roman default
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -41,15 +41,24 @@
 \pdf_quoted_options "colorlinks=true,linkcolor=blue"
 \papersize a5paper
 \use_geometry false
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -1945,9 +1954,9 @@ egroup
 (1)
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="2">
-<features tabularvalignment="top">
+<features rotate="0" tabularvalignment="top">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -2031,9 +2040,9 @@ egroup
 (2)
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="2">
-<features tabularvalignment="top">
+<features rotate="0" tabularvalignment="top">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -2334,15 +2343,15 @@ status open
 
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="9">
-<features tabularvalignment="middle">
+<features rotate="0" tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
 <column alignment="center" valignment="top" width="0pt">
 <row bottomspace="1ex">
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -2662,7 +2671,7 @@ status open
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -2719,7 +2728,7 @@ start=2
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -2752,7 +2761,7 @@ cols=2
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -2801,7 +2810,7 @@ cols=2
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -2850,7 +2859,7 @@ cols=2
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -2899,7 +2908,7 @@ cols=2
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -2931,13 +2940,13 @@ cols=2
 
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="7">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
 <column alignment="center" valignment="top" width="0pt">
 <row bottomspace="1ex">
 <cell alignment="center" valignment="top" topline="true" usebox="none">
@@ -3767,7 +3776,7 @@ egroup
 \end_layout
 
 \begin_layout Section
-整式和分式 
+整式和分式
 \end_layout
 
 \begin_layout Standard
@@ -3945,7 +3954,7 @@ status open
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -4919,9 +4928,9 @@ status open
 
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="3">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0">
-<column alignment="left" valignment="top" width="0">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
 <column alignment="left" valignment="top" width="0pt">
 <row>
 <cell alignment="left" valignment="top" usebox="none">
@@ -5012,7 +5021,7 @@ status open
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -6282,7 +6291,7 @@ status open
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -6334,7 +6343,7 @@ cols=2
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -6385,7 +6394,7 @@ cols=2
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -7016,7 +7025,7 @@ status open
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -7076,7 +7085,7 @@ cols=4
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -7124,7 +7133,7 @@ cols=4
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -7421,8 +7430,8 @@ A
 \begin_layout EnumIndent
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="2">
-<features tabularvalignment="top">
-<column alignment="center" valignment="top" width="0">
+<features rotate="0" tabularvalignment="top">
+<column alignment="center" valignment="top">
 <column alignment="left" valignment="top" width="0pt">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -7493,8 +7502,8 @@ A
 \begin_layout EnumIndent
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="2">
-<features tabularvalignment="top">
-<column alignment="center" valignment="top" width="0">
+<features rotate="0" tabularvalignment="top">
+<column alignment="center" valignment="top">
 <column alignment="left" valignment="top" width="0pt">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -7621,7 +7630,7 @@ A
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -7665,7 +7674,7 @@ cols=4
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -7733,7 +7742,7 @@ cols=2
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -7763,7 +7772,7 @@ cols=2
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -7797,7 +7806,7 @@ cols=2
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -7874,8 +7883,8 @@ B
 \begin_layout EnumIndent
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="2">
-<features tabularvalignment="top">
-<column alignment="center" valignment="top" width="0">
+<features rotate="0" tabularvalignment="top">
+<column alignment="center" valignment="top">
 <column alignment="left" valignment="top" width="0pt">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -7946,8 +7955,8 @@ B
 \begin_layout EnumIndent
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="2">
-<features tabularvalignment="top">
-<column alignment="center" valignment="top" width="0">
+<features rotate="0" tabularvalignment="top">
+<column alignment="center" valignment="top">
 <column alignment="left" valignment="top" width="0pt">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -8082,7 +8091,7 @@ B
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -8463,7 +8472,7 @@ cols=2
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -8475,8 +8484,8 @@ start=3
 
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="2">
-<features tabularvalignment="top">
-<column alignment="center" valignment="top" width="0">
+<features rotate="0" tabularvalignment="top">
+<column alignment="center" valignment="top">
 <column alignment="left" valignment="top" width="0pt">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -8547,8 +8556,8 @@ start=3
 \begin_layout EnumIndent
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="2">
-<features tabularvalignment="top">
-<column alignment="center" valignment="top" width="0">
+<features rotate="0" tabularvalignment="top">
+<column alignment="center" valignment="top">
 <column alignment="left" valignment="top" width="0pt">
 <row>
 <cell alignment="center" valignment="top" usebox="none">

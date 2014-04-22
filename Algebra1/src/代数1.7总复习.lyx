@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass 数理化自学丛书－代数
@@ -13,13 +13,13 @@
 \font_roman 微软雅黑
 \font_sans 微软雅黑
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -41,15 +41,24 @@
 \pdf_quoted_options "colorlinks=true,linkcolor=blue"
 \papersize a5paper
 \use_geometry false
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -189,7 +198,7 @@
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -203,7 +212,7 @@ start=5
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -410,7 +419,7 @@ status open
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -562,7 +571,7 @@ start=11
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -737,7 +746,7 @@ start=21
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -824,7 +833,7 @@ start=35
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -866,7 +875,7 @@ start=42
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -1019,7 +1028,7 @@ status open
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -1049,7 +1058,7 @@ cols=2
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -1122,7 +1131,7 @@ cols=2
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -1171,7 +1180,7 @@ start=58
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -1227,7 +1236,7 @@ start=69
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -1330,7 +1339,7 @@ start=75
 \end_layout
 
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -1415,7 +1424,7 @@ cols=2,leftmargin=2em,resume
 \end_layout
 
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -1711,7 +1720,7 @@ cols=2,leftmargin=2em,resume
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -1830,7 +1839,7 @@ start=16
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -2249,7 +2258,7 @@ status open
 
 \begin_deeper
 \begin_layout EnumCols
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
@@ -2288,7 +2297,7 @@ status open
 \end_layout
 
 \begin_layout EnumIndent
-\begin_inset Argument
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
