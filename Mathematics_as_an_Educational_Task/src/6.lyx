@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass 作为教育任务的数学
@@ -12,13 +12,13 @@
 \font_roman 方正北魏楷书_GB18030
 \font_sans 方正北魏楷书_GB18030
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -40,15 +40,24 @@
 \pdf_quoted_options "colorlinks=true,linkcolor=blue"
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -279,7 +288,7 @@ Neumann）曾经说过：“在证明一个定理之前的两个星期，你就�
 \end_inset
 
 ”，还常常喜欢用“作一个代入……”和“我们将表明……”这类话。虽然这些短语很肤浅，但却表明了我们无法保持现成的数学的虚构性。当然也不应该忘记总有一些天才的数学家
-，他能以一定的书写形式，使读者看到了他所创造的数学的假象T他们的作品完美得使你可以从第一个字读到最后一个字。以前有不少这类好书，不知今天是否仍然存在这类文献。
+，他能以一定的书写形式，使读者看到了他所创造的数学的假象，他们的作品完美得使你可以从第一个字读到最后一个字。以前有不少这类好书，不知今天是否仍然存在这类文献。
 \end_layout
 
 \begin_layout Standard
