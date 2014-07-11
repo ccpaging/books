@@ -89,7 +89,7 @@
 \begin_body
 
 \begin_layout Chapter
-根 式
+根式
 \end_layout
 
 \begin_layout Section
@@ -97,88 +97,281 @@
 \end_layout
 
 \begin_layout Standard
-在第四章里,我们知道,如果$就叫做《的w次 方根‘当n是奇数的时候,》可以是任何实数,并且规定用 d{n为奇数)来表示这个方根;当n是偶数的时候,«可
- 以是任何正实数或者零,并且规定用为偶数)表示 正的一个方根,用—为偶数)表示负的一个方根.
- 我们把表示方根的代数式叫做格式.例如,4^.
+在第四章里,我们知道,如果
+\begin_inset Formula $x^{n}=a$
+\end_inset
+
+,就叫做
+\begin_inset Formula $a$
+\end_inset
+
+的
+\begin_inset Formula $n$
+\end_inset
+
+次方根.当
+\begin_inset Formula $n$
+\end_inset
+
+是奇数的时候,
+\begin_inset Formula $a$
+\end_inset
+
+可以是任何实数,并且规定用
+\begin_inset Formula $\sqrt[n]{a}$
+\end_inset
+
+(
+\begin_inset Formula $n$
+\end_inset
+
+为奇数)来表示这个方根;当
+\begin_inset Formula $n$
+\end_inset
+
+是偶数的时候,
+\begin_inset Formula $a$
+\end_inset
+
+可以是任何正实数或者零,并且规定用
+\begin_inset Formula $\sqrt[n]{a}$
+\end_inset
+
+(
+\begin_inset Formula $n$
+\end_inset
+
+为偶数)表示正的一个方根,用
+\begin_inset Formula $-\sqrt[n]{a}$
+\end_inset
+
+(
+\begin_inset Formula $n$
+\end_inset
+
+为偶数)表示负的一个方根.
 \end_layout
 
 \begin_layout Standard
-^ x ^ W+l, V疋一女等都是根式.
+我们把表示方根的代数式叫做
+\series bold
+根式
+\series default
+.例如,
+\begin_inset Formula $\sqrt{3},\sqrt[3]{5},\sqrt[4]{\cfrac{3}{4}},\sqrt{x},\sqrt{a^{2}+1},\sqrt[3]{x-y}$
+\end_inset
+
+等都是根式.
+\end_layout
+
+\begin_layout 注意*
+我们也把式子
+\begin_inset Formula $b\sqrt[n]{a}$
+\end_inset
+
+叫做根式,这里,
+\begin_inset Formula $b$
+\end_inset
+
+叫做根式的系数.
 \end_layout
 
 \begin_layout Standard
-我们也把式子6^叫做根式,这里,6叫做根式的 系数,
+我们知道,负数的偶次方根没有意义,因此,在式子
+\begin_inset Formula $\sqrt[n]{a}$
+\end_inset
+
+里如果根指数
+\begin_inset Formula $n$
+\end_inset
+
+是偶数而被开方数
+\begin_inset Formula $a$
+\end_inset
+
+是负数,在实数范围里没有意义,例如,
+\begin_inset Formula $\sqrt{-3},\sqrt[4]{-\cfrac{3}{4}},\sqrt{-(x^{2}+1)}$
+\end_inset
+
+等在实数范围里没有意义.
 \end_layout
 
-\begin_layout Standard
-—我们知道,负数的偶次方根没有意义,因此,在式子 里如果根指数n是偶数而被开方数《是负数,在实数
+\begin_layout Example
+设
+\begin_inset Formula $x,y$
+\end_inset
+
+都是实数,下列各式在什么条件下才有意义？
 \end_layout
 
-\begin_layout Standard
-范围里没有意义,例如,H V-(?+i)等
+\begin_layout EnumCol2-idt
+\begin_inset Formula $\sqrt{x}$
+\end_inset
+
+;
 \end_layout
 
-\begin_layout Standard
-在实数范围里没有意义.
+\begin_layout EnumCol2-idt
+\begin_inset Formula $\sqrt[3]{x}$
+\end_inset
+
+;
 \end_layout
 
-\begin_layout Standard
-设A V都是实数,下列各式在什么条件下才有意义7
+\begin_layout EnumCol2-idt
+\begin_inset Formula $\sqrt{1-y}$
+\end_inset
+
+;
 \end_layout
 
-\begin_layout Standard
-(1) ⑶ s/^j
+\begin_layout EnumCol2-idt
+\begin_inset Formula $\sqrt{\cfrac{1}{x}}$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
-⑶ v^; (4)
+\begin_layout 解*
+(1)
+\begin_inset space \space{}
+\end_inset
+
+因为根指数是偶数,所以
+\begin_inset Formula $x$
+\end_inset
+
+必须是任何正实数或者零.
+\begin_inset Newline newline
+\end_inset
+
+(2)
+\begin_inset space \space{}
+\end_inset
+
+因为根指数是奇数,所以
+\begin_inset Formula $x$
+\end_inset
+
+可以是任何实数.
+\begin_inset Newline newline
+\end_inset
+
+(3)
+\begin_inset space \space{}
+\end_inset
+
+因为根指数是偶数,所以
+\begin_inset Formula $1-y$
+\end_inset
+
+必须大于
+\begin_inset Formula $0$
+\end_inset
+
+或者等于
+\begin_inset Formula $0$
+\end_inset
+
+,就是
+\begin_inset Formula $1-y\geqslant0$
+\end_inset
+
+.解这个不等式,得到
+\begin_inset Formula $y\leqslant1$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Phantom HPhantom
+status open
+
+\begin_layout Plain Layout
+(3)
+\begin_inset space \space{}
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-(1)因为根指数是偶数,所以$必须是任何正实数或 者零.
+\end_inset
+
+因此,
+\begin_inset Formula $y$
+\end_inset
+
+可以是不大于
+\begin_inset Formula $1$
+\end_inset
+
+的正实数.
+\begin_inset Newline newline
+\end_inset
+
+(4)
+\begin_inset space \space{}
+\end_inset
+
+因为根指数是偶数,所以
+\begin_inset Formula $\cfrac{1}{x}$
+\end_inset
+
+必须大于
+\begin_inset Formula $0$
+\end_inset
+
+或者等于
+\begin_inset Formula $0$
+\end_inset
+
+.但是
+\begin_inset Formula $\cfrac{1}{x}$
+\end_inset
+
+不能等于
+\begin_inset Formula $0$
+\end_inset
+
+,所以
+\begin_inset Formula $\cfrac{1}{x}>0$
+\end_inset
+
+.解这个不等式得到
+\begin_inset Formula $x>0$
+\end_inset
+
+.因此,
+\begin_inset Formula $x$
+\end_inset
+
+可以是任何正实数.
 \end_layout
 
-\begin_layout Standard
-(2)因为根指数是奇数,所以-可以是任何实数.
+\begin_layout Example
+\begin_inset Formula $x$
+\end_inset
+
+是什么数值的时候,下列各式才有意义:
 \end_layout
 
-\begin_layout Standard
-(3)因为根指数是偶敫,所以1 一^/必须大于0或者等 于丨就是1 —解这个不等式7得到2/<l.
+\begin_layout EnumCol2-idt
+\begin_inset Formula $\sqrt{1+x^{2}}$
+\end_inset
+
+;
 \end_layout
 
-\begin_layout Standard
-因此,3/可以是不大于1的正实数.
+\begin_layout EnumCol2-idt
+\begin_inset Formula $\cfrac{1}{\sqrt[3]{x-1}}$
+\end_inset
+
+.
 \end_layout
 
-\begin_layout Standard
-(4)因为根指数是偶数,所以1必须大于0或者等于
-\end_layout
-
-\begin_layout Standard
-(C
-\end_layout
-
-\begin_layout Standard
-0.但是1不能等于0,所以丄>0.解这个不等式得到
-\end_layout
-
-\begin_layout Standard
-3? 0}
-\end_layout
-
-\begin_layout Standard
-因此,$可以是任何正实数.
-\end_layout
-
-\begin_layout Standard
-^是什么数值的时候。下列各式才有意义:
-\end_layout
-
-\begin_layout Standard
-⑴ n/i+p; ⑶
-\end_layout
-
-\begin_layout Standard
+\begin_layout 解*
 (1)因为不论^是什么实数,护都不是负数,所以 i+w>o,因此,当$是任何实数时,都有意义.
 \end_layout
 
