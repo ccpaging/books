@@ -156,6 +156,16 @@
 \end_layout
 
 \begin_layout Standard
+\begin_inset Graphics
+	filename images/27.png
+	width 98text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 在我们所出的难题中，只有一条公理，推导的规则是简单明了的，构造定理树也不困难。按理说定理的判定是可以做到的，但是判定的结果并不是显而易见的。不少读者大概仍然无法
 判定，MU是不是系统中的一条定理。
 \end_layout
@@ -184,36 +194,119 @@
 我们以MIU系统为例，可以在系统的特号与数字之间建立这样的对应关系：
 \end_layout
 
-\begin_layout Standard
-M&lt;————&gt;3
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="right" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+M
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Longleftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Longleftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+     U
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Longleftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-I&lt;————&gt;1
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-U&lt;————&gt;0
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
+\noindent
 这种对应关系完全是任意的。我们称这些数为哥德尔数。
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -221,43 +314,55 @@ U&lt;————&gt;0
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 现在设m、n为任意的自然数。于是这几条规则的算术运算就可以表述成：
 \end_layout
 
 \begin_layout Standard
+1．如果生成了
+\begin_inset Formula $10m+1$
+\end_inset
 
+，就可以生成
+\begin_inset Formula $10×(10m+1)$
+\end_inset
+
+。
 \end_layout
 
 \begin_layout Standard
-1．如果生成了10m十l，就可以生成10×(10m十1)。
+2．如果生成了
+\begin_inset Formula $3×10^{m}+n$
+\end_inset
+
+，就可以生成
+\begin_inset Formula $10m×(3×10^{m}+n)+n$
+\end_inset
+
+。
 \end_layout
 
 \begin_layout Standard
+3．如果生成了
+\begin_inset Formula $k×10^{m+3}+111×10^{m}+n$
+\end_inset
 
+，就可以生成
+\begin_inset Formula $k×10^{m+1}+n$
+\end_inset
+
+。
 \end_layout
 
 \begin_layout Standard
-2．如果生成了3×10m十n，就可以生成10m×(3×10m十n)十n。
-\end_layout
+4．如果生成了
+\begin_inset Formula $k×10^{m+2}+n$
+\end_inset
 
-\begin_layout Standard
+，就可以生成
+\begin_inset Formula $k×10^{m}+n$
+\end_inset
 
-\end_layout
-
-\begin_layout Standard
-3．如果生成了k×l0m+3十111×10m十n，就可以生成k×10m+1十n。
-\end_layout
-
-\begin_layout Standard
-4．如果生成了k×l0m+2十n，就可以生成k×10m十n。
-\end_layout
-
-\begin_layout Standard
-
+。
 \end_layout
 
 \begin_layout Standard
@@ -265,10 +370,7 @@ U&lt;————&gt;0
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
+\noindent
 这样的算术系统称为310系统。在这个算术系统中，可以生成的数起着形式系统的定理的作用。因此，问题就归结为，在这样的系统中能否出现30这个数？按照我们已经作出的分
 析，这是不可能的。
 \end_layout
@@ -281,16 +383,8 @@ U&lt;————&gt;0
 单调的体操动作可以使我们的体格强壮。看起来乏味的形式推理对于我们的思维也是不可缺少的。希望读者也能逐渐熟悉和运用形式系统。
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Section
 一致性和完备性
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -300,25 +394,13 @@ U&lt;————&gt;0
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 当然，可以有各种各样的一致性。逻辑上的一致性要求避免逻辑上的矛盾，这是形式逻辑的基础。数学上的一致性不容许出现违背数学理论的那些描述。物理学上的一致性则要求对物
 理现象的解释与物理定律密切配合。还有生物学上的一致性等等。不过一般来讲，人们感兴趣的往往是数学与逻辑的一致性同物理学上一致性的差别。
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 逻辑与数学的一致性也就是形式系统内部的一致性，就是说对于系统内所有定理的解释不会产生矛盾。物理学上的一致性则是指形式系统与外部世界的一致性。这两种一致性在形式系
 统中是密切联系在一起的。
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -330,6 +412,12 @@ U&lt;————&gt;0
 \end_layout
 
 \begin_layout Standard
+\begin_inset Graphics
+	filename images/8.jpg
+	scale 70
+
+\end_inset
+
 
 \end_layout
 
@@ -339,18 +427,10 @@ U&lt;————&gt;0
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 如果说一致性是形式系统成立的基础，是保证一个形式系统中每个定理都有意义的必要条件，那么完备性就是对有意义的那些定理的最大程度确认。一致性表明形式系统的这种性质：
 “该系统中生成的每个定理都是真的。”完备性则指出：“每个为真的定理都在该系统之内。”完备性也叫完全性，同样不是一种显而易见的性质。欧几里得的《几何原本》提供了欧
 氏几何的公理系统，是数学理论中影响最深远的范本。但是它并不是完备的。希尔伯特在20世纪才把这个不完备的公理系统变成了完备的公理系统。他的不朽之作《几何基础》是一
 部重要的数学著作。希尔伯特明确地提出了关于公理系统的一致性、完备性和独立性的概念，并且以这些概念为基础来构造严密的数学理论。他是数学形式主义学派当之无愧的领袖。
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Section
@@ -358,15 +438,7 @@ U&lt;————&gt;0
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 我们知道了什么是形式系统中的定理和规则，有了一致性和完备性的概念，就可以进一步讨论形式系统的整体结构，讨论系统中的系统。还是以我们比较熟悉的几何学理论系统为例。
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -380,6 +452,12 @@ U&lt;————&gt;0
 \end_layout
 
 \begin_layout Standard
+\begin_inset Graphics
+	filename images/7.jpg
+	scale 70
+
+\end_inset
+
 
 \end_layout
 
@@ -390,17 +468,9 @@ U&lt;————&gt;0
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 在形式系统中，有些符号是加以定义的，有的却没有。我们已经提到，在欧几里得几何学中，有许多未加定义的术语。因此我们可以把欧氏几何与非欧几何中的术语分为两类。一类词
 汇具有固定的定义，是不能变通的。另一类则是末加定义的术语，它们的意义可以加以调节，从而保持整个系统的一致性。几何学需要有些第一类的词汇，它们是在几何学之外加以定
 义的。这些词汇构成了框架，而在这个框架中可以填充其他的材料。既可以填进欧几里得几何的材料，也可以填进非欧几何的材料。
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -408,10 +478,6 @@ U&lt;————&gt;0
 形式系统嵌入另一个更大的形式系统。例如，我们把形式系统1嵌入形式系统2。那就意味着，形式系统1中的公理和规则在形式系统2中仍然成立，是构成新系统的基础。但是在形
 式系统2中可以增添形式系统1中所没有的新公理或新的规则。需要补充的一点是，在一个形式系统中增加新的定理未必能构成能力更大的系统。关于这一点以后还要进一步加以阐述
 。
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Section
@@ -428,32 +494,32 @@ U&lt;————&gt;0
 它们的含义并不因此而受到影响。运用我们前面讲到的同构方法，读者很容易在这些不同的符号系统之间建立一一对应的关系。我们这里采用的符号表是：
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
+＜
+\begin_inset space \quad{}
+\end_inset
 
+＞
 \end_layout
 
-\begin_layout Standard
-＜＞
-\end_layout
-
-\begin_layout Standard
+\begin_layout CenterLine
 PQR'
 \end_layout
 
-\begin_layout Standard
-∧∨～
+\begin_layout CenterLine
+∧∨
+\begin_inset Formula $\supset$
+\end_inset
+
+～
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
+[
+\begin_inset space \qquad{}
+\end_inset
 
-\end_layout
-
-\begin_layout Standard
-[]
-\end_layout
-
-\begin_layout Standard
-
+]
 \end_layout
 
 \begin_layout Standard
@@ -461,65 +527,73 @@ PQR'
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 可以按照下面4种方法由良构的命题生成新的良构命题。
 \end_layout
 
 \begin_layout Standard
+(1)
+\begin_inset space \space{}
+\end_inset
 
+～x
+\begin_inset space \qquad{}
+\end_inset
+
+x的否定
 \end_layout
 
 \begin_layout Standard
-(1)～xx的否定
+(2)
+\begin_inset space \space{}
+\end_inset
+
+＜x∧y＞
+\begin_inset space \qquad{}
+\end_inset
+
+x与y的合取
 \end_layout
 
 \begin_layout Standard
+(3)
+\begin_inset space \space{}
+\end_inset
 
+＜x∨y＞
+\begin_inset space \qquad{}
+\end_inset
+
+x与y的析取
 \end_layout
 
 \begin_layout Standard
-(2)＜x∧y＞x与y的合取
+(4)
+\begin_inset space \space{}
+\end_inset
+
+＜x
+\begin_inset Formula $\supset$
+\end_inset
+
+y＞
+\begin_inset space \qquad{}
+\end_inset
+
+x蕴含y
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-(3)＜x∨y＞x与y的析取
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-(4)＜Xy＞x蕴含y
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
+\noindent
 这里的x、y都表示良构的命题。任何良构的命题都可以按照以上4种定则回归到最基本的要素——原子。从这种方法我们可以判定任何一个命题是不是良构的。这种过程一般称作是
 自上而下的。
 \end_layout
 
 \begin_layout Standard
+这里的“＜”和“＞”是—组括号，表示括号中的逻辑符号构成了一个逻辑命题；“～”表示逻辑否定；“∧”表示逻辑积或者逻辑合取；“∨”表示逻辑和或逻辑析取。“
+\begin_inset Formula $\supset$
+\end_inset
 
-\end_layout
-
-\begin_layout Standard
-这里的“＜”和“＞”是—组括号，表示括号中的逻辑符号构成了一个逻辑命题；“～”表示逻辑否定；“∧”表示逻辑积或者逻辑合取；“∨”表示逻辑和或逻辑析取。“”表示逻
-辑蕴涵。逻辑中的否定、合取、析取和蕴涵可以根据原命题与新命题的真假值表来定义，这是形式逻辑教材的基本内容。
-\end_layout
-
-\begin_layout Standard
-
+”表示逻辑蕴涵。逻辑中的否定、合取、析取和蕴涵可以根据原命题与新命题的真假值表来定义，这是形式逻辑教材的基本内容。
 \end_layout
 
 \begin_layout Standard
@@ -529,91 +603,180 @@ PQR'
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 由于命题演算系统的这种特点，因此在这个系统中只有运算的规则，而没有公理。按照前面几个形式系统的性质，我们知道如何按照规则从公理产生定理，再由这些定理产生新的定理
 。但是在这个系统中却没有公理。那么定理又从何而来呢？这很像是一个让巧妇做无米之炊的难题。幸好在这个系统中有一个定则可以使我们能“无中生有”地构造出系统的定理来。
 我们把这个定则称为想象定则。运用想象定则时，你可以先写下一条良构的命题，不妨设这个命题为x。然后设想x就是公理或者定理，再运用系统中的规则对它进行变换看看能得到
-什么样的结果。假设最后得到的结果为y。那么退出想象后就可以得到这样的定理：如果命题x成立，那么命题y也成立。用逻辑符号来表示就是＜xy＞。
-\end_layout
+什么样的结果。假设最后得到的结果为y。那么退出想象后就可以得到这样的定理：如果命题x成立，那么命题y也成立。用逻辑符号来表示就是＜x
+\begin_inset Formula $\supset$
+\end_inset
 
-\begin_layout Standard
-
+y＞。
 \end_layout
 
 \begin_layout Standard
 我们用方括号的前后两部分分别表示“进入”或“退出”想象。例如：
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+[
 \end_layout
 
-\begin_layout Standard
-[进入想象
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+进入想象
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+＜P∧Q＞
 \end_layout
 
-\begin_layout Standard
-＜P∧Q＞前堤
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+前提
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+P
 \end_layout
 
-\begin_layout Standard
-P分离律
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+分离律
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+Q
 \end_layout
 
-\begin_layout Standard
-Q分离律
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+分离律
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+＜Q∧P＞
 \end_layout
 
-\begin_layout Standard
-＜Q∧P＞结合律
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+结合律
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+]
 \end_layout
 
-\begin_layout Standard
-]退出想象
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+退出想象
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+＜＜P∧Q＞
+\begin_inset Formula $\supset$
+\end_inset
+
+＜Q∧P＞＞
 \end_layout
 
-\begin_layout Standard
-＜＜P∧Q＞＜Q∧P＞＞定理
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+定理
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 这里只有最后一行是命题演算系统中的定理，其他仅仅是一种设想。这种想象定则可以重复地使用，从而使定理中的命题分出不同的层次来。我们不妨把这些层次称为“现实性的层次
 ”。运用这个概念可以描述命题演算系统中的贮存定则：在想象中可以运用“现实性”更高的层次中的任何定理。
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -637,7 +800,15 @@ Q分离律
 \end_layout
 
 \begin_layout Standard
-对照律：＜xy＞与＜～y～x＞可以互换。
+对照律：＜x
+\begin_inset Formula $\supset$
+\end_inset
+
+y＞与＜～y
+\begin_inset Formula $\supset$
+\end_inset
+
+～x＞可以互换。
 \end_layout
 
 \begin_layout Standard
@@ -645,11 +816,11 @@ Q分离律
 \end_layout
 
 \begin_layout Standard
-斯威彻罗律：＜x～y＞与＜～xy＞可以互换。
-\end_layout
+斯威彻罗律：＜x～y＞与＜～x
+\begin_inset Formula $\supset$
+\end_inset
 
-\begin_layout Standard
-
+y＞可以互换。
 \end_layout
 
 \begin_layout Standard
@@ -659,17 +830,9 @@ Q分离律
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 形式系统要求严格按照规则来推导定理，或者说证明一个定理。但是怎么能够证明这种证明是正确的呢？这有点像一个鸡蛋。虽然有蛋壳的保护，但是在运输时，总要设法再加保护，
 使蛋壳不致于破碎。然而，不管保护层有多少层，总还存在这样的危险，有某种意想不到的灾难会使蛋壳破裂。当然这并不意味着，你永远不要去冒运输鸡蛋的风险。同样，你无法对
 形式系统证明的合理性给出一种绝对的证明。你可以给出一种证明的证明，一种证明的证明的证明。但是，仍然存在着未加证明的假设，我们人为地把它看成是真理。
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -678,15 +841,7 @@ Q分离律
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 我们也可以把元定理看成是一个更大的形式系统中的定理。但是，人们仍然可以找到关于元定理的定理——元元定理。这就是更高层次上的推理捷径。
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -695,16 +850,36 @@ Q分离律
 \end_layout
 
 \begin_layout Standard
+1
+\begin_inset space \quad{}
+\end_inset
 
+-1
+\begin_inset space \quad{}
+\end_inset
+
++1
+\begin_inset space \quad{}
+\end_inset
+
+-1
+\begin_inset space \quad{}
+\end_inset
+
++1
+\begin_inset space \quad{}
+\end_inset
+
+……
 \end_layout
 
 \begin_layout Standard
-1-1+1-1+1……
-\end_layout
+\noindent
+之和的争论。人们“证明”它可以等于0，1，
+\begin_inset Formula $\cfrac{1}{2}$
+\end_inset
 
-\begin_layout Standard
-之和的争论。人们“证明”它可以等于0，1，1/2或许还有其他值。这显然是很荒唐的。这种争论后来导致关于无穷级数收敛性的认识，从而发展了关于无穷级数更加深刻、更加
-全面的理论。
+或许还有其他值。这显然是很荒唐的。这种争论后来导致关于无穷级数收敛性的认识，从而发展了关于无穷级数更加深刻、更加全面的理论。
 \end_layout
 
 \begin_layout Standard
@@ -712,16 +887,8 @@ Q分离律
 ，使命题演算具有更大的灵活性。也有的逻辑学家甚至采取更加极端的立场，为了模仿人类的实际推理方式，宁可放弃对于完备性或者一致性的要求。
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Section
 形式数论系统
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -730,63 +897,60 @@ Q分离律
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 形式数论使数论的所有命题形式化。为此我们先来看一些典型的数论命题：
 \end_layout
 
 \begin_layout Standard
+(1)
+\begin_inset space \space{}
+\end_inset
 
+5是素数。
 \end_layout
 
 \begin_layout Standard
-(1)5是素数。
+(2)
+\begin_inset space \space{}
+\end_inset
+
+2不是平方数。
 \end_layout
 
 \begin_layout Standard
+(3)
+\begin_inset space \space{}
+\end_inset
 
+1729为两个立方数之和。
 \end_layout
 
 \begin_layout Standard
-(2)2不是平方数。
+(4)
+\begin_inset space \space{}
+\end_inset
+
+没有两个正立方数之和是另一个立方数。
 \end_layout
 
 \begin_layout Standard
+(5)
+\begin_inset space \space{}
+\end_inset
 
+存在无限多的素数。
 \end_layout
 
 \begin_layout Standard
-(3)1729为两个立方数之和。
+(6)
+\begin_inset space \space{}
+\end_inset
+
+6是偶数。
 \end_layout
 
 \begin_layout Standard
-(4)没有两个正立方数之和是另一个立方数。
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-(5)存在无限多的素数。
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-(6)6是偶数。
-\end_layout
-
-\begin_layout Standard
+\noindent
 我们将这些陈述分解成为一些基本的术语：
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -794,15 +958,7 @@ Q分离律
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 存在着数b使得
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -810,15 +966,7 @@ Q分离律
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 乘以
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -826,19 +974,12 @@ Q分离律
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 0，1，2，……
 \end_layout
 
 \begin_layout Standard
+\noindent
 当然，这种分解并不是唯一的，例如“大于”可以进一步分解。a大于b可以表示成：
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -846,36 +987,142 @@ Q分离律
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 分解成基本术语后，就可以进一步使这些术语形式化了。我们用这样一些符号来表示自然数。
 \end_layout
 
 \begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+数：
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+……
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+符号：
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+S0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SS0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SSS0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+……
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
-数：0123……
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-符号：0S0SS0SSS0……
-\end_layout
-
-\begin_layout Standard
+\noindent
 这里的S表示后继者，这就是说任何自然数可以用0和后继者的概念来描述。也许有人对于这种形式的表示方法感到不习惯或者不耐烦。不过我们在前面已经讲过，形式化为获得严密
 性而付出的代价是单调、乏味和冗长。不过，如果人们想到，这将更加便于计算机来“理解”，也许会理解形式化的必要性。
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -883,31 +1130,29 @@ Q分离律
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 加、乘、等于都可以用大家熟悉的符号“+”“·”和“＝”来表示。此外还要加上两个重要的量词符号：
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula $\exists b$
+\end_inset
 
+：表示存在b使得
+\begin_inset space \qquad{}
+\end_inset
+
+(存在量词)
 \end_layout
 
 \begin_layout Standard
-b：表示存在b使得(存在量词)
-\end_layout
+\begin_inset Formula $\forall b$
+\end_inset
 
-\begin_layout Standard
+：表示对于所有的b都有
+\begin_inset space \qquad{}
+\end_inset
 
-\end_layout
-
-\begin_layout Standard
-b：表示对于所有的b都有(全称量词)
-\end_layout
-
-\begin_layout Standard
-
+(全称量词)
 \end_layout
 
 \begin_layout Standard
@@ -916,162 +1161,232 @@ b：表示对于所有的b都有(全称量词)
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 有了这些术语和符号，我们就可以使数论中的那些陈述形式化了。就以我们举出的那些数论陈述为例：
 \end_layout
 
 \begin_layout Standard
+(6)
+\begin_inset space \space{}
+\end_inset
+
+6是偶数。
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $\exists e$
+\end_inset
+
+：
+\begin_inset Formula $(SS_{0}·e)=SSSSSS_{0}$
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
-(6)6是偶数。
-\end_layout
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-e：(SS0·e)＝SSSSSS0
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 (直译为：存在着e使得2乘以e等于6)
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+或者
+\begin_inset Formula $\exists e$
+\end_inset
+
+：
+\begin_inset Formula $(e·SS_{0})=SSSSSS_{0}$
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
-或者e：(e·SS0)＝SSSSSS0
-\end_layout
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
+或者
+\begin_inset Formula $\exists e$
+\end_inset
 
-\end_layout
+：
+\begin_inset Formula $SSSSSS_{0}=(SS_{0}·e)$
+\end_inset
 
-\begin_layout Standard
-或者e：SSSSSS0＝(SS0·e)
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-(2)2不是平方数。
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
 \begin_layout Standard
-～b：(b·b)＝SS0
+(2)
+\begin_inset space \space{}
+\end_inset
+
+2不是平方数。
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $\sim\exists b$
+\end_inset
+
+：
+\begin_inset Formula $(b·b)=SS_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
 (直译为：不存在b使得b乘以自己等于2)
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+或者
+\begin_inset Formula $\exists b$
+\end_inset
+
+：
+\begin_inset Formula $\sim(b·b)=SS_{0}$
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
-或者b：～(b·b)＝SS0
-\end_layout
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
 (直译为：对于所有的b都不会自己相乘等于2)
 \end_layout
 
 \begin_layout Standard
+(3)
+\begin_inset space \space{}
+\end_inset
+
+1729是两个立方数之和。
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $\exists b$
+\end_inset
+
+：
+\begin_inset Formula $\exists c$
+\end_inset
+
+：
+\begin_inset Formula $\underset{1729\text{个}S}{\underbrace{SS\ldots\ldots SS_{0}}}$
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
-(3)1729是两个立方数之和。
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-b：c：SS……SS0
-\end_layout
 
-\begin_layout Standard
+\begin_inset Formula $=(((b·b)·b)+((c·c)·c))$
+\end_inset
 
-\end_layout
-
-\begin_layout Standard
-----------
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
 \begin_layout Standard
-1729个S
+(4)
+\begin_inset space \space{}
+\end_inset
+
+没有两个正立方数之和为另一个立方数。
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
 
-\end_layout
 
-\begin_layout Standard
-＝(((b·b)·b)十((c·c)·c))
-\end_layout
+\begin_inset Formula $\forall a$
+\end_inset
 
-\begin_layout Standard
+：
+\begin_inset Formula $\sim\exists b$
+\end_inset
 
-\end_layout
+：
+\begin_inset Formula $\exists c$
+\end_inset
 
-\begin_layout Standard
-(4)没有两个正立方数之和为另一个立方数。
-\end_layout
+：
+\begin_inset Formula $((a·a)·a)$
+\end_inset
 
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-a：～b：c：((a·a)·a)
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-＝(((Sb·Sb)·Sb)十(Sc·Sc)·Sc))
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
 \begin_layout Standard
-或者～a：b：c：((a·a)·a)
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $＝(((Sb·Sb)·Sb)十(Sc·Sc)·Sc))$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+或者
+\begin_inset Formula $\sim\exists a$
+\end_inset
+
+：
+\begin_inset Formula $\exists b$
+\end_inset
+
+：
+\begin_inset Formula $\exists c$
+\end_inset
+
+：
+\begin_inset Formula $((a·a)·a)$
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
-＝(((Sb·Sb)·Sb)十(Sc·Sc)·Sc))
-\end_layout
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Formula $=(((Sb·Sb)·Sb)+(Sc·Sc)·Sc))$
+\end_inset
+
 
 \end_layout
 
@@ -1080,31 +1395,37 @@ a：～b：c：((a·a)·a)
 \end_layout
 
 \begin_layout Standard
+(5)
+\begin_inset space \space{}
+\end_inset
+
+5是素数。
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $\sim\exists b$
+\end_inset
+
+：
+\begin_inset Formula $c$
+\end_inset
+
+：
+\begin_inset Formula $SSSSS_{0}=(SSb·SSc)$
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
-(5)5是素数。
-\end_layout
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-～b：c：SSSSS0＝(SSb·SSc)
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 这里之所以用SSb、SSc是为了保证它们大于1。
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -1112,31 +1433,48 @@ a：～b：c：((a·a)·a)
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $\forall d$
+\end_inset
+
+：
+\begin_inset Formula $\exists e$
+\end_inset
+
+：
+\begin_inset Formula $\sim\exists b$
+\end_inset
+
+：
+\begin_inset Formula $\exists c$
+\end_inset
+
+：
+\begin_inset Formula $(d+Se)$
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
-d：e：～b：c：(d十Se)
-\end_layout
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
 
-\end_layout
+\begin_inset Formula $=(SSb·SSc)$
+\end_inset
 
-\begin_layout Standard
-＝(SSb·SSc)
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
 \begin_layout Standard
-(直译为：对于任意数d存在着数e使得d十e十1不是任何两个数(b十l)与(c十1)的乘积。)
-\end_layout
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
-
+(直译为：对于任意数d存在着数e使得d+e+1不是任何两个数(b+l)与(c+1)的乘积。)
 \end_layout
 
 \begin_layout Standard
@@ -1144,55 +1482,47 @@ d：e：～b：c：(d十Se)
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 皮亚诺建立了关于自然数的公理体系。我们可以把他的公理体系归结为3个基本概念和5条公理。这3个基本概念是0、数和后继。5条公理是：
 \end_layout
 
 \begin_layout Standard
+(1)
+\begin_inset space \space{}
+\end_inset
 
+0是一个数。
 \end_layout
 
 \begin_layout Standard
-(1)0是一个数。
+(2)
+\begin_inset space \space{}
+\end_inset
+
+任何数的后继是一个数。
 \end_layout
 
 \begin_layout Standard
+(3)
+\begin_inset space \space{}
+\end_inset
 
+没有两个数有相同的后继。
 \end_layout
 
 \begin_layout Standard
-(2)任何数的后继是一个数。
+(4)
+\begin_inset space \space{}
+\end_inset
+
+0不是任何数的后继。
 \end_layout
 
 \begin_layout Standard
+(5)
+\begin_inset space \space{}
+\end_inset
 
-\end_layout
-
-\begin_layout Standard
-(3)没有两个数有相同的后继。
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-(4)0不是任何数的后继。
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-(5)任何性质，如果0有此性质；又如果任一数有此性质，它的后继必定也有此性质；那么所有的数也有此性质。
-\end_layout
-
-\begin_layout Standard
-
+任何性质，如果0有此性质；又如果任一数有此性质，它的后继必定也有此性质；那么所有的数也有此性质。
 \end_layout
 
 \begin_layout Standard
@@ -1200,83 +1530,43 @@ d：e：～b：c：(d十Se)
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 我们还可以把命题演算系统中的所有规则都引进TNT系统来。也就是说用它们来构成TNT形式系统的框架。这就意味着，在形式数论系统中的推理必须遵循形式逻辑的法则。
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
 根据TNT的规则和公理，我们很容易生成这样的塔状定理族
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
+\begin_inset Formula $\begin{aligned}(0+0) & = & 0\\
+(0+S0) & = & S0\\
+(0+SS0) & = & SS0\\
+(0+SSS0) & = & SSS0\\
+\ldots & \ldots
+\end{aligned}
+$
+\end_inset
+
 
 \end_layout
 
 \begin_layout Standard
-(0十0)＝0
+把这族定理归结在一起，就可以得出采用全称量词的公式：
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
+\begin_inset Formula $\forall a$
+\end_inset
 
-\end_layout
+：
+\begin_inset Formula $(0+a)=a$
+\end_inset
 
-\begin_layout Standard
-(0十S0)＝S0
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-(0十SS0)＝SS0
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-(0十SSS0)＝SSS0
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-……
-\end_layout
-
-\begin_layout Standard
-把这族定理归结在一路起，就可以得出采用全称量词的公式：
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-a：(0十a)＝a
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
 \begin_layout Standard
 我们用这个例子来给出关于ω—不完备性的严格定义：
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
@@ -1286,24 +1576,12 @@ a：(0十a)＝a
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 但是，如果在这种塔状族的定理中，每一行都可以从它的上面一行按一定的规则推导出来。那么我们完全有理由相信，这族中的所有定理都成立。
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
 我们用X{a}表示带有自由变量a的良构的公式。X{Sa／a}则表示用Sa代替原公式中的a。那么上述情况就对以用TNT中的—条定则来表示。我们把这条定则称为归纳定
 则。
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Standard
