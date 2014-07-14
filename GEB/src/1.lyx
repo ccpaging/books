@@ -106,34 +106,28 @@
 \end_layout
 
 \begin_layout Standard
-埃舍尔的画往往表现了一些很深刻的思想，怪圈就是其中最常见的一种。我们先来看看那幅奇怪的版画《瀑布》(图1)。在画面的中央，瀑布倾泻而下，水花四起，还推动了水轮。
-汇集到水池中的水则顺着水渠哗哗地流去，一级一级地下降。突然水又流到了瀑布口！真是不可思议，可是在画面上却表现得明明白白。我们只能把这种周而复始的圈称作“怪圈”。
-\end_layout
-
-\begin_layout Standard
-我们再看那幅《上升与下降》(图2)。在这冰冷阴森的教堂里，僧侣们排成两队往前走。其中一队总是沿着楼梯往上走，另一队总是往下走。可是他们走的却是同样的楼梯，并且不
-断地回到原来出发的地方。真是妙不可言。这又是一个怪圈。所谓怪圈就是指这样一种现象，我们在某一个等级系统中逐步上升(或者下降)，结果却意外地发现又回到了原来开始的
-地方。有时我就用“缠绕的层次”来描述其中有怪圈的体系。怪圈还要在本书中一再出现，忽上忽下，时隐时显，希望读者能够细细地体会它的内在含义。
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename images/1.jpg
-	scale 70
+埃舍尔的画往往表现了一些很深刻的思想，怪圈就是其中最常见的一种。我们先来看看那幅奇怪的版画《瀑布》(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:1"
 
 \end_inset
 
-
+)。在画面的中央，瀑布倾泻而下，水花四起，还推动了水轮。汇集到水池中的水则顺着水渠哗哗地流去，一级一级地下降。突然水又流到了瀑布口！真是不可思议，可是在画面上却
+表现得明明白白。我们只能把这种周而复始的圈称作“怪圈”。
 \end_layout
 
 \begin_layout Standard
-\begin_inset Graphics
-	filename images/2.jpg
-	scale 70
+我们再看那幅《上升与下降》(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:2"
 
 \end_inset
 
-
+)。在这冰冷阴森的教堂里，僧侣们排成两队往前走。其中一队总是沿着楼梯往上走，另一队总是往下走。可是他们走的却是同样的楼梯，并且不断地回到原来出发的地方。真是妙不
+可言。这又是一个怪圈。所谓怪圈就是指这样一种现象，我们在某一个等级系统中逐步上升(或者下降)，结果却意外地发现又回到了原来开始的地方。有时我就用“缠绕的层次”来
+描述其中有怪圈的体系。怪圈还要在本书中一再出现，忽上忽下，时隐时显，希望读者能够细细地体会它的内在含义。
 \end_layout
 
 \begin_layout Standard
@@ -164,16 +158,6 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Graphics
-	filename images/22.jpg
-	scale 70
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 埃舍尔用绘画表现的怪圈有许多不同的形式，有松弛的也有紧凑的。在《上升与下降》中，这种怪圈是比较松弛的，僧侣们要经过许多级才能返回原处。而在“瀑布”中怪圈就要紧凑
 一些，它总共只有6级。你也许已经想到了，这里“级”的计算有含糊不清之处。例如我们可以把《上升与下降》的系统算成是45级(按台级算)，也可以算成是4级(按楼梯算)
 。这种模棱两可性不仅表现在埃舍尔的画的怪圈上，也表现在其他形式怪圈的系统中。更紧凑的怪圈可以在《画画的双手》(图22)这幅画中看到。而最紧凑的怪圈要数《画廊》(
@@ -181,28 +165,8 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Graphics
-	filename images/23.jpg
-	scale 70
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 怪圈的内在含义也是在有限中包含无限的概念。它不仅仅是一个圈，而且是埃舍尔纳著名作品《变形》(图4)中表现得极为明显。我们从作品的某点出发，随着画面的逐级变化而向
 前走去，走着走着却突然回到了原来出发的地方。
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename images/4.jpg
-	scale 70
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section

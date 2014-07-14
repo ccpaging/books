@@ -93,10 +93,6 @@
 同构
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Section
 奇妙的唱机与唱片
 \end_layout
@@ -750,11 +746,18 @@ q
 \end_layout
 
 \begin_layout Standard
---p---q-----
+\begin_inset Formula $--p---q-----$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-就成了我们熟悉的算式2+3＝5。
+就成了我们熟悉的算式
+\begin_inset Formula $2+3=5$
+\end_inset
+
+。
 \end_layout
 
 \begin_layout Standard
@@ -1134,16 +1137,6 @@ q
 么这些鸟儿真的能受形式系统规则的约束？是否在现实世界与形式系统之间也存在一个奇妙的过渡区域呢？
 \end_layout
 
-\begin_layout Standard
-\begin_inset Graphics
-	filename images/5.jpg
-	scale 70
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 破译
 \end_layout
@@ -1280,17 +1273,6 @@ DNA复制生物体的过程依赖极为复杂的细胞内的化学过程。这�
 基因”(第二块金属板)运用智能就可以得出由基因展开成表现型的机制。一且获得了这种机制，那么从短的基因也能展开成表现型的级数。
 \end_layout
 
-\begin_layout Standard
-\begin_inset Graphics
-	filename images/25.jpg
-	width 95text%
-	height 95theight%
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 音乐和绘画中的同构
 \end_layout
@@ -1311,16 +1293,6 @@ DNA复制生物体的过程依赖极为复杂的细胞内的化学过程。这�
 \end_layout
 
 \begin_layout Standard
-\begin_inset Graphics
-	filename images/27.png
-	width 98text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 充分运用卡农技巧的《音乐的奉献》是巴赫的杰作，也是一个值得人们不断地去发掘的宝库。其中有一支三部赋格曲、一支六部赋格曲、十部卡农和三重奏鸣曲。这支十部卡农是巴赫
 写过的最复杂的卡农。奇怪的是巴赫并没有把它全部写出来。这就好像是给弗雷得里希国王出了一个意味隽永的谜。
 \end_layout
@@ -1332,28 +1304,8 @@ DNA复制生物体的过程依赖极为复杂的细胞内的化学过程。这�
 \end_layout
 
 \begin_layout Standard
-\begin_inset Graphics
-	filename images/13.jpg
-	scale 70
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 图案变换的同构性还表现在它们的“相似性”上。这且说的“相似性”并不是指几何学中图形的相似性。让我们看看《蝴蝶》(图12)中的“相似性”。把一只蝴蝶映入另一只蝴蝶
 并不是严格地保持各部分之间的比例关系．而只是保持某种相互关系。更确切地讲是保留某种相互关系的信息。而这就是同构。
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename images/12.jpg
-	scale 70
-
-\end_inset
-
-
 \end_layout
 
 \end_body

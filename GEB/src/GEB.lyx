@@ -24,7 +24,6 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
-\float_placement h
 \paperfontsize 10
 \spacing other 1.2
 \use_hyperref true
@@ -195,11 +194,10 @@ height "1pt"
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename images/images-031.png
+	filename images/images-002.png
 	lyxscale 60
 	width 95text%
 	height 95theight%
-	keepAspectRatio
 
 \end_inset
 
@@ -209,8 +207,472 @@ height "1pt"
 \begin_layout Standard
 \align center
 
-\size huge
-\begin_inset Newpage newpage
+\size large
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/1.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:1"
+
+\end_inset
+
+瀑布
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1961）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+瀑布一泻而下，汇集到池子中，然后顺着水渠往下流去，可是拐了几道弯之后，突然又回到瀑布口！真是不可思议。可是在画图上却表现得明明白白，天衣无缝。这就是怪圈。
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/2.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:2"
+
+\end_inset
+
+上升与下降
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1960）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+一队僧侣沿着楼梯向上走，拐了四次后又回到了原处。另一队僧侣沿着楼梯向下走，最后也回到了原处。而且两队人走同样的楼梯。这又是一个怪圈。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/3.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:3"
+
+\end_inset
+
+举着反光球的手
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔的自画像（版画，1935）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+球反射出来举着球的画家，画家的书房。不过最妙的是我们从反光中看到了球本身。这难道不也是一个怪圈吗？
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways true
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/4.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:4"
+
+\end_inset
+
+变形
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（木刻，19.5cm
+\begin_inset Formula $\times$
+\end_inset
+
+400cm，1939-1940）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+这是一幅围成圈、首尾相连的长画球反射出来。你可以随着画面的逐渐变化慢慢往前走，不知不觉地回到了原处。也可以永远这样走下去。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/5.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5"
+
+\end_inset
+
+解放
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1955）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+上方是自由翱翔的鸟。下面是死板规则的几何图形，中间则是花哨的过渡区域。形式力图把握活生生的现实。现实却象鸟儿一样要求彻底的解放。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/6.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6"
+
+\end_inset
+
+镶嵌图案
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1957）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+白色的图形与黑色的图形镶嵌在一起，它们构成亲密无间的整体。它们互补互衬，互为背景。有谁能够想到这与数学定理也有密切的关系呢？
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/7.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:7"
+
+\end_inset
+
+巴比伦塔
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（木刻，1928）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+高耸入云的巴比伦塔使上帝都感到敬畏。它象征着庞大、严谨的数学理论体系。它最后没有完全建成又给人以什么深刻的启示呢？
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/8.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8"
+
+\end_inset
+
+相对性
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1953）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+以楼梯为基点，根据它和邻近物体的相互关系，我们可以逐步认识周围的世界。可是不用走多远就会遇到明显的矛盾。换一个基点还是这样。这里究竟有什么地方不对头了呢？
+\end_layout
+
+\end_inset
+
+
+\size default
+
+\begin_inset Graphics
+	filename images/images-031.png
+	lyxscale 60
+	width 95text%
+	height 95theight%
+	keepAspectRatio
+
 \end_inset
 
 
@@ -275,6 +737,66 @@ filename "2.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "3.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "4.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "5.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "6.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "7.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "8.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "9.lyx"
 
 \end_inset
 

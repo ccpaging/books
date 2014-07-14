@@ -1,0 +1,633 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass GEB
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+递归
+\end_layout
+
+\begin_layout Section
+阿基里斯和乌龟历险记
+\end_layout
+
+\begin_layout Standard
+我们在上一章介绍了形式系统，并在最后介绍了形式数论系统，即TNT系统。TNT系统的一条定则就是归纳定则，也就是递归的定则。递归是极为重要的概念，它对于理解哥德尔
+定理的证明是必不可少的。为了说明这个重要的概念，我们先从一段故事讲起。
+\end_layout
+
+\begin_layout Standard
+(乌龟和阿基里斯在科尼岛上消磨时光，他们坐在大转轮上谈笑风生。)
+\end_layout
+
+\begin_layout Standard
+龟：我有—种预感，今天幸运之神将会赐福于我。
+\end_layout
+
+\begin_layout Standard
+阿：这可太好了。你看！有一架直升飞机正朝着我们飞来了。
+\end_layout
+
+\begin_layout Standard
+龟：它还放下了一段绳子。看！快到我们身边了。
+\end_layout
+
+\begin_layout Standard
+阿：啊，绳子上有一个大钩子，上面挂着一张纸条。
+\end_layout
+
+\begin_layout Standard
+(他们按照纸条上的吩咐，松开自己座椅上的皮带，在轮椅再度上升到顶的一刹那抓住钩子上了直升飞机)
+\end_layout
+
+\begin_layout Standard
+声音：哈、哈、哈！朋友们，你们上钩了。先在我的书房里呆着吧。不妨吃点爆米花。等我磨好刀子就来收拾你们。乌龟陷阱，这可是我最喜爱的食品。
+\end_layout
+
+\begin_layout Standard
+(声音消失后，乌龟阿基里斯在书房里面面相觑。忽然他们发现了一本名叫《阿基里斯和乌龟历险记》的书)
+\end_layout
+
+\begin_layout Standard
+龟：这可真是一个富有刺激性的题目。我们读一读怎么样？你扮演书中阿基里斯的角色，而我扮演书中乌龟的角色。
+\end_layout
+
+\begin_layout Standard
+(他们开始读这本书)
+\end_layout
+
+\begin_layout Standard
+[在书中：
+\end_layout
+
+\begin_layout Standard
+(阿基里斯邀请乌龟参观他所收藏的画家埃舍尔的作品。)
+\end_layout
+
+\begin_layout Standard
+龟：这些作品真迷人！我最喜欢那幅《凸与凹》(图9)，那里有两个内部一致的世界，可是结合在一起便成了不一致的复合世界。如果能访问一下这种不一致的世界倒是非常有趣的
+。不过，我可不愿长久地生活在这样的世界里。
+\end_layout
+
+\begin_layout Standard
+阿：你要知道，不一致的世界是根本不可能存在的。你怎么能去访问这样的世界呢？再说，埃舍尔的画是一个二维的世界，你怎么能进得去呢？
+\end_layout
+
+\begin_layout Standard
+龟：我自有办法。我只要喝一小杯神奇的“进入剂”就可以做到这一点。如果我想从进入的画面再退出来，只须喝一小杯“退出剂”就可以了。
+\end_layout
+
+\begin_layout Standard
+(阿基里斯与乌龟倒了两杯“进入剂”并带上“退出剂”一起干杯。)
+\end_layout
+
+\begin_layout Standard
+阿：我们这是到了哪儿？在一只小小的平底船上。船顺着运河而下。喂，船夫，快让我们下船。
+\end_layout
+
+\begin_layout Standard
+(可是船夫根本不理睬他们。他们终于明自了，船夫听不懂他们的话。他们来到了一个完全陌生的国度。就只好在这个希奇古怪的世界里乱闯乱窜。后来阿基里斯意外地得到了一盏铜
+灯。他慢慢擦着灯上镌刻的字样。突然冒起一股浓烟。阿拉伯神话中的奇景再现了。灯神愿意满足新主人的三个愿望。可是阿基里斯却想满足上百个愿望。灯神不忍心让阿基里斯失望
+，就从自己的长袍中取出一盏形状相仿的银灯。)
+\end_layout
+
+\begin_layout Standard
+阿：这是什么？
+\end_layout
+
+\begin_layout Standard
+灯神：这是我的元灯，它可以满足人们的元希望。
+\end_layout
+
+\begin_layout Standard
+(灯神摩擦元灯，在烟雾中出现了元灯神。元灯神又从自己的长袍中取出金制的元元灯。而元元灯神可以满足元元希望……这个无限的过程通向上帝。上帝可以许诺无形的希望，包括
+任何希望的希望。但是这种希望却是没有保障的。)
+\end_layout
+
+\begin_layout Standard
+阿：这使我产生了—种特殊的希望。我希望自己的希望是无法实现的。
+\end_layout
+
+\begin_layout Standard
+(灯神实现了他的愿望。于是灯神、神灯连同那些神奇的法力统统都消失了。整个系统都崩溃了。阿基里斯发现他们又来到了埃舍尔的另一幅画《蜥蜴》(图10)之中。)
+\end_layout
+
+\begin_layout Standard
+[在《蜥蜴》画中
+\end_layout
+
+\begin_layout Standard
+龟：看，在这串蜥蜴旁边居然还有一瓶“退出剂”。我们真算是有福气。
+\end_layout
+
+\begin_layout Standard
+阿：我想最好还是从埃合尔的画退回到我们自己的房子里去。
+\end_layout
+
+\begin_layout Standard
+龟：这桌子上还有两本书呢，书的题目恰好也是《阿基里斯和乌龟历险记》。
+\end_layout
+
+\begin_layout Standard
+(阿基里斯一心想离开这儿，他怕失去那瓶“退出剂”。可是他在慌乱中把那瓶药水碰翻在地、滚下搂去了。于是他只好和乌龟一起读起那本书来了。)
+\end_layout
+
+\begin_layout Standard
+[在书的故事中
+\end_layout
+
+\begin_layout Standard
+(阿基里斯和乌龟置身于迷宫的层层高墙之中。他们怀着求生的急切心情寻找着迷宫的出路。忽然他们听到了巴赫的变调乐曲《和谐的小迷宫》。正当他们被深深吸引住的时候，却听
+到了在迷宫中等侯他们的魔鬼的笑声。他们处于极度恐惧之中，却发现了一碗爆米花。于是两个人就大嚼特嚼起来。突然砰的一声巨响。)
+\end_layout
+
+\begin_layout Standard
+[回到《蜥蜴》画中
+\end_layout
+
+\begin_layout Standard
+龟：多么有趣的故事。
+\end_layout
+
+\begin_layout Standard
+阿：我只关心他们最后能否逃脱那只魔鬼的手掌。可怜的阿基里斯，他可不想首尸分离。
+\end_layout
+
+\begin_layout Standard
+龟：不必担忧，只要他们有“退出剂”就万事大吉了。
+\end_layout
+
+\begin_layout Standard
+阿：可是那些蜥蜴从画中出来进去并没有喝什么“进入剂”或“退出剂”啊。我们是否也能仿照它们从埃舍尔的这幅画中退出去啊？
+\end_layout
+
+\begin_layout Standard
+龟：当然可以，你跟着我一起做。
+\end_layout
+
+\begin_layout Standard
+(于是阿基里斯和乌龟就从《蜥蜴》中退出来了。可是阿基里斯发现，自己并没有回到原来看画的书房，而是来到了乌龟的书房中。乌龟当然十分满意，阿基里斯也想就此牧场。这可
+算得上是一段奇妙而幸运的经历。)
+\end_layout
+
+\begin_layout Section
+形形色色的递归
+\end_layout
+
+\begin_layout Standard
+我们在上一章介绍了形式系统，并在最后介绍了形式数论系统，即TNT系统。TNT系统的一条定则就是归纳定则，也就是递归的定则。递归是极为重要的概念，它对于理解哥德尔
+定理的证明是必不可少的。为了说明这个重要的概念，我们先从一段故事讲起。
+\end_layout
+
+\begin_layout Standard
+在上面这一节令人眼花缭乱的历险记中，阿基里斯与乌龟从—个世界进入另一个世界。这暗示着一种重要的形式系统的结构，即递归结构。
+\end_layout
+
+\begin_layout Standard
+这段历险记是一个很复杂的递归例子。阿基里斯和乌龟出现在各个不同的层次上。有时他们从一个层次进入另一个层次，有时则在读自己在其中扮演角色的故事。图30“阿基里斯和
+乌龟历险记”的结构图显示了这段经历的递归结构。
+\end_layout
+
+\begin_layout Standard
+这张图显示了历险记中各个层次的结构。垂直地下降为“进入”，垂直地上升则为“退出”。从图中我们也可以看到，由幸运之神一开始的威胁所带来的紧张始终汉没有消退。阿基里
+斯和乌龟一直在直升飞机里晃悠。有些读者可能为此而感到不安，以有人会无动于衷。尽管有这么多层次，但是它们都有一个共同的特点。在每一个层次里，主角都是阿基里斯和乌龟
+。这提醒我们注意，对于同样的符号可以从不同的层次去理解它的意义。
+\end_layout
+
+\begin_layout Standard
+在我们生活中，递归的例子并不罕见。故事中的故事、画中之画、电影中的电影乃至中国式的套盒等等都具有递归的结构。在音乐中也可以找到递归的例子，像普柯菲耶夫的第5钢琴
+协奏曲和拉赫马尼诺夫的第2交响曲。
+\end_layout
+
+\begin_layout Standard
+20世纪50年代，人工智能的语言就已经引进了“压进”、“退出”、“叠加式存储器”这样一些相互关联的概念。“压进”意味着暂时停止目前进行的操作，但是并没有把它忘掉
+，而是去完成更低一层的任务。“退出”则正好相反，是结束在这个层次上的操作，回到更高的层次上来，重新开始因为“压进”而中断的操作。这些术语是受到食堂里弹簧，可以保
+持盆子最上面的高度不变。每当你压进一只盘子时，这叠盘子就下沉—层，而当你取出一只盘子时，它就上升一层。
+\end_layout
+
+\begin_layout Standard
+递归过程也是电子计算机的基础。在计算机程序中，一种关键的技术就是在重复使用某一部分的程序时可以采用模式化的方法。也就是说，把总任务分解成一些子任务。例如在进行一
+系列相同的操作时，就不必把它们全都写出来，而是画一个圈。这个圈就表示重复一组固定的操作，直到满足某种条件为止。因此，我们可以这样来理解圈，即重复地执行一系列预定
+的操作，而当预定的条件满足时，就中断这一操作。这实际上就是从一个层次进入另一个层次，然后又退回到原来的层次来。还有一种圈，我称它为“自由圈”。这种圈是很危险的陷
+阱。因为它要满足的条件可能永远不会出现。因此计算机一旦陷入这种圈里，就会进行无限的循环而无法解脱出来。把这种自由圈和有界圈区别开来在计算机科学中是很重要的。比圈
+更一般的概念是子程序。它的基本思想就是把一组操作结合在一起而形成一个单元。它们作为一个整体而被调用。
+\end_layout
+
+\begin_layout Standard
+有一个典型的递归例子，这就是用计算机下棋时选挥一种“最佳”的步骡。这就要对每一步以后的各种可能的步骤进行评价。要进行这种评价，就是设想在自己采取的每一步之后，对
+手有可能采取什么样的对策。而对于这样的每一种对策，自己又可以来取什么样的反对策。这样一步步地设想下去就是一种递归结构。一位高明的棋手与一般下棋爱好者的区别之一，
+就是他能设想好几步棋之后的局势。这实质上是一种利用递归结构的优势。所谓“深谋远虑”也有这种含义。
+\end_layout
+
+\begin_layout Standard
+我们在智力上的叠加存贮能力显然要比语言上的叠加存贮能力更强。在语言中也有一种压进——退出的叠加结构。但是这种结构的层次一多，理解句子的困难性就会大大增加。中国人
+往往喜欢较短的句子，这样文字就显得流畅。对于有些译文中出现的带有许多从句的长句子，有人则感到费解和不习惯。不过在英语中，使用从句增加句子的层次是司空见惯的，而在
+书面德语中，层次叠加的现象就更加明显了。即使这样，也总有办法重组这些句子使得结构的层次减到最少。
+\end_layout
+
+\begin_layout Standard
+句子的结构为我们提供了一个很好的例子来说明递归的结构。这就是所谓的“语次转变”的递归网络。这种图的模式是由一些结点或者其中有单词的小方块以及带箭头的弧或者线组成
+。
+\end_layout
+
+\begin_layout Standard
+图31(a)显示了一个语次转变的递归网络图，即带修饰的名词。可以有单独的名词，也可以有带形容词的名词或者是带冠词的名词，还可以是同时带冠词和形容词的名词。图31
+(b)则是一个想象名词的语次转变递归网络。在这个网络中我们可以看到，每—条途径都必须经过“带修饰的名词”，而且有三条途径中都有“想象名词”。这看来好像是在用白己
+定义自己。但是，因为存在着从“带修饰的名词”到“结束”的途径，就保证了这个递归过程可以是有限的。
+\end_layout
+
+\begin_layout Standard
+我们也可以这样理解有递归结构的网络图。这就是用整个“想象名词”的网络图来代替图31(b)中的“想象名词”这一格。我们把称为网络中纳结点的扩张。而扩张后的网络中的
+结点还可以再扩张。
+\end_layout
+
+\begin_layout Standard
+几何结构的无穷扩张也可以采用这种逐层扩张结点的方式来定义。作为一个例子，我们来定义一种G图。在图32(a)给出了未经扩张的G图。图32(b)则给出了经过一次扩张
+的G图。图中从下往上依次标上了字号。这个无限的树具有一种十分有趣的性质。最右边的数字依次构成了费波那奇数列。这个数列最好是用一对公式来进行递归定义
+\end_layout
+
+\begin_layout Standard
+FIBO(n)＝FIBO(n-1)十FIBO(n-2),n&gt;3
+\end_layout
+
+\begin_layout Standard
+FIBO(1)＝FIBO(2)＝1
+\end_layout
+
+\begin_layout Standard
+这种G图还有—种更令人惊奇的性质，它的结构完全可以用一个递归定义来表示：
+\end_layout
+
+\begin_layout Standard
+G(n)＝n-G(G(n-1))n&gt;2
+\end_layout
+
+\begin_layout Standard
+G(0)＝0
+\end_layout
+
+\begin_layout Standard
+为什么函数G(n)能表示G图的树结构呢？非常简单，只要把G(n)放在每一个值n之下来构造一个树，就可以重新构造G图。实际上，我一开始就是用这种方法发现G图的。当
+我研究函数G时，为了迅速计算它的值，就把已经知道的值都标在树上，结果竟然得到了这样有序的几何结构。
+\end_layout
+
+\begin_layout Standard
+同样，对于函数H(n)，可以给出这样的递归定义：
+\end_layout
+
+\begin_layout Standard
+H(n)＝n-H(H(H(n一1)))n&gt;0
+\end_layout
+
+\begin_layout Standard
+H(0)＝0
+\end_layout
+
+\begin_layout Standard
+有兴趣的渎者可以思考这样一个问题：如果对G图作镜反射的变换，然后将树上的每个节点都这达种新图的代数递归定义呢？若将H图作这种变换，结果又会怎样呢？它们有没有共同
+的规律性？
+\end_layout
+
+\begin_layout Standard
+还有一个有趣的问题是把两种递归定义“嫁接”在一起。例如：
+\end_layout
+
+\begin_layout Standard
+F(n)＝n-M(F(n-1))n&gt;0
+\end_layout
+
+\begin_layout Standard
+M(n)＝n-F(M(n—1))n&gt;0
+\end_layout
+
+\begin_layout Standard
+F(0)＝1，M(0)＝0
+\end_layout
+
+\begin_layout Standard
+问题在于如何去发现F图与M图的递归结构。它们是简单而优美的。
+\end_layout
+
+\begin_layout Standard
+最后，让我们考虑这样一个递归的例子：
+\end_layout
+
+\begin_layout Standard
+Q(n)＝Q(n-Q)(n-1)+Q(n-Q)(n一2)n&gt;2
+\end_layout
+
+\begin_layout Standard
+Q(1)＝Q(2)＝1
+\end_layout
+
+\begin_layout Standard
+这使我们联想到费波那奇级数的定义，其中每一项都是前面两项的和。所不同的是，并非相邻前两项的和。而是按照这两项的值向左移动相应的位数，将由此用到的项的值相加得到新
+顷项的值。下面是该数列前17项的值：
+\end_layout
+
+\begin_layout Standard
+1，1，2，3，3，4，5，5，6，6，6，8，8，8，10，9，10，……
+\end_layout
+
+\begin_layout Standard
+~~~~~~~~~~
+\end_layout
+
+\begin_layout Standard
+5+6=11向左移动几位
+\end_layout
+
+\begin_layout Standard
+第16、17位的值分别为9和10，这表示从第18位向左移动9饱和10位，将由此得到的第8第9位上的值5和6相加就得到第18位的新值11。这样得到的数列看来是飘忽
+不定的，而且越是往后，越是难以发现它的规律性。这是一个颇为神秘的特殊例子。一种很自然的定义却导致了令人迷惑的行为：在一种非常有序的状态中产生了混乱。
+\end_layout
+
+\begin_layout Standard
+在前面提到的费波那奇级数中，有两点是很重要的。第一是递归公式，第二是初始值。如果我们改变一下初始值，使第一个值为1、第2个值为3，那就会产生完全不同的数列，这就
+是罗卡斯级数：
+\end_layout
+
+\begin_layout Standard
+1、3、4、7、11、18、29、47、76、123……
+\end_layout
+
+\begin_layout Standard
+我们谈到了语言中的递归结构、数学中的递归结构。现在再来看看一种图形的递归结构。在这种结构中，图形的整体和它的部分在结构上是相似的，虽然存在一定程度的变形和扭曲。
+埃舍尔运用这种思想创作了《鱼和鳞》(图11)。当然，这种鱼和鳞的相似性只有用一种抽象的方式来看才是相似的。谁都知道，一片鱼鳞并不是一条鱼的小副本，但是一条鱼的脱
+氧核糖核酸确实存在于鱼的每一个细胞之中，这是整条鱼的一个副本。这才是埃舍尔的《鱼和鳞》所揭示的深刻真理。
+\end_layout
+
+\begin_layout Standard
+有时递归会给人一种错觉，好像是用自己在定义自己，从而导致无穷的回归。其实并不是这样。只要仔细作一番分析，就可以消除这种错觉。
+\end_layout
+
+\begin_layout Section
+图形和背景
+\end_layout
+
+\begin_layout Standard
+自然数是人们最早认识的数学系统。关于自然数性质的理论——数论是最古老的数学分支之一。许多杰出的数学家对于自然数或整数的许多奇妙性质特别感兴趣。说到自然数的一些性
+质，那就不仅仅指那些可以计算出结果来的性质，更主要的是指那些数学家们热心探索而又无法通过计算过程来加以证明的性质。
+\end_layout
+
+\begin_layout Standard
+例如有一条古老的陈述：“存在着无限多的素数”。这就是欧几里得定理。它并不是显而易见的。但是欧几里得之后的数学家都承认它是正确的。为什么呢？就是因为推理。依靠形式
+的推理加以证明就使我们不必去分别处理无穷多的实例。
+\end_layout
+
+\begin_layout Standard
+在推理过程中，我们往往使用“所有”这样的词。这个词本身具有有限的形式，但却包含着一种无限。当我们运用形式系统中的规则时．总是认为它对“所有的”定理都是适用的。也
+许我们并没有意识到这一点，只是觉得我们是在按照这个词本身的意义来使用它。但是这实际上就意味着，我们是在被自己也不完全清楚的规则牵着鼻子走。在我们的—生中总是以某
+种特定的方式来运用词汇的。我们把这称为思维过程中词汇的意义。这一点对于探索数论的形式化具有至关重要的意义。
+\end_layout
+
+\begin_layout Standard
+我们已经懂得如何通过同构来把握形式符号的意义，也可以通过形式符号的运算来把握概念。这在有些人看来似乎不可思议。但我们确实在pq系统中以这种方式把握了加法的概念。
+而且这一切显得那样自然。
+\end_layout
+
+\begin_layout Standard
+那么这种能力的限度究竞有多大呢？譬如自然数可以分为素数和合数。它们的意义是明确无误的。我们能否用形式系统的符号及其运算来判定某一个数是不是素数呢？
+\end_layout
+
+\begin_layout Standard
+我们可以构造一个形式系统，其中的定理具有Px的形式。这里的x为连字符号“-”的串。只有当连字符号的数目为素数时才是该系统中的定理。
+\end_layout
+
+\begin_layout Standard
+为了判定能否用形式符号的运算来达到我们的目的，我们先把前面几种形式系统出现过的运算归结一下，从而得到下面这张表：
+\end_layout
+
+\begin_layout Standard
+(1)读出或识别有限的符号集合中任何一个元。
+\end_layout
+
+\begin_layout Standard
+(2)写下属于这个集合的任何一个元。
+\end_layout
+
+\begin_layout Standard
+(3)把任何一个符号从某一处复制到另外一处。
+\end_layout
+
+\begin_layout Standard
+(4)消去这些符号。
+\end_layout
+
+\begin_layout Standard
+(5)检验两处的符号是否相同。
+\end_layout
+
+\begin_layout Standard
+(6)保存或使用前面生成的定理表。
+\end_layout
+
+\begin_layout Standard
+这张表似乎显得有点累赘，不过这无关大局。重要的是在经过一番努力之后，我们终于发现，很难用形式符号的运算来判定某一个数是不是素数。由此可见，形式运算把握某种概念的
+能力是多么有限。
+\end_layout
+
+\begin_layout Standard
+也许从埃舍尔的《镶嵌图案》(图6)中我们可以获得某种启示。这是一幅图形和背景天衣无缝地配合在一起的图画。如果我们把白色的形象视为图形，那么黑色的形象就构成了它们
+的背景。反之，如果我们把黑色的形象视为图形，那么白色的形象就构成了背景。它们互相补充．共同组成一个整体。这使我们联想到，素数与合数也是以互补的方式构成统一的整体
+。
+\end_layout
+
+\begin_layout Standard
+显然，识别合数要比识别素数来得容易。因此，我们很自然地想到先来构成一个合数为定理的形式系统，这一点是比较容易做到的。模仿前面的pq系统，我们来构造一个tq系统。
+这且的t可以理解为乘法，x、y、z则分别表示连字符号的串。xtyqz为tq系统中的一条定理，当且仅当x乘y等于z。这种系统也和pq系统一样简单，它只有一条公理和
+一条推理规则：公理：xt-qx为定理，x为连字符号串。
+\end_layout
+
+\begin_layout Standard
+规则：如果x、y、z为连字符号串，xtyqz为定理，那么xty+qzx也是定理。
+\end_layout
+
+\begin_layout Standard
+有兴趣的读者可以模仿pq系统的推理，根据这条公理和规则构造该系统的定理树的一部分。看看是否能用这种方式把握乘法的概念。
+\end_layout
+
+\begin_layout Standard
+当然，乘法是出加法更为复杂的概念，但是我们现在却用形式符号及其运算将它控制住了，就像埃舍尔在《解放》这幅画中控制飞鸟一样。那么对于素数这个概念又怎样呢？
+\end_layout
+
+\begin_layout Standard
+看来有一个很机智的方案，这就是运用已经构造好的tq系统定义一个形式为Cx的定理集合。当x代表的连字符号串数目为合数时，那么Cx为其中的一个元。我们给出以下的规则
+：
+\end_layout
+
+\begin_layout Standard
+规则：如果x、y、z是连字符号串，如果x-ty-qz是一条定理，那么Cz也是一条定理
+\end_layout
+
+\begin_layout Standard
+这是合数定义的形式化。这里之所以用x-y-是避免出现连字符号串为1的情形。这样我们就可以用形式为Cx的定理集合表示合数的集合，用形式为Px的定理集合表示素数的集
+合。C型定理与P型定理的相互关系是不言而喻的：
+\end_layout
+
+\begin_layout Standard
+规则：如果x为连字符号串，Cx不是定理，则Px是定理，反之亦然。
+\end_layout
+
+\begin_layout Standard
+不过，我们不要高兴得太早了，要确定一个连字符号串不是C型定理并不是一种明显的形式运算。就像我们前面提到过的数学游戏，要想确定MU不是MIU系统中的一条定理就必须
+跳出这个系统。上面提出的这条规则也是这样，它与我们前面提到的几种形式系统中的规则不同，它要进行的运算是非正常的运算，即在系统之外的运算。这就是说它要浏览一张“非
+定理”的表。而要生成这样一张表既要在系统之外进行运算。现在的问题是，这个系统的所有定理按照共同的规则运算具有共同的形式，那么所有的非定理是否也具有共同的形式呢？
+这一点并不是理所当然的。因为系统的定理可以从正面给出定义，而非定理却是从反面来定义的。
+\end_layout
+
+\begin_layout Standard
+我们再来看看斯科持的《图案画》(图28)：
+\end_layout
+
+\begin_layout Standard
+我们可以用两种方式来描述黑色区域的特点：
+\end_layout
+
+\begin_layout Standard
+l．作为白色图形的背景。
+\end_layout
+
+\begin_layout Standard
+2．将白色区域平移后徐上黑色。
+\end_layout
+
+\begin_layout Standard
+在这幅图中，用两种方式得到的结果是一样的。这样的性质在形式系统中就表现为一个形式系统中的非定理可以成为另一个形式系统中的正定理。在音乐中，与此相类似的是主题与伴
+奏。主题是引人注目的，而伴奏在某种意义上讲是隐藏在后面的。在一般的乐曲中，伴奏并没有什么明显的旋律。但是在巴赫的一些作品中，伴奏也有旋律。它们起着“图形”的作用
+。从这种意义上讲，巴赫的这些作品是“互衬”的。
+\end_layout
+
+\begin_layout Standard
+现在让我们回到形式系统的正定理与非定理的问题上来。在我们的例子中，C型定理是正空间，P型定理是负空间。我们已经找到一种方法可以用符号把素数表示成某个形式系统的非
+定理集合，即负空间。现在能否再将其表示成正空间呢？
+\end_layout
+
+\begin_layout Standard
+按照人们的直觉也许会认为这没有什么本质性的困难。为什么图形和背景就不能携带同样多的信息呢？然而无情的事实恰恰是：
+\end_layout
+
+\begin_layout Standard
+存在着这样的形式系统，它的负空间(非定理的集合)不能成为任何形式系统的正空间(定理的集合)。
+\end_layout
+
+\begin_layout Standard
+这个结果在深度上与哥德尔定理相当。把它表述成数学术语就是：
+\end_layout
+
+\begin_layout Standard
+存在着递归可枚举的集合，它是不可递归的。
+\end_layout
+
+\begin_layout Standard
+递归可枚举相当于可以用背景来“反衬”图形。递归相当于图形与背景可以“互衬”。这就是说递归的集合不但本身是递归可枚举的，而且它的补集也是递归可枚举的。
+\end_layout
+
+\begin_layout Standard
+这里有必要说明一下递归可枚举的概念。所谓递归可枚举的集合就是可以从这个集合的一组基元出发，重复地运用运算的规则来生成集合中的每一个元。这是递归的本质，即用简单的
+说明来定义一些东西。我们提到过的费波那奇级数和罗卡斯级数就是递归可枚举集合的出色例子。
+\end_layout
+
+\begin_layout Standard
+根据上面的结果(我们暂时先承认它是正确的)就可以得出下面的结果；
+\end_layout
+
+\begin_layout Standard
+存在着这样的形式系统，没有适合于它的形式判定道程。
+\end_layout
+
+\begin_layout Standard
+为什么会有这样的结果呢？所谓判定过程就是识别定理和非定理的方法。如果一个形式系统的定理集合是递归可枚举的，它的补集——非定理的集合也是递归可检举的，那么我们就可
+以把所有的定理和非定理都列成表。通过与这张表的对照就可以判定任何一条陈述是定理还是非定理。但是如果一个形式系统的定理集合是递归可枚举的，可是非定理集合却不是递归
+可枚举的，那么就无法做到这一点。因此并非所有的形式系统都有形式的判定过程。这个问题也是与自然数的有序性问题深刻联系在一起的。被我们认为是非常有序的自然数的数列总
+会表现出某种无序性来。埃舍尔的画《有序和无序》(图18)巧妙地表现了两者之间的关系。
+\end_layout
+
+\end_body
+\end_document

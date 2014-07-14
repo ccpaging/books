@@ -107,7 +107,7 @@ Preamble
     \renewcommand{\figurename}{图}
 
     % 图的编号改成 1.1 的方式，清零用“\setcounter{figure}{0}”
-    \renewcommand{\thefigure}{\arabic{chapter}-\arabic{figure}}
+    \renewcommand{\thefigure}{\arabic{figure}}
     \RequirePackage[font=small,labelsep=quad]{caption}
 
     \setlength{\abovecaptionskip}{0ex} %caption和图像之间的距离
