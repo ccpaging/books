@@ -106,7 +106,7 @@
 人工智能的历史可以追溯到巴斯卡和莱布尼兹，他们梦想有智能的机器。到19世纪，布尔和德·摩尔根提出了“思维定律”，这实质上是命题演算。这是走向人工智能的第一步。后
 来贝比奇设计了第一架“计算机器”，这是计算机硬件也是人工智能硬件的前身。人们可以把机器装置完成以前只能内人脑完成的工作算成人工智能的开始。我们很难体会当年人们初
 次见到转动的齿轮能够完成大数的加法和乘法时是怎样一种感情。也许他们会感到自己已经看到了“思维”在这些硬件中流动。不管怎化，我们知道，当一百年后电子计算机首次建造
-出来后，它的发明者确实感到有另外—种会思维的物体的存在了。至于真正的思维过程究竟是怎样的，至今仍然是一个谜。
+出来后，它的发明者确实感到有另外一种会思维的物体的存在了。至于真正的思维过程究竟是怎样的，至今仍然是一个谜。
 \end_layout
 
 \begin_layout Standard
@@ -114,142 +114,194 @@
 编制成程序的部分。下面就让我们来回顾一下人工智能所研究的领域：
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 机器翻译
 \end_layout
 
-\begin_layout Standard
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 直接的(查词典、重排词序)
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 间接的(以某种内部语言为媒介)
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 游戏
 \end_layout
 
-\begin_layout Standard
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 象棋、桥牌等
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 证明数学定理
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 证明运算
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 图象处理
 \end_layout
 
-\begin_layout Standard
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 识别手写体
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 阅读各种字体的文章
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 听
 \end_layout
 
-\begin_layout Standard
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 理解口语
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 分出音节或词素
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 综合整个词或句子
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 理解自然语言
 \end_layout
 
-\begin_layout Standard
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 回答专业性问题
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 分析复杂句子
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 造句或写较长的段落
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 运用实际知识理解文章
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 分析意思含糊的关系
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 产生自然语言
 \end_layout
 
-\begin_layout Standard
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 抽象诗
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 任意的句于、段落或较长的文章
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 从知识的内部表达产生输出
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 思想性的创作成艺术创作
 \end_layout
 
-\begin_layout Standard
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 写诗
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 写小说
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 音乐创作
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 类比思维
 \end_layout
 
-\begin_layout Standard
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 几何形状
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 根据有关的领域作出某一数学领域的证明
 \end_layout
 
-\begin_layout Standard
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 学习
 \end_layout
 
-\begin_layout Standard
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 调节参数
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 形成概念
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 在人工智能研究开辟这些领域之前，人们无疑是把这些功能看成人类特有的智能。不管人们以后关于“真正思维”的概念发生什么变化，都改变不了这样的事实，人工智能的研究深化
 了我们对思维过程的认识，扩大了我们的思维功能。
@@ -282,7 +334,7 @@
 \begin_layout Standard
 回顾人工智能的早期历史，人们最早作出的努力之一便是企图实现定理的机器证明。将问题进行归纳是其中一项重要的技术。也可以将整体的问题转化为局部的问题。然而这种方法并
 非总能保证成功的。如果我们把对问题的探索看成是在问题空间中逼近确定的目标，那么这就是一种抽象的概念性空间。当你认识到如果直接奔向目标会遇到抽象的“篱笆”时，你可
-以采取两种行动：(1)你以某种随机的方式离开目标，希望能够发现—道隐藏的“门”；(2)试图去发现能够表示问题的新“空间”，在这新空间中在你和目标之间没有抽象的篱
+以采取两种行动：(1)你以某种随机的方式离开目标，希望能够发现一道隐藏的“门”；(2)试图去发现能够表示问题的新“空间”，在这新空间中在你和目标之间没有抽象的篱
 笆隔开。这虽然是一种理想的方法，但如何选择一个好的空间来表达问题却是一个非常复杂的问题。
 \end_layout
 
@@ -342,7 +394,7 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 \end_layout
 
 \begin_layout Standard
-托里?成诺格拉特(化名托尼?厄尔威格)在1968—70年设计了SHRDLU程序。当时他还是麻省理工学院的博士研究生，正在研究语言如何和理解相结合的人工智能问题。
+托里·成诺格拉特(化名托尼·厄尔威格)在1968—70年设计了SHRDLU程序。当时他还是麻省理工学院的博士研究生，正在研究语言如何和理解相结合的人工智能问题。
 为了说明这种程序的功能，我们来看这样一段经历。
 \end_layout
 
@@ -351,10 +403,11 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 托尼·厄尔威格博士则对他们的对话作了必要的注解。
 \end_layout
 
-\begin_layout Standard
-1．奥：拣起一块大的红方木块。(参阅图34)
+\begin_layout Enumerate
+奥：拣起一块大的红方木块。(参阅图34)
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：好。
 \end_layout
@@ -363,10 +416,12 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 博：计算机执行命令就回答一声“好”。要执行命令就得把上面那块绿的移开。
 \end_layout
 
-\begin_layout Standard
-2．奥：抓住那块锥体。
+\end_deeper
+\begin_layout Enumerate
+奥：抓住那块锥体。
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：我不明白你指哪一个锥体。
 \end_layout
@@ -375,10 +430,12 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 博：可以看到这里共有3个锥体，它不知道奥茵指的是哪一块。
 \end_layout
 
-\begin_layout Standard
-3．奥：找出你拿着的那块更高的方木块，把它放进盒子里去。(参阅图35)
+\end_deeper
+\begin_layout Enumerate
+奥：找出你拿着的那块更高的方木块，把它放进盒子里去。(参阅图35)
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 博：计算机必须先弄懂“一块”和“它”是什么意思，然后才能去推论应该拿哪一块。
 \end_layout
@@ -391,18 +448,22 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 博：这里的“它”本来可以指挑出来的那块，也可以指拿着的那块。计算机通过试探的方法在两者之间进行选择。它必须把红木块放下，拣起更高的蓝木块。
 \end_layout
 
-\begin_layout Standard
-4．奥：盒子里有什么？
+\end_deeper
+\begin_layout Enumerate
+奥：盒子里有什么？
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：蓝锥体和蓝方木块。
 \end_layout
 
-\begin_layout Standard
-5．奥：锥体底下是什么？
+\end_deeper
+\begin_layout Enumerate
+奥：锥体底下是什么？
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 博：计算机不再问前面提出过的问题，而设想你所指的就是刚才提到的那一块。
 \end_layout
@@ -411,18 +472,22 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 机：盒子。
 \end_layout
 
-\begin_layout Standard
-6．奥：在盒子外有多少方木块？
+\end_deeper
+\begin_layout Enumerate
+奥：在盒子外有多少方木块？
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：4块。
 \end_layout
 
-\begin_layout Standard
-7．奥：其中至少有一块比我刚才让你捡起来的那块窄吗？
+\end_deeper
+\begin_layout Enumerate
+奥：其中至少有一块比我刚才让你捡起来的那块窄吗？
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 博：像“其中至少有一块”这类词组也应该是指木块。而记忆可以帮助计算机推出“刚才让你捡起的那块”指的是什么。注意这个词组的复杂结构。而SHRDLU的语义分析器所采
 用的办法是按照一般的方式去把握这种复杂性的。
@@ -432,30 +497,36 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 机：有，是那块红的。
 \end_layout
 
-\begin_layout Standard
-8．奥：红方木块底下是什么？
+\end_deeper
+\begin_layout Enumerate
+奥：红方木块底下是什么？
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：桌子。
 \end_layout
 
-\begin_layout Standard
-9．奥：桌子能捡起木块吗？
+\end_deeper
+\begin_layout Enumerate
+奥：桌子能捡起木块吗？
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 博：SHRDLU的语义学规则应该包括“捡起”的知识。只有动物才能做到达一点，而桌子并不是动物。
 \end_layout
 
 \begin_layout Standard
-机，不能。
+机：不能。
 \end_layout
 
-\begin_layout Standard
-10．奥：方木块能支撑锥体吗?
+\end_deeper
+\begin_layout Enumerate
+奥：方木块能支撑锥体吗?
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：能。
 \end_layout
@@ -464,10 +535,12 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 博：SHRDLU的推理系统发现了这样的实例，因而知道这是可能的。
 \end_layout
 
-\begin_layout Standard
-11．奥：锥体能支撑锥体吗？
+\end_deeper
+\begin_layout Enumerate
+奥：锥体能支撑锥体吗？
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：不知道。
 \end_layout
@@ -476,10 +549,12 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 博：计算机找不到这样的实例，也无法在程序中找到，虽然它最终能够改进这种能力。
 \end_layout
 
-\begin_layout Standard
-12．奥：把两个锥体叠起来。
+\end_deeper
+\begin_layout Enumerate
+奥：把两个锥体叠起来。
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：我做不到。
 \end_layout
@@ -488,10 +563,12 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 博：它作了尝试，但是失败了。
 \end_layout
 
-\begin_layout Standard
-13．奥：那个蓝锥体是属于我的。
+\end_deeper
+\begin_layout Enumerate
+奥：那个蓝锥体是属于我的。
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：我明白了。
 \end_layout
@@ -500,34 +577,42 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 博：所有关于颜色、形状、大小和位置的信，计算机原来都知道。但是“属于”这种性质原来是不知道的。现在才贮存进去。
 \end_layout
 
-\begin_layout Standard
-14．奥：所有不是红色的方木块都属于我，但锥体下的东西不属于我。
+\end_deeper
+\begin_layout Enumerate
+奥：所有不是红色的方木块都属于我，但锥体下的东西不属于我。
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：我明白了。
 \end_layout
 
-\begin_layout Standard
-15．奥：盒子属于我吗？
+\end_deeper
+\begin_layout Enumerate
+奥：盒子属于我吗？
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：不。
 \end_layout
 
-\begin_layout Standard
-16．奥：盒子里有什么东西属于我吗？
+\end_deeper
+\begin_layout Enumerate
+奥：盒子里有什么东西属于我吗？
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：蓝色方木块和蓝色锥体。
 \end_layout
 
-\begin_layout Standard
-17．奥：请你堆起两块红色方木块，另外再加上一个绿色的立方体或者一个锥体。
+\end_deeper
+\begin_layout Enumerate
+奥：请你堆起两块红色方木块，另外再加上一个绿色的立方体或者一个锥体。
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：好的。
 \end_layout
@@ -536,10 +621,12 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 博：这些逻辑连词“相”、“或”等，既要从语法上去把握又要从语义上去把握。
 \end_layout
 
-\begin_layout Standard
-18．奥：把最小的锥体放到顶上去。
+\end_deeper
+\begin_layout Enumerate
+奥：把最小的锥体放到顶上去。
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 博：在它的词典里并没有“最小”这个词，但是可以通过小来理解。计算机在比较它们的大小之后完成了这一步。
 \end_layout
@@ -548,10 +635,12 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 机：好的。
 \end_layout
 
-\begin_layout Standard
-19．奥：在绿色立方体顶上有多少块？
+\end_deeper
+\begin_layout Enumerate
+奥：在绿色立方体顶上有多少块？
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：我不敢肯定“在项上”指的是什么。
 \end_layout
@@ -560,10 +649,12 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 博：这和放到顶上不同，因为放到顶上只有一种可能性，否则都做不到。“在顶上”也许指的是正前方，也许指的是上面的任何地方。
 \end_layout
 
-\begin_layout Standard
-20．奥：做一个尖塔。
+\end_deeper
+\begin_layout Enumerate
+奥：做一个尖塔。
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：我不懂“尖塔”这个词。
 \end_layout
@@ -572,30 +663,37 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 博：当计算机碰到一个它还不懂的词时，立刻就中断了。
 \end_layout
 
-\begin_layout Standard
-21．奥：两个绿色立方体和一个锥体组成一个“尖塔”。
+\end_deeper
+\begin_layout Enumerate
+奥：两个绿色立方体和一个锥体组成一个“尖塔”。
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：我明白了。
 \end_layout
 
-\begin_layout Standard
-22．奥：做一个。
+\end_deeper
+\begin_layout Enumerate
+奥：做一个。
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：好的。
 \end_layout
 
-\begin_layout Standard
-23．奥：谢谢称。
+\end_deeper
+\begin_layout Enumerate
+奥：谢谢称。
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 机：欢迎你以后再来。
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 通过这段人——机的对话，我们可以清楚地看到，经过十多年的发展人工智能已经到了什么水平。机器变得多么聪明。它会运用已有的知识进行推理，也会接受新的概念，学习新的知
 识。
@@ -737,7 +835,7 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 \end_layout
 
 \begin_layout Standard
-从对“蓬加特”问题的研究，我们可以看到，人类通过遗传获得的对于模式的难以捉摸的理解包括表达知识的所有机制，如交锗的相互关系，概念框架、概念的映射、可以变动的描述
+从对“蓬加特”问题的研究，我们可以看到，人类通过遗传获得的对于模式的难以捉摸的理解包括表达知识的所有机制，如交错的相互关系，概念框架、概念的映射、可以变动的描述
 和元描述以及它们之间的相互作用，符号的融合和裂解、多重的表达、有欠缺的预测等等。
 \end_layout
 

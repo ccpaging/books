@@ -399,52 +399,752 @@ B1oop语言具有无引入地址的结构。这种结构使得程序具有自备
 请看下面的例子：
 \end_layout
 
-\begin_layout Standard
-式子---------------------------------〉歌德尔数
+\begin_layout CenterLine
+式子
+\begin_inset Formula $\xrightarrow[\text{哥德尔编码}]{}$
+\end_inset
+
+哥德尔数
 \end_layout
 
 \begin_layout Standard
-歌德尔数
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="0page%">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="middle" width="0line%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $a=a$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-a=a262111262
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $262\ 111\ 262$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
 用数字2代替所有自由变量
 \end_layout
 
-\begin_layout Standard
-SS0=SS0123123666111123123666
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 4em
+\end_inset
+
+
+\size small
+
+\begin_inset Formula $\downarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $SS0=SS0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $123\ 123\ 666\ 111\ 123\ 123$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $666$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout CenterLine
+·
+\begin_inset space \quad{}
+\end_inset
+
+·
+\begin_inset space \quad{}
+\end_inset
+
+·
+\begin_inset space \quad{}
+\end_inset
+
+·
+\begin_inset space \quad{}
+\end_inset
+
+·
+\begin_inset space \quad{}
+\end_inset
+
+·
+\begin_inset space \quad{}
+\end_inset
+
+·
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim\exists a:\exists a':a''$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $223\ 333\ 262\ 636\ 333$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $=(SSa)\cdot(SSa')$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $262\ 163\ 636$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-············
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="0page%">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="middle" width="0line%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+用数字4代替所有自由变量
 \end_layout
 
-\begin_layout Standard
-223333262636333262163636
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-用数字4代替所有自由变量262163163111362163123262
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $262\ 163\ 163\ 111\ 362$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-236123123262163323
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-223333262636333262163636
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-123123123123666111363123
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $123\ 123\ 262\ 236\ 123$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-123626236123123262163323
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $123\ 262\ 163\ 323$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 4em
+\end_inset
+
+
+\size small
+
+\begin_inset Formula $\downarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim\exists a:\exists a':SSSS0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $223\ 333\ 262\ 636\ 333$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $=(SSa\cdot SSa')$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $262\ 163\ 636\ 123\ 123$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $123\ 666\ 111\ 363\ 123$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $123\ 262\ 236\ 123\ 123$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $262\ 163\ 323$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -455,7 +1155,14 @@ SS0=SS0123123666111123123666
 \end_layout
 
 \begin_layout Standard
-SUB{a,a'a"}(SUB是“替代”的意思)
+\begin_inset Formula $SUB\{a,a'a"\}$
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+(SUB是“替代”的意思)
 \end_layout
 
 \begin_layout Standard
@@ -463,11 +1170,30 @@ SUB{a,a'a"}(SUB是“替代”的意思)
 \end_layout
 
 \begin_layout Standard
-SUB{SSS……SSS0/a,SS0/a,SSS……SS0/a"}
+\noindent
+\begin_inset Formula $SUB\{\underbrace{SSS……SSS0}/a,SS0/a,\underbrace{SSS……SS0}/a"\}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-262111266个S123123666111123123666个S
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $\overset{262\ 111\ 266\text{个}S}{}$
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $\overset{123 123 666 111 123 123 666\text{个}S}{}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -475,7 +1201,10 @@ SUB{SSS……SSS0/a,SS0/a,SSS……SS0/a"}
 \end_layout
 
 \begin_layout Standard
-SUB{SSS0/a,SS0/a',S0/a"}
+\begin_inset Formula $SUB\{SSS0/a,\ SS0/a',\ S0/a"\}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -487,47 +1216,103 @@ SUB{SSS0/a,SS0/a',S0/a"}
 \end_layout
 
 \begin_layout Standard
-给定一个式子a＝S0，它的哥德尔数为262121123666。让我们把这个数插进式子中去就得到：
+给定一个式子
+\begin_inset Formula $a=S0$
+\end_inset
+
+，它的哥德尔数为
+\begin_inset Formula $262\ 121\ 123\ 666$
+\end_inset
+
+。让我们把这个数插进式子中去就得到：
 \end_layout
 
 \begin_layout Standard
-SS……S0＝S0
+\begin_inset Formula $\underset{262\ 111\ 123\ 666\text{个}S}{\underbrace{SS\text{……}S0}}=S0$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-262111123666个S
+这个结果显然是错误的。因为让
+\begin_inset Formula $262\ 121\ 123\ 666$
+\end_inset
+
+和
+\begin_inset Formula $1$
+\end_inset
+
+相等是荒唐的。但是如果我们从一开始就写成
+\begin_inset Formula $\sim a=S0$
+\end_inset
+
+那么就会得到一种正确的陈述。
 \end_layout
 
 \begin_layout Standard
-这个结果显然是错误的。因为让262111123666和1相等是荒唐的。但是如果我们从一开始就写成~a＝S0那么就会得到一种正确的陈述。
+如果我们在“替代关系”中把两个自由变量换成相同的。那么就会有
+\begin_inset Formula $SUB\{a",a",a'\}$
+\end_inset
+
+。这是以两种方式使用同一个数字。我们可以写成：
 \end_layout
 
-\begin_layout Standard
-如果我们在“替代关系”中把两个自由变量换成相同的。那么就会有SUB(a",a",a')。这是以两种方式使用同一个数字。我们可以写成：
-\end_layout
+\begin_layout CenterLine
+算术奎因
+\begin_inset Formula $\{a",a'\}$
+\end_inset
 
-\begin_layout Standard
-算术奎因{a",a'}
+
 \end_layout
 
 \begin_layout Standard
 这个式子的含义是：“a'是这样一个式子的哥德尔数，它是由哥德尔数为a"的式子通过算术奎因而得到的。”在我们所举的例子中，庞大的数字：
 \end_layout
 
-\begin_layout Standard
-123123……123l23666111123666
+\begin_layout CenterLine
+\begin_inset Formula $\underset{262\ 111\ 123\ 666\text{个}"123"}{\underbrace{123\ 123\text{……}123\ 123}}\ 666\ 111\ 123\ 666$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-262111123666个“123”
-\end_layout
+就是“算术奎因”
+\begin_inset Formula $a=S0$
+\end_inset
 
-\begin_layout Standard
-就是“算术奎因”a=S0所得到的式子的歌德尔数。
+所得到的式子的歌德尔数。
 \end_layout
 
 \begin_layout Standard
 就像我们可以重复奎因的技巧一样，我们也可以重复地使用算术奎因的技巧，就是对于一个描述算术奎因的句子进行算术奎因。于是我们就可以写下这样一个式子：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sim\exists a:\exists a':$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $<TNT$
+\end_inset
+
+证明对
+\begin_inset Formula $\{a,a'\}\land$
+\end_inset
+
+算术奎因
+\begin_inset Formula $\{a'',a'\}>$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -536,19 +1321,50 @@ SS……S0＝S0
 \end_layout
 
 \begin_layout Standard
-u个S
+\begin_inset Formula $\sim\exists a:\exists a':$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $<TNT$
+\end_inset
+
+证明对
+\begin_inset Formula $\{a,a'\}\land$
+\end_inset
+
+算术奎因
+\begin_inset Formula $\{\underset{u\text{个}S}{\underbrace{SSS\cdots SS0/a''}},a'\}>$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 不管你信还是不信，这就是哥德尔串，我们称它为“G”。现在我们马上要回答两个问题：
 \end_layout
 
 \begin_layout Standard
-(1)G的歌德尔数是什么?
+(1)
+\begin_inset space \space{}
+\end_inset
+
+G的歌德尔数是什么?
 \end_layout
 
 \begin_layout Standard
-(2)G如何解释?
+(2)
+\begin_inset space \space{}
+\end_inset
+
+G如何解释?
 \end_layout
 
 \begin_layout Standard
@@ -561,8 +1377,15 @@ u个S
 \end_layout
 
 \begin_layout Standard
-不存在数a和a'，便得了面两点同时成立(1)它们形成TNT中的一个证明对，(2)a'是u经算术奎因所得到的哥德尔数。但是算术奎因u所得到的哥德尔数确实是存在的。
-因此上面这句话可以表述成：
+不存在数a和a'，便得了面两点同时成立(1)
+\begin_inset space \space{}
+\end_inset
+
+它们形成TNT中的一个证明对，(2)
+\begin_inset space \space{}
+\end_inset
+
+a'是u经算术奎因所得到的哥德尔数。但是算术奎因u所得到的哥德尔数确实是存在的。因此上面这句话可以表述成：
 \end_layout
 
 \begin_layout Standard
@@ -578,7 +1401,12 @@ u个S
 \end_layout
 
 \begin_layout Standard
-G不是TNT中的定理。这样我们就从较低层次的解释——数论中的句子逐渐推导出较高层次上的解释——元TNT中的句于。这里的主要结果可以重申如下：
+G不是TNT中的定理。
+\end_layout
+
+\begin_layout Standard
+\noindent
+这样我们就从较低层次的解释——数论中的句子逐渐推导出较高层次上的解释——元TNT中的句于。这里的主要结果可以重申如下：
 \end_layout
 
 \begin_layout Standard
@@ -601,10 +1429,33 @@ G不是TNT中的定理。这样我们就从较低层次的解释——数论中�
 \end_layout
 
 \begin_layout Standard
-u个S
+\begin_inset Formula $\forall a:\sim\exists a':$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $<TNT$
+\end_inset
+
+证明对
+\begin_inset Formula $\{a,a'\}\land$
+\end_inset
+
+算术奎因
+\begin_inset Formula $\{\underset{u\text{个}S}{\underbrace{SSS\cdots SS0/a''}},a'\}>$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 这个串不是一条定理，但我们可以证明，与此有关的塔形族中每一条都是定理。因为它们每一条的意思分别是：
 \end_layout
 
@@ -625,6 +1476,7 @@ u个S
 \end_layout
 
 \begin_layout Standard
+\noindent
 因为G不是定理，因此没有一个整数与G的哥德尔数形成证明对。由此可见这一族中每一条都是定理。这就证明了TNT是ω不完备的。
 \end_layout
 
@@ -642,6 +1494,7 @@ TNT的漏洞可以表示成：“我无法在TNT中得到证明。”
 \end_layout
 
 \begin_layout Standard
+\noindent
 而在TNT+G中存在着同样的漏洞，可以表述成：“我无法在TNT+G中得到证明。”
 \end_layout
 
@@ -654,19 +1507,35 @@ TNT的漏洞可以表示成：“我无法在TNT中得到证明。”
 \end_layout
 
 \begin_layout Standard
-(1a)给定表L，构造它的对角线数d。
+(1a)
+\begin_inset space \space{}
+\end_inset
+
+给定表L，构造它的对角线数d。
 \end_layout
 
 \begin_layout Standard
-(1b)把d加到表L里构成新表L+d。
+(1b)
+\begin_inset space \space{}
+\end_inset
+
+把d加到表L里构成新表L+d。
 \end_layout
 
 \begin_layout Standard
-(2a)给定表L+d，构造它的对角线数d'。
+(2a)
+\begin_inset space \space{}
+\end_inset
+
+给定表L+d，构造它的对角线数d'。
 \end_layout
 
 \begin_layout Standard
-(2a)把d'加到表L+d里构成新表L+d+d'。
+(2a)
+\begin_inset space \space{}
+\end_inset
+
+把d'加到表L+d里构成新表L+d+d'。
 \end_layout
 
 \begin_layout Standard
@@ -682,15 +1551,27 @@ TNT的漏洞可以表示成：“我无法在TNT中得到证明。”
 \end_layout
 
 \begin_layout Standard
-1．这个系统足够完备使得所有有关数的陈述都能在系统内表达出来。
+1.
+\begin_inset space \space{}
+\end_inset
+
+这个系统足够完备使得所有有关数的陈述都能在系统内表达出来。
 \end_layout
 
 \begin_layout Standard
-2．所有的一般递归关系都能在系统内用公式表达出来。
+2.
+\begin_inset space \space{}
+\end_inset
+
+所有的一般递归关系都能在系统内用公式表达出来。
 \end_layout
 
 \begin_layout Standard
-3．公理和那些规则所定义的符号模式都能通过某种有限的判定程序来识别。
+3.
+\begin_inset space \space{}
+\end_inset
+
+公理和那些规则所定义的符号模式都能通过某种有限的判定程序来识别。
 \end_layout
 
 \begin_layout Standard
@@ -722,8 +1603,14 @@ TNT的漏洞可以表示成：“我无法在TNT中得到证明。”
 \end_layout
 
 \begin_layout Standard
-为了使我们对此有一种直观的印象，我们来看看埃舍尔历画的《龙》(图19)，它最显著的特点就是所在现的主题——一条龙咬住自己的尾巴，其中包含了哥德尔定理的意义。但是
-还有更深一层的意思。埃舍尔自己对此作了一番说明：
+为了使我们对此有一种直观的印象，我们来看看埃舍尔历画的《龙》(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:19"
+
+\end_inset
+
+)，它最显著的特点就是所在现的主题——一条龙咬住自己的尾巴，其中包含了哥德尔定理的意义。但是还有更深一层的意思。埃舍尔自己对此作了一番说明：
 \end_layout
 
 \begin_layout Standard

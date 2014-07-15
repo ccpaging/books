@@ -110,10 +110,16 @@
 这种现象有时会使我们迷惑不解，有时却又显得非常自然。例如我们从电视屏幕上看到一连串的画面，我们明明知道这不过是显像管的电子枪在荧光屏上激发的一组亮点。但是我们仍
 然会被这些画面所表现的情景所吸引住。一般人所看到的只是画面的清晰度、色彩、亮度等等。只有电视机的专家或业余爱好者才会想到电子线路和电子元件的性能。这就是说，我们
 可以有截然不同层次的理解却又不会造成混乱。音乐也是这样，同样的乐曲可以使一部分听众感到恐惧，却会使另外一部分听众感到振奋，这取决于听众的个人情感、心理和气质。再
-拿埃舍尔的画《带魔带的立方架》(图17)来说，魔带上的小泡究竞是凹的还是凸的呢？一会儿它们的一部分凹进去，另一部分却凸了出，一会儿凹进去的那部分凸了出来，突出来
-的那部分却凹进去了，就像在变魔术一样。在心理学的实验中还有许多这样奇妙的图。读者也许不会忘记，前面提到过的《凹与凸》也有同样的效果。这就是说画面的视觉效果取决于
-你用什么方式去理解它。巴赫的赋格曲也是如此，你可以单独欣赏其中的一个音部，也可以欣赏它们的总体效果。它往往会使听众感到迷惑就是因为听众不知不觉地一会儿采取前一种
-方式，一会儿又采取后一种方式。
+拿埃舍尔的画《带魔带的立方架》(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:17"
+
+\end_inset
+
+)来说，魔带上的小泡究竞是凹的还是凸的呢？一会儿它们的一部分凹进去，另一部分却凸了出来，一会儿凹进去的那部分凸了出来，突出来的那部分却凹进去了，就像在变魔术一样
+。在心理学的实验中还有许多这样奇妙的图。读者也许不会忘记，前面提到过的《凹与凸》也有同样的效果。这就是说画面的视觉效果取决于你用什么方式去理解它。巴赫的赋格曲也
+是如此，你可以单独欣赏其中的一个音部，也可以欣赏它们的总体效果。它往往会使听众感到迷惑就是因为听众不知不觉地一会儿采取前一种方式，一会儿又采取后一种方式。
 \end_layout
 
 \begin_layout Standard
@@ -127,7 +133,7 @@
 \end_layout
 
 \begin_layout Standard
-早在20世纪50年代，人们就已经相信计算机可以比象棋大师更好地估价每—步棋。计算机估价各步棋的容量和速度远远超过一位最出色的棋手。由此推论，计算机要战胜象棋大师
+早在20世纪50年代，人们就已经相信计算机可以比象棋大师更好地估价每一步棋。计算机估价各步棋的容量和速度远远超过一位最出色的棋手。由此推论，计算机要战胜象棋大师
 是轻而易举的事。然而实际上并不是这样。棋手和计算机较量的结果表明，一位出色的棋手可以有把握地击败最先进的下棋计算机程序。其主要理由就是因为棋子不仅可以根据每一步
 棋去分析局势，而且可以从更高的层次去理解。而这一点，他的对手却做不到。对象棋的研究还表明，象棋大师对棋局的理解往往形成块。也就是说，象棋大师头脑中的棋局不是以每
 个子的位置组合而成的，而是以一部分子的相互关系形成的块组合而成的。因此象棋大师只需10秒钟就能把弈局记下来，而新手在同样的时间内却只能记住一半。但是如果把棋子杂
@@ -403,11 +409,17 @@
 实际上，这个命题像茶一样可以具有不同的浓度，我们将给出它的不同形式并考虑它们的含义。
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
+
+\shape slanted
+\size small
 丘奇——图林命题(重复形式)：
 \end_layout
 
 \begin_layout Standard
+
+\shape slanted
+\size small
 “只有通过数学运算才能解决数学问题。”
 \end_layout
 
@@ -420,11 +432,17 @@
 关于这个定理还可以表述成这样的形式：
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
+
+\shape slanted
+\size small
 丘奇——图林命题(标准形式)：
 \end_layout
 
 \begin_layout Standard
+
+\shape slanted
+\size small
 “如果有一种方法，并且有一种有智力的生物按照这个方法将数分成两类。再假设这种方法总能在有限的时间内给出回答，并且总能对给定的数作出同样的回答。那么一定存在有限的
 Floop程序(即某种一般递归函数)能给出与上述方法完全一样的回答”
 \end_layout
@@ -434,14 +452,20 @@ Floop程序(即某种一般递归函数)能给出与上述方法完全一样的�
 \end_layout
 
 \begin_layout Standard
-为了区别个人和集体的思维过程，我们再给出—种比上述命题较弱的形式：
+为了区别个人和集体的思维过程，我们再给出一种比上述命题较弱的形式：
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
+
+\shape slanted
+\size small
 丘奇——图林命题(集体过程的形式)：
 \end_layout
 
 \begin_layout Standard
+
+\shape slanted
+\size small
 “如果有一种方法，并且有一种有智力的生物按照这种方法将数分成两娄。再假设这种方法总能在有限的时间内给出回答，并且总能对给定的数作出同样的回答。附加条件：如果这种
 方法还能通过语言从一个有智力的生物传递给其他的生物。那么一定存在一种有Floop程序(即一般递归函数)能给出与上述方法完全一样的回答。”
 \end_layout
@@ -461,20 +485,34 @@ Floop程序(即某种一般递归函数)能给出与上述方法完全一样的�
 \end_layout
 
 \begin_layout Standard
-拉马努贾的另一个突出特点是“与整数的情谊。”当然有许多数学家也具有这种特点，但在拉马努贾身上表现得更加极端。哈迪记得，有—次他去探望病中的拉马努贾并对他讲，自己
+拉马努贾的另一个突出特点是“与整数的情谊。”当然有许多数学家也具有这种特点，但在拉马努贾身上表现得更加极端。哈迪记得，有一次他去探望病中的拉马努贾并对他讲，自己
 刚才乘坐的出租汽车号码1729似乎没有什么意义，但愿它不是一个不祥的预兆。拉马努贾却回答，“不，这是一个很有意思的数，这是可以用两种方式表示成两个数立方和的最小
 数。”哈迪又问他，那么对于四次方来说，这个最小数又是什么呢。他想了想回答说，他还找不出很简单的例子，这个数一定很大，答案是：
 \end_layout
 
-\begin_layout Standard
-635318657=134十133＝158十59但是，哈迪并不相信拉马努贾的数学才能有什么与众不同的秘密。他的观点可以表述成这样的命题：
+\begin_layout CenterLine
+\begin_inset Formula $635318657=134^{4}+133^{4}＝158^{4}+59^{4}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\noindent
+但是，哈迪并不相信拉马努贾的数学才能有什么与众不同的秘密。他的观点可以表述成这样的命题：
+\end_layout
+
+\begin_layout CenterLine
+
+\shape slanted
+\size small
 丘奇——图林命题(哈迪形式)：
 \end_layout
 
 \begin_layout Standard
+
+\shape slanted
+\size small
 “归根结蒂，所有的数学家都是同构的。”
 \end_layout
 
@@ -482,11 +520,17 @@ Floop程序(即某种一般递归函数)能给出与上述方法完全一样的�
 我们还要给出这一命题的强化标准形式：
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
+
+\shape slanted
+\size small
 丘奇——图林命题(同构形式)：
 \end_layout
 
 \begin_layout Standard
+
+\shape slanted
+\size small
 “如果有一种方法，并有一种有智力的生物按照这种方法将数分成两类。再假设这种方法总能在有限的时间内给出回答，并且总能对给定的数作出同样的回答。那么一定存在某种有限
 的Floop程序(即一般递归函数)能给出与上述方法完全一样的回答。
 \end_layout
@@ -510,11 +554,17 @@ Floop程序(即某种一般递归函数)能给出与上述方法完全一样的�
 如果用计算机来模拟大脑的神经网络，我们就可以给出上述命题的微观形式：
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
+
+\shape slanted
+\size small
 丘奇——图林命题(微观形式)：
 \end_layout
 
 \begin_layout Standard
+
+\shape slanted
+\size small
 “生物组成部分的行为能够在计算机上进行模拟。这就是说，只要给出任何组成部分(最典型的可以假设是细胞)的内部状态与局部环境足够精确的描述，那么它们的行为就可以用F
 loop程序来进行计算。
 \end_layout
@@ -523,11 +573,17 @@ loop程序来进行计算。
 这个命题说明大脑的过程并没有什么神秘的地方。由此可以得出下面的引理：
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
+
+\shape slanted
+\size small
 丘奇——图林命题(简化形式)：
 \end_layout
 
 \begin_layout Standard
+
+\shape slanted
+\size small
 “所有的大脑过程都可以从可计算的基础上推导出来。”
 \end_layout
 
@@ -544,11 +600,17 @@ loop程序来进行计算。
 我们再来看一种唯灵论的上述命题：
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
+
+\shape slanted
+\size small
 丘奇——图林命题(唯灵论的形式)：
 \end_layout
 
 \begin_layout Standard
+
+\shape slanted
+\size small
 “有些大脑所能做的事，可以用计算机来模糊地逼近，但是大部分不行，其中最有趣的肯定不行。而且不管怎样，即使能够做到的也还有灵魂需要解释，而这是计算机绝对做不到的。
 ”
 \end_layout
@@ -557,11 +619,17 @@ loop程序来进行计算。
 最后我们要给出这一命题的一种极端形式：
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
+
+\shape slanted
+\size small
 丘奇——图林命题：
 \end_layout
 
 \begin_layout Standard
+
+\shape slanted
+\size small
 “计算机是可笑的。科学一般来讲也是这样。”
 \end_layout
 
@@ -594,11 +662,17 @@ loop程序来进行计算。
 于是我们可以得出上述命题的一种最强的形式：
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
+
+\shape slanted
+\size small
 丘奇——图林命题(人工智能形式)：
 \end_layout
 
 \begin_layout Standard
+
+\shape slanted
+\size small
 “任何一种思维过程可以用计算机程序来模拟，它的基本语言具有和Floop同样的能力——这就是说，所有的部分递归函数都是能够程序化的。”
 \end_layout
 
