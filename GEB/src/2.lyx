@@ -235,9 +235,57 @@
 \end_layout
 
 \begin_layout Standard
+\align center
+
+\size large
+\begin_inset Float figure
+placement p
+wide false
+sideways true
+status open
+
+\begin_layout CenterLine
 \begin_inset Graphics
-	filename images/29.jpg
-	scale 70
+	filename images/images-069.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+哥德尔定理的基本原理
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+两个同构产生自食其果的效应。第一个同构从唱片的纹沟到唱机发出的声音。第二个同构从唱机的声音到自身的振动。第二个同构并不依赖于第一个同构。因为任何声音都会使唱机振
+动，而不仅仅限于唱机所发出的声音。这两个同构形成了怪圈，使得任何唱机都存在着不能在上面演奏的唱片。
+\end_layout
 
 \end_inset
 
@@ -256,7 +304,7 @@
 
 \begin_layout CenterLine
 \begin_inset Tabular
-<lyxtabular version="3" rows="13" columns="3">
+<lyxtabular version="3" rows="10" columns="3">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="right" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
@@ -581,6 +629,20 @@
 \end_inset
 </cell>
 </row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="right" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
 <row>
 <cell alignment="right" valignment="top" usebox="none">
 \begin_inset Text
@@ -618,7 +680,7 @@
 \begin_inset Text
 
 \begin_layout Plain Layout
-“我无法在唱机x
+“我无法在唱机
 \end_layout
 
 \end_inset
@@ -639,7 +701,7 @@
 \begin_inset Text
 
 \begin_layout Plain Layout
-“我无法在形式系统x中
+“我无法在形式系统
 \end_layout
 
 \end_inset
@@ -650,7 +712,7 @@
 \begin_inset Text
 
 \begin_layout Plain Layout
-上演奏”
+x上演奏”
 \end_layout
 
 \end_inset
@@ -668,7 +730,7 @@
 \begin_inset Text
 
 \begin_layout Plain Layout
-推导出来”
+x中推导出来”
 \end_layout
 
 \end_inset
@@ -704,15 +766,10 @@
 \end_layout
 
 \begin_layout CenterLine
-p
-\begin_inset space \quad{}
+\begin_inset Formula $p q -$
 \end_inset
 
-q
-\begin_inset space \quad{}
-\end_inset
 
--
 \end_layout
 
 \begin_layout Standard
@@ -720,7 +777,11 @@ q
 \end_layout
 
 \begin_layout Standard
-公理：xp-qx-
+公理：
+\begin_inset Formula $xp-qx-$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -728,7 +789,27 @@ q
 \end_layout
 
 \begin_layout Standard
-规则：如果x、y、z都代表连字符号的串，己知xpyqz为一个定理，那么xpy-qz-也是定理。
+规则：如果
+\begin_inset Formula $x$
+\end_inset
+
+、
+\begin_inset Formula $y$
+\end_inset
+
+、
+\begin_inset Formula $z$
+\end_inset
+
+都代表连字符号的串，己知
+\begin_inset Formula $xpyqz$
+\end_inset
+
+为一个定理，那么
+\begin_inset Formula $xpy-qz-$
+\end_inset
+
+也是定理。
 \end_layout
 
 \begin_layout Standard
@@ -765,177 +846,23 @@ q
 \end_layout
 
 \begin_layout CenterLine
-\begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="3">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="right" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
-<column alignment="left" valignment="top">
-<row>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Longleftrightarrow$
+\begin_inset Formula $\begin{array}{rcl}
+p & \Longleftrightarrow & \text{+}\\
+q & \Longleftrightarrow & \text{=}\\
+- & \Longleftrightarrow & 1\\
+-- & \Longleftrightarrow & 2
+\end{array}$
 \end_inset
 
 
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-+
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-q
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Longleftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-=
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-      -
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Longleftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-      --
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Longleftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
+\begin_layout CenterLine
 等等
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
+\noindent
 有时我们也把这种对应关系称为翻译。这是一种低层次上的对应。还有一种高层次上的对应，就是形式系统的定理与实际陈述之间的对应。如果你对一个形式系统一无所知，要想了解
 这些形式符号的意义，既要寻找一种有意义的方式来翻译。也就是说，寻找一种可以产生意义的同构关系。这就像破译密码一样。
 \end_layout
@@ -950,174 +877,19 @@ q
 \end_layout
 
 \begin_layout CenterLine
-\begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="3">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="right" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
-<column alignment="left" valignment="top">
-<row>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-p
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Longleftrightarrow$
+\begin_inset Formula $\begin{array}{rcl}
+p & \Longleftrightarrow & \text{等于}\\
+q & \Longleftrightarrow & \text{从……减去}\\
+- & \Longleftrightarrow & 1\\
+-- & \Longleftrightarrow & 2
+\end{array}$
 \end_inset
 
 
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-等于
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-q
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Longleftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-从……减去
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-      -
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Longleftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-      --
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Longleftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
+\begin_layout CenterLine
 等等
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1132,9 +904,15 @@ q
 \end_layout
 
 \begin_layout Standard
-同构赋于形式符号以意义。这也意味着形式符号可以把握现实世界。然而形式系统真的具有这种能力吗？或者说，这种能力究竟有多大？埃舍尔有一幅发人深省的画《解放》(图5)
-。从画面中我们可以看到规则图形与不规则图形(飞鸟)之间的奇妙对比，在两者之间有一个花哨的过渡区域。如果把现实世界比作自由飞翔的鸟儿，把形式系统比作规则的图形，那
-么这些鸟儿真的能受形式系统规则的约束？是否在现实世界与形式系统之间也存在一个奇妙的过渡区域呢？
+同构赋于形式符号以意义。这也意味着形式符号可以把握现实世界。然而形式系统真的具有这种能力吗？或者说，这种能力究竟有多大？埃舍尔有一幅发人深省的画《解放》(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5"
+
+\end_inset
+
+)。从画面中我们可以看到规则图形与不规则图形(飞鸟)之间的奇妙对比，在两者之间有一个花哨的过渡区域。如果把现实世界比作自由飞翔的鸟儿，把形式系统比作规则的图形，
+那么这些鸟儿真的能受形式系统规则的约束？是否在现实世界与形式系统之间也存在一个奇妙的过渡区域呢？
 \end_layout
 
 \begin_layout Section
@@ -1174,19 +952,35 @@ NA分子，改变的性质才能遗传给后代。改变遗传信息是构造一
 \end_layout
 
 \begin_layout Standard
-(l)看来乐曲并不是隐含在唱机的机制中。
+(l)
+\begin_inset space \space{}
+\end_inset
+
+看来乐曲并不是隐含在唱机的机制中。
 \end_layout
 
 \begin_layout Standard
-(2)可以以任意的精确度使输入(唱片)与输出(乐曲)之间匹配起来。
+(2)
+\begin_inset space \space{}
+\end_inset
+
+可以以任意的精确度使输入(唱片)与输出(乐曲)之间匹配起来。
 \end_layout
 
 \begin_layout Standard
-(3)征同一架唱机上，用别的唱片就会播出别的声音来。
+(3)
+\begin_inset space \space{}
+\end_inset
+
+征同一架唱机上，用别的唱片就会播出别的声音来。
 \end_layout
 
 \begin_layout Standard
-(4)唱片和唱机根容易彼此分开。
+(4)
+\begin_inset space \space{}
+\end_inset
+
+唱片和唱机根容易彼此分开。
 \end_layout
 
 \begin_layout Standard
@@ -1267,10 +1061,17 @@ DNA复制生物体的过程依赖极为复杂的细胞内的化学过程。这�
 \end_layout
 
 \begin_layout Standard
-最后，让我们来看过样一个例子。假设我们看到有一块方整的金属板上刻着上下排列的两个点。(见图25)虽然我们猜测这里可能隐含着什么信息，但是很难发现它。如果我们看到
-一块金属板上刻着这些点：那就很容易发现，这就是费波那奇数列。实际上，从这样一些数可以有把握地推出费波那奇数的定义。如果我们把最初的一对值(1，1)看成是“基因”
-，那么按照费波那奇数的递归定义就可以展开整个数列(表现型)。但是仅仅给出“基因”(第一块金属板)，我们无法获得重构表现型所需要的信息，即级数的定义。而从更长的“
-基因”(第二块金属板)运用智能就可以得出由基因展开成表现型的机制。一且获得了这种机制，那么从短的基因也能展开成表现型的级数。
+最后，让我们来看过样一个例子。假设我们看到有一块方整的金属板上刻着上下排列的两个点。(见图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:25"
+
+\end_inset
+
+)虽然我们猜测这里可能隐含着什么信息，但是很难发现它。如果我们看到一块金属板上刻着这些点：那就很容易发现，这就是费波那奇数列。实际上，从这样一些数可以有把握地推
+出费波那奇数的定义。如果我们把最初的一对值(1，1)看成是“基因”，那么按照费波那奇数的递归定义就可以展开整个数列(表现型)。但是仅仅给出“基因”(第一块金属板
+)，我们无法获得重构表现型所需要的信息，即级数的定义。而从更长的“基因”(第二块金属板)运用智能就可以得出由基因展开成表现型的机制。一且获得了这种机制，那么从短
+的基因也能展开成表现型的级数。
 \end_layout
 
 \begin_layout Section
@@ -1288,8 +1089,14 @@ DNA复制生物体的过程依赖极为复杂的细胞内的化学过程。这�
 
 \begin_layout Standard
 有一种卡农结构是在伴句中把导句的主题变为它的倒影。这看来似乎是一种古怪的旋律交换，然而在听众的耳朵里却显得十分自然。还有一种巧妙的卡农结构是在伴句中把导句的主题
-按照时间顺序颠倒一下。人们把这种卡农亲昵地称作蟹式卡农，即逆行传农。(图27)尽管卡农的形式多种多样，但是万变不离其宗。在每一种形式的卡农中，伴句都保留了导句主
-题的全部信息。从这个意义上讲，由每一个伴句都可以使导句的主题完全复原。
+按照时间顺序颠倒一下。人们把这种卡农亲昵地称作蟹式卡农，即逆行传农。(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:27"
+
+\end_inset
+
+)尽管卡农的形式多种多样，但是万变不离其宗。在每一种形式的卡农中，伴句都保留了导句主题的全部信息。从这个意义上讲，由每一个伴句都可以使导句的主题完全复原。
 \end_layout
 
 \begin_layout Standard
@@ -1298,14 +1105,26 @@ DNA复制生物体的过程依赖极为复杂的细胞内的化学过程。这�
 \end_layout
 
 \begin_layout Standard
-埃舍尔则把卡农变成了图画(图13)。看到这幅妙趣横生的《“逆行卡农”》，读者也许会联想到各种图案设计中形形色色的“卡农”。图形的平移是有音程差的“卡农”。图形的
-镜象变换则是倒影“卡农”。用数学的语言来描述，这些图案是通过对称性的交换而构成的。这些变换的共同特点是同构性。这些变换的乘积仍然是一种同构交换。这也表明同构的关
-系是可以传递的。
+埃舍尔则把卡农变成了图画(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:13"
+
+\end_inset
+
+)。看到这幅妙趣横生的《“逆行卡农”》，读者也许会联想到各种图案设计中形形色色的“卡农”。图形的平移是有音程差的“卡农”。图形的镜象变换则是倒影“卡农”。用数学
+的语言来描述，这些图案是通过对称性的交换而构成的。这些变换的共同特点是同构性。这些变换的乘积仍然是一种同构交换。这也表明同构的关系是可以传递的。
 \end_layout
 
 \begin_layout Standard
-图案变换的同构性还表现在它们的“相似性”上。这且说的“相似性”并不是指几何学中图形的相似性。让我们看看《蝴蝶》(图12)中的“相似性”。把一只蝴蝶映入另一只蝴蝶
-并不是严格地保持各部分之间的比例关系．而只是保持某种相互关系。更确切地讲是保留某种相互关系的信息。而这就是同构。
+图案变换的同构性还表现在它们的“相似性”上。这且说的“相似性”并不是指几何学中图形的相似性。让我们看看《蝴蝶》(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:12"
+
+\end_inset
+
+)中的“相似性”。把一只蝴蝶映入另一只蝴蝶并不是严格地保持各部分之间的比例关系．而只是保持某种相互关系。更确切地讲是保留某种相互关系的信息。而这就是同构。
 \end_layout
 
 \end_body

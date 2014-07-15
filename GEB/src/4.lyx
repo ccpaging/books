@@ -195,7 +195,14 @@
 \end_layout
 
 \begin_layout Standard
-(灯神实现了他的愿望。于是灯神、神灯连同那些神奇的法力统统都消失了。整个系统都崩溃了。阿基里斯发现他们又来到了埃舍尔的另一幅画《蜥蜴》(图10)之中。)
+(灯神实现了他的愿望。于是灯神、神灯连同那些神奇的法力统统都消失了。整个系统都崩溃了。阿基里斯发现他们又来到了埃舍尔的另一幅画《蜥蜴》(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:10"
+
+\end_inset
+
+)之中。)
 \end_layout
 
 \begin_layout Standard
@@ -270,8 +277,46 @@
 \end_layout
 
 \begin_layout Standard
-这段历险记是一个很复杂的递归例子。阿基里斯和乌龟出现在各个不同的层次上。有时他们从一个层次进入另一个层次，有时则在读自己在其中扮演角色的故事。图30“阿基里斯和
-乌龟历险记”的结构图显示了这段经历的递归结构。
+这段历险记是一个很复杂的递归例子。阿基里斯和乌龟出现在各个不同的层次上。有时他们从一个层次进入另一个层次，有时则在读自己在其中扮演角色的故事。下面显示了这段经历
+的递归结构。
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-122.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+“阿基里斯和乌龟历险记”的结构图
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -333,23 +378,150 @@
 \end_layout
 
 \begin_layout Standard
-FIBO(n)＝FIBO(n-1)十FIBO(n-2),n&gt;3
+\align center
+
+\size large
+\begin_inset Float figure
+placement p
+wide false
+sideways true
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-127.png
+	scale 40
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-FIBO(1)＝FIBO(2)＝1
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+语次转换传递网络：带修饰的名词和想象名词
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-128-1.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+（a）
+\begin_inset space \space{}
+\end_inset
+
+未经扩张的G图。（b）
+\begin_inset space \space{}
+\end_inset
+
+一次扩张的G图。（c）
+\begin_inset space \space{}
+\end_inset
+
+未经扩张的H图。（d）
+\begin_inset space \space{}
+\end_inset
+
+一次扩张的H图。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-128-2.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+进一步扩张并标有字号的G图。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $FIBO(n)=FIBO(n-1)+FIBO(n-2),\quad n>2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $FIBO(1)=FIBO(2)=1$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 这种G图还有—种更令人惊奇的性质，它的结构完全可以用一个递归定义来表示：
 \end_layout
 
-\begin_layout Standard
-G(n)＝n-G(G(n-1))n&gt;2
-\end_layout
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{rcl}
+G(n) & = & n-G(G(n-1))\quad n>2\\
+G(0) & = & 0
+\end{array}$
+\end_inset
 
-\begin_layout Standard
-G(0)＝0
+
 \end_layout
 
 \begin_layout Standard
@@ -361,12 +533,14 @@ G(0)＝0
 同样，对于函数H(n)，可以给出这样的递归定义：
 \end_layout
 
-\begin_layout Standard
-H(n)＝n-H(H(H(n一1)))n&gt;0
-\end_layout
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{rcl}
+H(n) & = & n-H(H(Hn-1))\quad n>0\\
+H(0) & = & 0
+\end{array}$
+\end_inset
 
-\begin_layout Standard
-H(0)＝0
+
 \end_layout
 
 \begin_layout Standard
@@ -378,16 +552,17 @@ H(0)＝0
 还有一个有趣的问题是把两种递归定义“嫁接”在一起。例如：
 \end_layout
 
-\begin_layout Standard
-F(n)＝n-M(F(n-1))n&gt;0
-\end_layout
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{l}
+\begin{array}{lcl}
+F(n) & = & n-M(F(n-1))\\
+M(n) & = & n-F(M(n\text{—}1))
+\end{array}\Biggr\} n>0\\
+F(0)=1,\quad M(0)=0
+\end{array}$
+\end_inset
 
-\begin_layout Standard
-M(n)＝n-F(M(n—1))n&gt;0
-\end_layout
 
-\begin_layout Standard
-F(0)＝1，M(0)＝0
 \end_layout
 
 \begin_layout Standard
@@ -398,12 +573,18 @@ F(0)＝1，M(0)＝0
 最后，让我们考虑这样一个递归的例子：
 \end_layout
 
-\begin_layout Standard
-Q(n)＝Q(n-Q)(n-1)+Q(n-Q)(n一2)n&gt;2
+\begin_layout CenterLine
+\begin_inset Formula $Q(n)=Q(n-Q)(n-1)+Q(n-Q)(n-2)\quad n>2$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-Q(1)＝Q(2)＝1
+\begin_layout CenterLine
+\begin_inset Formula $Q(1)=Q(2)=1$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -411,16 +592,18 @@ Q(1)＝Q(2)＝1
 顷项的值。下面是该数列前17项的值：
 \end_layout
 
-\begin_layout Standard
-1，1，2，3，3，4，5，5，6，6，6，8，8，8，10，9，10，……
+\begin_layout CenterLine
+\begin_inset Formula $1,\ 1,\ 2,\ 3,\ 3,\ 4,\ 5,\ \underset{5+6=11}{\underbrace{5,\ 6}},\ 6,\ 6,\ 8,\ 8,\ $
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-~~~~~~~~~~
-\end_layout
+\begin_layout CenterLine
+\begin_inset Formula $8,\ 10,\underset{\text{向左移动几位}}{\underbrace{9,\ 10}},\quad\cdots\cdots$
+\end_inset
 
-\begin_layout Standard
-5+6=11向左移动几位
+
 \end_layout
 
 \begin_layout Standard
@@ -439,8 +622,15 @@ Q(1)＝Q(2)＝1
 
 \begin_layout Standard
 我们谈到了语言中的递归结构、数学中的递归结构。现在再来看看一种图形的递归结构。在这种结构中，图形的整体和它的部分在结构上是相似的，虽然存在一定程度的变形和扭曲。
-埃舍尔运用这种思想创作了《鱼和鳞》(图11)。当然，这种鱼和鳞的相似性只有用一种抽象的方式来看才是相似的。谁都知道，一片鱼鳞并不是一条鱼的小副本，但是一条鱼的脱
-氧核糖核酸确实存在于鱼的每一个细胞之中，这是整条鱼的一个副本。这才是埃舍尔的《鱼和鳞》所揭示的深刻真理。
+埃舍尔运用这种思想创作了《鱼和鳞》(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:11"
+
+\end_inset
+
+)。当然，这种鱼和鳞的相似性只有用一种抽象的方式来看才是相似的。谁都知道，一片鱼鳞并不是一条鱼的小副本，但是一条鱼的脱氧核糖核酸确实存在于鱼的每一个细胞之中，这
+是整条鱼的一个副本。这才是埃舍尔的《鱼和鳞》所揭示的深刻真理。
 \end_layout
 
 \begin_layout Standard
@@ -514,9 +704,15 @@ Q(1)＝Q(2)＝1
 \end_layout
 
 \begin_layout Standard
-也许从埃舍尔的《镶嵌图案》(图6)中我们可以获得某种启示。这是一幅图形和背景天衣无缝地配合在一起的图画。如果我们把白色的形象视为图形，那么黑色的形象就构成了它们
-的背景。反之，如果我们把黑色的形象视为图形，那么白色的形象就构成了背景。它们互相补充．共同组成一个整体。这使我们联想到，素数与合数也是以互补的方式构成统一的整体
-。
+也许从埃舍尔的《镶嵌图案》(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6"
+
+\end_inset
+
+)中我们可以获得某种启示。这是一幅图形和背景天衣无缝地配合在一起的图画。如果我们把白色的形象视为图形，那么黑色的形象就构成了它们的背景。反之，如果我们把黑色的形
+象视为图形，那么白色的形象就构成了背景。它们互相补充．共同组成一个整体。这使我们联想到，素数与合数也是以互补的方式构成统一的整体。
 \end_layout
 
 \begin_layout Standard
@@ -563,7 +759,14 @@ Q(1)＝Q(2)＝1
 \end_layout
 
 \begin_layout Standard
-我们再来看看斯科持的《图案画》(图28)：
+我们再来看看斯科持的《图案画》(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:28"
+
+\end_inset
+
+)：
 \end_layout
 
 \begin_layout Standard
@@ -619,14 +822,21 @@ l．作为白色图形的背景。
 \end_layout
 
 \begin_layout Standard
-存在着这样的形式系统，没有适合于它的形式判定道程。
+存在着这样的形式系统，没有适合于它的形式判定过程。
 \end_layout
 
 \begin_layout Standard
 为什么会有这样的结果呢？所谓判定过程就是识别定理和非定理的方法。如果一个形式系统的定理集合是递归可枚举的，它的补集——非定理的集合也是递归可检举的，那么我们就可
 以把所有的定理和非定理都列成表。通过与这张表的对照就可以判定任何一条陈述是定理还是非定理。但是如果一个形式系统的定理集合是递归可枚举的，可是非定理集合却不是递归
 可枚举的，那么就无法做到这一点。因此并非所有的形式系统都有形式的判定过程。这个问题也是与自然数的有序性问题深刻联系在一起的。被我们认为是非常有序的自然数的数列总
-会表现出某种无序性来。埃舍尔的画《有序和无序》(图18)巧妙地表现了两者之间的关系。
+会表现出某种无序性来。埃舍尔的画《有序和无序》(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:18"
+
+\end_inset
+
+)巧妙地表现了两者之间的关系。
 \end_layout
 
 \end_body

@@ -147,8 +147,15 @@
 \end_layout
 
 \begin_layout Standard
-采用这种方法迟早会产生系统中的每一条定理(见图版27)。而我们要解决的难题是，MU是不是该系统中的一条定理？一般来讲，这就是检验定理的问题，或者说定理的判定问题
-。用构成系统中所有定理的方法来判定某一条串是否为系统中的定理，这并不能保证。这个过程以有限的步骤来完成。而这恰恰就是问题的关键所在。
+采用这种方法迟早会产生系统中的每一条定理(见图版
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:27"
+
+\end_inset
+
+)。而我们要解决的难题是，MU是不是该系统中的一条定理？一般来讲，这就是检验定理的问题，或者说定理的判定问题。用构成系统中所有定理的方法来判定某一条串是否为系统
+中的定理，这并不能保证。这个过程以有限的步骤来完成。而这恰恰就是问题的关键所在。
 \end_layout
 
 \begin_layout Standard
@@ -181,110 +188,11 @@
 \end_layout
 
 \begin_layout CenterLine
-\begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="3">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="right" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
-<column alignment="left" valignment="top">
-<row>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-M
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Longleftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-I
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Longleftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-     U
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $\Longleftrightarrow$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
+\begin_inset Formula $\begin{array}{rcl}
+M & \Longleftrightarrow & 3\\
+I & \Longleftrightarrow & \text{1}\\
+U & \Longleftrightarrow & 0
+\end{array}$
 \end_inset
 
 
@@ -300,11 +208,23 @@ I
 \end_layout
 
 \begin_layout Standard
-现在设m、n为任意的自然数。于是这几条规则的算术运算就可以表述成：
+现在设
+\begin_inset Formula $m$
+\end_inset
+
+、
+\begin_inset Formula $n$
+\end_inset
+
+为任意的自然数。于是这几条规则的算术运算就可以表述成：
 \end_layout
 
 \begin_layout Standard
-1．如果生成了
+1.
+\begin_inset space \space{}
+\end_inset
+
+如果生成了
 \begin_inset Formula $10m+1$
 \end_inset
 
@@ -316,7 +236,11 @@ I
 \end_layout
 
 \begin_layout Standard
-2．如果生成了
+2.
+\begin_inset space \space{}
+\end_inset
+
+如果生成了
 \begin_inset Formula $3×10^{m}+n$
 \end_inset
 
@@ -328,7 +252,11 @@ I
 \end_layout
 
 \begin_layout Standard
-3．如果生成了
+3.
+\begin_inset space \space{}
+\end_inset
+
+如果生成了
 \begin_inset Formula $k×10^{m+3}+111×10^{m}+n$
 \end_inset
 
@@ -340,7 +268,11 @@ I
 \end_layout
 
 \begin_layout Standard
-4．如果生成了
+4.
+\begin_inset space \space{}
+\end_inset
+
+如果生成了
 \begin_inset Formula $k×10^{m+2}+n$
 \end_inset
 
@@ -352,7 +284,11 @@ I
 \end_layout
 
 \begin_layout Standard
-公理则可表述为：能生成31。
+公理则可表述为：能生成
+\begin_inset Formula $31$
+\end_inset
+
+。
 \end_layout
 
 \begin_layout Standard
@@ -390,11 +326,18 @@ I
 \end_layout
 
 \begin_layout Standard
-埃舍尔的作品《相对性》(图8)表现了一致性与矛盾之间的微妙关系。它那栩栩如生的实体感诱使你去寻找一种有关此图的解释，使得图中各部分的解释不会产生矛盾。你也许会感
-到这些楼梯很好玩。因为在同样的楼梯上，人们行走的方向并不一致。我们可以把某个楼梯看作我们进行解释的基础，看成一个“确定性的小岛”，然后以此为基础来解释与它有联系
-的各部分。再根据已经获得解释的部分与其他部分的联系进一步推广我们的解释。这很像是在形式系统中运用规则进行定理的变换。对于一般的图，这个过程很容易进行到底，从而使
-全图获得一种令人满意的解释。可是在这幅图中就不是那么称心如意了。我们很快就会遇到麻烦，产生冲突。如果我们放弃所选择的“小岛”，而另外选择一个“确定性的小岛”还会
-遇到同样的麻烦。但是，我们又无法否认这些东西的意义。这些楼梯只能是楼梯而不可能是鱼、船或者什么别的东西。
+埃舍尔的作品《相对性》(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:8"
+
+\end_inset
+
+)表现了一致性与矛盾之间的微妙关系。它那栩栩如生的实体感诱使你去寻找一种有关此图的解释，使得图中各部分的解释不会产生矛盾。你也许会感到这些楼梯很好玩。因为在同样
+的楼梯上，人们行走的方向并不一致。我们可以把某个楼梯看作我们进行解释的基础，看成一个“确定性的小岛”，然后以此为基础来解释与它有联系的各部分。再根据已经获得解释
+的部分与其他部分的联系进一步推广我们的解释。这很像是在形式系统中运用规则进行定理的变换。对于一般的图，这个过程很容易进行到底，从而使全图获得一种令人满意的解释。
+可是在这幅图中就不是那么称心如意了。我们很快就会遇到麻烦，产生冲突。如果我们放弃所选择的“小岛”，而另外选择一个“确定性的小岛”还会遇到同样的麻烦。但是，我们又
+无法否认这些东西的意义。这些楼梯只能是楼梯而不可能是鱼、船或者什么别的东西。
 \end_layout
 
 \begin_layout Standard
@@ -419,12 +362,18 @@ I
 
 \begin_layout Standard
 欧几里得的《几何原本》系统地总结了当时已知的平面几何、立体几何的知识。它在二千多年中实际上成了数学的圣经。欧几里得是数学推理严密性的奠基着。《几何原本》从最简单
-的概念、定义出发，逐渐构造起几何学的庞大体系。在这个体系中，每个结果都只依赖于前面已经得到的结果。这很像是层层叠叠的巴比仑塔式的建筑物(图7)。不过这座建筑的框
-架是抽象的。因此，如果有一条定理的证明不正确，并不会有明显的裂缝，也不会因此而使整个大楼倒塌。事实上，在《几何原本》的证明过程中使用了许多日常的语言。这是一种不
-严格的、有时是难以捉摸的通信媒介，里面有许多隐藏的陷阱。不过欧几里得是位深刻的思想家和数学家，你无法在他的著作中找到“跳跃”的漏洞。他以五条公理为基础，构造了无
-穷层的几何学摩天大楼的最下面几百层楼。而且，他只用前面的四条公理推出了最初的28个命题。我们可以把这些命题说成是“四公理几何学”。人们常常把这称为“绝对几何学”
-。欧几里得显然有这样的愿望，能够用前面的四个公理推出第五公理，而不是把它作为一条公理直接加以规定。不过他没有成功，因而只好作罢。在他之后的许多世纪中，无数的数学
-家作过同样英雄的尝试，也都失败了。
+的概念、定义出发，逐渐构造起几何学的庞大体系。在这个体系中，每个结果都只依赖于前面已经得到的结果。这很像是层层叠叠的巴比仑塔式的建筑物(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:7"
+
+\end_inset
+
+)。不过这座建筑的框架是抽象的。因此，如果有一条定理的证明不正确，并不会有明显的裂缝，也不会因此而使整个大楼倒塌。事实上，在《几何原本》的证明过程中使用了许多日
+常的语言。这是一种不严格的、有时是难以捉摸的通信媒介，里面有许多隐藏的陷阱。不过欧几里得是位深刻的思想家和数学家，你无法在他的著作中找到“跳跃”的漏洞。他以五条
+公理为基础，构造了无穷层的几何学摩天大楼的最下面几百层楼。而且，他只用前面的四条公理推出了最初的28个命题。我们可以把这些命题说成是“四公理几何学”。人们常常把
+这称为“绝对几何学”。欧几里得显然有这样的愿望，能够用前面的四个公理推出第五公理，而不是把它作为一条公理直接加以规定。不过他没有成功，因而只好作罢。在他之后的许
+多世纪中，无数的数学家作过同样英雄的尝试，也都失败了。
 \end_layout
 
 \begin_layout Standard
@@ -457,35 +406,63 @@ I
 \end_layout
 
 \begin_layout CenterLine
-＜
-\begin_inset space \quad{}
+\begin_inset Formula $＜ ＞$
 \end_inset
 
-＞
+
 \end_layout
 
 \begin_layout CenterLine
-PQR'
+\begin_inset Formula $PQR'$
+\end_inset
+
+
 \end_layout
 
 \begin_layout CenterLine
-∧∨
-\begin_inset Formula $\supset$
+\begin_inset Formula $∧∨\supset\sim$
 \end_inset
 
-～
+
 \end_layout
 
 \begin_layout CenterLine
-[
-\begin_inset space \qquad{}
+\begin_inset Formula $[\qquad]$
 \end_inset
 
-]
+
 \end_layout
 
 \begin_layout Standard
-我们把这里的P、Q、R称为原子，可以在原子的右上角加撇“'”而构成新的原子。例如R'、Q''、P'''。我们定义这些原子是系统中良构的命题。
+我们把这里的
+\begin_inset Formula $P$
+\end_inset
+
+、
+\begin_inset Formula $Q$
+\end_inset
+
+、
+\begin_inset Formula $R$
+\end_inset
+
+称为原子，可以在原子的右上角加撇“
+\begin_inset Formula $'$
+\end_inset
+
+”而构成新的原子。例如
+\begin_inset Formula $R'$
+\end_inset
+
+、
+\begin_inset Formula $Q''$
+\end_inset
+
+、
+\begin_inset Formula $P'''$
+\end_inset
+
+。我们定义这些原子是系统中良构的命题。
 \end_layout
 
 \begin_layout Standard
@@ -497,7 +474,11 @@ PQR'
 \begin_inset space \space{}
 \end_inset
 
-～x
+
+\begin_inset Formula $\sim x$
+\end_inset
+
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -509,7 +490,11 @@ x的否定
 \begin_inset space \space{}
 \end_inset
 
-＜x∧y＞
+
+\begin_inset Formula $<x∧y>$
+\end_inset
+
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -521,7 +506,11 @@ x与y的合取
 \begin_inset space \space{}
 \end_inset
 
-＜x∨y＞
+
+\begin_inset Formula $<x∨y>$
+\end_inset
+
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -533,11 +522,11 @@ x与y的析取
 \begin_inset space \space{}
 \end_inset
 
-＜x
-\begin_inset Formula $\supset$
+
+\begin_inset Formula $<x\supset y>$
 \end_inset
 
-y＞
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -546,12 +535,39 @@ x蕴含y
 
 \begin_layout Standard
 \noindent
-这里的x、y都表示良构的命题。任何良构的命题都可以按照以上4种定则回归到最基本的要素——原子。从这种方法我们可以判定任何一个命题是不是良构的。这种过程一般称作是
-自上而下的。
+这里的
+\begin_inset Formula $x$
+\end_inset
+
+、
+\begin_inset Formula $y$
+\end_inset
+
+都表示良构的命题。任何良构的命题都可以按照以上4种定则回归到最基本的要素——原子。从这种方法我们可以判定任何一个命题是不是良构的。这种过程一般称作是自上而下的。
 \end_layout
 
 \begin_layout Standard
-这里的“＜”和“＞”是—组括号，表示括号中的逻辑符号构成了一个逻辑命题；“～”表示逻辑否定；“∧”表示逻辑积或者逻辑合取；“∨”表示逻辑和或逻辑析取。“
+这里的“
+\begin_inset Formula $<$
+\end_inset
+
+”和“
+\begin_inset Formula $>$
+\end_inset
+
+”是—组括号，表示括号中的逻辑符号构成了一个逻辑命题；“
+\begin_inset Formula $\sim$
+\end_inset
+
+”表示逻辑否定；“
+\begin_inset Formula $∧$
+\end_inset
+
+”表示逻辑积或者逻辑合取；“
+\begin_inset Formula $∨$
+\end_inset
+
+”表示逻辑和或逻辑析取。“
 \begin_inset Formula $\supset$
 \end_inset
 
@@ -568,11 +584,11 @@ x蕴含y
 由于命题演算系统的这种特点，因此在这个系统中只有运算的规则，而没有公理。按照前面几个形式系统的性质，我们知道如何按照规则从公理产生定理，再由这些定理产生新的定理
 。但是在这个系统中却没有公理。那么定理又从何而来呢？这很像是一个让巧妇做无米之炊的难题。幸好在这个系统中有一个定则可以使我们能“无中生有”地构造出系统的定理来。
 我们把这个定则称为想象定则。运用想象定则时，你可以先写下一条良构的命题，不妨设这个命题为x。然后设想x就是公理或者定理，再运用系统中的规则对它进行变换看看能得到
-什么样的结果。假设最后得到的结果为y。那么退出想象后就可以得到这样的定理：如果命题x成立，那么命题y也成立。用逻辑符号来表示就是＜x
-\begin_inset Formula $\supset$
+什么样的结果。假设最后得到的结果为y。那么退出想象后就可以得到这样的定理：如果命题x成立，那么命题y也成立。用逻辑符号来表示就是
+\begin_inset Formula $<x\supset y>$
 \end_inset
 
-y＞。
+。
 \end_layout
 
 \begin_layout Standard
@@ -590,7 +606,10 @@ y＞。
 \begin_inset Text
 
 \begin_layout Plain Layout
-[
+\begin_inset Formula $[$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -610,7 +629,10 @@ y＞。
 \begin_inset Text
 
 \begin_layout Plain Layout
-＜P∧Q＞
+\begin_inset Formula $<P∧Q>$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -630,7 +652,10 @@ y＞。
 \begin_inset Text
 
 \begin_layout Plain Layout
-P
+\begin_inset Formula $P$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -650,7 +675,10 @@ P
 \begin_inset Text
 
 \begin_layout Plain Layout
-Q
+\begin_inset Formula $Q$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -670,7 +698,10 @@ Q
 \begin_inset Text
 
 \begin_layout Plain Layout
-＜Q∧P＞
+\begin_inset Formula $<Q∧P>$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -690,7 +721,10 @@ Q
 \begin_inset Text
 
 \begin_layout Plain Layout
-]
+\begin_inset Formula $]$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -710,11 +744,10 @@ Q
 \begin_inset Text
 
 \begin_layout Plain Layout
-＜＜P∧Q＞
-\begin_inset Formula $\supset$
+\begin_inset Formula $<<P∧Q>\supset<Q∧P>>$
 \end_inset
 
-＜Q∧P＞＞
+
 \end_layout
 
 \end_inset
@@ -746,43 +779,87 @@ Q
 \end_layout
 
 \begin_layout Standard
-结合律：如果x和y成立，那么＜x∧y＞也成立。
+结合律：如果
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+成立，那么
+\begin_inset Formula $<x∧y>$
+\end_inset
+
+也成立。
 \end_layout
 
 \begin_layout Standard
-分离律：如果＜x∧y＞成立，那么x和y同时成立。
+分离律：如果
+\begin_inset Formula $<x∧y>$
+\end_inset
+
+成立，那么
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $y$
+\end_inset
+
+同时成立。
 \end_layout
 
 \begin_layout Standard
-双重否定律：“～～”可以在定理中删去或者添上。
+双重否定律：“
+\begin_inset Formula $\sim\sim$
+\end_inset
+
+”可以在定理中删去或者添上。
 \end_layout
 
 \begin_layout Standard
-独立律：如果x和＜xy＞成立，则y也成立。
+独立律：如果
+\begin_inset Formula $x$
+\end_inset
+
+和
+\begin_inset Formula $<xy>$
+\end_inset
+
+成立，则y也成立。
 \end_layout
 
 \begin_layout Standard
-对照律：＜x
+对照律：
+\begin_inset Formula $<x\supset y>$
+\end_inset
+
+与
+\begin_inset Formula $<\sim y\supset\sim x>$
+\end_inset
+
+可以互换。
+\end_layout
+
+\begin_layout Standard
+德·摩根律：
+\begin_inset Formula $<\sim x∧\sim y>$
+\end_inset
+
+与
+\begin_inset Formula $\sim<x∨y>$
+\end_inset
+
+可以互换。
+\end_layout
+
+\begin_layout Standard
+斯威彻罗律：<x~y>与<~x
 \begin_inset Formula $\supset$
 \end_inset
 
-y＞与＜～y
-\begin_inset Formula $\supset$
-\end_inset
-
-～x＞可以互换。
-\end_layout
-
-\begin_layout Standard
-德·摩根律：＜～x∧～y＞与～＜x∨y＞可以互换。
-\end_layout
-
-\begin_layout Standard
-斯威彻罗律：＜x～y＞与＜～x
-\begin_inset Formula $\supset$
-\end_inset
-
-y＞可以互换。
+y>可以互换。
 \end_layout
 
 \begin_layout Standard
@@ -798,8 +875,16 @@ y＞可以互换。
 \end_layout
 
 \begin_layout Standard
-例如，我们在命题演算系统个推出了＜P∧～P＞，现在要推出＜Q∧～Q＞。我们知道，这两个推导过程是平行的，那就可以直接得出来。这在平面几何的证明中是经常碰到的。“
-同理可证”对于中学生是不陌生的。我们不妨把这称为元定理，是关于系统中定理的定理。运用元定理可以使形式系统繁复的推理过程大大简化，不失为一种人们乐于采取的捷径。
+例如，我们在命题演算系统个推出了
+\begin_inset Formula $<P∧\sim P>$
+\end_inset
+
+，现在要推出
+\begin_inset Formula $<Q∧\sim Q>$
+\end_inset
+
+。我们知道，这两个推导过程是平行的，那就可以直接得出来。这在平面几何的证明中是经常碰到的。“同理可证”对于中学生是不陌生的。我们不妨把这称为元定理，是关于系统中
+定理的定理。运用元定理可以使形式系统繁复的推理过程大大简化，不失为一种人们乐于采取的捷径。
 \end_layout
 
 \begin_layout Standard
@@ -812,32 +897,23 @@ y＞可以互换。
 \end_layout
 
 \begin_layout Standard
-1
-\begin_inset space \quad{}
+\begin_inset Formula $1\quad-1\quad+1\quad-1\quad-1\quad\cdots\cdots$
 \end_inset
 
--1
-\begin_inset space \quad{}
-\end_inset
 
-+1
-\begin_inset space \quad{}
-\end_inset
-
--1
-\begin_inset space \quad{}
-\end_inset
-
-+1
-\begin_inset space \quad{}
-\end_inset
-
-……
 \end_layout
 
 \begin_layout Standard
 \noindent
-之和的争论。人们“证明”它可以等于0，1，
+之和的争论。人们“证明”它可以等于
+\begin_inset Formula $0$
+\end_inset
+
+，
+\begin_inset Formula $1$
+\end_inset
+
+，
 \begin_inset Formula $\cfrac{1}{2}$
 \end_inset
 
@@ -1312,7 +1388,7 @@ SSS0
 \end_inset
 
 
-\begin_inset Formula $＝(((Sb·Sb)·Sb)十(Sc·Sc)·Sc))$
+\begin_inset Formula $＝(((Sb·Sb)·Sb)+(Sc·Sc)·Sc))$
 \end_inset
 
 
@@ -1542,12 +1618,43 @@ $
 \end_layout
 
 \begin_layout Standard
-我们用X{a}表示带有自由变量a的良构的公式。X{Sa／a}则表示用Sa代替原公式中的a。那么上述情况就对以用TNT中的—条定则来表示。我们把这条定则称为归纳定
-则。
+我们用
+\begin_inset Formula $X\{a\}$
+\end_inset
+
+表示带有自由变量a的良构的公式。
+\begin_inset Formula $X\{Sa/a\}$
+\end_inset
+
+则表示用Sa代替原公式中的a。那么上述情况就对以用TNT中的—条定则来表示。我们把这条定则称为归纳定则。
 \end_layout
 
 \begin_layout Standard
-归纳定则：若u是自由变量、X{u}是以u为自由变量的良构公式。如果u：〈X{u}X{Su／u}〉和X{o／u}都是定理，那么u：X{u}也是定理。
+归纳定则：若u是自由变量、
+\begin_inset Formula $X\{u\}$
+\end_inset
+
+是以u为自由变量的良构公式。如果
+\begin_inset Formula $u$
+\end_inset
+
+：
+\begin_inset Formula $<X\{u\}X\{Su/u\}>$
+\end_inset
+
+和
+\begin_inset Formula $X\{o/u\}$
+\end_inset
+
+都是定理，那么
+\begin_inset Formula $u$
+\end_inset
+
+：
+\begin_inset Formula $X\{u\}$
+\end_inset
+
+也是定理。
 \end_layout
 
 \begin_layout Standard
@@ -1555,23 +1662,91 @@ $
 \end_layout
 
 \begin_layout Standard
-(1)a：～Sa＝0
+(1)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\forall a$
+\end_inset
+
+：
+\begin_inset Formula $\sim Sa＝0$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(2)a：(a十0)＝a
+(2)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\forall a$
+\end_inset
+
+：
+\begin_inset Formula $(a+0)=a$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(3)a：b：(a十Sb)＝S(a十b)
+(3)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\forall a$
+\end_inset
+
+：
+\begin_inset Formula $\forall b$
+\end_inset
+
+：
+\begin_inset Formula $(a+Sb)=S(a+b)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(4)a：(a·0)＝0
+(4)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\forall a$
+\end_inset
+
+：
+\begin_inset Formula $(a·0)=0$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(5)a：b：(a·Sb)＝((a·b)十a)
+(5)
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $\forall a$
+\end_inset
+
+：
+\begin_inset Formula $\forall b$
+\end_inset
+
+：
+\begin_inset Formula $(a·Sb)=((a·b)+a)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

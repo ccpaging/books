@@ -1335,7 +1335,7 @@ name "fig:20"
 \begin_inset space \qquad{}
 \end_inset
 
-花中的一行法文：这不是烟斗.
+画中的一行法文：这不是烟斗.
 \end_layout
 
 \begin_layout Plain Layout
@@ -1350,8 +1350,409 @@ name "fig:20"
 \end_inset
 
 
-\size default
+\begin_inset Float figure
+wide false
+sideways false
+status open
 
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/21.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:21"
+
+\end_inset
+
+两件神秘的东西
+\begin_inset space \qquad{}
+\end_inset
+
+勒内·马格里特（1966）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+画中的一行法文：这不是烟斗.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+浮在空中的烟斗是否比画上的烟斗更加现实呢？又一幅语义画。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/22.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:22"
+
+\end_inset
+
+画画的双手
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1948）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+左手画右手，右手画左手。它们到底又是谁画的呢？
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/23.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:23"
+
+\end_inset
+
+画廊
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1956）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+画中有画，城市中有城市。自我相关，最紧凑的怪圈。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/24.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:24"
+
+\end_inset
+
+字体集
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/25.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:25"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways true
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/26.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:26"
+
+\end_inset
+
+逆行卡农
+\begin_inset space \qquad{}
+\end_inset
+
+引自巴赫的《音乐的奉献》
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways true
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/27.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:27"
+
+\end_inset
+
+MIU系统中所有定理的系统结构树
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+图中的第N级正好包括那些需要N步才能从MI推出的定理。图里的数字则表示所运用的规则。那么MU是否在这棵树上呢？
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/28.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:28"
+
+\end_inset
+
+图案画
+\begin_inset space \qquad{}
+\end_inset
+
+斯科特·E·金（1975）
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
 \begin_inset Graphics
 	filename images/images-031.png
 	lyxscale 60
