@@ -409,6 +409,22 @@ reference "fig:17"
 实际上，这个命题像茶一样可以具有不同的浓度，我们将给出它的不同形式并考虑它们的含义。
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout CenterLine
 
 \shape slanted
@@ -420,7 +436,26 @@ reference "fig:17"
 
 \shape slanted
 \size small
+\begin_inset space \qquad{}
+\end_inset
+
 “只有通过数学运算才能解决数学问题。”
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -430,6 +465,22 @@ reference "fig:17"
 
 \begin_layout Standard
 关于这个定理还可以表述成这样的形式：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout CenterLine
@@ -443,8 +494,27 @@ reference "fig:17"
 
 \shape slanted
 \size small
+\begin_inset space \qquad{}
+\end_inset
+
 “如果有一种方法，并且有一种有智力的生物按照这个方法将数分成两类。再假设这种方法总能在有限的时间内给出回答，并且总能对给定的数作出同样的回答。那么一定存在有限的
 Floop程序(即某种一般递归函数)能给出与上述方法完全一样的回答”
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -453,6 +523,22 @@ Floop程序(即某种一般递归函数)能给出与上述方法完全一样的�
 
 \begin_layout Standard
 为了区别个人和集体的思维过程，我们再给出一种比上述命题较弱的形式：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout CenterLine
@@ -466,8 +552,27 @@ Floop程序(即某种一般递归函数)能给出与上述方法完全一样的�
 
 \shape slanted
 \size small
+\begin_inset space \qquad{}
+\end_inset
+
 “如果有一种方法，并且有一种有智力的生物按照这种方法将数分成两娄。再假设这种方法总能在有限的时间内给出回答，并且总能对给定的数作出同样的回答。附加条件：如果这种
 方法还能通过语言从一个有智力的生物传递给其他的生物。那么一定存在一种有Floop程序(即一般递归函数)能给出与上述方法完全一样的回答。”
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -502,6 +607,22 @@ Floop程序(即某种一般递归函数)能给出与上述方法完全一样的�
 但是，哈迪并不相信拉马努贾的数学才能有什么与众不同的秘密。他的观点可以表述成这样的命题：
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout CenterLine
 
 \shape slanted
@@ -513,11 +634,46 @@ Floop程序(即某种一般递归函数)能给出与上述方法完全一样的�
 
 \shape slanted
 \size small
+\begin_inset space \qquad{}
+\end_inset
+
 “归根结蒂，所有的数学家都是同构的。”
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 我们还要给出这一命题的强化标准形式：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout CenterLine
@@ -531,8 +687,27 @@ Floop程序(即某种一般递归函数)能给出与上述方法完全一样的�
 
 \shape slanted
 \size small
+\begin_inset space \qquad{}
+\end_inset
+
 “如果有一种方法，并有一种有智力的生物按照这种方法将数分成两类。再假设这种方法总能在有限的时间内给出回答，并且总能对给定的数作出同样的回答。那么一定存在某种有限
 的Floop程序(即一般递归函数)能给出与上述方法完全一样的回答。
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -554,6 +729,22 @@ Floop程序(即某种一般递归函数)能给出与上述方法完全一样的�
 如果用计算机来模拟大脑的神经网络，我们就可以给出上述命题的微观形式：
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout CenterLine
 
 \shape slanted
@@ -565,12 +756,47 @@ Floop程序(即某种一般递归函数)能给出与上述方法完全一样的�
 
 \shape slanted
 \size small
+\begin_inset space \qquad{}
+\end_inset
+
 “生物组成部分的行为能够在计算机上进行模拟。这就是说，只要给出任何组成部分(最典型的可以假设是细胞)的内部状态与局部环境足够精确的描述，那么它们的行为就可以用F
 loop程序来进行计算。
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 这个命题说明大脑的过程并没有什么神秘的地方。由此可以得出下面的引理：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout CenterLine
@@ -584,7 +810,26 @@ loop程序来进行计算。
 
 \shape slanted
 \size small
+\begin_inset space \qquad{}
+\end_inset
+
 “所有的大脑过程都可以从可计算的基础上推导出来。”
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -600,6 +845,22 @@ loop程序来进行计算。
 我们再来看一种唯灵论的上述命题：
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout CenterLine
 
 \shape slanted
@@ -611,12 +872,47 @@ loop程序来进行计算。
 
 \shape slanted
 \size small
+\begin_inset space \qquad{}
+\end_inset
+
 “有些大脑所能做的事，可以用计算机来模糊地逼近，但是大部分不行，其中最有趣的肯定不行。而且不管怎样，即使能够做到的也还有灵魂需要解释，而这是计算机绝对做不到的。
 ”
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 最后我们要给出这一命题的一种极端形式：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout CenterLine
@@ -630,7 +926,26 @@ loop程序来进行计算。
 
 \shape slanted
 \size small
+\begin_inset space \qquad{}
+\end_inset
+
 “计算机是可笑的。科学一般来讲也是这样。”
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -662,6 +977,22 @@ loop程序来进行计算。
 于是我们可以得出上述命题的一种最强的形式：
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout CenterLine
 
 \shape slanted
@@ -673,7 +1004,26 @@ loop程序来进行计算。
 
 \shape slanted
 \size small
+\begin_inset space \qquad{}
+\end_inset
+
 “任何一种思维过程可以用计算机程序来模拟，它的基本语言具有和Floop同样的能力——这就是说，所有的部分递归函数都是能够程序化的。”
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

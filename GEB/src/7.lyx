@@ -114,6 +114,22 @@
 编制成程序的部分。下面就让我们来回顾一下人工智能所研究的领域：
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setitemize[0]{leftmargin=2em,itemindent=2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
 机器翻译

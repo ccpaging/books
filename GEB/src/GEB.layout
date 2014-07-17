@@ -116,7 +116,6 @@ Preamble
     % footnote
     \usepackage[perpage, hang]{footmisc} % 分页计数
     \renewcommand{\thefootnote}{\scriptsize{\textcircled{\tiny{\arabic{footnote}}}}} % 编号带圈
-
 EndPreamble
 
 # Default textclass options. The user may need to modify this.
