@@ -72,8 +72,8 @@
 \headheight 10mm
 \headsep 20mm
 \footskip 0mm
-\secnumdepth 0
-\tocdepth 0
+\secnumdepth 1
+\tocdepth 1
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language english
@@ -115,189 +115,189 @@
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 机器翻译
 \end_layout
 
 \begin_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 直接的(查词典、重排词序)
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 间接的(以某种内部语言为媒介)
 \end_layout
 
 \end_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 游戏
 \end_layout
 
 \begin_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 象棋、桥牌等
 \end_layout
 
 \end_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 证明数学定理
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 证明运算
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 图象处理
 \end_layout
 
 \begin_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 识别手写体
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 阅读各种字体的文章
 \end_layout
 
 \end_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 听
 \end_layout
 
 \begin_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 理解口语
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 分出音节或词素
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 综合整个词或句子
 \end_layout
 
 \end_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 理解自然语言
 \end_layout
 
 \begin_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 回答专业性问题
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 分析复杂句子
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 造句或写较长的段落
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 运用实际知识理解文章
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 分析意思含糊的关系
 \end_layout
 
 \end_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 产生自然语言
 \end_layout
 
 \begin_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 抽象诗
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 任意的句于、段落或较长的文章
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 从知识的内部表达产生输出
 \end_layout
 
 \end_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 思想性的创作成艺术创作
 \end_layout
 
 \begin_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 写诗
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 写小说
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 音乐创作
 \end_layout
 
 \end_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 类比思维
 \end_layout
 
 \begin_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 几何形状
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 根据有关的领域作出某一数学领域的证明
 \end_layout
 
 \end_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 学习
 \end_layout
 
 \begin_deeper
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 调节参数
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 000
 形成概念
 \end_layout
 
@@ -334,8 +334,20 @@
 \begin_layout Standard
 回顾人工智能的早期历史，人们最早作出的努力之一便是企图实现定理的机器证明。将问题进行归纳是其中一项重要的技术。也可以将整体的问题转化为局部的问题。然而这种方法并
 非总能保证成功的。如果我们把对问题的探索看成是在问题空间中逼近确定的目标，那么这就是一种抽象的概念性空间。当你认识到如果直接奔向目标会遇到抽象的“篱笆”时，你可
-以采取两种行动：(1)你以某种随机的方式离开目标，希望能够发现一道隐藏的“门”；(2)试图去发现能够表示问题的新“空间”，在这新空间中在你和目标之间没有抽象的篱
-笆隔开。这虽然是一种理想的方法，但如何选择一个好的空间来表达问题却是一个非常复杂的问题。
+以采取两种行动：(1)
+\begin_inset space \space{}
+\end_inset
+
+你以某种随机的方式离开目标，希望能够发现一道隐藏的“
+\shape italic
+门
+\shape default
+”；(2)
+\begin_inset space \space{}
+\end_inset
+
+试图去发现能够表示问题的新“空间”，在这新空间中在你和目标之间没有抽象的篱笆隔开。这虽然是一种理想的方法，但如何选择一个好的空间来表达问题却是一个非常复杂的问题
+。
 \end_layout
 
 \begin_layout Standard
@@ -403,8 +415,97 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 托尼·厄尔威格博士则对他们的对话作了必要的注解。
 \end_layout
 
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-209-1.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:34"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-209-2.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:35"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Enumerate
-奥：拣起一块大的红方木块。(参阅图34)
+奥：拣起一块大的红方木块。(参阅图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:34"
+
+\end_inset
+
+)
 \end_layout
 
 \begin_deeper
@@ -432,7 +533,14 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 
 \end_deeper
 \begin_layout Enumerate
-奥：找出你拿着的那块更高的方木块，把它放进盒子里去。(参阅图35)
+奥：找出你拿着的那块更高的方木块，把它放进盒子里去。(参阅图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:35"
+
+\end_inset
+
+)
 \end_layout
 
 \begin_deeper
@@ -786,7 +894,7 @@ NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当
 \end_layout
 
 \begin_layout Standard
-“左——右”的差别类似于“高——低”的差别。
+“左—右”的差别类似于“高—低”的差别。
 \end_layout
 
 \begin_layout Standard
