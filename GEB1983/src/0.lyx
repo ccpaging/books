@@ -1,0 +1,279 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass GEB
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 0
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter*
+编者献辞
+\end_layout
+
+\begin_layout Standard
+《走向未来》丛书和读者见面了。
+\end_layout
+
+\begin_layout Standard
+她凝聚着我们的心血和期望。
+\end_layout
+
+\begin_layout Standard
+我们期待她能够：展现当代自然科学和社会科学日新月异的面貌；反映人类认识和追求真理的曲折道路；记录这一代人对祖国命运和人类未来的思考。
+\end_layout
+
+\begin_layout Standard
+我们的时代是不寻常的。二十世纪科学技术革命正在迅速而又深刻地改变着人类的社会生活和生存方式。人们迫切地感到，必须严肃认真地对待一个富有挑战性的、千变万化的未来。
+正是这种历史关头，中华民族开始了自己悠久历史中又一次真正的复兴。
+\end_layout
+
+\begin_layout Standard
+在艰苦而又富有生命力 的改革道路上，我们坚定了马克思主义的信仰，理解了科学的价值，并逐步深化了对我们时代和民族的认识。今天，我们听从祖国的召唤，热情地投身于实现
+社会主义现代化的伟大潮流。
+\end_layout
+
+\begin_layout Standard
+马克思有一句名言：“思想的闪电一旦真正射入这块没有触动过的人民园地，德国人就会解放成为人。”
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+《马克思恩格斯选集》，人民出版社，1975年版，第1卷，第15页。
+\end_layout
+
+\end_inset
+
+今天，照亮我们民族的闪电，就是马克思主义、科学精神和我们民族优秀传统的结合，以及由此开始的创新！
+\end_layout
+
+\begin_layout Standard
+在中国社会科学院青少年研究所领导下，我们编辑了这套《走向未来》丛书。
+\end_layout
+
+\begin_layout Standard
+她力图从世界观高度把握当代科学的最新成就和特点，通过精选、咀嚼、消化了的各门学科的知识，使读者特别是青年读者能从整个人类文明曲折的发展和更迭中，理解中华民族的伟
+大贡献和历史地位，科学地认识世界发展的趋势，技法对祖国、对民族的热爱和责任感。
+\end_layout
+
+\begin_layout Standard
+她特别注重于科学的思想方法和新兴的边缘学科的介绍和应用；八当前我国自然科学、社会科学，以及文学艺术方面创造性的成果，严肃地介绍给社会，推动自然科学与社会科学的结
+合。
+\end_layout
+
+\begin_layout Standard
+《丛书》是个新园地，她将自始自终贯彻严肃认真的学风和生动活泼的文风。
+\end_layout
+
+\begin_layout Standard
+《走向未来》丛书从她一开始就受到老一輩共产党人关怀，受到学术界前辈的热情支持。
+\end_layout
+
+\begin_layout Standard
+约四百年前，弗兰西斯·培根在《伟大的复兴》一书序言中，曾经这样谈到书中描述的对象，他“希望人们不要把它看作一种意见，而要看作是一项事业，并相信我们在这里所做的不
+是为某一宗教或理论奠定基础，而是为人类的福祉和尊严……。”我们怀着真挚的感情，把这段话献给《丛书》的读者，希望广大读者关心她、批评她、帮助她。
+\end_layout
+
+\begin_layout Standard
+让她成为我们共同的事业。
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+
+\series bold
+《走向未来》丛书编委会
+\end_layout
+
+\begin_layout RightLine
+一九八三年六月于北京
+\end_layout
+
+\begin_layout Chapter*
+序言
+\end_layout
+
+\begin_layout Standard
+1979年有一部书轰动了美国，这就是获得普利策大奖的《GEB――一条的金带》。G即哥德尔(Gödel)，他是本世纪最伟大的数学家之一。以哥德尔命名的定理是数学理
+论大厦的高深组成部分，是数理逻辑，人工智能的基石。E是埃舍尔(Escher)，当代杰出的画家。B是巴赫(Bach)，最负盛名的古典音乐大师。
+\end_layout
+
+\begin_layout Standard
+本书揭示了数理逻辑、绘图、音乐等领域之间深刻的共同规律，指出了一条永恒的金带把这些表面上大相径庭的领域贯穿在一超，它还构成了奥秘的思维、人工智能和生命遗传机制的
+基础。
+\end_layout
+
+\begin_layout Standard
+本书作者道格拉斯·霍夫施塔特是一位风华正茂的数学家，是《科学美国人》游戏数学专栏新任的撰稿人。他是围绕着哥德尔定理来展开全书论述的。
+\end_layout
+
+\begin_layout Standard
+我们知道，哥德尔定理是数学发展史上一座划时代的里程碑。它宣告了在数学发展过程中占主导地位的形式主义流派最终目的的破产。作为严密艰深的数学论文，哥德尔的工作很少为
+专家圈子之外的人们所了解。但是作为重要而深刻的理论成果，哥德尔理论又具有独特的魅力。这样就更加增添了在这个理论周围的神秘色彩。
+\end_layout
+
+\begin_layout Standard
+为了使中国新一代的青年也能了解这个被视作高深莫测的理论，我们改写了霍夫施塔特的同名原著。原著是一本巨著、堪称是一部“奇书”。作者以生动的语言、广博的知识，从各个
+角度介绍了哥德尔定理，以激亮的方式、清晰的思路展开了这个定理的陈述。作者的笔墨洋洋洒洒、纵情驰骋，从巴赫驾驭卡农的精湛技艺谈到埃舍尔令人眩目的版画，忽而又以人们
+意想不到的方式，把严谨的数学理论与分子遗传神秘的世界联系起来。书中既有各种逻辑符号，也有关于印度数学奇才拉马努贾的风趣描述。读者会不知不觉地被引入一个扑朔迷离的
+世界。使人们能在各个似乎遥遥相隔的人类活动领域中发现如此惊人的一致性。这就使得读者能够对于20世纪最伟大的数学成果之一哥德尔定理有一种深刻的印象和切身的感受。
+\end_layout
+
+\begin_layout Standard
+但是全书的论述又是紧扣主题、层层深入的。文章从音乐、美术中的怪圈谈起，继而又谈到逻辑和数学中的怪圈。怪圈可以说是全书的中心概念，也是作者对于哥德尔定理本质的最形
+象的概括。作者特别强调赋于形式符号以生命活力的同构，介绍了形式系统及其内部结构，然后又论述了另外一个极为重要的概念――递归。为了说明原始递归与递归的区别，作者形
+象地用反衬画和互衬画中图形与背景的相互关系来作比喻。在这些重要概念的基础上，作者阐明了哥德尔定理证明过程中最重要的两个思想，即哥德尔编码与自我相关。作者介绍了如
+何在这个重要思想的基础上构成定理的证明，然后进一步指出，形式系统的这种漏洞是永远无法弥补的。此外，文章还论述了这些思想在理解思维过程、人工智能和生物遗传机制中的
+重要性，表现了哥德尔理论影响的深度和广度。
+\end_layout
+
+\begin_layout Standard
+原著不仅在内容上精心推敲、而且在编排形式上颇具匠心。原书共有20章，每一章前面都有一段妙趣洋溢的对话。对话中的主角就是古希腊哲学家芝诺在他的疑难中创造的角色，即
+阿基里斯和乌龟。阿基里斯是跑得最快的希腊英雄，乌龟则是大家热悉的爬得极慢的动物。阿基里斯和乌龟的赛跑是众所周知的典故。选用这两个角色便使文章更增添了哲理和悖论的
+色影。每一段对话还巧妙地以巴赫杰作《音乐的奉献》中一段贴切的曲子为标题。而对话的内容则以一种隐喻的方式启示了这一章所要阐述的主题。与此同时，作者在书中选用了许多
+寓意深刻的图画，主要是埃舍尔的作品。于是，埃舍尔的画、巴赫的曲子以及关于歌德尔定理的阐述美妙地编织在一起，组成了一条光灿灿的金带。而这条金带的结尾又极自热地与文
+章的开头衔接起来，从而构成了一个光彩等目的金圈。
+\end_layout
+
+\begin_layout Standard
+可惜因为改写篇幅的限侧，我们不得不改变了这种结构。那些对话大都分都被侧去了，只保留了少数几段并大大加以压缩，然后编入各章之中。读者可以从“奇妙的唱机和唱片”、“
+历险记”、“没有结束的唱机之战”这些章节来领略一点原书的风味。
+\end_layout
+
+\begin_layout Standard
+为了使哥德尔定理的阐述更容易为读者理解，全书的章节也重新作了编排，内容则作了相应的改写。当然，作者的那些重要思想，我还是尽力想把它忠实地表现出来。
+\end_layout
+
+\begin_layout Standard
+作者反复阐述的怪圈、生动描述的同构以及用图形和背景来帮助人们理解那些极为枯燥的数学概念，实在是令人拍案叫绝。
+\end_layout
+
+\begin_layout Standard
+尽管这本书的例子生动、思想新颖，但是要想不费功夫或者较轻松地读通它仍然是做不到的。中国与西方的文化背景不同。一般人对于巴赫的音乐、埃舍尔的画是极为陌生的，而这里
+介绍的数学理论又往往会使人望而生畏。因此不能指望大部分人读一遍就能看懂全书的内容。
+\end_layout
+
+\begin_layout Standard
+但是这本书的文字和图画富有机智和启发性。读者不妨先细细品味一番前面的图画，参看图下的简单说明，这将是一种很微妙的享受。我们也不妨把阅读此书看成是在挖掘一个价值很
+高的矿。需要你付出辛勤的劳动，但会使你有丰硕的收获。也可以反复地看，每看一遍会有新的体会、新的理解、新的启迪。有时最好还能拿起笔来演算一番。当然最重要的还是能够
+认真地进行思考。如果读者对于书中的思想有所领悟，无疑会影响到他的思维方式。
+\end_layout
+
+\begin_layout Standard
+哥德尔的理论改变了数学发展的过程，触动了人类思维的深层结构，它又渗透到音乐、艺术、生物、计算机和人工智能等领域。如果读者能够通过这本书吸取一点养料，或者从一幅画
+一段叙述中有所领悟，那就令人欣慰了。
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+
+\series bold
+乐秀成
+\series default
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+1983年3月于北京
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,1637 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass GEB
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+歌德尔定理
+\end_layout
+
+\begin_layout Section
+原始递归与递归
+\end_layout
+
+\begin_layout Standard
+前面我们已经用图形和背景形象地比喻形式系统中的定理与非定理，叙述了一个与歌德尔定理具有同样深度的命题。即存在着递归可枚举的集合不是递归的。递归的概念在哥德尔定理
+的证明过程中起着极为重要的作用。因此我们进一步用计算机科学的语言来描述原始递归与递归的概念。为此我们在这里引进3种计算机语言．即Bloop、Floop、Gloo
+p语言。这三个词很像是一组绕口令，又像是沉船激起的水声。我们希望读者细心注意它们的定义，因为这是我们进行论述的基础。
+\end_layout
+
+\begin_layout Standard
+我们仍然在形式数论系统中进行讨论。这是一个能够反映自身的系统，或者说具有“自我认识”能力的系统。这种自我认识具有一个很突出的特点，它和自然数的有序及无序的问题联
+系在一起。我们已经看到，形式系统中可以有一些规则使系统中的串增长或缩短。这就可能使对这些串的探索漫无止境。哥德尔编码的发现表明，对于具有某种性质的串的探索都有算
+术上的对应物，即与对于具有相应算术性质的整数的探索同构。因此对于形式系统判定程序的探索也包括解开这样的秘密，为什么会有无限长的探索。这就是说，为什么整数总有某种
+无序性。
+\end_layout
+
+\begin_layout Standard
+有些整数序列一看就知道有什么规律性，有时却要通过某种抽象的滤波机制才能发现，即似乎无序的序列后面的结构。但是怎么能保证总能找到这样的结构呢？
+\end_layout
+
+\begin_layout Standard
+我们的目的是要讨论对具有各种性质的自然数的探索。为了描述这种探索的长度，我们先要定义一些基本步骤。我们可以把这样一些步骤看成是基本的：
+\end_layout
+
+\begin_layout Standard
+把两个自然数相加
+\end_layout
+
+\begin_layout Standard
+把两个自然数相乘
+\end_layout
+
+\begin_layout Standard
+确定两个自然数是否相等
+\end_layout
+
+\begin_layout Standard
+确定两个自然数中哪一个更大(或更小)
+\end_layout
+
+\begin_layout Standard
+如果我们想用途些基本步骤来描述一种试验方法，那么就要包括一种控制结构。这就是描述进行各个步骤的顺序，什么时候返回来重复进行某些尝试，什么时候可以跳过一些步骤，什
+么时候应该停止。任何一种描述如何完成某项任务的算法都包括这样两部分：(1)所要完成的操作；(2)控制指令。因此我们要想稿出一种有预先规定长度的计算语言，也必须具
+有原始的控制结构。实际上Bloop语言的特点就是有有限组的控制结构。它不容许无限地扩充步骤，也不容许无限地重复一组步骤。Bloop语言中唯一的控制结构就是有界的
+圈。这就是说可以重复执行的指令，重复的次数不能超过某个最大值，这个值就是它的上界。
+\end_layout
+
+\begin_layout Standard
+这种程序中所有上界的值并不是明确给定的。但是可以在进入这个圈之前计算出来。例如在计算
+\begin_inset Formula $2^{3^{n}}$
+\end_inset
+
+时，有两个圈。先计算
+\begin_inset Formula $3^{n}$
+\end_inset
+
+的值，其中包括
+\begin_inset Formula $n$
+\end_inset
+
+次乘法。然后再计算
+\begin_inset Formula $2$
+\end_inset
+
+的幂，其中包括
+\begin_inset Formula $3^{n}$
+\end_inset
+
+次乘法。因此第二个圈的上界是第一次计算得到的结果。
+\end_layout
+
+\begin_layout Standard
+在计算机程序中，有一部分程序可以组成一个单元，它们作为一个整体而被调用。我们把这称为程序的块化，所形成的单元就是程序块。这些块可以连接起来而形成总的程序。
+\end_layout
+
+\begin_layout Standard
+B1oop语言有两个特点。第一个特点是，一旦定义了某个步骤后就可以从内部引出后面步骤的定义。这样一来，在程序中所定义的操作就和那些基本步骤一样简单。也就是说B1
+oop语言可以自动地形成块。第二个特点就是操作过程的输出可以不是数值而是是或者非。这样的过程更确切地讲是一种检验而不是函数。
+\end_layout
+
+\begin_layout Standard
+B1oop语言具有无引入地址的结构。这种结构使得程序具有自备的性质，其中每一步可以引出下一步的定义。我们把能够用B1oop语言的程序计算的函数称为原始递归函数。
+而能用B1oop试验进行鉴定的性质称为原始递归性质。例如是一种原始递归函数。“n为素数”则是一种原始递归性质。
+\end_layout
+
+\begin_layout Standard
+为了说明B1oop语言与形式数论系统之间的关系。我们先来区别一下“可表达性”与“可描述性”。在形式数论系统中“表达”一个命题，仅仅是把普通语言陈述的命题译成相应
+的形式符号。这和该命题是否成为系统中的定理无关，而“描述”一个命题则是更强的概念。它若为真便是定理，若为假则是非定理。
+\end_layout
+
+\begin_layout Standard
+形式数论系统可以表达所有的数论中的命题。而“在TNT中可以描述什么样的性质?”这个问题就是说“TNT是具有什么能力的公理系统?”如果能够在TNT系统中描述所有的
+数论命题，那么TNT系统就能回答数论中的所有问题。它对于数论中的命题就是完备的。
+\end_layout
+
+\begin_layout Standard
+至少可以肯定一点，对于原始递归的谓词TNT是完备的。这就是说，如果对于自然数的某种性质可以写出Bloop试验程序，那么这种性质就可以在TNT内描述。
+\end_layout
+
+\begin_layout Standard
+我们现在设想这样一个很怪的概念：所有Bloop程序的圈。这样的圈当然是无限的。我们再考虑它的一个子圈。它是通过连续的3种滤波操作而得到的。经第一步滤波后只剩下无
+引入地址的程序。第二步滤波则把所有的检验排除绰，只剩下那些函数。第三步滤波后只剩下行一个输入参数的那种函数。最后剩下的子圈是什么呢？是计算只有一个输入参数的函数
+的所有无引入地址的Bloop程序构成的完备圈。我们把这种特殊的Bloop程序称为蓝程序。
+\end_layout
+
+\begin_layout Standard
+我们对每种蓝程序给定一个指数，可以把它们按照长度加以排列。当然可以有许多不同的蓝程序具有相同的长度。因而我们采用字母表的顺序加以排列。这里所说的字母表顾序是广义
+的，可以用字母分别代表Bloop程序中的所有特点。
+\end_layout
+
+\begin_layout Standard
+运用康托尔的对角线法，我们总能找到这样一类蓝程序，可以用它来定义一个新函数，它有明确的定义，是单变量的函数．但却无法用Bloop语言来编制程序。这就是说，用这种
+蓝程序定义的函数不在原始递归函数之列。我们把这种函数称为蓝对角函数。
+\end_layout
+
+\begin_layout Standard
+用康托尔的对角线法可以证明，如果将所有的实数进行编目，那么总有一些实数不在其中。这就是说对实数进行完备的编目是做不到的。我们只考虑从0到1之间的实数。假设所有这
+样的实数可以列成一张表。因为从0到1的实数总可以表示成无限的小数，因此我们可以设想把0到1之间的所有实数编上号而得到这样一张表：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r\ (1)\ 0.141592653……$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r\ (2)\ 0.333333333……$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r\ (3)\ 0.718281828……$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r\ (4)\ 0.414213562……$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+我们依次取这张表上对角线上的数字作为新的实数相应各位上的数字，得到一个新的数字
+\begin_inset Formula $0.1382……$
+\end_inset
+
+然后构造数d，使d任何一位的数字都与
+\begin_inset Formula $0.1382……$
+\end_inset
+
+相应位上的数字不同。显然这个数d是0到1之间的实数，但并不在这张表上，因为它与表上任何一个实数都不相同。由此可以证明从0到1的实数不可能与自然数完全一一对应。
+\end_layout
+
+\begin_layout Standard
+康托尔对角线法的本质在于以两种方式使用整数，也可以说是在两种不同的层次上使用整数。一方面作为行的指标，另一方面又作为列的指标。
+\end_layout
+
+\begin_layout Standard
+也许有人会想，如果把的d补充到表上去，这张表不就更完备了吗？其实这是无济于事的，因为对角线法同样适用于添加d后的新表，从而可以得到不在新表上的d'。这个过程可以
+重复进行下去，这就好像乌龟的唱片不断使蟹的唱机粉碎一样。
+\end_layout
+
+\begin_layout Standard
+我们已经用Bloop语言写成的程序定义了一类原始递归函数和自然数的原始递归性质。我们也看到，Bloop语言无法描述我们可以用语言定义的所有自然数的函数。我们用康
+托尔对角线法构造的蓝对角函数就无法用Bloop语言来描述。
+\end_layout
+
+\begin_layout Standard
+定义Bloop语言的性质可以理解为它的圈是有界的。如果我们去掉这种限制就可以得到一种新的计算机语言Floop(意思是含有自由圈)。
+\end_layout
+
+\begin_layout Standard
+仿照前面的蓝程序的定义，我们可以构造一种绿程序：
+\end_layout
+
+\begin_layout Standard
+所有计算只有一个输入参数的函数的无引入地址Floop程序的完备圈。
+\end_layout
+
+\begin_layout Standard
+在Floop程序中可以包括无界的圈，它可以是无终止的程序。如果排除这种无终止性，我们就可以得到所谓的红程序：
+\end_layout
+
+\begin_layout Standard
+所有计算只有一个输入参数的函数的无引入地址的Floop程序，而且这些程序对于它们的所有输入都是可终止的，这些程序构成的完备圈。
+\end_layout
+
+\begin_layout Standard
+我们把无法用Floop语言描述的程序称为Gloop程序。
+\end_layout
+
+\begin_layout Standard
+现在我们已经有好几种计算机语言。可以严格地证明，那些语言具有和Floop语言同样的能力。因此，一被都认为不可能有比Floop语言更强能力的计算机语言。著名的丘奇
+—图林命题就表达了这种思想：
+\end_layout
+
+\begin_layout Standard
+人能够计算的也是机器可以计算的；
+\end_layout
+
+\begin_layout Standard
+机器可计算的也是Floop程序可计算的。
+\end_layout
+
+\begin_layout Standard
+如果我们把Floop程序可计算的函数称为原始递归的，那么Floop程序可计算的函数就可以分为两类：(1)可以用有限长的Floop程序计算的函数为一般递归函数。(
+2)只能用无限长的Floop程序计算的函数为部分递归函数。人们通常所说的递归函数是指一般递归函数。
+\end_layout
+
+\begin_layout Standard
+有趣的是TNT不仅可以描述所有的原始递归函数，而且可以描述所有的一般递归函数。我们不能在这里证明这两个结论。这不是本书的目的。我们的目的是要说明形式数论系统的不
+完备性。
+\end_layout
+
+\begin_layout Section
+歌德尔编码与自我反省
+\end_layout
+
+\begin_layout Standard
+上一节我们引进了Bloop、Floop、Gloop语言的定义，用这些语言描述了原始递归与递归的概念。现在我就可以介绍TNT中形式上不可判定的命题及有关的形式系统
+了。
+\end_layout
+
+\begin_layout Standard
+歌德尔在1931年发表的论文专业性很强。我们不可能在这儿介绍它的数学细节。我们要介绍的是完成主要定理证明过程的两个思想。第一个思想就是找到了一种方法可以把TNT
+中的串解释成说明TNT中的其他串。这就是靠哥德尔编码。第二个关键思想就是这种自我反省的情况可以集中在同一个串上，也就是TNT中的一个串可以解释成在说明自身。而这
+种方法从本质上讲可以归结为康托尔的对角线法。
+\end_layout
+
+\begin_layout Standard
+我认为，如果一个人对哥德尔定理真正感兴趣，就会认识到它的证明实质上是融汇了上述的两个思想。这两个思想是极为出色的，而把它们结合在一起就无疑是一种天才了。我个人则
+认为第一个思想更为重要。正是哥德尔编码涉及到符号运算系统的意义与相互关系。
+\end_layout
+
+\begin_layout Standard
+明确了这两个基本思想，我们进一步说明定理的证明过程。有了哥德尔编码，我们可以在TNT系统中定义“证明对”的概念。证明对是一对以特殊方式联系起来的自然数对。这种思
+想是：
+\end_layout
+
+\begin_layout Standard
+两个自然数m与n形成TNT中的一个证明对，当且仅当m为了TNT中可由哥德尔数n推导出来的哥德尔数。
+\end_layout
+
+\begin_layout Standard
+现在我们指出其基本事实1：
+\end_layout
+
+\begin_layout Standard
+作为证明对的特点就是具有原始递归的特点，因而可以用Bloop程序来检验。和其他的数论性质不同，这种性质的显著特点是定理数。所谓n是一个定理数就是说存在一个数m可
+以与n构成一个证明对。
+\end_layout
+
+\begin_layout Standard
+从上面的基本事实1我们可以得出基本事实2：
+\end_layout
+
+\begin_layout Standard
+构成证明对的性质可以用Bloop程序来检验，因而可以在TNT中用两个变量的公式来描述。
+\end_layout
+
+\begin_layout Standard
+前面已经说了，考虑一种性质的“表达”和“描述”之间的区别是很重要的。例如作为TNT的定理数的性质可以表达成：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\exists a$
+\end_inset
+
+：TNT—证明对
+\begin_inset Formula $\{a,a'\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这可以解释为：“a'是TNT中的一个定理数。”但是我们并不能说这个式子“描述”了这个概念，因为我们并不能保证这种性质是原始递归的。事实上，我更倾向于怀疑这一点。
+这种怀疑被证明是有道理的。作为了TNT中定理数的性质并不是原始递归的。但作为证明对的性质却是原始递归的。后者既是可以表达的，也是可以描述的。
+\end_layout
+
+\begin_layout Standard
+通过哥德尔编码，我们可以把上面这个式子与TNT中的一个数对应起来。这样TNT中的数就可以描述TNT中数的性底。这就实现了TNT中定理的反省。这是证明第一部分的实
+质。
+\end_layout
+
+\begin_layout Standard
+我们现在进一步介绍证明中第二个重要思想。那就是把这种反省集中到同一个式子里。为此我们需要考察一下当我们以一种简单的方式改进式子的结构时，哥德尔数将发生什么变化。
+实际上，我们考虑这种特殊的改进：
+\end_layout
+
+\begin_layout Standard
+用特定的数代替所有的自由变量。
+\end_layout
+
+\begin_layout Standard
+请看下面的例子：
+\end_layout
+
+\begin_layout CenterLine
+式子
+\begin_inset Formula $\xrightarrow[\text{哥德尔编码}]{}$
+\end_inset
+
+哥德尔数
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="0page%">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="middle" width="0line%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $a=a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $262\ 111\ 262$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+用数字2代替所有自由变量
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 4em
+\end_inset
+
+
+\size small
+
+\begin_inset Formula $\downarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $SS0=SS0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $123\ 123\ 666\ 111\ 123\ 123$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $666$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout CenterLine
+·
+\begin_inset space \quad{}
+\end_inset
+
+·
+\begin_inset space \quad{}
+\end_inset
+
+·
+\begin_inset space \quad{}
+\end_inset
+
+·
+\begin_inset space \quad{}
+\end_inset
+
+·
+\begin_inset space \quad{}
+\end_inset
+
+·
+\begin_inset space \quad{}
+\end_inset
+
+·
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim\exists a:\exists a':a''$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $223\ 333\ 262\ 636\ 333$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $=(SSa)\cdot(SSa')$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $262\ 163\ 636$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="0page%">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="middle" width="0line%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+用数字4代替所有自由变量
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $262\ 163\ 163\ 111\ 362$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $123\ 123\ 262\ 236\ 123$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $123\ 262\ 163\ 323$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 4em
+\end_inset
+
+
+\size small
+
+\begin_inset Formula $\downarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim\exists a:\exists a':SSSS0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $223\ 333\ 262\ 636\ 333$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $=(SSa\cdot SSa')$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $262\ 163\ 636\ 123\ 123$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $123\ 666\ 111\ 363\ 123$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $123\ 262\ 236\ 123\ 123$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\begin_inset Formula $\vdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $262\ 163\ 323$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+上面的左右两行是同构的。在右边一行中，从一个哥德尔数到另一个哥德尔数之间的函数关系不难用算术运算的术语来描述，不过在这里没有必要这样做。重要的是我们知道在原来的
+数，插进去的数以及最后得出的数之间的关系是原始递归的。也就是说，可以写出一种Bloop程序，把三个数字输入后可以得出是或非的回答。如果答案是肯定的，我们就可以说
+，在它们之间有“替代关系”可以用下面的式子来描述：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $SUB\{a,a'a"\}$
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+(SUB是“替代”的意思)
+\end_layout
+
+\begin_layout Standard
+在我们给出的第一个例子中，下面的式子就是了TNT中的一条定理。
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Formula $SUB\{\underbrace{SSS……SSS0}/a,SS0/a,\underbrace{SSS……SS0}/a"\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $\overset{262\ 111\ 266\text{个}S}{}$
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $\overset{123 123 666 111 123 123 666\text{个}S}{}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+而下面的式子显然不是一条定理：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $SUB\{SSS0/a,\ SS0/a',\ S0/a"\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+有了这些基础，我们就可以把它们综合起来构造一个句子，它的意义可以解释成：“TNT中的这个串不是TNT中的一条定理。”显然这是一个怪圈，是和爱皮梅尼特悖论同构的。
+做到这一步就万事大吉了。不过我们不能高兴得太早了。虽然一切条件都已经具备，但是要在实际上做到这一点仍然不是一件轻而易举的事。要在TNT中表述这个句子还需要一个举
+足轻重的概念，这就是要运用“奎因”(quine)的技巧。所谓“奎因”一个句子，就是用整个句子代替该句子中的某个成分而构成一个新句子。而这两个句子可以说是同构的。
+例如：“据我所知并不是一支歌”经奎因而成为“‘据我所知并不是一支歌”据我所知并不是一支歌。”同样，在TNT中我们可以用式子所对应的哥德尔数去代替式子中的自由变量
+而产生一个新的哥德尔数。我们把这称为“算术奎因”。运用这种方法，我们就可以在TNT中实现自我相关。让我们看这样一个例子。
+\end_layout
+
+\begin_layout Standard
+给定一个式子
+\begin_inset Formula $a=S0$
+\end_inset
+
+，它的哥德尔数为
+\begin_inset Formula $262\ 121\ 123\ 666$
+\end_inset
+
+。让我们把这个数插进式子中去就得到：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\underset{262\ 111\ 123\ 666\text{个}S}{\underbrace{SS\text{……}S0}}=S0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这个结果显然是错误的。因为让
+\begin_inset Formula $262\ 121\ 123\ 666$
+\end_inset
+
+和
+\begin_inset Formula $1$
+\end_inset
+
+相等是荒唐的。但是如果我们从一开始就写成
+\begin_inset Formula $\sim a=S0$
+\end_inset
+
+那么就会得到一种正确的陈述。
+\end_layout
+
+\begin_layout Standard
+如果我们在“替代关系”中把两个自由变量换成相同的。那么就会有
+\begin_inset Formula $SUB\{a",a",a'\}$
+\end_inset
+
+。这是以两种方式使用同一个数字。我们可以写成：
+\end_layout
+
+\begin_layout CenterLine
+算术奎因
+\begin_inset Formula $\{a",a'\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这个式子的含义是：“a'是这样一个式子的哥德尔数，它是由哥德尔数为a"的式子通过算术奎因而得到的。”在我们所举的例子中，庞大的数字：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\underset{262\ 111\ 123\ 666\text{个}"123"}{\underbrace{123\ 123\text{……}123\ 123}}\ 666\ 111\ 123\ 666$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+就是“算术奎因”
+\begin_inset Formula $a=S0$
+\end_inset
+
+所得到的式子的歌德尔数。
+\end_layout
+
+\begin_layout Standard
+就像我们可以重复奎因的技巧一样，我们也可以重复地使用算术奎因的技巧，就是对于一个描述算术奎因的句子进行算术奎因。于是我们就可以写下这样一个式子：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sim\exists a:\exists a':$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $<TNT$
+\end_inset
+
+证明对
+\begin_inset Formula $\{a,a'\}\land$
+\end_inset
+
+算术奎因
+\begin_inset Formula $\{a'',a'\}>$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+我们称它是“G的叔叔”，记作“u”。u当然也有它所对应的哥德尔数。我们要做的最后一步就是对G的叔叔”u进行算术奎因。这里的自由变量只有a"，用u的哥德尔数代替它
+就得到：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sim\exists a:\exists a':$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $<TNT$
+\end_inset
+
+证明对
+\begin_inset Formula $\{a,a'\}\land$
+\end_inset
+
+算术奎因
+\begin_inset Formula $\{\underset{u\text{个}S}{\underbrace{SSS\cdots SS0/a''}},a'\}>$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+不管你信还是不信，这就是哥德尔串，我们称它为“G”。现在我们马上要回答两个问题：
+\end_layout
+
+\begin_layout Standard
+(1)
+\begin_inset space \space{}
+\end_inset
+
+G的歌德尔数是什么?
+\end_layout
+
+\begin_layout Standard
+(2)
+\begin_inset space \space{}
+\end_inset
+
+G如何解释?
+\end_layout
+
+\begin_layout Standard
+对于第一个问题，我们想想，G是如何得到的？是对u进行算术奎因而得到的。因此G的哥德尔数就是u的哥德尔数进行算术奎因而得到的数。这是一种简化的说法，整个过程前面已
+经讲了。
+\end_layout
+
+\begin_layout Standard
+对于第二个问题，我们可以用普通语言来叙述这个式子：
+\end_layout
+
+\begin_layout Standard
+不存在数a和a'，便得了面两点同时成立(1)
+\begin_inset space \space{}
+\end_inset
+
+它们形成TNT中的一个证明对，(2)
+\begin_inset space \space{}
+\end_inset
+
+a'是u经算术奎因所得到的哥德尔数。但是算术奎因u所得到的哥德尔数确实是存在的。因此上面这句话可以表述成：
+\end_layout
+
+\begin_layout Standard
+不存在数可以与算术奎因u的哥德尔数形成证明对。
+\end_layout
+
+\begin_layout Standard
+现在你可以看到会有什么结果了。
+\end_layout
+
+\begin_layout Standard
+一个式子的哥德尔数是算术奎因u得到的哥德尔数，那么这个式子不是TNT中的定理。然而这个式子恰恰就是G本身，因此这就是说：
+\end_layout
+
+\begin_layout Standard
+G不是TNT中的定理。
+\end_layout
+
+\begin_layout Standard
+\noindent
+这样我们就从较低层次的解释——数论中的句子逐渐推导出较高层次上的解释——元TNT中的句于。这里的主要结果可以重申如下：
+\end_layout
+
+\begin_layout Standard
+如果G是TNT的定理，那么它—定为真。但是G说明了什么呢？说明了它自己不是一条定理。于是从它是定理得出它不是定理：构成了矛盾。
+\end_layout
+
+\begin_layout Standard
+如果G不是TNT的定理又怎样呢？这是可以接受的，它不会导致矛盾。但G不是定理是由G说明的，因此G是真的。又因为G不是定理，这就是说有一条真命题不是TNT中的定理
+。于是我们就在TNT中发现了一个漏洞——存在着一个不可判定的命题。
+\end_layout
+
+\begin_layout Standard
+哥德尔找到了一种明确的方式用了TNT中的式子来陈述“TNT是一致的”然后又证明这样的陈述要成为TNT中的一条定理只有在“TNT是不一致”的条件下才有可能。这是个
+看来不合情理的结果，却对它进行了严格的数学证明。其结果沉重地打击了那些致力于寻找数学无矛盾性严格证明的乐观主义者。
+\end_layout
+
+\begin_layout Standard
+哥德尔定理证明了TNT的不完备性。这是前面讲过的那种ω型不完备性。就是说，有一族塔型的串，它们有无数多个。每一个串都是定理，但是“概括”他们全部的全程命题却不是
+定理。这很容易用例子来加以说明：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\forall a:\sim\exists a':$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Formula $<TNT$
+\end_inset
+
+证明对
+\begin_inset Formula $\{a,a'\}\land$
+\end_inset
+
+算术奎因
+\begin_inset Formula $\{\underset{u\text{个}S}{\underbrace{SSS\cdots SS0/a''}},a'\}>$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+这个串不是一条定理，但我们可以证明，与此有关的塔形族中每一条都是定理。因为它们每一条的意思分别是：
+\end_layout
+
+\begin_layout Standard
+“0和算术奎因u的歌德尔数不构成TNT的证明对”
+\end_layout
+
+\begin_layout Standard
+“1和算术奎因u的歌德尔数不构成TNT的证明对”
+\end_layout
+
+\begin_layout Standard
+“2和算术奎因u的歌德尔数不构成TNT的证明对”
+\end_layout
+
+\begin_layout Standard
+等等。
+\end_layout
+
+\begin_layout Standard
+\noindent
+因为G不是定理，因此没有一个整数与G的哥德尔数形成证明对。由此可见这一族中每一条都是定理。这就证明了TNT是ω不完备的。
+\end_layout
+
+\begin_layout Section
+无法弥补的漏洞
+\end_layout
+
+\begin_layout Standard
+我在在TNT中发现了漏洞。这个漏洞有没有办法补上呢？人们可能会联想到几何学的情形。由4条几何公理组成的绝对几何学可以向两个方向扩充，即欧氏几何与非欧几何。这就启
+示我们可以把G或~G作为一条新的公理而加到原来的系统上去。我们就以把G作为新公理为例，把它加到TNT中构成新的系统为TNT+G。
+\end_layout
+
+\begin_layout Standard
+TNT的漏洞可以表示成：“我无法在TNT中得到证明。”
+\end_layout
+
+\begin_layout Standard
+\noindent
+而在TNT+G中存在着同样的漏洞，可以表述成：“我无法在TNT+G中得到证明。”
+\end_layout
+
+\begin_layout Standard
+因此，不管怎样填补漏洞、扩充形式系统，新的形式系统仍然具有歌德尔的结构。
+\end_layout
+
+\begin_layout Standard
+这个原理可以用康托尔的对角线法来很好地说明。康托尔用这种方法来“发现”“实数完备表”中遗漏的实数。我们可以用同样的方法来“发现”形式系统中的漏洞。
+\end_layout
+
+\begin_layout Standard
+(1a)
+\begin_inset space \space{}
+\end_inset
+
+给定表L，构造它的对角线数d。
+\end_layout
+
+\begin_layout Standard
+(1b)
+\begin_inset space \space{}
+\end_inset
+
+把d加到表L里构成新表L+d。
+\end_layout
+
+\begin_layout Standard
+(2a)
+\begin_inset space \space{}
+\end_inset
+
+给定表L+d，构造它的对角线数d'。
+\end_layout
+
+\begin_layout Standard
+(2a)
+\begin_inset space \space{}
+\end_inset
+
+把d'加到表L+d里构成新表L+d+d'。
+\end_layout
+
+\begin_layout Standard
+……
+\end_layout
+
+\begin_layout Standard
+显然用这种方法是无法构造所有实数的完备表的。同样用补充公理的办法弥补漏洞也是徒劳无益的。
+\end_layout
+
+\begin_layout Standard
+需要说明的是，一个形式系统要出现这种歌德尔式的不完备漏洞必须满足3个条件：
+\end_layout
+
+\begin_layout Standard
+1.
+\begin_inset space \space{}
+\end_inset
+
+这个系统足够完备使得所有有关数的陈述都能在系统内表达出来。
+\end_layout
+
+\begin_layout Standard
+2.
+\begin_inset space \space{}
+\end_inset
+
+所有的一般递归关系都能在系统内用公式表达出来。
+\end_layout
+
+\begin_layout Standard
+3.
+\begin_inset space \space{}
+\end_inset
+
+公理和那些规则所定义的符号模式都能通过某种有限的判定程序来识别。
+\end_layout
+
+\begin_layout Standard
+凡是满足这3个条件的一致的形式系统，哥德尔理论都是适用的。
+\end_layout
+
+\begin_layout Standard
+按照卢卡斯的观点，哥德尔理论恰恰证明了机械论的破产，这就是说，不能把思维解释成机械。
+\end_layout
+
+\begin_layout Standard
+他的推理过程如下。如果有一架和人一样聪明的计算机就可以完成人所能完成的任何智力活动。让我们考虑任何一种特定的形式系统。不难写出计算机的程序，它可以系统地产生该系
+统的各条定理。这种程序由两部分组成。第一部分子程序可以打印出公理，给出公理系统的模式。第二部分子程序则根据己知的定理(当然也包括公理)运用推理规则产生新的定理。
+\end_layout
+
+\begin_layout Standard
+我们可以拟人地说，这一程序“懂得”关于数论的某些事实。也就是说它懂得打印出来的那些事实。如果它无法打印出数论的某些真实结果，那么它当然是不懂这些结果的。如果能够
+证明，人懂得一些计算机程序所不懂的东西，那么就说明人要更胜一筹。
+\end_layout
+
+\begin_layout Standard
+于是卢卡斯指出，人可以把哥德尔的技巧用于任何一种形式系统，我们总能比它本身懂得更多一点。虽然看起来这是有关形式系统的论断，但是只要稍加改进就可以用来证明，不可能
+产生和人同等水平的人工智能。
+\end_layout
+
+\begin_layout Standard
+我们还应该更深入一步了解，为什么卢卡斯说，计算机的程序不管怎样设计都不可能比我们知道得更多。其基本思想就在于，我们总是在系统之外，这样就可以完成“哥德尔化”的操
+作。
+\end_layout
+
+\begin_layout Standard
+为了使我们对此有一种直观的印象，我们来看看埃舍尔历画的《龙》(图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:19"
+
+\end_inset
+
+)，它最显著的特点就是所在现的主题——一条龙咬住自己的尾巴，其中包含了哥德尔定理的意义。但是还有更深一层的意思。埃舍尔自己对此作了一番说明：
+\end_layout
+
+\begin_layout Standard
+1．我们的3维空间是我们所知道的唯一真实的存在。2维空间则和4维空间一样虚幻，因为没有一样东西是绝对平的，那怕是最精细地磨平的镜子。但是我们仍然容许这样的约定，
+墙和纸是平的，甚至还要在这样的平面上来表现空间的假象……
+\end_layout
+
+\begin_layout Standard
+2．但是这条龙是多么想成为空间性的，虽然它仍然是完全在平面上。在画着龙的纸上有两个剖面。它以这种方式折迭，在画面上留出两个正方形的开口。这条龙是顽强的，尽管它是
+2维的，仍然设想自己是3维的，于是它的头从一个洞里伸出而尾巴则通过另一个洞伸出来。
+\end_layout
+
+\begin_layout Standard
+我们可以随心所欲地折腾埃舍尔的画，把它从书上撕下来，折迭起来、挖个洞再穿过去最后把这一堆乱七八糟的东西照下来，于是就又成为2维的了。
+\end_layout
+
+\begin_layout Standard
+如果我们深思一番人是否能超脱自己——或者计算机程序能否超脱自己，这是非常有趣的。确实，一种程序可以改进自己，但是这种改进能力却是在程序一开始时就已经规定好了，因
+此并不能把它看成是“跳出该系统”的例子。TNT系统可以反省自己，但是无法跳出自己。一种计算机程序可以改进自己，但是无法改变自己的指令，而只能按照那些指令来改变自
+身的某些部分。因此跳出系统的愿望往往只是一个无法成为现实的梦。
+\end_layout
+
+\end_body
+\end_document

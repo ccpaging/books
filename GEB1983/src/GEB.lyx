@@ -1,0 +1,1894 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass GEB
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+frontmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size huge
+GEB一条永恒的金带
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100text%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+
+\size large
+乐秀成
+\begin_inset space \quad{}
+\end_inset
+
+编译
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 40theight%
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+四川人民出版社
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+一九八三年
+\begin_inset space \quad{}
+\end_inset
+
+成都
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/images-000.jpg
+	lyxscale 60
+	width 95text%
+	height 95theight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/images-002.png
+	lyxscale 60
+	width 95text%
+	height 95theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/1.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:1"
+
+\end_inset
+
+瀑布
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1961）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+瀑布一泻而下，汇集到池子中，然后顺着水渠往下流去，可是拐了几道弯之后，突然又回到瀑布口！真是不可思议。可是在画图上却表现得明明白白，天衣无缝。这就是怪圈。
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/2.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:2"
+
+\end_inset
+
+上升与下降
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1960）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+一队僧侣沿着楼梯向上走，拐了四次后又回到了原处。另一队僧侣沿着楼梯向下走，最后也回到了原处。而且两队人走同样的楼梯。这又是一个怪圈。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/3.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:3"
+
+\end_inset
+
+举着反光球的手
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔的自画像（版画，1935）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+球反射出来举着球的画家，画家的书房。不过最妙的是我们从反光中看到了球本身。这难道不也是一个怪圈吗？
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways true
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/4.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:4"
+
+\end_inset
+
+变形
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（木刻，19.5cm
+\begin_inset Formula $\times$
+\end_inset
+
+400cm，1939-1940）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+这是一幅围成圈、首尾相连的长画球反射出来。你可以随着画面的逐渐变化慢慢往前走，不知不觉地回到了原处。也可以永远这样走下去。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/5.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5"
+
+\end_inset
+
+解放
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1955）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+上方是自由翱翔的鸟。下面是死板规则的几何图形，中间则是花哨的过渡区域。形式力图把握活生生的现实。现实却象鸟儿一样要求彻底的解放。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/6.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6"
+
+\end_inset
+
+镶嵌图案
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1957）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+白色的图形与黑色的图形镶嵌在一起，它们构成亲密无间的整体。它们互补互衬，互为背景。有谁能够想到这与数学定理也有密切的关系呢？
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/7.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:7"
+
+\end_inset
+
+巴比伦塔
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（木刻，1928）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+高耸入云的巴比伦塔使上帝都感到敬畏。它象征着庞大、严谨的数学理论体系。它最后没有完全建成又给人以什么深刻的启示呢？
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/8.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8"
+
+\end_inset
+
+相对性
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1953）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+以楼梯为基点，根据它和邻近物体的相互关系，我们可以逐步认识周围的世界。可是不用走多远就会遇到明显的矛盾。换一个基点还是这样。这里究竟有什么地方不对头了呢？
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/10.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:9"
+
+\end_inset
+
+蜥蜴
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1943）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+同样是蜥蜴，一种是三维世界的动物，另一种是二维平面的图案。从一个世界进入另一个世界。也是从一个层次进入另一个层次。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/9.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:10"
+
+\end_inset
+
+凹与凸
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1955）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+两个内部一致的世界共同构成一个不一致的世界。难道你没有兴趣到这样的世界去周游一番？
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/11.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:11"
+
+\end_inset
+
+鱼和鳞
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1959）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+每一片鳞是一条鱼，一种变形的相似，一种似乎不可能的相似，然而生物的遗传机制却为此提供了合理的解释。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/12.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:12"
+
+\end_inset
+
+蝴蝶
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1950）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+你能在这些蝴蝶中找到哪些共同点。从一只蝴蝶映入另一只蝴蝶保存了什么不变量？信息。重要的是保存信息的不变。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/13.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:13"
+
+\end_inset
+
+“逆行（蟹式）卡农”
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1965）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+这是一支看得见的乐曲，伴句的旋律与导句的旋律保持逆行的关系。然而一切都是那样协调、自然。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/14.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:14"
+
+\end_inset
+
+另一个世界
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1947）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+用同样的线条表现真实和不真实的世界。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways true
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/15.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:15"
+
+\end_inset
+
+白天和黑夜
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（木刻，1938）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+这是真实的飞鸟和田野马？这是真实的白天和黑夜吗？永恒的谜。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways true
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/16.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:16"
+
+\end_inset
+
+三个球
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1946）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+每个球以不同的方式反映周围的世界，它们也相互反映。世界就是一张相互紧密联结成一体的网。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/17.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:17"
+
+\end_inset
+
+带魔带的立方架
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1957）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+魔带上的小泡这么看是鼓出来的，那么看是凹进去的。玩弄这种魔术的又是谁呢？
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement t
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/18.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:18"
+
+\end_inset
+
+有序和无序
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1950）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+一堆垃圾，却摆成了别有风味的图案。无序中产生了有序。可是被认为最有序的数却总会表现一些无序的性质来。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/19.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:19"
+
+\end_inset
+
+龙
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（木雕，1952）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+一条咬住自己尾巴的龙。一条具有哥德尔精神的龙。一条拼命想从二维平面挣扎出来的龙。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways true
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/20.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:20"
+
+\end_inset
+
+曲调和歌
+\begin_inset space \qquad{}
+\end_inset
+
+勒内·马格里特（1964）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+画中的一行法文：这不是烟斗.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+“这”指什么呢？烟斗还是画？这幅画的语义解释会以哥德尔的方式自我互解。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/21.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:21"
+
+\end_inset
+
+两件神秘的东西
+\begin_inset space \qquad{}
+\end_inset
+
+勒内·马格里特（1966）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+画中的一行法文：这不是烟斗.
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+浮在空中的烟斗是否比画上的烟斗更加现实呢？又一幅语义画。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/22.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:22"
+
+\end_inset
+
+画画的双手
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1948）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+左手画右手，右手画左手。它们到底又是谁画的呢？
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/23.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:23"
+
+\end_inset
+
+画廊
+\begin_inset space \qquad{}
+\end_inset
+
+M·C·埃舍尔（版画，1956）
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+画中有画，城市中有城市。自我相关，最紧凑的怪圈。
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/24.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:24"
+
+\end_inset
+
+字体集
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/25.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:25"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways true
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/26.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:26"
+
+\end_inset
+
+逆行卡农
+\begin_inset space \qquad{}
+\end_inset
+
+引自巴赫的《音乐的奉献》
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement p
+wide false
+sideways true
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/27.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:27"
+
+\end_inset
+
+MIU系统中所有定理的系统结构树
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset VSpace 3ex
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset space \qquad{}
+\end_inset
+
+图中的第N级正好包括那些需要N步才能从MI推出的定理。图里的数字则表示所运用的规则。那么MU是否在这棵树上呢？
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/28.jpg
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:28"
+
+\end_inset
+
+图案画
+\begin_inset space \qquad{}
+\end_inset
+
+斯科特·E·金（1975）
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/images-031.png
+	lyxscale 60
+	width 95text%
+	height 95theight%
+	keepAspectRatio
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "0.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mainmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "1.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "2.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "3.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "4.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "5.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "6.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "7.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "8.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "9.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

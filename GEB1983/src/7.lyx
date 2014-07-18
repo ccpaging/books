@@ -1,0 +1,972 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass GEB
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正北魏楷书_GB18030
+\font_sans 方正北魏楷书_GB18030
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+人工智能
+\end_layout
+
+\begin_layout Section
+回顾
+\end_layout
+
+\begin_layout Standard
+1950年艾伦·图林撰写了一篇有关人工智能的文章《计算机与智能》。这篇预言性、挑战性的文章一开始就提出了“机器能否思维？”这个问题。他主张用所谓“模拟游戏”中的
+操作方法去探索这个问题。人们现在把这称作图林试验。图林在这篇文章中提出的许多光辉思想至今对于人工智能的研究还有深刻的影响。
+\end_layout
+
+\begin_layout Standard
+人工智能的历史可以追溯到巴斯卡和莱布尼兹，他们梦想有智能的机器。到19世纪，布尔和德·摩尔根提出了“思维定律”，这实质上是命题演算。这是走向人工智能的第一步。后
+来贝比奇设计了第一架“计算机器”，这是计算机硬件也是人工智能硬件的前身。人们可以把机器装置完成以前只能内人脑完成的工作算成人工智能的开始。我们很难体会当年人们初
+次见到转动的齿轮能够完成大数的加法和乘法时是怎样一种感情。也许他们会感到自己已经看到了“思维”在这些硬件中流动。不管怎化，我们知道，当一百年后电子计算机首次建造
+出来后，它的发明者确实感到有另外一种会思维的物体的存在了。至于真正的思维过程究竟是怎样的，至今仍然是一个谜。
+\end_layout
+
+\begin_layout Standard
+有趣的是，仿佛有这样一条关于人工智能的“定理”：一旦某种思维的功能被编制成程序，人们就不再认为它是“实际思维”的基本组成部分了。而人工智能的核心总是指那些还未能
+编制成程序的部分。下面就让我们来回顾一下人工智能所研究的领域：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setitemize[0]{leftmargin=2em,itemindent=2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+机器翻译
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+直接的(查词典、重排词序)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+间接的(以某种内部语言为媒介)
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+游戏
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+象棋、桥牌等
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+证明数学定理
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+证明运算
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+图象处理
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+识别手写体
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+阅读各种字体的文章
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+听
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+理解口语
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+分出音节或词素
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+综合整个词或句子
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+理解自然语言
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+回答专业性问题
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+分析复杂句子
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+造句或写较长的段落
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+运用实际知识理解文章
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+分析意思含糊的关系
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+产生自然语言
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+抽象诗
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+任意的句于、段落或较长的文章
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+从知识的内部表达产生输出
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+思想性的创作成艺术创作
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+写诗
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+写小说
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+音乐创作
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+类比思维
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+几何形状
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+根据有关的领域作出某一数学领域的证明
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+学习
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 000
+调节参数
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 000
+形成概念
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+在人工智能研究开辟这些领域之前，人们无疑是把这些功能看成人类特有的智能。不管人们以后关于“真正思维”的概念发生什么变化，都改变不了这样的事实，人工智能的研究深化
+了我们对思维过程的认识，扩大了我们的思维功能。
+\end_layout
+
+\begin_layout Standard
+机器翻译初看起来是件简单的工作，只要查阅字典重排词序就可以了。实际上却要复杂得多。这种困难不仅仅是缺乏有关成语之类的知识，而且涉及到有关领域的思维模式以及在这种
+模式中运算的符号。运用有关领域的模型进行翻译的方案也由于含义的模糊性和多义性而很快搁浅了。因此这仍然是悬而未决的问题。
+\end_layout
+
+\begin_layout Standard
+计算机下棋也比人们最初的估计因难得多。已经弄清楚，人们在自己头脑中表示棋势并不是只要记住每个棋子在什么位置以及下棋的那些规则就可以了。它还涉及到对几个棋子之间关
+系的理解以及关于启发式的知识，而这些是和更高层次的块有关的。
+\end_layout
+
+\begin_layout Standard
+阿瑟·萨谬尔的下棋程序采用动态和静态两种方法来估价每一步的局势。静态方法是采用一个数学函数，有几个变量描述一种局势的特点，从而随时可以在实际上计算出来。而动态方
+法则是构造一棵“树”，即由每一步后可能走的步构成的树。萨谬尔的程序就是依据这些方法的估价来确定下棋的战略，决定走哪一步棋。这两种方法又是相互依存的，每一种方法的
+改进都使另一种方法受惠。
+\end_layout
+
+\begin_layout Standard
+那么能否用这种程序来下象棋呢？根据实践得出的结论是，用这种程序下象棋的困难要比人们最初的设想大得多。
+\end_layout
+
+\begin_layout Standard
+说到计算机创作音乐，究竟谁是真正的创作者呢？是计算机还是人？这是人的智能，计算机不过是创作的工具罢了。
+\end_layout
+
+\begin_layout Standard
+回顾人工智能的早期历史，人们最早作出的努力之一便是企图实现定理的机器证明。将问题进行归纳是其中一项重要的技术。也可以将整体的问题转化为局部的问题。然而这种方法并
+非总能保证成功的。如果我们把对问题的探索看成是在问题空间中逼近确定的目标，那么这就是一种抽象的概念性空间。当你认识到如果直接奔向目标会遇到抽象的“篱笆”时，你可
+以采取两种行动：(1)
+\begin_inset space \space{}
+\end_inset
+
+你以某种随机的方式离开目标，希望能够发现一道隐藏的“
+\shape italic
+门
+\shape default
+”；(2)
+\begin_inset space \space{}
+\end_inset
+
+试图去发现能够表示问题的新“空间”，在这新空间中在你和目标之间没有抽象的篱笆隔开。这虽然是一种理想的方法，但如何选择一个好的空间来表达问题却是一个非常复杂的问题
+。
+\end_layout
+
+\begin_layout Standard
+数学也是人工智能可以研究的一个有趣领域。每个数学家都有一种感觉，在数学的各种思想之间可以有某种度量。这就是说数学的成果构成了一张巨大的网，而两者之间往往有许多环
+节。有时数学中的两个定理很接近，给出其中一个很容易证明另一个，或者两者很相似，甚至是同构的。但这只是一种主观的感觉，能否有一种客观的标准呢？有时在不同分支中的两
+个定理似乎是不相干的，但是以后的进展改变了人们的这种看法。如果我们能够把对数学中紧密程度的感觉编制成程序，那么也许我们可以创造出一位原始的“人工数学家”来。
+\end_layout
+
+\begin_layout Standard
+人工智能有着广泛的应用，而它的核心问题就是如何表达知识。在人工智能研究的早期，人们假设知识是以一条一条句子贮存起来的，而要把知识以一条一条地移到程序中去的最好方
+法就是发展一种简单的方法把事实翻译成小小的被动的数据。每个事实是一条数据，当程序用到它时能够提取出来。象棋程序就是一个例子，它把棋势进行编码，然后有效地贮存在“
+记忆”中，需要时用子程序来调用。
+\end_layout
+
+\begin_layout Standard
+然而心理学家们早就发现，人类是以一种更为复杂的方式来贮存事实的。最近人工智能研究者又重新证实了这一点。他们现在面临着如何使知识“块化”的问题，和程序型知识与陈述
+型知识之间差异的问题。这些问题又与在反省中能够理解与不能理解的知识之间的差异有关。
+\end_layout
+
+\begin_layout Standard
+其实，假设所有的知识编码成被动的数据是与计算机设计最基本的事实相矛盾的。如何进行加法、减法、乘法等等运算并不是编码成数据贮存在记忆中的，而是表现在硬件的线路连接
+方式上。
+\end_layout
+
+\begin_layout Standard
+重要的是在原则上说明这一点。不管是以数据的方式还是以程序的方式来处理信息，只要我们不考虑处理的效率，那么用一种方式可以做到的，用另一种方式也能做到。但是理智似乎
+在告诉我们，一种方式比另一种方式更为优越。
+\end_layout
+
+\begin_layout Standard
+也许我们可以从自然界的生物获得一点启示。为什么在蛋白质中表现出来的遗传信息要在DNA中编码呢？答案是：将同样的信息以几种不同的形式用于不同的目的是非常有用的。将
+遗传信息以模具和数据的形式段存在DNA中有一个优越性就是很容易将两个个体的基因组合成一个新的基因型。如果信息只是贮存在蛋白质中是很难做到达一点的。把信息贮存在D
+NA中的另一个原因就是这样很容易转录或转译到蛋白质里。当它不需要时并不占据很多地方，一旦需要时就可以作为模具使用。
+\end_layout
+
+\begin_layout Standard
+如何以最好的方式进行知识的表达和运算，关于这种思维活动的研究有许多学派。其中很有影响的一派认为是用形式化的概念来表达，当然这种表达的基本运算也就采用形式化的演绎
+推理。
+\end_layout
+
+\begin_layout Standard
+但是人还有一种能力就是能对类似的情况进行比较，我们可以把这称为类比的认识。这在人的智力中占有重要的地位。
+\end_layout
+
+\begin_layout Standard
+当然，人类的记忆也是极为复杂的。有的知识经过编码后贮存在复杂的系统内，却可能没有一种程序，一种规则或者其他提取数据的方法可以使你把它提取出来。这时我们就会说它被
+遗忘了。因为提取它的方法暂时或者永远失效了。但是所谓遗忘，往往是在较高的层中失去了线索，并不意味着所有的信息都丧失了。这些信息完全可能在较低的层次上依然存在。
+\end_layout
+
+\begin_layout Standard
+我们再来看看计算机程序是怎样做到某种程度的“理解”。
+\end_layout
+
+\begin_layout Section
+人工设计的游戏
+\end_layout
+
+\begin_layout Standard
+托里·成诺格拉特(化名托尼·厄尔威格)在1968—70年设计了SHRDLU程序。当时他还是麻省理工学院的博士研究生，正在研究语言如何和理解相结合的人工智能问题。
+为了说明这种程序的功能，我们来看这样一段经历。
+\end_layout
+
+\begin_layout Standard
+有一天埃塔·奥茵偶然撞进了麻省理工学院的人工智能实验室。那里的计算机刚刚采用新设计的SHRDLU程序。于是在奥茵和计算机之间进行了一次有趣的对话。而程序的设计者
+托尼·厄尔威格博士则对他们的对话作了必要的注解。
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-209-1.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:34"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-209-2.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\size large
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:35"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+奥：拣起一块大的红方木块。(参阅图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:34"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：好。
+\end_layout
+
+\begin_layout Standard
+博：计算机执行命令就回答一声“好”。要执行命令就得把上面那块绿的移开。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：抓住那块锥体。
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：我不明白你指哪一个锥体。
+\end_layout
+
+\begin_layout Standard
+博：可以看到这里共有3个锥体，它不知道奥茵指的是哪一块。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：找出你拿着的那块更高的方木块，把它放进盒子里去。(参阅图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:35"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+博：计算机必须先弄懂“一块”和“它”是什么意思，然后才能去推论应该拿哪一块。
+\end_layout
+
+\begin_layout Standard
+机：我设想你所指的比我拿着那块更高的木块是指“它”。
+\end_layout
+
+\begin_layout Standard
+博：这里的“它”本来可以指挑出来的那块，也可以指拿着的那块。计算机通过试探的方法在两者之间进行选择。它必须把红木块放下，拣起更高的蓝木块。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：盒子里有什么？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：蓝锥体和蓝方木块。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：锥体底下是什么？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+博：计算机不再问前面提出过的问题，而设想你所指的就是刚才提到的那一块。
+\end_layout
+
+\begin_layout Standard
+机：盒子。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：在盒子外有多少方木块？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：4块。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：其中至少有一块比我刚才让你捡起来的那块窄吗？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+博：像“其中至少有一块”这类词组也应该是指木块。而记忆可以帮助计算机推出“刚才让你捡起的那块”指的是什么。注意这个词组的复杂结构。而SHRDLU的语义分析器所采
+用的办法是按照一般的方式去把握这种复杂性的。
+\end_layout
+
+\begin_layout Standard
+机：有，是那块红的。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：红方木块底下是什么？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：桌子。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：桌子能捡起木块吗？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+博：SHRDLU的语义学规则应该包括“捡起”的知识。只有动物才能做到达一点，而桌子并不是动物。
+\end_layout
+
+\begin_layout Standard
+机：不能。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：方木块能支撑锥体吗?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：能。
+\end_layout
+
+\begin_layout Standard
+博：SHRDLU的推理系统发现了这样的实例，因而知道这是可能的。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：锥体能支撑锥体吗？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：不知道。
+\end_layout
+
+\begin_layout Standard
+博：计算机找不到这样的实例，也无法在程序中找到，虽然它最终能够改进这种能力。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：把两个锥体叠起来。
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：我做不到。
+\end_layout
+
+\begin_layout Standard
+博：它作了尝试，但是失败了。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：那个蓝锥体是属于我的。
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：我明白了。
+\end_layout
+
+\begin_layout Standard
+博：所有关于颜色、形状、大小和位置的信，计算机原来都知道。但是“属于”这种性质原来是不知道的。现在才贮存进去。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：所有不是红色的方木块都属于我，但锥体下的东西不属于我。
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：我明白了。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：盒子属于我吗？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：不。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：盒子里有什么东西属于我吗？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：蓝色方木块和蓝色锥体。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：请你堆起两块红色方木块，另外再加上一个绿色的立方体或者一个锥体。
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：好的。
+\end_layout
+
+\begin_layout Standard
+博：这些逻辑连词“相”、“或”等，既要从语法上去把握又要从语义上去把握。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：把最小的锥体放到顶上去。
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+博：在它的词典里并没有“最小”这个词，但是可以通过小来理解。计算机在比较它们的大小之后完成了这一步。
+\end_layout
+
+\begin_layout Standard
+机：好的。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：在绿色立方体顶上有多少块？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：我不敢肯定“在项上”指的是什么。
+\end_layout
+
+\begin_layout Standard
+博：这和放到顶上不同，因为放到顶上只有一种可能性，否则都做不到。“在顶上”也许指的是正前方，也许指的是上面的任何地方。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：做一个尖塔。
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：我不懂“尖塔”这个词。
+\end_layout
+
+\begin_layout Standard
+博：当计算机碰到一个它还不懂的词时，立刻就中断了。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：两个绿色立方体和一个锥体组成一个“尖塔”。
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：我明白了。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：做一个。
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：好的。
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+奥：谢谢称。
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+机：欢迎你以后再来。
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+通过这段人——机的对话，我们可以清楚地看到，经过十多年的发展人工智能已经到了什么水平。机器变得多么聪明。它会运用已有的知识进行推理，也会接受新的概念，学习新的知
+识。
+\end_layout
+
+\begin_layout Section
+概念框架与模式识别
+\end_layout
+
+\begin_layout Standard
+人们的思维中常常有稍稍改变某种条件的倾向，并设想这种变动会导致的后果。
+\end_layout
+
+\begin_layout Standard
+如果我们借用数学中的术语：常量、参量和变量，就可以用来描述稳定性的不同层次。一个事件可以看成是发生在某个关系的网络中。最底层的是相互关系最深的方面，有时是完全不
+能变的。例如，我们中的大多数人从未想到过要改变我们世界的三维空间结构。还有一些层次是暂时建立起来的，并不是永久性的。它们固定了某些条件。我们不妨称之为基本假设。
+这是我们思维的基础。虽然我们知道这是可以改变的，但是一般来讲，我们宁可把它们看成是不变的。这些我们仍然可以称之为常量。例如一场球赛的规则就是这类常量。还有一些“
+参量”可以认为更容易变化，但是暂时让它们保持不变。对于一场球赛来讲，参量包括天气、竞赛的球队等等。参量的层次可能有好几层。最后则是最容易变化的变量。
+\end_layout
+
+\begin_layout Standard
+在人工智能中要用到框架的概念。框架里面还套有子框架。这样就可以按照你所需要的精细程度选择合适的框架。这种套在一起的框架结构就像是一组关于美国公路的地图册。最上面
+是全国的地图，里面则是分州的地图。如果你要更详细的，甚至还有某些较大城市的市区地图。你还可以设想任意精细的地图册，乃至于一个街道、一幢楼房、一间屋子的平面图。也
+就是说，像是通过具有焦距可变镜头的望远镜来观察，其中每个镜头都有各自的用处。每一个框架又有自己的可变层次。因此，当我们把一个框架塞到另一个框架里去时，就有可能产
+生冲突。作为例子我们来看看所谓的“蓬加特问题”。
+\end_layout
+
+\begin_layout Standard
+“蓬加特问题”就是模式识别问题。解决这种问题的程序可以分为几步，它们逐渐将原始的数据变成描述。最初的几步是固定的，以后的几步就逐渐变得灵活了。最后一步则具有试验
+的性质了。
+\end_layout
+
+\begin_layout Standard
+对原始的数据进行预处理就意味着测出它的一些突出性质。而这些性质的名称就构成了这一问题的“最小词汇表”。主要性质词汇表的典型术语如下：
+\end_layout
+
+\begin_layout Standard
+线段、曲线、水平、垂直、黑、白、大、小、尖、圆……
+\end_layout
+
+\begin_layout Standard
+而在预加工的第二阶段就使用了有关基本形状的知识，这种术语有：
+\end_layout
+
+\begin_layout Standard
+三角形、圆、正方形、锯齿形、隆起状、角、顶点、歧点、箭头……
+\end_layout
+
+\begin_layout Standard
+试验性的描述则可以用这样一些术语：
+\end_layout
+
+\begin_layout Standard
+在上面、在下面、在右面、在左面，在里面、在外面、接近于、远离、平行于、垂直于、在一条线上、分散的、平均分布、不规则分布的等等。
+\end_layout
+
+\begin_layout Standard
+值得指出的是，这种描述虽然可以使一个人识别某种图形，但是并不能使他将原因重构出来。这有点像音乐的风格。你可以确定无误地认出莫扎特的作品，但是却无法写出任何东西可
+以欺骗别人，使人认为这是莫扎特的作品。
+\end_layout
+
+\begin_layout Standard
+有一种很好的策略就是尝试描述彼此在结构上的相似性。从某种意义上讲，这是有可能的。这里有两点很重要。第一是关于“描述图式”的思想，或者说是图样；另外一点就是关于“
+同样性检验器”的思想。
+\end_layout
+
+\begin_layout Standard
+检验同样性可以在一个描述层次中进行，也可以同时在多种描述的层次中进行。而描述图式或图样最重要的是选择一种方法，将有关的描述分解成各部分，使它们能反映比所有图中的
+共同性。
+\end_layout
+
+\begin_layout Standard
+要解决“蓬加特”问题还需要概念的网络，在这样的网络中我们可以看到，
+\end_layout
+
+\begin_layout Standard
+“高”和“低”是相反的。
+\end_layout
+
+\begin_layout Standard
+“上”和“下”是相反的。
+\end_layout
+
+\begin_layout Standard
+“高”和“上”是类似的。
+\end_layout
+
+\begin_layout Standard
+“低”和“下”是类似的。
+\end_layout
+
+\begin_layout Standard
+“左—右”的差别类似于“高—低”的差别。
+\end_layout
+
+\begin_layout Standard
+“相反”与“类似”是相反的。
+\end_layout
+
+\begin_layout Standard
+此外我们还可以看到，
+\end_layout
+
+\begin_layout Standard
+正方形是多边形。
+\end_layout
+
+\begin_layout Standard
+多边形是闭曲线。
+\end_layout
+
+\begin_layout Standard
+闭曲线有内部和外部。
+\end_layout
+
+\begin_layout Standard
+“内部”与“外部”是相反的。
+\end_layout
+
+\begin_layout Standard
+概念网络的一个主要作用就是使最初的一些错误概念能逐步得到改进。
+\end_layout
+
+\begin_layout Standard
+在识别过程中，另一个重要的部分就是抽象的层次与元描述。这就是说存在着比几何描述层次更高的抽象。这就是关于描述的描述。
+\end_layout
+
+\begin_layout Standard
+现在让我们来考虑另一个问题。究竟怎样去掉一部分信息呢？这里涉及到两个概念，我称之为“聚焦”和“滤波”。所谓“聚焦”就是集中描述图中的某些部分而把其他部分抛弃掉。
+所谓“滤波”是采用某种特定的观察方法看待图中的内容，而置其他方面不顾。这样它们就起到互补的作用，聚焦与观察对象有关，而滤波则和概念有关。
+\end_layout
+
+\begin_layout Standard
+为了识别图像就需要有概念网络。概念网络则和符号系统有关。这就涉及到符号的创造、操作和比较的问题。
+\end_layout
+
+\begin_layout Standard
+说到创造就不是一种机械的话动。有一种普遍的观念认为，随意性是创造的必要组成部分。事实上，偶然性确实是思维固有的特征。
+\end_layout
+
+\begin_layout Standard
+从对“蓬加特”问题的研究，我们可以看到，人类通过遗传获得的对于模式的难以捉摸的理解包括表达知识的所有机制，如交错的相互关系，概念框架、概念的映射、可以变动的描述
+和元描述以及它们之间的相互作用，符号的融合和裂解、多重的表达、有欠缺的预测等等。
+\end_layout
+
+\begin_layout Standard
+总之，人类的智能是如此缺乏规则。许多人工智能的专家风趣地说，他们自己也不明白当初怎么就糊里糊涂地闯到这个领域里来了。人工智能确实是一个大大有待于进一步开发的领域
+。
+\end_layout
+
+\end_body
+\end_document
