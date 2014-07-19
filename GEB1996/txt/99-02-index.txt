@@ -1,0 +1,553 @@
+索    引
+
+对话中阿基里斯和乌龟的出现没有编进本索引，但是收入了出现较少的角色。读者最好查阅图70以便相互参照。本索引中的页码均指原书页码（在本书中表示成边码）o
+索引的中文部分是按照条目的汉语拼音顺序排列的，条目下属的子条目是按该子条目中出现的第一个实词的汉语拼音顺序排列的。为了方便读者，绝大多数中文条目后都注了英文原文。凡是加“*’’号的词都是译者在“移译”中引入的，它们不是原文的直接翻译。
+英文版中与禅宗有关的入名均译自日文。
+阿炎尔[Abel．Nie/s Henrik]．404阿尔法螺旋[a/pha helix]，521,525阿基里斯CAchilles]：其不可达的神经原．328, 686;和答案模式，475*和递归，128-31，14 9 I和果园类比，427;其画像，42．其后脚跟，484*和卡罗尔悖论．46,170,181，193;其来历，28,29*和《螃蟹卡农》．204，666—67;被螃蟹迷惑．560*被提到，84，272，525，573．669*和问题简化，610-11 I其天真．406，408，424*作为小提琴．502*其英文名字的第一个字母．231, 507, 667；映射到蚁群中，318. 324;耐遗物神的想象，223阿基里斯性质rAchilles property]，396-
+98,415埃克勒斯，约翰[Eccles，John]．574
+1 0 1 4A艾弗里，奥斯瓦尔德[Avery．Oswald]．
+159,161艾皮曼尼蒂斯悖论[ Epimenidesparadox]．见说谎者悖论艾舍尔，毛里茨·柬奈利斯[ Escher．Maurits Cornelisl:和巴赫．201, 666-67；和不完全性，716-17；和禅宗．255-57；和副本，146-48；和怪圈，10-15，737；其绘画，见插图目录I和马格里特．480I和矛盾，97-99*和平面之别子立体．473-74，689;作为原动力．689-92, 710I其作品中的图形和衬底，67-68;论子脑．387艾舍尔化的可重复性[repeatability ofEscheriz,ation]：473- 74.689*另见二维之别于三维、哥德尔化爱因斯坦，阿尔伯特[Einsteirt，Albert]，100安德森，阿兰·罗斯[ Anderson, AlanRoss] ,197氨基酸[amino acidsl,518--25,533-34；印符遗传学中的．508，510-11~凹与凸》[Convex and Concave]（艾舍尔），105-9.348巴比奇，查尔斯[Babbage，Charles]，24-26,598,601,726-42巴比奇测验[Babbage test]，735-73巴赫，安娜·马达莱娜[Bach，AnnaMagdalena]，482巴赫，卡尔·菲剃普·埃玛努厄尔[Bach ,Carl  Philipp Emanuell,3,4 ,80巴赫，威廉·弗里德曼r Bach．WilhelmFriedcmar.n]，4,6巴赫，约翰·塞巴斯第安[Bach．JohannSebastian]：和艾舍尔，199，666-67,作为时话的灵感源泉，28，737;同费马混淆．331- 35,分懈之别于欣赏．680;福凯尔的评论．4,86,其即兴创作，3-7，96．719*．其间接自指，79-81，86;对其景仰．81;之别于卡奇．157,162-64，174 - 75 I在莱比锡．383,404*其平方．6791棚人工智能，27,677*其深度，7-8, 9-10，27-28，70- 71,677；其生与死．86;收集高脚杯，79 I和谢泼德音调．719}其音乐的递归性质，70-71}作为羽管键琴师，27 5，279，280,和转调，122- 23 ,130；作为作曲家．392,461，740-42；另见老巴赫巴赫，约和塞[Bach，Joh.and Seb．’．633．
+669拔对和尚[Bassui]．255白色的石G0025[white stony G0025]．
+626《白天与黑夜》[Day and Night-（艾舍尔）．252，255，667百丈禅师LHyakujoJ，254拜伦勋爵[Byron．Lord]．25B奥博林，列夫[Oborin．Lev]．1 62奥古斯都二世，萨克森的选帝侯，波兰国王[Augustus I,Elector of Saxony,King of Poland]，461奥伊斯特拉赫，大卫[Oistrakh．David]，
+1 62半对词[demi- doublets]，633-34 ,669半解释[semi-interpreta:ions-，189，196半球[hemispheres]．257，340-41芈形式系统[serniformal systenxs]，216 I另见几何学，欧几里德的邦加德[Bongard，M．]．646邦加德问题[Bongard problems]，646-62,664，669，674*其普遍性．661- 62棒球[baseball]，637-38胞嘧啶[cytosine]，见核苷酸保证有的终止[guaranteed termination]，
+41,396-98,399,403鲍耶，法卡斯[Bolyai．Farkas]，92鲍耶，雅诺斯[Bolyai，JAnos]，91-92贝多芬，路德维希·封[Beethoven，Lud-wig van]．6，163，634贝尔，亚历山大·格雷厄姆[ Bell，Alexander Graham]，296贝尔纳普，纽埃尔[Belnap．Nuel—，1 97备用轮胎[spare tire]，670背景假设[background assumptions]．644悖论[paradox]：禅宗的．249-55*其解决．1 1 6，196-97,245，另见无、堕界、跳比系统；由可错性产生可信性，564，人上智能的．19. 26-27，620，673．另见●新勒定理I上帝和石头．478；数学中的．17 - 24，580- 811无类型愿望的，115-116 l艺术中的，见艾舍尔、马格里特、卡奇；运动的，见芝诺悖论；自我意识的，389；另见矛盾、不一致性倍流畅的图形鼍，67-70，72，73-本句子竹[this sentence]．436, 495-98．
+4991 0 1 5本质不完全性  [essential  incomplete-nessl:阿基里斯的生日的．462-64．475-76，688*唱机的，见疙瘩化1人工智能的，见囊斯勒定理，实效表的．423-24l自噬过程的，493ITNT及相关系统的468-71，l另见哥德尔化、疙瘩化、艾舍尔化、不可程序化性等比喻[metaphor]．672笔误和计算机[misspelling and corr.put-
+ers]，297-98毕达哥拉斯[Pythagoras]．418,556-57编辑照排系统*．608编码[codesl:熟悉的和不熟悉的．82，158.267；和艺术，703-4‘；另见解码、哥德尔编码、遗传密码等编译的逆过程[reverse of compiling]．381编译程序[compiler:,]．292 -95,297,503编译语言[compiler languages]．292-95编织[knitting]．149-50《变形)[Metamorphosis]（艾舍尔）．14-15变元．TNT中的[variableS iri TNT]，206. 213-14；量化的，208，214．另见量词I自由的．207- 9,214交造革的包*，404-5标点[punctuation].268, 440, 510, 512,
+520,524-25标识技术[labeling technique]．487-88．540- 41表现型[phenotype]．见遗传型和表现型鳘-，1 06冰山[iceberg]．495-96,497冰箱[refrigerators]．见唱机，低保真的兵蚁[soldier ants]．318“并且气and]，17 7-80,181，1 86病毒[ viruses]．536-43*比作汉肯句子．
+542-43波拉尼，迈克尔[Polanyi，Michael]，574波斯特，艾米尔[Post．Emil]，33波义耳定律[Boyle's law]，308*另见气体和分子伯德，唐纳德[Byrd，Donald]．见斯马特伯里奥，卢西诺[Berio，Lucianc]．704博弈，人工智能程序所进行的[ games
+1 0 1 6played by AI programsl,601不存在[nonexistence]．254-55，698，725 l另见堕界不规则性，元不规则性等[irregularities．meta - irregularities,etc.],475-76木可产生的教[nonproducible numbers]，
+265不可程序化性[nonprogrammability]；创造性的，570-71，620，673*非理性的，575-77；哥德尔化的，472-76*灵魂的．574-75；情感和意愿的．677,684-86*跳出系统的．37-38，477-78，674-75*象棋世界冠军的，151-52，674,序数命名的．476I智能，的，26-27, 471-73，597-99，601j另见人之别于饥器、本质不完全性、疙瘩化、人工智能悖论、龟蟹之战、二维之别于三维等不可达性，低层相对于高层的[inacce8si-bility of lower levels to higher levelsl,686-92，706-10*程序中的，296，300-1，588，630, 679;大脑／心智中的．302．328- 29, 362-65, 619, 677,686-92,697,706-10.739*马姨qp的，330-31,630*另见软件和硬件、内省、层次冲突大可判定性[ undecidability]．17, 222．449,451-55．468；其原因，707-8不可预期但保证有的终止[unpredictable
+but guaranteed termination],400,425不可整除性[nondivisibility]．73-74不受干扰的层次[inviolate level]，686-92不完全性[incompleteneSs]：和艾舍尔．716-17 I和巴赫，86 l唱机的，见唱机，其固有的脆弱性；大脑的，585*定义，86 l扩展了的TNT的，465-71}卢卡斯的，477,实数表的，421-24，数学家名单的，4 22；《数学原理：}的．18,24,618-19I形式多事术的．18.86，101-2, 407，618-19 I自我知识的．696-98; TNT的．271-72，430, 450-514另见本质不完全性、山不完全性不一致性[inconsistency]：定义，94 l内部的，87，88，94-96*人的，197,697-98r与外部世界的，87-88, 95*乌龟的．177-80 I另见一致性、矛盾、∞不一致性、禅宗布尔，乔治[Boole，George]．20，404，6()C布尔佛教[Boolean Buddhism]，577布劳维，路伊岑[ Brouwer．Luitzen E．残缺不全的成语_ ,403,404藏头涛[acrostics],79,81,380操纵基因和操纵子[operators and oper-ons],544-45操作系统[operating  systems]．295-96,
+300-1,308槽bslots-,645,650-53,656-57,668侧膝体[lateral geniculate],343-44测不准原理：uncertainty principle]．见海森堡测不准原理测试之别于函数．BIooP和FIooP中的
+: tests  vs.  functions  in  BlooP  and
+FIooPl,413,418层[layers]：欺骗的，478,稳定性的．643-4 5；消息的．166-71,524 ,703-4层次[level8二：艾舍尔作品巾的，11-15．689-91,715-16*不同的之别子相同的．285,287，递归过程的．128-29*非现实昀．243,641;计算机语言的．290-99*粒子的，305;其模糊性，13-15, 546-48.715-16；思维法则的．26-27;无之图的．311-13, 328-29, 525-26；现实的，15．103-25,128-29,184-85,4 81,493, 640,725-26,737,739*新闻广播的，128;中间的，302-3,317,324,532,632层次冲突[level - conflicts!：对象语言和元语言间的．194，449-S01马姨中的．330,630;施德鲁中的．630*消息中的．164, 170, 699-704*心智／大脑中的．575-78层次混合，遗传学中的[level - mixing  in
+geneticsl,509-1 0.513-14,546-48层次混淆[level-confusion]：计算机系统中的．287,291,295,300-2,308*凯姆式自复制的，503;和蚂蚁，见蚂蚁之别于CJ．]．404布洛东，安德烈[Breton，Andr@‘]，700部分递归[partial recursivity]，430部分重叠的基因[overlapping genes]．
+524-25
+蚁群I命题演算中的．185，194*和心
+智／大脑．287,575-77 l艺术巾的，见二
+维之另|j下三维；和自我．709r和作者．
+3,608,720-26层次交锗，思想中的[level - crossing  inthought]．666,668层次转换，概念的亡conceptual Level -shifting]．见抽象的层次者车[tea],153-54, 231, 275, 322-23, 333,
+549,557,558,561查德威克，约翰EChadwick．John]，50“差点出现竹的情景[“almost" -
+situations],634-40,641-43,649差分机[differencc Engine]．25禅述*，186-90禅宗[Zen Buddhism]:阿基里斯教给乌龟的，231-45,和艾舍尔，255-58；和不存在．254-55，698*和不可判定性的奥秘．272;和不一致性，见禅宗对逻辑的态度，对词语的态度，246，248-49,251-54；对逻辑的态度，99，233-34. 249- 51，254;和计算机．625-26*介绍．246-59*和螃蟹的冰箱，406-71相跳出系统．233, 255, 479*和无方式，39, 98, 254*和音乐、美术，699，704-6 I和整体论之别于简化论．312-13；和芝诺，30,232*准禅宗，625-26*其祖师．30, 232, 248，252,259禅宗串技艺[Art of Zen Strings]．237．
+239-42,244,626禅宗代数[Zen Algebra]，577  ．缠结层[tangled level]，688缠结的层次结构[Tangled Hierarchie8l:定义．1 0；命题演算中的．194*似是而非的，691;乌龟推理的，177-80．;心智1 0 1 7的．691-92, 709-10, 719*遗传学的，532-34,546-48,688:艺术中的，704*印符遗传学的513, 688*1元数学的，458,532-34，自我修改的棋的，688产生规则[rules of production]．见推理规则长笛[flutesl, 3-5, 27. 528, 552-58, 720,
+726尝试性[ tentativityl, 646, 651, 654-56,
+672    ’常规科学[normal science l,660-61常量、参量、变量[constants ,parameters．\rariables], 643-44, 669《常识>[Com-mon Sense]（马格里特）．700-1常识和程序[common sen8c and pro-grams]，301赡娥鼍,110唱机[record players]：比作形式系统，84,85 l低保真的，77,85,101,406-7, 470;第∞号, 78, 468, 483-84*第￡o号，486,I第1，2．……号，76-77*其固有的脆弱性．75-78,102,424, 470, 483-86,536, 543, 584, 721．另见疙瘩化、龟置之战等I了不起的自组装唱机，见eo唱机；排斥异己的，487- 881吞龟的．483,487-88*作为信息揭示着，158-61,164$另见自动唱机唱片[record8]：粉碎唱机的．75-78, 83-
+85 ,271,406-7.,424,469,484 ,486,536,
+543, 5841作为迷宫，120-24；碎了的．
+161;太空里的．162-64,172,174-75；作
+为信息携带者．158,160-61,164 l有多
+个旋律的，154- 57；有缺陷的，102，增给
+螃蟹的《平均律钢琴曲集》的,275,‘278-
+80唱片和唱机，被比作细胞成分和细胞
+[records and record players,likened to
+cellular constituents  and  cells],83,
+158-64,167,175 ,536唱头族，螃蟹的自动唱机中的[family of
+record players in Crab's  jukeboxl,
+154-57趣缠结[supertangling]．6881 0 1 8超导Fsuperconductwityl,304-5超感官知觉[extrasensory perception,ESP] ,598-99,693-95迢前搜索树[look—ahead trecs],151,
+604-5.61]，712超现实主义[8uperrealism]，700超验主义！transcer7/dentalisml, 704超智能[superinte/ligence],679超自然效[supernatural numbetsl, 223,
+453-56,458-59,467超自然证明[supernatural  proofs], 454-
+55车内收音机[car radio] ,670- 71成分[parts]．303-5；另见简化论成熟分裂[mciosisl,665,672乘法rmultiplication], 54- 56, 64-65. 206,
+409,455,566,567程序[ programs]：由程序构造的，589,629-32,664*其递归结构．149-50*二阶的、三阶的等．476;翻译程序的，291-94；分析机的，25*高层次比较，380-81;其家族，503,546*蓝的、绿的、红的，见蓝程序、绿程序、红程序；确定表现型．532:确定酶功能，521-22*确定三级结构．521-22;生成定理的，4 71- 73, 578,615,  617-18 I乏别于数据．499, 513,531, 546--48, 616-17, 630，另见使用之别于谈论；之别于程序员．298, 306,734-37 l作为数据，293,692,下国际象棋的，见国际象棋程序I为序数命名的．476;自我复制的．498-504. 547；自我修改的，152,692;BIooP和FIooP中的．410-15, 424-26*另见计算机、计算机语言、人工智能程序等程序空间[program spacel,299程序目录(蓝、绿、红)[cat810gues of pro-
+grams( Blue ,Green,.red)] ,419,427- 28
+．  ．程序中的错误[errors in programsl,295,
+297-98,596程序中的注解[comments in programs],
+297持续音[organ point]，329-30“虫一虫竹字谜* ,62-63,669霞叠动词的现象* ,130-31黄新组织，各部分的[rearrangement ofpartsl,78,333-35,484*另见自组装重正化[renormalization], 142-46, 258,
+304-5,309霞组[recombination],665- 69抽彩[lottery],639-40抽出[pulling - Out]（机制）．见解码（机制）抽屉柜，嵌套的[ nested chests ofdrawersl,644-45抽象的层次[levels of abstraction],651-
+53,656-57,660,666-72,674出入口[ports of access-.,670-71初始形状，禅宗串技艺的[starting posi-
+tions  in Art of Zen stringsl, 339-40,
+241处理机[processor8]（计算机）．504, 513,547;另见中心处理器触发器[triggers]：公案．246;和框架消息．162;和外在消息，166,1.69,170-71,174, 501;和休眠的符号．281, 383,384；和音牙；,162-53, 281, 383, 583*和自劫唱机．160-61, 170-71,174, 500*DNA,160-61触发模式，符号的[triggering patterns ofsymbols]：名词之别于动词．361}其中的随机性，673;和物理定律间的同构．362;由消息传达．350,3711和心智间的同构．369,376;旋律的．364;依赖于达·芬奇，列奥那多-da Vinci,Leonardo],
+64 1达利，萨尔瓦多[Dali,Salvador]．700答案模式[answer - schemas]．462-64,
+475,688手J．印饥，计算机的[printer of compu:erl,
+301,307夫肠杆菌rE* coli bacteriuml,176,537-41《人地幻景第四号>[Imaginary Landscapeno. 4]（卡奇）．163-64,699D无意义的低层，569;作为意义的关键．320,327,350,360,385,609传送消息的语占[message - passing  lan-guagesl,662- 63串[strands]（遗传学）：印符遗传学中的．508-13，514；DNA和RNA的，514-18串[strings]：定义．33-34 l折叠，234-44,
+427串处理规则[String  Manipulation  Ru-
+les] ,240-42包造性的机械化[mechanizability of cre-ativity:, 25. 26, 571,620,673;另见独创性、人工智能悖论、不可程序化性等词首字组合（或把词嵌在句子中）[acronyms], 7,28, 113 ,174,176, 279,719,727,738,740,742词语[words：：禅宗的态度，246,249,25I-54；作为程序．629-30*逆序书写的．75-81,498,549,738,740；和思维、形式规则，见主要论题《辞>[Verbum]（艾舍尔），257, 731-32磁场和晶体[magnetic field and crylstal]
+14 0-43．催化剂[catalystsl,528-29存储器，计算机的[ memory incomputers],288-89,546,616存储器倾卸Fmemory dump-.,381存在最词[existential quantificrs]，见量词大电脑-Giant Electronic Brains]．25，601大雕鲁．119-21,123-25大号，燃烧的[flaming tuba]，488-89,492大脑Lbrains]：和操作系统，296*和规则．26-27，675．另见大脑和形式系统；可程序化性，302;和框架与外在消息．170-7 1，；作为数学对象．559;和说谎者悖i仑．584-85；和思维．337-65；相巨映射．341-42, 345-46, 369-82*之别子心智．576;和形式系统．337-38，559-62，569-1 0 1 97 9，584-85，67 6，另见丘奇一图灵论题、形式系统之别于非形式系统、大脑和规则；和蚁群，315-16，31 8，324-25．350，358-59*和音乐．163*其子器官．340-41}作为ATN群，359*另见心智、臂能等大脑中的模块[modules in brain二，见符号火卫，汉斯·西奥多[ David．HansTheodore]，3，28，719代词所指[pronoun reference]．587,591．
+5 92代入关系[substitution relationship]，
+443-45,497代入记号定义，TNT中的[substitutionnotation in TNT,definedl,224带有个人想象的中国版图_，见自想国玳瑁*，237,243-44戴懋鲁．237，239，244戴斯，约翰·马丁·察哈里亚斯[Dase．Johann Martin 2achariasl,567单词卡片[flashcard]，见tRNA单元，印符遗传学中的-units in Typoge-
+netics]，505,509蛋[eggs]，192,383蛋白质[proteins]，517-18，544-4S I怍为程序、数据、解释器、处理器，547;作为过程性知识．616-17；另见酶道悟[Doko]．250,698德·蔡里科，乔尔乔[De Chirico．Giorgio]，700德·摩嘏，奥古斯都[De Morgen．Augus-
+tus]，20,404，600德雷福斯，休伯特[Dreyfus．Hubert]．574德山LTokusan]，189—90德沃夏克，安东尼[ Dvorak，Antonin—．
+1 63灯、元灯等等[lamp，meta - lamp．etc．]．
+108-13. 216低层次[lower levelsl，见基质，精神的狄更斯，查尔斯[Dickens．Charles]．326．
+328《的确该赞美螃蟹》[ Magnificrab．
+Indeed]．560,574，581
+1 020笛卡尔，雷内LDescartes,Ren@ - l,263,
+340,677地球一月亮一太阳系统[Earth - Moon—Sun system],353-54地球沙文主义[earth chauvinisml,171-
+72地址，存储器中的[ addresses inmemory],289,290递归[recursion]；避免悖论．127；避免无穷回归．127,134-35，和不町预期性，1 52；定义，127-29, 131-35 I和幻想规则．184-85 I和基本粒子．142-46*间接的，134,137；弈棋程序中的，15m51,604-5；音乐中的，121-23,129-30*语言中的，130- 34；另见嵌套、不同层次的之别于相同的层次、层次混淆等递归的词首字组合[ rccursive
+acronyms] ,113 ,133 ,134-35 ,738, 742递归公式，思维的[recursive formul8 0fthinking] ,560递归函数[rccursive functionsl,136-40*152, 430, 455 I另见一般递归、原始递归、BIooP.FIooP递归集[recur8ive sets],72-74,152,191递归结构，观念的[recursive structure of
+ideasl, 386-87, 560, 621, 644-45, 650,
+656-57,669,671-72递归可枚举集[recursive enumerable
+sets],72-74,152,191,265,269递归迁移网[Recursivc Transition Net-
+worksl,131-34  ,136 ,145 ,150. 620- 21速归图[recursivc graphsl,138-43递归图案_recursive diagrams],135-37递归图形[recursive figures], 67-70, 72,
+73递归相关的标号系统[recursively related
+notation-systems],475递归序歹0 [recursive  sequences]，135-38,
+1 39第五公设-fiftb postulate]（欧几里德），
+90-93,222,451-52点[points]【几何学的），19-20,90,92-93,
+100.207,222,452,456电话[telephone  calls].61-63, 127-28,161*古怪的，431,437电话机[telephcnes]，302电话系统[telephone systems],296,663电视[television],28s, 348, 478,484 ,487-
+93,634-40电台广播[radio broadcastsl,128,163,
+169,353,478,545,720电子[electronsl,140-46,258,303-5调，音乐的[musical keysl,10, 299,466,501;另见转调顶[ceilings]．见循环，有界的、BIooP定理[theorems]：之别于定理．35,193;定义．35 I之别干非定理，39-41, 66-67,70, 71-73, 190-91, 416-17, 560, 579-80；之别于规则．43-45,193 94, 50910;其系统化的枚举，39-40, 48, 471-73, 578, 615, 617-18；之别于真理，4 954, 70-71, 86-102, 190-97, 213, 221-23, 228-30．另见一致性、完全性、哥德尔定理及其推论定瑾金字塔[pyramidal family of theo-rems],221-25,450-53定理敬[theorem - numbers]．264-67,
+269-70,440-43,451定理证明，机械的[mech8nical theorem -
+provingl,602,609,617-19定位，大脑和程序中的知识的[localiza-
+tion of knowledge,in brains and pro-
+gram8],342,348,365,617-18丢香图，亚历山大里亚的[Dioph8ritus of
+Alexandrial,275丢番图方程[ Diophantine  equations]．
+279,459- 60丢饭量* ,333洞山[Tozanl,190,255,257,479洞眼* ,260-261,436独创性和机器[originality and machines],
+25-26.606-9E度量，内心的[mental  metric]，613, 614；另见概念邻接短杠串[hyphen-stringsl,47*64-65,66堆栈，下推的[pushdown stacksl,127-
+35.136,610-11对话[dialogiies]【正文中的）．191- 92．
+193. 408-9.4 31, 560, 565,595-96, 598,
+5 99对话[ Dialogues?（各章前的）：其起源．28,665-69*多￡自指性，84-85,199,204，502-3,667,738-39《对角藏头诗》菁．424对角线法，康托尔的FCantor's diagonalmethods],418-24, 426, 427-29, 438,446,469《对实>.Contrafactus],641,64 3,569对实参数[counterfactual parameters],
+639对实情景[counterfactuals], 634-40, 641-
+44对位[countpoint]，见卡农、赋格、巴赫等《对位藏头诗)[Contracrostipunctus]．82-
+85, 267, 270-71, 406-7, 424, 467-70,
+483-84 ,534-37,608,721对象语言[object language],22,184,248对用户透明[transparency to user'1,629,
+632顿悟[enlightenment] ,232,237 ,243,246,
+251,254-55,479,567爹重表示[ multiple  representations]．
+616-18,670-71,674多重分又现象．TNT的[multifurcationof TNTl,467多核糖体[polyribosomes],526-28多级瀑布[cascades],224,529,626,664多肽[polypeptides],523,525,528堕界* ,116,243,255,725;其层次，243堕胎[abortion] ,176儿童故事和人工智能[children's stories    and AI]．675-761 02 1二百元组[bicentuplets-.，540《二部创意曲》[Two - Part  Invention]，28,43-45,684-86‘另见卡罗尔悖论、刘易斯·卡罗尔二级结构[secondary structure]，521,525二维之别于三维[2-D vs．3- Dl:艾舍尔作品中的，57-58，105-6, 125, 473-法困组曲第五号，基格[French Suite no.5,Gigue]（巴赫），1 30法院系统[court system],692,693法则I、法则I[．doGm8 I，．doGma l：．
+532-33幡鼍，见旗翻译[translation]：大脑的不同层次间的．349, 381-84, 709；从汉语向TNT的，209-13, 215, 417;机械化的．380,601, 603*计算机语言间的，292-95,297-98, 306, 380-81, 547, 632*从信使向串的．234-36‘印符遗传学中的．509-10. 512-13*从乐谱向乐音的，83I“炸脖熨”的，372-73,379，忠实的层次，379-80 I自然语言间的，其困难，372~73,379-80 I《罪与罚》的, 379-80 I扶rnR-NA向蛋白质的．485, 518-19, 522-25,527-28,531-36,538,545,546-48；从N向元TNT的,533*TNT和元TNT闻的，267-72,441--46,709反常二anomaliesl,44,96,208,723反对入T智能的观点[anti - Al
+attitudes],27,470-72,628反馈和前馈Lfeedback ancl feedforwardl,
+54 4 4 5反密码子[anticodonsl,522-24反向链接[backwards chaining],618《反向增值的卡农>[Canon per augmenta-
+iionem et contrario motu]（巴赫），见
+《树懒卡农》反映[rnirroring]．见知识的表示、同构返flIJ地ff= [return addresses],128,133范式转换Lparadigm sbiftsl,560-611 0 2 2F74，5 24，689-90，698，714-16 l和电视屏幕，488-93，737}马格里特作品中的，480-81, 493-94，700-1，705-6;和三字件，见三字件二元论[dualism]．251-55，698-99*另见主体之别于客体二元组[duplets]（印符遗传学）．51 0，5 1 2仿真~emulation],295飞机一千草垛的故事[airplane -haystack story],675飞去来器[boomerang]，75,84非定理[nontheorems]，见定理之别于非定理非定理表：table of nontheorems],66非理性之别于理性，大脑／心智中的[irra-tiona Lity  Vs.  rationality  in  b:.ain/mindl,575- 78非欧几何-Noneuclid] ,91-92非平衡态热力学[noneqoilibrium the:mo-dynamics]．693非形式系统[in{ormal systems]，见形式系统之别于非形式系统非周期性晶体结构[aperiodic crystals]．
+167-69,174-76非自描述的形容词[non - sel{ - descrip-tive adjectives]，见非自谓的形容词非自谓的形容词[ heterological
+adjectives],20-21,22非自组装病毒[ non - self—assembling
+viruses],542-43萤蚂，蚁翰·塞巴斯蚁安静,332-35《蜚蚂的最后赋格》鲁，335肥皂[soap cake],497腓德烈大帝，普鲁上国王[Frederick the
+Great, King of  Prussial, 3-8, 27, 394,
+729,740斐波那契（比萨的列奥那多）[Fibonacci
+(I.eonardo of Pisa)].136,246斐波那契数列[Fibonacci sequencel,1 36,
+138,139,152,173-74,265,416废话[paddingl,402-3狒犸，溺爱儿·的★,333-34费马，彼埃尔·德[Fermat,Pierrc del,275-77,278*同巴赫混淆，331-35费马的■后定理[Fermat's Last Theo-rem]，275-79, 332, 416*其反例．277,279,460*逆转的，333-34 l戏拟的，335,551~其证明．277,279,46C费因曼图案[Feynman diagram8] ,144-46分又现象[bifurcations],91-94,1J0,456-
+59,467,579分化，细胞的[cellular differentiationl,
+543-46分离[splitting - offl,353-54, 664.另见类之别于例分离规则[rule of detachmentl,185-86,
+577分时[timesharingl,295,354-55 ,387, 730分析机[Analytical  Engine]．215. 598,727分子生物学[molecular biology],504.
+514-48风格[style],148,371,379佛性[Buddha - nature], 233,234,238-44杏定[negationl,70,71 ,183,191- 92,210-
+11,214,545弗兰克，菲利普[Frank,Philippl,642弗雷格，高特洛布[Frege,Gottloto]．20伏尔泰，弗朗索瓦·马利·阿鲁埃·德
+rVoltare,Fr8ncois Marie Arouet del,3u服一号串- ,446-48,466,468,541,580服了*．’448浮现的现象[emergent phenomena]708-
+9,714符号[symbols]：作为笔触．351*其恒定核心，349*其部分重叠，348-49, 356-57;不通向基质，见不可达性；独创性的需要，609*之间的分界线．354-57, 359-60 I其概念尺度，350- 51,其过分拥挤，358:和汇集，347;激活方式，349-57.361~昆虫的，360-61i连带激活，351.354-56, 359, 361, 365, 584-85,664-65,675*与澄漪比较，356-57;普遍的，375-76;潜在的．355-56, 382-84 l其人工智能实现．662-63，665*之别于神经原，348, 356-57, 361I写神经原比较，350，371●其神经原基质．356-57, 570I和消息交换，350，371,662-63*之别于信号，325-27，349-50*其形式，348，356-57．361*休眠的，327, 349, 355-56，384,蚁群中的，324-28，330*主动的之别于被动的，324-25，327-28，337-38;和自由意志，712-14符号层描述，对大脑的[symbol - leveldescription Df brainl,349-51符号的表现[manifestations  of symbols]．
+35 1符号之别于对象[symbol vs．object]．699-706*另见主体之别予客体、使用之别于谈论等福凯尔，约翰·尼古拉[ Forkel．JohannNikolaus]，4，86福莱，加布里埃尔[Faurh．Gabriel]，1 63负空．间[ negative  space]，62-63, 66-68，72 l另见图形和衬底_妇见”之别于“看见哆'*．妇见男人之别于女人复合词[compound words]．665复合句[ compound  sentences]（TNT申的），21 4复数[plurals]．354复印机[photocopy machines]．499复杂性的守僵性[con8ervation of com-
+plexity1，60,195复制[copy]:和病毒，542-43；和电视．489;和DNA，529-31}另见副本复制状态[Copy mode](印符遗传学)．
+506-8副本[copies]：其性质．146-49*编码中的．517，527-28；不精确的，500-3，546*和卡农，8-9，527-28*形象上嵌套的，138-4 0 l与原件互补的，70，501，506-7,517．另见转位；和自复制，500-4，l512-13；另见同一性、同构、复制副总统[Vice President]，670赋格二fugues]，335，634, 730，736*和对话．28}《赋格的艺术》中的，79-81, 86,其中的技巧．314，322-23, 329-30，737-1 02 340*其性质．9,281- 84，737 l《音乐的奉献：》中的．4·9概念的诸侧面[conceptual  dimensions]．
+670-71概念骨架[conceptual  skeletons：，381,
+514,666-72,674概念邻接[conceptual nearness ],371-73,
+614 ,651- 56概念网络[concept networkl,651-54;另见语义网络概念映射[conceptual mappin.g],668-72概述串[summarizing  string]，221-22,
+450- 51甘岑，杰哈德[Gentzen, Gerhard],195橄榄球二football]．303, 353,634-40,643,
+644,645,672钢琴[p18nos] ,3-4, 309 ,305, 633-34, 700,．726*逆向的，681-83高保真度之别于低保真度[ high．fidelity vs.low-fidelity]. 77, 85, 1C1.406-7, 470, 697-98高层上的解释力[explanatory power of
+high levcl],321,326,707-10高层所具宥的性质[intrinsically high-
+Level properties],707-9高夫曼，欧文[Goffman,Erving],478高脚杯[goblet] ,79,81,83-85 ,267高斯，卡尔·弗里德里希[Gauss, Karl
+Friedrich],92,100“疙瘩定理一警,486,536“疙瘩化一的可重复性- ,76-78,424,467-70,483-86*另见哥德尔化、本质不完全性、答案模式哥德巴赫，克里斯蒂安[Goldbach,Chris-
+tian],394,395哥德巴赫变奏[Goldbach Variation],
+395-98,400,426,441哥德巴赫猜想[Goldbach Conjecture],394-96,400,557-58,615*戏板的，551哥德巴赫性质[Goldbach propertyl,395-
+1 02 4《赋格的艺术)[Art of the Fuguel(巴
+赫)，79-81，86，671G97 ,400,414 ,418哥德堡，约翰·西奥菲卢斯[Goldberg,Johann Theophilusl,391-92哥德堡变奏曲[Goldbcrg  Variations]<巴赫），392-93,395哥德尔，库特[Godel, Kurtl, 15-19, 24,
+98,738,740,742哥德尔编码[Godel  Codel,18, 268, 533-
+35哥德尔的建构，图示的[Godel's construc-iion,illustratedl,84    :哥德尔的论文[Godel's  article],17, 24,
+4 38哥0尔第二定理[GodeVs Second Theo-rem].230,449-50,696哥德尔定理[Godel's Theoreml:陈述．17 ,101, 272 l和丢番图方程．459-60*和《对位藏头诗》，见《对位藏头诗>，分子生物学中的对应物，534,536-371简短提及．72, 74, 78, 100, 486；和人工智能．388-90, 471-77, 706-7, 714*其推论，450-60, 469-76*其证明，18, 265-72 ,438-49*和Lisp ,738-39哥■尔定理和人类内省[G6del's Theo-
+rems and human introspectionl, 45Q,
+696-98哥德尔方法的起因Lunderlying cause8 0fGodel's   method].204,407,46), 468-71爵德尔化[Godclization]．270*其可程序化性．471-73*其可重复性，424, 46576, 688;另见艾舍尔化、疙瘩化、跳出系统哥德尔化算予[Godelizing operatorl,
+472-73,475-76,543哥德尔论点的概括[Godel's argument.summarized] ,18,272,448哥德尔密码子[Godel codons],268,425,
+533-35哥德尔配敬LGodel - numberingl, 18,438, 738-39; FIooP程序的，425-26,502; TNT的．268-70,579, WJU系统的．261-64哥德尔同钩[Godel 180morphism], 261-71,439,442-46,738-39*比作在大脑中反映世界．502,570哥德尔问题[Godel queslions]（声卡斯）．
+389,390歌，重组的亡recombinant songs],607-8歌，自复制的[self-rcproducing song1500格鲁特，阿德里安·德[Groot．Adriaan
+de],286格瑞林悖论[Grelling's  paradoxl, 20- 21,
+22隔板，精神的[mental partition81,671隔离[sealing-off],305,309,350,534嗝[hiccupsl,116, 254, 255, 673, 725-26,
+7 36]：蚁[worker antsl,318工作在系统内[working inside thesystem]．见机方式公案[koansl, 30, 189-ql, 233-45, 246-59.625-26,讦算机产生的．625-261正宗的之别于冒牌的．234-35, 239, 242,244,427,625 -26公理[axiomr,]：定义，35；扩展了的TNT的．451-52. 466-68；命题演算中没有．183;修改了的pq系统的．87rP系统的．73-74. pq系统的．47; TNT的．216}tq系统的，65*WJU系统的，33.35；310系统的，263公理模式[axiom  schemata]．47,48, 65,
+87,468,472-73,543公理系统[8xiomatic systems]．见形式系统公式[formula]：闭的，见句子；开的，207-
+8拱，白蚁修建的[arch of  termites]．358~
+59共价键[covalent bondsj,514共用编码[shared codel,387拘和骨头问题[dog-and-bonc problcrnl，
+611-13狗[dogsl,233,234,383.611-12,679骨架[skeletons]（递归）．14 0—41r另见基底怪圈[Strange Loops]:艾舍尔作品中的．10-15，714-17;和巴比奇与图炅，737}巴赫作品中的，1 0，719；必然存在于其中的惊讶．691；定义．1 0 l与反馈对比，545，691;分子生物学中的，231,532—34，54 5，546-48*哥德尔发现的．15-17，24，；消除．21一231《教学原理》中的．24；心智中的．27. 691-921和意识，709-10 I语言中的．22，691;政府中的．692-93*中心法则映射中的．534,TNT中的，见TNT的内省；另见缠结的层次结构、层次混合、层次冲突、层次混淆等怪物处理符号的．[genie，symbol~manip-
+ulating_．．39-40,48怪物、元怪物等[Genie，Meta-Genie．
+etc.],109-16. 216- 17. 223 ,224 ,610；乡§
+见神怪观念革命_conceptual revolutions]．660-
+61,673光子(_phot ons]．142-46,258广告[advertisements]．478龟蟹之战f TC-battles]．75-78，406-7．
+424 ,467- 70,478,483- 88,536-41, 721规则二rules]：算术的之别于印符的，262-64．269,压进串里的，见定理之别于规则；和智能，26-27，509*另见大脑和形式系统国际象棋[chessl:大师，286-87 I绕屋跑．595*自我修改的．687-88 I和组块，285-87,604国际象棋程序[chess  programSj：和巴比奇，25,729-31，736*不做超前搜索的，604;其递归结构，150-52；各种类型的．601}其困难．151-52,605*其力量和弱点，151-52. 285-87,573,603-4.611 I和螃蟹．721，729-31*和跳出系统，37- 38，678；和图灵，595, 506，736.和选择．711-12；其中的知识表示．61 81 02 5国王主题[Royal Theme]，4-10,96, 719．739-40果园类比[orchard analogy]．见信息距表层的距离过程[procedures].132- 34, 150-51,292,H哈代，高特弗雷·哈罗德[ Hardy, God-frey Harold],562-66海客[HACKERl,664海森堡测不准原理[Heisenberg uncer-tainty  principle] ,455,698海威特，卡尔[Hewitt ,Carl]，662涵义和文化[connotations and culture],
+372-73,379-80汉肯，列昂[Henken,Leonl,541汉肯定理[Henkin's Theorem],488汉肯句子[Henkin sentences], 541-53,709*显式的和隐式的，542-43汉谟拉比[Haminurabi] ,169豪华名词[FANCE NOUNl,132-34豪斯曼，艾利亚斯·高特利伯[ Hauss-
+mann,Elias Gottlieb],2赤5晕* ,103-4,115,128-29,130合数[composite numbers],64,65- 66,73 l男见素数和声紧张[harmonic tension],J22-23*另见紧张和解决和声小迷宫C Little  HarmonicLabyrinth]．（大礁的），119-25《和声小迷宫）[ Little HarmonicLabyrinth](巴赫)，121-23 ,129,130《和声小迷宫：}[ Little HarmonicLabyrinth]（对话）,127,128-30,149,216. 610-11和弦和类比[chords and analogies],673-
+74核[nuclei]：细胞的，514，517. 518；原子的，303-4核苷酸[nucleotides], 514-171 519, 522-24, 530, 540- 411其英文的词首字母．231,517,6661 02 6410-15，418-20, 424-28；善萋链，413-14．415 ,418过滤器[filters]：用于抽象的．286，407-9．648, 6157-60，663，673,用于库的，41 8．427核糖核酸Lribonucleic acid],见mRNA.rRNA.tRNA核糖体[ ribosomes]：和分子卡农，527-28l其结构．528*其起源，f)28, 548;作为人工智能模型，662,663,l作为遗传密码的翻译者，485, 518-19, 522-25,5471印符遗传学中的，512 I作为自组装的物体，485-86, 542;作为DNA自复制的必要条件，530核糖体RNA[ribosorrtal RNAl,见rRNA红程序[Red Programsl,427-28红对角[Reddiagl,428,429红色，主观的和客观的[subjective and
+objective redness],710宏观效果，由微观原因引起的[ macro-
+scopic    effects    frommicroscopic
+causesl,307-8侯世达[Hofstadter, Douglas R.1,75,
+724,728,740侯世达定律[Hofstadter's Law-',152猴子的视觉[v18iori of monkeysl,345-46后期[anaphase] ,567胡思乱想[nonsense]：计算机产生的．620, 621-22, 625-26*人产生的，612-22 I以有意义的东西为基础，378-79《蝴g >[Butterflies]【艾舍尔），147-48花哨名词[ORNATE NOUNl,131-33滑动，概念的[ conceptu81  slippage]，633-40,641-44 ,654-56,672*另见概念映射《画廊)[Print Galleryl(艾舍尔)．15，714-
+1 7《画手》[Drawing  Hands]（艾舍尔），1 5，
+21,133,689-92,710,716,737怀特海，阿尔弗雷德·诺斯[Whitehead,
+Alfred North],18,21,23-24怀特利[Whitely,C. H.],477环境[context]：其必要性．161-64，173-76;其1灾复,115-16,128,133,161-64,173-76；嵌套的．643-46,672,674幻想规则[fantasy  rule] ,183-85 ,187黄蜂斯费克斯[ Sphex  wasp]，360-61,
+613-14回溯[backtracking] ,97,629,632同文，分子生物学中的[palindromes in几乎可分解系统[nearly decomposablesystemsJ．303—6机方式[Mechanic8l mode]．38—39，65．
+1 94.221.61 3一I 4机器[machines]：不是部分的总合．389—90 I自组装．1 60，4 86.504，54 3，545机器人，T型迷津中的[robot in T—mazej．7l l—l3机器语言[machine language]．289—3。0．
+306，381，547积木世界[blocks world]．586·93，627·
+32.674基[bases]（遗传学）：514，另见核苷酸；印符遗传学中的，505—8.5 lO基本妁自动唱机公理[fundamental juke—box—axiom]．155基本事实l和2[Fundamental Facts l
+and 2]，440·42基层[grass roots-1，693基底[bottom]（递归）．1 39—40 I另见骨架基对，互补的[complementary base—pan
+ing].433,506—7.514—1 6.5 1 7,523,534基数，对它的直觉[intuitive sense of car—
+dinality]，567基因[genes].200—1,507.51 2,524—2 5.
+53l，544—4 5.668摹质[substrate]：蛋白质的，529；精神的，其不可解释性．570—7 1；精神的，类比思维的必要条件，569 7 1；精神的，对其模拟，5 71·72，说谎者句子的．581.584—85吉伦特，赫伯特[GeIernter，Herbert]，molecular biologyl,201,667回文斯瞢,353-54,634-37,643,644汇编程序[assernblers],291,294汇编语言rassembly lan-guagel,290-95;同DNA叱较，290- 91汇集[funneling] ,346-48慧能[Eno],30,232,252活性部位[active site],528-29,544 ,663
+606-7,669吉世达[Gebstadter, Egbert. B], 94-95,
+402-3,484吉他[guitar8] ,62极化子[polaronsl,304-5即时重放的镜头，直截的和虚拟的- str8ight  and  subjective  instantreplays] ,634-40,641,672即兴之别于自省[improvisation vs. intro-
+spection] ,739集合论[set theoryl,20-23集聚[．focusin,g],657-59几何编码[Geometric  Code]，235-37,
+241,626几何公设[postulates of geometryl,90-
+91,92-93, t07几何学i geometry]：非欧几里德的，19-
+20, 91-93. 98~99, 100. 222. 23, 451,
+455-56*绝对的，91, 93, 97, 222, 407,
+451-52*欧几望德的，19-20, 88-92,
+100,222,451,456,606-7~楠圆的．93；
+其“真rE’’形式，88-94,99-100,456- 57计数[counting],55-57,228,364计算机_computers]：唱机中的，78,484,486-88;由计算机组装的．504,684*和决定论．25-27,306-7,684-86*可错性，575, 578, 6781哭，675-76*其起源,24-26．学习．603-5;另见程序、人工智能、人工智能程序计算机视觉[vision by computerl, 602,
+6271 02 7计算机听觉[hearing by computer],602计算机系统[computer systems] ,287-302计算机下国际象棋[computer  chess]．见国际象棋程序计算机语言[computer languages]：传送消息的，662-63*其方言，503*高层的，292-93,297-300 l和灵活性．298-99*描述．289-99, 406-30, 498-99*善￡白色力．299,428-29*旋德鲁中的．629-32*细胞中的对应物．547继承性论证[hereditary  argumcnts]，36,
+47-48,217,261寄存器[register8l, 289加长和缩短规则[lengthening and short．ening rules]：和判定过程，48-49,182,407-8 l和TNT, 213, 266, 269,*和WJU系统．39-40,260-61,264,613;另见增大和减小规则、问题分解加法[addition]:不可交换的．222-23,639*超自然数的．t55*交换律、结合律，55, 2215-26；其町体现性．417 l和人工智能程序．677- 78；三介数的，101,206-7；BIooP中的，409*和pq系统．49-53,417JTNT记号，206-7伽利略[Galileo],478-79甲基化Fmethylation],540-41贾基，斯坦利[Jaki,Stanley-..,574假设，不牢靠的[shaky assum?tionsl,
+420,422,429,580,581,644,672假定[hypotheticalsl,44-45,634-40假想的世界i.hypothetical  worlds]．95-100,338,360-62,634-40,641-44*植根于现实,362,378-79减法[subtraction],52-53,411-412简单细胞、复杂细胞、超复杂细胞[ sim-
+plc. complex, hypercomplex  cells]，页！．
+神经原简化论[ reductionism]：和蛋白质，520-22 l定义．312；另见整体论之别于简化论、隔离简化主义者的窘境[ Reductionist'sDilemma],522,709简洁[simpticityl,172,560,615
+1 02 8渐成过程[epigenesis]，159-60, 161-62,
+531~32,665交换[crossing-overl,665-68交换律[commutativity] ,55-56, 209, 225-
+27,453,639胶质细胞[gl18],339绞肉机[me8t  grinders] ,414较象曲_，贝多芬第九，634教授，心不在焉的* ,130-31街头讨厌的事[8treet nu18ances], 25,
+726-27,729杰弗逊[Jef:ferson G.],598结点和连线[nodes and links], 370-71,
+652-54结构的层次[levels of structure]:酶的．510-11,519,52i,525-27,532,音乐的，525结构之别于功能[ structure vs.function], 522, 670-71;另见使用之别于谈论、句法之别于语义结果[outcome] ,184结合律[associatlvity],55-56,207结晶的比喻[crysiallization metaphor],
+347解码[decoding]：唱片的，154-57,158-59,161-64 ,172,174-75*俄文的，380*褐签的，154;通过哥德尔同构，267}形式系统的，50- 51, 54；作为展现．160-61 l对自然的，409*DNA的,159-62,175-76,201,231,531-32,538，另见同构、-丑译、信息组块化解码机制[decoding mechanisms]:其本质．158-76*唱机的，83,154-57 I其复杂性，158-62, 172-76, 582-84.固有的．170P 71i三藏的．257~其透明性．267,501}另见同构等解释[interpretations]：串的，509-10*多重的，94-102, 153-57, 266-67, 271,447-48*命题演算的．186-87,189,191-92；调整以避免不一致．87-88, 453,456，另见未定义项；pq系统的，49-53,87-88,101-2,158;TNT的,205-9,266-57,453, 533 I tq系统、C系统、P系统的，64-65,73-74解释一约定[interpret ation -conventions．]．
+687-88懈释程序[interpreters], 293, 504, 547,
+616,632,662,692解释机制，大脑中的[interpreters in
+brain]：582-84解说员[announcerl,353,633-40金警官和银警官繁,405紧张和解决Ltension and resolution],
+121-23,129-30,227进化[evolution],321·22《经由种种调性的卡农}[Canon perTonosl(巴赫)’见无穷升高的卡农精灵[demons] ,663-64局部性质之别于全局性质[local vs. g/ob-卡罗尔，刘易斯[C.arroU．Lewis]．20,28．46, 81，192, 372，681*其原作．43-45，366-68缶罗尔悖论-.Carroll paradox]．28，43-45，681F符号化的．193,和塞缪尔的论点．684-85；提出的问题，4 6，1 81；消息形式，170.证据形式，693-94；证明形式．192-93*另见无穷回归营农[canons]；和艾舍尔的绘应．1 5；和对话．665-69, 738*和多核糖体．526-28;二捧的，527-28,和副本，8.9,146；哥德堡变奏曲中的．392；其结构，8-10;<音乐的奉献》中的，7-10.726-27;和自指，501-3；另见各支卡农、赋格卡奇，约翰[Cage．John二，156-57，163-64．
+1 67,174-75,556,699-700,704凯，艾伦[Kay，Allen]．662凯姆，斯科特[Kim，Scott]．68-69, 503，
+523,719凯瑟林侯爵[Count Kaiserling]，7 5，391-
+92摩托力；[Cantor_]（职位），393,404康托尔，盖奥尔格[Cantor，Georg]．20．
+216.418,421,422-24Kal  propertiesl, 21, 160, 359, 363, 371-75,543,582-84,678桔子、柑子和橙子- ,377句法分析，自然语言的[parsing of naturallanguage]，t588-93, 630- 32 I另见语法、语言句法之别于语义[syntax vs. semantics]，696-27,630-32,676~易见形式，句法的之别于语义的句二F，TNT中的[sentences in TNTl,
+208-9句子J和，口j子K鲁,436-37俱胝[Gutei] ,237距目标的距离[distance to goal~j.611-13决定论[determinism] ,54 l另见自由意志康托尔集[Cantor set],142科恩伯格，约翰·菲利普[Kirnberger ,Jo-hann Philipp],9,726科尔比，肯尼思[C,01by,Kenneth],599科学[science]：和邦加德问题，659-61；自我应用，699可变性的层次结构[hierarchy of variabil-
+ityl,643-45,669可表示性和表示能力[expressibility andexpressive  power],101,  417, 441-43,444-45,450,454,465-70,580-81可产生的数rproducible numbers ',264-
+65,269-70可重入编码[reentrant code],387可交流性，算法的[communicability of al-gorithms] ,562呵笋0定串[decidable strir/gsl,417可识别的形状.recognizable  forms] ,68可体现性[representability] ,407 ,417-18,
+430, 441, 443,444.451, 466, 468, 579-
+80可预期的终止[predictable tcrminationl,400,407,409-18,420.441,5821另见不可预期但保证有的终止、有终止过程
+1 02 9可证明性[provability]．18，101可霞复性[repeatability]，见哥德尔化、疙瘩化、对角线法、艾舍尔化、龟蟹之战、答案模式克郎棋-，307克里克，弗兰西斯[Crick，Francis:，505，
+532,533,534,617克里斯托弗，巴托罗米欧[Cristofori，Bar_tolomeo]，3克利尼，斯蒂芬[Kleene，Stephen C．]．
+4 7 6克林瓶[Klein bottle]，691克吕格[Klugel，G．S．]，91克罗内克，列奥波尔德[ Kronecker．Leopold]，216客观化的寻求[quest after objectivity]，
+479,693-96肯尼迪，约翰[Kennedy，John F．]．641空间[spaces]：抽象的．4571行为的，306，307,363，621；整数的．502口香核糖*．236拉赫马尼诺夫，塞尔盖伊[Rachmaninoff,Sergel],150拉玛奴衍，湿利尼吠萨[ Ramanujan,Srinivasal,562-66,614拉·梅特利，于连·奥伏瓦·德[LaMettrie,Julien Offroy de],3,27,729控簏利，卡尔[Lashley, Karl]．342, 343,
+348蜡烛+ ,62-63莱布尼茨，威廉·高特弗雷德[Leibniz,Wilhelm Gottfriedl*24-25,600莱蒙托夫，米啥伊尔[ Lermontov,Mikha11],642莱宁格尔，阿尔伯特[ Lehninger，Albert],504兰伯特：[Lambert,J. H. l,91,92,99蓝程序[烈ue  Programs]，418-20, 422,
+4 27蓝对角[Bluediag],420-24,428
+1 030L库恩，托马斯[Kuhn,Thornas],660库珀对[Cooper  pairs] ,304-5夸克[quarksl,304,305,350夸美纽斯，约翰·艾莫撕[Comenius，Jo-hann Amos],625托摁-, 431-37, 445, 446, 449, 497-99,
+531蒯恩，威拉德·范·奥尔曼[Quine,Willard van Ormanl, 435, 446, 449,699框萸[framesl, 373,644-4 6,662-63,672框架手法[framing devices],478框架消息[frame  messagesl, 162, 166-
+67,176榧架效应[frame ef{ect],704昆茨，约辛[Quantz,Joachiml,4扩充迁移嗍[Augmented Transition Net-workl,150, 258-59, 3f,9, 621, 625-27,630扩展结点[expanding  nodes] ,134- 36老巴[Old  Ba. Ch.],726老巴赫[Old  Bach],4.28, 460, 481-83,
+738,739老舍鲁,380老鼠，迷津中的亡rats in mazes],342勒让德，阿德里安一马利[ Legendre,Adrien - Marie],92．类比[analogies],668-74类比思维[analogical  thinking]：计算机的．603；其基础．570-71类型论[theory of typesl,21-23类之别于例[classes  vs. insrances], 351-55,360-61;另见原型，内涵和外延、类比、概念骨架等犁耕体[ boustrophedonic   writing]，168-
+59 ,176李特伍德[Littlewood ,J. E.]．564理懈的本质：nature of understancjing],
+569,675-76,680理解心智／大脑[understanding minds/brainsl:其可能性．697-98,706-7;其意义,697理顺了的系统二boxed systemsl,469-70,
+543理想数[ideal numbers] ,56-58理性之别于非理性[ rational VS,
+irrationall,575-77利内特，道格拉斯[Lenat ,Douglasl,615粒子，基本的[elementary  particals]，54．
+140-46,258,303-5,309,522连分数[continued fractionsl,140, 277,
+563,565连锁信[chain lettersl,546连续过程之别于离散过程[continuous
+vs. discrete  processes] ,598良构串[well- formed stringSj：禅宗串技艺中的，239,242,244*定义．53;命题演算中的，181-83有关的BlooP谜题，415' pq系统中的，47;TNT中的．213-1 5《两个谜)[ l'wo Mysteries]（马格里特），
+701-2量词[quantifiers].207-9, 210, 211-12,
+214. 217-19董子力学-.quantum  mechanicsl, 19, 54．140-46,350,455,437,699*另见粒子列奥纳多，比萨的LLeonardo of Pisa_.,见斐波那契裂变和聚变Lfission and fusionl（概念的）. 338, 352-56, 438, 470, 664-65市K肯，亚伯拉罕[Lincoln,Abraham],454临界质量[critical  massl, 228, 317, 389,
+417,470灵笨机hsmart -stupids],721-42灵活性和不灵活性Lflexrbility and inflex-ibiliiyl, 26-27, 296. 302, 611-14, 657,673-75 ,686《另一个世界》[Another  World]（艾舍
+尔），250,255溜冰者比喻[skater metaphor],412-13流畅可画出的图形[cursively drawablefigurcs],57- 68,72流利￡fluencyl,376-77《六都无插入赋格)[Six—Part  Ricercar]（巴赫）．4-7,719,739-42《龙)[Dragon](文舍尔)，473-74,534,698龙头，精神的[mental faucet],364-65漏洞，形式化系统中的[holes in formal-ized systems],24, 26, 449, 451, 465,468,470-71卢卡斯rLucas,j. R.1, 388"90, 471-73,
+475,476,477,574,577 -78.597卢卡斯的论点（=Lucas's  argument]：概括，4 71-73*对他的反驳．475-77, 577-78*其益处．4 72卢卡斯序列[Lucas sequence],139,152,
+1 74卢克思，思想家[Loocus the Thinkerl,
+477卢梭，昂利rRousseau ,Henri] ,680录音机[tape rccordersl, 485, 519, 523,525-28;双声道单喇叭的．634,669《露珠>rDewdrop](艾舍尔)，249,256一驴桥竹的证明[Pons Asinorum proofl,
+606-7,669绿程序LGreen programsl,427绿对角-.Grecndiagl,427罗巴切夫斯基，尼科莱[Lobachevskiy,Niko;ayl,91岁杰斯，哈特利[Rogers,Harttey] ,476罗塞达碑[Rosetta stone] ,165 ,166罗斯，史蒂文[Rose,Stevenl,342罗斯琴伯格，罗伯特[ Rauschenberg,
+Robert],703罗素，伯特兰[RusselI,Bertrand]，】8-24罗素悖论[Russell's paradox3,20-21,685逻辑[logicl,  19-24, 43-45,  99-100,  177-
+80,181-97,461-64,618-19洛克伍德，安娜rLockwood,Annal,7QO洛芙莱丝命妇，艾达·奥古斯塔
+[Lorelace, Lady Ada Augustal, 25,
+307,5981 03 1M马格里特，雷内[Magritte，Rene]，480-81, 489,493-94, 627, 700-2, 705-6*；乓绘画，见插图目录马修斯，麦克斯[Mathews，Max]，607-8马姨暑，314-33,382，630马祖禅师[Baso]．234玛哈拉诺比斯[Mahalanobis．P．C．]．565玛吉和气球的故事[Margie - balloon sto-
+ry]．675蚂蚁[ants]:叮有叮无性．326*其穴．359;之别于蚁群，31 4，31 5，31 9，321，326．330H蚂蚁赋格”[Ant Fugue]（艾舍尔），322-
+23《蚂蚁赋格》[Ant  Fugue]（对话），337，
+349,350,382,570,686,737-39麦卡锡，约翰[McCarthy．John]，293麦克吉拉弗里，卡洛林[ MacGillavry．Caroline]．667麦克库洛赫，沃伦[McCulloch．Warren]，
+134麦克西玛[MACSYMA]．61 5麦片[porridge]，4 31迈尔，列奥纳德￡Meyer．Leonard B．．】，
+167,704曼德尔，阿瑟[Mendel，Arthur]．3，28猫[catsl,313,343-46,532毛泽东[Mao Tse - tung]，433矛盾[contradictions]：由不可能的循环引起的．94-96,和禅宗．99, 235. 246-56．698,层次间的，见层次冲突；和对角线论证．420-22；和个人的不存在．698*两个层次，581, 584≯命题演算中的，】91-92，196-97;视觉的．97-99*数学中的．17-24，196-97，223，580-81l在同一个大脑中的，383,697-98；和乌龟壳．177-80 I自我想象中的，696; pq系统中的．87，88；和∞一致性．453;另见悖论、不一致性、说谎者悖论没有观察力的机器[unobservant ma．1 03 2chines],36--37,674没有韵脚的诗* ,483梅瑞狄丝，玛莎[Meredith,Marshal,625媒婆月老鼍,332酶[enzymes]：其多功能性．529*其功能．520-22, 528 -30, 543-45*其结构．519-21,525*作为人工智能模型．663-64*和推理规则，509-10,5J3,531；之别于印符酶．529*其练合，517-J9, 522-25,527-29,538 45,547}另见蛋白质、印符酶美[beauty]:和计算机，575*其难以捉摸性，554,555,565,574-75,581,583-84美之别于不美[beautiful  vs. non - beauti-
+full,552- 58, 560,573-75,581-82门采尔，阿遭夫·封[ Menzel, Adolph
+vonl,4-5蒙德里安，皮厄特[Mondrian,Pietl,700孟德尔布劳特，贝诺伊[ Mandelbrot．
+Benoit] ,71梦[dreamsl,378,379,384,725谜题[ puzzles],8.33-35,  62-63, 67, 73,
+137,  182, 212, 215,220, 401, 415-17,
+425,442-43,444, 512-13. 564-65, 609,
+621-23,646-60,689米歼朗基罗[Michelangelo] ,642密码子[codonsl,519-20,524, 533. 535*另见哥德尔密码子、二元组幂幂地* ,335蜜蜂[bees],360,641,720噶啶[pyrirnidinesl,506-7,514, 516 ,534;男见核苷酸、基、基对“免疫定理”[Immunity Theorem],536描述[descriptions]：尝试性的．646-49,其重构．649-53,659-61,672*其演算．338描述词[descriptorsl.647描述的层次[levels of descriptionl:程序的，294-95, 380-81.错误的．294-95*大脑的．349-50, 382, 559, 570-77, 584-85;电视屏幕的．285;棋盘的，285-86*气体的，3081人体的，285*人心的，287；心理过程的，)68-73, 575-78,584-85*蚁群的，315-33 1种姓分布的，319-29；另见整体论之别于简化论描述模式[description - scbemas]，550*另见模版妙极的和非妙极的教[wondrous and un-wondrous  numbers],400-2,408,4】5,418,425名词，汉语中最常见的*，630明斯基，马尔文[Minsky，Marvin]，373，
+388,606,644,679,722命题演算[Propositional  Calculus]，181-97I其变种，195*其符号的解释．1 86．1 89，191- 92*改进的方法．193-94，196-97 I精简了的，193-94 I良构性．181- 83；作为一种旁效现象．578*嵌在TNT中的．195,197，207，215-17≯其弱点，195-97,578;推理规则清单．187 l推理规则的描述，181-87 I推理规则的论证，188-89摹仿游戏[rmitation game]，见图灵测验模块性[ modularity]，149-50，615-18．628，677-78;另见知识的定位、局部性质之别于全局性质那个[thel,586,629-30男人之别于女人[men vs, womenl,477,
+595-96南‘泉[Nansenl,248-49,253,255内在消息[inner  messagesl. 166- 71 ,174-
+76,501.5 24内涵和外延[intensionality and exten-
+sionalityl,337-39.350,361-62内省[introspection]，见自我控制、自我意识、自我知识、不可达性、TNT的内省欧 )1垦德 [ Euclid ],19,43,58-60,88-89,216N0模拟[simulationl:神经网络，571-72*整个人脑．572-73模式，所有层次上的[patterns on all lcv-
+els]．674模式识别[ pattem  recognition]，见邦加德问题、概念骨架、计算机视觉《魔带与立方体》[Cube with Magic Rib-bons]（艾舍尔）．281-82魔鬼CDevil]．685末期[telophase]，667-68《莫比乌斯带I  )[Mobius Strip I了(芟舍
+}J,)．29-30《莫比乌斯带I》[Mobius Strip I]（艾舍尔），276莫诺，雅克[Monod．Jacques]，1 61莫扎特[Mozart．W．A．]．649，702默根泰拉尔，奥托[Mergenthaler．Otto]，
+630模板[template8]：邦加德问题的，650-53．656-57；之别于指令，见指令之别于模板、程序之别于数据目标和子日标二goals and subgoals]，227．
+589, 590- 91,609-14 ,618-19 ,629,632目的论观点之别于进化论观点[teleologi-
+cal vs. evolutionary viewpoint],320-22《泥塘>[Puddlel(艾舍尔)，256逆行[retrogression],8—9.81,146,  200,
+208, soo-i, 549, 666- 68, 723-25,  737-
+38鸟嘌呤[guanine]，见核苷酸牛[cows],346,351《纽约客)[New Yorkerl,641-42“女儿”程序[daughter programsl,5C3,
+546欧几里穗素数定理[Euclid's prime num-ber Theorem],35,5B-60,2281 033欧拉，列昂哈特[Euler，LeonhardJ，3,394  I  偶然音乐[81eatoric music]．163,174，700(爬虫)[Reptiles_l(艾舍尔)，116-17帕黾[PARRY]，300-1，599-600，677帕斯卡，勃莱兹[Pascal．Blaise]．24,25．
+600帕普斯[Pappus]，606-7，669俳句[haikuJ．153-54,525,619-20潘菲尔德，怀尔德[Penfield，Wrlder]．
+342-43潘罗斯，罗杰[PenroSe，Roger]．1 5判定过程[decision procedures]:其存在无保证，72 I定义．39-411判定禅宗之_遭一，250- 51，253，254*判定定理数，440-41，580}判定定理性，39-41，47-49, 72 -73, 190- 91, 408, 416, 560, 579-80，582，判定丢番图方程．559-60；判定对话结尾，402-3*判定佛性．234，239，272*判定哥德巴赫性质，400，414 l判定公案的正宗性．234，239;押定公理性．41，48, 470;判定可梦想的主题，384*刿定良构性，182, 269，416, 582*多【¨定美，552-58，560,579，581-82，583-84;判定妙极性．402，425;判定莫扎特作品，649*判定奶奶．344 45，347-48*判定数论真理，228-29, 426，551-58．561, 573-74, 579-81;判定素数性，64，149,413*判定停机，425-29 f翔定同一性，146-49, 158-59；判定推导的有效性．194，416，439-41，470*判定乌龟对．441}判鬟乏乌龟性质，396 -97. 415. 441;判定异物，487-88，540-411判定真理，213, 228-29, 417. 552-58, 560-61, 579,5811判定证明对，416，439-41;判定智能，地图灵测验；判定终止．425-29;将敏分为两类，见丘奇一图灵论题；自顶向下之别于自底向上，48-49*作为BIooP谜题．415-17旁效现象[epiphenomena]，308-9. 363．
+577,596,677-79螃置[Crabl:其变形，62;其不幸，281，1 034P383-84；其基因，200-1, 204，507 l按受礼物并招待客人，275-84,311-36*举办音乐晚会．720-42*举办虚拟的下午聚会．633-40 l可疑的行为．560,562,573-74,579-81;其来历，666-68*与乌龟之战，7c,- 78,4()6, 483-88, 540*543;遇见阿基里斯，200*远足并演奏长笛，549-58 l招待阿基里斯，480-94*其智能，549, 558, 733*其主题，729, 732, 740,742*其自动唱机，154-57螃蟹程序[crab programsl,500-1螃蟹卡农[cral'o canons],9,198-203,204,355,501,665-69*DNA中的，200-1《螃蟹卡农)LC,rab Canon]（艾舍尔），198-
+99,667《螃蟹卡农)[Crab Canon]（巴赫），202-3,
+666《螃蟹卡农) [Crab Canon]（对话），204,
+355-56,665-69,672,723-25,738朋友的内心模型[mental model offriendl,386-87皮哑诺，朱瑟佩[Peano, Giuseppe]，20,
+216-17皮亚诺公设[Peano postulatesl,216-17,
+224庋亚诺算术[Pean0 8rithmetic],100皮层[cortex]：大脑的，340-48;其区域．344*视觉的．343-48} q匹克威克外传>-.Pickwick  P8perq]（狄更斯）．24, 326,595,598嘌呤[purinesl,506-7,514 ,516,534;另见核苷酸、基、基对《漂亮的俘虏)[The Fair Captive]（马格里特）．489撇出顶层[skimming off top levelsl,309,
+325,326,358-59 ~568-79《平均律钢琴曲集)f Well-TemperedClavier]（巴赫）．7，280 84, 327, 329,335平均验刚劲猜想*（拂犸），333-35平面之别于立体[flat vs．spatial]，见二维之别于三维平行公设[para/lel postulate]．见第五公设菩提达摩[Bodhidharma]．232，238,245．
+252,625Q奇思异想[flights of fancy],378歧义[ambiguityl:翻译到TNT中，209-11,和计算机语言，297-98棋盘，其层次结构[hierarchy of chessboards],687棋盘的估值[board  evaluation]：静态的和动态的．604-S ,611;其中的怪圈，604-5拱手，其圈子[cyc/e of chess p/ayersl,94-
+95旗[flagsl,29-32,188启发规则[ hcuristics]．587,  588,  590,
+603.629气体和分子[gases and moleculesl,307-
+8,317,693千代能尼师[Chiyono]．256前期Lprophasel,665-66前提：premise]，l 84g前奏曲)[Preludel,337, 383, 460, 686,
+737,739前奏曲和赋掐[preludes and fuguesl,280-84 ,335 I易见赋格、《平均律钢琴曲集》钱伯农，戴维[Champernowne, David]．
+595潜在的无穷搜索[potentially endless
+searches] ,396,400-2 ,425,444,582-83嵌套rnestingl,127,138-41,184-85 ,660*另见递归嵌套的电影[nested moviesl,184-85嵌套的形式系统[embedding of formalsystemsl,97 ,207 ,215嵌套的艺术品[nestcd works of art],15,
+106,700. 1.705-6普遍触发力[universal triggering power]．
+171,175普罗科菲耶夫，塞尔盖伊[ Prokofiev,Sergei] ,150普通集[run-of-tbe-mill setsl,20-21《瀑布》[Waterfall]（艾舍尔），11-15，99．
+71 6强制性的内在逻辑[compelling inner log-icl,161-62,163-64氢键[bydrogen bonds],516,522,525清凉大法眼[Hogenl,248消醒之别于疯癫[sanity vs. insanityl,
+192,696情感[emotions]：和程序，573, 597-600,626- 97,675- 77；和大脑．83 I假的．599-600;作为旁效现象．677;其普遍性．163,174-75;鲁簿宅宴的,281,383-84,583;和音乐．83,160,163-64,174-75, 383-84,626--27,676-77,699*作为智能的必要条件．573,597-98丘奇，阿朗佐[Church, Alonz01, 428,
+476,561匠奇一图灵论题LChurch-Turing Thesisl,428-29, 552, 561-79*标准形式．561-62,579.其不可证明性，562;大众过程形式．562,568,574,580;反科学形式．574-75;哈代形式，566;简化论形式，572,574*人工智能形式．578-79, 580.581,同构形式．567-68*同义反复形式．5 6 1；微观形式，572*唯灵论形式．574丘奇定理[Chulrch Theorem3, 560-61,
+574 ,579-81,609,697蚯蚓[earthworm (s)l,341-42仝称量词r universal quantifiers]，见量词缺席选择[default  optiortsl,352-53, 386,
+411,645 ,674缺陷和期望！defects and expectationsl,
+77,86,102,222,476“确实有智能的”程序L"Actually Intelli-gent" programsl,6761 0 3 5染色体，同源的[hOmOlOgOu8 chromo-some8]．668人工_思维竹[8rtificial“thinking一]．337，
+601人工意象[Artificial Im8gcry]，560人工直觉[Artificial Intuition]，560人工智能[Art:ficial Intelligence，AIl:所包含的信念，572，578-79*和层次问的翻译，285 I定义．26 I反对它的观点，见反对人工智能的观点l反对它的论点，597-99;其分层，299-300*其概略，601-3；和哥0尔定理．388-90,471-77,706-7；和计算机语言，299-300, 548;其困难．26-27, 573，740*其历史，19，24-27，594-97，600-9*收敛于大脑．579*与数学的关系，559-6C I应用于数学，573．614 -15；和证据，695人工智能程序[AI  programs]：其好奇心，619;和卢卡斯的论点，577-78;与人相萨彻利，济罗拉莫[Saccheri, Girolamoj，
+91-93,99,452,456萨尔维亚蒂、辛酱利奇奥、萨哲杜[ Sa/vi-ati,Simplicio,Sagredo] ,408-9, 478- 79.673,694俨斯曼，杰拉尔德[Sussman, Gerald二．
+664萨哲杜[SagredoJ．见萨尔维亚蒂塞缪尔，阿瑟[Samuel, Arthurl, 604-5,
+684 -86塞缪尔的论点，支持他的和反对他的
+[Samuel's 8rgument, pro and con],
+684-86赛跑[footraces]. 29-32, 43, 594-95, 58J -
+83三比二[hemiolia],257,519三重奏鸣曲[Trio Sonata](选自巴赫《音乐的奉献》.7-8,720,724,7261 03 6RS比较．679-80人工智能论题[AI Thesis],579人工主义[Artificial Ism],625《人类的处境I }[The Human ConditionI]（马格里特）．705-6入之别于机器[people vs- machinesl,95-
+27,36-38.151-52,388-90,4 71--73 ,475 -
+77, 559~62, 567-75, 577-79, 595-99,
+606-9,621-23,680,684-85认识，演绎式之剐于类比式[ deductivevs. analogical  8wareness],570-71 ,619认同于人工制品[identification with arti-
+racts],609,713_14《如烟似梦》[Pipe Dream],703软件和硬件[software and.hardware]：大脑中的．346, 356-57, 686, 709*定义，301弱强琴[soft-louds]，见钢琴《三个球I >[Three Spheres I](艾舍尔),258互级结构[tertiarv structurel:蛋白质的，519-22, 525-27;印符酶的，510-11,512,519 I tRNA的,524《三界>[Three  Worlds]（艾舍尔）．247,
+256三藏[Tripitaka],257三字件[t rip-lets]，见封面，扉页，插图目录，上、下篇篇头沙堡[sand castlesl,725-26沙文主义[chauvinisml,171-73莎士比亚，威廉[Shakespeare，William]，
+96,595,598,608,736山迪[Shandyl,611上当受骗[gullibility], 75-76, 106, 309,
+461,600 ,701E带[God]．见造物神《上升与下降>[Ascending aticl Descend-ing]（艾舍尔），12-13 ,15, 21, 716上下文无关的总合[context-free sumsl,
+520-22上限[upper bouncls]．见有界循环、BIooP尚波里昂，让·弗朗索瓦[Champollion,Jean Franc018],165种怪[djinnsl,113-15, 216-17. 223, 224 I另见怪物冲经外科[neurosurgery-, 309. 313．-14,
+618,678神经原rjneurons]：不能有意识地控制．302．另见不可达性；作为不受干扰的层次．302, 677, 686. 691-92．另见不可达性；其发射，83, 316, 340, 343-45,347, 350, 357;关中心和开中心．343-44 I简单的、复杂的、超复杂的．344-45,346, 347;同蚂蚁比较，315, 325, 339-40,描述．339-40;欧几里德的．60 l视网膜中的，343-44;作为输入总合．316．340, 57f-77, 677,其完美元缺的功能，575-77神经原网络rneural networks]，见符号抻渝[oracles],567渗漏，科+学的层次间的rleakage betvvecnlevels of sciencel,305-6生命起源[origin otlifel,548生日[birthdays．},461- 64《7￡日大合唱>[Birthday  Cantata]（巴赫）．461《生f1人合唱哇哇哇乌阿乌阿乌阿……》[Birthday  Cantatatata]（叉寸活），468,475,688生物自动唱机[biojukeboxesl.,160,175声部，赋格和卡农中的[voices in fugues
+and  canons],28, 282-83, 314, 322-23,
+335.665- 67,669,683.737.740声子[phonons_],304绳子，细的和粗的[thin and thick ropesl,
+22q-30施德鲁[-SHRDLUl,586-93,599,627-32.
+674艟密特，约翰·米凯尔[Schmidt ,JohannMichaell,27施尼勒曼，列夫[Schnirelmann,Lev G.]，
+394施外卡特[Schweikart,F. K.],92施维腾男爵，高特弗雷德·封[Swieten，Baron Gottfried vanl,6-7十进制[decimal system].262-64,269十四行诗Lsonnets_,,596,608,736识别[recognition]：之别于产生，648-49*分子的，540-41~视觉的，346-48, 646-62实数表Fdirectory of real numbersj,421-
+24食神经原兽[Neuroneatcr],382食蚁兽[Anteacer j,275-84. 311-36. 382,
+570,722使用之别于谈论ruse vS. mentionl,434-37,458, 531. 545, 699-700.另见形式，句法之别下语义的、程序之别于数据、句法之别于语义、结构之别于功能世界的复杂性[complexity of worldl,569视觉表象[visual imagery j：和邦加德问题．651;必要的墓质层次，570-71;和不可达的知识，365*和擦去，361-62*程序中缺乏．623;在概念映射中的角色，668,572;和龙头，364-65;其能力．338-39；和数1幺,569,678_是p答案.yes-answers],461-64棘读文字材料[decipherment of textsl,
+50,164-65,173-74 ,583《释放>[Libcration]（艾舍尔）．57-08,65噬菌体l phages]．见病毒手杖* ,118,120,200-1首lJI[ShuzanJ ,251受迫匹配[forced matchingl,670-72输入输出设备[input-output devicesl,
+288输入参数- input  parameters](BIooP)，
+411讨[trees]：超前搜索的，见超前搜索树；递归图案．40，71,135-37 I定理的．4C,71树懒[Slothl,633-40,643,681-83,722
+1 03 7《树懒卡农)[Sloth Canon]（巴赫）．9，
+666,683《树懒卡农)[Sloth Canon]（对话）．738敛韵本质[nature of numbersl,54-s8,
+452,458数据库[data b8sel,618数理逻辑史[hrstory of mathematical log-
+icl,19-24数论[number theoryl:被使用和被谈论，458*其典型句子，ZQ4-5*非标准的，100, 452-59*非形式化的(N)，54-60,2C4, 228*其核心．100, 407；和螃蟹，551-58,560,562,573-74,579-811其．消遣作用，391-404*形式化的，见TNT*作为形式系统的普适反映物，260-65,270*其逊位．228-29, 426*印符的，见TNT,I其应用，278-79*作为与世隔绝的小天地，569*原始概念．204-9*其“真”形式，458-59数码的调动[shunting  of digits]．2 64数学[mathematics]：其基础，19-24*计算机实现的，573, 602, 614-15；和现实，54-58,456-59数学观点，大脑的[mathematical view of
+brain8] ,559效学家[mathematiciansl, 45F8-59, 559,
+566,614《数学原理)[Principia Mathematica1.18-
+19,21,23-24 ,228,618-19数字[numerals], 205-6, 213;之别于数，
+264双手，互相洗的[mutually washing armsl,
+691双重打弯律* ,243双重否定[double negationl, 183, 545,
+554双轴独轮车- ,633,669水门事件[Watergate] ,692《水面涟漪)[Rippled Surface]（艾舍尔）．
+256-57瞬息计算着_lightning calculators]，见心算家说谎者悖论[liar
+1038paradox]：和艾舍尔．716；分子形式．536-37}与哥穗尔定理的联系．17-18 I怀特利形式，476-77 I和间接递归，134;其精徽之处，495-98*扩展形式，21, 22;引起的恐惧．23 I棚恩形多：，431-37, 445, 446, 449, 497-99,531, 537;其两个层次．581, 584-85*神羟原形式，584-85*塔斯基形式．580-81, 584-85；英文．中文形式，50J说谎者的画像[picture of Epimenidesj,496思维的速度[ speed of thinkingl,679思维过程的机械化[mechanization ofthought processe's]，见人工智能、形式系统等思维陀螺★,187思想的基质[substrate of thoughtl,559斯马特[SMUTJ,6,80,155-57,202,682,
+718 ,740斯珀里，罗杰[Sperry,Rogerl, 710斯坦纳，乔治[Steiner,George],166-67,
+642-43斯坦特，冈瑟[Stent,Guntherl,514斯维彻罗[Swithcheroo,Q.q．],187四公设几何学[four-postulate geometry),见绝对几何学四级结构rquaternary structurel,525四色定理，戏拟的[parodied Four-colorTheoreml,550四维空间[4-D S3p8ce],638-39素数[prime  numbersl, 58-59, 64~67, 72 -74, 149, 211-12, 413, 551-58, 615*萁差，393, 395-98, 400, 416,其和．393-96,400,414算法[ algorithms],292, 410, 412, 413,
+414,440,459,567算术化[ arithmetizaticn]，262-65, 268-
+69 ,533-34算术{i[摁[arithmoquinirigl, 445-54.466-
+68,497,502,541,580-81  .随机性[randomness]，409-9, 620, 673,
+71 2“所有”["a/W],60索引编号，程序的[index numbers for
+1    for supernaturaIs],4 55programsj'418—20.4 27-28[index numbers    |索引三元组，超自然数的[index numbers塔斯基，阿尔弗雷德[ Tarski．Alfred]，
+579-81塔斯基·丘奇，圈灵定理[Tarski-Church-Turing Theorem],561,581塔斯基定理[Tarski's Theorem]，579，
+580-81,584-85,697肽键.peptide bonds]．523泰戈尔，拉宾德拉那特[ Tagore，Ra-bindranath]．1 69泰斯勒，劳伦斯[Tesler，Lawrence G．]．
+601搴斯勒定理[Tesler's Theorem二，601，623;另见人工智能悖论、跳出系统、本质不完全性谈论[mer.tion]，见使用之别于谈论争尊出[popping]．127-35,184-85弹出锅酥_，1 04，124-25弹出煮调饮鼍．105-6,116-17，12 5坦茨波*，727唐居伊，伊夫[Tanguy．Yves]，700陶布，摩蒂莫[Taube．Mortimer]，574陶利努斯_-11aurInus，F．A．]．92特洛伊木马[Trojan florse]．538特异功能Lpsychic powers]．6c3;另见超感官知觉提前进入：stretto]，314，738天气[weather]．302-3天体力学：celestial mechanics]．353-54天外智能[extraterrestrial intelligence]．
+162-64 .167 ,17 2-76, 341,646.661- 62跳出系统[jumping out of the system]:和禅宗，255，479;程序的，36-38，476-78，678*其错觉．4 18-79，698；从二维到一二维，见二维之别于三维；和哥德尔定理，见哥德尔化、本质不完全性．；广告中的．478；作为解决矛盾的方法，196-97 l利用答案模式，462-64‘政治系统中的．692;另见哥德尔化、疙瘩化、艾舍T尔化、龟蟹之战、可重复性、不可程序化性等跳出子系统[jumping out of a subsy-stem]．477跳棋程序[chcckers programs]，573，604-
+5听赋格的方式[ modes of fuguelisten-ing]，282-84俘机问题[balting problem-．74 ,425-29．
+594,697通道[pathwaysl:构成知识和信念．378-79；化学的．528-29.544-45，663．．64；目标引导的选择．227，609-15．取决于环境，383-84；潜在于大脑中的，281}似乎合理的之别于似乎不合理的．383*ATN和RTN中的．131- 34 ,150; T4形态发生的，539同构[isomorphisms]：邦加德问题间的．660.669;部分的．146-47，371-82*粗糙的，147-48，503;大脑结构和现实问的，82, 337-39，350, 502，569-71；大脑间的，369-82,定义．9，49-50*对话的形式和内容间的，84-85,128-30, 204, 667-68,<对位藏头诗》中的，83-85;和哥德尔配敬，见哥德尔同构；流动的，338，350，,362*螃蟹的DNA和《螃蟹卡农》间的，203.667-68 l情感的．163;蚯蚓间的，342-43，345*视觉处理间的．344;视觉器官间的，345-46;数学和现实间的，53-60*数学家间的．566*透明的，82．158●267}同一物体间各个层次上的，369;心智过程和程序间的．568-73；形式系统和数论间的，408，625,异常的和平凡的．159-60;作为意义的根．49-53，87-88,94，267，337，350;作为展现，159-61；整体与部分间的．138-43，146-47;蛛网间的．371-72,和自复制，501-3；自然数的模型间的．2171WJU系统10 3 9和31 0系统间的．261-65*另见意义、翻译、副本、解码等同一性[sameness]：艾舍尔绘画的．147;半对词的，669*邦加德世界中的．650-03,657,660,664*之别于差异性，153-57≯作为对抽象知觉的基础的机制，646-62, 665-69，671-72;程序的．380-82；被忽视．614，674,蝴蠊的．147，369*其难以捉摸性．146-49*和内涵．338 1人和机器智能的．337，379, 679-80*人类心智的，341-42，369-72，375-77，382*视觉的．344-48，662*语言翻译的．372,379-80*语义网络的．371;和智能的普遍性．158, 501*自想国的．375;自指和自复制中的．500-4; BACH加CAGE的，153-57 l另见副本、同构、概念映射同  ·性检测器[ sameness-detectors：．
+650-53,657,664统计力学[statistical mechanics]．见气体和分子投币唱机[nickelodeon]．500*另见自动唱机突变[mutations]．295突触[synapses]．339图窠G[Diagram G]，135-37图灵，阿兰·麦瑟森[Turing．Alan Math-
+esonl. 26, 389, 425-26, 428-29, 5c4_
+99，734-42；与人工智能的反对意见，
+597-99图灵，萨拉[Turing．Sara]．595图灵测验[Turing test]，595-99, 6CO．677-78,735-37}其中的算术错误．596；小毽的．621- 23 l修改的建议，600图灵机[Turing machines]，390，594，735图形和衬底[figure and ground]．61- 63．64-74，731；音乐中的．70-71瓦赫特尔[Wachter，F．L．]，92外在消息[outer mcssages]，166-71，17476,501,524,7041 040图形学[graphics],728忒侈斯和阿里阿德涅[Theseus and Ari-adne] ,130推导[derivations]：超自然的．454-55*定义．35-36*命题演算中的，184, 185,188,189-90,196*谬误的．220,439*所谓的，439-40;印符遗传学中的，507,509,乏别于证明，35-36,193-94,195，TNT中的，217,218,219,224-27,269,tq系统中的．65*WJU系统中的．35-36,262,264 ,439推理，程序完成的[reasoning by pro-grams j.569-70, 577-78, 586-93, 606-7.60 9-11, 614-15, 618-19, 628-32    .推理，关于形式系统的[reasoning aboutformal systemsl, 38-39. 66, 260-72,438-52.465-71,579-81推理的有穷方法[finitistic method8 0frcasoning],24 ,230推理规则[rules of inlerencel:草拟的．66,221;导出的．19 3-94；和递归可枚举性，152;定义，34-35*命题演算的，187*逆向．48-49, 182;同酶比较．509-10,513, 531；印符遗传学的．509-10}C系统的．65*P系统的．74; pq系统的，47 ITNT的．215, 217-20,223-25；tq系统的．65;WJU系统的．34 ,260; 310系统的，263椎入[pushing-.,127-34,184-85推入露*  ,105-6推入锅酥鼍,]24-25托勒密五世，艾皮芬尼斯[Ptolemy V
+Epiphanes],165脱氧核糖核酸[deoxyribonucleic  acid]．见
+DNA陀斯妥耶夫斯基，费奥多[ Dostoevsky,Feodorl,379-80  'W弯 *,241-44,272完备的东丙[Perfect  items] ,3,75-79,85,406,424,486,536魏增鲍姆，约瑟夫[Weizenbaum,Joseph]，
+599-600,675温斯顿，帕特里克·亨利[ Winston,Patrick Henryl,299文本处理，计算机的[text-handling bycomputers] ,301文字集Lcollage of scriptsl,168-69紊乱，敬论中的[ chaos in numbertheory],137-38,152,557}另见秩序与紊乱问题分解[problem reduction],609-13*自我应用，6 1 3问题和推漉[ Questions  and  Specula-
+tions] ,676-80问题空I司的表示[representation of prob-lem space], 611-13_我’’的所指Ereferen.ce of "1"],608_我不能被播放（被证明，等）”[I CannotBe  Played(Proven, etc*)],76-77, 85,406-7.448,465-67,536,541,608“我可以被播放（被证明，等）"[I Can Be
+Pl.ayed(Proven,etc. )l,488,541沃尔犬，克里斯托弗[Wolff ,Christoph]．
+392沃森[Watson,J. D. l,667乌龟r Tortoise]：其禅宗串．272*词语的使用．181~和答案模式，475*和递归．128- 30,149；和丢番图方程，459-60*其画像，42;和卡罗尔悖论．46,193, 684-85,693*其来历，28,29*赖皮的解决．669;和《螃蟹卡农)，204, 666-67 l与螃蟹之战,84-86, 271, 406, 424,467-69,540, 543;被提到．102,170, 257 I其英文名字的第一个字母．231, 507, 657;作为羽管键琴，502,芝诺一吉世达一乌龟循环．94-95乌龟对[Tortoise-pairsl,416,441,448*同证明叉寸比较．441,448乌龟方法[Tortoisc's method]．见疙瘩化乌龟情歌[Tortoise's love song],435-36乌龟性质[Tortoise property],395-97,
+415-48,425,426,441,448鸟兰姆，斯坦尼斯拉夫[ Ulam,Stanis-1 04 1
+-_.-._.____________________'_l
+llll--11-_．I-lI-l
+lllll-l--_.________'____---_...-I
+'    ，    '    -    ．    n    一    ，
+一旷    HN    0    7  2
+ri    5  7  ．恰  W    _  ．曼oo    锄m    0    1    6    9    r    V
+5    e    哆    ●    p    佗，    c小-o    粥獬    ．-t    “
+d    一    的    '    钔    一    o0 00    盯    ，    砖
+1    4    ¨    即趴    V
+r    1    7    M    ‰    3 6 T    o一～～～M    啪  州·堋
+一酞    厄一．一～一～2 s
+n  ‰，～啪  瑚  --    ，  孔]n．  d    吖    附l--    一『量舯  离～    他础
+5
+1    '
+O厶
+一    矗
+，    Z    甜    鲒    一
+]  7
+O
+认    州～
+“m一～一一一～瞄    'K—
+n华  必～～．一  ～    s    他    1 5    哪  耐L
+r    W    7
+g    2
+1    ，  协    瞰  卜    一  n    oJ  6    ．蝴～
+1  5    ～  肌№    Ⅵ  h  希  3～一一一鼢∽    刚”
+S
+S
+s    e—  m
+m    坨
+r    “
+e    ．
+t    叭p
+100    WI-I  V    9
+o    m    ～    一    凡  [  维    一№8
+1r-l    a  一肌    一～虬  伊    德㈣船
+一  L]  h    j  一    质
+一H弧  卜㈣姗  w w特    ．
+斯№枷瑚删m洲8壮    一  时
+汽耥蹴～蕻弧蚍    m漕一鳓蚍一一～一逊o尔庠    一～一一Ⅲ一腊潍  狱蛳～一㈣眦-M咖一一一～～ty, I-I～  一
+～  埘    撤
+，0了L，L
+M拉2拉∞拉s斯一    华瓦    p枷虮定争程
+一格M格L格哪根～一一一一～    }<弘-o仳
+叭尔弱瑟程词叭方m灵    一L佛绒诺铊诺乩诺附特，    亚雍浙槭一撇～一消一一～
+一e的
+完    成  威微微沩惟  唯  唯  维  维维维  维  维  维  维维维伪伪卫未  位胃谓  谓law],560,621,676乌纳穆诺，米格尔·德[ Unamuno,Miguel d.e].698无[MU]（禅宗），233,241,246,254,259,
+272,311,312-13,328《无伴奏阿基里斯奏鸣曲)[ Sonata  forUnaccomp8nied Achilles],502-3无伴奏大提琴组曲[Suites for unaccom-panied cellol(巴赫)70-71无伴奏小提琴奏鸣曲和套曲[ Sonatas
+and partitas for unaccompan,ied violin]
+（巴赫）．62,63*70 -71,257,502无插入赋格[ricercar]．7无插入t格（嵌在句子中）鼍，7.727．
+731,734 ,737-739,742无方式[Un-rnode],39,98,254无规则系统[rule-less  systems]．!598,685,另见形式系统之别于非形式系统无类型愿望[Typeless  Wishes] ,111-15,
+610-11无门[Mumon], 242, 246, 248_4c, 253,259, 260, 272；其评注．246-49, 252*其颂，246-49,252,272嵌无门关>[Gateless Gatel,246无朋．TNT的串*,265-67,271,44.1-42无穷[infinity_]：和艾舍尔．15；和巴赫，10,  719 I和超自然数．454;其类型．421;其名称，475-76;图示的，135-36,138-43*有限地处理．59-60，221..2c,,4 61- 64,468*另见无终止、无穷回归、递归等无穷的天空[infinite 8ky],401无穷回归[infinite regress],lll-13,142,
+14 6 ,152,231,388-89,426,497,738*膏
+罗尔悖论中的43-45,170,192-93,684-
+86, 693-94；客观性的，479*其停止．
+127,133-35,170,605,684-86*和芝诺，西瓜球*，637,640西蒙，赫伯特[Simon，Herbert A．]，303，
+305
+1 042X31- 32. 610；另见卡罗尔悖论、终了、递归的词首字组合、可重复性等无穷长的句子：lnfinite sentence]，497无穷多的事实捆[infinite bundle of
+facts]，397-98元穷巧合[infinite coincidence]，398，421尢穷升高的卡农[Endlesssly RisingCanon]（巴赫）．10 -11,15,4 6,130,717-19,742无穷小量和非标准分析[infinitesirnalsand nonstandard 8nalysis],455无意义的解释之别于有意义的解释
+[meaningless vs. meaningful interpre-
+tations]．51,88无意义性，美术和音乐中的[ meaning-lessness in art and musicl,699-700,704-5无意义循环[senseless loops]，679无因子性[div180rPfreeness]．74无政府状态[anarchy]．693无之图[MU-picture]，283-84, 340-13．
+327,328-29,525-26无终止[nontermination]，408,425-30*另见潜在的无穷搜索、FIooP五维空间[5-D space]，640五行打油诗[limericks]．483,736五祖LGosol，248伍尔德里奇，迪恩[ Wooldridge．Dean]，
+360物理学定律[laws of physics]:和不一致性．95-96, 99, 584-85；和层次，303-5．307-8，693*和简化主义者的窘境．522．709;无法逃脱，477，575*作为在相互竞争的数学理论间选择的基础，1 00．456-57l作为形式系统，53-54*意识背后的．575，685，710.直觉的．362-63．711；阻止无穷回归，1 70希尔伯曼，哥特弗雷德[Silbermann．Got-tfried]．3,4希尔伯特，大卫[ Hilbert．D8vid]，20，23-24,230,459-60希尔伯特第十问题[Hilbert's tenth prob-leml,459-60希尔伯特方案[Hilbert's programl, 23-
+24,229-30蜥蝎[lizards],108-9,110,11 5-J7.125席勒艾舍尔* ,394“洗我”[WASH ME"],608系统，可靠的之别于不可靠的[reliablevs. unreliable  systems],307系统的边界[boundaries of system],37-38;另见跳出系统系统坍塌[System crash],116细胞过程，作为人工智能模型[cellularprocesses,as models for AIl,663-64细胞质[c>-toplasm],517,518,522-24现实的本质[nature o{reaiityl,409限制性结果，一般的[limitative resulis ,in
+general],19,74 ,609,697.699线[lines]（几何学）．19-20, 9C-93, 100,
+222,452,456腺嘌呤[adenine]．见核苷酸相对论rrelativityl,19,96,100,680&相对性>[Relativity]（艾舍尔）．97-98相关蕴涵Lrelcvant implication],197相巨竞争的理论，以及证据的本质[com-
+peting    theories    and    nature    of
+evidence]．695香严禅师LKyOgen l,?,44-45《镶嵌画I )[Mosaic I]（艾舍尔），61- 63镶嵌图案[tesselationsl,68,69,198,667想象[imagesl:模糊的，686-87,思维的．
+623项[termsl(TNT) ,206-7,213,214肖邦，弗里德取克LChopin,Fr6deric]．70,
+257,677消除歧义[disambiguation],586-93,603,
+629-32消化[digestion] ,306消息[messages]，154, 158-76*其分层．166-71,524. 703.4；锌瓦子中的，167-69,524；蚁群中的，350;自然中来的．408-9；另见框架消息、内在消息、外在消息小脑[ccrebellum:,341小球，滚动的[rolling  marbles] ,711-12小提琴[vtoi\nsl,62,63,70,81,84,162,
+200,257,t34,502,595,681,720歌后语鼍.63谢尔平斯基[Sierpinski,W. ],404谢泼德，罗杰[Shepard,Roger],717-19谢泼德音调[Shepard  tones]，71 7-19蟹尊* ,232,234,237,238,239,241,242《心算X[Mental Arithmetic](马格里特)．
+627心算家[idiots savants],566-67_心脏一，人工智能程序中的[“heart’’，inan AI programl,679心智[minds]:其部分重合，376;之别于大脑．309,575-77;其可程序化性，302,679，另见人工智能、人工智能悖论、囊斯勒定理、不可程序化性．两种创造方式．390,和思维．369-90；另见大脑、智能等辛普利奇奥[Simi)licio]，见萨尔维亚蒂新颖性和跳出系统[novclty and jumpingOut of system],475信号，交错的[crisscrossing  signals]．322-
+23信念登记表[catalogue of beliefsl, 382,
+384倍使，公案的[messenger for koans],235-
+36,238信使RNA [mcssenger RNAl.见mRNA信息Linformation]：其创造，513;可达性，见不可达性l可丢掉的，649,653, 657-59, 669-72;距表层的深度，234-35,409, 427, 549-58, 606-7, 612-13, 628,673，另见解码；其流动．513,533,545,547;无关的．560信息揭示者[information-revealers] ,158,
+267信息携带者Einformation-bearersj, 158,
+166 ,167行星和．1己星[planets and satel/itesl,353-
+54形式[torml, 47, 66-67, 68! 73,190-91,
+1 04 3370-71~句法的之别于语义的，581-84．631形式和内容[form  and  contentl, 84-85,204,279,581-84,667-68,740形式化推理之别于非形式化推理[formalvs. informal  reasoningl, 193-97, 228-29.271- 72,449-50, 614-15. 618-19形式化要求[Requirement of Formality],
+33,52,65形式系统介绍[presentations of formalsystem]：命题演算．181-97；印符遗传学，504-13；C系统，64- 65 I P系统，73-74;pq系统，46-601TNT,204-30 *tq系统，64-65*WJU系统，33-41形式系统之别于非形式系统[formal vs.informal  sy8tems] ,26-27,559-85 ,598,684-86*另见大脑、心智等形式系统之别于现实[formal systemsvs. realityl, 53- 58形式主义的数理哲学[formalist philoso-phy of  mathematics],4 58形态发生[morpbogenesis],539,543-44匝缩的超前搜索[flattened  look-ahead]．
+604-5压缩的推理规则-flattened rules of infer-ence]，见定理之别于规则雅忙提花机\_Jacquard  loom]，25亚里士多德[Aristotlel,19烟草花叶病毒[tobacco mosaic virusl,
+484-85,542,543烟斗[ pipesl,  480-82,  486, 488, 493-94.
+701-3延长记号[fermatasl,27s,329,332,333严谨和马虎[Prudence and Imprudence],
+191-92,229岩头禅师[Ganto],189-90,256,407衍奴玛拉- ,549-52限[eyes],248, 260, 308, 311, 313, 633,
+7 1 5演绎定理[Deduction Theoreml,186
+1 044Y胸腺嘧啶[thymine：，见核苷酸休贝尔，大卫[HubeI,David],341,343修剪，显式之别于隐式[explicit vs. im-plicit pruning] ,286袖珍计算器[pocket calculators],568-70,
+616 ,678. 710应拟[subjunctives]，见对实虚拟的重放镜头[8ubjunctive instant re-plays]，见即时重放的镜头虚拟电视[subjunc-TV],635-40序数[ordinals],462-64,475-76旋律[ melodies]：回忆，363-64*耐时出现．385漩涡[vortices],713-19选择[choice] ,711-14薛定谔，欧文[Schr6ndinger,Erwinj,167雪茄[cigars],199,201,383,481.651勋伯格，阿诺德[Schonberg,Arnoldl,125循环Lloops]：程序设计中的，149-50,410-14,424-25,503,632*音乐中的，150*有界的，149,410-14 ,418,440-41,444 I自由的，149,424-25演员形式[actor formalisml,662-64扬，莱蒙特[Young,LaMonte],700扬弗，维克托[Yngve,Victor] ,620尧奇[Jauch,J.M．l,408,409,478-79页，计算机中的[pagcs,in computer8l,
+289～般递归[gener81 recursivity],406,430,
+470一级结构[primary structurel:蛋白质的．519-22；印符酶的，511, 512《一首无的奉献}[A Mu Offeringl,272,
+628一维之另Ij于三维[l-D vs.3一D二．519-21,．
+616--17《一位烟民富于启发性的思想)[Edifying
+Thougbts of a Tobacco Smoker]（巴
+赫），482《一位烟民富于启发性的思想)[EdifyingThoughts of a Tobacco Smoker]（对话）．543一致性[consistency]：定义．94;各式各样的．94-96*和假想的世界．95*100 I和解释．88, 94-101+扩展了的TNT的，223,459*和卢卡斯．477*命题演算的．191 92,229*其誓言．TNT中的．450*毒乓证明．23-24，191-92,  229-30,  449-50*TNT的,229-30,449-50*另见叫 -致性伊莉莎[ELIZA]，见“医生”程序伊她·娥英rEta Oin:,586-93,674伊她-娥英一篪德鲁[ ETAOIN SHRD-LU],630‘‘医生竹程序[Doctor program],599-600,
+608依赖于机器和独立于机器[machine de-
+pendence  and independence].2 94遗传密码[Genetic  Code]．160, 519-20,522-24,533-34.536,538；其起源．231,548遗传型和表现型[genotype and pheno-．
+type].159-62, 167, 173-74, 175-76,
+295,531- 32,667-68遣传学Lgenetics],504-48遗忘[forgettingl,577,578,619《以烟为号>~:Smoke SignaIJ.67,702蚁桥[ant bridgel,334蚁群[ant  colonres]：其层次．319- 27;重新组合．332-33;同大脑比较．315-16，318,324-25,350,358-59；符号层．324-28,330*共产主义．318 ,330- 31;列串．315 17*临界点．316-17, 319- 21*同气体对比．31 7 1人工的．359*信号．320-28；蚁队，317, 319-27,蚁队和信号的机制．317-21 I有智能的．310-36；秩序和紊乱．316-17：种姓分布．318-28,种姓，317-18；自由和控制，315-16,327*另见种姓分布、马姨、蜚蚂、狒犸、蚁队、信号、符号艺术[art]：计算机创作的，603, 619-20*其身份危机，699-700, 703-6*现代的，699-706《艺术语r>[Art-Language],622异层结构[heterarchiesl, 134, 359, 534,
+551-54 ,662,691异域风格，思怨的[exotic styles ofthought],552,563-64,566-67译员[interprctersl,2 93,297,524,671抑制，细胞的[cellular  inhibition]，544意识[ consciousness]：其来源．384-85,387-88；对其理解，82, 680, 708-10*和因果关系，709-10意向，机器的[intentions of machinesl,
+684-85意义[mea ning]：被动的之别于主动的．
+51-52, 94, 97, ]00, 102,191-92, 266,
+267,271,456;和编码，82,158-62,164-
+67, 267；其定位．153-57,158 76, 408-
+9，582-84；《对位藏头诗》的, 82-85}多
+霞的．8,10, 52-53, 82-85, 94-102,153-
+57.158,172,260-67,271,409, 44 7-48,
+524, 332, 666，另见消除歧义；作为多
+维认知结构，582-84；只被符号层所具
+有．324-27. 330, 350, 709-10*固有的，
+见意义，显明的之别于隐含的l建立在
+符号的触发模武上．325,327, 350;从
+进化的时间尺度讲是不必要的，3 21-
+22;客观的，见意义，显明的之别于隐
+含的；和目的．321- 32；作为带随意性的
+高层持征，571;显明的之别于隐龠的．
+89-85,1-58-76,495-500, 583*形式系统
+巾的，见懈释；音乐中的．83. 160. 161,
+162-64 ,167. 172 ,174-75, 927, 582-84.
+626-27, 676-77, 699-700, 704；植根于
+同构中．49-53, 87-88, 94, 267. 337,
+350*和智能．158,162-64 ,170-76,501,
+661-62,DNA的,160,531-32,665意义的层次[levels of meaning]:(对位藏头诗》中的．82 85*神经活动的，575-77 I说谎者悖论中的．496,581,584-85;纹道模式的，83-84*无门的．248;无朋的．266-67;蚁群中的，319- 27 l音乐的．162-63* DNA的，160, 531-32, 665;TNT串的，266,270-71意愿[will]：其根源．684-86;机械化的．1 04 5684-86*自由的，见自由意志因果关系，各种的[types of causalityl,709-10因陀罗之网[Indra's Netl,258,359《音程增值的卡农)LCanon by IntervallicAugmentation],525音阶，循环的[cyclic scale]，见谢泼德音调音响恢复[acoustico-retrieval], 278-80,
+4 60音乐[music]：超出人类理解力的，172,679;粉碎唱机的．75-78；混入唱机的，487-88 l计算机创作的，25, 595, 597,603, 607-9, 626-27, 676-77；其句法，121-23,129-30,227,626-27,737*和弱C学，227, 555, 560；其维度，175*现代的，156-57, 163-64, 174—75, 699-700,704*音符，552-59．另见斯马特I其语义．83, 162-64, 167, 174-75, 582-84,626-27 ,676- 771另见赋格、卡农、钢琴、长笛等《音乐的奉献)[The Musical Offering](巴麓：), 4-10, 86, 665, 666, 719, 720,724,727,739-42镊行家[bankersl,457引导[channeling] ,299,376-77引号[quotation  m8rks].33i 434, 498,
+499,702引理[lemmas],227引文[quotationl, 431, 433-37, 496-97.
+702,738隐含的刻面[ilTJplicit characterizatiotil.
+41,67,72-73,93印度[Indial,549,551,557,562-66印符操作定义[typographical operations,
+defined],64印符酶[typoenzymes-，505-13 I其栓着的偏爱．505-6,511-12印符敬论[Typographical Number Theo--ryj,见TNT印符遗传密码[Typogenetic Code] ,510,
+512,513. 519印符遗传学rTypogenetics],504-13,514,
+1 04 6519,520,529;与WJU系统对比，509-10, 514印透，视觉的[visual signature],347-48t英国掷弹兵>[British Grenadiers],607缟鹉- ,337《影子)[The Shadow8l(马格里特)，480映射[mappings]:导出的．668-69. 671-72；列成表的，85,449,533.536《咏叹调和歌曲)[The Arr and the Song]（马格里特），494《咏叹调及种种变奏)[Aria with DiverseVariations!（巴赫）．392-93,395《咏叹调及种种变奏)[Aria with DiverseVariations]（对话），408《优雅状态)[State of Grace](马格里特)，
+481尤伟，麦克斯[Euwe,Max],605邮政系统比喻[postal system metaphor],
+663油炸土豆片[Frence fries],636-38,683有理致和无理数[rational and irration81numbers] ,14 0-42,418,452, 556-57有目的行为之别于无目的行为[purpose-
+ful vs. purposeless behaviorl,320-22有趣性，程序化的[programmed interest-
+ingness]．615有序和无序*．见秩序和紊乱有终止过程[terminators] (F100P),425-
+29诱导物[inducers],545《鱼和鳞)[Fishes and Scales]（艾舍尔）．
+146-47羽管键琴[harpsichords],3,63,391,502语法[grammar]：费因曼图案的，142,145;高层的．625-27;公案的，625-26,计算机语言的．297, 408-15 l思维的．627;音乐的．626-27;自然语言的‘，130-34 ,150. 363,588- 93, 619-21,630- 32语言[language (s)]：阿拉伯语，164, 623-24；其必要的基础，324；不精确的．674-7 5 I其层次结构，22 I大脑的，570 I德语，366-68, 372, 380, 665*俄语．297,379-80. 642*法语，366-68, 372-73,618；其间的隔板．671}过程语法，】31-34, 619-32}汉语．169, 297i 372-73,377,619-32,674-76}李￡获得，170,294．302;其集合，见文宁集l和计算机，130-34, 300-1-.363,  585- 93, 599-600,  601-3,619-32,674-75,721；其灵活性，649,674-75*罗塞达碑上的，165*蜜蜂的，360;日语,169*对思维的影响，376-77 l和无形的同构．82 l希伯来语．377~另见插图目录}把意义读入计算机产生的语句．599~600, 625*英语．297，366-68, 372-73, 377, 379-80, 501, 629- 30*作为证明的媒介，88-90,195 I主动的意义，51- 52；其中的自指，431-37, 495-98,15 01}另见意义、翻译等语义类[semantic classes],621,630语义网络[semantic networks], 370-72;另见概念网络预处理[preproces8ing],647,650,659元[meta],216-17,224元不可知论[meta-agnosticism],114无答案模式[meta-answer-schema],463元蛋白质[meta-proteins],533-34元定理[metatheorems] ,193- 94元顿悟[Enlightenment 'Yond Enlighten-ment],237,239,243,244元符号[meta-symbols]，560元嗝[meta-hiccups],726元怪物[Meta-Genie：，见怪物元规则等[metarules,etc*]：下棋的，687-88 I智能的．26-27,559,684-85元类比[meta-analogyl,673-74元理论，形式化厂的[formalized metathe-
+ory],194元逻辑[metalogic]，23.676元描述[meta-descriptions]．656-57,674元书[metabook],22元数学[metamathematics],23,579,反映造物神 [God ], 142, 216, 400,478, 482,549,56l,597,685,711Z在TNT中,449 50元搜索[.metasearch] ,397元语言[ metalanguage]．22, 184, 194,248,970，514元愿望[meta．wisbcs]，见愿望元赵州等[META-JOSHU,etc* ],443元证据等[meta-evidence,etc.l,693-94元知识-metaknowledge]．364元直觉_meta-intuition],605元作者Lmeta-author],607-9,726元TNT等[meta-TNT, etc.]，442-43,
+533-34原件[original]（同副本相对的），504原始递归性[prcmitive  recursivity]．406，
+407, 414-20, 422, 424, 429-30, 440,
+441,444,451,466,472原始递归真理[ premitive recur8ive
+truths] ,407原型原则[prototype  principle]．352原子[atoms]：命题演算中的．182,186*物理学中的．303;TNT中的，207. 213．214鼋顿悟* ,237愿望，元愿望等[ wishes，metawishes．
+etc. l,109-16《约翰尼回家乡>[Wben Johnny ComesMarching Homel,607绚翰斯，贾斯泊[Johns ,Jasper] ,703乐盒，事先程序化了的[ preprogrammedmusic box],677阅读框架移动[reading frame shifr] ,154．
+5 25“云俦梅友”*，见没有韵脚的诗云门[Unmonl.254陨石[meteorites],167,172运行得完美元缺的机器[faultlessly func-
+tioning machines],575-78造物神[GOD]（词首字组合），110-15．1 33，1 34，216, 223，224，722；另见神1 04 7怪、怪物增大和减小规则[increasing and decreas-ing  rules].73, 74, 260-61, 264, 269,401-2,407-8,441;另见加长和缩短规则、数论中的紊乱增值[agumentation『],8,9,146, 503, 681-83,738*音程的，156-57_炸脖囊b一[Jabberwockyj(卡罗尔一赵元任)．81,366-68,372-73展现[revelation] ,160-61,175章鱼细胞[octopus ce11],345赵州LJoshul. 233, 237, 238, 240, 2!53,
+259,272赵州[JOSHU](TNT串)，443遮蔽低层[shiclding of lower levels],见不可达性折叠，酶的[folding-up of  enzymes!，511-
+12,519,521,525贞德[Joan of Arcl,20珍珠和牡蛎[pearl and oyster],17,438真空中的声音[noise in vacuuml,82真理[ truthli：不能充分反映在大脑中，584-85*通过符号处理来把握，53-60*之别于假命题．70, 71, 213, 228-29,417, 561, 579-81；之别于美，554-58,584*其难以捉摸性．694-95;之别于商业广告．478*TNT中不可表示的，580-81震_再[vibrations],76-78,82-85 ,102. 270,
+271,469整数序列[sequences of integersl, 73,
+135-39 ,173-74,408整体[wholes]，见整体论整体论[holism]：和禅宗，254;定义．254,312*之别于简化论，284,311-36, 389-90,708-9证据的本质[nature of evidence],633-36证明[proofs]：其本质．18-24, 58-60, 88-
+93,  192- 97,227-28, 458-59,  578,  707-
+8 I从不是绝对的．191- 94 l之别于推导．
+35,193,194-95；证明的证明．192-93证明对[proof-pairs]，416, 438-43, 446-
+47,4150-51,452-54,466,468,469
+1 048之别于[ versus．vs．]：见巴赫之别于卡奇、对巴赫的分懈之别于对巴赫的欣赏、被动的意叉之别于主动的意义、不同的层次之别于相同的层次、程序之别于数据、程序之别于程序员、触发模式中的名词之别于动词、定理之别于定理、定理之别于非定理、定理之别于规则、定理之别于真理，二维之别于三维、符号之别于对象、符号之别于神经原、符号之别于信号、妇见之别于看见、高保真之别于低保真、过程性知识之别于描述性知识、即兴之别于自省、结构之别于功能、局部性质之别于全局性质、句法形式之别于语义形式、句法之别于语义、可达知识之别于不可达知识、类之别于例、理性之别于非理性、连续过程之别于离散过程、蚂蚁之别于蚁群、酶之别于印符酶、美之别于不美、目的论观点之别于进化论观点、男人之别于女人、清醒之别于疯囊、人之别于机器、识别之别于产生、使用之别于谈论、似乎合理的通道之别于似乎不合理的通道、算术规则之别于印符规则、推导之别于证明、同一性之别于差异性、无意义的謦释之别于有意义的解释、显明的知识之别于隐含的知识、显明的意义之别于隐含的意义、显式修剪之别于隐式侈剪、心智之别于大脑、形式化推理之别于非形式化推理、形式系统之别于非形式系统、形式系统之别于现实、演绎式认识之别于类比式认识、一维之别于三维、有目的行为之别于无目酌行为、真之别于假、真之别于美、真理之别于商业广告、整体论之别于简化论、正宗公寨之别于冒牌公案、指令之别于模板，重量之别于质量、主动符号之别于被动符号、主体之别于客体、字之别于笔域、自底向上之别于自顶向下、自我知觉之别于自我超越芝一吉一乌循环菁．94-96，689芝诺，爱利亚的[Zeno of Elia]，28,29-32，
+94 --95.144 ,146,232,610. 681,704 ,722芝诺悖论[Zeno's paradox]．29-32，35，4 3 ,146，610知觉[perception]：和禅宗．251;视觉的．
+97-98知识[knowledgel:编码于蚁群申．319-28，359*过程性的之别描述性的，363-65,615-17,630,654*可达的之别于不可达的．362，36!5. 616，619；其模块性．615-18, 628*显明的之别于隐含的．617-18知识的表示[ representation  of know-ledge]：人工智能中的．569，615-21．626-32,641-59, 664-65, 668-72;大脑中的，见符号、定位知识移植手术[surgical knowledge trans-plantation]．618执与无执[attachment  and  nonatta:h-ment]，232-33,244直觉[int uition],560, 564, 613, 680, 713;其程序化．605,609指令[instructions]：机器语言中的，289-95；之别于模板，497-99, 531，另见程序之别于数据指针，计算机中的[ pointers in compu-
+ters]，289-90，619质数-．见素数秩序和紊乱[order and chaos]:数论中的．393,395,398-402, 406. 408-9,418.蚁群中的．316-17；和自我意识，406{秩序和紊乱》[Order and Chacs]（艾舍尔）．399智能[intelLigence]：其必要基础．324*和缠结的递归，152*其典型能力．559,其基本能力．26 I其简单性，172-73* pJ抽取性，见撇出l碰巧不可说明性，707;其普遍性和意义的固有性．158,16264，170-76，501, 661-62 I天外的，见天外智能；其微妙特征．566 l其限度，475-76，679-80*另见大脑、心智、人工智能等《中国日报》例子鼍，35 l中期[metaphase]．666-67中心法则FCentral  Dogma]：禅宗串的．238,239*240,243;分子生物学的．504-5. 514, 532-34, 536, 667 I数理逻辑的，271,532 - 34,印符遗传学的．513a wjU系统的．5 1 3中心法则映射蕾,532-34,545,547,672,
+709中心命题rC,entral  Proposition] ,264 ,269申心螃蟹映射- ,667中心性[centrality],374-75中央处理器[central processing unit],
+288,289    -终了_bottoming  out].133-35,151,259,
+301,650终了后的终了[post-ending ending],
+392,403终上测试器[termination testerl,425-29种姓分布[caste distribution]:其更新．318-19,324；其意义，321- 24 l将知识编码在其中，319,324-28,359重量之别于质量[weight vs. mass],171-
+72轴突[8xons].339-40蛛网[spiderwebs],371-72,617主调音[tonicl,121-23,129-30主体之别下客体[subject vs. object],598- 99；另见二元论、使用之别于谈论、符号之别于对象
+●主要论题，书的[main theses of book],
+26,46,559,714主义[ism l,2)4-55,625,704-6煮调饮*．见弹出煮调饮柱体，大脑中的[columns in brain],346辖调[ modulation].10,  121-23,  129-3C,
+466.501,717 ,739转录[transcription]：公案向信使的．235-36, 238, 239, 242*字母向音符的，83；阻止．544-45*D\IA向mRNA的．517，524, 527-28, 530, 533, 536, 538, 540-41,544-45; DNA向tRNA的,425转位[inversionl,  8-9, 81,146,  681-83,737-38;另见副本，与原件互补的转移RNA[transfer RNAl,兄tRNA准同构[quasi-isomorphisms]．见同构，汽
+1 04 9动的卓别林．,285着丝点[centromere],668子程序[subroutines],150,292,471,677予框架等[subframcs,etc. -.,644-45*另见思想的递归结构子描述等[subdescriptions, etc.]，650-51 I另见思想的递归结构子脑[subbrain8]．见子系统子系统，大脑的[subsystem8 0f brain],
+385-88,725子有机体[suborgan18ms]，见于系统自底向上之别于自顶向下二bottom-upvs, top-downl,48-49自动程序设计[auiomatic programmingl,
+298-99自动唱机Ejukeboxesi, 154-57. 160-61,
+164,170-71,174-76,500自复利[se:f-rep]：不精确的．500-3，546；由错误消息造成的．503*翻译的，501;分化的．54 6；和渐成过程，160*和恬农，501, 503,逆行的，500-1~琐屑的．490*印符遗传学的．512-13 I增值的．503自驾鸯[bootstrappingl, 24, 293-94, 524,
+548白描述的形容词[self-descriptive adjec-tives]．见自谓的形容词自然数二natural  numbers]：定义．54,204*公设．216 -17 I广义的．453-56*另见效论、数字、TNT、素数等自然语言的言语表达，作为程序[ natural
+language utterances as programs],629自食恶果薯,84,267,472自噬[self-engulfing] ,489-94；不成功的，490,492*完全的，493自吞集_s'elf-swallowing  sets]．20自谓的形容词[autological adjectivesl,
+20-21自我绾程的物体[self-programmed ob-
+jects].,685-86,691-92自我超越[self-transcendence]．477-78,
+4791 05 0自我的奉质[nature of se/f],316-17,327-28,384-85,387-88,695-96,709-14自我符号[self-8ymbol], 385, 387-88,709*不可避免性．388;和自由意志．710-14自我控制[ self-monitoring]．328,  385,387-88,697,713自我无意识的讽刺意味[irony of self-un-awareness],328,330,331,630自我熄灭[self-snuffing]，701-2自我修改的棋Lself-modifying gamesl,
+687- 88自我意识[self-awareness] ,406,479,573自我引用的句子[self-quoting sentence],
+426,496-97自我证明的句子[self-provin,g  senten-
+cesl,542-43自我知觉[self-perception],695--98*之别于自我超越，478自我知识的可能性[possibility of self-knowledge],696-98,706自想国鼍：定位，375*定义，373-74*在其中旅行．377-79,383自行车·汽车车祸故事鼍,338,361,365自由意志Efree w111],388,680,70B,710-14,720 26,734-35*739;另见跳出系统自指[self- reference]：和巴赫，86I作为本质不完全性酌原因，465,470- 71*多层次的．742F哥德尔式的．17-18.271,447-49, 497, 502, 533, 667, 738*翻译的．502;聚焦，438, 443, 445-48*间接的．21, 85,204,436-37, 502, 667, 738-39；蒯恩方法，431-37, 445-46, 449,497-99, 531;似是而非的，437~消除．21- 23自指的句子[self-referential sentences二．
+435-37,477,495-99,501自指和自复制相比较[self-reference andself-replication, compared].530,  533-34 ,541-4 3自组装，自发的[spontaneou8 self-assem-
+bly],485-86,542-43字[wordsl:之别于笔划．325-27, 570,571;计算机中的，288-90,295，411字词的使用频率[frequencies of words
+and letters],377,630字体比喻[typcface metaphorl,541总统对最高法院[President v．SupremeCourt],692纵览力[overview capacityl,613-14,678*另见眺出系统足够强有力的系统[sufficiently powerfLilsystemsl,86,101,4 06-7,430,4 60,530足球[footba11],44,96,678阻遇物[repressors],544-45组块化[chunkingi:和超导，30),和大脑，381- 84, 559；定义．285-88*或然性的，384*和计算机语言，290- 92, 381, 412-13；和科学解释，305-6;和确定性，306-8,363,522+和视觉．348;和蚁群，326-27；音乐的，160,164，525*和直觉的世界观，305-6,362-63*其中的取舍．326*自己的大脑．的,382*DNA的．531-32组块化版本，本书的[chunked versions ofthis book]，见目录、概览、索引、图70组装线，细胞的[cellular assembly  Iincs]，
+528-29,544-45祖母，对她的知觉[perception of grand-mothers],344,345,347-48,349祖母细胞[grandmother ce11],344 ,345最低层规则，嵌在硬件中的[lowest-level
+rules em.bodicd in hardW8re],685-86“最后一步"[last stepl,462-63,468《罪与罚)[Crime and Punishment]（陀斯妥耶夫斯基），379-80作者，本书的[the Authorl,3，6.204,
+370.689,722,724-42作者-三角形[authorship trranglel, 94-95．
+96,689_j竹概念、“、竹概念* ,326AABB的形式[AABB form],133,227ABORT(BlooP) ,412Alg01,292 ,293,381ATN:见扩充迁移l硼AT~I群[ATN-colony],359B库[Pool B],418B-A-C-H（旋律），79-81, 86, 102, 121,
+155-57,266,719BLQCK (BIooP)410-11BIooP,406,409-30,440,441,444*箕基本步骤．409，412-13 l其句法，41Q-15；其中的控制结构．410*其字母表，419,4 25BIooP程序二BIooP  programs] .410-14C系统[C-systeml,65- 67C-A-G-E（旋律）．156-J7CarroII,Lewis ,366，另见卡罗尔，刘易斯CELL(BlocP) ,410-11CPU,！见中央处理器《D调的赞美歌>[Magnificat iE D](巴赫)．．549,558Dboups,Hfpsh,515,533DNA;对其不寻常的解释．231}作为程序、语言、数据，290-91, 547；重组的．665;作为非周期性晶体．167J其共价脊柱．514-15；同计算机语言比较．290-9 1，和@e摁,531;作为描述性知识．616-17 l双串，t514-15. 530- 31~太空中的．I 67,175-76*作为遗传信息携带者．159s与有机体同构，146-48*自摧毁的，536,自复制的方式．529-30 l萁组成和结构．514-15 l和mRNA的关系．51 7DNA篷化酶[DNA polymerasel, 530.
+531DNA核酸内切酶[DNA endonucleasel,
+530,t531DNA连接酶[DNA ligase],530,531DNA邮政快递服务LDNA Rapid Transit
+Service] ,505. 517ENiuo,498-99F库[Pool F],427<F小调小提琴钢琴奏鸣曲>T_Sonata for
+violin and clavier in F minor]（巴赫），
+1 62F(n)和M(n) ,137,142,359FIGURE-FIGURE图形[FIGURE-FIG-
+URE tigurel(凯姆)，68 70FIooP,406,424-30, 567-68*其威力，428-29,561-62；被自己吃掉，425-26iosiG(哥德尔串)．18, 271- 72, 285, 447-55,
+459-60,502,580,608,667,707-8G’,G".G…,……G@<∞>,466—68~G,272,449,451-55,458-59,549G图[Gplot],138,  140-43,14 6-47,  159,
+503,661《G小调幻想曲和赋格>rFantasia andFugue in G minor]，（巴赫）．719《G弦上的咏叹调)[Air on G's Stringl,
+445,446,497GIooP,406,428-29G(n) ,137H(n) ,1371,454I,454IF语句[IF-sratements](BIooP) ,411-12INT(x) ,138-41,146,661J方式-．见机方式"Jabberwocky"(Carroll) ,366-68H Jammerwoch,Der" (Carroll- Scott).366-
+68一Ja8eroq ue ,Le" (Carroll-Warrin) ,366-68Lisp,293,381,626,652,692,738- 39Modus Ponens．见分离规则mRNA, 517-20, 522-25, 527.  28, 530-33,
+536,545,547,662,663N．见数论OUTPUT(BIooP),410,411P系统[P-systeml,64,73-74Planner,629-32pq系统[pq - system]：其表示能力的弱点．101,221-22,407,417l惊人的解释，52-53, 94；马，苹果一幸福的解释，51.88, 215,判定过程，47-49;和同构，49-53,158,625*其完全性和一致性．101；修改了的．87-88,92-93,102Q(n),137-38,152,265,409QUIT(BIooP) ,412r．e．集[r.e．setj，见递归可枚举集
+RNA,见mRNA.rRNA.tRNARNA聚合酶[RNA  polymerase]．527,
+530,544RTN．见递归迁移网
+1 05 2rRNA,528Scott,Robert ,366Smalltalk．662SUB(TNT公式)，444-45T(塔斯基公式)，580-81T集合和C集合* ,73T偶数族[T-even phages],540,542TNT, 204-30，作为编码．265-67 I其木完全性，见不完全性l其第六公理．222-23, 451-55,459,465-68*放松的．2281其公理，215-17,222-23*构成规则表，213-14；简朴的，206, 211, 214, 216,268,442,534;和绝对几何学，451-52；其困境，图示的，7 1 I其扩展，451-59,465-68；扩展了的，其公理．451-52,466--68;良构性，205-15；其目的，60；其内省．17,194, 267-72, 406, 438, 443,449-50* 698, 707-8；推理规则，215,217- 25;作为普适的元语言，265-67}其一致性．229-30,449-50*作为其自身的元语言，267-72, 441-46, 514*和FIG-URE-FIGURE图形，70TNT层次上的解释[explanations onTNT-Ievel]，708TNT的公式[formulas of TNT], 206,
+207-15TNT数二TNT-numbersl,269-70*另见定理敬TNT推导，与机器语言比较[TNT-
+derivations  compared  witb  machine
+languagc] ,291TNT+G,465-67,471TNT+G+G。等，467-71TNr+NG,467tq系统[tq-system],64-67tRNA,522-24,547,548T4噬菌体[T4 phagel,537-41U，作为WJU系统中的非定理奠,36,39U方式量，见无方式W方式*．见惟方式Warrin,Frank l. ,366WJU数*,264-67 I另见定理敬WJU系统*,33-41,46,47,48,52,191,260-671其规则表．260*作为TNT的4~~,4 39-42,466WJU +wu系统*,466wU，作为WJU系统中可能的定理}，
+33-41,229,259- 61,265 -67,2 71, 708wu谜题_.33-41. 259-61,5Q9-10, 613-
+1 4弘算子_mu-operatorl,4 24fI循环L-MU-LOOPl(FIooP),4 24-25,441兀．227,306,408, 415. 421, 546, 568, 605,
+673,728QX174,176'l，不完全性：w-incompletene:,s],221-22,
+421,450- 51∞不一·致性[co-inconsistency]．223, 453-
+55,458-59山一致性rcu_con8istencyl.1 7，4 59；另见∞不一·致性1729, 204-5, 210-11, 345, 393, 551, 564-652．作为概念，6782+2 - 5,57630．作为可能的WJU数鲁,265-67310系统：310-system] ,261-673n+l问题[3r.+l problem],400-2,另见妙极和非妙极的数震4分33秒》[47 33"]<卡奇）．1 56250,338,557,5641 05 3
