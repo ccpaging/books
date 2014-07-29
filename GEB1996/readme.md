@@ -19,6 +19,8 @@ http://pan.baidu.com/s/1hqmUiC8
 
 ## 注意事项
 
+使用 UTF8 TXT 文件格式。
+
 在校对之前，先认领。避免重复工作。
 
 使用中文标点，例如：“”‘’，。等等
@@ -39,4 +41,15 @@ http://pan.baidu.com/s/1hqmUiC8
 
 ## 认领文件
 
-00-04-contents      自动生成
+2014-07-29: 自动生成
+
+		00-04-contents
+
+2014-07-29: ccpaging
+
+		00-00.txt  
+		00-01-preface.txt  
+		00-02-translator.txt  
+		00-03-overview.txt  
+		00-04-contents.txt  
+		00-05-thanks.txt  

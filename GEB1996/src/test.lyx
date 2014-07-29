@@ -268,9 +268,25 @@ status open
 \family sans
 这篇二部对话
 \family default
-不是我写的，而是由刘易斯·卡罗尔于1895年写成的。卡罗尔从芝诺那里借来了阿基里斯和乌龟，我又从卡罗尔那里将他们借过来。本篇的论题是推理与关于推理的推理与关于推
-理的推理的推理等等之间的关系。在某种意义上，它对应于芝诺的关于运动不可能性的悖论，它运用无穷回归法，似乎显示了推理的不可能性。这是一个优美的论，在后面各篇章中将
-多次被提及。
+不是我写的，而是由刘易斯·卡罗尔于1895年写成的。卡罗尔从芝诺那里借来了阿基里斯
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+阿基里斯
+\end_layout
+
+\end_inset
+
+和乌龟，我又从卡罗尔那里将他们借过来。本篇的论题是推理与关于推理的推理与关于推理的推理的推理等等之间的关系。在某种意义上，它对应于芝诺的关于运动
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "不可能性"
+description "123,456"
+
+\end_inset
+
+的悖论，它运用无穷回归法，似乎显示了推理的不可能性。这是一个优美的论，在后面各篇章中将多次被提及。
 \end_layout
 
 \begin_layout Hanging
@@ -292,7 +308,15 @@ status open
 
 \end_inset
 
-本章讨论了在各种伪装掩盖下的自指
+本章讨论了在各种
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+symbol "伪装"
+description "petend,456"
+
+\end_inset
+
+掩盖下的自指
 \begin_inset Note Note
 status open
 
@@ -302,8 +326,58 @@ status open
 
 \end_inset
 
-和自复制问题（例如计算机程序和DNA分子）之间的联系，还讨论了自复制体与外在的能帮助它复制自身的机制（如计算机和蛋白质）之间的关系——特别是其区别——的模糊性。
-信息是如何在这类系统的各个层次上传递的，这是本章的中心话题。 
+和自复制
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+自复制
+\end_layout
+
+\end_inset
+
+问题（例如计算机
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+计算机
+\end_layout
+
+\end_inset
+
+程序和DNA
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+DNA
+\end_layout
+
+\end_inset
+
+分子）之间的联系，还讨论了自复制体与外在的能帮助它复制自身的机制（如计算机和蛋白质）之间的关系——特别是其区别——的模糊性。信息是如何在这类系统的各个层次上传递
+的，这是本章的中心话题。 DNA
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset index_print
+LatexCommand printindex
+type "idx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
+set_width "auto"
+
+\end_inset
+
+
 \end_layout
 
 \end_body

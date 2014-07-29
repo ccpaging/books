@@ -163,7 +163,7 @@ Preamble
     
     \let\OriginalMarginpar\marginpar
     \def\marginpar#1{\OriginalMarginpar{\footnotesize #1}}
-
+    
 EndPreamble
 
 # Default textclass options. The user may need to modify this.
