@@ -9,7 +9,7 @@ PageStyle               Headers
 Input stdclass.inc
 Preamble
     % 自定义页边距
-    \RequirePackage[paperwidth=9cm,paperheight=12cm,top=0.5cm,bottom=0.5cm,left=0.5cm,right=1cm]{geometry}
+    \RequirePackage[paperwidth=9cm,paperheight=12cm,top=0.5cm,bottom=0.5cm,left=0.5cm,right=0.5cm]{geometry}
     \special{papersize=9cm,12cm}
     \RequirePackage{xkeyval}
     
@@ -236,7 +236,6 @@ Input stdcounters.inc
 NoStyle         Part
 NoStyle         Part*
 NoStyle         Chapter*
-NoStyle         Section*
 NoStyle         Paragraph
 NoStyle         Paragraph*
 NoStyle         Subparagraph
