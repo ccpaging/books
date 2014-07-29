@@ -312,9 +312,13 @@ status open
 \end_layout
 
 \begin_layout Standard
-大伟抵中国后不久，吴教授再次启程前往西方，并途经密执安州的安阿伯[Ann Arbor.Michigan]，我当时就住在那里。我的研究生和我都亟于知道吴教授如何能讲
-如此出色的英语。他解释说，在小的时候，他上过一所完全用英语授课的学校，他甚至还得到过一个英文名字——“安德鲁”[Andrew]。他很希望我们用这个名字来称呼他，
-然而把他看成是“安德鲁”，对我们来说总觉得有点不自然，因此对于我们大家，他依然是“吴教授”。
+大伟抵中国后不久，吴教授再次启程前往西方，并途经密执安州的安阿伯[Ann
+\begin_inset space \space{}
+\end_inset
+
+Arbor.Michigan]，我当时就住在那里。我的研究生和我都亟于知道吴教授如何能讲如此出色的英语。他解释说，在小的时候，他上过一所完全用英语授课的学校，他甚
+至还得到过一个英文名字——“安德鲁”[Andrew]。他很希望我们用这个名字来称呼他，然而把他看成是“安德鲁”，对我们来说总觉得有点不自然，因此对于我们大家，他
+依然是“吴教授”。
 \end_layout
 
 \begin_layout Standard
@@ -834,7 +838,35 @@ Moser]来中国与我们共同工作。对于书中充满的精微的文字游�
 \end_layout
 
 \begin_layout Standard
-甚至连书的译名也出了问题。这本书的英文原名“Godel,
+甚至连书的译名也出了问题。这本书的英文原名“G
+\size small
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+uipa 
+\end_layout
+
+\end_inset
+
+ö
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\size default
+del,
 \begin_inset space \space{}
 \end_inset
 

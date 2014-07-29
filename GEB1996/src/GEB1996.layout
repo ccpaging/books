@@ -16,6 +16,9 @@ Preamble
     %\setmainfont{SimSun-18030}
     %\setsansfont{Komika Text}
 
+    \RequirePackage{xltxtra,fontspec,xunicode}
+    \newfontfamily\uipa{Times New Roman} % 在正文中用{\uipa ...}来显示音标
+
     % 设置字体
     \RequirePackage[boldfont,slantfont,CJKnumber,CJKchecksingle,fallback]{xeCJK} % 允许粗体,斜体,支持\CJKnumber{\thechapter}
 	
