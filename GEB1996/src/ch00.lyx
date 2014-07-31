@@ -1,0 +1,1869 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass GEB1996
+\use_default_options true
+\begin_modules
+hanging
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正书宋_GB18030
+\font_sans 方正楷体_GB18030
+\font_typewriter 方正黑体_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter-toc*
+作者为中文版所写的前言
+\end_layout
+
+\begin_layout Standard
+我的《哥德尔、艾舍尔、巴赫》一书中译本的出版使我感到极大的快乐，因为我对中国的语言和文化一直有一种特殊的迷恋和喜爱。在这篇前言中，我要说明我个人对中国和中文的兴
+趣是从何而来的，以及我是如何得知并介入了《集异壁》的中文翻译的。然后我将解释一下英文的《集异璧》中一些语言和结构方面的特点，以及它们是如何给把本书翻译成任何其它
+语言的工作摆出难题的。当然，还有就是这些问题在中文翻译那里是怎样一种情形。对我来说，这种问题是所有智力问题中最迷人的。我希望中国读者能够不仅在阅读这篇前言的时候
+，而且（这是更重要的）在阅读这部杰出译作的整个过程中，乐于思考这些问题！
+\end_layout
+
+\begin_layout Section*
+我个人对中国及其语言的兴趣
+\end_layout
+
+\begin_layout Standard
+一般地说，中国对于西方人似乎是个最具异国情调的国家，中文是种最有异域风味的语言。我小的时候当然也有这种感觉。然而，除此之外，我还有幸在邻近旧金山的地方长大。旧金
+山是个有众多中国人和世界著名的“唐人街”的城市。每隔几个月，我的父母就会带我去旧金山，并且必然要光顾那里的唐人街，逛一逛中国商店，在中餐馆吃饭（当然是用筷子！）
+。这种旅行总能给我极大的快乐。
+\end_layout
+
+\begin_layout Standard
+关于唐人街，我记得最清楚的事情之一，就是那许多书法优美的巨大而多彩的汉字招牌。（有些当然是霓虹灯做的，但其形状都
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+具有天然的笔划感。）我过去总觉得我们自己的字母充满着神秘，因此，如此迥然不同的另一种书写系统的外观——其符号又比我们的复杂和繁难得多——便使我产生了无尽的神往。
+在一次去旧金山的这种旅行中——当时我大概有十或十一岁——我买了一本汉英辞典，试图学会一些方块字，但这太难了，我很快就放弃了。
+\end_layout
+
+\begin_layout Standard
+很多年以后，在我大约三十岁的时候——事实上，当时我正在斯坦福大学撰写《集异壁》——我对中文的迷恋仍然未泯，因此我修了一年的中文课。对从我孩提时期以来一直见到和听
+到的这种语言的书面字词和声音的逻辑作一番真正的理解，这从一开始就是激动人心的。一年过去之后，当我已经能够理解老师说出的完整句子的时候，就更是激动不已了。
+\end_layout
+
+\begin_layout Standard
+可惜我的知识并不很牢固，在我迁到印第安纳又过了几年之后，我的那点中文大都烟消云散了。然而幸运的是我又一次有了一点空闲时间，并能坐下来第二次学一年级的中文课程。这
+次，我的知识得到温习和强化，这足以激发我几个月以后坚持自学下去。到这次学习快要结束的时候，我甚至和一位中国朋友在电话上进行了五分钟的简单交谈——从某些标准看是微
+不足道的，但是我当时十分自豪，而且直至今天它还是我记忆中的一个光点。
+\end_layout
+
+\begin_layout Standard
+无论如何，我花在中文上的两年半的工夫已经使我对于与这个国家及其语言有关的东西更敏感了，因此，当我得知——十分偶然地——有人正在从事我这本书的中译工作时，我抱着异
+乎寻常的兴趣想知道详情。
+\end_layout
+
+\begin_layout Section*
+《集异璧》独特的语言和结构特点
+\end_layout
+
+\begin_layout Standard
+如果《集异璧》是一部关于某个科学领域的平铺直叙的书，那么我也许就不会为将它译成各种文字的事而操心了。然而，《集异
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+
+璧》使用了一种非常不正统的方式来表述科学思想：这本书是由交插的对话和章节组成的，这种格式使得种种概念先在对话中得以介绍，接着在随后的一章中更深刻地“回响”出来。
+就语言和形式结构而言，各章都是颇为直截的，而对话则迥然不同。每篇对话都以某种方式同著名的巴洛克时期作曲家约翰·塞巴斯第安·巴赫的某支对位乐曲相关联，即在结构上或
+松散或严格地摹仿他的那支乐曲。此外，多数对话都包含有巧妙的英语文字游戏。几乎所有对话都有一个或多个“结构性双关”为其特征——这是一些除了载有重要的语义之外，还具
+有复杂的形式特征的段落。总之，英文《集异壁>的许多篇章在具有平铺直叙的文字内容的同时，又具有通过其结构布局所体现的隐藏意义。因此，把这本书译成任何其它语言都是一
+项令人望而生畏的工作。
+\end_layout
+
+\begin_layout Standard
+由于考虑到这一点，1981年我便逐行通览了全书并加上了注释，指明了所有成语典故和结构性双关，我把它寄给了我的出版商，要求他们给每位译者各寄一份。从1983年到1
+985年，我还花了几个月的时间同两位法语译者共同磋商法文翻译，有时也同另一些译者合作从事于把它译成其它语言的工作，特别是荷兰语、德语、意大利语和西班牙语。这些经
+历是特别富于启迪性的，我认为他们的经验对于未来《集异璧》的译者来说是不可缺少的。因此，我写了一篇短文，对于一些关键问题的解决提出了建议。我请求我的出版商把它连同
+其它材料一起分发给《集异壁》未来的所有译者。
+\end_layout
+
+\begin_layout Standard
+通过这种办法，我希望能在将《集异璧》译成任何语言时保证高质量。
+\end_layout
+
+\begin_layout Section*
+中文《集异璧》的翻译工作
+\end_layout
+
+\begin_layout Standard
+正像我前面提到过的，我得知中译《集异璧》的工作正在进行
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+纯属偶然。我的一位同事于1985年访华，他回来后对我说他在北京大学计算机科学技术系会见了两位教授——吴允曾和马希文——他们正指导着一项中译《集异璧》的工作。我又
+激动又惊讶，并亟于确认他们的翻译小组也会得益于其它翻译小组已积累的经验，因此我立刻给他们写了一封信。
+\end_layout
+
+\begin_layout Standard
+我很快就收到了一份吴教授用优美的英文写来的热烈答复。
+\end_layout
+
+\begin_layout Standard
+在信中，他并未提到事实上他在一两年前访问美国时曾试图与我联系，以便使我了解这个翻译计划的存在（令人奇怪的是，我只是最近才得知他的那次尝试）。当时他的信只是谈到了
+我所提出的几个话题，比如，他证实了我的怀疑，即这个小组不包括任何母语是英语的人。他还告诉我译文的初稿已大致完成，但在许多方面还需要大量时间进行修改，并且他们愿意
+这样做。当然，我的中文水平不能胜任这一工作，然而幸运的是，我有两个亲密的中文说得很出色的美国朋友，而他们对翻译问题也十分着迷。结果是他们中的一位：莫大伟[Dav
+id
+\begin_inset space \space{}
+\end_inset
+
+Moser]，能够并愿意前往。因此我在回信中建议大伟去北京参加这个翻译小组。
+\end_layout
+
+\begin_layout Standard
+吴教授和马教授对此欣然同意，因此，1986年初，大伟启程赴北京。在他逗留期间，他被安排住在北大校园里。他到达后不久就见到了对他表示欢迎的吴教授。大伟还见到了一位
+翻译小组的新成员，他名叫严勇，是计算机专业的研究生。（马教授当时在国外，其他四位译者——郭维德、郭世铭、樊兰英和王桂蓉——的工作已基本完成了，而王培当时尚未参加
+进来。）大伟和严勇很快成了好朋友，而严勇随后又把大伟介绍给刘皓明，他的专业是文学，严勇把他带到小组里的部分原因，是由于他在构造具有独创性的中文文字游戏方面所具有
+的聪敏。这三个人很快成为挚友和强有力的工作伙伴。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+吴教授访问安阿伯和我们对
+\begin_inset Newline newline
+\end_inset
+
+翻译中“信”这一原则的讨论
+\end_layout
+
+\begin_layout Standard
+大伟抵中国后不久，吴教授再次启程前往西方，并途经密执安州的安阿伯[Ann
+\begin_inset space \space{}
+\end_inset
+
+Arbor.Michigan]，我当时就住在那里。我的研究生和我都亟于知道吴教授如何能讲如此出色的英语。他解释说，在小的时候，他上过一所完全用英语授课的学校，他甚
+至还得到过一个英文名字——“安德鲁”[Andrew]。他很希望我们用这个名字来称呼他，然而把他看成是“安德鲁”，对我们来说总觉得有点不自然，因此对于我们大家，他
+依然是“吴教授”。
+\end_layout
+
+\begin_layout Standard
+吴教授这次来访最值得回忆的部分是我们那些有关翻译的活泼讨论，对这一话题他显然是极有兴趣的。一天晚上，我们的讨论集中到被称作《螃蟹卡农》的那篇对话上来，它严格地模
+仿了巴赫的一首为两把小提琴而写的作品。这支曲子（是巴赫《音乐的奉献》中的一小部分）具有一种奇特的性质：它倒着演奏时同正着演奏时听起来是一模一样的，只是那两件乐器
+或“声部”彼此对调了。
+\end_layout
+
+\begin_layout Standard
+具有这种性质的音乐作品传统上被称作“螃蟹卡农”，因为螃蟹据称是倒着走路的（实际上，它们更多地是横着走而非倒着走，然而这个名称不管怎么说已约定俗成了）。
+\end_layout
+
+\begin_layout Standard
+我一描述完音乐中螃蟹卡农的概念，吴教授就指出了这种音乐作品同“回文”之间的联系——回文就是那种正着读倒着读都一样的句子。他给我们讲了一个著名的由五个字组成的中国
+古典回文：“叶落天落叶”。我开玩笑地问他怎样才能把我最喜欢的英语回文“A
+\begin_inset space \space{}
+\end_inset
+
+man，a
+\begin_inset space \space{}
+\end_inset
+
+plan，a
+\begin_inset space \space{}
+\end_inset
+
+canal:Panama”译成中文。吴教授想了一会儿，意识到他得一个字母一个字母地把这个句子倒转过来，而不是象中文回文那样一个字一个字地处理。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+他同意，在中文中构造一个同这个英语中的经典回文内容相同的回文，实际上是不可能的。然而，这句话最显著的特征不是其内容，而是其对称形式。因此，在我看来，任何一个出色
+的中文回文，无论其题材是什么，在某种抽象的意义上说，都可以被看成这个英文回文的一种“忠实的翻译”。虽然这一看法在吴教授看来有点极端，他还是同意如果一位译者把这句
+出色的回文变成一个普通的、不可逆读的中文句子：“一位工程师设计了巴拿马运河”，那将是不得要领的。
+\end_layout
+
+\begin_layout Standard
+显然是在这场对翻译中“忠实于原文”这一原则讨论的激发下，吴教授提到了本世纪初一位著名的翻译家严复，严复强调了翻译中应力图达到的三个基本标准：信、达、雅。在叙述了
+他个人对“信”这一概念的解释之后，吴教授随后又对我讲到两个著名的从梵文译成中文的古典《金刚经》译本。前一个于公元500年左右完成，译者是一个懂中文的印度学者。这
+位学者做了两大变动。首先，他将所有中国人不可能知道的印度地名换成人们熟悉的地名（仍然是印度的）。其次，他把诗体变成散文体。与此相反的是，第二位译者（用音译的方式
+）保留了印度那些偏僻的城市和河流的名字，以及诗歌的形式。“这两者中”，吴教授挑战般地问道：“哪一个翻译得更忠实呢？”
+\end_layout
+
+\begin_layout Standard
+我十分肯定他希望我回答“第二个译者更忠实”，然而在我回答之前，他继续说：“第一位译者的所作所为，就象讲一个有关安阿伯的故事，但是只要出现‘安阿伯’，就都用‘芝加
+哥’，来替代——或者甚至用‘华盛顿’，来替代！”显然，这个有趣的类比的原意是要嘲弄性地模仿用著名城市代替偏僻城市的做法，但是这里面却有一个超乎本意的效果：这个类
+比本身正是它所打算嘲笑的那种做法的一个无意的、但却是优美的例子！具体点说，吴教授为了让我们理解那种译法，把他对第一个译者的看法从亚洲的参考系“翻译”
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+
+到美洲的参考系之中了，因为他猜测，放在其原来背景中未经改动的事实不具有足以说服我的直接性和清晰度。他想说明“移译”——即为了适应听众而改编一个故事，正象第一个译
+者所做的那样——是一种不好的方法。然而，就在他的关于移译的论据中，又有什么能比吴教授那自发的移译更好的呢？
+\end_layout
+
+\begin_layout Standard
+我回答说，我非常感谢他为了我而用美国人的观点来解释问题，并且说在《集异璧》的中文翻译中，我所要求的恰恰正是这种转换观点的意愿——只不过方向相反而已。
+\end_layout
+
+\begin_layout Section*
+《螃蟹卡农》所提出的翻译挑战
+\end_layout
+
+\begin_layout Standard
+在这番有趣的意见交换之后，我们回到了我的“螃蟹卡农”式对话这一话题上来。我解释说，出自纯结构方面的考虑（即让它正着读和倒着读是一样的），我构造了一篇听起来象是一
+场合情合理的交谈的对话。事实上，当我花了几个月对它进行修饰的时候，我设法赋予它以下面这种假象：使它看去象是原本就是围绕着某些概念（具体地说，如音乐中出入意料的对
+称、DNA和美术）其次才是围绕其对称结构而撰写的，而不是反过来。其最后的结果就是：《螃蟹卡农》的形式和其内容之间有一种惊人的共鸣。
+\end_layout
+
+\begin_layout Standard
+如果不需要这种共鸣，译者实际上完全可以就任何题材用中文构造一篇流畅的对称对话，正象我前面提到的关于回文“翻译”
+\end_layout
+
+\begin_layout Standard
+的问题一样。然而《螃蟹卡农》中形式与内容的交织意味着：尽管形式是这篇对话中首要的——并且是不可违背的——方面，其内容也应该尽可能地保留。
+\end_layout
+
+\begin_layout Standard
+然而很明显，将内容逐句地精确复制出来将会毁掉这篇对话的精髓。总之，在一个层次上被看作忠实的做法——即把内容一字不差地保留下来——在另一层次上会是对我的意图的公然
+漠视。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+在我看来，为了在翻译《螃蟹卡农》时作到“信”，必然导致用这另一种语言创作一篇极为不同的对话！吴教授认为这是一个十分有趣的想法。
+\end_layout
+
+\begin_layout Section*
+鬼与曹丞相
+\end_layout
+
+\begin_layout Standard
+差不多在我同吴教授在安阿伯进行这场交谈的同时，另一个半球上正进行着一场奇特地与其对应的谈话。莫大伟乍到北京就已开始阅读各篇对话的译文，以弄清楚他们在这些对话上所
+做的工作。他研究的其中一篇对话是《的确该赞美螃蟹》。在这篇对话的开头，在英文原文里有一一个角色说“Speak
+\begin_inset space \space{}
+\end_inset
+
+of
+\begin_inset space \space{}
+\end_inset
+
+the
+\begin_inset space \space{}
+\end_inset
+
+devil!"（这是谚语“说到鬼，鬼就来”[“Speak
+\begin_inset space \space{}
+\end_inset
+
+of
+\begin_inset space \space{}
+\end_inset
+
+the
+\begin_inset space \space{}
+\end_inset
+
+devil
+\begin_inset space \space{}
+\end_inset
+
+and
+\begin_inset space \space{}
+\end_inset
+
+the
+\begin_inset space \space{}
+\end_inset
+
+devil
+\begin_inset space \space{}
+\end_inset
+
+appears.”]的压缩形式。），这是英语中一句很普通的成语，使用场合是：刚提到什么人时，他就出人意料地出现了。在初稿中，这句话被直译为“说到鬼”。大伟问刘皓明
+和严勇：“这是个常见的成语吗？或者说，在中文里有对应的成语吗？”“哦，有的，”他们回答说，“‘说到曹操，曹操就到！”。“好啊，那干嘛不用这个？”大伟问。但是刘皓
+明和严勇犹豫了。他们觉得这样做多少是不忠实的。这个问题同我跟吴教授所讨论的问题相仿。关于曹操的这个成语是中文中所独有的，只有中国作者才会想到它。既然读者知道这本
+书是一个美国人写的，这个成语看起来会是不合适的，因为显而易见是译者擅自改动了原来的表述，并代之以他们自己的选择。但是最后，他们三人一致同意，既然作者的目的在于使
+这本书让中国读者看上去优美而且完全自然——完全没有来自异国它邦之感，因此，使用中文独有的成语，实际上比字对字的翻译更忠实于这本书的精神。
+\end_layout
+
+\begin_layout Standard
+一个类似的翻译二难困境出现在第十二章《心智与思维》中。在那里？我制造了一个扩展了的类比法，用了它，一个人把各种概
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+
+念想象成与美国的各个城市和村镇相对应。一段连续进行的思维活动就对应于穿越许多美国小镇和城市的环绕旅行。我选择用美国城市来扮演概念的角色并非偶然——我是一个美国人
+，主要是为美国读者写作的。读者被合乎情理地假定为相当了解美国的地理，因此，当我提及各种地名时，即便是比较生僻的，他们也会在内心建立起一幅生动的图象。但当《集异璧
+》准备转入另一种文化，尤其是遥远如中国文化的时候，原来的城镇名字是应该保留呢，还是应该被中国的地名所更换呢？这两种选择都会从某种方式来说是忠实的，而从另一种方式
+上来说又是不忠实的。请注意，这个二难困境是多么容易让人想起吴教授的那个关于《金刚经》的故事，和他用美国城市替代亚洲城市的自发类比啊！
+\end_layout
+
+\begin_layout Standard
+这只是许许多多例子中的两个。通过这些例子，我认为这本书必须在新的文化背景中被重新构造——这就是说，以忽视字面上的东西来尊重原著的精神。然而有人会抗议说用“移译”
+法翻译我这本书是过于激进了，读者会觉得这本书不再是我写的了。然而，就我的看法而言，情况恰恰相反一一如果这个小组不采用移译的方针，我才会觉得这本书不再是我写的。
+\end_layout
+
+\begin_layout Section*
+没泡沫的可口可乐在中文里怎么说？
+\end_layout
+
+\begin_layout Standard
+这个问题可以被勾画为一场“浅层忠实”
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+
+和“深层忠实”的冲突——这就是说，对英语散文逐字逐句的结构的忠实与对英语词汇选择背后的灵感的忠实的冲突。显而易见，如果一位作者已经去世或无法联系，译者只能通过“
+从字缝里读出字来”的尝试来猜测难以捉摸的灵感。那时，对过多地进行这种尝试有所克制，并停留在比较浅的层次的忠实上，也许是明智的。然而，当作者花费了数月的时间逐段地
+标出“幕后”的更深层的思想的时候，当他敦促译者要大胆地在深层上重构这些段落的时候，当他甚至派了一位特使以帮助执行这一任务的时候，采纳这一方针看来肯定是更为合理的
+。在阅读了《集异璧》的西班牙文、德文译文的初稿后，我对译者不采纳重构书中的文字游戏和反映所有的结构性难点的方法时所造成的后果已经十分熟悉了。我把这么做的结果描述
+为“完全走了气的”——所有的泡沫都跑光了的——可口可乐。
+\end_layout
+
+\begin_layout Standard
+幸运的是，由于在这本书中这类问题俯拾即是，所以刘皓明和严勇不久便开始认识到接受我的挑战，去摸索对应的文字游戏、对应的结构性双关等等会是何等地激动人心——事实上，
+这的确非常激动人心。因此，与把中译本搞得洋腔洋调的做法相反，他们可以将他们的创造力发挥到极致，并有希望搞出一本光彩闪烁、辉煌夺目、甚至会使人受“愚弄”的书——它
+看起来是如此中国化，以至于几乎无法想象它能在另一种语言里存在！
+\end_layout
+
+\begin_layout Standard
+最严峻的挑战要算是那些对话，这要求想办法在中文里制造出原文是英文的藏头诗、用汉字去替代组字画中原先的英文单词、对原文稍加改动以使精心构造的文字游戏得以建立和显得
+自然等等。这些难题中的大多数非常迷人，可惜这里如果要一一加以讨论篇幅就太长了，而且既然我已经给出了《螃蟹卡农》的例子，我希望它能提供对我这里所谈论的东西的某种感
+觉。
+\end_layout
+
+\begin_layout Standard
+然而有些难题却要小得多，并且是出现在出入意料的地方——经常在各章中非常平凡的段落里。例如，考虑一下十七章中下面这个初看起来平铺直叙的句子：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size small
+For instance,the task of replacing a burnt-out light bulb may turn out to
+ require moving a garbage bag; this may unexpectedly cause the spilling
+ of a box of pills,which then forces the floor to be swept so that the pet
+ dog won't eat any of the spilled pills, etc.,etc.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+中文直译应该是这样的：
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{adjustwidth}{2em}{2em}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size small
+比方说换一只烧蹩了的电灯泡的任务，大概免不了要拿一个垃圾袋来而这又可能意外地弄撒一盒药，于是又不得不去扫地以免宠物狗误食撒了的药丸；等等，等等。
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{adjustwidth}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+然而，他们决定把“宠物狗[pet
+\begin_inset space \space{}
+\end_inset
+
+dog]”改译为“孩子”。为什么？莫大伟是这样解释的：“这段文字旨在成为一个平凡的例子——要尽可能地普通和平易。事情的这一性质比其中的任何特定因素都重要得多。由
+于中国人通常不蓄养狗作为宠物，所以不应该把它直译过来。我们不希望让中国读者这样想：‘宠物狗？！噢，我想起来了——美国人经常是养宠物狗的’。这个例子应该没有一点外
+国味儿，因此我们的变动不仅不是不忠于原文的，而且实际上对于保持该例子的有用性是具有根本意义的。”基于同样的考虑，他们还在这段译文中用“板凳”替换了“垃圾袋”。
+\end_layout
+
+\begin_layout Standard
+刘皓明和严勇非常喜爱这种新式的翻译。刘皓明曾有一次对大伟说，用老办法译《集异璧》“形同没辣味儿的川菜”。有趣的是，这句话可以看作是我的“象没泡沫的可口可乐”这句
+话的移译——虽然刘皓明当然从未听到过我的这个比喻！在地球上相对的两侧，刘皓明和我几乎是同时想出了两个对应的比喻来描述翻译《集异璧》的较传统的方式。当然，在某种朴
+素的意义上说，“走气的可乐”和“不辣的川菜”这两个概念是风马牛不相及的，然而在另一种意义上，它们在其处于各自文化中的读者身上产生了“完全相同的效果”。
+\end_layout
+
+\begin_layout Section*
+移译在什么条件下才是正当的？
+\end_layout
+
+\begin_layout Standard
+可能会有这样的反对意见：“一旦把你的‘移译’概念运用到其它的书中，尤其是小说那里，不就荒唐了吗！这不就是说一部美国小说一旦被类比，到中文里，其故事就将会发生在中
+国而非美国，
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+
+其人物就变成了中国人而非美国人，其事件就变得适合于中国的文化传统而非美国的吗？”这似乎的确是对我所倡导的哲学的一种奇特的、甚至是恼人的引申。然而我并不想把这种翻
+译哲学普遍地运用——事实上，在许多情况下我强烈反对这样做。
+\end_layout
+
+\begin_layout Standard
+许多年以前，我读了费奥多·陀斯妥耶夫斯基的《罪与罚》。我所读的英译文在任何方式上都没有什么不正确或笨拙之感，但却弥漫着一股给了我很大乐趣的“异域”的或“外国”的
+风味。这使我能设身处地地想象说着或听着俄语、使用俄语成语、品味俄国气味等等会是怎样一种感觉。也许只是由于译者是来自英国，而我是生在美国，才使得那本书有一点“外国
+”风味，但是不管是什么原因，那种风味是存在的，而且被我品尝到了。
+\end_layout
+
+\begin_layout Standard
+正象这个反应所揭示的那样，我对同移译针锋相对的翻译哲学抱有强烈的同情态度。这么说，如果我在某些别的书那里如此粗暴地摈弃这种移译式翻译风格的话，是否就同我用类比法
+为《集异璧>的翻译进行的论证不一致了呢？
+\end_layout
+
+\begin_layout Standard
+在我看来此处的关键在这儿：人们必须要区别其信息根本上是独立于文化的书（诸如《集异壁》和多数非小说类的著作），与那些其信息根本上是依赖于文化的书（大多数的小说，如
+果不是全部的话）。对于后者来说，将它们进行“文化移植”——即在目标文化的所有层次上重构它们——显然是一场灾难。如果那样做，原文的所有痕迹就都丧失掉了，人们得到的
+一切只不过是在一个全新的背景中讲述的、引起人们模糊联想的故事。
+\end_layout
+
+\begin_layout Standard
+应当承认，这种处理能够产生出杰出的创造性的艺术作品。例如，莫大伟告诉我说他在北京的时候，在电视上看到过一个将莎士比亚的戏剧《李尔王》完全移植到中国框架中去的引人
+入胜的独创之举。然而，对于同创新判然有别的翻译来说，人们务必不要如此激进。假如是用旧式的汉语讲述李尔王及其女儿们的故事，但让它
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+
+仍然停留在英国的背景中，这倒还能算是一种翻译。总之，我的立场是：移译对于小说类作品来说通常是不适宜的。
+\end_layout
+
+\begin_layout Standard
+另一方面，我认为移译适用于象《集异璧》这样的科普教育著作。虽然它们旨在传递一些独立于文化的信息，但却常常是借用例证的力量来示教的，即利用笑话、双关、轶闻、隐喻、
+类比、比喻等等，而这些都是深深地根植于原著写作时所在的语言和文化之中的。在任何译著中，思想应该同在原著中一样清晰和令人激动地活现出来，这才是至关重要的。这意味着
+概念、形象、词句、以及教学示例所使用的其他手法都必须尽可能地为人熟知——这就迫使人们采用一种激进的、真正是重新构造的翻译风格。因而，正是《集异璧》的本质——即它
+是一本关于抽象概念的书，而不是关于个人经验的书——决定了哪种翻译哲学是恰当的。
+\end_layout
+
+\begin_layout Standard
+我当然能理解许多敏感的译者在深入地改动一本著作时所产生的不情愿心理。然而在《集异壁》这里，正确的行动原则应该是移译，对此，我是深信不疑的。
+\end_layout
+
+\begin_layout Section*
+结束语
+\end_layout
+
+\begin_layout Standard
+尽管我的中文远不到使我能阅读这部译作的地步，我还是通过莫大伟的报告对它作过仔细的钻研。从我所了解到的看，我相当确信它体现了对我的意图的最深层次的忠实，为此我感到
+极度的兴奋。它使我感到兴奋还由于那种以为汉语和英语是极为不同的两种语言的看法里是含有某种真理的，因此，在中文里“复制”出英文原书中做到的事所要求的创造性就十分巨
+大了。这即是说如果我能用中文读这本书的话，我会品尝到译者所做出的所有天才的发明。我希望有朝一日我能体验到这种欢乐。
+\end_layout
+
+\begin_layout Standard
+我应该特别感谢刘皓明和严勇——不仅因为他们处理了这本
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+
+书中所包含的大量技术性细节，而且也因为他们在使用汉语跳跃这么多的“怪圈圈”时所做出的创造性努力。最晚介入这项工程的王培（他在北京大学计算机科学技术系任教）和最早
+介入的郭维德承担了校订工作。本来他们的任务只是对译文做文字上的核对，但结果他们提出了许多颇有见地的修改意见和构思巧妙的新想法。
+\end_layout
+
+\begin_layout Standard
+他们在最后阶段做出了大量的贡献，完全可以被看成本书的“助产士”，因为他们的工作将持续到本书问世之时。此外，我要衷心地感谢马希文教授和翻译小组的其他成员，既为他们
+极其艰苦的工作，也为他们的杰出成果。
+\end_layout
+
+\begin_layout Standard
+最后，我沉痛地告诉大家，吴教授已于1987年5月21日在北京因心脏病发作去世，终年67岁。他不仅是最早设想翻译我这本书的人，而且对于这一工作应如何进行，他是持非
+常开放的态度的。因此，这个译本——他的小组的最后产品，很大程度上应归功于他的探险精神，而且我相信他会肯定这个译本的。我甚至愿意认为吴教授会同意我的看法：这个译本
+体现了他最喜欢的翻译家严复的那三条标准。因此，出于尊敬和感激，我谨将《哥德尔、艾舍尔、巴赫》的中文版献给吴允曾教授，以表达对他的怀念。
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+侯世达
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+于印第安纳州布鲁明顿
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+
+\size small
+1990年秋
+\size default
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter-toc*
+译校者的话
+\end_layout
+
+\begin_layout Standard
+读者打开的这本书是一本空前的奇书。
+\end_layout
+
+\begin_layout Standard
+在计算机科学界，大家都知道这是一本杰出的科学普及名著，它以精心设计的巧妙笔法深入浅出地介绍了数理逻辑、可计算理论、人工智能等学科领域中的许多艰深理论，然而当你翻
+阅它的时候，首先跳入眼帘的却是艾舍尔那些构思奇特的名画以及巴赫那些脍炙人口的曲谱，最后，你合上这本书的时候，竟会看到封面上印着“普利策文学奖”的字样。
+\end_layout
+
+\begin_layout Standard
+1979年，我访问美国斯坦福大学时，意外地碰到了微服来访的王浩教授，他把这本书介绍给我。次年，该校高恭忆教授又在他家中使我认识了作者Douglas
+\begin_inset space \space{}
+\end_inset
+
+R.Hofstadter教授（他给自己起了个中国名字叫侯世达）。不久，中国科学院唐稚松教授就提出了一项把我困扰了十年之久的建议——翻译这本书。这实在是一件困难不堪
+的工作，只要想象一下书中俯拾即是的那些花絮就可以明白。
+\end_layout
+
+\begin_layout Standard
+1981年回国以后，吴允曾教授又建议我们两人组织一些人来翻译此书。我被他的热情所感动，又受到了一些朋友的鼓舞，就答应了。我们很快得到了商务印书馆的积极支持，工作
+迅速展开。先后有樊兰英、郭维德、郭世铭和王桂蓉等同仁参加进来，我与吴允曾先生则承担校对任务。在经历了一番艰辛之后，我们不久就完成了大部分章节的译文。
+\end_layout
+
+\begin_layout Standard
+作者听说我们的工作之后，给了我们很大的帮助。他寄来了一本专为翻译者准备的注释，又几次委派他的朋友莫大伟[David
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+Moser]来中国与我们共同工作。对于书中充满的精微的文字游戏，我们本打算用译者注的办法加以说明，但作者断然反对。他亟希望我们编出类似的中文的文字游戏来。这样一
+来，几乎所有的译稿都得重新整理，而且有相当一部分要脱离原书重新创作。
+\end_layout
+
+\begin_layout Standard
+甚至连书的译名也出了问题。这本书的英文原名“G
+\size small
+ö
+\size default
+del,
+\begin_inset space \space{}
+\end_inset
+
+Escher,
+\begin_inset space \space{}
+\end_inset
+
+Bach
+\begin_inset space \space{}
+\end_inset
+
+-
+\begin_inset space \space{}
+\end_inset
+
+an
+\begin_inset space \space{}
+\end_inset
+
+Eternal
+\begin_inset space \space{}
+\end_inset
+
+Golden
+\begin_inset space \space{}
+\end_inset
+
+Braid”，直译为《哥德尔、艾舍尔、巴赫——一条永恒的黄金辫带》。但“Braid”这个英文多义词不仅在这里有双关的意味，而且作者还特意向我们指出，它作为一个数
+学名词暗示了正题和副题之间有“G、E、B”和“E、G、B"这种词首字母在次序上的照应，而这个照应在书中许多地方要用到。我们研究再三，把副题改成了《集异璧之大成》
+，这里的前三个字正是那三个英文字母的译音，而“大成”则取自于我国的佛教、哲学和音乐典籍，这既与原著的有关内容相呼应，又起到了类似的双关作用。与此相联系，正文中做
+了相应的修改，上、下篇的篇名也分别由原来的“GEB"、“EGB”改为“集异璧”和“异集璧”。此外，封面和有关插图也要重新绘制（幸好刘皓明君完成了这一创作）。
+\end_layout
+
+\begin_layout Standard
+书名已经如此，更不用说书中的文字了。简直可以这样说：在轻松、幽默、流畅的正文背后隐藏着大量的潜台词。它们前后照应、互相联系，交织成一个复杂的、无形的网络。你看不
+见它，但可以嗅出它的气味，并觉察到这是作者有意喷洒的。作者希望借此引起读者的兴趣，从而在反复玩味中体会出那些潜台词来，真正触及本书的精华。
+\end_layout
+
+\begin_layout Standard
+编制一个中文的文字游戏来模仿一个英文的文字游戏，这也许是一件饶有兴味的工作（当然，水平高下暂且不论），但要写出一段译文来，它不但与原文潜台词相同，还要让读者同样
+有兴趣去玩味，这可不是一件容易的差使，何况译者还得首先对自己的体会有充分的把握。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+16
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+我们无法绕过这些难题，也就接受了这项挑战——重译。然而，环顾左右，几位译者都已另有安排，不能继续参与这项工作了。于是，只好另起炉灶，找了严勇、刘皓明和王培这几位
+有志者来完成这吃力的任务。
+\end_layout
+
+\begin_layout Standard
+不用说，脱稿日期就因此一拖再拖。这期间我们看到了四川人民出版社出版的一个节译本，书名就是《GEB——一条永恒的金带》。把那本书与本书仔细比较一下，也许可以使读者
+更能理解上面的这些话。下面的三句话就不必读了。这些话不说明什么问题，只是对作者的文字游戏的一种模仿。而这种模仿又是“自指”类型的。斯坦福大学的著名人工智能学者J
+ohn
+\begin_inset space \space{}
+\end_inset
+
+McCarthy则认为本书作者过分热衷于这种“自指”。
+\end_layout
+
+\begin_layout Standard
+经过这样一个漫长的过程，还要加上郭维德、王培两位对全书的通盘校订以及在排版过程中仔细地核对那些文字游戏，这本书终于摆在读者面前了。但不幸的是，我们却不能把它也摆
+在吴允曾教授的面前，只能用它作为一种纪念，纪念为我国计算机科学作了许多默默无闻的工作，又悄然离开我们而去的吴先生。
+\end_layout
+
+\begin_layout Standard
+在本书的汉译过程中，首先要感谢的是孙齐心，在我们利用计算机编辑系统之前，有许多原稿是由她誊抄的。此外，她还对一些译文提出了值得参考的意见。阅读和誊抄了一部分原稿
+酌人还有杨倩、李然和马灵。我们希望能够在此对她们所曾给予我们的支持和帮助表示深深的感谢。
+\end_layout
+
+\begin_layout Standard
+我们还要特别感谢朱守涛和吴亚平，是他们慷慨地提供给我们他们所开发的CW中文语词处理系统。在这部译文的修改、校对过程中，它起了巨大的作用。如果没有它，许多工作将会
+繁重到不可想象的地步。
+\end_layout
+
+\begin_layout Standard
+中国社会科学院的李惠国教授始终热情关心和积极支持这本译著的出版，我们对他的宝贵帮助表示由衷的感谢。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+17
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+我们诚挚地感谢商务印书馆为出版此译本所做的努力。这本书稿还不胜荣幸地成为商务印书馆历史上第一批用计算机排制版的学术译著。
+\end_layout
+
+\begin_layout Standard
+最后，应该按惯例把译校者的分工说明一下。这有些困难，因为不少工作有交叉，大致情况是：
+\end_layout
+
+\begin_layout Section*
+初稿
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+樊兰英
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+导言，第1、2、5、9章及各章前相应的对话
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+郭维德
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+第3、4、7、8章及相应对话
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+郭世铭
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+第14、15、16、17章及相应对话
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+王桂蓉
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+第6、10、11、12、13、18、19、20章及相应对话
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+二稿（部分重译）
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+王
+\begin_inset space \quad{}
+\end_inset
+
+培
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+第6、10、11、13、18、19、20章
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+严
+\begin_inset space \quad{}
+\end_inset
+
+勇
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+第5、9、12章，对话《藏头诗》、《幻想曲》、
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+《前奏曲》、《咏叹谓及变奏》、《大合唱》
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+刘皓明
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+导言，附件（作者序、概览、插图目录、鸣谢、
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+注释、文献目录、索引），以及除《施德鲁》
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+和上面五篇对话以外的其它全部对话
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+王桂蓉
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+第6、10、11、12、13、18、19、20章及相应对话
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+修订稿
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+王
+\begin_inset space \quad{}
+\end_inset
+
+培
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+除导言外的全部章节
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+刘皓明
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+导言、全部对话、附件
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+校订稿
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+严
+\begin_inset space \quad{}
+\end_inset
+
+勇
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+全书
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+郭维德
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+除附件外的全书
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+至于我自己，有形的工作很少，值得一提的只有一篇对话的改造，就是第十八章前面的《施德鲁》。
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+马希文
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+于北京大学承泽园
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+
+\size small
+1990年8月
+\size default
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+19
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter-toc*
+概览
+\end_layout
+
+\begin_layout Section*
+上篇：集异璧GEB
+\end_layout
+
+\begin_layout Hanging
+
+\family typewriter
+导言：一首音乐一逻辑的奉献。
+\family default
+
+\begin_inset space \qquad{}
+\end_inset
+
+本书一开始讲了巴赫《音乐的奉献》的故事。巴赫对普鲁士的腓德烈王作了一次临时访问，并应邀在国王提出的主题上即兴演奏。他的即兴演出构成了这部伟大作品的基础。而在《音
+乐的奉献》及其故事所构成的主题之上，我进行了贯穿全书的“即兴演出力，因而产生了一种“元音乐的奉献”。我讨论了巴赫作品中的自指及各个层次之间的相互作用，这又引出了
+对艾舍尔绘画作品以及随后的哥德尔定理中对应观念的讨论。我还提供了一份简短的逻辑与悖论的历史作为哥德尔定理的背景。这就把我引到了机械化推理和计算机，以及关于人工智
+能是否可能的争论。在结尾处，我解释了本书的产生契机——尤其是为什么要有那些对话。
+\end_layout
+
+\begin_layout Hanging
+
+\family typewriter
+三部创意曲。
+\family default
+
+\begin_inset space \qquad{}
+\end_inset
+
+巴赫写过十五首三部创意曲。在这篇三部对话里，乌龟和阿基里斯——各篇对话中两个主要的虚构色——由芝诺“创造”出来（因为事实上，他们本是用来形象地表示芝诺的运动悖论
+的）。本篇对话很短，只是给出了后面各篇对话的基调。
+\end_layout
+
+\begin_layout Standard
+第一章：WU谜题。
+\begin_inset space \qquad{}
+\end_inset
+
+提供了一个简单的形式系统(WJU)，并鼓励读者去解一道谜题，以增进对一般形式系统的熟悉程度。引入了一些基本的概念：串、定理、推理规则、推导、形式系鲩、判定过程、
+在系统内部和外部进行操作。
+\end_layout
+
+\begin_layout Standard
+二部创意曲。
+\begin_inset space \qquad{}
+\end_inset
+
+巴赫还写过十五首二部创意曲。这篇二部对话不是我写的，而是由刘易斯·卡罗尔于1895年写成的。卡罗尔从芝诺那里借来了阿基里斯和乌龟，我又从卡罗尔那里将他们借过来。
+本篇的论题是推理与关于推理的推理与关于推理的推理的推理等等之间的关系。在某种意义上，它对应于芝诺的关于运动不可能性的悖论，它运用无穷回归法，似乎显示了推理的不可
+能性。这是一个优美的论，在后面各篇章中将多次被提及。
+\end_layout
+
+\begin_layout Standard
+第二章：数学中的意义与形式。
+\begin_inset space \qquad{}
+\end_inset
+
+提供了一个新的形式系统（pq系统），它甚至比第一章中的WJU系统还简单。乍看上去其中的符号毫无意义，但借助于定理的形式，那些符号突然显示出具有意义。这种显示是对
+意义的初次剖析：它与同构有深刻关系。随后讨论了有关意义的各种问题，诸如真理、证明、符号处理，以及那个难以捉摸的概念——“形式”。
+\end_layout
+
+\begin_layout Standard
+无伴奏阿基里斯奏鸣曲。
+\begin_inset space \qquad{}
+\end_inset
+
+这是一篇摹仿巴赫《无伴奏小提琴奏呜曲》的对话。具体地说，阿基里斯是唯一的谈话者，因为这只是电话一端的记录，另一端是乌龟。他们的谈话涉及了不同语境上的“图形”与“
+衬底”——例如艾舍尔的艺术。对话本身就是一个漂亮的例子：阿基里斯的话是“图形”，而乌龟的话——隐含在阿基里斯的话申——构成了“衬底”。
+\end_layout
+
+\begin_layout Standard
+第三章：图形与衬底。
+\begin_inset space \qquad{}
+\end_inset
+
+本章把艺术中图形与衬底的区别同形式系统中定理与非定理之间的区别作了比较。“图形必然包含有同底一样多的信息吗？”，这一问题引出了递归可枚举集与递归集之间的区别。
+\end_layout
+
+\begin_layout Standard
+对位藏头诗。
+\begin_inset space \qquad{}
+\end_inset
+
+对于本书来说，这篇对话是关键性的，因为它包含了一组对哥德尔的自指结构以及他的不完全性定理的解释。该定理的一个解释是：“对于每个唱机，都有一张唱片它不能
+\end_layout
+
+\begin_layout Standard
+21
+\end_layout
+
+\begin_layout Standard
+播放。”本篇对话的标题是“藏头诗”和“对位”两个词的拼合，“对位”来自拉丁文“contrapunctus”，巴赫用它来指称组成他《赋格的艺术》的许多赋格和卡农曲
+。中间有几处涉及了《赋格的艺术》。对话本身隐藏了一些藏头诗的小花招。
+\end_layout
+
+\begin_layout Standard
+第四章：一致性、完全性与几何学。
+\begin_inset space \qquad{}
+\end_inset
+
+前面那篇对话在这一阶段得到了尽可能的解释。这就使读者回到了“形式系统中符号是如何以及何时获得意义的”这一问题上来。作为对“未定义项”这一难以捉摸的概念的一种阐释
+，本章讲述了欧几里德和非欧几里德几何学的历史。这便引向了不同的、甚至可能是“相冲突”的几何学之间的一致性这一思想，并考察了未定义项与感知及思维过程的关系。
+\end_layout
+
+\begin_layout Standard
+和声小迷宫。
+\begin_inset space \qquad{}
+\end_inset
+
+这是一篇建立在巴赫同名管风琴作品上的对话，是递归——亦即叠套的——结构的一种游戏式的介绍。其中有包含在故事里面的故事。其主干故事没有如期望的那样结束掉，而是开放
+式的，因此读者最后一直处在悬而不决的状态里。有一个叠套中的故事涉及了音乐中的转调——尤其是涉及了一首在错误的调子上结束的管风琴作品，它使听者处在悬而不决的状态里
+。
+\end_layout
+
+\begin_layout Standard
+第五章：递归结构和递归过程。
+\begin_inset space \qquad{}
+\end_inset
+
+ 递归的概念在许多不同的语境中表述出来：音乐模式、语言模式、几伢结构、数学函数、物理理论、计算机程序等等。
+\end_layout
+
+\begin_layout Standard
+音程增值的卡农。
+\begin_inset space \qquad{}
+\end_inset
+
+阿基里斯和乌龟试图解决“一张唱片和播放它的唱机究竟哪一个包含的信息更多”这样一个问题。这个古怪问题的产生，是由于乌龟描述了同一张唱片在一组不同的唱机上播放时，产
+生了两支很不一样的旋律：B—A—C—H和C—A—G—E。然而，最后发现这两支旋律在某种奇特的意义上说原本是“同一个"。
+\end_layout
+
+\begin_layout Standard
+2 2
+\end_layout
+
+\begin_layout Standard
+第六章：意义位于何处。
+\begin_inset space \qquad{}
+\end_inset
+
+广泛地讨论了意义是如何分布于编了码的消息、解码器和接收者之中的。举出的例子包括DNA串、古代碑碣上未能释读的铭文、在大空中飞行的唱片。这些讨论都假设了智能与“绝
+对”意义的某种关系。
+\end_layout
+
+\begin_layout Standard
+半音阶幻想曲，及互格。
+\begin_inset space \qquad{}
+\end_inset
+
+除标题外，这篇对话同巴赫的《半音阶幻想曲，及赋格》几乎没有什么相似之处。它涉及了处理句子以保存真值的适当方法——具体地说就是是否存在“并且”一词的用法规则的问题
+。本篇对话与刘易斯·卡罗尔的那篇颇有共同之处。
+\end_layout
+
+\begin_layout Standard
+第七章：命题演算。
+\begin_inset space \qquad{}
+\end_inset
+
+提出了象“并且”这类词如何能为形式规则所把握的问题。再一次提起了同构的概念与这样一个系统中符号自动获得意义的问题。顺便说一下，本章中所有的例子都采自禅宗的公案。
+这样做是有意的，而且多少带有点挖苦，因为禅宗公案都是处心积虑地构想出来的反逻辑的故事。
+\end_layout
+
+\begin_layout Standard
+螃蟹卡农。
+\begin_inset space \qquad{}
+\end_inset
+
+本篇对话以巴赫《音乐的奉献》中的同名出子为基础。之所以如此命名，是因为螃蟹（据说）是倒着走路的。在本篇对话里，螃蟹第一次露面。从形式技巧和层次游戏的角度讲，这是
+本书中最紧凑的一篇对话。在这篇非常短小的对话里，哥德尔、艾舍尔、巴赫被嵌为一体了。
+\end_layout
+
+\begin_layout Standard
+第八章：印符数论。
+\begin_inset space \qquad{}
+\end_inset
+
+论述了一个叫作“TNT"的扩展了的命题演算系统。其中，数论推理可以由严格的符号处理来进行。还考虑了形式推理与人类思维的区别。
+\end_layout
+
+\begin_layout Standard
+一首无的奉献。
+\begin_inset space \qquad{}
+\end_inset
+
+本篇对话预示了本书中的几个新论题。表面上涉及了禅宗佛学和公案，实际上是对定理与非定理、真与假、数论中的串所进行的讨论，只不过罩上一层薄纱而已。偶尔还提及了分子生
+物学——尤其是遗传密码。除了标题和自指游戏外，本篇对话同《音乐的奉献》并无紧密的联系。
+\end_layout
+
+\begin_layout Standard
+23
+\end_layout
+
+\begin_layout Standard
+第九章：无门与哥德尔。
+\begin_inset space \qquad{}
+\end_inset
+
+试图谈论禅宗的奇思异想。禅宗大师无门对许多公案作了著名的评注，本章里他是个中心人物。在某种方式上，禅宗的思想同当代数理哲学中的一些思想有某种形态上的相似之处。在
+这通“禅学”之后，引入了哥德尔配数这一哥德尔的基本思想，这样，穿越哥德尔定理的第一条通道就修成了。
+\end_layout
+
+\begin_layout Section*
+下篇：异集璧EGB
+\end_layout
+
+\begin_layout Standard
+前奏曲…
+\begin_inset space \qquad{}
+\end_inset
+
+本篇对话与下一篇对话是联在一起的。它们是以巴赫《平均律钢琴曲集》中的“前奏曲与赋格”为基础的。阿基里斯和乌龟带给螃蟹一件礼物，后者接待了一位客人：食蚁兽。礼物原
+来是一张《平均律钢琴曲集》的唱片。他们马上开始播放它。一边听着前奏曲，他们一边讨论前奏曲与赋格的结构。这就引出了阿基里斯如何听一首赋格这个问题：把它作为一个整体
+呢，还是各部分的总和？这其实就是整体论与简化论之争，这一问题很快就要在《蚂蚁赋格》中讨论到。
+\end_layout
+
+\begin_layout Standard
+第十章：描述的层次和计算机系统。
+\begin_inset space \qquad{}
+\end_inset
+
+讨论了观察图画、棋盘以及计算机系统的各种层次问题。其中，对最后一个题目进行了详细的考察。这涉及到对机器语言、汇编语言、编译语言、操作系统等等的描述。讨论随后转向
+了其它类型的复合系统，例如运动队、细胞核、原子、天气等等。问题在于存在有多少中间层次——或着说是否真有这种层次存在。
+\end_layout
+
+\begin_layout Standard
+…蚂蚁赋格。
+\begin_inset space \qquad{}
+\end_inset
+
+这是对音乐中赋格的摹仿：每个声部用同一句话进入。主题——整体论之别于简化论——是由一幅字里有字的递归图画引入的。这幅古怪图画中的四个层次上的字是“整体论”、“简
+化论”和“无”。谈话转向了食蚁兽的一位朋友马姨上，她是一个有意识的蚁群。讨论的话题是她的思想过程的不
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+24
+\end_layout
+
+\end_inset
+
+同层次。对话中隐藏了许多赋格技巧。作为给读者的一种暗示，他们多次提到他们正在听的那张唱片上的赋格中对应的技巧。在《蚂蚁赋格》的结尾，《前奏曲》中的主题又出现了，
+但是有意做了一些变形。
+\end_layout
+
+\begin_layout Standard
+第十一二章：大脑和思维。
+\begin_inset space \qquad{}
+\end_inset
+
+“大脑的硬件是如何支持思维的”这一问题是本章的议题。给出了大脑的大尺度和小尺度上的概览。随后，对概念和神经行为的关系进行了推测性的讨论。
+\end_layout
+
+\begin_layout Standard
+英、法、德、中组曲。
+\begin_inset space \qquad{}
+\end_inset
+
+这是一支间奏曲，由刘易斯·卡罗尔的无意义诗“Jabberwocky"（炸脖襍）及其法文、德文和中文译文组成。前两篇都是上个世纪的译作，中译文出自语言学家赵元任的
+手笔。
+\end_layout
+
+\begin_layout Standard
+第十二章：心智和思维。
+\begin_inset space \qquad{}
+\end_inset
+
+前面的诗歌用一种有力的方式引出了这样一个问题：不同语言——或者说实际上是不同的心智——可以彼此“映射”吗？在两个彼此分离的生理大脑之间进行交流是如何可能的呢？一
+切人类大脑所共有的东西是什么呢？使用了地理上的对应以提供一种解答。问题是：“大脑能否在某种客观的意义上被局外人所理解呢？”
+\end_layout
+
+\begin_layout Standard
+咏叹调及其种种变奏。
+\begin_inset space \qquad{}
+\end_inset
+
+本篇对话．以巴赫《哥德堡变奏曲》为基础，其内容涉及了哥德巴赫猜想这样的数论问题。这一混合体的主旨，在于显示数论的精妙之处是如何从这样一个事实中衍生出来的，即：对
+无穷空间进行探索。这一主题有许多种不同的变奏形式。其中有些引向了无穷的探索，有些引向了有穷的探 ，而另一些则徘徊于两者之间。
+\end_layout
+
+\begin_layout Standard
+第十三章：BIooP和FIooP和GIooP。
+\begin_inset space \qquad{}
+\end_inset
+
+这都是计算机语言的名称。BIooP程序只可以进行可预见的有穷搜索，而FlooP程序可以进行不可预见的，或甚至是无穷的搜索。本章的目的在于给予数论中的原始递归函数
+和一般递归函数概念以一种
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+25
+\end_layout
+
+\end_inset
+
+直观，因为它们在哥德尔的证明中是根本性的。
+\end_layout
+
+\begin_layout Standard
+G弦上的咏叹调。
+\begin_inset space \qquad{}
+\end_inset
+
+在本篇对话中，哥德尔的自指构造在语言中得到反映。这一思想应归功于蒯恩。对于下一章来说，本篇对话提供了一个原型。
+\end_layout
+
+\begin_layout Standard
+第十四章：论TNT及有关系统中形式上不可判定的命题。
+\begin_inset space \qquad{}
+\end_inset
+
+本章的标题采自哥德尔1931年的论文标题，在那篇论文里，他的不完全性定理首次发表。哥德尔的证明的两个主要部分受到仔细的考察。这表明了TNT一致性的假设是如何迫使
+人们得出“TNT（或任何类似的系统）是不完全的”这一结论的。还讨论了它同欧几里德和非欧几里德几何学的关系。仔细考察了同数理哲学的关系。
+\end_layout
+
+\begin_layout Standard
+生日大合唱哇哇哇乌阿乌阿乌阿…
+\begin_inset space \qquad{}
+\end_inset
+
+对话中，阿基里斯无法使诡计多端又不肯轻信的乌龟相信今天是他的（阿基里斯的）生日。他不断重复然而却是不成功的努力预示了哥德尔论证的可重复性。
+\end_layout
+
+\begin_layout Standard
+第十五章：跳出系统。
+\begin_inset space \qquad{}
+\end_inset
+
+显示了哥德尔论证的可重复性，这同时也就导出：TNT不仅是不完全的，而且是“本质不完全的”。分析了卢卡斯那个臭名昭著的论证——大意是说哥德尔定理显示出人类思想在任
+何意义上都不会是“机械的”——并且发现它是不合格的。
+\end_layout
+
+\begin_layout Standard
+一位烟民富于启发性的思想。
+\begin_inset space \qquad{}
+\end_inset
+
+本篇对话论及了许多议题，并且把同自复制和自指有关的问题当怍谈话的驱动力。电视摄像机拍摄电视屏幕、病毒及其它的亚细胞实体装配自身，这些都是谈话中所运用的例子。本篇
+对话的标题来自巴赫自己所作的一首诗的标题，在对话中，这首诗用一种独特的方式加入进来。
+\end_layout
+
+\begin_layout Standard
+第十六章：自指和自复制。
+\begin_inset space \qquad{}
+\end_inset
+
+本章讨论了在各种伪装掩盖下的自指
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+26
+\end_layout
+
+\end_inset
+
+和自复制问题（例如计算机程序和DNA分子）之间的联系，还讨论了自复制体与外在的能帮助它复制自身的机制（如计算机和蛋白质）之间的关系——特别是其区别——的模糊性。
+信息是如何在这类系统的各个层次上传递的，这是本章的中心话题。
+\end_layout
+
+\begin_layout Standard
+的确该赞美螃蟹。
+\begin_inset space \qquad{}
+\end_inset
+
+本篇标题是对巴赫《D调的赞美诗》的戏拟。故事是讲螃蟹似乎有一种能分辨数论陈述真假的魔力，方法是将它们看成音乐作品，用他的长笛演奏，然后决定它们是否“优美”。
+\end_layout
+
+\begin_layout Standard
+第十七章：丘奇、图灵、塔斯基及别的人。
+\begin_inset space \qquad{}
+\end_inset
+
+上一篇对话中虚构的螃蟹被几个具有凉人数学才能为真人取代了。用几种力度不一的方式表述了将心理活动和计算机联系在一起的丘奇一图灵论题，并对之加以分析，尤其是它们与下
+列问题的关系：机械地模拟人的思维；或给一台机器输入一种程序，使之具有感受或创造美的能力。大脑行为和运算之间的联系又带来其他一些话题：图灵的停机问题题与塔斯基的真
+理定理。
+\end_layout
+
+\begin_layout Standard
+施德鲁，人设计的玩具。
+\begin_inset space \qquad{}
+\end_inset
+
+本篇对话摘自特里·维诺格拉德论他的程序施德鲁的一篇论文，我只变动了几个名字。其间，一个程序同一个人就所谓的“积木世界”用汉语进行交谈。计算机程序似乎具有某种真正
+的理解力——在其有限的世界里。本篇对话的标题是以巴赫第一百四十七首康塔塔的一个乐段《耶稣，人渴望的喜悦》为基础的。
+\end_layout
+
+\begin_layout Standard
+第十八章：人工智能：回顾。
+\begin_inset space \qquad{}
+\end_inset
+
+本章从著名的“图灵测验”讲起——这是计算机的先驱阿兰·图灵用来检验一台机器是否存在“思维”的一种建议。从这里．我们进入了人工智能的简史。这包括能——在某种程度上
+——下棋、证明定理、解决问题、作曲、做数学题，以及使用“自然语言”（例如汉语）的程序。
+\end_layout
+
+\begin_layout Standard
+2 7
+\end_layout
+
+\begin_layout Standard
+对实。
+\begin_inset space \qquad{}
+\end_inset
+
+论及我们如何无意识地把我们的思想组织起来，以使我们可以随时想象现实世界的种种假设的变种。还论及了这种能力的畸形变种——例如一位新角色树懒所具有的能力。他酷爱油炸
+土豆片，痛恨违背事实的假设。标题是把“对位”和“反事实”揉在一起的产物。
+\end_layout
+
+\begin_layout Standard
+第十九章：人工智能：展望。
+\begin_inset space \qquad{}
+\end_inset
+
+上篇对话引发了知识如何表示在语境的各个层次上的讨论。这引向了关于“框架”的现代人工智能思想。为具体起见，给出了一种框架式的方法来处理一组关于视觉模式的谜题。随后
+讨论了一般概念间相互作用的深层问题，这又引出对创造力的思考。本章以一组我个人关于人工智能和心智的“问题与推测”收尾。
+\end_layout
+
+\begin_layout Standard
+树懒卡农。
+\begin_inset space \qquad{}
+\end_inset
+
+本卡农摹仿巴赫的一首卡农，在巴赫那里，一个声部演奏着同另一个声部一样的旋律，只是上下颠倒了，并且速度是后者的一半，而第三声部是自由的。在这里，树懒说了同乌龟一样
+的话，只是一律加上了否定（就否定这个词的一般意义而言），而且速度是后者的一半，阿基里斯则是自由的。
+\end_layout
+
+\begin_layout Standard
+第二十章：怪圈，或缠结的层次结构。
+\begin_inset space \qquad{}
+\end_inset
+
+这是对有关层次系统和自指的许多思想的一个综合性总结。涉及了当系统转向自身时所引起的缠结现象——例如，科学探究科学、政府调查政府的过错、艺术地违反艺术规律、以反人
+类思考其自身的大脑和心智。哥德尔定理适用于这最后一种“缠结”吗？自由意志和对意识的知觉与哥德尔定理有联系吗？在结束之际，又一次努力将哥德尔、艾舍尔、巴赫嵌为一体
+。
+\end_layout
+
+\begin_layout Standard
+六部无插入赋格。
+\begin_inset space \qquad{}
+\end_inset
+
+本篇对话是一个庞大的游戏，涉及到渗透于全书的许多思想。这是对本书一开始所讲的那个关于《音乐的奉献》的故事的再述，同时也是对《音乐的奉献》中最复杂的曲子——《六部
+无插入赋格》——的一种文字化“翻译”。这种二重
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+28
+\end_layout
+
+\end_inset
+
+性使得本篇对话充满了比书中任何其他篇章都更多的含义。腓德烈王被螃蟹取代了，钢琴被计算机取代了，等等。还有许多让人吃惊的东西。本篇对话的内容涉及了前面引入的心智、
+意识、自由意志、人工智能、图灵测验等问题。对话以一种对本书开头的模糊指涉而结束，这就使本书成为一个巨大的自指圈，同时还象征了巴赫的音乐、艾舍尔的绘画和哥德尔定理
+。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+29
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
