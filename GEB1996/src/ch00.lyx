@@ -12,9 +12,9 @@ hanging
 \language_package default
 \inputencoding utf8-plain
 \fontencoding global
-\font_roman 方正书宋_GB18030
-\font_sans 方正楷体_GB18030
-\font_typewriter 方正黑体_GB18030
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
 \font_math auto
 \font_default_family default
 \use_non_tex_fonts true
@@ -269,7 +269,7 @@ plan，a
 \begin_inset space \space{}
 \end_inset
 
-canal:Panama”译成中文。吴教授想了一会儿，意识到他得一个字母一个字母地把这个句子倒转过来，而不是象中文回文那样一个字一个字地处理。
+canal: Panama”译成中文。吴教授想了一会儿，意识到他得一个字母一个字母地把这个句子倒转过来，而不是象中文回文那样一个字一个字地处理。
 \begin_inset Note Comment
 status open
 
@@ -327,11 +327,8 @@ status open
 \end_layout
 
 \begin_layout Standard
-如果不需要这种共鸣，译者实际上完全可以就任何题材用中文构造一篇流畅的对称对话，正象我前面提到的关于回文“翻译”
-\end_layout
-
-\begin_layout Standard
-的问题一样。然而《螃蟹卡农》中形式与内容的交织意味着：尽管形式是这篇对话中首要的——并且是不可违背的——方面，其内容也应该尽可能地保留。
+如果不需要这种共鸣，译者实际上完全可以就任何题材用中文构造一篇流畅的对称对话，正象我前面提到的关于回文“翻译”的问题一样。然而《螃蟹卡农》中形式与内容的交织意味
+着：尽管形式是这篇对话中首要的——并且是不可违背的——方面，其内容也应该尽可能地保留。
 \end_layout
 
 \begin_layout Standard
@@ -359,51 +356,13 @@ status open
 
 \begin_layout Standard
 差不多在我同吴教授在安阿伯进行这场交谈的同时，另一个半球上正进行着一场奇特地与其对应的谈话。莫大伟乍到北京就已开始阅读各篇对话的译文，以弄清楚他们在这些对话上所
-做的工作。他研究的其中一篇对话是《的确该赞美螃蟹》。在这篇对话的开头，在英文原文里有一一个角色说“Speak
-\begin_inset space \space{}
-\end_inset
-
-of
-\begin_inset space \space{}
-\end_inset
-
-the
-\begin_inset space \space{}
-\end_inset
-
-devil!"（这是谚语“说到鬼，鬼就来”[“Speak
-\begin_inset space \space{}
-\end_inset
-
-of
-\begin_inset space \space{}
-\end_inset
-
-the
-\begin_inset space \space{}
-\end_inset
-
-devil
-\begin_inset space \space{}
-\end_inset
-
-and
-\begin_inset space \space{}
-\end_inset
-
-the
-\begin_inset space \space{}
-\end_inset
-
-devil
-\begin_inset space \space{}
-\end_inset
-
-appears.”]的压缩形式。），这是英语中一句很普通的成语，使用场合是：刚提到什么人时，他就出人意料地出现了。在初稿中，这句话被直译为“说到鬼”。大伟问刘皓明
-和严勇：“这是个常见的成语吗？或者说，在中文里有对应的成语吗？”“哦，有的，”他们回答说，“‘说到曹操，曹操就到！”。“好啊，那干嘛不用这个？”大伟问。但是刘皓
-明和严勇犹豫了。他们觉得这样做多少是不忠实的。这个问题同我跟吴教授所讨论的问题相仿。关于曹操的这个成语是中文中所独有的，只有中国作者才会想到它。既然读者知道这本
-书是一个美国人写的，这个成语看起来会是不合适的，因为显而易见是译者擅自改动了原来的表述，并代之以他们自己的选择。但是最后，他们三人一致同意，既然作者的目的在于使
-这本书让中国读者看上去优美而且完全自然——完全没有来自异国它邦之感，因此，使用中文独有的成语，实际上比字对字的翻译更忠实于这本书的精神。
+做的工作。他研究的其中一篇对话是《的确该赞美螃蟹》。在这篇对话的开头，在英文原文里有一一个角色说“Speak of the devil!”（这是谚语“说到鬼，鬼
+就来”[“Speak of the devil and the devil appears.”]的压缩形式。），这是英语中一句很普通的成语，使用场合是：刚提到什么
+人时，他就出人意料地出现了。在初稿中，这句话被直译为“说到鬼”。大伟问刘皓明和严勇：“这是个常见的成语吗？或者说，在中文里有对应的成语吗？”“哦，有的，”他们回
+答说，“‘说到曹操，曹操就到！’”。“好啊，那干嘛不用这个？”大伟问。但是刘皓明和严勇犹豫了。他们觉得这样做多少是不忠实的。这个问题同我跟吴教授所讨论的问题相仿
+。关于曹操的这个成语是中文中所独有的，只有中国作者才会想到它。既然读者知道这本书是一个美国人写的，这个成语看起来会是不合适的，因为显而易见是译者擅自改动了原来的
+表述，并代之以他们自己的选择。但是最后，他们三人一致同意，既然作者的目的在于使这本书让中国读者看上去优美而且完全自然——完全没有来自异国它邦之感，因此，使用中文
+独有的成语，实际上比字对字的翻译更忠实于这本书的精神。
 \end_layout
 
 \begin_layout Standard
@@ -425,7 +384,7 @@ status open
 
 \begin_layout Standard
 这只是许许多多例子中的两个。通过这些例子，我认为这本书必须在新的文化背景中被重新构造——这就是说，以忽视字面上的东西来尊重原著的精神。然而有人会抗议说用“移译”
-法翻译我这本书是过于激进了，读者会觉得这本书不再是我写的了。然而，就我的看法而言，情况恰恰相反一一如果这个小组不采用移译的方针，我才会觉得这本书不再是我写的。
+法翻译我这本书是过于激进了，读者会觉得这本书不再是我写的了。然而，就我的看法而言，情况恰恰相反——如果这个小组不采用移译的方针，我才会觉得这本书不再是我写的。
 \end_layout
 
 \begin_layout Section*
@@ -466,45 +425,13 @@ status open
 然而有些难题却要小得多，并且是出现在出入意料的地方——经常在各章中非常平凡的段落里。例如，考虑一下十七章中下面这个初看起来平铺直叙的句子：
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{adjustwidth}{2em}{2em}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quote
 
 \size small
-For instance,the task of replacing a burnt-out light bulb may turn out to
- require moving a garbage bag; this may unexpectedly cause the spilling
- of a box of pills,which then forces the floor to be swept so that the pet
- dog won't eat any of the spilled pills, etc.,etc.
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{adjustwidth}
-\end_layout
-
-\end_inset
-
-
+For instance, the task of replacing a burnt-out light bulb may turn out
+ to require moving a garbage bag; this may unexpectedly cause the spilling
+ of a box of pills, which then forces the floor to be swept so that the
+ pet dog won't eat any of the spilled pills, etc., etc.
 \end_layout
 
 \begin_layout Standard
@@ -522,42 +449,8 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{adjustwidth}{2em}{2em}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\size small
+\begin_layout Quote
 比方说换一只烧蹩了的电灯泡的任务，大概免不了要拿一个垃圾袋来而这又可能意外地弄撒一盒药，于是又不得不去扫地以免宠物狗误食撒了的药丸；等等，等等。
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{adjustwidth}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -791,9 +684,9 @@ Golden
 \end_inset
 
 Braid”，直译为《哥德尔、艾舍尔、巴赫——一条永恒的黄金辫带》。但“Braid”这个英文多义词不仅在这里有双关的意味，而且作者还特意向我们指出，它作为一个数
-学名词暗示了正题和副题之间有“G、E、B”和“E、G、B"这种词首字母在次序上的照应，而这个照应在书中许多地方要用到。我们研究再三，把副题改成了《集异璧之大成》
+学名词暗示了正题和副题之间有“G、E、B”和“E、G、B”这种词首字母在次序上的照应，而这个照应在书中许多地方要用到。我们研究再三，把副题改成了《集异璧之大成》
 ，这里的前三个字正是那三个英文字母的译音，而“大成”则取自于我国的佛教、哲学和音乐典籍，这既与原著的有关内容相呼应，又起到了类似的双关作用。与此相联系，正文中做
-了相应的修改，上、下篇的篇名也分别由原来的“GEB"、“EGB”改为“集异璧”和“异集璧”。此外，封面和有关插图也要重新绘制（幸好刘皓明君完成了这一创作）。
+了相应的修改，上、下篇的篇名也分别由原来的“GEB”、“EGB”改为“集异璧”和“异集璧”。此外，封面和有关插图也要重新绘制（幸好刘皓明君完成了这一创作）。
 \end_layout
 
 \begin_layout Standard
@@ -1430,17 +1323,25 @@ status open
 的）。本篇对话很短，只是给出了后面各篇对话的基调。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第一章：WU谜题。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
-提供了一个简单的形式系统(WJU)，并鼓励读者去解一道谜题，以增进对一般形式系统的熟悉程度。引入了一些基本的概念：串、定理、推理规则、推导、形式系鲩、判定过程、
+提供了一个简单的形式系统(WJU)，并鼓励读者去解一道谜题，以增进对一般形式系统的熟悉程度。引入了一些基本的概念：串、定理、推理规则、推导、形式系统、判定过程、
 在系统内部和外部进行操作。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 二部创意曲。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1449,8 +1350,12 @@ status open
 能性。这是一个优美的论，在后面各篇章中将多次被提及。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第二章：数学中的意义与形式。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1458,42 +1363,60 @@ status open
 意义的初次剖析：它与同构有深刻关系。随后讨论了有关意义的各种问题，诸如真理、证明、符号处理，以及那个难以捉摸的概念——“形式”。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 无伴奏阿基里斯奏鸣曲。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
 这是一篇摹仿巴赫《无伴奏小提琴奏呜曲》的对话。具体地说，阿基里斯是唯一的谈话者，因为这只是电话一端的记录，另一端是乌龟。他们的谈话涉及了不同语境上的“图形”与“
-衬底”——例如艾舍尔的艺术。对话本身就是一个漂亮的例子：阿基里斯的话是“图形”，而乌龟的话——隐含在阿基里斯的话申——构成了“衬底”。
+衬底”——例如艾舍尔的艺术。对话本身就是一个漂亮的例子：阿基里斯的话是“图形”，而乌龟的话——隐含在阿基里斯的话里——构成了“衬底”。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第三章：图形与衬底。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
 本章把艺术中图形与衬底的区别同形式系统中定理与非定理之间的区别作了比较。“图形必然包含有同底一样多的信息吗？”，这一问题引出了递归可枚举集与递归集之间的区别。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 对位藏头诗。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
 对于本书来说，这篇对话是关键性的，因为它包含了一组对哥德尔的自指结构以及他的不完全性定理的解释。该定理的一个解释是：“对于每个唱机，都有一张唱片它不能
-\end_layout
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 21
 \end_layout
 
-\begin_layout Standard
+\end_inset
+
 播放。”本篇对话的标题是“藏头诗”和“对位”两个词的拼合，“对位”来自拉丁文“contrapunctus”，巴赫用它来指称组成他《赋格的艺术》的许多赋格和卡农曲
 。中间有几处涉及了《赋格的艺术》。对话本身隐藏了一些藏头诗的小花招。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第四章：一致性、完全性与几何学。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1501,8 +1424,12 @@ status open
 ，本章讲述了欧几里德和非欧几里德几何学的历史。这便引向了不同的、甚至可能是“相冲突”的几何学之间的一致性这一思想，并考察了未定义项与感知及思维过程的关系。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 和声小迷宫。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1511,29 +1438,47 @@ status open
 。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第五章：递归结构和递归过程。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
- 递归的概念在许多不同的语境中表述出来：音乐模式、语言模式、几伢结构、数学函数、物理理论、计算机程序等等。
+递归的概念在许多不同的语境中表述出来：音乐模式、语言模式、几伢结构、数学函数、物理理论、计算机程序等等。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 音程增值的卡农。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
 阿基里斯和乌龟试图解决“一张唱片和播放它的唱机究竟哪一个包含的信息更多”这样一个问题。这个古怪问题的产生，是由于乌龟描述了同一张唱片在一组不同的唱机上播放时，产
-生了两支很不一样的旋律：B—A—C—H和C—A—G—E。然而，最后发现这两支旋律在某种奇特的意义上说原本是“同一个"。
+生了两支很不一样的旋律：B—A—C—H和C—A—G—E。然而，最后发现这两支旋律在某种奇特的意义上说原本是“同一个”。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+22
 \end_layout
 
-\begin_layout Standard
-2 2
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第六章：意义位于何处。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1541,8 +1486,12 @@ status open
 对”意义的某种关系。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 半音阶幻想曲，及互格。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1550,8 +1499,12 @@ status open
 。本篇对话与刘易斯·卡罗尔的那篇颇有共同之处。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第七章：命题演算。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1559,8 +1512,12 @@ status open
 这样做是有意的，而且多少带有点挖苦，因为禅宗公案都是处心积虑地构想出来的反逻辑的故事。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 螃蟹卡农。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1568,29 +1525,47 @@ status open
 本书中最紧凑的一篇对话。在这篇非常短小的对话里，哥德尔、艾舍尔、巴赫被嵌为一体了。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第八章：印符数论。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
-论述了一个叫作“TNT"的扩展了的命题演算系统。其中，数论推理可以由严格的符号处理来进行。还考虑了形式推理与人类思维的区别。
+论述了一个叫作“TNT”的扩展了的命题演算系统。其中，数论推理可以由严格的符号处理来进行。还考虑了形式推理与人类思维的区别。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 一首无的奉献。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
 本篇对话预示了本书中的几个新论题。表面上涉及了禅宗佛学和公案，实际上是对定理与非定理、真与假、数论中的串所进行的讨论，只不过罩上一层薄纱而已。偶尔还提及了分子生
 物学——尤其是遗传密码。除了标题和自指游戏外，本篇对话同《音乐的奉献》并无紧密的联系。
-\end_layout
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 23
 \end_layout
 
-\begin_layout Standard
+\end_inset
+
+
+\end_layout
+
+\begin_layout Hanging
+
+\family typewriter
 第九章：无门与哥德尔。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1602,8 +1577,12 @@ status open
 下篇：异集璧EGB
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 前奏曲…
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1612,8 +1591,12 @@ status open
 呢，还是各部分的总和？这其实就是整体论与简化论之争，这一问题很快就要在《蚂蚁赋格》中讨论到。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第十章：描述的层次和计算机系统。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1621,8 +1604,12 @@ status open
 了其它类型的复合系统，例如运动队、细胞核、原子、天气等等。问题在于存在有多少中间层次——或着说是否真有这种层次存在。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 …蚂蚁赋格。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1641,25 +1628,37 @@ status open
 但是有意做了一些变形。
 \end_layout
 
-\begin_layout Standard
-第十一二章：大脑和思维。
+\begin_layout Hanging
+
+\family typewriter
+第十一章：大脑和思维。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
 “大脑的硬件是如何支持思维的”这一问题是本章的议题。给出了大脑的大尺度和小尺度上的概览。随后，对概念和神经行为的关系进行了推测性的讨论。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 英、法、德、中组曲。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
-这是一支间奏曲，由刘易斯·卡罗尔的无意义诗“Jabberwocky"（炸脖襍）及其法文、德文和中文译文组成。前两篇都是上个世纪的译作，中译文出自语言学家赵元任的
+这是一支间奏曲，由刘易斯·卡罗尔的无意义诗“Jabberwocky”（炸脖襍）及其法文、德文和中文译文组成。前两篇都是上个世纪的译作，中译文出自语言学家赵元任的
 手笔。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第十二章：心智和思维。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1667,8 +1666,12 @@ status open
 切人类大脑所共有的东西是什么呢？使用了地理上的对应以提供一种解答。问题是：“大脑能否在某种客观的意义上被局外人所理解呢？”
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 咏叹调及其种种变奏。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1676,8 +1679,12 @@ status open
 无穷空间进行探索。这一主题有许多种不同的变奏形式。其中有些引向了无穷的探索，有些引向了有穷的探 ，而另一些则徘徊于两者之间。
 \end_layout
 
-\begin_layout Standard
-第十三章：BIooP和FIooP和GIooP。
+\begin_layout Hanging
+
+\family typewriter
+第十三章：BlooP和FlooP和GlooP。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1695,16 +1702,24 @@ status open
 直观，因为它们在哥德尔的证明中是根本性的。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 G弦上的咏叹调。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
 在本篇对话中，哥德尔的自指构造在语言中得到反映。这一思想应归功于蒯恩。对于下一章来说，本篇对话提供了一个原型。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第十四章：论TNT及有关系统中形式上不可判定的命题。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1712,16 +1727,24 @@ G弦上的咏叹调。
 人们得出“TNT（或任何类似的系统）是不完全的”这一结论的。还讨论了它同欧几里德和非欧几里德几何学的关系。仔细考察了同数理哲学的关系。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 生日大合唱哇哇哇乌阿乌阿乌阿…
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
 对话中，阿基里斯无法使诡计多端又不肯轻信的乌龟相信今天是他的（阿基里斯的）生日。他不断重复然而却是不成功的努力预示了哥德尔论证的可重复性。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第十五章：跳出系统。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1729,17 +1752,25 @@ G弦上的咏叹调。
 何意义上都不会是“机械的”——并且发现它是不合格的。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 一位烟民富于启发性的思想。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
-本篇对话论及了许多议题，并且把同自复制和自指有关的问题当怍谈话的驱动力。电视摄像机拍摄电视屏幕、病毒及其它的亚细胞实体装配自身，这些都是谈话中所运用的例子。本篇
+本篇对话论及了许多议题，并且把同自复制和自指有关的问题当作谈话的驱动力。电视摄像机拍摄电视屏幕、病毒及其它的亚细胞实体装配自身，这些都是谈话中所运用的例子。本篇
 对话的标题来自巴赫自己所作的一首诗的标题，在对话中，这首诗用一种独特的方式加入进来。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第十六章：自指和自复制。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1757,16 +1788,24 @@ status open
 信息是如何在这类系统的各个层次上传递的，这是本章的中心话题。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 的确该赞美螃蟹。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
 本篇标题是对巴赫《D调的赞美诗》的戏拟。故事是讲螃蟹似乎有一种能分辨数论陈述真假的魔力，方法是将它们看成音乐作品，用他的长笛演奏，然后决定它们是否“优美”。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第十七章：丘奇、图灵、塔斯基及别的人。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1775,8 +1814,12 @@ status open
 理定理。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 施德鲁，人设计的玩具。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1784,21 +1827,35 @@ status open
 的理解力——在其有限的世界里。本篇对话的标题是以巴赫第一百四十七首康塔塔的一个乐段《耶稣，人渴望的喜悦》为基础的。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第十八章：人工智能：回顾。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
 本章从著名的“图灵测验”讲起——这是计算机的先驱阿兰·图灵用来检验一台机器是否存在“思维”的一种建议。从这里．我们进入了人工智能的简史。这包括能——在某种程度上
 ——下棋、证明定理、解决问题、作曲、做数学题，以及使用“自然语言”（例如汉语）的程序。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+27
 \end_layout
 
-\begin_layout Standard
-2 7
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 对实。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1806,8 +1863,12 @@ status open
 土豆片，痛恨违背事实的假设。标题是把“对位”和“反事实”揉在一起的产物。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第十九章：人工智能：展望。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1815,8 +1876,12 @@ status open
 讨论了一般概念间相互作用的深层问题，这又引出对创造力的思考。本章以一组我个人关于人工智能和心智的“问题与推测”收尾。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 树懒卡农。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1824,8 +1889,12 @@ status open
 的话，只是一律加上了否定（就否定这个词的一般意义而言），而且速度是后者的一半，阿基里斯则是自由的。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 第二十章：怪圈，或缠结的层次结构。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1834,8 +1903,12 @@ status open
 。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
+
+\family typewriter
 六部无插入赋格。
+\family default
+
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1858,6 +1931,113 @@ status open
 
 \begin_layout Plain Layout
 29
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter-toc*
+鸣谢
+\end_layout
+
+\begin_layout Standard
+本书在我的脑子酝酿了几乎有二十年之久——也就是说从我十三岁时思考我如何用英语和法语思维这一刻起。即使是在此之前，我的主要兴趣线索也是清楚的。我记得小的时候最让我
+入迷的就是这样一个想法，取3个3：用3和它自己进行运算！我那时相信这一想法是别人很难想象的，因为它太微妙了——不过有一天我还是壮起胆问了我母亲它究竟有多大，她的
+回答是“9"。然而我拿不准她是否明白了我的意思。后来，我父亲向我解释了平方根的奥秘，然后是i……
+\end_layout
+
+\begin_layout Standard
+我父母给予我的比任何人都多，他们是我无论何时都可以依靠的支柱。他们引导我、激发我、鼓励我、支持我。最重要的，是他们永远相信我。本书就是献给他们的。
+\end_layout
+
+\begin_layout Standard
+无论是在大的还是小的问题上，我总是不断征求唐·伯德[Don
+\begin_inset space \space{}
+\end_inset
+
+Byrd]的意见，他了解这本书的来龙去脉，对于其总的目的和结构，他在各个方面都有一种准确无误的洞察，他一次又一次地提供给我好主意，我很高兴把它们吸收进来。我唯一
+的遗憾是本书一旦付梓，我便不能收入未来唐将会产生的想法了。还有，让我不要忘了感谢唐开发了那个杰出的不灵活性中有灵活性的乐谱印刷程序“斯马特”，他夜以继日耐心地哄
+斯马特打起精神来做不可思议的游戏。他的一些结果作为插图片收进了本书。不过唐的影响已经传播开了，对此我是非常高兴的。
+\end_layout
+
+\begin_layout Standard
+感谢爱德华·威尔逊[E.
+\begin_inset space \space{}
+\end_inset
+
+O.
+\begin_inset space \space{}
+\end_inset
+
+Wilson]通读了我的《前奏曲，蚂蚁赋格》的早期稿本，并提出了意见。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+感谢马尔文·明斯基[Marvin
+\begin_inset space \space{}
+\end_inset
+
+Minsky]同我在三月里的某一天进行了一场值得纪念的谈话，读者会发现那场谈话的一部分已经重新构造在本书中了。
+\end_layout
+
+\begin_layout Standard
+在某种意义上，本书是对我自己的宗教的一种表述。我希望它将会在我的读者中间传播开来，而我对某些观念的热情和尊崇能够因此潜入一些人的心底。这便是我所能希望的最好的结
+果了。
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+作者
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+于布鲁明顿和斯坦福
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+
+\size small
+1979年1月
+\size default
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+2
 \end_layout
 
 \end_inset

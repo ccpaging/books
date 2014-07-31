@@ -13,9 +13,9 @@ hanging
 \language_package default
 \inputencoding utf8-plain
 \fontencoding global
-\font_roman 方正书宋_GB18030
-\font_sans 方正楷体_GB18030
-\font_typewriter 方正黑体_GB18030
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
 \font_math auto
 \font_default_family default
 \use_non_tex_fonts true
@@ -28,7 +28,7 @@ hanging
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 10
+\paperfontsize default
 \spacing other 1.2
 \use_hyperref true
 \pdf_bookmarks true
@@ -357,7 +357,51 @@ DNA
 \end_inset
 
 分子）之间的联系，还讨论了自复制体与外在的能帮助它复制自身的机制（如计算机和蛋白质）之间的关系——特别是其区别——的模糊性。信息是如何在这类系统的各个层次上传递
-的，这是本章的中心话题。 DNA
+的，这是本章的中心话题。
+\end_layout
+
+\begin_layout Standard
+
+\size small
+然而
+\size default
+有些难题却要小得多，并且是出现在出入意料的地方——经常在各章中非常平凡的段落里。例如，考虑一下十七章中下面这个初看起来平铺直叙的句子：
+\end_layout
+
+\begin_layout Quote
+For instance, the task of replacing a burnt-out light bulb may turn out
+ to require moving a garbage bag; this may unexpectedly cause the spilling
+ of a box of pills, which then forces the floor to be swept so that the
+ pet dog won't eat any of the spilled pills, etc., etc.
+\end_layout
+
+\begin_layout Standard
+\noindent
+中文直译应该是这样的：
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+比方说换一只烧蹩了的电灯泡的任务，大概免不了要拿一个垃圾袋来而这又可能意外地弄撒一盒药，于是又不得不去扫地以免宠物狗误食撒了的药丸；等等，等等。
+\end_layout
+
+\begin_layout Standard
+然而，他们决定把“宠物狗[pet
+\begin_inset space \space{}
+\end_inset
+
+dog]”改译为“孩子”。为什么？莫大伟是这样解释的：“这段文字旨在成为一个平凡的例子——要尽可能地普通和平易。事情的这一性质比其中的任何特定因素都重要得多。由
+于中国人通常不蓄养狗作为宠物，所以不应该把它直译过来。我们不希望让中国读者这样想：‘宠物狗？！噢，我想起来了——美国人经常是养宠物狗的’。这个例子应该没有一点外
+国味儿，因此我们的变动不仅不是不忠于原文的，而且实际上对于保持该例子的有用性是具有根本意义的。”基于同样的考虑，他们还在这段译文中用“板凳”替换了“垃圾袋”。
 \end_layout
 
 \begin_layout Standard
