@@ -566,9 +566,24 @@ begin{adjustwidth}{2em}{2em}
 
 \size small
 For instance,the task of replacing a burnt-out light bulb may turn out to
- require moving a garbage bag; this may unexpectedly cause the spilling
- of a box of pills,which then forces the floor to be swept so that the pet
- dog won't eat any of the spilled pills, etc.,etc.
+ require moving a garbage bag;
+\begin_inset space \space{}
+\end_inset
+
+this may unexpectedly cause the spilling of a box of pills,
+\begin_inset space \space{}
+\end_inset
+
+which then forces the floor to be swept so that the pet dog won't eat any
+ of the spilled pills,
+\begin_inset space \space{}
+\end_inset
+
+etc.,
+\begin_inset space \space{}
+\end_inset
+
+etc.
 \end_layout
 
 \begin_layout Standard
@@ -840,31 +855,7 @@ Moser]来中国与我们共同工作。对于书中充满的精微的文字游�
 \begin_layout Standard
 甚至连书的译名也出了问题。这本书的英文原名“G
 \size small
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{
-\backslash
-uipa 
-\end_layout
-
-\end_inset
-
 ö
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
 \size default
 del,
 \begin_inset space \space{}
