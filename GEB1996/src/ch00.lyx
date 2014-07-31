@@ -91,82 +91,6 @@ hanging
 
 \begin_body
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-frontmatter 
-\backslash
-pagenumbering{arabic}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout CenterLine
-
-\size huge
-\begin_inset Graphics
-	filename images/title_sm.png
-	lyxscale 50
-	scale 25
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/title1.png
-	lyxscale 50
-	scale 25
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/title2.png
-	lyxscale 50
-	scale 25
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-setcounter{page}{1}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Chapter-toc*
 作者为中文版所写的前言
 \end_layout
@@ -384,10 +308,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 到美洲的参考系之中了，因为他猜测，放在其原来背景中未经改动的事实不具有足以说服我的直接性和清晰度。他想说明“移译”——即为了适应听众而改编一个故事，正象第一个译
 者所做的那样——是一种不好的方法。然而，就在他的关于移译的论据中，又有什么能比吴教授那自发的移译更好的呢？
 \end_layout
@@ -566,24 +486,9 @@ begin{adjustwidth}{2em}{2em}
 
 \size small
 For instance,the task of replacing a burnt-out light bulb may turn out to
- require moving a garbage bag;
-\begin_inset space \space{}
-\end_inset
-
-this may unexpectedly cause the spilling of a box of pills,
-\begin_inset space \space{}
-\end_inset
-
-which then forces the floor to be swept so that the pet dog won't eat any
- of the spilled pills,
-\begin_inset space \space{}
-\end_inset
-
-etc.,
-\begin_inset space \space{}
-\end_inset
-
-etc.
+ require moving a garbage bag; this may unexpectedly cause the spilling
+ of a box of pills,which then forces the floor to be swept so that the pet
+ dog won't eat any of the spilled pills, etc.,etc.
 \end_layout
 
 \begin_layout Standard
@@ -865,7 +770,15 @@ Escher,
 \begin_inset space \space{}
 \end_inset
 
-Bach--an
+Bach
+\begin_inset space \space{}
+\end_inset
+
+-
+\begin_inset space \space{}
+\end_inset
+
+an
 \begin_inset space \space{}
 \end_inset
 
@@ -1950,237 +1863,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\begin_inset FloatList figure
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-mainmatter
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Chapter-toc*
-鸣谢
-\end_layout
-
-\begin_layout Standard
-本书在我的脑子酝酿了几乎有二十年之久——也就是说从我十三岁时思考我如何用英语和法语思维这一刻起。即使是在此之前，我的主要兴趣线索也是清楚的。我记得小的时候最让我
-入迷的就是这样一个想法，取3个3：用3和它自己进行运算！我那时相信这一想法是别人很难想象的，因为它太微妙了——不过有一天我还是壮起胆问了我母亲它究竟有多大，她的
-回答是“9"。然而我拿不准她是否明白了我的意思。后来，我父亲向我解释了平方根的奥秘，然后是i……
-\end_layout
-
-\begin_layout Standard
-我父母给予我的比任何人都多，他们是我无论何时都可以依靠的支柱。他们引导我、激发我、鼓励我、支持我。最重要的，是他们永远相信我。本书就是献给他们的。
-\end_layout
-
-\begin_layout Standard
-无论是在大的还是小的问题上，我总是不断征求唐·伯德[Don
-\begin_inset space \space{}
-\end_inset
-
-Byrd]的意见，他了解这本书的来龙去脉，对于其总的目的和结构，他在各个方面都有一种准确无误的洞察，他一次又一次地提供给我好主意，我很高兴把它们吸收进来。我唯一
-的遗憾是本书一旦付梓，我便不能收入未来唐将会产生的想法了。还有，让我不要忘了感谢唐开发了那个杰出的不灵活性中有灵活性的乐谱印刷程序“斯马特”，他夜以继日耐心地哄
-斯马特打起精神来做不可思议的游戏。他的一些结果作为插图片收进了本书。不过唐的影响已经传播开了，对此我是非常高兴的。
-\end_layout
-
-\begin_layout Standard
-感谢爱德华·威尔逊[E.
-\begin_inset space \space{}
-\end_inset
-
-0.
-\begin_inset space \space{}
-\end_inset
-
-Wilson]通读了我的《前奏曲，蚂蚁赋格》的早期稿本，并提出了意见。
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-感谢马尔文·明斯基[Marvin
-\begin_inset space \space{}
-\end_inset
-
-Minsky]同我在三月里的某一天进行了一场值得纪念的谈话，读者会发现那场谈话的一部分已经重新构造在本书中了。
-\end_layout
-
-\begin_layout Standard
-在某种意义上，本书是对我自己的宗教的一种表述。我希望它将会在我的读者中间传播开来，而我对某些观念的热情和尊崇能够因此潜入一些人的心底。这便是我所能希望的最好的结
-果了。
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout RightLine
-作者
-\begin_inset space \qquad{}
-\end_inset
-
-
-\end_layout
-
-\begin_layout RightLine
-于布鲁明顿和斯坦福
-\begin_inset space \qquad{}
-\end_inset
-
-
-\end_layout
-
-\begin_layout RightLine
-
-\size small
-1979年1月
-\size default
-
-\begin_inset space \qquad{}
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Part-toc*
-上篇：集异璧GEB
-\end_layout
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/images-0003.png
-	lyxscale 50
-	scale 20
-	BoundingBox 0bp 0bp 1024bp 1068bp
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-3
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/img-002.png
-	scale 25
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-约翰·塞巴斯第安·巴赫在1748年。取自
-\begin_inset Newline newline
-\end_inset
-
-艾利亚斯·哥特利伯·豪斯曼的一幅油画。
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-4
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Chapter-toc*
-导言
-\begin_inset space \quad{}
-\end_inset
-
-一首音乐一逻辑的奉献
 \end_layout
 
 \end_body
