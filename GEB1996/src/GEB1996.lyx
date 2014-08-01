@@ -26,7 +26,7 @@ hanging
 \default_output_format default
 \output_sync 0
 \bibtex_command default
-\index_command default
+\index_command makeindex
 \paperfontsize 10
 \spacing other 1.2
 \use_hyperref true
@@ -77,7 +77,7 @@ hanging
 \secnumdepth 1
 \tocdepth 1
 \paragraph_separation indent
-\paragraph_indentation 2em
+\paragraph_indentation default
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -186,6 +186,16 @@ status open
 \backslash
 mainmatter
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "ch00-intro.lyx"
 
 \end_inset
 
