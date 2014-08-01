@@ -405,6 +405,154 @@ dog]”改译为“孩子”。为什么？莫大伟是这样解释的：“这�
 \end_layout
 
 \begin_layout Standard
+在我们看到的巴赫和艾舍尔的怪圈例子中，存在着有穷与无穷之间的冲突，因而使人有一种强烈的悖论感。我们直觉到这里面涉及到了什么数学问题。本世纪确实发现了一个产生了巨
+大反响的数学上的对应物。正像巴赫和艾舍尔的圈是作用于人们简单而古老的直观一样（音阶和楼梯），哥德尔对数学系统中怪圈的发现，也有着它简单而古老的直观根源。就其最简
+单的形式而言，哥德尔的发现涉及到把一个古老的哲学悖论转化成数学上的说法。那个悖论就是所谓的“艾皮曼尼蒂斯悖论
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+艾皮曼尼蒂斯悖论[Epimenidesparadox]|见
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+说谎者悖论
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+”，即“说谎者悖论”。艾皮曼尼蒂斯是一个克里特岛人，他说过一句不朽的话：“所有克里特岛人都是说谎者。”这一语句的一种更直截了当的说法是：“我在说谎”，或者，“本
+句子是假的”。[译者注：从前，人们认为这两个陈述都是悖论，而本世纪罗素指出了前者不是悖论。因为由前者的真可以推出它假，而由前者的假则不能推出它真]。我说的艾皮曼
+尼蒂斯悖论在本书中通常是指最后那个说法。这个陈述粗暴地违反了通常设定的把陈述分为真与假的二分法。因为，如果你假定它是真的，那么它会立即产生相反的结果，使你认为它
+是假的。但是，如果你假定它是假的，同样会产生相反的结果，让你又回到它必须是真的这一点上。你可以试试看！
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+21
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+艾皮曼尼蒂斯悖论是一个一步的怪圈，就象艾舍尔的《画廊》一样。但是它与数学有什么关系呢？这正是哥德尔所发现的。他的想法是用数学推论探索数学推论本身。这种使数学“内
+省”的观念有巨大的威力，也许它最丰富的涵义就体现为哥德尔发现的
+\family typewriter
+哥德尔不完全性定理
+\family default
+。这个
+\family typewriter
+定理
+\family default
+说了些什么与它如何被证明是两件不同的事情。我们将在本书中讨论有关这两件事的详细情况。可以把这一
+\family typewriter
+定理
+\family default
+比做是一颗珍珠，而证明它的方法则是一只牡蛎。珍珠由于它的光泽和朴素而被称赞，牡蛎则是一个复杂的有生命的动物，它的内部结构是产生这种神秘的小珍宝的根由。
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+艾舍尔·毛里茨·康奈利斯[Escher．Maurits Cornelisl]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+阿基里斯[Achilles]：其不可达的神经原．328, 686;和答案模式，475*和递归，128-31，14 9I和果园类比，427;其画像，42．其后脚跟
+，484*和卡罗尔悖论．46,170,181，193;其来历，28,29*和《螃蟹卡农》．204，666—67;被螃蟹迷惑．560*被提到，84，272，525
+，573．669*和问题简化，610-11 I其天真．406，408，424*作为小提琴．502*其英文名字的第一个字母．231, 507, 667；映射到蚁群
+中，318.
+ 324;耐遗物神的想象，223
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Quantum Mechanics!History|(
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In 1901, Max Planck released his theory of radiation dependant on quantized
+ energy.
+ While this explained the ultraviolet catastrophe in the spectrum of blackbody
+ radiation, this had far larger consequences as the beginnings of quantum
+ mechanics.
+ ...
+\end_layout
+
+\begin_layout Standard
+In 1901, Max Planck released his theory of radiation dependant on quantized
+ energy.
+ While this explained the ultraviolet catastrophe in the spectrum of blackbody
+ radiation, this had far larger consequences as the beginnings of quantum
+ mechanics.
+ ...
+\end_layout
+
+\begin_layout Standard
+In 1901, Max Planck released his theory of radiation dependant on quantized
+ energy.
+ While this explained the ultraviolet catastrophe in the spectrum of blackbody
+ radiation, this had far larger consequences as the beginnings of quantum
+ mechanics.
+ ...
+\end_layout
+
+\begin_layout Standard
+In 1901, Max Planck released his theory of radiation dependant on quantized
+ energy.
+ While this explained the ultraviolet catastrophe in the spectrum of blackbody
+ radiation, this had far larger consequences as the beginnings of quantum
+ mechanics.
+ ...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Quantum Mechanics!History|)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset index_print
 LatexCommand printindex
 type "idx"

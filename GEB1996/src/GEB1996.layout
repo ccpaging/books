@@ -53,7 +53,7 @@ Preamble
     \usepackage{changepage}
 
     % 首行缩进
-    %\RequirePackage{indentfirst}
+    %\usepackage{indentfirst}
     \setlength{\parindent}{2em}
 
     % 定制章节的格式
@@ -238,9 +238,9 @@ Input stdcounters.inc
 NoStyle         Part
 NoStyle         Part*
 NoStyle         Chapter*
-NoStyle         Paragraph
+#NoStyle         Paragraph
 NoStyle         Paragraph*
-NoStyle         Subparagraph
+#NoStyle         Subparagraph
 NoStyle         Subparagraph*
 
 Style Part
