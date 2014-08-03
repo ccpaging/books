@@ -99,8 +99,8 @@ hanging
 \begin_inset Graphics
 	filename images/images-0003.png
 	lyxscale 50
-	scale 20
-	BoundingBox 0bp 0bp 1024bp 1068bp
+	scale 40
+	BoundingBox 0bp 0bp 513bp 480bp
 
 \end_inset
 
@@ -129,7 +129,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-0004.png
-	scale 25
+	scale 45
 
 \end_inset
 
@@ -690,7 +690,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-0016.png
-	scale 25
+	scale 50
 
 \end_inset
 
@@ -728,7 +728,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-0017.png
-	scale 20
+	scale 40
 
 \end_inset
 
@@ -765,7 +765,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-0018.png
-	scale 25
+	scale 50
 
 \end_inset
 
@@ -798,7 +798,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-0019.png
-	scale 18
+	scale 36
 
 \end_inset
 
@@ -904,14 +904,14 @@ status open
 lines 0
 placement R
 overhang 0in
-width "50col%"
+width "45col%"
 status open
 
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-0021.png
 	lyxscale 50
-	scale 15
+	scale 30
 
 \end_inset
 
@@ -1831,7 +1831,7 @@ status open
 \begin_inset Graphics
 	filename images/images-0040.png
 	lyxscale 50
-	scale 12
+	scale 50
 
 \end_inset
 

@@ -96,29 +96,35 @@ WU谜题形式系统
 \end_layout
 
 \begin_layout Standard
-本书中心的概念之一是形式系统。我用的这种形式系统是美国逻辑学家艾米尔·波斯特在二十世纪二十年代发明的，通常被称为“波斯特产生式系统’’。本章将向读者介绍一个形式
-系统，并且我希望读者愿意——至少是有一点点愿意——去探索这个形式系统。为唤起读者的好奇心，我设计了一个小小的谜题。
+本书中心的概念之一是形式系统。我用的这种形式系统是美国逻辑学家艾米尔·波斯特在二十世纪二十年代发明的，通常被称为“波斯特产生式系统”。本章将向读者介绍一个形式系
+统，并且我希望读者愿意——至少是有一点点愿意——去探索这个形式系统。为唤起读者的好奇心，我设计了一个小小的谜题。
 \end_layout
 
 \begin_layout Standard
-这个谜题就是“你能产生WU吗？”。一开始的时候，我提供给你一个符号串（即一串字母）。为了解除你的悬念，可以告诉你那个符号串就是WJ 。然后，你会得知一些规则，运
-用这些规则你可以将一个符号串变成另一个。如果某条规则在某处是适用的，并且你也愿意用它，你就可以用。但是，如果同时有几条可以适用的规则，又没有什么指导来说明你该用
-哪一条，这将留给你去选择。正是这一点使得做形式系统游戏成为一种技巧。重要的、几乎用不着说明的一点是，你决不能做任何背离规则的事情。我们也许可以把这个限制称做“形
-式化要求”。在本章中，这一点也许根本无需强调。但是我预言,这说起来挺怪的——当你在下面的章节中与形式系统周旋时，你会发现，你将一次又一次地违反形式化要求，除非你
-以前用过形式系统。
+这个谜题就是“你能产生WU吗？”。一开始的时候，我提供给你一个符号串（即一串字母）。为了解除你的悬念，可以告诉你那个符号串就是WJ。然后，你会得知一些规则，运用
+这些规则你可以将一个符号串变成另一个。如果某条规则在某处是适用的，并且你也愿意用它，你就可以用。但是，如果同时有几条可以适用的规则，又没有什么指导来说明你该用哪
+一条，这将留给你去选择。正是这一点使得做形式系统游戏成为一种技巧。重要的、几乎用不着说明的一点是，你决不能做任何背离规则的事情。我们也许可以把这个限制称做“形式
+化要求”。在本章中，这一点也许根本无需强调。但是我预言,这说起来挺怪的——当你在下面的章节中与形式系统周旋时，你会发现，你将一次又一次地违反形式化要求，除非你以
+前用过形式系统。
 \end_layout
 
 \begin_layout Standard
-关于我们的形式系统- WJU系统——要说的第一仲事是它只用了三个字母：W、J、U口就是说WJU系统的所有符号串都是由这三个字母组成的。以下是WJU系统的一些符号
+关于我们的形式系统——WJU系统——要说的第一件事是它只用了三个字母：W、J、U。就是说WJU系统的所有符号串都是由这三个字母组成的。以下是WJU系统的一些符号
 串。
 \end_layout
 
 \begin_layout Standard
 WU
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+45
 \end_layout
 
-\begin_layout Standard
-4 5
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -130,20 +136,37 @@ WUUWUU
 \end_layout
 
 \begin_layout Standard
-UJJUWJUUJWUJJUWJUUJWUJJU34虽然所有这些符号串都是合法的，但它们还不算“归你所有”。事实上，到现在为止归你所有的符号串只有wj。要增加你
-自己的储备，只能靠使用规则，我们现在就介绍这些规则。下面是第一条规则：规则I：如果一个归你所有的符号串结尾是J，则可以在其后面再
+UJJUWJUUJWUJJUWJUUJWUJJU
 \end_layout
 
 \begin_layout Standard
-加上一个U，这里顺便指出一个事实（假如你到目前还未猜出“符号串”的意思）：符号串中的字母是有固定顺序的。比如WJ和JW是两个不同的符号串口一个符号串不是其字母的
-顺序无关紧要的“一堆符号’’。
+\noindent
+虽然所有这些符号串都是合法的，但它们还不算“归你所有”。事实上，到现在为止归你所有的符号串只有wj。要增加你自己的储备，只能靠使用规则，我们现在就介绍这些规则。
+下面是第一条规则：
 \end_layout
 
 \begin_layout Standard
-以下是第二条规则：规则Ⅱ：如果你有Wx，那么Wxx也归你所有。
+\noindent
+规则I：如果一个归你所有的符号串结尾是J，则可以在其后面再加上一个U。
 \end_layout
 
 \begin_layout Standard
+\noindent
+这里顺便指出一个事实（假如你到目前还未猜出“符号串”的意思）：符号串中的字母是有固定顺序的。比如WJ和JW是两个不同的符号串。一个符号串不是其字母的顺序无关紧要
+的“一堆符号”。
+\end_layout
+
+\begin_layout Standard
+以下是第二条规则：
+\end_layout
+
+\begin_layout Standard
+\noindent
+规则Ⅱ：如果你有Wx，那么Wxx也归你所有。
+\end_layout
+
+\begin_layout Standard
+\noindent
 我的意思可在下面几个例子里表示出来：
 \end_layout
 
@@ -156,25 +179,37 @@ UJJUWJUUJWUJJUWJUUJWUJJU34虽然所有这些符号串都是合法的，但它们
 \end_layout
 
 \begin_layout Standard
-从WU，可以得出WU乙。
+从WU，可以得出WUU。
 \end_layout
 
 \begin_layout Standard
-就是说，在这条规则中字母“X"可以代表任意的符号串。但是，一旦决定了它代表哪一个符号串，就得遵循这个选择（直到你再一次使用这条规则，才可以做一个新的选择）。请注
-意上面第三个例子。它表明如何在有r wu之后，为你的储备增加另一个符号串。但是得先有WU!关于字母“X"，我想再加上最后一条说明：它不像“W"、“J"和“U"这
-三介字母一样，是形式系统的一部分。无论如何，如果我们能有某种符号的方式一般性地谈论系统中的符号串，那将是很有用的——而“X”正是起了这个作用：代表任意一
+就是说，在这条规则中字母“x”可以代表任意的符号串。但是，一旦决定了它代表哪一个符号串，就得遵循这个选择（直到你再一次使用这条规则，才可以做一个新的选择）。请注
+意上面第三个例子。它表明如何在有了WU之后，为你的储备增加另一个符号串。但是得先有WU！关于字母“x”，我想再加上最后一条说明：它不像“W”、“J”和“U”这三
+介字母一样，是形式系统的一部分。无论如何，如果我们能有某种符号的方式一般性地谈论系统中的符号串，那将是很有用的——而“x”正是起了这个作用：代表任意一
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+46
+\end_layout
+
+\end_inset
+
+个符号串。假如在你的符号串“储备”中加入一个含有“x”的符号串，那就错了，因为WJU系统中的符号串决不会带有“x”！
 \end_layout
 
 \begin_layout Standard
-4 6个符号串。假如在你的符号串“储备”中加入一个含有“x’’的符号串，那就错了，因为WJU系统中的符号串决不会带有"X”！
+以下是第三条规则：
 \end_layout
 
 \begin_layout Standard
-以下是第三条规则：规则I：如果JJJ出现在你的储备中的一个符号串里，那么你可以
+\noindent
+规则Ⅲ：如果JJJ出现在你的储备中的一个符号串里，那么你可以用U代替这个JJJ而得到一个新的符号串。
 \end_layout
 
 \begin_layout Standard
-用U代替这个JJJ而得到一个新的符号串。例子：
+\noindent
+例子：
 \end_layout
 
 \begin_layout Standard
@@ -186,23 +221,38 @@ UJJUWJUUJWUJJUWJUUJWUJJU34虽然所有这些符号串都是合法的，但它们
 \end_layout
 
 \begin_layout Standard
-从JJWJJ，用这条规则什么也得不到。
+从JJWJJ，用这条规则什么也得不到。（三个JJJ必须是连续的。）
 \end_layout
 
 \begin_layout Standard
-（三个JJJ必须是连续的。）
+从WJJJ，可以得到WU。
 \end_layout
 
 \begin_layout Standard
-从WJJJ，可以得到WU 。在任何情况下，这条规则都不能倒过来使用，像下面的例子里这样：
+\noindent
+在任何情况下，这条规则都不能倒过来使用，像下面的例子里这样：
 \end_layout
 
 \begin_layout Standard
-从WU，得到WJJJ 。々 这是错误的0 35规则是单向的。
+从WU，得到WJJJ 。
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+这是错误的。
 \end_layout
 
 \begin_layout Standard
-下面是最后一条规则：规则N：如果UU出现在你的一个符号串中，你可以去掉它。
+\noindent
+规则是单向的。
+\end_layout
+
+\begin_layout Standard
+下面是最后一条规则：
+\end_layout
+
+\begin_layout Standard
+\noindent
+规则Ⅳ：如果UU出现在你的一个符号串中，你可以去掉它。
 \end_layout
 
 \begin_layout Standard
@@ -210,37 +260,55 @@ UJJUWJUUJWUJJUWJUUJWUJJU34虽然所有这些符号串都是合法的，但它们
 \end_layout
 
 \begin_layout Standard
-从WUUUJJJ，可以得到WUJJJ 。规则就是这些。现在可以试试找出WU了。假如得不出来不要担心c只是试一下——主要是体会一下WLT谜题的味道。愿读者从中获得
-享受。
+从WUUUJJJ，可以得到WUJJJ。
 \end_layout
 
 \begin_layout Standard
+\noindent
+规则就是这些。现在可以试试找出WU了。假如得不出来不要担心。只是试一下——主要是体会一下WLT谜题的味道。愿读者从中获得享受。
+\end_layout
+
+\begin_layout Section*
 定理、公理、规则
 \end_layout
 
 \begin_layout Standard
 WU谜题的答案后面会给出来。至于现在，重要的不是找出答案，而是寻找它。读者也许已经做了一些产生WU的尝试。在做这些尝试的过程中，读者建立了自己的符号串储备。我们
 把这种可
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+47
+\end_layout
+
+\end_inset
+
+以从规则中产生的符号串叫做定理。当然，“定理”这个词在数学中也使用，但与这里的意思很不一样。那里的意思是普通语言中的某个陈述，已通过严格的论证被证明是真的（这时
+我们称之为“真理”），例如，关于“运动无有”的
+\family typewriter
+芝诺定理
+\family default
+，或者关于素数有无穷多个的
+\family typewriter
+欧几里德定理
+\family default
+。但是，在形式系统中，不必把定理看做是陈述——它们仅仅是一些由符号组成的串。它们也不是证明出来的，而是产生出来的，就像是按照一定的印刷规则通过机器产生出来的一一
+样。为了强调“定理”这个词在意义上的重要区别，在本书中我将采用以下约定：当“定理”这个词用黑体字写出来时，它的意思是我们通常所说的意思——一个
+\family typewriter
+定理
+\family default
+是日常语言中的一个陈述，这个陈述已被某人用某种逻辑的论证证明是真理。如果不用黑体则“定理”这个词有它的技术上的意义：可以在某个形式系统中产生出来的符号串。在这样
+的情况下，WU谜题是问WU是不是WJU系统中的一个定理。
 \end_layout
 
 \begin_layout Standard
-4 7以从规则中产生的符号串叫做定理。当然，“定理’’这个词在数学中也使用，但与这里的意思很不一样。那里的意思是普通语言中的某个陈述，已通过严格的论证被证明是真
-的（这时我们称之为“真理’’），例如，关于“运动无有”的芝诺定理，或者关于素数有无穷多个的欧几里德定理。但是，在形式系统中，不必把定理看做是陈述
+开始的时候我无偿地提供了一个定理，即WJ。这个“无偿提供的”定理叫做“公理”——同样的，这是技术上的意义，它与通常的意义很不一样。一个形式系统中可以有零个、一个
+、几个、甚至无穷多个公理。本书中将会出现所有这些不同类型的形式系统。
 \end_layout
 
 \begin_layout Standard
-一它们仅仅是一些由符号组成的串。它们也不是证明出来的，而是产生出来的，就像是按照一定的印刷规则通过机器产生出来的一一样。为了强调“定理”这个词在意义上的重要区别
-，在本书中我将采用以下约定：当“定理”这个词用黑体字写出来时，它的意思是我们通常所说的意思一 一个定理是日常语言中的一个陈述，这个陈述已被某人用某种逻辑的论证证
-明是真理。如果不用黑体则“定理’’这个词有它的技术上的意义：可以在某个形式系统中产生出来的符号串。在这样的情况下，WU谜题是问WU是不是WJU系统中的一个定理。
-\end_layout
-
-\begin_layout Standard
-开始的时候我无偿地提供了一个定理，即wj。这个“无偿提供的”定理叫做“公理’’——同样的，这是技术上的意义，它与通常的意义很不一样。一个形式系统中可以有零个、一
-个、几个、甚至无穷多个公理。本书中将会出现所有这些不同类型的形武系统。
-\end_layout
-
-\begin_layout Standard
-每一个形式系统中都有符号变换规则，如WJU系统中的四条规则。这些规则既可以叫做生成规则，也可以叫做推理规则。这两种叫法我都用c
+每一个形式系统中都有符号变换规则，如WJU系统中的四条规则。这些规则既可以叫做生成规则，也可以叫做推理规则。这两种叫法我都用。
 \end_layout
 
 \begin_layout Standard
@@ -248,31 +316,230 @@ WU谜题的答案后面会给出来。至于现在，重要的不是找出答案
 \end_layout
 
 \begin_layout Standard
-(1) WJ 公理36 (2) WJJ 使用规则Ⅱ，从(1)中得出
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(1)
 \end_layout
 
-\begin_layout Standard
-(3)WJJJJ 使用规则Ⅱ，从(2)中得出
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WJ
 \end_layout
 
-\begin_layout Standard
-(4)WJJJJU 使用规则I，从(3)中得出
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+公理
 \end_layout
 
-\begin_layout Standard
-4 8
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(2)
 \end_layout
 
-\begin_layout Standard
-(5)WUJU 使用规则I，从(4)中得出
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WJJ
 \end_layout
 
-\begin_layout Standard
-(6)WUJUUJU 使用规则Ⅱ，从(5)中得出
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+使用规则Ⅱ，从(1)中得出
 \end_layout
 
-\begin_layout Standard
-(7)WUJJU 使用规则Ⅳ，从(6)中得出
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(3)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WJJJJ
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+使用规则Ⅱ，从(2)中得出
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(4)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WJJJJU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+使用规则I，从(3)中得出
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+48
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(5)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WUJU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+使用规则I，从(4)中得出
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(6)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WUJUUJU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+使用规则Ⅱ，从(5)中得出
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(7)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WUJJU
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+使用规则Ⅳ，从(6)中得出
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -280,7 +547,7 @@ WU谜题的答案后面会给出来。至于现在，重要的不是找出答案
 U，听起来就很奇怪，但是如果说推导出了WUJJU，就不那么奇怪了。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section*
 系统内外
 \end_layout
 
@@ -294,73 +561,83 @@ U，听起来就很奇怪，但是如果说推导出了WUJJU，就不那么奇�
 \begin_layout Standard
 这里发生的情况是有着重要意义的。它展示了人与机器之间的一种区别。非常可能——事实上很容易——给一部计算机编一个程序，使它可以生成WJU系统的一条又一条定理，并且
 我们可以在这个程序中加进一条命令，使之在生成U之后才停止。现在你知道了：运行这个程序的计算机会永不停止，而这并不使你感到惊异。但是，假如你要让你的一位朋友试图生
-成U，将会怎么样呢？
+成U，将会怎么样呢？要是他做了一会儿就罢手不干了，跑来向你抱怨他无法摆脱第一个字母W，而想生成U完全是徒劳的，你同样不会吃惊。即使是一
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+49
 \end_layout
 
-\begin_layout Standard
-要是他做了一会儿就罢手不干了，跑来向你抱怨他无法摆脱第一个字母W，而想生成U完全是徒劳的，你同样不会吃惊。即使是一
-\end_layout
+\end_inset
 
-\begin_layout Standard
-4 9个不很聪明的人，也会禁不住地观察他自己在做什么，这些观察给予他关于所做的这项工作的洞察力。而计算机程序——正如我们所描述过的——则缺乏这种洞察力。
+个不很聪明的人，也会禁不住地观察他自己在做什么，这些观察给予他关于所做的这项工作的洞察力。而计算机程序——正如我们所描述过的——则缺乏这种洞察力。
 \end_layout
 
 \begin_layout Standard
 现在让我更清楚地谈谈我说“这展示出了人与机器之间的区别”是什么意思。我的意思是：有可能给机器编一个以上述方式来做机械工作的程序，机器永远不会发现（即便这是非常明
-显的）它自己在做什么。但是人的意识有一个固有的特点，他总是能看出关于他正在做的事情的某些事实。关于这一点，你是早已知道的。假如你在加法机上按一下“1"，然后再加
-1，再加1，再加1，再加1
-\end_layout
-
-\begin_layout Standard
-…．如此一直加上几个小时又几个小时．虽然任何人都会很快地3 7懂得自己在重复一个动作，而那台机器却永远不懂得在你按1之前，自己去加。或者，另举一个愚蠢点儿的例子
-：无论用了多久，无论多好的一部汽车，也永远不会有躲避道路上的其它汽车或障碍物的能力，永远不会知道它的主人常走的路线。
+显的）它自己在做什么。但是人的意识有一个固有的特点，他总是能看出关于他正在做的事情的某些事实。关于这一点，你是早已知道的。假如你在加法机上按一下“1”，然后再加
+1，再加1，再加1，再加1……如此一直加上几个小时又几个小时。虽然任何人都会很快地3 7懂得自己在重复一个动作，而那台机器却永远不懂得在你按1之前，自己去加。或
+者，另举一个愚蠢点儿的例子：无论用了多久，无论多好的一部汽车，也永远不会有躲避道路上的其它汽车或障碍物的能力，永远不会知道它的主人常走的路线。
 \end_layout
 
 \begin_layout Standard
 因此，区别在于：机器有可能在做某件事情时不去观察，而人不可能不去观察。请注意，我不是说所有的机器都不具有复杂的观察能力，只是有些机器不具有。我也不是说所有的人都
-总是进行复杂的观察，事实上，人常常是不注意观察的。但是机器可以被制造成是究全不去观察的，而人则不能。并且事实上，到目前为止，多数机器是非常接近于不去观察的。也许
-因为这个原冈，对于大多数人来说，具有“不去观察’’这一特点，似乎是机器的特征。例如，如果有人说某项工作是“机械的’’，这指的不是人没有做这项工作的能力，而是隐含
-着这样的意思：只有机器可以永不抱怨或者不知疲倦地反复做这项工作。
+总是进行复杂的观察，事实上，人常常是不注意观察的。但是机器可以被制造成是完全不去观察的，而人则不能。并且事实上，到目前为止，多数机器是非常接近于不去观察的。也许
+因为这个原因，对于大多数人来说，具有“不去观察”这一特点，似乎是机器的特征。例如，如果有人说某项工作是“机械的”，这指的不是人没有做这项工作的能力，而是隐含着这
+样的意思：只有机器可以永不抱怨或者不知疲倦地反复做这项工作。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section*
 跳出系统
 \end_layout
 
 \begin_layout Standard
 能够跳出正在进行的工作并且看一下已经做了些什么，这是
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+50
 \end_layout
 
-\begin_layout Standard
-5 0智能固有的特点。它总是寻找并且常常能找到模式。我说的是智能可以跳出它所做的工作，这不意味着它总是这样做。然而，常常是略微推动它一下就足够rc就好比一个正在
-读书而感觉困倦的人，他不是连续地把这本书看完，而可能把书搁在一边儿，把灯关掉。他“出了系统”，而这对我们来说似乎是再自然不过的了。或者，假设一个人，A，正在看电
-视，B进了屋子，并且明显地表示出对于当时的状况不喜欢。 A可能认为他理解了问题的所在，并且试图通过从当前系统（那时的电视节目）退出来改变一下现状，于是他轻轻按了
-一下频道钮，找一个好一点儿的节目。不过B可能对于什么是“退出系统”有更极端的概念——也就是，把电视机关掉！当然也有这种情况：只有极少数的人有那种眼光，看出一个支
-配着许多人生活的系统，而以前却从没人认为这是一个系统。然后这些人常常就投入毕生的精力去使其他人相信那个系统确实存在，而且应该从中退出！
+\end_inset
+
+智能固有的特点。它总是寻找并且常常能找到模式。我说的是智能可以跳出它所做的工作，这不意味着它总是这样做。然而，常常是略微推动它一下就足够了。就好比一个正在读书而
+感觉困倦的人，他不是连续地把这本书看完，而可能把书搁在一边儿，把灯关掉。他“出了系统”，而这对我们来说似乎是再自然不过的了。或者，假设一个人，A，正在看电视，B
+进了屋子，并且明显地表示出对于当时的状况不喜欢。A可能认为他理解了问题的所在，并且试图通过从当前系统（那时的电视节目）退出来改变一下现状，于是他轻轻按了一下频道
+钮，找一个好一点儿的节目。不过B可能对于什么是“退出系统”有更极端的概念——也就是，把电视机关掉！当然也有这种情况：只有极少数的人有那种眼光，看出一个支配着许多
+人生活的系统，而以前却从没人认为这是一个系统。然后这些人常常就投入毕生的精力去使其他人相信那个系统确实存在，而且应该从中退出！
 \end_layout
 
 \begin_layout Standard
 若想教给计算机跳出系统这件事，能教会它到什么程度呢？我举一个使一些人吃惊的实例：不久以前，在加拿大举行的一次计算机国际象棋邀请赛上，一个程序——所有竞争者中最弱
-的一个——有一个非同一般的特性：它可以远在棋F完之前早早退出。它的棋下得木太好，但它至少有预先估计到没有希望的棋局的能力，然后就此停下，而不是等着另一个程序走完
-将死它的乏味的过程，虽然每次下棋它都输，但是它做得很有风度。它给很多当地的下棋38能手留下了深刻的印象。假如把“系统”定义成“在下棋的游戏中走棋的系统”，那么，
-很清楚，这个程序有一个很复杂的事先编好的有能力从系统中退出的程序。另一方面，如果把“系统”定义成¨这部计算机按照程序所做的一切”，那么无疑地，这部计算机没有什么
-从那个系统中退出的能力。
+的一个——有一个非同一般的特性：它可以远在棋下完之前早早退出。它的棋下得不太好，但它至少有预先估计到没有希望的棋局的能力，然后就此停下，而不是等着另一个程序走完
+将死它的乏味的过程，虽然每次下棋它都输，但是它做得很有风度。它给很多当地的下棋能手留下了深刻的印象。假如把“系统”定义成“在下棋的游戏中走棋的系统”，那么，很清
+楚，这个程序有一个很复杂的事先编好的有能力从系统中退出的程序。另一方面，如果把“系统”定义成¨这部计算机按照程序所做的一切”，那么无疑地，这部计算机没有什么从那
+个系统中退出的能力。
 \end_layout
 
 \begin_layout Standard
 在研究形式系统时，很重要的一点是要区分在系统之内的工
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+51
 \end_layout
 
-\begin_layout Standard
-51作，和做出关于系统的判断或说明。我假定读者像大多数人一样，开始时，想通过在系统内部工作解决WU谜题；逐渐地，你开始着急了，这种焦急心情增长到一定程度时就不再
-作任何考虑地退出了这个系统，然后盘算一下产生了一些什么，想想为什么没有取得成功——即产生出WU。也许你发现了没能产生出WU的原因所在，这是对于系统进行思索。也许
-你在中途什么时候产生了WJU，这是在系统之内进行工作。我不想把事情弄得好像两种方式完全不相容，我敢肯定任何一个人都有某种程度的在系统之内进行工作，同时思考他正在
-做什么的能力。实际上，在人类事务中，通常是几乎不可能将“在系统之内”和“在系统之外”清楚地区别开的，生活是由许多连结并交织又常常是不协调的“系统’’组成的，用“
-系统内”、“系统外”这类词汇来思考似乎是过于简单化了。但是，非常清楚地形成一些简单的概念，以便人们可以在思考更复杂的概念时把它们作为模型，这常常是重要的。这便是
-我为什么要向读者展示形式系统的原因。现在是回头讨论WJU系统的时候了。
+\end_inset
+
+作，和做出关于系统的判断或说明。我假定读者像大多数人一样，开始时，想通过在系统内部工作解决WU谜题；逐渐地，你开始着急了，这种焦急心情增长到一定程度时就不再作任
+何考虑地退出了这个系统，然后盘算一下产生了一些什么，想想为什么没有取得成功——即产生出WU。也许你发现了没能产生出WU的原因所在，这是对于系统进行思索。也许你在
+中途什么时候产生了WJU，这是在系统之内进行工作。我不想把事情弄得好像两种方式完全不相容，我敢肯定任何一个人都有某种程度的在系统之内进行工作，同时思考他正在做什
+么的能力。实际上，在人类事务中，通常是几乎不可能将“在系统之内”和“在系统之外”清楚地区别开的，生活是由许多连结并交织又常常是不协调的“系统”组成的，用“系统内
+”、“系统外”这类词汇来思考似乎是过于简单化了。但是，非常清楚地形成一些简单的概念，以便人们可以在思考更复杂的概念时把它们作为模型，这常常是重要的。这便是我为什
+么要向读者展示形式系统的原因。现在是回头讨论WJU系统的时候了。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section*
 W方式、J方式、U方式
 \end_layout
 
@@ -369,18 +646,21 @@ WU谜题的陈述方式鼓励人们在WJU系统内部进行探索——做一些
 个把两种方式区分开的方法可以是：准备两张纸，在一张纸上，你“像机器那样”地工作，这样在纸上写满了的都是W、J、U这三个字母。在另一张纸上，你“像有思维能力的人那
 样”地工作，你可以做你的智能要你做的任何事情——可以使用汉语、记下要点、进行逆推、使用缩写（比如使用字母“x”）、把几个步骤缩成一步、把规则加以修改看看可以得出
 什么东西，以及做你所能想像到的任何其它事情。要注意3和2这两个数起着很重要的作用，因为，三个J
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+52
 \end_layout
 
-\begin_layout Standard
-52是可以扔掉的，两个U也可以去掉。另外根据规则Ⅱ，可以把长度延长一倍（除了那个W）。所以第二张纸上也可以有一些计算。我39们会时常重新提到处理形式系统的这两种
-方式，我们分别称之为机方式（J方式）和惟方式(W方式)。为了完满，使WJU系统的每
+\end_inset
+
+是可以扔掉的，两个U也可以去掉。另外根据规则Ⅱ，可以把长度延长一倍（除了那个W）。所以第二张纸上也可以有一些计算。我们会时常重新提到处理形式系统的这两种方式，我
+们分别称之为机方式（J方式）和惟方式(W方式)。为了完满，使WJU系统的每一个字母都与一种方式相关联，我再提出最后一种方式——无方式（U方式），它是禅宗的处世态
+度。关于这点在后面几章中会更多地讲到。
 \end_layout
 
-\begin_layout Standard
-一个字母都与一种方式相关联，我再提出最后一种方式——无方式（U方式），它是禅宗的处世态度。关于这点在后面几章中会更多地讲到。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Section*
 判定过程
 \end_layout
 
@@ -397,13 +677,19 @@ WU谜题的陈述方式鼓励人们在WJU系统内部进行探索——做一些
 \end_layout
 
 \begin_layout Standard
-然而，能说这个测试可以发现出所有的非定理吗？可能会有许多以W开头但无法产生的符号串。也许WU就是其中之一。这也就是说：“字头测试’’的用途是有限的，它只能发现一
-部分非定理，而漏掉其它的。但是仍然有可能有一些更精细的测试，这些测试完全能
+然而，能说这个测试可以发现出所有的非定理吗？可能会有许多以W开头但无法产生的符号串。也许WU就是其中之一。这也就是说：“字头测试”的用途是有限的，它只能发现一部
+分非定理，而漏掉其它的。但是仍然有可能有一些更精细的测试，这些测试完全能
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+53
 \end_layout
 
-\begin_layout Standard
-5 3区分哪些符号串通过规则可以产生，哪些不能产生。这里我们得面对一个问题：“我们的测试是什么意思？”目前这个问题的意义或者重要性也许不明显。下面我举一个关于“
-测试”的例子，某种意义上似乎有点违反这个词的精神：
+\end_inset
+
+区分哪些符号串通过规则可以产生，哪些不能产生。这里我们得面对一个问题：“我们的测试是什么意思？”目前这个问题的意义或者重要性也许不明显。下面我举一个关于“测试”
+的例子，某种意义上似乎有点违反这个词的精神：
 \end_layout
 
 \begin_layout Standard
@@ -411,123 +697,191 @@ WU谜题的陈述方式鼓励人们在WJU系统内部进行探索——做一些
 \end_layout
 
 \begin_layout Standard
-步骤1：对于公理WJ应用每一条可以应用的规则。这产生出
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hangafter 1 
+\backslash
+hangindent 5.5em
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+步骤1：对于公理WJ应用每一条可以应用的规则。这产生出两个新的定理：WJU、WJJ 。
 \end_layout
 
 \begin_layout Standard
-两个新的定理：WJU、wjJ 。
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hangafter 1 
+\backslash
+hangindent 5.5em
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+步骤2：对于从步骤1中产生的定理应用所有可以应用的规则。这产生出三个新的定理：WJJU、WJUJU和WJJJJ。
 \end_layout
 
 \begin_layout Standard
-步骤2：对于从步骤1中产生的定理应用所有可以应用的规
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hangafter 1 
+\backslash
+hangindent 5.5em
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+步骤3：对于步骤2中产生的定理应用所有可以应用的规则。这产生出五个新的定理：WJJJJU、WJJUJJU、WJUJUJUJU、WJJJJJJJJ和WUJ。
 \end_layout
 
 \begin_layout Standard
-则。这产生出三个新的定理：wjjU、WJUJU和
+\begin_inset Formula $\vdots$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-WJJJJ。40 步骤3：对于步骤2中产生的定理应用所有可以应用的规则。
+\noindent
+这种方法早晚会产生出所有的定理，因为每条规则都在任意能设想出的次序下应用过。(参看图11)我们以上提到的所有那些加长一缩短的交替用法最终都用上了。然而对于一个给
+定的符号串，就不知道要经过多少步它才能出现在这张表里，因为定理是按照它们的推导长度来列出的。这不是一个很有用的次序，假如你对一个特殊的待号串（像WU）感兴趣的话
+，你甚至不知道是否有个推导能得出它，更不知道那个推导会有多长了。
 \end_layout
 
 \begin_layout Standard
-这产生出五个新的定理：WJJJJU、WJJUJJU、WJU-
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-0055.png
+	lyxscale 50
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+一个系统地构造出来的WJU系统中所有定理的“树”。向下到第N步，它包含了恰恰需要N个步骤推导的那些定理．圆圈中的数字字表示使用了哪条规则。WU是不是在这棵树上的
+什么地方？
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-JUJUJU、WJJJJJJJJ和WUJ。
-\end_layout
-
-\begin_layout Standard
-：这种方法早晚会产生出所有的定理，因为每条规则都在任意能设想出的次序下应用过。(参看图11)我们以上提到的所有那些加长一缩短的交替用法最终都用上了。然而对于一个
-给定的符号串，就不知道要经过多少步它才能出现在这张表里，因为定理是按照它们的推导长度来列出的。这不是一个很有用的次序，假如你对一个特殊的待号串（像WU）感兴趣的
-话，你甚至不知道是否有个推导能得出它，更不知道那个推导会有多长了。
-\end_layout
-
-\begin_layout Standard
+\noindent
 现在我们给出这个所谓的“定理性测试”：
 \end_layout
 
 \begin_layout Standard
-等待产生出所要求的符号串，当它出现了的时候，你知道它是
-\end_layout
-
-\begin_layout Standard
-一个定理——假如它永远不出现，它就不是一个定理。
+等待产生出所要求的符号串，当它出现了的时候，你知道它是一个定理——假如它永远不出现，它就不是一个定理。
 \end_layout
 
 \begin_layout Standard
 这看起来是荒唐的，因为它预先假设了我们为了得到一个答
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+54
+\end_layout
+
+\end_inset
+
+案，并不在乎等待哪怕是无限长的时间。这就是该把什么算作“测试”这个问题的关键。最首要的问题是保证我们将在一个有限长的时间内得到答案。如果有一个检验定理的测试，一
+个总是在有限长的时间内终结的测试，那么，这个测试就叫做给定形式系统的判定过程。
 \end_layout
 
 \begin_layout Standard
-5 4／wJ＼／旷 吣t．
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-0056.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-哆 ／、＼
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+空中城堡，艾舍尔作（木刻，1928）。
 \end_layout
 
-\begin_layout Standard
-／2． WJJU 『
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-$’ 5见够掌＼3． WJUTJUJU Mm∥ WJJ∥训肌
-\end_layout
+\end_inset
 
-\begin_layout Standard
-， ∥／ 删I裂wU、WJU
-\end_layout
 
-\begin_layout Standard
-？
-\end_layout
-
-\begin_layout Standard
-？ ？
-\end_layout
-
-\begin_layout Standard
-WU
-\end_layout
-
-\begin_layout Standard
-？ 7
-\end_layout
-
-\begin_layout Standard
-．，
-\end_layout
-
-\begin_layout Standard
-圈11．一一个系统地构造出来的WJU系统中所有定理的誓树一．向下到
-\end_layout
-
-\begin_layout Standard
-第N步，它包含了恰恰需要N个步囊推导的那些定理．圈■中的敛
-\end_layout
-
-\begin_layout Standard
-字表示使用了哪条规则．wu是不是在这棵村上的什么地方？案，并不在乎等待哪怕是无限长的时间。这就是该把什么算作“测试”这个问题的关键。最首要的问题是保证我们将在一
-个有限长的时间内得到答案。如果有一个检验定理的测试，一个总是在有限长的时间内终结的测试，那么，这个测试就叫做给定形式系统的判定41过程。
 \end_layout
 
 \begin_layout Standard
 当你有了一个判定过程，那么你就有了对系统中所有定理的性质的非常具体的刻划。从表面上看，似乎形式系统中的规则与公理同判定过程一样完全地刻划了这个系统中的定理。问题
-在于“刻划一这个词．当然那些推理规则与WJU系统中的公理是隐含地刻划了那些是定理的符号串。不仅如此，它们还以更隐蔽的方式刻划了那些非定理的符号串。但是，在许多情
-况下，隐含地刻划还不够。
+在于“刻划”这个词．当然那些推理规则与WJU系统中的公理是隐含地刻划了那些是定理的符号串。不仅如此，它们还以更隐蔽的方式刻划了那些非定理的符号串。但是，在许多情
+况下，隐含地刻划还不够。如果有人声称有了一个对所有定理的刻划，但是若要推断某一个特别的符号串不是一个定理则需要无限长的时间．你大概会倾向
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+55
 \end_layout
 
-\begin_layout Standard
-如果有人声称有了一个对所有定理的刻划，但是若要推断某一个特别的符号串不是一个定理则需要无限长的时间．你大概会倾向
-\end_layout
+\end_inset
 
-\begin_layout Standard
-5 54256图12.宅中城堡，艾舍尔作（木剡．1 928）。
-\end_layout
-
-\begin_layout Standard
 于说，这个刻划中缺少点什么——它不够具体。这就是为什么发现判定过程的存在是非常重要的一步。所谓发现，从效果上看就是：你可以为检验一个符号串是不是一个定理进行一种
 测试，即便这个测试很复杂，它也是保证有结果的。原则上，这个测试与检查符号串的第一个字母是不是W同样地容易，同样地机械，同样地有限，同样是十分确定的。一个判定过程
 是测试一个符号串是否是定理的“试纸”。
@@ -543,12 +897,33 @@ WU
 道这个刻划的结果是什么。尤其是，WU究竟是不是一个定理，这一点仍然不清楚。
 \end_layout
 
-\begin_layout Section-toc*
+\begin_layout Section*
 二部创意曲
+\begin_inset Newline newline
+\end_inset
+
+或
+\begin_inset Newline newline
+\end_inset
+
+乌龟说给阿基里斯的话
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{section}{二部创意曲}
 \end_layout
 
-\begin_layout Standard
-或乌龟说给阿基里斯的话刘易斯·卡罗尔作
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+刘易斯·卡罗尔作
 \begin_inset Foot
 status open
 
@@ -567,10 +942,16 @@ status open
 
 \begin_layout Standard
 “这么说，你已经到达我们这场赛跑的终点了，是吗？”乌龟说。“虽然比赛的路程是由元数段路程组成的，你还是跑到啦？我记得
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+57
 \end_layout
 
-\begin_layout Standard
-57有个自作聪明的人证明过这是不可能做到的。哆
+\end_inset
+
+有个自作聪明的人证明过这是不可能做到的。”
 \end_layout
 
 \begin_layout Standard
@@ -578,7 +959,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-“可要是它们一直在不断增长呢？修乌龟打断他的话说。“那会怎么样?”
+“可要是它们一直在不断增长呢？”乌龟打断他的话说。“那会怎么样?”
 \end_layout
 
 \begin_layout Standard
@@ -590,17 +971,13 @@ status open
 \end_layout
 
 \begin_layout Standard
-“你对我真是过奖了——哦，我是说你真是过重了，”乌龟说。
-\end_layout
-
-\begin_layout Standard
-“因为你的确太沉了！哎，你想听听有关另一场比赛的事吗？在这场比赛里大多数人都以为他们在两三步之内就能达到终点，实际上这场比赛也是由无效段路程组成的，其中每一段都
-比它前面那段要长些。"
+“你对我真是过奖了——哦，我是说你真是过重了，”乌龟说。“因为你的确太沉了！哎，你想听听有关另一场比赛的事吗？在这场比赛里大多数人都以为他们在两三步之内就能达到
+终点，实际上这场比赛也是由无效段路程组成的，其中每一段都比它前面那段要长些。”
 \end_layout
 
 \begin_layout Standard
 “太想知道了！”那位希腊勇士一边说，一边从他的头盔里（那时几乎没有哪个希腊勇士身上有口袋）拿出一个硕大的笔记本和一支铅笔。“开始吧！请慢点说！速记现在还没发明出
-来呢j"
+来呢！”
 \end_layout
 
 \begin_layout Standard
@@ -612,31 +989,52 @@ status open
 \end_layout
 
 \begin_layout Standard
-“那好，让我们先来看看第一命题的论证中一个小小的片断
+“那好，让我们先来看看第一命题的论证中一个小小的片断——仅仅两步——以及由此得出的结论。请把它们记在你的本上。为了谈到它们时方便起见，我们将它们称作A、B、Z：
+——
 \end_layout
 
 \begin_layout Standard
-一仅仅两步——以及由此得出的结论。请把它们记在你的本上。-为了谈到它们时方便起见，我们将它们称作A、B、Z：-
+(A)
+\begin_inset space \space{}
+\end_inset
+
+同等于一物的彼此亦相等。
 \end_layout
 
 \begin_layout Standard
-(A)同等于一物的彼此亦相等。
+(B)
+\begin_inset space \space{}
+\end_inset
+
+这个三角形的两条边同等于一物。
 \end_layout
 
 \begin_layout Standard
-(B)这个三角形的两条边同等于一物。
+(Z)
+\begin_inset space \space{}
+\end_inset
+
+这个三角形的两条边彼此相等。
 \end_layout
 
 \begin_layout Standard
-(Z)这个三角形的两条边彼此相等。我想欧几里德的读者们会认为Z是A和B的合乎逻辑的推论，所以任何人只要认为A和B为真，则必定认为Z也真，不是吗？”
+\noindent
+我想欧几里德的读者们会认为Z是A和B的合乎逻辑的推论，所以任何人只要认为A和B为真，则必定认为Z也真，不是吗？”
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\noindent
+58
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-5 8
-\end_layout
-
-\begin_layout Standard
-“毫无疑问！连上初中的毛孩子—— 到两千多年以后发明出 44初中来——也会对此表示同意的。"
+“毫无疑问！连上初中的毛孩子——到两千多年以后发明出初中来——也会对此表示同意的。”
 \end_layout
 
 \begin_layout Standard
@@ -644,16 +1042,15 @@ status open
 \end_layout
 
 \begin_layout Standard
-“这种读者肯定有。他会说，‘我同意下述假言命题是真的：如果A和B为真，则Z必为真。但是我不接受A和B是真的。夕这种读者应该明智点儿，放弃欧几里德，改踢足球去。’
-’
+“这种读者肯定有。他会说，‘我同意下述假言命题是真的：如果A和B为真，则Z必为真。但是我不接受A和B是真的。’这种读者应该明智点儿，放弃欧几里德，改踢足球去。”
 \end_layout
 
 \begin_layout Standard
-“还可能有读者会说‘我同意A和B为真，但不接受那个,<． -命题，，这也有可能吧？”
+“还可能有读者会说‘我同意A和B为真，但不接受那个假言命题’，这也有可能吧？”
 \end_layout
 
 \begin_layout Standard
-“当然有这种可能。他最好也去踢足球。"
+“当然有这种可能。他最好也去踢足球。”
 \end_layout
 
 \begin_layout Standard
@@ -665,7 +1062,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-“嗯，那么，我想让你把我当作是那第二种读者，用逻辑来迫使我接受Z为真。’’
+“嗯，那么，我想让你把我当作是那第二种读者，用逻辑来迫使我接受Z为真。”
 \end_layout
 
 \begin_layout Standard
@@ -677,7 +1074,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-“我得迫使你接受Z，是吗？”阿基里斯若有所思地说。“你现在的观点是只接受A和B．而不接受假言——力
+“我得迫使你接受Z，是吗？”阿基里斯若有所思地说。“你现在的观点是只接受A和B．而不接受假言——”
 \end_layout
 
 \begin_layout Standard
@@ -689,7 +1086,11 @@ status open
 \end_layout
 
 \begin_layout Standard
-(C) 如果A和B为真，Z必为真。"
+(C)
+\begin_inset space \space{}
+\end_inset
+
+如果A和B为真，Z必为真。”
 \end_layout
 
 \begin_layout Standard
@@ -697,15 +1098,21 @@ status open
 \end_layout
 
 \begin_layout Standard
-“那么我得说服你必须要接受C 。"
+“那么我得说服你必须要接受C 。”
 \end_layout
 
 \begin_layout Standard
-“只耍你一把它记在你的本子上，我马上就接受它。"乌龟说，“你在上面还记了些什么？”
+“只要你一把它记在你的本子上，我马上就接受它。”乌龟说，“你在上面还记了些什么？”
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+59
 \end_layout
 
-\begin_layout Standard
-5 9
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -717,23 +1124,39 @@ status open
 \end_layout
 
 \begin_layout Standard
-(A)同等于一物的彼此亦相等。
+(A)
+\begin_inset space \space{}
+\end_inset
+
+同等于一物的彼此亦相等。
 \end_layout
 
 \begin_layout Standard
-(B)这个三角形的两条边同等于一物。
+(B)
+\begin_inset space \space{}
+\end_inset
+
+这个三角形的两条边同等于一物。
 \end_layout
 
 \begin_layout Standard
-(C)如果A和B为真，则Z必为真。
+(C)
+\begin_inset space \space{}
+\end_inset
+
+如果A和B为真，则Z必为真。
 \end_layout
 
 \begin_layout Standard
-(Z)这个三角形的两条边彼此相等。”
+(Z)
+\begin_inset space \space{}
+\end_inset
+
+这个三角形的两条边彼此相等。”
 \end_layout
 
 \begin_layout Standard
-“你应该把最后这个命题Z改称为D，”阿基里斯说。“它紧承45着上面那三个命题而来。如果你接受A.B、C，你就必须接受Z。"
+“你应该把最后这个命题Z改称为D，”阿基里斯说。“它紧承着上面那三个命题而来。如果你接受A、B、C，你就必须接受Z。”
 \end_layout
 
 \begin_layout Standard
@@ -753,7 +1176,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-“你可以，”这位正直的英雄承认道。“可头脑这么迟钝的人也太罕见了。不过，这事儿还是可能的。所以我必须再使你接受一个假言判断。"
+“你可以，”这位正直的英雄承认道。“可头脑这么迟钝的人也太罕见了。不过，这事儿还是可能的。所以我必须再使你接受一个假言判断。”
 \end_layout
 
 \begin_layout Standard
@@ -761,7 +1184,15 @@ status open
 \end_layout
 
 \begin_layout Standard
-(D)如果A和B和C为真，则Z必为真。你把它记刭你的本上了吗？”
+(D)
+\begin_inset space \space{}
+\end_inset
+
+如果A和B和C为真，则Z必为真。
+\begin_inset Newline newline
+\end_inset
+
+你把它记到你的本上了吗？”
 \end_layout
 
 \begin_layout Standard
@@ -770,23 +1201,37 @@ status open
 
 \begin_layout Standard
 “是吗？”乌龟装傻充楞地说。“让我们搞搞清楚。我接受了A、
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+60
+\end_layout
+
+\end_inset
+
+B、C、D，请设想一下，我依然拒绝接受Z．那会怎么样？”
 \end_layout
 
 \begin_layout Standard
-60B、C、D，请设想一下，我依然拒绝接受Z．那会怎么样？”
+“那样逻辑就会掐着你的脖子，迫使你接受！”阿基里斯得意洋洋地回答道。“逻辑会告诉你，‘这事你作不了主，你既然已经接受了A、B、C、D，你就必须接受Z！’因此你别
+无选择，明白了吗？”
 \end_layout
 
 \begin_layout Standard
-“那样逻辑就会掐着你的脖子，迫使你接受！”阿基里斯得意洋洋地回答道。“逻辑会告诉你，．这事你作不了主，你既然已经接受了A、B、C、D，你就必须接受Z!’因此你别
-无选择，明白了吗？’’
+“这美妙的逻辑提供给我们的一切，都值得记下来，”乌龟说。“请把它记在你的本上吧。我们将把它称作
 \end_layout
 
 \begin_layout Standard
-¨这美妙的逻辑提供给我化的一切，都值得记下来，”乌龟说。“请把它记在你的本卜吧。我们将把它称作
-\end_layout
+(E)
+\begin_inset space \space{}
+\end_inset
 
-\begin_layout Standard
-(E)如果A、B、C、D为真，则Z必为真。在我接受它之前，我当然不一定要接受Z 。~因此它是很必要的一步，你明白吗？’’
+如果A、B、C、D为真，则Z必为真。
+\begin_inset Newline newline
+\end_inset
+
+在我接受它之前，我当然不一定要接受Z 。因此它是很必要的一步，你明白吗？”
 \end_layout
 
 \begin_layout Standard
@@ -796,19 +1241,21 @@ status open
 \begin_layout Standard
 到这里，叙述者由于家里有急事，不得不离开过可爱的一对儿了。直到几个月以后，他才又路过这个地方。这时阿基里斯还坐在耐心的乌龟的背壳上，往他那几乎写满了的本子上写个
 不停。乌龟这时说，“你把刚才那步记下了吗？我要是没数错，已经有一千零一步了。将来还会有亿万步呢。算是帮我个忙，你不会介意考虑考虑我们两人的这篇对话究竟给了十九世
-纪的逻辑学家多少教益吧
+纪的逻辑学家多少教益吧——你不会介意利用一下我表兄假海龟到那时将会发明出来的那个双关语，把你的名字改成‘悟诡’吧？”
 \end_layout
 
 \begin_layout Standard
-一你不会介意利用一下我表兄假海龟到那时将会发明出来的那个双关语，把你的名字改成‘悟诡，吧？”
-\end_layout
+“随你便，”这位精疲力竭的勇士把脸埋在双手里回答说，他的声音因绝望而交得很空洞。“只要你愿意利用假海龟从未发明过的双关语，把你的名字改成‘厌极易死’！”
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-“随你便，”这位精疲力竭的勇士把脸埋在双手里回答说，他的声音因绝望而交得很空洞。“只要你愿意利用假海龟从末发明过的双关语，把你的名字改成‘厌极易死，！”
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 61
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
