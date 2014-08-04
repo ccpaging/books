@@ -787,7 +787,7 @@ status open
 最后，应该按惯例把译校者的分工说明一下。这有些困难，因为不少工作有交叉，大致情况是：
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 初稿
 \end_layout
 
@@ -905,7 +905,7 @@ status open
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 二稿（部分重译）
 \end_layout
 
@@ -1097,7 +1097,7 @@ status open
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 修订稿
 \end_layout
 
@@ -1167,7 +1167,7 @@ status open
 
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 校订稿
 \end_layout
 

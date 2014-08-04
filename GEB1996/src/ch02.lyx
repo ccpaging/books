@@ -97,8 +97,8 @@ hanging
 
 \begin_layout Standard
 就是这篇《二部创意曲》启发了我，使我构想出本书对话中那两个角色。就像刘易斯·卡罗尔信手借来芝诺的乌龟和阿基里斯一样，我也信手借来刘易斯·卡罗尔的乌龟和阿基里斯。
-在卡罗尔的对话中，同样的事件一次又一次地发生，只是每一次都发生在更高的层次上，它与巴赫的“无穷升高的卡农”绝妙地相似。即便不谈其中的妙语，●罗尔的对话也仍然包含
-有深刻的哲学问题，即：文字和思维是否遵循形式规则？这个问题也是本书的r颐。
+在卡罗尔的对话中，同样的事件一次又一次地发生，只是每一次都发生在更高的层次上，它与巴赫的“无穷升高的卡农”绝妙地相似。即便不谈其中的妙语，卡罗尔的对话也仍然包含
+有深刻的哲学问题，即：文字和思维是否遵循形式规则？这个问题也是本书的问题。
 \end_layout
 
 \begin_layout Standard
@@ -106,8 +106,8 @@ hanging
 逻辑学家的兴趣，读者就会有一个相当清楚的认识了。
 \end_layout
 
-\begin_layout Standard
-pq 统
+\begin_layout Subsection*
+pq系统
 \end_layout
 
 \begin_layout Standard
@@ -116,95 +116,166 @@ pq 统
 \end_layout
 
 \begin_layout Standard
-p q ‘一字母p、q和短杠。
+\begin_inset space \qquad{}
+\end_inset
+
+p
+\begin_inset space \quad{}
+\end_inset
+
+q
+\begin_inset space \quad{}
+\end_inset
+
+-
 \end_layout
 
 \begin_layout Standard
-pq系统有无穷多条公理。由于不能把它们全部写出来，我们只能用另外的方法描述它们。实际上我们不仅需要对于公理的描述，我们还需要一种辨别菜个给出的符号串是否是一条公
+\noindent
+——字母p、q和短杠。
+\end_layout
+
+\begin_layout Standard
+pq系统有无穷多条公理。由于不能把它们全部写出来，我们只能用另外的方法描述它们。实际上我们不仅需要对于公理的描述，我们还需要一种辨别某个给出的符号串是否是一条公
 理的方
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+62
+\end_layout
+
+\end_inset
+
+法。对于公理仅仅做一个描述也许能充分地刻划它们，但是这种刻划是很弱的——与WJU系统中对于定理的刻划所存在的问题是一样的。我们并不想仅仅为确定某个符号串是否是公
+理而花费一段不知多长的——甚至可能是无限长的——时间。所以，我们将给公理这样下定义，使得对于由p、q和短杠所组成的符号串是否是一条公理，有一个明显的判定过程。
+\begin_inset Newline newline
+\end_inset
+
+定义：只要x仅由一串短杠组成，那么x-qxp-就是一条公理。
+\begin_inset Newline newline
+\end_inset
+
+请注意“x”在两次出现时必须是代表同一串短杠。比如：---q--p-是一条公理。当然“x-qxp-”这个表达式本身并不是一条公理（因为“x”不属于pq系统）。它
+更像是一个铸出所有公理的模子——它被称做公理模式。
 \end_layout
 
 \begin_layout Standard
-62法。对于公理仅仅做一个描述也许能充分地刻划它们，但是这种刻划是很弱的——与WJU系统中对于定理的刻划所存在的问题是一样的。我们并不想仅仅为确定某个符号串是否
-是公理而花费一段不知多长的——甚至可能是无限长的——时间。所以，我们将给公理这样下定义，使得对于由p、q和短杠所组成的符号串是否是一条公理，有一个明显的判定过程
-。
+pq系统只有一条生成规则：
 \end_layout
 
 \begin_layout Standard
-定义：只要x仅由一串短杠组成，那么x-qxp-就是一条公理。 t_请注意“X"在两次出现时必须是代表同一串短杠。比如：…q—p一是一条公理。当然“x-qxp一”
-这个表达式本身并不是一条公理（因为“X"不属于pq系统）。它更像是一个铸出所有公理的模子——它被称做公理模式。
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hangafter 1 
+\backslash
+hangindent 2em
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+规则：假设x、y和z都代表只包含短杠的特定的符号串，并且假设xqypz是一条已知的定理，那么x-qypz-就是一条定理。
 \end_layout
 
 \begin_layout Standard
-+pq：统只有一条生成规则：规则：假设x、y和z都代表只包含短杠的特定的符号串，并且假设
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hangafter 1 
+\backslash
+hangindent 2em
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+比如让x是“－”，y是“--”，z是“---”，这条规则就是：
 \end_layout
 
 \begin_layout Standard
-xqypz是一条已知的定理，那么x-qypz-就是一条定理。比如让x是“一修，y是“一一力，z是“…一，这条规则就是：
+如果-q--p---是一条定理，则--q--p----也是一条定理。
+\begin_inset Newline newline
+\end_inset
+
+正象生成规则通常的形式那样，这个陈述在一个符号串是否是定理与另一个符号串是否是定理这两者之间建立了因果关系，但并不断定这些符号串本身是否是定理。
 \end_layout
 
 \begin_layout Standard
-如果-q—p…是一条定理，则- -q-p…一也是一条定理。正象生成规则通常的形式那样，这个陈述在一个符号串是否是定理与另一个符号串是否是定理这两者之间建立了因果
-关系，但并不断定这些符号串本身是否是定理。
+对于读者最有用的练习就是为pq系统的定理找出一个判定过程。这并不困难，找一会儿就能找出来。不妨试一试。
 \end_layout
 
-\begin_layout Standard
-对于读着最有用的练习就是为pq系统的定理找出一个判定过程。这并不困难，找一会儿就能找出来。不妨试一试。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Subsection*
 判定过程
 \end_layout
 
 \begin_layout Standard
-我假定读者已经试过了。首先我想指出——这也许是太显丽易见而不必提起的——pq系统中的每一条定理都有三组分离的短杠，并且起分离作用的成分依次为q,p。（这可以由基
-于“继承性”的一个论证来证明，就是证明wjU系统中的定理都是以W
+我假定读者已经试过了。首先我想指出——这也许是太显而易见而不必提起的——pq系统中的每一条定理都有三组分离的短杠，并且起分离作用的成分依次为q，p。（这可以由基
+于“继承性”的一个论证来证明，就是证明WJU系统中的定理都是以W
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+63
 \end_layout
 
-\begin_layout Standard
-6 3开头的那种方法。）这就是说，仅仅从形式上，我们就可以排除像
-\end_layout
+\end_inset
 
-\begin_layout Standard
-……q—p—p—p一这样的符号串，指出它不是一条定理。
+开头的那种方法。）这就是说，仅仅从形式上，我们就可以排除像--------q--p--p--这样的符号串，指出它不是一条定理。
 \end_layout
 
 \begin_layout Standard
 强调“仅仅从形式上”这几个字似乎显得是笨拙了：除了形式，一个符号串还有什么？有什么其它的东西可能在确定它的性质时起作用？很显然，没有。但是在继续讨论形式系统时，
 请把这一点记在心里：“形式”的概念会变得更复杂、更抽象。所以我们恐怕得多想一下“形式”这个词的意义。不管情况怎么样，让我们把任何一个以一组短杠开头，然后有一个q
-，接着是第二组短杠，然后是p，最后是另一组短杠这样的符号串都叫作“构形良好的”（简称“良构修）符号串。
+，接着是第二组短杠，然后是p，最后是另一组短杠这样的符号串都叫作“构形良好的”（简称“良构”）符号串。
 \end_layout
 
 \begin_layout Standard
-48 让我们回到判定过程上来。是否是定理的标准，是后两组短杠加起来是否等于第一·组短杠。例如；…一q—p一是一条定理，因为4等于2加2，而-q-
- -p--不是一条定理，因为1不等于2加2 0要知道为什么这是正确的标准，首先要看一下公理模式。显然，它只制造满足这个加法标准的公理。其次再看产生规则。假如第一
-个符号串满足加法标准，那么第二个一定也满足——反之亦然：假如第一个符号串不满足加法标准，则第二个符号串也不满足。这条规则使加法标准成了定理的一个遗传特性：任何一
-条定理部把这个特性传给由它产生的定理。这就证明了为什么加法标准是正确的。
+让我们回到判定过程上来。是否是定理的标准，是后两组短杠加起来是否等于第一组短杠。例如；----q--p--是一条定理，因为4等于2加2，而-q--p--不是一条
+定理，因为1不等于2加2。要知道为什么这是正确的标准，首先要看一下公理模式。显然，它只制造满足这个加法标准的公理。其次再看产生规则。假如第一个符号串满足加法标准
+，那么第二个一定也满足——反之亦然：假如第一个符号串不满足加法标准，则第二个符号串也不满足。这条规则使加法标准成了定理的一个遗传特性：任何一条定理部把这个特性传
+给由它产生的定理。这就证明了为什么加法标准是正确的。
 \end_layout
 
 \begin_layout Standard
 顺便提一下，我们有一个关于pq系统的事实，这一事实使我们可以有把握地说pq系统有一个判定过程，甚至在找到加法标准之前就可以这么说。这个事实是：pq系统没有因为加
-长规则和缩短规则这两种相反的力量而复杂化。它只有加长规则。，对于任何一个只告诉我们如何从较短的定理得到较长的定理，而永远不会反过来的形式系统，其定理都有一个判定
-过程。比如，假定给了一个符号串，首先，检查它是不是一条公理（我假设有一个判定
+长规则和缩短规则这两种相反的力量而复杂化。它只有加长规则。对于任何一个只告诉我们如何从较短的定理得到较长的定理，而永远不会反过来的形式系统，其定理都有一个判定过
+程。比如，假定给了一个符号串，首先，检查它是不是一条公理（我假设有一个判定
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+64
 \end_layout
 
-\begin_layout Standard
-64'公理的判定过程——否则一切就都没有希望了）。如果它是一条公理，那么它也可以称作是一条定理，这个测试就完毕。于是再假定它不是一条公理，那么，它要是一条定理，
-就一定是从一个较短的符号串得出来的。在逐条地试用各条规则时，不仅能准确地找出可能产生那个符号串的规则，而且还能准确地找出哪一个较短的符号串会是“家谱”中它的上一
-代。用这种方法，把问题“归约”成为去确定几个新的、但是较短的符号串是否都是定理，然后对它们依次地进行同样的测试。可能出现的最坏情形是产生出大量的、越来越多的、但
-是越来越短的需要测试的符号串。当以这种方式一步一步地回溯时，就一定会距离一切定理的源泉——公理模式越来越近。越来越短不会是无限的，因此，最终或是发现那些短符号串
-的其中一个是一条公理，或是到达了某一个无法再往回退的点——也就是没有一个短符号串是公理，并且没有一个短符号串可以通过某条规则或其它倒退步骤进一步缩短。
+\end_inset
+
+公理的判定过程——否则一切就都没有希望了）。如果它是一条公理，那么它也可以称作是一条定理，这个测试就完毕。于是再假定它不是一条公理，那么，它要是一条定理，就一定
+是从一个较短的符号串得出来的。在逐条地试用各条规则时，不仅能准确地找出可能产生那个符号串的规则，而且还能准确地找出哪一个较短的符号串会是“家谱”中它的上一代。用
+这种方法，把问题“归约”成为去确定几个新的、但是较短的符号串是否都是定理，然后对它们依次地进行同样的测试。可能出现的最坏情形是产生出大量的、越来越多的、但是越来
+越短的需要测试的符号串。当以这种方式一步一步地回溯时，就一定会距离一切定理的源泉——公理模式越来越近。越来越短不会是无限的，因此，最终或是发现那些短符号串的其中
+一个是一条公理，或是到达了某一个无法再往回退的点——也就是没有一个短符号串是公理，并且没有一个短符号串可以通过某条规则或其它倒退步骤进一步缩短。这表明了在形式系
+统中，只有加长的规则确实是没有多大意思的。是加长与缩短的规则交互作用使形式系统具有了某种魅力。
 \end_layout
 
-\begin_layout Standard
-这表明了在形式系统中，只有加长的规则确实是没有多大意思的。
-\end_layout
-
-\begin_layout Standard
-是加长与缩短的规则交互作用使形式系统具有了某种魅力口
-\end_layout
-
-\begin_layout Standard
+\begin_layout Subsection*
 自底向上之别于自顶向下
 \end_layout
 
@@ -214,79 +285,107 @@ xqypz是一条已知的定理，那么x-qypz-就是一条定理。比如让x是�
 \end_layout
 
 \begin_layout Standard
-(la) 将最为简单的公理（一q—p一）丢进桶里0 4 9
+(1a)
+\begin_inset space \space{}
+\end_inset
+
+将最为简单的公理（--q-p-）丢进桶里。
 \end_layout
 
 \begin_layout Standard
-(lb) 对于桶里的每个公理应用推理规则，将推得的结果丢
+(2b)
+\begin_inset space \space{}
+\end_inset
+
+对于桶里的每个公理应用推理规则，将推得的结果丢进桶里。
 \end_layout
 
 \begin_layout Standard
-进桶里。
-\end_layout
+(2a)
+\begin_inset space \space{}
+\end_inset
 
-\begin_layout Standard
-(2a) 将第二简单的公理丢进桶里。
-\end_layout
+将第二简单的公理丢进桶里。
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 65
 \end_layout
 
-\begin_layout Standard
-(2b)对桶里的每个符号串应用规则，并将结果都丢进桶里。
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(3a) 将第三简单的公理丢入桶里。
+(2b)
+\begin_inset space \space{}
+\end_inset
+
+对桶里的每个符号串应用规则，并将结果都丢进桶里。
 \end_layout
 
 \begin_layout Standard
-(3b)对桶里的每个符号串应用规则，并将结果都丢进桶里。
+(3a)
+\begin_inset space \space{}
+\end_inset
+
+将第三简单的公理丢入桶里。
 \end_layout
 
 \begin_layout Standard
+(3b)
+\begin_inset space \space{}
+\end_inset
+
+对桶里的每个符号串应用规则，并将结果都丢进桶里。
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
 等等，等等。
 \end_layout
 
 \begin_layout Standard
 略微想一想之后，可以看到，你用这种方法可以把pq系统里的每一条定理都产生出来。同时，随着时间的延续，桶里会装入越来越长的定理。这又是由于没有缩短规则的结果。因此
-，假如你有一个特定的，像…一一q一一p…这样的符号串，并且想测试一下它是不是_．条定理，只要按照上述标了号码的步骤，一直不断地检查是否出现了这个符号串。如果它出
-现了——它就是定理。假如到了某一个时候，放进桶里的每个东西都比要测试的这个符号串长，那么，就可以丢开它——它不是一条定理。这个判定过程是自底向上的，因为它是从基
-础，也就是说是从公理开始往上进行的。前面的那个判定过程是自顶向下的，因为它恰恰与此相反：它是向着基础往回进行的。
+，假如你有一个特定的，像-----q--p---这样的符号串，并且想测试一下它是不是一条定理，只要按照上述标了号码的步骤，一直不断地检查是否出现了这个符号串。如
+果它出现了——它就是定理。假如到了某一个时候，放进桶里的每个东西都比要测试的这个符号串长，那么，就可以丢开它——它不是一条定理。这个判定过程是自底向上的，因为它
+是从基础，也就是说是从公理开始往上进行的。前面的那个判定过程是自顶向下的，因为它恰恰与此相反：它是向着基础往回进行的。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 同构产生意义
 \end_layout
 
 \begin_layout Standard
-现在我们涉及到了本章——实际上是本书的——中心问题。也许读者已经想到，pq定理很像是加法。…一q--p…这个符号串是一条定理，因为5等于2加3
- 0读者甚至可以认为…一q--p…这条定理是一个用奇怪的记法记下来的陈述，它的意义是5等于2加3 0逮样看问题合乎道理吗？嗯，我是有意地选择“q"，因为英语里“
-等于”这个词是equal，而选择“p”是因为英语里“加力这个词是plus 。那么，…一q_-p…这个符号串真的意味着“5等于2加3"吗？
+现在我们涉及到了本章——实际上是本书的——中心问题。也许读者已经想到，pq定理很像是加法。-----q--p---这个符号串是一条定理，因为5等于2加3。读者甚
+至可以认为-----q--p---这条定理是一个用奇怪的记法记下来的陈述，它的意义是5等于2加3。这样看问题合乎道理吗？嗯，我是有意地选择“q”，因为英语里“等
+于”这个词是equal，而选择“p”是因为英语里“加”这个词是plus。那么，-----q--p---这个符号串真的意味着“5等于2加3”吗？
 \end_layout
 
 \begin_layout Standard
 是什么东西使我们那样想的呢？我的回答是：我们在pq定理与加法之间看到了同构。在导言中，“同构”这个词的定义是保存信息的变换。现在我们可以深入到那个概念中去，从另
 一个角度看一
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+66
+\end_layout
+
+\end_inset
+
+看。“同构”这个词的适用情景是：两个复杂结构可以互相映射，并且每一个结构的每一部分在另一个结构中都有一个相应的部分。这里“相应一的意思是：在各自的结构中，相应的
+两个部分起着相类似的作用。“同构”这个词的这种用法是从数学中一个更精确的概念那里得来的。
 \end_layout
 
 \begin_layout Standard
-6 6日看。“同构”这个词的适用情景是：两个复杂结构可以互相映射，并且每一个结构的每一部分在另一个结构中都有一个相应的部分。
-\end_layout
-
-\begin_layout Standard
-这里“相应一的意思是：在各自的结构中，相应的两个部分起着相类似的作用。“同构”这个词的这种用法是从数学中一个更精确的概念那里得来的。
-\end_layout
-
-\begin_layout Standard
-当一个数学家发现在他所知道的两个结构之间有同构关系50时，就会感到很愉快。这种关系常常“从天而降”，让人惊喜不已。认识到两个已知结构有同构关系，这是知识的一个重
-要发展——并且我认为，正是这种对于同构的认识在人们的头脑中创造了意义。
-\end_layout
-
-\begin_layout Standard
-关于对同构的认识要说的最后一点是：形象地说，由于它们可以是各种各样千姿百态的，人们并非总能搞清何时才是真正地发现了同构。因此，“同构乃具有通常的词所具有的模糊性
-。这一点是它的缺陷，但也是长处。
+当一个数学家发现在他所知道的两个结构之间有同构关系时，就会感到很愉快。这种关系常常“从天而降”，让人惊喜不已。认识到两个已知结构有同构关系，这是知识的一个重要发
+展——并且我认为，正是这种对于同构的认识在人们的头脑中创造了意义。关于对同构的认识要说的最后一点是：形象地说，由于它们可以是各种各样千姿百态的，人们并非总能搞清
+何时才是真正地发现了同构。因此，“同构乃具有通常的词所具有的模糊性。这一点是它的缺陷，但也是长处。
 \end_layout
 
 \begin_layout Standard
@@ -294,129 +393,399 @@ xqypz是一条已知的定理，那么x-qypz-就是一条定理。比如让x是�
 \end_layout
 
 \begin_layout Standard
-q ∞ 等于
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="right" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+等于
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+加
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+--
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+---
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+等等
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-p 甘 加 ‘
-\end_layout
-
-\begin_layout Standard
-㈢ 1
-\end_layout
-
-\begin_layout Standard
-∞ 2
-\end_layout
-
-\begin_layout Standard
-兮 3
-\end_layout
-
-\begin_layout Standard
-等等这种符号与词之间的对应关系有一个名称：解释。
+\noindent
+这种符号与词之间的对应关系有一个名称：解释。
 \end_layout
 
 \begin_layout Standard
 其次，在一个高一点的层次上，真陈述（也称“真理”）和定理之间存在着对应。但是，请注意，如果不在事先给这些符号选定一种解释，这种商一层次的对应是看不出来的。因此，
 更准确地说，对应是存在于真陈述和经过解释的定理之间的。不管怎么说，我们是展
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+67
 \end_layout
 
-\begin_layout Standard
-6 7现了一个两层的对应，这在所有的同构中是典型的。
+\end_inset
+
+现了一个两层的对应，这在所有的同构中是典型的。
 \end_layout
 
 \begin_layout Standard
 当遇到一个你一无所知的形式系统，并且假如你希望去发现它某种隐藏的含义时，你的问题就在于如何给它的符号赋予一种有意义的解释——也就是，通过某种方式，使得在真陈述和
-定理之间出现一个高层次的对应‘在找到一组联系于这些符号的合适的词之前，你可能要在黑暗里进行一番摸索。这与破译密码或者释读用一种失传了的文字写成的铭文(比如克里特
+定理之间出现一个高层次的对应。在找到一组联系于这些符号的合适的词之前，你可能要在黑暗里进行一番摸索。这与破译密码或者释读用一种失传了的文字写成的铭文(比如克里特
 岛的线形文字B)非常相似。释读的唯一方法就是建立在以知识为基础的猜想上的试错法。当你发现一个好的选择，一个“有意义”的选择时，突然间就觉得顺当了，并且工作的速度
 大大加快了。不久，件件事情就都各就各位了。约翰·查德威克的《克里特岛线形文字的释读》一书中就包含有这种令人激动的经历。
 \end_layout
 
 \begin_layout Standard
 但是，对挖掘一个已经毁灭了的文明时发现的形式系统进行释读，这种机会实在太少了。数学家（近来还有语言学家、哲学家和其它人）是仅有的使用形式系统的人。而且他们心里对
-于他们所使51用和出版的形式系统总是有个解释的。这些人的想法是：建立一个形式系统，它的定理同构地反映一部分现实世界。在这种情况下，对于符号的选择是有高度目的性的
-，就像是对于符号串的生成规则的选择郡样。我设计pq系统时就是这样的。你可以看出来，我为什么选用了我所选的符号。定理与加法同构这一点不是偶然的，同构之所以发生，是
-因为我有意地找到了一种通过符号形式反映加法的方法。
+于他们所使用和出版的形式系统总是有个解释的。这些人的想法是：建立一个形式系统，它的定理同构地反映一部分现实世界。在这种情况下，对于符号的选择是有高度目的性的，就
+像是对于符号串的生成规则的选择那样。我设计pq系统时就是这样的。你可以看出来，我为什么选用了我所选的符号。定理与加法同构这一点不是偶然的，同构之所以发生，是因为
+我有意地找到了一种通过符号形式反映加法的方法。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 有意义的解释与无意义的解释
 \end_layout
 
 \begin_layout Standard
-你可以选择与我不同的解释。你无需使每条定理都成为真的。但要是建立一个解释，使每条定理都成为假的，这也没什么意思。
+你可以选择与我不同的解释。你无需使每条定理都成为真的。但要是建立一个解释，使每条定理都成为假的，这也没什么意思。当然，要是作一个解释，其中的定理和真理之间没有一
+点正的或
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+68
+\end_layout
+
+\end_inset
+
+反的相关性，这就更没有意思了。因此，让我们区别开对于形式系统的两类解释。首先，我们可以有一些无意义的解释，在这种解释下，看不到系统中的定理与现实世界之间有什么同
+构关系。这样的解释多得很——任何随意的选择，都是这样的解释。例如下面这个：
 \end_layout
 
 \begin_layout Standard
-当然，要是作一个解释，其中的定理和真理之间没有一点正的或
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="right" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+马
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+幸福
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+苹果
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+那么-q-p--就获得了一个新的解释：“苹果马苹果幸福苹果苹果”——很有诗意的，它可能会打动马，甚至可能使它们喜欢这种对于pq符号串的解释！这种解释没什么“意义
+”。在这种解释中，定理听起来既不比非定理真一些，也不比它们好些。一匹马可以欣赏“幸福幸福幸福苹果马”（映射成ppp-q），就像它欣赏任何一条经过解释的定理一样。
 \end_layout
 
 \begin_layout Standard
-68反的相关性，这就更没有意思了。因此，让我们区别开对于形式系统的两类解释。首先，我们可以有一些无意义的解释，在这种解释下，看不到系统中的定理与现实世界之间有什
-么同构关系。这样的解释多得很——任何随意的选择，都是这样的解释。例如下面这个：
+另一种解释叫做有意义的。在这种解释下，定理和真理是相对应的——也就是，同构存在于定理与现实的某一部分中。这就是区别解释与意义的好处。任何已有的词都可以用来解释“
+p”，但是“加”是我们所碰到的唯一有意义的一个。总的来说，“p”的意思看来应该是“加”，虽然它还可以有成千上万个不同的解释。
 \end_layout
 
-\begin_layout Standard
-． q 马
-\end_layout
-
-\begin_layout Standard
-p 幸福
-\end_layout
-
-\begin_layout Standard
-苹果那么．q-p一就获得了一个新的解释： “苹果马苹果幸福苹果苹果”——很有诗意的，它可能会打动马，甚至可能使它们喜欢这种对于pq符号串的解释！这种解释没什么“
-意义”。在这种解释中，定理听起来既不比非定理真一些，也不比它们好些。一匹马可以欣赏“幸福幸福幸福苹果马”（映射成ppp-q），就像它欣赏任何一条经过解释的定理L
-样。
-\end_layout
-
-\begin_layout Standard
-另一种解释叫做有意义的。在这种解释下，定理和真理是相 ’对应的——也就是，同构存在于定理与现实的某一部分中。这就是区别解释与意义的好处。任何已有的词都可以用来解
-释“p力，但是“加”是我们所碰到的唯一有意义的一个。总的来说，“p”的意思看来应该是“加”，虽然它还可以有成千上万个不同的解释。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Subsection*
 主动意义之别于被动意义
 \end_layout
 
 \begin_layout Standard
 如果深一步地理解，这一章的最重要的事实也许是：pq系统似乎在迫使我们认识到，形式系统中的符号虽然一开始没有意义，但至少在发观了同构关系时，不可避免地会带上某种“
-意义”。然而，形式系统中的意义与语言中的意义的区别是非常重要的。这区别是：在语言中，当我们知道了一个记号的意义，我们就能基于这52个记号做出新的陈述。从某种意义
-上说，语言中的意义是“主动
+意义”。然而，形式系统中的意义与语言中的意义的区别是非常重要的。这区别是：在语言中，当我们知道了一个记号的意义，我们就能基于这个记号做出新的陈述。从某种意义上说
+，语言中的意义是“主动
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+69
+\end_layout
+
+\end_inset
+
+的”，因为它为创造句子带来了一条新规则。就是说，我们对于语言的掌握，不像是对于一件完成了的产品那样。当我们知道了新的意义的时候，造句子的规则也增加了。另一方面，
+在形式系统中，定理都是运用产生式规则事先定义了的，我们可以选择以定理与真陈述之间的同构（假如可以找到的话）为基础的“意义”。但是，不是说这样就准许我们在已建立的
+定理之外增加新的定理。这就是第一章中形式化要求所警告过的。
 \end_layout
 
 \begin_layout Standard
-69的挣，因为它为创造句子带来了一条新规则。就是说，我们对于语言的掌握，不像是对于一件完成了的产品那样。当我们知道了新的意义的时候，造句子的规则也增加了。另一方
-面，在形式系统中，定理都是运用产生式规则事先定义了的，我们可以选择以定理与真陈述之间的同构（假如可以找到的话）为基础的“意义力。但是，不是说这样就准许我们在已建
-立的定理之外增加新的定理。
-\end_layout
-
-\begin_layout Standard
-这就是第一章中形式化要求所警告过的。
-\end_layout
-
-\begin_layout Standard
-在WJU系统中，当然没有什么东西诱惑我们去超出那四条规则，因为还没有找到或发现一种解释。但是在这里，在我们的新系统中，人们可能受到新发现的每一个符号的“意义一的
+在WJU系统中，当然没有什么东西诱惑我们去超出那四条规则，因为还没有找到或发现一种解释。但是在这里，在我们的新系统中，人们可能受到新发现的每一个符号的“意义”的
 影响而认为符号串
 \end_layout
 
 \begin_layout Standard
--一q—’p—。p—。r、一一是一条定理。至少，人们可能希望这个符号串是一条定理。但是愿望并不能改变它并不是一条定理这一事实。仅仅因为8等于2加2加2加2，就认
-为它“一定”是一条定理，这是极大的错误。
+\begin_inset space \qquad{}
+\end_inset
+
+--------q--p--p--p--
 \end_layout
 
 \begin_layout Standard
-甚至赋予它意义就是错误的，因为它不是良构的，而我们的有意义的解释整个都是从良构符号串中得出的。
+是一条定理。至少，人们可能希望这个符号串是一条定理。但是愿望并不能改变它并不是一条定理这一事实。仅仅因为8等于2加2加2加2，就认为它“一定”是一条定理，这是极
+大的错误。甚至赋予它意义就是错误的，因为它不是良构的，而我们的有意义的解释整个都是从良构符号串中得出的。
 \end_layout
 
 \begin_layout Standard
-在一个形式系统中，意义一定是“被动的”。我们可以根据其组成符号的意义来读每个符号串，但是我们没有权力只根据我们给符号指定的意义而创造出新的定理。经过解稃的形式系
+在一个形式系统中，意义一定是“被动的”。我们可以根据其组成符号的意义来读每个符号串，但是我们没有权力只根据我们给符号指定的意义而创造出新的定理。经过解释的形式系
 统是横跨在没有意义的系统与有意义的系统之间的。可以认为，它们的符号串是“表达”事物的，但这也必定是系统的形式性质的产物。
 \end_layout
 
-\begin_layout Standard
-双t意义l
+\begin_layout Subsection*
+双重意义
 \end_layout
 
 \begin_layout Standard
@@ -424,52 +793,223 @@ p 幸福
 \end_layout
 
 \begin_layout Standard
-q 甘 减
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="right" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+减
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
 70
 \end_layout
 
-\begin_layout Standard
-p ∞ 于
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-∞ 1
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+p
 \end_layout
 
-\begin_layout Standard
-甘 2
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-等等那么…一q-p一就有了一个新的解释：“5减2等于3"0当然这是一个真陈述。在这种新的解释之下，所有的定理都将是真理。这就像原来那个解释一样有意义。很显然，“
-哪一个是这个符号串的唯一意，义？力就成了一个很愚蠢的问题。解释只要精确地反映现实世53界的某种同构，就是有意义的。当现实世界中的不同方面彼此同构时（这里是说加法
-和减法），一个形式系统可以与这两者都同构，因此可以有两种被动意义。这种符号和符号串的二值性是一个极其重要的现象。在这里，它似乎是不足道的、奇怪的、令人恼火的。但
-是，在以后更深入的讨论中，它还会再次出现，并带来极丰富的内容。
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+等于
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+--
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+等等
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+那么-----q--p---就有了一个新的解释：“5减2等于3”。当然这是一个真陈述。在这种新的解释之下，所有的定理都将是真理。这就像原来那个解释一样有意义。很
+显然，“哪一个是这个符号串的唯一意义？”就成了一个很愚蠢的问题。解释只要精确地反映现实世界的某种同构，就是有意义的。当现实世界中的不同方面彼此同构时（这里是说加
+法和减法），一个形式系统可以与这两者都同构，因此可以有两种被动意义。这种符号和符号串的二值性是一个极其重要的现象。在这里，它似乎是不足道的、奇怪的、令人恼火的。
+但是，在以后更深入的讨论中，它还会再次出现，并带来极丰富的内容。
 \end_layout
 
 \begin_layout Standard
 现在来把我们对于pq系统所做的观察作一个总结。给定两个有意义的解释，那么用其中的任何一个，每个良构的符号串都对应于一个合法的断言——有些是真的，有些是假的。在一
-个形式系统中，良构符号串的含义就是：当对它一个符号一个符号地去解释时，就产生合语法的句子。（当然，这取决于如何饵释。但是，通常在人们脑子里有一种解释。）定理出现
-在良构符号串中。这些定理是由一个公理模式和一条生成规则来定义的。我发明pq系统的目的是要模仿加法：我想让每一条定理在解释之T都表达一个真正的加法；反之，我想让每
-一个真正的恰好是两个整数相加的加法都能翻译成一个是定理的符号串。我的目的达到了。请注意，这样，所有的错的加法，像“6等于2加3"，将映射成一些不是定理的良构符号
+个形式系统中，良构符号串的含义就是：当对它一个符号一个符号地去解释时，就产生合语法的句子。（当然，这取决于如何解释。但是，通常在人们脑子里有一种解释。）定理出现
+在良构符号串中。这些定理是由一个公理模式和一条生成规则来定义的。我发明pq系统的目的是要模仿加法：我想让每一条定理在解释之下都表达一个真正的加法；反之，我想让每
+一个真正的恰好是两个整数相加的加法都能翻译成一个是定理的符号串。我的目的达到了。请注意，这样，所有的错的加法，像“6等于2加3”，将映射成一些不是定理的良构符号
 串。
-\end_layout
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 71
 \end_layout
 
-\begin_layout Standard
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
 形式系统和现实
 \end_layout
 
 \begin_layout Standard
 在那些基于现实的一部分的形式系统中，pq系统是我们遇到的第一个实例，并且看起来模仿得很好。在这种模仿中，它的定理和有关那部分现实中的真理同构。然而，现实和形式系
-统是互相独立的，并不需要意识到在两者之间存在着同构关系．每一方面都独立存在——不论我们知道不知道2等于1加1，一q-p一都是一条定理；并且不论我们是否把它与加法
-相联系，一q—p一总是一条定理。
+统是互相独立的，并不需要意识到在两者之间存在着同构关系．每一方面都独立存在——不论我们知道不知道2等于1加1，--q-p-都是一条定理；并且不论我们是否把它与加
+法相联系，--q-p-总是一条定理。
 \end_layout
 
 \begin_layout Standard
@@ -480,21 +1020,24 @@ p ∞ 于
 
 \begin_layout Standard
 但是很清楚，就形式系统而言，我们几乎只触及了表面。人们很自然地想知道，现实的哪一部份能够用一组支配无意义符号的形式规则来加以模仿。现实世界的一切都可以变为形式系
-统吗？从一个很广的意义上说，回答可能是肯定的。比如，人们可以设想，现实世界奉身只不过是一个非常复杂的形式系统。它的符号不是在纸上移动，而是在一个三维空间里运动，
-它们是组成一切事物的基54本粒子。（这里包含着一个隐含的假定，即：物质的可分性是有尽头的，因此，基本粒子这个词是有意义的。）“印符规则”是物理法则，它告诉人们如
-何根据给定的时刻从给出的所有粒子的位置和速度，得出属于-下一个一瞬间的一组新的位置和速度。所以这个宏伟的形式系统的定理，就是粒子在宇宙历史中不同时间的可能布局。
+统吗？从一个很广的意义上说，回答可能是肯定的。比如，人们可以设想，现实世界本身只不过是一个非常复杂的形式系统。它的符号不是在纸上移动，而是在一个三维空间里运动，
+它们是组成一切事物的基本粒子。（这里包含着一个隐含的假定，即：物质的可分性是有尽头的，因此，基本粒子这个词是有意义的。）“印符规则”是物理法则，它告诉人们如何根
+据给定的时刻从给出的所有粒子的位置和速度，得出属于“下一个”一瞬间的一组新的位置和速度。所以这个宏伟的形式系统的定理，就是粒子在宇宙历史中不同时间的可能布局。唯
+一的公理是所有粒子在“时间的开始”时的原始布局。这是一个
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+72
 \end_layout
 
-\begin_layout Standard
-唯一的公理是所有粒子在“时间的开始”时的原始布局。这是一个
+\end_inset
+
+非常宏伟的设想，然而它只有纯粹的理论意义。另外，量子力学（及物理学的其它部分）也使人们对于上述概念所含的理论价值产生了某种怀疑。从根本上说，我们是在问宇宙是否是
+以完全确定的方式运动，而这是个尚未解决的问题。
 \end_layout
 
-\begin_layout Standard
-7 2非常宏伟的设想，然而它只有纯粹的理论意义。另外，量子力学（及物理学的其它部分）也使人们对于上述概念所含的理论价值产生了某种怀疑。从根本上说，我们是在问宇宙
-是否是以完全确定的方式运动，而这是个尚未解决的问题。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Subsection*
 数学与符号处理
 \end_layout
 
@@ -505,96 +1048,124 @@ p ∞ 于
 \end_layout
 
 \begin_layout Standard
-假定在某个遗址的发掘中，我们确实发现了某种神秘的的形式系统a我们可以试验各种不同的解释方法，并且也许最终碰上了一种看起来使每一个定理成为真理，每一个非定理成为“
-假理”的解释。但这是一种只能在有穷多个情形里进行直接检验的东西，而定理的集合多半可能是无穷的。我们怎么会知道所有的定理在这种解释方法之下表达了真理？除非我们知道
-关于形式系统及相虚论域的每一个细节。
+假定在某个遗址的发掘中，我们确实发现了某种神秘的形式系统。我们可以试验各种不同的解释方法，并且也许最终碰上了一种看起来使每一个定理成为真理，每一个非定理成为“假
+理”的解释。但这是一种只能在有穷多个情形里进行直接检验的东西，而定理的集合多半可能是无穷的。我们怎么会知道所有的定理在这种解释方法之下表达了真理？除非我们知道关
+于形式系统及相应论域的每一个细节。
 \end_layout
 
 \begin_layout Standard
-当我们企图将自然数世界（也就是非负整数：0，1，29．．…．）和一个形式系统的印刷符号相匹配时，我们就会发现自己是处于这样一种奇怪的境地了a我们将努力去理解，我
-们在数论中称作“真理”的，和我们借符号处理所能做到的，这两者之间是什么关系。
+当我们企图将自然数世界（也就是非负整数：0,1,2,……）和一个形式系统的印刷符号相匹配时，我们就会发现自己是处于这样一种奇怪的境地了。我们将努力去理解，我们在
+数论中称作“真理”的，和我们借符号处理所能做到的，这两者之间是什么关系。
 \end_layout
 
 \begin_layout Standard
-因此，让我们简略地看看，当我们称数论中的某些陈述为真，而另一些为假时，其根据是什么0 1 2乘以1 2得多少？人人皆知，得
+因此，让我们简略地看看，当我们称数论中的某些陈述为真，而另一些为假时，其根据是什么。12乘以12得多少？人人皆知，得
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+73
+\end_layout
+
+\end_inset
+
+144。但是有多少给出这个答案的人在他们的生活中曾经画过一个12×12的长方形，然后数它的小方格？多数人认为画格和数它们是不必要的。他们会代之以在纸上写下如下的
+式子作为证明：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{c}
+\underline{\begin{array}{ccc}
+ & 1 & 2\\
+\times & 1 & 2
+\end{array}}\\
+\begin{array}{ccc}
+ & 2 & 4\\
+1 & 2
+\end{array}\\
+\overline{\begin{array}{ccc}
+1 & 4 & 4\end{array}}
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-7 31 44 0但是有多少给出这个答案的人在他们的生活中曾经画过一个55 12×12的长方形，然后数它的小方格？多数人认为画格和数它们是不必要的。他们会代之以
-在纸上写下如下的式子作为证明：
+\noindent
+这就是“证明”了。几乎所有的人都相信，如果去数小方格，一定是144个，几乎没有人会对此得数感到怀疑。
 \end_layout
 
 \begin_layout Standard
-1 2
+当考虑确定987654321×123456789的值时，这两种观点的差别就会看得更清楚了。首先，根本不可能构造一个合适的长方形；更糟糕的是，即便造出来了，也得要
+大批的人用几个世纪的时间，不停地数那些格子。而只有极易轻信的人，才愿意相信他们最后数出的结果。某个人、在某个地方、以某种方式出个小小的失误，这简直是太可能发生的
+事了。因此，究竟是否有可能知道它的得数？如果信任按照某种简单规则处理数字的符号操作过程，回答是肯定的。这个过程作为一种得到正确答案的方法提供给孩子们，而对于许多
+孩子来说，这个过程的道理由于在这么多的符号中摆弄来摆弄去，往往就显得不清楚了。乘法的数字变换法则多半是基于加法、乘法的少数几条性质，而这些性质被假定是对于所有的
+数都有效的。
 \end_layout
 
-\begin_layout Standard
-×1 2
-\end_layout
-
-\begin_layout Standard
-24
-\end_layout
-
-\begin_layout Standard
-1 2
-\end_layout
-
-\begin_layout Standard
-1 44这就是“证明”了。几乎所有的人都相信，如果去数小方格，一定是144个，几乎没有人会对此得数感到怀疑。
-\end_layout
-
-\begin_layout Standard
-当考虑确定987 654 321×1 23456 789的值时，这两种观点的差别就会看得更清楚了。首先，根本不可能构造一个合适的长方形；更糟糕的是，即便造出来了
-，也得要大批的人用几个世纪的时间，不停地数那些格子。而只有极易轻信的人，才愿意相信他们最后数出的结果。某个人、在某个地方、以某种方式出个小小的失误，这简直是太可
-能发生的事了。因此，究竟是否有可能知道它的得数？如果信任按照某种简单规则处理数字的符号操作过程，回答是肯定的。这个过程作为一种得到正确答案的方法提供给孩子们，而
-对于许多孩子来说，这个过程的道理由于在这么多的符号中摆弄来摆弄去，往往就显得不清楚了。乘法的数字变换法则多半是基于加法、乘法的少数几条性质，而这些性质被假定是对
-于所有的数都有效的。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Subsection*
 算术的基本法则
 \end_layout
 
 \begin_layout Standard
-对我所说的那种假定，现在就可以谠明如下。设划了几个道道：
+对我所说的那种假定，现在就可以说明如下。设划了几个道道：
 \end_layout
 
 \begin_layout Standard
-|f|||i；|f现在数一数它们。同时另外一个人从另一头数。两个人会得到同
+\begin_inset space \qquad{}
+\end_inset
+
+/ // // // / /
 \end_layout
 
 \begin_layout Standard
-7 4一个答案，这一点是否清楚？数的结果与计数的方法是无关的。这就是对于什么是计数的一种假定。要试图证明这一点将是毫无意义的，因为它太基本了，不管是看得出来还是
-看不出来。如果看不出来，就是证明也不会有一点儿帮助。
+现在数一数它们。同时另外一个人从另一头数。两个人会得到同
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+74
+\end_layout
+
+\end_inset
+
+一个答案，这一点是否清楚？数的结果与计数的方法是无关的。这就是对于什么是计数的一种假定。要试图证明这一点将是毫无意义的，因为它太基本了，不管是看得出来还是看不出
+来。如果看不出来，就是证明也不会有一点儿帮助。
 \end_layout
 
 \begin_layout Standard
-从这样的假定中，可以得出加法的交换律和结合律(也就是说：永远有，第一：b+c =c+b，第二：永远有b+(c+d)=(b+c)56+d)。同样的假定也可以引出乘
-法交换律和结合律，这只要想想许多小方块汇集在一起形成～个大的长方体的情形。乘法的交换律和结合律就是这样·一种假定：以各种方式旋转那个长方体时，小立方体的数量不会
-改变。这些假定不是在所有可能的情况下都可以验证的，因为，这类的情况是无穷的。我们认为这是当然的，我们像相信其它事物一样深信它们（假如我们想到它们）。我们从街上走
-过时，口袋里的钱上上下下地相撞，但是数量不会改变。如果我们把我们的书装入盒子中，放进汽车，开一百里，把盒子拿下汽车，打开，把书放上一个新的书架，书的数量也不会改
-变。所有这些都是数的性质的一部分c
+从这样的假定中，可以得出加法的交换律和结合律(也就是说：永远有，第一：b+c =c+b，第二：永远有b+(c+d)=(b+c)+d)。同样的假定也可以引出乘法交
+换律和结合律，这只要想想许多小方块汇集在一起形成一个大的长方体的情形。乘法的交换律和结合律就是这样一种假定：以各种方式旋转那个长方体时，小立方体的数量不会改变。
+这些假定不是在所有可能的情况下都可以验证的，因为，这类的情况是无穷的。我们认为这是当然的，我们像相信其它事物一样深信它们（假如我们想到它们）。我们从街上走过时，
+口袋里的钱上上下下地相撞，但是数量不会改变。如果我们把我们的书装入盒子中，放进汽车，开一百里，把盒子拿下汽车，打开，把书放上一个新的书架，书的数量也不会改变。所
+有这些都是数的性质的一部分。
 \end_layout
 
 \begin_layout Standard
-有这样的人，当某种不可否认的事实一旦写下来时，总是喜欢找点理由，使那个“事实”干脆成了假的。我就是这样的人。在我刚刚写下土面的关于线段、钱和书等例子的时候，我就
+有这样的人，当某种不可否认的事实一旦写下来时，总是喜欢找点理由，使那个“事实”干脆成了假的。我就是这样的人。在我刚刚写下上面的关于线段、钱和书等例子的时候，我就
 又设想了一些情境，在其中它们可能并不成立。读者也可以这样做。它说明抽象的数与日常生活中我们使用的数确实是很不相同的。
 \end_layout
 
 \begin_layout Standard
-人们喜欢造些违反基本算术的说法，以便说明某种“更深刻的一真理。比如“1+1-1"（对恋人而言），或者“1+1+1=1”（三位一体）。很容易从上述说法里找出漏洞，
-比如，指出在上述两种情况中，为什么使用加号是不合适的。但这样的情况多得很。两滴雨水从窗户玻璃上流下来合成了一滴，1加1是不是等于1 7一朵云彩分成两朵——还要更
-多类似的证据吗？发生的事情可以称作“加”，
+人们喜欢造些违反基本算术的说法，以便说明某种“更深刻的一真理。比如“1+1=1”（对恋人而言），或者“1+1+1=1”（三位一体）。很容易从上述说法里找出漏洞，
+比如，指出在上述两种情况中，为什么使用加号是不合适的。但这样的情况多得很。两滴雨水从窗户玻璃上流下来合成了一滴，1加1是不是等于1？一朵云彩分成两朵——还要更多
+类似的证据吗？发生的事情可以称作“加”，
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+75
 \end_layout
 
-\begin_layout Standard
-75或者需要别的什么词，在这两者之间划一条明显的界限可不是轻而易举的。如果你考虑这个问题，你大概就会提出关于空间中物体的分隔之类的标准，并且肯定每一种物体与其它
-物体有很明显的区别。但是如何去数思想呢？如何去数组成大气的气体的数量？假如查一查的话，大概能在某个地方发现一一个像“印度有十七种语言和四百六十二种方言”这样的陈
-述，这样精确的陈述倒多少令人感到奇怪了，因为“语言”和“方言”这两个概念本身就是模糊的。
+\end_inset
+
+或者需要别的什么词，在这两者之间划一条明显的界限可不是轻而易举的。如果你考虑这个问题，你大概就会提出关于空间中物体的分隔之类的标准，并且肯定每一种物体与其它物体
+有很明显的区别。但是如何去数思想呢？如何去数组成大气的气体的数量？假如查一查的话，大概能在某个地方发现一个像“印度有十七种语言和四百六十二种方言”这样的陈述，这
+样精确的陈述倒多少令人感到奇怪了，因为“语言”和“方言”这两个概念本身就是模糊的。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 理想的数
 \end_layout
 
@@ -602,91 +1173,142 @@ p ∞ 于
 数作为一种“实在”是不守规矩的。然而，人们有一种古老的内在感觉，即数不应该不守规矩。在数的抽象概念中，就有那么一种纯净的东西，独立于数念珠、方言或云朵。应该有一
 种谈论数的方式，这种方式不会总是受到现实所具有的那种糟糕状况的侵入和捣乱。支配“理想”数的铁定的规则构成了算术，并且进一步构成了数论。在把作为实际事物的数转变成
 作为形式事物的数的时候，只有一个有关的问题需要提出来。一旦你决定了要把所有数论装入一个理想的系统，是否真有可能彻底地做到这一点呢？数是否那么整洁，那么有规律，像
-结晶一样，以至于形式系统的规则能彻底地把握它们的性质？艾舍尔最漂亮的画之-《释放》（图1 3），就是形式与非彤式之间的绝妙的对比，它还有一个迷人的过渡区域。数真
-的像鸟那么自由吗？它们被囚禁在遵‘守规则的系统中时，也象那些鸟一样难以忍受吗？现实中的数与写在纸上的数之间是否有一个不可恩议的过渡区域？
+结晶一样，以至于形式系统的规则能彻底地把握它们的性质？艾舍尔最漂亮的画之一《释放》（图13），就是形式与非形式之间的绝妙的对比，它还有一个迷人的过渡区域。数真的
+像鸟那么自由吗？它们被囚禁在遵守规则的系统中时，也象那些鸟一样难以忍受吗？现实中的数与写在纸上的数之间是否有一个不可恩议的过渡区域？
 \end_layout
 
 \begin_layout Standard
-说到自然数的性质时，我不是单指像“特定的两个整数的和”
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "65col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-0077.png
+	lyxscale 50
+	scale 19
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+释放，艾舍尔作(石版画．1955)。 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-这样的性质。这种性质可以通过计数找出来。每一个在这个世纪里长大的人都不会怀疑像这样的计数以及加法、乘法等等这些过程的可机械化性。我所指的性质是数学家有兴致去探讨
-的那些问
+说到自然数的性质时，我不是单指像“特定的两个整数的和”这样的性质。这种性质可以通过计数找出来。每一个在这个世纪里长大的人都不会怀疑像这样的计数以及加法、乘法等等
+这些过程的可机械化性。我所指的性质是数学家有兴致去探讨的那些问
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+76
 \end_layout
 
-\begin_layout Standard
-7 6题，而计数过程不足以为那些问题提供答案——甚至在理论上，也不足以提供答案。让我们举一个古老的关于自然数性质的例子：“有无穷多个素数。”首先，没有一个计数过
-程能够证实或推翻这一断占。我们可以做到的，最多只不过是数上一会儿有多少个素数，然后承认．确实“有不少”。但是，不管’你数出了多少素数，你的结果都无法确定素数的个
-数是有穷的还是无穷的。总是数不完。这个陈述一一被称做“欧几 图l 3．释放，艾舍尔作(石版画．1955)。 58里德定理”（请注意是黑体字）——不是显然的。看上
-去它可能是合理的和令人信服的，但不是显然的。然而，欧几里德及后来的数学家一直说它是真的。什么原因呢？
-\end_layout
+\end_inset
 
-\begin_layout Standard
+题，而计数过程不足以为那些问题提供答案——甚至在理论上，也不足以提供答案。让我们举一个古老的关于自然数性质的例子：“有无穷多个素数。”首先，没有一个计数过程能够
+证实或推翻这一断言。我们可以做到的，最多只不过是数上一会儿有多少个素数，然后承认，确实“有不少”。但是，不管你数出了多少素数，你的结果都无法确定素数的个数是有穷
+的还是无穷的。总是数不完。这个陈述一一被称做“
+\family typewriter
+欧几里德定理
+\family default
+”（请注意是黑体字）——不是显然的。看上去它可能是合理的和令人信服的，但不是显然的。然而，欧几里德及后来的数学家一直说它是真的。什么原因呢？
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
 77
 \end_layout
 
-\begin_layout Standard
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
 欧几里德的证明
 \end_layout
 
 \begin_layout Standard
 原因是，推理告诉他们是这样的。让我们来看看这种推理。我们来看一个欧几里德证明的变种。这个证明告诉人们，不论挑出哪一个数，都还有一个比它大的素数。挑出一个数——N
-，把所有从1到N的正整数相乘，换句话说，也就是做N的阶乘，写作“N!修。得到的数可以被从1到N之间的任何数除尽。然后在NI上加上1，结果这个数就
+，把所有从1到N的正整数相乘，换句话说，也就是做N的阶乘，写作“N!”。得到的数可以被从1到N之间的任何数除尽。然后在N!上加上1，结果这个数就
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
 不能是2的倍数（因为当被2除时，余1）；
 \end_layout
 
 \begin_layout Standard
-不能是3的倍数（因为当被3除时，余1），
+\begin_inset space \quad{}
+\end_inset
+
+不能是3的倍数（因为当被3除时，余1）；
 \end_layout
 
 \begin_layout Standard
-不能是4的倍数（因为当被4除时，余1）；59 不能是N的倍数（因为当被N除时，余1）；换句话说，假如N：+1是可以被除尽的（除了被】和它本身除之外），也只能是被
-比N大的数除尽a因此，或者它本身是素数，或者它的素因数比N大。但是不论是哪种情况，我们已经表明，都一定有比N大的素数存在。不论N是什么数，这个论证过程都能进行。
+\begin_inset space \quad{}
+\end_inset
+
+不能是4的倍数（因为当被4除时，余1）；
+\end_layout
+
+\begin_layout CenterLine
+……
 \end_layout
 
 \begin_layout Standard
-因此，不管N是什么数，都有一个素数大于N。至此，就完成了素数有无穷多个这一证明。
+\begin_inset space \quad{}
+\end_inset
+
+不能是N的倍数（因为当被N除时，余1）；
+\begin_inset Newline newline
+\end_inset
+
+换句话说，假如N！+1是可以被除尽的（除了被1和它本身除之外），也只能是被比N大的数除尽。因此，或者它本身是素数，或者它的素因数比N大。但是不论是哪种情况，我们
+已经表明，都一定有比N大的素数存在。不论N是什么数，这个论证过程都能进行。因此，不管N是什么数，都有一个素数大于N。至此，就完成了素数有无穷多个这一证明。
 \end_layout
 
 \begin_layout Standard
-顺便说一下，这最后一步叫做推广。在今后更形式化的上下文
+顺便说一下，这最后一步叫做推广。在今后更形式化的上下文中，我们还会遇到它。在那里我们就单独一个数(N)来进行一个论证，然后指出我们用的N是非特定的，因此我们的论
+证是一般性的。
 \end_layout
 
 \begin_layout Standard
-中，我们还会遇到它。在那里我们就单独一个数(N)来进行一个论
+欧几里德的证明是典型的所谓“真正的数学”。它简洁、优美且令人信服。它表明人们可以通过一些很简短的步骤从起点走出很远。在我们这个例子里，起点是关于乘法和除法等等的
+基本概念。短小的步骤是指推理的步骤。虽然每一个单个的推理步骤看起来
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+78
 \end_layout
 
-\begin_layout Standard
-证，然后指出我们用的N是非特定的，因此我们的论证是一般性
-\end_layout
+\end_inset
 
-\begin_layout Standard
-的。
-\end_layout
-
-\begin_layout Standard
-欧几里德的证明是典型的所谓“兵正的数学”。它简洁、优美且
-\end_layout
-
-\begin_layout Standard
-令人信服。它表明人们可以通过一些很简短的步骤从起点走出很
-\end_layout
-
-\begin_layout Standard
-远。在我们这个例子里，起点是关于乘法和除法等等的基本概念。
-\end_layout
-
-\begin_layout Standard
-短小的步骤是指推理的步骤。虽然每一个单个的推理步骤看起来
-\end_layout
-
-\begin_layout Standard
-78是显然的，但最后的结果并不显然。我们咏远不能直接地检查这个陈述是否是真的，然而我们相信它，因为我们相信推理。如果你接受推理，似乎就别无选择。一旦你同意听欧几
-里德把话讲完，你就得同意他的结论。这是件幸事——因为这意味着数学家对于把什么样的陈述标为“真的”，把什么样的标为“假的”，永远持一致意见。
+是显然的，但最后的结果并不显然。我们永远不能直接地检查这个陈述是否是真的，然而我们相信它，因为我们相信推理。如果你接受推理，似乎就别无选择。一旦你同意听欧几里德
+把话讲完，你就得同意他的结论。这是件幸事——因为这意味着数学家对于把什么样的陈述标为“真的”，把什么样的标为“假的”，永远持一致意见。
 \end_layout
 
 \begin_layout Standard
@@ -694,296 +1316,340 @@ p ∞ 于
 予某个不那么显然的陈述一个滴水不漏的证明。存在有这种以滴水不漏的方式联系在一起的步骤，这一事实本身就暗示着可能存在一个具有模式的结构把这些陈述联在一起了。展示这
 个结构的最好办法是找一些新的词汇——有特定的风格、由符号构成的词汇——仅适于表达关于数的陈述的新词汇。然后，我们可以看看经这些新词汇翻译后的证明。它将是一行接一
 行地以某种可以检查的方式联系’在一起的一些陈述。但是，因为这些陈述是由具有特定风格的小符号集合来表示的，所以它们具有模式的样子。换句话说，虽然大声朗读出来时它们
-好像是关于数以及它们的性质的陈述，但当把它们写在纸上时，它们仍然妤像是抽象的模式——并且这个证明的一行接一行的结构可能开始变得像是模式按照某些印符规则在缓慢地变
+好像是关于数以及它们的性质的陈述，但当把它们写在纸上时，它们仍然好像是抽象的模式——并且这个证明的一行接一行的结构可能开始变得像是模式按照某些印符规则在缓慢地变
 换。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 绕过无穷
 \end_layout
 
 \begin_layout Standard
-虽然欧几里德的证明是一个关于所有的数都有某种性质的证明，它却回避了分别讨论无穷多种情况中的每一个。它用像q不管60是什么”或者“不论N是一个什么数”这样的话来绕
-过它。我们也可以使用“所有的N"这样的词再陈述一遍这个证明。知道了合适
+虽然欧几里德的证明是一个关于所有的数都有某种性质的证明，它却回避了分别讨论无穷多种情况中的每一个。它用像“不管是什么”或者“不论N是一个什么数”这样的话来绕过它
+。我们也可以使用“所有的N”这样的词再陈述一遍这个证明。知道了合适
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+79
+\end_layout
+
+\end_inset
+
+的上下文及使用这些词语的正确方式，我们就永远不需要处理无穷多个陈述。我们只要处理两三个概念，比如“所有”这个词——虽然它本身是有穷的，但它体现了无穷。通过使用它
+们，我们避开了要证明无穷多个事实这种表面问题。
 \end_layout
 
 \begin_layout Standard
-79的上下文及使用这些词语的正确方式，我们就永远不需要处理无穷多个陈述。我们只要处理两三个概念，比如“所有”这个词——虽然它本身是有穷的，但它体现了无穷。通过使
-用它们，我们避开了要证明无穷多个事实这种表面问题。
+我们使用“所有”这个词的可能方式是由推理的思维过程来规定的。也就是说，在我们使用“所有”这个词时，要遵循一些规则。我们也许没有意识到它们，并且倾向于认为，我们是
+在这个词的意义的基础上操作的。但是，这毕竟只是一种迂回的说法，实际上我们是由一些从未摆出来的规则所指引的。我们一生中总是在某些句型中使用某些词，但我们不把这些句
+型叫做“规则”，而是把我们的思维运转过程归因于词汇的“意义”。这个发现在通向数论形式化的漫长道路上是一个关键性的认识。
 \end_layout
 
 \begin_layout Standard
-我们使用“所有”这个词的可能方式是由推理的思维过程来规定的。也就是说，在我们使用。所有”这个词时，要遵循一些规则口我们也许没有意识到它们，并且倾向于认为，我们是
-在这个词的意义的基础上操作的。但是，这毕竟只是·一种迂回的说法，实际上我们是由一些从未摆出来的规则所指引的。我们一生中总是在某些句型中使用某些词，但我们不把这些
-句型叫做“规则”，而是把我们的思维运转过程归因于词汇的“意义”。这个发现在通向数论形式化的漫长道路上是一个关键性的认识。
+假如我们越来越仔细地研究欧几里德的证明，我们就会看到，它是由许许多多小的——几乎是无穷小的——步骤组成的。假如把所有这些步骤都一行一行地都写出来，这个证明会难以
+置信地复杂。对于我们的头脑来说，把许多步骤压缩在一起形成单个句子是最为清晰的。假如我们用慢动作来观察这个证明，我们就会开始察觉到一个个的框架。换句话说，这个解剖
+过程到此为止，这之后我们就遇到推理过程的“原子化”性质。一个证明可以分解成一系列小而不连续的跳跃。但从一个更高更便利的角度来观察它的时候，这些步骤是很平滑地过渡
+的。在第八章中，我将说明一种把证明分成原子单位的方法，读者会看到它涉及了许多步骤，多得令人难以置信。即使这样，它或许也不应该让你太惊异。当欧几里德发明这个证明时
+，一定有几百万个神经原（神经细胞）参加了操作，其中有许多仅在一秒种内就被激活了几百次。仅仅说出一个句子就要涉及成千上万个神经原。假如欧几里德的想法那么复杂的话，
+说它的证明包含了巨大数目的步骤就有意义了。（他脑中神经原的活
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+80
+\end_layout
+
+\end_inset
+
+动与我们的形式系统里的一个证明可能没有什么直接联系。但是两者的复杂程度是可以相比的。这就好像是大自然想要使“素数有无穷多”这个证明的复杂性保持恒定，即使涉及到的
+系统相互之间极其不同。）
 \end_layout
 
 \begin_layout Standard
-假如我们越来越仔细地研究欧几里德的证明，我们就会看到，它是由许许多多小的——几乎是无穷小的——步骤组成的。假如把所有这些步骤都一行~一行地都写出来，这个证明会难
-以置信地复杂。对于我们的头脑来说，把许多步骤压缩在一起形成单个句子是最为清晰的。假如我们用慢动作来观察这个证明，我们就会开始察觉到一个个的框架。换句话说，这个解
-剖过程到此为止，这之后我们就遏到推理过程的“原子化”性质。一个证明可以分解成一系列小而不连续的跳跃。但从一个更高更便利的角度来观察它的时候，这些步骤是很平滑地过
-渡的。在第八章中，我将说明一种把证明分成原子单位的方法，读者会看到它涉及了许多步骤，多得令人难以置信。即使这样，它或许也不应该让你太惊异。当欧几里德发明这个证明
-时，一定有几百万个神经原（神经细胞）参加了操作，其中有许多仅在一秒种内就被激活了几百次。仅仅说出一个句子就要涉及成千上万个神经原。假如欧几里德的想法那么复杂的话
-，说它的证明包含了巨大数目的步骤就有意义了。（他脑中神经原的活
+在下面的几章中，我们将构造出一个形式系统：(1)
+\begin_inset space \space{}
+\end_inset
+
+它包含一个具有特殊风格的词汇表，所有的关于自然数的陈述都可以通过它来表达；(2)
+\begin_inset space \space{}
+\end_inset
+
+它有与所有看起来必要的推理类型相对应的规则。一个很重要的问题是：我们那时所给出的、用于符号处理的规则，是否真的与我们通常的心理推理能力相等（就数论而言）——或者
+更一般地说，用某种形式系统来达到我们思维能力的水平，在理论上是否有可能。
+\end_layout
+
+\begin_layout Section-toc*
+无伴奏阿基里斯奏鸣曲
 \end_layout
 
 \begin_layout Standard
-80动与我们的形式系统里的一个证明可能没有什么直接联系。但是两者的复杂程度是可以相比的。这就好像是大自然想要使_素数有无穷多”这个证明的复杂性保持恒定，即使涉及
-到的系统相互之间极其不同。）
+\begin_inset space \hspace{}
+\length 2.5em
+\end_inset
+
+电话响了，阿基里斯拿起话筒。
 \end_layout
 
 \begin_layout Standard
-在下面的几章中，我们将构造出一个形式系统：(1)它包含一个具有特殊风格的词汇表，所有的关于自然数的陈述都可以通过它来表达；(2)它有与所有看起来必要的推理类型相
-对应的规则。
+\begin_inset VSpace bigskip
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-一个很重要的问题是：我们那时所给出的、用于符号处理的规则，是否真的与我们通常的心理推理能力相等（就数论而言）——或者更一般地说，用某种形式系统来达到我们思维能力
-的水平，在理论上是否有可能。
-\end_layout
-
-\begin_layout Standard
-无伴奏阿基里斯奏鸣曲电话响了，阿基里斯拿起话筒。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Hanging
 阿基里斯：喂，我是阿基里斯。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
 阿基里斯：噢，你好，龟兄，你怎么样？
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
 阿基里斯：得了窝颈症？啊，真不幸。你自己知道是什么引起的吗？
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
 阿基里斯：你呆在那种姿态下有多久？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：哦，难怪变得僵硬了。究竟是什么东西居然叫你那么长
+\begin_layout Hanging
+阿基里斯：哦，难怪变得僵硬了。究竟是什么东西居然叫你那么长时间地拧着脖子？
 \end_layout
 
-\begin_layout Standard
-时间地拧着脖子？阿基里斯：其中有很多都挺怪模怪样的，是吗？都是些什么东西啊？
+\begin_layout Hanging
+阿基里斯：其中有很多都挺怪模怪样的，是吗？都是些什么东西啊？举个例子？
 \end_layout
 
-\begin_layout Standard
-举个例子？
+\begin_layout Hanging
+阿基里斯：你说什么——“魔幻般的各种动物”？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：你说什么——“魔幻般的各种动物”？ 62阿基里斯：你认出了你的朋友螃蟹？它干嘛要变成那种样子？什幺？
+\begin_layout Hanging
+阿基里斯：你认出了你的朋友螃蟹？它干嘛要变成那种样子？什么？螃蟹总是爱把自己弄进最不可思议的困境里？这呆瓜！幸亏
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+81
 \end_layout
 
-\begin_layout Standard
-螃蟹总是爱把自己弄进最不可思议的困境里？这呆瓜！幸亏
-\end_layout
+\end_inset
 
-\begin_layout Standard
-81图1 4．镶嵌画-．艾舍尔作（蚀版画．1957）。
-\end_layout
-
-\begin_layout Standard
 那对钳子没变样。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：还有一把吉他？太奇怪啦。说到音乐，你想过来听一听
+\begin_layout Hanging
+阿基里斯：还有一把吉他？太奇怪啦。说到音乐，你想过来听一听那位最对你口味的作曲家巴赫的无伴奏小提琴奏鸣曲吗？我刚买到一张这些奏鸣曲的唱片，那效果真是太捧啦。我现
+在还没从那里面醒过劲儿来呢。巴赫只用了一把小提琴就创作出了这么有趣的作品！阿基里斯：怎么，还没劲儿？我知道到了你这样的岁数会怎么样。真遗憾，也许你应该上床读会儿
+书什么的。
+\end_layout
+
+\begin_layout Hanging
+阿基里斯：哦，是吗，没电了？有时会出现这种情况的，不过我看你可以点上蜡烛。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+82
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Hanging
+阿基里斯：哦，哦，原来是因为失眠，那最好就别看书了。可是，究竟是什么叫你睡不着觉呢？
+\end_layout
+
+\begin_layout Hanging
+阿基里斯：哦，是这么回事啊。那好，如果是这个叫你一直神不守舍，那你也许最好说给我听听，让我和你一起来研究研究。
+\end_layout
+
+\begin_layout Hanging
+阿基里斯：一个词，其居中的两个部首依次是“昔”和“火”……嗯……“秋鹊”怎么样？
+\end_layout
+
+\begin_layout Hanging
+阿基里斯：的确，“昔”、“火”在这个词里顺序是颠倒的。
+\end_layout
+
+\begin_layout Hanging
+阿基里斯：一连猜了几个小时？听起来我好象一头栽进了一个非常难解的字谜里了。这个该死的字谜你是打哪儿听来的？
+\end_layout
+
+\begin_layout Hanging
+阿基里斯：你是说他看去象是在思索深奥的佛理，可实际上他只是在力图解开复杂的字谜，是吗？
+\end_layout
+
+\begin_layout Hanging
+阿基里斯：啊哈！原来是那只蜗牛知道这家伙在干什么。可是你怎么想起跟那只蜗牛说话的呢？
+\end_layout
+
+\begin_layout Hanging
+阿基里斯：听我说，我曾经见过一个字谜，跟这个有点象。你想知道吗？这会不会弄得你更加神不守舍呢？
+\end_layout
+
+\begin_layout Hanging
+阿基里斯：我也这么想——不会有任何害处的。下面就是那个字谜：什么词以部首“虫”开头，又以部首“虫”结尾？
+\end_layout
+
+\begin_layout Hanging
+阿基里斯：真机灵——不过这近乎赖皮了。这当然不是我心里所想的那个答案。
+\end_layout
+
+\begin_layout Hanging
+阿基里斯：你当然很对——它满足了条件，不过这是种“走捷径”的解决办法。我心里另有谜底。
+\end_layout
+
+\begin_layout Hanging
+阿基里斯：叫你猜着了！你怎么这么快就想出来啦？
+\end_layout
+
+\begin_layout Hanging
+阿基里斯：我明白了。事实上停电不仅没有耽误你的事，反而帮了你的忙。太妙了！可是对于你的那个“昔火”谜，我这儿还是一抹黑呢。
 \end_layout
 
 \begin_layout Standard
-那位最对你口味的作曲家巴赫的无伴奏小提琴奏鸣曲吗？我
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-0082.png
+	scale 60
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-刚买到一张这些奏鸣曲的唱片，那效果真是太捧啦。我现在还，
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+镶嵌画Ⅱ，艾舍尔作（蚀版画，1957）。
 \end_layout
 
-\begin_layout Standard
-没从那里面醒过劲儿来呢。巴赫只用了一把小提琴就创作出
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-了这么有趣的作品！阿基里斯：怎么，还没劲儿？我知道到了你这样的岁数会怎么样。真
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-遗憾，也许你应该上床读会儿书什么的。阿基里斯：哦，是吗，没电了？有时会出现这种情况的，不过我看你
+\begin_layout Hanging
+阿基里斯：祝贺你！这样一来你也许能睡着了！告诉我吧，谜底是什么？
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+83
 \end_layout
 
-\begin_layout Standard
-可以点上蜡烛。
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-82阿基里斯：哦，哦，原来是因为失眠，那最好就别看书了。可是，究竟
+\begin_layout Hanging
+阿基里斯：是的，我一般不喜欢提示，但是没关系，你要给我什么提示呢？
 \end_layout
 
-\begin_layout Standard
-是什么叫你睡不着觉呢？阿基里斯：哦，是这么回事啊。那好，如果是这个叫你一直神不守
+\begin_layout Hanging
+阿基里斯：我不懂你在这里用“图形”和“衬底”是表示什么。
 \end_layout
 
-\begin_layout Standard
-舍，那你也许最好说给我听听，让我和你一起来研究研究。阿基里斯：一个词，其居中的两个部首依次是“昔力和“火”……嗯
+\begin_layout Hanging
+阿基里斯：我当然知道《镶嵌画I》那幅画！我熟悉艾舍尔的所有作品。毕竟，他是我最喜欢的艺术家。我无论到哪儿总要在墙上挂一幅《镶嵌画Ⅱ》的印刷复制品，我现在一抬眼就
+能看得见。
 \end_layout
 
-\begin_layout Standard
-．．“秋鹊”怎么样？阿基里斯：的确，“昔”、“火力在这个词里顺序是颠倒的。
+\begin_layout Hanging
+阿基里斯：是的，我看出了所有的黑颜色动物。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：一连猜了几个小时？听起来我好象一头栽进了一个非常
+\begin_layout Hanging
+阿基里斯：对，我还看到它们中间的“负空间”——也就是剩下的画面——是些白颜色的动物图案。
 \end_layout
 
-\begin_layout Standard
-难解的字谜里了。这个该死的字谜你是打哪儿听来的？阿基里斯：你是说他看去象是在思索深奥的佛理，可实际上他只是
+\begin_layout Hanging
+阿基里斯：你所说的“图形”和“衬底”原来是这个意思啊。可是这同那个“昔火”字谜有什么关系呢？
 \end_layout
 
-\begin_layout Standard
-在力图解开复杂的字谜，是吗？阿基里斯：啊哈！． 原来是那只蜗牛知道这家伙在干什么。可是
+\begin_layout Hanging
+阿基里斯：哦，对我来说这太复杂了。我真希望能马上来个“肚里点蜡烛——透心明白”。
 \end_layout
 
-\begin_layout Standard
-你怎么想起跟那只蜗牛说话的呢？阿基里斯：听我说，我曾经见过一个字谜，跟这个有点象。你想知道
+\begin_layout Hanging
+阿基里斯：没听说过？这可是我最喜欢的歇后语了。
 \end_layout
 
-\begin_layout Standard
-吗？这会不会弄得你更加神不守舍呢？阿基里斯：我也这么想——不会有任何害处的。下面就是那个字
+\begin_layout Hanging
+阿基里斯：你现在就准备过来？可是我刚才还想——
 \end_layout
 
-\begin_layout Standard
-谜：什么词以部首“虫”开头，又以部首“虫”结尾？阿基里斯：真机灵——不过这近乎赖皮了。这当然不是我心里所想
+\begin_layout Hanging
+阿基里斯：那好吧。也许到那时我会想出你那个字谜的正确答案，对，用你那个“图形一衬底”的暗示，把它同我的那个字谜联系起来。
 \end_layout
 
-\begin_layout Standard
-的那个答案。阿基里斯：你当然很对——它满足了条件，不过这是种“走捷径”的
-\end_layout
-
-\begin_layout Standard
-解决办法。我心里另有谜底。阿基里斯：叫你猜着了！你怎么这么快兢想出来啦？
-\end_layout
-
-\begin_layout Standard
-阿基里斯：我明白了。事实上停电不仅没有耽误你的事，反而帮了
-\end_layout
-
-\begin_layout Standard
-你的忙。太妙了！可是对于你的那个“昔火”谜，我这儿还是一
-\end_layout
-
-\begin_layout Standard
-抹黑呢。阿基里斯：祝贺你！这样一来你也许能睡着了！告诉我吧，谜底是
-\end_layout
-
-\begin_layout Standard
-什么？
-\end_layout
-
-\begin_layout Standard
-8 3阿基里斯：是的，我一般不喜欢提示，但是没关系，你要给我什么提
-\end_layout
-
-\begin_layout Standard
-示呢？阿基里斯：我不懂你在这里用“图形”和“衬底一是表示什么。
-\end_layout
-
-\begin_layout Standard
-阿基里斯：我当然知道《镶嵌画I》那幅画！我熟悉艾舍尔的所有作
-\end_layout
-
-\begin_layout Standard
-品。毕竟，他是我最喜欢的艺术家。我无论到哪儿总要在墙上
-\end_layout
-
-\begin_layout Standard
-挂一幅《镶嵌画Ⅱ》的印刷复制品，我现在一抬眼就能看得见。63阿基里斯：是的，我看出了所有的黑颜色动物。
-\end_layout
-
-\begin_layout Standard
-阿基里斯：对，我还看到它们中间的“负空间”——也就是剩下的画
-\end_layout
-
-\begin_layout Standard
-面——是些白颜色的动物图案。阿基里斯：你所说的“图形”和“衬底”原来是这个意思啊。可是这同
-\end_layout
-
-\begin_layout Standard
-那个“昔火”字谜有什么关系呢？阿基里斯：哦，对我来说这太复杂了。我真希望能马上来个“肚里点
-\end_layout
-
-\begin_layout Standard
-蜡烛——透心明白”。阿基里斯：没听说过？这可是我最喜欢的歇后语了。
-\end_layout
-
-\begin_layout Standard
-阿基里斯：你现在就准备过来？可是我刚才还想——阿基里斯：那好吧。也许到那时我会想出你那个字谜的正确答案，
-\end_layout
-
-\begin_layout Standard
-对，用你那个“图形一衬底”的暗示，把它同我的那个字谜联系
-\end_layout
-
-\begin_layout Standard
-起来。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Hanging
 阿基里斯：我很愿意把它们放给你听。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
 阿基里斯：你发明了一种有关它们的理论？
 \end_layout
 
-\begin_layout Standard
+\begin_layout Hanging
 阿基里斯：用什么乐器伴奏？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：嗯，如果真是这样的话，他不愿写出羽管键琴部分并把
+\begin_layout Hanging
+阿基里斯：嗯，如果真是这样的话，他不愿写出羽管键琴部分并把它发表就有点奇怪了。
 \end_layout
 
-\begin_layout Standard
-它发表就有点奇怪了。
+\begin_layout Hanging
+阿基里斯；我懂了——带点儿随意的色彩。听它们可以有两种办法——带伴奏的或不带伴奏的口但是人们怎么会知道那伴奏听起来怎么样呢？
 \end_layout
 
-\begin_layout Standard
-阿基里斯；我懂了——带点儿随意的色彩。听它们可以有两种办法
-\end_layout
-
-\begin_layout Standard
-——带伴奏的或不带伴奏的口但是人们怎么会知道那伴奏听
-\end_layout
-
-\begin_layout Standard
-起来怎么样呢？
-\end_layout
-
-\begin_layout Standard
+\begin_layout Hanging
 阿基里斯：啊，对，我想那是最好的，把它留给听众去想象。况且还
-\end_layout
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 84
 \end_layout
 
-\begin_layout Standard
-说不定正象你所说的那样，巴赫甚至从未想到过要有伴奏。这
+\end_inset
+
+说不定正象你所说的那样，巴赫甚至从未想到过要有伴奏。这些奏鸣曲现在这样似乎也确实很好。
 \end_layout
 
-\begin_layout Standard
-些奏鸣曲现在这样似乎也确实很好。阿基里斯：没错儿。好吧，一会儿见。
+\begin_layout Hanging
+阿基里斯：没错儿。好吧，一会儿见。
 \end_layout
 
-\begin_layout Standard
-阢基里斯：再见，龟兄。
-\end_layout
+\begin_layout Hanging
+阿基里斯：再见，龟兄。
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 85
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body

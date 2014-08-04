@@ -268,7 +268,7 @@ status open
 规则就是这些。现在可以试试找出WU了。假如得不出来不要担心。只是试一下——主要是体会一下WLT谜题的味道。愿读者从中获得享受。
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 定理、公理、规则
 \end_layout
 
@@ -547,7 +547,7 @@ WUJJU
 U，听起来就很奇怪，但是如果说推导出了WUJJU，就不那么奇怪了。
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 系统内外
 \end_layout
 
@@ -588,7 +588,7 @@ status open
 样的意思：只有机器可以永不抱怨或者不知疲倦地反复做这项工作。
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 跳出系统
 \end_layout
 
@@ -637,7 +637,7 @@ status open
 么要向读者展示形式系统的原因。现在是回头讨论WJU系统的时候了。
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 W方式、J方式、U方式
 \end_layout
 
@@ -660,7 +660,7 @@ status open
 度。关于这点在后面几章中会更多地讲到。
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 判定过程
 \end_layout
 

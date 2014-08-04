@@ -59,6 +59,7 @@ Preamble
     % 定制章节的格式
     \usepackage[compact,calcwidth,pagestyles]{titlesec}    % compact 使用压缩格式
 
+    % 字体大小, \tiny \scriptsize \footnotesize \small \normalsize \large \Large \LARGE \huge \Huge
     \newcommand{\starmark}{}
     \newenvironment{addstarbefore}
         {\renewcommand{\starmark}{*}}
@@ -66,7 +67,7 @@ Preamble
 
     \titleclass{\part}{top} % make part like a chapter
     \titleformat{\part}[display]
-	{\CJKFontHei\large\centering}
+	{\CJKFontHei \Large \centering}
 	{\starmark \thepart}
 	{1em}
 	{}
@@ -77,11 +78,11 @@ Preamble
 	{0pt}
 	{20pt}
 
-    % 章节标题
+    % 章标题
     %\renewcommand\thechapter{\arabic{chapter}}
     %\renewcommand\thechapter{第\CJKnumber{\arabic{chapter}}章}
     \titleformat{\chapter}          % display 序号和标题分别占用两行
-        {\large\centering}          % format 标题格式
+        {\Large \centering}          % format 标题格式
         {\starmark 第\CJKnumber{\thechapter}章}     % label 用于定义定义标题的标签,就是标题内容前面的标号
         {1em}                       % sep 定义标题的标签与标题内容之间的间隔距离
         {}                          % before 用于在标题内容前再加些内容
@@ -95,11 +96,17 @@ Preamble
     %\renewcommand{\sectionrname}{}
     %\renewcommand\thesection{\arabic{chapter}.\arabic{section}}
     \titleformat{\section}
-        {\CJKFontHei\centering}
+        {\large \centering}
         {\starmark \arabic{chapter}.\arabic{section}}
         {1em}
         {}
         
+    \titleformat{\subsection}
+        {\CJKFontHei \centering}
+        {\starmark \arabic{subsection}}
+        {1em}
+        {}
+
     % 定制目录格式
     \RequirePackage{titletoc}
 
@@ -353,7 +360,6 @@ Style Section
 		Tooltip       "The section as it appears in the table of contents/running headers"
 	EndArgument
 	Font
-	  Family              Typewriter
 	  Series              Default
 	  Size                Larger
 	EndFont
@@ -385,10 +391,39 @@ Style Section-toc*
     EndPreamble
 End
 
+Style Subsection
+	CopyStyle             Section
+	LabelCounter          subsection
+	TocLevel              2
+	LatexName             subsection
+	TopSep                0.9
+	BottomSep             0.5
+	ParSep                0.5
+	Align                 Center
+	Font
+	  Family              Typewriter
+	  Size                Normal
+	EndFont
+	HTMLTag               h3
+End
+
+Style Subsection*
+	CopyStyle	Subsection
+	Category	Unnumbered
+	Margin	Static
+	LatexName	subsection*
+	LabelType	No_Label
+	LabelCounter	""
+	ResetArgs       1
+End
+
 # 删除无用的环境列表
 
-NoStyle         Subsection
-NoStyle         Subsection*
+#NoStyle         Subsection
+#NoStyle         Subsection*
+
+NoStyle         Subsubsection
+NoStyle         Subsubsection*
 
 NoStyle         Verse
 NoStyle         Quotation
