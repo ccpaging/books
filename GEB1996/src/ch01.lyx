@@ -797,6 +797,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+WJU系统中所有定理的“树”
+\end_layout
+
+\end_inset
+
 一个系统地构造出来的WJU系统中所有定理的“树”。向下到第N步，它包含了恰恰需要N个步骤推导的那些定理．圆圈中的数字字表示使用了哪条规则。WU是不是在这棵树上的
 什么地方？
 \end_layout

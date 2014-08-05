@@ -701,7 +701,24 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-FIGURE - FIGURE图形，斯科特·凯姆作（1975）。你能看出其中的单词吗？
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+FIGURE - FIGURE图形
+\end_layout
+
+\end_inset
+
+FIGURE
+\begin_inset space \space{}
+\end_inset
+
+-
+\begin_inset space \space{}
+\end_inset
+
+FIGURE图形，斯科特·凯姆作（1975）。你能看出其中的单词吗？
 \end_layout
 
 \end_inset
@@ -860,6 +877,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+TNT中各种符号串之间的关系
+\end_layout
+
+\end_inset
+
 这张图形象地描绘了TNT中各种符号串之间的关系。最大的方框代表所有TNT符号串的集。次一级的方框代表所有良构的TNT符号串的集，在它里面有TNT的所有语句的集。
 现在事情开始有趣了。所有定理的集合画成了一棵树，树干代表公理的集合。选树来作象征是因为它展现出来的递归生长的模式：新的枝条不断地从旧的里面生长出来。手指一样的枝
 条探到了约束区域（真理集）的各个角落，然而永远无法完全覆盖这个区域。真理和“假理”之间的分界线有意地提示出一种曲折随机的海岸线，无论你如何仔细地察看，总是有更细
@@ -1572,6 +1598,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+巴赫《赋格的艺术》最后一页
+\end_layout
+
+\end_inset
+
 巴赫《赋格的艺术》最后一页。在原手稿上，巴赫的儿子卡尔·菲利普·埃玛努厄尔写道：“请注意，在这支赋格中，当名字B.
 \begin_inset space \space{}
 \end_inset

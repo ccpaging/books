@@ -91,22 +91,6 @@ hanging
 
 \begin_body
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-frontmatter
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout CenterLine
 
 \size huge
@@ -165,18 +149,6 @@ filename "ch00.lyx"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -184,8 +156,19 @@ status open
 
 
 \backslash
-mainmatter
+addcontentsline{toc}{chapter}{
+\backslash
+listfigurename}
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
 
 \end_inset
 
