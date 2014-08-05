@@ -285,7 +285,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(1a)
+（1a）
 \begin_inset space \space{}
 \end_inset
 
@@ -293,7 +293,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(2b)
+（2b）
 \begin_inset space \space{}
 \end_inset
 
@@ -301,7 +301,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(2a)
+（2a）
 \begin_inset space \space{}
 \end_inset
 
@@ -319,7 +319,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(2b)
+（2b）
 \begin_inset space \space{}
 \end_inset
 
@@ -327,7 +327,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(3a)
+（3a）
 \begin_inset space \space{}
 \end_inset
 
@@ -335,7 +335,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(3b)
+（3b）
 \begin_inset space \space{}
 \end_inset
 
@@ -621,8 +621,8 @@ status open
 
 \begin_layout Standard
 当遇到一个你一无所知的形式系统，并且假如你希望去发现它某种隐藏的含义时，你的问题就在于如何给它的符号赋予一种有意义的解释——也就是，通过某种方式，使得在真陈述和
-定理之间出现一个高层次的对应。在找到一组联系于这些符号的合适的词之前，你可能要在黑暗里进行一番摸索。这与破译密码或者释读用一种失传了的文字写成的铭文(比如克里特
-岛的线形文字B)非常相似。释读的唯一方法就是建立在以知识为基础的猜想上的试错法。当你发现一个好的选择，一个“有意义”的选择时，突然间就觉得顺当了，并且工作的速度
+定理之间出现一个高层次的对应。在找到一组联系于这些符号的合适的词之前，你可能要在黑暗里进行一番摸索。这与破译密码或者释读用一种失传了的文字写成的铭文（比如克里特
+岛的线形文字B）非常相似。释读的唯一方法就是建立在以知识为基础的猜想上的试错法。当你发现一个好的选择，一个“有意义”的选择时，突然间就觉得顺当了，并且工作的速度
 大大加快了。不久，件件事情就都各就各位了。约翰·查德威克的《克里特岛线形文字的释读》一书中就包含有这种令人激动的经历。
 \end_layout
 
@@ -1074,7 +1074,7 @@ status open
 \end_layout
 
 \begin_layout CenterLine
-\begin_inset Formula $\begin{array}{c}
+\begin_inset Formula $\begin{array}{r}
 \underline{\begin{array}{ccc}
  & 1 & 2\\
 \times & 1 & 2
@@ -1084,7 +1084,7 @@ status open
 1 & 2
 \end{array}\\
 \overline{\begin{array}{ccc}
-1 & 4 & 4\end{array}}
+\ 1 & 4 & 4\end{array}}
 \end{array}$
 \end_inset
 
@@ -1135,11 +1135,11 @@ status open
 \end_layout
 
 \begin_layout Standard
-从这样的假定中，可以得出加法的交换律和结合律(也就是说：永远有，第一：b+c =c+b，第二：永远有b+(c+d)=(b+c)+d)。同样的假定也可以引出乘法交
-换律和结合律，这只要想想许多小方块汇集在一起形成一个大的长方体的情形。乘法的交换律和结合律就是这样一种假定：以各种方式旋转那个长方体时，小立方体的数量不会改变。
-这些假定不是在所有可能的情况下都可以验证的，因为，这类的情况是无穷的。我们认为这是当然的，我们像相信其它事物一样深信它们（假如我们想到它们）。我们从街上走过时，
-口袋里的钱上上下下地相撞，但是数量不会改变。如果我们把我们的书装入盒子中，放进汽车，开一百里，把盒子拿下汽车，打开，把书放上一个新的书架，书的数量也不会改变。所
-有这些都是数的性质的一部分。
+从这样的假定中，可以得出加法的交换律和结合律（也就是说：永远有，第一：b+c=c+b，第二：永远有b+（c+d）=（b+c）+d）。同样的假定也可以引出乘法交换
+律和结合律，这只要想想许多小方块汇集在一起形成一个大的长方体的情形。乘法的交换律和结合律就是这样一种假定：以各种方式旋转那个长方体时，小立方体的数量不会改变。这
+些假定不是在所有可能的情况下都可以验证的，因为，这类的情况是无穷的。我们认为这是当然的，我们像相信其它事物一样深信它们（假如我们想到它们）。我们从街上走过时，口
+袋里的钱上上下下地相撞，但是数量不会改变。如果我们把我们的书装入盒子中，放进汽车，开一百里，把盒子拿下汽车，打开，把书放上一个新的书架，书的数量也不会改变。所有
+这些都是数的性质的一部分。
 \end_layout
 
 \begin_layout Standard
@@ -1174,7 +1174,7 @@ status open
 种谈论数的方式，这种方式不会总是受到现实所具有的那种糟糕状况的侵入和捣乱。支配“理想”数的铁定的规则构成了算术，并且进一步构成了数论。在把作为实际事物的数转变成
 作为形式事物的数的时候，只有一个有关的问题需要提出来。一旦你决定了要把所有数论装入一个理想的系统，是否真有可能彻底地做到这一点呢？数是否那么整洁，那么有规律，像
 结晶一样，以至于形式系统的规则能彻底地把握它们的性质？艾舍尔最漂亮的画之一《释放》（图13），就是形式与非形式之间的绝妙的对比，它还有一个迷人的过渡区域。数真的
-像鸟那么自由吗？它们被囚禁在遵守规则的系统中时，也象那些鸟一样难以忍受吗？现实中的数与写在纸上的数之间是否有一个不可恩议的过渡区域？
+像鸟那么自由吗？它们被囚禁在遵守规则的系统中时，也象那些鸟一样难以忍受吗？现实中的数与写在纸上的数之间是否有一个不可思议的过渡区域？
 \end_layout
 
 \begin_layout Standard
@@ -1187,9 +1187,8 @@ status open
 
 \begin_layout CenterLine
 \begin_inset Graphics
-	filename images/images-0077.png
-	lyxscale 50
-	scale 19
+	filename images/images-0077.jpg
+	scale 38
 
 \end_inset
 
@@ -1200,7 +1199,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-释放，艾舍尔作(石版画．1955)。 
+释放，艾舍尔作（石版画，1955）。 
 \end_layout
 
 \end_inset
@@ -1227,7 +1226,7 @@ status open
 
 题，而计数过程不足以为那些问题提供答案——甚至在理论上，也不足以提供答案。让我们举一个古老的关于自然数性质的例子：“有无穷多个素数。”首先，没有一个计数过程能够
 证实或推翻这一断言。我们可以做到的，最多只不过是数上一会儿有多少个素数，然后承认，确实“有不少”。但是，不管你数出了多少素数，你的结果都无法确定素数的个数是有穷
-的还是无穷的。总是数不完。这个陈述一一被称做“
+的还是无穷的。总是数不完。这个陈述——被称做“
 \family typewriter
 欧几里德定理
 \family default
@@ -1291,7 +1290,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-顺便说一下，这最后一步叫做推广。在今后更形式化的上下文中，我们还会遇到它。在那里我们就单独一个数(N)来进行一个论证，然后指出我们用的N是非特定的，因此我们的论
+顺便说一下，这最后一步叫做推广。在今后更形式化的上下文中，我们还会遇到它。在那里我们就单独一个数（N）来进行一个论证，然后指出我们用的N是非特定的，因此我们的论
 证是一般性的。
 \end_layout
 
@@ -1367,11 +1366,11 @@ status open
 \end_layout
 
 \begin_layout Standard
-在下面的几章中，我们将构造出一个形式系统：(1)
+在下面的几章中，我们将构造出一个形式系统：（1）
 \begin_inset space \space{}
 \end_inset
 
-它包含一个具有特殊风格的词汇表，所有的关于自然数的陈述都可以通过它来表达；(2)
+它包含一个具有特殊风格的词汇表，所有的关于自然数的陈述都可以通过它来表达；（2）
 \begin_inset space \space{}
 \end_inset
 
@@ -1520,7 +1519,7 @@ status open
 
 \begin_layout CenterLine
 \begin_inset Graphics
-	filename images/images-0082.png
+	filename images/images-0082.jpg
 	scale 60
 
 \end_inset

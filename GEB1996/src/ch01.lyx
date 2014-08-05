@@ -327,7 +327,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-(1)
+（1）
 \end_layout
 
 \end_inset
@@ -356,7 +356,7 @@ WJ
 \begin_inset Text
 
 \begin_layout Plain Layout
-(2)
+（2）
 \end_layout
 
 \end_inset
@@ -374,7 +374,7 @@ WJJ
 \begin_inset Text
 
 \begin_layout Plain Layout
-使用规则Ⅱ，从(1)中得出
+使用规则Ⅱ，从（1）中得出
 \end_layout
 
 \end_inset
@@ -385,7 +385,7 @@ WJJ
 \begin_inset Text
 
 \begin_layout Plain Layout
-(3)
+（3）
 \end_layout
 
 \end_inset
@@ -403,7 +403,7 @@ WJJJJ
 \begin_inset Text
 
 \begin_layout Plain Layout
-使用规则Ⅱ，从(2)中得出
+使用规则Ⅱ，从（2）中得出
 \end_layout
 
 \end_inset
@@ -414,7 +414,7 @@ WJJJJ
 \begin_inset Text
 
 \begin_layout Plain Layout
-(4)
+（4）
 \end_layout
 
 \end_inset
@@ -432,7 +432,7 @@ WJJJJU
 \begin_inset Text
 
 \begin_layout Plain Layout
-使用规则I，从(3)中得出
+使用规则I，从（3）中得出
 \begin_inset Note Comment
 status open
 
@@ -453,7 +453,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-(5)
+（5）
 \end_layout
 
 \end_inset
@@ -471,7 +471,7 @@ WUJU
 \begin_inset Text
 
 \begin_layout Plain Layout
-使用规则I，从(4)中得出
+使用规则I，从（4）中得出
 \end_layout
 
 \end_inset
@@ -482,7 +482,7 @@ WUJU
 \begin_inset Text
 
 \begin_layout Plain Layout
-(6)
+（6）
 \end_layout
 
 \end_inset
@@ -500,7 +500,7 @@ WUJUUJU
 \begin_inset Text
 
 \begin_layout Plain Layout
-使用规则Ⅱ，从(5)中得出
+使用规则Ⅱ，从（5）中得出
 \end_layout
 
 \end_inset
@@ -511,7 +511,7 @@ WUJUUJU
 \begin_inset Text
 
 \begin_layout Plain Layout
-(7)
+（7）
 \end_layout
 
 \end_inset
@@ -529,7 +529,7 @@ WUJJU
 \begin_inset Text
 
 \begin_layout Plain Layout
-使用规则Ⅳ，从(6)中得出
+使用规则Ⅳ，从（6）中得出
 \end_layout
 
 \end_inset
@@ -577,8 +577,8 @@ status open
 \begin_layout Standard
 现在让我更清楚地谈谈我说“这展示出了人与机器之间的区别”是什么意思。我的意思是：有可能给机器编一个以上述方式来做机械工作的程序，机器永远不会发现（即便这是非常明
 显的）它自己在做什么。但是人的意识有一个固有的特点，他总是能看出关于他正在做的事情的某些事实。关于这一点，你是早已知道的。假如你在加法机上按一下“1”，然后再加
-1，再加1，再加1，再加1……如此一直加上几个小时又几个小时。虽然任何人都会很快地3 7懂得自己在重复一个动作，而那台机器却永远不懂得在你按1之前，自己去加。或
-者，另举一个愚蠢点儿的例子：无论用了多久，无论多好的一部汽车，也永远不会有躲避道路上的其它汽车或障碍物的能力，永远不会知道它的主人常走的路线。
+1，再加1，再加1，再加1……如此一直加上几个小时又几个小时。虽然任何人都会很快地懂得自己在重复一个动作，而那台机器却永远不懂得在你按1之前，自己去加。或者，另
+举一个愚蠢点儿的例子：无论用了多久，无论多好的一部汽车，也永远不会有躲避道路上的其它汽车或障碍物的能力，永远不会知道它的主人常走的路线。
 \end_layout
 
 \begin_layout Standard
@@ -656,7 +656,7 @@ status open
 \end_inset
 
 是可以扔掉的，两个U也可以去掉。另外根据规则Ⅱ，可以把长度延长一倍（除了那个W）。所以第二张纸上也可以有一些计算。我们会时常重新提到处理形式系统的这两种方式，我
-们分别称之为机方式（J方式）和惟方式(W方式)。为了完满，使WJU系统的每一个字母都与一种方式相关联，我再提出最后一种方式——无方式（U方式），它是禅宗的处世态
+们分别称之为机方式（J方式）和惟方式（W方式）。为了完满，使WJU系统的每一个字母都与一种方式相关联，我再提出最后一种方式——无方式（U方式），它是禅宗的处世态
 度。关于这点在后面几章中会更多地讲到。
 \end_layout
 
@@ -771,7 +771,7 @@ hangindent 5.5em
 
 \begin_layout Standard
 \noindent
-这种方法早晚会产生出所有的定理，因为每条规则都在任意能设想出的次序下应用过。(参看图11)我们以上提到的所有那些加长一缩短的交替用法最终都用上了。然而对于一个给
+这种方法早晚会产生出所有的定理，因为每条规则都在任意能设想出的次序下应用过。（参看图11）我们以上提到的所有那些加长一缩短的交替用法最终都用上了。然而对于一个给
 定的符号串，就不知道要经过多少步它才能出现在这张表里，因为定理是按照它们的推导长度来列出的。这不是一个很有用的次序，假如你对一个特殊的待号串（像WU）感兴趣的话
 ，你甚至不知道是否有个推导能得出它，更不知道那个推导会有多长了。
 \end_layout
@@ -784,7 +784,7 @@ status open
 
 \begin_layout CenterLine
 \begin_inset Graphics
-	filename images/images-0055.png
+	filename images/images-0055.jpg
 	lyxscale 50
 	scale 30
 
@@ -843,7 +843,7 @@ status open
 
 \begin_layout CenterLine
 \begin_inset Graphics
-	filename images/images-0056.png
+	filename images/images-0056.jpg
 	lyxscale 50
 	scale 50
 
@@ -928,7 +928,7 @@ addcontentsline{toc}{section}{二部创意曲}
 status open
 
 \begin_layout Plain Layout
-刘易斯·卡罗尔，“乌龟说给阿基里斯的话”，《心智》[Mind]，新号第4期(1895年)，第278-280页。
+刘易斯·卡罗尔，“乌龟说给阿基里斯的话”，《心智》[Mind]，新号第4期（1895年），第278-280页。
 \end_layout
 
 \end_inset
@@ -994,7 +994,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(A)
+（A）
 \begin_inset space \space{}
 \end_inset
 
@@ -1002,7 +1002,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(B)
+（B）
 \begin_inset space \space{}
 \end_inset
 
@@ -1010,7 +1010,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(Z)
+（Z）
 \begin_inset space \space{}
 \end_inset
 
@@ -1086,7 +1086,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(C)
+（C）
 \begin_inset space \space{}
 \end_inset
 
@@ -1124,7 +1124,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(A)
+（A）
 \begin_inset space \space{}
 \end_inset
 
@@ -1132,7 +1132,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(B)
+（B）
 \begin_inset space \space{}
 \end_inset
 
@@ -1140,7 +1140,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(C)
+（C）
 \begin_inset space \space{}
 \end_inset
 
@@ -1148,7 +1148,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(Z)
+（Z）
 \begin_inset space \space{}
 \end_inset
 
@@ -1184,7 +1184,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-(D)
+（D）
 \begin_inset space \space{}
 \end_inset
 
@@ -1223,7 +1223,7 @@ B、C、D，请设想一下，我依然拒绝接受Z．那会怎么样？”
 \end_layout
 
 \begin_layout Standard
-(E)
+（E）
 \begin_inset space \space{}
 \end_inset
 
