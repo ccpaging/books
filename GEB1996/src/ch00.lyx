@@ -269,7 +269,11 @@ plan，a
 \begin_inset space \space{}
 \end_inset
 
-canal: Panama”译成中文。吴教授想了一会儿，意识到他得一个字母一个字母地把这个句子倒转过来，而不是象中文回文那样一个字一个字地处理。
+canal:
+\begin_inset space \space{}
+\end_inset
+
+Panama”译成中文。吴教授想了一会儿，意识到他得一个字母一个字母地把这个句子倒转过来，而不是象中文回文那样一个字一个字地处理。
 \begin_inset Note Comment
 status open
 
@@ -1483,7 +1487,7 @@ status open
 \end_inset
 
 阿基里斯和乌龟试图解决“一张唱片和播放它的唱机究竟哪一个包含的信息更多”这样一个问题。这个古怪问题的产生，是由于乌龟描述了同一张唱片在一组不同的唱机上播放时，产
-生了两支很不一样的旋律：B—A—C—H和C—A—G—E。然而，最后发现这两支旋律在某种奇特的意义上说原本是“同一个”。
+生了两支很不一样的旋律：B-A-C-H和C-A-G-E。然而，最后发现这两支旋律在某种奇特的意义上说原本是“同一个”。
 \begin_inset Note Comment
 status open
 
