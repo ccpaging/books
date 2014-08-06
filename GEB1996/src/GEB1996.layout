@@ -170,12 +170,19 @@ Preamble
     \setlength{\abovecaptionskip}{0ex} %caption和图像之间的距离
     \setlength{\belowcaptionskip}{-3ex} %caption和下方文字的距离
 
-    % footnote
+    % 设置脚注
     \usepackage[perpage, hang]{footmisc} % 分页计数
     \renewcommand{\thefootnote}{\scriptsize{\textcircled{\tiny{\arabic{footnote}}}}} % 编号带圈
     
+    % 设置边码格式
     \let\OriginalMarginpar\marginpar
     \def\marginpar#1{\OriginalMarginpar{\footnotesize #1}}
+    
+    % 设置编号列表
+    \RequirePackage[inline]{enumitem}  % inline 支持inlist
+    \renewcommand{\labelenumi}{(\arabic{enumi})}
+    \setlist{itemsep=0.2ex,partopsep=0.2pt,parsep=0.2ex,topsep=0.2ex}
+    \setlist[enumerate,1]{leftmargin=*,labelindent=2em,align=left} % label在leftmargin的右边，坐对齐
     
 EndPreamble
 
@@ -255,33 +262,16 @@ NoStyle         Chapter*
 #NoStyle         Subparagraph*
 
 Style Part
-	Category              Sectioning
-	Margin                Dynamic
-	LabelString           "Part \thepart"
-	LabelType             Static
-	TocLevel              -1
-	LabelCounter          part
-	LatexType             Command
-	LatexName             part
-	NeedProtect           1
-	NextNoIndent          0
-	Labelsep              xxx
-	ParSkip               0.4
-	TopSep                4
-	BottomSep             1.6
-	ParSep                0.8
-	Align                 Center
-	Alignpossible         Center
-	Argument 1
-		LabelString   "Short Title|S"
-		Tooltip       "The part as it appears in the table of contents/running headers"
-	EndArgument
+	CopyStyle	Part
+	Category        Sectioning
+	Labelsep        xxx
+	Align           Center
+	Alignpossible   Center
 	Font
-	  Family              Typewriter
-	  Series              Default
-	  Size                Huge
+	    Family      Typewriter
+	    Series      Default
+	    Size        Huge
 	EndFont
-	HTMLTag               h1
 End
 
 Style Part-toc*
@@ -292,40 +282,23 @@ Style Part-toc*
 	LabelType	No_Label
 	LabelCounter	""
 	ResetArgs       1
-    Preamble
-      \newenvironment{partoc}[1]{
-         \part*{#1\addcontentsline{toc}{part}{#1}}
-      }{}
-    EndPreamble
+	Preamble
+	    \newenvironment{partoc}[1]{
+		\part*{#1\addcontentsline{toc}{part}{#1}}
+	    }{}
+	EndPreamble
 End
 
 Style Chapter
+	CopyStyle	      Chapter
 	Margin                Dynamic       # Static
-	Category              Sectioning
-	LabelString           "Chapter \thechapter"
-	LabelStringAppendix   "Appendix \thechapter"
 	LabelType             Static        # Above
-	LabelCounter          chapter
-	TocLevel              0
-	LatexType             Command
-	LatexName             chapter
-	NeedProtect           1
-	NextNoIndent          0
    	LabelSep              xx
-	ParSkip               0.4
-	TopSep                2
-	BottomSep             0.8
-	ParSep                0.8
 	Align                 Center
-	Argument 1
-		LabelString   "Short Title|S"
-		Tooltip       "The chapter as it appears in the table of contents/running headers"
-	EndArgument
 	Font
 	  Series              Default
 	  Size                Largest
 	EndFont
-	HTMLTag               h1
 End
 
 Style Chapter-toc*
@@ -336,38 +309,20 @@ Style Chapter-toc*
 	LabelType	No_Label
 	LabelCounter	""
 	ResetArgs       1
-    Preamble
-      \newenvironment{chaptertoc}[1]{
-         \chapter*{#1\addcontentsline{toc}{chapter}{#1}}
-      }{}
-    EndPreamble
+	Preamble
+	    \newenvironment{chaptertoc}[1]{
+		\chapter*{#1\addcontentsline{toc}{chapter}{#1}}
+	    }{}
+	EndPreamble
 End
 
 Style Section
-	Category              Sectioning
-	Margin                Dynamic
-	LabelType             Static
-	LabelCounter          section
-	TocLevel              1
-	LatexType             Command
-	LatexName             section
-	NeedProtect           1
-	NextNoIndent          0
-	LabelSep              xx
-	ParSkip               0.4
-	TopSep                1.3
-	BottomSep             0.7
-	ParSep                0.7
-	Align                 Center
-	Argument 1
-		LabelString   "Short Title|S"
-		Tooltip       "The section as it appears in the table of contents/running headers"
-	EndArgument
+	CopyStyle	Section
+	Align           Center
 	Font
-	  Series              Default
-	  Size                Larger
+	  Series        Default
+	  Size          Larger
 	EndFont
-	HTMLTag               h2
 End
 
 Style Section*
@@ -388,11 +343,11 @@ Style Section-toc*
 	LabelType	No_Label
 	LabelCounter	""
 	ResetArgs       1
-    Preamble
-      \newenvironment{sectiontoc}[1]{
-         \section*{#1\addcontentsline{toc}{section}{#1}}
-      }{}
-    EndPreamble
+	Preamble
+	    \newenvironment{sectiontoc}[1]{
+		\section*{#1\addcontentsline{toc}{section}{#1}}
+	    }{}
+	EndPreamble
 End
 
 Style Subsection
@@ -421,17 +376,39 @@ Style Subsection*
 	ResetArgs       1
 End
 
-# 删除无用的环境列表
+Style Enumerate
+	CopyStyle	      Enumerate
+	LeftMargin            MMMMMN
+End
 
-#NoStyle         Subsection
-#NoStyle         Subsection*
+Counter enumi
+	LabelString          "（\arabic{enumi}）"
+End
+
+Style Quote
+	CopyStyle	      Quote
+	LatexType             Environment
+	LatexName             quote_me
+	NextNoIndent          0
+	LeftMargin            MM
+	RightMargin           MM
+	Font
+	  Size                small
+	EndFont
+	Preamble
+	    \newenvironment{quote_me}
+		{\begin{adjustwidth}{2em}{2em}\small}
+		{\end{adjustwidth}}
+	EndPreamble
+End
+
+# 删除无用的环境列表
 
 NoStyle         Subsubsection
 NoStyle         Subsubsection*
 
 NoStyle         Verse
 NoStyle         Quotation
-NoStyle         Quote
 
 NoStyle         Abstract
 NoStyle         Title
@@ -441,28 +418,3 @@ NoStyle         Address
 NoStyle         Right_Address
 NoStyle         Bibliography
 
-Style Quote
-	Category              MainText
-	Margin                Static
-	LatexType             Environment
-	LatexName             quote_me
-	NextNoIndent          0
-	LeftMargin            MM
-	RightMargin           MM
-	TopSep                0.5
-	ParSep                0.5
-	BottomSep             0.5
-	Align                 Block
-	AlignPossible         Block, Left, Right, Center
-	LabelType             No_Label
-	Font
-	  Size                small
-	EndFont
-	HTMLTag               blockquote
-	HTMLItem              div
-	Preamble
-	    \newenvironment{quote_me}
-		{\begin{adjustwidth}{2em}{2em}\small}
-		{\end{adjustwidth}}
-	EndPreamble
-End

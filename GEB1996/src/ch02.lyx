@@ -1509,7 +1509,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-0082.jpg
-	scale 60
+	width 100text%
 
 \end_inset
 

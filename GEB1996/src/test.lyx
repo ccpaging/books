@@ -556,6 +556,45 @@ Quantum Mechanics!History|)
 
 \end_layout
 
+\begin_layout Subsection*
+素数之别于合数
+\end_layout
+
+\begin_layout Standard
+想想简单的印符操作能把握概念，不免有点令人奇怪。迄今为止我们已把握到的概念是加法，这说来还不显得有多怪。可我们现在的目标是做出一个形式系统，使定理都是Px的形状
+，其中字母x代表一个短杠符号串，并且只有当短杠符号串中的短杠数目是素数时才能成为定理。这样，P---是个定理，而P----则不是。怎么能用印符操作来做这件事？首
+先，说清楚所谓印符操作是什么意思是很重要的。我们能用的东西都已在WJU系统和pq系统中给出了，所以我们实际上只需列出我们所允许的种种操作：
+\end_layout
+
+\begin_layout Enumerate
+读入并认出有限的符号集合中任何一个符号；
+\end_layout
+
+\begin_layout Enumerate
+写下属于该集合的任何一个符号；
+\end_layout
+
+\begin_layout Enumerate
+把任何一些那样的符号从一处复制到另一处；
+\end_layout
+
+\begin_layout Enumerate
+删除任何一些那样的符号；
+\end_layout
+
+\begin_layout Enumerate
+检测一个符号是否与另一个符号相同；
+\end_layout
+
+\begin_layout Enumerate
+保存并使用一列以前产生的定理。
+\end_layout
+
+\begin_layout Standard
+这张表有点多余，不过没关系。重要的是它很明显只涉及一些极简单的能力，它们远比区分素数与非素数的能力简单得多。那么，我们怎样才能组合这些操作，构造一个形式系统，在
+其中素数能与合数区别开呢？
+\end_layout
+
 \begin_layout Standard
 \begin_inset CommandInset index_print
 LatexCommand printindex

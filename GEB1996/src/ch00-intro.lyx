@@ -228,52 +228,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/images-0004.jpg
-	scale 45
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-约翰·塞巴斯第安·巴赫在1748年
-\end_layout
-
-\end_inset
-
-约翰·塞巴斯第安·巴赫在1748年。取自艾利亚斯·哥特利伯·豪斯曼的一幅油画。
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Note Comment
 status open
 
@@ -324,6 +278,53 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement r
+overhang 0in
+width "50col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-0004.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+约翰·塞巴斯第安·巴赫在1748年
+\end_layout
+
+\end_inset
+
+约翰·塞巴斯第安·巴赫在1748年。取自艾利亚斯·哥特利伯·豪斯曼的一幅油画。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 腓德烈大帝不仅是个钢琴爱好者，而且也是管风琴师兼作曲家约·塞·巴赫的崇拜者。这位巴赫的作品当时是颇有争议的。有些人认为它们是“浮华而混乱的”，有些人则声称他的作
 品是无与
 \begin_inset Note Comment
@@ -340,12 +341,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-1747年，巴赫六十二岁，他的名声和他的一个儿子同时到达了波茨坦。事实上，卡尔·菲利普·埃玛努厄尔·巴赫[译注：约·塞·巴赫的第三个儿子]是腓德烈国王宫廷合唱队
-的指挥。多年来，这位国王一直暗示菲利普·埃玛努厄尔，他非常希望老巴赫能来拜访他，但是，这一愿望一直还没能实现。腓德烈尤其渴望巴赫能试一下希尔伯曼制造的新钢琴，当
-时他正确地预见到这种乐器将会成为席卷音乐界的一股巨大的新潮。
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -354,7 +349,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-0008-1.jpg
-	scale 25
+	scale 28
 
 \end_inset
 
@@ -376,6 +371,12 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+1747年，巴赫六十二岁，他的名声和他的一个儿子同时到达了波茨坦。事实上，卡尔·菲利普·埃玛努厄尔·巴赫[译注：约·塞·巴赫的第三个儿子]是腓德烈国王宫廷合唱队
+的指挥。多年来，这位国王一直暗示菲利普·埃玛努厄尔，他非常希望老巴赫能来拜访他，但是，这一愿望一直还没能实现。腓德烈尤其渴望巴赫能试一下希尔伯曼制造的新钢琴，当
+时他正确地预见到这种乐器将会成为席卷音乐界的一股巨大的新潮。
 \end_layout
 
 \begin_layout Standard
@@ -815,7 +816,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-0016.jpg
-	scale 50
+	width 100text%
 
 \end_inset
 
@@ -853,7 +854,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-0017.jpg
-	scale 40
+	width 100text%
 
 \end_inset
 
@@ -890,7 +891,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-0018.jpg
-	scale 50
+	width 80text%
 
 \end_inset
 
@@ -923,7 +924,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-0019.jpg
-	scale 36
+	width 80theight%
 
 \end_inset
 
@@ -1973,9 +1974,9 @@ status open
 
 \begin_layout CenterLine
 \begin_inset Graphics
-	filename images/images-0040.png
+	filename images/images-0040.jpg
 	lyxscale 50
-	scale 50
+	scale 70
 
 \end_inset
 

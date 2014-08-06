@@ -771,12 +771,6 @@ hangindent 5.5em
 
 \begin_layout Standard
 \noindent
-这种方法早晚会产生出所有的定理，因为每条规则都在任意能设想出的次序下应用过。（参看图11）我们以上提到的所有那些加长一缩短的交替用法最终都用上了。然而对于一个给
-定的符号串，就不知道要经过多少步它才能出现在这张表里，因为定理是按照它们的推导长度来列出的。这不是一个很有用的次序，假如你对一个特殊的待号串（像WU）感兴趣的话
-，你甚至不知道是否有个推导能得出它，更不知道那个推导会有多长了。
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -817,31 +811,14 @@ WJU系统中所有定理的“树”
 
 \end_inset
 
-
+这种方法早晚会产生出所有的定理，因为每条规则都在任意能设想出的次序下应用过。（参看图11）我们以上提到的所有那些加长一缩短的交替用法最终都用上了。然而对于一个给
+定的符号串，就不知道要经过多少步它才能出现在这张表里，因为定理是按照它们的推导长度来列出的。这不是一个很有用的次序，假如你对一个特殊的待号串（像WU）感兴趣的话
+，你甚至不知道是否有个推导能得出它，更不知道那个推导会有多长了。
 \end_layout
 
 \begin_layout Standard
 \noindent
 现在我们给出这个所谓的“定理性测试”：
-\end_layout
-
-\begin_layout Standard
-等待产生出所要求的符号串，当它出现了的时候，你知道它是一个定理——假如它永远不出现，它就不是一个定理。
-\end_layout
-
-\begin_layout Standard
-这看起来是荒唐的，因为它预先假设了我们为了得到一个答
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-54
-\end_layout
-
-\end_inset
-
-案，并不在乎等待哪怕是无限长的时间。这就是该把什么算作“测试”这个问题的关键。最首要的问题是保证我们将在一个有限长的时间内得到答案。如果有一个检验定理的测试，一
-个总是在有限长的时间内终结的测试，那么，这个测试就叫做给定形式系统的判定过程。
 \end_layout
 
 \begin_layout Standard
@@ -854,7 +831,6 @@ status open
 \begin_inset Graphics
 	filename images/images-0056.jpg
 	lyxscale 50
-	scale 50
 
 \end_inset
 
@@ -876,6 +852,25 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+等待产生出所要求的符号串，当它出现了的时候，你知道它是一个定理——假如它永远不出现，它就不是一个定理。
+\end_layout
+
+\begin_layout Standard
+这看起来是荒唐的，因为它预先假设了我们为了得到一个答
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+54
+\end_layout
+
+\end_inset
+
+案，并不在乎等待哪怕是无限长的时间。这就是该把什么算作“测试”这个问题的关键。最首要的问题是保证我们将在一个有限长的时间内得到答案。如果有一个检验定理的测试，一
+个总是在有限长的时间内终结的测试，那么，这个测试就叫做给定形式系统的判定过程。
 \end_layout
 
 \begin_layout Standard

@@ -92,7 +92,7 @@ hanging
 \begin_body
 
 \begin_layout Chapter
-第三章 图形与衬底
+图形与衬底
 \end_layout
 
 \begin_layout Subsection*
@@ -105,51 +105,27 @@ hanging
 先，说清楚所谓印符操作是什么意思是很重要的。我们能用的东西都已在WJU系统和pq系统中给出了，所以我们实际上只需列出我们所允许的种种操作：
 \end_layout
 
-\begin_layout Standard
-（1）
-\begin_inset space \space{}
-\end_inset
-
+\begin_layout Enumerate
 读入并认出有限的符号集合中任何一个符号；
 \end_layout
 
-\begin_layout Standard
-（2）
-\begin_inset space \space{}
-\end_inset
-
+\begin_layout Enumerate
 写下属于该集合的任何一个符号；
 \end_layout
 
-\begin_layout Standard
-（3）
-\begin_inset space \space{}
-\end_inset
-
+\begin_layout Enumerate
 把任何一些那样的符号从一处复制到另一处；
 \end_layout
 
-\begin_layout Standard
-（4）
-\begin_inset space \space{}
-\end_inset
-
+\begin_layout Enumerate
 删除任何一些那样的符号；
 \end_layout
 
-\begin_layout Standard
-（5）
-\begin_inset space \space{}
-\end_inset
-
+\begin_layout Enumerate
 检测一个符号是否与另一个符号相同；
 \end_layout
 
-\begin_layout Standard
-（6）
-\begin_inset space \space{}
-\end_inset
-
+\begin_layout Enumerate
 保存并使用一列以前产生的定理。
 \end_layout
 
@@ -767,23 +743,16 @@ status open
 范。在这幅巧妙的画中，可以有两种不等价的方式来刻划黑的部分：
 \end_layout
 
-\begin_layout Standard
-（1）
-\begin_inset space \space{}
-\end_inset
-
+\begin_layout Enumerate
 作为白的部分的负空间；
 \end_layout
 
-\begin_layout Standard
-（2）
-\begin_inset space \space{}
-\end_inset
-
+\begin_layout Enumerate
 作为白的部分的变形副本（通过将白的部分涂黑并平移而得到）。
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
+\noindent
 （在FIGURE
 \begin_inset space \space{}
 \end_inset
@@ -796,39 +765,24 @@ FIGURE图形这种特殊情况下，两种刻划确实是等价的——但在�
 两种类似的方式来刻划所有的数论假陈述的集合：
 \end_layout
 
-\begin_layout Standard
-（1）
-\begin_inset space \space{}
-\end_inset
-
+\begin_layout Enumerate
 作为TNT的所有定理的集合的负空间；
 \end_layout
 
-\begin_layout Standard
-（2）
-\begin_inset space \space{}
-\end_inset
-
+\begin_layout Enumerate
 作为TNT的所有定理的集合的变形副本（通过否定每个TNT定理而得到）。
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
+\noindent
 但这个希望将破灭，因为：
 \end_layout
 
-\begin_layout Standard
-（1）
-\begin_inset space \space{}
-\end_inset
-
+\begin_layout Enumerate
 在非定理组成的集合中有真理。
 \end_layout
 
-\begin_layout Standard
-（2）
-\begin_inset space \space{}
-\end_inset
-
+\begin_layout Enumerate
 住所有被否定的定理组成的集合之外有“假理”。
 \end_layout
 
