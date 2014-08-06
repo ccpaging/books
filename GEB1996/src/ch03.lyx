@@ -6,7 +6,6 @@
 \use_default_options true
 \begin_modules
 hanging
-enumitem
 \end_modules
 \maintain_unincluded_children false
 \language chinese-simplified
@@ -156,50 +155,15 @@ status open
 一条推理规则：
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 公理模式：：
+公理模式： xqxt一是一个公理，对任何一个短杠符号串x都是如此。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 公理模式：：
 \noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hangafter 1 
-\backslash
-hangindent 4.5em
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-公理模式：xqxt一是一个公理，对任何一个短杠符号串x都是如此。
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hangafter 1 
-\backslash
-hangindent 4.5em
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-推理规则：设x、y、z都是短杠符号串。设xqytz是个已有的定理。那么，xyqytz-是个新的定理。
+推理规则： 设x、y、z都是短杠符号串。设xqytz是个已有的定理。那么，xyqytz-是个新的定理。
 \end_layout
 
 \begin_layout Standard
@@ -394,27 +358,9 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-\noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hangafter 1 
-\backslash
-hangindent 2.7em
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-规则：设X、Y、Z是短杠符号串。如果xqy-tz-是个定理，则Cx是个定理。
+\begin_layout Labeling
+\labelwidthstring 规则：：
+规则： 设X、Y、Z是短杠符号串。如果xqy-tz-是个定理，则Cx是个定理。
 \end_layout
 
 \begin_layout Standard
@@ -437,27 +383,9 @@ hangindent 2.7em
 一个很诱人的做法是从C型定理直接跳到P型定理，就是草拟下面这样一个规则：
 \end_layout
 
-\begin_layout Standard
-\noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hangafter 1 
-\backslash
-hangindent 6em
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-草拟的规则：设x是一个短杠符号串。如果Cx不是个定理，那么Px是个定埋。
+\begin_layout Labeling
+\labelwidthstring 草拟的规则：：
+草拟的规则： 设x是一个短杠符号串。如果Cx不是个定理，那么Px是个定埋。
 \end_layout
 
 \begin_layout Standard
@@ -667,7 +595,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/images-0092.jpg
-	scale 40
+	scale 32
 
 \end_inset
 
@@ -1042,9 +970,9 @@ status open
 例如，-----BZC--，这里“--”代替了x而“---”代替了Y。
 \end_layout
 
-\begin_layout Standard
-\noindent
-规则：若xBZCy是个定理，则xBZCxy是个定理。
+\begin_layout Labeling
+\labelwidthstring 规则：：
+规则： 若xBZCy是个定理，则xBZCxy是个定理。
 \end_layout
 
 \begin_layout Standard
@@ -1074,14 +1002,15 @@ status open
 下面是解决方案：
 \end_layout
 
-\begin_layout Standard
-\noindent
-规则：如果--BZCz是个定理，则zMY--是个定理。
+\begin_layout Labeling
+\labelwidthstring 规则：：
+规则： 如果--BZCz是个定理，则zMY--是个定理。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 规则：：
 \noindent
-规则：如果zMYx与x-BZCz都是定理，则zMYx-是个定理。
+规则： 如果zMYx与x-BZCz都是定理，则zMYx-是个定理。
 \end_layout
 
 \begin_layout Standard
@@ -1089,9 +1018,9 @@ status open
 这两条规则把握住了“无因子性”这个概念。我们还需要做的仅仅就是说出：素效是那种在直到比它自己小1的数内没有因子的数：
 \end_layout
 
-\begin_layout Standard
-\noindent
-规则：若z-MYz是个定理，则Pz-是个定理。
+\begin_layout Labeling
+\labelwidthstring 规则：：
+规则： 若z-MYz是个定理，则Pz-是个定理。
 \end_layout
 
 \begin_layout Standard
@@ -1099,9 +1028,9 @@ status open
 噢，我们可别忘了2是个素数！
 \end_layout
 
-\begin_layout Standard
-\noindent
-公理：P--。
+\begin_layout Labeling
+\labelwidthstring 公理：：
+公理： P--。
 \end_layout
 
 \begin_layout Standard
@@ -1125,6 +1054,9 @@ status open
 \end_layout
 
 \begin_layout Quote
+\begin_inset space \qquad{}
+\end_inset
+
 阿基里斯来拜访乌龟，看到乌龟家里有许多唱片。
 \end_layout
 

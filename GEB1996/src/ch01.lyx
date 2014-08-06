@@ -160,9 +160,9 @@ UJJUWJUUJWUJJUWJUUJWUJJU
 以下是第二条规则：
 \end_layout
 
-\begin_layout Standard
-\noindent
-规则Ⅱ：如果你有Wx，那么Wxx也归你所有。
+\begin_layout Labeling
+\labelwidthstring 规则Ⅱ：:
+规则Ⅱ： 如果你有Wx，那么Wxx也归你所有。
 \end_layout
 
 \begin_layout Standard
@@ -202,9 +202,9 @@ status open
 以下是第三条规则：
 \end_layout
 
-\begin_layout Standard
-\noindent
-规则Ⅲ：如果JJJ出现在你的储备中的一个符号串里，那么你可以用U代替这个JJJ而得到一个新的符号串。
+\begin_layout Labeling
+\labelwidthstring 规则Ⅲ：:
+规则Ⅲ： 如果JJJ出现在你的储备中的一个符号串里，那么你可以用U代替这个JJJ而得到一个新的符号串。
 \end_layout
 
 \begin_layout Standard
@@ -696,70 +696,19 @@ status open
 设想在这个世界上有一个怪物，它有足够的时间，并且喜欢把时间用来以有秩序的方法去产生WJU系统的定理。例如，下面就是这个怪物可能采取的一种方式：
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hangafter 1 
-\backslash
-hangindent 5.5em
+\begin_layout Labeling
+\labelwidthstring 步骤1：：
+步骤1： 对于公理WJ应用每一条可以应用的规则。这产生出两个新的定理：WJU、WJJ 。
 \end_layout
 
-\begin_layout Plain Layout
-
+\begin_layout Labeling
+\labelwidthstring 步骤1：：
+步骤2： 对于从步骤1中产生的定理应用所有可以应用的规则。这产生出三个新的定理：WJJU、WJUJU和WJJJJ。
 \end_layout
 
-\end_inset
-
-步骤1：对于公理WJ应用每一条可以应用的规则。这产生出两个新的定理：WJU、WJJ 。
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hangafter 1 
-\backslash
-hangindent 5.5em
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-步骤2：对于从步骤1中产生的定理应用所有可以应用的规则。这产生出三个新的定理：WJJU、WJUJU和WJJJJ。
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hangafter 1 
-\backslash
-hangindent 5.5em
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-步骤3：对于步骤2中产生的定理应用所有可以应用的规则。这产生出五个新的定理：WJJJJU、WJJUJJU、WJUJUJUJU、WJJJJJJJJ和WUJ。
+\begin_layout Labeling
+\labelwidthstring 步骤1：：
+步骤3： 对于步骤2中产生的定理应用所有可以应用的规则。这产生出五个新的定理：WJJJJU、WJJUJJU、WJUJUJUJU、WJJJJJJJJ和WUJ。
 \end_layout
 
 \begin_layout Standard
@@ -772,6 +721,7 @@ hangindent 5.5em
 \begin_layout Standard
 \noindent
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open

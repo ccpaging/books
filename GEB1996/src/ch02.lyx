@@ -164,49 +164,13 @@ status open
 pq系统只有一条生成规则：
 \end_layout
 
-\begin_layout Standard
-\noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hangafter 1 
-\backslash
-hangindent 2em
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-规则：假设x、y和z都代表只包含短杠的特定的符号串，并且假设xqypz是一条已知的定理，那么x-qypz-就是一条定理。
+\begin_layout Labeling
+\labelwidthstring 规则：：
+规则： 假设x、y和z都代表只包含短杠的特定的符号串，并且假设xqypz是一条已知的定理，那么x-qypz-就是一条定理。
 \end_layout
 
 \begin_layout Standard
 \noindent
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hangafter 1 
-\backslash
-hangindent 2em
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
 比如让x是“－”，y是“--”，z是“---”，这条规则就是：
 \end_layout
 
@@ -1383,6 +1347,9 @@ status open
 \end_layout
 
 \begin_layout Quote
+\begin_inset space \qquad{}
+\end_inset
+
 电话响了，阿基里斯拿起话筒。
 \end_layout
 
