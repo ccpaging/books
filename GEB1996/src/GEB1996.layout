@@ -20,7 +20,7 @@ Preamble
 
     % 设置字体
     \RequirePackage[boldfont,slantfont,CJKnumber,CJKchecksingle,fallback]{xeCJK} % 允许粗体,斜体,支持\CJKnumber{\thechapter}
-	
+    
     % CJK 全局选项
     \defaultCJKfontfeatures{AutoFakeBold=6,AutoFakeSlant=.4}
     % AutoFakeBold   设定粗体字要多粗
@@ -67,16 +67,16 @@ Preamble
 
     \titleclass{\part}{top} % make part like a chapter
     \titleformat{\part}[display]
-	{\CJKFontHei \Large \centering}
-	{\starmark \thepart}
-	{1em}
-	{}
-	[]
+    {\CJKFontHei \Large \centering}
+    {\starmark \thepart}
+    {1em}
+    {}
+    []
     
     \titlespacing*{\part}
-	{0pt}
-	{0pt}
-	{20pt}
+    {0pt}
+    {0pt}
+    {20pt}
 
     % 章标题
     %\renewcommand\thechapter{\arabic{chapter}}
@@ -207,39 +207,6 @@ InsetLayout Flex:CJKunderdot
     HTMLTag               strong
 End
 
-Style Standard
-    Category              MainText
-    Margin                Dynamic
-    LeftMargin            ""
-    LatexType             Paragraph
-    LatexName             dummy
-    ParIndent             MM
-    ParSkip               0.4
-    Align                 Block
-    AlignPossible         Block, Left, Right, Center
-    LabelType             No_Label
-    # FIXME This ought to be set dynamically.
-    HTMLStyle
-        div.standard {
-            margin-bottom: 2ex;
-        }
-    EndHTMLStyle
-End
-
-Style CenterLine
-        CopyStyle Standard
-    LatexType             Command
-    LatexName             centerline
-    Align                 Center
-End
-
-Style RightLine
-        CopyStyle Standard
-    LatexType             Command
-    LatexName             rightline
-    Align                 Right
-End
-
 Input stdsections.inc
 Input stdinsets.inc
 Input numreport.inc
@@ -253,153 +220,169 @@ Input stdstruct.inc
 Input stdfloats.inc
 Input stdcounters.inc
 
-NoStyle         Part
-NoStyle         Part*
-NoStyle         Chapter*
-#NoStyle         Paragraph
-#NoStyle         Paragraph*
-#NoStyle         Subparagraph
-#NoStyle         Subparagraph*
+Style Standard
+    CopyStyle             Standard
+    ParIndent             MMN
+End
+
+Style CenterLine
+    CopyStyle             Standard
+    LatexType             Command
+    LatexName             centerline
+    Align                 Center
+End
+
+Style RightLine
+    CopyStyle             Standard
+    LatexType             Command
+    LatexName             rightline
+    Align                 Right
+End
 
 Style Part
-	CopyStyle	Part
-	Category        Sectioning
-	Labelsep        xxx
-	Align           Center
-	Alignpossible   Center
-	Font
-	    Family      Typewriter
-	    Series      Default
-	    Size        Huge
-	EndFont
+    CopyStyle       Part
+    Category        Sectioning
+	NextNoIndent    0
+    Labelsep        xxx
+    Align           Center
+    Alignpossible   Center
+    Font
+        Family      Typewriter
+        Series      Default
+        Size        Huge
+    EndFont
 End
 
 Style Part-toc*
-	CopyStyle	Part
-	Category	Unnumbered
-	Margin		Static
-	LatexName	partoc
-	LabelType	No_Label
-	LabelCounter	""
-	ResetArgs       1
-	Preamble
-	    \newenvironment{partoc}[1]{
-		\part*{#1\addcontentsline{toc}{part}{#1}}
-	    }{}
-	EndPreamble
+    CopyStyle       Part
+    Category        Unnumbered
+    Margin          Static
+    LatexName       partoc
+    LabelType       No_Label
+    LabelCounter    ""
+    ResetArgs       1
+    Preamble
+        \newenvironment{partoc}[1]{
+        \part*{#1\addcontentsline{toc}{part}{#1}}
+        }{}
+    EndPreamble
 End
 
 Style Chapter
-	CopyStyle	      Chapter
-	Margin                Dynamic       # Static
-	LabelType             Static        # Above
-   	LabelSep              xx
-	Align                 Center
-	Font
-	  Series              Default
-	  Size                Largest
-	EndFont
+    CopyStyle       Chapter
+    Margin          Dynamic       # Static
+    LabelType       Static        # Above
+	NextNoIndent    0
+    LabelSep        xx
+    Align           Center
+    Font
+        Series      Default
+        Size        Largest
+    EndFont
 End
 
 Style Chapter-toc*
-	CopyStyle	Chapter
-	Category	Unnumbered
-	Margin		Static
-	LatexName	chaptertoc
-	LabelType	No_Label
-	LabelCounter	""
-	ResetArgs       1
-	Preamble
-	    \newenvironment{chaptertoc}[1]{
-		\chapter*{#1\addcontentsline{toc}{chapter}{#1}}
-	    }{}
-	EndPreamble
+    CopyStyle       Chapter
+    Category        Unnumbered
+    Margin          Static
+    LatexName       chaptertoc
+    LabelType       No_Label
+    LabelCounter    ""
+    ResetArgs       1
+    Preamble
+        \newenvironment{chaptertoc}[1]{
+            \chapter*{#1\addcontentsline{toc}{chapter}{#1}}
+        }{}
+    EndPreamble
 End
 
 Style Section
-	CopyStyle	Section
-	Align           Center
-	Font
-	  Series        Default
-	  Size          Larger
-	EndFont
+    CopyStyle       Section
+	NextNoIndent    0
+    Align           Center
+    Font
+      Series        Default
+      Size          Larger
+    EndFont
 End
 
 Style Section*
-	CopyStyle	Section
-	Category	Unnumbered
-	Margin		Static
-	LatexName	section*
-	LabelType	No_Label
-	LabelCounter	""
-	ResetArgs       1
+    CopyStyle       Section
+    Category        Unnumbered
+    Margin          Static
+    LatexName       section*
+    LabelType       No_Label
+    LabelCounter    ""
+    ResetArgs       1
 End
 
 Style Section-toc*
-	CopyStyle	Section
-	Category	Unnumbered
-	Margin		Static
-	LatexName	sectiontoc
-	LabelType	No_Label
-	LabelCounter	""
-	ResetArgs       1
-	Preamble
-	    \newenvironment{sectiontoc}[1]{
-		\section*{#1\addcontentsline{toc}{section}{#1}}
-	    }{}
-	EndPreamble
+    CopyStyle       Section
+    Category        Unnumbered
+    Margin          Static
+    LatexName       sectiontoc
+    LabelType       No_Label
+    LabelCounter    ""
+    ResetArgs       1
+    Preamble
+        \newenvironment{sectiontoc}[1]{
+        \section*{#1\addcontentsline{toc}{section}{#1}}
+        }{}
+    EndPreamble
 End
 
 Style Subsection
-	CopyStyle             Section
-	LabelCounter          subsection
-	TocLevel              2
-	LatexName             subsection
-	TopSep                0.9
-	BottomSep             0.5
-	ParSep                0.5
-	Align                 Center
-	Font
-	  Family              Typewriter
-	  Size                Normal
-	EndFont
-	HTMLTag               h3
+    CopyStyle       Section
+    LabelCounter    subsection
+    TocLevel        2
+    LatexName       subsection
+    TopSep          0.9
+    BottomSep       0.5
+    ParSep          0.5
+	NextNoIndent    0
+    Align           Center
+    Font
+        Family      Typewriter
+        Size        Normal
+    EndFont
+    HTMLTag         h3
 End
 
 Style Subsection*
-	CopyStyle	Subsection
-	Category	Unnumbered
-	Margin	Static
-	LatexName	subsection*
-	LabelType	No_Label
-	LabelCounter	""
-	ResetArgs       1
+    CopyStyle       Subsection
+    Category        Unnumbered
+    Margin          Static
+    LatexName       subsection*
+    LabelType       No_Label
+    LabelCounter    ""
+    ResetArgs       1
 End
 
 Style Enumerate
-	CopyStyle	      Enumerate
-	LeftMargin            MMMMMN
+    CopyStyle       Enumerate
+    LeftMargin      MMMMMMN
+    OptionalArgs    1
 End
 
 Counter enumi
-	LabelString          "（\arabic{enumi}）"
+    LabelString     "（\arabic{enumi}）"
 End
 
 Style Quote
-	CopyStyle	      Quote
-	LatexType             Environment
-	LatexName             quote_me
-	NextNoIndent          0
-	LeftMargin            MM
-	RightMargin           MM
-	Font
-	  Size                small
-	EndFont
-	Preamble
-	    \newenvironment{quote_me}
-		{\begin{adjustwidth}{2em}{2em}\small}
-		{\end{adjustwidth}}
-	EndPreamble
+    CopyStyle       Quote
+    LatexType       Environment
+    LatexName       quote_me
+    NextNoIndent    0
+    LeftMargin      MM
+    RightMargin     MM
+    Font
+        Size        small
+    EndFont
+    Preamble
+        \newenvironment{quote_me}
+            {\begin{adjustwidth}{2em}{2em}\small}
+            {\end{adjustwidth}}
+    EndPreamble
 End
 
 # 删除无用的环境列表

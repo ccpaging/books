@@ -7,6 +7,7 @@
 \use_default_options true
 \begin_modules
 hanging
+enumitem
 \end_modules
 \maintain_unincluded_children false
 \language chinese-simplified
@@ -593,6 +594,277 @@ Quantum Mechanics!History|)
 \begin_layout Standard
 这张表有点多余，不过没关系。重要的是它很明显只涉及一些极简单的能力，它们远比区分素数与非素数的能力简单得多。那么，我们怎样才能组合这些操作，构造一个形式系统，在
 其中素数能与合数区别开呢？
+\end_layout
+
+\begin_layout Hanging
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lyxhang 2.8em 
+\end_layout
+
+\end_inset
+
+规则：设X、Y、Z是短杠符号串。如果xqy-tz-是个定理，则Cx是个定理。
+\end_layout
+
+\begin_layout Description
+规则1： 设X、Y、Z是短杠符号串。如果xqy-tz-是个定理，则Cx是个定理。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 规则2：
+规则2： 设X、Y、Z是短杠符号串。如果xqy-tz-是个定理，则Cx是个定理。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 规则2：
+特殊规则特殊规则2： 设X、Y、Z是短杠符号串。如果xqy-tz-是个定理，则Cx是个定理。
+\end_layout
+
+\begin_layout Section*
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Lists
+\end_layout
+
+\end_inset
+
+Further Customization
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Lists ! Customization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+You can also change the style of description lists.
+ The command
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+font=definition
+\end_layout
+
+\begin_layout Standard
+changes the description label font, the command
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+style=definition
+\end_layout
+
+\begin_layout Standard
+sets the list style.
+\end_layout
+
+\begin_layout Standard
+An example where the command
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+font=
+\backslash
+itshape, style=nextline
+\end_layout
+
+\begin_layout Standard
+is used:
+\end_layout
+
+\begin_layout Description
+Ionizing
+\begin_inset space ~
+\end_inset
+
+radiation: 
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+labelindent=0pt, labelsep=1cm, font=
+\backslash
+itshape, style=nextline
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Ionizing radiation consists of particles or electromagnetic waves that are
+ energetic enough to detach electrons from atoms or molecules, therefore
+ ionizing them.
+\end_layout
+
+\begin_layout Description
+Reference
+\begin_inset space ~
+\end_inset
+
+counting: In computer science, reference counting is a technique of storing
+ the number of references, pointers, or handles to a resource such as an
+ object, block of memory, disk space or other resource.
+\end_layout
+
+\begin_layout Standard
+There are many more commands and features provided by the LaTeX-package
+ 
+\series bold
+enumitem
+\series default
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang english
+LaTeX-packages ! enumitem
+\end_layout
+
+\end_inset
+
+.
+ For more information see its documentation 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "enumitem"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+前奏曲… 本篇对话与下一篇对话是联在一起的。它们是以巴赫《平均律钢琴曲集》中的“前奏曲与赋格”为基础的。阿基里斯和乌龟带给螃蟹一件礼物，后者接待了一位客人：食蚁
+兽。礼物原来是一张《平均律钢琴曲集》的唱片。他们马上开始播放它。一边听着前奏曲，他们一边讨论前奏曲与赋格的结构。这就引出了阿基里斯如何听一首赋格这个问题：把它作
+为一个整体呢，还是各部分的总和？这其实就是整体论与简化论之争，这一问题很快就要在《蚂蚁赋格》中讨论到。
+\end_layout
+
+\begin_layout Description
+第十章：描述的层次和计算机系统。 讨论了观察图画、棋盘以及计算机系统的各种层次问题。其中，对最后一个题目进行了详细的考察。这涉及到对机器语言、汇编语言、编译语言
+、操作系统等等的描述。讨论随后转向了其它类型的复合系统，例如运动队、细胞核、原子、天气等等。问题在于存在有多少中间层次——或着说是否真有这种层次存在。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 前奏
+
+\family typewriter
+前奏曲…
+\family default
+ 本篇对话与下一篇对话是联在一起的。它们是以巴赫《平均律钢琴曲集》中的“前奏曲与赋格”为基础的。阿基里斯和乌龟带给螃蟹一件礼物，后者接待了一位客人：食蚁兽。礼物
+原来是一张《平均律钢琴曲集》的唱片。他们马上开始播放它。一边听着前奏曲，他们一边讨论前奏曲与赋格的结构。这就引出了阿基里斯如何听一首赋格这个问题：把它作为一个整
+体呢，还是各部分的总和？这其实就是整体论与简化论之争，这一问题很快就要在《蚂蚁赋格》中讨论到。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 前奏
+
+\family typewriter
+第十章：描述的层次和计算机系统。
+\family default
+ 讨论了观察图画、棋盘以及计算机系统的各种层次问题。其中，对最后一个题目进行了详细的考察。这涉及到对机器语言、汇编语言、编译语言、操作系统等等的描述。讨论随后转
+向了其它类型的复合系统，例如运动队、细胞核、原子、天气等等。问题在于存在有多少中间层次——或着说是否真有这种层次存在。
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 赋格的情况更为复杂，是吧？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 格式更为多样，技巧要求更高。其实即使是写对话也可以使用这种技巧……嗯，我忽然有了个想法。你设想一下，一位对话作者为了表示他对巴赫卓越才能由衷的景仰而写下
+一篇对话，对于这位作者来说这样做是不是更合适：即在对话中借用巴赫的对位技巧嵌进自己的名字——或者巴赫的名字？咳，何必操那份心呢，谁愿意写这样一篇对话就写去吧。我
+们还是来看看巴赫那个作为旋律的名字吧。你知不知道，B-A-C-H这个旋律如果上下颠倒地从后向前演奏，会和正常演奏时完全一样？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 曲调怎么能上下颠倒演奏？从后向前我倒知道怎么回事——就是H-C-A-B-可上下颠倒会是什么样？你一定是在跟我开玩笑。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 的确能颠倒着演奏，真的。用颠倒的方式演奏尾声正合适。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 尾声怎么就合适？你能马上给我表演一下吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 巴不得呢。你等一下，我去拿小提琴——（
+\family sans
+走入另一个房间，不一会，拿着一把古雅的小提琴回来了
+\family default
+）——现在我来把这一段从前向后，从后向前以各种方式给你演奏一下，听好啊……
+\begin_inset Newline newline
+\end_inset
+
+乌龟从架子上取下那只高脚杯，恭恭敬敬地把它倒置架上，开始演奏B-A-C-H，当他拉到最后一个音符H时，突然，没有任何先兆，高脚杯炸成了碎片，飞溅到乌龟跟前的地板
+上。然后……死一般的寂静。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+109
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

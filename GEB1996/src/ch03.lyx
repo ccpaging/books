@@ -6,6 +6,7 @@
 \use_default_options true
 \begin_modules
 hanging
+enumitem
 \end_modules
 \maintain_unincluded_children false
 \language chinese-simplified
@@ -1127,37 +1128,57 @@ status open
 阿基里斯来拜访乌龟，看到乌龟家里有许多唱片。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：赫赫有名的法国作曲家德彪西你知道吧？你这里有没有他的作品？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 赫赫有名的法国作曲家德彪西你知道吧？你这里有没有他的作品？
 \end_layout
 
-\begin_layout Hanging
-乌龟：赫赫有名的得镖器？我可没听说过。我这儿倒收藏了不少“飞去来器”，就是那种扔出去能飞回来的飞镖。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 赫赫有名的得镖器？我可没听说过。我这儿倒收藏了不少“飞去来器”，就是那种扔出去能飞回来的飞镖。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：有名极了，不过这没关系。你这里到底都有谁的作品？我想总该有巴赫的吧？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 有名极了，不过这没关系。你这里到底都有谁的作品？我想总该有巴赫的吧？
 \end_layout
 
-\begin_layout Hanging
-乌龟：名曲我都有，巴赫的自然不用说了。你听过巴赫的曲子吧？那种美，那种技巧！我每次听他的曲子都有新的
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 名曲我都有，巴赫的自然不用说了。你听过巴赫的曲子吧？那种美，那种技巧！我每次听他的曲子都有新的感受。
 \end_layout
 
-\begin_layout Hanging
-感受。阿基里斯：的确是技巧高超，百听不厌。哎，龟兄，你是从哪儿找来这些唱片的？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 的确是技巧高超，百听不厌。哎，龟兄，你是从哪儿找来这些唱片的？
 \end_layout
 
-\begin_layout Hanging
-乌龟：德意志，巴赫的故乡。到底还是德国人演奏的好。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 德意志，巴赫的故乡。到底还是德国人演奏的好。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：国籍不重要，巴赫属于全世界。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 国籍不重要，巴赫属于全世界。
 \end_layout
 
-\begin_layout Hanging
-乌龟：作为一种个人嗜好，我还是宁愿听德国人的演奏。好了，咱们别谈这些了，有句拉丁格言，恐怕你也知道：口味无须争辩。哎，你知道我这些天在干什么吗？我在研究一种特殊
-的音乐。这种音乐能形成一个“家族”，我
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 作为一种个人嗜好，我还是宁愿听德国人的演奏。好了，咱们别谈这些了，有句拉丁格言，恐怕你也知道：口味无须争辩。哎，你知道我这些天在干什么吗？我在研究一种特
+殊的音乐。这种音乐能形成一个“家族”，我
 \begin_inset Note Comment
 status open
 
@@ -1170,49 +1191,71 @@ status open
 称之为“粉碎唱机的音乐”。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：曲名就是这个？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 曲名就是这个？
 \end_layout
 
-\begin_layout Hanging
-乌龟：家族音乐是许多相似但又不同的曲子的总合，并没有什么总的曲名。我说的“粉碎唱机的音乐”不是曲名，而是对这一大族曲子的描述。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 家族音乐是许多相似但又不同的曲子的总合，并没有什么总的曲名。我说的“粉碎唱机的音乐”不是曲名，而是对这一大族曲子的描述。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：给我讲讲是怎么回事吧，我现在一点也摸不着头脑。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 给我讲讲是怎么回事吧，我现在一点也摸不着头脑。
 \end_layout
 
-\begin_layout Hanging
-乌龟：了解这种音乐可不是一件简单的事情，这得从头说起。有一次螃蟹来我这里做客，当时我身体不太舒服——噢，对了，你见过螃蟹吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 了解这种音乐可不是一件简单的事情，这得从头说起。有一次螃蟹来我这里做客，当时我身体不太舒服——噢，对了，你见过螃蟹吗？
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：我没见过。不过已经久闻他的人名了，真希望能见到他。我本来应该有个机会能碰上他的，那是在一个叫凯瑟林的人家里。他家举办了一个音乐会，可我没能去成。我好象
-记得凯瑟林是个什么贵族，大概是个侯爵。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我没见过。不过已经久闻他的人名了，真希望能见到他。我本来应该有个机会能碰上他的，那是在一个叫凯瑟林的人家里。他家举办了一个音乐会，可我没能去成。我好
+象记得凯瑟林是个什么贵族，大概是个侯爵。
 \end_layout
 
-\begin_layout Hanging
-乌龟：侯爵，没错，就是后知后觉的那个侯爵。巴赫的《哥德堡变奏曲》就是为他写的。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 侯爵，没错，就是后知后觉的那个侯爵。巴赫的《哥德堡变奏曲》就是为他写的。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：世上竞有这样不幸的事！这真太遗憾了，我不仅错过了螃蟹，还错过了那部著名的组曲！咳，我真是！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 世上竞有这样不幸的事！这真太遗憾了，我不仅错过了螃蟹，还错过了那部著名的组曲！咳，我真是！
 \end_layout
 
-\begin_layout Hanging
-乌龟；达观一些，阿基。你将来肯定会有机会听《哥德堡变奏曲》，见螃蟹也是迟早的事，说不定哪天在公园里我们就会碰上他。别这么垂头丧气的。你平日的那股灵气呢？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 达观一些，阿基。你将来肯定会有机会听《哥德堡变奏曲》，见螃蟹也是迟早的事，说不定哪天在公园里我们就会碰上他。别这么垂头丧气的。你平日的那股灵气呢？
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：灵气？好吧，你接着说吧：螃蟹到你这儿来了，当时你不大对劲——
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 灵气？好吧，你接着说吧：螃蟹到你这儿来了，当时你不大对劲——
 \end_layout
 
-\begin_layout Hanging
-乌龟：感到身体不太舒服，也正想找人聊聊，于是他跟我说起他新买的唱机——你知道，螃蟹这家伙特别容易对
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Hanging
-小玩艺着迷，这回轮到唱机了——他说他那唱机是一台完备的唱机，能重现任何音乐。我当然不信，可
+乌龟： 感到身体不太舒服，也正想找人聊聊，于是他跟我说起他新买的唱机——你知道，螃蟹这家伙特别容易对小玩艺着迷，这回轮到唱机了——他说他那唱机是一台完备的唱机，
+能重现任何音乐。我当然不信，可
 \begin_inset Note Comment
 status open
 
@@ -1226,45 +1269,70 @@ status open
 ……
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：……什么？那是个什么东西？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： ……什么？那是个什么东西？
 \end_layout
 
-\begin_layout Hanging
-乌龟：在唱机1上没法播放的曲子，就是这么回事。我建议他听听这支曲子，他很高兴地答应了，把唱片放上那个可爱的唱机。可是真不幸！刚刚播出几个音符，那唱机就开始剧烈地
-震颤起来，随后“砰”的一声巨响，唱机炸成了碎片，溅得满屋都是。唱片当然也跟着完了。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 在唱机1上没法播放的曲子，就是这么回事。我建议他听听这支曲子，他很高兴地答应了，把唱片放上那个可爱的唱机。可是真不幸！刚刚播出几个音符，那唱机就开始剧烈
+地震颤起来，随后“砰”的一声巨响，唱机炸成了碎片，溅得满屋都是。唱片当然也跟着完了。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：此刻螃蟹一定非常难受吧？你也太狠心了！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 此刻螃蟹一定非常难受吧？你也太狠心了！
 \end_layout
 
-\begin_layout Hanging
-乌龟：我不过是向他证明一下他的观念有多么荒唐罢了。那台唱机根本不可能重现我那支曲子，那种音乐会使它震碎自己。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 我不过是向他证明一下他的观念有多么荒唐罢了。那台唱机根本不可能重现我那支曲子，那种音乐会使它震碎自己。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：借用一个术语，就是“自我震碎”了，对吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 借用一个术语，就是“自我震碎”了，对吗？
 \end_layout
 
-\begin_layout Hanging
-乌龟：用得好！当然，也可以这么看这个问题：那个推销员多少有些吹牛，螃蟹买的那台唱机不是那么完备，它事实上不可能重现所有的音乐。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 用得好！当然，也可以这么看这个问题：那个推销员多少有些吹牛，螃蟹买的那台唱机不是那么完备，它事实上不可能重现所有的音乐。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：他后来明白这一点了吗？我想他不会就此罢休吧？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 他后来明白这一点了吗？我想他不会就此罢休吧？
 \end_layout
 
-\begin_layout Hanging
-乌龟：的确，他没认输，他后来……嗯，我想我该先讲讲我的曲子，是不是？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 的确，他没认输，他后来……嗯，我想我该先讲讲我的曲子，是不是？
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：对对，你应该先跟我说说你的曲子是怎么回事。等一下，那种唱片你只有一张吗？我很想看看。你把它故在哪儿啦？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 对对，你应该先跟我说说你的曲子是怎么回事。等一下，那种唱片你只有一张吗？我很想看看。你把它故在哪儿啦？
 \end_layout
 
-\begin_layout Hanging
-乌龟：位子上。在那儿。（
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 位子上。在那儿。（
 \family sans
 阿基里斯找到了唱片。
 \family default
@@ -1282,38 +1350,58 @@ status open
 现只要附近有某种特殊的声音，就会引起唱机的共振，最终导致它破碎。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：技术方面的问题你倒挺在行的。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 技术方面的问题你倒挺在行的。
 \end_layout
 
-\begin_layout Hanging
-乌龟：巧妙地把这种声音组织成旋律，就是那首“我不能在唱机1上播放。"
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 巧妙地把这种声音组织成旋律，就是那首“我不能在唱机1上播放。"
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：写上“礼物”二字，送给螃蟹，这就是你干的好事！螃蟹真是太不幸了。后来呢？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 写上“礼物”二字，送给螃蟹，这就是你干的好事！螃蟹真是太不幸了。后来呢？
 \end_layout
 
-\begin_layout Hanging
-乌龟：下一次我见到他时，他说他又买了一台新的唱机。他不认输，他无论如何不相信那是唱机的问题。这台新唱机比上一台贵得多，推销员保证说如果发现有什么音乐那唱机无法重
-现，就付还他双倍的钱。螃蟹跟我说这些的时候兴高采烈，我答应了去看看他的唱机。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 下一次我见到他时，他说他又买了一台新的唱机。他不认输，他无论如何不相信那是唱机的问题。这台新唱机比上一台贵得多，推销员保证说如果发现有什么音乐那唱机无法
+重现，就付还他双倍的钱。螃蟹跟我说这些的时候兴高采烈，我答应了去看看他的唱机。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：一定又是这么个过程：在你去之前，你写了一封信给制造商。然后你针对这个唱机的结构谱一支曲子，叫做“我不能在唱机2上播放”，到了螃蟹那儿以后，同样的事情发
-生了，唱机炸成了碎片，唱片也毁了。对不对？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 一定又是这么个过程：在你去之前，你写了一封信给制造商。然后你针对这个唱机的结构谱一支曲子，叫做“我不能在唱机2上播放”，到了螃蟹那儿以后，同样的事情
+发生了，唱机炸成了碎片，唱片也毁了。对不对？
 \end_layout
 
-\begin_layout Hanging
-乌龟：个别时候你倒也挺聪明！你说的完全正确。看来你已经抓住了这件事的核心。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 个别时候你倒也挺聪明！你说的完全正确。看来你已经抓住了这件事的核心。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：对我来说这不算什么。我要是螃蟹，早就看穿你这一套了，根本不会诖你钻空子。我会设计一个能对付你这花招的唱机。唉！只可惜螃蟹想不到这一点。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 对我来说这不算什么。我要是螃蟹，早就看穿你这一套了，根本不会诖你钻空子。我会设计一个能对付你这花招的唱机。唉！只可惜螃蟹想不到这一点。
 \end_layout
 
-\begin_layout Hanging
-乌龟：话可不能这么说。我和螃蟹又较量了几个同合之后，他也明白了我的手段。于是他变得聪明了，准备…
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 话可不能这么说。我和螃蟹又较量了几个同合之后，他也明白了我的手段。于是他变得聪明了，准备…
 \begin_inset Note Comment
 status open
 
@@ -1326,31 +1414,47 @@ status open
 
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：并不是螃蟹聪明。你那手段本来就没什么了不起的。螃蟹可以很容易就战胜你：比如说用一台低保真的唱机——无法严格重现那种能够毁坏自己的声音——你不就没辙了？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 并不是螃蟹聪明。你那手段本来就没什么了不起的。螃蟹可以很容易就战胜你：比如说用一台低保真的唱机——无法严格重现那种能够毁坏自己的声音——你不就没辙了
+？
 \end_layout
 
-\begin_layout Hanging
-乌龟：嵌上一块亮晶晶的小牌子，标明它是个“完备”的唱机，对吗？你怎么这么糊涂！一开始就确定了有些音乐不能重现，还算什么完备的唱机？你想想……
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 嵌上一块亮晶晶的小牌子，标明它是个“完备”的唱机，对吗？你怎么这么糊涂！一开始就确定了有些音乐不能重现，还算什么完备的唱机？你想想……
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：进一步的解释让我来作：如果一个唱机——就说是唱机X吧——有足够的高保真度，那么当它试图播放曲子“我不能在唱机X上播放”时，恰恰就引起了那种粉碎它自己的
-共振……所以它不是完备的。然而唯一能绕开这种打击的方法——即让唱机X是低保真的——却更直接地表明了它的不完备。看来任何唱机都会有这样或那样的弱点，因此所有的唱机
-都是有缺陷的。可怜的螃蟹，无论是高保真唱机还是低保真唱机，他都是注定要失败的。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 进一步的解释让我来作：如果一个唱机——就说是唱机X吧——有足够的高保真度，那么当它试图播放曲子“我不能在唱机X上播放”时，恰恰就引起了那种粉碎它自己
+的共振……所以它不是完备的。然而唯一能绕开这种打击的方法——即让唱机X是低保真的——却更直接地表明了它的不完备。看来任何唱机都会有这样或那样的弱点，因此所有的唱
+机都是有缺陷的。可怜的螃蟹，无论是高保真唱机还是低保真唱机，他都是注定要失败的。
 \end_layout
 
-\begin_layout Hanging
-乌龟：他的问题不在于使用了什么“有缺陷”的唱机。我不认为谈论唱机的“缺陷”有什么意义，一台唱机本来就不可能做你希望它做的所有事情。如果一定要说什么地方有缺陷，那
-也不是唱机，而是你对它们的期望——对于唱机能做些什么事情的期望。螃蟹恰恰就是充满了这类不现实的期望。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 他的问题不在于使用了什么“有缺陷”的唱机。我不认为谈论唱机的“缺陷”有什么意义，一台唱机本来就不可能做你希望它做的所有事情。如果一定要说什么地方有缺陷，
+那也不是唱机，而是你对它们的期望——对于唱机能做些什么事情的期望。螃蟹恰恰就是充满了这类不现实的期望。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：的确，不应该责怪唱机。我估计蜻蟹买的也一定是好唱机，名牌的。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 的确，不应该责怪唱机。我估计蜻蟹买的也一定是好唱机，名牌的。
 \end_layout
 
-\begin_layout Hanging
-乌龟：名牌不名牌无关紧要，反正是高保真的，因此注定要破碎。不过，螃蟹还是没认输。他知道了我谱曲的原理之后，想出了一个办法，他以为这样就能胜过我了。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 名牌不名牌无关紧要，反正是高保真的，因此注定要破碎。不过，螃蟹还是没认输。他知道了我谱曲的原理之后，想出了一个办法，他以为这样就能胜过我了。
 \begin_inset Note Comment
 status open
 
@@ -1364,20 +1468,30 @@ status open
 于……
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：字斟句酌的干吗？你就接着说吧，是什么样的？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 字斟句酌的干吗？你就接着说吧，是什么样的？
 \end_layout
 
-\begin_layout Hanging
-乌龟：以至于我似乎真的没办法了。唱机欧米伽和一般的唱机有很大区别，但表面上差不多。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 以至于我似乎真的没办法了。唱机欧米伽和一般的唱机有很大区别，但表面上差不多。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：表面上差不多但又有很大区别？那么就是内部构造很不一样了？给我详细讲讲吧，最好画个图。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 表面上差不多但又有很大区别？那么就是内部构造很不一样了？给我详细讲讲吧，最好画个图。
 \end_layout
 
-\begin_layout Hanging
-乌龟：示意图是这样。（
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 示意图是这样。（
 \family sans
 画了一个图，用笔指点着
 \family default
@@ -1385,29 +1499,44 @@ status open
 行某种计算，精确地确定出这张唱片播放时会产生什么样的音响效果，判断它是否对欧米伽的唱机部分有害。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：我想像不出判断出有害了又能怎么样。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我想像不出判断出有害了又能怎么样。
 \end_layout
 
-\begin_layout Hanging
-乌龟：对于那些有害的唱片，欧米伽自有一套聪明的办法。它有一个特殊的装制，能重新组织它的唱机部分，从而改变唱机的结构，使之播放那种唱片时不产生共振。这一切都在计算
-机的指挥下进行，精确可靠，因此任何一张唱片它都能播放——它总能选择一种不会产共振的结构来播放一张唱片。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 对于那些有害的唱片，欧米伽自有一套聪明的办法。它有一个特殊的装制，能重新组织它的唱机部分，从而改变唱机的结构，使之播放那种唱片时不产生共振。这一切都在计
+算机的指挥下进行，精确可靠，因此任何一张唱片它都能播放——它总能选择一种不会产共振的结构来播放一张唱片。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：他可真有两下子！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 他可真有两下子！
 \end_layout
 
-\begin_layout Hanging
-乌龟：卓绝的设计，是吧？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 卓绝的设计，是吧？
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：越来越邪乎了，这个老螃蟹！你彻底失败了吧，龟兄？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 越来越邪乎了，这个老螃蟹！你彻底失败了吧，龟兄？
 \end_layout
 
-\begin_layout Hanging
-乌龟：才没有呢！你恐怕不很了解哥德尔不完全性定理吧？按
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 才没有呢！你恐怕不很了解哥德尔不完全性定理吧？按
 \begin_inset Note Comment
 status open
 
@@ -1420,45 +1549,58 @@ status open
 照这个定理，螃蟹再怎么耍花招也赢不了。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：能赢！我不知道什么“疙瘩”不“疙瘩”，反正你肯定输了。嗯，这个关于“粉碎唱机的音乐”的小故事还真挺有意思。好了，你也不用再讲下去了，事情的结局是非常明
-显的：你老老实实认输，即便你是那么不愿意——这由不得你！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 能赢！我不知道什么“疙瘩”不“疙瘩”，反正你肯定输了。嗯，这个关于“粉碎唱机的音乐”的小故事还真挺有意思。好了，你也不用再讲下去了，事情的结局是非常
+明显的：你老老实实认输，即便你是那么不愿意——这由不得你！
 \end_layout
 
-\begin_layout Hanging
-乌龟：由不得我？（打了一个呵欠）算了算了，今天算了，你瞧，已经快半夜厂，我得睡觉了，下次我再跟你说都是怎么回事吧。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 由不得我？（打了一个呵欠）算了算了，今天算了，你瞧，已经快半夜厂，我得睡觉了，下次我再跟你说都是怎么回事吧。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：衷心地感谢你。你的故事使我今天晚上很愉快。好，我回去了。（刚走到门边，忽然停下来转回身），我真糊涂！差点忘了。这是一个小小的礼物，我特地带给你的。（
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 衷心地感谢你。你的故事使我今天晚上很愉快。好，我回去了。（刚走到门边，忽然停下来转回身），我真糊涂！差点忘了。这是一个小小的礼物，我特地带给你的。（
 \family sans
 递给乌龟一个整整齐齐的小包。乌龟打开一看，是一只高脚杯。
 \family default
 ）怎么样，不错吧？
 \end_layout
 
-\begin_layout Hanging
-乌龟：的确好极了！多么奇特的一只高脚杯！哎，阿基，你知不知道，高脚杯这玩艺儿还是挺让我着迷的。只是近来景况不佳……
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 的确好极了！多么奇特的一只高脚杯！哎，阿基，你知不知道，高脚杯这玩艺儿还是挺让我着迷的。只是近来景况不佳……
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：景况不佳？我不明白。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 景况不佳？我不明白。
 \end_layout
 
-\begin_layout Hanging
-乌龟：仰头看看，那儿。（
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 仰头看看，那儿。（
 \family sans
 阿基里斯仰起头，看见一个架子上摆了一排高脚杯。
 \family default
-）我收藏了这么多高脚杯，可它们总是有这样那样的缺陷。我可以告诉你我的心愿，不过你得为我保密。我一直试图找一只完备的高脚杯：它的
+）我收藏了这么多高脚杯，可它们总是有这样那样的缺陷。我可以告诉你我的心愿，不过你得为我保密。我一直试图找一只完备的高脚杯：它的形状必须没有任何缺陷。但我始终没能
+如愿。如果你送给我昀这只高脚杯正是我要找的，那岂不是太妙了？告诉我，阿基，你怎么搞到它的？
 \end_layout
 
-\begin_layout Hanging
-形状必须没有任何缺陷。但我始终没能如愿。如果你送给我昀这只高脚杯正是我要找的，那岂不是太妙了？告诉我，阿基，你怎么搞到它的？
-\end_layout
-
-\begin_layout Hanging
-阿基里斯：大概不能告诉你，我很抱歉。这是我的一个小秘密。不过你应该知道这个高脚杯是属于谁的。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯 ：大概不能告诉你，我很抱歉。这是我的一个小秘密。不过你应该知道这个高脚杯是属于谁的。
 \begin_inset Note Comment
 status open
 
@@ -1471,64 +1613,30 @@ status open
 
 \end_layout
 
-\begin_layout Hanging
-乌龟：家里有这么多高脚杯，我不可能一一知道它们的来历，当然，这只高脚杯我就更不知道了。还是你来告诉我吧。
-\end_layout
-
-\begin_layout Hanging
-阿基里斯：也好。它属于你最喜欢的作曲家巴赫。他有许多高脚杯，这一点不太为人所知——我给你的这个是他的最后一只高脚杯。
-\end_layout
-
-\begin_layout Hanging
-乌龟：许多高脚杯中的最后一只，是吗？我的天！如果这真是巴赫的，那将是无价之宝了。可你怎么能肯定这是巴赫的？
-\end_layout
-
-\begin_layout Hanging
-阿基里斯：都在上面写着呢。你看见刻在杯子上的那些精巧的字母了没有？
-\end_layout
-
-\begin_layout Hanging
-乌龟：记载着巴赫的名字！这只高脚杯的确是巴赫的，多不寻常啊！（小心翼翼地把这只高脚杯放在了架子上。）哎，阿基，你知不知道巴赫的名字，也就是B-A-C-H，每个字
-母各是一个音名？
-\end_layout
-
-\begin_layout Hanging
-阿基里斯：得排除H。你知道，音名只是从A到G。
-\end_layout
-
-\begin_layout Hanging
-乌龟：他的情况有些特殊，你知道他是德国人，在德国，音名的记法和我们略有不同。我们用B的地方，他们用H，而我们用降B的地方，他们用B。比如说，我们说巴赫的“B小调
-弥撒曲”，他们却说“H小调弥撒曲”。明白了吗？
-\end_layout
-
-\begin_layout Hanging
-阿基里斯：曾经有人告诉过我这些，我怎么给忘了。现在我想起来了。这么说，巴赫的名字实际上是一段旋律喽？
-\end_layout
-
-\begin_layout Hanging
-乌龟：把那四个音符连续奏出，的的确确就是一段旋律。事实上，巴赫把这段旋律用意徼妙地写进了他精雕细琢的一部作品——即《赋格的艺术》中最后一支四声部三重赋格里。这支
-曲子是巴赫所写的最后一支赋格。我
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-106
-\end_layout
-
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
 \end_inset
 
-第一次听它时，全然不知它会如何结尾，可突然，没有任何先兆，曲子戛然而止。然后……死一般的寂静。我立刻体会到巴赫就是在这儿死去的。那是一个难以名状的悲伤时刻，我的
-心都——碎了……，B-A-C-
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-107
+乌龟： 家里有这么多高脚杯，我不可能一一知道它们的来历，当然，这只高脚杯我就更不知道了。还是你来告诉我吧。
 \end_layout
 
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 也好。它属于你最喜欢的作曲家巴赫。他有许多高脚杯，这一点不太为人所知——我给你的这个是他的最后一只高脚杯。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
 \end_inset
 
-H是那部赋格的最后主题，它隐藏在这支曲子里。虽然巴赫没有明白地表明这一点，但如果你知道这支曲子是怎么回事，你就会很容易发现了。
+乌龟： 许多高脚杯中的最后一只，是吗？我的天！如果这真是巴赫的，那将是无价之宝了。可你怎么能肯定这是巴赫的？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 都在上面写着呢。你看见刻在杯子上的那些精巧的字母了没有？
 \end_layout
 
 \begin_layout Standard
@@ -1587,38 +1695,116 @@ H.作为对题被引入时，作者死去了”（方框标出的即是B-A-C-H�
 
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：他为什么要那样呢？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 记载着巴赫的名字！这只高脚杯的确是巴赫的，多不寻常啊！（小心翼翼地把这只高脚杯放在了架子上。）哎，阿基，你知不知道巴赫的名字，也就是B-A-C-H，每个
+字母各是一个音名？
 \end_layout
 
-\begin_layout Hanging
-乌龟：的确是个谜。无论如何，这是部杰作，而那段旋律也成为名句了。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 得排除H。你知道，音名只是从A到G。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：名句？有这么说的吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 他的情况有些特殊，你知道他是德国人，在德国，音名的记法和我们略有不同。我们用B的地方，他们用H，而我们用降B的地方，他们用B。比如说，我们说巴赫的“B小
+调弥撒曲”，他们却说“H小调弥撒曲”。明白了吗？
 \end_layout
 
-\begin_layout Hanging
-乌龟：字眼不重要，我相信你明白我的意思。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 曾经有人告诉过我这些，我怎么给忘了。现在我想起来了。这么说，巴赫的名字实际上是一段旋律喽？
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：写下来的精彩句子才称作“名句”，那是文学领域的事，你可别乱用。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 把那四个音符连续奏出，的的确确就是一段旋律。事实上，巴赫把这段旋律用意徼妙地写进了他精雕细琢的一部作品——即《赋格的艺术》中最后一支四声部三重赋格里。这
+支曲子是巴赫所写的最后一支赋格。我
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+106
 \end_layout
 
-\begin_layout Hanging
-乌龟：进入到文学领域你会发现更多这样的手法。比如说在刘易斯·卡罗尔的诗中，就常常把一些词或名字藏在每行的第一个字里。用这种方式藏有信息的诗称作“藏头诗”。
+\end_inset
+
+第一次听它时，全然不知它会如何结尾，可突然，没有任何先兆，曲子戛然而止。然后……死一般的寂静。我立刻体会到巴赫就是在这儿死去的。那是一个难以名状的悲伤时刻，我的
+心都——碎了……，B-A-C-
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+107
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：一提起卡罗尔，我就会想起一个一直困扰我的问题：他是靠什么搞出了那么多妙不可言的玩艺儿？小时候我读过他的“炸脖襍”，真是太绝了！
+\end_inset
+
+H是那部赋格的最后主题，它隐藏在这支曲子里。虽然巴赫没有明白地表明这一点，但如果你知道这支曲子是怎么回事，你就会很容易发现了。
 \end_layout
 
-\begin_layout Hanging
-乌龟：首先是靠他的天才，我看是这样。这个我们先不管它，总之卡罗尔写过不少藏头诗。巴赫偶尔也写一点藏头诗，这并不奇怪。毕竟，赋格与藏头诗都同时有好几层隐藏着的意思
-，在这一点上两者颇为相似。多数的藏头诗只有一层隐含的意思，但是没有理由不让你搞出个双层结构——一首藏头诗中的藏头诗，或者也可以搞一个“头尾反藏诗”——把一句话最
-后一个字和第一个字连起来酎，是一个有意义的词。天哪！形式本身具有的可能性几乎是无限的！赋格里就充满了这种技巧。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 他为什么要那样呢？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 的确是个谜。无论如何，这是部杰作，而那段旋律也成为名句了。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 名句？有这么说的吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 字眼不重要，我相信你明白我的意思。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 写下来的精彩句子才称作“名句”，那是文学领域的事，你可别乱用。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 进入到文学领域你会发现更多这样的手法。比如说在刘易斯·卡罗尔的诗中，就常常把一些词或名字藏在每行的第一个字里。用这种方式藏有信息的诗称作“藏头诗”。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 一提起卡罗尔，我就会想起一个一直困扰我的问题： 他是靠什么搞出了那么多妙不可言的玩艺儿？小时候我读过他的“炸脖襍”，真是太绝了！
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 首先是靠他的天才，我看是这样。这个我们先不管它，总之卡罗尔写过不少藏头诗。巴赫偶尔也写一点藏头诗，这并不奇怪。毕竟，赋格与藏头诗都同时有好几层隐藏着的意
+思，在这一点上两者颇为相似。多数的藏头诗只有一层隐含的意思，但是没有理由不让你搞出个双层结构——一首藏头诗中的藏头诗，或者也可以搞一个“头尾反藏诗”——把一句话
+最后一个字和第一个字连起来酎，是一个有意义的词。天哪！形式本身具有的可能性几乎是无限的！赋格里就充满了这种技巧。
 \begin_inset Note Comment
 status open
 
@@ -1631,30 +1817,45 @@ status open
 
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：赋格的情况更为复杂，是吧？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 赋格的情况更为复杂，是吧？
 \end_layout
 
-\begin_layout Hanging
-乌龟：格式更为多样，技巧要求更高。其实即使是写对话也可以使用这种技巧……嗯，我忽然有了个想法。你设想一下，一位对话作者为了表示他对巴赫卓越才能由衷的景仰而写下一
-篇对话，对于这位作者来说这样做是不是更合适：即在对话中借用巴赫的对位技巧嵌进自己的名字——或者巴赫的名字？咳，何必操那份心呢，谁愿意写这样一篇对话就写去吧。我们
-还是来看看巴赫那个作为旋律的名字吧。你知不知道，B-A-C-H这个旋律如果上下颠倒地从后向前演奏，会和正常演奏时完全一样？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 格式更为多样，技巧要求更高。其实即使是写对话也可以使用这种技巧……嗯，我忽然有了个想法。你设想一下，一位对话作者为了表示他对巴赫卓越才能由衷的景仰而写下
+一篇对话，对于这位作者来说这样做是不是更合适： 即在对话中借用巴赫的对位技巧嵌进自己的名字——或者巴赫的名字？咳，何必操那份心呢，谁愿意写这样一篇对话就写去吧。
+我们还是来看看巴赫那个作为旋律的名字吧。你知不知道，B-A-C-H这个旋律如果上下颠倒地从后向前演奏，会和正常演奏时完全一样？
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：曲调怎么能上下颠倒演奏？从后向前我倒知道怎么回事——就是H-C-A-B-可上下颠倒会是什么样？你一定是在跟我开玩笑。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 曲调怎么能上下颠倒演奏？从后向前我倒知道怎么回事——就是H-C-A-B-可上下颠倒会是什么样？你一定是在跟我开玩笑。
 \end_layout
 
-\begin_layout Hanging
-乌龟：的确能颠倒着演奏，真的。用颠倒的方式演奏尾声正合适。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 的确能颠倒着演奏，真的。用颠倒的方式演奏尾声正合适。
 \end_layout
 
-\begin_layout Hanging
-阿基里斯：尾声怎么就合适？你能马上给我表演一下吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 尾声怎么就合适？你能马上给我表演一下吗？
 \end_layout
 
-\begin_layout Hanging
-乌龟：巴不得呢。你等一下，我去拿小提琴——（
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 巴不得呢。你等一下，我去拿小提琴——（
 \family sans
 走入另一个房间，不一会，拿着一把古雅的小提琴回来了
 \family default
