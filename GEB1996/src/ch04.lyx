@@ -1,0 +1,3110 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass GEB1996
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+一致性、完全性与几何学
+\end_layout
+
+\begin_layout Subsection*
+隐含意义与显明意义
+\end_layout
+
+\begin_layout Standard
+在二章里我们看到，当规则支配的符号与真实世界中的事物之间有个同构时，意义——至少在形式系统这种相对简单的语境里——是如何出现的。一般说来，这个同构越复杂，为从符
+号中抽出意义所需的“设备”——硬的和软的——就越多。若一个同构很简单（或很熟悉），我们倾向于说它相对于我们的意义是显明的。我们不必注意这个同构就见到了意义。最明
+显的例子是人类的语言，人们常常把意义归于词本身，丝毫没有意识到使词具有意义的那个非常复杂的同构。这是个很容易犯的错误：把全部意义归于对象（即词），而非对象与真实
+世界的联结。这可以与一种朴素信念作个比较：认为任何两个物体的碰撞都必然附带有声音。这是个错误的信念。当两个物体在真空中相撞时，就不会有任何声音。道理是一样的。错
+误来自把声音完全归于碰撞，而未看到把声音从对象带给耳朵的媒介的作用。
+\end_layout
+
+\begin_layout Standard
+以前，我让“同构”这个词带上引号是表明必须要留有余地。支持着对人类语言进行理解的符号操作过程，比典型的形式系统中的符号操作过程要复杂得多。因此我们要想继续把意义
+当作以同构为媒介的，我们就得对于同构能是什么采取更为灵活的看法，事实上在我看来，回答“什么是意识？”这一问题的关键之点，是揭示出作为意义基础的“同构”的实质。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+110
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+《对位藏头诗》的显明意义
+\end_layout
+
+\begin_layout Standard
+以上都是在准备对《对位藏头诗》的讨论——一种对于意义层次的研究。这篇对话既有显明的意义也有隐含的意义。最显明的意义无非是它所讲述的故事。严格地说，这个“显明的”
+意义是极度隐含的，因为面对白纸上的那些黑色印记，要理解故事中的事件，需要复杂得难以想像的大脑过程。尽管如此，我们还是把故事中的事件当作对话的显明意义，并假定每位
+读者都多少是用同样的“同构”从纸上的印记中抽取出这层意义的。
+\end_layout
+
+\begin_layout Standard
+即便如此，我还是想把那个故事的显明意义说得更明白些。首先我想谈谈唱机与唱片。主要的问题是唱片上的纹道有两层意义。第一层意义是音乐意义。那么什么是“音乐”？——是
+空气中一系列的震颤，还是大脑中相继的情感反应？两者都是。但在有情感反应之前，先得有震颤。震颤是由唱机从纹道里“抽”出来的：一个相对说来直接了当的机制。事实上你都
+可以用一根针来做到，只需把针沿着纹道划就行。这个阶段之后，耳朵把震颤转换成大脑中听觉神经原的发射。以后便是大脑中的一系列步骤，逐渐地把线性的震颤序列变换成相互作
+用着的情感反应的复杂模式——太复杂了，我们不能再深究，虽然我很想这样。所以我们还是满足于把空气中的声音当作纹道的“第一层”意义。
+\end_layout
+
+\begin_layout Standard
+纹道的第二层意义是什么？是在唱机中引起的震颤序列。这层意义只能是在第一层意义从纹道上被抽出来之后才有，因为是空气中的震颤引起了唱机中的震颤。所以，第二层意义有赖
+于相继的两个同构：
+\end_layout
+
+\begin_layout Enumerate
+任意的纹道模式与空气震颤之间的同构；
+\end_layout
+
+\begin_layout Enumerate
+任意的空气震颤与唱机震颤之间的同构。
+\end_layout
+
+\begin_layout Standard
+这两个相继的同构的示意图见图20。注意是同构1使第一层意义出现。第二层意义比第一层意义隐含一些，因为它的媒介是两个相继同构。就是这第二层意义“倒戈”，才使唱机破
+碎的。有趣的是第一层意义的产生迫使第二层意义也要同时产生——决不会只有第
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+111
+\end_layout
+
+\end_inset
+
+一层意义而没有第二层。所以，是唱片的隐含意义又转了回来，毁掉了唱片．
+\end_layout
+
+\begin_layout Standard
+高脚杯的情形是一样的，同样可以这么说。但有个区别：字母表中的字母到音符上的映射是另外一层同构，我们可以称之为“转录”。这个同构之后跟着的是“翻译”——音符到乐音
+的转换。再之后，震颤反作用到高脚杯上，恰如反作用到那一系列逐步升级的唱机上一样。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement t
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/images-0114.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+哥德尔定理背后的原理的形象化表现
+\end_layout
+
+\end_inset
+
+哥德尔定理背后的原理的形象化表现：两个映射背靠背具有了出乎意料的飞去来器效果。第一个映射是从纹道模式到声音，由一个唱机实现。第二个——很平常，但却常常被忽视——
+是从声音到唱机的震颤。注意第二个映射独立于第一个映射而存在，因为附近的任何声音——不仅是唱机自己产生的声音——都会引起这种震颤。哥德尔定理转述在这里就是：对任何
+一个唱机，都有它不能播放的唱片，因为后者会导致前者的间接自摧毁。[作者绘。]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+《对位藏头诗》的隐含意义
+\end_layout
+
+\begin_layout Standard
+那篇对话的隐含意义又如何呢？（是的，有不止一层。）其中最简单的已在前面指出了——就是，对话前半部分与后半部分大体上是同构的：唱机变成了小提琴，乌龟变成了阿基里斯
+，螃蟹变成了乌龟，纹道变成了刻写的签名，等等。注意到了这个简单的同构，你还可以更进一步。注意在故事的前半部分乌龟是全部恶作剧的祸根，在后半部分他却成了受害者。于
+是你便看到正是他自己的方
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+112
+\end_layout
+
+\end_inset
+
+法掉转头倒戈回来打击他！你是不是想起了唱片上音乐的倒戈——或高脚杯铭文的倒戈——或者也许是乌龟收藏的那些飞去来器？的确如此。这故事讲了两个层次上的倒戈，如下所示
+：
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 第一层：：
+\noindent
+\align block
+第一层： 倒戈的高脚杯与唱片；
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 第一层：：
+第二层： 乌龟那个利用隐含意义引起倒戈的险恶手段——它本身也倒戈。
+\end_layout
+
+\begin_layout Standard
+于是我们甚至可以在故事的两个层次上做个同构，把唱片与高脚杯自食恶果地摧毁自身这一过程，和乌龟自己那残忍的手段在最后自食恶果地指向他自己这一过程等同起来。这样看来
+，故事本身就是它所讨论的倒戈的一个实例。因此我们可以把《对位藏头诗》当作一种间接自指来看待：它自身的结构同构于它所描述的事件。（恰恰相当于高脚杯和唱片通过播放与
+引起震颤这两个背靠背的同构来隐含地指向自身。）当然，人们可以读着那篇对话而没有注意这一事实——但它总是在那里的。
+\end_layout
+
+\begin_layout Subsection*
+《对位藏头诗》与哥德尔定理之间的映射
+\end_layout
+
+\begin_layout Standard
+现在你是不是觉得有点眼花缭乱了？然而最好的还没来呢。（实际上，某些隐含意义的层次甚至不会在这里讨论——留着让你去找出来。）写这篇对话的最深刻的原因在于阐释哥德尔
+定理。正如我在导言中所说的，哥德尔定理很大程度上是依赖于数论的陈述有两个不同层次上的意义。《对位藏头诗》的两部分介别都是一个哥德尔定理的“同构复本”。由于这个映
+射是那篇对话的中心思想，而且相当精致复杂，所以我仔细地把它列成了下表。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="14" columns="3">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="right" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+唱机
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+数论的公理系统
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+低保真唱机
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“弱”公理系统
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+高保真唱机
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“强”公理系统
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“完备的”唱机
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+数论的完全系统
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+113
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+唱机的“图纸”
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+形式系统的公理与规则
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+唱片
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+形式系统的符号串
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+可以播放的唱片
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+公理系统的定理
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+不能播放的唱片
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+公理系统的非定理
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+声音
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+数论的真陈述
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+可重现的声音
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+系统中经过解释了的定理
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+不可重现的声音
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+非定理的真陈述
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+曲名：
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+哥德尔串的隐含意义：
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“我不能在
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“不能在
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+唱机X上播放”
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+形式系统X中导出”
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这还不是哥德尔定理与《对位藏头诗》之间那个同构的全部，而只是其核心部分。如果你到现在还没有完全把握哥德尔定理，那也不必着急——还要过几章我们才见到它呢！不过，读
+了那篇对话，你就已经尝到些哥德尔定理的味道r，但这不必就一定得理解它。现在我不再多说了，留给你去寻找《对位离藏头诗》中其它类型的隐含意义。“觅之，自有所获”！
+\end_layout
+
+\begin_layout Subsection*
+赋格的艺术
+\end_layout
+
+\begin_layout Standard
+现在来说几句《赋格的艺术》。这是巴赫在他生命的最后一年写下的，由十八支基于同一主题的赋格曲组成。很明显，《音乐的奉献》的创作给了巴赫灵感。他决定在简单得多的主题
+上谱写另外一集赋格曲，以表明形式中所固有的全部可能性。在《赋格的艺术》中，巴赫以可能有的最为复杂的方式使用了一个非常简单的主题。整部作品都是同一个调。其中多数赋
+格曲有四个声部，逐渐地增加复杂程度及表现深度。接近最后，其错综与复杂上升到了这样的高度，以致于人们都怀疑他无法再驾驭了。然而他做到了——除了最后那首《对位曲》。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+114
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+导致《赋格的艺术》的中断（也可以说，巴赫生命的中断）的情境是这样：几年来巴赫的视力给他带来不少麻烦，他希望做个手术。手术是做了，但没多大帮助。结果，在他生命最后
+一年的那些较好的时光里他失去了视觉。然而这并没有阻止他以充沛的精力去从事他那不朽的事业。他的目标是建立一个对于赋格曲创作的完全的展示，多重主题的使用是其中的一个
+重要的方面。在他计划里的倒数第二支赋格曲中，他把自己的名字做成音符插在里面作为第三主题。然而正在这么做的时候，他的健康情况恶化了，他被迫放弃了继续从事他的事业的
+抱负。病中，他想办法向他女婿口授了最后一首赞美诗前奏曲，对此巴赫的传记作者福凯尔写道：“每当我演奏一遍，都会被那虔诚的达观与奉献斯深深打动，以致于我很难说我会更
+怀恋哪一个——这首赞美诗，还是最后那支赋格曲的结尾。”
+\end_layout
+
+\begin_layout Standard
+有一天，没有任何先兆，巴赫恢复了视力。但几小时以后他的病又发作了。十天以后，他去世了，留下不完全的《赋格的艺术》让人们沉思。这会是由于巴赫达到了“自指”吗？
+\end_layout
+
+\begin_layout Subsection*
+哥德尔的结果造成的问题
+\end_layout
+
+\begin_layout Standard
+乌龟说没有一个有足够强有力的唱机会在下述意义上是完备的：它能重现唱片上所有可能的声音。哥德尔说没有一个足够强有力的形式系统会在下述意义上是完备的：能够把每一个真
+陈述都作为定理而重现在该系统中。但正如乌龟关于唱机所指出的那样，只是当你对形式系统应该能做到什么抱有不现实的期望时，这件事才象是个缺陷。不过，数学家们正是带着这
+种不现实的期望进入二十世纪的，他们认为公理化推理是解决一切病症的良方。1931年他们发现了不是这样。对于任何一个形式系统，真理超出该系统所规定的定理资格这件事，
+被称作该系统的“不完全性”。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+115
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+哥基尔的证明方法中最绕人之处是他所使用的种种推理方法看上去无法被“封住”——它们拒不卷入任何形式系统。于是，初看起来，哥德尔似乎是发掘出了以前不被人知，但却意味
+深长的人类推理与机械推理之间的区别。这种生命系统的能力与无生命系统的能力间的差异，在真理概念与定理资格概念之间的差异上反映了出来……或至少这是一种“浪漫”地看待
+这个问题的方式。
+\end_layout
+
+\begin_layout Subsection*
+修改了的pq系统与不一致性
+\end_layout
+
+\begin_layout Standard
+为了更现实地考察这个问题，有必要更深入地看一看在形式系统中，意义为什么以及怎样由同构来传送。但我相信这将导致更为浪漫地看待这个问题。所以现在我们来着手研究意义与
+形式间关系的某些进一步的方面。第一步是稍稍修改一下我们的老朋友pq系统，来做出一个新的形式系统。我们另外增加一个公理模式（保留原来那个，以及那唯一一条规则）：
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+公理模式： 若x是一个短杠串，则xqxp-是一个公理。
+\end_layout
+
+\begin_layout Standard
+于是很清楚，--q--p-在新系统中是个定理，---q--p--也是。象从前一样，它俩的解释分别为“2等于2加1”和“3等于2加2”。可以看出我们这个新系统将包
+括很多假陈述（如果你把符号串当作陈述的话）。这样，我们的新系统与外部世界是不一致的。
+\end_layout
+
+\begin_layout Standard
+好象这还不够糟，我们的新系统逐有内部问题。它含有彼此不协调的陈述，诸如--q-p-（一条旧公理）和-q-p-（一条新公理）。因此我们的新系统在第二种意思上也是不
+一致的：内部的不一致。
+\end_layout
+
+\begin_layout Standard
+那么，在这种关头，唯一合理的做法是不是就是把我们的新系统整个扔掉？很难说。我有意用障眼法来摆出这些“不一致性”：也就是，我尽可能地把一些糟糕的论证弄得象那么回事
+，目的在于使人误入岐途。事实上，你大概已经发现了我的错误。关键的错误发
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+116
+\end_layout
+
+\end_inset
+
+生在我不加思索地对新系统采用了同样的解释方法：和我对旧、系统所使用的解释方法完全一样。回想一下，在上一章里用这种解释方法的时候，唯一的理由是这种解释使得符号操作
+同构于它们所对应的概念。如果你修改了支配系统的规则，你注定会无可挽救地破坏那个同构。这样看来，前面几段里的那些令人沉痛的问题是虚构的。只要重新解释系统中的某些符
+号，那些问题马上就消失了。注意我说的是“某些”：并不一定所有的符号都得映射到新的概念上。一部分符号可以完好地保持它们的“意义”，而其它的符号则改变了意义。
+\end_layout
+
+\begin_layout Subsection*
+重新获得一致性
+\end_layout
+
+\begin_layout Standard
+例如，假定我们只重新解释符号q，其它符号都保留原样。比如说，我们用短语“小于或等于”来解释q。现在，我们那两个“矛盾的”定理-q-p-和--q-p-成了无害的两
+句话：“1小于或等于1加1”，“2小于或等于1加1”。我们同时摆脱了(1)与外部世界的不致性，和(2)内部的不一致性。我们的新解释是个有意义的解释。当然，原来那
+个是无意义的，就是说，它对于新系统来说没有意义。对于原来那个pq系统，它挺好。但现在看来，把它用在新的pq系统上过于随意，也没有道理，就象用“马-苹果-幸福”来
+解释旧的pq系统一样。
+\end_layout
+
+\begin_layout Subsection*
+欧几里德几何的历史
+\end_layout
+
+\begin_layout Standard
+虽然我力图使你在没有戒备的情况下，对怎样用语言来解释符号感到了意外，但看来似乎是一旦你掌握了其中的要领，学会这种技术并非难得不得了。事实上也的确不难。然而这却是
+整个十九世纪数学的最深刻的教训之一！那种数学起始于欧几里德。大约在公元前300年左右，他系统化地整理了他那个时代人们所知
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+117
+\end_layout
+
+\end_inset
+
+道的关于平面和立体几何的知识，其结果就是欧几里德的《几何原理》。这个几何学体系是如此稳固，几乎成了两千多年来几何学的圣经——所有时代维持最长久的著作之一。这是为
+什么呢？
+\end_layout
+
+\begin_layout Standard
+图21.巴别塔，艾舍尔作（木刻，1928）。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+118
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+主要原因在于欧几里德是数学中严格性的创始人。《几何原理》从非常简单的概念、定义等开始，逐渐地建立起许多结果，形成了一个庞大的体系。这个体系是精心组织的，其中给出
+的任何一个结果都仅仅依赖于出现在它之前的结果。这样，这种数学工作就有了一个确定的格式，其建构的艺术使之强壮并坚实。
+\end_layout
+
+\begin_layout Standard
+不过，这种建构的艺术是另外一种类型，不同于——比如说——摩天大楼的建筑(见图21)。对于后者来说，能够矗立在那里，就足以证明它的各个结构要素是紧密组合起来的。但
+对于一本几何学的书来说，当其中的每个命题都声称是从前面的命题逻辑地推导出来时，若某个命题的证明是无效的，并不会显出整个建构会倒坍。这里横梁和立柱不是物质的，而是
+抽象的。事实上，在欧几里德的《几何原理》中，用来建构证明的东西是人类语言——一种充满隐患的复杂又难以捉摸的通讯媒介。那么，《几何原理》的建构聚合力是什么呢？能肯
+定它是由坚固的结构要素组合起来的吗？或者它也许有结构上的弱点？
+\end_layout
+
+\begin_layout Standard
+我们用的每个词对于我们都有某种意义，在我们使用这个词的时候引导我们。越是普通的词，我们由它引起的联想就越多，其意义也就扎得越深。所以，如果某人对一个普通的词下个
+定义，指望我们遵奇这个定义，我们肯定不这么做。相反，我们会在很大程度上无意识地按照另一些东西的引导去做，那些东西是我们的心智在我们与这个词相关联的储备中所发现的
+。我提及这些是因为这就是欧几里德的《几何原理》中所发生的问题，在那里他试图对诸如“点”、“直线”、“圆”等等普通平常的词下定义。你怎样才能给一个人人都已有了清晰
+概念的东西下定义？唯一的途径是假定你能清楚地表明你的词是当作术语的，不与同样拼写的日常用词相混淆。你必须得强调：与日常用词的联系仅仅是提示性的。可是，欧几里德没
+这么做，因为他觉得他的《几何原理》中的点和线的确
+\end_layout
+
+\begin_layout Standard
+119
+\end_layout
+
+\begin_layout Standard
+就是现实世界中的那种点和线。所以，由于没有明确截断所有联系，欧几里德使得读者能自由地发挥他们的联想力了……
+\end_layout
+
+\begin_layout Standard
+这看起来几乎没有秩序可言了，而且对欧几里德也有点不公平。他确实制定了公理，或说公设，可用来证明命题。事实上，除了这些公理公设，别的东西一律不得使用，而就是在这里
+他失误了：他使用那些日常用词的一个不可避免的后果就是那些词生出的一些意象潜入了他给出的证明。不过，如果你读《几何原理》中的证明，无论如何别指望发现推理中扎眼的“
+跳跃”。正相反，它们非常精细，因为欧几里德是个思想敏锐的人，在他那里不会出现任何头脑简单所导致的错误。尽管如此，缝隙还是有的，造成了一部经典著作中轻微的瑕疵。但
+不应抱怨这一点，只应该体会到绝对严格与相对严格之间的差别。毕竟，在欧几里德写下他的著作两千多年以后，他缺乏绝对的严格性这一点导致了数学中一些最富成果的新分支。
+\end_layout
+
+\begin_layout Standard
+欧几里德给出了五条公设作为几何学这个无穷级火厦的“地基”——他的《几何原理》只包括了这个大厦的前几百级。前四条公设相当优美简洁：
+\end_layout
+
+\begin_layout Standard
+(1)一条直线段可以联接两个点。
+\end_layout
+
+\begin_layout Standard
+(2)一条直线上任何一条直线段可以无限延伸。
+\end_layout
+
+\begin_layout Standard
+(3)给定一条直线段，可以以一个端点为圆心，以此绒段为半径做一个圆。
+\end_layout
+
+\begin_layout Standard
+(4)一切直角都彼此相等。
+\end_layout
+
+\begin_layout Standard
+然而第五条却不那么雅致：
+\end_layout
+
+\begin_layout Standard
+(5)如果两条直线与第三条直线相交时，在第三条直线的某一侧三条线所夹的内角之和小于两个直角的和，则那两条直线沿着这一侧延伸足够长之后必然相交。
+\end_layout
+
+\begin_layout Standard
+虽然欧几里德从未明白地说过，但他确是把这条公设看得比
+\end_layout
+
+\begin_layout Standard
+120
+\end_layout
+
+\begin_layout Standard
+其它几条地位低些，因为在前二十八个命题的证明里，他想法避免了使用它。这样，前二十八个命题属于所谓“四公设的几何学”——几何学中的一部分，可基于《几何原理》的前四
+条公设而导出，无需第五条公设的帮助（常常也称作“绝对几何学”）。无疑，欧几里德会发现：更为可取的是证明这只丑小鸭，而不必设定它。但他没找到证明，所以采纳它了。
+\end_layout
+
+\begin_layout Standard
+但是欧几里德的后继者们在不得不设定这第五公设时，并不比他自在些。多少个世纪里，数不清的人花费了他们生命里数不清的岁月，试图去证明第五公设本身便是四公设几何学的一
+部分。到1763年，至少发表了二十八种不同的证明——都是错的！（都被一个名叫克吕格的人在一篇论文里批驳了）。所有这些错误的证明都涉及到了日常直观与严格的形式化属
+性的混淆。这么说是保险的：在今天几乎所有这些“证明”对我们都没有什么数学的或历史的价值了——除了几个例外。
+\end_layout
+
+\begin_layout Standard
+非欧几里德几何面面观
+\end_layout
+
+\begin_layout Standard
+济罗拉莫·萨彻利(1667 -1733)生活在巴赫的时代。他有个抱负，要使欧几里德不带任何瑕疵。以他早期在逻辑方面的研究为基础，他决定试着从一个新颖的角度对那个
+著名的第五公设进行证明：假定你设定它的反面，然后以这样一条公设作为你的第五公设开始推演几何学……肯定不久之后你会制造出矛盾。因为没有任何数学系统能支持矛盾，你就
+表明了你自己的那个第五公设是不可靠的，于是表明了欧几里德的第五公设是可靠的。这里我们无需深究细节。指出下面这一点就够了：萨彻利以他高超的技巧推演出了“萨氏几何学
+”的一个又一个命题，最后终于变得厌倦了。有一个时候，他认定他达到了一个“与直线的本质相抵触”的命题。那正是他一直期望的——在他看来，那是个寻找已久的矛盾。就在那
+个
+\end_layout
+
+\begin_layout Standard
+121
+\end_layout
+
+\begin_layout Standard
+时候他发表了他的研究结果，题为《不带任何瑕疵的欧几里德》，随后就不干了。
+\end_layout
+
+\begin_layout Standard
+但就是因为这么做，他剥夺了自己身后的殊荣，因为他无意中发现了后来所谓的“双曲几何学”。五十年以后，兰伯特重复了这种“失之交臂”，这次，假如能这么说的话，甚至更接
+近了。最后，兰伯特之后四十年，也即萨彻利之后九十年，非欧几何学被认可了——一个真正的几何学新品种。这是自古以来单一的数学的一个分叉点。1823年，作为那种无从解
+释的巧合之一，非欧几何同时被两个人发现了。他们是匈牙利数学家雅诺斯（或约翰）·鲍耶，二十一岁，和俄国数学家尼科莱·罗巴切夫斯基，三十岁。具有讽刺意味的是，在同一
+年法国伟大的数学家阿德里安一马利·勒让德想出了他认定是对欧几里德第五公设的一个证明，他在相当程度上是沿着萨彻利的路子。
+\end_layout
+
+\begin_layout Standard
+顺便指出，鲍耶的父亲法卡斯（或沃夫岗）·鲍耶，伟大的高斯的一个亲密朋友，投入了大量精力试图证明欧几里德的第五公设。在一封给他儿子雅诺思的信中，他努力劝阻他不要去
+思考这种东西：
+\end_layout
+
+\begin_layout Standard
+你一定不要去探究平行公设。我深知这条路通向哪里。我曾横穿于这无尽的黑夜，湮灭了我生命中所有的光明与欢乐。我恳求你放下平行公设的研究……我曾想为了真理而牺牲自己。
+我准备好成为一个殉教者，除去几何学的瑕疵，使之纯净而奉还给人类。我进行了巨大的、难以估量的努力，我得到的结果远比其他人好得多，却依然没达到完全的满意。当一个人彻
+底离开日常之琐碎，他就转向了崇高之最。当我看出没人能达到这黑夜的尽头时，我转回身了。我转回身来没有慰藉，却带着对自己以及全部人类的怜悯……我旅经了这地狱般的死
+\end_layout
+
+\begin_layout Standard
+海里的所有暗礁，总是帆破桅折地回来a就是从那时起，我开
+\end_layout
+
+\begin_layout Standard
+122
+\end_layout
+
+\begin_layout Standard
+始衰老，性情也毁了。我不加考虑地慝我的生命和幸福去冒险一或者光荣如凯撒，或者一无所有①。
+\end_layout
+
+\begin_layout Standard
+但是后来，当他确信他的儿子的确“有了东西”，他便催促他发表，正确地迎来了那个同时性。这种同时性在科学发现上真是屡屡发生：
+\end_layout
+
+\begin_layout Standard
+当时机成熟时，那些东西在不同的地方出现，就象早春时的紫罗兰②。
+\end_layout
+
+\begin_layout Standard
+非欧几何学的情形真真确确就是这样！在德国，高斯自己和其他一些人都多少独立地触及了非欧几何观念。其中包括一个律师施外卡特，他于1818年寄给高斯一篇文章，描述了一
+种新的“星际”几何学；施外卡特的侄子陶利努斯做出了非欧几里德三角学；高斯的学生瓦赫特尔，他发现了非欧几何学的几个很深的结果，死于1817年，当时二十五岁。
+\end_layout
+
+\begin_layout Standard
+理解非欧几何的线索是“率直对待”来自象萨彻利和兰伯特的几何学里的命题。只是当你没能摆脱先入为主的“直线”观念时，萨氏命题才“与直线的本质相抵触”。而若你能使自己
+摆脱那些先入的印象，只让“直线”是那种满足新命题的东西，那你就达到了一个崭新的视点。
+\end_layout
+
+\begin_layout Standard
+未定义项
+\end_layout
+
+\begin_layout Standard
+这听起来很熟悉。具体地说，让人想起pq系统以及它的变种，其中符号借助它们在定理中扮演的角色而获得被动意义。符号q尤其令人感兴趣，因为它的“意义”随着新公理的添如
+而改变了。人们可以以完全相同的方式让“点”、“线”等等的意义由它们出现于其中的定理（或命题）的集合来决定。这是非欧几何学发现者们的重大体会。他们以不同的方式否定
+欧几里德第五公设，并遵循其后果，从而发现了几种不同的非欧几何学。严格地说，他们（包括萨彻
+\end_layout
+
+\begin_layout Standard
+123
+\end_layout
+
+\begin_layout Standard
+利）并不是直接否定第五公设，而是否定了一个等价的公设。它被称为平行公设，其叙述如下：
+\end_layout
+
+\begin_layout Standard
+给定任一直线和不在直线上的一点，存在有一条，且仅仅存在一条通过那个点，且永不与前一条直线相交的直线，无论两直线延伸多远。
+\end_layout
+
+\begin_layout Standard
+第二条直线就称为与前一条直线平行。如果你断言没有这样的直线存在，那么你得到的是椭圆几何学；如果你断言至少有两条这种直线存在，你得到的是双曲几何学。顺便指出，这样
+的变种还被称为“几何学”的理由是核心要素——绝对的或四公设几何学——嵌于其中。就是由于有这最小限度的核心，把它们当作对某种几何空间性质的描述才有意义，尽管这种几
+何空间不象平常的空间那么直观。
+\end_layout
+
+\begin_layout Standard
+实际上，椭圆几何学是很容易视觉化的。所有的“点”、“线”之类东西都可认作是普通球面上的东西。让我们来规定一下：作为术语时，我们写“点”，作为日常用语时，我们写“
+点”。现在我们可以说一个点由一对球面上的对径点（球的一条直径的两端点）组成。一条线是球的一个大圆（一个圆，象赤道那样，以球心为其圆心）。在这种解释下，椭圆几何学
+的命题虽然也含有“点”、“线”之类的词，说的却是球面上发生的事情，而不是平面上的。注意：两条线总是相交于两个点，两个在球面土对称于球心的点——也就是恰好相交于一
+个点！而且正象两条线决定一个点，两个点也决定一条线。
+\end_layout
+
+\begin_layout Standard
+这种对待“点”和“线”这些词的方法——即认为它们仅有的意义是那些它们出现于其中的命题灌注进去的——使我们向几何学的完全形式化前进了一步。这种半形式化的版本仍然使
+用了汉语中的许多词，带有它们通常的意义（象“一个”、“如果”、“和”、“连接”、“有”等词），虽然特殊的词，如“点”和“线”，
+\end_layout
+
+\begin_layout Standard
+124
+\end_layout
+
+\begin_layout Standard
+其日常意义已被抽掉了。后者于是称作未定义项口未定义项，象pq系统中的p和q，在某种意义上是有定义的：它们被隐含地定义了——由它们出现于其中的那些命题全体定义，而
+不是在一个定义中显明地定义。
+\end_layout
+
+\begin_layout Standard
+人们可以主张说未定义项的完整定义仅驻存于公设中，因为导出的命题已是隐含于公设中了。在这种观点下，公设隐含地定义了所有未定义项，这些定义体现于全部未定义项的相互关
+系之中。
+\end_layout
+
+\begin_layout Standard
+多重解释的可能性
+\end_layout
+
+\begin_layout Standard
+几何学的完全形式化需要一个激烈的措施：使每个词项都成为未定的——就是，把每个词项都变成形式系统中“没有意义”的符号。我在“没有意义”上加引号是因为，你也知道，那
+些符号自动地具有了从它们出现于其中的定理而来的被动意义。不过，人们是否发现了那些意义却是另外一个问题了，因为那将要求寻找这样一集概念，它们能通过同构联系于形式系
+统中的符号。如果一个人带着把几何学形式化的目的起步，他大概是对每个符号都有了一个意向中的解释，使被动意义铸入系统。这就是我开始构造pq系统时对p和q所做的。
+\end_layout
+
+\begin_layout Standard
+但也许还有其它潜在地可接受的被动意义未被人注意。例如在原来那个pq系统中令人意外地把p解释成“等于”，把q解释成“减”。虽然这个例子很平凡，却色含了这样一个想法
+的核心：符号可以有许多有意义的解释——寻找它们是取决于观察者的。
+\end_layout
+
+\begin_layout Standard
+我们可以用术语“一致性”来概括到目前为止我们的考察。我们的讨论开始于虚构一个显得不一致的形式系统——内部不一致，同样与外部世界也不一致。但过了一会我们就撤回了这
+种说法，我们意识到了我们的错误：我们为符号选择了不幸的解释。改换了解释以后，我们重新获得了一致性！现在很清楚了：一致性不
+\end_layout
+
+\begin_layout Standard
+125
+\end_layout
+
+\begin_layout Standard
+单是形式系统的性质，还依赖于为之提出的解释。同理，不一致性也不是任何形式系统的固有性质。
+\end_layout
+
+\begin_layout Standard
+各种各样的一致性
+\end_layout
+
+\begin_layout Standard
+我们一直在谈论“一致性”和“不一致性”，却还没定义它们。我们只是依靠古老悠久的日常观念。现在让我们来严格地定义一个形式系统（加上一个解释）的一致性：这是指其中每
+个定理经解释后都成为一个真陈述。如果至少有一个经解释后的定理是假陈述，我们就说出现了不一致性。
+\end_layout
+
+\begin_layout Standard
+这个定义似乎是在谈论系统与外部世界的不一致性。那么，内部的不一致性怎么样呢？大概是如果一个系统含有两个或更多的定理，其解释是彼此不相容的，那么它是内部不一致的；
+而若所有经解释后的定理彼此相容，则是内部一致的。作为一个例子，让我们考虑一个形式系统。它只有下述三个定理：Wdz、ZdG、GdW。如果W解释成“乌龟”，Z解释成
+“芝诺”，G解释成“吉世达”，而xdy解释成“x总是在下棋时打败y”，那么我们就有了下列经解释后的定理：
+\end_layout
+
+\begin_layout Standard
+乌龟总是在下棋时打败芝诺。
+\end_layout
+
+\begin_layout Standard
+芝诺总是在下棋时打败吉世达。
+\end_layout
+
+\begin_layout Standard
+吉世达总是在下棋时打败乌龟。
+\end_layout
+
+\begin_layout Standard
+陈述本身并非不相容，虽然它们描述了一个相当怪诞的棋手圈子。所以，在这个解释下，以那三个符号串为定理的形式系统是内部一致的，虽然实陈看来那三个陈述没一个是真的！内
+部一致性不要求所有的定理都得成为真陈述，只需它们能成为彼此相容的陈述。
+\end_layout
+
+\begin_layout Standard
+现在假定我们把xdy另外解释成“x是y笔下的人物”，那么我们就有：
+\end_layout
+
+\begin_layout Standard
+乌龟是芝诺笔下的人物。
+\end_layout
+
+\begin_layout Standard
+126
+\end_layout
+
+\begin_layout Standard
+芝诺是吉世达笔下的人物。
+\end_layout
+
+\begin_layout Standard
+吉世达是乌龟笔下的人物。在这种情况下，单个的陈述是真是假没有关系——恐怕也没有什么办法能知道哪些是真哪些是假。不过，肯定不会是它们三个同时都真。这样，这个解释就
+使系统内部地不一致了。这个内部的不一致性不取决于对那三个大写字母的解释，而仅仅取决于对d的解释，同时还取决于那三个大写字母是循环地排列于d的各次出现周围这一事实
+。于是，人们可以不必解释形式系统的所有符号而找到内部不一致性。（在这个例子里，单解释一个符号就够了。）到了足够多的符号都有了解释的时候，可能就会清楚地看出：没有
+什么解释其余符号的办法能使所有的定理成为真的。但这不仅是真假的问题——这是个可能性的问题。如果我们把大写字母都解释成真人的名字，三个定理就都成了假的——但那不是
+把系统称作内部不一致的理由。我们的根据是循环性，再加上对字母d的解释。（顺便提醒一句，你会在第二十章再见到这个“作者三角形”）。
+\end_layout
+
+\begin_layout Standard
+假想的世界和一致性
+\end_layout
+
+\begin_layout Standard
+我们给出了两种看待一致性的方式：前一个说，如果每个定理经解释后成为真的，则系统加上解释是与外部世界一致的；后一个说，如果所有的定理经解释后成为彼此相容的，则系统
+加上解释是内部一致的。这两神类型的一致性之间有密切的关系。为了决定几个陈述是否彼此相容，你得设法想像一个世界，在其中它们能同时都真。所以，内部的一致性有赖于与外
+部世界的一致性——只是现在，“外部世界”允许是任何想象的世界，而不必是我们生活于其中的那个世界。但这是一个极其模糊的、无法令人满意的结论。一个“想象”的世界都有
+些什么东西？是否可能想象一个世界，在其中三个人物是循环地相互创造出来的？是否可能想象一个世界，其中
+\end_layout
+
+\begin_layout Standard
+127
+\end_layout
+
+\begin_layout Standard
+有方的圆？这样一个世界是不是可想象的：其中是牛顿定律而非相对论成立？是否可能想象一个世界，其中有绿的并且又不是绿的东西？或者这样一些世界：其中的动物不是细胞组成
+的、在其中巴赫在腓特烈大帝的主题上即兴演奏了八声部赋格曲、在其中蚊子比人更聪明、在其中乌龟能踢足球——或谈论足球？当然了，一只谈论足球的乌龟的确有点反常。
+\end_layout
+
+\begin_layout Standard
+这些世界里，有一些似乎比另一些更可想象，因为有些世界似乎包含了逻辑矛盾——例如，绿的并且又不是绿的。而另一些似乎是——找不到更好的词——“说得通的”，例如巴赫即
+兴演奏八声部赋格曲、存在不是由细胞构成的动物。甚至可以设想一个有不同物理定律的世界……因此，大体上该是有可能建立不同品种的一致性。举个例子来说，最宽松的会是“逻
+辑一致性”：对事物不加任何制约，只对逻辑有所要求。更具体地说就是一个系统加上解释是：“逻辑一致”的，仅当它其中没有任何两个定理在解释成陈述时直接地相互矛盾；“数
+学一致”的，仅当经解释后的定理不违背数学；“物理学一致”的，仅当所有经解释后的定理与物理法则相容；“生物学一致”的，……如此等等。在一个生物学一致的系统里，可以
+有这样的定理，其解释是陈述“莎士比亚写了一都歌剧”，但不会有定理其解释是陈述“存在无细胞动物”。一般说来，这类玄想出来的不一致性没什么人去研究，原因是很难把它们
+一个个理清楚。举例来说，三个人物循环地互相创造这个问题涉及的不一致性应该说是哪一种？逻辑的？物理学的？生物学的？文学的？
+\end_layout
+
+\begin_layout Standard
+通常，有意思和没有意思之间的分界线是画在数学一致性和物理学一致性之间的。（这当然是数学家和逻辑学家们画的了——很难说他们是一个不带偏见的群体……）这意味着对于形
+式系统来说，只有数学和逻辑类型的不一致性才“算数”。若按照这个约定，那么我们就还没有找出一个解释，使那个三定理组WdZ、
+\end_layout
+
+\begin_layout Standard
+128
+\end_layout
+
+\begin_layout Standard
+ZdG、GdW不一致。这一点可以通过把d解释成“大于”来做到。W、Z和G怎么办？它们可以解释成自然数——比如，Z是2，W是3，G是6。注意这种解释下有两个定理成
+为真的，有一个假的。如果我们另外把Z解释成了8，就会有两个假的，仅有一个真的了。但两者都使我们得到了不一致性。事实上，指派给W、Z和G的值是无关紧要的，只要明白
+需限制在自然数范围内。我们又一次看到这种情形：为了认出内部不一致性，只需要某些解释。
+\end_layout
+
+\begin_layout Standard
+形式系统中嵌人形式系统
+\end_layout
+
+\begin_layout Standard
+前面那个例子，其中某些符号可以在其余符号没有解释的情况下具有解释，让人想起在自然语言里构造几何学时，使用的某些词是未定义项。在这种情况下，词就可以分成两类：一类
+词有固定不变的意义，另一类词的意义有待调整，直到系统成为一致的（这一类是未定义项）。用这种方式构造几何学，要求第一类词的意义已经在几何学之外制定好。这些词构成一
+个刚性的骨架，赋予系统一个基础结构；填充那个骨架的是其它材料，它们是可以改变的（欧氏或非欧几何学）。
+\end_layout
+
+\begin_layout Standard
+形式系统常常就是以这种相继的、或者说分层的方式构造出来的。举例来说，形式系统I设计好了，有一些规则和公理，它们赋予符号以某种意向的被动意义。然后形式系统I完全合
+并到一个有更多符号的更大的系统里——形式系统Ⅱ。由于形式系统I的公理和规则是形式系统Ⅱ的一部分，形式系统I的符号的被动意义仍然有效。它们构成一个不变的骨架，随后
+便在决定形式系统Ⅱ的新符号的被动意义时起很大的作用。然后，或许会轮到第二个系统对第三个什么系统起骨架的作用，如此下去。也可能——几何学就是个很好的例子——有一个
+系统（例如绝对几何学），它部分地固定住其中的未定义项的被动意义，并能对其添加另外的规则或
+\end_layout
+
+\begin_layout Standard
+129
+\end_layout
+
+\begin_layout Standard
+公理，以进一步地限定那些未定义项的被动意义。这就是欧氏与非欧几何学的情形。
+\end_layout
+
+\begin_layout Standard
+视知觉中的稳定性层次
+\end_layout
+
+\begin_layout Standard
+我们获得新知识、新词汇，或感知不熟悉的事物，都是以与此类似的分层方式进行的。尤其有趣的是理解艾舍尔的画时的情形。比如，《相对性》（图22）中出现了简直是不可能的
+景象。你也许认为我们会一遍又一遍地力求重新解释这幅画，直到我们把它的各个部分解释成没有矛盾的——但我们根本不那么做。我们坐在那里，看着那些通向各处的楼梯和那些在
+同一楼梯上沿着不一致的方向走动的人们，又愉快又困惑。那些楼梯是些“确定性的岛屿”，我们对整幅画的解释就以它们为基础。一但确定了它们，我们就试图扩展我们的理解，去
+探求它们彼此之间的关系。就是在这一步骤我们遇上了麻烦。但如果我们想要回溯——就是说，对“确定性的岛屿”质疑——我们也会遇上麻烦，只不过是另一种麻烦而已。没有什么
+通过回溯否认它们是楼梯的办法。它们不是鱼、鞭子或手——它们就是楼梯。（实际上有另外一个办法——让画中的所有线条都完全没有解释，就象形式系统中的“没有意义的符号”
+。这种彻底的逃避途径是“U方式”反应的一个例子——一种对待符号表示的禅宗式态度。）
+\end_layout
+
+\begin_layout Standard
+由于我们知觉过程的层缀性质，我们被迫或者看到一个疯狂的世界，或者看到一簇毫无意思的线条。相似的分析可用于艾舍尔的许多画，它们都大量地依赖于对某些基本形状的识别，
+然后再以非标准的方式组合在一起。到观众在高层上看出悖谬的时候，就已经太晚了——他无法再回去，对怎样解释较低层次的对象改换想法。艾舍尔的画与非欧几何学的区别在于：
+对于后者，能找到对未定义项的可理解的解释，得出一个可理解的完整系统；而对于前
+\end_layout
+
+\begin_layout Standard
+130
+\end_layout
+
+\begin_layout Standard
+图22．相对性。艾舍尔作(版域，1953)。
+\end_layout
+
+\begin_layout Standard
+者，无论盯着画看多长时间，最后的结果与人们关于世界的概念仍不可调和。当然，人们仍然可以虚构假想的世界，在其中艾舍尔的99那类事件能够发生……但是在那样的世界里，
+生物学、物理学、数学甚至逻辑的法则会在一个层次上被违反而同时在另一个层次上被遵循，使之成为一个极其古怪的世界。(例子之一是《瀑布》(图5)，那里面正常的引力适用
+于流动的水，但空间的性质却违反了物理学原理。）
+\end_layout
+
+\begin_layout Standard
+数学在每个可想象的世界里都是一样的吗？
+\end_layout
+
+\begin_layout Standard
+上面我们强调过，形式系统（加上一个解释）的内部一致性要求存在某种想象的世界——对这类世界唯一的限制是其中的数学和逻辑与我们的世界一样——在其中所有经解释后的定理
+都成为真的；而外部的一致性——与外部世界的一致性——则要求所有的定理在现实世界里都成为真的。现在来看一个具体情形。一个人希望构造一个一致的形式系统，其定理要解释
+成数学陈述，那么看起来两种类型的一致性之间的区别就消失了，因为，如上所说，所有想象的世界都有与现实世界一样的数学。于是，在每个可想象的世界里，1加1必须是2；同
+样，必须存在无穷多的素数；进一步，在每个可想象的世界里所有直角都必须是相等的；而且当然还有：经过任一不在给定直线上的点，必是恰有一条与之平行的直线……
+\end_layout
+
+\begin_layout Standard
+但等一下！那可就是平行公设——断言其普遍性将是个错误，这我们刚刚说过。如果所有可想象的世界都遵循平行公设，那就是断言非欧几何是不可想象的，我们就又回到了萨彻利和
+兰伯特的心理水平了——肯定是不智之举。但什么东西，如果不是所有数学，必须是所有可想象的世界共有的？会是少到逻辑本身吗？或甚至逻辑也是可疑的？是否有那种世界：矛盾
+是存在的正常组成部分——矛盾在那里不是矛盾？
+\end_layout
+
+\begin_layout Standard
+从某种意义上讲，仅仅作为发明出来的概念，我们已表明这种世界是可想象的；但在更深一层的意义上讲，它们是很不可想象的。（这本身又是个小矛盾。）然而，认真地讲，如果我
+们想要有所交流，看来就得采纳某种共同基础，而逻辑几乎总是得包括进来的。（有些信仰系统是拒斥这种观点的——它太逻辑化了。具体说来◆禅宗就是以同等的热情拥抱矛盾和非
+矛盾的。这似乎不太一致，但
+\end_layout
+
+\begin_layout Standard
+132
+\end_layout
+
+\begin_layout Standard
+不一致也是禅宗的一部分，所以……你能说什么呢？）
+\end_layout
+
+\begin_layout Standard
+数论在每个可想象的世界里都是一样的吗？
+\end_layout
+
+\begin_layout Standard
+如果我们假定逻辑是每个可想象世界的一部分（注意，我们还没有给逻辑下定义，但我们会在以后的章节里给出来），是否就行了？真的能想象某些世界没有无穷多素数吗？所有可想
+象的世界里，数应该遵循同样的法则，这难道不是必要的吗？或者……把“自然数”这个概念也当作未定义项，就象“点”或“线”，是不是更好些？那样的话，数论就是个分叉的理
+论了，象几何学一样：就会有标准数论和非标准数论了。但要有与绝对几何学相应的某种东西：一个“核心”理论，一个所有数论的不变组成部份，以确认数论是数论，而不是关于—
+—比如说，可可或橡皮或香蕉的理论。存在这样的一个核心数论，它应该与逻辑一起包含在我们认为是“可想象的世界”里，这似乎是大多数当代数学家和哲学家的共识。这个数论的
+核心——绝对几何学的对应物——被称作皮亚诺算术，我们会在第八章里形式化地给出来。另外，现在已经很明朗——实际上是哥德尔定理的直接后效——数论是分叉的理论，有标准
+的和非标准的版本。然而，与几何学的情形不同，数论的“品种”有无限多个。这使得数论的情形变得极其复杂。
+\end_layout
+
+\begin_layout Standard
+从实际应用的角度看，所有的数论都是一样的。换句话说，如果桥梁的建造依赖于数论（在某种意义上确实如此），那么，不同的数论的存在不会造成什么影响，因为在与现实世界有
+关的那些方’面，所有的数论都是重合的。对不同的几何学可不能这么说。例如，三角形的内角和只在欧几里德几何中是180度，在椭圆几何中要大于这个值，而在双曲几何中要小
+于这个值。据说高斯曾试图测量三座山峰所形成的三角形的内角和，以最终确定我们的宇宙到底服从哪种几何学。直到一百年后，爱因斯坦提出了一种理论（广义
+\end_layout
+
+\begin_layout Standard
+133
+\end_layout
+
+\begin_layout Standard
+相对论），认为宇宙的几何性质是被其内含的质量所确定的，因此没有哪种几何是空间自身所固有的。所以，对“哪种几何学是正确的？”这个问题，自然界不仅在数学中，而且也在
+物理学中给出了一个模棱两可的答案。至于那个与此对应的问题“哪种数论是正确的？”，当我们详细地介绍了哥德尔定理后，还会有更多的话要说。
+\end_layout
+
+\begin_layout Standard
+完全性
+\end_layout
+
+\begin_layout Standard
+如果一致性是符号获得被动意义的最低条件，那么与之互补的概念，完全性，是那些被动意义的最高确认。一致性是说：“系统产生的每个东西都是真的”，完全性是倒过来：“每个
+真陈述都是由系统产生的”。现在稍稍修饰一下这个概念。我们不会是指世界上所有的真陈述——我们指的仅是这样的陈述：它们所属的领域是我们力图用该形式系统去表达的。所以
+，完全性的意思是：“每个能由系统中的概念表示出来的真陈述都是系统中的定理”。
+\end_layout
+
+\begin_layout Standard
+一致性：每个定理经懈释后都成为真的（在某个想象的世界里）。
+\end_layout
+
+\begin_layout Standard
+完全性：所有真的（在某个想象的世界里）且可表示成系统中的良构符号串的陈述都是定理。
+\end_layout
+
+\begin_layout Standard
+最初那个pq系统以及它原来那个解释是这种形式系统的一个例子：它在自己那谦逊的）水平上是完全的。任何两个正整数的正确的加法式子都可表示为系统中的定理。我们也可似换
+一种方式来说：“任何两个正整数的加法式子都是在系统内可证的一。（小心：当我们开始用“可证的陈述”而非“定理”这种说法时，表明我们开始混淆形式系统与其解释之间的区
+别。这是可以的，只要我们清楚地意识到这种混淆出现了，并且记得多重解释有时是可能的。)pq系统
+\end_layout
+
+\begin_layout Standard
+134
+\end_layout
+
+\begin_layout Standard
+加上它原来那个解释是完全的；同样也是一致的，因为没有假陈述——用我们的新说法——是在系统内可证的。
+\end_layout
+
+\begin_layout Standard
+有人可能会争辩说这个系统是不完全的，根据是三个正整数的加法式子（如2+3+4=9）没有被pq系统的定理所体现，尽管能翻译成系统中的概念（例如，————————-
+q——p——-p————）。然而，这个符号串不是良构的，因此我们认为它就象pqp——-qpq一样缺乏意义。三个数的加式用系统中的概念根本不可表示——所以系统还是
+有完全性的。
+\end_layout
+
+\begin_layout Standard
+尽管pq系统在这种解释下有完全性，离完全地捕捉数论中的真理当然还差得远。比如，pq系统就没有办法告诉我们有多少素数存在。哥德尔不完全性定理说的是任何“足够强有力
+”的系统，由于其能力较强，因而是不完全的。即：存在良构的符号串，表示了数论中的真陈述，但不是定理。(有属于数论的真陈述在系统内不可证。)pq系统这样的系统是完全
+的，但能力不强。它们更象是低保真的唱机：太贫乏了，很明显做不了我们想要它们做的——即告诉我们数论中的每件事实。
+\end_layout
+
+\begin_layout Standard
+一个解释怎样就能达到或破坏完全性？
+\end_layout
+
+\begin_layout Standard
+那么所谓“完全性是被动意义的最高确认”——我在前面这么说过——是什么意思呢？意思是：如果一个系统是一致的，但不完全，符号相其解释之间就会错配。系统没有能力为那样
+的解释作辩护。有时，如果把解释稍稍“修剪”一下，系统就会变得完全。为说明这个思想，让我们来看看修改的pq系统（含有公理模式Ⅱ）及我们对它的解释。
+\end_layout
+
+\begin_layout Standard
+修改了pq系统之后，我们把q的解释从“等于”修改为“小于或等于”。我们看到，修改的pq系统在这种解释下是一致的，但新解释却有些令人不太满意的地方。问题很简单：现
+在有许多可表示
+\end_layout
+
+\begin_layout Standard
+135
+\end_layout
+
+\begin_layout Standard
+的真陈述不是定理。例如，“1小于或等于2加3”表示成非定理-q——p——-。这个解释实在是太不彻底了！它没有精确地反映出定理在系统中的作为。我们可以这样来纠正：
+或者(1)向系统添加新规则，使之增强能力，或者(2)紧缩解释。在这里，明智的选择看来是紧缩解释。不把q解释成“小于或等于”，而代之以“等于或加1后等于”。现在，
+修改后的pq系统变得既是一致的又是完全的，而完全性确保了这个解释是恰当的。
+\end_layout
+
+\begin_layout Standard
+形式化数论的不完全性
+\end_layout
+
+\begin_layout Standard
+在数论里我们会再次碰到不完全性。但在那里，为了挽救局面，我们被推向另一方向——增加新规则，使之增强能力。具有讽刺意味的是，每次我们增加一条新规则，我们就想，现在
+我们肯定使系统完全了！这种困境的性质可由下述类比来说明……
+\end_layout
+
+\begin_layout Standard
+我们有一台唱机，还有一张唱片，上面标着“基于B-A-C-H的卡农”。然而，当我们把唱片放在唱机上播放时，由反馈引起的震颤（与乌龟的唱片引起的震颤一样）干扰得太厉
+害，以致于我们甚至都辨不清曲调了。我们断定某个东西有缺陷——不是唱片就是唱机。为了检测我们的唱片，我们就得到朋友的唱机上去播放，听它的质量。为了检测我们的唱机，
+我们就得用朋友的唱片在其上播放，看看我们听到的音东是否符合标签。如果我们的唱机通过了对它的检测，则我们就说是唱片有缺陷；反过来一样，如果唱片通过了对它的测试，则
+我们就说是唱机有缺陷。然而，若结果是两者分别通过了对它们的测试，我们作什么结论呢？现在正是时候：回忆一下那两个相继的同构（图20），仔细想想！
+\end_layout
+
+\begin_layout Standard
+136
+\end_layout
+
+\begin_layout Standard
+和声小迷宫
+\end_layout
+
+\begin_layout Standard
+乌龟和阿基里斯在游乐场玩了一天。他们先买了一对棉花糖，然后决定去乘“大风车”玩。
+\end_layout
+
+\begin_layout Standard
+乌龟：这是我最喜欢的游艺项目。坐在上面你感觉似乎移动了很远，其实仍在原地。阿基里斯：我知道它为什么叫你着迷。你系好安全带了吗？
+\end_layout
+
+\begin_layout Standard
+乌龟：好啦，我觉得我把这扣子扣好了。哎，开始吧。喔！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你今天很兴奋吧。
+\end_layout
+
+\begin_layout Standard
+乌龟：这是有缘故的。我姑妈会算命，她对我说今天我会遇到好运。正是因为期待着那个好运我才这么兴奋的。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你居然相信算命！
+\end_layout
+
+\begin_layout Standard
+乌龟：不……但是人们说即使你不信，它也一样灵。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哼，要真是这样倒不错。
+\end_layout
+
+\begin_layout Standard
+乌龟：啊，风景多美啊。你看这片海滩、海边上游泳的人们、蓝色的大海、还有这座城市…阿基里斯；对，的确美不胜收。喂，瞧那边那架直升飞机，似乎朝我们这儿飞来了。现在它
+实际上几乎就在我们头顶上了。
+\end_layout
+
+\begin_layout Standard
+乌龟：怪事——飞机上还垂下一条缆绳来，离我们非常近。我们只要伸手就能抓得到。阿基里斯：瞧！那条缆绳的头儿上有个大钩子，上面挂着一张纸条。
+\end_layout
+
+\begin_layout Standard
+（他伸手抓下纸条。旋转着的大风车带着他们转了下去。）
+\end_layout
+
+\begin_layout Standard
+乌龟：你能认出条上写的什么吗？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：能——写的是，“你们好，朋友们。再转上来的时候抓住钩子，会叫你们喜出望外的。”
+\end_layout
+
+\begin_layout Standard
+137
+\end_layout
+
+\begin_layout Standard
+乌龟：条子上写的跟游艺场广告上的陈词滥调一个味儿，不过谁知道这意味着什么。也许跟我要遇到的好运有关。不管怎么着，我们得试试！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：得试试！
+\end_layout
+
+\begin_layout Standard
+（“大风车”把他们转上来的时候，他们两个都解开了安全带的系扣。当转到最高点时，他们抓住了那个巨大的钩子，缆绳马上把他们悠起来，一直绞向悬在空中的直升飞机。一只粗
+大有力的手帮他们进了飞机。）
+\end_layout
+
+\begin_layout Standard
+声音：欢迎登机——两位冒失鬼。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你——你是谁？
+\end_layout
+
+\begin_layout Standard
+声音：请允许我自我介绍一下：我是郝晕，逍遥自在的拐子，最优秀的噬龟者，听候二位的吩咐。
+\end_layout
+
+\begin_layout Standard
+乌龟：哎呀！
+\end_layout
+
+\begin_layout Standard
+阿基里斯（对他的朋友低语）：唔——哦——我看这位“郝晕”真不是我们期待的那个。（对郝晕说）哎——如果我可以如此大胆的话——你这是要把我们拐到哪儿去啊？
+\end_layout
+
+\begin_layout Standard
+郝晕：哈哈！去我的全电气化空中厨房，在那儿我要把这位做成有滋有味的小点心——（他说这话的时候，瞟了乌龟一眼）——做成美味可口的天上馅饼！没错儿——拿来满足我的饕
+餮之欲！哈哈哈！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我只能说你的笑声象恶魔一样。
+\end_layout
+
+\begin_layout Standard
+郝晕（恶魔般地大笑）：哈哈哈！你竟敢这么放肆！朋友，有你好瞧的。哈哈！阿基里斯：天哪！他这话是什么意思！
+\end_layout
+
+\begin_layout Standard
+郝晕：很简单——我给你们二位准备了恶运！你扪等着吧！哈哈哈！哈哈哈！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：糟啦！
+\end_layout
+
+\begin_layout Standard
+138
+\end_layout
+
+\begin_layout Standard
+郝晕：好，我们到了。下机吧，朋友们，到我那绝妙的全电气化空中厨房里来吧。
+\end_layout
+
+\begin_layout Standard
+（他们走进去。）
+\end_layout
+
+\begin_layout Standard
+在你们倒霉之前，让我带着你们先参观参观。这是我的卧室，这是我的书房。请先在这儿等我一会儿，我得去磨磨我的刀子。你们可以边等边吃点“弹出锅酥”。哈哈哈】乌龟馅！乌
+龟馅！我最喜欢的一种馅！（走开了。）
+\end_layout
+
+\begin_layout Standard
+阿基里斯：喔，天哪——弹出锅酥！我可得甩开腮帮子足吃！
+\end_layout
+
+\begin_layout Standard
+乌龟：阿基！你可是刚刚大嚼了一通棉花糖啊！况且，这种时候你怎么还想吃东西？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：糟糕——哦，真对不起——我不应该用带有“糕”这种食品名称的词，我是想说在这样不幸的时候……
+\end_layout
+
+\begin_layout Standard
+乌龟：我想恐怕我们都得引颈就戮了。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：是啊——你是应该翘首引颈好好瞧瞧郝晕那家伙书房里的那些书。那是些什么书啊——哦，原来是孤本书大全：《我所认识的呆瓜》、《象棋和转伞安然相处》、《为踢踏
+舞和管弦乐队写的协奏曲……》哼！
+\end_layout
+
+\begin_layout Standard
+乌龟：书桌上放着一本什么书啊？紧挨着那个十二面体和打开的速写本？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：这本吗？喔，书名是<阿基里斯和乌龟在全球瞎逛时引人入胜的历险》。
+\end_layout
+
+\begin_layout Standard
+乌龟：名字有点吸引人呢。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：的确——而且这页上的故事看上去也很吸引入。故事的名字是《神怪和煮调饮》。
+\end_layout
+
+\begin_layout Standard
+乌龟：冷饮？
+\end_layout
+
+\begin_layout Standard
+阿基呈斯：不是，是“煮调饮”，大概是一种煮着喝加调料的饮料吧？我也不懂。
+\end_layout
+
+\begin_layout Standard
+139
+\end_layout
+
+\begin_layout Standard
+乌龟：哼……怪事。我们读读它好吗？我读乌龟的台词，你当阿基里斯。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：行啊。干吗不呢……
+\end_layout
+
+\begin_layout Standard
+105
+\end_layout
+
+\begin_layout Standard
+（他们开始阅读<神怪和煮调饮》。）
+\end_layout
+
+\begin_layout Standard
+==》
+\end_layout
+
+\begin_layout Standard
+（阿基里斯邀请乌龟来欣赏他收集的他最喜欢的画家艾舍尔的作品。）
+\end_layout
+
+\begin_layout Standard
+乌龟：这些画好极了，阿基。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我知道你会喜欢的。你最喜欢那一幅？
+\end_layout
+
+\begin_layout Standard
+乌龟：我最喜欢的一幅是《凹与凸》，在那幅画中有两个在各自的内部完全统一的世界，然而把它们合在起，却形成一个完全不统一的世界。不统一的世界里总是很好玩的，不过，我
+不想住在那儿。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你说什么？去哪儿玩？不统一的世界根本不存在，你怎么能去玩？
+\end_layout
+
+\begin_layout Standard
+乌龟：哎，可我们不是都认为艾舍尔的这幅画画出了一个不统一的世界吗？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：对，可这只是个二维世界——是个虚构的世界——一幅画而已。你无法去这样的世界里玩。
+\end_layout
+
+\begin_layout Standard
+乌龟：我自有办法……
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你怎么能把自己弄进一幅平面上的画里去？
+\end_layout
+
+\begin_layout Standard
+乌龟：喝上一小杯“推入露”，这个戏法就变成了。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：推入露？这是种什么鬼东西？
+\end_layout
+
+\begin_layout Standard
+乌龟：是种装在陶瓷小瓶里的液体，一个人若是在看着一幅画时喝它，它就能把那个人“推入”到那幅画的世界里。那些不了解推入露魔力的人经常会因为他们周围环境的突变而惊讶
+不已。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：没有解药吗?一旦被推入就无可挽回了吗？
+\end_layout
+
+\begin_layout Standard
+140
+\end_layout
+
+\begin_layout Standard
+乌龟：在某种情况下事情没有那么糟c事实上还有另外一种露——嗯，实际不是一种露，而是一种制剂——不，不是什么制剂，是一种、一种一乌龟：他可能是想说“煮调饮”。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：煮调饮？
+\end_layout
+
+\begin_layout Standard
+乌龟：正是我要找的那个词！它就是被称作“弹出煮调饮”的那种东西，如果你喝推入露时，想着在你右手里拿上这么一瓶弹出煮调饮，那它也可以被推入图画。这样一来，无论你何
+时想“弹出”，回到现实生活中来，你只需喝一口弹出煮调饮，接着，疾！就回到现实世界了，恰好回到你把自己推入的那个地方。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：听起来挺有趣。要是你在此之前没把你自己推入一幅画里，却喝了弹出煮调饮，会怎么样呢？
+\end_layout
+
+\begin_layout Standard
+乌龟：这我不太清楚，阿基。不过摆弄这些奇异的推入弹出药水一定要小心。我曾经有个亲戚，一只鳖，就是因为象你所说的那样做了，从那儿以后再也没有人见过它。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：真不幸，你能把一瓶推入露也带在身上吗？
+\end_layout
+
+\begin_layout Standard
+乌龟：哦，当然啦。左手拿着它，它就会跟你一起被推入你在看的画里。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：要是你在你已经进入的那幅画里再发现一幅画，那会怎么样呢？再喝一大口推入露吗？
+\end_layout
+
+\begin_layout Standard
+乌龟：正象你所设想的那样：你会进入画中的画。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我想你得弹出两次，这样你才能从你所在的两幅叠套昀画中解脱出来，重新浮现在现实世界。
+\end_layout
+
+\begin_layout Standard
+乌龟：对，你推入一次也得弹出一次，因为一次推入使你进入一幅画，而一次弹出则会解除它。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我觉得所有这一切都不太对劲儿。你不是在测验我
+\end_layout
+
+\begin_layout Standard
+141
+\end_layout
+
+\begin_layout Standard
+多容易上当受骗吧？
+\end_layout
+
+\begin_layout Standard
+乌龟：我发誓不是！瞧——这是两只药水瓶，就在我兜里。
+\end_layout
+
+\begin_layout Standard
+（把手伸进翻领口袋，拿出两只挺大的无标签的药水瓶，晃动它们时，可以听出一种药水是红的，另一种是蓝的。）
+\end_layout
+
+\begin_layout Standard
+如果你愿意，我们可以试试，怎么样？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：嗯……我认为……啊哼……也许……啊哼……
+\end_layout
+
+\begin_layout Standard
+乌龟：我就知道你想试试。我们把我们自己推入艾舍尔的《凹与凸》的世界里去好吗？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：嗯，啊……
+\end_layout
+
+\begin_layout Standard
+乌龟：就这么定了。我可别忘了拿着这瓶煮调饮一起进去，不然我们就没办法弹出来了。你愿意肩负这一重任吗，阿基？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：如果不太麻烦你的话，我，我有点紧张，（啊哼）我更愿意让你，你——你有经验——你来负责这件事吧。
+\end_layout
+
+\begin_layout Standard
+乌龟：那好吧。
+\end_layout
+
+\begin_layout Standard
+（乌龟一边说着，一边倒出两份推入露。然后他拿起那瓶煮调饮，右手紧紧的地抓住它，他和阿基里斯都把杯子放到唇边。）
+\end_layout
+
+\begin_layout Standard
+乌龟：干杯！
+\end_layout
+
+\begin_layout Standard
+==》
+\end_layout
+
+\begin_layout Standard
+（他们一饮而尽。）
+\end_layout
+
+\begin_layout Standard
+阿基里斯：味道十分特别。
+\end_layout
+
+\begin_layout Standard
+乌龟：会习惯的。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：煮调饮的滋味也这么特别吗？
+\end_layout
+
+\begin_layout Standard
+乌龟：哦，感觉很不一样，无论你什么时候尝那种煮调饮，你都会有一种深深的满足感，就好象你整个一生都在等着尝它似的。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哦，我真想喝到它。1 42乌龟：哎，阿基，我们在哪儿呢？
+\end_layout
+
+\begin_layout Standard
+阿基里斯（环顾四周）：我们是在一条小平底船上，沿一条运河顺流而下！我想下去，船夫先生，请让我们下去吧。
+\end_layout
+
+\begin_layout Standard
+（船夫对这个请求毫不理会。）
+\end_layout
+
+\begin_layout Standard
+乌龟：它不懂汉语。如果我们想离开这儿，我们最好还是在他进入前面那条罪恶的“爱之隧”以前，赶紧从河道爬出去。
+\end_layout
+
+\begin_layout Standard
+（阿基里斯的脸色有些苍白，霎时就爬到了河岸上，然后把他那位动作缓慢的朋友也拽了出来。）
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我有点不喜欢那隧洞的名字。我们能逃出来我真高兴。哎，你怎么会对这些地方这么熟悉？你以前来过这儿吗？
+\end_layout
+
+\begin_layout Standard
+乌龟：来过很多次，虽然我总是从艾舍尔其它的画中进来。你知道，它们在画框背后彼此相连。你一旦进了其中的一幅画，你也可以进入别的里面。阿基里斯：真的？！要是我不是在
+这儿亲眼看到了这些事，我肯定不会相信。（他们穿过一座小拱门，走了出来。）哦，瞧这两只逗人喜爱的蜥蜴！
+\end_layout
+
+\begin_layout Standard
+乌龟：逗人喜爱？它们可不逗人喜爱——只要一想到它们我就不寒而栗！它们是两个邪恶的卫士，负责守护悬挂在那边天花板上那个有魔力的黄铜灯。只要被它们的舌头碰一下，任何
+生物都会变成肉酱。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：甜的还是咸的？
+\end_layout
+
+\begin_layout Standard
+乌龟：都不是，是辣的。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：太毒辣了！不过如果这盏灯有魔力，我倒真想得到它。
+\end_layout
+
+\begin_layout Standard
+143
+\end_layout
+
+\begin_layout Standard
+图23.凹与凸，艾舍尔作（石板画，1955）。
+\end_layout
+
+\begin_layout Standard
+乌龟：这很危险，我的朋友。我不愿意冒这个险。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我只想试一次。
+\end_layout
+
+\begin_layout Standard
+（他偷偷地靠近那盏灯，满以为不会弄醒睡在附近的那个小伙子。可是突然，他在一块奇特的贝壳形凹状地板上滑倒，跌出来掉进空中，东歪西倒的，他想随便够着什么，还想用一只
+手抓住那盏灯。由于他这么猛烈地摇晃，那两只蜥蜴“咝咝”叫着迅猛地朝他伸出了舌头，而他却吊在空中无法脱身。）
+\end_layout
+
+\begin_layout Standard
+阿基里斯：救——命——啊！
+\end_layout
+
+\begin_layout Standard
+（一个女人正走下楼梯，呼喊声引起了她的注意，还惊醒了睡着的小伙子。后者弄清了是怎么回事之后，脸上露出了和善的微笑，向阿基里斯打手势，告诉他一切都会好的。他用一种
+奇怪的带有喉音的语言向高处窗户上的一对号手喊了句什么，然后，马上有奇异的声音奏响了，而且还彼此相呼应。那个睡意惺忪的小伙子指着蜥蜴，阿基里斯看到这音乐对它们有一
+种强烈的催眠作用。不一会儿，它们完全丧失了知觉。随后那个救命的小伙子对两个正沿着梯子向上爬的人喊话。他们俩把各自的梯子拿上来，伸到在空中被困的阿基里斯那里，构成
+一座桥，然后打手势让阿基里斯赶快爬下来。而阿基里斯却先小心地把挂着灯的链子从屋顶上的挂钩中脱出来，取下那盏灯，然后才从梯桥上爬下来，那三个小伙子让他脱了险。阿基
+里斯搂住他们，十分感激地同他们紧紧拥抱。）
+\end_layout
+
+\begin_layout Standard
+阿基里斯：嘿，龟兄，我怎么报答他们呢？
+\end_layout
+
+\begin_layout Standard
+乌龟：我正好知道这三位勇敢的孩子喜欢喝咖啡，而就在这座城里有个地方，咻啡煮得没比了。请他们去喝杯咖啡吧！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：好极了！
+\end_layout
+
+\begin_layout Standard
+（这样，通过一系列可笑的手势、微笑和个别字词，阿基里斯对这些小伙子表达了他的邀请。随后，他们五个一起走出来，走下一段陡楼梯，来到城里。他们来到一家暖引人的咖啡馆
+，在外面坐下来，要了五杯咖啡。在他们品呷时，阿基里斯记起了他带着的那盏灯。）
+\end_layout
+
+\begin_layout Standard
+145
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我都忘了，龟兄——我弄到了这盏魔灯！但是一它有什么魔力？
+\end_layout
+
+\begin_layout Standard
+乌龟：哦，很普通——一种怪物。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：什么？你是想说你擦它时，就会出来一个怪物听你使唤？
+\end_layout
+
+\begin_layout Standard
+乌龟：没错。你以为呢？天上掉馅饼吗？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：嗯，这是挺神的！我可以随心所欲，嗯？我总是希望我碰见这种事…
+\end_layout
+
+\begin_layout Standard
+（阿基里斯轻轻地擦着刻在那盏黄铜灯表面上的大字“灯”……突然，冒出了一大股烟，从烟的形状中，五个朋友都辨认出那是一个精怪，鬼一般地立在他们上面。）
+\end_layout
+
+\begin_layout Standard
+《==
+\end_layout
+
+\begin_layout Standard
+怪物：你们好，我的朋友们——非常感谢把我的灯从邪恶的双蜥蜴手中救出来。
+\end_layout
+
+\begin_layout Standard
+（怪物一边说着，一边把那盏灯拿起来，塞进隐藏在他那飘摆于灯外的长袍皱褶中的口袋里。），
+\end_layout
+
+\begin_layout Standard
+作为对你这一英雄行为的感谢，我愿意代表灯向你提供实现你任意三个愿望的机会。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：真是活见鬼：你不觉得是这样吗，龟兄？
+\end_layout
+
+\begin_layout Standard
+乌龟：我的确也这么想。来吧，阿基，说第一个愿望。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：唔！可我应该提什么愿望呢？哦，我知道了！这是我在第一次读《天方夜谭》时想过的（那是本由许多愚蠢的——也是叠套的——故事组成的集子）——我愿我有一百个愿
+望，而不是三个！真聪明，是吧，龟兄？我敢说你从没有想到过这种把戏，我总是想为什么故事中的那些大脑迟饨的人从没有自己这么试试。
+\end_layout
+
+\begin_layout Standard
+146
+\end_layout
+
+\begin_layout Standard
+《==
+\end_layout
+
+\begin_layout Standard
+乌龟：也许现在你会找到答案的。
+\end_layout
+
+\begin_layout Standard
+怪物：很抱歉．阿基里斯，我不能满足元愿望。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我愿你告诉我什么是“元愿望”！
+\end_layout
+
+\begin_layout Standard
+怪物：可这是元元愿望，阿基里斯——我也不能满足你。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：什什什么？我一点也昕不懂。
+\end_layout
+
+\begin_layout Standard
+乌龟：你干吗不把你最后那个请求换种说法，阿基？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你想说什么？我干吗要换？
+\end_layout
+
+\begin_layout Standard
+乌龟：嗯，你刚才说“我愿……”，你既然只是在问一件事，干吗不用问句？阿基里斯：好吧，虽然我不明白为什么。告诉我，怪物——什么是元愿望？
+\end_layout
+
+\begin_layout Standard
+怪物：就是关于愿望的愿望。我不能满足元愿望，我只能满足简单的普通愿望，比如想要十箱啤酒啦、月里嫦娥啦、两吨黄金啦、环球旅行啦。你明白吗——类似这样的简单事物。而
+我无法满足元愿望。造物神不允许我这么做。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：造物神？谁是造物神？他为什么不让你满足元愿望？这看起来比你刚才提到的那些事要容易得多嘛。
+\end_layout
+
+\begin_layout Standard
+怪物：嗯，这事挺复杂的，你为什么不来讲讲你那三个愿望呢？或者至少说一个，我不能总呆在这个世界里……
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哦，真糟糕。我真的希望有一百个愿望……
+\end_layout
+
+\begin_layout Standard
+怪物：唉，我不愿看到任何人这么失望。而且，元愿望也是我最喜欢的一种愿望。让我想想我是否可以做点什么。请等一分钟。
+\end_layout
+
+\begin_layout Standard
+147
+\end_layout
+
+\begin_layout Standard
+==》
+\end_layout
+
+\begin_layout Standard
+（怪物从他袍子上的一簇皱福里拿出一样东西，那东西看上去就象他拿走的那盏黄铜灯一样，只是这盏是用白银做的。以前的那盏上刻有“灯”字，而在这盏灯上同样的地方却刻有小
+一些的字“元灯”。）
+\end_layout
+
+\begin_layout Standard
+阿基里斯：那是什么？
+\end_layout
+
+\begin_layout Standard
+怪物：是我的元灯……
+\end_layout
+
+\begin_layout Standard
+（他擦擦元灯，它便冒出一股烟来。在翻滚着的烟云中间，他们全都看到了他们上面立着一个魔鬼般的形体。）
+\end_layout
+
+\begin_layout Standard
+元怪物：我是元怪物。你叫我吗，怪物阁下？你有什么愿望？
+\end_layout
+
+\begin_layout Standard
+怪物：我对你，元怪物阁下，以及造物神，有个特殊的愿望。我想请求暂时解除一切对愿望类型的限制，允许一个无类型愿望存在一段时间。你能俯准我这个愿望吗？
+\end_layout
+
+\begin_layout Standard
+元怪物：我会把它通过层层机构发送出去的，这没有问题。请等半分钟。
+\end_layout
+
+\begin_layout Standard
+（这位元怪物以怪物两倍的速度从她袍子上的一簇襞褶里拿出一样东西，那东西看去就象那盏白银元灯一样，只是这盏是用黄金做的。以前的那盏上刻有“元灯”字样，而在这盏灯上
+同样的地方却刻有更小一些的字“元元灯”。）
+\end_layout
+
+\begin_layout Standard
+阿基里斯（他的声音比以前高了八度）：那是什么？
+\end_layout
+
+\begin_layout Standard
+元怪物：这是我的元元灯……
+\end_layout
+
+\begin_layout Standard
+==》
+\end_layout
+
+\begin_layout Standard
+（她擦擦元元灯，它便冒出一股烟来电在翻滚着的烟云中间，他们全都看到了他们上面立着一个魔鬼般的形体。）
+\end_layout
+
+\begin_layout Standard
+元元怪物：我是元元怪物。你叫我吗，元怪物阁下？你有什么愿望？
+\end_layout
+
+\begin_layout Standard
+《==
+\end_layout
+
+\begin_layout Standard
+元怪物：我对你，元元怪物阁下，以及造物神，有个特殊的愿望。我想请求暂时解除一‘切对愿望类型的限制，请求允许一个无类型愿望存在一段时间。你能俯准我这个愿望吗？
+\end_layout
+
+\begin_layout Standard
+==》
+\end_layout
+
+\begin_layout Standard
+元元怪物：我会把它通过层层机构发送出去的，这没有问题。请等十五秒钟。
+\end_layout
+
+\begin_layout Standard
+（这位元元怪物以元怪物两倍的速度从他袍子上的一簇皱褶里拿出一样东西，那东西看去就象那盏黄金元元灯一样，只是这盏是用……
+\end_layout
+
+\begin_layout Standard
+{造物神}
+\end_layout
+
+\begin_layout Standard
+（……旋回到元元元灯中来，元元怪物把它卷回他自己的袍子里，这一动作只有元元元怪物的一半那么快。）
+\end_layout
+
+\begin_layout Standard
+你的愿望被批准了，元怪物阁下。
+\end_layout
+
+\begin_layout Standard
+《==
+\end_layout
+
+\begin_layout Standard
+元怪物：谢谢你，元元怪物阁下，以及造物神。
+\end_layout
+
+\begin_layout Standard
+（这位元元怪物象所有比他更高的那些神怪一
+\end_layout
+
+\begin_layout Standard
+149
+\end_layout
+
+\begin_layout Standard
+样，旋回到元元灯中去，元怪物把它卷回她自己的袍子里，这一动作只有元元怪物的一半那么快。）
+\end_layout
+
+\begin_layout Standard
+你的愿望被批准了，怪物阁下。
+\end_layout
+
+\begin_layout Standard
+《==
+\end_layout
+
+\begin_layout Standard
+怪物：谢谢你，元怪物阁下，以及造物神。
+\end_layout
+
+\begin_layout Standard
+（这位元怪物象所有比她更高的那些神怪一样，旋回到元灯中去，怪物把它卷回他自己的袍子里，这一动作只有元怪物的一半那么快。）
+\end_layout
+
+\begin_layout Standard
+你的愿望被批准了，阿基里斯。
+\end_layout
+
+\begin_layout Standard
+（从他说“请等一分钟”，到这时正好过了一分钟。）
+\end_layout
+
+\begin_layout Standard
+阿基里斯：谢谢你，怪物阁下，以及造物神。
+\end_layout
+
+\begin_layout Standard
+怪物：我很高兴通知你，阿基里斯，你可以有一个无类型愿望——这就是说一个愿望、一个元愿望、或一个元元愿望，你愿意有多少“元”都可以——甚至可以有无数多个（如果你愿
+意）。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：啊，非常感谢，怪物阁下，不过，我的好奇心给逗起来了。在我说出我的愿望前，你能不能告诉我谁——或者说什么——是“造物神”？怪物：行啊。“造物神”是代表“
+造物神一物色的一神怪修这个短语中几个词的词首字组合。“神怪”这个词一般指怪物、元怪物、元元怪物等等。这是个无类型词。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：可是——可是——这个由几个词的词首字组合而成的“造物神”怎么会是一个词呢？这不会有任何意思！
+\end_layout
+
+\begin_layout Standard
+怪物：噢，你没见过递归的词首字组合吗？我以为人人都知道呢。依瞧，“造物神”代表“造物神一物色的一神怪”——而它又可以被展成“造物神一物色的一神怪一物色的一神怪”
+——它还可以依次被展成“造物神一物色的一神怪一物色的一神怪一物色的一神怪”——它还可以依次被进一步展开……你可以想展多开就展多开。因为在每种情况下最前面的三个字
+总是“造物神”，而这最前面的三个字总可以被展开。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：可我将永远不会展完！
+\end_layout
+
+\begin_layout Standard
+怪物：当然不会。你永远也不会把“造物神”全部展开。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哼……真叫人费解。你对元怪物说“我对你，元怪物阁下，以及造物神，有个特殊的愿望”，这是什么意思呢？
+\end_layout
+
+\begin_layout Standard
+怪物：我是想不仅向元怪物发出请求，而且也向她之上的所有神怪发出请求。递归词首字组合很自然地完成了这一任务。你瞧，当元怪物接受了我的请求时，她就不得不把它向上传给
+她的造物神。所以她向元元怪物送去一个同样的信息，后者也照样对元元元怪物这么做……沿着这条链一直向上，就把信息传给了造物神。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我明白了。你的意思是说造物神端坐在神怪之梯的顶端？
+\end_layout
+
+\begin_layout Standard
+怪物：不，不，不！“顶端”一无所有，因为根本就没有顶端。这就是为什么造物神是个递归的词首字组合。造物神不是某个终极神怪。造物神是个位于任何已知神怪之上的众神怪之
+塔。
+\end_layout
+
+\begin_layout Standard
+乌龟：在我看来，每一个神怪都对造物神是什么有彼此不同的看法，这样一来，由于对任何神怪来说，造物神都是位于他或她之上的一组神怪，所以没有两个神怪具有同样的造物神。
+\end_layout
+
+\begin_layout Standard
+151
+\end_layout
+
+\begin_layout Standard
+怪物：绝对正确——因为我是一切神怪中最低的，我可怜那些高层的神怪们，它们幻想着自己多少离造物神更近些，多亵渎啊！阿基里斯：乖乖，发明造物神可真需要点儿神思。
+\end_layout
+
+\begin_layout Standard
+乌龟：你真的相信关于造物神的这些玩意儿吗，阿基？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：那当然啦。难道你是无神论者吗，龟兄？要不你就是个不可知论者。
+\end_layout
+
+\begin_layout Standard
+乌龟：我不认为我是不可知论者。我也许是个元不可知论.
+\end_layout
+
+\begin_layout Standard
+阿基里斯：什什什么？我一点也听不懂。
+\end_layout
+
+\begin_layout Standard
+乌龟：是这样……如果我是个元不可知论者，我就会为我是否是一个不可知论者而困惑——但是我并不清楚我是否是个元不可知论者；因此我一定是个元元不可知论者（我这么猜想）
+。啊，好啦。告诉我，怪物，神怪们犯过什么错误吗？在这条链上来回传递消息的时候，有过什么歪曲吗？
+\end_layout
+
+\begin_layout Standard
+怪物：这种事确实有过。这是无类型愿望不被批准的最根本的原因。注意，这种歪曲在这条链上的任何一个个别环节发生的可能性都是无穷小的——但是当你把这无穷多种可能列出来
+，就能够清楚这样的歪曲一定会在某些地方发生。事实上，奇怪的是，经常会有无穷个歪曲，虽然它们在这条链上分布得很分散。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：这么说，能有什么无类型愿望被通过，那简直就是个奇迹了？
+\end_layout
+
+\begin_layout Standard
+怪物：不。大多数歪曲不会造成严重后果，许乡歪曲都互相抵消了。不过偶尔——事实上很少见——某种无类型愿望不能满足的原因可以追溯到某一个不幸的神怪所做的歪曲。一旦发
+生这种事，那个有罪的神怪就得被迫接受责罚，造物神会鞭打他或她的屁股。对于执鞭者来说，这很有趣；对受笞者来说，也没多大害处。看到这一场面你会觉得挺逗的。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我真想看看！不过只有在一个无类型愿望不被批准时才会有这种事，对吗？
+\end_layout
+
+\begin_layout Standard
+怪物：正是.
+\end_layout
+
+\begin_layout Standard
+阿基里斯：嗯……这给了我一个启发，是关于我的愿望的。
+\end_layout
+
+\begin_layout Standard
+鸟龟：噢，真的吗？什么启发？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我希望我的愿望不被批准！
+\end_layout
+
+\begin_layout Standard
+（就在这时，发生了一个无法描述的事件——用“事件”这个词行吗？因此我们将不去描述它了。）
+\end_layout
+
+\begin_layout Standard
+《==
+\end_layout
+
+\begin_layout Standard
+阿基里斯：这个难以捉摸的解释究竟是什么意思？
+\end_layout
+
+\begin_layout Standard
+乌龟：它是指阿基里斯说出的无类型愿望。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：可他还没说出来呢。
+\end_layout
+
+\begin_layout Standard
+乌龟：他说了。他说：“我希望我的愿望不被批准”，而怪物把这当做是他的愿望了。
+\end_layout
+
+\begin_layout Standard
+（就在这时，他们听到他们那一边的厅廊里有脚步声走来。）
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哦，天呐！听起来可真不祥。
+\end_layout
+
+\begin_layout Standard
+（脚步声停了，随后又转变了方向，并逐渐消失了。）
+\end_layout
+
+\begin_layout Standard
+乌龟（如释重负地）：唉！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：故事说到哪儿了？这就是结尾吗？我们翻过这页看看。
+\end_layout
+
+\begin_layout Standard
+（乌龟把《神怪和煮调饮》这页翻过，他们发现故事继续进行着……）
+\end_layout
+
+\begin_layout Standard
+阿基里斯：嗨！怎么回事？我的怪物哪儿去了？我的灯呢？我那杯咖啡呢?我那些从凹与凸的世界里来的朋友
+\end_layout
+
+\begin_layout Standard
+153
+\end_layout
+
+\begin_layout Standard
+们怎么样了？那些小蜥蜴在这儿干什么呀？
+\end_layout
+
+\begin_layout Standard
+乌龟：恐怕我们的环境恢复错了。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你这个难以捉摸的解释究竟是什么意思？
+\end_layout
+
+\begin_layout Standard
+乌龟：我是指你说出的无类型愿望。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：可我还没说出来呢。
+\end_layout
+
+\begin_layout Standard
+乌龟：你说了。你说：“我希望我的愿望不被批准吩，而怪物把这当做是你的愿望了。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哦，天哪！听起来可真不祥。
+\end_layout
+
+\begin_layout Standard
+乌龟：这其实是个悖论。因为批准这个无类型愿望，就是否定了它——而不批准它，就是批准了它。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：这会怎么样呢？地球会停止转动吗？宇宙会塌下来吗？
+\end_layout
+
+\begin_layout Standard
+乌龟：不会，但是系统塌了。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：什么意思？
+\end_layout
+
+\begin_layout Standard
+乌龟：就是说你我，阿基，会忽然地、同时地被驱逐到堕界去。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：到哪儿去。
+\end_layout
+
+\begin_layout Standard
+乌龟：堕界：没有打出来的嗝和已熄灭的灯光所在的地方。它是一种候室，在这儿处于休眠状态的软件等着宿主硬件回来。无法知道这个系统要瘫痪多久，我们会一直呆在堕界里，也
+许几分钟，也许几小时、几天——甚至几年。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我不知道软件是什么，我也不知道硬件是什么。不过我可知道我没有说出我的愿望！我想要怪物回来！
+\end_layout
+
+\begin_layout Standard
+乌龟：很抱歉，阿基——是你闯的祸。是你搞垮了那个系统。我们能回来真得谢天谢地，不然事情会变得更糟。不过我一点也不知道我们现在在哪儿。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我现在认出来了——我们在艾舍尔的另一幅画里。这回是《爬虫》。
+\end_layout
+
+\begin_layout Standard
+乌龟：啊哈！系统在坍塌之前尽可能地努力保存我们的环境，它仅仅来得及记下我们是在艾舍尔的一幅有蜥蜴的画里，就完蛋了。也真难为它了。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：瞧——那边桌子上不是我们的那瓶弹出煮调饮吗？就在蜥蜴圈旁边！
+\end_layout
+
+\begin_layout Standard
+乌龟：没错儿，阿基。我得说我们的确很幸运。系统把弹出煮调还给了我们，这对我们真是太好了——它对我们来说真是太珍贵了！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我也这么说！现在我们可以从艾舍尔的世界里弹回我的房子里了。
+\end_layout
+
+\begin_layout Standard
+乌龟：煮调饮旁边还有两本书。什么书啊？（拿起小的那本，随便翻开一页。）这书看起来挺吸引人的。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哦，真的？书名是什么？
+\end_layout
+
+\begin_layout Standard
+乌龟：《乌龟和阿基里斯在全球各地转悠时的历险》。看样子起来一定很有趣。我得好好看看——哎，怪物和阿基里斯旅行的故事在哪儿？哦，原来这本书有好几个层次，我得仔细找
+找。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：好吧，你要想看就看吧，但是我可不想让那瓶弹出煮调饮冒险——没准儿哪只蜥蜴会把它碰下桌子，我现在就想把它拿到手！
+\end_layout
+
+\begin_layout Standard
+（他冲到桌子前，伸手丢拿那瓶弹出煮调饮，可是忙乱中，他大概是撞了那瓶子一下，瓶子翻倒了，掉下集子开始滚起来口）
+\end_layout
+
+\begin_layout Standard
+哦，哦！龟兄——你看！我不小心把那瓶子碰到了地
+\end_layout
+
+\begin_layout Standard
+155
+\end_layout
+
+\begin_layout Standard
+图24．爬虫，艾舍尔作（石板画，1943）。
+\end_layout
+
+\begin_layout Standard
+板上，它朝——朝——楼梯滚去了！快——别让它掉下去！
+\end_layout
+
+\begin_layout Standard
+（可乌龟这时完全沉浸在他手中的那本小薄书里去了。）
+\end_layout
+
+\begin_layout Standard
+乌龟（喃喃地）：嗯嗯，看来在这一层里是找不到那种意思了。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：龟兄，龟兄，帮帮忙！帮忙抓住那个药瓶子！
+\end_layout
+
+\begin_layout Standard
+乌龟：干吗这么大惊小怪的？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：那只装煮调饮的瓶子——我把它从桌子上碰掉了，现在它正滚呢，它一
+\end_layout
+
+\begin_layout Standard
+（这时它滚到了楼梯井的边缘，然后掉下去了。）
+\end_layout
+
+\begin_layout Standard
+啊，可别！这可怎么办？龟兄——你怎么还跟没事一样？我们的药水没了！掉到楼梯下面去了！只有一
+\end_layout
+
+\begin_layout Standard
+个办法了，我们得下一层。
+\end_layout
+
+\begin_layout Standard
+乌龟：下一层？没问题，请跟我来！
+\end_layout
+
+\begin_layout Standard
+==》
+\end_layout
+
+\begin_layout Standard
+（他开始大声朗读，一时间阿基里斯进退两难，最后终于安定下来，充当了乌龟的角色。）
+\end_layout
+
+\begin_layout Standard
+阿基里斯：这儿真黑，龟兄。我什么都看不见。吁！我撞在墙上了。当心！
+\end_layout
+
+\begin_layout Standard
+乌龟：来——我这里有两只俄国手杖。拿上一根吧。你可以用它探路，这样你就不会碰东撞西了。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：好主意。（他拿了手杖。）你觉出我们走的这条路有点往左拐吗？
+\end_layout
+
+\begin_layout Standard
+乌龟：对，有一点点。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我不知道咱们到哪儿了。我们还能重见天光吗？我当时真不该听你的，喝下了贴着“喝
+\end_layout
+
+\begin_layout Standard
+我”的那瓶东西。
+\end_layout
+
+\begin_layout Standard
+乌龟：我向你保证这没什么不好。我干过无数次了，一次也没有后悔过。放松点，享受一下变小后的
+\end_layout
+
+\begin_layout Standard
+…感觉。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：变小？龟兄，你都对我干了些什么呀？
+\end_layout
+
+\begin_layout Standard
+乌龟：别怪我，你这样做是你自愿的啊。
+\end_layout
+
+\begin_layout Standard
+阿里基斯：你把我缩小了吗？那么我们呆在其中的这个迷宫实际上是个小得可以被一脚踏过的玩意
+\end_layout
+
+\begin_layout Standard
+儿啦？
+\end_layout
+
+\begin_layout Standard
+《==
+\end_layout
+
+\begin_layout Standard
+乌龟：迷宫？迷宫？可能吗？难道我们是在那个著名的由
+\end_layout
+
+\begin_layout Standard
+157
+\end_layout
+
+\begin_layout Standard
+图25.克里特迷官（意大利蚀刻画：费尼盖拉派）[选自马修斯[wH, Mathews]所著《迷津和迷宫——其历史及发展)[Mazes andLabyrinthsr
+ Their Hist。ry and Devel。pment]纽约：D。ver Publica-ti。ns．1970年版。]
+\end_layout
+
+\begin_layout Standard
+可怕的大雕所占据的和声小迷宫里吗？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：天哪！那是什么？
+\end_layout
+
+\begin_layout Standard
+乌龟：据说——我本人从不相信——一只邪恶的大雕造了一个小迷宫，自己居于它中间的一个小窝里，等待无辜的牺牲品在它那可怕的繁复通道之中转向。然后，当他们茫然失措地转
+悠到迷官中心时，它就大笑不止，冲他们大笑——使劲地笑，直到把他们笑死！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：太可怕了！
+\end_layout
+
+\begin_layout Standard
+乌龟：不过这只是个神话。勇敢些，阿基。
+\end_layout
+
+\begin_layout Standard
+（这坚强的一对艰难地走着。）
+\end_layout
+
+\begin_layout Standard
+阿基里斯：摸摸这些墙。它们好象是有褶皱的锡板什么的。不过褶皱的大小不同。
+\end_layout
+
+\begin_layout Standard
+（为了强调他的看法，他一边走，一边把那只俄国手杖伸出来抵着墙壁。当手杖在褶皱上来回弹跳时，在他们所在的那条弯曲的长长走廊里，回响起了奇特的声音。）
+\end_layout
+
+\begin_layout Standard
+乌龟（吃惊地）：这是什么声音？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：噢，是我在墙上蹭我的手杖呢。
+\end_layout
+
+\begin_layout Standard
+乌龟：哦！我还以为是凶猛的大雕在叫唤呢！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我记得你说过，那只是个神话。
+\end_layout
+
+\begin_layout Standard
+乌龟：当然啦，没有什么可怕的。
+\end_layout
+
+\begin_layout Standard
+（阿基里斯又把他的手杖蹭着墙，继续走着。这时可以听到他的手杖刮墙的地方发出了音乐声。）
+\end_layout
+
+\begin_layout Standard
+乌龟：嗯，我觉得不妙，阿基。那个迷宫也许根本就不个神话。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：等等，是什么让你突然改主意了？
+\end_layout
+
+\begin_layout Standard
+乌龟：你听到音乐了吗？
+\end_layout
+
+\begin_layout Standard
+（为了听得更清楚些，阿基里斯放下了抬起的手杖，而那美妙的旋律也随之停止了。）
+\end_layout
+
+\begin_layout Standard
+嗨！把手杖放回去！我想听听这段曲子的结尾！
+\end_layout
+
+\begin_layout Standard
+<阿基里斯稀里糊涂地听从了乌龟的指令，音乐又继续下去了。）
+\end_layout
+
+\begin_layout Standard
+谢谢，我刚才要说话的时候，突然明白我们在哪儿。
+\end_layout
+
+\begin_layout Standard
+159
+\end_layout
+
+\begin_layout Standard
+阿基里斯：真的？我们在哪儿？
+\end_layout
+
+\begin_layout Standard
+乌龟：我们正沿着一张放在套子里的唱片上的纹沟走呢。你的手杖刮着墙上的那些奇形怪状的东
+\end_layout
+
+\begin_layout Standard
+西，就象是唱针沿着唱片的音纹转，就这样我们听到了音乐。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哎呀，这可怎么办？这……
+\end_layout
+
+\begin_layout Standard
+乌龟：怎么啦？你怎么不高兴？你以前有过这么密切地同音乐接触的机会吗？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：龟兄，我比个跳蚤还小，怎么还能有劲跑过身高正常的人呢？
+\end_layout
+
+\begin_layout Standard
+乌龟：噢，就这点让你不安吗？根本不必为此发愁，阿基。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：看你话说的样子，我觉得你一点也不担心。
+\end_layout
+
+\begin_layout Standard
+乌龟：我不知道，不过有一点可以肯定，我不担心没劲儿。尤其是在面临遇见大雕这种危险的时
+\end_layout
+
+\begin_layout Standard
+候。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：太可怕了！你是说——
+\end_layout
+
+\begin_layout Standard
+乌龟：恐怕是的，阿基。我一听那段音乐就知道了……
+\end_layout
+
+\begin_layout Standard
+阿基里斯：怎么回事？
+\end_layout
+
+\begin_layout Standard
+乌龟：很简单。当我听到最高声部的B-A-C-H旋律时，我立刻听出我们正在穿行而过的这些音纹
+\end_layout
+
+\begin_layout Standard
+只能是《和声小迷宫》——巴赫的一首不太为人所知的管风琴作品。取这个名子是因为它那令
+\end_layout
+
+\begin_layout Standard
+人心醉神迷的频繁转调。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：什——什么玩意儿？
+\end_layout
+
+\begin_layout Standard
+乌龟：嗯，你知道，大多数乐曲都用一个调或调性写成的。比如C大调，这只曲子就是C大调。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我以前听说过这个词。它的意思是不是说你希望它结束在音符C上？
+\end_layout
+
+\begin_layout Standard
+乌龟：对。在某种意义上说，C起一个“基底”的作用。实际上，通脊叫它“主调音”。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：是不是离开了主调音就是为了最后回到主调音？
+\end_layout
+
+\begin_layout Standard
+乌龟：正是这样。随着乐曲的发展，运用了模棱两可的和弦旋律，它们都离开了主调音。渐渐地，期
+\end_layout
+
+\begin_layout Standard
+待形成了——你越来越渴望回复，听到主调音。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：这就是为什么我在一支曲子结束时总是感到那么满足，就象我全身心都在等待着听到
+\end_layout
+
+\begin_layout Standard
+那个主调音似的，是吗？
+\end_layout
+
+\begin_layout Standard
+乌龟：没错儿。作曲家运用他的和声进行来控制你的感情，使你产生渴望听到主调音的愿望。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：可是你该给我讲讲转调。
+\end_layout
+
+\begin_layout Standard
+乌龟：哦，对。作曲家可以做的一件非常重要的事就是在一支曲子中“转调”，其目的在于建立一个
+\end_layout
+
+\begin_layout Standard
+暂时的终结，而不是一种主调音的解决。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我想……我明白了。你是说某组用不同音调反复演奏的和弦改换了和声的紧张点，这样
+\end_layout
+
+\begin_layout Standard
+一来就使我实际上期待着在一个新的调上把不谐和音转变为谐和音？
+\end_layout
+
+\begin_layout Standard
+乌龟：对极了。这就使情况更复杂了，因为虽然一时你期望在一个新调上把不谐和音转变为谐和
+\end_layout
+
+\begin_layout Standard
+音，怛在你内心深处一直存在着一个渴望，即要
+\end_layout
+
+\begin_layout Standard
+161
+\end_layout
+
+\begin_layout Standard
+达到原来那个终结——在这支曲子里就是大调的C。而当次要终结到达时，就会有——
+\end_layout
+
+\begin_layout Standard
+阿基里斯（突然热情地打着手势）：哦，听听这华美的突然上升的和弦，这是《和声小迷宫》结尾的标志。
+\end_layout
+
+\begin_layout Standard
+乌龟：不，阿基，这不是结尾，这只是——
+\end_layout
+
+\begin_layout Standard
+阿基里斯：它肯定是！喔！多么强有力的结尾啊！真让人有如释重负之感！这才是个解决呢！妙极
+\end_layout
+
+\begin_layout Standard
+了！
+\end_layout
+
+\begin_layout Standard
+（确实，音乐就在这里停止了，他们走出来，到了一块没有墙壁的空地上。）
+\end_layout
+
+\begin_layout Standard
+你瞧，它确实完了。我说什么来着！
+\end_layout
+
+\begin_layout Standard
+乌龟：真邪了！这张唱片是音乐界的耻辱。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：什么意思？
+\end_layout
+
+\begin_layout Standard
+乌龟：就是我刚告诉你的意思。这里巴赫从C调转到G调，建立起听G的第二个目的。这意味着你同时体验到两种张力——等待着向G转变，可同时心里还埋藏着那个最大的渴望——
+成功地转到C大调。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你为什么昕一支乐曲时一定要苦思冥想呢？音乐只是一种智力游戏吗？
+\end_layout
+
+\begin_layout Standard
+乌龟：不，当然不是。某些音乐是极富于智慧的，不过大多数音乐不是。多数的时候你的耳朵或大脑
+\end_layout
+
+\begin_layout Standard
+为你“估算”，使你的情感知道它们想听什么，你不必有意识地去想它。但是在这支曲子里，巴赫
+\end_layout
+
+\begin_layout Standard
+在耍手腕，想把你引入歧途。而在你身上，阿基，他成功了。
+\end_layout
+
+\begin_layout Standard
+162
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你是指我对副调解决的反应？
+\end_layout
+
+\begin_layout Standard
+乌龟：正是。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：可我还是觉得它象个结尾。
+\end_layout
+
+\begin_layout Standard
+乌龟：巴赫有意那么安排的。你恰好落入他的圈套了。它故意被设计得象个结尾，但是如果你仔
+\end_layout
+
+\begin_layout Standard
+细品味那个和声的进行，你会发现它的调性不对。显然，不只是你，连这个蹩脚的唱片公司也
+\end_layout
+
+\begin_layout Standard
+落入了同样的圈套——他们过早截断了这支曲子！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：巴赫可把我给涮了！
+\end_layout
+
+\begin_layout Standard
+乌龟：这就是他的全部花招——让你在迷宫里迷路！大雕跟巴赫是同谋，你瞧，如果你不小心，他现
+\end_layout
+
+\begin_layout Standard
+在就会把你给笑死的——没准儿连我也给捎上呢。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哦，让我们赶快离开这儿把！快，咱们沿着音纹往回跑，在大雕发现我们之前跑出这张
+\end_layout
+
+\begin_layout Standard
+唱片！
+\end_layout
+
+\begin_layout Standard
+乌龟：天哪，不行！我的感觉太脆弱，受不了倒序演奏
+\end_layout
+
+\begin_layout Standard
+时那古怪的和声进行。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哦，龟兄，要是我们不能顺原路回去，我们
+\end_layout
+
+\begin_layout Standard
+怎么才能离开这里呢？
+\end_layout
+
+\begin_layout Standard
+乌龟：是啊。
+\end_layout
+
+\begin_layout Standard
+（阿基里斯有点绝望，开始在黑暗里乱跑。突然间出现了一声轻微的喘息，接着“砰”地一声。）
+\end_layout
+
+\begin_layout Standard
+阿基——你怎么了？ 
+\end_layout
+
+\begin_layout Standard
+阿基里斯：有点错位，不过还好。我掉进了一个大洞里。
+\end_layout
+
+\begin_layout Standard
+163
+\end_layout
+
+\begin_layout Standard
+乌龟：你掉到邪恶大雕的窝里去啦！我在这儿呢，我来帮你出来。我们得赶紧走！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：小心，龟兄——我不想让你也掉进来……
+\end_layout
+
+\begin_layout Standard
+乌龟：别怕，阿基，一切都会——
+\end_layout
+
+\begin_layout Standard
+（突然间出现了一声轻微的喘息，接着“砰”地一声。）
+\end_layout
+
+\begin_layout Standard
+阿基里斯：龟兄——你也掉进来了！你怎么样？
+\end_layout
+
+\begin_layout Standard
+乌龟：只是伤着了我的自尊心，不过还好。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我们崴泥了，是吧？
+\end_layout
+
+\begin_layout Standard
+（突然，一阵隆隆的笑声响起，并吓人地靠近了。）
+\end_layout
+
+\begin_layout Standard
+乌龟：当心，阿基，这可不是玩笑的事！
+\end_layout
+
+\begin_layout Standard
+大雕：嘿嘿嘿！呵呵呵！哈哈哈！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我开始顶不住了，龟兄……
+\end_layout
+
+\begin_layout Standard
+乌龟：千万别理它的笑，阿基。这是你唯一的希望。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我尽力而为吧。只要我的肚子大那么饿！
+\end_layout
+
+\begin_layout Standard
+乌龟：哎，我闻到什么啦？附近有一碗弹出锅酥吧？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我也闻到了。从哪儿飘来的？
+\end_layout
+
+\begin_layout Standard
+乌龟：我想就在附近。哦！我碰在一个大碗一样的东西上了。对，没错儿——象是一大碗弹出锅酥。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哦，天哪——弹出锅酥！我可得甩开腮帮子足吃！
+\end_layout
+
+\begin_layout Standard
+乌龟：可别是推入锅酥！推入锅酥和弹出锅酥可真不好分清呀。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：焚琴？你说什么呢？
+\end_layout
+
+\begin_layout Standard
+乌龟：我什么也没说呀。你大概是有点风声鹤唳了吧。
+\end_layout
+
+\begin_layout Standard
+164
+\end_layout
+
+\begin_layout Standard
+阿基里斯：还煮鹤！我真的不喜欢鹤肉。好啦，我们就吃这个吧！
+\end_layout
+
+\begin_layout Standard
+（两个朋友开始大嚼弹出锅酥（或者推入锅酥？）——可突然——“弹”地一声！我猜他们吃的到底还是弹出锅酥。）
+\end_layout
+
+\begin_layout Standard
+《==
+\end_layout
+
+\begin_layout Standard
+乌龟：多有趣的故事啊。你喜欢它吗？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：一般。我想知道的只是他们离开那邪恶大雕的窝没有。可怜的阿基里斯——他想恢复正常身高。
+\end_layout
+
+\begin_layout Standard
+乌龟：别担心——他们出去了，他也恢复了正常身高。这就是刚才为什么有一声“弹”。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哦，我没听出来。嗯，我现在的确想找那瓶煮调饮了。不知为什么，我的嘴唇都要裂了a没有什么比弹出煮调饮更好喝的了。
+\end_layout
+
+\begin_layout Standard
+乌龟：这种饮料以消燥解渴著名。在有些地方，人们对它着了魔。在上世纪末、本世纪初的维也纳，勋伯格食品工厂停止生产煮调饮，转产十二瓶菌氯，你无法想象由此而引起的骚乱
+。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我略有所闻。不过还是让我们找找那瓶煮调饮吧，嘿——等一会儿。桌上这些蜥蜴——你发现它们什么特别的吗？
+\end_layout
+
+\begin_layout Standard
+乌龟：嗯——没什么特别的。你看见了什么这么有趣？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你没看见？它们没喝什么弹出煮调饮就从那张平面上的画里跑出来了。它们怎么做到的？
+\end_layout
+
+\begin_layout Standard
+乌龟：我没告诉你吗？要是你没有弹出煮调饮的话，你以同画面成直角的方向移动，也能从里面出来。这些小蜥蜴知道，要想从两维的画中世界里出来，就得向上爬。
+\end_layout
+
+\begin_layout Standard
+165
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我们要从艾舍尔的这幅画中出来，也得做同样的事吗？
+\end_layout
+
+\begin_layout Standard
+乌龟：当然！我们只需要上一层。你想试试吗？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：只要能回到我的房子里！这次吸引人的历险已经使我很累了。
+\end_layout
+
+\begin_layout Standard
+乌龟：跟着我，从这条路上来。
+\end_layout
+
+\begin_layout Standard
+（他们走上一层。）
+\end_layout
+
+\begin_layout Standard
+阿基里斯：可回来了。真好。不过有点不对劲儿。这不是我的房子！这是你的，龟兄。
+\end_layout
+
+\begin_layout Standard
+乌龟：唔，是的——我倒愿意这样呢！我一点也不想从你那里再走那么长的路回来了。我累坏了，简直怀疑我是否走了那么远。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我不在乎走回家，所以我想我们在这儿结束也挺好。
+\end_layout
+
+\begin_layout Standard
+乌龟：说得对！这的确是次好运！
+\end_layout
+
+\begin_layout Standard
+166
+\end_layout
+
+\end_body
+\end_document
