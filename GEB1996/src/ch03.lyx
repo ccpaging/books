@@ -6,6 +6,7 @@
 \use_default_options true
 \begin_modules
 hanging
+enumitem
 \end_modules
 \maintain_unincluded_children false
 \language chinese-simplified
@@ -1060,6 +1061,20 @@ status open
 阿基里斯来拜访乌龟，看到乌龟家里有许多唱片。
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 阿基里斯： 赫赫有名的法国作曲家德彪西你知道吧？你这里有没有他的作品？
@@ -1532,7 +1547,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯 ：大概不能告诉你，我很抱歉。这是我的一个小秘密。不过你应该知道这个高脚杯是属于谁的。
+阿基里斯： 大概不能告诉你，我很抱歉。这是我的一个小秘密。不过你应该知道这个高脚杯是属于谁的。
 \begin_inset Note Comment
 status open
 
