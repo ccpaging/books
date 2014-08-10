@@ -167,7 +167,7 @@ Preamble
     \renewcommand{\thefigure}{\arabic{figure}}
     \RequirePackage[font=footnotesize,labelsep=quad]{caption}
 
-    \setlength{\abovecaptionskip}{0ex} %caption和图像之间的距离
+    \setlength{\abovecaptionskip}{1ex} %caption和图像之间的距离
     \setlength{\belowcaptionskip}{-3ex} %caption和下方文字的距离
 
     % 设置脚注

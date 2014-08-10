@@ -828,6 +828,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5"
+
+\end_inset
+
 瀑布，艾舍尔作（石版画，1961）。
 \end_layout
 
