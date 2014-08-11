@@ -2396,7 +2396,6 @@ status open
 ）
 \end_layout
 
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 怪物：：
 怪物： 你们好，我的朋友们——非常感谢把我的灯从邪恶的双蜥蜴手中救出来。
@@ -2414,7 +2413,6 @@ status open
 作为对你这一英雄行为的感谢，我愿意代表灯向你提供实现你任意三个愿望的机会。
 \end_layout
 
-\begin_deeper
 \begin_layout Labeling
 \labelwidthstring 怪物：：
 阿基里斯： 真是活见鬼：你不觉得是这样吗，龟兄？
@@ -2541,7 +2539,6 @@ status open
 ）
 \end_layout
 
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 怪物：：
 阿基里斯： 那是什么？
@@ -2591,11 +2588,13 @@ status open
 ）
 \end_layout
 
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 怪物：：
 阿基里斯（他的声音比以前高了八度）： 那是什么？
 \end_layout
 
+\begin_deeper
 \begin_layout Labeling
 \labelwidthstring 怪物：：
 元怪物： 这是我的元元灯……
@@ -4156,5 +4155,6 @@ status open
 
 \end_layout
 
+\end_deeper
 \end_body
 \end_document
