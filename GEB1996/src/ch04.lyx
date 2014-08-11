@@ -1909,19 +1909,6 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-->
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -2154,16 +2141,6 @@ status open
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
 乌龟： 干杯！
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
--->>
-\end_layout
-
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
@@ -2419,6 +2396,7 @@ status open
 ）
 \end_layout
 
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 怪物：：
 怪物： 你们好，我的朋友们——非常感谢把我的灯从邪恶的双蜥蜴手中救出来。
@@ -2436,6 +2414,7 @@ status open
 作为对你这一英雄行为的感谢，我愿意代表灯向你提供实现你任意三个愿望的机会。
 \end_layout
 
+\begin_deeper
 \begin_layout Labeling
 \labelwidthstring 怪物：：
 阿基里斯： 真是活见鬼：你不觉得是这样吗，龟兄？
@@ -2562,6 +2541,7 @@ status open
 ）
 \end_layout
 
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 怪物：：
 阿基里斯： 那是什么？
@@ -2611,13 +2591,11 @@ status open
 ）
 \end_layout
 
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 怪物：：
 阿基里斯（他的声音比以前高了八度）： 那是什么？
 \end_layout
 
-\begin_deeper
 \begin_layout Labeling
 \labelwidthstring 怪物：：
 元怪物： 这是我的元元灯……
@@ -2629,6 +2607,16 @@ status open
 她擦擦元元灯，它便冒出一股烟来电在翻滚着的烟云中间，他们全都看到了他们上面立着一个魔鬼般的形体。
 \family default
 ）
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+148
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -2658,36 +2646,16 @@ status open
 \family sans
 这位元元怪物以元怪物两倍的速度从他袍子上的一簇皱褶里拿出一样东西，那东西看去就象那盏黄金元元灯一样，只是这盏是用
 \family default
-
+……
 \begin_inset Newline newline
 \end_inset
 
 
-\begin_inset Formula $\vdots$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $\vdots$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-{
-\family typewriter
-造物神
-\family default
-}
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $\vdots$
+\begin_inset Formula $\begin{array}{cr}
+ & \iddots\\
+ & {\text{造物神}}\\
+\iddots
+\end{array}$
 \end_inset
 
 
@@ -2769,8 +2737,6 @@ status open
 ）
 \end_layout
 
-\end_deeper
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
 阿基里斯： 谢谢你，怪物阁下，以及
@@ -2849,6 +2815,18 @@ status open
 \family default
 怪—
 \family typewriter
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+150
+\end_layout
+
+\end_inset
+
 物
 \family default
 色的—
@@ -3080,14 +3058,10 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
-《==
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 乌龟：：
 阿基里斯： 这个难以捉摸的解释究竟是什么意思？
 \end_layout
 
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
 乌龟： 它是指阿基里斯说出的无类型愿望。
@@ -3142,6 +3116,7 @@ status open
 ）
 \end_layout
 
+\begin_deeper
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
 阿基里斯： 嗨！怎么回事？我的怪物哪儿去了？我的灯呢？我那杯咖啡呢?我那些从凹与凸的世界里来的朋友
@@ -3230,10 +3205,19 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
-乌龟： 很抱歉，阿基——是你闯的祸。是你搞垮了那个系统。我们能回来真得谢天谢地，不然事情会变得更糟。不过我一点也不知道我们现在在哪儿。
+乌龟： 很抱歉，阿基——是你闯的祸。是你搞垮了那个系统。我们能回来真得谢天谢地，不然事情会变得更
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+154
 \end_layout
 
-\begin_deeper
+\end_inset
+
+糟。不过我一点也不知道我们现在在哪儿。
+\end_layout
+
 \begin_layout Standard
 \begin_inset Float figure
 wide false
@@ -3267,7 +3251,6 @@ status open
 
 \end_layout
 
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
 阿基里斯： 我现在认出来了——我们在艾舍尔的另一幅画里。这回是《爬虫》。
@@ -3403,6 +3386,7 @@ status open
 ）
 \end_layout
 
+\begin_deeper
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
 阿基里斯： 这儿真黑，龟兄。我什么都看不见。吁！我撞在墙上了。当心！
@@ -3477,9 +3461,15 @@ status open
 \end_inset
 
 克里特迷官（意大利蚀刻画：费尼盖拉派）[选自马修斯[W.
- H.
- Mathews]所著《迷津和迷宫——其历史及发展》[Mazes and Labyrinths: Their History and Development]纽
-约：Dover Publications，1970年版。]
+\begin_inset space \space{}
+\end_inset
+
+H.
+\begin_inset space \space{}
+\end_inset
+
+Mathews]所著《迷津和迷宫——其历史及发展》[Mazes and Labyrinths: Their History and Development]纽约
+：Dover Publications，1970年版。]
 \end_layout
 
 \end_inset
@@ -3497,6 +3487,7 @@ status open
 阿里基斯： 你把我缩小了吗？那么我们呆在其中的这个迷宫实际上是个小得可以被一脚踏过的玩意儿啦？
 \end_layout
 
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
 乌龟： 迷宫？迷宫？可能吗？难道我们是在那个著名的由
@@ -3512,6 +3503,7 @@ status open
 可怕的大雕所占据的和声小迷宫里吗？
 \end_layout
 
+\begin_deeper
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
 阿基里斯： 天哪！那是什么？
@@ -3526,6 +3518,16 @@ status open
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
 阿基里斯： 太可怕了！
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+158
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Labeling
@@ -3694,12 +3696,7 @@ status open
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
 乌龟： 很简单。当我听到最高声部的B-A-C-H旋律时，我立刻听出我们正在穿行而过的这些音纹只能是《和声小迷宫》——巴赫的一首不太为人所知的管风琴作品。取这个名
-子是因为它那令
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 乌龟：：
-人心醉神迷的频繁转调。
+子是因为它那令人心醉神迷的频繁转调。
 \end_layout
 
 \begin_layout Labeling
@@ -3879,12 +3876,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
-阿基里斯： 哦，龟兄，要是我们不能顺原路回去，我们
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 乌龟：：
-怎么才能离开这里呢？
+阿基里斯： 哦，龟兄，要是我们不能顺原路回去，我们怎么才能离开这里呢？
 \end_layout
 
 \begin_layout Labeling
@@ -4023,11 +4015,16 @@ status open
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
 乌龟： 我什么也没说呀。你大概是有点风声鹤唳了吧。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+164
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 乌龟：：
-164
+\end_inset
+
+
 \end_layout
 
 \begin_layout Labeling
@@ -4043,6 +4040,7 @@ status open
 ）
 \end_layout
 
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
 乌龟： 多有趣的故事啊。你喜欢它吗？
@@ -4127,6 +4125,7 @@ status open
 ）
 \end_layout
 
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
 阿基里斯： 可回来了。真好。不过有点不对劲儿。这不是我的房子！这是你的，龟兄。
