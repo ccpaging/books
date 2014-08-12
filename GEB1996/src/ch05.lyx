@@ -1,0 +1,1648 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass GEB1996
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+第五章 递归结构和递归过程
+\end_layout
+
+\begin_layout Subsection*
+什么是递归？
+\end_layout
+
+\begin_layout Standard
+什么是递归？对话《和声小迷宫》已经展示了：递归就是嵌套，各种各样的嵌套。这个概念很普通。（故事里的故事，电影中的电影，画中的画，俄式洋娃娃中的俄式洋娃娃（甚至括
+号说明中的括号说明！）——这些还只是递归魅力中的一小部分。）然而，读者应该注意本章中“递归”的含义与第三章中的含义只是稍有关联。它们之间的关系在本章末会清楚的。
+\end_layout
+
+\begin_layout Standard
+有时递归似乎与悖论很接近，例如递归定义。这样的定义可能会给粗心的人一种印象，即事物自己定义自己。那就会出现绕圈子了，而且即使不导致悖论，也会导致无穷回归。但事实
+上，一种递归定义（当正确给出时）永远不会导致无穷回归或悖论。这是因为递归定义从来不以某一事物自身来定义这一事物．而总是用比其自身简单一些的说法来定义这个事物。下
+面我给出一些关于递归定义的例子，我的意思很快就会更清楚了。
+\end_layout
+
+\begin_layout Standard
+在日常生活中，递归出现的最常见方式之一就是：由于有另一项更简单的工作而拖延完成正在进行的一项工作（通常是同类型的工作）。这里有一个很好的例子。一个秘书有一部奇特
+的电话机，可以接许多电话。她正与A通话的时候，B打来电话。于是她对A说：“您不介意稍等一会儿吧？”当然她并不在乎A是否介意，她只是按一下电钮，转到B。现在C又打
+来电话。于是B也同样被耽搁了。照这样可以无限进行下去，但我们对此还是别过于热衷。假定和C的通话结束了。我们这位秘书“弹”回到B，继续刚才的通话。167
+\end_layout
+
+\begin_layout Standard
+这时，A坐在电话线的另一端，手指敲着桌子，听着电话里让人心烦的宛如背景音乐似的杂音，克制着自己的恼火……。现在最平淡的情况是，与B的谈话顺利结束，这位秘书最终回
+到与A的通话中。但是很有可能在与B的通话恢复后，又有一个新加入者——D——打来电话。B则又一次被推入通话等待者的堆栈，而D得到了照顾。与D通完话之后，回到B，然
+后再回到A。这位秘书无疑是机械得要命——但我们却是在以最准确的方式来解释递归。
+\end_layout
+
+\begin_layout Subsection*
+推人、弹出和堆栈
+\end_layout
+
+\begin_layout Standard
+前面的例子里介绍了递归的一些基本术语——至少在计算机专家们的眼中是术语。这些术语就是推入、弹出和堆栈（或者，更准确地说，是下推堆栈），它们都是相互关联的。这些术
+语作为人工智能的早期语言之一——IPL语言的一部分，第一次出现于二十世纪五十年代后期。在对话中，读者已经遇到了“推入”和“弹出”。但我还是要做些详细说明。推入即
+是暂停目前正在进行的工作，记住在什么地方停下的——并开始一项新的工作。这项新的工作通常被认为是比前一项工作“低一个层次”。而弹出则与此相反——即结束这个层次的操
+作，在上一层暂停之处恢复操作。
+\end_layout
+
+\begin_layout Standard
+但是，怎样才能准确记住你在每一个层次中停在什么地方呢？回答是：你把有关的信息存储在一个堆栈里。因此堆栈起着表格的作用，它使你了解这样一些事情：（1）在那些未完成
+的工作中，你是在何处被打断的（行话：“返回地址”），（2）在被打断处你要记住的有关事项（行话：“变量约束”）。当你弹回去恢复某项工作时，堆栈保存着你的“环境”（
+行话：“现场”），所以你不会感到丢掉了什么。在打电话的例子中，堆栈告诉你在每个不同的层次谁在等候，以及你们被打断时你们的谈话进行到了什么地方。
+\end_layout
+
+\begin_layout Standard
+这里顺便说一下，“推入”、“弹出”和“堆栈”这几个词都来自自
+\end_layout
+
+\begin_layout Standard
+168
+\end_layout
+
+\begin_layout Standard
+助餐厅中一摞托盘的视觉形象。通常在下面有一个弹簧，将最上面的托盘几乎保持在一个固定的高度。当你把一个托盘推到这摞托盘上时，这一摞就往下陷一点儿——而当你从那一摞
+上拿下一个托盘时，整个一摞又都往上弹一点儿。
+\end_layout
+
+\begin_layout Standard
+图26．对话《和声小迷宫》结构示意图。垂直下落是“推入”，上升是“弹出”。注意此图与对话中缩进格式的相似之处。从这个图可以清楚地看出最初的紧张——赫晕的恫吓——
+从未解决，阿基里斯和乌龟还在空中悬着。有些读者可能会为这个没弹出来的推入而备受折磨，而有些读者则可能眼都不眨。在这个故事里，巴赫的音乐迷宫也同样被过于迅速地截止
+——而阿基里斯甚至没有注意到任何怪异之处。只有乌龟意识到了那个全局性的由于悬搁而造成的紧张。
+\end_layout
+
+\begin_layout Standard
+再举一个日常生活中的例子。当你收听新闻广播时，常常会有这样的事情：新闻播音员把你转到一个外国记者那里。“现在请听赛利·斯瓦波利从英国皮费格发来的消息。”而赛利有
+一盘地方新闻报告人同某人会见的磁带，在介绍了一些背景情况之后，她开始播放录音带。“我是尼格尔·勘特瓦拉德。这里是皮费格郊外发生大抢劫的地方。我在与××谈话……”
+。现在你降了三个层次。也许这个被会见的人也会放一盘某次谈话的磁带。在实际新闻报道中，降三个层次这种事并不少见，但令人吃惊的是，我们几乎没有被悬置的感觉。我们在下
+意识中很容易地把握了回溯机制。这么169简单，也许是因为每一个层次都与其它层次有着截然不同的味道。如果它们都相似，我们立刻就弄乱了。
+\end_layout
+
+\begin_layout Standard
+关于更复杂的递归，本章前面的对话就是一个例子。在那个对话中，阿基里斯和乌龟在各个不同的层次中都出现了，有时作为角色出现在他们正在阅读的故事里。这时你可能对正在发
+生的事情有点糊涂，必须高度集中注意力，才可能弄明白。“咱们来看看，真正的阿基里斯和乌龟仍然在郝晕的直升飞机上；但是第二层次的阿基里斯和乌龟是在艾舍尔的某张画中—
+—然后他们发现了一本书，并读了起来；所以《和声小迷宫》中在纹道上漫游的是第三层次的阿基里斯和乌龟。不，等一等——我在什么地方遗漏了一个层次……”要想把握对话中递
+归的回溯机制，你的意识中必须得有一个心理堆栈。（见图26）
+\end_layout
+
+\begin_layout Subsection*
+音乐中的堆栈
+\end_layout
+
+\begin_layout Standard
+在谈及《和声小迷宫》时，我们应该讨论对话中没有明确说出，然而却暗示到的东西：我们递归地听音乐——特别是，我们保持一个关于调子的心理堆栈，每一个新的变调都把一个新
+的调子推上堆栈。进一步说，这就象是我们想听到调子以相反的顺序，从堆栈中一个一个地弹出，直到还原到主调音。这是个夸张，然而这里面也有一点道理。
+\end_layout
+
+\begin_layout Standard
+任何有一定音乐修养的人都自动保持着一个装有两个调子的¨浅堆栈”。在这个浅堆栈中，存放着真正的主调音和与之最接近的“伪主调”（即作曲家假装采用的那个调子）。也就是
+说，存放着最具“全局性”的调子和最具“局部性”的调子。这样，听众就可以知道什么时候回到了主调，并有一种强烈的“如释重负”的感觉。听众还可
+\end_layout
+
+\begin_layout Standard
+以区分（不象阿基里斯那样）局部性的松弛——例如，伪主调的解决——和全局性的解决实际上，“伪解决”应该加强而不是松弛全170局的紧张，因为它是一种嘲弄——就象阿基
+里斯尽管从“摇曳的灯”那个危险的处境脱险了，但我们都知道他和乌龟事实上正在郝晕先生的刀下等待着悲惨命运的到来。
+\end_layout
+
+\begin_layout Standard
+紧张和解决是音乐的核心，因此这种例子非常之多。但我们只看两支巴赫的曲子。巴赫以“AABB”的形式写了许多曲子——即由两部分组成，每一部分都重复。我们来看看法国组
+曲第五号中的基格舞曲，这是一个典型的例子。它的主调是G调，我们听到一个欢快的舞曲旋律，它强烈地建立起G调。然而，A乐节中的变调把曲子引向非常接近的D调（第五度音
+）。A乐节结束时是在D调上。实际上这个曲子听起来好象以D调结束！（至少对阿基里斯来说可能是那样。）但这时一件奇怪的事情发生了——我们突然回到开始，回到G调，并重
+新听到向D调的转变。但这时一件奇怪的事情发生了——我们突然回到开始，回到G调，并重新听到向D调的转变。
+\end_layout
+
+\begin_layout Standard
+然后是B乐节。由于乐曲主题的转位，我们从D开始，就好象D一直是主调似的，但我们最终还是回到G，就是说，我们弹回到主调。然后B乐节圆满地结束。随后，那个有趣的重复
+出现了，不加提醒地把我们猛拉回到D，并又一次让我们回到G 。随后，那个有趣的重复出现了，不加提醒地把我们猛拉回列D，并又一次让我们回到G 。
+\end_layout
+
+\begin_layout Standard
+所有这些调子转换（有些是急剧的，有些是平稳的）的心理作用是很难描述的。这是音乐魔力的组成都分：我们能自动跟上这些转换。或者，也许是由于巴赫的魔力，他能够写出具有
+这样一种结构的曲子，这种结构如此自然优美，以至于我们根本弄不清究竟发生了什么。
+\end_layout
+
+\begin_layout Standard
+《和声小迷宫>原作是巴赫的一支曲子。在这支曲子里，巴赫试图让听众在调子急剧变换的迷宫中迷失方向。很快，听众就晕头转171向，没有任何方向感了——听众不知道真正的
+主调音在哪里。除非他有完美的乐感，或者象忒修斯（希腊神话中的雅典王子，曾进入克里特迷宫斩妖除怪的英雄）那样，有一个象阿里阿德涅（希腊神话中克里特王弥诺斯的女儿，
+曾给忒修斯一条线绳，使他得以走出迷宫）那样的朋友，给你一条线绳，使你得以顺原路返回。在这里，线绳应该是写出来的总谱。这部曲子展示出：作为音乐听众，我们没有极其可
+靠的、很深的堆栈。（另外一个例子是“无穷升高的卡农"。）
+\end_layout
+
+\begin_layout Subsection*
+语言中的递归
+\end_layout
+
+\begin_layout Standard
+我们在语言上的心理堆栈能力也许稍强一点。所有语言的语法结构都涉及建立一个非常精细的下推栈，虽然，可以肯定，随着推进堆栈的次数的增加，理解一个句子的难度也急剧增大
+。语言中推入和弹出的极好例子就是那种反映在那些关于一位心不在焉地以使人心中的堆栈完全乱套的方式信口开河地使用使听众莫名其妙的相互叠套的动词或介词的教授的滑稽故事
+中的现象。想起这时在听众中造成的那种因为那些先前推入的教授所说的动词或介词在从栈中被弹出时其次序被搞乱而引起的的确使人发笑混乱状态。但是在正常的口语中，几乎从未
+出现过如此深的堆栈——事实上，为了避免为维持堆栈做心理上的努力，说话的人经常要把复杂句子断成许多简单的句子。虽然每种语言都有涉及堆栈的结构，但大多不象上面那个例
+子那么突出？而且总是有重新组句的方法，以使堆栈的深度达到最低限度。
+\end_layout
+
+\begin_layout Subsection*
+递归迁移网
+\end_layout
+
+\begin_layout Standard
+句子的句法结构提供了一个好场所，以展示一种描述递归结构和过程的方式：递归迁移网（RTN）。RTN是一个图，它表示出172为完成一项特殊任务可以遵循的各种通道。每
+个通道都包含几个结点——即里面有词的小方格——它们由带箭头的弧线连接起来。每个RTN的全名分开写在图的左边，第一个和最后一个结点里写有开始和结束。所有其它的结点
+里或者写有简单明了的操作说明，或者写有其它RTN的名称。每当碰到一个结点时，必须按照里面的说明去做，或者跳到这个结点所标明的那个RTN去。
+\end_layout
+
+\begin_layout Standard
+我们来看一个RTN的例子——“花哨名词”。它告诉我们如何造出某种类型的名词短语。（见图27a）。如果我们完全水平地通过花哨名词，我们开始，然后造出一个指示代词、
+一个量词、一个形容词、再一个名词，然后结束。例如“那件愚蠢桌子”、“这只胖山谷”。但弧线也表示出其它可能性，例如，省略指示代词，或者重复形容词。这样就可以造出“
+牛奶”、“大红新喷嚏”等等。
+\end_layout
+
+\begin_layout Standard
+（a）花哨名词：（b）豪华名词：图27．花哨名词与豪华名词的递归迁移网。
+\end_layout
+
+\begin_layout Standard
+当碰到名词时，你要做的是用那个叫做“名词”的未知黑箱，从其名词库中取出名词。这用计算机术语来说叫“过程调用”，就是说，暂时让一个过程（这里是名词）进入控制，这个
+过程（1）做自己份内的事情（产生一个名词），然后（2）把控制权交还给你。上面的RTN旦有四个这样的过程调用：指示代词、量词、形容词和名词。173花哨名词这一RT
+N本身又可以被其它RTN调用——比如，被叫做“句子”的RTN调用。在这个例子里，花哨名词会产生一个象“那件愚蠢桌子”这样的短语，然后回到句子中它曾被调出的地方。
+这倒使人想起在层层嵌套的电话、新闻报道中，恢复中断之处的方式！
+\end_layout
+
+\begin_layout Standard
+然而，尽管我们称之为“递归迁移网”，到现在为止我们还没有展示任何真正的递归呢。当你进入一个象图27b那样的“豪华名词”RTN时，事情就变成递归的，而且似乎是循环
+的了。可以看出，在豪华名词中，每一条可行的通道都要调用花哨名词，所以无法避免地会得到一个这样或那样的名词。并且有可能不再带任何非花哨名词所提供的修饰语，而只是出
+现“牛奶”或者“大红新喷嚏”。不过有三条通道带有对豪华名词本身的递归调用。看起来当然就象事物自己定义自己了。是不是这样呢？
+\end_layout
+
+\begin_layout Standard
+回答是“是，但却是一个良性的‘是’”。假如在过程句子中有一个结点叫做豪华名词，我们碰见了它。这意味着我们要在记忆（即堆栈）里设立这个结点在句子中的位置，以便知道
+返回到哪里——然后，我们把注意力转移到豪华名词过程上去。现在，为了生成一个豪华名词，我们必须选择一条通道。假定我们选择上边通道的下面一条通道——其调用顺序是：
+\end_layout
+
+\begin_layout Standard
+及物动词，豪华名词，的，花哨名词。
+\end_layout
+
+\begin_layout Standard
+于是我们先吐出一个及物动词：“结交”。下一个是要求我们给出一个豪华名词，可我们却恰好在豪华名词中间！是的，但不要忘记，我们的秘书也是在通话中间接到另一个电话的。
+她所做的只是把前一个电话的状态储存在一个堆栈里，然后开始打另一个电话，好象没有任何不寻常之处。下面我们也这样做。
+\end_layout
+
+\begin_layout Standard
+首先我们在堆栈里写下我们在外层调用豪华名词时所在的那个结点，以便有一个“返回地址”，然后，就好象没有任何不寻常之174处似的，我们弹回到豪华名词的开始处。现在我
+们得再选择一条通道。为了有点变化，这次我们选择底下那条：介词；豪华名词；的；花哨名词。这意味着产生一个介词（比如“朝向”），再产生一个豪华名词——我们又一次遇到
+了递归。于是我们停下来，再下降一个层次。为了避免复杂化，假定这次我们在豪华名词中选用的通道是直截了当的——就是个花哨名词。例如，我们因此得到的是“逻辑”。然后碰
+见的是此次调用豪华名词的终结之处，即结束这个结点，这等于是弹出来，于是我们到堆栈里去寻找返回地址。堆栈告诉我们，我们是在执行高一层次的豪华名词过程中间——所以我
+们从那里开始。这时我们的结果是“朝向逻辑”。在这一层次上，我们接下去碰见的是结点“的”，然后是结点花哨名词，比如说产生的是“鼻子”。至此，我们在这个层次上也达到
+了结点“结束”。于是我们又一次弹出。这时的结果是“结交朝向逻辑的鼻子”。我们在这最外层次上继续往下走，碰见的是结点“的”，然后结点花哨名词，我们设想由它产生的是
+“努力”。现在，我们到达了结点结束，这样我们就完成了对豪华名词的最外层调用，得到的是短语：
+\end_layout
+
+\begin_layout Standard
+“结交朝向逻辑的鼻子的努力”
+\end_layout
+
+\begin_layout Standard
+我们最后一次弹出时，就把它传递给一直耐心等待的句子。
+\end_layout
+
+\begin_layout Standard
+你也看到了，我们并没有陷入无穷回归。因为在RTN豪华名词里至少有一条通道不涉及任何对豪华名词本身的递归调用。当然，我们可以永远坚持选择豪华名词中的最下面一条通道
+，那么我们将永远无法结束，就象“造物神”永远无法完全展开一样。但是，如果通道是任意选择的，就不会发生无穷回归。
+\end_layout
+
+\begin_layout Subsection*
+“终了”和异层结构
+\end_layout
+
+\begin_layout Standard
+区分开递归定义与循环定义的关键事实，是前者总会“终了”。定义中总是有某一部分避免了自指，因而构造一个满足该定175义的对象的过程最后总会“终了”。
+\end_layout
+
+\begin_layout Standard
+在RTN中还有比调用自身更为间接的达到递归的手段，即一个与艾舍尔的《画手》（图135）很相似的机制，其中两个过程互相调用，而不是调用自己。比如，我们可以有一个叫
+做“小句”的RTN，由豪华名词和及物动词组成，就是说，当它需要为及物动词设定主语时，它调用豪华名词；反过来，豪华名词的上通道中前面
+\end_layout
+
+\begin_layout Standard
+的部分实际上就是个小句，也即在豪华名词中有通道要调用小句这个RTN。这就是间接递归的一个例子这也让人想起说谎者悖论的两步形式。 ．
+\end_layout
+
+\begin_layout Standard
+不用说，也可以有三个过程循环地互相调用——如此等等。可以有一个RTN的大家族，互相缠绕在一起，发疯一般地互相调用或调用自己。程序的这种结构，即没有单独的“最高层
+次”或“控制器”，称作“异层结构”（与“分层结构”或“层次结构”相对）。我相信这个概念是来自沃伦·麦克库洛赫，早期的控制论专家之一，虔诚地研究大脑和心智的学者。
+\end_layout
+
+\begin_layout Subsection*
+扩展结点
+\end_layout
+
+\begin_layout Standard
+一种形象地考虑RTN的方法是：当你沿着某个通道移动时，若碰到要调用一个RTN的结点，你便“扩展”那个结点，也就是说，用那个它所调用的RTN的小副本来代替它（见图
+28）。然后，你就进入那个小RTN!当你从中弹出时，你自动地回到大图中恰当的位置。而在小RTN里你还可以动手制造出更小的RTN。由于你是在碰到这些结点时才扩展它
+们，这就避免了无穷的图，甚至当一个RTN调用自己时也没关系。
+\end_layout
+
+\begin_layout Standard
+图28．豪华名词的RTN，其中有一个结点递归地扩展了。
+\end_layout
+
+\begin_layout Standard
+扩展结点有点象把首字组合的词中的字换成它所代表的词。词首字组合“造物神”是递归的，但有个缺点——或者说是优点——你必须重复地扩展“造”，这样就永远无法终了。不过
+，当RTN176实现为一个实际的计算机程序时，总要有至少一条通道直接或间接地避免了递归，因此不会造成无穷回归。即使是最为典型的异层结构型程序也会终了——否则它无
+法运行！它会一个结点接一个结点不断地扩展，而永远不执行任何操作。
+\end_layout
+
+\begin_layout Subsection*
+图案G和递归序列
+\end_layout
+
+\begin_layout Standard
+无穷的几何结构可以用同样的方式来定义——就是一个结点一个结点地扩展。比如，我们来定义一个无穷的图案，称作“图案G”。我们用隐含表示法进行定义：在两个结点上标上字
+母G，用它代表整个图案G的一个副本。在图29a中，图案G是隐含地描绘的。如果我们想更清楚地看到图案G，就扩展那两个G——即代之以同样的图案，只是规模缩小了（见图
+29b）。图案G的这个二阶版本提示给我们那个最终的、不可能实现的图案G实际上是个什么样。图30显示出了更大部分图案G的，其中所有的结点都从下到上从左到右地标上了
+数字。两个额外的结点——数字1和2——插在了底部。
+\end_layout
+
+\begin_layout Standard
+这棵无穷树有着非常奇特的数学性质。从右边往上数是著名的斐波那契数列：
+\end_layout
+
+\begin_layout Standard
+1,1,2,3,5,8,13,21,34, 55,89,144,233,...
+\end_layout
+
+\begin_layout Standard
+177
+\end_layout
+
+\begin_layout Standard
+G（alGf易）Hfc）H（a）图29．（a）图案G，未扩展。 （￡）图案H．未扩展。
+\end_layout
+
+\begin_layout Standard
+（b）图案G，扩展一次。 （d）图案H，扩展一次。
+\end_layout
+
+\begin_layout Standard
+1 36 图30．图案G，进一步地扩展了，并为结点标了数字。
+\end_layout
+
+\begin_layout Standard
+178
+\end_layout
+
+\begin_layout Standard
+这是由比萨的列奥那多于1902年发现的，他是波那契奥[Bonac-CiO]的儿子，因此叫“斐利尤斯·波那契”[Filius Bonacci，拉丁语，意即波那契奥
+之子]或简称“斐波那契”。这些数可由一对方程极好地递归定义出来：
+\end_layout
+
+\begin_layout Standard
+FIBO(n)=FIBO(n-1)+FIBO(n-2) 当n>2
+\end_layout
+
+\begin_layout Standard
+FIBO(1)=FIBO(2) =1
+\end_layout
+
+\begin_layout Standard
+注意新的斐波那契数是如何用前面的斐波那契数定义的。我们可以在RTN中表示这组方程（见图31）。
+\end_layout
+
+\begin_layout Standard
+图31．一个斐波那契敏的递归迁移网。
+\end_layout
+
+\begin_layout Standard
+这样，要想计算FIBO(15)，就可以对上面RTN定义的过程进行一系列的递归调用。你随着下降的n值倒推到FIBO(1)或FIBO(2)（已显明地给出了），这个递
+归定义就终止了。这种倒推的计算方法有点笨拙，其实你可以很容易地从FIBO(1)和FIBO(2)开始，一直向前推：不断地加上最新的两个值，直到FIBO(15)。这
+样的话你就无须对堆栈进行回溯了．
+\end_layout
+
+\begin_layout Standard
+图案G还有一些比这更令人惊异的性质。它的整个结构可以仅用一个递归定义来编码，如下所示：
+\end_layout
+
+\begin_layout Standard
+G(n)=n-G(G(N-l)) 当n>0
+\end_layout
+
+\begin_layout Standard
+G(0)=0
+\end_layout
+
+\begin_layout Standard
+函数G(n)是如何为前述树结构编码的？很简单。对每个n算
+\end_layout
+
+\begin_layout Standard
+179
+\end_layout
+
+\begin_layout Standard
+出G(n)，并把计算结果放在n下面以构成一棵树，就可以重新建立起图案G。事实上，最初我就是这么发现图案G的。我在研究函数G的时候，试图很快地计算它的值，我想到了
+把已知的值表示成一棵树。使我惊讶的是，这棵树最后竟会有这种极其规则的递归几何描述。
+\end_layout
+
+\begin_layout Standard
+更奇妙的是，假如为比G多一层嵌套的函数H(n)——
+\end_layout
+
+\begin_layout Standard
+H(n)=n—H(H(H(n—1))) 当n>0
+\end_layout
+
+\begin_layout Standard
+H(0)=0
+\end_layout
+
+\begin_layout Standard
+——构造一个类似的树，那么相关的“图案H”就隐含地定义出来了，如图29c。唯一不同的是右边的一枝多出一个结点。图案H的第一个递归扩展在图29d中给出。而对任意深
+度的嵌套也都是如此。递归几何结构有着优美的规则性，恰好与递归代数结构相对应。
+\end_layout
+
+\begin_layout Standard
+好奇的读者可以考虑一下这个问题：假设你把图案G翻转——就象出现在镜子里那样——然后自左向右地对这棵新的树中的结点进行标号。那么，对于这棵“翻转的树”，你是否能找
+到一个递归的代数定义?H树的“翻转”又如何？其它的呢？
+\end_layout
+
+\begin_layout Standard
+另一个有趣的问题是关于一对递归地交织在一起的函数F(n)和M(n)——可以说是“联姻’'的两个函数。它们是这样定义的：
+\end_layout
+
+\begin_layout Standard
+F(n)=n-M(F(n-1)) 当n>0
+\end_layout
+
+\begin_layout Standard
+M(n)=n-F(M(n-1))
+\end_layout
+
+\begin_layout Standard
+F(0)=1，而M(0)=0。
+\end_layout
+
+\begin_layout Standard
+这两个函数的RTN彼此互相调用，同时也调用它们自己。问题只是去发现图案F和图案M的递归结构。它们非常优美而且简单。
+\end_layout
+
+\begin_layout Standard
+一个紊乱的序列
+\end_layout
+
+\begin_layout Standard
+我们关于数论中的递归的最后一个例子稍有点神秘。请考虑180下面这个递归的函数定义：
+\end_layout
+
+\begin_layout Standard
+Q(n)=Q(n-Q(n-1))+Q(n-Q(n-2)) 当n>2
+\end_layout
+
+\begin_layout Standard
+Q(1)=Q(2)=1。
+\end_layout
+
+\begin_layout Standard
+它使人想起斐波那契数的定义，在那里每一个新的值都是前面两个值的和——但这里不是紧挨着的前两个数的值。在这里，紧挨着的那前两个值是说明：往前数多少位，才能得到计算
+新值所要加起来的那两个数。前17个Q数排列如下：
+\end_layout
+
+\begin_layout Standard
+1,1,2,3,3,4,5,5,6.6.6,8,8,8,10,9,10,.....
+\end_layout
+
+\begin_layout Standard
+5+ 6 = 11 向左移多少位
+\end_layout
+
+\begin_layout Subsection*
+新值
+\end_layout
+
+\begin_layout Standard
+要得到下一个数，向左（从省略号开始）分别数10个数和9个数，遇到5和6，如箭头所示。它们的和——11——给出了Q（18）这个新值。在这个奇怪的过程里，已知的一列
+Q数被用来扩展自身。这样得到的序列，如果温和点说，是杂乱无章的。走得越远，它变得越没有意义。这是那些非常奇特的情况之一，即一个多少是个自然的定义，导致一个令人极
+度困惑的现象：以很有秩序的方式制造出了混乱。人们很自然地会想到：表面上的混乱是否隐含着某种微妙的规律性。当然，根据定义是有规律性的。但有趣的是，是否有另一种刻划
+这个序列的方式——要是运气好的话，最好一个非递归的定义。
+\end_layout
+
+\begin_layout Subsection*
+两个令入惊异的递归图
+\end_layout
+
+\begin_layout Standard
+数学里奇特的递归是不胜枚举的，而我的目的并不是把它们一一列举出来。不过，在我自己的经历中有两个特别触目的例子，值得把它们提出来。两个都是图形。一个出现在某些关于
+数论的研究里，另一个出现在我的博士学位论文——固体力学之中。最有181趣的是这两个图形有着密切的联系。
+\end_layout
+
+\begin_layout Standard
+第一个图形（图32）是一个函数的图形，这函数我称为INT(X)。这里给出的是x处于O和1之间的情形，对于x处于其它任意一组整数n和n+1之间的情形，你只要找到I
+NT(x-n)，然后再加上n即可。你可以看到，这个图的结构是跳跃式的，由无数个弯曲的片段组成。这些片段离角落越近就越小——并且也越直。假如你仔细观察每个这样的小
+片段，你会发现实际上它是整个图形的一个副本，只是弯曲了！这意味着丰富的内容。其中之一是：INT图恰恰是由它本身的一个个副本组成的，它们层层嵌套，以至无182穷。
+如果你拿出图的一小部分，不管是多小的一部分，你其实是拿着整个图形的一个完整的副本——事实上，是无穷多个副本！
+\end_layout
+
+\begin_layout Standard
+图32．函数INT（x）的图形。在x的每个有理数值处都是个跳跃性的不连续点．
+\end_layout
+
+\begin_layout Standard
+INT不是由别的，而是由它本身的一个个副本组成的，这一事实可能使你觉得它一定是短命的。它的定义似乎是循环的。它究竟是怎么开始的呢？这是件很有趣的事。最值得注意的
+是：如果向一个没见过INT的人描述它，那么仅仅说“它是由它本身的副本组成的”是不够的。事情的另一半——非递归的那一半——说明这些副本存在于正方形中的哪个地方、相
+对于整个图形它们是怎么变形的。只有把INT的这两个方面结合起来，才能说明INT的结构Q这正象在斐波那契数的定义中一样，需要两条线索——一条线索定义递归，另一条定
+义“基底”（也就是最开始的值）。说得具体些就是：如果你设基础的值是3而不是1，就会产生完全不同的序列，即卢卡斯序列：
+\end_layout
+
+\begin_layout Standard
+1,3,4,7,11,18,29,47,76,123,...
+\end_layout
+
+\begin_layout Standard
+基底 29+47=76
+\end_layout
+
+\begin_layout Standard
+与斐波那契序列
+\end_layout
+
+\begin_layout Subsection*
+相同的递归规则
+\end_layout
+
+\begin_layout Standard
+在INT的定义中，与基底相对应的是一个由许多小方框组成的图（图33a），它表示出副本在什么地方，它们是如何扭曲的。我们把它叫做INT的“骨架”。从骨架开始构造I
+NT，需按下列步骡：首先，对于骨架的每个方框，你要做两件事：（1）把骨架的一个弯曲了的小副本放进方框，用里面的弯曲的线作为它的向导；（2）涂掉外面的方框及其弯线
+。一旦把原骨架的每一个方框都这样做了，每个大骨架原来所在之处就换成了许多的“小辈”骨架。下一步，降一个层次对那些小辈骨架重复这一过程。然后再重复，再重复，再重复
+……这样下去的极限就是INT图，当然极限是达不到的。就这183样，一层一层地把骨架嵌套于它自身之中，INT图就“无中生有”地逐渐构造出来了。但
+ 实上，这“无”不是虚无——是一幅图。
+\end_layout
+
+\begin_layout Standard
+图33．（a）能用递归替换构造INT的骨架。
+\end_layout
+
+\begin_layout Standard
+为了更清楚地看到这一点，可以设想保持INT定义的递归部分，而改变其初始的图，即骨架。改变了的骨架如图33b中所示，同样是越接近四个角，方框就越小。如果你把这第二
+种骨架也一遍一遍地嵌套在它自身之中，就会得出我博士论文中那个关键的图，我称之为G图（图34）。（事实上，在每个副本上也还需要做些复杂的变形——但嵌套是基本思想。
+）这样，G图就是INT家族中的一个成员了。它是个“远亲”，因为它的骨架和INT的截然不同，也复杂184
+\end_layout
+
+\begin_layout Standard
+图33.（b）能用递归替换构造G图的骨架。
+\end_layout
+
+\begin_layout Standard
+得多。然而，递归的部分是一样的，“亲族关系”体现在这里面。
+\end_layout
+
+\begin_layout Standard
+我不该让读者到现在还不知道这些美丽图案的由来。INT——代表“交换”——是来自一个涉及了“埃塔序列”的问题，与连分数有关。INT的基本思想是加号与减号在某种连分
+数中互相转换。作为一个推论，我们有INT(INT(x))=x。INT有一个性质，即：如果x是有理数，则INT(x)也是；如果x是二次的，则INT(x)也是二次的
+。我不知道这种趋向对于更高阶的代数度是否也成立。INT的另外一个可爱的性质是：在x的全部有理数值上，它是跳跃的，不连续的，但在x的所有无理数值上，它是连续的。
+\end_layout
+
+\begin_layout Standard
+G图来自一个问题的高度理想化形式，这个问题是：“磁场中晶体的容许电子能是什么？”这是个很有趣的问题，因为它交织了两个非常简单而又基本的物理现象：完全晶体中的电子
+，和均匀磁场中的电子。这两个比较简单的问题都得到了充分的理解，它们各185自的典型解法似乎是彼此不相容的。因此，看看自然如何把它们调和起来，这将会是很有意思的。
+结果表明，没有磁场的晶体与没有晶体的磁场的确是有一个共同特征的：在两种情形中，电子都表现出周期性。于是，当两种情形合并在一起时，两个周期的比是个很关键的参数。事
+实上，这个比率包含了有关容许电子能分布的全都信息——但是，只有展开成连分数时，它才透露它的这一秘密。
+\end_layout
+
+\begin_layout Standard
+G图显示出了这个分布。水平轴代表能量，垂直轴代表上面提到的周期比率，我们可以称之为“aalpha"。在底部，a是O。在顶部，a是1。当a为O时，没有磁场。每一条
+构成G图的线段是一个“能量带”——就是说它代表能量的容许值。以大小不同的规模横穿G图的空白地带则是能量值的禁区。G图的一个惊人的性质是：当a是有理数时（比如说是
+简约后的p/q），就恰好有q个这样的能量带（虽然当q是偶数时，有两个带在中间相遇）。当a是无理数时，这些带则缩小成点，无数多个点，稀疏地分布在所谓“康托尔集”上
+——那是拓扑学中出现的另一种递归定义的东西。
+\end_layout
+
+\begin_layout Standard
+你可能很想知道，在一个实验中，这样一个复杂的结构是否会出现。坦率地说，如果G图在什么实验里出现了，我会是这个世界上最为惊异的人。G图的物理意义在于：它指出了对这
+一类理想化程度较低的问题进行适当的数学处理的途径。换句话说，G图只是对理论物理的贡献，它无法对做实验的人提示什么可能看到的东西。我的一个持不可知论的朋友曾被G图
+的无穷多个无穷所震惊，于是把它叫做“上帝的画像”，我不认为这是亵渎神圣。
+\end_layout
+
+\begin_layout Subsection*
+物质最低层次上的递归
+\end_layout
+
+\begin_layout Standard
+我们在语言的语法中看到了递归，我们看到了永远向上生长的递归几何树，我们也看到了一种把递归引入固体物理学理论的方法。现在我们来换一种眼光，在这种眼光下，整个世界都
+是建立
+\end_layout
+
+\begin_layout Standard
+186
+\end_layout
+
+\begin_layout Standard
+图34．G图：一个递归图形，显示了一个磁场中理想晶体里的电子的能量带。a代表磁场强度，沿垂直方向从0到1。能量是沿水平方向的。水平的线段是所允许的电子能量带。
+\end_layout
+
+\begin_layout Standard
+在递归之上的。这涉及到了基本粒子的结构：电子、质子、中子、以144及被称作“光子”的微小的电磁辐射量子。我们将看到，粒子——精确的说法要用到相对论量子力学——是
+彼此嵌套的，对之可用递归来描述，甚至可用某种“语法”来描述。
+\end_layout
+
+\begin_layout Standard
+我们的起点是这样一个事实：假如粒子不相互作用，那么一切都将是难以置信地简单。物理学家会喜欢这样的世界，因为这样一来，他们就可以很容易地计算出所有粒子的行为（这种
+世界里是否还有物理学家是可怀疑的）。没有相互作用的粒子叫做“裸粒子”。它们纯粹是假设的东西，并不实际存在。
+\end_layout
+
+\begin_layout Standard
+当相互作用的“开关”被“打开”时，粒子就象函数F和M、或187者说两个结了婚的人那样纠缠在一起。这些实际的粒子称为“重正化了的”——一个丑陋但却有启发性的术语。
+结果是，一个粒子如果不涉及所有其它粒子就无法给出定义，而其它粒子的定义反过来又要靠最初那个粒子，等等。这样转来转去，构成了一个永不停止的循环。
+\end_layout
+
+\begin_layout Standard
+让我们更具体一点。我们只限于讨论两种粒子：电子和光子。不过还要附带上电子的反粒子——正电子。（光子的反粒子是它自己。）首先，设想一下在一个乏味的世界中裸电子要从
+A点传到B点，就象芝诺在我那《三部创意曲》里所做的那样。二个物理学家会画出这样一个图：
+\end_layout
+
+\begin_layout Standard
+图35一①
+\end_layout
+
+\begin_layout Standard
+有一个数学表达式与这条线及其端点相对应，而且很容易写下来。物理学家可以用这个表达式来理解裸电子在这个轨道上的行为。
+\end_layout
+
+\begin_layout Standard
+现在让我们“打开”电磁相互作用的开关，让电子和光子相互作用。虽然光子没出现，还是有一些很有价值的结果，即使是在这么简单的轨道上。特别是，我们的电子现在变得能够放
+射、吸收“虚
+\end_layout
+
+\begin_layout Standard
+图35-②
+\end_layout
+
+\begin_layout Standard
+图35-③
+\end_layout
+
+\begin_layout Standard
+光子”——出现之后还未被看到就消失掉的光子。我们这样表示这个过程：当我们的电子传播时，它可以一个接一个地放射和再吸收光‘子，它甚至可以嵌套这一过程，如下所示：与
+这些图案——“费因曼图案”——相对应的数学表达式很容易写下来，但它们比裸电子的表达式难计算一些。真正使事情复杂化的是光子（实的或虚的）能在瞬188间里衰变成一对
+正负电子。然后这一对电子相互湮灭，原来的光子魔术般又出现了。下面是这种过程的示意：电子有一个指向右边的箭头，而正电子的箭头是指向左边。
+\end_layout
+
+\begin_layout Standard
+读者或许已经预料到，这些虚的过程可以嵌套到任意深度。这可以产生出一些看起来
+\end_layout
+
+\begin_layout Standard
+图35一④
+\end_layout
+
+\begin_layout Standard
+非常复杂的图案，如图35。在费因曼图案中，一个电子从A的左边进入，演出一些惊人的杂技，之后一个电子在B的右边出现。对于一个看不出内情的观察者，似乎是一个电子从A
+平平安安地滑行到B,没有那些内部的混乱。在图案中，读者可以看到电子的曲线是怎样被随意地装饰，光子也是一样。要计算这个图案是非常之困难的。
+\end_layout
+
+\begin_layout Standard
+图35-⑤．一个费因曼图案，表示出重正化了的电子从A到B的传播。图中，时间从左向右增加，因此，在电子的箭头指向左边的片段中，它的移动是“与时间反向的”。更为直观
+的说法是，反电子（正电子）在正向的（即正常的）时间中移动。光子的反粒子是它们自己，因此它们的曲线无须箭头。
+\end_layout
+
+\begin_layout Standard
+这些图案有一种“语法”，使得只有某些特定的图案能在自然189界中实现。比如，下面这种图案就是不可能的：
+\end_layout
+
+\begin_layout Standard
+图35-⑥
+\end_layout
+
+\begin_layout Standard
+你可以称之为非“良构”的费因曼图案。这些语法来自物理学基本定律，如能量守恒、电荷守恒等等。而且，正象人类语言的语法那样，这种语法的结构是递归的，允许很深的结构嵌
+套。完全可能画出一组递归迁移网来定义电磁相互作用的“语法”。当裸电子和裸光子允许以这些随意缠绕的方式相互作用时，结果是形成重正化的电子与光子。这样，要理解实际的
+、物质的电子是怎样从A传播到B的，物理学家必须能对无穷多不同可能的涉及虚粒子的图案取某种平均。芝诺的话好象应验了！
+\end_layout
+
+\begin_layout Standard
+因此，关键在于一个物质粒子——一个重正化的粒子——涉及了（1）一个裸粒子、（2）一大群虚粒子，它们在乱七八糟的递归中紧紧地纠缠在一起。所以，每个真实粒子的存在都
+涉及到无穷多其它粒子的存在，后者组成一团虚“云”，在前者传播时围绕着它。当然，云里的虚粒子也拖着自己的虚云，如此下去，以至无穷。
+\end_layout
+
+\begin_layout Standard
+粒子物理学家们发现这种复杂程度太难以把握了，因此，为了理解电子和光子的行为，他们使用除了简单的费因曼图案别的都不考虑的逼近方法。幸运的是，一个图案越是复杂，它的
+贡献也就越不重要。目前，还没有一种已知的方法能把所有无穷多种呵能的图案综合起来，从而得到一个完全重正化的实际电子行为的表达式。但通过在某种物理过程中大致地考虑一
+百个最简单的图案，物理学家们已经能够预测所谓u介子的g因子的值了——精确到小数点后九位！
+\end_layout
+
+\begin_layout Standard
+重正化不仅发生在电子与光子中。只要是粒子之间的相互作用，无论是什么类型的粒子，物理学家都用重正化的概念来理解所190发生的现象。于是，质子、中子、中微子、兀介子
+和夸克——亚核子动物园中所有的动物——它们在物理理论中都有裸的和重正化的形式。这些成千上万的泡泡套着的泡泡们就组成了这个光怪陆离的世界。
+\end_layout
+
+\begin_layout Subsection*
+副本和同一性
+\end_layout
+
+\begin_layout Standard
+现在让我们再来看看G图。你会记得我们在导言中谈过各种不同的卡农。每种类型的卡农都以某种方式采用原主题，并用同构或保持信息的变换复制该主题。有时副本是颠倒的，有时
+是从后往前的，有时是缩小或扩大的……在G图中，我们有所有这些类型的变换，并且还要多。完整G图与在它自己内部的它自身的副本之间的映射涉及了大小的变化、扭曲、镜象等
+等许多东西。但某种骨架上的同一性却始终保持着，这只要稍作努力就能分辨出来，尤其是经过INT图的锻炼之后。
+\end_layout
+
+\begin_layout Standard
+一个东西的部分是这个东西自身的副本，这一想法被艾舍尔用在了他的作品中：木刻《鱼和鳞》（图36）。当然，只有在足够抽象的层面上来看这些鱼和鳞时，它们才是一样的。人
+人都知道一条鱼的鳞并不真是这条鱼的小副本，一条鱼的细胞也不是这条鱼小副本，然而，一条鱼的DNA（存在于这条鱼的每个细胞中）的确是整个这条鱼的一个极其复杂的“副本
+”——所以艾舍尔的画中的确是含有不少真理的。
+\end_layout
+
+\begin_layout Standard
+所有蝴蝶的相同之处”是什么？一个蝴蝶到另一个蝴蝶的映射并非把细胞映射到细胞，而是把功能块映射到功能块，其中，部分是宏观的，部分是微观的。映射所保持的不是功能块之
+间的精确比例，而是它们之间的功能关系。这就是在艾舍尔的木刻《蝴蝶》（图37）中把所有的蝴蝶联系在一起的那种同构。G图中更抽象的蝴蝶也是这样，它们通过一个数学映射
+而联系在一起，那个映射把
+\end_layout
+
+\begin_layout Standard
+191
+\end_layout
+
+\begin_layout Standard
+图36.色和鳞，艾舍尔作（木刻，1959）。
+\end_layout
+
+\begin_layout Standard
+功能块对应到功能块，但完全不理会线条的比例、角度等等。
+\end_layout
+
+\begin_layout Standard
+把这种对同一性的探讨提高到更为抽象的层面上，我们便可以问这样一个问题：¨对于所有艾舍尔的画，这种‘同一’是在哪里？”试图在它们的片段之间寻找映射是荒谬的。令人惊
+异的是：即便艾舍尔作品或巴赫作品的极小的一部分也揭示出了某种同一性。就象一条鱼的DNA包含了这条鱼的每一细微末节一样，每个艺术家的“署名”也都被包含在他作品中的
+每一细部。我们不知该
+\end_layout
+
+\begin_layout Standard
+192
+\end_layout
+
+\begin_layout Standard
+图37．蝴蝶，艾舍尔作（木刻，1950）。
+\end_layout
+
+\begin_layout Standard
+把这个叫做什么，只好说“风格”——一个模糊而难以捉摸的词。
+\end_layout
+
+\begin_layout Standard
+我们会继续不断地探讨“异中之同”，以及下面这个问题
+\end_layout
+
+\begin_layout Standard
+什么时候两个东西是一样的？
+\end_layout
+
+\begin_layout Standard
+这种探讨将在本书中一再出现。我们将从各个不同的角度来提出这个问题，最终，我们会看到，这个简单的问题与智能的性质有着多么深刻的联系。193
+\end_layout
+
+\begin_layout Standard
+在讨论递归的一章里出现这个问题并不是偶然的，因为在递归这一领域里，“异中之同”扮演着一个中心角色。递归是以不同层次上同时出现的“同一”的事物为基础的。但在不同层
+次上发生的事件并不是完全相同的——确切地说，我们发现了它们中间的某种不变的特征，尽管它们在很多方面都不同。例如，在《和声小迷宫》里，所有不同层次上的故事彼此之间
+几乎没有什么关系——它们的“同一”仅在于两点：（1）它们都是故事，（2）它们都涉及了乌龟和阿基里斯。除此之外，它们没有一点相同之处。
+\end_layout
+
+\begin_layout Subsection*
+程序设计与递归：模块性、循环、过程
+\end_layout
+
+\begin_layout Standard
+编写计算机程序的一个基本技术，是把任务自然地分解成子任务。这要求人们看出两个过程在某种扩展了的意义上——这将导致模块性概念——是同一的。比如，某人可能想让一系列
+类似的操作一个接一个地执行。不必把它们都写出来，可以写一个循环，告诉计算机执行一套操作之后再回过来重新执行它们，一遍又一遍地这么做，直到某个条件被满足。循环体—
+—要重复的那套固定指令——实际上无需完全确定，可以以某种可预知的方式有所变化。
+\end_layout
+
+\begin_layout Standard
+举一个例子。一种最简单的测试自然数N是否素数的方法是：一开始，把N用2除，然后用3、4、5等等去除，一直到N-1。如果N通过了所有这些测试，没有被整除，那么它是
+素数。注意，循环中的每一步都与其它步相似，却又不尽相同。还要注意，共有多少步是随N的大小而变化的——因此一个固定长的循环决不可能成为对素数性的一个一般的测试。使
+这个循环“终止”的准则有两个：（1）有某个数整除了N，这时回答“NO"并退出循环；（2）除数一直到了N-1，而N通过了所有测试，这时回答“YES"并退出。194
+\end_layout
+
+\begin_layout Standard
+于是，循环的一般想法就是：一遍又一遍地执行某些相互有关联的步骤，当遇到指定的条件时就终止。有些时候，一个循环至多有多少步预先就会知道；另一些时候，只是开动起来，
+等着，直到它终止。第二种类型的循环——我称之为“自由循环”——是很危险的，因为使循环终止的情况可能永远不会出现，而把计算机丢在所谓“无限循环”的状态中。有界循环
+与自由循环之间的差别是计算机科学中最重要的概念之一，我们将来会用一整章来讨论它：“BlooP和FlooP和GlooP"。
+\end_layout
+
+\begin_layout Standard
+循环可以相互嵌套。例如，假定我们想测出1到5000之间的所有素数。我们可以再写一个循环，它一遍又一遍地使用上面描述过的测试，从N=1开始，到N=5000结束。于
+是我们的程序便是“循环的循环”结构。这种程序结构很典型——事实上这被认为是好的程序设计风格。这种嵌套的循环也出现在一般事务的组合指令中，以及象编织或挑花这类工作
+里——其中，很小的循环在较大的循环中多次重复，而后者也是重复地进行的……尽管低层循环的结果或许不过是几针，高层循环的结果会是一大块布。
+\end_layout
+
+\begin_layout Standard
+音乐中也一样，嵌套的循环经常出现——比如，一个音阶（一个小循环）在一行中出现多次，每次变一个音高。例如，在普罗科菲耶夫的《第五钢琴协奏曲》和拉赫马尼诺夫的《第二
+交响曲中》，最后一个乐章都包含有扩展了的小节，其中快速、中速和慢速的循环音阶同时由不同的乐器奏出，效果极好。普罗科菲耶夫的音阶是上升的，拉赫马尼诺夫的音阶是下降
+的。你看哪个好？
+\end_layout
+
+\begin_layout Standard
+比循环更一般化的概念是“子程序”或“过程一，对之我们已略有讨论。其基本思想是把一组操作集在一起，起个名字，当做一个整体——例如花哨名词过程。我们已在RTN中看到
+，过程可以彼此按名字调用，借此可以简明地表示出要执行的操作序列。这是程序设计中模块化的实质所在。很明显，到处都能找到模块化现象：195
+\end_layout
+
+\begin_layout Standard
+高保真音响系统、机械装置、生物体的细胞、人类社会——在任何有层次组织的地方。
+\end_layout
+
+\begin_layout Standard
+人们常常希望让过程具有随机应变的能力。这种过程既可以窥视存储器中的东西，并选出与之相应的操作，也可以被一组明确给出的参数所控制。有时这两种方法都使用。用RTN的
+术语来说，所谓选择要执行的操作序列，就相当于选择走哪条通道。RTN配备了参数等设施后，就能对通道的选择进行控制了，这种增强了的递归迁移网被称为“扩充迁移网”（A
+TN）。如果让你按照一部由迁移网写出的语法，用一些单独的字造出有意义的——区别于无意义的——汉语句子，你大概更愿意采用ATN而非RTN。参数等设施使你能插入各种
+语义制约，以便防止出现象“徒劳的早饭”这种搭配不当的现象。对此我们还有许多要谈，不过要到第十八章再说了。
+\end_layout
+
+\begin_layout Subsection
+弈棋程序中的递归
+\end_layout
+
+\begin_layout Standard
+带参数的递归程序的经典例子，是一个在下棋时每次都选择“最佳”的一步棋的程序。最佳的一步棋该是把对手置于最难受境地的一步棋。所以，检验一步棋是不是好棋的办法就是：
+假设你已走了这步棋，然后从你对手的角度来审视棋盘上的局面。那么你的对手会采取什么行动呢？他嘛，他要找他的最佳一步’棋。也就是，他要考虑所有可能的棋步，并以在他看
+来足你的眼光来衡量一番，1 51希望找出对你最为不利的走法。注意，我们现在对“最佳一步棋”的定义是递归的，就用这么一个准则：对一方来说是最好的，对另一方来说就是
+最坏的。寻找最佳棋步的递归过程就是这么运转，先试着走一步，然后从对手的角度调用自己！这么做的时候，它试走了下一步，于是又从对手的对手的角度调用自己——又是它自己
+的角度了！196
+\end_layout
+
+\begin_layout Standard
+这样的递归可以深入到好几层——但总是要在什么地方终了的！不向前看的话，怎么才能衡量棋局呢？这里有不少有用的准则，比如：简单地数一数各方都有多少棋子，受攻击的棋子
+有多少、都是什么类型的，对中路的控制，等等。以这种衡量方法为基础，递归棋步生成器就可以向上弹回到顶层，给出对不同棋步的估价。于是，自调用时必须要有一个参数指明要
+向前看多少步。过程的最外层调用使用这个参数的某个从外部输入的值c那之后？过程每次递归地调用自己时，它必须把它的向前看参数减少1。这样下去，参数达到零时，过程就转
+向另外的通道——即进行非递归计算。
+\end_layout
+
+\begin_layout Standard
+在这一类的游戏程序中，对每一步的探索导致一棵所谓“超前搜索树”的生成，一步棋自身是树干，对方的应招是主枝，自己再应对的棋步是分枝，如此等等。图38就是一棵超前搜
+索树，画出了三子棋的开始棋局。当然应该想法避免彻底地探索超前搜索树的每一枝干，但这是一门艺术。在下棋情形，人——不是计算机——似乎是杰出地掌握了这门艺术。人们已
+经知道，第一流的棋手向前看的步数，与大多数下棋程序相比是很少的——然而人还是高明得多！计算机下国际象棋的早期阶段，有人曾估计再要十年的时间计算机（或程序）就能得
+世畀冠军。可是，十年过去之后，计算机要成为世界冠军似乎还要再过十年……这不过是下面这个递归化的定律的又一例证：
+\end_layout
+
+\begin_layout Standard
+侯世达定律：做事所花费的时间总是比你预期的要长，即使你的预期中考虑了侯世达定律。
+\end_layout
+
+\begin_layout Subsection*
+递归与不可预期性
+\end_layout
+
+\begin_layout Standard
+本章中的递归过程与前一章中的递归集是什么关系？这涉及到“递归可枚举”的概念。一个集合是r.
+ e.的意思是它可以通过推理规则的重复使用从一集出发点（公理）之中产生出来。这样，这
+\end_layout
+
+\begin_layout Standard
+197
+\end_layout
+
+\begin_layout Standard
+图38．三子棋开始两步的超前搜索树。
+\end_layout
+
+\begin_layout Standard
+个集合不断扩充，每个新的元素都是由已有的元素复合而成，就象一个“数学雪球”似的。但这恰恰就是递归的实质——定义一个东西时，使用它自己的较为简单些的版本，而非直截
+了当地给出它的定义。斐波那契数和卢卡斯数是r.
+ e.
+ 集的极好例子——用一条递归规则把两个元素滚雪球式地滚成无穷的集。把一个其补集也是r.
+ e.集的r.
+ e.集称作“递归的”，这仅仅是个约定。
+\end_layout
+
+\begin_layout Standard
+递归枚举是个过程，其中新的东西按照一定的规则从已有的东西中产生出来。这种过程看上去似乎有许多令人惊奇的事情——比如Q序列的不可预测性。就好象那种类型的递归定义序
+列其行为具有内在的不断增加的复杂性，以至于走得越远，可预测性就越少。这种思想再向前推进一步，就提示我们：复杂到一定程度的递归系统，其能力可能会强有力得足够打破任
+何事先规定下来的模式。这不就是使智能成其为智能的性质之一吗？与其仅仅考虑由可以递归地调用自身的过程组成的程序，为什么不考虑得更复杂一些，设计出可以修改自身的程序
+——可以作用于程序本身，扩展、改进、推广、加固程序的程序？智能的核心之处大概就是这种198“交织的递归”之所在。
+\end_layout
+
+\begin_layout Section-toc*
+音程增值的卡农
+\end_layout
+
+\begin_layout Quote
+\begin_inset space \qquad{}
+\end_inset
+
+阿基里斯和乌龟刚刚在城里最好的中餐馆吃过一顿美味的中餐D
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你筷子使得挺溜儿，龟兄。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 那很自然。我打年轻时起就喜欢东方菜，你呢——你这顿饭吃得好吗，阿基？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 非常好。以前我从没吃过中餐。这顿饭是个极好的开端。你现在着急走吗？我们就坐在这儿聊会儿怎么样？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 我喜欢边喝茶边聊。喂，伙计！
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+一位侍者走过来。
+\family default
+）
+\begin_inset Newline newline
+\end_inset
+
+请把帐单拿给我们，再来些茶。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+侍者急匆匆地离开了。
+\family default
+）
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 在中式烹饪方面你比我知道得多，龟兄，可是在日本诗歌方面，我敢打赌我比你知道得多。你读过俳句吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 恐怕没读过。什么是俳句？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 俳句是一种由十七个音节组成的日本诗——更确切地说是种微型诗。也许它就象馥郁芳香的玫瑰花瓣或蒙蒙细雨中百合塘一样容易叫人产生联想。它通常由五个音节、七
+个音节、再五个音节这样三部分组成。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 诗这么简短，只有十七个音节，意义不会多…… 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 意义很深远，半在读者心中存，半在俳句中。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 嗯……这是种容易叫入产生联想的表达方法。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+侍者拿着帐单、一壶茶和两个福气小甜饼走过来。
+\family default
+）
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+199
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+谢谢，伙计。再加点茶吧，阿基？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 好吧。这些小甜饼看来很好吃。（
+\family sans
+拿起一个，咬了一口，嚼了起来。
+\family default
+）嘿！这里面是什么怪玩意？一张小纸片？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 那是你的福签，阿基。许多美国的中餐馆结账的时候都把福气小甜饼和帐单一起送来，起联络顾客感情的作用。要是你经常出入中餐馆的话，你就会把福气小甜饼更多地看作
+消息的传递者，而不仅仅把它当做小甜饼。可惜的是你似乎已经把你的福气吞掉一部分了。剩下那部分说些什么？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 有点怪啊，所有的字都紧密地排在一起，彼此之间没有空隙。也许这需要用某种方法来破译？噢，现在我明白了。如果你把空隙放回它们原来该在的地方，即是：“禾
+\begin_inset space \quad{}
+\end_inset
+
+灿
+\begin_inset space \quad{}
+\end_inset
+
+邻
+\begin_inset space \quad{}
+\end_inset
+
+晴”。我真觉得没头没脑的。也许它是首俳句式的诗，我把大部分的字都吃掉了。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 那样一来，你现在的福签就只是俳句的4/17了。它唤起的意象挺怪的。如果俳句的4/17是一种新的艺术形式，那我只好说：此事堪哀……不过，我可以瞧瞧它吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： （
+\family sans
+把那块小纸片递给乌龟
+\family default
+）当然可以。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 啊，要是让我来破译它，阿基，它就变得完全不一样了！它写的是“秋
+\begin_inset space \quad{}
+\end_inset
+
+ 岭
+\begin_inset space \quad{}
+\end_inset
+
+阳
+\begin_inset space \quad{}
+\end_inset
+
+青”。看来也许它原本是首很好的抒情俳句呢。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你说的对，它还挺有意境的。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 我所做的只不过是把阅读框架移动了一个单位——就是说，我把所有的空隙向右移动了一个单位。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 让我们来看看你的福签怎么说，龟兄。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟（
+\family sans
+灵巧地掰开他的小甜饼，读道
+\family default
+）： “福气很深远，半在食客手中托，半在甜饼中”。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你的福签也是一首俳句，龟兄——至少它采用了5-7
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+200
+\end_layout
+
+\end_inset
+
+-5共十七个字的形式。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 太了不起了。阿基，我还真没注意到这一点。这种事只有你会注意。它更吸引我的地方还是它的内容——当然，它是可以解译的。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我认为这事表明我们每个人都各有自己的方法来解译我们所接受的信息……
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+一阵沉默，阿基里斯盯着空茶杯底上的茶叶。
+\family default
+）
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 再加些茶吗，阿基？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 好的，谢谢。哎，龟兄，你那位朋友螃蟹怎么样了？自从你跟我说了你们那场奇特的唱机之战以后，我老是想起他。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 我也跟他谈起过你，他很想见你。他近来很好。最近在唱机方面他又得到了一个新玩艺儿：一种少见的自动唱机。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 哦，就是酒吧间里那种有许多用来选歌的按钮，投入硬币后就能自动放唱片的玩意儿吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 对，可这架自动唱机太大了，他的屋子里都放不下，他只好在房子后面特地为它盖了一间小屋。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我无法想象它怎么会这么大，除非它里面装了许多唱片。是这样吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 实际上它只有一张唱片。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 什么？一架自动唱机只有一张唱片？自相矛盾。那么，这架自动唱机为什么会这么大？它那仅有的一张唱片十分巨大吗？——直径有十公尺？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 不，它不过是一张普通的自动唱机上的唱片。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 那么，龟兄，你一定是在戏弄我。说到底，什么样的自动唱机只能播出一首歌？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 谁说就一首歌啦，阿基？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我所见过的所有自动唱机都遵循那条基本的自动唱机
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+201
+\end_layout
+
+\end_inset
+
+公理：“一张唱片一首歌。”
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 这架自动唱机可不一样，阿基。唱片垂直地悬挂着，在它后面有一个小巧的架空的轨道网，上面挂着各种各样的唱头。当你揿某一对按钮——比如说B-1——时，它就会选
+择那些唱头中的某一个。这样就触发了某个自动机构，使唱头沿着生锈的轨道吱吱地运行起来。直到最后它转到唱片附近——也就是说，进入了播放位置。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 然后那张唱片开始旋转，同时播放出音乐来——对吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 不太对。唱片不动——唱头旋转。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我本该想到的。可是，如果你只有一张唱片可放，这稀奇古怪的玩意怎么能播出不止一首歌呢？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 这问题我问过螃蟹。他只是建议我来试验一下。于是我从口袋里掏出一枚五分硬币（用一枚五分硬币你可以选三首歌），把它塞进投币槽里，先揿动B-1按钮，然后是C-
+3、B-10——这全都是随意的。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 那么，我想，B-1唱头滑入轨道后，咬住那张垂直的唱片，然后开始旋转？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 没错儿。播放的那段音乐还是很动人的，它是根据有名的B-A-C-H旋律改编的，我相信你记得它……
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+图e -①
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我怎么会记不得呢？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 这是B-1唱头。这支曲子结束后，它缓慢地转回它原来悬挂的位置，而C-3滑入了播放使置。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： C-3是不是播出了另一支歌？
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+202
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 是这样。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 啊，我明白了。它播出的是唱片反面的歌，要不就是同一面上的另一个音段。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 不，这张唱片只有一面有音槽，而且只有那么一个音段。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我一点也不明白。你不可能用同一张唱片播放出许多不同的音乐！
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 在我看到老蟹的自动唱机之前，也是这么想。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 那第二支歌怎么唱？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 十分有趣……这是首根据C-A-G-E旋律改编成的歌。
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+一、
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+_+三E王
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+季i至 |
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+图e一②
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 这可是支全然不同的曲子啊！
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 千真万确。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 约翰·卡奇[John
+\begin_inset space \space{}
+\end_inset
+
+Cage]不是个现代音乐作曲家吗？我好象记得在我的那些关于俳句的书中有一本谈到过他。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 一点不错。他创作过很多著名的曲子，其中包括《4分33秒》，这是一部三个乐章的作品，由一些长度不等的静默组成，是极富于表现力的——如果你喜欢这一类东西的话
+。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我想我要是在一家喧声刺耳的咖啡馆里，肯定愿意出钱听自动唱机播放卡奇的《4分33秒》。它可以让人们平心静气！
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 是啊——谁想听盘碟碗筷发出的哗啦哗啦的噪音呢？啊，对啦，《4分33秒》还有一个用武之地：兵营。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你的意思是说让它去和大兵们穿的卡其布军装配套，是吗？嗯，我想这说得通。至于螃蟹的自动唱机……我就不明白
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+203
+\end_layout
+
+\end_inset
+
+了。“BACH”和“CAGE”怎么能同时编码于同一张唱片上呢？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 如果你仔细研究研究它们，阿基，你会发现两者间存在着某种联系。让我说明一下：若是你把曲子“B-A-C-H"中各音的间距列出来，会得到什么呢？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 让我想想。先降半音，从B降到A（这里B采用的是德国记谱法），然后再升三个半音，升到C；最后又降半音，降到H。这就得出下面的形式：
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+-1，
+\begin_inset space \quad{}
+\end_inset
+
++3，
+\begin_inset space \quad{}
+\end_inset
+
+-1。
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 非常正确。那么，“C-A-G-E"呢？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 在这里，开始先降三个半音，然后再升十个半音（几乎一个八度），最后再降三个半音。这就是说其形式是这样的：
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+-3，
+\begin_inset space \quad{}
+\end_inset
+
++10，
+\begin_inset space \quad{}
+\end_inset
+
+-3。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+与前一个非常相象，不是吗？
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 的确是这样。在某种意义上，它们几乎有同样的“构架”。你可以通过把所有的音程乘上
+\begin_inset Formula $3\cfrac{1}{3}$
+\end_inset
+
+：取最近的整数，从B-A-C-H得到C-A-G-E。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 嘿，真是令我又惊义喜！这意味着音纹中只有一种构架编码，而各种各样的唱头把它们自己对编码的解译加到了编码上，是吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 确实不清楚。狡猾的螃蟹不愿让我知道详情。但是当唱头B-10转入播放位置时，我确实听到了第三支歌。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 那歌怎么唱？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 这支曲子由极宽的音程组成，它们是B-C-A-H：
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+204
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+图e一③
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+用半音计算，其音程形式是：
+\end_layout
+
+\begin_layout CenterLine
+-10，
+\begin_inset space \quad{}
+\end_inset
+
++33，
+\begin_inset space \quad{}
+\end_inset
+
+-10。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+它可以通过由CAGE再乘以3÷，并取最近的整数得到。
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 这种音程变换有什么名称吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 人们都管它叫“音程增值”。它类似于卡农的时值增值，在那种增值里，一个旋律里所有音符的时值被某一常数相乘。在那里，结果只是使曲子慢下来；而在这里，结果是用
+某种奇特的方法扩展了旋律的音域。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 有意思。那么你所试的三个旋律都是那张唱片上同一音纹模式的几个音程增值的形式，是吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 这就是我得出的结论。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 让我感到难以思议的是，当你增值巴赫[BACH]时，你得到卡奇[CAGE]．而当你再增值卡奇[CAGE]时，你又回到巴赫[BCAH]，只是里面两个字母
+的顺序颠倒了，好象巴赫在通过了卡奇这个中间阶段后有点反胃。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 这听起来象是对卡奇的那种新艺术形式所作的有见地的评论。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+205
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
