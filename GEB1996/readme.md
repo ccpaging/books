@@ -14,6 +14,9 @@ http://pan.baidu.com/s/1pJ5CHIz
 集异璧OCR文本（已分割）
 http://pan.baidu.com/s/1hqmUiC8
 
+Escher 的画主要来自：
+http://www.wikiart.org/en/m-c-escher
+
 ## 参与计划请联系
 <ccpaging@gmail.com>
 
