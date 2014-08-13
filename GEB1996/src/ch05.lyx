@@ -1104,7 +1104,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0182.png
 	lyxscale 50
-	width 90text%
+	width 80text%
 
 \end_inset
 
@@ -1205,7 +1205,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0184.png
 	lyxscale 50
-	width 90text%
+	width 80text%
 
 \end_inset
 
@@ -1224,10 +1224,6 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1237,6 +1233,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+（a）能用递归替换构造INT的骨架
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -1274,18 +1279,14 @@ status open
 
 
 \backslash
-setcounter{figure}{32}
+addtocounter{figure}{-1}
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-setcounter{subfigure}{1}
-\end_layout
-
-\begin_layout Plain Layout
-
+addtocounter{subfigure}{1}
 \end_layout
 
 \end_inset
@@ -1309,7 +1310,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0185.png
 	lyxscale 50
-	width 90text%
+	width 80text%
 
 \end_inset
 
@@ -1337,6 +1338,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+（b）能用递归替换构造G图的骨架。
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -1352,22 +1362,70 @@ status open
 
 \begin_layout Standard
 我不该让读者到现在还不知道这些美丽图案的由来。INT——代表“交换”——是来自一个涉及了“埃塔序列”的问题，与连分数有关。INT的基本思想是加号与减号在某种连分
-数中互相转换。作为一个推论，我们有INT(INT(x))=x。INT有一个性质，即：如果x是有理数，则INT(x)也是；如果x是二次的，则INT(x)也是二次的
-。我不知道这种趋向对于更高阶的代数度是否也成立。INT的另外一个可爱的性质是：在x的全部有理数值上，它是跳跃的，不连续的，但在x的所有无理数值上，它是连续的。
+数中互相转换。作为一个推论，我们有
+\begin_inset Formula $INT(INT(x))=x$
+\end_inset
+
+。INT有一个性质，即：如果x是有理数，则
+\begin_inset Formula $INT(x)$
+\end_inset
+
+也是；如果x是二次的，则
+\begin_inset Formula $INT(x)$
+\end_inset
+
+也是二次的。我不知道这种趋向对于更高阶的代数度是否也成立。INT的另外一个可爱的性质是：在x的全部有理数值上，它是跳跃的，不连续的，但在x的所有无理数值上，它是
+连续的。
 \end_layout
 
 \begin_layout Standard
 G图来自一个问题的高度理想化形式，这个问题是：“磁场中晶体的容许电子能是什么？”这是个很有趣的问题，因为它交织了两个非常简单而又基本的物理现象：完全晶体中的电子
-，和均匀磁场中的电子。这两个比较简单的问题都得到了充分的理解，它们各185自的典型解法似乎是彼此不相容的。因此，看看自然如何把它们调和起来，这将会是很有意思的。
-结果表明，没有磁场的晶体与没有晶体的磁场的确是有一个共同特征的：在两种情形中，电子都表现出周期性。于是，当两种情形合并在一起时，两个周期的比是个很关键的参数。事
-实上，这个比率包含了有关容许电子能分布的全都信息——但是，只有展开成连分数时，它才透露它的这一秘密。
+，和均匀磁场中的电子。这两个比较简单的问题都得到了充分的理解，它们各
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+185
+\end_layout
+
+\end_inset
+
+自的典型解法似乎是彼此不相容的。因此，看看自然如何把它们调和起来，这将会是很有意思的。结果表明，没有磁场的晶体与没有晶体的磁场的确是有一个共同特征的：在两种情形
+中，电子都表现出周期性。于是，当两种情形合并在一起时，两个周期的比是个很关键的参数。事实上，这个比率包含了有关容许电子能分布的全都信息——但是，只有展开成连分数
+时，它才透露它的这一秘密。
 \end_layout
 
 \begin_layout Standard
-G图显示出了这个分布。水平轴代表能量，垂直轴代表上面提到的周期比率，我们可以称之为“aalpha"。在底部，a是O。在顶部，a是1。当a为O时，没有磁场。每一条
-构成G图的线段是一个“能量带”——就是说它代表能量的容许值。以大小不同的规模横穿G图的空白地带则是能量值的禁区。G图的一个惊人的性质是：当a是有理数时（比如说是
-简约后的p/q），就恰好有q个这样的能量带（虽然当q是偶数时，有两个带在中间相遇）。当a是无理数时，这些带则缩小成点，无数多个点，稀疏地分布在所谓“康托尔集”上
-——那是拓扑学中出现的另一种递归定义的东西。
+G图显示出了这个分布。水平轴代表能量，垂直轴代表上面提到的周期比率，我们可以称之为“
+\begin_inset Formula $\alpha$
+\end_inset
+
+”。在底部，
+\begin_inset Formula $\alpha$
+\end_inset
+
+是0。在顶部，
+\begin_inset Formula $\alpha$
+\end_inset
+
+是1。当
+\begin_inset Formula $\alpha$
+\end_inset
+
+为0时，没有磁场。每一条构成G图的线段是一个“能量带”——就是说它代表能量的容许值。以大小不同的规模横穿G图的空白地带则是能量值的禁区。G图的一个惊人的性质是：
+当
+\begin_inset Formula $\alpha$
+\end_inset
+
+是有理数时（比如说是简约后的
+\begin_inset Formula $p/q$
+\end_inset
+
+），就恰好有q个这样的能量带（虽然当q是偶数时，有两个带在中间相遇）。当
+\begin_inset Formula $\alpha$
+\end_inset
+
+是无理数时，这些带则缩小成点，无数多个点，稀疏地分布在所谓“康托尔集”上——那是拓扑学中出现的另一种递归定义的东西。
 \end_layout
 
 \begin_layout Standard
@@ -1381,21 +1439,66 @@ G图显示出了这个分布。水平轴代表能量，垂直轴代表上面提�
 \end_layout
 
 \begin_layout Standard
-我们在语言的语法中看到了递归，我们看到了永远向上生长的递归几何树，我们也看到了一种把递归引入固体物理学理论的方法。现在我们来换一种眼光，在这种眼光下，整个世界都
-是建立
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0187.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+G图：一个递归图形
+\end_layout
+
+\end_inset
+
+G图：一个递归图形，显示了一个磁场中理想晶体里的电子的能量带。
+\begin_inset Formula $\alpha$
+\end_inset
+
+代表磁场强度，沿垂直方向从0到1。能量是沿水平方向的。水平的线段是所允许的电子能量带。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+我们在语言的语法中看到了递归，我们看到了永远向上生长的递归几何树，我们也看到了一种把递归引入固体物理学理论的方法。现在我们来换一种眼光，在这种眼光下，整个世界都
+是建立
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
 186
 \end_layout
 
-\begin_layout Standard
-图34．G图：一个递归图形，显示了一个磁场中理想晶体里的电子的能量带。a代表磁场强度，沿垂直方向从0到1。能量是沿水平方向的。水平的线段是所允许的电子能量带。
-\end_layout
+\end_inset
 
-\begin_layout Standard
-在递归之上的。这涉及到了基本粒子的结构：电子、质子、中子、以144及被称作“光子”的微小的电磁辐射量子。我们将看到，粒子——精确的说法要用到相对论量子力学——是
-彼此嵌套的，对之可用递归来描述，甚至可用某种“语法”来描述。
+在递归之上的。这涉及到了基本粒子的结构：电子、质子、中子、以及被称作“光子”的微小的电磁辐射量子。我们将看到，粒子——精确的说法要用到相对论量子力学——是彼此嵌
+套的，对之可用递归来描述，甚至可用某种“语法”来描述。
 \end_layout
 
 \begin_layout Standard
@@ -1404,8 +1507,18 @@ G图显示出了这个分布。水平轴代表能量，垂直轴代表上面提�
 \end_layout
 
 \begin_layout Standard
-当相互作用的“开关”被“打开”时，粒子就象函数F和M、或187者说两个结了婚的人那样纠缠在一起。这些实际的粒子称为“重正化了的”——一个丑陋但却有启发性的术语。
-结果是，一个粒子如果不涉及所有其它粒子就无法给出定义，而其它粒子的定义反过来又要靠最初那个粒子，等等。这样转来转去，构成了一个永不停止的循环。
+当相互作用的“开关”被“打开”时，粒子就象函数F和M、或
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+187
+\end_layout
+
+\end_inset
+
+者说两个结了婚的人那样纠缠在一起。这些实际的粒子称为“重正化了的”——一个丑陋但却有启发性的术语。结果是，一个粒子如果不涉及所有其它粒子就无法给出定义，而其它粒
+子的定义反过来又要靠最初那个粒子，等等。这样转来转去，构成了一个永不停止的循环。
 \end_layout
 
 \begin_layout Standard
@@ -1436,8 +1549,17 @@ A点传到B点，就象芝诺在我那《三部创意曲》里所做的那样。
 
 \begin_layout Standard
 光子”——出现之后还未被看到就消失掉的光子。我们这样表示这个过程：当我们的电子传播时，它可以一个接一个地放射和再吸收光‘子，它甚至可以嵌套这一过程，如下所示：与
-这些图案——“费因曼图案”——相对应的数学表达式很容易写下来，但它们比裸电子的表达式难计算一些。真正使事情复杂化的是光子（实的或虚的）能在瞬188间里衰变成一对
-正负电子。然后这一对电子相互湮灭，原来的光子魔术般又出现了。下面是这种过程的示意：电子有一个指向右边的箭头，而正电子的箭头是指向左边。
+这些图案——“费因曼图案”——相对应的数学表达式很容易写下来，但它们比裸电子的表达式难计算一些。真正使事情复杂化的是光子（实的或虚的）能在瞬
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+188
+\end_layout
+
+\end_inset
+
+间里衰变成一对正负电子。然后这一对电子相互湮灭，原来的光子魔术般又出现了。下面是这种过程的示意：电子有一个指向右边的箭头，而正电子的箭头是指向左边。
 \end_layout
 
 \begin_layout Standard
@@ -1459,7 +1581,17 @@ A点传到B点，就象芝诺在我那《三部创意曲》里所做的那样。
 \end_layout
 
 \begin_layout Standard
-这些图案有一种“语法”，使得只有某些特定的图案能在自然189界中实现。比如，下面这种图案就是不可能的：
+这些图案有一种“语法”，使得只有某些特定的图案能在自然
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+189
+\end_layout
+
+\end_inset
+
+界中实现。比如，下面这种图案就是不可能的：
 \end_layout
 
 \begin_layout Standard
@@ -1484,8 +1616,18 @@ A点传到B点，就象芝诺在我那《三部创意曲》里所做的那样。
 \end_layout
 
 \begin_layout Standard
-重正化不仅发生在电子与光子中。只要是粒子之间的相互作用，无论是什么类型的粒子，物理学家都用重正化的概念来理解所190发生的现象。于是，质子、中子、中微子、兀介子
-和夸克——亚核子动物园中所有的动物——它们在物理理论中都有裸的和重正化的形式。这些成千上万的泡泡套着的泡泡们就组成了这个光怪陆离的世界。
+重正化不仅发生在电子与光子中。只要是粒子之间的相互作用，无论是什么类型的粒子，物理学家都用重正化的概念来理解所
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+190
+\end_layout
+
+\end_inset
+
+发生的现象。于是，质子、中子、中微子、兀介子和夸克——亚核子动物园中所有的动物——它们在物理理论中都有裸的和重正化的形式。这些成千上万的泡泡套着的泡泡们就组成了
+这个光怪陆离的世界。
 \end_layout
 
 \begin_layout Subsection*
@@ -1499,6 +1641,41 @@ A点传到B点，就象芝诺在我那《三部创意曲》里所做的那样。
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement t
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0192.jpg
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+色和鳞，艾舍尔作（木刻，1959）。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 一个东西的部分是这个东西自身的副本，这一想法被艾舍尔用在了他的作品中：木刻《鱼和鳞》（图36）。当然，只有在足够抽象的层面上来看这些鱼和鳞时，它们才是一样的。人
 人都知道一条鱼的鳞并不真是这条鱼的小副本，一条鱼的细胞也不是这条鱼小副本，然而，一条鱼的DNA（存在于这条鱼的每个细胞中）的确是整个这条鱼的一个极其复杂的“副本
 ”——所以艾舍尔的画中的确是含有不少真理的。
@@ -1508,35 +1685,65 @@ A点传到B点，就象芝诺在我那《三部创意曲》里所做的那样。
 所有蝴蝶的相同之处”是什么？一个蝴蝶到另一个蝴蝶的映射并非把细胞映射到细胞，而是把功能块映射到功能块，其中，部分是宏观的，部分是微观的。映射所保持的不是功能块之
 间的精确比例，而是它们之间的功能关系。这就是在艾舍尔的木刻《蝴蝶》（图37）中把所有的蝴蝶联系在一起的那种同构。G图中更抽象的蝴蝶也是这样，它们通过一个数学映射
 而联系在一起，那个映射把
-\end_layout
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 191
 \end_layout
 
-\begin_layout Standard
-图36.色和鳞，艾舍尔作（木刻，1959）。
+\end_inset
+
+功能块对应到功能块，但完全不理会线条的比例、角度等等。
 \end_layout
 
 \begin_layout Standard
-功能块对应到功能块，但完全不理会线条的比例、角度等等。
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0193.jpg
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+蝴蝶，艾舍尔作（木刻，1950）。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 把这种对同一性的探讨提高到更为抽象的层面上，我们便可以问这样一个问题：¨对于所有艾舍尔的画，这种‘同一’是在哪里？”试图在它们的片段之间寻找映射是荒谬的。令人惊
 异的是：即便艾舍尔作品或巴赫作品的极小的一部分也揭示出了某种同一性。就象一条鱼的DNA包含了这条鱼的每一细微末节一样，每个艺术家的“署名”也都被包含在他作品中的
 每一细部。我们不知该
-\end_layout
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 192
 \end_layout
 
-\begin_layout Standard
-图37．蝴蝶，艾舍尔作（木刻，1950）。
-\end_layout
+\end_inset
 
-\begin_layout Standard
 把这个叫做什么，只好说“风格”——一个模糊而难以捉摸的词。
 \end_layout
 
@@ -1549,7 +1756,17 @@ A点传到B点，就象芝诺在我那《三部创意曲》里所做的那样。
 \end_layout
 
 \begin_layout Standard
-这种探讨将在本书中一再出现。我们将从各个不同的角度来提出这个问题，最终，我们会看到，这个简单的问题与智能的性质有着多么深刻的联系。193
+这种探讨将在本书中一再出现。我们将从各个不同的角度来提出这个问题，最终，我们会看到，这个简单的问题与智能的性质有着多么深刻的联系。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+193
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1571,13 +1788,23 @@ A点传到B点，就象芝诺在我那《三部创意曲》里所做的那样。
 \begin_layout Standard
 举一个例子。一种最简单的测试自然数N是否素数的方法是：一开始，把N用2除，然后用3、4、5等等去除，一直到N-1。如果N通过了所有这些测试，没有被整除，那么它是
 素数。注意，循环中的每一步都与其它步相似，却又不尽相同。还要注意，共有多少步是随N的大小而变化的——因此一个固定长的循环决不可能成为对素数性的一个一般的测试。使
-这个循环“终止”的准则有两个：（1）有某个数整除了N，这时回答“NO"并退出循环；（2）除数一直到了N-1，而N通过了所有测试，这时回答“YES"并退出。194
+这个循环“终止”的准则有两个：（1）有某个数整除了N，这时回答“NO”并退出循环；（2）除数一直到了N-1，而N通过了所有测试，这时回答“YES”并退出。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+194
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 于是，循环的一般想法就是：一遍又一遍地执行某些相互有关联的步骤，当遇到指定的条件时就终止。有些时候，一个循环至多有多少步预先就会知道；另一些时候，只是开动起来，
 等着，直到它终止。第二种类型的循环——我称之为“自由循环”——是很危险的，因为使循环终止的情况可能永远不会出现，而把计算机丢在所谓“无限循环”的状态中。有界循环
-与自由循环之间的差别是计算机科学中最重要的概念之一，我们将来会用一整章来讨论它：“BlooP和FlooP和GlooP"。
+与自由循环之间的差别是计算机科学中最重要的概念之一，我们将来会用一整章来讨论它：“BlooP和FlooP和GlooP”。
 \end_layout
 
 \begin_layout Standard
@@ -1594,7 +1821,17 @@ A点传到B点，就象芝诺在我那《三部创意曲》里所做的那样。
 
 \begin_layout Standard
 比循环更一般化的概念是“子程序”或“过程一，对之我们已略有讨论。其基本思想是把一组操作集在一起，起个名字，当做一个整体——例如花哨名词过程。我们已在RTN中看到
-，过程可以彼此按名字调用，借此可以简明地表示出要执行的操作序列。这是程序设计中模块化的实质所在。很明显，到处都能找到模块化现象：195
+，过程可以彼此按名字调用，借此可以简明地表示出要执行的操作序列。这是程序设计中模块化的实质所在。很明显，到处都能找到模块化现象：
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+195
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1615,9 +1852,19 @@ TN）。如果让你按照一部由迁移网写出的语法，用一些单独的
 \begin_layout Standard
 带参数的递归程序的经典例子，是一个在下棋时每次都选择“最佳”的一步棋的程序。最佳的一步棋该是把对手置于最难受境地的一步棋。所以，检验一步棋是不是好棋的办法就是：
 假设你已走了这步棋，然后从你对手的角度来审视棋盘上的局面。那么你的对手会采取什么行动呢？他嘛，他要找他的最佳一步’棋。也就是，他要考虑所有可能的棋步，并以在他看
-来足你的眼光来衡量一番，1 51希望找出对你最为不利的走法。注意，我们现在对“最佳一步棋”的定义是递归的，就用这么一个准则：对一方来说是最好的，对另一方来说就是
-最坏的。寻找最佳棋步的递归过程就是这么运转，先试着走一步，然后从对手的角度调用自己！这么做的时候，它试走了下一步，于是又从对手的对手的角度调用自己——又是它自己
-的角度了！196
+来足你的眼光来衡量一番，希望找出对你最为不利的走法。注意，我们现在对“最佳一步棋”的定义是递归的，就用这么一个准则：对一方来说是最好的，对另一方来说就是最坏的。
+寻找最佳棋步的递归过程就是这么运转，先试着走一步，然后从对手的角度调用自己！这么做的时候，它试走了下一步，于是又从对手的对手的角度调用自己——又是它自己的角度了
+！
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+196
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1643,32 +1890,55 @@ TN）。如果让你按照一部由迁移网写出的语法，用一些单独的
 \end_layout
 
 \begin_layout Standard
-本章中的递归过程与前一章中的递归集是什么关系？这涉及到“递归可枚举”的概念。一个集合是r.
- e.的意思是它可以通过推理规则的重复使用从一集出发点（公理）之中产生出来。这样，这
-\end_layout
-
-\begin_layout Standard
-197
-\end_layout
-
-\begin_layout Standard
 图38．三子棋开始两步的超前搜索树。
 \end_layout
 
 \begin_layout Standard
+本章中的递归过程与前一章中的递归集是什么关系？这涉及到“递归可枚举”的概念。一个集合是r.
+\begin_inset space \space{}
+\end_inset
+
+e.的意思是它可以通过推理规则的重复使用从一集出发点（公理）之中产生出来。这样，这
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+197
+\end_layout
+
+\end_inset
+
 个集合不断扩充，每个新的元素都是由已有的元素复合而成，就象一个“数学雪球”似的。但这恰恰就是递归的实质——定义一个东西时，使用它自己的较为简单些的版本，而非直截
 了当地给出它的定义。斐波那契数和卢卡斯数是r.
- e.
- 集的极好例子——用一条递归规则把两个元素滚雪球式地滚成无穷的集。把一个其补集也是r.
- e.集的r.
- e.集称作“递归的”，这仅仅是个约定。
+\begin_inset space \space{}
+\end_inset
+
+e.集的极好例子——用一条递归规则把两个元素滚雪球式地滚成无穷的集。把一个其补集也是r.
+\begin_inset space \space{}
+\end_inset
+
+e.集的r.
+\begin_inset space \space{}
+\end_inset
+
+e.集称作“递归的”，这仅仅是个约定。
 \end_layout
 
 \begin_layout Standard
 递归枚举是个过程，其中新的东西按照一定的规则从已有的东西中产生出来。这种过程看上去似乎有许多令人惊奇的事情——比如Q序列的不可预测性。就好象那种类型的递归定义序
 列其行为具有内在的不断增加的复杂性，以至于走得越远，可预测性就越少。这种思想再向前推进一步，就提示我们：复杂到一定程度的递归系统，其能力可能会强有力得足够打破任
 何事先规定下来的模式。这不就是使智能成其为智能的性质之一吗？与其仅仅考虑由可以递归地调用自身的过程组成的程序，为什么不考虑得更复杂一些，设计出可以修改自身的程序
-——可以作用于程序本身，扩展、改进、推广、加固程序的程序？智能的核心之处大概就是这种198“交织的递归”之所在。
+——可以作用于程序本身，扩展、改进、推广、加固程序的程序？智能的核心之处大概就是这种
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+198
+\end_layout
+
+\end_inset
+
+“交织的递归”之所在。
 \end_layout
 
 \begin_layout Section-toc*
@@ -2230,7 +2500,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-乌龟： 如果你仔细研究研究它们，阿基，你会发现两者间存在着某种联系。让我说明一下：若是你把曲子“B-A-C-H"中各音的间距列出来，会得到什么呢？
+乌龟： 如果你仔细研究研究它们，阿基，你会发现两者间存在着某种联系。让我说明一下：若是你把曲子“B-A-C-H”中各音的间距列出来，会得到什么呢？
 \end_layout
 
 \begin_layout Labeling
@@ -2257,7 +2527,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-乌龟： 非常正确。那么，“C-A-G-E"呢？
+乌龟： 非常正确。那么，“C-A-G-E”呢？
 \end_layout
 
 \begin_layout Labeling

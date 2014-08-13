@@ -535,7 +535,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-现在我们来正式地区分两类囹形：流畅可画出的和倍流畅的
+现在我们来正式地区分两类图形：流畅可画出的和倍流畅的
 \begin_inset Note Comment
 status open
 
@@ -550,7 +550,6 @@ status open
 
 \begin_layout Standard
 \begin_inset Float figure
-placement t
 wide false
 sideways false
 status open
@@ -559,7 +558,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0091.jpg
 	lyxscale 50
-	scale 30
+	width 90text%
 
 \end_inset
 
@@ -590,13 +589,13 @@ status open
 lines 0
 placement L
 overhang 0in
-width "65col%"
+width "45col%"
 status open
 
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0092.jpg
-	scale 32
+	scale 25
 
 \end_inset
 
