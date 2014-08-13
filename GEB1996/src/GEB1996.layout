@@ -165,7 +165,7 @@ Preamble
     \counterwithout{figure}{section}
     
     \renewcommand{\thefigure}{\arabic{figure}}
-    \RequirePackage[font=footnotesize,labelsep=quad]{caption}
+    \RequirePackage[format=hang,font=footnotesize,labelsep=period]{caption}
 
     \setlength{\abovecaptionskip}{1ex} %caption和图像之间的距离
     \setlength{\belowcaptionskip}{-3ex} %caption和下方文字的距离

@@ -4,7 +4,7 @@ Columns                 1
 Sides                   1
 PageStyle               Headers
 #Provides natbib-internal   1
-#Provides url       1
+#Provides url           1
 
 Input stdclass.inc
 Preamble
@@ -116,6 +116,7 @@ Preamble
     \RequirePackage{CJKfntef}
     % \CJKunderdot{中文}
 
+
     % 中文文档习惯
     \renewcommand{\contentsname}{目录}
     \renewcommand{\listfigurename} {插图目录}
@@ -126,10 +127,9 @@ Preamble
     \renewcommand{\tablename}{表}
     \renewcommand{\figurename}{图}
 
+    \RequirePackage[font=small,labelsep=quad]{caption}
     % 图的编号改成 1.1 的方式，清零用“\setcounter{figure}{0}”
     \renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
-    \RequirePackage[font=small,labelsep=quad]{caption}
-
     \setlength{\abovecaptionskip}{0ex} %caption和图像之间的距离
     \setlength{\belowcaptionskip}{-3ex} %caption和下方文字的距离
 
@@ -621,17 +621,20 @@ Style 性质
 End
 
 Style 例*
-        CopyStyle Example
+    CopyStyle             Example
+    Category              Unnumbered
     LatexType             Environment
     LatexName             example*
     LabelType             Static
     LabelString           "例"
+    LabelCounter          ""
     Preamble
     EndPreamble
 End
 
 Style 注*
-        CopyStyle Example
+    CopyStyle             例*
+    Category              Unnumbered
     LatexType             Environment
     LatexName             remark*
     LabelType             Static
@@ -641,7 +644,8 @@ Style 注*
 End
 
 Style 审题*
-        CopyStyle Example
+    CopyStyle             例*
+    Category              Unnumbered
     LatexType             Environment
     LatexName             analyse*
     LabelType             Static
@@ -651,7 +655,8 @@ Style 审题*
 End
 
 Style 注意*
-        CopyStyle Example
+    CopyStyle             例*
+    Category              Unnumbered
     LatexType             Environment
     LatexName             notice*
     LabelType             Static
@@ -661,7 +666,8 @@ Style 注意*
 End
 
 Style 解*
-        CopyStyle Example
+    CopyStyle             例*
+    Category              Unnumbered
     LatexType             Environment
     LatexName             answer*
     LabelType             Static
@@ -671,7 +677,8 @@ Style 解*
 End
 
 Style 解1*
-        CopyStyle Example
+    CopyStyle             例*
+    Category              Unnumbered
     LatexType             Environment
     LatexName             answeri*
     LabelType             Static
@@ -681,7 +688,8 @@ Style 解1*
 End
 
 Style 解2*
-        CopyStyle Example
+    CopyStyle             例*
+    Category              Unnumbered
     LatexType             Environment
     LatexName             answerii*
     LabelType             Static
@@ -691,7 +699,8 @@ Style 解2*
 End
 
 Style 解3*
-        CopyStyle Example
+    CopyStyle             例*
+    Category              Unnumbered
     LatexType             Environment
     LatexName             answeriii*
     LabelType             Static
@@ -701,7 +710,8 @@ Style 解3*
 End
 
 Style 查表*
-        CopyStyle Example
+    CopyStyle             例*
+    Category              Unnumbered
     LatexType             Environment
     LatexName             checktable*
     LabelType             Static
@@ -711,7 +721,8 @@ Style 查表*
 End
 
 Style 说明*
-        CopyStyle Example
+    CopyStyle             例*
+    Category              Unnumbered
     LatexType             Environment
     LatexName             explain*
     LabelType             Static
@@ -721,7 +732,8 @@ Style 说明*
 End
 
 Style 检验*
-        CopyStyle Example
+    CopyStyle             例*
+    Category              Unnumbered
     LatexType             Environment
     LatexName             verify*
     LabelType             Static
