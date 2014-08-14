@@ -608,7 +608,7 @@ status collapsed
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -649,7 +649,7 @@ status collapsed
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -683,7 +683,7 @@ status collapsed
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -1527,7 +1527,46 @@ A点传到B点，就象芝诺在我那《三部创意曲》里所做的那样。
 \end_layout
 
 \begin_layout Standard
-图35一①
+\begin_inset Wrap figure
+lines 0
+placement L
+overhang 0in
+width "51col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0188-1.png
+	lyxscale 50
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+图 35-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+footnotesize{1}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1535,21 +1574,102 @@ A点传到B点，就象芝诺在我那《三部创意曲》里所做的那样。
 \end_layout
 
 \begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement L
+overhang 0in
+width "51col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0188-2.png
+	lyxscale 50
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+图 35-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+footnotesize{2}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 现在让我们“打开”电磁相互作用的开关，让电子和光子相互作用。虽然光子没出现，还是有一些很有价值的结果，即使是在这么简单的轨道上。特别是，我们的电子现在变得能够放
-射、吸收“虚
+射、吸收“虚光子”——出现之后还未被看到就消失掉的光子。我们这样表示这个过程：
 \end_layout
 
 \begin_layout Standard
-图35-②
+\begin_inset Wrap figure
+lines 0
+placement L
+overhang 0in
+width "51col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0188-3.png
+	lyxscale 50
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+图 35-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+footnotesize{3}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-图35-③
+当我们的电子传播时，它可以一个接一个地放射和再吸收光子，它甚至可以嵌套这一过程，如下所示：
 \end_layout
 
 \begin_layout Standard
-光子”——出现之后还未被看到就消失掉的光子。我们这样表示这个过程：当我们的电子传播时，它可以一个接一个地放射和再吸收光‘子，它甚至可以嵌套这一过程，如下所示：与
-这些图案——“费因曼图案”——相对应的数学表达式很容易写下来，但它们比裸电子的表达式难计算一些。真正使事情复杂化的是光子（实的或虚的）能在瞬
+与这些图案——“费因曼图案”——相对应的数学表达式很容易写下来，但它们比裸电子的表达式难计算一些。真正使事情复杂化的是光子（实的或虚的）能在瞬
 \begin_inset Note Comment
 status open
 
@@ -1563,21 +1683,111 @@ status open
 \end_layout
 
 \begin_layout Standard
-读者或许已经预料到，这些虚的过程可以嵌套到任意深度。这可以产生出一些看起来
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "51col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0189-1.png
+	lyxscale 50
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+图 35-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+footnotesize{4}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-图35一④
+读者或许已经预料到，这些虚的过程可以嵌套到任意深度。这可以产生出一些看起来非常复杂的图案，如图35。在费因曼图案中，一个电子从A的左边进入，演出一些惊人的杂技，
+之后一个电子在B的右边出现。对于一个看不出内情的观察者，似乎是一个电子从A平平安安地滑行到B,没有那些内部的混乱。在图案中，读者可以看到电子的曲线是怎样被随意地
+装饰，光子也是一样。要计算这个图案是非常之困难的。
 \end_layout
 
 \begin_layout Standard
-非常复杂的图案，如图35。在费因曼图案中，一个电子从A的左边进入，演出一些惊人的杂技，之后一个电子在B的右边出现。对于一个看不出内情的观察者，似乎是一个电子从A
-平平安安地滑行到B,没有那些内部的混乱。在图案中，读者可以看到电子的曲线是怎样被随意地装饰，光子也是一样。要计算这个图案是非常之困难的。
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0189-2.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-图35-⑤．一个费因曼图案，表示出重正化了的电子从A到B的传播。图中，时间从左向右增加，因此，在电子的箭头指向左边的片段中，它的移动是“与时间反向的”。更为直观
-的说法是，反电子（正电子）在正向的（即正常的）时间中移动。光子的反粒子是它们自己，因此它们的曲线无须箭头。
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+一个费因曼图案，表示出重正化了的电子
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+footnotesize{5}}
+\end_layout
+
+\end_inset
+
+一个费因曼图案，表示出重正化了的电子从A到B的传播。图中，时间从左向右增加，因此，在电子的箭头指向左边的片段中，它的移动是“与时间反向的”。更为直观的说法是，反
+电子（正电子）在正向的（即正常的）时间中移动。光子的反粒子是它们自己，因此它们的曲线无须箭头。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1595,7 +1805,46 @@ status open
 \end_layout
 
 \begin_layout Standard
-图35-⑥
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "51col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0190.png
+	lyxscale 50
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+图 35-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+footnotesize{6}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1612,7 +1861,15 @@ status open
 \begin_layout Standard
 粒子物理学家们发现这种复杂程度太难以把握了，因此，为了理解电子和光子的行为，他们使用除了简单的费因曼图案别的都不考虑的逼近方法。幸运的是，一个图案越是复杂，它的
 贡献也就越不重要。目前，还没有一种已知的方法能把所有无穷多种呵能的图案综合起来，从而得到一个完全重正化的实际电子行为的表达式。但通过在某种物理过程中大致地考虑一
-百个最简单的图案，物理学家们已经能够预测所谓u介子的g因子的值了——精确到小数点后九位！
+百个最简单的图案，物理学家们已经能够预测所谓
+\begin_inset Formula $\mu$
+\end_inset
+
+介子的
+\begin_inset Formula $g$
+\end_inset
+
+因子的值了——精确到小数点后九位！
 \end_layout
 
 \begin_layout Standard
@@ -1682,22 +1939,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-所有蝴蝶的相同之处”是什么？一个蝴蝶到另一个蝴蝶的映射并非把细胞映射到细胞，而是把功能块映射到功能块，其中，部分是宏观的，部分是微观的。映射所保持的不是功能块之
-间的精确比例，而是它们之间的功能关系。这就是在艾舍尔的木刻《蝴蝶》（图37）中把所有的蝴蝶联系在一起的那种同构。G图中更抽象的蝴蝶也是这样，它们通过一个数学映射
-而联系在一起，那个映射把
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-191
-\end_layout
-
-\end_inset
-
-功能块对应到功能块，但完全不理会线条的比例、角度等等。
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1732,6 +1973,22 @@ status open
 \end_layout
 
 \begin_layout Standard
+所有蝴蝶的相同之处”是什么？一个蝴蝶到另一个蝴蝶的映射并非把细胞映射到细胞，而是把功能块映射到功能块，其中，部分是宏观的，部分是微观的。映射所保持的不是功能块之
+间的精确比例，而是它们之间的功能关系。这就是在艾舍尔的木刻《蝴蝶》（图37）中把所有的蝴蝶联系在一起的那种同构。G图中更抽象的蝴蝶也是这样，它们通过一个数学映射
+而联系在一起，那个映射把
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+191
+\end_layout
+
+\end_inset
+
+功能块对应到功能块，但完全不理会线条的比例、角度等等。
+\end_layout
+
+\begin_layout Standard
 把这种对同一性的探讨提高到更为抽象的层面上，我们便可以问这样一个问题：¨对于所有艾舍尔的画，这种‘同一’是在哪里？”试图在它们的片段之间寻找映射是荒谬的。令人惊
 异的是：即便艾舍尔作品或巴赫作品的极小的一部分也揭示出了某种同一性。就象一条鱼的DNA包含了这条鱼的每一细微末节一样，每个艺术家的“署名”也都被包含在他作品中的
 每一细部。我们不知该
@@ -1751,11 +2008,15 @@ status open
 我们会继续不断地探讨“异中之同”，以及下面这个问题
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
+\begin_inset space \qquad{}
+\end_inset
+
 什么时候两个东西是一样的？
 \end_layout
 
 \begin_layout Standard
+\noindent
 这种探讨将在本书中一再出现。我们将从各个不同的角度来提出这个问题，最终，我们会看到，这个简单的问题与智能的性质有着多么深刻的联系。
 \begin_inset Note Comment
 status open
@@ -1831,10 +2092,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 高保真音响系统、机械装置、生物体的细胞、人类社会——在任何有层次组织的地方。
 \end_layout
 
@@ -1851,10 +2108,9 @@ TN）。如果让你按照一部由迁移网写出的语法，用一些单独的
 
 \begin_layout Standard
 带参数的递归程序的经典例子，是一个在下棋时每次都选择“最佳”的一步棋的程序。最佳的一步棋该是把对手置于最难受境地的一步棋。所以，检验一步棋是不是好棋的办法就是：
-假设你已走了这步棋，然后从你对手的角度来审视棋盘上的局面。那么你的对手会采取什么行动呢？他嘛，他要找他的最佳一步’棋。也就是，他要考虑所有可能的棋步，并以在他看
-来足你的眼光来衡量一番，希望找出对你最为不利的走法。注意，我们现在对“最佳一步棋”的定义是递归的，就用这么一个准则：对一方来说是最好的，对另一方来说就是最坏的。
-寻找最佳棋步的递归过程就是这么运转，先试着走一步，然后从对手的角度调用自己！这么做的时候，它试走了下一步，于是又从对手的对手的角度调用自己——又是它自己的角度了
-！
+假设你已走了这步棋，然后从你对手的角度来审视棋盘上的局面。那么你的对手会采取什么行动呢？他嘛，他要找他的最佳一步棋。也就是，他要考虑所有可能的棋步，并以在他看来
+足你的眼光来衡量一番，希望找出对你最为不利的走法。注意，我们现在对“最佳一步棋”的定义是递归的，就用这么一个准则：对一方来说是最好的，对另一方来说就是最坏的。寻
+找最佳棋步的递归过程就是这么运转，先试着走一步，然后从对手的角度调用自己！这么做的时候，它试走了下一步，于是又从对手的对手的角度调用自己——又是它自己的角度了！
 \begin_inset Note Comment
 status open
 
@@ -1870,8 +2126,42 @@ status open
 \begin_layout Standard
 这样的递归可以深入到好几层——但总是要在什么地方终了的！不向前看的话，怎么才能衡量棋局呢？这里有不少有用的准则，比如：简单地数一数各方都有多少棋子，受攻击的棋子
 有多少、都是什么类型的，对中路的控制，等等。以这种衡量方法为基础，递归棋步生成器就可以向上弹回到顶层，给出对不同棋步的估价。于是，自调用时必须要有一个参数指明要
-向前看多少步。过程的最外层调用使用这个参数的某个从外部输入的值c那之后？过程每次递归地调用自己时，它必须把它的向前看参数减少1。这样下去，参数达到零时，过程就转
+向前看多少步。过程的最外层调用使用这个参数的某个从外部输入的值。那之后，过程每次递归地调用自己时，它必须把它的向前看参数减少1。这样下去，参数达到零时，过程就转
 向另外的通道——即进行非递归计算。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0198.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+三子棋开始两步的超前搜索树。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1881,16 +2171,17 @@ status open
 世畀冠军。可是，十年过去之后，计算机要成为世界冠军似乎还要再过十年……这不过是下面这个递归化的定律的又一例证：
 \end_layout
 
-\begin_layout Standard
-侯世达定律：做事所花费的时间总是比你预期的要长，即使你的预期中考虑了侯世达定律。
+\begin_layout Labeling
+\labelwidthstring 侯世达定律：：
+
+\family typewriter
+侯世达定律：
+\family default
+ 做事所花费的时间总是比你预期的要长，即使你的预期中考虑了侯世达定律。
 \end_layout
 
 \begin_layout Subsection*
 递归与不可预期性
-\end_layout
-
-\begin_layout Standard
-图38．三子棋开始两步的超前搜索树。
 \end_layout
 
 \begin_layout Standard
@@ -1949,7 +2240,7 @@ status open
 \begin_inset space \qquad{}
 \end_inset
 
-阿基里斯和乌龟刚刚在城里最好的中餐馆吃过一顿美味的中餐D
+阿基里斯和乌龟刚刚在城里最好的中餐馆吃过一顿美味的中餐。
 \end_layout
 
 \begin_layout Labeling
@@ -2315,8 +2606,11 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-乌龟： 这问题我问过螃蟹。他只是建议我来试验一下。于是我从口袋里掏出一枚五分硬币（用一枚五分硬币你可以选三首歌），把它塞进投币槽里，先揿动B-1按钮，然后是C-
-3、B-10——这全都是随意的。
+乌龟： 这问题我问过螃蟹。他只是建议我来试验一下。于是我从口袋里掏出一枚五分硬币（
+\family sans
+用一枚五分硬币你可以选三首歌
+\family default
+），把它塞进投币槽里，先揿动B-1按钮，然后是C-3、B-10——这全都是随意的。
 \end_layout
 
 \begin_layout Labeling
@@ -2333,9 +2627,33 @@ status open
 \end_layout
 
 \begin_deeper
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-图e -①
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0202.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+图 e-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+footnotesize{1}}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -2415,24 +2733,33 @@ status open
 \end_layout
 
 \begin_deeper
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-一、
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0203.png
+	width 40text%
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-_+三E王
+\begin_layout CenterLine
+图 e-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+footnotesize{2}}
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-季i至 |
-\end_layout
+\end_inset
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-图e一②
+
 \end_layout
 
 \end_deeper
@@ -2603,9 +2930,33 @@ status open
 \end_layout
 
 \begin_deeper
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-图e一③
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0204.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+图 e-
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+footnotesize{3}}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Labeling
@@ -2627,7 +2978,11 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-它可以通过由CAGE再乘以3÷，并取最近的整数得到。
+它可以通过由CAGE再乘以
+\begin_inset Formula $3\cfrac{1}{3}$
+\end_inset
+
+，并取最近的整数得到。
 \end_layout
 
 \end_deeper

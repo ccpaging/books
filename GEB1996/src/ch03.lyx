@@ -595,7 +595,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0092.jpg
-	scale 25
+	width 44col%
 
 \end_inset
 
