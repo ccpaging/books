@@ -1082,7 +1082,20 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-这个巨大的非周期性晶体结掏是噬菌体
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+噬菌体
+\begin_inset Formula $\varphi X174$
+\end_inset
+
+染色体的碱基序列
+\end_layout
+
+\end_inset
+
+这个巨大的非周期性晶体结构是噬菌体
 \begin_inset Formula $\varphi X174$
 \end_inset
 

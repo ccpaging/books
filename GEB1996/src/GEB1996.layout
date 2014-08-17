@@ -13,12 +13,15 @@ Preamble
     \special{papersize=9cm,12cm}
     \RequirePackage{xkeyval}
     
+    \RequirePackage{amssymb} %this package conflicts with xeCJK, place it before xeCJK to avoid the coflict.
+    
     %\setmainfont{SimSun-18030}
     %\setsansfont{Komika Text}
 
     \setmainfont{Times New Roman}
 
     % 设置字体
+    \RequirePackage{xltxtra,fontspec,xunicode}
     \RequirePackage[boldfont,slantfont,CJKnumber,CJKchecksingle,fallback]{xeCJK} % 允许粗体,斜体,支持\CJKnumber{\thechapter}
     
     % CJK 全局选项

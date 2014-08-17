@@ -589,13 +589,13 @@ status open
 lines 0
 placement L
 overhang 0in
-width "45col%"
+width "45text%"
 status open
 
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0092.jpg
-	width 44col%
+	width 40text%
 
 \end_inset
 
@@ -1058,20 +1058,6 @@ status open
 \end_inset
 
 阿基里斯来拜访乌龟，看到乌龟家里有许多唱片。
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{}
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Labeling
