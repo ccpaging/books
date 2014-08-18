@@ -586,10 +586,7 @@ status open
 到y所得的每一样东西（包括X和y在内）都是幻想，x是幻想的前提，而y是幻想的结果。下一步是从幻想中跳出来，这时，我们可以肯定的是
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 假如x是一个定理，那么y就会是一个定理。
 \end_layout
 
@@ -599,11 +596,7 @@ status open
 到此，你也许会奇怪：真正的定理在哪里呢？真正的定理是这个串
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
-
+\begin_layout Quotation
 \begin_inset Formula $<x\rightarrow y>$
 \end_inset
 
@@ -743,11 +736,16 @@ status open
 这个幻想说明：
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
+\begin_layout Quotation
+假如
+\begin_inset Formula $P$
 \end_inset
 
-假如P是一个定理，那么～～P也就是一个定理。
+是一个定理，那么
+\begin_inset Formula $\sim\sim P$
+\end_inset
+
+也就是一个定理。
 \end_layout
 
 \begin_layout Standard
@@ -1382,10 +1380,7 @@ status open
 这个良构串就可以解释成复合句
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 心是佛，并且心不是佛。
 \end_layout
 
@@ -1397,14 +1392,11 @@ status open
 。如果我们保持对P作同样的解释，我们就有如下的解释：
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 若心是佛，
 \end_layout
 
-\begin_layout Quote
+\begin_layout Quotation
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1431,14 +1423,11 @@ status open
 起来就会象下面这样：
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 若心是佛且这块麻重三斤，
 \end_layout
 
-\begin_layout Quote
+\begin_layout Quotation
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1454,21 +1443,18 @@ status open
 。它变成了如下的嵌套的“若—则”句子：
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 若心是佛，
 \end_layout
 
-\begin_layout Quote
+\begin_layout Quotation
 \begin_inset space \qquad{}
 \end_inset
 
 则：若这块麻重二斤，
 \end_layout
 
-\begin_layout Quote
+\begin_layout Quotation
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1617,14 +1603,11 @@ status open
 方式明确地表达厂出来，例如，下面这个“禅述”
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 如果你正在学习“道”，
 \end_layout
 
-\begin_layout Quote
+\begin_layout Quotation
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1636,14 +1619,11 @@ status open
 意味着下述同一件事
 \end_layout
 
-\begin_layout Standard
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 如果你接近了“道”，
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 \begin_inset space \qquad{}
 \end_inset
 
@@ -1799,10 +1779,7 @@ status open
 这个新的定理，当它被解释时，是说：
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 或者心是佛，或者心不是佛。
 \end_layout
 
@@ -1833,10 +1810,7 @@ status open
 的半解释就是
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 P或者非P。
 \end_layout
 
@@ -1855,10 +1829,7 @@ P或者非P。
 现在我们可以来做一个更高级的练习，它基于一个称之为“岩头之斧”的禅宗公案。我们看看它是怎样开始的：
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 德山一日谓师[即岩头——译注]曰：“我这里有两僧入山，住庵多时，汝去看他怎生。”师遂将一斧去，见两人在庵内坐。师乃拈起斧曰：”道得也一下斧，道不得也一下斧。”
 \begin_inset Foot
 status open
@@ -2759,10 +2730,7 @@ status open
 
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 二人殊不顾。师掷下斧曰：“作家！作家！”归，举似德山，山曰：“汝道他如何？”师曰：¨洞山门下不道全无，若是德山门下，未梦见在。”
 \begin_inset Foot
 status open
@@ -3872,7 +3840,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-螃蟹卡农”，艾舍尔作。
+“螃蟹卡农”，艾舍尔作。
 \end_layout
 
 \end_inset
@@ -3913,10 +3881,7 @@ status open
 螃蟹卡农
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 周末在公园散步时，乌龟碰巧遇见了阿基里斯。
 \end_layout
 

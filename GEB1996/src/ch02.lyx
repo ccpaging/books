@@ -1347,10 +1347,7 @@ status open
 无伴奏阿基里斯奏鸣曲
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 电话响了，阿基里斯拿起话筒。
 \end_layout
 
@@ -1500,6 +1497,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0082.jpg
+	lyxscale 50
 	width 100text%
 
 \end_inset

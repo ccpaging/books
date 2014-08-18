@@ -371,30 +371,13 @@ Counter enumi
     LabelString     "（\arabic{enumi}）"
 End
 
-Style Quote
-    CopyStyle       Quote
-    LatexType       Environment
-    LatexName       quote_me
-    NextNoIndent    0
-    LeftMargin      MM
-    RightMargin     MM
-    Font
-        Size        small
-    EndFont
-    Preamble
-        \newenvironment{quote_me}
-            {\begin{adjustwidth}{2em}{2em}\small}
-            {\end{adjustwidth}}
-    EndPreamble
-End
-
 # 删除无用的环境列表
 
 NoStyle         Subsubsection
 NoStyle         Subsubsection*
 
-NoStyle         Verse
-NoStyle         Quotation
+#NoStyle         Verse
+#NoStyle         Quotation
 
 NoStyle         Abstract
 NoStyle         Title

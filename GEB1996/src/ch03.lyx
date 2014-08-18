@@ -506,6 +506,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0090.png
+	lyxscale 50
 	scale 30
 
 \end_inset
@@ -595,6 +596,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0092.jpg
+	lyxscale 50
 	width 40text%
 
 \end_inset
@@ -760,6 +762,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:18"
+
+\end_inset
+
+
 \begin_inset Argument 1
 status open
 
@@ -838,10 +847,7 @@ status open
 结果就素数而言我是对的，但对一般情形来说我错了。这使我很吃惊，而且就是到了今天我也仍继续感到吃惊。那是这样一个事实：
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 存在一个形式系统，其负空间（非定理集）不是任何一个
 \begin_inset Note Comment
 status open
@@ -861,10 +867,7 @@ status open
 更为技术性的术语来说，上面的结果就是：
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 存在非递归的递归可枚举集。
 \end_layout
 
@@ -888,10 +891,7 @@ e.”的，意思是它能按照印符规则来生成——例如，C型定理�
 上述结果导致：
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 存在一些形式系统，它们没有用印符规则表述的判定过程。
 \end_layout
 
@@ -929,10 +929,7 @@ e.集的生成方式是以任意的次序添加元素的，因此你永远无法
 ，它与上面谈的事情紧密相关：你能刻划出下面这样的整数集合（或者它的负空间）吗？
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 1 3 7 12 18 26 35 45 56 69 …
 \end_layout
 
@@ -980,10 +977,7 @@ status open
 如果你把这个规则用两次，你就能生成下面这个定理：
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 -----BZC------------
 \end_layout
 
@@ -1053,10 +1047,7 @@ status open
 对位藏头诗
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 阿基里斯来拜访乌龟，看到乌龟家里有许多唱片。
 \end_layout
 

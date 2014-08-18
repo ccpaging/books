@@ -93,7 +93,7 @@ enumitem
 \begin_body
 
 \begin_layout Chapter
-第五章 递归结构和递归过程
+递归结构和递归过程
 \end_layout
 
 \begin_layout Subsection*
@@ -392,10 +392,7 @@ status open
 返回到哪里——然后，我们把注意力转移到豪华名词过程上去。现在，为了生成一个豪华名词，我们必须选择一条通道。假定我们选择上边通道的下面一条通道——其调用顺序是：
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 及物动词，豪华名词，的，花哨名词。
 \end_layout
 
@@ -424,10 +421,7 @@ status open
 ”，然后结点花哨名词，我们设想由它产生的是“努力”。现在，我们到达了结点结束，这样我们就完成了对豪华名词的最外层调用，得到的是短语：
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 “结交朝向逻辑的鼻子的努力”
 \end_layout
 
@@ -1195,12 +1189,6 @@ wide false
 sideways false
 status open
 
-\begin_layout Plain Layout
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0184.png
@@ -1216,33 +1204,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-能用递归替换构造INT的骨架。
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
 \begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-（a）能用递归替换构造INT的骨架
+能用递归替换构造的骨架
 \end_layout
 
 \end_inset
 
-
+（a）能用递归替换构造INT的骨架。
 \end_layout
 
 \end_inset
@@ -1272,35 +1243,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-addtocounter{figure}{-1}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-addtocounter{subfigure}{1}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
 \begin_inset Float figure
 wide false
 sideways false
@@ -1317,42 +1259,14 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Caption Standard
+\begin_layout CenterLine
 
-\begin_layout Plain Layout
-能用递归替换构造G图的骨架。
-\end_layout
-
+\size small
+图33.
+\begin_inset space \space{}
 \end_inset
 
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
 （b）能用递归替换构造G图的骨架。
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -2008,10 +1922,7 @@ status open
 我们会继续不断地探讨“异中之同”，以及下面这个问题
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 什么时候两个东西是一样的？
 \end_layout
 
@@ -2236,10 +2147,7 @@ status open
 音程增值的卡农
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 阿基里斯和乌龟刚刚在城里最好的中餐馆吃过一顿美味的中餐。
 \end_layout
 
