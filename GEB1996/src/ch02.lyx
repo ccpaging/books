@@ -1147,13 +1147,13 @@ status open
 lines 0
 placement R
 overhang 0in
-width "65col%"
+width "50text%"
 status open
 
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0077.jpg
-	scale 38
+	width 45text%
 
 \end_inset
 
