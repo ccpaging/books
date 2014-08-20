@@ -1198,7 +1198,7 @@ status open
 你看出来是为什么了吗？
 \end_layout
 
-\begin_layout Section*
+\begin_layout Subsection*
 这一行中的窍门
 \end_layout
 
@@ -2258,25 +2258,78 @@ TNT中的新规则：特称和概括
 \end_layout
 
 \begin_layout Quotation
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 \begin_inset Formula $\forall a:\sim Sa=0$
 \end_inset
 
 
-\begin_inset space \hfill{}
-\end_inset
-
-公理1
 \end_layout
 
-\begin_layout Quotation
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 \begin_inset Formula $\sim S0=0$
 \end_inset
 
 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \begin_inset space \hfill{}
 \end_inset
 
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+公理1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 特殊
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2350,7 +2403,9 @@ status open
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 互换规则：：
+\noindent
+\align block
 互换规则： 假设u是一个变元。那么串
 \begin_inset Formula $\forall u:\sim$
 \end_inset
@@ -2367,25 +2422,78 @@ status open
 \end_layout
 
 \begin_layout Quotation
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 \begin_inset Formula $\forall a:\sim Sa=0$
 \end_inset
 
 
-\begin_inset space \hfill{}
-\end_inset
-
-公理1
 \end_layout
 
-\begin_layout Quotation
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 \begin_inset Formula $\sim\exists a:Sa=0$
 \end_inset
 
 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \begin_inset space \hfill{}
 \end_inset
 
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+公理1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 互换
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2407,7 +2515,9 @@ status open
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 存在规则：：
+\noindent
+\align block
 存在规则： 假设一个项（可以含有变元，只要是自由的）在一个定理中出现一次或多次。那么，这个项的任何（或者是一些，或者是所有）出现都可以用一个不在定理中出现的变元
 来替代（替代之后当然就在这个定理中出现了），相应的存在量词则必须放在最前面。
 \end_layout
@@ -2417,25 +2527,78 @@ status open
 \end_layout
 
 \begin_layout Quotation
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 \begin_inset Formula $\forall a:\sim Sa=0$
 \end_inset
 
 
-\begin_inset space \hfill{}
-\end_inset
-
-公理1
 \end_layout
 
-\begin_layout Quotation
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 \begin_inset Formula $\exists b:\forall a:\sim Sa=b$
 \end_inset
 
 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \begin_inset space \hfill{}
 \end_inset
 
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+公理1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 存在
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2456,27 +2619,82 @@ status open
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align block
 等号规则：
 \end_layout
 
 \begin_layout Standard
-对称：如果r-s是一个定理，那么s=r同样也是定理。
+对称：如果
+\begin_inset Formula $r=s$
+\end_inset
+
+是一个定理，那么
+\begin_inset Formula $s=r$
+\end_inset
+
+同样也是定理。
 \end_layout
 
 \begin_layout Standard
-传递：如果r -s和S-t都是定理，那么r-t也是定理。后继规则：
+传递：如果
+\begin_inset Formula $r=s$
+\end_inset
+
+和
+\begin_inset Formula $s=t$
+\end_inset
+
+都是定理，那么
+\begin_inset Formula $r=t$
+\end_inset
+
+也是定理。
 \end_layout
 
 \begin_layout Standard
-加S：如果r-t是一个定理，那么Sr—St．是一个定理。
+\noindent
+后继规则：
 \end_layout
 
 \begin_layout Standard
-去S：如果Sr=St是一个定理，那么r-t足一个定理。这些规则能够为我们提供极其丰富的备式各样的定理。比如，下列
+加S：如果
+\begin_inset Formula $r=t$
+\end_inset
+
+是一个定理，那么
+\begin_inset Formula $Sr=St$
+\end_inset
+
+是一个定理。
 \end_layout
 
 \begin_layout Standard
-28 7220推导就产生出一些相当基本的定理：
+去S：如果
+\begin_inset Formula $Sr=St$
+\end_inset
+
+是一个定理，那么
+\begin_inset Formula $r=t$
+\end_inset
+
+是一个定理。
+\end_layout
+
+\begin_layout Standard
+\noindent
+这些规则能够为我们提供极其丰富的备式各样的定理。比如，下列
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\noindent
+287
+\end_layout
+
+\end_inset
+
+推导就产生出一些相当基本的定理：
 \end_layout
 
 \begin_layout Standard
@@ -2513,21 +2731,136 @@ f b：(S0+Sb) =S(S0+b) 特称(S0对a)
 * * * * *(7) V a:(a+0) -a(10) cS0 .
  O)=O(12) S《S0 , O)十O)=S0(14) (S0 .
  S0) =S0公理5特称(S0对a)特称（O对b）公理3特称((S0．O)对a）特称（O对b）公理2特称((S0．o)对a）公理4特称cs0对a）传递（第8、
-1 0行）加S传递（第6、12行）传递（第3、1 3行）一个令人感兴趣的问题是：“怎样为串O=O做一个推导？”看2 88起来，要走的路线显然会是先推出串V
- a：a=a，而然后用特称。那么，下面这个＼ a:a;a的“推导”怎么样……有什么问题吗？你能把修补好吗？
+1 0行）加S传递（第6、12行）传递（第3、1 3行）
+\end_layout
+
+\begin_layout Subsection*
+非法的捷径
 \end_layout
 
 \begin_layout Standard
-(1)．V a：(a+O)=a 公1 2
+一个令人感兴趣的问题是：“怎样为串
+\begin_inset Formula $0=0$
+\end_inset
+
+做一个推导？”看起来，要走的路线显然会是先推出串
+\begin_inset Formula $\forall a:a=a$
+\end_inset
+
+，而然后用特称。那么，下面这个
+\begin_inset Formula $\forall a:a=a$
+\end_inset
+
+的“推导”怎么样……有什么问题吗？你能把修补好吗？
 \end_layout
 
 \begin_layout Standard
-(2)V a:a-(a+0) 对称
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（1）
+\begin_inset Formula $\forall a:(a+0)=a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（2）
+\begin_inset Formula $\forall a:a=(a+0)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（3）
+\begin_inset Formula $\forall a:a=a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+公理2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+对称
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+传递（第2，1行）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(3)V a:a-a 传递（第2，1行）我用这个小小的练习来指出一个简单的事实：在变换熟悉的符号（诸如“一”）时，不要跳得太快。你必须遵循规则，而不是你关于符号
-的被动意义的知识。当然，后一种知识在指引一个推导该走什么路线时是极有价值的。
+\noindent
+我用这个小小的练习来指出一个简单的事实：在变换熟悉的符号（诸如“=”）时，不要跳得太快。你必须遵循规则，而不是你关于符号的被动意义的知识。当然，后一种知识在指引
+一个推导该走什么路线时是极有价值的。
 \end_layout
 
 \begin_layout Subsection*
@@ -2575,7 +2908,12 @@ f b：(S0+Sb) =S(S0+b) 特称(S0对a)
 \end_layout
 
 \begin_layout Standard
-(10)S0=o 分离（第9、8行）这是第一个灾难。另一个灾难是由于用错了特称而产生的。
+(10)S0=o 分离（第9、8行）
+\end_layout
+
+\begin_layout Standard
+\noindent
+这是第一个灾难。另一个灾难是由于用错了特称而产生的。
 \end_layout
 
 \begin_layout Standard
@@ -2612,19 +2950,12 @@ status open
 \end_layout
 
 \begin_layout Standard
+\noindent
 冈此，现在我们看到，为什么那些限制是必要的。
 \end_layout
 
 \begin_layout Standard
-这里有一个简单的谜题：把皮亚诺的第四条公设翻译成为
-\end_layout
-
-\begin_layout Standard
-TNT记法（如果你还不曾这样做的话），然后把这个串当作一个定
-\end_layout
-
-\begin_layout Standard
-理而推导出来a
+这里有一个简单的谜题：把皮亚诺的第四条公设翻译成为TNT记法（如果你还不曾这样做的话），然后把这个串当作一个定理而推导出来。
 \end_layout
 
 \begin_layout Subsection*
@@ -2813,17 +3144,20 @@ status open
 \end_layout
 
 \begin_layout Standard
-这种不一致性的产生是由于下面两件事的对立：(1)一个由一些定理组成的金字塔，它们集合起来断言所有的自然数具有某种性质，与(2)一个单个的定理，它看上去是断言并非
-所有的自然数具有该性质。我们称这种不一致性为∞不一致性。一个cD不一致的系统更象一个被人们“初拒后纳的”非欧几里德几何。为了能对这些东西形成一个心智上的模型，读
-者得想象存在有一些“额外的”，未曾料到的数——让我们不称它们为“自然”的，而称它们为“超自然”的数——它们都不具有相应的数字。因此，有关它们的事实不能在金字塔里
-表示出来，（这有一点象阿基里斯对造物神的想象——是一种“超神怪”，一种比任何神怪都大的东西。这曾遭到怪物的嘲笑，但这是一个合理的想象，并可以帮助你去想象超自然数
-。）
+这种不一致性的产生是由于下面两件事的对立：（1）一个由一些定理组成的金字塔，它们集合起来断言所有的自然数具有某种性质，与（2）一个单个的定理，它看上去是断言并非
+所有的自然数具有该性质。我们称这种不一致性为ω不一致性。一个ω不一致的系统更象一个被人们“初拒后纳的”非欧几里德几何。为了能对这些东西形成一个心智上的模型，读者
+得想象存在有一些“额外的”，未曾料到的数——让我们不称它们为“自然”的，而称它们为“超自然”的数——它们都不具有相应的数字。因此，有关它们的事实不能在金字塔里表
+示出来，（这有一点象阿基里斯对
+\family typewriter
+造物神
+\family default
+的想象——是一种“超神怪”，一种比任何神怪都大的东西。这曾遭到怪物的嘲笑，但这是一个合理的想象，并可以帮助你去想象超自然数。）
 \end_layout
 
 \begin_layout Standard
 这就告诉了我们：迄今所介绍的TNT的公理和规则并没有完全固定住对TNT符导的解释。在一个人的心智模型中这些符号代表什么概念，这仍然还有种种变化的余地。这种种可能
 的外延中的每一个，都可以进一步固定住其中的某些概念，只是以不同的方式而已。如果我们加上上面的那个“第六公理”，那么哪些符号会带上被人们所“初拒”的那种被动意义？
-是所有这些符号都会染上，还是它们中的一。些仍然会代表我们想让它们去代表的意义？我将让读者去考虑这个问题。在第十四章里我们会碰到一个类似的问
+是所有这些符号都会染上，还是它们中的一些仍然会代表我们想让它们去代表的意义？我将让读者去考虑这个问题。在第十四章里我们会碰到一个类似的问
 \begin_inset Note Comment
 status open
 
@@ -2833,7 +3167,7 @@ status open
 
 \end_inset
 
-题，然后再来讨论这件事。总而言之，我们现在不沿着这个扩充走，而是继续尝试去修补TNT的∞不完全性。
+题，然后再来讨论这件事。总而言之，我们现在不沿着这个扩充走，而是继续尝试去修补TNT的ω不完全性。
 \end_layout
 
 \begin_layout Subsection*
@@ -2844,11 +3178,15 @@ status open
 “全规则”的问题是：它要求知道一个无穷高的金字塔中所有的行都是定理——这对一个有穷的主体来说是要求得太多了。但是让我们假设这个塔的每一行都能够用某种模式化的方法
 从它的前一行推出来。这样就能用一个有穷的推理去说明在塔里的所有的串都是定理。于是，技巧仅在于去找出造成多级瀑布的那个模式，并证明那个模式本身就是一个定理。这就象
 是去证明每个神怪递送一个信息给它的元，正如机关里的层层上报那样。留待证明的另一件事情即为，是怪物最先引发了这个信息多级瀑布——也就是说，要确定金字塔的第一行是一
-个定理。这样你就知道了造物神将得到这个信息！
+个定理。这样你就知道了
+\family typewriter
+造物神
+\family default
+将得到这个信息！
 \end_layout
 
 \begin_layout Standard
-在我们谈过的那个特定的金字塔里有一个模式，可以从下面的推导中的4-9行获得a
+在我们谈过的那个特定的金字塔里有一个模式，可以从下面的推导中的4-9行获得。
 \end_layout
 
 \begin_layout Standard
@@ -2888,6 +3226,7 @@ status open
 \end_layout
 
 \begin_layout Standard
+\noindent
 前提足(O+b)=b，结果是(O+Sb)—Sb c
 \begin_inset Note Comment
 status open
@@ -3131,20 +3470,20 @@ status open
 
 \begin_layout Standard
 很容易想象，当一个读者从这个推导的第1行开始时，并不清楚它会在哪儿结束。他每新看到一行时，都会对它的进一步走向有所感觉。这就建立了一个内部的紧张，很象在一首乐曲
-中由于和声的模进所引起的紧张，你知道这调性是什么，但还未解决。到了第2 8行时，读者的直觉得到了肯定，他有了一种暂时的满意感，同时也增强了他的信心，去向着他认为
-是真正的目标前进。
+中由于和声的模进所引起的紧张，你知道这调性是什么，但还未解决。到了第28行时，读者的直觉得到了肯定，他有了一种暂时的满意感，同时也增强了他的信心，去向着他认为是
+真正的目标前进。
 \end_layout
 
 \begin_layout Standard
-第49行是一个极为重要的紧张增长因素，因为它引起了“就在那里”的感觉。在那里停下会使人感到极度的不舒服！从那儿往F，事情的发展几乎都是可以预计的厂。但是你不会希
+第49行是一个极为重要的紧张增长因素，因为它引起了“就在那里”的感觉。在那里停下会使人感到极度的不舒服！从那儿往下，事情的发展几乎都是可以预计的了。但是你不会希
 望一首乐曲停止在最后的解决刚开始出现的地方，让你去想象它的结尾——你希望听到那个结尾。在这里也类似，我们必须把事情进行到底。第55行是不可避免的，它建立了最后的
-全部紧张，它们在第5 6行得到了觯决。
+全部紧张，它们在第56行得到了觯决。
 \end_layout
 
 \begin_layout Standard
-这不仅是形式推导的典型结构，也是非形式证明的典型结构。数学家‘对紧张的认识是和他对美的认识密切相关的，并且正是这种东西使得数学值得花力气去做。但要注意，就TNT
-本身而言，似乎对这些紧张没有任何反映。换句话说，TNT并没有将紧张和解决、目标和子目标、“自然性”和“被迫性”等概念形式化，正象一首乐曲并不是一本讲和声和节拍的
-书一样。人们能不能发明出更为奇妙的印符系统，以感知推导中的紧张与目标呢？2 9 9
+这不仅是形式推导的典型结构，也是非形式证明的典型结构。数学家对紧张的认识是和他对美的认识密切相关的，并且正是这种东西使得数学值得花力气去做。但要注意，就TNT本
+身而言，似乎对这些紧张没有任何反映。换句话说，TNT并没有将紧张和解决、目标和子目标、“自然性”和“被迫性”等概念形式化，正象一首乐曲并不是一本讲和声和节拍的书
+一样。人们能不能发明出更为奇妙的印符系统，以感知推导中的紧张与目标呢？
 \end_layout
 
 \begin_layout Subsection*
@@ -3158,12 +3497,15 @@ status open
 
 \begin_layout Standard
 按照到目前为止所描述的，TNT已经达到了“临界质量”（这个隐喻用在叫“TNT”的东西上或许有点奇怪）。它和《数学原理》的系统有同样的能力。用TNT，人们可以证明
-在一篇标准的关于数论的专门论文中所能找到的每一个定理。当然，没有人会主张在TNT中推导定理是做数论研究的最好方法。那种想法相当于认为要想知道1000×1000是
-多少，最好的方法是去画一个横竖各1000道的网格，然后再去一个一个地数里面一共有多少小方块……不是这样的。在进行了彻底形式化之后，唯一可行的道路就是放松形式化原
-则。否则，形式系统会过于庞大而笨重，以至于对任何实际的目的而言都是毫无用处的。所以，把TNT嵌进一个更广阔的语境中是很重要的，这个语境能容许导出新的推理规则，从
-而能够加速推导过程。这就需要对用来表示推理规则的语言进行形式化——也即，对元语言作形式化。这样T去可以走得相当远。然而，这样的加速技巧并不能使TNT更强一点，只
-不过是使它更好用一些罢了口理由很简单，我们实际上已经把数论专家所借助的每个思维模式都放进了TNT。把它嵌入愈来愈大的语境并不能扩大定理的空间，只能是使得在TNT
-里面——或者说在每个“新的，改进的版本”里面——进行工作时，更象是在进行传统的数论工作。
+在一篇标准的关于数论的专门论文中所能找到的每一个定理。当然，没有人会主张在TNT中推导定理是做数论研究的最好方法。那种想法相当于认为要想知道
+\begin_inset Formula $1000\times1000$
+\end_inset
+
+是多少，最好的方法是去画一个横竖各1000道的网格，然后再去一个一个地数里面一共有多少小方块……不是这样的。在进行了彻底形式化之后，唯一可行的道路就是放松形式化
+原则。否则，形式系统会过于庞大而笨重，以至于对任何实际的目的而言都是毫无用处的。所以，把TNT嵌进一个更广阔的语境中是很重要的，这个语境能容许导出新的推理规则，
+从而能够加速推导过程。这就需要对用来表示推理规则的语言进行形式化——也即，对元语言作形式化。这样下去可以走得相当远。然而，这样的加速技巧并不能使TNT更强一点，
+只不过是使它更好用一些罢了。理由很简单，我们实际上已经把数论专家所借助的每个思维模式都放进了TNT。把它嵌入愈来愈大的语境并不能扩大定理的空间，只能是使得在TN
+T里面——或者说在每个“新的，改进的版本”里面——进行工作时，更象是在进行传统的数论工作。
 \begin_inset Note Comment
 status open
 
@@ -3181,15 +3523,12 @@ status open
 \end_layout
 
 \begin_layout Standard
-假定你事先不知道TNT会是个不完全的系统，而期望它是+完全的——就是说，每个用TNT记法可表达的真陈述都是定理。
-\end_layout
-
-\begin_layout Standard
-在这种情况下，你就能为数论的一切东西造一个判定过程。方法很简单：如果你想知道N中的语句X是真还是假，就把它翻成TNT句子X。于是，如果X为真，完全性就说，x是一
-个定理；反过来，如果非X为真，那么完全性就说，~x是一个定理。因此，x和~x二者必有一个是定理，因为不是X为真，就是非X为真。现在让我们来系统地枚举TNT的定理
-，就用我们曾经对wjU系统和pq系统所用过的那种方法。过不一会儿，你就一定会到达x或者-X，rfij不管你碰上了哪一个，它都会告诉你X和非X之中哪一个为真。（弄
-清楚这个论证了吗？关键的一点是能在心里区分开形式系统TNT与它的非形式对应物N。一定要确实弄清这个论证。）这样，从原则上说，如果TNT是完全的，数论专家就得赋闲
-了：只要229有足够的时间，他们领域里的任何问题都能够用纯粹机械的方法解决。现在我们知道这是不可能的。至于这究竟是该为之庆贺还是为之悲伤，就全看你的观点如何了。
+假定你事先不知道TNT会是个不完全的系统，而期望它是完全的——就是说，每个用TNT记法可表达的真陈述都是定理。在这种情况下，你就能为数论的一切东西造一个判定过程
+。方法很简单：如果你想知道N中的语句X是真还是假，就把它翻成TNT句子x。于是，如果X为真，完全性就说，x是一个定理；反过来，如果非X为真，那么完全性就说，~x
+是一个定理。因此，x和~x二者必有一个是定理，因为不是X为真，就是非X为真。现在让我们来系统地枚举TNT的定理，就用我们曾经对WJU系统和pq系统所用过的那种方
+法。过不一会儿，你就一定会到达x或者~x，而不管你碰上了哪一个，它都会告诉你X和非X之中哪一个为真。（弄清楚这个论证了吗？关键的一点是能在心里区分开形式系统TN
+T与它的非形式对应物N。一定要确实弄清这个论证。）这样，从原则上说，如果TNT是完全的，数论专家就得赋闲了：只要有足够的时间，他们领域里的任何问题都能够用纯粹机
+械的方法解决。现在我们知道这是不可能的。至于这究竟是该为之庆贺还是为之悲伤，就全看你的观点如何了。
 \end_layout
 
 \begin_layout Subsection*
@@ -3197,44 +3536,51 @@ status open
 \end_layout
 
 \begin_layout Standard
-本章我们要处理的最后一个问题是：我们该不该象信赖命题演算的一致牲那样信赖TNT的一致性；以及，如果我们不那么信赖TNT，是不是有可能通过证明它是一致的，来增强我
+本章我们要处理的最后一个问题是：我们该不该象信赖命题演算的一致性那样信赖TNT的一致性；以及，如果我们不那么信赖TNT，是不是有可能通过证明它是一致的，来增强我
 们对它的信任。人们可以象那位“马虎”在论及命题演算时所做的那样，提出同样的关于TNT -致性的“显然性”的那种论述——也就是说，每条规则体现了一个我们所完全信赖
 的推理原则，因此，对TNT的一致性的疑问就是对我们自己头脑的清醒程度的疑问。在某种
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+301
 \end_layout
 
-\begin_layout Standard
-301程度上，这种论证仍然是有份量的_一但不象从前那么有份量了。
-\end_layout
+\end_inset
 
-\begin_layout Standard
-推理规则实在是太多了，而其中有些也确实有点“不对头”。更进一步，我们怎么知道这种称为“自然数”的抽象实体在我们心里的模型实际上是一个前后一致的结构呢？说不定，我
-们自己的思维过程，那些我们试着用形式系统中的形式规则来把握的非形式过程，它们本身就是不一致的！这当然不是我们所期望的事情，但是，我们的思维也可能使我们误入歧途，
-这是越来越可以想象得到的，尤其是当面临的课题很复杂的时候——而自然数决不是什么不足道的简单课题。所以，那位“严谨”所呼吁的关于一致性的一个证明，在这种情况下就必
-须更为认真地对待。这倒不是我们非常怀疑TNT会是不一致的——但确是有一点儿怀疑，我们心里闪了一下怀疑的影子，而一个证明会有助于消除这种怀疑。
+程度上，这种论证仍然是有份量的——但不象从前那么有份量了。推理规则实在是太多了，而其中有些也确实有点“不对头”。更进一步，我们怎么知道这种称为“自然数”的抽象实
+体在我们心里的模型实际上是一个前后一致的结构呢？说不定，我们自己的思维过程，那些我们试着用形式系统中的形式规则来把握的非形式过程，它们本身就是不一致的！这当然不
+是我们所期望的事情，但是，我们的思维也可能使我们误入歧途，这是越来越可以想象得到的，尤其是当面临的课题很复杂的时候——而自然数决不是什么不足道的简单课题。所以，
+那位“严谨”所呼吁的关于一致性的一个证明，在这种情况下就必须更为认真地对待。这倒不是我们非常怀疑TNT会是不一致的——但确是有一点儿怀疑，我们心里闪了一下怀疑的
+影子，而一个证明会有助于消除这种怀疑。
 \end_layout
 
 \begin_layout Standard
 但是，哪些证明手段是我们愿意接受的呢？又一次，我们碰见了不断出现的那个转圈子问题。如果在一个关于我们的系统的证明中，使用那些和我们已经嵌入到系统中去东西完全一样
-的手段，我们能达到什么目的呢？但如果我们能论证说TNT是一致的，而用的是一个比TNT弱的推理系统，那我们就战胜了那种说我们是在转圈子的反对意见！想一想让一条很祖
+的手段，我们能达到什么目的呢？但如果我们能论证说TNT是一致的，而用的是一个比TNT弱的推理系统，那我们就战胜了那种说我们是在转圈子的反对意见！想一想让一条很粗
 的绳索飞越两条船之间的办法（大约我还是个孩子的时候读到过的）：先把一支很轻的箭射过这段空间，箭的后面牵引着一条细绳。一旦用这种办法在两条船之间建立起了联结，粗绳
-子就能被拉过这段空间了c如果我们能用一个“轻的”系统去说明一个“重的”系统是一致的，那么我们就的确做成一些事情了。
+子就能被拉过这段空间了。如果我们能用一个“轻的”系统去说明一个“重的”系统是一致的，那么我们就的确做成一些事情了。
 \end_layout
 
 \begin_layout Standard
 初看起来似乎是有一根细绳子。我们的目标是证明TNT具有一个特定的印符性质（一致性），即任何时候都不会有x和~x形式的公式同时都是定理。这类似于努力去说明WU不是
 WJU系统的一个定理。二者都是关于符号处理系统的印符性质的陈述。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+302
 \end_layout
 
-\begin_layout Standard
-302认为有一条细绳的观点是基于如下假设的：在证明这样一个印符性质成立时，并不需要有关数论的事实。换句话说，如果没有用到230整数的性质——或者仅仅用到了少许极
-为简单的性质——那么我们就达到目标了：证明了TNT的一致性，而用到的推理手段比T
-\backslash
-IT自身内部的推理模式弱。
+\end_inset
+
+认为有一条细绳的观点是基于如下假设的：在证明这样一个印符性质成立时，并不需要有关数论的事实。换句话说，如果没有用到整数的性质——或者仅仅用到了少许极为简单的性质
+——那么我们就达到目标了：证明了TNT的一致性，而用到的推理手段比TNT自身内部的推理模式弱。
 \end_layout
 
 \begin_layout Standard
 这正是本世纪初大卫·希尔伯特所领导的数学家和逻辑学家的一个重要学派所持的期望。他们的目标是使用一个非常受限制的推理原则的集合来证明类似于TNT的形式化数论的一致
-性c这被称为推理的“有穷”方法。这就是细绳。有穷方法中包括了所有的命题推理，即命题演算中所体现的那种，另外还有某些种类的数值推理。但是哥德尔的工作表明，任何用有
+性。这被称为推理的“有穷”方法。这就是细绳。有穷方法中包括了所有的命题推理，即命题演算中所体现的那种，另外还有某些种类的数值推理。但是哥德尔的工作表明，任何用有
 穷方法这条细绳去牵引TNT一致性这条粗绳的努力都是注定要失败的。哥德尔证明了，要想牵引粗绳，不能用更细的绳子，细绳中没有足够结实的。少来些隐喻，我们可以说：任何
 一个强得足以证明TNT的一致性的系统起码与TNT本身一样强。从而，转圈子是不可避免的。
 \end_layout
@@ -4645,7 +4991,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 哦，对啦一一让我们回到缺乏佛性的事情上来吧。是这样的：你一旦知道了如何做出具有佛性的串，你也就能够做出不具有佛性的串。这是我师傅从一开始就诲谕我的。
+阿基里斯： 哦，对啦——让我们回到缺乏佛性的事情上来吧。是这样的：你一旦知道了如何做出具有佛性的串，你也就能够做出不具有佛性的串。这是我师傅从一开始就诲谕我的。
 \end_layout
 
 \begin_layout Labeling
