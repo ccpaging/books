@@ -1642,7 +1642,7 @@ status open
 
 \begin_layout Standard
 德·摩根规则可以用我们熟悉的句子“幡不在动，并且风也不在动”来说明。如果用P来将“幡在动”符号化，用Q来将“风在动”符号化，那么这个复合句就可以用
-\begin_inset Formula $<～P\wedge～Q>$
+\begin_inset Formula $<~P\wedge~Q>$
 \end_inset
 
 来符号化。依照德·摩根律，这可以与
