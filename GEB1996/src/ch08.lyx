@@ -2872,43 +2872,337 @@ f b：(S0+Sb) =S(S0+b) 特称(S0对a)
 \end_layout
 
 \begin_layout Standard
-(1)[ 推入
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="3">
+<features rotate="0" islongtable="true" longtabularalignment="left">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（1）
 \end_layout
 
-\begin_layout Standard
-(2) a;0 前提
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $[$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-(3) V a:a=0 概括（错了！）
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+推入
 \end_layout
 
-\begin_layout Standard
-(4) Sa -0 特称
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（2）
 \end_layout
 
-\begin_layout Standard
-(5)] 弹出
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\quad a=0$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-(6)<a-O啼Sa=O> 幻想规则
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+前提
 \end_layout
 
-\begin_layout Standard
-(7)V a:<a=O—Sa—O> 概括
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（3）
 \end_layout
 
-\begin_layout Standard
-(8)<O=o◆S0-o> 特称
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\quad\forall a:a=0$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-(9)Q-O 以前的定理
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+概括（错了！）
 \end_layout
 
-\begin_layout Standard
-(10)S0=o 分离（第9、8行）
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（4）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\quad Sa=0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+特称
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（5）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+弹出
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（6）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $<a=0\rightarrow Sa=0>$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+幻想规则
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（7）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\forall a:<a=0\rightarrow Sa=0>$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+概括
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（8）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $<0=0\rightarrow S0=0>$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+特称
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（9）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0=0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+以前的定理
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（10）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $S0=0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+分离（第9、8行）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2917,16 +3211,173 @@ f b：(S0+Sb) =S(S0+b) 特称(S0对a)
 \end_layout
 
 \begin_layout Standard
-(1)V a:a-a 以前的定理
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Comment
-status open
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features rotate="0" islongtable="true" longtabularalignment="left">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-289
+（1）
 \end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\forall a:a=a\phantom{a0\rightarrow Sa=0>}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+以前的定理
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（2）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Sa=Sa$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+特称
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（3）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\exists b:b=Sa$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+存在
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（4）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\forall a:\exists b:b=Sa$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+概括
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（5）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\exists b:b=Sb$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+特称（错了！）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
@@ -2934,24 +3385,8 @@ status open
 \end_layout
 
 \begin_layout Standard
-(2)Sa - Sa 特称
-\end_layout
-
-\begin_layout Standard
-(3)|b:b=Sa 存在
-\end_layout
-
-\begin_layout Standard
-(4)V a:] b:b-Sa 概括
-\end_layout
-
-\begin_layout Standard
-(5)] b:b=Sb 特称（错了！）
-\end_layout
-
-\begin_layout Standard
 \noindent
-冈此，现在我们看到，为什么那些限制是必要的。
+因此，现在我们看到，为什么那些限制是必要的。
 \end_layout
 
 \begin_layout Standard
@@ -3190,44 +3625,318 @@ status open
 \end_layout
 
 \begin_layout Standard
-(1)V a：V b：(a+Sb)=S(a+b) 公理3
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="3">
+<features rotate="0" islongtable="true" longtabularalignment="left">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（1）
 \end_layout
 
-\begin_layout Standard
-(2)V b：(O+Sb)一S(o+b) 特称
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\forall a:\forall b:(a+Sb)=S(a+b)$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-(3)(O+Sb)=S(O+b) 特称
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+公理3
 \end_layout
 
-\begin_layout Standard
-(4)[ 推入
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（2）
 \end_layout
 
-\begin_layout Standard
-(5) ( O+b)=垴 前提
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\forall b:(0+Sb)=S(0+b)$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-(6) S(o+b) =Sb 加S
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+特称
 \end_layout
 
-\begin_layout Standard
-(7) (O+Sb)一S(O+b) 把第3行搬入
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（3）
 \end_layout
 
-\begin_layout Standard
-(8) (O+Sb) =Sb 传递
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(0+Sb)=S(0+b)$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-(9)] 弹出
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+特称
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（4）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $[$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+推入
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（5）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(O+b)=b$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+前提
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（6）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $S(0+b)=Sb$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+加S
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（7）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(0+Sb)=S(0+b)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+把第3行搬入
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（8）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $(0+Sb)=Sb$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+传递
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（9）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+弹出
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \noindent
-前提足(O+b)=b，结果是(O+Sb)—Sb c
+前提是
+\begin_inset Formula $(0+b)=b$
+\end_inset
+
+，结果是
+\begin_inset Formula $(0+Sb)=Sb$
+\end_inset
+
+。
 \begin_inset Note Comment
 status open
 
@@ -3249,39 +3958,169 @@ status open
 为了表达这个规则，我们需要几个记号。我们用如下的记号来简写一个带自由变元a的良构公式：
 \end_layout
 
-\begin_layout Standard
-X{a)（可能还会有其它的自由变元，但那与此不相干。）另外用记号X{Sala)来代表该串中a的每个出现都被Sa替换后得到的结果。类似地，X{O/a）代表这个串中
-a的每一个出现都已被。所替换。
+\begin_layout CenterLine
+\begin_inset Formula $X\{a\}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-一个具体的例子是令X{a）代表要考察的串：(O+a)=a 。于是X{Sa/a)就表示串(O+Sa)一Sa，而X{O/a）就表示(0+O)=O 。（提醒：这种记号
-不是TNT的组成部分，只是为了我们在谈论TNT时方便而采用的。）
+\noindent
+（可能还会有其它的自由变元，但那与此不相干。）另外用记号
+\begin_inset Formula $X\{Sa/a\}$
+\end_inset
+
+来代表该串中a的每个出现都被Sa替换后得到的结果。类似地，
+\begin_inset Formula $X\{0/a\}$
+\end_inset
+
+代表这个串中a的每一个出现都已被0所替换。
 \end_layout
 
 \begin_layout Standard
-有了这新的记号，我们就能很精确地叙述TNT的最后一条规则了：归纳规则：设u是一个变元，X{u）是一个u在其中自由出现的良
+一个具体的例子是令
+\begin_inset Formula $X\{a\}$
+\end_inset
+
+代表要考察的串：
+\begin_inset Formula $(0+a)=a$
+\end_inset
+
+。于是
+\begin_inset Formula $X\{Sa/a\}$
+\end_inset
+
+就表示串
+\begin_inset Formula $(0+Sa)=Sa$
+\end_inset
+
+，而
+\begin_inset Formula $X\{0/a\}$
+\end_inset
+
+就表示
+\begin_inset Formula $(0+0)=0$
+\end_inset
+
+。（提醒：这种记号不是TNT的组成部分，只是为了我们在谈论TNT时方便而采用的。）
 \end_layout
 
 \begin_layout Standard
-构公式。如果V u:<X{u）◆X{Su/u）>以及X{ O/u）二者都
+有了这新的记号，我们就能很精确地叙述TNT的最后一条规则了：
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 归纳规则：：
+\noindent
+归纳规则： 设u是一个变元，
+\begin_inset Formula $X\{u\}$
+\end_inset
+
+是一个u在其中自由出现的良构公式。如果
+\begin_inset Formula $\forall u:<x\{u\}\rightarrow X\{Su/u\}>$
+\end_inset
+
+以及
+\begin_inset Formula $X\{0/u\}$
+\end_inset
+
+二者都是定理，那么
+\begin_inset Formula $\forall u:X\{u\}$
+\end_inset
+
+也是一个定理。
 \end_layout
 
 \begin_layout Standard
-是定理，那么V u：X{u矗也是一个定理。把皮亚诺第五公设纳入TNT里来的努力最多也就能做到这个地步。现在让我们用它来证明V a；(O+a)=a的确是一个TNT
-定理。我们先用幻想规则从上面推导中的那个幻想里出来，得到：
+把皮亚诺第五公设纳入TNT里来的努力最多也就能做到这个地步。现在让我们用它来证明
+\begin_inset Formula $\forall a:(0+a)=a$
+\end_inset
+
+的确是一个TNT定理。我们先用幻想规则从上面推导中的那个幻想里出来，得到：
 \end_layout
 
 \begin_layout Standard
-(1 0)<(O+b)=b一(0+Sb)=Sb> 幻想规则
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（10）
+\begin_inset Formula $<(0+b)=b\rightarrow(0+Sb)=Sb>$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（11）
+\begin_inset Formula $\forall b:<(0+b)=b\rightarrow(0+Sb)=Sb>$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="1">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+公理2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+对称
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(1 l)V b：<(O+b)一b一(O+Sb)一Sb> 概括这是归纳规则要求输入的两个定理之中的一个。另一个所要求的22 5是金字塔的第一行，这是我们已经有了
-的。因此，我们可以应用归纳规则，去推演我们所想要的东西：
-\end_layout
-
-\begin_layout Standard
+\noindent
+概括这是归纳规则要求输入的两个定理之中的一个。另一个所要求的是金字塔的第一行，这是我们已经有了的。因此，我们可以应用归纳规则，去推演我们所想要的东西：
 \begin_inset Note Comment
 status open
 
@@ -3294,8 +4133,20 @@ status open
 
 \end_layout
 
+\begin_layout CenterLine
+\begin_inset Formula $\forall b:(0+b)=b$
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
-V b;(O+b)-b特称和概括将允许我们把变元从b改为a，于是V a：(O+a)=a就不再是TNT的一个不可判定串了。
+\noindent
+特称和概括将允许我们把变元从b改为a，于是
+\begin_inset Formula $\forall a:(0+a)=a$
+\end_inset
+
+就不再是TNT的一个不可判定串了。
 \end_layout
 
 \begin_layout Subsection*
@@ -3307,98 +4158,763 @@ V b;(O+b)-b特称和概括将允许我们把变元从b改为a，于是V a：(O+a
 \end_layout
 
 \begin_layout Standard
-(1)V a：V b：(a+Sb)一S(a+b) 公理3
+\begin_inset Tabular
+<lyxtabular version="3" rows="21" columns="3">
+<features rotate="0" islongtable="true" longtabularalignment="left">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（1）
 \end_layout
 
-\begin_layout Standard
-(2)
-\backslash
-f b：(d+Sb)=S(d+b) 特称
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\forall a:\forall b:(a+Sb)=S(a+b)$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-。(3)《i+SSc) - S(d+Sc) 特称
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+公理3
 \end_layout
 
-\begin_layout Standard
-(4)
-\backslash
- b：(Scl+Sb)=S(Scl+L-》 特称（第1行）
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（2）
 \end_layout
 
-\begin_layout Standard
-(5) (Sd+Sc) =S(Scl+c) 特称
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\forall b:(d+Sb)=S(d+b)$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-(6)S(Sci+c)=(Sci+Sc) 对称
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+特称
 \end_layout
 
-\begin_layout Standard
-(7)[ 推入
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（3）
 \end_layout
 
-\begin_layout Standard
-(8) V d：(d+Sc)一(Sd+c) 前提
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vphantom{\forall b:}(d+SSc)=S(d+Sc)$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-(9)(d+Sc)- (Scl+c) 特称
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+特称
 \end_layout
 
-\begin_layout Standard
-(10) S(ci+Sc)=S(Scl+c) 加S
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（4）
 \end_layout
 
-\begin_layout Standard
-(11) (cl+SSc)一S(cl+Sc) 把3搬入
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\forall b:(Sd+Sb)=S(Sd+b)$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-(12) (cI+SSc)一S(Scl+c) 传递
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+特称
 \end_layout
 
-\begin_layout Standard
-(13) S(Sd+c)= (Sd+Sc) 把6搬入
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-(14) (cl+SSc)=(Sd +Sc) 传递
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-(15) V cl:(cl+SSc)一(ScI+Sc) 概括
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（第1行）
 \end_layout
 
-\begin_layout Standard
-(16)] 弹出
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（5）
 \end_layout
 
-\begin_layout Standard
-(17)<V d:(c1+Sc) - (Scl+c)--
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vphantom{\forall b:}(Sd+Sc)=S(Sd+c)$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-V d：(cl+SSc)=(ScI+Sc) 勾想规则
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+特称
 \end_layout
 
-\begin_layout Standard
-(18)V c:<
-\backslash
-f cl:(cl+Sc)=(Scl+c)-P
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（6）
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $S(Sd+c)=(Sd+Sc)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+对称
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（7）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $[$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+推入
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（8）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\quad\forall d:(d+Sc)=(Sd+c)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+传递
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（9）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\quad(d+Sc)=(Sd+c)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+特称
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（10）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\quad S(d+Sc)=S(Sd+c)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+加S
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（11）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\quad(d+SSc)=S(d+Sc)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+把3搬入
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（12）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\quad(d+SSc)=S(Sd+c)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+传递
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（13）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\quad S(Sd+c)=(Sd+Sc)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+把6搬入
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（14）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\quad(d+SSc)=(Sd+Sc)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+传递
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（15）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\quad\forall d:(d+SSc)=(Sd+Sc)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+概括
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（16）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+弹出
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（17）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $<\forall d:(d+Sc)=(Sd+c)\rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\forall d:(d+SSc)=(Sd+Sc)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+勾想规则
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（18）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\forall c:<\forall d:(d+Sc)=(Sd+c)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
 296
 \end_layout
 
-\begin_layout Standard
-d :(cI+SSc) = (S<i+Sc)(22) S(d+O)=Scl(23) (cl+S0)-Sd(24) (Scl+O)-Sd(2 5)
- Scl-(Sd+o)概括特称（第2行）公理1特称加S传递（1 9、2 2行）特称（第2 0行）对称传递（第2 3、2 5行）
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\rightarrow\forall d:(d+SSc)=(Sd+Sc)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+概括
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+*
+\begin_inset space \quad{}
+\end_inset
+
+*
+\begin_inset space \quad{}
+\end_inset
+
+*
+\begin_inset space \quad{}
+\end_inset
+
+*
+\begin_inset space \quad{}
+\end_inset
+
+*
 \end_layout
 
 \begin_layout Standard
-；(28)V c:
+(22) S(d+O)=Scl
+\end_layout
+
+\begin_layout Standard
+(23) (cl+S0)-Sd
+\end_layout
+
+\begin_layout Standard
+(24) (Scl+O)-Sd
+\end_layout
+
+\begin_layout Standard
+(2 5) Scl-(Sd+o)
+\end_layout
+
+\begin_layout Standard
+特称（第2行）
+\end_layout
+
+\begin_layout Standard
+公理1
+\end_layout
+
+\begin_layout Standard
+特称
+\end_layout
+
+\begin_layout Standard
+加S
+\end_layout
+
+\begin_layout Standard
+传递（1 9、2 2行）
+\end_layout
+
+\begin_layout Standard
+特称（第2 0行）
+\end_layout
+
+\begin_layout Standard
+对称传递（第2 3、2 5行）
+\end_layout
+
+\begin_layout Standard
+(28)V c:
 \backslash
 t d：(cl+Sc) - (Scl+c) 归纳（18,27行）
 \end_layout
@@ -3408,20 +4924,105 @@ t d：(cl+Sc) - (Scl+c) 归纳（18,27行）
 \end_layout
 
 \begin_layout Standard
-* * * * *(29)V b：(c+Sb)=S(c+b) 特称（第1行）(30)(c+Sd)一S(c+d) 特称(31)V b：(d+Sb)
- -S(d+b) 特称（第1行）(32)(d+Sc) -S(d+c) 特称(33)S(d+c)一(d+Sc) 对称(34)V d：(d+Sc)=(Scl+c)
- 特称（第28行）(35)(d+Sc)=(Sd+c) 特称(36)[ 推入(37)V c：(c+d)一(d+c) 前提(38)(c+d)一(d+c)
- 特称(39)S(c+d)一S(d+c) 加S(40)(c+Sd)=S(c+d) 把30搬入
+* * * * *
 \end_layout
 
 \begin_layout Standard
-29 7226227(41)(c+Sd)一S(d+c) 传递(42)S(cl+c)一(cI+Sc) 把3 3搬入(43)(c+Sd)=(d+Sc)
- 传递(44)(d+Sc)=(Sd+c) 把3 5搬入(45)(c+Sd)=(Sd+c) 传递(46)V c：(c+Scl)一(Sd+c) 概括(47)]
- 弹出(48)<V c：(c+d)一(d+c)一
+(29)V b：(c+Sb)=S(c+b) 特称（第1行）
 \end_layout
 
 \begin_layout Standard
-V c：(c+Sd)=(Sd+c)> 想规则(49)V d：<V c：(c+d)一(d+c)斗
+(30)(c+Sd)一S(c+d) 特称
+\end_layout
+
+\begin_layout Standard
+(31)V b：(d+Sb) -S(d+b) 特称（第1行）
+\end_layout
+
+\begin_layout Standard
+(32)(d+Sc) -S(d+c) 
+\end_layout
+
+\begin_layout Standard
+特称(33)S(d+c)一(d+Sc) 对称
+\end_layout
+
+\begin_layout Standard
+(34)V d：(d+Sc)=(Scl+c) 特称（第28行）
+\end_layout
+
+\begin_layout Standard
+(35)(d+Sc)=(Sd+c) 特称
+\end_layout
+
+\begin_layout Standard
+(36)[ 推入
+\end_layout
+
+\begin_layout Standard
+(37)V c：(c+d)一(d+c) 前提
+\end_layout
+
+\begin_layout Standard
+(38)(c+d)一(d+c) 特称
+\end_layout
+
+\begin_layout Standard
+(39)S(c+d)一S(d+c) 加S
+\end_layout
+
+\begin_layout Standard
+(40)(c+Sd)=S(c+d) 把30搬入
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+297
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(41)(c+Sd)一S(d+c) 传递
+\end_layout
+
+\begin_layout Standard
+(42)S(cl+c)一(cI+Sc) 把3 3搬入
+\end_layout
+
+\begin_layout Standard
+(43)(c+Sd)=(d+Sc) 传递
+\end_layout
+
+\begin_layout Standard
+(44)(d+Sc)=(Sd+c) 把3 5搬入
+\end_layout
+
+\begin_layout Standard
+(45)(c+Sd)=(Sd+c) 传递
+\end_layout
+
+\begin_layout Standard
+(46)V c：(c+Scl)一(Sd+c) 概括
+\end_layout
+
+\begin_layout Standard
+(47)] 弹出
+\end_layout
+
+\begin_layout Standard
+(48)<V c：(c+d)一(d+c)一
+\end_layout
+
+\begin_layout Standard
+V c：(c+Sd)=(Sd+c)> 想规则
+\end_layout
+
+\begin_layout Standard
+(49)V d：<V c：(c+d)一(d+c)斗
 \end_layout
 
 \begin_layout Standard
@@ -3433,8 +5034,31 @@ V c：(c+Sd)=(Sd+c)> 概；
 \end_layout
 
 \begin_layout Standard
-* * * * *(50)(c+0) -c 特称（第2 0行）(51)V a:(O+a) --a 已有的定理(52)(O+c) -c币幂(53)c-
- (O+c) 对称(54)(c+O)=(o+c) 传递（50.53行）(55)V c：(c+O)=(O+c) 概括
+* * * * *
+\end_layout
+
+\begin_layout Standard
+(50)(c+0) -c 特称（第2 0行）
+\end_layout
+
+\begin_layout Standard
+(51)V a:(O+a) --a 已有的定理
+\end_layout
+
+\begin_layout Standard
+(52)(O+c) -c币幂
+\end_layout
+
+\begin_layout Standard
+(53)c- (O+c) 对称
+\end_layout
+
+\begin_layout Standard
+(54)(c+O)=(o+c) 传递（50.53行）
+\end_layout
+
+\begin_layout Standard
+(55)V c：(c+O)=(O+c) 概括
 \end_layout
 
 \begin_layout Standard
@@ -3442,7 +5066,11 @@ V c：(c+Sd)=(Sd+c)> 概；
 \end_layout
 
 \begin_layout Standard
-* * * * *(56)V d：V c：(c+d)=(d+c) 归纳(49.55行)
+* * * * *
+\end_layout
+
+\begin_layout Standard
+(56)V d：V c：(c+d)=(d+c) 归纳(49.55行)
 \end_layout
 
 \begin_layout Standard
