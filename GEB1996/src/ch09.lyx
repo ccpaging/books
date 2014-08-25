@@ -4092,12 +4092,51 @@ TNT数：数的一个递归可枚举集合
 \end_layout
 
 \begin_layout Standard
-这样看来，前面对于定理“362,123,666,112,123,666,323,111,123,123,666”的推导就是一系列高度曲折的数论变换，每个变换都作
-用在一个或多个作为输入的数之上，给出输出的数，而后者象从前一样称为可产生的数，或者更具体些，称为TNT数。有些算术规则使一个旧的TNT数以某种特定方式增大，得到
-一个新的TNT数；有些是减小TNT数；还有些规则是取两个旧的TNT数，分别进行一番处理，然后把两者结合起来得出一个新的TNT数——如此下去，等等，等等。而且我们
-不是只从一个已知TNT数起步，我们有五个初始的TNT数——当然是分别来自各个（简朴版本的）公理了。对TNT的算术化实际上与对WJU系统的算术化极其相似，只不过是
-有更多的规则与公理，而且显明地写出那些算术等价物会是非常烦人的——与顿悟更是毫不沾边。如果你弄懂了对于WJU系统是怎么做的，你就会发现这里的过程和那里毫无疑问是
-很相似的。
+这样看来，前面对于定理“362,
+\begin_inset space \space{}
+\end_inset
+
+123,
+\begin_inset space \space{}
+\end_inset
+
+666,
+\begin_inset space \space{}
+\end_inset
+
+112,
+\begin_inset space \space{}
+\end_inset
+
+123,
+\begin_inset space \space{}
+\end_inset
+
+666,
+\begin_inset space \space{}
+\end_inset
+
+323,
+\begin_inset space \space{}
+\end_inset
+
+111,
+\begin_inset space \space{}
+\end_inset
+
+123,
+\begin_inset space \space{}
+\end_inset
+
+123,
+\begin_inset space \space{}
+\end_inset
+
+666”的推导就是一系列高度曲折的数论变换，每个变换都作用在一个或多个作为输入的数之上，给出输出的数，而后者象从前一样称为可产生的数，或者更具体些，称为TNT数
+。有些算术规则使一个旧的TNT数以某种特定方式增大，得到一个新的TNT数；有些是减小TNT数；还有些规则是取两个旧的TNT数，分别进行一番处理，然后把两者结合起
+来得出一个新的TNT数——如此下去，等等，等等。而且我们不是只从一个已知TNT数起步，我们有五个初始的TNT数——当然是分别来自各个（简朴版本的）公理了。对TN
+T的算术化实际上与对WJU系统的算术化极其相似，只不过是有更多的规则与公理，而且显明地写出那些算术等价物会是非常烦人的——与顿悟更是毫不沾边。如果你弄懂了对于W
+JU系统是怎么做的，你就会发现这里的过程和那里毫无疑问是很相似的。
 \end_layout
 
 \begin_layout Standard
@@ -4109,8 +4148,59 @@ a是个TNT数。
 \end_layout
 
 \begin_layout Standard
-举个例子，从前面的推导我们知道362,123,666,112,123,666,323,111,123,123,666是个TNT数，而另一方面，大概123,666
-,111,666不是个TNT数。
+举个例子，从前面的推导我们知道362,
+\begin_inset space \space{}
+\end_inset
+
+123,
+\begin_inset space \space{}
+\end_inset
+
+666,
+\begin_inset space \space{}
+\end_inset
+
+112,
+\begin_inset space \space{}
+\end_inset
+
+123,
+\begin_inset space \space{}
+\end_inset
+
+666,
+\begin_inset space \space{}
+\end_inset
+
+323,
+\begin_inset space \space{}
+\end_inset
+
+111,
+\begin_inset space \space{}
+\end_inset
+
+123,
+\begin_inset space \space{}
+\end_inset
+
+123,
+\begin_inset space \space{}
+\end_inset
+
+666是个TNT数，而另一方面，大概123,
+\begin_inset space \space{}
+\end_inset
+
+666,
+\begin_inset space \space{}
+\end_inset
+
+111,
+\begin_inset space \space{}
+\end_inset
+
+666不是个TNT数。
 \end_layout
 
 \begin_layout Standard
@@ -4132,12 +4222,47 @@ status open
 \end_layout
 
 \begin_layout Standard
-如果我们把这第二个串中出现的所有a都替换成与123,666,111,666相应的TNT数码——其中恰好含有123,666,111,666个S，太长了以至于没法直
-接写出来——我们就会得到一个象无朋一样的TNT串，它可以从两个层次上来解释。首先，这个串说的是
+如果我们把这第二个串中出现的所有a都替换成与123,
+\begin_inset space \space{}
+\end_inset
+
+666,
+\begin_inset space \space{}
+\end_inset
+
+111,
+\begin_inset space \space{}
+\end_inset
+
+666相应的TNT数码——其中恰好含有123,
+\begin_inset space \space{}
+\end_inset
+
+666,
+\begin_inset space \space{}
+\end_inset
+
+111,
+\begin_inset space \space{}
+\end_inset
+
+666个S，太长了以至于没法直接写出来——我们就会得到一个象无朋一样的TNT串，它可以从两个层次上来解释。首先，这个串说的是
 \end_layout
 
 \begin_layout Quotation
-123,666,111,666不是个TNT数。
+123,
+\begin_inset space \space{}
+\end_inset
+
+666,
+\begin_inset space \space{}
+\end_inset
+
+111
+\begin_inset space \space{}
+\end_inset
+
+,666不是个TNT数。
 \end_layout
 
 \begin_layout Standard
@@ -4163,7 +4288,7 @@ TNT试图吞掉自己
 \end_layout
 
 \begin_layout Standard
-我们可以把这~看法冠以“数理逻辑的中心法则”这·一名称，271并用一个含两个步骤的图解来描述：
+我们可以把这~看法冠以“数理逻辑的中心法则”这一名称，并用一个含两个步骤的图解来描述：
 \end_layout
 
 \begin_layout Quotation
