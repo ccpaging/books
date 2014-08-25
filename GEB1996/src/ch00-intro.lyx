@@ -207,8 +207,8 @@ status open
 \begin_inset Graphics
 	filename images/image-0003.jpg
 	lyxscale 50
-	scale 40
-	BoundingBox 0bp 0bp 513bp 480bp
+	width 60text%
+	BoundingBox 0bp 0bp 711bp 721bp
 
 \end_inset
 

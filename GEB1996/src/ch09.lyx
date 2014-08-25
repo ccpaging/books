@@ -4351,7 +4351,15 @@ G：以编码方式谈论自身的符号串
 \end_layout
 
 \begin_layout Quotation
-“G不是TNT的定理。”
+“
+\series bold
+G
+\series default
+不是
+\series bold
+TNT
+\series default
+的定理。”
 \end_layout
 
 \begin_layout Standard
@@ -4364,17 +4372,55 @@ G的存在就是导致TNT不完全的原因
 \end_layout
 
 \begin_layout Standard
-创造出G的那个天才的方法，以及一些与TNT相关的重要概念，我们将在第十二和十四章里给出并讨论。至于现在，我们只是提前瞥一眼找到TNT中一件自指的东西会有什么后果
-，这会是挺肤浅的，但也挺有趣。谁知道呢，也许会爆炸的！某种意义上讲的确如此。我们来把注意力集中到下面这个明摆出来的问题：
+创造出
+\series bold
+G
+\series default
+的那个天才的方法，以及一些与
+\series bold
+TNT
+\series default
+相关的重要概念，我们将在第十二和十四章里给出并讨论。至于现在，我们只是提前瞥一眼找到
+\series bold
+TNT
+\series default
+中一件自指的东西会有什么后果，这会是挺肤浅的，但也挺有趣。谁知道呢，也许会爆炸的！某种意义上讲的确如此。我们来把注意力集中到下面这个明摆出来的问题：
 \end_layout
 
 \begin_layout Quotation
-G是否是TNT的定理？
+
+\series bold
+G
+\series default
+是否是
+\series bold
+TNT
+\series default
+的定理？
 \end_layout
 
 \begin_layout Standard
-让我们在这个问题上形成我们自己的观点，而不要依赖G关于它自己的观点。毕竟，G可能并不比一个禅师更理解其自身。G可能象无朋一样表达了一个假理。G可能象WU一样不是
-个定
+让我们在这个问题上形成我们自己的观点，而不要依赖
+\series bold
+G
+\series default
+关于它自己的观点。毕竟，
+\series bold
+G
+\series default
+可能并不比一个禅师更理解其自身。
+\series bold
+G
+\series default
+可能象无朋一样表达了一个假理。
+\series bold
+G
+\series default
+可能象
+\series bold
+WU
+\series default
+一样不是个定
 \begin_inset Note Comment
 status open
 
@@ -4384,39 +4430,162 @@ status open
 
 \end_inset
 
-理。我们无需信赖TNT的每一个可能的串——只信赖它的定理。现在让我们在这一点上尽可能地用推理的威力来澄清问题。
+理。我们无需信赖
+\series bold
+TNT
+\series default
+的每一个可能的串——只信赖它的定理。现在让我们在这一点上尽可能地用推理的威力来澄清问题。
 \end_layout
 
 \begin_layout Standard
-我们要做我们通常都做的假定：TNT包容的推理方法是有效的，因而TNT决不会把假理当作定理。换句话说，任何在TNT中成为定理的东西都表示了一个真理。这样，若G是个
-定理，它表示的就是真理，即：“G不是定理”。它的自指性尽其全力打击了我们。由于充当了定理．G就不得不是个假理。根据我们的假定，TNT不会把假理当作定理，于是我们
-被迫得出结论说G不是个定理。这是可以的，然而它还是留给了我们一个并非不严重问题。知道了G不是定理之后，我们就得承认G表示了一条真理。这个局面揭示出TNT没能达到
-我们的期望——我们发现了一个符号串，它表示了真理，然而却不是个定理。惊异中别忘了还有一个算术的解释这一事实——我们因此能把我们的发现小结如下：
+我们要做我们通常都做的假定：
+\series bold
+TNT
+\series default
+包容的推理方法是有效的，因而
+\series bold
+TNT
+\series default
+决不会把假理当作定理。换句话说，任何在
+\series bold
+TNT
+\series default
+中成为定理的东西都表示了一个真理。这样，若
+\series bold
+G
+\series default
+是个定理，它表示的就是真理，即：“
+\series bold
+G
+\series default
+不是定理”。它的自指性尽其全力打击了我们。由于充当了定理．
+\series bold
+G
+\series default
+就不得不是个假理。根据我们的假定，
+\series bold
+TNT
+\series default
+不会把假理当作定理，于是我们被迫得出结论说
+\series bold
+G
+\series default
+不是个定理。这是可以的，然而它还是留给了我们一个并非不严重问题。知道了
+\series bold
+G
+\series default
+不是定理之后，我们就得承认
+\series bold
+G
+\series default
+表示了一条真理。这个局面揭示出
+\series bold
+TNT
+\series default
+没能达到我们的期望——我们发现了一个符号串，它表示了真理，然而却不是个定理。惊异中别忘了还有一个算术的解释这一事实——我们因此能把我们的发现小结如下：
 \end_layout
 
 \begin_layout Quotation
-发现了一个TNT的串，它毫不含糊地表示了关于自然数的某个算术性质的一个陈述；而且，通过在系统外面进行的推理，我们确定了那个陈述为真，还确定了那个串不是个TNT的
-定理。于是，如果我们问TNT那陈述是否是真的，TNT将既不说“是”也不说“不”。
+发现了一个
+\series bold
+TNT
+\series default
+的串，它毫不含糊地表示了关于自然数的某个算术性质的一个陈述；而且，通过在系统外面进行的推理，我们确定了那个陈述为真，还确定了那个串不是个
+\series bold
+TNT
+\series default
+的定理。于是，如果我们问
+\series bold
+TNT
+\series default
+那陈述是否是真的，
+\series bold
+TNT
+\series default
+将既不说“是”也不说“不”。
 \end_layout
 
 \begin_layout Standard
-《一首无的奉献》申乌龟的那个串是不是G的类似物？还不是。乌龟那个串的类似物是~G。这是为什么呢？好，让我们来看看~G说的是什么。它必定是与G说的相反。G说，“G
-不是TNT的定理”，所以~G必定是说“G是个定理”。我们可以重述G与~G如下：
+《一首无的奉献》申乌龟的那个串是不是
+\series bold
+G
+\series default
+的类似物？还不是。乌龟那个串的类似物是~
+\series bold
+G
+\series default
+。这是为什么呢？好，让我们来看看~
+\series bold
+G
+\series default
+说的是什么。它必定是与
+\series bold
+G
+\series default
+说的相反。
+\series bold
+G
+\series default
+说，“
+\series bold
+G
+\series default
+不是
+\series bold
+TNT
+\series default
+的定理”，所以~
+\series bold
+G
+\series default
+必定是说“
+\series bold
+G
+\series default
+是个定理”。我们可以重述
+\series bold
+G
+\series default
+与~
+\series bold
+G
+\series default
+如下：
 \end_layout
 
-\begin_layout Quotation
+\begin_layout Quote
 \begin_inset space \enskip{}
 \end_inset
 
-G：“我不是个(TNT的)定理。”
+
+\series bold
+G
+\series default
+：“我不是个(
+\series bold
+TNT
+\series default
+的)定理。”
 \end_layout
 
-\begin_layout Quotation
-~G：“我的否定是个（TNT的）定理。"
+\begin_layout Quote
+~
+\series bold
+G
+\series default
+：“我的否定是个（
+\series bold
+TNT
+\series default
+的）定理。"
 \end_layout
 
 \begin_layout Standard
-是~G与乌龟的串相平行，因为那个串不是说它自己，而是谈论乌龟最初提供给阿基里斯的那个串——上面多了一个弯（或少了一
+是~
+\series bold
+G
+\series default
+与乌龟的串相平行，因为那个串不是说它自己，而是谈论乌龟最初提供给阿基里斯的那个串——上面多了一个弯（或少了一
 \begin_inset Note Comment
 status open
 
