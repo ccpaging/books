@@ -238,7 +238,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:44"
+name "fig:46"
 
 \end_inset
 
@@ -353,7 +353,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:45"
+name "fig:47"
 
 \end_inset
 
@@ -410,7 +410,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:46"
+name "fig:48"
 
 \end_inset
 
@@ -605,7 +605,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:47"
+name "fig:49"
 
 \end_inset
 
@@ -681,7 +681,7 @@ status open
 泉云：“道不属知，不属不知；知是妄觉，不知是无记。若真达不疑之道，犹如太虚廓然洞豁，岂可说是非耶！”[见图
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:50"
+reference "fig:52"
 
 \end_inset
 
@@ -719,7 +719,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:48"
+name "fig:50"
 
 \end_inset
 
@@ -938,7 +938,7 @@ status open
 在质疑感知、设置无答案的荒唐哑谜方面，禅宗有个伴儿：画家艾舍尔。比如《白天与黑夜》（图
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:47"
+reference "fig:49"
 
 \end_inset
 
@@ -949,7 +949,7 @@ reference "fig:47"
 那真的是白天吗？真的黑夜吗？”然而我们又都知道这么问毫无意义。这幅画同禅宗的公案一样，是住努力打破逻辑头脑。艾舍尔还特别喜欢作一些矛盾的画，象《另一个世界》（图
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:46"
+reference "fig:48"
 
 \end_inset
 
@@ -961,56 +961,6 @@ reference "fig:46"
 \end_layout
 
 \begin_layout Standard
-在《露珠》（图
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:45"
-
-\end_inset
-
-）中，对于反射有种精致的、俳句般的探究。另外还有两幅月亮映在平和的水面上的宁静图景：《坭塘》（图51）和《水面涟漪》（图52）。水中的月亮是许多公案的主题。下面
-是一个例子：@
-\end_layout
-
-\begin_layout Standard
-千代能尼师在园觉佛光大师会下学禅，久久不能获得参悟的
-\end_layout
-
-\begin_layout Standard
-结果。一个月明之夜，千代以一个旧桶捉水，偶因桶箍破裂而
-\end_layout
-
-\begin_layout Standard
-桶底脱落，豁然获得大自在，作一偈以记其事：
-\end_layout
-
-\begin_layout Standard
-扶持旧桶，桶底忽脱。
-\end_layout
-
-\begin_layout Standard
-桶里无水，水中无月。
-\end_layout
-
-\begin_layout Standard
-<三界》是一幅艾舍尔的画（图4 6），也是一个禅宗公案的主题：@
-\end_layout
-
-\begin_layout Standard
-（瑞岩）问：“三界竞起时如何？”师（岩头禅师）曰：“坐却著。”
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-334
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1019,7 +969,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0335.jpg
-	width 80text%
+	width 90text%
 
 \end_inset
 
@@ -1032,7 +982,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:49"
+name "fig:51"
 
 \end_inset
 
@@ -1050,11 +1000,136 @@ name "fig:49"
 \end_layout
 
 \begin_layout Standard
+在《露珠》（图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:47"
+
+\end_inset
+
+）中，对于反射有种精致的、俳句般的探究。另外还有两幅月亮映在平和的水面上的宁静图景：《泥塘》（图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:51"
+
+\end_inset
+
+）和《水面涟漪》（图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:52"
+
+\end_inset
+
+）。水中的月亮是许多公案的主题。下面是一个例子：
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+同上，第120页。这是一个日本公案，中译文采自《禅的故事》（即李普士《禅肉，禅骨》一书的中译本），哈尔滨：北方文艺出版社，1987年版。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+千代能尼师在园觉佛光大师会下学禅，久久不能获得参悟的结果。一个月明之夜，千代以一个旧桶捉水，偶因桶箍破裂而桶底脱落，豁然获得大自在，作一偈以记其事：
+\end_layout
+
+\begin_layout Quote
+扶持旧桶，桶底忽脱。
+\end_layout
+
+\begin_layout Quote
+桶里无水，水中无月。
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+《三界》是一幅艾舍尔的画（图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:46"
+
+\end_inset
+
+），也是一个禅宗公案的主题：
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+同上，第180页。中译文出自《五灯会元》中册，第三七八页。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+（瑞岩）问：“三界竞起时如何？”师（岩头禅师）曰：“坐却著。”
+\end_layout
+
+\begin_layout Quote
 曰：“未审师意如何？”师曰：“移取庐山来，即向汝道。”
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+334
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
 “三比二”与艾舍尔
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0336-1.jpg
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:52"
+
+\end_inset
+
+水面涟漪，艾舍尔作（油毡浮雕，1950）。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1080,7 +1155,7 @@ status open
 
 \end_inset
 
-
+中出现了这种现象的有第五键盘组曲中的小步舞曲，以及那首小可恩议的G小调第一无伴奏小提琴奏鸣曲的终曲。
 \end_layout
 
 \begin_layout Standard
@@ -1091,8 +1166,9 @@ status open
 
 \begin_layout CenterLine
 \begin_inset Graphics
-	filename images/image-0336-1.jpg
-	scale 30
+	filename images/image-0336-2.jpg
+	lyxscale 50
+	width 90text%
 
 \end_inset
 
@@ -1105,43 +1181,10 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:50"
+name "fig:53"
 
 \end_inset
 
-水面涟漪，艾舍尔作（油毡浮雕，1950）。
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/image-0336-2.jpg
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
 三个球Ⅱ，艾舍尔作(版画，1946)。
 \end_layout
 
@@ -1156,16 +1199,9 @@ status open
 \end_layout
 
 \begin_layout Standard
-：『1．出现r这种现象的有第五键盘组曲中的小步舞曲，以及~f5首小可恩议的G小调第一无伴奏小提琴奏鸣曲的终曲。
-\end_layout
-
-\begin_layout Standard
 逐步进入到《辞》的中央时，差别便渐渐开始模糊，于是到最后剩下的不是三个，也不是两个，而是一个单质：“辞”（画中是拉丁文VERBUM，就是“辞”的意思）在熠熠闪光
-——也许这就是顿悟的象征。有趣的是，“辞”不仅是个词，而且它的意义也即“词”——并不完全与禅宗的观念相符。另一方面，“辞”是画中唯一的一个词。
-\end_layout
-
-\begin_layout Standard
-洞山禅师曾说过，“全部佛经三藏可以由…一个字来表达。"我一直在想，该是什么样的解码机制才能从一个字里抽出三藏经文？也许是个带有两个半球的东西。
+——也许这就是顿悟的象征。有趣的是，“辞”不仅是个词，而且它的意义也即“词”——并不完全与禅宗的观念相符。另一方面，“辞”是画中唯一的一个词。洞山禅师曾说过，“
+全部佛经三藏可以由一个字来表达。"我一直在想，该是什么样的解码机制才能从一个字里抽出三藏经文？也许是个带有两个半球的东西。
 \end_layout
 
 \begin_layout Subsection*
@@ -1173,47 +1209,66 @@ status open
 \end_layout
 
 \begin_layout Standard
-最后，我们来看看<三个球之二》（图5 3），其中世界的每个部分都包含了、同时也被包含于其它部分：写字台反映出在它上面的球，球与球之间彼此反映，同时也反映出写字台
-，并反映出这幅画本身以及正在作画的艺六家。所有的事物彼此之间都有着无尽的联结。这里还只不过是给个提示，然而提示已经足够了。佛教中的因陀罗之网就象征着遍布宇宙的一
-张无穷无尽的线网，水平的线穿过空间，垂直的线穿过时间。每个线与线的交汇处都是一个个体，每个个体都是颗明珠。“神9’的巨大光芒照耀并穿透每颗明珠，而且，每颗明珠不
-但在反映网上其它明球的光泽——也反映着遍布于宇宙的每一反映的每一反映。
+最后，我们来看看《三个球之二》（图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:53"
+
+\end_inset
+
+），其中世界的每个部分都包含了、同时也被包含于其它部分：写字台反映出在它上面的球，球与球之间彼此反映，同时也反映出写字台，并反映出这幅画本身以及正在作画的艺术家
+。所有的事物彼此之间都有着无尽的联结。这里还只不过是给个提示，然而提示已经足够了。佛教中的因陀罗之网就象征着遍布宇宙的一张无穷无尽的线网，水平的线穿过空间，垂直
+的线穿过时间。每个线与线的交汇处都是一个个体，每个个体都是颗明珠。“神”的巨大光芒照耀并穿透每颗明珠，而且，每颗明珠不但在反映网上其它明球的光泽——也反映着遍布
+于宇宙的每一反映的每一反映。
 \end_layout
 
 \begin_layout Standard
-这使我脑子里产生了一幅重正化粒子的图像：在每个电子中，、都有虚光子、正电子、中微子、兀介子……；每个光子中又有虚电子、质子、中子、死介子……；而在每个兀介子中，
-有…
+这使我脑子里产生了一幅重正化粒子的图像：在每个电子中，、都有虚光子、正电子、中微子、π介子……；每个光子中又有虚电子、质子、中子、死介子……；而在每个π介子中，
+有……
 \end_layout
 
 \begin_layout Standard
 但随即又来了另一幅图像：关于人。每个人都反映在许多其他人的脑子里，那些人又反映在另外一些人的脑子里，如此下去。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+337
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-33 7
+这两幅图像都能由扩充转移网简明漂亮地表示出来。在粒子的情形，将是每个粒子范畴都有一个网；在人的情形，是每个人有个网。每个网都含有对其它网的调用，这样就在每个AT
+N周围包上了一个ATN的虚云。调用某一个网导致对别的网的调用，这个过程在终了之前会象多级瀑布般地流泻到任意远。
 \end_layout
 
-\begin_layout Standard
-这两幅图像都能由扩充转移网简明漂亮地表示出来。在粒子259的情形，将是每个粒子范畴都有一个网；在人的情形，是每个人有个网。每个网都含有对其它网的调用，这样就在每
-个ATN周围包上了一个ATN的虚云。调用某一个网导致对别的网的调用，这个过程在终了之前会象多级瀑布般地流泻到任意远。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Subsection*
 无门论无
 \end_layout
 
 \begin_layout Standard
-让我们回到无门，把这番闲扯收归于禅宗。下面是他对赵州的“无”的评论：@参禅须透祖师关，妙语要穷心路决。祖关不透，尽是依草附木精灵。且道：如何是祖师关？只者一个“
-无”字，乃宗门一关也。
+让我们回到无门，把这番闲扯收归于禅宗。下面是他对赵州的“无”的评论：
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+李普士书，第89-90页。中译文出自《无门关》。
 \end_layout
 
-\begin_layout Standard
-遂目之曰：“禅宗无门关。"透得过者，非但亲见赵州，便可与历代祖师把手共行，眉毛厮结，同一眼见，同一耳闻，岂不庆快？
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-莫有要透关底么？将三百六十骨节、八万四千毫窍，通身起个疑团，参个“无”字，昼夜提撕。莫作虚无会，莫作有无会，如吞了个热铁丸相似，吐又吐不出，荡尽从前恶知恶觉；久
-久纯熟，自然内外打成一片，如哑子得梦只许自知；蓦然打发，惊天动地，如夺得关将军大刀入手，逢佛杀佛，逢祖杀祖，于生死岸得大自在，向六道四生中游戏三昧。且作么生提撕
-？尽平生气力举个“无”字。若不间断，好似法烛，一点便着。
+\begin_layout Quote
+参禅须透祖师关，妙语要穷心路决。祖关不透，尽是依草附木精灵。且道：如何是祖师关？只者一个“无”字，乃宗门一关也。遂目之曰：“禅宗无门关。"透得过者，非但亲见赵州
+，便可与历代祖师把手共行，眉毛厮结，同一眼见，同一耳闻，岂不庆快？莫有要透关底么？将三百六十骨节、八万四千毫窍，通身起个疑团，参个“无”字，昼夜提撕。莫作虚无会
+，莫作有无会，如吞了个热铁丸相似，吐又吐不出，荡尽从前恶知恶觉；久久纯熟，自然内外打成一片，如哑子得梦只许自知；蓦然打发，惊天动地，如夺得关将军大刀入手，逢佛杀
+佛，逢祖杀祖，于生死岸得大自在，向六道四生中游戏三昧。且作么生提撕？尽平生气力举个“无”字。若不间断，好似法烛，一点便着。
 \end_layout
 
 \begin_layout Subsection
@@ -1223,42 +1278,39 @@ status open
 \begin_layout Standard
 我们现在从赵州的“无”那元比漂渺的高度上降下来，降到单调又平凡的侯世达的WU……我知道你已为这个WU花费了不少精力（读第一章的时候），所以我现在很愿意摆出答案了
 。那时提出的问题是：
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+338
 \end_layout
 
-\begin_layout Standard
-3 38
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 “WU还有定理性也无？”
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
 答案并非一个含糊其词的“无”，而是一声响亮的“不”。为了指明这一点，我将借用二元论的、逻辑的思维。
 \end_layout
 
 \begin_layout Standard
-在第一章中有两点观察是至关重要的： 260
+在第一章中有两点观察是至关重要的：
 \end_layout
 
-\begin_layout Standard
-(1)WU谜题之所以有难度，很大程度上是因为它涉及了加
+\begin_layout Enumerate
+WU谜题之所以有难度，很大程度上是因为它涉及了加长规则与缩短规则两者的交织；
 \end_layout
 
-\begin_layout Standard
-长规则与缩短规则两者的交织；
-\end_layout
-
-\begin_layout Standard
-(2)解开这个谜题的希望还是有的，只是要借助一个工具：
-\end_layout
-
-\begin_layout Standard
-数论。某种意义上讲，数论在处理这种复杂度的问题时具有
-\end_layout
-
-\begin_layout Standard
-合适的深度。
+\begin_layout Enumerate
+解开这个谜题的希望还是有的，只是要借助一个工具：数论。某种意义上讲，数论在处理这种复杂度的问题时具有合适的深度。
 \end_layout
 
 \begin_layout Standard
@@ -1267,23 +1319,60 @@ status open
 \end_layout
 
 \begin_layout Standard
-为使读者参考起来方便，我重述WJU系统如下：符号：W，J，U公理：WJ规则：
+为使读者参考起来方便，我重述WJU系统如下：
 \end_layout
 
 \begin_layout Standard
-1．若XJ是定理，则xjU也是定理。
+\noindent
+符号：W，J，U
 \end_layout
 
 \begin_layout Standard
-Ⅱ．若Wx是定理，则Wxx也是定理。
+\noindent
+公理：WJ
 \end_layout
 
 \begin_layout Standard
-Ⅲ．在任何定理中，JJJ可以被换成U。
+\noindent
+规则：
 \end_layout
 
-\begin_layout Standard
-Ⅳ．UU可以从任何定理中删去。
+\begin_layout Enumerate
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+leftmargin=!,align=right,label=
+\backslash
+Roman{enumi}.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+若xJ是定理，则xJU也是定理。
+\end_layout
+
+\begin_layout Enumerate
+若Wx是定理，则Wxx也是定理。
+\end_layout
+
+\begin_layout Enumerate
+在任何定理中，JJJ可以被换成U。
+\end_layout
+
+\begin_layout Enumerate
+UU可以从任何定理中删去。
 \end_layout
 
 \begin_layout Subsection*
@@ -1291,61 +1380,69 @@ status open
 \end_layout
 
 \begin_layout Standard
-于是，按照上述两点观察，WU谜题无非是一道披着印符外衣的自然数问题。假若我们能想出一个办法，把它转换到数的领域里，我们大概就能解它了3让我们好好想想无门的话：“
+于是，按照上述两点观察，WU谜题无非是一道披着印符外衣的自然数问题。假若我们能想出一个办法，把它转换到数的领域里，我们大概就能解它了。让我们好好想想无门的话：“
 若向者里着得一只眼，使知清凉国师败阙处。”但“着得一只眼”又怎样呢？
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+339
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-3 39
-\end_layout
-
-\begin_layout Standard
-你要是数一数定理中J的数目，很快你就会发现好象永远不会是00换句话说，似乎无论折腾多少回加长与缩短的操作，我们永远也得不到一个清除了所有J的符号串。让我们把串中
-J的数目称作该串的“眼”数，因为J的存在就好象是在我们想要的WU串中间钻了一些“洞眼”。注意公理WJ中有一只“眼”。我们不但可以说明定理的“眼”数不可能是O，还
+你要是数一数定理中J的数目，很快你就会发现好象永远不会是0。换句话说，似乎无论折腾多少回加长与缩短的操作，我们永远也得不到一个清除了所有J的符号串。让我们把串中
+J的数目称作该串的“眼”数，因为J的存在就好象是在我们想要的WU串中间钻了一些“洞眼”。注意公理WJ中有一只“眼”。我们不但可以说明定理的“眼”数不可能是0，还
 可以说明，“眼”数永远不会是3的倍数。
 \end_layout
 
 \begin_layout Standard
-作为开始，先注意规则I与规则IV对“眼”数丝毫不发生影响。
-\end_layout
-
-\begin_layout Standard
-所以我们只需要考虑规则Ⅱ与Ⅲ。规则Ⅱ只不过是使“眼”数恰好减3，使用这个规则之后，得到的输出或许也可能是3的倍数一但仅只在输入已经是3的倍数这一情况下。简而言之
-，规则I决不会无中生有地产生3的倍数。它必须在“眼”数已经是3的倍数的情况下才能产生“眼”数为3的倍数的串。同样的事情也发生在规261则I身上，因为它使“眼”数
-翻倍。理由是，若2 n被3整除，那么一由于3不整除2-n就得被3整除（数论里的一个简单事实）。无论是规则Ⅱ还是规则Ⅲ，都不能无中生有地产生3的倍数。
+作为开始，先注意规则Ⅰ与规则ⅣV对“眼”数丝毫不发生影响。所以我们只需要考虑规则Ⅱ与Ⅲ。规则Ⅱ只不过是使“眼”数恰好减3，使用这个规则之后，得到的输出或许也可能
+是3的倍数——但仅只在输入已经是3的倍数这一情况下。简而言之，规则Ⅰ决不会无中生有地产生3的倍数。它必须在“眼”数已经是3的倍数的情况下才能产生“眼”数为3的倍
+数的串。同样的事情也发生在规则Ⅰ身上，因为它使“眼”数翻倍。理由是，若2n被3整除，那么——由于3不整除2——n就得被3整除（数论里的一个简单事实）。无论是规则
+Ⅱ还是规则Ⅲ，都不能无中生有地产生3的倍数。
 \end_layout
 
 \begin_layout Standard
 而这恰恰就是解开WU谜题的关键所在！下面是我们已经知道了的事情：
 \end_layout
 
-\begin_layout Standard
-(1)最一开始的“眼”数是1（不是3的倍数）；
+\begin_layout Enumerate
+最一开始的“眼”数是1（不是3的倍数）；
+\end_layout
+
+\begin_layout Enumerate
+有两条规则丝毫不影响“眼”数；
+\end_layout
+
+\begin_layout Enumerate
+另两条规则的确要影响“眼”数的值，但除非初始给出的是3的倍数，否则它俩也决不会产生3的倍数。
 \end_layout
 
 \begin_layout Standard
-(2)右两条规则丝毫不影响“眼”数；
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-(3)另两条规则的确要影响“眼”数的值，但除非初始给出的
-\end_layout
-
-\begin_layout Standard
-是3的倍数，否则它俩也决不会产生3的倍数。
-\end_layout
-
-\begin_layout Standard
-结论是——也是典型的继承性论证方式——“眼”数永远无法变成3的倍数。特别地，O就决不可能是“眼”数的值了。因此，WU不是WJU系统的定理。．
+结论是——也是典型的继承性论证方式——“眼”数永远无法变成3的倍数。特别地，0就决不可能是“眼”数的值了。因此，WU不是WJU系统的定理。
 \end_layout
 
 \begin_layout Standard
 请注意，即使是作为一个关于“眼”数的谜题，这个问题也会因为加长规则与缩短规则的交织而使入迷惑。零成了追求目标，
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+340
 \end_layout
 
-\begin_layout Standard
-340“眼”数可以增大（规则Ⅱ），可以减小（规则Ⅲ）。我们大概会想．不断地换着使用那些规贝《，最终或许能达到O，于是就这么干了下去，直到我们站出来分析一番我们面
-临的到底是什么。现在。多亏.1、简单的数论推理过程，我们知道了那是不可能的。
+\end_inset
+
+“眼”数可以增大（规则Ⅱ），可以减小（规则Ⅲ）。我们大概会想．不断地换着使用那些规则，最终或许能达到0，于是就这么干了下去，直到我们站出来分析一番我们面临的到底
+是什么。现在，多亏一个简单的数论推理过程，我们知道了那是不可能的。
 \end_layout
 
 \begin_layout Subsection*
@@ -1353,157 +1450,262 @@ J的数目称作该串的“眼”数，因为J的存在就好象是在我们想
 \end_layout
 
 \begin_layout Standard
-并非所有以WU谜题为代j芪的那类问题都象WU谜题那么容易解。但我们已经看到了至少有这么一个这种问题是可以嵌入数论并用数论来解决的。我们现在就要看到，有那么一种方
-法，可以把所有的关于任何形式系统的问题部嵌入数论。这之所以能做到是因为哥德尔所发现的一种特殊的同构。下面我用WJU系统来说明这种方法。
+并非所有以WU谜题为代表的那类问题都象WU谜题那么容易解。但我们已经看到了至少有这么一个这种问题是可以嵌入数论并用数论来解决的。我们现在就要看到，有那么一种方法
+，可以把所有的关于任何形式系统的问题部嵌入数论。这之所以能做到是因为哥德尔所发现的一种特殊的同构。下面我用WJU系统来说明这种方法。
 \end_layout
 
 \begin_layout Standard
-我们从WJU系统的记号开始。先把每个符号都映射到‘个新的符号上去：
+我们从WJU系统的记号开始。先把每个符号都映射到一个新的符号上去：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+W & \Leftrightarrow & 3\\
+J & \Leftrightarrow & 1\\
+U & \Leftrightarrow & 0
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-W ∞ 3
+这个对应是任意选定的。若要一定说出个理由，可以说每个符号都多少有点象它所映上的那个新符号。每个数都称作相应字母的哥德尔数。现在我敢肯定你已经猜到了字母串的哥德尔
+数将是什么了：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccc}
+WU & \Leftrightarrow & 30\\
+WJJU & \Leftrightarrow & 3110
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+等等
 \end_layout
 
 \begin_layout Standard
-J ㈢ 1
+\noindent
+这很简单。很清楚，这个记号间的映射是个保持信息的变换，就象是在两个小同的乐器上演奏同一旋律。
 \end_layout
 
 \begin_layout Standard
-U 甘O
+我们现在来看看WJU系统中的一个典型的推导，我们同时
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+341
 \end_layout
 
-\begin_layout Standard
-这个对应是任意选定的。若要一定说出个理由，可以说每个符号都多少有点象它所映，卜的那个新符号。每个数都称作相应字母的哥德尔数。现在我敢肯定你已经猜到了字母串的哥德
-尔数将是什么了：
-\end_layout
+\end_inset
 
-\begin_layout Standard
-WIjT 鲁 3 0
-\end_layout
-
-\begin_layout Standard
-WJJU 臼 3 1 1 0
-\end_layout
-
-\begin_layout Standard
-等等这很简单。很清楚，这个记号间的映射是个保持信息的变换，就象262是在两个小同的乐器上演奏同一旋律。
-\end_layout
-
-\begin_layout Standard
-我们现在来看看WjU系统中的一一个典型的推导，我们同时
-\end_layout
-
-\begin_layout Standard
-34 1
-\end_layout
-
-\begin_layout Standard
 用两种记号写：
 \end_layout
 
 \begin_layout Standard
-(1) WJ -公理- 31
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（1）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WJ——公理——31
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（2）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WJJ——规则2——311
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（3）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WJJJJ——规则2——31111
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（4）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WUJ——规则3——301
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（5）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WUJU——规则1——3010
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（6）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WUJUUJU——规则2——3010010
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（7）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+WUJJU——规则4——30110
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(2) WJJ． 规则2— 3 1 1
+\noindent
+左边一列是使用我们已熟悉的四条印符规则而得到的。右边一列同样也可以当作是使用了一组类似的印符规则而生成的。不过右边的一列有种二重性。下面我来解释。
 \end_layout
 
-\begin_layout Standard
-(3)WJJJJ - 规则2- 3 1 1 1 1
-\end_layout
-
-\begin_layout Standard
-(4) WUJ -规则3- 301
-\end_layout
-
-\begin_layout Standard
-(5) W乙JU一一规则1-- 3010
-\end_layout
-
-\begin_layout Standard
-(6) WUJUUJU -规贝lJ 2- 3010010
-\end_layout
-
-\begin_layout Standard
-(7) WUJJU -—规则4- 30110
-\end_layout
-
-\begin_layout Standard
-左边一列是使用我们已熟悉的四条印符规则而彳导到的。右边一列’、 同样也可以当作是使用了一组类似的印符规则而生成的。不过右
-\end_layout
-
-\begin_layout Standard
-边的一列有种二重性。'F面我来解释。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Subsection*
 从印符和算术两个角度看问题
 \end_layout
 
 \begin_layout Standard
-我们可以说第五个串(“3G10")是从第四个来的，方法是在右
+我们可以说第五个串(“3010")是从第四个来的，方法是在右边放上一个“0”；另一方面，我们同样也可以把这一转换看成是由于算术运算而导致的——确切地说就是乘以1
+00当自然数接十进制写出时，乘以10和在右边放上一个0是没有差别的。我们可以利用这一点写出一条算术规则，与印符规则Ⅰ相对应：
 \end_layout
 
-\begin_layout Standard
-边放上一个“O”；另一方面，我们同样也可以把这一转换看成是由
+\begin_layout Labeling
+\labelwidthstring 算术规则Ⅰa：：
+\noindent
+算术规则Ⅰa： 一个数的十进制展开的右侧如果以1结尾，则可乘以100我们可以不必指称十进制展开中的符号，而用算术方式来描述最右边的数字：
 \end_layout
 
-\begin_layout Standard
-于算术运算而导致的——确切地说就是乘以1 0 0当自然数接十进
+\begin_layout Labeling
+\labelwidthstring 算术规则Ⅰa：：
+算术规则Ⅰb： 一个数被10除时的余数如果是1，则可乘以100我们可以仍是固守纯粹的印符规则格式，比如下面这个：
 \end_layout
 
-\begin_layout Standard
-制写出时，乘以1 0和在右边放上一个0是没有差别的。我们可以
-\end_layout
-
-\begin_layout Standard
-利用这一点写出一条算术规则，与印符规则I相对应：
-\end_layout
-
-\begin_layout Standard
-算术规则I a:-个数的十进制展开的右侧如果以1结尾，则可乘
-\end_layout
-
-\begin_layout Standard
-以1 0 0
-\end_layout
-
-\begin_layout Standard
-我们可以不必指称十进制展开中的符号，而用算术方式来描
-\end_layout
-
-\begin_layout Standard
-述最右边的数字：
-\end_layout
-
-\begin_layout Standard
-算术规则I b:-个数被1 0除时的余数如果是1，则可乘以1 0 0
-\end_layout
-
-\begin_layout Standard
-我们可以仍是固守纯粹的印符规则格式，比如下面这个：
-\end_layout
-
-\begin_layout Standard
-印符规则I：从任何一个最右侧符号为“1"昀定理都可以得到一个
-\end_layout
-
-\begin_layout Standard
-新的定理，方法是在那个“1”右侧拼上一个“O”。
+\begin_layout Labeling
+\labelwidthstring 算术规则Ⅰa：：
+印符规则Ⅰ： 从任何一个最右侧符号为“1"的定理都可以得到一个新的定理，方法是在那个“1”右侧拼上一个“0”。
 \end_layout
 
 \begin_layout Standard
 它们的效果是一样的。这就是为什么右边一列具有“二重性”：可以
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+342
 \end_layout
 
-\begin_layout Standard
-34 2视为一系列的印符操作，改变着符号排列模式；也可以视为一系列263算术运算，改变着数的量级。但有充足有力的理由使我们对算术的版本更感兴趣。跨出一个纯印符系
-统，再走入另一个同构的印符系统，这没有多大意思；而离开印符领域然后步入一个与之同构的数论的某个部分则会几激发出未开发的潜力。这就象一个人前半生一直通晓乐谱，但只
-是用眼睛看而已——．然后，忽然有一天，有人告诉了他声音与乐谱之间的映射。那将是怎样一个崭新而又丰富的世界！在这里，就好象一个人前半生一直都熟知符号串的样子，但只
-是那些串的形状而已，从不知意义何在——然后，忽然有一天，有人告诉了他事物与串之间的映射。这是怎样的一种启迪！哥德尔配数的发现被人们比作笛卡尔关于平面曲线与二元方
-程之间同构的那个发现：一旦你见到了，真是令人难以置信地简单——而一个崭新宽广的世界就这么展开了。
+\end_inset
+
+视为一系列的印符操作，改变着符号排列模式；也可以视为一系列算术运算，改变着数的量级。但有充足有力的理由使我们对算术的版本更感兴趣。跨出一个纯印符系统，再走入另一
+个同构的印符系统，这没有多大意思；而离开印符领域然后步入一个与之同构的数论的某个部分则会激发出未开发的潜力。这就象一个人前半生一直通晓乐谱，但只是用眼睛看而已—
+—然后，忽然有一天，有人告诉了他声音与乐谱之间的映射。那将是怎样一个崭新而又丰富的世界！在这里，就好象一个人前半生一直都熟知符号串的样子，但只是那些串的形状而已
+，从不知意义何在——然后，忽然有一天，有人告诉了他事物与串之间的映射。这是怎样的一种启迪！哥德尔配数的发现被人们比作笛卡尔关于平面曲线与二元方程之间同构的那个发
+现：一旦你见到了，真是令人难以置信地简单——而一个崭新宽广的世界就这么展开了。
 \end_layout
 
 \begin_layout Standard
@@ -1512,115 +1714,388 @@ WJJU 臼 3 1 1 0
 \end_layout
 
 \begin_layout Standard
-下面是实现的方案之一。规则中的m和k是任意的自然数，n是小于lOm的任何自然数。
+下面是实现的方案之一。规则中的m和k是任意的自然数，n是小于
+\begin_inset Formula $10^{m}$
+\end_inset
+
+的任何自然数。
 \end_layout
 
+\begin_layout Labeling
+\labelwidthstring 规则1：：
+\noindent
+规则1： 若有了
+\begin_inset Formula $10m+1$
+\end_inset
+
+，则还可以有
+\begin_inset Formula $10\times(10m+1)$
+\end_inset
+
+。
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
-规则1：若有了lQm+l．则还可以有10 X(lOm+l)。
+例子：从第4行到第5行。这时，m= 30。
 \end_layout
 
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 规则1：：
+规则2： 若有了
+\begin_inset Formula $3\times10^{m}+n$
+\end_inset
+
+，则还可以有
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $10^{m}\times(3\times10^{m}+n)+n$
+\end_inset
+
+。
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
-例子：从第4行到第5行。这时，m= 300规则2：若有了3×1 0m+n，则还可以有lOm×(3×1 0m+n)+n 。
+例子：从第1行到第2行，这时m与n都是1。
 \end_layout
 
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 规则1：：
+规则3： 若有了
+\begin_inset Formula $1\times10^{m+3}+111\times10^{m}+n$
+\end_inset
+
+，则还可以有
+\begin_inset Formula $k\times10^{m+1}+n$
+\end_inset
+
+。
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
-例子：从第1行到第2行，这时m与n都是1 0规则3：若有了k×lOm+3+111×lOm+n，则还可以有k×lOm+l+
+例子：从第3行到第4行，这时m与n都是1，而k是3。
 \end_layout
 
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 规则1：：
+规则4： 若有了
+\begin_inset Formula $k\times10(m+2)+n$
+\end_inset
+
+．则还可以有
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $k\times10(m)+n$
+\end_inset
+
+ 。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+343
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Standard
-n。
+例子：从第6行到第7行。这时，
+\begin_inset Formula $m=2$
+\end_inset
+
+，
+\begin_inset Formula $n=10$
+\end_inset
+
+，
+\begin_inset Formula $k=301$
+\end_inset
+
+。
 \end_layout
 
-\begin_layout Standard
-例子：从第3行到第4行，这时m与n都是1，而k是3 0规则4：若有了k×lO(m+2)+n．则还可以有k×lO(m)+n 。
-\end_layout
-
-\begin_layout Standard
-34 3
-\end_layout
-
-\begin_layout Standard
-例子：从第6行到第7行。这时，m=2，n-10，k= 3010
-\end_layout
-
+\end_deeper
 \begin_layout Standard
 可别忘了我们的公理！没有它我们哪里都去不了。所以，我们说：
 \end_layout
 
-\begin_layout Standard
-我们有310
+\begin_layout CenterLine
+我们有31。
 \end_layout
 
 \begin_layout Standard
-现在，右边一列可被视为一个资格充分的算术过程了，它来自一个
+\noindent
+现在，右边一列可被视为一个资格充分的算术过程了，它来自一个新的算术系统，不妨称之为310系统：
 \end_layout
 
 \begin_layout Standard
-新的算术系统，不妨称之为3 1 0系统：264 (1) 3 1 给定的’
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="3">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="right" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（1）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+给定的
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（2）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+311
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+规则2
+\begin_inset Formula $(m=1,n=1)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（3）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3111
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+规则3
+\begin_inset Formula $(m=2,n=11)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（4）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+301
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+规则3
+\begin_inset Formula $(m=1,n=1,k=3)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（5）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3010
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+规则l
+\begin_inset Formula $(m=30)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（6）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3010010
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+规则2
+\begin_inset Formula $(m=3,n=10)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（7）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30110
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+规则4
+\begin_inset Formula $(m=2,n=10,k=301)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(2) 3 1 1 规则2(m -1，n-l)
+请看，加长与缩短规则还在追着我们，这个“310系统”也被缠上了。这个东西被传送到了数的领域，使得哥德尔数时而大时而小。如果细细观察，你会发现这些规则的设计是基于
+一个并不深奥的思想：整数的十进制表示中那些数码的左右移动是与乘以或除以1 0的方幂相关联的。这一简单的结论可以推广：
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 中心命题：：
+\noindent
+中心命题： 若有一条印符规则，它在任一十进制表示的数中移动、改变、删除或插入数码，那么这条规则可同样由一条算术规则来替代，后者包括对10的方幂的算术运算以及加、
+减等运算。
 \end_layout
 
 \begin_layout Standard
-(3) 31 1 1 1， 规．则3(m-2‘，n- 11)
-\end_layout
-
-\begin_layout Standard
-(4) 3 01 规则3(m=l，n-l．k=3)
-\end_layout
-
-\begin_layout Standard
-(5) 3 01 0 规则l(m=：30)
-\end_layout
-
-\begin_layout Standard
-(6) 30 1 001 0 规则2(m=3，n=10)
-\end_layout
-
-\begin_layout Standard
-(7) 30 1 10 规则4(m—2，n—l0，k=301)
-\end_layout
-
-\begin_layout Standard
-请看，加长与缩短规则还在追着我们，这个“3 1 0系统”也被缠
-\end_layout
-
-\begin_layout Standard
-上了。这个东西被传送到了数的领域，使得哥德尔数时而大时而
-\end_layout
-
-\begin_layout Standard
-／＼。如果细细观察，你会发现这些规则的设计是基于一个并不深奥
-\end_layout
-
-\begin_layout Standard
-的思想：整数的十进制表示中那些数码的左右移动是与乘以或除
-\end_layout
-
-\begin_layout Standard
-以1 0的方幂相关联的。这一简单的结论可以推广：
-\end_layout
-
-\begin_layout Standard
-中心命题：若有一条印符规则，它在任『一十进制表示的数中移动、
-\end_layout
-
-\begin_layout Standard
-改变、删除或插入数码，那么这条规则可同样由一条算
-\end_layout
-
-\begin_layout Standard
-术规则来替代，后者包括对1 0的方幂的算术运算以及
-\end_layout
-
-\begin_layout Standard
-加、减等运算。
-\end_layout
-
-\begin_layout Standard
-而言之：
+简而言之：
 \end_layout
 
 \begin_layout Standard
@@ -1628,23 +2103,18 @@ n。
 \end_layout
 
 \begin_layout Standard
-这一简单的结论是哥德尔方法的核心，其后果是震撼人心的。
+这一简单的结论是哥德尔方法的核心，其后果是震撼人心的。就是说，一旦对一个形式系统进行了哥德尔配数，立刻就有了一组规则，使我们得到完整的哥德尔同构。结果就是，我们
+可以把对任一形式系统的研究——事实上即对所有形式系统的研究——转成
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+344
 \end_layout
 
-\begin_layout Standard
-就是说，一旦对一个形式系统进行了哥德尔配数，立刻就有了一组
-\end_layout
+\end_inset
 
-\begin_layout Standard
-规则，使我们得到完整的哥德尔同构。结果就是，我们可以把对任
-\end_layout
-
-\begin_layout Standard
-一形式系统的研究——事实上即对所有形式系统的研究——转成
-\end_layout
-
-\begin_layout Standard
-344数论工作。
+数论工作。
 \end_layout
 
 \begin_layout Subsection*
@@ -1653,9 +2123,9 @@ WJU可产生的数
 
 \begin_layout Standard
 就象一组印符规则会产生一集定理，一集相应的自然数可通过重复使用算术规则而生成。这些可产生的数在数论中扮演的角色与形式系统中定理扮演的角色是一样的。当然，什么样的
-数是可产生的，这取决于采用的是什么规则。“可产生的”数的可产生性是相对于一个算术规则的系统而言的。例如，诸如3 1，3 01 00 1 0，3
- 1 1 1 1等等这样的数可以称为“WJU可产生的”数一 一个笨拙的词，或许该简称为“WJU数”，意指这些数是把WJU系统通过哥德尔配数转入数论的产物。假若我
-ff：是对pq系统进行了哥德尔配数，然后把其规则“算术化”，那么我们可以称那些可产生的数为265“pq数”——如此等等。
+数是可产生的，这取决于采用的是什么规则。“可产生的”数的可产生性是相对于一个算术规则的系统而言的。例如，诸如31，3010010，31111等等这样的数可以称为
+“WJU可产生的”数——一个笨拙的词，或许该简称为“WJU数”，意指这些数是把WJU系统通过哥德尔配数转入数论的产物。假若我们是对pq系统进行了哥德尔配数，然后
+把其规则“算术化”，那么我们可以称那些可产生的数为“pq数”——如此等等。
 \end_layout
 
 \begin_layout Standard
@@ -1665,13 +2135,19 @@ ff：是对pq系统进行了哥德尔配数，然后把其规则“算术化”�
 \end_layout
 
 \begin_layout Standard
-当你把形式系统研究换成数论研究时，就会产生速类问题。对每个算术化了的系统都可以问，“我们能否用一种递归可枚举的办法刻划不可产生的数？”这些都是数论中很困难的问题
+当你把形式系统研究换成数论研究时，就会产生这类问题。对每个算术化了的系统都可以问，“我们能否用一种递归可枚举的办法刻划不可产生的数？”这些都是数论中很困难的问题
 。对现在那些已经算术化了系统，这种问题都会显出是些极难解决的问题。不过，假如存在解决办法，那也必将是依靠通常那种用于自然数的一步一步的推理。而这当然也就是在我们
 前些章讲过的那种典范形
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+345
 \end_layout
 
-\begin_layout Standard
-345式中进行的。TNT整个看来似乎抓住了所有有效的数学思维过程，并都压入一个紧凑的系统中了。
+\end_inset
+
+式中进行的。TNT整个看来似乎抓住了所有有效的数学思维过程，并都压入一个紧凑的系统中了。
 \end_layout
 
 \begin_layout Subsection*
@@ -1679,86 +2155,109 @@ ff：是对pq系统进行了哥德尔配数，然后把其规则“算术化”�
 \end_layout
 
 \begin_layout Standard
-那么，是不是说有可能解答任何有关形式系统问题的方法都已经在这么一个形式系统—- TNT——里面了呢？似乎这是可以想像的。比如看下面这个问题：
+那么，是不是说有可能解答任何有关形式系统问题的方法都已经在这么一个形式系统—— TNT——里面了呢？似乎这是可以想像的。比如看下面这个问题：
+\end_layout
+
+\begin_layout Quotation
+WU是WJU系统中的定理吗？
 \end_layout
 
 \begin_layout Standard
-WU是WJU系统中的定理吗？找到答案等同于确定30是否是一个WJU数。由于这是一个数论陈述，我们该可以设想，经过一番艰苦工作就能想出办法把句子“30是一个WJU
-"数翻译成TNT记号，其过程与想出如何把其它数论句子翻译成TNT记号是差不多的。我该立刻提醒读者，这样的翻译确实存在，但极其复杂。你也许还记得，在第八章里我指出
-过：即使象"b是1 0的方幂”这么简单的算术谓词，要转成TNT记号的形式都是非常棘手的——而谓词“b是个WJU数”则还要复．杂得多！可这还是能做到的。这个问题中
-的b可被数字ssssssssssssssssssssssssssssss。替换。得到的结果将是一个硕大无朋的TNT符号串，一个谈论WU谜题的TNT符号串。
+找到答案等同于确定30是否是一个WJU数。由于这是一个数论陈述，我们该可以设想，经过一番艰苦工作就能想出办法把句子“30是一个WJU"数翻译成TNT记号，其过程
+与想出如何把其它数论句子翻译成TNT记号是差不多的。我该立刻提醒读者，这样的翻译确实存在，但极其复杂。你也许还记得，在第八章里我指出过：即使象"b是10的方幂”
+这么简单的算术谓词，要转成TNT记号的形式都是非常棘手的——而谓词“b是个WJU数”则还要复．杂得多！可这还是能做到的。这个问题中的b可被数字SSSSSSSSS
+SSSSSSSSSSSSSSSSSSSSS0替换。得到的结果将是一个硕大无朋的TNT符号串，一个谈论WU谜题的TNT符号串。
 \end_layout
 
 \begin_layout Standard
-就让我们称之为“无朋”吧。通过无朋及与之类似的串，TNT现在t．可以“用码”来谈论wjU系统了。 、
+就让我们称之为“无朋”吧。通过无朋及与之类似的串，TNT现在可以“用码”来谈论WJU系统了。 
+\end_layout
+
+\begin_layout Subsection*
+无朋的两重性
 \end_layout
 
 \begin_layout Standard
-无朋的丙重性266 为了从这个对原问题的奇特的转换中得到更多的好处，我们
+为了从这个对原问题的奇特的转换中得到更多的好处，我们得寻找下面这个新问题的答案：
 \end_layout
 
-\begin_layout Standard
-得寻找下面这个新问题的答案：
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quotation
 无朋是TNT的定理吗？
 \end_layout
 
 \begin_layout Standard
-我们做的只不过是把一个相对短小的串(WU)换成了另一个
+\begin_inset space \qquad{}
+\end_inset
+
+我们做的只不过是把一个相对短小的串(WU)换成了另一个（硕大的无朋），把一个简单的形式系统（WJU系统）换成了一个复
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+346
 \end_layout
 
-\begin_layout Standard
-（硕大的无朋），把一个简单的形式系统（WJU系统）换成了一个复
-\end_layout
+\end_inset
 
-\begin_layout Standard
-3 4 6杂的(TNT)。虽然把问题这么修饰．r一番，解决并不见得容易些。
-\end_layout
-
-\begin_layout Standard
-实际上，TNT中的加长和缩短规则更多更全了，所以把问题这么改装一下很可能比原问题要难解决得多。甚至你可能会说通过无朋来看WU纯属故弄玄虚。不过，我们可以在不止一
-个层次上看待无朋。
+杂的(TNT)。虽然把问题这么修饰了一番，解决并不见得容易些。实际上，TNT中的加长和缩短规则更多更全了，所以把问题这么改装一下很可能比原问题要难解决得多。甚至
+你可能会说通过无朋来看WU纯属故弄玄虚。不过，我们可以在不止一个层次上看待无朋。
 \end_layout
 
 \begin_layout Standard
 事实上，这一点是很令人感兴趣的：无朋有两种不同的被动意义。首先，是我们已经给出了的：
 \end_layout
 
-\begin_layout Standard
-30是个WJ乙数。其次，我们知道这个陈述与下述陈述有关联（通过同构）：
+\begin_layout CenterLine
+30是个WJU数。
 \end_layout
 
 \begin_layout Standard
-WU是WJU系统中的定理。所以我们可以合法地引用后者作为无朋的第二个被动意义。这也许会显得有些奇怪，因为毕竟无朋只不过是由一些加号、括号等等TNT中的符号组成的
-东西。它怎么可能表达出没有算术内容的陈述呢？
+\noindent
+其次，我们知道这个陈述与下述陈述有关联（通过同构）：
+\end_layout
+
+\begin_layout CenterLine
+WU是WJU系统中的定理。
+\end_layout
+
+\begin_layout Standard
+\noindent
+所以我们可以合法地引用后者作为无朋的第二个被动意义。这也许会显得有些奇怪，因为毕竟无朋只不过是由一些加号、括号等等TNT中的符号组成的东西。它怎么可能表达出没有
+算术内容的陈述呢？
 \end_layout
 
 \begin_layout Standard
 事实是，它能。正如一串单音在一支曲子里既可以构成旋律也可以构成和声，正如“BACH”可以解释成名字也可以解释成旋律，正如单独一个句子可以同时是精确地从结构上描述
-艾舍尔的一幅画、DNA的一个节断、巴赫的一支曲子、嵌有这个句子的一个对话，无朋也可以从（至少）两个完全不同的角度来理解。发生这种事情是由于下述两个事实：事实1：
-象“WU是个定理”这样的陈述可以通过哥德尔同构编码成一个数论问题。
+艾舍尔的一幅画、DNA的一个节断、巴赫的一支曲子、嵌有这个句子的一个对话，无朋也可以从（至少）两个完全不同的角度来理解。发生这种事情是由于下述两个事实：
 \end_layout
 
-\begin_layout Standard
-事实2：数沦陈述可以翻译到TNT系统中去。
+\begin_layout Labeling
+\labelwidthstring 事实1：：
+\noindent
+事实1： 象“WU是个定理”这样的陈述可以通过哥德尔同构编码成一个数论问题。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 事实1：：
+事实2： 数论陈述可以翻译到TNT系统中去。
 \end_layout
 
 \begin_layout Standard
 可以说，有了事实1，无朋就是一则编了码的消息，有了事实2，用于该编码的符号就是TNT的符号。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+347
 \end_layout
 
-\begin_layout Standard
-3 4 7267 
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
 码与隐含意义
-\end_layout
-
-\begin_layout Standard
-． ．
 \end_layout
 
 \begin_layout Standard
@@ -1777,44 +2276,36 @@ WU是WJU系统中的定理。所以我们可以合法地引用后者作为无朋
 以较为熟悉的方式解码时，无朋载有的消息是：
 \end_layout
 
-\begin_layout Standard
-3 0是个WJU数。
+\begin_layout CenterLine
+30是个WJU数。
 \end_layout
 
 \begin_layout Standard
+\noindent
 这是个数论陈述，来自对每个记号用约定的方法解释。
 \end_layout
 
 \begin_layout Standard
-但由于发现了哥德尔配数，以及基于其上的整个哥德尔同构，
+但由于发现了哥德尔配数，以及基于其上的整个哥德尔同构，我们从某种意义上是破译了一段缟码，其中关于WJU系统的消息被编成了TNT串。哥德尔同构是一种新的信息揭示者
+，正如古代文本的释读是信息揭示者一样。用这种新的、不那么熟悉的机制解码时，无朋载有如下消息：
 \end_layout
 
-\begin_layout Standard
-我们从某种意义上是破译了一段缟码，其中关于wjU系统的消
-\end_layout
-
-\begin_layout Standard
-息被编成了TNT串。哥德尔同构是一种新的信息揭示者，正如古
-\end_layout
-
-\begin_layout Standard
-代文本的释读是信息揭示者一样。用这种新的、不那么熟悉的机制
-\end_layout
-
-\begin_layout Standard
-解码时，无朋载有如下消息：
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quotation
 WU是WJU系统的定理。
 \end_layout
 
 \begin_layout Standard
-这个故事的寓意是我们以前昕到过的：意义是我们在辨认出
+这个故事的寓意是我们以前听到过的：意义是我们在辨认出
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+348
 \end_layout
 
-\begin_layout Standard
-3 48同构时自动出现的副产品。所以无朋至少有两个被动意义——也许还多！
+\end_inset
+
+同构时自动出现的副产品。所以无朋至少有两个被动意义——也许还多！
 \end_layout
 
 \begin_layout Subsection*
@@ -1823,43 +2314,1219 @@ WU是WJU系统的定理。
 
 \begin_layout Standard
 当然事情不是到此就结束了。我们才刚开始体会到哥德尔同构的潜力。自然而然的路子就是把TNT反映其它形式系统的能力转而用在它自己身上，就象乌龟使螃蟹的唱机转而打击其
-自身，以及使他的高脚杯转而破坏其自身一样。为了做到这一点，我们得对TNT象对WJU系统一样进行哥德尔配数，然后把其推理规则268“算术化”。哥德尔配数是很容易的
-。比如，我们可以建立如下对应：符号 密码子 关于密码子的一些有助记忆的说法。 …… 6 6 6 洒过农药后的昆虫数目S …… 1 2 3 后继关系：1，2，3'
-．．．．一 ……’1 1 1 视觉上的相似：横过来看+ ．．．．．． 1 1 2 1+1 -2． ．．．．．． 2 3 6 2×3==6( ……
- 3 6 2 以2结尾) …… 3 23 以3结尾< …… 2 1 2 以2结尾 这三对形成一个模式> …… 2 1 3 以3结尾[ …… 3
- 1 2 以2结尾] …… 3 1 3 以3结尾，a …… 2 6 2 与V (62 6)相反
+自身，以及使他的高脚杯转而破坏其自身一样。为了做到这一点，我们得对TNT象对WJU系统一样进行哥德尔配数，然后把其推理规则“算术化”。哥德尔配数是很容易的。比如
+，我们可以建立如下对应：
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+原表格最后一列的标题为“关于密码子的一些有助记忆的说法”。
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-…… 1 6 3 1 6 3是质数，而质数的首笔是撇八 …… 1 6 1 “八”是序列1-- 6-1的“形象”
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="right" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+符号
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+密码子
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+一些有助记忆的说法
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+666
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+洒过农药后的昆虫数目
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $S$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+123
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+后继关系：
+\begin_inset Formula $1,2,3,\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $=$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+111
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+视觉上的相似：横过来看
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $+$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+112
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1+1=2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdot$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+236
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2\times3=6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-V ．-．．．- 6 1 6 “V"是序列6-1-6的“形象”
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="20" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="right" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+符号
 \end_layout
 
-\begin_layout Standard
-一 …… 6 3 3 6“蕴涵”3和3，某神意义上是这样吧……
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-34 9
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+密码子
 \end_layout
 
-\begin_layout Standard
-．．． 2 2 3 2+2不是3
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+一些有助记忆的说法
 \end_layout
 
-\begin_layout Standard
-| ． 333 “|”看上去象个“3”
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $($
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-V ． 62 6 与a相反，而且还是6-2-6的“形象”
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-： ．． 63 6 两个点，两个六标点 ．． 61 1 序列6 -1-1的“形象”似乎意味着结束
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+362
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left.\begin{array}{c}
+\text{以}2\text{结尾}\\
+\text{以}2\text{结尾}\\
+\text{以}2\text{结尾}\\
+\text{以}2\text{结尾}\\
+\text{以}2\text{结尾}\\
+\text{以}2\text{结尾}
+\end{array}\right\} \begin{array}{c}
+\text{这三对形成}\\
+\text{一个模式}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+323
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $<$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+212
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $>$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+213
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $[$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+312
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+313
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+262
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+与
+\begin_inset Formula $\forall$
+\end_inset
+
+ （626）相反
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $^{,}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+163
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+是质数，而质数的首笔是撇
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\wedge$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+161
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“
+\begin_inset Formula $\wedge$
+\end_inset
+
+”是序列1-6-1的“形象”
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\vee$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+616
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“
+\begin_inset Formula $\vee$
+\end_inset
+
+”是序列6-1-6的“形象”
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+633
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6“蕴涵”3和3，某种意义上
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+是这样吧……
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+349
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+223
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2+2$
+\end_inset
+
+不是3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\exists$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+333
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“
+\begin_inset Formula $\exists$
+\end_inset
+
+”看上去象个“3”
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\forall$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+626
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+与a相反，而且还是
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6-2-6的“形象”
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $:$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+636
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+两个点，两个六
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+标点
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\cdots\cdots$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+611
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+序列6 -1-1的“形象”
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+似乎意味着结束
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1868,97 +3535,556 @@ V ． 62 6 与a相反，而且还是6-2-6的“形象”
 \end_layout
 
 \begin_layout Standard
-现在我们可为任何TNT的串或规则重新穿扮了。作为一个例子，下面是公理1的两种记法，老的在新的下面：269 626, 262, 636, 223,
- 123, 262, 111, 6 6 6
+现在我们可为任何TNT的串或规则重新穿扮了。作为一个例子，下面是公理1的两种记法，老的在新的下面：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{c}
+626,\\
+\forall
+\end{array}\begin{array}{c}
+262,\\
+a
+\end{array}\begin{array}{c}
+636,\\
+:
+\end{array}\begin{array}{c}
+223,\\
+\sim
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+262,\\
+a
+\end{array}\begin{array}{c}
+111,\\
+=
+\end{array}\begin{array}{c}
+666\\
+0
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Va ： S a =O正好，在一个大数中每三个数字插一个逗号，这种标准的约定与我们的密码子巧合了，这使得它们变得很“易读”。
+\noindent
+正好，在一个大数中每三个数字插一个逗号，这种标准的约定与我们的密码子巧合了，这使得它们变得很“易读”。
 \end_layout
 
 \begin_layout Standard
 下面是用新记法写的分离规则：
 \end_layout
 
-\begin_layout Standard
-规则：若X及212x633y213都是定理，则y是定理。
+\begin_layout Labeling
+\labelwidthstring 规则：：
+\noindent
+规则： 若x及
+\begin_inset Formula $212\times633y213$
+\end_inset
+
+都是定理，则y是定理。
 \end_layout
 
 \begin_layout Standard
-最后，我们写一下上一章的一个完整的推导过程，同时用简朴
+\begin_inset space \qquad{}
+\end_inset
+
+最后，我们写一下上一章的一个完整的推导过程，同时用简朴TNT记法及我们的新记法写：
 \end_layout
 
 \begin_layout Standard
-TNT记法及我们的新记法写：
+\begin_inset Formula $\begin{array}{c}
+626,\\
+\forall
+\end{array}\begin{array}{c}
+262,\\
+a
+\end{array}\begin{array}{c}
+636,\\
+:
+\end{array}\begin{array}{c}
+626,\\
+\forall
+\end{array}\begin{array}{c}
+262,\\
+a
+\end{array}\begin{array}{c}
+163,\\
+^{,}
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-626,262, 636, 626, 262, 163, 636, 362, 262, 112, 123, 262,
+\begin_inset Formula $\begin{array}{c}
+636,\\
+:
+\end{array}\begin{array}{c}
+362,\\
+(
+\end{array}\begin{array}{c}
+262,\\
+a
+\end{array}\begin{array}{c}
+112,\\
++
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+262,\\
+a
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-'
+\begin_inset Formula $\begin{array}{c}
+163,\\
+^{,}
+\end{array}\begin{array}{c}
+323,\\
+)
+\end{array}\begin{array}{c}
+111,\\
+=
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+362,\\
+(
+\end{array}\begin{array}{c}
+262,\\
+a
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Va ： V a ： ( a + Sa
+\begin_inset Formula $\begin{array}{c}
+112,\\
++
+\end{array}\begin{array}{c}
+262,\\
+a
+\end{array}\begin{array}{c}
+163,\\
+^{,}
+\end{array}\begin{array}{c}
+323\\
+)
+\end{array}\hfill$
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{c}
+\text{公理3}\\
+\\
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-1639 323, 111, 123, 362, 262, 112, 2629 163, 323 公理3
+\begin_inset Formula $\begin{array}{c}
+626,\\
+\forall
+\end{array}\begin{array}{c}
+262,\\
+a
+\end{array}\begin{array}{c}
+163,\\
+^{,}
+\end{array}\begin{array}{c}
+636,\\
+:
+\end{array}\begin{array}{c}
+362,\\
+(
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-’
+\begin_inset Formula $\begin{array}{c}
+666,\\
+0
+\end{array}\begin{array}{c}
+112,\\
++
+\end{array}\begin{array}{c}
+362,\\
+(
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+262,\\
+a
+\end{array}\begin{array}{c}
+163,\\
+^{,}
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-’ ) = S （ a 卜 a ）
+\begin_inset Formula $\begin{array}{c}
+323,\\
+)
+\end{array}\begin{array}{c}
+111,\\
+=
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+362,\\
+(
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-6269 262, 163,636, 362, 123, 666, 112, 123, 262, 163, 323,
+\begin_inset Formula $\begin{array}{c}
+112,\\
++
+\end{array}\begin{array}{c}
+262,\\
+a
+\end{array}\begin{array}{c}
+163,\\
+^{,}
+\end{array}\begin{array}{c}
+323\\
+)
+\end{array}\hfill$
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{c}
+\text{特称}\\
+\\
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Va ： ( S 0 + S a ' )
+\begin_inset Formula $\begin{array}{c}
+362,\\
+(
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}\begin{array}{c}
+112,\\
++
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-111, 1239 362, 123, 6669 112, 262, 163, 323币孓
+\begin_inset Formula $\begin{array}{c}
+323,\\
+)
+\end{array}\begin{array}{c}
+111,\\
+=
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+362,\\
+(
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-3 5 0
+\begin_inset Formula $\begin{array}{c}
+112,\\
++
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}\begin{array}{c}
+323\\
+)
+\end{array}\hfill$
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{c}
+\text{特称}\\
+\\
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-S ( S O + a ’ )362,123, 666, 112, 1239 666, 323, 111, 123, 3629 123, 666,(
- S O+ S O ) S ( S 01 1 2，6 6 6，3 23 特稍i+ O )62 6,262, 636, 362, 262, 112,
- 666◆323, 111, 262 公理2Va ： ( a + O ) =a3 6 2，123, 666，1 1 2，6 6 6，3 23，1
- 1 1，123, 666牟擎币尔(S O + O ) ： S 0123,362, 123, 666, 112, 666, 323, 111,
- 123, 123, 666S ( S O + O ) S S O
+\begin_inset Formula $\begin{array}{c}
+626,\\
+\forall
+\end{array}\begin{array}{c}
+262,\\
+a
+\end{array}\begin{array}{c}
+636,\\
+:
+\end{array}\begin{array}{c}
+362,\\
+(
+\end{array}\begin{array}{c}
+262,\\
+a
+\end{array}\begin{array}{c}
+112,\\
++
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-插入“123"362, 123, 666, 112,123, 666.
- 323, 111.
- 123, 123, 666 传曼整(S O + S 0 ) ‘ S SO注意我把“加S"换成了“插入‘1 2 3”’，因为后者才是目前合法的印符操作。
+\begin_inset Formula $\begin{array}{c}
+323,\\
+)
+\end{array}\begin{array}{c}
+111,\\
+=
+\end{array}\begin{array}{c}
+262,\\
+a
+\end{array}\hfill\begin{array}{c}
+\text{公理2}\\
+\\
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-这种新记法给人一种相当奇怪的感觉。你完全失去了对意义的把握，但如果你长期与之相处，你就可以象读TNT记号一蝉很容易读用这种记法写的串了。你会一眼就看出哪个是良构
-的，哪个是非良构的。由于这完全是靠视觉完成的，你会把这当作一种印符操作——但同时，在这种记法卜．挑出良构的公式实际上就是挑出一类特定的整数，这一类整数当然也有算
-木的刻划方式了。
+\begin_inset Formula $\begin{array}{c}
+362,\\
+(
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}\begin{array}{c}
+112,\\
++
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}\begin{array}{c}
+323,\\
+)
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-现在．对所有推理规则“算术化”该上到议事日程中了。现在的情况是，它们还都是些印符规则。但请注意：按照中心命题，一个印符规则实际匕等价于一个算术规则。插入和移动十
-进制表示的数中的数字是种算术的操作，同时也是可以印符地完成的。正如在尾部拼上一个。完全等同于乘以1 0，每个规则都是对杂乱的算术操
+\begin_inset Formula $\begin{array}{c}
+111,\\
+=
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}\hfill\begin{array}{c}
+\text{特称}\\
+\\
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-351作进行描述的一种浓缩方式。所以，我们甚至无需寻找等价的算术规则，因为某种意义上所有的规则都已经算术化了！
+\begin_inset Formula $\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+362,\\
+(
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}\begin{array}{c}
+112,\\
++
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{array}{c}
+323,\\
+)
+\end{array}\begin{array}{c}
+111,\\
+=
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}\hfill\begin{array}{c}
+\text{插入123}\\
+\\
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{array}{c}
+362,\\
+(
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}\begin{array}{c}
+112,\\
++
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{array}{c}
+323,\\
+)
+\end{array}\begin{array}{c}
+111,\\
+=
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+123,\\
+S
+\end{array}\begin{array}{c}
+666,\\
+0
+\end{array}\hfill\begin{array}{c}
+\text{传递}\\
+\\
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+注意我把“加S”换成了“插入‘123’”，因为后者才是目前合法的印符操作。
+\end_layout
+
+\begin_layout Standard
+这种新记法给人一种相当奇怪的感觉。你完全失去了对意义的把握，但如果你长期与之相处，你就可以象读TNT记号一样很容易读用这种记法写的串了。你会一眼就看出哪个是良构
+的，哪个是非良构的。由于这完全是靠视觉完成的，你会把这当作一种印符操作——但同时，在这种记法下挑出良构的公式实际上就是挑出一类特定的整数，这一类整数当然也有算术
+的刻划方式了。
+\end_layout
+
+\begin_layout Standard
+现在，对所有推理规则“算术化”该上到议事日程中了。现在的情况是，它们还都是些印符规则。但请注意：按照中心命题，一个印符规则实际上等价于一个算术规则。插入和移动十
+进制表示的数中的数字是种算术的操作，同时也是可以印符地完成的。正如在尾部拼上一个0完全等同于乘以10，每个规则都是对杂乱的算术操
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+351
+\end_layout
+
+\end_inset
+
+作进行描述的一种浓缩方式。所以，我们甚至无需寻找等价的算术规则，因为某种意义上所有的规则都已经算术化了！
 \end_layout
 
 \begin_layout Subsection*
@@ -1966,71 +4092,63 @@ TNT数：数的一个递归可枚举集合
 \end_layout
 
 \begin_layout Standard
-这样看来，前面对于定理“3 6 2，1 23，6 66，1 1 2，1 23，6 6 6，323，1 1 1，1 2 3，1 2 3，6 6 6，’的推导就是一
-系列高度曲折的数论变换，每个变换都作用在一个或多个作为输入的数之上，给出输出的数，而后者象从前一样称为可产生的数，或者更具体些，称为TNT数。有些算术规则使一个
-旧的TNT数以某种特定方式增大，得到一个新的TNT数；有些是减小TNT数；还有些规则是取两个1日的TN'T数，分别进行一番处理，然后把两者结合起来得出一个新的T
-NT数——如此下去，等等，等等。而且我们不是只从一个已知270 TNT数起步，我们有五个初始的TNT数——当然是分别来自各
+这样看来，前面对于定理“362,123,666,112,123,666,323,111,123,123,666”的推导就是一系列高度曲折的数论变换，每个变换都作
+用在一个或多个作为输入的数之上，给出输出的数，而后者象从前一样称为可产生的数，或者更具体些，称为TNT数。有些算术规则使一个旧的TNT数以某种特定方式增大，得到
+一个新的TNT数；有些是减小TNT数；还有些规则是取两个旧的TNT数，分别进行一番处理，然后把两者结合起来得出一个新的TNT数——如此下去，等等，等等。而且我们
+不是只从一个已知TNT数起步，我们有五个初始的TNT数——当然是分别来自各个（简朴版本的）公理了。对TNT的算术化实际上与对WJU系统的算术化极其相似，只不过是
+有更多的规则与公理，而且显明地写出那些算术等价物会是非常烦人的——与顿悟更是毫不沾边。如果你弄懂了对于WJU系统是怎么做的，你就会发现这里的过程和那里毫无疑问是
+很相似的。
 \end_layout
 
 \begin_layout Standard
-个（简朴版本的）公理了。对TNT的算术化实际上与对WJU系统
+这种对TNT的“哥德尔化”引出了一个新的数论谓词：
 \end_layout
 
-\begin_layout Standard
-的算术化极其相似，只不过是有更多的规则与公理，而且显明地写
-\end_layout
-
-\begin_layout Standard
-出那些算术等价物会是非常烦人的——与顿悟更是毫不沾边。如
-\end_layout
-
-\begin_layout Standard
-果你弄懂了对于WJU系统是怎么做的，你就会发现这里的过程
-\end_layout
-
-\begin_layout Standard
-和那里毫无疑问是很相似的。
-\end_layout
-
-\begin_layout Standard
-这种对TNT的“哥德尔化”引出了一个新昀数论谓词：
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quotation
 a是个TNT数。
 \end_layout
 
 \begin_layout Standard
-举个例子，从前面的推导我们知道362，1 23，6 6 6，112，1 2 3，
-\end_layout
-
-\begin_layout Standard
-6 6 6，323 ,111，123，1 23，6 6 6是个TNT数，而另_方面，大概1 23，
-\end_layout
-
-\begin_layout Standard
-666，1 1 1，66 6不是个TNT数。
+举个例子，从前面的推导我们知道362,123,666,112,123,666,323,111,123,123,666是个TNT数，而另一方面，大概123,666
+,111,666不是个TNT数。
 \end_layout
 
 \begin_layout Standard
 在我们看来，这个新的数论谓词通过TNT的某个带一个变元（就说是a吧）的串是可表示的。我们可以在前面加一个弯号，得到的串该是表示一个互补的命题：
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 a不是个TNT数。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+352
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-352如果我们把这第二个串中出现的所有a都替换成与1 2 3，6 6 6，111，666相应的TNT数码——其中恰好含有1 2 3，6 6 6，11
- 1，6 66个S，太长了以至于没法直接写出来——我们就会得到一个象无朋一样的TNT串，它可以从两个层次上来解释。首先，这个串说的是
+如果我们把这第二个串中出现的所有a都替换成与123,666,111,666相应的TNT数码——其中恰好含有123,666,111,666个S，太长了以至于没法直
+接写出来——我们就会得到一个象无朋一样的TNT串，它可以从两个层次上来解释。首先，这个串说的是
+\end_layout
+
+\begin_layout Quotation
+123,666,111,666不是个TNT数。
 \end_layout
 
 \begin_layout Standard
-1 2 3，66 6，1 1 1，6 6 6不是个TNT数。但因为有一个连结TNT数与TNT定理的同构，这个串还有第二层意义，就是：
+但因为有一个连结TNT数与TNT定理的同构，这个串还有第二层意义，就是：
 \end_layout
 
-\begin_layout Standard
-SO=O不是TNT的定理。
+\begin_layout Quotation
+\begin_inset Formula $S0=0$
+\end_inset
+
+不是TNT的定理。
 \end_layout
 
 \begin_layout Subsection*
@@ -2045,18 +4163,52 @@ TNT试图吞掉自己
 \end_layout
 
 \begin_layout Standard
-我们可以把这～看法冠以“数理逻辑的中心法则”这·一名称，271并用一个含两个步骤的图解来描述：
+我们可以把这~看法冠以“数理逻辑的中心法则”这·一名称，271并用一个含两个步骤的图解来描述：
+\end_layout
+
+\begin_layout Quotation
+TNT
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+N
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+元TNT
 \end_layout
 
 \begin_layout Standard
-TNT 今 N ≥ 元TNT用话来说就是：TNT的一个串有一个N中的解释，而N中的…．个陈述可以有一个第二意义，即作为关于TNT的陈述。
+用话来说就是：TNT的一个串有一个N中的解释，而N中的一个陈述可以有一个第二意义，即作为关于TNT的陈述。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+353
 \end_layout
 
-\begin_layout Standard
-3 5 3
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 G：以编码方式谈论自身的符号串
 \end_layout
 
@@ -2073,9 +4225,13 @@ G：以编码方式谈论自身的符号串
 具体说，那个被动意义将会是
 \end_layout
 
+\begin_layout Quotation
+“G不是TNT的定理。”
+\end_layout
+
 \begin_layout Standard
-“G不是TNT的定理。”我该马上补充说明：G也有一个作为数论陈述的被动意义。象无朋一样，它容许从（至少）两个角度来解释。重要的是每个被动意义都是有效的，也是有用
-的，并且不会以任何方式使另一个被动意义罩上疑云。（一个播放唱片的唱机会引起自身及唱片的震颤这一事实，从任何角度看都不能抹煞那些震颤是乐音这一事实！）
+我该马上补充说明：G也有一个作为数论陈述的被动意义。象无朋一样，它容许从（至少）两个角度来解释。重要的是每个被动意义都是有效的，也是有用的，并且不会以任何方式使
+另一个被动意义罩上疑云。（一个播放唱片的唱机会引起自身及唱片的震颤这一事实，从任何角度看都不能抹煞那些震颤是乐音这一事实！）
 \end_layout
 
 \begin_layout Subsection*
@@ -2083,63 +4239,50 @@ G的存在就是导致TNT不完全的原因
 \end_layout
 
 \begin_layout Standard
-创造出G的那个天才的方法，以及一些与TNT相关的重要概念，我们将在第十二和十四章里给出并讨论。至于现在，我们只是提前瞥一眼找到TNT中一一件自指的东西会有什么后
-果，这会是挺肤浅的，但也挺有趣。谁知道呢，也许会爆炸的！某种意义上讲的确如此。我们来把注意力枭中到下面这个明摆出来的问题：
-\end_layout
-
-\begin_layout Standard
-’G是否是TNT的定理？
-\end_layout
-
-\begin_layout Standard
-让我们在这个问题上形成我们自己的观点，而不要依赖G关
-\end_layout
-
-\begin_layout Standard
-于它自己的观点。毕竟，G可能并不比一个禅师更理解其自身。G
-\end_layout
-
-\begin_layout Standard
-可能象无朋一样表达了一个假理。 G可能象WU一样不是个定
-\end_layout
-
-\begin_layout Standard
-3 5 4理。我们无需信赖TNT的每一个可能的串——只信赖它的定理c现在让我们在这一点上尽可能地用推理的威力来澄清问题。
-\end_layout
-
-\begin_layout Standard
-我们要做我们通常都做的假定：TNT包容的推理方法是有效的，因而TNT决不会把假理当作定理。换句话说，任何在TNT中272成为定理的东西都表示了一个真理。这样，若
-G是个定理，它表示的就是真理，即：“G不是定理”。它的自指性尽其全力打击了我们c由于充当了定理．G就不得不是个假理。根据我们的假定，TNT不会把假理当作定理，于
-是我们被迫得出结论说G不是个定理。这是可以的，然而它还是留给了我们一个并非不严重问题。知道了G不是定理之后，我们就得承认G表示了…条真理。这个局面揭示出TNT没
-能达到我们的期望——我们发现了一个符号串，它表示J，真理，然而却不是个定理。惊异中别忘rG还有一个算术的解释这一事实——我们因此能把我们的发现小结如下：
-\end_layout
-
-\begin_layout Standard
-发现了一个TNT的串，它毫不含糊地表示了关于自然数
-\end_layout
-
-\begin_layout Standard
-的某个算术性质的一个陈述；而且，通过在系统外面进行的推
-\end_layout
-
-\begin_layout Standard
-理，我们确定了那个陈述为真，还确定了那个串不是个TNT
-\end_layout
-
-\begin_layout Standard
-的定理。于是，如果我们问TNT那陈述是否是真的，TNT将
-\end_layout
-
-\begin_layout Standard
-既不说“是”也不说“不”。
-\end_layout
-
-\begin_layout Standard
-《一首无的奉献》申乌龟的那个串是不是G的类似物？还不是。乌龟那个串的类似物是～G 。这是为什么呢？好，让我们来看看～G说的是什么。它必定是与G说的相反。G说，“
-G不是TNT的定理”，所以～G必定是说“G是个定理”。我们可以重述G与^G如下：
+创造出G的那个天才的方法，以及一些与TNT相关的重要概念，我们将在第十二和十四章里给出并讨论。至于现在，我们只是提前瞥一眼找到TNT中一件自指的东西会有什么后果
+，这会是挺肤浅的，但也挺有趣。谁知道呢，也许会爆炸的！某种意义上讲的确如此。我们来把注意力集中到下面这个明摆出来的问题：
 \end_layout
 
 \begin_layout Quotation
+G是否是TNT的定理？
+\end_layout
+
+\begin_layout Standard
+让我们在这个问题上形成我们自己的观点，而不要依赖G关于它自己的观点。毕竟，G可能并不比一个禅师更理解其自身。G可能象无朋一样表达了一个假理。G可能象WU一样不是
+个定
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+354
+\end_layout
+
+\end_inset
+
+理。我们无需信赖TNT的每一个可能的串——只信赖它的定理。现在让我们在这一点上尽可能地用推理的威力来澄清问题。
+\end_layout
+
+\begin_layout Standard
+我们要做我们通常都做的假定：TNT包容的推理方法是有效的，因而TNT决不会把假理当作定理。换句话说，任何在TNT中成为定理的东西都表示了一个真理。这样，若G是个
+定理，它表示的就是真理，即：“G不是定理”。它的自指性尽其全力打击了我们。由于充当了定理．G就不得不是个假理。根据我们的假定，TNT不会把假理当作定理，于是我们
+被迫得出结论说G不是个定理。这是可以的，然而它还是留给了我们一个并非不严重问题。知道了G不是定理之后，我们就得承认G表示了一条真理。这个局面揭示出TNT没能达到
+我们的期望——我们发现了一个符号串，它表示了真理，然而却不是个定理。惊异中别忘了还有一个算术的解释这一事实——我们因此能把我们的发现小结如下：
+\end_layout
+
+\begin_layout Quotation
+发现了一个TNT的串，它毫不含糊地表示了关于自然数的某个算术性质的一个陈述；而且，通过在系统外面进行的推理，我们确定了那个陈述为真，还确定了那个串不是个TNT的
+定理。于是，如果我们问TNT那陈述是否是真的，TNT将既不说“是”也不说“不”。
+\end_layout
+
+\begin_layout Standard
+《一首无的奉献》申乌龟的那个串是不是G的类似物？还不是。乌龟那个串的类似物是~G。这是为什么呢？好，让我们来看看~G说的是什么。它必定是与G说的相反。G说，“G
+不是TNT的定理”，所以~G必定是说“G是个定理”。我们可以重述G与~G如下：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset space \enskip{}
+\end_inset
+
 G：“我不是个(TNT的)定理。”
 \end_layout
 
