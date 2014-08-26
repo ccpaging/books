@@ -507,7 +507,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0090.png
 	lyxscale 50
-	scale 30
+	width 100text%
 
 \end_inset
 
@@ -1048,6 +1048,18 @@ status open
 \end_layout
 
 \begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
 阿基里斯来拜访乌龟，看到乌龟家里有许多唱片。
 \end_layout
 

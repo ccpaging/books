@@ -116,10 +116,7 @@ pq系统
 供了一个非常好的例子。pq系统有三个不同的符号：
 \end_layout
 
-\begin_layout Standard
-\begin_inset space \qquad{}
-\end_inset
-
+\begin_layout Quotation
 p
 \begin_inset space \quad{}
 \end_inset
@@ -249,25 +246,50 @@ status open
 式，现在的情形要复杂些。我们将准备一只桶，当定理生成了以后，我们就把它们丢进桶里。以下便是具体做法：
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
 （1a）
-\begin_inset space \space{}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+label=（1a ）
+\end_layout
+
 \end_inset
 
 将最为简单的公理（--q-p-）丢进桶里。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
 （2b）
-\begin_inset space \space{}
+\end_layout
+
 \end_inset
 
 对于桶里的每个公理应用推理规则，将推得的结果丢进桶里。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
 （2a）
-\begin_inset space \space{}
+\end_layout
+
 \end_inset
 
 将第二简单的公理丢进桶里。
@@ -283,37 +305,51 @@ status open
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
 （2b）
-\begin_inset space \space{}
+\end_layout
+
 \end_inset
 
 对桶里的每个符号串应用规则，并将结果都丢进桶里。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
 （3a）
-\begin_inset space \space{}
+\end_layout
+
 \end_inset
 
 将第三简单的公理丢入桶里。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
 （3b）
-\begin_inset space \space{}
+\end_layout
+
 \end_inset
 
 对桶里的每个符号串应用规则，并将结果都丢进桶里。
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
-\begin_inset space \qquad{}
-\end_inset
-
 等等，等等。
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 略微想一想之后，可以看到，你用这种方法可以把pq系统里的每一条定理都产生出来。同时，随着时间的延续，桶里会装入越来越长的定理。这又是由于没有缩短规则的结果。因此
 ，假如你有一个特定的，像-----q--p---这样的符号串，并且想测试一下它是不是一条定理，只要按照上述标了号码的步骤，一直不断地检查是否出现了这个符号串。如
@@ -1135,25 +1171,15 @@ status open
 \end_layout
 
 \begin_layout Standard
-数作为一种“实在”是不守规矩的。然而，人们有一种古老的内在感觉，即数不应该不守规矩。在数的抽象概念中，就有那么一种纯净的东西，独立于数念珠、方言或云朵。应该有一
-种谈论数的方式，这种方式不会总是受到现实所具有的那种糟糕状况的侵入和捣乱。支配“理想”数的铁定的规则构成了算术，并且进一步构成了数论。在把作为实际事物的数转变成
-作为形式事物的数的时候，只有一个有关的问题需要提出来。一旦你决定了要把所有数论装入一个理想的系统，是否真有可能彻底地做到这一点呢？数是否那么整洁，那么有规律，像
-结晶一样，以至于形式系统的规则能彻底地把握它们的性质？艾舍尔最漂亮的画之一《释放》（图13），就是形式与非形式之间的绝妙的对比，它还有一个迷人的过渡区域。数真的
-像鸟那么自由吗？它们被囚禁在遵守规则的系统中时，也象那些鸟一样难以忍受吗？现实中的数与写在纸上的数之间是否有一个不可思议的过渡区域？
-\end_layout
-
-\begin_layout Standard
-\begin_inset Wrap figure
-lines 0
-placement R
-overhang 0in
-width "50text%"
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0077.jpg
-	width 45text%
+	height 90theight%
 
 \end_inset
 
@@ -1164,7 +1190,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-释放，艾舍尔作（石版画，1955）。 
+释放，艾舍尔作（石版画，1955）。
 \end_layout
 
 \end_inset
@@ -1175,6 +1201,14 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+数作为一种“实在”是不守规矩的。然而，人们有一种古老的内在感觉，即数不应该不守规矩。在数的抽象概念中，就有那么一种纯净的东西，独立于数念珠、方言或云朵。应该有一
+种谈论数的方式，这种方式不会总是受到现实所具有的那种糟糕状况的侵入和捣乱。支配“理想”数的铁定的规则构成了算术，并且进一步构成了数论。在把作为实际事物的数转变成
+作为形式事物的数的时候，只有一个有关的问题需要提出来。一旦你决定了要把所有数论装入一个理想的系统，是否真有可能彻底地做到这一点呢？数是否那么整洁，那么有规律，像
+结晶一样，以至于形式系统的规则能彻底地把握它们的性质？艾舍尔最漂亮的画之一《释放》（图13），就是形式与非形式之间的绝妙的对比，它还有一个迷人的过渡区域。数真的
+像鸟那么自由吗？它们被囚禁在遵守规则的系统中时，也象那些鸟一样难以忍受吗？现实中的数与写在纸上的数之间是否有一个不可思议的过渡区域？
 \end_layout
 
 \begin_layout Standard
@@ -1217,39 +1251,34 @@ status open
 ，把所有从1到N的正整数相乘，换句话说，也就是做N的阶乘，写作“N!”。得到的数可以被从1到N之间的任何数除尽。然后在N!上加上1，结果这个数就
 \end_layout
 
-\begin_layout Standard
-\begin_inset space \quad{}
-\end_inset
-
+\begin_layout Quotation
 不能是2的倍数（因为当被2除时，余1）；
 \end_layout
 
-\begin_layout Standard
-\begin_inset space \quad{}
-\end_inset
-
+\begin_layout Quotation
 不能是3的倍数（因为当被3除时，余1）；
 \end_layout
 
-\begin_layout Standard
-\begin_inset space \quad{}
-\end_inset
-
+\begin_layout Quotation
 不能是4的倍数（因为当被4除时，余1）；
 \end_layout
 
-\begin_layout CenterLine
+\begin_layout Quotation
+\begin_inset space \hfill{}
+\end_inset
+
 ……
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+不能是N的倍数（因为当被N除时，余1）；
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \quad{}
-\end_inset
-
-不能是N的倍数（因为当被N除时，余1）；
-\begin_inset Newline newline
-\end_inset
-
 换句话说，假如N！+1是可以被除尽的（除了被1和它本身除之外），也只能是被比N大的数除尽。因此，或者它本身是素数，或者它的素因数比N大。但是不论是哪种情况，我们
 已经表明，都一定有比N大的素数存在。不论N是什么数，这个论证过程都能进行。因此，不管N是什么数，都有一个素数大于N。至此，就完成了素数有无穷多个这一证明。
 \end_layout
@@ -1348,6 +1377,18 @@ status open
 \end_layout
 
 \begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
 电话响了，阿基里斯拿起话筒。
 \end_layout
 
@@ -1498,7 +1539,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0082.jpg
 	lyxscale 50
-	width 100text%
+	width 80text%
 
 \end_inset
 

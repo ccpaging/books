@@ -1035,6 +1035,18 @@ status open
 \end_layout
 
 \begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
 你一定不要去探究平行公设。我深知这条路通向哪里。我曾横穿于这无尽的黑夜，湮灭了我生命中所有的光明与欢乐。我恳求你放下平行公设的研究……我曾想为了真理而牺牲自己。
 我准备好成为一个殉教者，除去几何学的瑕疵，使之纯净而奉还给人类。我进行了巨大的、难以估量的努力，我得到的结果远比其他人好得多，却依然没达到完全的满意。当一个人彻
 底离开日常之琐碎，他就转向了崇高之最。当我看出没人能达到这黑夜的尽头时，我转回身了。我转回身来没有慰藉，却带着对自己以及全部人类的怜悯……我旅经了这地狱般的死海
@@ -1062,10 +1074,25 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
 但是后来，当他确信他的儿子的确“有了东西”，他便催促他发表，正确地迎来了那个同时性。这种同时性在科学发现上真是屡屡发生：
 \end_layout
 
 \begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
 当时机成熟时，那些东西在不同的地方出现，就象早春时的紫罗兰
 \begin_inset Foot
 status open
@@ -1080,6 +1107,9 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
 非欧几何学的情形真真确确就是这样！在德国，高斯自己和其他一些人都多少独立地触及了非欧几何观念。其中包括一个律师施外卡特，他于1818年寄给高斯一篇文章，描述了一
 种新的“星际”几何学；施外卡特的侄子陶利努斯做出了非欧几里德三角学；高斯的学生瓦赫特尔，他发现了非欧几何学的几个很深的结果，死于1817年，当时二十五岁。
 \end_layout
@@ -1110,6 +1140,18 @@ status open
 \end_layout
 
 \begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
 给定任一直线和不在直线上的一点，存在有一条，且仅仅存在一条通过那个点，且永不与前一条直线相交的直线，无论两直线延伸多远。
 \end_layout
 
@@ -1267,7 +1309,7 @@ status open
 现在假定我们把xdy另外解释成“x是y笔下的人物”，那么我们就有：
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 乌龟是芝诺笔下的人物。
 \begin_inset Note Comment
 status open
@@ -1281,15 +1323,15 @@ status open
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 芝诺是吉世达笔下的人物。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 吉世达是乌龟笔下的人物。
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 在这种情况下，单个的陈述是真是假没有关系——恐怕也没有什么办法能知道哪些是真哪些是假。不过，肯定不会是它们三个同时都真。这样，这个解释就使系统内部地不一致了。这
 个内部的不一致性不取决于对那三个大写字母的解释，而仅仅取决于对d的解释，同时还取决于那三个大写字母是循环地排列于d的各次出现周围这一事实。于是，人们可以不必解释
 形式系统的所有符号而找到内部不一致性。（在这个例子里，单解释一个符号就够了。）到了足够多的符号都有了解释的时候，可能就会清楚地看出：没有什么解释其余符号的办法能
@@ -1621,6 +1663,18 @@ status open
 \end_layout
 
 \begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
 乌龟和阿基里斯在游乐场玩了一天。他们先买了一对棉花糖，然后决定去乘“大风车”玩。
 \end_layout
 

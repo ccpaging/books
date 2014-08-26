@@ -1116,10 +1116,34 @@ status open
 \end_layout
 
 \begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
 乌龟池塘里痛快地涮了涮身子，爬出来甩着水珠。
 \end_layout
 
 \begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
 这时有个人从旁边走过，乌龟抬眼一看，原来是阿基里斯。
 \end_layout
 

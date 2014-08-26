@@ -96,6 +96,10 @@ enumitem
 WU谜题形式系统
 \end_layout
 
+\begin_layout Subsection*
+形式系统
+\end_layout
+
 \begin_layout Standard
 本书中心的概念之一是形式系统。我用的这种形式系统是美国逻辑学家艾米尔·波斯特在二十世纪二十年代发明的，通常被称为“波斯特产生式系统”。本章将向读者介绍一个形式系
 统，并且我希望读者愿意——至少是有一点点愿意——去探索这个形式系统。为唤起读者的好奇心，我设计了一个小小的谜题。
@@ -213,19 +217,19 @@ status open
 例子：
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 从UWJJJWU，可以得到UWUWU 。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 从WJJJJ，可以得到WJU（同样可以得到WUJ）。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 从JJWJJ，用这条规则什么也得不到。（三个JJJ必须是连续的。）
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 从WJJJ，可以得到WU。
 \end_layout
 
@@ -782,6 +786,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0056.jpg
 	lyxscale 50
+	width 80text%
 
 \end_inset
 

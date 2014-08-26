@@ -361,8 +361,7 @@ status open
 
 \begin_layout Standard
 差不多在我同吴教授在安阿伯进行这场交谈的同时，另一个半球上正进行着一场奇特地与其对应的谈话。莫大伟乍到北京就已开始阅读各篇对话的译文，以弄清楚他们在这些对话上所
-做的工作。他研究的其中一篇对话是《的确该赞美螃蟹》。在这篇对话的开头，在英文原文里有一一个角色说“Speak of the devil!”（这是谚语“说到鬼，鬼
-就来”[“Speak
+做的工作。他研究的其中一篇对话是《的确该赞美螃蟹》。在这篇对话的开头，在英文原文里有一一个角色说“Speak
 \begin_inset space \space{}
 \end_inset
 
@@ -370,7 +369,23 @@ of
 \begin_inset space \space{}
 \end_inset
 
-the devil
+the
+\begin_inset space \space{}
+\end_inset
+
+devil!”（这是谚语“说到鬼，鬼就来”[“Speak
+\begin_inset space \space{}
+\end_inset
+
+of
+\begin_inset space \space{}
+\end_inset
+
+the
+\begin_inset space \space{}
+\end_inset
+
+devil
 \begin_inset space \space{}
 \end_inset
 
@@ -478,6 +493,8 @@ status open
 \end_layout
 
 \begin_layout Quote
+
+\size small
 比方说换一只烧蹩了的电灯泡的任务，大概免不了要拿一个垃圾袋来而这又可能意外地弄撒一盒药，于是又不得不去扫地以免宠物狗误食撒了的药丸；等等，等等。
 \end_layout
 
@@ -794,6 +811,22 @@ status open
 
 \begin_layout Subsection*
 初稿
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1257,6 +1290,22 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontSong
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -1323,6 +1372,22 @@ status open
 上篇：集异璧GEB
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Labeling
 \labelwidthstring 导言
 
@@ -1330,7 +1395,7 @@ status open
 导言：一首音乐一逻辑的奉献。
 \family default
  本书一开始讲了巴赫《音乐的奉献》的故事。巴赫对普鲁士的腓德烈王作了一次临时访问，并应邀在国王提出的主题上即兴演奏。他的即兴演出构成了这部伟大作品的基础。而在《
-音乐的奉献》及其故事所构成的主题之上，我进行了贯穿全书的“即兴演出力，因而产生了一种“元音乐的奉献”。我讨论了巴赫作品中的自指及各个层次之间的相互作用，这又引出
+音乐的奉献》及其故事所构成的主题之上，我进行了贯穿全书的“即兴演出”，因而产生了一种“元音乐的奉献”。我讨论了巴赫作品中的自指及各个层次之间的相互作用，这又引出
 了对艾舍尔绘画作品以及随后的哥德尔定理中对应观念的讨论。我还提供了一份简短的逻辑与悖论的历史作为哥德尔定理的背景。这就把我引到了机械化推理和计算机，以及关于人工
 智能是否可能的争论。在结尾处，我解释了本书的产生契机——尤其是为什么要有那些对话。
 \end_layout
@@ -1837,6 +1902,22 @@ status open
 
 \begin_layout Plain Layout
 29
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontSong
 \end_layout
 
 \end_inset

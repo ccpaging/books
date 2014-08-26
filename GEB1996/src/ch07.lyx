@@ -1830,6 +1830,18 @@ P或者非P。
 \end_layout
 
 \begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
 德山一日谓师[即岩头——译注]曰：“我这里有两僧入山，住庵多时，汝去看他怎生。”师遂将一斧去，见两人在庵内坐。师乃拈起斧曰：”道得也一下斧，道不得也一下斧。”
 \begin_inset Foot
 status open
@@ -2730,7 +2742,19 @@ status open
 
 \end_layout
 
-\begin_layout Quotation
+\begin_layout Quote
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
 二人殊不顾。师掷下斧曰：“作家！作家！”归，举似德山，山曰：“汝道他如何？”师曰：¨洞山门下不道全无，若是德山门下，未梦见在。”
 \begin_inset Foot
 status open
@@ -3882,6 +3906,18 @@ status open
 \end_layout
 
 \begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
 周末在公园散步时，乌龟碰巧遇见了阿基里斯。
 \end_layout
 
@@ -4022,6 +4058,7 @@ status open
 ）
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
 \begin_inset Float figure
 wide false
@@ -4068,7 +4105,7 @@ use_parbox 0
 use_makebox 0
 width "70text%"
 special "none"
-height "65theight%"
+height "60theight%"
 height_special "none"
 status collapsed
 
@@ -4118,6 +4155,7 @@ e]”是T，“螃蟹[Crab]”是C，G则是“基因[Gene]”的第一个字母
 
 \end_layout
 
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 \begin_inset space \hfill{}

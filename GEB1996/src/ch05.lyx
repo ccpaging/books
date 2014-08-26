@@ -1098,7 +1098,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0182.png
 	lyxscale 50
-	width 80text%
+	width 60text%
 
 \end_inset
 
@@ -1193,7 +1193,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0184.jpg
 	lyxscale 50
-	width 80text%
+	width 60text%
 
 \end_inset
 
@@ -1252,7 +1252,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0185.jpg
 	lyxscale 50
-	width 80text%
+	width 60text%
 
 \end_inset
 
@@ -1261,7 +1261,7 @@ status open
 
 \begin_layout CenterLine
 
-\size small
+\size footnotesize
 图33.
 \begin_inset space \space{}
 \end_inset
@@ -2148,6 +2148,18 @@ status open
 \end_layout
 
 \begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
 阿基里斯和乌龟刚刚在城里最好的中餐馆吃过一顿美味的中餐。
 \end_layout
 
@@ -2546,6 +2558,8 @@ status open
 \end_layout
 
 \begin_layout CenterLine
+
+\size footnotesize
 图 e-
 \begin_inset ERT
 status open
@@ -2554,9 +2568,7 @@ status open
 
 
 \backslash
-textcircled{
-\backslash
-footnotesize{1}}
+textcircled{1}
 \end_layout
 
 \end_inset
@@ -2652,6 +2664,8 @@ status open
 \end_layout
 
 \begin_layout CenterLine
+
+\size footnotesize
 图 e-
 \begin_inset ERT
 status open
@@ -2660,9 +2674,7 @@ status open
 
 
 \backslash
-textcircled{
-\backslash
-footnotesize{2}}
+textcircled{2}
 \end_layout
 
 \end_inset
@@ -2849,6 +2861,8 @@ status open
 \end_layout
 
 \begin_layout CenterLine
+
+\size footnotesize
 图 e-
 \begin_inset ERT
 status open
@@ -2857,9 +2871,7 @@ status open
 
 
 \backslash
-textcircled{
-\backslash
-footnotesize{3}}
+textcircled{3}
 \end_layout
 
 \end_inset

@@ -37,6 +37,7 @@ Preamble
     \newCJKfontfamily\CJKFontSong{方正新书宋_GB18030}
     \newCJKfontfamily\CJKFontKai{方正新楷体_GB18030}
     \newCJKfontfamily\CJKFontHei{方正兰亭黑_GB18030}
+    \newCJKfontfamily\CJKFontFang{方正仿宋_GB18030}
     
     \punctstyle{kaiming} % 标点处理，开明式
 
@@ -185,7 +186,7 @@ Preamble
     \RequirePackage[inline]{enumitem}  % inline 支持inlist
     \renewcommand{\labelenumi}{(\arabic{enumi})}
     \setlist{itemsep=0.2ex,partopsep=0.2pt,parsep=0.2ex,topsep=0.2ex}
-    \setlist[enumerate,1]{leftmargin=*,labelindent=2em,align=left} % label在leftmargin的右边，坐对齐
+    \setlist[enumerate,1]{leftmargin=*,labelindent=2em,align=left} % label在leftmargin的右边，左对齐
     
 EndPreamble
 

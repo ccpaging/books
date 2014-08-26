@@ -1,0 +1,4637 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass GEB1996
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+描述的层次和计算机系统
+\end_layout
+
+\begin_layout Subsection*
+描述的层次
+\end_layout
+
+\begin_layout Standard
+哥德尔串G和巴赫的赋格曲都有这样一个性质：能在不同的层次上被理解。我们都熟悉这种事情。有时我们也会被搞糊涂，而另一些时候还是能毫无困难地掌握它们。例如，我们都知
+道人体是由大量的细胞所组成（大约有二十五万亿个），因此我们所做的一切原则上都能在细胞水平上被描述。或者说它们甚至可以在分子水平上被描述。大多数人都把这作为一个事
+实而接受了。我们去找医生看病，医生对我们的观察层次就要低于我们自我观察的层次。我们可以一边读着关于DNA和“遗传工程”的文章，一边呷着咖啡。我们似乎调和了这样一
+些关于我们自身的极不相同的图象，其实我们只不过是不把它们联系在一起。我们几乎无法把关于我们自身的微观描述和我们的自我感觉联系起来，因此我们很可能是把关于我们自身
+的不同表示存储在我们心智的不同“格子”中了。我们几乎从不在这些概念之间转来转去，纳闷“这两种完全不同的东西怎么可能是同一个我呢？”
+\end_layout
+
+\begin_layout Standard
+在看电视的时候，屏幕上一连串画面显示着卓别林在跑来跑去，这时，我们知道事实上我们看到的不是一个人，而是在一个平面的一片闪烁的光点。我们知道这一点，但这是埋藏在思
+想深处的。关于屏幕上的东西，我们有两个尖锐对立的表示，但这不会给我们造成麻烦。我们可以对其中之一置之不理，而去注意另一个——这是我们大家都用的办法。哪一个“更真
+实些”？这取决于你是一个人，还是一只猫、一台计算机、或一架电视机。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+370
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+组块化与棋术
+\end_layout
+
+\begin_layout Standard
+人工智能研究中的一个重大问题，就是要指出如何跨越这两种描述间的鸿沟，即如何构造一个系统，使它可以接收一个层次上的描述，然后从中生成另一个层次上的描述。通过探索如
+何给计算机编制一个好的下棋程序，这条鸿沟在人工智能中明确地表现出来了。以前人们认为——在50年代和60年代——让机器下一手好棋的关键，是使它在可能的着法序列构成
+的分支网络上，比任何棋术大师所能超前搜索的步数都多。可是，当这一目标逐渐达到后，计算机的棋艺并没有突飞猛进，超过人类高手的水平。事实上，一个高手在和当今最好的下
+棋程序对局时仍可以稳操胜券。
+\end_layout
+
+\begin_layout Standard
+这种现象的原因实际上已讨论了许多年。在40年代，荷兰心理学家阿德里安·德·格鲁特就研究了下棋时新手和大师是怎样感知一个棋局的。用那些刻板的术语来说，他的研究结果
+指出大师们是以“组块”来感知棋子的分布的。有一种比直接描述每处棋子的位置层次更高的棋局描述，而大师就是以某种方式生成了这样一个棋局的心智表象。这一点已被下述事实
+所证实：两个人都用五秒种时间审视棋盘之后，大师能很快地重新摆出一盘实际对局中的某个局面，而新手则要慢得多。下面这一事实是非常说明问题的：再现一个棋局时，大师们的
+错误涉及到把整整一组棋子放在错误的位置上，这几乎不改变对局的战略态势，但这在新手的眼里却是完全不同局面。一个决定性的事实是，在做同一个实验时，如果把棋子乱放在棋
+盘中的各个位置上，而不是取材于一个实际对局那么在重现这样一个随机局面的过程中，大师比新手也强不了多少。
+\end_layout
+
+\begin_layout Standard
+结论是这样的：在正常的对局过程中，会有某种多次再现的局面——也就是某种模式——而大师正是对这种高层次的模式十分
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+371
+\end_layout
+
+\end_inset
+
+敏感。他和新手在不同的层次上思考，他们的概念集是不同的。几乎出乎所有人意料的发现是，大师在超前搜索时很少比新手走得更远——更有甚者，大师往往只检查屈指可数的几种
+可能着法！关键在于，他感知棋局的方式象一个过滤器：在观察局势时他实际上看不见坏棋——正象业余棋手在观察局势时看不见不合规则的棋步一样。任何懂一点棋术的人都已经对
+他的感知进行了组织，斜着走车、象走日字这样的着法不会出现在脑子里。类似地，大师级的棋手在观察棋局时已经建立了更高层次的组织，因此对他们来说，坏棋一般不会被想出来
+，就象对大多数人来说不合规则的棋不会被想出来一样。这可以称作对由各种可能性组成的巨大的树形结构所做的“隐式修剪”。相反，“显式修剪”是指先考虑一步棋，粗略地检查
+一番后，决定不再继续做进一步的检验。
+\end_layout
+
+\begin_layout Standard
+这种区分同样适合于其它智力活动——例如作数学题。一个有才华的数学家往往不象庸才们所做的那样，考虑并尝试所有的错误途径，以达到所需的定理。相反，他一下就“嗅出”了
+有希望的途径，然后立即进行下去。
+\end_layout
+
+\begin_layout Standard
+仅仅依赖于超前搜索的计算机下棋程序还没有被教会在一个更高的层次上思考，它的战略只是凭一股蛮劲进行超前搜索，企图压倒各种类型的财手。但这种办法并不灵。也许有一天，
+一个蛮劲足够大的超前搜索程序确实战胜了人类最好的棋手——但那也只是一个很小的智慧之果。因为我们已经揭示出了：智能紧密地依赖于为复杂的对象——如棋盘、电视屏幕、书
+页或画面——构造高层描述的能力。
+\end_layout
+
+\begin_layout Subsection*
+相似的层次
+\end_layout
+
+\begin_layout Standard
+通常，我们在理解一个情景时并不需要同时在头脑中容纳一个以上的层次，而且对同一个系统的不同描述一般在概念上相距
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+372
+\end_layout
+
+\end_inset
+
+甚远，就象我们前面提到过的一样。因此同时保存它们并不困难，只须把它们保存在心智世界中的不同区域里就行了。真正造成混乱的是这样一种情况：同一个系统允许两种以上不同
+层次的描述，而这些描述在某些方面又是彼此相似的。那时我们会发现，在考虑这种系统时，我们难以避免把层次搞混，很容易完全迷失方向。
+\end_layout
+
+\begin_layout Standard
+毫无疑问，这种情况会发生。在我们考虑我们自己的心理的时候——例如，当我们试图理解人们从事各种活动的动机时——就是如此。在人的心智结构中有许多层次——当然对这个系
+统我们还没有很好地理解。但是，仍有上百种相互竞争的理论在说明人类行为的原因。每种理论都基于某种潜在的假设，关系到在寻找各种心理的“力”时，应当深入到这种层次结构
+的哪一层。由于目前我们差不多是用同一种语言描述所有的心智层次，这显然就造成了大量的层次混淆和许多错误的理论。例如，我们谈论“驱力”——但不知道这些驱力在人的心智
+结构中出自何处。我不想就此进一步讨论，只想说明我们进行自我认识时的混乱与下述事实有关：我们是由许多层次构成的，同时我们用重叠的语言在所有这些层次上描述我们自己。
+\end_layout
+
+\begin_layout Subsection*
+计算机系统
+\end_layout
+
+\begin_layout Standard
+在另一个领域中也有这样的情况：对同一个系统有许多层次的描述共存．而且这些层次在概念上彼此非常接近。我这里指的是计算机系统。当一个计算机程序在运行的时候，可以在若
+干个层次上观察它。在每一层上，描述都是用计算机科学的语言给出的，这使得所有这些描述都多多少少地彼此相似——然而不同的层次上得到的见解仍然极其不同的。在最低层，描
+述会复杂得就象对电视屏幕上光点的描述一样。但就某些目的而言，这是最重要的视角。在最高层，描述极大程度地组块化，给人一种完全不同的感觉，尽
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+373
+\end_layout
+
+\end_inset
+
+管事实上许多概念都是最低层和最高层所共有的。高层描述中的组块类似于棋术大师的组块，也类似于屏幕图象的组块化描述：它们以简略的形式概括了若干在低层看来是不同的东西
+（见图57）。我们还是先别把事情搞得太抽象，先看看有关计算机的一些具体事实吧。我们来简述一下从最低层看计算机系统是什么样的。最低层？严格地说并不是，因为我没打算
+谈及基本粒子——但这里要谈到的是我们所愿意考虑的最低层。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0374.jpg
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+“组块化”的想法：一组对象被当作一个“块”而重新看成是一个单位。其边界有点象细胞膜或国境线：它使得其内部的那一组对象构成一个独立的单位。根据不同的需要，可以考虑
+组块的内部结构，也可以不考虑。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+计算机的基本成分有“存储器”、“中央处理器”(CPU)以及一些“输入输出(I/0)设备”。首先我们来谈谈存储器。存储器被分为若干称为“字”的物理上分离的单元。为
+了描述得具体一些，我们假设存储器共有65536个字（这是个特殊的数，2的1 6次方）。一个字可以进一步分为我们当作计算机科学的原子的东西——“位”。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+374
+\end_layout
+
+\end_inset
+
+一个典型的字中大概有36位左右。
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0375.png
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+—— 一个36位的字 ——
+\end_layout
+
+\begin_layout Standard
+从物理上看，一个位不过是一种磁性“开关”，它可以处于两种状态。你不妨把这两种状态称为“开”和“关”，或“X”和“O"，或“1"和“0”……第三种是最常用的。这种
+表示很方便，但也可能使人误解，以为计算机说到底是存储数字的。这是错的。三十六个位组成的集合不一定要被想象成数字，正象一角钱不一定要被想象成一根冰棍的价格。钱可以
+有各种不同的用途，这取决你怎样使用它。
+\end_layout
+
+\begin_layout Standard
+同样，存储器中的一个字也可以有不同的功能。当然，有时这36位确实是表示了一个二进制数。另一些时候它们也可能是表示一个电视屏幕上的36个点，或文章中的一个词。存储
+器中的一个字应当如何理解，这完全取决于这个字在程序中所扮演的角色。当然，它也可能扮演多种角色——象卡农曲中的一个音符一样。
+\end_layout
+
+\begin_layout Subsection*
+指令和数据
+\end_layout
+
+\begin_layout Standard
+有一种对于字的解释我还没有提到，这就是“指令”。存储器中的字里面不仅可以放被处理的数据，还可以放一些作用于数据之上的程序。有那么一组有限的固定的操作，它们可以被
+中央处理器——CPU——所执行，而一个字的一部分，通常是前面的几位，可以被解释成要被执行的指令类型的名字。一个解释成指令的字的其余部分代表什么呢？最常见的是，它
+们说明要对存储器中的哪些字进行作用。换句话说，剩下的位构成了一个指向存储器中其它字的“指针”。在存储器中，每个字都有各自的位置，象大街上的房子一样。字的位置称为
+“地址”。存储器里可以有一条“街”或几条“街”——它们被称为“页”。因此，要寻找一个字的地址，必须知道它的页号（如果存储器是分页的）以及它在该页中的位置，所以指
+3
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+75
+\end_layout
+
+\end_inset
+
+令的“指针”部分就是存储器中某个字（或某些字）的地址的数字化表示。对于指针是没有限制的，因此一条指令甚至可以“指向”它自己，这样当它被执行时，将造成对自身的某些
+修改。
+\end_layout
+
+\begin_layout Standard
+在任一给定时刻，计算机怎样才能知道该执行什么指令呢？这记录在CPU里。有一个特殊的指针，指向要被解释成指令的下一个字（即存储着它的地址）。CPU把那个字从存储器
+中提取出来，通过电子手段把它复制到属于CPU自身的一个特殊的字中(CPU中的字通常不叫“字”，而叫“寄存器”)。然后CPU就执行这条指令。这条指令可以要求完成任
+意一种类型的操作。典型的操作包括：
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring PRINT[打印]：：
+\noindent
+\begin_inset space \hfill{}
+\end_inset
+
+ADD[加]： 把指令中所指出的字加到一个寄存器上。
+\begin_inset Newline newline
+\end_inset
+
+（在这种情况下，所指出的字显然被解释成一个数字。）
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring PRINT[打印]：：
+PRINT[打印]： 把指令所指出的字作为字母打印出来。
+\begin_inset Newline newline
+\end_inset
+
+（在这种情况下，这个字显然不是解释成一个数字，而是解释成一串字母。）
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring PRINT[打印]：：
+\begin_inset space \hfill{}
+\end_inset
+
+JUMP[转移]： 转移到指令中所指出的字。
+\begin_inset Newline newline
+\end_inset
+
+（在这种情况下，告诉CPU把那个特定的字解释成它的下一条指令。）
+\end_layout
+
+\begin_layout Standard
+除非指令明确要求其它作法，否则CPU将取出下一个字，并把它解释成指令。换句话说，CPU假定自己应当象个邮递员那样，沿着“大街"走下去，依次把一个个字解释成指令。
+但是这种顺序工作方式可以被象JUMP（转移）这样的指令所打破，还有一些指令也有这种效果。
+\end_layout
+
+\begin_layout Subsection*
+机器语言之别于汇编语言
+\end_layout
+
+\begin_layout Standard
+上面所说的只是“机器语言”的一个粗略框架。在这种语言
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+376
+\end_layout
+
+\end_inset
+
+中，所能执行的操作类型构成了一个不可扩展的有限集合。因此所有的程序，不管多大、多复杂，都必须用这几种类型的指令构成。看一个用机器语言写成的程序，差不多可以和一个
+原子一个原子地看一个DNA分子相比！翻回去看看图41．那个DNA分子的核苷酸序列——想想每个核苷酸都包含二三十个原子——再想象一下为一个微小的病毒（更不要说为人
+了！）一个原子一个原子地写出DNA--你就会体会到，用机器语言写一个复杂的程序是什么滋味，你也会体会到，在只能与程序的机器语言描述打交道的条件下去掌握程序的进展
+情况，那是一种什么滋味。
+\end_layout
+
+\begin_layout Standard
+但必须提到的是，在计算机刚出现的时候，程序设计是在比机器语言更低的层次上（还有更低的层次！）完成的——即把导线彼此联接，因此恰当的操作都是通过“硬性联接”而实现
+的。这用现代标准来看简直原始得可怕，甚至想象一下都觉得苦不堪言。但毫无疑问，初次进行这种尝试的人们一定和现代计算机的先驱者们一样曾经感到非常振奋．．
+\end_layout
+
+\begin_layout Standard
+现在我们要上升到对程序进行描述的层次体系中较高的一层。这就是“汇编语言”层。汇编语言和机器语言之间差别并不大，事实上，这一改变很平缓。在汇编语言的指令和机器语言
+的指令之间实质上存在着一～对应。汇编语言的设计思想是要把各个机器语言的指令“组块化”，因此当你要用一条指令把一个数加到另一个数之上时，不必再写一个若干位组成的串
+“0 1 0 1 1 1 000”，而只写ADD（加）就行，然后也不必以二进制表示的形式给出地址，而是291用一个“名字”指示存储器中的字。因此，用汇编语言写的
+程序很象用机器语言写的程序，只是容易被人读懂厂。可以把用机器语言写的程序比作以晦涩的哥德尔配数法写成的一个TNT推导，而把用汇编语言写的同一程序比作以原始的TN
+T表示法写成的与之同构的TNT推导，后者当然比前者易懂多了。或者，回到关于
+\end_layout
+
+\begin_layout Standard
+3 7 7DNA的想象上来，我们可以把机器语言和汇编语言之间的差别比作下面两种方法间的差别：一种是麻烦地一个原子一个原子地说明每个核苷酸，另一种是在说明～个核苷
+酸时仅仅给出它的名字（即“A"、“G"、“C"或“T"）、o通过这种非常简单的“组块化”操作可以节约大量的劳动’．虽然观念上并没有很大的改变。
+\end_layout
+
+\begin_layout Standard
+翻译程序的程序
+\end_layout
+
+\begin_layout Standard
+也许，汇编语言的主要意义不在于它与机器语言间并不显著的差别，而是这样一个关键的想法：程序完全可以在不同的层次上编制！想一想：硬件是被设计来“理解”机器语言写出的
+程序——即位序列——而不是面向字母和十进制数字的。把一个用汇编语言写的程序送迸硬件会怎么样呢？这就象你想让一个细胞接受一片纸，上面的核苷酸序列是用字母写的，而不
+是作为一种化学构成物。细胞要一片纸有什么用呢？计算机要汇编语言写出的程序有什么用呢？
+\end_layout
+
+\begin_layout Standard
+关键在这里：人们可以用机器语言写一个“翻译程序”o这个程序叫“汇编程序”，它可以接受易记的指令名、十进制数字及其它容易被程序员记住的方便的缩写，然后把它们转换成
+单调然而严格的位序列。用汇编语言书写的程序在被“汇编”（即翻译）之后，就可以“运行”了——或者说它的机器语言等价物可以运行了。但达只是个说法问题。哪个层次的程序
+在运行？如果你说是机器语言写出的程序在运行，那是绝不会错的，因为任何程序的运行都必须通过硬件——但根据汇编语言来考虑运行中的程序同样是很合理的。例如，你完全可以
+说“现在CPU正在执行JUMP（转移）指令”，而不是说“现在CPU正在执行‘111010000'指令”o一个钢琴家在弹奏音符G-E-B-EGB时，也是在弹奏E小
+调和弦的一个琶音。没有理由排斥一个以高层次观点进行的事物描述。因此，可以
+\end_layout
+
+\begin_layout Standard
+3 7 8把汇编语言写出的程序想象成与机器语言写出的程序在同时运行。我们对CPU正在做的事情有两种描述方式。
+\end_layout
+
+\begin_layout Standard
+更高级的语言、编译程序和解释程序 292
+\end_layout
+
+\begin_layout Standard
+靠计算机自己把程序从高层次翻译到低层次，这个强有力的想法在层次体系的更上一层得到了进一步贯彻0 5 0年代初，人们用汇编语言编了几年程序之后，就认识到了一些有特
+点的结构往往反复出现在各种程序中。正象下棋一样，似乎存在某些基本的“定势”，它们会自然地出现在人们想要构造“算法”的时候——所谓“算法”是指人们对所要完成的操作
+过程的精确描述。换句话说，算法似乎有某些高层次的成分，用它们来描述操作过程，比用局限性很大的机器语言或汇编语言要容易得多，也漂亮得多。在典型情况下，一个算法的高
+层成分不只包含一两条机器语言指令，而是包含整整一组，并且这些指令在存储器中也不一定是相邻的。这样的一个成分可以在一个更高层的语言中用单个的项来表示——这就是一个
+组块。
+\end_layout
+
+\begin_layout Standard
+除去标准组块——即新发现的那些可以构成所有算法的成分——之外，人们还认识到几乎所有的程序都包括有更大的组块——或者叫超组块。不同的程序有不同的超组块，这取决于程
+序要．完成哪些高层次的任务。我们在第五章里已经讨论过超组块，甩的是它们通常的称呼：“子程序”和“过程”o显而易见，对任何程序设计语言的一个强有力的扩充就是赋予它
+们下述能力：用已知的实体定义新的高层实体，然后用名字调用它们。这就把形成组块的运算直接建立在语言之中了。这样，就不再有一组固定的指令，要求所有的程序都直接用这组
+指令来编制，而是使程序员能构造自己的模块，每个模块都有自己的名字，而且可被用在程序内的任何地方，就象它们本来就是这种语言的成分一佯。当然，这并没有超出
+\end_layout
+
+\begin_layout Standard
+37 9
+\end_layout
+
+\begin_layout Standard
+下述事实：下到机器语言层，所有的事情仍是被同一组已有的机器
+\end_layout
+
+\begin_layout Standard
+语言指令所完成的，但它们对于处在高层的程序员来说不是明显
+\end_layout
+
+\begin_layout Standard
+可见的，它们是隐含的。
+\end_layout
+
+\begin_layout Standard
+基于这种想法的新语言被称为“编译语言”o其中一种很早也
+\end_layout
+
+\begin_layout Standard
+很漂亮的叫做“Algol”，是“算法语言”的英文缩写。和汇编语言的
+\end_layout
+
+\begin_layout Standard
+情况不同，在Algol的语句和机器语言的指令之间不再有直接的
+\end_layout
+
+\begin_layout Standard
+一一对应。无疑，仍然有一种从Algol到机器语言的映射关系，但
+\end_layout
+
+\begin_layout Standard
+这要比汇编语言和机器语言间的关系“杂乱”得多。粗略地说，把
+\end_layout
+
+\begin_layout Standard
+Algol程序翻译成机器语言，有点象根据初等代数课本上的一道
+\end_layout
+
+\begin_layout Standard
+应用题列出方程式o（事实上，从应用题转换到方程式要复杂得多，
+\end_layout
+
+\begin_layout Standard
+但这一比喻有助于体会把高级语言翻译成低级语言的过程中所必293须完成的那些“清理”工作c）在50年代中期，称为“编译程序”的一
+\end_layout
+
+\begin_layout Standard
+些成功的程序被编制出来了，其功能就是完成从高级语言到机器
+\end_layout
+
+\begin_layout Standard
+语言的翻译。
+\end_layout
+
+\begin_layout Standard
+“解释程序”也被发明出来了。象编译程序一样，解释程序也能
+\end_layout
+
+\begin_layout Standard
+把高级语言翻译成机器语言，但不是先把全部语句翻译完，然后执
+\end_layout
+
+\begin_layout Standard
+行机器代码，而是读一行然后立即执行它。这样做的优点是，使用
+\end_layout
+
+\begin_layout Standard
+者不必等写完一个程序后再使用解释程序。他可以一边一行一行
+\end_layout
+
+\begin_layout Standard
+地编，一边对它扪进行检验。因此，一个解释程序和一个编译程序
+\end_layout
+
+\begin_layout Standard
+相比，就象一个同声翻译和一个书面发言翻译相比一样。一种非常
+\end_layout
+
+\begin_layout Standard
+重要又很迷人的计算机语言是Lisp(“表处理”的英文缩写)。它是
+\end_layout
+
+\begin_layout Standard
+约翰·麦卡锡发明的，时间和Algol的发明时间差不多。从那以
+\end_layout
+
+\begin_layout Standard
+后，Lisp在人工智能研究人员中广泛地流行开了。
+\end_layout
+
+\begin_layout Standard
+在解释程序和编译程序的工作方式之间有个很有趣的差别。
+\end_layout
+
+\begin_layout Standard
+编译程序先接收输入（如一个写好的Algol程序），然后产生输出
+\end_layout
+
+\begin_layout Standard
+（一个长长的机器语言指令序列）o至此，编译程序的任务就完成
+\end_layout
+
+\begin_layout Standard
+了，其输出就交给计算机去运行。与此相反，解释程序在程序员一
+\end_layout
+
+\begin_layout Standard
+380条条地输入Lisp语句时一直在运行，每条语句马上被“就地执行”o但这并不是说每条语句是先翻译再执行的，那样的话一个解释程序就只是个一行一行进行处理的编译程
+序了。在解释程序中，下列操作是交织在一起的：读新的一行、“理解”它、执行它，它们同时进行。
+\end_layout
+
+\begin_layout Standard
+解释程序的基本想法如下：每次新的一行Lisp语句输入，解释程序就设法处理它。这就是说解释程序开始工作，而且其中某些（机器语言的指令）被执行。当然，确切地说，执行
+哪一条指令，是取决于这个输入的Lisp语句的。在解释程序中有许多JUMP（转移）指令，因此新的一行Lisp可能使控制权以一种复杂的方式四处传递——向前，向后，再
+向前，等等。这样，每个Lisp语句都在解释程序中被转换成一条“路径”，沿着这条路径走就能得到所需的结果。
+\end_layout
+
+\begin_layout Standard
+时不妨把Lisp语句只看成一条条的数据，它们被连续地送入一个不停地运行的机器语言程序（即Lisp解释程序）o这样想往往是有帮助的，由此你会得到关于高级语言写出的
+程序和执行它的机器之间的关系的另一幅图象。
+\end_layout
+
+\begin_layout Standard
+自 举
+\end_layout
+
+\begin_layout Standard
+当然，编译程序自身也是个程序，也必须用某种语言来书写。第一个编译程序是用汇编语言来书写的，而不是用机器语言，这样就可以充分利月已经建立在机器语言之上的初步成果。
+图5 8对这些复杂的概念进行了总结0 294
+\end_layout
+
+\begin_layout Standard
+随着复杂性的增长，人们认识到，一个部分完成了的编译程序町用于对其它部分进行编译。换句话说，一旦编译程序的核心部分写成了，这个小编译程序就能把一个大一点的编译程序
+译成机器语言——依此办理就能翻译‘个更大的编译程序，直到最后得出整个所期望的编译程序。这个过程有个形象生动的名字：“自
+\end_layout
+
+\begin_layout Standard
+38 1图58．汇编程序和编译程序都是用于向机器语言进行翻译的程序。
+\end_layout
+
+\begin_layout Standard
+这用直线表示。它们自身也是程序，开始时也需用某种语言写成。
+\end_layout
+
+\begin_layout Standard
+波浪线表示编译程序可以用汇编语言书写，汇编程序可以用机器语言书写。
+\end_layout
+
+\begin_layout Standard
+举”——其缘由是显然的（想象一个抓住鞋带想把自己举起来的人就行了）o这有点象一个刚刚能顺利地使用自己母语的幼儿，从那时开始，他的词汇量和流畅程度将飞速增长，因为
+他可以利用语言来取得新的语言。
+\end_layout
+
+\begin_layout Standard
+运行着的程序的各种描述层次
+\end_layout
+
+\begin_layout Standard
+编译语言一般说来并不反映运行由它所写出的程序的机器结
+\end_layout
+
+\begin_layout Standard
+构。这是它优于高度专门化的汇编语言和机器语言的主要特点之
+\end_layout
+
+\begin_layout Standard
+一。当然，在一个用编译语言书写的程序被翻译成机器语言之后，
+\end_layout
+
+\begin_layout Standard
+得到什么样的程序是依赖于具体机器的。因此，在描述一个正在执
+\end_layout
+
+\begin_layout Standard
+行的程序时，既可以独立于机器，也可以依赖于机器。正好象提到
+\end_layout
+
+\begin_layout Standard
+一本书中的某段时，既可以根据其谈论的内容（独立于出版社）．也
+\end_layout
+
+\begin_layout Standard
+可以根据其页码（依赖于出版社）o295 程序正常运行时，你怎么描述它或想象它的活动都没有太大
+\end_layout
+
+\begin_layout Standard
+关系。只有在出了毛病时，能够在不同的层次上思考才变得重要起
+\end_layout
+
+\begin_layout Standard
+来。例如，如果程序在某时要执行除法指令，而除数是零，程序将暂
+\end_layout
+
+\begin_layout Standard
+3 82停运行，并把问题通知使用者，报告程序中出错的位置。但是，给出说明的层次往往低下程序员书写该程序的层次。下面是对一个嘎然而止的程序的三个平行的描述：
+\end_layout
+
+\begin_layout Standard
+机器语言层：¨程序执行停止于1 1 1 00 1 0 1 0 1 1 1 0 1 1 1位置”；
+\end_layout
+
+\begin_layout Standard
+汇编语言层：¨程序执行停止于遇到DIV（除）指令时”；
+\end_layout
+
+\begin_layout Standard
+编译语言层：“程序执行停止于为代数表达式‘(A+B)／Z’赋值的过程中。”
+\end_layout
+
+\begin_layout Standard
+对于系统程宇员（指那些编写编译程序、解释程序、汇编程序和其它一些供大家使用的程序的人）来说，最大的问题之一·就是想办法编写查错子程序，以便给那些程序出错的用户提
+供高层而非低层的问题描述信息。一一个有趣的颠倒是，如果一个遗传“程序”出毛病，（即出现一个突变）．这时“错误”只能在高层次上显示给人们——即出现于表现璎层次，而
+非遗传型层次。实际上，现代生物学把突变作为了解遗传过程的丰要窗口之一，原因就是对这些过程可以在多个层次上进行探索。
+\end_layout
+
+\begin_layout Standard
+微程序设计和操作系统
+\end_layout
+
+\begin_layout Standard
+对于现代计算机系统来说，在层次结构中还有一些其它层次。例如，在有些系统中一一通常是所谓“微跫计算机”——其机器语言指令甚至比“把存储器中的一个数加到寄4器中的一
+个数上”那样的指令还要基本。使用者可以根搌自己的意愿，决定需要哪些常规机器层次的指令来编程序，并且用机器提供的那些“微指令”
+\end_layout
+
+\begin_layout Standard
+来为所需的指令编制“微程序”o然后他所设计的这些“高级机器语言”的指令可以被做进电路中，从而成为硬件的一部分。当然不一定非要这样做。这种微程序设计使用户在一定程
+度上深入到通常的机器语言层之下。其结果之一就是一个厂家的一台计算机可以被“硬性联接”（通过微程序设计）成和同一个厂家——甚至另一‘个
+\end_layout
+
+\begin_layout Standard
+38 3厂家——的另一台计算机具有相同的机器语言指令集。这个微程序化的计算机被称为在对另一台计算机进行“仿真”o
+\end_layout
+
+\begin_layout Standard
+另一个层次是“操作系统”，它处于用机器语言写的程序和使296用者进行程序设计的高级层次之间。操作系统本身是个程序，其功能是防止用户直接使用“裸机”（这就为系统提
+供了保护），并且使程序员摆脱许多非常琐碎繁杂的问题，如读入程序、调用翻译程序、运行翻译后的程序、把输出在适当的时候引向适当的通道、把控制权转交给下一个用户等等。
+如果多个用户同时与一个CPU“交谈”，那么操作系统将负责以某种有秩序的方式把系统的注意力从一个用户转向另一个用户，操作系统实在太复杂了，我只想通过下面的类比给一
+些提示。
+\end_layout
+
+\begin_layout Standard
+请想想第一个电话系统。亚历山大·格雷厄姆·贝尔可以和
+\end_layout
+
+\begin_layout Standard
+另一间屋里的助手通电话。声音的电子传输就相当于一台没有操
+\end_layout
+
+\begin_layout Standard
+作系统的裸机：用电子计算！再看一个现代电话系统。你可以选择
+\end_layout
+
+\begin_layout Standard
+和哪一台电话接通。不仅如此，系统还可以同时控制多个不同的电
+\end_layout
+
+\begin_layout Standard
+话呼叫。你可以直拨、通过接线员接通、召开电话会议。你可能听
+\end_layout
+
+\begin_layout Standard
+到占线的嘟嘟声，也可能昕到一个信号，警告你通话时间过长。你
+\end_layout
+
+\begin_layout Standard
+可以安装一台交换机，把附近的一批电话都联起来，如此等等。上
+\end_layout
+
+\begin_layout Standard
+面这令单子很惊人，你可以想想这是多么灵活，特别是和以前当作
+\end_layout
+
+\begin_layout Standard
+奇迹的“裸”电话相比。现在复杂的操作系统就是为用户及其程序
+\end_layout
+
+\begin_layout Standard
+完成类似的通讯管理和层次转换操作的。实际上，在大脑中一定也
+\end_layout
+
+\begin_layout Standard
+发生着某种类似的事件：同时控制多种刺激；决定哪一种优先于其
+\end_layout
+
+\begin_layout Standard
+它种，优先权保持多久；紧急情况和偶发事件造成的突然“中断”，
+\end_layout
+
+\begin_layout Standard
+如此等等。
+\end_layout
+
+\begin_layout Standard
+方便用户并保护系统
+\end_layout
+
+\begin_layout Standard
+一个复杂的计算机系统中的许多层次，具有一种为用户提供
+\end_layout
+
+\begin_layout Standard
+384“缓冲”的综合效用，使他可以不考虑许多低层活动。这些活动往往与他毫不相干。一个飞机乘客通常不想了解油箱罩还有多少燃料、风速是多少、需要准备多少份饭、目的地
+附近的空中交通情况如何——这些事情已被交给航空公司系统中处于不同层次的工作人员来处理，而乘客只要求从一处到达另一处，同样，只有当出了什么毛病——比如他的行李没到
+，乘客才会意识到他以前不知道的那个使入迷乱的层次系统。
+\end_layout
+
+\begin_layout Standard
+计算机是过于灵活还是过于刻板？ 297
+\end_layout
+
+\begin_layout Standard
+让人能尽可能自然地和计算机进行通讯，这一直是促使人们提高层次的主要目标之一。当然，和用机器语言写成的低层结构相比，用编译语言写成的高层结构更接近于人一般思考时所
+用的概念。但是，在这种使通讯更加容易的努力过程中，“自然”这个要求的一个方面被完全漠视了。事实上人际通讯中的约束远不象在人机通讯中那样刻板。例如，在寻找最好的表
+达方式时，我们常常说出无意义的句子片段；我们可能在说一句话的中间咳嗽；我们彼此打断对方的话；我们使用模棱两可的描述和“不规范”的句型；我们杜撰词组、歪曲意义——
+但我们的大部分信息一·般仍能传递过去。
+\end_layout
+
+\begin_layout Standard
+用程序设计语言，一般说来是有着非常严格的句法的，你必须每时每刻遵守，而且没有棋棱两可的词或结构。有趣的是，程序设计语言中也允许有对应于咳嗽的成分（即非本质性的或
+关系不大的注解），但要求它们必须以一个关键字作为开始信号（如COMME-NT，即“注解”），然后终止于另一个关键字（如一个分号）o带有讽刺意味的是，既使是向灵活
+性作出的这样一个微弱姿态，也带有它自己的小陷井：如果一个分号（或无论哪种表示注解结束的关键字）在一个注解内部被使用，翻译程序就会把这个分号理解成注解结束的标志，
+接着就是一场灾难。
+\end_layout
+
+\begin_layout Standard
+38 5
+\end_layout
+
+\begin_layout Standard
+假设程序中定义了一个叫¨INSIGHT（洞察）”的过程，然后调用了它十七次，但第十八次由于程序员的大意，它被写成了“INSI-H(,T”o编译程序将徘徊不前，并
+刻板地打印出一个冷酷无情的错误通知，说它从来没听说过什么“1NSIHGT”o编译程序发现了这样一个错误之后，它通常试图继续工作下去，但由于它没有洞察力，因此并没
+有理解程序员想要干什么。事实上，它可能会把这个错写的词设想成完全不同的东西，并且在那个错误的假设下工作F去。这时，一长串错误信息将雨点似地撒向程序的其余部分，因
+为编译程序——而非程序员——已经完全被弄糊涂了。可以想象，如果一个同声翻译正在把汉语译成俄语，突然在汉语中听到一个英语句子，然后就把后面的汉语都当成英语来翻译，
+这会造成多大的混乱。编译程序常常这样可怜地迷失方向oThat9s life．
+\end_layout
+
+\begin_layout Standard
+或许这听上去象是在谴责计算机，但实际上没有这个意思。从某种意义上说，这种情况是不可避免的。一旦你停下来想一下大多数人用计算机做什么，你将发现是要完成一些非常确定
+并精密的工作，这些工作太复杂，不适合由人来完成。如果计算机想要成为可靠的，那么它应当不带一点模棱两可地理解人希望它做的是什么o而且它必须既不多也不少地按照明确指
+示给它的去做。如果在为程序员提供方便的过程中，有一个程序的目的就是“猜测”程298序员想做的事情，那么，下述情况是完全可以想象的：程序员设法传达了任务，但机器完
+全误解了。因此重要的是，对高层次的程序来说◆在要求人用着合适的同时，仍应要求精确，没有歧义。
+\end_layout
+
+\begin_layout Standard
+猜出程序员的意图
+\end_layout
+
+\begin_layout Standard
+现在有可能设计一种容许某种不精确性的程序设计语言，以
+\end_layout
+
+\begin_layout Standard
+及一个能把它翻译到低层次上的翻译程序。一种可能的办法是让
+\end_layout
+
+\begin_layout Standard
+为这种程序设计语言服务的翻译程序设法弄懂那些“在语言的规
+\end_layout
+
+\begin_layout Standard
+3 8 6则之外”所作的事情。但如果一种语言允许某些“犯规”，那么这种犯规已不再是真的犯规，因为它们已经被包容于规则之内了！如果一个程序员知道他可以出现某些种笔
+误，那么，他就会有意地利用语言这种特点，因为他知道他实际上是在刻板的语言规则范围内工作，尽管表面上看不是这样。换句话说，如果用户了解翻译程序为了他的方便而设置的
+所有灵活性，那么他也就知道了哪些界限是他所不能逾越的，因此在他看来，翻译程序仍然是刻板、不灵活的，虽然它和该语言的早期版本——它们没有体现“自动补偿人的错误”—
+—相比是使人有了更多的自由。
+\end_layout
+
+\begin_layout Standard
+对于那种“有弹性”的语言，可能出现的情况大概有两种：(1)用户了解构造在语言及其解释程序中的灵活性；(2)用户不了解这些灵活性。在前一种情况下，用户仍然可以用这
+种语言来精确地表达他的程序，因为他能预测计算机将怎样解释他用这种语言写的程序。在后一种情况下，解释过程具有一些隐蔽的特性，使得某些事件成为不可预测的（从不知道翻
+译程序内部工作方式的用户的角度看）o这可能导致对程序作出完全错误的解释，因此，在主要是出于速度和可行性的考虑而使用计算机的环境中，这样的语言是不合适的。
+\end_layout
+
+\begin_layout Standard
+现在事实上还有第三种可能：(3)厢户了解构造在语言及其翻译程序内部的各种灵活性，但由于它们为数众多，并以一种十分复杂的方式相瓦作用，致使用户无法断定他的程序会被
+怎样解释。这可能完全适用于翻译程序的设计者。他当然比别人更了解其内部情况一·一但他仍可能无法预测它对一个给定类型的不常见的结构将作出怎样的反应。
+\end_layout
+
+\begin_layout Standard
+目前，在人工智能的研究中，主要的领域之一就是“自动程序设计”o这涉及到更高层次语言的开发一一这砦语言的翻译程序极其复杂，它们能做一些非常不容易的工作，例如：对例
+子进行概括、
+\end_layout
+
+\begin_layout Standard
+38 7299纠正某些笔误或语法错误、设法弄懂有歧义的描述的意思、利用一个基本用户模型来猜出用户的意图、对不清楚的事情进行提问、直接使用自然语言等等。我们希望在
+可靠性和灵活性之间走钢丝。
+\end_layout
+
+\begin_layout Standard
+人工智能的进展即语言的进展
+\end_layout
+
+\begin_layout Standard
+在计算机科学（特别是人工智能）的进展和新语言的开发之间有着非常紧密的相互联系。在过去的十年中出现了一个明显的趋势，即把新发现吸收到新语言之中。理解和构造智能的关
+键之一就存在于语言的不断开发和改进之中，用这些语言可以描述符号的处理过程。时至今日，已经有大‘约三四十种专门为人工智能研究所用的试验性语言被开发出来了。需要强调
+的是，应当认识到：任何可以用上述语言之一书写的程序，在原则上也能用更低层的语言来编制，但那需要人付出较大的努力，而且编出来的程序可能长得使人无法把握a每个较高的
+层次都没有扩展计算机的潜能，计算机的全部潜能已经存在于其机器语言指令集之中了。高层次语言中的新概念只不过是用它们的性质提示了一些方向和前景。
+\end_layout
+
+\begin_layout Standard
+所有可能的程序所组成的“空间”是如此巨大，以致于没人能
+\end_layout
+
+\begin_layout Standard
+知道哪些东西是可能的。每种高层次语言都自然地适用于探索“程
+\end_layout
+
+\begin_layout Standard
+序空间修的某些特定区域，因此程序员在使用那种语言时，就被引
+\end_layout
+
+\begin_layout Standard
+入了裎序空间的那些区域。语言并没有强迫他编写某类特定的程
+\end_layout
+
+\begin_layout Standard
+序，但语言为他做某些事情提供了便利。接近一个概念？一次轻微
+\end_layout
+
+\begin_layout Standard
+的推动，这些常常都是一个重大发现所需要的——而且这也是促
+\end_layout
+
+\begin_layout Standard
+使更高层的语言出现的动力。
+\end_layout
+
+\begin_layout Standard
+使用不同的语言编程序就象使用不同的调式作曲，尤其是如
+\end_layout
+
+\begin_layout Standard
+果你是在钢琴键盘上作曲，那就更象了。如果你学过或写过不同调
+\end_layout
+
+\begin_layout Standard
+式的曲子，你会发现每个调式都有自己独特的感情色彩。同样，某
+\end_layout
+
+\begin_layout Standard
+种指法组合的使用方式对一个调式来说很自然，但对另一个调式
+\end_layout
+
+\begin_layout Standard
+3 8 8可能就很别扭。因此，你所选择的调式对你就具有引导作用。甚至象升C和降D这样的等音调式都会以某种方式给人以不同的感受。这显示了一个记号系统会对最终产品产
+生相当大的影响。
+\end_layout
+
+\begin_layout Standard
+图5 9显示了一幅人工智能的“分层”图景，以机器元件（如晶体管）为底，以“智能程序”为顶。该图摘自帕特里克·亨利·温斯顿所著的《人工智能》一书，它代表了几乎为所
+有人工智能工作者所共有的关于人工智能的构想。虽然我同意人工智能应当以某种方式分层，但我并不认为通过这样少的几层就能达到智能程序。在机器语言层和真正达到智能的层次
+之间，我认为可能还需有f几300层（甚至几十层）o每一个新的层次都基于下面一层，同时也扩展了F-层提供的灵活性。它们将是什么样的，我们现在做梦也想不出圈59.为了
+构造智能程序，需要建造—个硬件和软件的层次结构，以解除在最低层观察一切所带来的痛苦。对同·个过程，不同层次的描述会是很不·样的，只有顶层是宽分地组块化了，因此容
+易被人所理解。
+\end_layout
+
+\begin_layout Standard
+[摘自帕·亨·温斯顿，《人工智能》]┏━━━━━━━━━━━━━━━━┓┃／ ／ ┃┣━━━━━━━━━━━━┳━━━┫┃ 钾跳张JF ┃ ┃┃
+ ┃／ ┃┣━━━━━━━━━━━━┫ ┃┃ l嵌入(l勺模式匹配器 ┃ ┃┃ ┃／j ┃┣━━━━━━━━━━━━┫ ┃┃ Lisp ┃ ┃┃
+ ┃j／ ┃┣━━━━━━━━━━━━┫ ┃┃ 编浔程序或解释程序 ┃ ┃┃ ┃j．／ ┃┣━━━━━━━━━━━━┫ ┃┃ 机器指令 ┃ ┃┃
+ ┃j／ ┃┣━━━━━━━━━━━━┫ ┃┃ 寄仃器和数据通路 ┃ ┃┃ ┃／ ┃┣━━━━━━━━━━━━┫ ┃┃ frtlli发器矛ll『1
+ ┃ ┃┃ ┃／ ┃┣━━━━━━━━━━━━┫ ┃┃ }lf．休管 ┃ ┃┃ ┃j／ ┃┗━━━━━━━━━━━━┻━━━┛妄想狂和操作系统
+\end_layout
+
+\begin_layout Standard
+计算机系统中各层次间的相似性会使人经历一种奇特的层次混淆。我有一次在观看两个朋友——都是计算机方面的新手
+\end_layout
+
+\begin_layout Standard
+3 8 9
+\end_layout
+
+\begin_layout Standard
+一在一个终端上玩“帕里”程序。“帕里”是个名声不好的程序，它以一种极初等的方式模拟一个妄想症患者。它能用英语吐出一些陈词滥调，其中的词汇是从程序里的一个大词汇库
+中选出来的。它的行为挺逼真，因为它能够判断库存的词语中，哪些在用来回答人输入的英文句子时听起来更合理。
+\end_layout
+
+\begin_layout Standard
+有一次，机器的反应时间很长——“帕里”要过很久才给答复
+\end_layout
+
+\begin_layout Standard
+一我向朋友们解释说，这可能是由于分时系统负担太重了。我告诉他们，只要打入一个特殊的“控制”字符，就可以进入操作系统，查出有多少用户在使用机器，而这在运行“帕里”
+时是看不到的。我的一个朋友按下了这个控制字符，转眼之间，某些关于操作系统状态的内部数据把“帕里”在屏幕上显示的一些词冲掉了。“帕里”对此一无所知：它的“知识”仅
+仅限于赛马和赌博——不是关于操作系统、终端和特殊控制字符的。但对我的朋友们来说，“帕里”和操作系统都不过是“计算机”一 一个神秘、遥远、难以名状的实体，它可以对
+他们输入的信息作出回答。因此就完全可以理解为什么我那朋友这个时候会冒失地用自然语言打入下列问题：“为什么你301把屏幕上的东西冲掉了？”我的朋友们不清楚“帕里”
+对于它下面的操作系统一无所知。“你”知道关于¨你自己”的一切，这种想法在处理人际关系时为大家所熟知，因此很自然地会推广到计算机上一它毕竟还是具有足够智能的，它都
+能和他们用自然语言“交谈”！他们那个问题就象是问一个人：“你今天为什么制造了这样少的红血球？”人们不了解他们身体的那个层次——所谓“操作系统层次”．
+\end_layout
+
+\begin_layout Standard
+这种层次混淆的主要原因是，人和计算机系统的所有层次之间的通讯都是在同一个终端的同一个屏幕上进行的。虽然说我的朋友似乎有点过于天真了，但若是一个复杂系统的几个层次
+同时出现在一个屏幕上，即使是有经验的计算机．一I -作者也常常会犯类
+\end_layout
+
+\begin_layout Standard
+3 90似的错误。他们忘了足在和“谁”谈话，于是输入了某监在那个层次上毫无意义的命令。因此，似乎应当要求系统本身能对层次进行区分——依据命令在哪一层能“有意义”
+来对它进行解释。不幸的是，这种解释要求系统具有大量的常识，还要有关于程序员的总体意蜀的完备知识——这两者都需要更多的人工智能，而这是目前还．不具有的。
+\end_layout
+
+\begin_layout Standard
+软件和硬件之间的界限
+\end_layout
+
+\begin_layout Standard
+人们还常常会被某些层次上的灵活性和另一些层次上的刻板性给搞糊涂。例如，有些计算机具有很好的文本编辑系统，叮以允许文本片段从一种格式中“倾注”到另一种格式中，就象
+液体可以从一个容器中被倾注到另一个容器中一样。窄页可以变成宽页，反过来也可以。它们既然有这么大的本事，人们就会期望从一种字体变成另一种——如从宋体变成楷体——也
+该是同样的容易。当然如果屏幕上只能显示一种字体，那这种转换就不可能了。也可能这种转换对屏幕是可行的，但在打印机，』二无法打印一一一还可能出现相反的情况。和计算机
+打交道久了，人常常被宠坏了，总觉得什么事情都能编程序解决：打印机不该刻板得只有一种或有限的几种字符集——字形应当是可以由用户指定的！但是一旦达到了这种灵活性，人
+们又会因打印机不能使用多种颜色的婴水而烦恼，或指责它不能接受任何形状和大小的纸张，或抱怨它不能在被打碎后再把自己装起来…．
+\end_layout
+
+\begin_layout Standard
+麻烦的事情在于，用第五章的话来说，所有这些灵活性都必须有个“终了”。在所有灵活性的下面必须是一个硬件层，而它是没有灵活性的。它叮以藏得很深，上面的各个层次又提供
+了大量的灵活性，以致于没有多少用户能感到硬伫的限制——但这种限制的存在是不可避免的。
+\end_layout
+
+\begin_layout Standard
+39 l
+\end_layout
+
+\begin_layout Standard
+软件和硬件间有区别，这是公认的，但到底是什么呢？就是程
+\end_layout
+
+\begin_layout Standard
+序和机器之间的区别——即长长的复杂的指令序列和执行它们的302物理机器之间的区别。我喜欢把软件想象成“你可以通过电话线传
+\end_layout
+
+\begin_layout Standard
+送 r壬何东西”o一架钢琴是硬件，而乐谱是软件。一部电话机是
+\end_layout
+
+\begin_layout Standard
+硬件，而电话号码是软件。，这种区分是很有用的，但也不是总能分
+\end_layout
+
+\begin_layout Standard
+得这样清楚。
+\end_layout
+
+\begin_layout Standard
+我们人类同样有“软件”和“硬件”两个方面，它们的差别对我
+\end_layout
+
+\begin_layout Standard
+们来说是根深蒂固的。我们已经习惯于自己生理上的刻板性：我们
+\end_layout
+
+\begin_layout Standard
+事实上不能凭愿望治愈自己的疾病，或者长出任何颜色的头发
+\end_layout
+
+\begin_layout Standard
+一只举这两个简单的例子就够了。但是，我们能够为我们的心智
+\end_layout
+
+\begin_layout Standard
+“重新编程序”，这样我们就可以在一个新的概念框架中行动了。我
+\end_layout
+
+\begin_layout Standard
+们心智的惊人的灵活性似平和下述观念水火不相容：我们的大脑
+\end_layout
+
+\begin_layout Standard
+一定是由具有固定规则的硬件构成的，不能被重新编程序。我们无
+\end_layout
+
+\begin_layout Standard
+法使我们的神经原兴奋得再快些或再慢些，我们无法重建它们之
+\end_layout
+
+\begin_layout Standard
+间的联系，我们无法重新设计一个神经原的内部结构，我们无法对
+\end_layout
+
+\begin_layout Standard
+硬件进行任何选择——但是，我们仍能控制自己的思维方式Q
+\end_layout
+
+\begin_layout Standard
+不过，显然我们的思维的某些方面是在我们的控制范围之外
+\end_layout
+
+\begin_layout Standard
+的。我们无法单凭愿望使自己聪明起来；我们无法以自己想要达到
+\end_layout
+
+\begin_layout Standard
+的速度去学会一门薪的语言；我们无法使自己的思维速度比实际
+\end_layout
+
+\begin_layout Standard
+情况更快一些；我们无法使自己同时思考好几件事情；如此等等。
+\end_layout
+
+\begin_layout Standard
+这些基本的自我认识往往是不言而喻的，就象我们意识到周围有
+\end_layout
+
+\begin_layout Standard
+空气存在一样c我们从不真的费神去考察导致我们心智的这些“缺
+\end_layout
+
+\begin_layout Standard
+陷”的东西是什么：那就是我们的大脑组织。设想一些途径来调和
+\end_layout
+
+\begin_layout Standard
+心智的软件和大脑的硬件，这就是本书的一个主要目的。
+\end_layout
+
+\begin_layout Standard
+中间层次和天气
+\end_layout
+
+\begin_layout Standard
+我们已经看到，在计算机系统中有一些定义得很严格的层
+\end_layout
+
+\begin_layout Standard
+3 92次，在每个层次上都能对一个正在运行的程序的操作进行描述。因此，不存在单一的低层次和单一的高层次——而是各种程度的低层次和高层次。中间层次的存在是否就是那
+些具有高低层次之分的系统的一般特征？作为一个例子，可以考虑这样一个系统：其“硬件”是地球的大气层（不是很硬，不过没关系），而其“软件”是天气情况。同时追寻所有分
+子的运动．人概是一种对天气的非常低层次的“理解”方式，这很象在机器语言层观察一个巨大而又复杂的程序。显然这是超出人的理解能力的。但我们仍能用一些人类特有的方式来
+观察和描述天气现象。我ffJ关于天气的组块化观点是基于层次很高的现象的，如雨、雾、雪、飓风、冷锋、季节、气压、信风、急流、积雨云、雷暴、逆温层等等。所有这些现象
+中涉及到的分子数量都达到了天文数字，它们以某种方式协同动作，造成了大尺度的天气趋势。这有点象读用高级语言描述的天气。
+\end_layout
+
+\begin_layout Standard
+是否有某种东西类似于用中间层次语言来观察天气，比如象303汇编语言那样？例如，是否存在非常小的局部范围内的“小型风暴”，就象人们偶而见到的那种能搅起一股至多一米
+来宽尘土的小旋风那样？一个局部地区的阵风是否就是一种中间层次的组块，在一·个高层天气现象的彤成过程中发挥了作用？还是说我们没有切实可行的方法把关于这种现象的知识
+结合起来，以构造一个对天气的更容易理解的解释？
+\end_layout
+
+\begin_layout Standard
+又有两个问题出现在我的脑海里。第一个问题：“是不是我们在自己的尺度上感知到的天气现象-一一一股龙卷风、一场旱灾等
+\end_layout
+
+\begin_layout Standard
+一只不过是中间层次的现象，是某种巨大、缓慢的现象的一部分？”如果是这样，那么真正的高层次天气现象应当是全球性的，而且采用地质学的时间尺度‘o冰河时代应当算是一个
+高层次天气事件。第二个问题：“是不是有这样的中层次天气现象；它们尚未被人所感知，但是一旦人们感知到它们，就会对天气的现状产生更深入
+\end_layout
+
+\begin_layout Standard
+39 3的理解？”
+\end_layout
+
+\begin_layout Standard
+从龙卷风到夸克
+\end_layout
+
+\begin_layout Standard
+上面最后一种设想听起来有点离奇，但绝非不着边际。我们只须考察一下“硬科学”当中最硬的一个——物理学——就能发现这样的一些特殊系统，它们可以用相互作用的“成分”来
+解释，而这些成分本身却是不可见的。在物理学中，正象其它任何学科一样，一个“系统”是一组相互作用的“成分”，在我们了解的大多数系统中，这些成分在相互作用中保持着自
+身的特性，因此我们仍能在系统内部观察到这些成分。例如，当一队橄榄球运动员聚在一起的时候，每个运动员都保持着自身的独立性——他们并没有融化进某个复合实体，从而消失
+了自己的独立性。但是——这是很重要的
+\end_layout
+
+\begin_layout Standard
+一在他们的大脑中进行着某些过程。这些过程是被球队这种环境所诱发的，否则它们不会发生。因此，在某种微弱的程度上可以说，这些队员在成为一个更大的系统（即球队）的一部
+分时，他们自身的个性已经有所改变。这种系统被称为“几乎可分饵系统”（这个名称来自赫·西蒙的文章<复杂性的结构》）o这样的系统包含相互作用较弱的模块，每个模块在相
+互作用过程中保持自己独有的个性，但变得有些不同于它在系统之外时的状况，以此保证了系统的聚合性行为。物理学所研究的系统通常都是这种类型的。例加，可以认为原子中包含
+一个原子核，它所带的正电荷把若干电子俘获到“轨道”上，或者说使它们处于约束状态。被约束的电子很象自由电子，尽管之们处在一个复合对象的内部。
+\end_layout
+
+\begin_layout Standard
+物理学中所研究的另一些系统和比较简单明确的原子恰成一鲜明对照。这些系统中包含着极强的相互作用，结果是其成分都被304系统所吞没，丧失了它们的部分或全部个性。其中
+一个例子就是原子核。原子核通常被描述成“由质子和中子所组成”o但把作为其
+\end_layout
+
+\begin_layout Standard
+3 94成分的粒子拉到一起的力实在太强了，因此这些粒子的存在方式完全不同于其“自由”形态（即它们在原子核外时所处的形态），而且事实上一个原子核的活动在很多方面都
+象单个的粒子，而不象一组相互作用的粒子。当一个原子核分裂时，常常释放出质子和中子，但也会释放出其它粒子，如兀介子和7射线都是通常会产生的。是所有这些不瓦的粒子在
+原子核分裂前就都实实在在地存在于其中，还是说它们天不过是原子核分裂时迸溅出的“火花”？或许同答这样一个问题的尝试本身就是没有意义的。在核子物理学的层次上，是存储
+了产生“火花”的潜力，还是存储了实在的粒子，这两者的差别不是很明显的。
+\end_layout
+
+\begin_layout Standard
+因此，原子核就是这样一个系统：它的成分虽然在其内部是不可见的，但可以被拉出来变为可见的。但是，还有一些更反常的情况，例如把质子和中子看成系统就会如此。质子和中子
+都被设想成是由三个“夸克”构成的，而夸克是一种假想的粒子，它们可以三三两两结合成许多已知的基本粒子。但是，夸克间的相互作用实在太强了，致使它们不仅不能在质子和中
+子内部被观察到，而且甚至根本就拉不出来！这样，虽然夸克在理论上有助于理解质子和中子的某些性质，它们自身的存在可能永远不会被单独地确认。往这里我们得到了“几乎可分
+解”系统的反义词一~这种系统是“几乎不可分解”的。但不可思议的是，火于质子和中子（以及其它粒子）的一个基于夸克的理论具有可观的僻释力口使用“夸克模型”，可以很好
+地定量说明许多涉及到假设由夸克构成的粒子的实验结果。
+\end_layout
+
+\begin_layout Standard
+超导：一个关于重正化的“悖论”
+\end_layout
+
+\begin_layout Standard
+在第五章中，我们已经讨论过被重正的粒子从它们的裸核中产生的过程，即通过虚粒子递归复合地相互作用。一个被重正的粒了．既可以被看成是这个复杂的数学建构，也可以看成单
+一的实在
+\end_layout
+
+\begin_layout Standard
+3 9 5
+\end_layout
+
+\begin_layout Standard
+团块。对粒子的这种描述方式所导致的最奇特也最有戏剧性的结
+\end_layout
+
+\begin_layout Standard
+果之一，就是为著名的“超导”现象所提供的解释c超导就是指在极
+\end_layout
+
+\begin_layout Standard
+低的温度下，电子可以在某些固体中无阻抗地流动。
+\end_layout
+
+\begin_layout Standard
+据发现，固体中的电子是由它们自己与一些称为“声子”的奇
+\end_layout
+
+\begin_layout Standard
+特的振动量子之间的相互作用所重正的（声子自己也被重正了！）o
+\end_layout
+
+\begin_layout Standard
+这些重正后的电子称为“极化子”o计算表明，在极低的温度下，两
+\end_layout
+
+\begin_layout Standard
+个自旋相反的极化子将开始互相吸引，而且确实能以某种确定的
+\end_layout
+
+\begin_layout Standard
+方式约束在一起。在适当的条件下，所有载流极化子将两两结合，305形成“库珀对”o具有讽刺意味的是，这种结合的产生完全是由于电
+\end_layout
+
+\begin_layout Standard
+子——成对的极化子的裸核——相互之间的电斥力。与电子相反，
+\end_layout
+
+\begin_layout Standard
+库珀对之间既不相吸也不相斥，结果一个库珀对可以自由地通过
+\end_layout
+
+\begin_layout Standard
+·块金属，就象这块金属足真空一样。如果你把对这样一块金属的
+\end_layout
+
+\begin_layout Standard
+数学描述从以极化子为基本单位转换成以库珀对为基本单位，你
+\end_layout
+
+\begin_layout Standard
+就能得到一组明显地简化了的方程式。这种数学简单性就是物理． 学家的认识方式，他们知道形成库珀对这样的“组块”对观察超导
+\end_layout
+
+\begin_layout Standard
+来说是一种很自然的方式。
+\end_layout
+
+\begin_layout Standard
+这里我们就有若干个层次的粒子：库珀对自身、构成它的两个
+\end_layout
+
+\begin_layout Standard
+自旋方向相反的极化子、构成极化子的电子和声子，然后，在电予
+\end_layout
+
+\begin_layout Standard
+内部，还有虚拟的光予和正电子，如此等等。我们可以观察某个层
+\end_layout
+
+\begin_layout Standard
+次，看到在那里出现的现象，而这些现象可以通过对下面几个层次
+\end_layout
+
+\begin_layout Standard
+的理解而得到解释。
+\end_layout
+
+\begin_layout Standard
+" ”
+\end_layout
+
+\begin_layout Standard
+类似地，同时也是幸运地，人们不必了解关于夸克的全部情
+\end_layout
+
+\begin_layout Standard
+况，仍能对那些大概是由它们构成的粒子进行深入的理解。这样，
+\end_layout
+
+\begin_layout Standard
+一个核物理学家可以使用基于质子和中子的理论，而不必考虑夸
+\end_layout
+
+\begin_layout Standard
+克理论及其竞争对手。核物理学家有一幅关于质子和中子的组块
+\end_layout
+
+\begin_layout Standard
+3 9 6化图像一 个从低层理论中推导出的描述，但这并不需要了解低层理论。同样，一个原子物理学家有一幅从原子核理论中推导出的关于原子核的组块化图象。然后一个化学
+家有一幅关于电子及其轨道的组块化图象，并且构造了关于小分子的理论。这一理论可以以组块化的形式被分子生物学家所接收，他们有关于小分子如何挂在一起的直觉，但其技术专
+长是在超大分子及其相互作用的领域之中。然后细胞生物学家又有一幅组块化的图象，其中的基本单位是分子生物学家所思考的，而细胞生物学家只是设法用这些基本单位说明细胞相
+互作用的方式。问题很清楚。每个层次都是在某种意义下被“隔离”于下面的层次的口这个生动的说法也是西蒙所提供的，这使我们想起潜水艇建造水密舱的方式：如果一个部分损坏
+了，水会涌进来，但只要关闭舱门，损坏的舱室就被隔离开了，这样可以防止乱子的蔓延。
+\end_layout
+
+\begin_layout Standard
+在科学的层次结构中，层次间总是有些“渗漏”的，因此化学家无法完全不考虑低层的物理学，生物学家也无法完全不考虑化学，但是，两个相距较远的层次间几乎是没有渗漏的。这
+就解释了为什么人们可以直觉地理解别人，而无须懂得夸克模型、原子核结构、电子轨道的性质、化学键、蛋白质构造、细胞中的细胞器、细胞间的306逦讯方式、人体各种器官的
+生理学、或器官间复杂的相互作用。一个人所需的一切不过是一个关于最高层活动方式的模型。众所周知，这样的模型是非常实际也非常有效的。
+\end_layout
+
+\begin_layout Standard
+组块化和确定性之间的利弊权衡
+\end_layout
+
+\begin_layout Standard
+然而，组块化模型可能有个很大的缺点：它通常不具有精确的预测力口这就是说，通过使用组块化模型，我们不必力不从心地把人看作夸克（或某种更低层的东西）的集合，但显然这
+种模型只能让我们或然地估计别人的感觉、别人对我们的言行的反应，如此
+\end_layout
+
+\begin_layout Standard
+3 9 7等等。简而言之，在使用组块化的高层模型时，我们为简单性牺牲ur确定性。尽管我们不能确定人们将会对一个笑话作何反应，我们说这个笑话时仍预期着他们的某些行
+为，诸如笑或者不笑——而不是，比如说，爬到最近的一根旗杆上去o（但禅宗大师可能会这样干！）一一个组块化模型是定义了一个“空间”，并预期着行为会落入其中，而且描述
+了行为落在该空间的不同区域的概率。
+\end_layout
+
+\begin_layout Standard
+“计算机只能做你告诉它去做的事”
+\end_layout
+
+\begin_layout Standard
+上述想法既能用于复合的物理系统，也能用于计笋机程序。
+\end_layout
+
+\begin_layout Standard
+有一种老生常谈的说法，即“计算机只能做你告诉它去做的事。”这在某种意义下是对的，但并没有说到点子上：你不能预先知道你告诉计算机去做的事会导致什么结果，因此它的行
+为可能象一个人那样令人迷惑、使人惊讶、无法预测。你一般事先知道它的输出会落在哪个空间里，但你不知道其细节。例如，你可以写一个程序来计算兀的前一百万位。你的计算机
+会以比你快得多的速度打出前四十位——计算机超过了它的程序员，但这不会导致悖论。你事先知道输出会出现在哪个空间一一即O到9之间的数字空间——这就是说，你有一个关于
+程序行为的组块化模型，但假设你连剩下的也都知道了，那你也就不会去写这个程序了。
+\end_layout
+
+\begin_layout Standard
+说这句老话过耐了，还有另外一层意思。它涉及到这样一个事实：你编程序的语言层次越高，你越无法精确地知道你让计算机所干的事！一层一层的翻译把一个复杂程序的“用户界面
+”和实际的饥器指令分隔开了。在你思考和编程序的层次上，你的语句可能更类似于陈述句和建议，而不太类似于祈使句和命令。一般说来，～‘个高层语句的输入所诱发的内部过程
+对你来说是不可见的，正好象在吃饭的时候，你用不着明确意识到由此触发的消化过程。
+\end_layout
+
+\begin_layout Standard
+“计算机只能做人告诉它去做的事”，这是由洛芙莱丝命妇在
+\end_layout
+
+\begin_layout Standard
+3 9 8她有名的回忆录中首先提出的。这个观点一直很流行，而且往往联系于另一个观点：“计算机不能思维”o关于后者，我们将在后面的章节中再来讨论，那时我们会更老练
+些。
+\end_layout
+
+\begin_layout Standard
+两类系统
+\end_layout
+
+\begin_layout Standard
+在下述两类由许多部分构成的系统之间存在着一种重要的区别。在一类系统中，某些部分的行为趋向于抵消另一些部分的行为，结果是低层发生的事件影响不大，因为大多数事件都将
+导致类似的高层行为。这种系统的一个例子就是煤气罐，它里面的分子以非常复杂的微观方式彼此碰撞，但总的效果，在宏观上看，它是一个非常平静、稳定的系统，具有一定的温度
+、压力和容量。而在另一类系统中，单个低层事件的效果将被放大成一个巨大的高层后果。
+\end_layout
+
+\begin_layout Standard
+克郎棋就是这样的一个系统，其中棋子间的碰撞对整个局势的变化会产生重要的影响。
+\end_layout
+
+\begin_layout Standard
+汁算机是这两类系统的一个复杂的结合。它有象导线这样的构件，其行为方式是可以准确预测的，其导电过程服从欧姆定律这样一个非常精确的组块化定律，这类似于气罐里的煤气所
+服从的定律。因为导线的行为取决于统汁效应，其中成千上万的随机事件彼此抵消，导致了整体行为的可预测性。计炱：机中也有象打印机这样的宏观构件，它们的行为完全决定于电
+流的精确模式。打印机的打印结果可不是被大萤相互抵消的微观效应造成的。事实上，对大多数计算机程序来说，程序中每一位的值都对打印的结果起着关键性的作用。如果任何一位
+被改变，输出也会大幅度地改变。
+\end_layout
+
+\begin_layout Standard
+那些仪仅由“可靠的”子系统组成的系统——即其子系统的行为都可以从组块化的描述中可靠地被预测出来——在我们的日常生活中发挥着无法估量的重要作用，因为它是稳定性的柱
+石。我们叮以相信墒不会倒、人行道今天和昨天通向同一个地方、太阳会发
+\end_layout
+
+\begin_layout Standard
+3 9 9
+\end_layout
+
+\begin_layout Standard
+光、钟表会指示正确的时间，如此等等。这种系统的组块化模型实
+\end_layout
+
+\begin_layout Standard
+际上是完全确定的。当然，另一类系统在我们的生活中也起了很大
+\end_layout
+
+\begin_layout Standard
+作用，它们的行为是可变的，取决于某些我们无法直接观测的微观
+\end_layout
+
+\begin_layout Standard
+参数——而且这些参数往往为数众多。对这样的系统来说，我们的
+\end_layout
+
+\begin_layout Standard
+组块化模型必须以操作空间的形式出现，并且能对结果落入空间
+\end_layout
+
+\begin_layout Standard
+的不同区域的可能性给出概率估计。
+\end_layout
+
+\begin_layout Standard
+正象我已经指出的那样，煤气罐是一个可靠系统，其原因是许308多相互抵消的效应最终遵从精确的、确定性的物理定律。这种定律
+\end_layout
+
+\begin_layout Standard
+是组块化的，它们把罐里的煤气看作一个整体，不管它的组成部
+\end_layout
+
+\begin_layout Standard
+分。而且，对煤气的微观和宏观描述使用的是完全不同的词汇。前
+\end_layout
+
+\begin_layout Standard
+者需要说明其中每一个分子的位置和速度，而后者只需要说明三
+\end_layout
+
+\begin_layout Standard
+个新引进的量：温度、压力和容量，并且前两个量甚至根本没有微
+\end_layout
+
+\begin_layout Standard
+观对应物。把这三个参数联系在一起的简单数学关系-pV=
+\end_layout
+
+\begin_layout Standard
+cT，其中c是个常数——是一条既依赖于低层现象，又独立于低
+\end_layout
+
+\begin_layout Standard
+层现象的定律。说得再明白一点，这条定律可以从主宰着分子层次
+\end_layout
+
+\begin_layout Standard
+的定律中被推导出来，在这个意义上它依赖于低层。另一方面，这
+\end_layout
+
+\begin_layout Standard
+条定律允许你完全不考虑低层，如果你愿意的话。在这个意义上它
+\end_layout
+
+\begin_layout Standard
+又独立于低层。
+\end_layout
+
+\begin_layout Standard
+重要的是，要认识到高层定律是不能月低层描述的词汇表里
+\end_layout
+
+\begin_layout Standard
+的词来叙述的。“压力”和“温度”是一些新词，它们所代表的经验是
+\end_layout
+
+\begin_layout Standard
+不能在低层次上传达的。我们人是直接感知温度和压力的，我们的
+\end_layout
+
+\begin_layout Standard
+构造就是如此，因此我们能发现这一定律也就不足为奇了。但如果
+\end_layout
+
+\begin_layout Standard
+有一种生物仅把气体看作纯理论的数学结构，那它们在发现这一
+\end_layout
+
+\begin_layout Standard
+定律时就必须具有一种综合出新概念的能力。
+\end_layout
+
+\begin_layout Standard
+旁效现象
+\end_layout
+
+\begin_layout Standard
+在本章快要结束的时候，我想讲一段与一个复杂系统有关的
+\end_layout
+
+\begin_layout Standard
+400往事。一天，我在和两个系统程序员谈论我所用的计算机。他们说操作系统在应付三十五个以内的用户时并不感到困难，但在达到三十五个用户左右时，反应时间突然一下子长
+了起来，慢得好象你都可以退出系统回家去等着。我开玩笑说：“这好办——看看操作系统里哪个地方存着‘35'这个数，然后把它改成‘60'不就行了！”
+\end_layout
+
+\begin_layout Standard
+大家都笑了。当然，问题在于根本没有这种地方。那么这个临界值-35个用户——是从哪里来的呢？答案是：它是整个系统组织的一个可以看见的结果一 个“旁效现象”。
+\end_layout
+
+\begin_layout Standard
+类似地，你可以去问一个短跑运动员：“你能用1 0秒5跑1 00米，那1 0秒5这个数字存储在你身体里的什么地方？”显然，哪里也没有。这个时间是他的身体构造和他的
+反应时间的一个结果。在他跑的时候，有成千上万个因素在相互作用。这个时间是完全可以再现的，但它却没有存储在他体内的任何地方。它分布在他身体的所有细胞中，只有在奔跑
+的行动中才能表现出来。
+\end_layout
+
+\begin_layout Standard
+旁效现象随处可见。我们都知道在嗣棋里，“两个眼可以活”o这不是写在规则中的，但这又是运用规则的结果。对人脑来说，“上309当受骗”就是这样-‘种性质。你容易上当
+吗？是不是你脑子里有个¨上当中心”？如果是这样的，能木能找个神经外科医生，打开你的头骨做一个精巧的手术，以后你就会少上当了？如果你相信这种观点，那你可就太容易上
+当了，或许你应当考虑去做这样一个手术。
+\end_layout
+
+\begin_layout Standard
+心智之别于大脑
+\end_layout
+
+\begin_layout Standard
+在后面几章中，我们将讨论大脑，检验一下是否可以理解大啮的顶层——心智——而不必先去理解那些它既依赖又不依赖的较低层次。是否存在这样·些思维定律：它们可以被“隔离
+”于那些控制着微观的脑细胞活动的低层定律？是否能把心智从大脑上“撇出来”——就象把油从汤的表面上撇出来那样——然后移植到其
+\end_layout
+
+\begin_layout Standard
+401310它系统中去？或许根本就不可能把思维过程分解到整齐的、模块化的子系统中去？大脑是更象一个原子，还是更象一个重正后的电4 02图60．刘友庄绘，予，或一
+个原子核、一个中子、一个夸克？自我意识是一种旁效现象吗？为了理解心智，我们是否一定要深入到神经细胞的层次？
+\end_layout
+
+\begin_layout Standard
+…蚂蚁赋格
+\end_layout
+
+\begin_layout Standard
+（…然后，那首赋格曲的四个声部一个接一个地插进来o）阿基里斯：我知道你们大家肯定不会相信：这个问题的答案其实近
+\end_layout
+
+\begin_layout Standard
+在眼前，就藏在这张图里。全部答案就是一个字——但是个无
+\end_layout
+
+\begin_layout Standard
+比重要的字：“无”！螃蟹：我知道你们大家肯定不会相信：这个问题的答案其实近在眼
+\end_layout
+
+\begin_layout Standard
+前，就藏在这张图里。全部答案就是一个词——但是个无比重
+\end_layout
+
+\begin_layout Standard
+要的词：“整体论”！阿基里斯：你只消盯着它瞧上一会儿，就一定能看出来。这简直同
+\end_layout
+
+\begin_layout Standard
+青天白日一样清楚，这张图的意思是“无”，不是“整体论”！螃蟹：对不起，我的眼睛可不是一般地好。请再看一看，然后告诉我
+\end_layout
+
+\begin_layout Standard
+这张图是不是有我认为它有的那种意思！食蚁兽：我知道你们大家肯定不会相信：这个问题的答案其实近在
+\end_layout
+
+\begin_layout Standard
+眼前，就藏在这张图里。全部答案就是一个词——但是个无比
+\end_layout
+
+\begin_layout Standard
+重要的词：“简化论”！螃蟹：你只消盯着它瞧上一会儿，就一定能看出来。这简直同青天
+\end_layout
+
+\begin_layout Standard
+白日一样清楚，这张图的意思是“整体论”，不是“简化论”！阿基里斯：又一个上当受骗的！不是什么“整体论”，也不是什么“简
+\end_layout
+
+\begin_layout Standard
+化论”，“无”才是这张图的意思．这再清楚不过了。食蚁兽：对不起，我的眼睛可不是一般地棒。请再看一看，然后告诉
+\end_layout
+
+\begin_layout Standard
+我这张图是不是有我认为它有的那种意思！阿基里斯：你们没看出来吗？上面的图案是由四条杠杠组成的，每
+\end_layout
+
+\begin_layout Standard
+一条杠杠都是汉字的一个笔划。
+\end_layout
+
+\begin_layout Standard
+4 0 3螃蟹：它是由四条杠杠组成的，这点你说对了，叮这些杠杠是怎么
+\end_layout
+
+\begin_layout Standard
+回事你却没搞对。那两条横着的杠杠分别是由两个同样的词
+\end_layout
+
+\begin_layout Standard
+“整体论”组成的，那条斜的和那条弯的杠杠也是由许许多多
+\end_layout
+
+\begin_layout Standard
+的这个词组成的，只是字要小些。这两部分的字为什么大小不
+\end_layout
+
+\begin_layout Standard
+一样，我不清楚，但我知道我所看到的是“整体论”，这跟青天
+\end_layout
+
+\begin_layout Standard
+白日一样清楚。我不明白除此之外你怎么还能看出些别的东
+\end_layout
+
+\begin_layout Standard
+西来。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：它是由四条杠杠组成的，这点你说对了，可这些杠杠是怎
+\end_layout
+
+\begin_layout Standard
+么回事你却没搞对勺那两条横着的杠杠分别是由许许多多个
+\end_layout
+
+\begin_layout Standard
+同样的词“简化论”组成的，那条斜的和那条弯的杠杠也分别
+\end_layout
+
+\begin_layout Standard
+是由三个这个词组成的，只是字要大些。这两部分的字为什么
+\end_layout
+
+\begin_layout Standard
+大小不一样，我不清楚，但我知道我所看到的是“简化论”，这
+\end_layout
+
+\begin_layout Standard
+跟青天白日一样清楚。我不明白除此之外你怎么还能看出些
+\end_layout
+
+\begin_layout Standard
+别的东西来。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我现在知道是怎么回事了。你们二位各自看到的那两个
+\end_layout
+
+\begin_layout Standard
+词，要么是对方看到的那个词的构成成份，要么是由对方看到3 1 2 的词所组成。那两条横着的杠杠确实是两个“整体论”，可这两
+\end_layout
+
+\begin_layout Standard
+个词全都是由用更小的字写成的许许多多个“简化论”组成
+\end_layout
+
+\begin_layout Standard
+的。而那两条或斜或弯的杠杠，呈一种互补的形式，则是三个
+\end_layout
+
+\begin_layout Standard
+“简化论”，而这三个“简化论”全是由用更小的字写戍的许许
+\end_layout
+
+\begin_layout Standard
+多多个“整体论”组成的。这一下问题就解决了，而你们俩刚
+\end_layout
+
+\begin_layout Standard
+才那通愚蠢的争吵，全都是只见树木不见森林。你们明白了
+\end_layout
+
+\begin_layout Standard
+吗？要想正确理解这张图，就得超越“是‘整体论’还是‘简化
+\end_layout
+
+\begin_layout Standard
+论”’这一问题，这张画的意思应该是“无”，象你们俩这样在
+\end_layout
+
+\begin_layout Standard
+刚才那个问题上争来争去是毫无益处的。
+\end_layout
+
+\begin_layout Standard
+螃蟹：你所讲的这张图的构成我现在也看出来了，阿基，不过你说
+\end_layout
+
+\begin_layout Standard
+的什么“超越”之类的话，我一点也不明白。
+\end_layout
+
+\begin_layout Standard
+404食蚁兽：你所讲的这张图的构成我现在也看出来了，阿基，不过你
+\end_layout
+
+\begin_layout Standard
+说的什么“无”之类的话，我一点也不明白。阿基里斯：要是你们愿意先答应我一个要求，告诉我“整体论”、“简
+\end_layout
+
+\begin_layout Standard
+化论”这些怪词儿都是什么意思，我就给你们解释我刚才的
+\end_layout
+
+\begin_layout Standard
+话。螃蟹：整体论是你能在这个世界里找得到的最普通不过的事。它是
+\end_layout
+
+\begin_layout Standard
+说“整体大于各个部分的总合。”只要是精神正常的人就不会
+\end_layout
+
+\begin_layout Standard
+反对整体论。食蚁兽：简化论是你能在这个世界里找得到的最普通不过的事。它
+\end_layout
+
+\begin_layout Standard
+是说“如果你理解了一个整体的各个部分，以及把这些部分
+\end_layout
+
+\begin_layout Standard
+‘整和，起来的机制，那么你就能够理解这个整体。”只要是精
+\end_layout
+
+\begin_layout Standard
+神正常的人就不会反对简化论。螃蟹：我就反对简化论。我要你给我讲讲，比方说，如何用简化论的
+\end_layout
+
+\begin_layout Standard
+原理来理解大脑。任何对大脑的简化论解释都不可避免地在
+\end_layout
+
+\begin_layout Standard
+说明“大脑所具有的意识究竟从何而来”这一问题时显得无
+\end_layout
+
+\begin_layout Standard
+能为力。食蚁兽：我就反对整体论。我要你给我讲讲，比方说，对蚁群的整体
+\end_layout
+
+\begin_layout Standard
+论描述如何比对该蚁群内蚂蚁的分别描述、它们各自的角
+\end_layout
+
+\begin_layout Standard
+色，以及相互间的关系等，更能说明事情的本来面目。任何对
+\end_layout
+
+\begin_layout Standard
+蚁群的整体论解释都不可避免地在说明“蚁群所具有的意识
+\end_layout
+
+\begin_layout Standard
+究竟从何而来”这一问题时显得无能为力。阿基里斯：打住吧！我刚才的那番话难道足为了引起一通新的争论
+\end_layout
+
+\begin_layout Standard
+吗！好啦，我现在明白你们在争论什么了，我看我对“无”的解
+\end_layout
+
+\begin_layout Standard
+释一定会对你们有很大的帮助c你们知道，“无”是古代禅宗
+\end_layout
+
+\begin_layout Standard
+对某些问题的回答？用来废问这个问题。我们现在的问题似
+\end_layout
+
+\begin_layout Standard
+乎是：“世界应以整体论原理来理解还是应以简化论原理来
+\end_layout
+
+\begin_layout Standard
+理解？”“无”这一答案把这一问题的前提，即“二者必居其一”
+\end_layout
+
+\begin_layout Standard
+4 05
+\end_layout
+
+\begin_layout Standard
+这一规定给否定了。通过废问这个问题，揭示出更广泛的真
+\end_layout
+
+\begin_layout Standard
+理：存在着某种更大的领域，使得整体论与简化论的解释都
+\end_layout
+
+\begin_layout Standard
+适合。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：荒谬绝伦！你这个“无”跟火车的“呜呜”声一样无聊。我不
+\end_layout
+
+\begin_layout Standard
+要听禅宗的什么胡言乱语。31 3螃蟹：荒唐透顶l你这个“无”跟轮船的“呜呜”声一样无聊。我不要
+\end_layout
+
+\begin_layout Standard
+听禅宗的什么乱语胡言。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哦，天哪！我们现在谁也说不服谁。你为什么一直这么
+\end_layout
+
+\begin_layout Standard
+奇怪地保持沉默，龟兄？这叫我很不自在。你肯定能帮我们解
+\end_layout
+
+\begin_layout Standard
+脱这种困境，是吧？
+\end_layout
+
+\begin_layout Standard
+乌龟：我知道你们大家肯定不会相信：这个问题的答案其实近在眼
+\end_layout
+
+\begin_layout Standard
+前，就藏在这张图里。全部答案就是一个字——但是个无比重
+\end_layout
+
+\begin_layout Standard
+要的字：“无”！
+\end_layout
+
+\begin_layout Standard
+（就在他说这话的时候，那首赋格曲的第四个声部也加入进来
+\end_layout
+
+\begin_layout Standard
+了，正好比第一声部低一个八度o）
+\end_layout
+
+\begin_layout Standard
+阿基里斯：噢，龟兄，这次你可叫我失望了。我刚才还以为象你这样
+\end_layout
+
+\begin_layout Standard
+一位事事都比我看得透的人，准能解决这个窘人的难题呢
+\end_layout
+
+\begin_layout Standard
+一可很明显，你并不比我看的更远。也好，我想我应该为这
+\end_layout
+
+\begin_layout Standard
+次能跟龟兄看的一样远而高兴才是。
+\end_layout
+
+\begin_layout Standard
+乌龟：对不起，我的眼睛可不是一般地尖。请再看一看，然后告诉我
+\end_layout
+
+\begin_layout Standard
+这张图是不是有我认为它有的那种意思。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：当然有！你只不过重复了我的发现。
+\end_layout
+
+\begin_layout Standard
+乌龟：也许在这张图中，“无”所在的地有比你所想像的层次要低，
+\end_layout
+
+\begin_layout Standard
+阿基——低一个八度（形象点说）o不过我看我们可以把这个
+\end_layout
+
+\begin_layout Standard
+争论抽象化。我想听听阐述得更清楚些的整体论和简化论的
+\end_layout
+
+\begin_layout Standard
+观点，然后我们才会有根据下判断。比方说，我很愿意听一听
+\end_layout
+
+\begin_layout Standard
+对蚁群的简化论描述。
+\end_layout
+
+\begin_layout Standard
+406螃蟹：也许食蚁兽大夫能告诉你一些他这方面的经验。他毕竟是这
+\end_layout
+
+\begin_layout Standard
+一领域里的专家。乌龟：我确信我们有很多东西要晦您请教，食大夫。您能从简化论
+\end_layout
+
+\begin_layout Standard
+的角度对我们谈谈有关蚁群方面的事吗？食蚁兽：愿意效劳。正象老蟹对您说过的那样，我的职业使我对蚁
+\end_layout
+
+\begin_layout Standard
+群有着比较深入的了解。阿基里斯：可以想象！食蚁兽这一职业看来同作一名蚁群专家是一
+\end_layout
+
+\begin_layout Standard
+回事！食蚁兽：对不起。“食蚁兽”不是我的职业，而是我的种属。我的职
+\end_layout
+
+\begin_layout Standard
+业是蚁群外科医生。我的专长是用夕卜科切除手术来治疗蚁群
+\end_layout
+
+\begin_layout Standard
+的神经错乱c阿基里斯：噢，是这样。可你所说的蚁群的“神经错乱”是什么意思？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：我的大多数病人患的都是失语症。你知道，一群群的蚂蚁
+\end_layout
+
+\begin_layout Standard
+不得不每天乱找些词语来应付各种出现的场合，这确实是个
+\end_layout
+
+\begin_layout Standard
+悲剧。我是想改善这一状况，办法是，唔——清除——蚁群中
+\end_layout
+
+\begin_layout Standard
+出毛病的部分。这种手术有时相当复杂，要想做这种手术需要
+\end_layout
+
+\begin_layout Standard
+预先几年的研究功夫0 31 4阿基里斯：但是——那些患者在患失语症之前是具备语言能力的
+\end_layout
+
+\begin_layout Standard
+L ？食蚁兽：对。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：可蚁群本来是不具备这种能力的，所以我有点糊涂。
+\end_layout
+
+\begin_layout Standard
+螃蟹：上周你没在这儿真是太糟糕了，阿基，那次食大夫和马姨到
+\end_layout
+
+\begin_layout Standard
+我这里来作客，我真应该把你邀来。阿基里斯：马姨是你的亲姨吗，老蟹？
+\end_layout
+
+\begin_layout Standard
+蜻蟹：哦，不，其实她谁的姨也不是。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：但是那可怜虫一定要每个人都叫她马姨，即使陌生人也得
+\end_layout
+
+\begin_layout Standard
+这样。这是她那些可爱的怪癖中的一个i
+\end_layout
+
+\begin_layout Standard
+4 0 7螃蟹：是这样，马姨是个很怪的人，不过她可真是个活宝¨E周我没
+\end_layout
+
+\begin_layout Standard
+有邀你过来见见她，真是太可惜了。食蚁兽：她确实是我有幸的结识的蚁群中受教育最好的一。个。我们
+\end_layout
+
+\begin_layout Standard
+俩一连好几个晚上就十分广泛的问题进行了长时间的交谈。阿基里斯：我过去一直以为食蚁兽是蚂蚁的克星，而不是蚁中知识
+\end_layout
+
+\begin_layout Standard
+分子的保护神。食蚁兽：啊，当然，这两者是很不～致的。我跟蚁群保持着非常良好
+\end_layout
+
+\begin_layout Standard
+的关系。我吃的是蚂蚁，而不是蚁群——这样做对于我和蚁
+\end_layout
+
+\begin_layout Standard
+群双方都是不勉为其难的。阿基里斯：怎么可能一乌龟：怎么可能一阿基里斯：——吃掉蚁群中的蚂蚁却又造福于这个蚁群？
+\end_layout
+
+\begin_layout Standard
+螃蟹：怎么可能一乌龟：——火烧森林却又造福于这片森林？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：怎么可能——螃蟹：——砍掉树枝却又造福于这棵大树？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：——给阿基里斯剃头却又造福于他？
+\end_layout
+
+\begin_layout Standard
+乌龟：也许你们大家讨论得太专心了，巴赫这首赋格曲里刚出现的
+\end_layout
+
+\begin_layout Standard
+那个漂亮的提前进入你们谁都没有注意到。阿基里斯：什么是提前进入？
+\end_layout
+
+\begin_layout Standard
+乌龟；哦，抱歉得很，我还以为你知道这个词呢。这个术语的意思是
+\end_layout
+
+\begin_layout Standard
+同…一个主题在不同的声部中一次又一次地重复插入，这些插
+\end_layout
+
+\begin_layout Standard
+入彼此间的时间间隔非常短。阿基里斯：要是我听的赋格足够多的话，我很快就会弄懂这一切，
+\end_layout
+
+\begin_layout Standard
+无需别人的提示，我自己就能把宅们指出来。乌龟：请原谅，朋友们。很抱歉把你们的讨论打断了。刚才食大夫
+\end_layout
+
+\begin_layout Standard
+正要说明吃蚂蚁是怎样同作蚁群的朋友这件事完美无缺地
+\end_layout
+
+\begin_layout Standard
+408
+\end_layout
+
+\begin_layout Standard
+协调起来的c阿基里斯：嗯，我现在模模糊糊地有点明白了，有规律地吞吃些数
+\end_layout
+
+\begin_layout Standard
+量有限的蚂蚁会改善整个蚁群的健康状况，这事也许是可能
+\end_layout
+
+\begin_layout Standard
+的——可真正叫人糊涂的是跟蚁群交谈这种鬼话。这是不可
+\end_layout
+
+\begin_layout Standard
+能的。蚁群只是一伙单个儿的蚂蚁，只会没头没脑地跑来跑31 5
+\end_layout
+
+\begin_layout Standard
+去，忙着觅食做窝什么的。食蚁兽：如果你固执地只见树木不见森林，那你可以这么说，阿基。
+\end_layout
+
+\begin_layout Standard
+实际上，蚁群被当作一个整体来看时，是些良定义的单位，具
+\end_layout
+
+\begin_layout Standard
+有自己的特点，有时这种特点还包括对语言的掌握。阿基里斯：我觉得很难想象我一个人在森林中间大喊几声，随后就
+\end_layout
+
+\begin_layout Standard
+能从蚁群那儿听到什么回答。食蚁兽：不开窍儿的家伙！蚁群可不是这样运用语言的。它们不是· 大声说出来，而是写下来。你知不知道众多的蚂蚁是如何排成
+\end_layout
+
+\begin_layout Standard
+一串东游西串的？阿基里斯：哦，知道——常常是直冲着我那应有尽有的厨房杀奔过
+\end_layout
+
+\begin_layout Standard
+去，一头钻进我的桃子酱里。食蚁兽：其实，这种串有的就用编码的形式包含着信息。要是你懂
+\end_layout
+
+\begin_layout Standard
+得那个系统，你就可以象读一本书一样读懂它们说了些什么。阿基里斯：了不起。你能把你的意思再反传给它们吗？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：没问题。我跟马姨就是用这种方式交谈了数小时之久的。
+\end_layout
+
+\begin_layout Standard
+我拿着一一根棍往湿地上画道道儿，然后看着蚂蚁们弄明白我
+\end_layout
+
+\begin_layout Standard
+的这些道道儿o不一会儿，有的地方开始组合成新的列串。我
+\end_layout
+
+\begin_layout Standard
+非常喜欢看这些列串的形成过程。在它们组合时，我就预测它
+\end_layout
+
+\begin_layout Standard
+们下一步会怎么办（不过我猜错的时候比猜对的时候要多）。
+\end_layout
+
+\begin_layout Standard
+当串的排列完成时，我就知道了马姨在想些什么，接着就该由
+\end_layout
+
+\begin_layout Standard
+我作出回答了。阿基里斯：这个蚁群中一定有一些聪明过人的蚂蚁，我敢肯定。
+\end_layout
+
+\begin_layout Standard
+409食蚁兽：我看你依然没有弄明白这里面的层次区别。就象你不会把
+\end_layout
+
+\begin_layout Standard
+一棵树错当成一片森林一样，你在这里也不应该把一只蚂蚁
+\end_layout
+
+\begin_layout Standard
+当作整个蚁群。你明白吗，马姨中的所有蚂蚁要多笨就有多
+\end_layout
+
+\begin_layout Standard
+笨，打死它们也不会说话！阿基里斯：那么，进行交流的能力从何而来？一定是存在蚁群里的
+\end_layout
+
+\begin_layout Standard
+某个地方！我不明白既然马姨能一连几个小时跟你大谈特谈，
+\end_layout
+
+\begin_layout Standard
+妙语连珠，那些蚂蚁怎么会全都蠢笨不堪呢？
+\end_layout
+
+\begin_layout Standard
+乌龟：在我看来，这种情况跟由神经原组成的人脑的构成没什么不
+\end_layout
+
+\begin_layout Standard
+同。当然没有人会认为单个的脑细胞本身是有智能的，并用它
+\end_layout
+
+\begin_layout Standard
+来解释人为什么能进行有智慧的谈话。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哦，当然不会。关于脑细胞的问题，我完全明白你的意
+\end_layout
+
+\begin_layout Standard
+思3只是……风马蚁不相及呀。我是说，蚂蚁到处逛来逛去，
+\end_layout
+
+\begin_layout Standard
+完全是随意的，无非是时不时地弄点食物的残渣……它们想
+\end_layout
+
+\begin_layout Standard
+干什么就干什么，在这种随心所欲里面，我一点也看不出它们
+\end_layout
+
+\begin_layout Standard
+的行为作为一个整体，能体现出什么有条有理的东西来——3 1 6 特别是那种为交谈所必需的大脑行为中所具有的条理。
+\end_layout
+
+\begin_layout Standard
+螃蟹：在我看来，蚂蚁的这种随心所欲是局限在一定的范围之内
+\end_layout
+
+\begin_layout Standard
+的。比方说，它们可以随意游逛，互相擦拂，捡起小东西，排列
+\end_layout
+
+\begin_layout Standard
+成串，等等。但是它们从没有从这个小世界中，这个它们所在
+\end_layout
+
+\begin_layout Standard
+的蚂蚁系统中，跨出过一步o它们永远也不会这么做，因为它
+\end_layout
+
+\begin_layout Standard
+们没有作这种想象的智力。所以蚂蚁是种非常可靠的工具，
+\end_layout
+
+\begin_layout Standard
+在这种意义上说，你可以依靠它们用某种方法来从事某项任
+\end_layout
+
+\begin_layout Standard
+务。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：不过，即使如此，它们在其限度之内也还是自由的，它们
+\end_layout
+
+\begin_layout Standard
+只是随随便便地转来转去，毫无条理，一点也不考虑作为更
+\end_layout
+
+\begin_layout Standard
+高一层存在的思想机能，可食大夫却宣称这些蚂蚁都只是这
+\end_layout
+
+\begin_layout Standard
+种更高一层存在的组成部分。
+\end_layout
+
+\begin_layout Standard
+41 0食蚁兽：嗯，不过还有一点你没能看出来，阿基——统计学巾的合
+\end_layout
+
+\begin_layout Standard
+规律性。阿基里斯：这是什么？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：比方说，作为个体来看，即使每个蚂蚁的活动路线似乎是
+\end_layout
+
+\begin_layout Standard
+很随意的，然而就大量的蚂蚁来说，从这种乱糟糟的状态中，
+\end_layout
+
+\begin_layout Standard
+还是能看出存在着一些总的趋向。阿基里斯：哦，你的意思我明白了。事实上，蚂蚁组串是这种现象的
+\end_layout
+
+\begin_layout Standard
+一个极好的例子。一方面，任何一只单个蚂蚁的活动你都是
+\end_layout
+
+\begin_layout Standard
+无法预知的，而另一方面，串本身似乎仍然是界说良好的、稳
+\end_layout
+
+\begin_layout Standard
+定的。这当然意味着单个蚂蚁并不是完全随意地跑来跑去。食蚁兽：完全正确，阿基。蚂蚁之间存在着某种程度的交流，这种信
+\end_layout
+
+\begin_layout Standard
+息传递恰好足以使它们避免完全随意的活动。靠着这种最低
+\end_layout
+
+\begin_layout Standard
+限度的交流。蚂蚁们可以互相提醒，以使它们意识到它们不
+\end_layout
+
+\begin_layout Standard
+是孤单的，而是正在同队友进行合作。这样就能调集大量的
+\end_layout
+
+\begin_layout Standard
+蚂蚁，用这种方式互相支援，去从事随便什么活动——例如
+\end_layout
+
+\begin_layout Standard
+组串——只是所需时间不限。我对脑外科手术模模糊糊的认
+\end_layout
+
+\begin_layout Standard
+识使得我坚信神经原的发射情形也是这样。一大堆神经原发
+\end_layout
+
+\begin_layout Standard
+射脉冲，以使另一个神经原发射，不是这样吗，老蟹？螃蟹：肯定是这样。以阿基里斯大脑中的神经原为例吧。每个神经
+\end_layout
+
+\begin_layout Standard
+原都从与它的输入线连在·起的那些神经原接收信号，如果
+\end_layout
+
+\begin_layout Standard
+输入的总和在某一时刻超进了临界点．这个神经原就会发
+\end_layout
+
+\begin_layout Standard
+射，并把它自己的输出脉冲传递到别的神经原，而这后一神
+\end_layout
+
+\begin_layout Standard
+经原也将发射——并沿着这条线一直传送下去。神经讯号沿
+\end_layout
+
+\begin_layout Standard
+着阿基里斯的路径毫不延迟地迅猛掠过，那架势比飞燕俯冲
+\end_layout
+
+\begin_layout Standard
+捕食蚊蚋还有过之无不及。每段曲折、每个回转，都由阿基里
+\end_layout
+
+\begin_layout Standard
+斯大脑中的神经结构预先排定，直至输入感觉的讯号产生了
+\end_layout
+
+\begin_layout Standard
+影响。
+\end_layout
+
+\begin_layout Standard
+4 1 1阿基里斯：在正常情况下，我觉得我想些什么是受我自己控制的
+\end_layout
+
+\begin_layout Standard
+——可按你这种说法就整个儿颠倒了，你的意思好象是说3 1 7 我”只是所有这些神经结构、自然规律控制的某种有机体的
+\end_layout
+
+\begin_layout Standard
+副产品，往坏里说则是由我那被歪曲了的感觉所造成的某种
+\end_layout
+
+\begin_layout Standard
+人为概念。换句话说，你让我觉得我并不知道我是谁——或
+\end_layout
+
+\begin_layout Standard
+者是什么——如果我还是个什么的话。乌龟：随着我们讨论的继续，你会越来越明白的。但是，食大夫——
+\end_layout
+
+\begin_layout Standard
+你用这种类比来说明什么呢？食蚁兽：我以前就注意到，在这两个彼此非常不同的系统中存在着
+\end_layout
+
+\begin_layout Standard
+某种相一致的东西。现在，我对这一点的认识更进一步了。事
+\end_layout
+
+\begin_layout Standard
+情似乎是——以排列成串为例来说——只有当蚂蚁的数量
+\end_layout
+
+\begin_layout Standard
+达到某一临界数量时，有条理的蚁群现象才会出现。如果出
+\end_layout
+
+\begin_layout Standard
+现了某种指向某一目标的活动，这也许是某一地带少数蚂蚁
+\end_layout
+
+\begin_layout Standard
+的行为，那么就会发生下面两种情况中的一种：或者是在一
+\end_layout
+
+\begin_layout Standard
+个短暂而热闹的开头之后夭折——
+\end_layout
+
+\begin_layout Standard
+阿基里斯：因为没有足够多的蚂蚁把这一活动进行下去？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：一点不错。另一种情况是蚂蚁的数量达到了临界指标，那
+\end_layout
+
+\begin_layout Standard
+样一来那项活动就会象滚雪球一样，把越来越多的蚂蚁裹挟
+\end_layout
+
+\begin_layout Standard
+进来。在这后一种情况下，一个为同一目标而工作的完整的
+\end_layout
+
+\begin_layout Standard
+“蚁队”就出现了。这一目标可能是要排成串，或是为了牧集
+\end_layout
+
+\begin_layout Standard
+食物，或许还可能是为了造窝。尽管这种结构规模很小，又十
+\end_layout
+
+\begin_layout Standard
+分简单，可它会在更大的规模上产生十分复杂的后果。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我现在已经能从你的描述里掌握“紊乱中的有序”这个
+\end_layout
+
+\begin_layout Standard
+观念了，可这离具有交谈能力还差得远呢。气体分子的随意
+\end_layout
+
+\begin_layout Standard
+碰撞同样也是混乱中的有序——这种混乱有三种参数可以
+\end_layout
+
+\begin_layout Standard
+对它进行描述：这就是体积、压强和温度。这同具有理解世界
+\end_layout
+
+\begin_layout Standard
+或{论世界的能力的要求，还差得远呢1
+\end_layout
+
+\begin_layout Standard
+4 1 2食蚁兽：这显示出在对蚁群行为的饵释与对某一容器中气体行为
+\end_layout
+
+\begin_layout Standard
+的解释之间，存在着某种非常有趣的区别。解释气体的行为
+\end_layout
+
+\begin_layout Standard
+只要计算一下其分子运动的统计规律就行了。除了考虑这种
+\end_layout
+
+\begin_layout Standard
+气体本身以外，无需讨论别的什么比分子更高一层的结构因
+\end_layout
+
+\begin_layout Standard
+素。而在另-．种情况下，对于蚁群，除非你弄清了结构的各个
+\end_layout
+
+\begin_layout Standard
+层次，否则你便尢法理解——哪怕一点儿——这个蚁群的活
+\end_layout
+
+\begin_layout Standard
+动。阿基里斯：你的意思我明白了。在气体的研究里，你可以从最低的
+\end_layout
+
+\begin_layout Standard
+层次一一分子一一一下子跳到最高的层次——气 本身。不
+\end_layout
+
+\begin_layout Standard
+存在结构上的中间层次。那么，蚁群中是怎样产生作为中问
+\end_layout
+
+\begin_layout Standard
+层次的有条理活动的呢？食蚁兽：这跟蚁群内存在着好几种不同种类别的蚂蚁有关。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哦，对。我想我听说过这一点。这种现象被称作“种姓
+\end_layout
+
+\begin_layout Standard
+制”，对吗？食蚁兽：完全正确。除了蚁王，还有雄蚁，事实_t，养家糊口的事它
+\end_layout
+
+\begin_layout Standard
+们是不管的，此外还有—— 31 8阿基里斯：当然还有战士——光荣的反共战士！
+\end_layout
+
+\begin_layout Standard
+螃蟹：嗯……这恐怕不对，阿基a蚁群的内部是很共产主义化的，那
+\end_layout
+
+\begin_layout Standard
+它们的战上干嘛要反共？我说的对吗，食大夫？食蚁兽：是的，你对蚁群的说法是对的，老蟹，它们确实建立在某种
+\end_layout
+
+\begin_layout Standard
+共产主义的原则上。至于那些战士，阿基想得有点天真。其实，
+\end_layout
+
+\begin_layout Standard
+这些所谓“战士”几平根本不会打仗。它们是些长着大脑袋的
+\end_layout
+
+\begin_layout Standard
+行动迟缓、动作笨拙的家伙，它们长着一副利颌，用来啃咬东
+\end_layout
+
+\begin_layout Standard
+西，不过它们可谈不上什么“光荣的。”正象在真正的共产主义
+\end_layout
+
+\begin_layout Standard
+社会里那样，工蚁才被称作是光荣的。大多数的家务都是由它
+\end_layout
+
+\begin_layout Standard
+们来做的，比如觅食、巡猎、带幼虫等。大多数的战争也是由它
+\end_layout
+
+\begin_layout Standard
+们去打的。
+\end_layout
+
+\begin_layout Standard
+4 1 3阿基里斯：嗬。这事真荒唐。战士不打仗！
+\end_layout
+
+\begin_layout Standard
+食蚁兽：嗯，我刚说过的，它们根本不是什么战士。工蚁才是真正的
+\end_layout
+
+\begin_layout Standard
+战士，而那些所谓的战士——其实应该叫兵蚁——都是些又
+\end_layout
+
+\begin_layout Standard
+懒又呆的家伙。阿基里斯：哦，太可耻了！哼，我要是只蚂蚁，一定给它们规定些纪
+\end_layout
+
+\begin_layout Standard
+律！让那些呆脑壳开开窍儿！乌龟：你要是只蚂蚁！你怎么会是只蚂蚁！根本没法把你的大脑映
+\end_layout
+
+\begin_layout Standard
+射成蚂蚁的大脑，我看在这个问题上绞尽脑汁是不会有什么
+\end_layout
+
+\begin_layout Standard
+结果的。把你的大脑映射到蚁群中才是个更合理的命题……
+\end_layout
+
+\begin_layout Standard
+不过我们先别把话题岔开。让食大夫继续对蚂蚁组织中更高
+\end_layout
+
+\begin_layout Standard
+层次的种姓制和它们的角色做精彩的描述吧。食蚁兽：好吧。一个蚁群中有各式各样的任务需要完成，而单个的
+\end_layout
+
+\begin_layout Standard
+蚂蚁则发展了各种专长。蚂蚁的专长通常随蚂蚁年龄的变化
+\end_layout
+
+\begin_layout Standard
+而变化。当然，这也依赖于它们所在的种姓。任何一时刻的任
+\end_layout
+
+\begin_layout Standard
+何一个蚁群里，所有类别的蚂蚁都同时存在。在某些地方也许
+\end_layout
+
+\begin_layout Standard
+种种姓的蚂蚁很稀少，而在别的地方也许很稠密。螃蟹：某一特定种姓或专长的蚂蚁，其稠密度是随意的吗？或者换
+\end_layout
+
+\begin_layout Standard
+句话说，在某一地区某一类的蚂蚁分布得很集中，在另一地区
+\end_layout
+
+\begin_layout Standard
+不那么集中，是有什么原因的吗？食蚁兽：你这个问题提得很好，这对理解蚁群是如何思想的有着至
+\end_layout
+
+\begin_layout Standard
+关重要的意义。实际上，一个蚁群内备种姓的分布是很严格
+\end_layout
+
+\begin_layout Standard
+的，是长期进化的结果。正是这种分布规律使蚁群达到了能同
+\end_layout
+
+\begin_layout Standard
+我进行交谈的复杂程度。阿基里斯：在我看来，蚂蚁们来来去去的不断活动使分布的严格性
+\end_layout
+
+\begin_layout Standard
+完全不可能了。蚂蚁们那种随意的活动会很快地破坏掉分布
+\end_layout
+
+\begin_layout Standard
+的严格性，正象某种气体中分子的固定格局由于各方面分子
+\end_layout
+
+\begin_layout Standard
+的随意碰撞，一刻也不能年在一样。
+\end_layout
+
+\begin_layout Standard
+4 1 4食蚁兽：在蚁群里，情况正相反。事实上，恰恰是蚁群中蚂蚁们这种
+\end_layout
+
+\begin_layout Standard
+来呀去呀永不停息的活动，使得种姓分布能适应不断变化的31 9
+\end_layout
+
+\begin_layout Standard
+情况，因而也就保持了合适的种姓分布。你明白吗，种姓分布
+\end_layout
+
+\begin_layout Standard
+并不是始终如一、严格不变的，而是必须要不断变化，从而以
+\end_layout
+
+\begin_layout Standard
+某种方式反映出蚁群所处的现实世界的环境。正是蚁群里的
+\end_layout
+
+\begin_layout Standard
+这种活动使种姓分布不断得到更新，使蚁群能同所面临的现
+\end_layout
+
+\begin_layout Standard
+时环境相适应。乌龟：能举个例子吗？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：当然可以。当我，一只食蚁兽，来拜访马姨时，那些呆头呆
+\end_layout
+
+\begin_layout Standard
+脑的蚂蚁因为闻到了我的气味，全都吓得张皇失措——当然，
+\end_layout
+
+\begin_layout Standard
+这就是说，它们全都从我来之前它们所在的地方四散奔逃了．阿基里斯：不过这呵以理解，你是蚁群的凶敌嘛。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：哦，不。我必须重申，我根本不是蚁群的敌人，我是马姨最
+\end_layout
+
+\begin_layout Standard
+对劲儿的伙伴。而马姨则是最对我口味儿的姨。说蚁群中所
+\end_layout
+
+\begin_layout Standard
+有单个的蚂蚁都很怕我，这我同意——可这完全是另一码事。
+\end_layout
+
+\begin_layout Standard
+无论如何，你能理解了吧：由于我的到来所引起的蚂蚁的活
+\end_layout
+
+\begin_layout Standard
+动，完全改变了蚂蚁的内部分布。阿基里斯：很明白了。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：这就是我刚才说过的更新。新的分布反映出了我的存在。
+\end_layout
+
+\begin_layout Standard
+这种从过去的状态向新状态的改变，可以被说成是使蚁群增
+\end_layout
+
+\begin_layout Standard
+添了“一条知识”o阿基里斯：你怎么能把一个蚁祥内不同类型蚂蚁的分布说成是“一
+\end_layout
+
+\begin_layout Standard
+条知识”？食蚁兽：这里面有个至关重要的问题，需要详细解释。你知道吗，接
+\end_layout
+
+\begin_layout Standard
+下来的问题是你打算如何描述种姓分布。如果你继续用低层
+\end_layout
+
+\begin_layout Standard
+次的单位——单个的蚂蚁——来思考问题，那你就会只见树
+\end_layout
+
+\begin_layout Standard
+木，不见森林。这种层次太微观了，当你从微观的角度进行恩
+\end_layout
+
+\begin_layout Standard
+4 1 5
+\end_layout
+
+\begin_layout Standard
+考时，你必然会漏掉更大规模上的现象。你不得不用更恰当的
+\end_layout
+
+\begin_layout Standard
+高层次上的构架来描述种姓分布——只有这样，种姓分布如
+\end_layout
+
+\begin_layout Standard
+何能编码出许多条知识这一问题才有意义。阿基里斯：那末，那种用来描述蚁群现存状态的恰当单位，你是怎
+\end_layout
+
+\begin_layout Standard
+么找到的？食蚁兽：好吧，让我们从最基本的说起。当蚂蚁想做成某件事时，它
+\end_layout
+
+\begin_layout Standard
+们就组成各种小“蚁队”，也就是凑在一起去干一件事。就象我
+\end_layout
+
+\begin_layout Standard
+前面提到过的那样，蚂蚁们的小团伙总是在不断地形成和解
+\end_layout
+
+\begin_layout Standard
+散。那些实际上能存在一段时间的就是各种蚁队，它们没有散
+\end_layout
+
+\begin_layout Standard
+伙的原因就是因为有事情需要它们去做。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：可前面你说过如果一群蚂蚁的规模超过了某一临界点，
+\end_layout
+
+\begin_layout Standard
+这个群体就会集聚在一起3现在你又说如果有什么事可做，这
+\end_layout
+
+\begin_layout Standard
+个群体就会集聚在一起。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：这两种说法意义是一样的。比方说，在觅食时，如果某个闲{20 逛的蚂蚁在某个地方发现了一些食物．并想把这个喜讯传给
+\end_layout
+
+\begin_layout Standard
+别的蚂蚁们，那么，作出反应的蚂蚁数量将会同食物样品的大
+\end_layout
+
+\begin_layout Standard
+小相一致一一太少的数量将不会吸引足以超过临界点数量的
+\end_layout
+
+\begin_layout Standard
+蚂蚁。这也正是我所谓的无事可做的意思——食物少得不值
+\end_layout
+
+\begin_layout Standard
+得去重视。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我明白了。我应该假定这些“蚁队”是结构中的一个层
+\end_layout
+
+\begin_layout Standard
+次，处在单个蚂蚁的层次和蚁群的层次之间。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：正足这样。有一种类型特别的蚁队，我把它称作“信
+\end_layout
+
+\begin_layout Standard
+号”——结构中所有的更高级的层次都建立在信号上。事实
+\end_layout
+
+\begin_layout Standard
+上，一切比信号更高级的实体都只是由行动协调一致的信号
+\end_layout
+
+\begin_layout Standard
+所组成的集合。高层次上的队其组成单位不是蚂蚁，而是些低
+\end_layout
+
+\begin_layout Standard
+层次上的队。这样一直找下去，最后就到了最低层次的队——
+\end_layout
+
+\begin_layout Standard
+也就是所谓的信号——在这之下．才是蚂蚁。
+\end_layout
+
+\begin_layout Standard
+4 1 6阿基里斯：它们为什么叫“信号”这样一个容易引起联想的名字？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：这名字是指它们的功能。信号的作用是把具有各种专长的
+\end_layout
+
+\begin_layout Standard
+蚂蚁输送到蚁群中需要的部分。因此信号的典型活动是这样
+\end_layout
+
+\begin_layout Standard
+的：信号的产生是由于蚂蚁数量超过了维持一个信号的存在． 所必需的临界点，随后这个信号便通过蚁群向远处传递，在某
+\end_layout
+
+\begin_layout Standard
+些时候，信号便多多少少分解还原成为其单个的组成部分，并
+\end_layout
+
+\begin_layout Standard
+丢下它们不管。阿基里斯：听起来有点象波浪，从远处挟裹来一些海星、海草，把它
+\end_layout
+
+\begin_layout Standard
+们孤零零地抛到了岸上，丢下它们不管。食蚁兽：在某种意义上这种类比是对的，蚁队确实抛下了一些它从
+\end_layout
+
+\begin_layout Standard
+远处带来的东西，可海浪还是要回到海里的，而在信号这里，
+\end_layout
+
+\begin_layout Standard
+就没有类似的载体，因为信号是由蚂蚁组成的。乌龟：我觉得一个信号只是在途经该蚁群中原来需要这类蚂蚁的
+\end_layout
+
+\begin_layout Standard
+地方时，才会分解掉。食蚁兽：那自然。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：那自然？在我看来，某个信号总能到达原来需要它的那
+\end_layout
+
+\begin_layout Standard
+个地方这种事，并非那么显而易见。即使它传播的方向正确，
+\end_layout
+
+\begin_layout Standard
+它怎么能判断出它应该在哪儿解散？它怎么知道它已经到了
+\end_layout
+
+\begin_layout Standard
+该去的地方了？食蚁兽：这是个极端重要的问题，因为这涉及到对有目的的行为
+\end_layout
+
+\begin_layout Standard
+一或者说是似乎有目的的行为——从信号角度所作的解
+\end_layout
+
+\begin_layout Standard
+释。从对它们的描述里，人们倾向子把信号的行为说成是旨在
+\end_layout
+
+\begin_layout Standard
+满足需要，从而把它称作“有目的”的。但你也可以从别的角度
+\end_layout
+
+\begin_layout Standard
+看这一问题。阿基里斯：哎，等等。要么这种行为是有目的的，要么不是。我不明
+\end_layout
+
+\begin_layout Standard
+白怎么能又是又不是。食蚁兽：我来给你解释一下我看问题的方式，看你是否同意。一个
+\end_layout
+
+\begin_layout Standard
+4 1 7321 言号一旦形成，这个信号本身并不考虑它应该往哪个方向传
+\end_layout
+
+\begin_layout Standard
+播。在这里起决定作用的是种姓分布。是它决定着信号在蚁
+\end_layout
+
+\begin_layout Standard
+群中的运动，以及这个信号能持续多长时间、在哪里“解散”o
+\end_layout
+
+\begin_layout Standard
+阿基里斯：这么说一切都依赖于种姓分布，是吗？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：正是这样。让我先来描述一下正在传播中的一个信号。当
+\end_layout
+
+\begin_layout Standard
+信号发出的时候，组成这一信号的蚂蚁们或是通过直接的接
+\end_layout
+
+\begin_layout Standard
+触，或是依靠气味的传达，同位置上与它们相邻的蚂蚁进行合
+\end_layout
+
+\begin_layout Standard
+作，以使信号通过。这种接触与气味报道了某个地方出现了需
+\end_layout
+
+\begin_layout Standard
+求，诸如筑窝、哺育等这类事情。只要这种局部的要求还得不
+\end_layout
+
+\begin_layout Standard
+到满足，这个信号就会一直保持下去。但是一旦出现一批蚂蚁
+\end_layout
+
+\begin_layout Standard
+能够满足那一需求，信号便会解散，而奔赴来救急的蚁队就在
+\end_layout
+
+\begin_layout Standard
+现场全面铺开，进行工作。现在，你明白蚁群中的种姓分布如
+\end_layout
+
+\begin_layout Standard
+何发挥各队的指导作用是怎么回事了吗？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：很明白了。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：这种观察事物的方法并不要给这种信号加上个什么目的，
+\end_layout
+
+\begin_layout Standard
+这一点你也明白了吧？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：是的。的确，我开始学会从两种互不相同的角度来看这
+\end_layout
+
+\begin_layout Standard
+一问题了。从蚂蚁的眼睛所看到的角度，信号是无目的的。信
+\end_layout
+
+\begin_layout Standard
+号中普通的蚂蚁只是在蚁群附近逛来逛去，没有什么特定的
+\end_layout
+
+\begin_layout Standard
+目的，直到发现了什么它觉得还可以的东西后，才停下来。它
+\end_layout
+
+\begin_layout Standard
+酌队友们常常也同它意见一致，于是这时蚁队才算完成了任
+\end_layout
+
+\begin_layout Standard
+务，原地解散，有组织的集合就不复存在了，而只剩下一些散
+\end_layout
+
+\begin_layout Standard
+兵游勇。没有什么计划啦、事先的预测啦这一类东西，也不需
+\end_layout
+
+\begin_layout Standard
+要什么侦察来决定正确的方向。然而从蚁群的角度看，蚁队的
+\end_layout
+
+\begin_layout Standard
+行为却是对以种姓分布这种语言写成的信息所作的反应。所
+\end_layout
+
+\begin_layout Standard
+以从这一角度看，这种行为显得很象是有一定的目的。
+\end_layout
+
+\begin_layout Standard
+螃蟹：如果种姓分布完全是随意的，那会怎么样？那些信号还会结
+\end_layout
+
+\begin_layout Standard
+4 1 8
+\end_layout
+
+\begin_layout Standard
+聚和解散吗？食蚁兽：当然啦。不过这个蚁群将不会保持多久，这是因为它的种
+\end_layout
+
+\begin_layout Standard
+姓分布是无意义的。螃蟹：这正是我想弄明白的。蚁群的存在是由于它的种姓分布有一
+\end_layout
+
+\begin_layout Standard
+定的意义，而这一意义是在其整体水平上产生的。在比整体水
+\end_layout
+
+\begin_layout Standard
+平低的层次上，是看不到这种意义的。你除非在这种高层次上
+\end_layout
+
+\begin_layout Standard
+进行解释，否则就无法读懂它的意思。食蚁兽：我明白你的观点，不过我看你把问题想得太狭隘了。
+\end_layout
+
+\begin_layout Standard
+螃蟹：怎么？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：蚁群几十亿年来一直在经历着严酷的进化选择。只有少数
+\end_layout
+
+\begin_layout Standard
+一些机制被选择出来，而大部分都被淘汰了。结果就形成了我
+\end_layout
+
+\begin_layout Standard
+们现在正在讨论的支配着蚁群的这一套机制。如果你能在电
+\end_layout
+
+\begin_layout Standard
+影E观察这一完整的过程——当然，这比实际进程要快上差
+\end_layout
+
+\begin_layout Standard
+不多十亿倍——你就会觉得各种机制的出现完全是对外界压
+\end_layout
+
+\begin_layout Standard
+力的自然反应，就象开水冒泡是对外在的热源的自然反应一
+\end_layout
+
+\begin_layout Standard
+样。我想你不会觉得开水冒泡有什么“意义”和“目的”——不
+\end_layout
+
+\begin_layout Standard
+过，巳许你会？ 322螃蟹：不，但是一食蚁兽：这就是我的观点。无论泡沫有多大，其产生都可以追溯到
+\end_layout
+
+\begin_layout Standard
+分子水平，你可以不管什么“高层次的规律”o蚁群和蚁队的道
+\end_layout
+
+\begin_layout Standard
+理也是一样的。通过从进化这一开阔的角度考虑这一问题，你
+\end_layout
+
+\begin_layout Standard
+就可以排除有意义有目的的蚁群这一想法。这样它们就变得
+\end_layout
+
+\begin_layout Standard
+可有可无了3陌基里斯：哎，食大夫，你不是刚告诉我们你跟马姨交谈过吗？现在
+\end_layout
+
+\begin_layout Standard
+看来你要否认她能交谈或思想啦。食蚁兽：我没有自相矛盾，阿基。你知道，同别的人一样，用这么巨
+\end_layout
+
+\begin_layout Standard
+大的时间单位去观察事物，对我来说也是很困难的，所以我觉
+\end_layout
+
+\begin_layout Standard
+4 1 9
+\end_layout
+
+\begin_layout Standard
+得改换一下角度会更方便些。当我撇开进化过程而对此时此
+\end_layout
+
+\begin_layout Standard
+地的现象进行观察的时候，就又回到了那种目的论式的语言：
+\end_layout
+
+\begin_layout Standard
+即种姓分布的意义和信号的有目的性。我不仅在考虑蚁群时
+\end_layout
+
+\begin_layout Standard
+采用这种角度，而且当我考虑我自己和别人的大脑时，也是如
+\end_layout
+
+\begin_layout Standard
+此。不过，如果必要的话，我也能采用别的角度，把意义排除于
+\end_layout
+
+\begin_layout Standard
+这些系统之外，只是这多少要费点劲儿。螃蟹：进化的确能创造奇迹，正象你没法儿从创造奇迹的魔术师那
+\end_layout
+
+\begin_layout Standard
+里预知他又要从袖子里抖落出什么东西一样，你也无法猜测
+\end_layout
+
+\begin_layout Standard
+进化下一次将会弄出什么玩艺儿来。比方说，要是出现这样的
+\end_layout
+
+\begin_layout Standard
+事，我一点儿也不会感到吃惊：如果在理论上可能，有两个或
+\end_layout
+
+\begin_layout Standard
+更多的“信号”彼此交错，每一个都不知道另一个也是一个信
+\end_layout
+
+\begin_layout Standard
+号——每一个都把另一个仅仅当作是一一般状态的蚂蚁群。食蚁兽：这不仅是理论上可能的，事实中也是常有的！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哟……我脑子里冒出来一个什么怪念头啊。我在想象蚂
+\end_layout
+
+\begin_layout Standard
+蚁们朝四个不同的方向运动，有黑的，有灰的，互相交错，共同
+\end_layout
+
+\begin_layout Standard
+组成一个有序的图案，就象——就象一乌龟：你是说象一首赋格曲？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：对——正是！一首蚂蚁赋格。
+\end_layout
+
+\begin_layout Standard
+螃蟹：很有趣的念头，阿基。不过，说到开水倒让我想起茶来了。谁
+\end_layout
+
+\begin_layout Standard
+想再要点儿？阿基里斯：我再要一杯，老蟹。
+\end_layout
+
+\begin_layout Standard
+螃蟹：行啊。
+\end_layout
+
+\begin_layout Standard
+呵基里斯：你认为可以把这样一首“蚂蚁赋格”分解成彼此不同的
+\end_layout
+
+\begin_layout Standard
+可见的“声部”，是吗？这可太难了，我是说，如果我要一乌龟：我不要，谢谢a阿基里斯：——在一首赋格曲中一食蚁兽：要是不太麻烦的话一
+\end_layout
+
+\begin_layout Standard
+4 20A l l-l J、Sr l'l{F、S图61．“蚂蚁赋格一，艾舍尔作(木刻．1953)． 323阿基里斯：——跟踪其中某一个声部一食蚁兽：——我也想来
+点儿，老蟹。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：——而所有那些——螃蟹：区区小事。四杯茶一乌龟：三杯！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：——声部都在同时进行。
+\end_layout
+
+\begin_layout Standard
+螃蟹：——转眼就得】食蚁兽：这个想法很有意思，阿基。不过没有人能让人信服地画出
+\end_layout
+
+\begin_layout Standard
+421
+\end_layout
+
+\begin_layout Standard
+这种画来。阿基里斯：太令人遗憾了。
+\end_layout
+
+\begin_layout Standard
+乌龟：这个问题也许你能回答，食大夫。一个信号，从它形成到解散，总是由同样一群蚂蚁组成吗？中间不会换吗？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：实际上，如果附近有同样种姓的蚂蚁，信号中的蚂蚁经常
+\end_layout
+
+\begin_layout Standard
+脱离信号而由别的同种姓的蚂蚁来替代。大多数情况下，当
+\end_layout
+
+\begin_layout Standard
+信号解体的时候，组成这一信号的蚂蚁已经全都不是当初形
+\end_layout
+
+\begin_layout Standard
+成这一信号时的蚂蚁了。324螃蟹：我搞清楚是怎么一回事了：蚁群中的信号不断影响种姓分
+\end_layout
+
+\begin_layout Standard
+布，这一活动是对蚁群内部的要求所作出的反应，而蚁群的这
+\end_layout
+
+\begin_layout Standard
+种内部要求则又是蚁群对其所处外部环境的反应。因此，正如
+\end_layout
+
+\begin_layout Standard
+．您所说的那样，食大夫，种姓的分布不断地调节、变化，最终反
+\end_layout
+
+\begin_layout Standard
+映着外部世界。阿基里斯：可结构中的那些中间层次是怎么回事？你刚才一直在说
+\end_layout
+
+\begin_layout Standard
+种姓分布最好应该以由别的蚁队组成的蚁队为单位来描述，
+\end_layout
+
+\begin_layout Standard
+而不应以蚂蚁或信号为单位来描述，那些组成蚁队的蚁队又
+\end_layout
+
+\begin_layout Standard
+是由一些别的蚁队组成的，同理下推，直至组成蚁队的成员是
+\end_layout
+
+\begin_layout Standard
+单个儿的蚂蚁，而不再是蚁队。你还说，要想理解种姓分布何
+\end_layout
+
+\begin_layout Standard
+以能被描述为某种有关外部世界的编码了的信息，这个观点
+\end_layout
+
+\begin_layout Standard
+是关键性的。食蚁兽：正是，我们现在正要谈这个问题。我喜欢把某些层次较高
+\end_layout
+
+\begin_layout Standard
+的蚁队称作“符号”o你要注意，这个词在这里的崽思与它通常
+\end_layout
+
+\begin_layout Standard
+的意义有所不同。我所说的“符号”是指一个复杂系统的主动
+\end_layout
+
+\begin_layout Standard
+的子系统，这种子系统是由更低层次的主动的子系统构成的
+\end_layout
+
+\begin_layout Standard
+……因此，它们与被动的符号很不一样，那些被动的符号在系
+\end_layout
+
+\begin_layout Standard
+统之外。汉字中的笔划或单个儿的音符，都属于这种符号，它
+\end_layout
+
+\begin_layout Standard
+们是死的，有待于某个主动的系统去处理它们。
+\end_layout
+
+\begin_layout Standard
+4 2 2阿基里斯：噢，这可真够复杂的々我一点儿也没想到蚁群具有如此
+\end_layout
+
+\begin_layout Standard
+抽象的结构。食蚁兽：是的，很了不起。不过，结构中的所有这些层次对于各种各
+\end_layout
+
+\begin_layout Standard
+类知识的储存都是必需的，有了这种知识储存，才能使这个机
+\end_layout
+
+\begin_layout Standard
+制变成“有智能的”，“有智能的”的意思在这里可以是这个词
+\end_layout
+
+\begin_layout Standard
+的任何合理的涵意。任何能运用语言的系统都基本上具有与
+\end_layout
+
+\begin_layout Standard
+此相同的一套内部层次。阿基里斯：先慢着点。你是不是暗示说我的大脑实际上也是由一群
+\end_layout
+
+\begin_layout Standard
+窜来窜去的蚂蚁组成的？食蚁兽：哦，不。你不要从字面意义上理解我的话。最低的层次是
+\end_layout
+
+\begin_layout Standard
+全然不同的。比方说，食蚁兽的大脑就不是由蚂蚁组成的。但
+\end_layout
+
+\begin_layout Standard
+是你如果从大脑的最低层上溯一两个层次的话，你就会发现
+\end_layout
+
+\begin_layout Standard
+这些层次的机制在别的具有同等智力的系统中——比如蚁群
+\end_layout
+
+\begin_layout Standard
+一有与它完全一致的对应物。乌龟：这就是把你的大脑映射到蚁群中去，而不是映射到蚂蚁的大
+\end_layout
+
+\begin_layout Standard
+脑中去的依据，阿基。阿基里斯：对你的这份夸奖我领情了。不过这种映射是怎样进行
+\end_layout
+
+\begin_layout Standard
+的？比方说，我大脑中的什么东西对应于你所谓的信号这种低
+\end_layout
+
+\begin_layout Standard
+层次的蚁队呢？食蚁兽：哦，我对大脑的研究只是种业余爱好，所以无法一一细述
+\end_layout
+
+\begin_layout Standard
+它的神异之处。可是——如有不妥之处，老蟹，请不吝赐教
+\end_layout
+
+\begin_layout Standard
+一我猜测，在大脑巾对应于蚁群里信号的那种东西是兴奋
+\end_layout
+
+\begin_layout Standard
+昀神经原。或者‘，也可能是某种更大范围，．卜的活动，比如神经
+\end_layout
+
+\begin_layout Standard
+原兴奋的模式什么的。螃蟹：我没有什么异议。不过你是否觉得，找出确切的对应物这…325
+\end_layout
+
+\begin_layout Standard
+问题，即使有希望得到解决，相对于我们这场讨论的目的来
+\end_layout
+
+\begin_layout Standard
+说，也并不是什么十分紧要的事。在我看来，最重要的是知道
+\end_layout
+
+\begin_layout Standard
+4 2 3
+\end_layout
+
+\begin_layout Standard
+确实存在着这种对应，既使我们此时此刻还不完全清楚这种
+\end_layout
+
+\begin_layout Standard
+对应指的是哪一部分也没有关系。我只想对你提出的问题中
+\end_layout
+
+\begin_layout Standard
+的一点追问一下，食大夫，因为这一问题涉及究竟在哪个层
+\end_layout
+
+\begin_layout Standard
+次上，人们可以断定开始产生了这种对应关系。你似乎认为
+\end_layout
+
+\begin_layout Standard
+一个信号在大脑中有其直接的对应部分，然而我觉得只是在
+\end_layout
+
+\begin_layout Standard
+你所谓的“主动的符号”这一层次上，才可能存在那种对应关
+\end_layout
+
+\begin_layout Standard
+系。食蚁兽：你的解释比我的更确切，老蟹。多亏你提出这个微妙的问
+\end_layout
+
+\begin_layout Standard
+题。阿基里斯：有什么事情只能由符号做而不能由信号做？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：这情形有点象字与笔划之间的区别。字作为具有意义的单
+\end_layout
+
+\begin_layout Standard
+位，是由笔划组成的，而笔划本身却不具有意义。这也正是符
+\end_layout
+
+\begin_layout Standard
+号与信号的区别所在。这实际上是个很有用的类比，条件是
+\end_layout
+
+\begin_layout Standard
+你不要忘了字和笔划是被动的，而符号与信号却是主动的。阿基里斯：我一定会记住的，不过我不敢说我理解．厂为什么强调主
+\end_layout
+
+\begin_layout Standard
+动，被动两种性质的区别具有如此重要的意义。食蚁兽：原因在于你加于被动符号上的意义，例如一页书中的某个
+\end_layout
+
+\begin_layout Standard
+，实际上来源于你大脑中与之相对应的主动符号所产生的
+\end_layout
+
+\begin_layout Standard
+意义。因此，只有当一个被动符号的意义与主动符号的意义
+\end_layout
+
+\begin_layout Standard
+生关系时，这个被动符号的意义才能被正确理解。阿基里斯：明白了。可是究竟是什么赋予一个符号——桷切地说，
+\end_layout
+
+\begin_layout Standard
+是主动的符号——以意义的呢？信号虽然也是一种很出色的
+\end_layout
+
+\begin_layout Standard
+东西，可你却说它不具有意义。食蚁兽：这与符号可以使其它符号被触发的方式有关。当某一符号
+\end_layout
+
+\begin_layout Standard
+成为主动时，它并非是孤立无援的。它可以通过某种媒介
+\end_layout
+
+\begin_layout Standard
+一在蚂蚁这里就是种姓分布——传播开来。螃蟹：当然，大脑里是没有种姓分布这类意儿的，在大脑中，与种姓
+\end_layout
+
+\begin_layout Standard
+4 2 4
+\end_layout
+
+\begin_layout Standard
+分布相对应的是“大脑状态”o你必须描述出所有神经原的状
+\end_layout
+
+\begin_layout Standard
+态、所有它们交互联系的状态，以及使每个神经原触发的临
+\end_layout
+
+\begin_layout Standard
+界点。食蚁兽：一点不错。现在让我们把“种姓分布”和“大脑状态”都一并
+\end_layout
+
+\begin_layout Standard
+归于一个共同的名称之下，这个共同的名称就是“状态”o这
+\end_layout
+
+\begin_layout Standard
+样，这种状态就可以在某种更低或更高的层次上描述出来
+\end_layout
+
+\begin_layout Standard
+了。对蚁群状态进行低层次上的描述将会非常麻烦，这需要
+\end_layout
+
+\begin_layout Standard
+确定每个蚂蚁的位置、年龄、种姓，以及其他一些诸如此类的
+\end_layout
+
+\begin_layout Standard
+事情。这种详细的描述实际上无助于统观为什么该蚁群处于
+\end_layout
+
+\begin_layout Standard
+这种状态。另一方面，在更高层次上进行的描述则需要逐一
+\end_layout
+
+\begin_layout Standard
+查清哪些符号可以被哪些其他符号的组合所触发，以及触发
+\end_layout
+
+\begin_layout Standard
+的条件等等。阿基里斯：在信号或蚁队层次上进行的描述会怎么样呢？ 325食蚁兽：这种描述所在的层次位于较低的层次和符号层次之间。对
+\end_layout
+
+\begin_layout Standard
+于在蚁群中某一特定位置上正在发生的事，这种描述能提供
+\end_layout
+
+\begin_layout Standard
+相当多的信息，虽然这要比一个蚂蚁一个蚂蚁的描述所含的
+\end_layout
+
+\begin_layout Standard
+信息少些，这是因为蚁队是由一团团的蚂蚁组成的。那种一个
+\end_layout
+
+\begin_layout Standard
+蚁队一个蚁队的描述就好象是一个蚂蚁一个蚂蚁描述的提
+\end_layout
+
+\begin_layout Standard
+要。然而，在蚁队层次上的描述必须加进一一些在蚂蚁层次上所
+\end_layout
+
+\begin_layout Standard
+没有的内容——例如各蚁队之间的相互关系，散于各处的各
+\end_layout
+
+\begin_layout Standard
+种种姓的补充力量o这种新添的复杂性是你进行这种概括所
+\end_layout
+
+\begin_layout Standard
+必须付出的代价。阿基里斯：我觉得对不同层次上的描述进行比较是件非常有意思
+\end_layout
+
+\begin_layout Standard
+的事。最高层次上的描述似乎最具有解释力，在这一层描述
+\end_layout
+
+\begin_layout Standard
+中，你能得到关于蚁群的最直观的印象，然而，说来奇怪的是，
+\end_layout
+
+\begin_layout Standard
+这种描述却撇开了似乎是最重要的方面——蚂蚁。食蚁兽：不过你要明白，尽管你所看到的都不过是蚂蚁，可它们却
+\end_layout
+
+\begin_layout Standard
+425
+\end_layout
+
+\begin_layout Standard
+全然不是最重要的方面。我们承认，如果没有这些蚂蚁，蚁群
+\end_layout
+
+\begin_layout Standard
+就不会存在。可是，与之相应的某种东西都是存在的——比如
+\end_layout
+
+\begin_layout Standard
+大脑——完全不依赖蚂蚁的存在而存在。因此，至少从一种高
+\end_layout
+
+\begin_layout Standard
+层次的观点上看，蚂蚁是可有可无的。阿基里斯：我敢说没有任何蚂蚁会热烈拥护你的这种理论。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：不过，我从没有见过什么蚂蚁具有高层次的观点。
+\end_layout
+
+\begin_layout Standard
+螃蟹：你的这番描述太违背人们的直观了，食大夫。如果你所言不
+\end_layout
+
+\begin_layout Standard
+差，事情似乎就会是：为了了解整个儿结构，你必须省略掉构
+\end_layout
+
+\begin_layout Standard
+成这一结构的任何最基本的组成材料。食蚁兽：也许我打一个比方你们就能更清楚些了。请想像一下你面
+\end_layout
+
+\begin_layout Standard
+前摆着一本查尔斯·狄更斯的小说。阿基里斯：《匹克威克外传》-可以吗？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：再好没有了！现在我们就来做这样一个游戏：你先想办法
+\end_layout
+
+\begin_layout Standard
+使每种笔划都具有意义，这样当你一个笔划一个笔划地读这
+\end_layout
+
+\begin_layout Standard
+本书时，整部《匹克威克外传》就都具有意义了。阿基里斯：嗯……你是说我每见到一个字，就比如“人”字吧，就要
+\end_layout
+
+\begin_layout Standard
+把它看作是两个各具某种一定意义的概念，并且是一个接一
+\end_layout
+
+\begin_layout Standard
+个地紧挨着，每种相同的笔划的意义总是一定的，没有任何变
+\end_layout
+
+\begin_layout Standard
+化，是吗？食蚁兽：正是这样。这样一来就只有“j”概念、“编力概念了——而
+\end_layout
+
+\begin_layout Standard
+且你每次碰到它们时，它们的意思都冈前面它们出现时的意
+\end_layout
+
+\begin_layout Standard
+思一样。阿基里斯：嗬，这么一来，“阅读”<匹克威克外传》的活动简直就变
+\end_layout
+
+\begin_layout Standard
+成了一场难以言状的噩梦了。不管我赋予每个笔划什么意义，
+\end_layout
+
+\begin_layout Standard
+这一切都只不过是一场徒劳无益的玩弄无意义的游戏。食蚁兽：没错儿。单个儿的笔划与现实世界之间不存在什么自然的
+\end_layout
+
+\begin_layout Standard
+映射关系。只有在更高的层次上才会有这种自然的映射——
+\end_layout
+
+\begin_layout Standard
+4 2 6
+\end_layout
+
+\begin_layout Standard
+即在字词与现实世界的各部分之间。你如果要叙述这本书的
+\end_layout
+
+\begin_layout Standard
+内容，你就不要涉及它的笔划层次。阿基里斯：当然不会！我只会叙述情节、人物这一类的东西0 327食蚁兽：这你就对了。你应该完全略去这本书的构成材料，即使这
+\end_layout
+
+\begin_layout Standard
+本书有赖于它们c它们是媒介，而不是信息。阿基里斯：明白了——那么，蚁群呢？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：在蚁群这里，主动的信号代替了被动的笔划，主动的符号
+\end_layout
+
+\begin_layout Standard
+代替了被动的字词——不过原理是一样的。阿基里斯：你是说在信号与现实世界之间无法建立起映射关系？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：你会发现你无法通过触发某个新的信号来使它具有什么
+\end_layout
+
+\begin_layout Standard
+意义。在比它更低的层次上——如蚂蚁层次——也同样办不
+\end_layout
+
+\begin_layout Standard
+到。只有在符号层次上，触发模式才有意义。比方说，你想像
+\end_layout
+
+\begin_layout Standard
+一下在我来拜访你时，你正在观察马姨c你无论观察得多仔细
+\end_layout
+
+\begin_layout Standard
+都行，不过，除了蚂蚁们的集聚、解散之外，你仍然什么也看不
+\end_layout
+
+\begin_layout Standard
+到。阿基里斯：肯定是这样。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：而我在观察的时候，由于研究了它的高级层次，而不是低
+\end_layout
+
+\begin_layout Standard
+级层次，就会看到有好几种休眠的符号此时被唤醒了，并转译
+\end_layout
+
+\begin_layout Standard
+成下面的思想：“哦，食大夫这宝贝儿又来了——这真叫人高
+\end_layout
+
+\begin_layout Standard
+兴！”——或者是其他一些大意如此的话。阿基里斯：听起来正象我们四个刚才看“无之图”时那样，我们各自
+\end_layout
+
+\begin_layout Standard
+看到了不间的层次——或者至少说是我们三个……乌龟：我在<平均律钢琴曲集》中翻到的那幅古怪的图跟我们现在
+\end_layout
+
+\begin_layout Standard
+讨论的问题之间有某种相类似的地方，这可真是个奇怪的巧
+\end_layout
+
+\begin_layout Standard
+合。阿基里斯：你认为这只是巧合吗？
+\end_layout
+
+\begin_layout Standard
+乌龟：当然。
+\end_layout
+
+\begin_layout Standard
+4 2 7食蚁兽：哎，我估计你们现在能够理解马姨的那些从对符号的操作
+\end_layout
+
+\begin_layout Standard
+中产生的想法了。这些符号是由信号组成的，信号是由蚁队组
+\end_layout
+
+\begin_layout Standard
+成的，蚁队是由低层次的蚁队组成的，如此下推，直至单个儿
+\end_layout
+
+\begin_layout Standard
+蚂蚁。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你为什么把它称作“对符号的操作”？如果符号都是主动
+\end_layout
+
+\begin_layout Standard
+的，那么是由谁来操作？这个发号施令的是谁？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：这得回到你前面提到过的有关目的的问题上来。说符号自
+\end_layout
+
+\begin_layout Standard
+身是主动的，这一点不错，可这些符号所进行的活动却不是绝
+\end_layout
+
+\begin_layout Standard
+对自由的。所有符号的活动都严格地受制于它们所处系统的
+\end_layout
+
+\begin_layout Standard
+状态。因此，是整个系统决定着它里面的符号如何彼此相互触
+\end_layout
+
+\begin_layout Standard
+发，所以，把整个儿系统说成是“发号施令的”是合情合理的。
+\end_layout
+
+\begin_layout Standard
+当符号被触发时，它所在系统的状态便慢慢发生转变，以适应
+\end_layout
+
+\begin_layout Standard
+新的情况。不过，其中有些特征是不随时间的变化而变化的。
+\end_layout
+
+\begin_layout Standard
+正是这个部分恒定、部分变化的系统才是那个发号施令的。我
+\end_layout
+
+\begin_layout Standard
+们可以给整个儿系统起个名字。比方说，马姨就可以被看做是328 那个操作符号的。同样的道理也适用于你，阿基。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：对于我到底是谁这个问题，你的这种看法真是挺奇怪
+\end_layout
+
+\begin_layout Standard
+的。我不敢说我已经完全理解了，但我会好好考虑它们的。
+\end_layout
+
+\begin_layout Standard
+乌龟：在你思考你大脑中的那些符号时，去注意你大脑中此时产生
+\end_layout
+
+\begin_layout Standard
+的符号会非常有趣昀。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：这对我来说太复杂了。理解在符号水平上观察并解释蚁
+\end_layout
+
+\begin_layout Standard
+群的可能性，这已经叫我很头疼了。我完全可以想象得出在
+\end_layout
+
+\begin_layout Standard
+蚂蚁层次上观察蚁群是怎么…一同事；我也可以想象在信号层
+\end_layout
+
+\begin_layout Standard
+次上的观察，只不过多少要费点儿劲儿；可天知道在符号层
+\end_layout
+
+\begin_layout Standard
+次上观察蚁群是怎么回事！
+\end_layout
+
+\begin_layout Standard
+食蚁兽：只要经过长时间的练习就能学会。不过，谁要是达到了我
+\end_layout
+
+\begin_layout Standard
+现在的阶段，谁就能很容易地释读蚁群的最高层次了，就象
+\end_layout
+
+\begin_layout Standard
+42 8
+\end_layout
+
+\begin_layout Standard
+你能从“无之图”中读出“无”一样。阿基里斯：真的吗？这一定特别不同寻常。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：在某种意义上说是这样——不过，另一方面上讲，对你来
+\end_layout
+
+\begin_layout Standard
+说这并不陌生。阿基里斯：对我来说不陌生？你指什么？除了在蚂蚁层次上以外，
+\end_layout
+
+\begin_layout Standard
+我没有用任何其它方式观察过蚂蚁。食蚁兽：也许你没有。不过蚁群在很多方面同大脑没有什么不同。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：可我也从没有看过或读过任何大脑呀c食蚁兽：你自己的大脑呢？你意识不到你自己的思想吗？这难道不
+\end_layout
+
+\begin_layout Standard
+是意识的本质吗？当你意识到你自己的思想时，你难道不是
+\end_layout
+
+\begin_layout Standard
+直接在符号层次t读你的大脑吗？阿基里斯：我从没有这么想过。你是说我绕过J，所有低级层次，只
+\end_layout
+
+\begin_layout Standard
+到最高层？食蚁兽：意识系统正是这样。它们只是在符号层次上感觉到自己，
+\end_layout
+
+\begin_layout Standard
+对更低的层次，如信号层次，则毫无意识。阿基里斯：这是不是说，在大脑中，主动的符号总是在调节自身，以
+\end_layout
+
+\begin_layout Standard
+反映出大脑的整个儿状态，这一·切总是处在符号水平上？食蚁兽：正是这样。在·切有意识的系统中，符号表现着大脑的状
+\end_layout
+
+\begin_layout Standard
+态，而这些符号本身却正是它们所代表的大脑状态的一个部
+\end_layout
+
+\begin_layout Standard
+分。因为意识活动要求极大程度上的自我意识。阿基里斯：这可够古怪的。这就是说虽然我的大脑中每时每刻都在
+\end_layout
+
+\begin_layout Standard
+发生忙忙碌碌的活动，可我却只能以一神方式感受这种活动
+\end_layout
+
+\begin_layout Standard
+一就是说是在符号层次上。对于更低的层次，我完全没有
+\end_layout
+
+\begin_layout Standard
+感觉。这就象是在读一本狄更斯的小说时只通过直接的视知
+\end_layout
+
+\begin_layout Standard
+觉，而完全看不到一个个的笔划。我无法想象这么古怪的事
+\end_layout
+
+\begin_layout Standard
+竟能真地发生c螃蟹：可这种事在你看那幅“无之图”时确实发生了，你只读出了
+\end_layout
+
+\begin_layout Standard
+429
+\end_layout
+
+\begin_layout Standard
+“无”而没有看出更低层次上的“整体论”与“简化论”o329 阿基里斯：你说的对——我忽略了低层次，只看到了最高层。我不
+\end_layout
+
+\begin_layout Standard
+知道我是否也同样忽略了我大脑中更低层次的意义，而只是
+\end_layout
+
+\begin_layout Standard
+看到了符号层。糟糕的是最高层并没有包含底层的所有信息，
+\end_layout
+
+\begin_layout Standard
+因此，只知道最高层并不能因而知道底层在说些什么。不过我
+\end_layout
+
+\begin_layout Standard
+觉得，希望最高层能把底层的一切信息都编成码，这是一种很
+\end_layout
+
+\begin_layout Standard
+幼稚的想法——底层信息可能无法渗透上来。“无之图”是可
+\end_layout
+
+\begin_layout Standard
+能有的最明白的图解：最高层只有“无”，它与低层没有任何关
+\end_layout
+
+\begin_layout Standard
+系！
+\end_layout
+
+\begin_layout Standard
+螃蟹：绝对正确o（拿起“无之图”，凑近了研究o）嗯……图中最小的
+\end_layout
+
+\begin_layout Standard
+那些笔画有点奇怪。它们歪歪扭扭的……
+\end_layout
+
+\begin_layout Standard
+食蚁兽：让我看看o（凑近了看着“无之图”o）我看还有一层，我们都
+\end_layout
+
+\begin_layout Standard
+给漏掉了！
+\end_layout
+
+\begin_layout Standard
+乌龟；你这话可不代表别人，食大夫。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：啊——不可能！让我瞧瞧o（很仔细地看o）我知道你们
+\end_layout
+
+\begin_layout Standard
+大家肯定不会相信：这张图的秘密其实近在眼前，就藏在深层
+\end_layout
+
+\begin_layout Standard
+里面。全部秘密就是一个字，重复了一遍又一遍——但是个无
+\end_layout
+
+\begin_layout Standard
+比重要的字：“无”！谁想得到！跟最高层一样！我们大家谁也
+\end_layout
+
+\begin_layout Standard
+没能哪怕是猜到一丁点儿！
+\end_layout
+
+\begin_layout Standard
+螃蟹：要不是你，阿基，我们谁也不会注意到。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：我不知道最高层与最低层之间的这种一致是否是出于眄
+\end_layout
+
+\begin_layout Standard
+合，还是某个创作者有意为之？
+\end_layout
+
+\begin_layout Standard
+螃蟹：谁能说得准呢？
+\end_layout
+
+\begin_layout Standard
+乌龟：因为我们一点儿也不知道这幅奇怪的图为什么是在螃蟹版
+\end_layout
+
+\begin_layout Standard
+的《平均律钢琴曲集》中，所以我看我们没法儿回答这个问题。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：我们的讨论一直很活跃，可我还是愿意继续洗耳恭听这首
+\end_layout
+
+\begin_layout Standard
+又长又复杂的四声部赋格。真是太美了。
+\end_layout
+
+\begin_layout Standard
+4 30乌龟：确实很美。再过一会儿，就要有持续音了。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：持续音是指一段音乐逐渐慢下来，并时不时地停止在某
+\end_layout
+
+\begin_layout Standard
+一音符或和弦上，然后，在一段短暂的静默之后，又重新恢复
+\end_layout
+
+\begin_layout Standard
+正常速度，是吗？乌龟：不对，你这是在说“延长记号”——一种音乐上的分号。不知
+\end_layout
+
+\begin_layout Standard
+你注意没有，刚才那首前奏曲中就有这么一段？阿基里斯：我想我是错过了。
+\end_layout
+
+\begin_layout Standard
+乌龟：不过，你马上还会有机会听到一个延长记号的——事实上，
+\end_layout
+
+\begin_layout Standard
+在这首赋格临近结尾的地方，还会有这么两段的。阿基里斯：哦，太好了。你过会儿会把它们指出来，是吧？
+\end_layout
+
+\begin_layout Standard
+乌龟：只要你愿意。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：那么，请告诉我，什么是持续音？
+\end_layout
+
+\begin_layout Standard
+乌龟：持续音就是在复调音乐中，所有声部中的一个声部（通常是
+\end_layout
+
+\begin_layout Standard
+最低的那个声部）停留在某一个音符上，而与此同时，其他的330
+\end_layout
+
+\begin_layout Standard
+声部继续向前发展，不受影响。在这支赋格中，这个持续音停
+\end_layout
+
+\begin_layout Standard
+留在音符G上。仔细旷，你会听到的。食蚁兽：有一天我去拜访马姨，碰到了一件事，让我想起你的那个
+\end_layout
+
+\begin_layout Standard
+建议。你建议当阿基里斯的大脑中的那些符号创造有关它们
+\end_layout
+
+\begin_layout Standard
+自身的思想时，应该去留心那些符号本身。螃蟹：快告诉我们你碰到什么事了。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：马姨那天感到很孤独，很想同别人聊聊。因此她很大方地
+\end_layout
+
+\begin_layout Standard
+要我自己挑那些我所能见到的最鲜嫩的蚂蚁o（世从不吝啬她
+\end_layout
+
+\begin_layout Standard
+的那些蚂蚁o）阿基里斯：妙极一食蚁兽：这时我正在观察那些产生她的思想的符号，因为在那些符
+\end_layout
+
+\begin_layout Standard
+号中间有很多看去极其鲜嫩的蚂蚁。阿基里斯：妙极一
+\end_layout
+
+\begin_layout Standard
+4 3 1食蚁兽：这样我就挑了些最肥嫩的，这些蚂蚁是我正在解释的高层
+\end_layout
+
+\begin_layout Standard
+次符号中的一部分，它们所在的那个符号是在说明这样一个
+\end_layout
+
+\begin_layout Standard
+意思：“自己随便挑那些能引起你食欲的蚂蚁吧。”阿基里斯：妙极——食蚁兽：这对它们来说很不幸，可对我来说运气极了，这些小虫子
+\end_layout
+
+\begin_layout Standard
+们一点也不懂它们作为一个集体在符号层次上对我说的话。阿基里斯：妙极——了！这真是个大怪圈。它们完全不知道自己所
+\end_layout
+
+\begin_layout Standard
+参加的活动。它们的行为可以被看作是更高层次上某种模式
+\end_layout
+
+\begin_layout Standard
+的一部分，但是它们肯定对此一无所知。嗨，真可怜——事实
+\end_layout
+
+\begin_layout Standard
+上也是绝妙的讽刺——它们对此毫无感觉。螃蟹：你说的对，龟兄——这是个妙极了的持续音。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：我以前从没听到过，不过它太明显了，没有人会感觉不到
+\end_layout
+
+\begin_layout Standard
+的。给人的印象太深了。阿基里斯：什么？持续音已经出现过了吗？它要是这么明显，我怎
+\end_layout
+
+\begin_layout Standard
+么会没注意到？乌龟：也许你太陶醉于你说话的内容了，以致于你对此一无所知。
+\end_layout
+
+\begin_layout Standard
+嗨，真可怜——事实上也是绝妙的讽刺——你对此毫无感觉。
+\end_layout
+
+\begin_layout Standard
+螃蟹：告诉我，马姨是住在一个蚁穴中吗？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：哦，她有一份很大的家产。那里曾属于别人，留下了一个令
+\end_layout
+
+\begin_layout Standard
+人伤感的故事。不管怎么说，她的庄园是非常大的。比起许多
+\end_layout
+
+\begin_layout Standard
+别的蚁群来，她住的算是很阔气了。阿基里斯：这与你莳面跟我们讲的蚁群的共产主义性质怎能一致
+\end_layout
+
+\begin_layout Standard
+起来呢？在我看来，共产主义与住在一所豪华的大宅里是互相
+\end_layout
+
+\begin_layout Standard
+矛盾的1331食蚁兽：共产主义是蚂蚁层次上的。在一个蚁群里，所有的蚂蚁都
+\end_layout
+
+\begin_layout Standard
+为共同的利益而工作，即使有时这对单个儿的蚂蚁有害。这些
+\end_layout
+
+\begin_layout Standard
+只是马姨结构的内在方面，就我所知，她甚至可能感觉不到这
+\end_layout
+
+\begin_layout Standard
+4 3 2种内部的共产主义。人类大都对他们自己的神经原一无所知。
+\end_layout
+
+\begin_layout Standard
+事实上，作为有点神经质的生物，他们也非常满足于对自己的大脑一无所知这种状况。马姨也多少有些神经质。只要她一开始想她的那些蚂蚁，她就会马上变成热锅上的蚂蚁。所以，
+只要可能的话，她就竭力避免想它们。我实在怀疑她是否了解她内在结构中的共产主义社会。她自己是个坚定的自由主义信徒——你知道，她是完全自由放任的。所以，至少对我来说
+，她愿意住在一所豪华的庄园里是非常可以理解的。
+\end_layout
+
+\begin_layout Standard
+，≯蔑Ⅺ匈．胄，孓 霞设 、&§仅 ’对奄’》≮≮》 袒磁 椒 往西 ，伙 彼动 祆 霎弛戡 役西
+\end_layout
+
+\begin_layout Standard
+彼勘 ，中节琵 彼屯多 融 希争，弋事节章节
+\end_layout
+
+\begin_layout Standard
+静肇唣
+\end_layout
+
+\begin_layout Standard
+I碲恭静 赫
+\end_layout
+
+\begin_layout Standard
+赫洚磷：话咖帮
+\end_layout
+
+\begin_layout Standard
+孙 耄
+\end_layout
+
+\begin_layout Standard
+耨 静
+\end_layout
+
+\begin_layout Standard
+赫 赫
+\end_layout
+
+\begin_layout Standard
+薅 静
+\end_layout
+
+\begin_layout Standard
+番
+\end_layout
+
+\begin_layout Standard
+赫
+\end_layout
+
+\begin_layout Standard
+赫赫静拇锋帮赫旃耘耘耘 糯赣耘鸯奄豫 亲
+\end_layout
+
+\begin_layout Standard
+都
+\end_layout
+
+\begin_layout Standard
+褓
+\end_layout
+
+\begin_layout Standard
+凑该颧 嘉
+\end_layout
+
+\begin_layout Standard
+嘛毒
+\end_layout
+
+\begin_layout Standard
+图E．2．刘皓明绘。乌龟：在我浏览<平均律钢琴曲集》的这个可爱版本的时候，现在刚
+\end_layout
+
+\begin_layout Standard
+好翻过这页，我发现那两个延长记号中的一个马上就要出现
+\end_layout
+
+\begin_layout Standard
+了——你好好听听吧，阿基。阿基里斯：我会的，我会的。
+\end_layout
+
+\begin_layout Standard
+乌龟：对着这一页的地方还有一张古怪透顶的图。
+\end_layout
+
+\begin_layout Standard
+螃蟹：难道又有一张？
+\end_layout
+
+\begin_layout Standard
+43 3
+\end_layout
+
+\begin_layout Standard
+乌龟：自己找吧o（把总谱递给螃蟹o）
+\end_layout
+
+\begin_layout Standard
+螃蟹：啊哈！是四组小字。让我看看——分别是“彼”、“德”、“巴”、
+\end_layout
+
+\begin_layout Standard
+“赫”，各自出现了许多次。我纳闷，为什么中间的字大，两边的
+\end_layout
+
+\begin_layout Standard
+字小？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：能让我看看吗？
+\end_layout
+
+\begin_layout Standard
+螃蟹：当然。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：我看你是只见树木，不见森林了。实际上，这是四个大字：
+\end_layout
+
+\begin_layout Standard
+“约”、“塞”、“费”、“马”，中间的字小，两边的字大。阿基里斯，
+\end_layout
+
+\begin_layout Standard
+你看呢？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：让我瞧瞧。嗯，我看这些字是越往右边越小。
+\end_layout
+
+\begin_layout Standard
+乌龟：它们能组成有意义的词吗？332阿基里斯：嗯……“约”、“塞”、“巴”、“赫”o哦，我明白了。这是巴赫
+\end_layout
+
+\begin_layout Standard
+的姓名j
+\end_layout
+
+\begin_layout Standard
+乌龟：你这种看法真怪。我看这些字是越往右边越大，而且……组
+\end_layout
+
+\begin_layout Standard
+成了……一个人……的……姓……名，（他逐渐变慢，最后几
+\end_layout
+
+\begin_layout Standard
+个字拉得特别长。然后是一阵短暂的静默。突然，他叉正常起
+\end_layout
+
+\begin_layout Standard
+来，好象什么都没有发生过似的o）一一“彼·德·费马”o
+\end_layout
+
+\begin_layout Standard
+阿基里斯：哦，我敢肯定你满脑子里都是数学家费马。你看什么都
+\end_layout
+
+\begin_layout Standard
+是费马最后定理。
+\end_layout
+
+\begin_layout Standard
+食蚁兽：你刚才说的对，龟兄——我在这首赋格里刚听到一个迷人
+\end_layout
+
+\begin_layout Standard
+的小段延长记号。
+\end_layout
+
+\begin_layout Standard
+螃蟹：我也听到了。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你们是说除了我人人都听到了？我开始觉得我有点笨
+\end_layout
+
+\begin_layout Standard
+了。
+\end_layout
+
+\begin_layout Standard
+乌龟：哎哎，阿基——别沮丧。我敢肯定你不会错过赋格酌最后延
+\end_layout
+
+\begin_layout Standard
+长记号——马上就会出现的。不过，让我们回到刚才的题目上
+\end_layout
+
+\begin_layout Standard
+来吧，食大夫，你提到的那个有关f¨姨庄园的前所有者的伤感
+\end_layout
+
+\begin_layout Standard
+4 3 4
+\end_layout
+
+\begin_layout Standard
+故事是怎么回事？食蚁兽：那位前所有者是位出类拔萃的人物，是有史以来最富于包
+\end_layout
+
+\begin_layout Standard
+造性的蚁群之一。他的名字叫蚁翰·塞巴斯蚁安·蜚蚂，一位
+\end_layout
+
+\begin_layout Standard
+专业数学家、业余音乐家。阿基里斯：他可真是多才多艺啊！
+\end_layout
+
+\begin_layout Standard
+食蚁兽：在他的创造力的颠峰期，他惨遭最不是时候的猝死。一犬，
+\end_layout
+
+\begin_layout Standard
+那是夏天里非常炎热的一天，他外出想去避避暑，正好赶上一
+\end_layout
+
+\begin_layout Standard
+场疾风暴雨——是那种一‘百年左右才会有一次的大暴雨一
+\end_layout
+
+\begin_layout Standard
+真叫是从天而降，把蚁·塞·蜚蚂淋了一个落汤蚂蚁。因为这
+\end_layout
+
+\begin_layout Standard
+场暴雨突如其来没有任何预兆，蚂蚁们完全晕头转向了。几十
+\end_layout
+
+\begin_layout Standard
+年来建立起来的如此完美的复杂机体瞬间便毁于一旦。真是
+\end_layout
+
+\begin_layout Standard
+个悲剧。阿基里斯：你是说所有的蚂蚁全都淹死了，这当然就是说可怜的
+\end_layout
+
+\begin_layout Standard
+蚁·塞·蜚蚂完蛋了？食蚁兽：实际t并没有。蚂蚁们打算重新振兴，它们中幸存的每只
+\end_layout
+
+\begin_layout Standard
+蚂蚁都爬到飘浮在激流洪涛上的各种树枝木棍上。可是在洪
+\end_layout
+
+\begin_layout Standard
+水消退、蚂蚁们重新回到它们巢穴附近的地面上时，整个组织
+\end_layout
+
+\begin_layout Standard
+已不复存在了。种姓分布已经彻底毁坏了，这些蚂蚁已无力重
+\end_layout
+
+\begin_layout Standard
+建曾经有过的那个协调得如此完美的组织。它们就象破碎的
+\end_layout
+
+\begin_layout Standard
+镜子一样不能指望重圆了。我就象所宵的媒婆月老一‘样，企图
+\end_layout
+
+\begin_layout Standard
+把可怜的蜚蚂重新撮合到一块儿。我满怀信心地放了些糖和
+\end_layout
+
+\begin_layout Standard
+奶酪，徒劳地希望蜚蚂也许会重斯合成……（掏出一块手帕擦
+\end_layout
+
+\begin_layout Standard
+他的眼睛o）阿基里斯：你真英勇！我以前以不知道食蚁兽们竟有这么一副慈悲
+\end_layout
+
+\begin_layout Standard
+心肠。食蚁兽：不过这根本无济于事。他去了，不可能再重建。可是随后
+\end_layout
+
+\begin_layout Standard
+发生了一件非常奇怪的事：在接下来的几个月里，那些过去是333
+\end_layout
+
+\begin_layout Standard
+4 3 5
+\end_layout
+
+\begin_layout Standard
+蚁·塞·蜚蚂成员的蚂蚁fl'J慢慢儿又重新组合起来，并且建
+\end_layout
+
+\begin_layout Standard
+立了一个新的组嫉。因此马姨就诞生了。螃蟹：真了不起！马姨就是由组成蜚蚂的那些蚂蚁构成的？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：对，最初是这样的，没错儿。而现在，有些老蚂蚁已经死掉
+\end_layout
+
+\begin_layout Standard
+了，被替代了。但是有一些从蚁·塞·蜚蚂时代留下来的遗
+\end_layout
+
+\begin_layout Standard
+还活着。螃蟹：你偶而也会在马姨身上找到某些明显的蚁·塞·蜚蚂的旧
+\end_layout
+
+\begin_layout Standard
+特征吗？食蚁兽：一点也找不到，他们毫无共同之处。而且在我看来，也没
+\end_layout
+
+\begin_layout Standard
+有任何理由应该这样。重新组织许多部分以构成一个“总
+\end_layout
+
+\begin_layout Standard
+和”，毕竟有着许多种彼此不同的方式。而马姨只不过是旧的
+\end_layout
+
+\begin_layout Standard
+各部分的一种新“总和”而已。注意，并没有多于那个总和
+\end_layout
+
+\begin_layout Standard
+一只是这个特定种类的总和。乌龟：说到总和，叫我想起了数论。在数论里有时可以把一个定理
+\end_layout
+
+\begin_layout Standard
+拆卸成它的各构成符号，再以一种新的顺序重新组织它们，
+\end_layout
+
+\begin_layout Standard
+从而得出一个新定理。食蚁兽：我从未听说过这种现象。不过我承认在这一领域里我完全
+\end_layout
+
+\begin_layout Standard
+是个外行。阿基里斯：我也没听说过——而我对这…学科是颇为精通的，也许
+\end_layout
+
+\begin_layout Standard
+我自己不该这么说。我怀疑龟兄不过是在打哈哈。如今我可
+\end_layout
+
+\begin_layout Standard
+太了解他了。食蚁兽：说到数论，又叫我想起了蚁·塞·蜚蚂，因为数论是他拿
+\end_layout
+
+\begin_layout Standard
+手的领域之一。事实上，他对数论作出过某些十分了不起酌
+\end_layout
+
+\begin_layout Standard
+贡献。而马姨则在任何哪怕跟数学沾一丁点儿边的事情上都
+\end_layout
+
+\begin_layout Standard
+极其迟钝。此外，她在音乐方面的趣味不过平平而已，而塞巴
+\end_layout
+
+\begin_layout Standard
+斯蚁安在音乐方面极有天才。阿基里斯；我非常喜欢数论。你能大能给我们讲一讲塞巴斯蚁安做
+\end_layout
+
+\begin_layout Standard
+4 36图63.徙途中，兵蚁有时会用它们自己的身体搭起一座活侨。在这幅照片中就是这样一座桥。可以看到·个蚁群的-T：蚁们腿脚相连，它们的跗节肢钩在一起，顺着桥头形
+成许多水规则的链系统，-一jl共生的蠢鱼正在过桥，此时它处在中心部位。：tjI自爱德乍·威尔逊的《昆虫社会》！
+\end_layout
+
+\begin_layout Standard
+出的那些贡献的本质？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：好吧。（停顿了一小会儿，呷了一口茶，然后才开始说起
+\end_layout
+
+\begin_layout Standard
+来o）你们听说过狒犸那个臭名昭著的¨平均验刚劲猜想”吗？阿基里斯：我说不好……听起来怪熟的，可我想不起来了口食蚁兽：内容非常简单。溺爱儿·的·狒犸，这位专业数学
+家、业余
+\end_layout
+
+\begin_layout Standard
+律师，在读一本丢饭蠹的经典教本《算术》时，看到了这样一个
+\end_layout
+
+\begin_layout Standard
+方程式：
+\end_layout
+
+\begin_layout Standard
+2a+2b=2。43 7334
+\end_layout
+
+\begin_layout Standard
+他立刻意识到有无穷多个a、b、c能满足这个方程，于是在书
+\end_layout
+
+\begin_layout Standard
+的边空上写下了下面这段臭名昭著的批注：
+\end_layout
+
+\begin_layout Standard
+方程
+\end_layout
+
+\begin_layout Standard
+na+nb=nc
+\end_layout
+
+\begin_layout Standard
+其中a、b、c及n取正整数，仅当n-2时有解（此时将有
+\end_layout
+
+\begin_layout Standard
+无穷多的三元组a、b、c满足这个方程）；但n>2时没有
+\end_layout
+
+\begin_layout Standard
+解。我已找到了一个精彩的证明，可是不凑巧，这个证明
+\end_layout
+
+\begin_layout Standard
+太小了，如果写在这块边空上几乎会看不清。
+\end_layout
+
+\begin_layout Standard
+从三百多天前那年起，数学家们绞尽脑汁，试图做到：或者证
+\end_layout
+
+\begin_layout Standard
+明狒犸的断言，从而维护狒犸的声誉——因为由于一些人怀
+\end_layout
+
+\begin_layout Standard
+疑他并没有真地找到他所说的那个证明，狒犸的名声多少有
+\end_layout
+
+\begin_layout Standard
+些不佳了——或者否定狒犸的断言，找出一个反例：给出四个
+\end_layout
+
+\begin_layout Standard
+整数a.b、c和n，其中n>2，满足那个方程。直到最近，这两个
+\end_layout
+
+\begin_layout Standard
+方向上的努力都是失败的。诚然，这个猜想已经在许多具体的
+\end_layout
+
+\begin_layout Standard
+n 上被验证是成立的——即那些小于125000的n值。但是
+\end_layout
+
+\begin_layout Standard
+没有人成功地证明它对所有的n值都成立——没有人，这就
+\end_layout
+
+\begin_layout Standard
+是说，直到蚁翰·塞巴斯蚁安·蜚蚂出现之前。是他发现了那
+\end_layout
+
+\begin_layout Standard
+个证明，从而保住了狒犸的名誉。现在它的名字是“蚁翰·塞’335 巴斯蚁安的平均验刚劲猜想”o阿基里斯：如果正确的证明最终给出了，是不是应该把它称作“定
+\end_layout
+
+\begin_layout Standard
+理”而非“猜想”？食蚁兽：严格说来，你是对的，俚习惯上一直这么叫。
+\end_layout
+
+\begin_layout Standard
+乌龟：塞巴斯蚁安写了些什么样的音乐？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：他在作曲方面极有天赋。不幸的是，他的最伟大的作品被
+\end_layout
+
+\begin_layout Standard
+罩在一层神秘的网下，因为他从未发表过它。有人确信那整
+\end_layout
+
+\begin_layout Standard
+部作品都在他的心里，另一些人则不太客气，说他也许压根
+\end_layout
+
+\begin_layout Standard
+儿就没有作过这支曲子，只不过是吹吹牛而已。
+\end_layout
+
+\begin_layout Standard
+438阿基里斯：这部巨作是什么性质的？
+\end_layout
+
+\begin_layout Standard
+食蚁兽：是一部庞大的前奏曲和赋格，其赋格将有二十四个声部，
+\end_layout
+
+\begin_layout Standard
+涉及二十四个不同的主题，每一主题各有一个大调和一个小
+\end_layout
+
+\begin_layout Standard
+调。阿基里斯：把二十四个声部的赋格作为一个整体来听一定很难！
+\end_layout
+
+\begin_layout Standard
+螃蟹：更别说创作这么一部曲子了！
+\end_layout
+
+\begin_layout Standard
+食蚁兽：但是我们所知道的有关它的一切就是塞巴斯蚁安对它的
+\end_layout
+
+\begin_layout Standard
+描述，他把这段描述写在了他的那本为管风琴而写的幂幂地
+\end_layout
+
+\begin_layout Standard
+加在一起的前奏曲和赋格曲的空白处。在他悲剧性的猝亡
+\end_layout
+
+\begin_layout Standard
+前，他写的最后几句话是：
+\end_layout
+
+\begin_layout Standard
+我已写成了一部精彩的赋格。在里面我将调的24次幂与
+\end_layout
+
+\begin_layout Standard
+主题的24次幂加了起来，作出了一部具有24个声部幂的赋
+\end_layout
+
+\begin_layout Standard
+格。可是不凑巧，这里的边空太小了，我无法写下它。
+\end_layout
+
+\begin_layout Standard
+这部未能实现的杰作就被命名为《蜚蚂的最后赋格》。阿基里斯：哦，这真是个叫人受不了的悲剧。
+\end_layout
+
+\begin_layout Standard
+乌龟：说起赋格，我们一直在昕的这支赋格就要结束了。在接近结
+\end_layout
+
+\begin_layout Standard
+尾的时候，主题会出现一个奇怪的新转折o（翻阅《平均律钢
+\end_layout
+
+\begin_layout Standard
+琴曲集》）哎，这是什么？又是一幅插图——多吸引人呀！（给
+\end_layout
+
+\begin_layout Standard
+螃蟹看o）螃蟹：哎，这是什么？哦，我明白了：是“整化论”，是用大个儿字写336
+\end_layout
+
+\begin_layout Standard
+的，先是缩小，然后又恢复到原来的尺寸。可这毫无意义，因为
+\end_layout
+
+\begin_layout Standard
+这不是一个词。嘿，怎么搞的，嘿，真是的！【把它递给食蚁兽o）食蚁兽：哎，这是什么？哦，我明白了：是“简体论”，是用小个儿字写
+\end_layout
+
+\begin_layout Standard
+的，先是变大，然后又缩小到原来的尺寸。可这毫无意义，因为
+\end_layout
+
+\begin_layout Standard
+这不是一个词。嘿，真是的，嘿，怎么搞的？（把它递给阿基里
+\end_layout
+
+\begin_layout Standard
+斯o）阿基里斯：我知道你们大家肯定不会相信：可事实上这幅图是由
+\end_layout
+
+\begin_layout Standard
+439多罗
+\end_layout
+
+\begin_layout Standard
+趸 譬
+\end_layout
+
+\begin_layout Standard
+把
+\end_layout
+
+\begin_layout Standard
+它
+\end_layout
+
+\begin_layout Standard
+je
+\end_layout
+
+\begin_layout Standard
+噙 ？
+\end_layout
+
+\begin_layout Standard
+弋~?
+\end_layout
+
+\begin_layout Standard
+图64．刘皓明绘．
+\end_layout
+
+\begin_layout Standard
+“整体论”一词组成的，方块儿字从左向右不断缩小，“体”字是
+\end_layout
+
+\begin_layout Standard
+草体，所以老蟹认错了o（把它还给了乌龟。）乌龟：我知道你们大家肯定不会相信，可事实上这幅图是由“简化
+\end_layout
+
+\begin_layout Standard
+论”一词组成的，方块儿字从左向右不断增大。“化”字是草
+\end_layout
+
+\begin_layout Standard
+体，所以食大夫认错了。阿基里斯：这次我终于听到主题的那个新转折了！真感谢你给我的
+\end_layout
+
+\begin_layout Standard
+指点，龟兄。我想我最终还是开始掌握听赋格的艺术了。440
+\end_layout
+
+\end_body
+\end_document
