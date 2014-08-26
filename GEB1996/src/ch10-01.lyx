@@ -403,7 +403,7 @@ T表示法写成的与之同构的TNT推导，后者当然比前者易懂多了�
 酸时仅仅给出它的名字（即“A"、“G"、“C"或“T"）、o通过这种非常简单的“组块化”操作可以节约大量的劳动’．虽然观念上并没有很大的改变。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 翻译程序的程序
 \end_layout
 
@@ -425,8 +425,8 @@ T表示法写成的与之同构的TNT推导，后者当然比前者易懂多了�
 3 7 8把汇编语言写出的程序想象成与机器语言写出的程序在同时运行。我们对CPU正在做的事情有两种描述方式。
 \end_layout
 
-\begin_layout Standard
-更高级的语言、编译程序和解释程序 292
+\begin_layout Subsection*
+更高级的语言、编译程序和解释程序
 \end_layout
 
 \begin_layout Standard
@@ -568,8 +568,8 @@ Algol程序翻译成机器语言，有点象根据初等代数课本上的一道
 程序和执行它的机器之间的关系的另一幅图象。
 \end_layout
 
-\begin_layout Standard
-自 举
+\begin_layout Subsection*
+自举
 \end_layout
 
 \begin_layout Standard
@@ -661,7 +661,7 @@ Algol程序翻译成机器语言，有点象根据初等代数课本上的一道
 非遗传型层次。实际上，现代生物学把突变作为了解遗传过程的丰要窗口之一，原因就是对这些过程可以在多个层次上进行探索。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 微程序设计和操作系统
 \end_layout
 
@@ -738,7 +738,7 @@ Algol程序翻译成机器语言，有点象根据初等代数课本上的一道
 如此等等。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 方便用户并保护系统
 \end_layout
 
@@ -753,7 +753,7 @@ Algol程序翻译成机器语言，有点象根据初等代数课本上的一道
 \end_layout
 
 \begin_layout Standard
-计算机是过于灵活还是过于刻板？ 297
+计算机是过于灵活还是过于刻板？
 \end_layout
 
 \begin_layout Standard
@@ -789,7 +789,7 @@ Algol程序翻译成机器语言，有点象根据初等代数课本上的一道
 全误解了。因此重要的是，对高层次的程序来说◆在要求人用着合适的同时，仍应要求精确，没有歧义。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 猜出程序员的意图
 \end_layout
 
@@ -833,7 +833,7 @@ Algol程序翻译成机器语言，有点象根据初等代数课本上的一道
 可靠性和灵活性之间走钢丝。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 人工智能的进展即语言的进展
 \end_layout
 
@@ -945,7 +945,7 @@ Algol程序翻译成机器语言，有点象根据初等代数课本上的一道
 来对它进行解释。不幸的是，这种解释要求系统具有大量的常识，还要有关于程序员的总体意蜀的完备知识——这两者都需要更多的人工智能，而这是目前还．不具有的。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 软件和硬件之间的界限
 \end_layout
 
@@ -1058,7 +1058,7 @@ Algol程序翻译成机器语言，有点象根据初等代数课本上的一道
 心智的软件和大脑的硬件，这就是本书的一个主要目的。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 中间层次和天气
 \end_layout
 
@@ -1093,7 +1093,7 @@ Algol程序翻译成机器语言，有点象根据初等代数课本上的一道
 39 3的理解？”
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 从龙卷风到夸克
 \end_layout
 
@@ -1131,7 +1131,7 @@ Algol程序翻译成机器语言，有点象根据初等代数课本上的一道
 地定量说明许多涉及到假设由夸克构成的粒子的实验结果。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection
 超导：一个关于重正化的“悖论”
 \end_layout
 
@@ -1254,7 +1254,7 @@ Algol程序翻译成机器语言，有点象根据初等代数课本上的一道
 生理学、或器官间复杂的相互作用。一个人所需的一切不过是一个关于最高层活动方式的模型。众所周知，这样的模型是非常实际也非常有效的。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 组块化和确定性之间的利弊权衡
 \end_layout
 
@@ -1269,7 +1269,7 @@ Algol程序翻译成机器语言，有点象根据初等代数课本上的一道
 了行为落在该空间的不同区域的概率。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 “计算机只能做你告诉它去做的事”
 \end_layout
 
@@ -1421,7 +1421,7 @@ cT，其中c是个常数——是一条既依赖于低层现象，又独立于�
 定律时就必须具有一种综合出新概念的能力。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 旁效现象
 \end_layout
 
@@ -1450,7 +1450,7 @@ cT，其中c是个常数——是一条既依赖于低层现象，又独立于�
 当了，或许你应当考虑去做这样一个手术。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 心智之别于大脑
 \end_layout
 
@@ -1464,7 +1464,7 @@ cT，其中c是个常数——是一条既依赖于低层现象，又独立于�
 个原子核、一个中子、一个夸克？自我意识是一种旁效现象吗？为了理解心智，我们是否一定要深入到神经细胞的层次？
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section-toc*
 …蚂蚁赋格
 \end_layout
 
