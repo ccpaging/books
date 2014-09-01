@@ -1080,6 +1080,13 @@ status open
 
 \end_inset
 
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:41"
+
+\end_inset
+
 这个巨大的非周期性晶体结构是噬菌体
 \begin_inset Formula $\varphi X174$
 \end_inset

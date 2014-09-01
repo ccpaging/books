@@ -104,12 +104,20 @@ Preamble
         {\starmark \arabic{chapter}.\arabic{section}}
         {1em}
         {}
+    \titlespacing*{\section}
+       {0pt}% left
+       {0em}% before
+       {0em}% after
         
     \titleformat{\subsection}
         {\CJKFontHei \centering}
         {\starmark \arabic{subsection}}
         {1em}
         {}
+    \titlespacing*{\subsection}
+       {0pt}% left
+       {0em}% before
+       {0em}% after
 
     % 定制目录格式
     \RequirePackage{titletoc}
@@ -169,7 +177,7 @@ Preamble
     \counterwithout{figure}{section}
     
     \renewcommand{\thefigure}{\arabic{figure}}
-    \RequirePackage[format=hang,font=footnotesize,labelsep=period]{caption}
+    \RequirePackage[format=hang,font=scriptsize,labelsep=period]{caption}
 
     \setlength{\abovecaptionskip}{1ex} %caption和图像之间的距离
     \setlength{\belowcaptionskip}{-3ex} %caption和下方文字的距离

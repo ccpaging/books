@@ -4073,9 +4073,9 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "25text%"
+width "20text%"
 special "none"
-height "65theight%"
+height "48theight%"
 height_special "none"
 status collapsed
 
@@ -4092,10 +4092,6 @@ status collapsed
 \end_inset
 
 
-\begin_inset space \hfill{}
-\end_inset
-
-
 \begin_inset Box Frameless
 position "c"
 hor_pos "c"
@@ -4103,11 +4099,11 @@ has_inner_box 1
 inner_pos "b"
 use_parbox 0
 use_makebox 0
-width "70text%"
+width "80text%"
 special "none"
-height "60theight%"
+height "48theight%"
 height_special "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard

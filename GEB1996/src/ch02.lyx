@@ -1251,19 +1251,19 @@ status open
 ，把所有从1到N的正整数相乘，换句话说，也就是做N的阶乘，写作“N!”。得到的数可以被从1到N之间的任何数除尽。然后在N!上加上1，结果这个数就
 \end_layout
 
-\begin_layout Quotation
+\begin_layout Standard
 不能是2的倍数（因为当被2除时，余1）；
 \end_layout
 
-\begin_layout Quotation
+\begin_layout Quote
 不能是3的倍数（因为当被3除时，余1）；
 \end_layout
 
-\begin_layout Quotation
+\begin_layout Quote
 不能是4的倍数（因为当被4除时，余1）；
 \end_layout
 
-\begin_layout Quotation
+\begin_layout Quote
 \begin_inset space \hfill{}
 \end_inset
 
@@ -1274,7 +1274,7 @@ status open
 
 \end_layout
 
-\begin_layout Quotation
+\begin_layout Quote
 不能是N的倍数（因为当被N除时，余1）；
 \end_layout
 
