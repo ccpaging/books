@@ -2430,32 +2430,27 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 哟……我脑子里冒出来一个什么怪念头啊。我在想象蚂
+阿基里斯： 哟……我脑子里冒出来一个什么怪念头啊。我在想象蚂蚁们朝四个不同的方向运动，有黑的，有灰的，互相交错，共同组成一个有序的图案，就象——就象
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-蚁们朝四个不同的方向运动，有黑的，有灰的，互相交错，共同
+乌龟： 你是说象一首赋格曲？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-组成一个有序的图案，就象——就象一乌龟：你是说象一首赋格曲？
+阿基里斯： 对——正是！一首蚂蚁赋格。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯：对——正是！一首蚂蚁赋格。
+螃蟹： 很有趣的念头，阿基。不过，说到开水倒让我想起茶来了。谁想再要点儿？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-螃蟹： 很有趣的念头，阿基。不过，说到开水倒让我想起茶来了。谁
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-想再要点儿？阿基里斯：我再要一杯，老蟹。
+阿基里斯： 我再要一杯，老蟹。
 \end_layout
 
 \begin_layout Labeling
@@ -2465,12 +2460,17 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-呵基里斯：你认为可以把这样一首“蚂蚁赋格”分解成彼此不同的
+呵基里斯： 你认为可以把这样一首“蚂蚁赋格”分解成彼此不同的可见的“声部”，是吗？这可太难了，我是说，如果我要一
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-可见的“声部”，是吗？这可太难了，我是说，如果我要一乌龟：我不要，谢谢a阿基里斯：——在一首赋格曲中一食蚁兽：要是不太麻烦的话一
+乌龟： 我不要，谢谢a
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： ——在一首赋格曲中一食蚁兽：要是不太麻烦的话一
 \end_layout
 
 \begin_layout Labeling
@@ -2485,7 +2485,12 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： ——而所有那些——螃蟹：区区小事。四杯茶一乌龟：三杯！
+阿基里斯： ——而所有那些——螃蟹：区区小事。四杯茶一
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 三杯！
 \end_layout
 
 \begin_layout Labeling
@@ -2501,15 +2506,15 @@ status open
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 食蚁兽： 这个想法很有意思，阿基。不过没有人能让人信服地画出
-\end_layout
+\begin_inset Note Comment
+status open
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
+\begin_layout Plain Layout
 421
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
+\end_inset
+
 这种画来。
 \end_layout
 
@@ -2525,307 +2530,88 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-食蚁兽： 实际上，如果附近有同样种姓的蚂蚁，信号中的蚂蚁经常
+食蚁兽： 实际上，如果附近有同样种姓的蚂蚁，信号中的蚂蚁经常脱离信号而由别的同种姓的蚂蚁来替代。大多数情况下，当信号解体的时候，组成这一信号的蚂蚁已经全都不是当
+初形成这一信号时的蚂蚁了。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-脱离信号而由别的同种姓的蚂蚁来替代。大多数情况下，当
+螃蟹： 我搞清楚是怎么一回事了：蚁群中的信号不断影响种姓分布，这一活动是对蚁群内部的要求所作出的反应，而蚁群的这种内部要求则又是蚁群对其所处外部环境的反应。因此
+，正如．您所说的那样，食大夫，种姓的分布不断地调节、变化，最终反映着外部世界。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-信号解体的时候，组成这一信号的蚂蚁已经全都不是当初形
+阿基里斯： 可结构中的那些中间层次是怎么回事？你刚才一直在说种姓分布最好应该以由别的蚁队组成的蚁队为单位来描述，而不应以蚂蚁或信号为单位来描述，那些组成蚁队的蚁
+队又是由一些别的蚁队组成的，同理下推，直至组成蚁队的成员是单个儿的蚂蚁，而不再是蚁队。你还说，要想理解种姓分布何以能被描述为某种有关外部世界的编码了的信息，这个
+观点是关键性的。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-成这一信号时的蚂蚁了。324
+食蚁兽： 正是，我们现在正要谈这个问题。我喜欢把某些层次较高的蚁队称作“符号”o你要注意，这个词在这里的崽思与它通常的意义有所不同。我所说的“符号”是指一个复杂
+系统的主动的子系统，这种子系统是由更低层次的主动的子系统构成的……因此，它们与被动的符号很不一样，那些被动的符号在系统之外。汉字中的笔划或单个儿的音符，都属于这
+种符号，它们是死的，有待于某个主动的系统去处理它们。422
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-螃蟹： 我搞清楚是怎么一回事了：蚁群中的信号不断影响种姓分
+阿基里斯： 噢，这可真够复杂的々我一点儿也没想到蚁群具有如此抽象的结构。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-布，这一活动是对蚁群内部的要求所作出的反应，而蚁群的这
+食蚁兽： 是的，很了不起。不过，结构中的所有这些层次对于各种各类知识的储存都是必需的，有了这种知识储存，才能使这个机制变成“有智能的”，“有智能的”的意思在这里
+可以是这个词的任何合理的涵意。任何能运用语言的系统都基本上具有与此相同的一套内部层次。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-种内部要求则又是蚁群对其所处外部环境的反应。因此，正如
+阿基里斯： 先慢着点。你是不是暗示说我的大脑实际上也是由一群窜来窜去的蚂蚁组成的？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-．您所说的那样，食大夫，种姓的分布不断地调节、变化，最终反
+食蚁兽： 哦，不。你不要从字面意义上理解我的话。最低的层次是全然不同的。比方说，食蚁兽的大脑就不是由蚂蚁组成的。但是你如果从大脑的最低层上溯一两个层次的话，你就
+会发现这些层次的机制在别的具有同等智力的系统中——比如蚁群一有与它完全一致的对应物。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-映着外部世界。
+乌龟： 这就是把你的大脑映射到蚁群中去，而不是映射到蚂蚁的大脑中去的依据，阿基。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 可结构中的那些中间层次是怎么回事？你刚才一直在说
+阿基里斯： 对你的这份夸奖我领情了。不过这种映射是怎样进行的？比方说，我大脑中的什么东西对应于你所谓的信号这种低层次的蚁队呢？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-种姓分布最好应该以由别的蚁队组成的蚁队为单位来描述，
+食蚁兽： 哦，我对大脑的研究只是种业余爱好，所以无法一一细述它的神异之处。可是——如有不妥之处，老蟹，请不吝赐教一我猜测，在大脑巾对应于蚁群里信号的那种东西是兴
+奋昀神经原。或者‘，也可能是某种更大范围，．卜的活动，比如神经原兴奋的模式什么的。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-而不应以蚂蚁或信号为单位来描述，那些组成蚁队的蚁队又
+螃蟹： 我没有什么异议。不过你是否觉得，找出确切的对应物这…问题，即使有希望得到解决，相对于我们这场讨论的目的来说，也并不是什么十分紧要的事。在我看来，最重要的
+是知道
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+423
+\end_layout
+
+\end_inset
+
+确实存在着这种对应，既使我们此时此刻还不完全清楚这种对应指的是哪一部分也没有关系。我只想对你提出的问题中的一点追问一下，食大夫，因为这一问题涉及究竟在哪个层次上
+，人们可以断定开始产生了这种对应关系。你似乎认为一个信号在大脑中有其直接的对应部分，然而我觉得只是在你所谓的“主动的符号”这一层次上，才可能存在那种对应关系。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-是由一些别的蚁队组成的，同理下推，直至组成蚁队的成员是
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-单个儿的蚂蚁，而不再是蚁队。你还说，要想理解种姓分布何
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-以能被描述为某种有关外部世界的编码了的信息，这个观点
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-是关键性的。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-食蚁兽： 正是，我们现在正要谈这个问题。我喜欢把某些层次较高
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-的蚁队称作“符号”o你要注意，这个词在这里的崽思与它通常
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-的意义有所不同。我所说的“符号”是指一个复杂系统的主动
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-的子系统，这种子系统是由更低层次的主动的子系统构成的
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-……因此，它们与被动的符号很不一样，那些被动的符号在系
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-统之外。汉字中的笔划或单个儿的音符，都属于这种符号，它
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-们是死的，有待于某个主动的系统去处理它们。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-4 2 2
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-阿基里斯： 噢，这可真够复杂的々我一点儿也没想到蚁群具有如此
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-抽象的结构。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-食蚁兽： 是的，很了不起。不过，结构中的所有这些层次对于各种各
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-类知识的储存都是必需的，有了这种知识储存，才能使这个机
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-制变成“有智能的”，“有智能的”的意思在这里可以是这个词
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-的任何合理的涵意。任何能运用语言的系统都基本上具有与
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-此相同的一套内部层次。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-阿基里斯： 先慢着点。你是不是暗示说我的大脑实际上也是由一群
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-窜来窜去的蚂蚁组成的？
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-食蚁兽： 哦，不。你不要从字面意义上理解我的话。最低的层次是
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-全然不同的。比方说，食蚁兽的大脑就不是由蚂蚁组成的。但
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-是你如果从大脑的最低层上溯一两个层次的话，你就会发现
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-这些层次的机制在别的具有同等智力的系统中——比如蚁群
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-一有与它完全一致的对应物。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-乌龟： 这就是把你的大脑映射到蚁群中去，而不是映射到蚂蚁的大
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-脑中去的依据，阿基。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-阿基里斯： 对你的这份夸奖我领情了。不过这种映射是怎样进行
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-的？比方说，我大脑中的什么东西对应于你所谓的信号这种低
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-层次的蚁队呢？
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-食蚁兽： 哦，我对大脑的研究只是种业余爱好，所以无法一一细述
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-它的神异之处。可是——如有不妥之处，老蟹，请不吝赐教
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-一我猜测，在大脑巾对应于蚁群里信号的那种东西是兴奋
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-昀神经原。或者‘，也可能是某种更大范围，．卜的活动，比如神经
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-原兴奋的模式什么的。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-螃蟹： 我没有什么异议。不过你是否觉得，找出确切的对应物这…325
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-问题，即使有希望得到解决，相对于我们这场讨论的目的来
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-说，也并不是什么十分紧要的事。在我看来，最重要的是知道
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-4 2 3
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-确实存在着这种对应，既使我们此时此刻还不完全清楚这种
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-对应指的是哪一部分也没有关系。我只想对你提出的问题中
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-的一点追问一下，食大夫，因为这一问题涉及究竟在哪个层
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-次上，人们可以断定开始产生了这种对应关系。你似乎认为
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-一个信号在大脑中有其直接的对应部分，然而我觉得只是在
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-你所谓的“主动的符号”这一层次上，才可能存在那种对应关
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-系。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-食蚁兽： 你的解释比我的更确切，老蟹。多亏你提出这个微妙的问
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-题。
+食蚁兽： 你的解释比我的更确切，老蟹。多亏你提出这个微妙的问题。
 \end_layout
 
 \begin_layout Labeling
@@ -2835,1054 +2621,565 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-食蚁兽： 这情形有点象字与笔划之间的区别。字作为具有意义的单
+食蚁兽： 这情形有点象字与笔划之间的区别。字作为具有意义的单位，是由笔划组成的，而笔划本身却不具有意义。这也正是符号与信号的区别所在。这实际上是个很有用的类比，
+条件是你不要忘了字和笔划是被动的，而符号与信号却是主动的。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-位，是由笔划组成的，而笔划本身却不具有意义。这也正是符
+阿基里斯： 我一定会记住的，不过我不敢说我理解．厂为什么强调主动，被动两种性质的区别具有如此重要的意义。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-号与信号的区别所在。这实际上是个很有用的类比，条件是
+食蚁兽： 原因在于你加于被动符号上的意义，例如一页书中的某个，实际上来源于你大脑中与之相对应的主动符号所产生的意义。因此，只有当一个被动符号的意义与主动符号的意
+义生关系时，这个被动符号的意义才能被正确理解。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-你不要忘了字和笔划是被动的，而符号与信号却是主动的。
+阿基里斯： 明白了。可是究竟是什么赋予一个符号——桷切地说，是主动的符号——以意义的呢？信号虽然也是一种很出色的东西，可你却说它不具有意义。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 我一定会记住的，不过我不敢说我理解．厂为什么强调主
+食蚁兽： 这与符号可以使其它符号被触发的方式有关。当某一符号成为主动时，它并非是孤立无援的。它可以通过某种媒介一在蚂蚁这里就是种姓分布——传播开来。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-动，被动两种性质的区别具有如此重要的意义。食蚁兽：原因在于你加于被动符号上的意义，例如一页书中的某个
+螃蟹： 当然，大脑里是没有种姓分布这类意儿的，在大脑中，与种姓
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+424
+\end_layout
+
+\end_inset
+
+分布相对应的是“大脑状态”o你必须描述出所有神经原的状态、所有它们交互联系的状态，以及使每个神经原触发的临界点。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-，实际上来源于你大脑中与之相对应的主动符号所产生的
+食蚁兽： 一点不错。现在让我们把“种姓分布”和“大脑状态”都一并归于一个共同的名称之下，这个共同的名称就是“状态”o这样，这种状态就可以在某种更低或更高的层次上
+描述出来了。对蚁群状态进行低层次上的描述将会非常麻烦，这需要确定每个蚂蚁的位置、年龄、种姓，以及其他一些诸如此类的事情。这种详细的描述实际上无助于统观为什么该蚁
+群处于这种状态。另一方面，在更高层次上进行的描述则需要逐一查清哪些符号可以被哪些其他符号的组合所触发，以及触发的条件等等。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-意义。因此，只有当一个被动符号的意义与主动符号的意义
+阿基里斯： 在信号或蚁队层次上进行的描述会怎么样呢？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-生关系时，这个被动符号的意义才能被正确理解。阿基里斯：明白了。可是究竟是什么赋予一个符号——桷切地说，
-\end_layout
+食蚁兽： 这种描述所在的层次位于较低的层次和符号层次之间。对于在蚁群中某一特定位置上正在发生的事，这种描述能提供相当多的信息，虽然这要比一个蚂蚁一个蚂蚁的描述所
+含的信息少些，这是因为蚁队是由一团团的蚂蚁组成的。那种一个蚁队一个蚁队的描述就好象是一个蚂蚁一个蚂蚁描述的提要。然而，在蚁队层次上的描述必须加进一一些在蚂蚁层次
+上所没有的内容——例如各蚁队之间的相互关系，散于各处的各种种姓的补充力量o这种新添的复杂性是你进行这种概括所必须付出的代价。阿基里斯：我觉得对不同层次上的描述进
+行比较是件非常有意思的事。最高层次上的描述似乎最具有解释力，在这一层描述中，你能得到关于蚁群的最直观的印象，然而，说来奇怪的是，这种描述却撇开了似乎是最重要的方
+面——蚂蚁。食蚁兽：不过你要明白，尽管你所看到的都不过是蚂蚁，可它们却
+\begin_inset Note Comment
+status open
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-是主动的符号——以意义的呢？信号虽然也是一种很出色的
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-东西，可你却说它不具有意义。食蚁兽：这与符号可以使其它符号被触发的方式有关。当某一符号
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-成为主动时，它并非是孤立无援的。它可以通过某种媒介
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-一在蚂蚁这里就是种姓分布——传播开来。螃蟹：当然，大脑里是没有种姓分布这类意儿的，在大脑中，与种姓
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-4 2 4
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-分布相对应的是“大脑状态”o你必须描述出所有神经原的状
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-态、所有它们交互联系的状态，以及使每个神经原触发的临
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-界点。食蚁兽：一点不错。现在让我们把“种姓分布”和“大脑状态”都一并
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-归于一个共同的名称之下，这个共同的名称就是“状态”o这
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-样，这种状态就可以在某种更低或更高的层次上描述出来
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-了。对蚁群状态进行低层次上的描述将会非常麻烦，这需要
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-确定每个蚂蚁的位置、年龄、种姓，以及其他一些诸如此类的
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-事情。这种详细的描述实际上无助于统观为什么该蚁群处于
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-这种状态。另一方面，在更高层次上进行的描述则需要逐一
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-查清哪些符号可以被哪些其他符号的组合所触发，以及触发
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-的条件等等。阿基里斯：在信号或蚁队层次上进行的描述会怎么样呢？ 325食蚁兽：这种描述所在的层次位于较低的层次和符号层次之间。对
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-于在蚁群中某一特定位置上正在发生的事，这种描述能提供
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-相当多的信息，虽然这要比一个蚂蚁一个蚂蚁的描述所含的
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-信息少些，这是因为蚁队是由一团团的蚂蚁组成的。那种一个
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-蚁队一个蚁队的描述就好象是一个蚂蚁一个蚂蚁描述的提
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-要。然而，在蚁队层次上的描述必须加进一一些在蚂蚁层次上所
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-没有的内容——例如各蚁队之间的相互关系，散于各处的各
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-种种姓的补充力量o这种新添的复杂性是你进行这种概括所
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-必须付出的代价。阿基里斯：我觉得对不同层次上的描述进行比较是件非常有意思
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-的事。最高层次上的描述似乎最具有解释力，在这一层描述
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-中，你能得到关于蚁群的最直观的印象，然而，说来奇怪的是，
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-这种描述却撇开了似乎是最重要的方面——蚂蚁。食蚁兽：不过你要明白，尽管你所看到的都不过是蚂蚁，可它们却
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
+\begin_layout Plain Layout
 425
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-全然不是最重要的方面。我们承认，如果没有这些蚂蚁，蚁群
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-就不会存在。可是，与之相应的某种东西都是存在的——比如
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-大脑——完全不依赖蚂蚁的存在而存在。因此，至少从一种高
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-层次的观点上看，蚂蚁是可有可无的。阿基里斯：我敢说没有任何蚂蚁会热烈拥护你的这种理论。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-食蚁兽：不过，我从没有见过什么蚂蚁具有高层次的观点。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-螃蟹：你的这番描述太违背人们的直观了，食大夫。如果你所言不
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-差，事情似乎就会是：为了了解整个儿结构，你必须省略掉构
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-成这一结构的任何最基本的组成材料。食蚁兽：也许我打一个比方你们就能更清楚些了。请想像一下你面
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-前摆着一本查尔斯·狄更斯的小说。阿基里斯：《匹克威克外传》-可以吗？
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-食蚁兽：再好没有了！现在我们就来做这样一个游戏：你先想办法
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-使每种笔划都具有意义，这样当你一个笔划一个笔划地读这
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-本书时，整部《匹克威克外传》就都具有意义了。阿基里斯：嗯……你是说我每见到一个字，就比如“人”字吧，就要
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-把它看作是两个各具某种一定意义的概念，并且是一个接一
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-个地紧挨着，每种相同的笔划的意义总是一定的，没有任何变
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-化，是吗？食蚁兽：正是这样。这样一来就只有“j”概念、“编力概念了——而
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-且你每次碰到它们时，它们的意思都冈前面它们出现时的意
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-思一样。阿基里斯：嗬，这么一来，“阅读”<匹克威克外传》的活动简直就变
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-成了一场难以言状的噩梦了。不管我赋予每个笔划什么意义，
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-这一切都只不过是一场徒劳无益的玩弄无意义的游戏。食蚁兽：没错儿。单个儿的笔划与现实世界之间不存在什么自然的
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-映射关系。只有在更高的层次上才会有这种自然的映射——
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-4 2 6
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-即在字词与现实世界的各部分之间。你如果要叙述这本书的
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-内容，你就不要涉及它的笔划层次。阿基里斯：当然不会！我只会叙述情节、人物这一类的东西0 327食蚁兽：这你就对了。你应该完全略去这本书的构成材料，即使这
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-本书有赖于它们c它们是媒介，而不是信息。阿基里斯：明白了——那么，蚁群呢？
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-食蚁兽：在蚁群这里，主动的信号代替了被动的笔划，主动的符号
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-代替了被动的字词——不过原理是一样的。阿基里斯：你是说在信号与现实世界之间无法建立起映射关系？
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-食蚁兽：你会发现你无法通过触发某个新的信号来使它具有什么
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-意义。在比它更低的层次上——如蚂蚁层次——也同样办不
-\end_layout
+\end_inset
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-到。只有在符号层次上，触发模式才有意义。比方说，你想像
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-一下在我来拜访你时，你正在观察马姨c你无论观察得多仔细
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-都行，不过，除了蚂蚁们的集聚、解散之外，你仍然什么也看不
+全然不是最重要的方面。我们承认，如果没有这些蚂蚁，蚁群就不会存在。可是，与之相应的某种东西都是存在的——比如大脑——完全不依赖蚂蚁的存在而存在。因此，至少从一种
+高层次的观点上看，蚂蚁是可有可无的。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-到。阿基里斯：肯定是这样。
+阿基里斯： 我敢说没有任何蚂蚁会热烈拥护你的这种理论。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-食蚁兽：而我在观察的时候，由于研究了它的高级层次，而不是低
+食蚁兽： 不过，我从没有见过什么蚂蚁具有高层次的观点。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-级层次，就会看到有好几种休眠的符号此时被唤醒了，并转译
+螃蟹： 你的这番描述太违背人们的直观了，食大夫。如果你所言不差，事情似乎就会是：为了了解整个儿结构，你必须省略掉构成这一结构的任何最基本的组成材料。食蚁兽：也许
+我打一个比方你们就能更清楚些了。请想像一下你面前摆着一本查尔斯·狄更斯的小说。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-成下面的思想：“哦，食大夫这宝贝儿又来了——这真叫人高
+阿基里斯： 《匹克威克外传》-可以吗？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-兴！”——或者是其他一些大意如此的话。阿基里斯：听起来正象我们四个刚才看“无之图”时那样，我们各自
+食蚁兽： 再好没有了！现在我们就来做这样一个游戏：你先想办法使每种笔划都具有意义，这样当你一个笔划一个笔划地读这本书时，整部《匹克威克外传》就都具有意义了。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-看到了不间的层次——或者至少说是我们三个……乌龟：我在<平均律钢琴曲集》中翻到的那幅古怪的图跟我们现在
+阿基里斯： 嗯……你是说我每见到一个字，就比如“人”字吧，就要把它看作是两个各具某种一定意义的概念，并且是一个接一个地紧挨着，每种相同的笔划的意义总是一定的，没
+有任何变化，是吗？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-讨论的问题之间有某种相类似的地方，这可真是个奇怪的巧
+食蚁兽： 正是这样。这样一来就只有“j”概念、“编力概念了——而且你每次碰到它们时，它们的意思都冈前面它们出现时的意思一样。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-合。阿基里斯：你认为这只是巧合吗？
+阿基里斯： 嗬，这么一来，“阅读”<匹克威克外传》的活动简直就变成了一场难以言状的噩梦了。不管我赋予每个笔划什么意义，这一切都只不过是一场徒劳无益的玩弄无意义的
+游戏。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-乌龟：当然。
-\end_layout
+食蚁兽： 没错儿。单个儿的笔划与现实世界之间不存在什么自然的映射关系。只有在更高的层次上才会有这种自然的映射——
+\begin_inset Note Comment
+status open
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-4 2 7食蚁兽：哎，我估计你们现在能够理解马姨的那些从对符号的操作
+\begin_layout Plain Layout
+426
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-中产生的想法了。这些符号是由信号组成的，信号是由蚁队组
-\end_layout
+\end_inset
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-成的，蚁队是由低层次的蚁队组成的，如此下推，直至单个儿
+即在字词与现实世界的各部分之间。你如果要叙述这本书的内容，你就不要涉及它的笔划层次。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-蚂蚁。
+阿基里斯： 当然不会！我只会叙述情节、人物这一类的东西0
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯：你为什么把它称作“对符号的操作”？如果符号都是主动
+食蚁兽： 这你就对了。你应该完全略去这本书的构成材料，即使这本书有赖于它们c它们是媒介，而不是信息。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-的，那么是由谁来操作？这个发号施令的是谁？
+阿基里斯： 明白了——那么，蚁群呢？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-食蚁兽：这得回到你前面提到过的有关目的的问题上来。说符号自
+食蚁兽： 在蚁群这里，主动的信号代替了被动的笔划，主动的符号代替了被动的字词——不过原理是一样的。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-身是主动的，这一点不错，可这些符号所进行的活动却不是绝
+阿基里斯： 你是说在信号与现实世界之间无法建立起映射关系？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-对自由的。所有符号的活动都严格地受制于它们所处系统的
+食蚁兽： 你会发现你无法通过触发某个新的信号来使它具有什么意义。在比它更低的层次上——如蚂蚁层次——也同样办不到。只有在符号层次上，触发模式才有意义。比方说，你
+想像一下在我来拜访你时，你正在观察马姨c你无论观察得多仔细都行，不过，除了蚂蚁们的集聚、解散之外，你仍然什么也看不到。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-状态。因此，是整个系统决定着它里面的符号如何彼此相互触
+阿基里斯： 肯定是这样。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-发，所以，把整个儿系统说成是“发号施令的”是合情合理的。
+食蚁兽： 而我在观察的时候，由于研究了它的高级层次，而不是低级层次，就会看到有好几种休眠的符号此时被唤醒了，并转译成下面的思想：“哦，食大夫这宝贝儿又来了——这
+真叫人高兴！”——或者是其他一些大意如此的话。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-当符号被触发时，它所在系统的状态便慢慢发生转变，以适应
+阿基里斯： 听起来正象我们四个刚才看“无之图”时那样，我们各自看到了不间的层次——或者至少说是我们三个……
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-新的情况。不过，其中有些特征是不随时间的变化而变化的。
+乌龟： 我在<平均律钢琴曲集》中翻到的那幅古怪的图跟我们现在讨论的问题之间有某种相类似的地方，这可真是个奇怪的巧合。阿基里斯：你认为这只是巧合吗？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-正是这个部分恒定、部分变化的系统才是那个发号施令的。我
-\end_layout
+乌龟： 当然。
+\begin_inset Note Comment
+status open
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-们可以给整个儿系统起个名字。比方说，马姨就可以被看做是328 那个操作符号的。同样的道理也适用于你，阿基。
+\begin_layout Plain Layout
+427
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-阿基里斯：对于我到底是谁这个问题，你的这种看法真是挺奇怪
-\end_layout
+\end_inset
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-的。我不敢说我已经完全理解了，但我会好好考虑它们的。
-\end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-乌龟：在你思考你大脑中的那些符号时，去注意你大脑中此时产生
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-的符号会非常有趣昀。
+食蚁兽： 哎，我估计你们现在能够理解马姨的那些从对符号的操作中产生的想法了。这些符号是由信号组成的，信号是由蚁队组成的，蚁队是由低层次的蚁队组成的，如此下推，直
+至单个儿蚂蚁。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯：这对我来说太复杂了。理解在符号水平上观察并解释蚁
+阿基里斯： 你为什么把它称作“对符号的操作”？如果符号都是主动的，那么是由谁来操作？这个发号施令的是谁？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-群的可能性，这已经叫我很头疼了。我完全可以想象得出在
+食蚁兽： 这得回到你前面提到过的有关目的的问题上来。说符号自身是主动的，这一点不错，可这些符号所进行的活动却不是绝对自由的。所有符号的活动都严格地受制于它们所处
+系统的状态。因此，是整个系统决定着它里面的符号如何彼此相互触发，所以，把整个儿系统说成是“发号施令的”是合情合理的。当符号被触发时，它所在系统的状态便慢慢发生转
+变，以适应新的情况。不过，其中有些特征是不随时间的变化而变化的。正是这个部分恒定、部分变化的系统才是那个发号施令的。我们可以给整个儿系统起个名字。比方说，马姨就
+可以被看做是那个操作符号的。同样的道理也适用于你，阿基。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-蚂蚁层次上观察蚁群是怎么…一同事；我也可以想象在信号层
+阿基里斯： 对于我到底是谁这个问题，你的这种看法真是挺奇怪的。我不敢说我已经完全理解了，但我会好好考虑它们的。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-次上的观察，只不过多少要费点儿劲儿；可天知道在符号层
+乌龟： 在你思考你大脑中的那些符号时，去注意你大脑中此时产生的符号会非常有趣昀。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-次上观察蚁群是怎么回事！
+阿基里斯： 这对我来说太复杂了。理解在符号水平上观察并解释蚁群的可能性，这已经叫我很头疼了。我完全可以想象得出在蚂蚁层次上观察蚁群是怎么…一同事；我也可以想象在
+信号层次上的观察，只不过多少要费点儿劲儿；可天知道在符号层次上观察蚁群是怎么回事！
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-食蚁兽：只要经过长时间的练习就能学会。不过，谁要是达到了我
-\end_layout
+食蚁兽： 只要经过长时间的练习就能学会。不过，谁要是达到了我现在的阶段，谁就能很容易地释读蚁群的最高层次了，就象
+\begin_inset Note Comment
+status open
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-现在的阶段，谁就能很容易地释读蚁群的最高层次了，就象
+\begin_layout Plain Layout
+428
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-42 8
-\end_layout
+\end_inset
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
 你能从“无之图”中读出“无”一样。阿基里斯：真的吗？这一定特别不同寻常。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-食蚁兽：在某种意义上说是这样——不过，另一方面上讲，对你来
+食蚁兽： 在某种意义上说是这样——不过，另一方面上讲，对你来说这并不陌生。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-说这并不陌生。阿基里斯：对我来说不陌生？你指什么？除了在蚂蚁层次上以外，
+阿基里斯： 对我来说不陌生？你指什么？除了在蚂蚁层次上以外，我没有用任何其它方式观察过蚂蚁。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-我没有用任何其它方式观察过蚂蚁。食蚁兽：也许你没有。不过蚁群在很多方面同大脑没有什么不同。
+食蚁兽： 也许你没有。不过蚁群在很多方面同大脑没有什么不同。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯：可我也从没有看过或读过任何大脑呀c食蚁兽：你自己的大脑呢？你意识不到你自己的思想吗？这难道不
+阿基里斯： 可我也从没有看过或读过任何大脑呀c
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-是意识的本质吗？当你意识到你自己的思想时，你难道不是
+食蚁兽： 你自己的大脑呢？你意识不到你自己的思想吗？这难道不是意识的本质吗？当你意识到你自己的思想时，你难道不是直接在符号层次t读你的大脑吗？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-直接在符号层次t读你的大脑吗？阿基里斯：我从没有这么想过。你是说我绕过J，所有低级层次，只
+阿基里斯： 我从没有这么想过。你是说我绕过J，所有低级层次，只到最高层？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-到最高层？食蚁兽：意识系统正是这样。它们只是在符号层次上感觉到自己，
+食蚁兽： 意识系统正是这样。它们只是在符号层次上感觉到自己，对更低的层次，如信号层次，则毫无意识。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-对更低的层次，如信号层次，则毫无意识。阿基里斯：这是不是说，在大脑中，主动的符号总是在调节自身，以
+阿基里斯： 这是不是说，在大脑中，主动的符号总是在调节自身，以反映出大脑的整个儿状态，这一·切总是处在符号水平上？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-反映出大脑的整个儿状态，这一·切总是处在符号水平上？食蚁兽：正是这样。在·切有意识的系统中，符号表现着大脑的状
+食蚁兽： 正是这样。在·切有意识的系统中，符号表现着大脑的状态，而这些符号本身却正是它们所代表的大脑状态的一个部分。因为意识活动要求极大程度上的自我意识。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-态，而这些符号本身却正是它们所代表的大脑状态的一个部
-\end_layout
+阿基里斯： 这可够古怪的。这就是说虽然我的大脑中每时每刻都在发生忙忙碌碌的活动，可我却只能以一神方式感受这种活动一就是说是在符号层次上。对于更低的层次，我完全没
+有感觉。这就象是在读一本狄更斯的小说时只通过直接的视知觉，而完全看不到一个个的笔划。我无法想象这么古怪的事竟能真地发生c螃蟹：可这种事在你看那幅“无之图”时确实
+发生了，你只读出了
+\begin_inset Note Comment
+status open
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-分。因为意识活动要求极大程度上的自我意识。阿基里斯：这可够古怪的。这就是说虽然我的大脑中每时每刻都在
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-发生忙忙碌碌的活动，可我却只能以一神方式感受这种活动
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-一就是说是在符号层次上。对于更低的层次，我完全没有
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-感觉。这就象是在读一本狄更斯的小说时只通过直接的视知
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-觉，而完全看不到一个个的笔划。我无法想象这么古怪的事
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-竟能真地发生c螃蟹：可这种事在你看那幅“无之图”时确实发生了，你只读出了
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
+\begin_layout Plain Layout
 429
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-“无”而没有看出更低层次上的“整体论”与“简化论”o329 阿基里斯：你说的对——我忽略了低层次，只看到了最高层。我不
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-知道我是否也同样忽略了我大脑中更低层次的意义，而只是
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-看到了符号层。糟糕的是最高层并没有包含底层的所有信息，
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-因此，只知道最高层并不能因而知道底层在说些什么。不过我
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-觉得，希望最高层能把底层的一切信息都编成码，这是一种很
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-幼稚的想法——底层信息可能无法渗透上来。“无之图”是可
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-能有的最明白的图解：最高层只有“无”，它与低层没有任何关
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-系！
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-螃蟹：绝对正确o（拿起“无之图”，凑近了研究o）嗯……图中最小的
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-那些笔画有点奇怪。它们歪歪扭扭的……
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-食蚁兽：让我看看o（凑近了看着“无之图”o）我看还有一层，我们都
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-给漏掉了！
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-乌龟；你这话可不代表别人，食大夫。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-阿基里斯：啊——不可能！让我瞧瞧o（很仔细地看o）我知道你们
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-大家肯定不会相信：这张图的秘密其实近在眼前，就藏在深层
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-里面。全部秘密就是一个字，重复了一遍又一遍——但是个无
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-比重要的字：“无”！谁想得到！跟最高层一样！我们大家谁也
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-没能哪怕是猜到一丁点儿！
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-螃蟹：要不是你，阿基，我们谁也不会注意到。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-食蚁兽：我不知道最高层与最低层之间的这种一致是否是出于眄
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-合，还是某个创作者有意为之？
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-螃蟹：谁能说得准呢？
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-乌龟：因为我们一点儿也不知道这幅奇怪的图为什么是在螃蟹版
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-的《平均律钢琴曲集》中，所以我看我们没法儿回答这个问题。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-食蚁兽：我们的讨论一直很活跃，可我还是愿意继续洗耳恭听这首
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-又长又复杂的四声部赋格。真是太美了。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-4 30乌龟：确实很美。再过一会儿，就要有持续音了。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-阿基里斯：持续音是指一段音乐逐渐慢下来，并时不时地停止在某
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-一音符或和弦上，然后，在一段短暂的静默之后，又重新恢复
-\end_layout
+\end_inset
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-正常速度，是吗？乌龟：不对，你这是在说“延长记号”——一种音乐上的分号。不知
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-你注意没有，刚才那首前奏曲中就有这么一段？阿基里斯：我想我是错过了。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-乌龟：不过，你马上还会有机会听到一个延长记号的——事实上，
+“无”而没有看出更低层次上的“整体论”与“简化论”o
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-在这首赋格临近结尾的地方，还会有这么两段的。阿基里斯：哦，太好了。你过会儿会把它们指出来，是吧？
+阿基里斯： 你说的对——我忽略了低层次，只看到了最高层。我不知道我是否也同样忽略了我大脑中更低层次的意义，而只是看到了符号层。糟糕的是最高层并没有包含底层的所有
+信息，因此，只知道最高层并不能因而知道底层在说些什么。不过我觉得，希望最高层能把底层的一切信息都编成码，这是一种很幼稚的想法——底层信息可能无法渗透上来。“无之
+图”是可能有的最明白的图解：最高层只有“无”，它与低层没有任何关系！
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-乌龟：只要你愿意。
+螃蟹： 绝对正确o（拿起“无之图”，凑近了研究o）嗯……图中最小的那些笔画有点奇怪。它们歪歪扭扭的……
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯：那么，请告诉我，什么是持续音？
+食蚁兽： 让我看看o（凑近了看着“无之图”o）我看还有一层，我们都给漏掉了！
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-乌龟：持续音就是在复调音乐中，所有声部中的一个声部（通常是
+乌龟； 你这话可不代表别人，食大夫。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-最低的那个声部）停留在某一个音符上，而与此同时，其他的330
+阿基里斯： 啊——不可能！让我瞧瞧o（很仔细地看o）我知道你们大家肯定不会相信：这张图的秘密其实近在眼前，就藏在深层里面。全部秘密就是一个字，重复了一遍又一遍—
+—但是个无比重要的字：“无”！谁想得到！跟最高层一样！我们大家谁也没能哪怕是猜到一丁点儿！
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-声部继续向前发展，不受影响。在这支赋格中，这个持续音停
+螃蟹： 要不是你，阿基，我们谁也不会注意到。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-留在音符G上。仔细旷，你会听到的。食蚁兽：有一天我去拜访马姨，碰到了一件事，让我想起你的那个
+食蚁兽： 我不知道最高层与最低层之间的这种一致是否是出于眄合，还是某个创作者有意为之？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-建议。你建议当阿基里斯的大脑中的那些符号创造有关它们
+螃蟹： 谁能说得准呢？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-自身的思想时，应该去留心那些符号本身。螃蟹：快告诉我们你碰到什么事了。
+乌龟： 因为我们一点儿也不知道这幅奇怪的图为什么是在螃蟹版的《平均律钢琴曲集》中，所以我看我们没法儿回答这个问题。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-食蚁兽：马姨那天感到很孤独，很想同别人聊聊。因此她很大方地
-\end_layout
+食蚁兽： 我们的讨论一直很活跃，可我还是愿意继续洗耳恭听这首又长又复杂的四声部赋格。真是太美了。
+\begin_inset Note Comment
+status open
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-要我自己挑那些我所能见到的最鲜嫩的蚂蚁o（世从不吝啬她
+\begin_layout Plain Layout
+430
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-的那些蚂蚁o）阿基里斯：妙极一食蚁兽：这时我正在观察那些产生她的思想的符号，因为在那些符
-\end_layout
+\end_inset
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-号中间有很多看去极其鲜嫩的蚂蚁。阿基里斯：妙极一
-\end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-4 3 1食蚁兽：这样我就挑了些最肥嫩的，这些蚂蚁是我正在解释的高层
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-次符号中的一部分，它们所在的那个符号是在说明这样一个
+乌龟： 确实很美。再过一会儿，就要有持续音了。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-意思：“自己随便挑那些能引起你食欲的蚂蚁吧。”阿基里斯：妙极——食蚁兽：这对它们来说很不幸，可对我来说运气极了，这些小虫子
+阿基里斯： 持续音是指一段音乐逐渐慢下来，并时不时地停止在某一音符或和弦上，然后，在一段短暂的静默之后，又重新恢复正常速度，是吗？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-们一点也不懂它们作为一个集体在符号层次上对我说的话。阿基里斯：妙极——了！这真是个大怪圈。它们完全不知道自己所
+乌龟： 不对，你这是在说“延长记号”——一种音乐上的分号。不知你注意没有，刚才那首前奏曲中就有这么一段？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-参加的活动。它们的行为可以被看作是更高层次上某种模式
+阿基里斯： 我想我是错过了。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-的一部分，但是它们肯定对此一无所知。嗨，真可怜——事实
+乌龟： 不过，你马上还会有机会听到一个延长记号的——事实上，在这首赋格临近结尾的地方，还会有这么两段的。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-上也是绝妙的讽刺——它们对此毫无感觉。螃蟹：你说的对，龟兄——这是个妙极了的持续音。
+阿基里斯： 哦，太好了。你过会儿会把它们指出来，是吧？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-食蚁兽：我以前从没听到过，不过它太明显了，没有人会感觉不到
+乌龟： 只要你愿意。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-的。给人的印象太深了。阿基里斯：什么？持续音已经出现过了吗？它要是这么明显，我怎
+阿基里斯： 那么，请告诉我，什么是持续音？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-么会没注意到？乌龟：也许你太陶醉于你说话的内容了，以致于你对此一无所知。
+乌龟： 持续音就是在复调音乐中，所有声部中的一个声部（通常是最低的那个声部）停留在某一个音符上，而与此同时，其他的声部继续向前发展，不受影响。在这支赋格中，这个
+持续音停留在音符G上。仔细旷，你会听到的。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-嗨，真可怜——事实上也是绝妙的讽刺——你对此毫无感觉。
+食蚁兽： 有一天我去拜访马姨，碰到了一件事，让我想起你的那个建议。你建议当阿基里斯的大脑中的那些符号创造有关它们自身的思想时，应该去留心那些符号本身。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-螃蟹：告诉我，马姨是住在一个蚁穴中吗？
+螃蟹： 快告诉我们你碰到什么事了。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-食蚁兽：哦，她有一份很大的家产。那里曾属于别人，留下了一个令
+食蚁兽： 马姨那天感到很孤独，很想同别人聊聊。因此她很大方地要我自己挑那些我所能见到的最鲜嫩的蚂蚁o（世从不吝啬她的那些蚂蚁o）
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-人伤感的故事。不管怎么说，她的庄园是非常大的。比起许多
+阿基里斯： 妙极一
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-别的蚁群来，她住的算是很阔气了。阿基里斯：这与你莳面跟我们讲的蚁群的共产主义性质怎能一致
+食蚁兽： 这时我正在观察那些产生她的思想的符号，因为在那些符号中间有很多看去极其鲜嫩的蚂蚁。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-起来呢？在我看来，共产主义与住在一所豪华的大宅里是互相
-\end_layout
+阿基里斯： 妙极一
+\begin_inset Note Comment
+status open
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-矛盾的1331食蚁兽：共产主义是蚂蚁层次上的。在一个蚁群里，所有的蚂蚁都
+\begin_layout Plain Layout
+431
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-为共同的利益而工作，即使有时这对单个儿的蚂蚁有害。这些
-\end_layout
+\end_inset
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-只是马姨结构的内在方面，就我所知，她甚至可能感觉不到这
-\end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-4 3 2种内部的共产主义。人类大都对他们自己的神经原一无所知。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-事实上，作为有点神经质的生物，他们也非常满足于对自己的大脑一无所知这种状况。马姨也多少有些神经质。只要她一开始想她的那些蚂蚁，她就会马上变成热锅上的蚂蚁。所以，
-只要可能的话，她就竭力避免想它们。我实在怀疑她是否了解她内在结构中的共产主义社会。她自己是个坚定的自由主义信徒——你知道，她是完全自由放任的。所以，至少对我来说
-，她愿意住在一所豪华的庄园里是非常可以理解的。
+食蚁兽： 这样我就挑了些最肥嫩的，这些蚂蚁是我正在解释的高层次符号中的一部分，它们所在的那个符号是在说明这样一个意思：“自己随便挑那些能引起你食欲的蚂蚁吧。”
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-，≯蔑Ⅺ匈．胄，孓 霞设 、&§仅 ’对奄’》≮≮》 袒磁 椒 往西 ，伙 彼动 祆 霎弛戡 役西
+阿基里斯： 妙极——食蚁兽：这对它们来说很不幸，可对我来说运气极了，这些小虫子们一点也不懂它们作为一个集体在符号层次上对我说的话。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-彼勘 ，中节琵 彼屯多 融 希争，弋事节章节
+阿基里斯： 妙极——了！这真是个大怪圈。它们完全不知道自己所参加的活动。它们的行为可以被看作是更高层次上某种模式的一部分，但是它们肯定对此一无所知。嗨，真可怜—
+—事实上也是绝妙的讽刺——它们对此毫无感觉。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-静肇唣
+螃蟹： 你说的对，龟兄——这是个妙极了的持续音。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-I碲恭静 赫
+食蚁兽： 我以前从没听到过，不过它太明显了，没有人会感觉不到的。给人的印象太深了。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-赫洚磷：话咖帮
+阿基里斯： 什么？持续音已经出现过了吗？它要是这么明显，我怎么会没注意到？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-孙 耄
+乌龟： 也许你太陶醉于你说话的内容了，以致于你对此一无所知。嗨，真可怜——事实上也是绝妙的讽刺——你对此毫无感觉。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-耨 静
+螃蟹： 告诉我，马姨是住在一个蚁穴中吗？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-赫 赫
+食蚁兽： 哦，她有一份很大的家产。那里曾属于别人，留下了一个令人伤感的故事。不管怎么说，她的庄园是非常大的。比起许多别的蚁群来，她住的算是很阔气了。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-薅 静
+阿基里斯： 这与你莳面跟我们讲的蚁群的共产主义性质怎能一致起来呢？在我看来，共产主义与住在一所豪华的大宅里是互相矛盾的1331
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-番
-\end_layout
+食蚁兽： 共产主义是蚂蚁层次上的。在一个蚁群里，所有的蚂蚁都为共同的利益而工作，即使有时这对单个儿的蚂蚁有害。这些只是马姨结构的内在方面，就我所知，她甚至可能感
+觉不到这
+\begin_inset Note Comment
+status open
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-赫
+\begin_layout Plain Layout
+432
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-赫赫静拇锋帮赫旃耘耘耘 糯赣耘鸯奄豫 亲
-\end_layout
+\end_inset
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-都
-\end_layout
+种内部的共产主义。人类大都对他们自己的神经原一无所知。事实上，作为有点神经质的生物，他们也非常满足于对自己的大脑一无所知这种状况。马姨也多少有些神经质。只要她一
+开始想她的那些蚂蚁，她就会马上变成热锅上的蚂蚁。所以，只要可能的话，她就竭力避免想它们。我实在怀疑她是否了解她内在结构中的共产主义社会。她自己是个坚定的自由主义
+信徒——你知道，她是完全自由放任的。所以，至少对我来说，她愿意住在一所豪华的庄园里是非常可以理解的。
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-褓
+图E．2．刘皓明绘。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-凑该颧 嘉
+乌龟： 在我浏览<平均律钢琴曲集》的这个可爱版本的时候，现在刚好翻过这页，我发现那两个延长记号中的一个马上就要出现了——你好好听听吧，阿基。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-嘛毒
+阿基里斯： 我会的，我会的。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-图E．2．刘皓明绘。乌龟：在我浏览<平均律钢琴曲集》的这个可爱版本的时候，现在刚
+乌龟： 对着这一页的地方还有一张古怪透顶的图。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-好翻过这页，我发现那两个延长记号中的一个马上就要出现
-\end_layout
+螃蟹： 难道又有一张？
+\begin_inset Note Comment
+status open
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-了——你好好听听吧，阿基。阿基里斯：我会的，我会的。
+\begin_layout Plain Layout
+433
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-乌龟：对着这一页的地方还有一张古怪透顶的图。
-\end_layout
+\end_inset
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-螃蟹：难道又有一张？
-\end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-43 3
 \end_layout
 
 \begin_layout Labeling
