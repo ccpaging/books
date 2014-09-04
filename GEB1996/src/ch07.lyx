@@ -3703,11 +3703,7 @@ P和非P合在一起蕴涵Q。
 级数
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
-
+\begin_layout Quotation
 \begin_inset Formula $1-1+1-1+1-\cdots\cdots$
 \end_inset
 
@@ -3780,32 +3776,28 @@ Jr.
 ，它涉及了“相关蕴涵”，即试图使对应“若—则”的符号能反映真实的因果关系，或者至少反映意义的联系。考虑下列命题演算的定理：
 \end_layout
 
-\begin_layout Quote
-\begin_inset space \qquad{}
-\end_inset
-
-
+\begin_layout Quotation
 \begin_inset Formula $<P\rightarrow<Q\rightarrow P>>$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Quotation
 \begin_inset Formula $<P\rightarrow<Q\vee\sim Q>>$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Quotation
 \begin_inset Formula $<<P\wedge\sim P>\rightarrow Q>$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Quotation
 \begin_inset Formula $<<P\rightarrow Q>\vee<Q\rightarrow P>>$
 \end_inset
 
@@ -3842,42 +3834,6 @@ status open
 \end_inset
 
 大的系统的毛病，而不是它的子系统命题演算的过错。
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/image-0261.jpg
-	width 60text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-“螃蟹卡农”，艾舍尔作。
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Note Comment
 status open
 
@@ -3987,6 +3943,41 @@ CJKFontFang
 阿基里斯： 啊，你在这方面真是个外行，你的口味不行。你不认为荷兰人的玩艺儿都很糟吗？
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0261.jpg
+	width 60text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+“螃蟹卡农”，艾舍尔作。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 \begin_inset space \hfill{}
@@ -4034,7 +4025,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 要是腿没力气了，就得拄手杖J，。
+阿基里斯： 要是腿没力气了，就得拄手杖了。
 \end_layout
 
 \begin_layout Labeling
@@ -4070,12 +4061,12 @@ status open
 position "c"
 hor_pos "c"
 has_inner_box 1
-inner_pos "t"
+inner_pos "c"
 use_parbox 0
 use_makebox 0
 width "20text%"
 special "none"
-height "48theight%"
+height "40theight%"
 height_special "none"
 status collapsed
 
@@ -4101,7 +4092,7 @@ use_parbox 0
 use_makebox 0
 width "80text%"
 special "none"
-height "48theight%"
+height "40theight%"
 height_special "none"
 status open
 

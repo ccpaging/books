@@ -1252,18 +1252,25 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 不能是2的倍数（因为当被2除时，余1）；
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 不能是3的倍数（因为当被3除时，余1）；
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 不能是4的倍数（因为当被4除时，余1）；
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 \begin_inset space \hfill{}
 \end_inset
 
@@ -1274,8 +1281,15 @@ status open
 
 \end_layout
 
-\begin_layout Quote
+\begin_layout Standard
 不能是N的倍数（因为当被N除时，余1）；
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1529,40 +1543,6 @@ status open
 阿基里斯： 我明白了。事实上停电不仅没有耽误你的事，反而帮了你的忙。太妙了！可是对于你的那个“昔火”谜，我这儿还是一抹黑呢。
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/image-0082.jpg
-	lyxscale 50
-	width 80text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-镶嵌画Ⅱ，艾舍尔作（蚀版画，1957）。
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 阿基里斯： 祝贺你！这样一来你也许能睡着了！告诉我吧，谜底是什么？
@@ -1588,10 +1568,47 @@ status open
 阿基里斯： 我不懂你在这里用“图形”和“衬底”是表示什么。
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0082.jpg
+	lyxscale 50
+	width 70text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+镶嵌画II，艾舍尔作（蚀版画，1957）。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 我当然知道《镶嵌画I》那幅画！我熟悉艾舍尔的所有作品。毕竟，他是我最喜欢的艺术家。我无论到哪儿总要在墙上挂一幅《镶嵌画Ⅱ》的印刷复制品，我现在一抬眼
-就能看得见。
+\noindent
+阿基里斯： 我当然知道《镶嵌画II》那幅画！我熟悉艾舍尔的所有作品。毕竟，他是我最喜欢的艺术家。我无论到哪儿总要在墙上挂一幅《镶嵌画II》的印刷复制品，我现在一
+抬眼就能看得见。
 \end_layout
 
 \begin_layout Labeling

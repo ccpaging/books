@@ -1026,27 +1026,6 @@ DNA中的消息有多大普遍性？
 \end_layout
 
 \begin_layout Standard
-这听起来有点象天方夜谭，但如果允许进行亿万年的实验，或许DNA的意义最终还是会显现出来的。
-\end_layout
-
-\begin_layout Standard
-另一方面，如果构成一条DNA的碱基序列是以抽象符号的形式（如图41）被送出，而不是作为长长的螺旋形分子被送出，那么，用这种外在消息来触发那和能把表现型从遗传型中
-抽取出来
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-229
-\end_layout
-
-\end_inset
-
-的解码机制，其成功的可能性实质上是零。在这种情况下用来包裹内在消息的外在消息实在是太抽象了，它已经失去了恢复环境的能力，因此在实用的意义上来说，这组符号是不具有
-固有意义的。为了不使你觉得上述讨论过分抽象化和哲学化，请想一下下面这个当今在某些国家高度敏感的问题：到底在哪个时刻才能说遗传型已经“达到”或“隐含”了表现型？这
-也就是堕胎的合法性问题。
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1056,7 +1035,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0230.jpg
 	lyxscale 50
-	width 95text%
+	width 80text%
 
 \end_inset
 
@@ -1103,6 +1082,27 @@ A的碱基序列大约需要一百万页纸。现在你手中这本节所包含�
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+这听起来有点象天方夜谭，但如果允许进行亿万年的实验，或许DNA的意义最终还是会显现出来的。
+\end_layout
+
+\begin_layout Standard
+另一方面，如果构成一条DNA的碱基序列是以抽象符号的形式（如图41）被送出，而不是作为长长的螺旋形分子被送出，那么，用这种外在消息来触发那和能把表现型从遗传型中
+抽取出来
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+229
+\end_layout
+
+\end_inset
+
+的解码机制，其成功的可能性实质上是零。在这种情况下用来包裹内在消息的外在消息实在是太抽象了，它已经失去了恢复环境的能力，因此在实用的意义上来说，这组符号是不具有
+固有意义的。为了不使你觉得上述讨论过分抽象化和哲学化，请想一下下面这个当今在某些国家高度敏感的问题：到底在哪个时刻才能说遗传型已经“达到”或“隐含”了表现型？这
+也就是堕胎的合法性问题。
 \end_layout
 
 \begin_layout Standard

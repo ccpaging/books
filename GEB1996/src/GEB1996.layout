@@ -21,8 +21,8 @@ Preamble
     \setmainfont{Times New Roman}
 
     % 设置字体
-    \RequirePackage{xltxtra,fontspec,xunicode}
-    \RequirePackage[boldfont,slantfont,CJKnumber,CJKchecksingle,fallback]{xeCJK} % 允许粗体,斜体,支持\CJKnumber{\thechapter}
+    \RequirePackage{xltxtra,fontspec,xunicode,zhnumber} % 支持\zhnumber{\thechapter}
+    \RequirePackage[boldfont,slantfont,CJKchecksingle,fallback]{xeCJK} % 允许粗体,斜体,
     
     % CJK 全局选项
     \defaultCJKfontfeatures{AutoFakeBold=6,AutoFakeSlant=.4}
@@ -57,7 +57,7 @@ Preamble
     \usepackage{changepage}
 
     % 首行缩进
-    %\usepackage{indentfirst}
+    \usepackage{indentfirst}
     \setlength{\parindent}{2em}
 
     % 定制章节的格式
@@ -84,17 +84,13 @@ Preamble
 
     % 章标题
     %\renewcommand\thechapter{\arabic{chapter}}
-    %\renewcommand\thechapter{第\CJKnumber{\arabic{chapter}}章}
+    %\renewcommand\thechapter{第\zhnumber{\arabic{chapter}}章}
     \titleformat{\chapter}          % display 序号和标题分别占用两行
         {\Large \centering}          % format 标题格式
-        {\starmark 第\CJKnumber{\thechapter}章}     % label 用于定义定义标题的标签,就是标题内容前面的标号
+        {\starmark 第\zhnumber{\thechapter}章}     % label 用于定义定义标题的标签,就是标题内容前面的标号
         {1em}                       % sep 定义标题的标签与标题内容之间的间隔距离
         {}                          % before 用于在标题内容前再加些内容
         []                          % after 用于在标题内容后再加些内容
-    \titlespacing*{\chapter}
-       {0pt}% left
-       {0em}% before
-       {0em}% after
 
     % 节标题
     %\renewcommand{\sectionrname}{}
@@ -104,20 +100,12 @@ Preamble
         {\starmark \arabic{chapter}.\arabic{section}}
         {1em}
         {}
-    \titlespacing*{\section}
-       {0pt}% left
-       {0em}% before
-       {0em}% after
         
     \titleformat{\subsection}
         {\CJKFontHei \centering}
         {\starmark \arabic{subsection}}
         {1em}
         {}
-    \titlespacing*{\subsection}
-       {0pt}% left
-       {0em}% before
-       {0em}% after
 
     % 定制目录格式
     \RequirePackage{titletoc}
@@ -132,7 +120,7 @@ Preamble
 
     \titlecontents{chapter}[0pt]   % left
         {\addvspace{2pt}\filright}  % above-code
-        {\contentspush{第\CJKnumber{\thecontentslabel}章\quad}}    % numbered-entry-format
+        {\contentspush{第\zhnumber{\thecontentslabel}章\quad}}    % numbered-entry-format
         {}    % numberless-entry-format
         {\titlerule*[8pt]{.}\contentspage}  % filler-page-format
         []  % below code

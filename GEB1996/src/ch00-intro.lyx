@@ -250,6 +250,48 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0004.jpg
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+约翰·塞巴斯第安·巴赫在1748年
+\end_layout
+
+\end_inset
+
+约翰·塞巴斯第安·巴赫在1748年。取自艾利亚斯·哥特利伯·豪斯曼的一幅油画。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \noindent
 作者：
 \end_layout
@@ -279,53 +321,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Wrap figure
-lines 0
-placement r
-overhang 0in
-width "50col%"
-status open
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/image-0004.jpg
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-约翰·塞巴斯第安·巴赫在1748年
-\end_layout
-
-\end_inset
-
-约翰·塞巴斯第安·巴赫在1748年。取自艾利亚斯·哥特利伯·豪斯曼的一幅油画。
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 腓德烈大帝不仅是个钢琴爱好者，而且也是管风琴师兼作曲家约·塞·巴赫的崇拜者。这位巴赫的作品当时是颇有争议的。有些人认为它们是“浮华而混乱的”，有些人则声称他的作
 品是无与
 \begin_inset Note Comment
@@ -350,7 +345,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0008-1.jpg
-	scale 28
+	width 100text%
 
 \end_inset
 
@@ -478,7 +473,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0008-2.png
-	scale 25
+	width 100text%
 
 \end_inset
 
@@ -686,7 +681,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0010.png
 	lyxscale 50
-	scale 24
+	width 100text%
 
 \end_inset
 
@@ -903,7 +898,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0016.jpg
-	width 90text%
+	width 100text%
 
 \end_inset
 
@@ -947,7 +942,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0017.jpg
-	width 90text%
+	width 100text%
 
 \end_inset
 
@@ -1205,7 +1200,7 @@ status open
 \family typewriter
 哥德尔定理
 \family default
-是作为他一九三一年的一篇论文中的命题Ⅵ而出现的，这篇论文的题目是：“论《数学原理》及有关系统中形式上不可判定的命题I”。该命题是这样叙述的：
+是作为他一九三一年的一篇论文中的命题VI而出现的，这篇论文的题目是：“论《数学原理》及有关系统中形式上不可判定的命题I”。该命题是这样叙述的：
 \end_layout
 
 \begin_layout Quotation
@@ -1688,7 +1683,7 @@ status open
 
 \begin_layout Standard
 洛芙莱丝命妇和巴比奇一样，深深地意识到随着分析机的发明，人类将可以产生机械化的智能。尤其是如果它能“自食其尾”（这是巴比奇用以描述当一部机器探进自己的内部，改变
-它内部所存储的程序时所产生的怪圈的说法）的话。在1842午的回忆录中她写道
+它内部所存储的程序时所产生的怪圈的说法）的话。在1842年的回忆录中她写道
 \begin_inset Foot
 status open
 

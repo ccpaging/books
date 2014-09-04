@@ -150,9 +150,10 @@ UJJUWJUUJWUJJUWJUUJWUJJU
 下面是第一条规则：
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 \noindent
-规则I：如果一个归你所有的符号串结尾是J，则可以在其后面再加上一个U。
+规则I： 如果一个归你所有的符号串结尾是J，则可以在其后面再加上一个U。
 \end_layout
 
 \begin_layout Standard
@@ -166,8 +167,9 @@ UJJUWJUUJWUJJUWJUUJWUJJU
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 规则Ⅱ：:
-规则Ⅱ： 如果你有Wx，那么Wxx也归你所有。
+\labelwidthstring 00.00.0000
+\noindent
+规则II： 如果你有Wx，那么Wxx也归你所有。
 \end_layout
 
 \begin_layout Standard
@@ -208,8 +210,9 @@ status open
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 规则Ⅲ：:
-规则Ⅲ： 如果JJJ出现在你的储备中的一个符号串里，那么你可以用U代替这个JJJ而得到一个新的符号串。
+\labelwidthstring 00.00.0000
+\noindent
+规则III： 如果JJJ出现在你的储备中的一个符号串里，那么你可以用U代替这个JJJ而得到一个新的符号串。
 \end_layout
 
 \begin_layout Standard
@@ -217,19 +220,47 @@ status open
 例子：
 \end_layout
 
-\begin_layout Quotation
+\begin_layout Quote
 从UWJJJWU，可以得到UWUWU 。
 \end_layout
 
-\begin_layout Quotation
-从WJJJJ，可以得到WJU（同样可以得到WUJ）。
+\begin_layout Quote
+从WJJJJ，可以得到WJU。
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Phantom HPhantom
+status open
+
+\begin_layout Plain Layout
+从WJJJJ，
 \end_layout
 
-\begin_layout Quotation
-从JJWJJ，用这条规则什么也得不到。（三个JJJ必须是连续的。）
+\end_inset
+
+（同样可以得到WUJ。）
 \end_layout
 
-\begin_layout Quotation
+\begin_layout Quote
+从JJWJJ，用这条规则什么也得不到。
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Phantom HPhantom
+status open
+
+\begin_layout Plain Layout
+从JJWJJ，
+\end_layout
+
+\end_inset
+
+（三个JJJ必须是连续的。）
+\end_layout
+
+\begin_layout Quote
 从WJJJ，可以得到WU。
 \end_layout
 
@@ -255,9 +286,10 @@ status open
 下面是最后一条规则：
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 \noindent
-规则Ⅳ：如果UU出现在你的一个符号串中，你可以去掉它。
+规则IV： 如果UU出现在你的一个符号串中，你可以去掉它。
 \end_layout
 
 \begin_layout Standard
@@ -323,8 +355,8 @@ status open
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="3">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="left" valignment="top">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top">
 <column alignment="left" valignment="top">
 <row>
@@ -379,7 +411,7 @@ WJJ
 \begin_inset Text
 
 \begin_layout Plain Layout
-使用规则Ⅱ，从（1）中得出
+使用规则II，从（1）中得出
 \end_layout
 
 \end_inset
@@ -408,7 +440,7 @@ WJJJJ
 \begin_inset Text
 
 \begin_layout Plain Layout
-使用规则Ⅱ，从（2）中得出
+使用规则II，从（2）中得出
 \end_layout
 
 \end_inset
@@ -505,7 +537,7 @@ WUJUUJU
 \begin_inset Text
 
 \begin_layout Plain Layout
-使用规则Ⅱ，从（5）中得出
+使用规则II，从（5）中得出
 \end_layout
 
 \end_inset
@@ -534,7 +566,7 @@ WUJJU
 \begin_inset Text
 
 \begin_layout Plain Layout
-使用规则Ⅳ，从（6）中得出
+使用规则IV，从（6）中得出
 \end_layout
 
 \end_inset
@@ -660,9 +692,9 @@ status open
 
 \end_inset
 
-是可以扔掉的，两个U也可以去掉。另外根据规则Ⅱ，可以把长度延长一倍（除了那个W）。所以第二张纸上也可以有一些计算。我们会时常重新提到处理形式系统的这两种方式，我
-们分别称之为机方式（J方式）和惟方式（W方式）。为了完满，使WJU系统的每一个字母都与一种方式相关联，我再提出最后一种方式——无方式（U方式），它是禅宗的处世态
-度。关于这点在后面几章中会更多地讲到。
+是可以扔掉的，两个U也可以去掉。另外根据规则II，可以把长度延长一倍（除了那个W）。所以第二张纸上也可以有一些计算。我们会时常重新提到处理形式系统的这两种方式，
+我们分别称之为机方式（J方式）和惟方式（W方式）。为了完满，使WJU系统的每一个字母都与一种方式相关联，我再提出最后一种方式——无方式（U方式），它是禅宗的处世
+态度。关于这点在后面几章中会更多地讲到。
 \end_layout
 
 \begin_layout Subsection*
@@ -670,10 +702,10 @@ status open
 \end_layout
 
 \begin_layout Standard
-对于这个谜题的观察表明，它涉及到两种具有不同趋向的规则——加长的规则和缩短的规则。其巾两条规则（规则I和I）允许你加长符号串（当然只能是非常刻板地按预先规定的方
-式来加长），另外两条规则允许多少缩短一点符号串（同样是以非常刻板的方式）。看起来应该是有无限多种不同的顺序来应用这些不同种类的规则，这就使得用这种或那和方式来产
-生WU有了希望。可能是使符号串加长成一个庞然大物，然后再一段一段地抽掉，直到只剩下两个符号为止；或者更糟糕，使符号串连续地加长、缩短、再加长、再缩短，如此下去，
-而结果如何却没有保证。事实上，我们已经看出U是不可能产生的，既使是加长或缩短到世界末日也无济于事。
+对于这个谜题的观察表明，它涉及到两种具有不同趋向的规则——加长的规则和缩短的规则。其巾两条规则（规则I和II）允许你加长符号串（当然只能是非常刻板地按预先规定的
+方式来加长），另外两条规则允许多少缩短一点符号串（同样是以非常刻板的方式）。看起来应该是有无限多种不同的顺序来应用这些不同种类的规则，这就使得用这种或那和方式来
+产生WU有了希望。可能是使符号串加长成一个庞然大物，然后再一段一段地抽掉，直到只剩下两个符号为止；或者更糟糕，使符号串连续地加长、缩短、再加长、再缩短，如此下去
+，而结果如何却没有保证。事实上，我们已经看出U是不可能产生的，既使是加长或缩短到世界末日也无济于事。
 \end_layout
 
 \begin_layout Standard

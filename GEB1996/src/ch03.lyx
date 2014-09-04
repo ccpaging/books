@@ -102,8 +102,16 @@ enumitem
 
 \begin_layout Standard
 想想简单的印符操作能把握概念，不免有点令人奇怪。迄今为止我们已把握到的概念是加法，这说来还不显得有多怪。可我们现在的目标是做出一个形式系统，使定理都是Px的形状
-，其中字母x代表一个短杠符号串，并且只有当短杠符号串中的短杠数目是素数时才能成为定理。这样，P---是个定理，而P----则不是。怎么能用印符操作来做这件事？首
-先，说清楚所谓印符操作是什么意思是很重要的。我们能用的东西都已在WJU系统和pq系统中给出了，所以我们实际上只需列出我们所允许的种种操作：
+，其中字母x代表一个短杠符号串，并且只有当短杠符号串中的短杠数目是素数时才能成为定理。这样，
+\begin_inset Formula $P---$
+\end_inset
+
+是个定理，而
+\begin_inset Formula $P----$
+\end_inset
+
+则不是。怎么能用印符操作来做这件事？首先，说清楚所谓印符操作是什么意思是很重要的。我们能用的东西都已在WJU系统和pq系统中给出了，所以我们实际上只需列出我们所
+允许的种种操作：
 \end_layout
 
 \begin_layout Enumerate
@@ -151,24 +159,42 @@ status open
 \end_inset
 
 们可以做一个与pq系统类似的系统，差别是这次我们表示的是乘法。我们称之为tq系统，“t"代表“乘”（英文是times）。进一步还得说明，我们用X、Y、Z分别表示
-短杠符号串x、y、z中的短杠数目。（注意我在此特别用心地区分符号串与它所包含的短杠数目。）现在我们希望符号串xqytz是个定理，当且仅当X等于Y乘以Z。例如，-
------q--t---应该是个定理，因为2乘以3等于6，但---q--t--不应是个定理。tq系统可以象pq系统一样很容易地刻划——就是说，只用一个公理模式和
-一条推理规则：
+短杠符号串x、y、z中的短杠数目。（注意我在此特别用心地区分符号串与它所包含的短杠数目。）现在我们希望符号串xqytz是个定理，当且仅当X等于Y乘以Z。例如，
+\begin_inset Formula $------q--t---$
+\end_inset
+
+应该是个定理，因为2乘以3等于6，但
+\begin_inset Formula $---q--t--$
+\end_inset
+
+不应是个定理。tq系统可以象pq系统一样很容易地刻划——就是说，只用一个公理模式和一条推理规则：
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 公理模式：：
-公理模式： xqxt一是一个公理，对任何一个短杠符号串x都是如此。
+公理模式： 
+\begin_inset Formula $xqxt-$
+\end_inset
+
+是一个公理，对任何一个短杠符号串x都是如此。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 公理模式：：
 \noindent
-推理规则： 设x、y、z都是短杠符号串。设xqytz是个已有的定理。那么，xyqytz-是个新的定理。
+推理规则： 设x、y、z都是短杠符号串。设xqytz是个已有的定理。那么，
+\begin_inset Formula $xyqytz-$
+\end_inset
+
+是个新的定理。
 \end_layout
 
 \begin_layout Standard
-下面是定理------q--t---的推导：
+下面是定理
+\begin_inset Formula $------q--t---$
+\end_inset
+
+的推导：
 \end_layout
 
 \begin_layout Standard
@@ -192,7 +218,10 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
---q--t-
+\begin_inset Formula $--q--t-$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -221,7 +250,10 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-----q--t--
+\begin_inset Formula $----q--t--$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -282,7 +314,10 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-------q--t--
+\begin_inset Formula $------q--t--$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -361,19 +396,34 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 规则：：
-规则： 设X、Y、Z是短杠符号串。如果xqy-tz-是个定理，则Cx是个定理。
+规则： 设X、Y、Z是短杠符号串。如果
+\begin_inset Formula $xqy-tz-$
+\end_inset
+
+是个定理，则Cx是个定理。
 \end_layout
 
 \begin_layout Standard
-这能行得通，是因为：说X（x中的短杠数目）是合数，仅当它是两个大于1的数的乘积——就是说，是Y+1（y-中的短杠数目）和Z+1 （z-中的短杠数目）的乘积。我可
-以提出某种“惟方式”的论证来为这条规则辩护，因为你是人，想知道为什么会有这样一条规则。假如你是完全以“机方式”运转的，你就不会需要任何论证了，因为J方式工作者只
-是机械地、快乐地遵循规则，从不产生疑问。
+这能行得通，是因为：说X（x中的短杠数目）是合数，仅当它是两个大于1的数的乘积——就是说，是Y+1（
+\begin_inset Formula $y-$
+\end_inset
+
+中的短杠数目）和Z+1（
+\begin_inset Formula $z-$
+\end_inset
+
+中的短杠数目）的乘积。我可以提出某种“惟方式”的论证来为这条规则辩护，因为你是人，想知道为什么会有这样一条规则。假如你是完全以“机方式”运转的，你就不会需要任何
+论证了，因为J方式工作者只是机械地、快乐地遵循规则，从不产生疑问。
 \end_layout
 
 \begin_layout Standard
 由于你以W方式工作，你会趋于把符号串与对符号串的解释相混淆。你知道，一旦你从你所操作的符号里找到“意义”，事情就会变得相当混乱。你不得不和你的自我作斗争，阻止自
-己把符号串“---”认作数目3。对形式化的要求，在第一章里或许显得令人迷惑不解（因为它看上去如此显然），在这里却变得相当复杂，并且很关键。这里的实质在于防止你自
-己把W方式与J方式相混淆，或者换一种说法，在于防止你自己把算术事实与印符定理相混淆。
+己把符号串“
+\begin_inset Formula $---$
+\end_inset
+
+”认作数目3。对形式化的要求，在第一章里或许显得令人迷惑不解（因为它看上去如此显然），在这里却变得相当复杂，并且很关键。这里的实质在于防止你自己把W方式与J方式
+相混淆，或者换一种说法，在于防止你自己把算术事实与印符定理相混淆。
 \end_layout
 
 \begin_layout Subsection*
@@ -408,49 +458,82 @@ status open
 
 \begin_layout Standard
 这一点非常重要，因此我们还得再稍微多说几句口在我们的C系统里（包括tq系统及定义C型定理的那条规则），我们有形如Cx的定理，其中“x”象通常一样代表一个短杠符号
-串。也有形如Cx的非定理（这些就是当我说“非定理”时所指的东西，虽然tt-Cqq以及其它乱七八糟不规矩的东西也显然是非定理）。区别在于，定理含有合数数日的短杠，
-非定理含有素数数目的短杠。现在所有的定理都具有一个共同的“形式”，也就是说，都源自一个共同的印符规则集。那么，在同一意义上，所有的非定理是否也具有一个共同“形式
-”呢？下面是一列C型定理，不带推导。它们后面括号中的数字只是记录其中的短杠数目。
+串。也有形如Cx的非定理（这些就是当我说“非定理”时所指的东西，虽然
+\begin_inset Formula $tt-Cqq$
+\end_inset
+
+以及其它乱七八糟不规矩的东西也显然是非定理）。区别在于，定理含有合数数日的短杠，非定理含有素数数目的短杠。现在所有的定理都具有一个共同的“形式”，也就是说，都源
+自一个共同的印符规则集。那么，在同一意义上，所有的非定理是否也具有一个共同“形式”呢？下面是一列C型定理，不带推导。它们后面括号中的数字只是记录其中的短杠数目。
 \end_layout
 
 \begin_layout Standard
-C----（4）
+\begin_inset Formula $C----$
+\end_inset
+
+（4）
 \end_layout
 
 \begin_layout Standard
-C------（6）
+\begin_inset Formula $C------$
+\end_inset
+
+（6）
 \end_layout
 
 \begin_layout Standard
-C-------（8）
+\begin_inset Formula $C-------$
+\end_inset
+
+（8）
 \end_layout
 
 \begin_layout Standard
-C--------（9）
+\begin_inset Formula $C--------$
+\end_inset
+
+（9）
 \end_layout
 
 \begin_layout Standard
-C---------（10）
+\begin_inset Formula $C---------$
+\end_inset
+
+（10）
 \end_layout
 
 \begin_layout Standard
-C-----------（12）
+\begin_inset Formula $C-----------$
+\end_inset
+
+（12）
 \end_layout
 
 \begin_layout Standard
-C-------------（14）
+\begin_inset Formula $C-------------$
+\end_inset
+
+（14）
 \end_layout
 
 \begin_layout Standard
-C--------------（15）
+\begin_inset Formula $C--------------$
+\end_inset
+
+（15）
 \end_layout
 
 \begin_layout Standard
-C---------------（16）
+\begin_inset Formula $C---------------$
+\end_inset
+
+（16）
 \end_layout
 
 \begin_layout Standard
-C-----------------（18）
+\begin_inset Formula $C-----------------$
+\end_inset
+
+（18）
 \begin_inset Note Comment
 status open
 
@@ -751,7 +834,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0094.jpg
 	lyxscale 50
-	scale 30
+	width 100text%
 
 \end_inset
 
@@ -957,18 +1040,36 @@ status open
 个数不整除（BZC）另一个数这个概念：
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
 \noindent
-公理模式：xyBZCx，其中x和y是短杠符号串。
+公理模式： 
+\begin_inset Formula $xyBZCx$
+\end_inset
+
+，其中x和y是短杠符号串。
 \end_layout
 
 \begin_layout Standard
 \noindent
-例如，-----BZC--，这里“--”代替了x而“---”代替了Y。
+例如，
+\begin_inset Formula $-----BZC--$
+\end_inset
+
+，这里“
+\begin_inset Formula $--$
+\end_inset
+
+”代替了x而“
+\begin_inset Formula $---$
+\end_inset
+
+”代替了Y。
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 规则：：
+\labelwidthstring 00.00.0000
+\noindent
 规则： 若xBZCy是个定理，则xBZCxy是个定理。
 \end_layout
 
@@ -978,18 +1079,29 @@ status open
 \end_layout
 
 \begin_layout Quotation
------BZC------------
+\begin_inset Formula $-----BZC------------$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \noindent
-这可以解释成“5不整除12”。但---BZC------不是个定理。要是你试图生成它，会出什么问题？
+这可以解释成“5不整除12”。但
+\begin_inset Formula $---BZC------$
+\end_inset
+
+不是个定理。要是你试图生成它，会出什么问题？
 \end_layout
 
 \begin_layout Standard
 现在为了确定一个给定的数是素数，我们得建立某种关于它的不可整除性的知识。特别地，我们希望知道它不能被这样一些数整除：2、3、4、等等，如此下去，直到比那个数本身
 小1的数。但我们在形式系统里不能含糊不清地说“等等”之类的话。我们必须明白地说清楚。我们大概会要有一种方式以这个形式系统的语言来说出“数Z在直到X的数内没有因子
-（记作zMYx）”，意思是在2和X之间没有能整除Z的数。这是能做到的，但要点技巧。如果你愿意，你可以自己想一想。
+（记作
+\begin_inset Formula $zMYx$
+\end_inset
+
+）”，意思是在2和X之间没有能整除Z的数。这是能做到的，但要点技巧。如果你愿意，你可以自己想一想。
 \end_layout
 
 \begin_layout Standard
@@ -998,13 +1110,29 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 规则：：
-规则： 如果--BZCz是个定理，则zMY--是个定理。
+规则： 如果
+\begin_inset Formula $--BZCz$
+\end_inset
+
+是个定理，则
+\begin_inset Formula $zMY--$
+\end_inset
+
+是个定理。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 规则：：
 \noindent
-规则： 如果zMYx与x-BZCz都是定理，则zMYx-是个定理。
+规则： 如果
+\begin_inset Formula $zMYx与x-BZCz$
+\end_inset
+
+都是定理，则
+\begin_inset Formula $zMYx-$
+\end_inset
+
+是个定理。
 \end_layout
 
 \begin_layout Standard
@@ -1014,7 +1142,16 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 规则：：
-规则： 若z-MYz是个定理，则Pz-是个定理。
+\noindent
+规则： 若
+\begin_inset Formula $z-MYz$
+\end_inset
+
+是个定理，则
+\begin_inset Formula $Pz-$
+\end_inset
+
+是个定理。
 \end_layout
 
 \begin_layout Standard
@@ -1024,7 +1161,11 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 公理：：
-公理： P--。
+公理： 
+\begin_inset Formula $P--$
+\end_inset
+
+。
 \end_layout
 
 \begin_layout Standard
