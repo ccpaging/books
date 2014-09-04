@@ -397,7 +397,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0327.jpg
-	width 80text%
+	width 100text%
 
 \end_inset
 
@@ -592,7 +592,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0329.jpg
-	width 100text%
+	width 90text%
 
 \end_inset
 
@@ -706,7 +706,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0331.jpg
-	width 80text%
+	width 90text%
 
 \end_inset
 
@@ -969,7 +969,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0335.jpg
-	width 90text%
+	width 100text%
 
 \end_inset
 
@@ -1027,6 +1027,46 @@ status open
 
 \begin_layout Plain Layout
 同上，第120页。这是一个日本公案，中译文采自《禅的故事》（即李普士《禅肉，禅骨》一书的中译本），哈尔滨：北方文艺出版社，1987年版。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0336-1.jpg
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:52"
+
+\end_inset
+
+水面涟漪，艾舍尔作（油毡浮雕，1950）。
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1093,46 +1133,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/image-0336-1.jpg
-	lyxscale 50
-	width 80text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:52"
-
-\end_inset
-
-水面涟漪，艾舍尔作（油毡浮雕，1950）。
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 在《辞》（图149）里，相左的事物在不同的层次上被纳入了一个统一体。顺着这幅画我们看到逐渐的变迁：从黑鸟到白鸟到黑鱼到白鱼到黑蛙到白蛙到黑鸟……六步之后，回到了
 我们开始的地方！这是调和黑与白这两分，还是鸟、鱼、蛙这三分？或者是2的偶数性与3的奇数性之间的对立导致的六位一体？在音乐里，六个等长音符会造成节奏岐义——是两个
 一组的三组，还是三个一组的两组？这种岐义有个名称：“三比二”。肖邦是“三比二”的大师：见他的华尔兹（作品42号）、练习曲（作品25号之二）。在巴赫的作品
@@ -1168,7 +1168,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0336-2.jpg
 	lyxscale 50
-	width 90text%
+	width 100text%
 
 \end_inset
 
@@ -1185,7 +1185,7 @@ name "fig:53"
 
 \end_inset
 
-三个球Ⅱ，艾舍尔作(版画，1946)。
+三个球II，艾舍尔作(版画，1946)。
 \end_layout
 
 \end_inset
@@ -1223,8 +1223,8 @@ reference "fig:53"
 \end_layout
 
 \begin_layout Standard
-这使我脑子里产生了一幅重正化粒子的图像：在每个电子中，、都有虚光子、正电子、中微子、π介子……；每个光子中又有虚电子、质子、中子、死介子……；而在每个π介子中，
-有……
+这使我脑子里产生了一幅重正化粒子的图像：在每个电子中，都有虚光子、正电子、中微子、π介子……；每个光子中又有虚电子、质子、中子、死介子……；而在每个π介子中，有
+……
 \end_layout
 
 \begin_layout Standard
@@ -1401,10 +1401,10 @@ J的数目称作该串的“眼”数，因为J的存在就好象是在我们想
 \end_layout
 
 \begin_layout Standard
-作为开始，先注意规则Ⅰ与规则ⅣV对“眼”数丝毫不发生影响。所以我们只需要考虑规则Ⅱ与Ⅲ。规则Ⅱ只不过是使“眼”数恰好减3，使用这个规则之后，得到的输出或许也可能
-是3的倍数——但仅只在输入已经是3的倍数这一情况下。简而言之，规则Ⅰ决不会无中生有地产生3的倍数。它必须在“眼”数已经是3的倍数的情况下才能产生“眼”数为3的倍
-数的串。同样的事情也发生在规则Ⅰ身上，因为它使“眼”数翻倍。理由是，若2n被3整除，那么——由于3不整除2——n就得被3整除（数论里的一个简单事实）。无论是规则
-Ⅱ还是规则Ⅲ，都不能无中生有地产生3的倍数。
+作为开始，先注意规则I与规则IVV对“眼”数丝毫不发生影响。所以我们只需要考虑规则II与III。规则II只不过是使“眼”数恰好减3，使用这个规则之后，得到的输出
+或许也可能是3的倍数——但仅只在输入已经是3的倍数这一情况下。简而言之，规则I决不会无中生有地产生3的倍数。它必须在“眼”数已经是3的倍数的情况下才能产生“眼”
+数为3的倍数的串。同样的事情也发生在规则I身上，因为它使“眼”数翻倍。理由是，若2n被3整除，那么——由于3不整除2——n就得被3整除（数论里的一个简单事实）。
+无论是规则II还是规则III，都不能无中生有地产生3的倍数。
 \end_layout
 
 \begin_layout Standard
@@ -1441,8 +1441,8 @@ status open
 
 \end_inset
 
-“眼”数可以增大（规则Ⅱ），可以减小（规则Ⅲ）。我们大概会想．不断地换着使用那些规则，最终或许能达到0，于是就这么干了下去，直到我们站出来分析一番我们面临的到底
-是什么。现在，多亏一个简单的数论推理过程，我们知道了那是不可能的。
+“眼”数可以增大（规则II），可以减小（规则III）。我们大概会想．不断地换着使用那些规则，最终或许能达到0，于是就这么干了下去，直到我们站出来分析一番我们面临
+的到底是什么。现在，多亏一个简单的数论推理过程，我们知道了那是不可能的。
 \end_layout
 
 \begin_layout Subsection*
@@ -1671,23 +1671,23 @@ WUJJU——规则4——30110
 
 \begin_layout Standard
 我们可以说第五个串(“3010")是从第四个来的，方法是在右边放上一个“0”；另一方面，我们同样也可以把这一转换看成是由于算术运算而导致的——确切地说就是乘以1
-00当自然数接十进制写出时，乘以10和在右边放上一个0是没有差别的。我们可以利用这一点写出一条算术规则，与印符规则Ⅰ相对应：
+00当自然数接十进制写出时，乘以10和在右边放上一个0是没有差别的。我们可以利用这一点写出一条算术规则，与印符规则I相对应：
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 算术规则Ⅰa：：
+\labelwidthstring 算术规则Ia：：
 \noindent
-算术规则Ⅰa： 一个数的十进制展开的右侧如果以1结尾，则可乘以100我们可以不必指称十进制展开中的符号，而用算术方式来描述最右边的数字：
+算术规则Ia： 一个数的十进制展开的右侧如果以1结尾，则可乘以100我们可以不必指称十进制展开中的符号，而用算术方式来描述最右边的数字：
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 算术规则Ⅰa：：
-算术规则Ⅰb： 一个数被10除时的余数如果是1，则可乘以100我们可以仍是固守纯粹的印符规则格式，比如下面这个：
+\labelwidthstring 算术规则Ia：：
+算术规则Ib： 一个数被10除时的余数如果是1，则可乘以100我们可以仍是固守纯粹的印符规则格式，比如下面这个：
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 算术规则Ⅰa：：
-印符规则Ⅰ： 从任何一个最右侧符号为“1"的定理都可以得到一个新的定理，方法是在那个“1”右侧拼上一个“0”。
+\labelwidthstring 算术规则Ia：：
+印符规则I： 从任何一个最右侧符号为“1"的定理都可以得到一个新的定理，方法是在那个“1”右侧拼上一个“0”。
 \end_layout
 
 \begin_layout Standard

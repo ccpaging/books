@@ -2541,7 +2541,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 哟……我脑子里冒出来一个什么怪念头啊。我在想象蚂蚁们朝四个不同的方向运动，有黑的，有灰的，互相交错，共同组成一个有序的图案，就象——就象
+阿基里斯： 哟……我脑子里冒出来一个什么怪念头啊。我在想象蚂蚁们朝四个不同的方向运动，有黑的，有灰的，互相交错，共同组成一个有序的图案，就象——就象——
 \end_layout
 
 \begin_layout Labeling
@@ -2580,7 +2580,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-呵基里斯： 你认为可以把这样一首“蚂蚁赋格”分解成彼此不同的可见的“声部”，是吗？这可太难了，我是说，如果我要一
+呵基里斯： 你认为可以把这样一首“蚂蚁赋格”分解成彼此不同的可见的“声部”，是吗？这可太难了，我是说，如果我要——
 \end_layout
 
 \begin_layout Labeling
@@ -2588,12 +2588,17 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-乌龟： 我不要，谢谢a
+乌龟： 我不要，谢谢。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： ——在一首赋格曲中一食蚁兽：要是不太麻烦的话一
+阿基里斯： ——在一首赋格曲中——
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+食蚁兽： 要是不太麻烦的话——
 \begin_inset Note Comment
 status open
 
@@ -2604,20 +2609,72 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0421.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+“蚂蚁赋格”，艾舍尔作(木刻，1953)。
 \begin_inset Newline newline
 \end_inset
 
-图61．“蚂蚁赋格一，艾舍尔作(木刻．1953)． 323
+http://www.wikiart.org/en/m-c-escher/not_detected_204739
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： ——跟踪其中某一个声部——
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： ——跟踪其中某一个声部一食蚁兽：——我也想来点儿，老蟹。
+\begin_inset space \hfill{}
+\end_inset
+
+食蚁兽： ——我也想来点儿，老蟹。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： ——而所有那些——螃蟹：区区小事。四杯茶一
+阿基里斯： ——而所有那些——
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 区区小事。四杯茶——
 \end_layout
 
 \begin_layout Labeling
@@ -2638,7 +2695,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-螃蟹： ——转眼就得】
+螃蟹： ——转眼就得！
 \end_layout
 
 \begin_layout Labeling
@@ -2687,7 +2744,7 @@ status open
 \end_inset
 
 螃蟹： 我搞清楚是怎么一回事了：蚁群中的信号不断影响种姓分布，这一活动是对蚁群内部的要求所作出的反应，而蚁群的这种内部要求则又是蚁群对其所处外部环境的反应。因此
-，正如．您所说的那样，食大夫，种姓的分布不断地调节、变化，最终反映着外部世界。
+，正如您所说的那样，食大夫，种姓的分布不断地调节、变化，最终反映着外部世界。
 \end_layout
 
 \begin_layout Labeling
@@ -2702,14 +2759,24 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 正是，我们现在正要谈这个问题。我喜欢把某些层次较高的蚁队称作“符号”。你要注意，这个词在这里的崽思与它通常的意义有所不同。我所说的“符号”是指一个复杂
+食蚁兽： 正是，我们现在正要谈这个问题。我喜欢把某些层次较高的蚁队称作“符号”。你要注意，这个词在这里的意思与它通常的意义有所不同。我所说的“符号”是指一个复杂
 系统的主动的子系统，这种子系统是由更低层次的主动的子系统构成的……因此，它们与被动的符号很不一样，那些被动的符号在系统之外。汉字中的笔划或单个儿的音符，都属于这
-种符号，它们是死的，有待于某个主动的系统去处理它们。422
+种符号，它们是死的，有待于某个主动的系统去处理它们。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+422
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 噢，这可真够复杂的々我一点儿也没想到蚁群具有如此抽象的结构。
+阿基里斯： 噢，这可真够复杂的。我一点儿也没想到蚁群具有如此抽象的结构。
 \end_layout
 
 \begin_layout Labeling
@@ -2732,7 +2799,7 @@ status open
 \end_inset
 
 食蚁兽： 哦，不。你不要从字面意义上理解我的话。最低的层次是全然不同的。比方说，食蚁兽的大脑就不是由蚂蚁组成的。但是你如果从大脑的最低层上溯一两个层次的话，你就
-会发现这些层次的机制在别的具有同等智力的系统中——比如蚁群一有与它完全一致的对应物。
+会发现这些层次的机制在别的具有同等智力的系统中——比如蚁群——有与它完全一致的对应物。
 \end_layout
 
 \begin_layout Labeling
@@ -2753,8 +2820,8 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 哦，我对大脑的研究只是种业余爱好，所以无法一一细述它的神异之处。可是——如有不妥之处，老蟹，请不吝赐教一我猜测，在大脑巾对应于蚁群里信号的那种东西是兴
-奋昀神经原。或者‘，也可能是某种更大范围，．卜的活动，比如神经原兴奋的模式什么的。
+食蚁兽： 哦，我对大脑的研究只是种业余爱好，所以无法一一细述它的神异之处。可是——如有不妥之处，老蟹，请不吝赐教——我猜测，在大脑中对应于蚁群里信号的那种东西是
+兴奋的神经原。或者，也可能是某种更大范围上的活动，比如神经原兴奋的模式什么的。
 \end_layout
 
 \begin_layout Labeling
@@ -2762,7 +2829,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-螃蟹： 我没有什么异议。不过你是否觉得，找出确切的对应物这…问题，即使有希望得到解决，相对于我们这场讨论的目的来说，也并不是什么十分紧要的事。在我看来，最重要的
+螃蟹： 我没有什么异议。不过你是否觉得，找出确切的对应物这一问题，即使有希望得到解决，相对于我们这场讨论的目的来说，也并不是什么十分紧要的事。在我看来，最重要的
 是知道
 \begin_inset Note Comment
 status open
@@ -2801,7 +2868,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 我一定会记住的，不过我不敢说我理解．厂为什么强调主动，被动两种性质的区别具有如此重要的意义。
+阿基里斯： 我一定会记住的，不过我不敢说我理解了为什么强调主动与被动两种性质的区别具有如此重要的意义。
 \end_layout
 
 \begin_layout Labeling
@@ -2809,13 +2876,13 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 原因在于你加于被动符号上的意义，例如一页书中的某个，实际上来源于你大脑中与之相对应的主动符号所产生的意义。因此，只有当一个被动符号的意义与主动符号的意
-义生关系时，这个被动符号的意义才能被正确理解。
+食蚁兽： 原因在于你加于被动符号上的意义，例如一页书中的某个字，实际上来源于你大脑中与之相对应的主动符号所产生的意义。因此，只有当一个被动符号的意义与主动符号的
+意义发生关系时，这个被动符号的意义才能被正确理解。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 明白了。可是究竟是什么赋予一个符号——桷切地说，是主动的符号——以意义的呢？信号虽然也是一种很出色的东西，可你却说它不具有意义。
+阿基里斯： 明白了。可是究竟是什么赋予一个符号——确切地说，是主动的符号——以意义的呢？信号虽然也是一种很出色的东西，可你却说它不具有意义。
 \end_layout
 
 \begin_layout Labeling
@@ -2823,7 +2890,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 这与符号可以使其它符号被触发的方式有关。当某一符号成为主动时，它并非是孤立无援的。它可以通过某种媒介一在蚂蚁这里就是种姓分布——传播开来。
+食蚁兽： 这与符号可以使其它符号被触发的方式有关。当某一符号成为主动时，它并非是孤立无援的。它可以通过某种媒介——在蚂蚁这里就是种姓分布——传播开来。
 \end_layout
 
 \begin_layout Labeling
@@ -2865,10 +2932,19 @@ status open
 \end_inset
 
 食蚁兽： 这种描述所在的层次位于较低的层次和符号层次之间。对于在蚁群中某一特定位置上正在发生的事，这种描述能提供相当多的信息，虽然这要比一个蚂蚁一个蚂蚁的描述所
-含的信息少些，这是因为蚁队是由一团团的蚂蚁组成的。那种一个蚁队一个蚁队的描述就好象是一个蚂蚁一个蚂蚁描述的提要。然而，在蚁队层次上的描述必须加进一一些在蚂蚁层次
-上所没有的内容——例如各蚁队之间的相互关系，散于各处的各种种姓的补充力量。这种新添的复杂性是你进行这种概括所必须付出的代价。阿基里斯：我觉得对不同层次上的描述进
-行比较是件非常有意思的事。最高层次上的描述似乎最具有解释力，在这一层描述中，你能得到关于蚁群的最直观的印象，然而，说来奇怪的是，这种描述却撇开了似乎是最重要的方
-面——蚂蚁。食蚁兽：不过你要明白，尽管你所看到的都不过是蚂蚁，可它们却
+含的信息少些，这是因为蚁队是由一团团的蚂蚁组成的。那种一个蚁队一个蚁队的描述就好象是一个蚂蚁一个蚂蚁描述的提要。然而，在蚁队层次上的描述必须加进一些在蚂蚁层次上
+所没有的内容——例如各蚁队之间的相互关系，散于各处的各种种姓的补充力量。这种新添的复杂性是你进行这种概括所必须付出的代价。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我觉得对不同层次上的描述进行比较是件非常有意思的事。最高层次上的描述似乎最具有解释力，在这一层描述中，你能得到关于蚁群的最直观的印象，然而，说来奇怪
+的是，这种描述却撇开了似乎是最重要的方面——蚂蚁。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+食蚁兽： 不过你要明白，尽管你所看到的都不过是蚂蚁，可它们却
 \begin_inset Note Comment
 status open
 
@@ -2897,13 +2973,17 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-螃蟹： 你的这番描述太违背人们的直观了，食大夫。如果你所言不差，事情似乎就会是：为了了解整个儿结构，你必须省略掉构成这一结构的任何最基本的组成材料。食蚁兽：也许
-我打一个比方你们就能更清楚些了。请想像一下你面前摆着一本查尔斯·狄更斯的小说。
+螃蟹： 你的这番描述太违背人们的直观了，食大夫。如果你所言不差，事情似乎就会是：为了了解整个儿结构，你必须省略掉构成这一结构的任何最基本的组成材料。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 《匹克威克外传》-可以吗？
+食蚁兽： 也许我打一个比方你们就能更清楚些了。请想像一下你面前摆着一本查尔斯·狄更斯的小说。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 《匹克威克外传》——可以吗？
 \end_layout
 
 \begin_layout Labeling
@@ -2925,12 +3005,12 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 正是这样。这样一来就只有“j”概念、“编力概念了——而且你每次碰到它们时，它们的意思都冈前面它们出现时的意思一样。
+食蚁兽： 正是这样。这样一来就只有“丿”概念、“编”概念了——而且你每次碰到它们时，它们的意思都同前面它们出现时的意思一样。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 嗬，这么一来，“阅读”<匹克威克外传》的活动简直就变成了一场难以言状的噩梦了。不管我赋予每个笔划什么意义，这一切都只不过是一场徒劳无益的玩弄无意义的
+阿基里斯： 嗬，这么一来，“阅读”《匹克威克外传》的活动简直就变成了一场难以言状的噩梦了。不管我赋予每个笔划什么意义，这一切都只不过是一场徒劳无益的玩弄无意义的
 游戏。
 \end_layout
 
@@ -2954,7 +3034,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 当然不会！我只会叙述情节、人物这一类的东西0
+阿基里斯： 当然不会！我只会叙述情节、人物这一类的东西。
 \end_layout
 
 \begin_layout Labeling
@@ -3016,7 +3096,12 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-乌龟： 我在<平均律钢琴曲集》中翻到的那幅古怪的图跟我们现在讨论的问题之间有某种相类似的地方，这可真是个奇怪的巧合。阿基里斯：你认为这只是巧合吗？
+乌龟： 我在《平均律钢琴曲集》中翻到的那幅古怪的图跟我们现在讨论的问题之间有某种相类似的地方，这可真是个奇怪的巧合。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你认为这只是巧合吗？
 \end_layout
 
 \begin_layout Labeling
@@ -3072,13 +3157,13 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-乌龟： 在你思考你大脑中的那些符号时，去注意你大脑中此时产生的符号会非常有趣昀。
+乌龟： 在你思考你大脑中的那些符号时，去注意你大脑中此时产生的符号会非常有趣的。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 这对我来说太复杂了。理解在符号水平上观察并解释蚁群的可能性，这已经叫我很头疼了。我完全可以想象得出在蚂蚁层次上观察蚁群是怎么…一同事；我也可以想象在
-信号层次上的观察，只不过多少要费点儿劲儿；可天知道在符号层次上观察蚁群是怎么回事！
+阿基里斯： 这对我来说太复杂了。理解在符号水平上观察并解释蚁群的可能性，这已经叫我很头疼了。我完全可以想象得出在蚂蚁层次上观察蚁群是怎么一回事；我也可以想象在信
+号层次上的观察，只不过多少要费点儿劲儿；可天知道在符号层次上观察蚁群是怎么回事！
 \end_layout
 
 \begin_layout Labeling
@@ -3096,7 +3181,12 @@ status open
 
 \end_inset
 
-你能从“无之图”中读出“无”一样。阿基里斯：真的吗？这一定特别不同寻常。
+你能从“无之图”中读出“无”一样。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 真的吗？这一定特别不同寻常。
 \end_layout
 
 \begin_layout Labeling
@@ -3130,12 +3220,12 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 你自己的大脑呢？你意识不到你自己的思想吗？这难道不是意识的本质吗？当你意识到你自己的思想时，你难道不是直接在符号层次t读你的大脑吗？
+食蚁兽： 你自己的大脑呢？你意识不到你自己的思想吗？这难道不是意识的本质吗？当你意识到你自己的思想时，你难道不是直接在符号层次读你的大脑吗？
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 我从没有这么想过。你是说我绕过J，所有低级层次，只到最高层？
+阿基里斯： 我从没有这么想过。你是说我绕过了所有低级层次，只到最高层？
 \end_layout
 
 \begin_layout Labeling
@@ -3148,7 +3238,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 这是不是说，在大脑中，主动的符号总是在调节自身，以反映出大脑的整个儿状态，这一·切总是处在符号水平上？
+阿基里斯： 这是不是说，在大脑中，主动的符号总是在调节自身，以反映出大脑的整个儿状态，这一切总是处在符号水平上？
 \end_layout
 
 \begin_layout Labeling
@@ -3156,14 +3246,21 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 正是这样。在·切有意识的系统中，符号表现着大脑的状态，而这些符号本身却正是它们所代表的大脑状态的一个部分。因为意识活动要求极大程度上的自我意识。
+食蚁兽： 正是这样。在一切有意识的系统中，符号表现着大脑的状态，而这些符号本身却正是它们所代表的大脑状态的一个部分。因为意识活动要求极大程度上的自我意识。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 这可够古怪的。这就是说虽然我的大脑中每时每刻都在发生忙忙碌碌的活动，可我却只能以一神方式感受这种活动一就是说是在符号层次上。对于更低的层次，我完全没
-有感觉。这就象是在读一本狄更斯的小说时只通过直接的视知觉，而完全看不到一个个的笔划。我无法想象这么古怪的事竟能真地发生。螃蟹：可这种事在你看那幅“无之图”时确实
-发生了，你只读出了
+阿基里斯： 这可够古怪的。这就是说虽然我的大脑中每时每刻都在发生忙忙碌碌的活动，可我却只能以一种方式感受这种活动——就是说是在符号层次上。对于更低的层次，我完全
+没有感觉。这就象是在读一本狄更斯的小说时只通过直接的视知觉，而完全看不到一个个的笔划。我无法想象这么古怪的事竟能真地发生。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 可这种事在你看那幅“无之图”时确实发生了，你只读出了
 \begin_inset Note Comment
 status open
 
@@ -3188,15 +3285,25 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-螃蟹： 绝对正确。（拿起“无之图”，凑近了研究。）嗯……图中最小的那些笔画有点奇怪。它们歪歪扭扭的……
+螃蟹： 绝对正确。（
+\family sans
+拿起“无之图”，凑近了研究。
+\family default
+）嗯……图中最小的那些笔画有点奇怪。它们歪歪扭扭的……
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
+\noindent
+\align block
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 让我看看。（凑近了看着“无之图”。）我看还有一层，我们都给漏掉了！
+食蚁兽： 让我看看。（
+\family sans
+凑近了看着“无之图”。
+\family default
+）我看还有一层，我们都给漏掉了！
 \end_layout
 
 \begin_layout Labeling
@@ -3209,8 +3316,12 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 啊——不可能！让我瞧瞧。（很仔细地看。）我知道你们大家肯定不会相信：这张图的秘密其实近在眼前，就藏在深层里面。全部秘密就是一个字，重复了一遍又一遍—
-—但是个无比重要的字：“无”！谁想得到！跟最高层一样！我们大家谁也没能哪怕是猜到一丁点儿！
+阿基里斯： 啊——不可能！让我瞧瞧。（
+\family sans
+很仔细地看。
+\family default
+）我知道你们大家肯定不会相信：这张图的秘密其实近在眼前，就藏在深层里面。全部秘密就是一个字，重复了一遍又一遍——但是个无比重要的字：“无”！谁想得到！跟最高层一
+样！我们大家谁也没能哪怕是猜到一丁点儿！
 \end_layout
 
 \begin_layout Labeling
@@ -3226,7 +3337,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 我不知道最高层与最低层之间的这种一致是否是出于眄合，还是某个创作者有意为之？
+食蚁兽： 我不知道最高层与最低层之间的这种一致是否是出于巧合，还是某个创作者有意为之？
 \end_layout
 
 \begin_layout Labeling
@@ -3317,8 +3428,11 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-乌龟： 持续音就是在复调音乐中，所有声部中的一个声部（通常是最低的那个声部）停留在某一个音符上，而与此同时，其他的声部继续向前发展，不受影响。在这支赋格中，这个
-持续音停留在音符G上。仔细旷，你会听到的。
+乌龟： 持续音就是在复调音乐中，所有声部中的一个声部（
+\family sans
+通常是最低的那个声部
+\family default
+）停留在某一个音符上，而与此同时，其他的声部继续向前发展，不受影响。在这支赋格中，这个持续音停留在音符G上。仔细听，你会听到的。
 \end_layout
 
 \begin_layout Labeling
@@ -3342,12 +3456,16 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 马姨那天感到很孤独，很想同别人聊聊。因此她很大方地要我自己挑那些我所能见到的最鲜嫩的蚂蚁。（世从不吝啬她的那些蚂蚁。）
+食蚁兽： 马姨那天感到很孤独，很想同别人聊聊。因此她很大方地要我自己挑那些我所能见到的最鲜嫩的蚂蚁。（
+\family sans
+她从不吝啬她的那些蚂蚁。
+\family default
+）
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 妙极一
+阿基里斯： 妙极——
 \end_layout
 
 \begin_layout Labeling
@@ -3360,7 +3478,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 妙极一
+阿基里斯： 妙极——
 \begin_inset Note Comment
 status open
 
@@ -3383,7 +3501,15 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 妙极——食蚁兽：这对它们来说很不幸，可对我来说运气极了，这些小虫子们一点也不懂它们作为一个集体在符号层次上对我说的话。
+阿基里斯： 妙极——
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+食蚁兽： 这对它们来说很不幸，可对我来说运气极了，这些小虫子们一点也不懂它们作为一个集体在符号层次上对我说的话。
 \end_layout
 
 \begin_layout Labeling
@@ -3436,7 +3562,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 这与你莳面跟我们讲的蚁群的共产主义性质怎能一致起来呢？在我看来，共产主义与住在一所豪华的大宅里是互相矛盾的1331
+阿基里斯： 这与你前面跟我们讲的蚁群的共产主义性质怎能一致起来呢？在我看来，共产主义与住在一所豪华的大宅里是互相矛盾的！
 \end_layout
 
 \begin_layout Labeling
@@ -3469,7 +3595,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-乌龟： 在我浏览<平均律钢琴曲集》的这个可爱版本的时候，现在刚好翻过这页，我发现那两个延长记号中的一个马上就要出现了——你好好听听吧，阿基。
+乌龟： 在我浏览《平均律钢琴曲集》的这个可爱版本的时候，现在刚好翻过这页，我发现那两个延长记号中的一个马上就要出现了——你好好听听吧，阿基。
 \end_layout
 
 \begin_layout Labeling
@@ -3558,7 +3684,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 嗯……“约”、“塞”、“巴”、“赫”。哦，我明白了。这是巴赫的姓名j
+阿基里斯： 嗯……“约”、“塞”、“巴”、“赫”。哦，我明白了。这是巴赫的姓名！
 \end_layout
 
 \begin_layout Labeling
@@ -3566,8 +3692,11 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-乌龟： 你这种看法真怪。我看这些字是越往右边越大，而且……组成了……一个人……的……姓……名，（他逐渐变慢，最后几个字拉得特别长。然后是一阵短暂的静默。突然，他
-叉正常起来，好象什么都没有发生过似的。）一一“彼·德·费马”。
+乌龟： 你这种看法真怪。我看这些字是越往右边越大，而且……组成了……一个人……的……姓……名，（
+\family sans
+他逐渐变慢，最后几个字拉得特别长。然后是一阵短暂的静默。突然，他又正常起来，好象什么都没有发生过似的。
+\family default
+）——“彼·德·费马”。
 \end_layout
 
 \begin_layout Labeling
@@ -3601,8 +3730,8 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-乌龟： 哎哎，阿基——别沮丧。我敢肯定你不会错过赋格酌最后延长记号——马上就会出现的。不过，让我们回到刚才的题目上来吧，食大夫，你提到的那个有关f¨姨庄园的前所
-有者的伤感
+乌龟： 哎哎，阿基——别沮丧。我敢肯定你不会错过赋格的最后延长记号——马上就会出现的。不过，让我们回到刚才的题目上来吧，食大夫，你提到的那个有关马姨庄园的前所有
+者的伤感
 \begin_inset Note Comment
 status open
 
@@ -3612,7 +3741,15 @@ status open
 
 \end_inset
 
-故事是怎么回事？食蚁兽：那位前所有者是位出类拔萃的人物，是有史以来最富于包造性的蚁群之一。他的名字叫蚁翰·塞巴斯蚁安·蜚蚂，一位专业数学家、业余音乐家。
+故事是怎么回事？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+食蚁兽： 那位前所有者是位出类拔萃的人物，是有史以来最富于包造性的蚁群之一。他的名字叫蚁翰·塞巴斯蚁安·蜚蚂，一位专业数学家、业余音乐家。
 \end_layout
 
 \begin_layout Labeling
@@ -3625,8 +3762,8 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 在他的创造力的颠峰期，他惨遭最不是时候的猝死。一犬，那是夏天里非常炎热的一天，他外出想去避避暑，正好赶上一场疾风暴雨——是那种一‘百年左右才会有一次的
-大暴雨一真叫是从天而降，把蚁·塞·蜚蚂淋了一个落汤蚂蚁。因为这场暴雨突如其来没有任何预兆，蚂蚁们完全晕头转向了。几十年来建立起来的如此完美的复杂机体瞬间便毁于一
+食蚁兽： 在他的创造力的颠峰期，他惨遭最不是时候的猝死。一天，那是夏天里非常炎热的一天，他外出想去避避暑，正好赶上一场疾风暴雨——是那种一百年左右才会有一次的大
+暴雨——真叫是从天而降，把蚁·塞·蜚蚂淋了一个落汤蚂蚁。因为这场暴雨突如其来没有任何预兆，蚂蚁们完全晕头转向了。几十年来建立起来的如此完美的复杂机体瞬间便毁于一
 旦。真是个悲剧。
 \end_layout
 
@@ -3640,9 +3777,13 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 实际t并没有。蚂蚁们打算重新振兴，它们中幸存的每只蚂蚁都爬到飘浮在激流洪涛上的各种树枝木棍上。可是在洪水消退、蚂蚁们重新回到它们巢穴附近的地面上时，整
-个组织已不复存在了。种姓分布已经彻底毁坏了，这些蚂蚁已无力重建曾经有过的那个协调得如此完美的组织。它们就象破碎的镜子一样不能指望重圆了。我就象所宵的媒婆月老一‘
-样，企图把可怜的蜚蚂重新撮合到一块儿。我满怀信心地放了些糖和奶酪，徒劳地希望蜚蚂也许会重斯合成……（掏出一块手帕擦他的眼睛。）
+食蚁兽： 实际上并没有。蚂蚁们打算重新振兴，它们中幸存的每只蚂蚁都爬到飘浮在激流洪涛上的各种树枝木棍上。可是在洪水消退、蚂蚁们重新回到它们巢穴附近的地面上时，整
+个组织已不复存在了。种姓分布已经彻底毁坏了，这些蚂蚁已无力重建曾经有过的那个协调得如此完美的组织。它们就象破碎的镜子一样不能指望重圆了。我就象所有的媒婆月老一样
+，企图把可怜的蜚蚂重新撮合到一块儿。我满怀信心地放了些糖和奶酪，徒劳地希望蜚蚂也许会重斯合成……（
+\family sans
+掏出一块手帕擦他的眼睛。
+\family default
+）
 \end_layout
 
 \begin_layout Labeling
@@ -3665,7 +3806,7 @@ status open
 
 \end_inset
 
-蚁·塞·蜚蚂成员的蚂蚁fl'J慢慢儿又重新组合起来，并且建立了一个新的组嫉。因此马姨就诞生了。
+蚁·塞·蜚蚂成员的蚂蚁们慢慢儿又重新组合起来，并且建立了一个新的组嫉。因此马姨就诞生了。
 \end_layout
 
 \begin_layout Labeling
@@ -3681,8 +3822,15 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 对，最初是这样的，没错儿。而现在，有些老蚂蚁已经死掉了，被替代了。但是有一些从蚁·塞·蜚蚂时代留下来的遗还活着。螃蟹：你偶而也会在马姨身上找到某些明显
-的蚁·塞·蜚蚂的旧特征吗？
+食蚁兽： 对，最初是这样的，没错儿。而现在，有些老蚂蚁已经死掉了，被替代了。但是有一些从蚁·塞·蜚蚂时代留下来的遗还活着。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 你偶而也会在马姨身上找到某些明显的蚁·塞·蜚蚂的旧特征吗？
 \end_layout
 
 \begin_layout Labeling
@@ -3712,7 +3860,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 我也没听说过——而我对这…学科是颇为精通的，也许我自己不该这么说。我怀疑龟兄不过是在打哈哈。如今我可太了解他了。
+阿基里斯： 我也没听说过——而我对这一学科是颇为精通的，也许我自己不该这么说。我怀疑龟兄不过是在打哈哈。如今我可太了解他了。
 \end_layout
 
 \begin_layout Labeling
@@ -3720,7 +3868,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 说到数论，又叫我想起了蚁·塞·蜚蚂，因为数论是他拿手的领域之一。事实上，他对数论作出过某些十分了不起酌贡献。而马姨则在任何哪怕跟数学沾一丁点儿边的事情
+食蚁兽： 说到数论，又叫我想起了蚁·塞·蜚蚂，因为数论是他拿手的领域之一。事实上，他对数论作出过某些十分了不起的贡献。而马姨则在任何哪怕跟数学沾一丁点儿边的事情
 上都极其迟钝。此外，她在音乐方面的趣味不过平平而已，而塞巴斯蚁安在音乐方面极有天才。
 \end_layout
 
@@ -3749,7 +3897,11 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-食蚁兽： 好吧。（停顿了一小会儿，呷了一口茶，然后才开始说起来。）你们听说过狒犸那个臭名昭著的¨平均验刚劲猜想”吗？
+食蚁兽： 好吧。（
+\family sans
+停顿了一小会儿，呷了一口茶，然后才开始说起来。
+\family default
+）你们听说过狒犸那个臭名昭著的¨平均验刚劲猜想”吗？
 \end_layout
 
 \begin_layout Labeling
