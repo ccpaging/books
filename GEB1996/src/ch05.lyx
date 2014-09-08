@@ -602,7 +602,7 @@ status collapsed
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -643,7 +643,7 @@ status open
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -677,7 +677,7 @@ status open
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -1470,7 +1470,7 @@ status open
 \backslash
 textcircled{
 \backslash
-footnotesize{1}}
+tiny{1}}
 \end_layout
 
 \end_inset
@@ -1517,7 +1517,7 @@ status open
 \backslash
 textcircled{
 \backslash
-footnotesize{2}}
+tiny{2}}
 \end_layout
 
 \end_inset
@@ -1565,7 +1565,7 @@ status open
 \backslash
 textcircled{
 \backslash
-footnotesize{3}}
+tiny{3}}
 \end_layout
 
 \end_inset
@@ -1626,7 +1626,7 @@ status open
 \backslash
 textcircled{
 \backslash
-footnotesize{4}}
+tiny{4}}
 \end_layout
 
 \end_inset
@@ -1685,7 +1685,7 @@ status open
 \backslash
 textcircled{
 \backslash
-footnotesize{5}}
+tiny{5}}
 \end_layout
 
 \end_inset
@@ -1748,7 +1748,7 @@ status open
 \backslash
 textcircled{
 \backslash
-footnotesize{6}}
+tiny{6}}
 \end_layout
 
 \end_inset
@@ -2568,7 +2568,9 @@ status open
 
 
 \backslash
-textcircled{1}
+textcircled{
+\backslash
+tiny{1}}
 \end_layout
 
 \end_inset
@@ -2674,7 +2676,9 @@ status open
 
 
 \backslash
-textcircled{2}
+textcircled{
+\backslash
+tiny{2}}
 \end_layout
 
 \end_inset
@@ -2871,7 +2875,9 @@ status open
 
 
 \backslash
-textcircled{3}
+textcircled{
+\backslash
+tiny{3}}
 \end_layout
 
 \end_inset

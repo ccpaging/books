@@ -4051,7 +4051,7 @@ status open
 
 \begin_layout Quote
 其中a、b、c及n取正整数，仅当
-\begin_inset Formula $n-2$
+\begin_inset Formula $n=2$
 \end_inset
 
 时有解（此时将有无穷多的三元组a、b、c满足这个方程）；但
