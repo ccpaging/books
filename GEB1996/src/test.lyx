@@ -834,6 +834,194 @@ status open
 \end_layout
 
 \begin_layout Standard
+DIY方案：仓颉造字 
+\end_layout
+
+\begin_layout Standard
+众所周知，汉字是由笔画、偏旁部首等零部件攒成的。找到正确的零部件，再以适当的方式组合在一起，就可以定制特殊的汉字。此方案为上两种方案的补充。仍以左手右中这个生僻
+字为例。 注意，需要加入
+\backslash
+usepackage{graphicx}才能正确编译。 
+\end_layout
+
+\begin_layout Standard
+LaTeX语句：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hbox{
+\backslash
+scalebox{0.7}[1]{扌}
+\backslash
+kern-.3em
+\backslash
+scalebox{0.6}[1]{中}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+语法要点：
+\end_layout
+
+\begin_layout Standard
+hbox{}：插入一个水平盒子
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+scalebox{水平缩放因子}[垂直缩放因子]{对象}
+\end_layout
+
+\begin_layout Standard
+kern:水平方向平移一个对象。与之对应，可以使用lower在垂直方向平移对象。
+\end_layout
+
+\begin_layout Standard
+整句话的意思是，插入一个水平盒子，里面先排版一个”扌”字符，它的宽度缩小到70%，高度不变。之后再排版一个”中”字符，其宽度为60%，高度为普通高度，再将这个”
+中”向左平移0.3em个单位。
+\end_layout
+
+\begin_layout Standard
+为什么”扌”的宽度为60%呢？这是因为，它的右侧是空白的，占了一部分空间，如果分配的宽度太小，会使提手旁太难看。另外，由于0.6+0.7==1.3，所以需要使之重合0.
+3，才能使之正好占100%的一个字的空间，no more, no less。 我们看一下对比效果：
+\end_layout
+
+\begin_layout Standard
+可以看出仓颉版的更自然一些。再来补充几句。
+\end_layout
+
+\begin_layout Standard
+左右结构的汉字要求”左收右放“，即，左边的字要瘦些，右边的字要肥些，搭配才好看。请看图中的“黑猫”两字的比例。
+\end_layout
+
+\begin_layout Standard
+对应语句为{特立独行的小
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hbox{
+\backslash
+scalebox{0.4}[1]{黑}
+\backslash
+kern-.05em
+\backslash
+scalebox{0.55}[1]{猫}}
+\end_layout
+
+\end_inset
+
+真好看左边为0.4，右边为0.55，缩进了0.05。如果不信可以看看”林”字，左边的”木”是不是比右边的”木”要瘦小，而且一捺也缩成了点。这种情况，如果没有合适的偏旁
+，用两个”木”生造出来的”林”字会很难看的。 反转、倒立、上下结构的也可以制作，例如：
+\end_layout
+
+\begin_layout Standard
+对应语句为：
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hbox{
+\backslash
+scalebox{-1} [1]{特}
+\backslash
+lower-1.6ex
+\backslash
+hbox{
+\backslash
+scalebox{1}[-1]{立}}}
+\end_layout
+
+\end_inset
+
+独行的
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hbox{
+\backslash
+scalebox{0.5} [0.5]{小}
+\backslash
+lower-1.0ex
+\backslash
+hbox{
+\backslash
+scalebox{1}[0.4]{黑}}
+\backslash
+lower.1ex
+\backslash
+hbox{
+\backslash
+kern-1em 
+\backslash
+scalebox{1}[0.5]{猫}}}
+\end_layout
+
+\end_inset
+
+真好看 
+\end_layout
+
+\begin_layout Standard
+好了，如果您受累读了这篇文章，欢迎进行这样的思考，权作作业： 
+\end_layout
+
+\begin_layout Standard
+半包围的字如何进行排版？例如”边”字。提示：使用kern与lower进行平移。 
+\end_layout
+
+\begin_layout Standard
+进阶作业：如何把左右结构、上下结构的模式作成宏，以便快速造字？例如：
+\end_layout
+
+\begin_layout Standard
+
+\backslash
+leftright{扌}[0.7]{手}[0.6]，（表示左边缩至70%，右边缩至60%，同时右边向左边平移0.6+0.7-1=0.3）。
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+resizebox{10pt}{10pt}{山原}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset index_print
 LatexCommand printindex
 type "idx"

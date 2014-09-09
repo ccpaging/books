@@ -1343,7 +1343,7 @@ width "55text%"
 special "none"
 height "35theight%"
 height_special "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1374,7 +1374,11 @@ C．Eccles]，《面对现实》[Facing
 \begin_inset space \space{}
 \end_inset
 
-Reality]，纽约：Springer Verlag，1970年版，第21页。]
+Reality]，纽约：Springer
+\begin_inset space \space{}
+\end_inset
+
+Verlag，1970年版，第21页。]
 \end_layout
 
 \end_inset
@@ -1663,21 +1667,24 @@ status open
 \end_layout
 
 \begin_layout Standard
-想想下面这类怪事是会有所启发的：人们能够故意构造违反物理定律的精神事件序列，只要有这种愿望。例如，如果我建议你设想这样一个场面：两辆汽车相对行孜，然后互相穿过，
-你这样做时并不感到困难。直观的物理定律可以被假想的物理定律所取代。
-\end_layout
-
-\begin_layout Standard
-但是，这种取代是如何完成的，这种想象序列是如何构造的——说到底，任何一个视觉想象是如何构造的——所有这些都厚厚地披着神秘的外衣，是我们的知识所未能达到的。
+想想下面这类怪事是会有所启发的：人们能够故意构造违反物理定律的精神事件序列，只要有这种愿望。例如，如果我建议你设想这样一个场面：两辆汽车相对行驶，然后互相穿过，
+你这样做时并不感到困难。直观的物理定律可以被假想的物理定律所取代。但是，这种取代是如何完成的，这种想象序列是如何构造的——说到底，任何一个视觉想象是如何构造的—
+—所有这些都厚厚地披着神秘的外衣，是我们的知识所未能达到的。
 \end_layout
 
 \begin_layout Standard
 不言而喻，我们大脑中所具有的组块化定律不仅仅是关于非生物的活动的，也有关于植物、动物、人和社会的活动的——即组
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+473
 \end_layout
 
-\begin_layout Standard
-4 73363块化的生物学、心理学、社会学定律，如此等等。所有这些对象的内部表示都具有组块化模型的必然特征：为保证简单性而牺牲确定性。我们对现实的表示的最终结果
-仅仅是可以预测抽象行为空间的某些局部结果的可能性——而不是以物理学的精确度预测所有的东西。
+\end_inset
+
+块化的生物学、心理学、社会学定律，如此等等。所有这些对象的内部表示都具有组块化模型的必然特征：为保证简单性而牺牲确定性。我们对现实的表示的最终结果仅仅是可以预测
+抽象行为空间的某些局部结果的可能性——而不是以物理学的精确度预测所有的东西。
 \end_layout
 
 \begin_layout Subsection*
@@ -1687,43 +1694,55 @@ status open
 \begin_layout Standard
 在人工智能研究中，对过程性知识和描述性知识进行了区分。一条知识被称为“描述性”的，条件是它是被显式存贮的，因此除了程序员外，程序也可以“读”它，就象它是一本百科
 全书或一本年鉴。这通常意味着它是编码于局部，而非分布在各处的。与此相反，“过程性”知识不是以事实的形式编码的，而仅仅以程序的形式编码。一个程序员可以看着它说，“
-我看到了因为这里有这些过程，程序就‘知道，如何写中文甸子”——但程序自身可能并没有明确意识到它是如何写这些句子的。例如，它的词汇表中可能根本就没有象“汉语”、“
-句子”、“写”这样的词j因此过程性知识通常零散地分布在各处，你对它们无法进行提取和检索。它是一个程序的工作过程的全局性结果，而不是局部的细节。换句话说，一条纯粹
+我看到了因为这里有这些过程，程序就‘知道，如何写中文句子”——但程序自身可能并没有明确意识到它是如何写这些句子的。例如，它的词汇表中可能根本就没有象“汉语”、“
+句子”、“写”这样的词！因此过程性知识通常零散地分布在各处，你对它们无法进行提取和检索。它是一个程序的工作过程的全局性结果，而不是局部的细节。换句话说，一条纯粹
 的过程性知识是一种旁效现象。
 \end_layout
 
 \begin_layout Standard
-在大多数人头脑中，关于他们的母语语法的一个强的过程性表示和一个羯的描述性表示是共存的。两者很容易发生冲突，因此本地人常常要教外国人说一些他自己从来不说的话，而这
+在大多数人头脑中，关于他们的母语语法的一个强的过程性表示和一个弱的描述性表示是共存的。两者很容易发生冲突，因此本地人常常要教外国人说一些他自己从来不说的话，而这
 些话是和他以前在学校获得的描述性的“书本知识”相一致的。前面提到的直观的或组块化的物理学和其它学科中的定律大多数是属于过程性的，而象“章鱼有八条触手”这类知识大
-多数是属于描述性的c
+多数是属于描述性的。
 \end_layout
 
 \begin_layout Standard
-在描述性和过程性这两种极端之间，存在着许多中间状态。请考虑一下回忆～个旋律时的情况。这个旋律在你的大脑中是一个
+在描述性和过程性这两种极端之间，存在着许多中间状态。请考虑一下回忆一个旋律时的情况。这个旋律在你的大脑中是一个
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+474
 \end_layout
 
-\begin_layout Standard
-4 74音符接一个音符这样存贮的吗？一个外科医生是否可能从你的脑中抽出一根弯曲的神经纤维，然后把它拉直，最终可以沿着它发现一系列存贮的音符，就好象它是一段磁带一
-样？如果是这样，那么旋律就是以描述性的方式存贮的。也许一段旋律的回忆是通过许多符号的相互作用来完成的，其中有些符号代表音调关系，有些代表情绪性质，有些代表节奏机
-制，等等。如果是这样，那么旋律就是以过程性的方式存贮的。事实上，旋律的存贮和回忆方式很可能是这两个极端的某种混合。
+\end_inset
+
+音符接一个音符这样存贮的吗？一个外科医生是否可能从你的脑中抽出一根弯曲的神经纤维，然后把它拉直，最终可以沿着它发现一系列存贮的音符，就好象它是一段磁带一样？如果
+是这样，那么旋律就是以描述性的方式存贮的。也许一段旋律的回忆是通过许多符号的相互作用来完成的，其中有些符号代表音调关系，有些代表情绪性质，有些代表节奏机制，等等
+。如果是这样，那么旋律就是以过程性的方式存贮的。事实上，旋律的存贮和回忆方式很可能是这两个极端的某种混合。
 \end_layout
 
 \begin_layout Standard
 有趣的是，在回忆一段旋律的过程中，大多数人并不区别基调，因此他们可能把“祝你生日快乐”唱成升F调，也可能唱成C调。这说明存贮的是音符关系，而不是绝对音高。但没有
-理由说音364符关系就不可能以描述性的方式存贮。另一方面，有些旋律很好记，而另一些却很容易忘。如果仅仅是存贮连续音符的问题，那存贮任何旋律的难易程度都应是一样的
-。有些旋律易记，有些不易i已，这一事实似乎说明大脑以某些熟悉模式作为“保留曲目”，一旦听到相应的旋律，它们就会被激活。因此，要再现这个旋律，那些模式就会以同样的
-次序被激活。这更容易使我们回想起符号间相互触发这一概念，而不是以描述性方式存贮的音符和音符美系的简 ‘．单线性序列。
+理由说音符关系就不可能以描述性的方式存贮。另一方面，有些旋律很好记，而另一些却很容易忘。如果仅仅是存贮连续音符的问题，那存贮任何旋律的难易程度都应是一样的。有些
+旋律易记，有些不易记，这一事实似乎说明大脑以某些熟悉模式作为“保留曲目”，一旦听到相应的旋律，它们就会被激活。因此，要再现这个旋律，那些模式就会以同样的次序被激
+活。这更容易使我们回想起符号间相互触发这一概念，而不是以描述性方式存贮的音符和音符美系的简单线性序列。
 \end_layout
 
 \begin_layout Standard
 大脑是怎么知道一条知识是否是以描述性的方式存贮的？例如，假设有人问你：“广州的人口总数是多少？”五百万这个数目会以某种方式出现在你的脑海里，而用不着你去琢磨：“
-我怎样才能去把他们都数一遍呢？”现在假设我问你：“你的房间里有几把椅子？力在这里，相反的情况出现了——你大会试图把答案从脑中的资料库里挖出来，而是立即回屋去数一
-遍◆或是在脑海中构造你的屋子，然后在想象的屋子里清点椅子的数目。这两个问题是同一类的——“有多少？”——但一个问题致使‘条描述性的知识被取出．
+我怎样才能去把他们都数一遍呢？”现在假设我问你：“你的房间里有几把椅子？”在这里，相反的情况出现了——你不会试图把答案从脑中的资料库里挖出来，而是立即回屋去数一
+遍，或是在脑海中构造你的屋子，然后在想象的屋子里清点椅子的数目。这两个问题是同一类的——“有多少？”——但一个问题致使一条描述性的知识被取出
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+475
 \end_layout
 
-\begin_layout Standard
-175而另一个致使一个寻找答案的过程化方法被调用。这个例子清楚地表明，你有关于怎样对你自己的知识进行分类的知识。而且，某些这种元知识本身可能是以过程性方式存贮的
-，因此你在使用它们的时候，甚至可能并不了解它们是如何工作的。
+\end_inset
+
+而另一个致使一个寻找答案的过程化方法被调用。这个例子清楚地表明，你有关于怎样对你自己的知识进行分类的知识。而且，某些这种元知识本身可能是以过程性方式存贮的，因此
+你在使用它们的时候，甚至可能并不了解它们是如何工作的。
 \end_layout
 
 \begin_layout Subsection*
@@ -1732,45 +1751,39 @@ status open
 
 \begin_layout Standard
 意识最值得注意、也最难以描述的性质之一就是视觉表象。我们是怎样构造一个视觉表象，以表示我们的房间、或一条喧闹的山间溪流、或一个桔子的？更神秘的是，我们是怎样不自
-觉地构造对我们的思维起引导作用的表象，并赋予它们力量、，色彩和深度的？
+觉地构造对我们的思维起引导作用的表象，并赋予它们力量、色彩和深度的？它们是从什么样的存贮器中提取出来的？是什么样的魔力使我们能捕获两三个表象，但又可以不管这是如
+何完成的？由于我们对心理表象的实质几乎一无所知，因此关于它的实现方式的知识可能具有很强的过程性。
 \end_layout
 
 \begin_layout Standard
-它们是从什么样的存贮器中提取出来的？是什么样的魔力使我们能捕获两三个表象，但又可以不管这是如何完成的？由于我们对心理表象的实质几乎一无所知，因此关于它的实现方式
-的知识可能具有很强的过程性。
-\end_layout
-
-\begin_layout Standard
-表象有可能是基于我们对运动行为的抑制能力的。这就是说，
-\end_layout
-
-\begin_layout Standard
-一旦你想象出一只桔子，在你的皮层中可能产生一系列命令，如拿起它、闻闻它、查看它、等等。很明显这些命令不能被执行，因为实际上并没有桔子。但它们pJ以沿通常的渠道被
-送至小脑或脑的其它子器官，直到一个¨精神龙头”在某临界点被拧紧．阻止它们的实际执行。这个表象可能具有或多或少的生动性和似真性，这取决于那个“龙关”装在管线的多远
-处。愤怒可以使我们生动地想象怎样365捡起某个东西扔出去，或踢某些东西一脚，虽然我们事实上并没有这样做。在另一方面，我们觉得与实际这样做非常接近。也许那个龙头“
-在最后的时刻”堵住了神经脉冲。
+表象有可能是基于我们对运动行为的抑制能力的。这就是说，一旦你想象出一只桔子，在你的皮层中可能产生一系列命令，如拿起它、闻闻它、查看它、等等。很明显这些命令不能被
+执行，因为实际上并没有桔子。但它们可以沿通常的渠道被送至小脑或脑的其它子器官，直到一个“精神龙头”在某临界点被拧紧．阻止它们的实际执行。这个表象可能具有或多或少
+的生动性和似真性，这取决于那个“龙关”装在管线的多远处。愤怒可以使我们生动地想象怎样捡起某个东西扔出去，或踢某些东西一脚，虽然我们事实上并没有这样做。在另一方面
+，我们觉得与实际这样做非常接近。也许那个龙头“在最后的时刻”堵住了神经脉冲。
 \end_layout
 
 \begin_layout Standard
 视觉化还能以另一种方式指出可达知识和不可达知识之间的区别。想一想你是怎样想象那个自行车撞上汽车的场面的。毫无疑问，你把汽车想象得比自行车大得多。这是否由于以前你
 曾注意
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+476
+\end_layout
+
+\end_inset
+
+到“汽车比自行车大”，然后把它牢记在心，当想象前述场面时，你又取出了这个事实，并在构造表象时把它用上了？这种解释不象是真的。也许这是你大脑中某些活跃符号的内省的
+、不为人知的相互作用的产物？显然这种解释的可能性要大得多。“自行车比汽车小得多”，这条知识不是机械记忆的一部分，而是一条可以通过演绎得到的知识。因此，它很可能不
+是存在你大脑中的某个符号里，而是作为许多符号的激活和相互作用的结果出现——例如，这些符号可能分别对应于“比较”、“大小”、“汽车”、“自行车”，也许还有别的。这
+说明知识不是显式存贮的，不是一个局部的“信息包”，而是以一种分布的方式隐式存贮的。关于对象的相对大小这种简单事实必定是装配而成的，而非仅仅提取出来。因此，即使是
+词语可达的知识，也要以复杂得不可达的过程为媒介，才能到达可以用语言表达的状态。
 \end_layout
 
 \begin_layout Standard
-4 7 6到“汽车比自行车大”，然后把它牢记在心，当想象前述场面时，你又取出了这个事实，并在构造表象时把它用上了？这种解释不象是真的。也许这是你大脑中某些活跃符
-号的内省的、不为人知的相互作用的产物？显然这种解释的可能性要大得多。“自行车比汽车小得多”，这条知识不是机械记一Z的一部分，而是一条可以通过演绎得到的知识。因此
-，它很可能不是存在你大脑中的某个符号里，而是作为许多符号的激活和相互作用的结果出现——例如，这些符号可能分别对应于“比较”、“大小”、“汽车”、“自行车”，也许
-还有别的。这说明知识不是显式存贮的，不是一个局部的“信息包”，而是以一种分布的方式隐式存贮的。关于对象的相对大小这种简单事实必定是装配而成的，而非仅仅提取出来。
-因此，即使是词语可达的知识，也要以复杂得不可达的过程为媒介，才能到达可以用语言表达的状态。
-\end_layout
-
-\begin_layout Standard
-在其它章节中，我们仍将继续探讨这种被称为“符号”的实体。
-\end_layout
-
-\begin_layout Standard
-在关于人工智能的第十八、十九章中，我们将讨论一些用程序实现活跃符号的可能方式。下一章里，我tI’：要讨论的是基于符号的大脑模型所给出的、关于大脑之间比较的一些看
-法。
+在其它章节中，我们仍将继续探讨这种被称为“符号”的实体。在关于人工智能的第十八、十九章中，我们将讨论一些用程序实现活跃符号的可能方式。下一章里，我们要讨论的是基
+于符号的大脑模型所给出的、关于大脑之间比较的一些看法。
 \end_layout
 
 \begin_layout Section-toc*
@@ -1778,6 +1791,7 @@ status open
 \end_layout
 
 \begin_layout Standard
+\noindent
 By
 \begin_inset space \space{}
 \end_inset
@@ -1821,6 +1835,10 @@ Library，1960年版。这一版本包括了英、法、德三种文本。德文
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 …et
 \begin_inset space \space{}
 \end_inset
@@ -1847,6 +1865,14 @@ status open
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 …und
 \begin_inset space \space{}
 \end_inset
@@ -1869,8 +1895,20 @@ status open
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 …及
-\begin_inset space \space{}
+\begin_inset space \quad{}
 \end_inset
 
 赵元任
@@ -1898,84 +1936,258 @@ status open
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 'Twas brillig, and the slithy toves
 \end_layout
 
 \begin_layout Standard
+\noindent
 Did gyre and gimble in the wabe:
 \end_layout
 
 \begin_layout Standard
+\noindent
 All mimsy were the borogoves,
 \end_layout
 
 \begin_layout Standard
+\noindent
 And the mome raths outgrabe.
 \end_layout
 
 \begin_layout Standard
-Il brilgue: les toves lubricilleux
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Se gyrent- en vrillant dans le guave.r ^
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+Il brilgue: les tȏves lubricilleux
 \end_layout
 
 \begin_layout Standard
-Enmimes sont lesgougebosqueux
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+Se gyrent en vrillant dans le guave.
 \end_layout
 
 \begin_layout Standard
-Et le momerade horsgrave.
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+Enmȋmés sont lesgougebosqueux
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+Et le mȏmerade horsgrave.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Es brillig war.
  Die schlichten Toven
 \end_layout
 
 \begin_layout Standard
-Wirrten unci wimmelten in Waben;
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+Wirrten und wimmelten in Waben;
 \end_layout
 
 \begin_layout Standard
-IJnd aller-miimsige Burggoven
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+Und aller-mümsige Burggoven
 \end_layout
 
 \begin_layout Standard
-Die mohmen Rath'ausgraben.
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+Die mohmen Räth'ausgraben.
 \end_layout
 
 \begin_layout Standard
-有（一）天点里，那些活济济的狗子
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-在1王边儿尽着那么跌那么奄；
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+有（一）天点里，那些活济济的㺄子
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+在卫边儿尽着那么跌那么覔；
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hbox{
+\backslash
+scalebox{0.7}[1]{扌}
+\backslash
+kern-.3em
+\backslash
+scalebox{0.6}[1]{中}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 好难四儿啊，那些鹁鹩鹕子，
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 还有蛮的猎子怄得格儿。
 \end_layout
 
 \begin_layout Standard
-6'Beware the Jabbcrwock, my son!
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-The jaws that bitc, the claws that catch!
+\noindent
+\begin_inset Quotes eld
+\end_inset
+
+Beware the Jabberwock, my son!
 \end_layout
 
 \begin_layout Standard
-Beware the Jubjub bird, and s.hun
+\noindent
+The jaws that bite, the claws that catch!
 \end_layout
 
 \begin_layout Standard
-The frumious Bandersnatch ! "
+\noindent
+Beware the Jubjub bird, and shun
+\end_layout
+
+\begin_layout Standard
+\noindent
+The frumious Bandersnatch!”
 \begin_inset Note Comment
 status open
 
@@ -1989,95 +2201,290 @@ status open
 \end_layout
 
 \begin_layout Standard
-《Garde-toi du Jaseroque, mon fils !
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-1I.a gueule (IL.ii rnord.
- la griffc qui prend!
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+《Garde-toi du Jaseroque, mon fils!
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+La gueule qui mord; la griffe qui prend!
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Garde-toi de l'oiseau Jube, evite
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Le frumieux Band-a-prend ! 》
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 》Bewahre cioch vor Jammerwoch !
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Die Zahne knirschen, Krallen kratzen!
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Bewahr' vor Jubjub--Vogel, vor
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Frumiosen Banderschnatzchen!《
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 “小心那炸脖嚏，我的孩子！
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 那咬入的牙，那抓人的爪子！
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 小心那诛布诛布鸟，还躲开
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 那符命的般得佤子！”
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 He too his vorpal swcrd in hand:
 \end_layout
 
 \begin_layout Standard
+\noindent
 l.ong time the manxome foe he sought----
 \end_layout
 
 \begin_layout Standard
+\noindent
 So rested he by the Tumtum tree,
 \end_layout
 
 \begin_layout Standard
+\noindent
 Anct stooci awhile in thought.
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Son glaive vorpal en main, il va-
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 T-a la recherche du fauve manscant:
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Puis arrive a l'arbre Tc:-t6,
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Il y restc 9 reflechissant.
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Er griff sein vorpals Schwertchen zu,'
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Er suchte lang das manchsam' Ding;
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Dann9 stchcnd unterm Tumtum Baum,
 \begin_inset Note Comment
 status open
@@ -2092,174 +2499,564 @@ status open
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Er an-zu-denken-fing.
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 他手拿着一把佛盘剑：
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 他早就要找那个蛮松蟒
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 他就躲在一棵屯屯树后面，
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 就站得那儿心里头想。
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 And, as in uffish thought he stoocl,
 \end_layout
 
 \begin_layout Standard
+\noindent
 The Jabberwock, with eyes of flame,
 \end_layout
 
 \begin_layout Standard
+\noindent
 Came whiffling through the tulgey wood,
 \end_layout
 
 \begin_layout Standard
-And burbled as it came!4 80
+\noindent
+And burbled as it came!
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+480
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Pendant qu'il pense, tout uffuse,
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Le Jaseroque, a l'oeil flambant,
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Vient siblant par le bois tullegeais,
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Et burbule en venant.
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Als stand er rief in Andacht auf,
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Des Jammerwochen's Augen-feuer
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Durch turgen Wald mit Wiffek kam
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Ein burbelndUngeheuer:
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 他正在那儿想的个鸟飞飞，
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 那炸脖毙，两个灯笼的眼，
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 且秃儿丐林子里夫雷雷
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 又渤波儿波儿的出来撵。
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 One9 two! One, Two! And through and through
 \end_layout
 
 \begin_layout Standard
+\noindent
 The vorpal blade went snicker-snack !
 \end_layout
 
 \begin_layout Standard
+\noindent
 He left it dead, and with its head
 \end_layout
 
 \begin_layout Standard
+\noindent
 He went galumphing back.
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Un deux, un deux, par le milieu,
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Le glaive vorpal fait pat-a-pan!
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 La bete defaite, avec sa tete,
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Il rentre gallomphant.
 \end_layout
 
 \begin_layout Standard
-Eins, Zwei! Eirrs9 Zwei! Und durch uncl durch
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+Eins, Zwei! Eins, Zwei! Und durch und durch
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Sein vorpals Schwert zerschnifer-schnuck,
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Da blieb es todt! Er, Kopf in Hand,
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Gelaumfig zog zuri,ck.
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 左，右！左，右！透了又透，
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 那佛盘剑砍得欺哩咔喳！
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 他割了他喉，他拎了他头，
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 就一嘎隆儿的飞恩了回家。
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 "And bast thou slain the Jabberwock?
 \end_layout
 
 \begin_layout Standard
+\noindent
 Come to my arms, my beamish boy!
 \end_layout
 
 \begin_layout Standard
+\noindent
 O frabjous day! Callooh ! Callay ! "
 \end_layout
 
 \begin_layout Standard
+\noindent
 He chortled in his joy.
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 《As-tu tue le Jaseroque?
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Viens a mon coeur, fils rayonnais !
 \begin_inset Note Comment
 status open
@@ -2274,90 +3071,278 @@ status open
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 {680 jour frabbejais! Calleau! Callai! 》
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Il cortuls dans sa joie.
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 》Unci schlugst Du ja den Jammerwoch?
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Umarme mich, mein Bohm'sches Kind!
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 O Freuden-Tag! O Halloo-Schlag!《
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Er schortelt froh-gesinnt.
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 “你果然斩J，那炸脖鞋了吗？
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 好孩子快来罢，你真比阿灭！
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 啊，乏比哦的日子啊，喝攸！喝喂！”
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 他快活的啜个得儿的飞唉。
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
 'Twas brillig, and the slithy toves
 \end_layout
 
 \begin_layout Standard
+\noindent
 Did gyre and gimble in the wabe:
 \end_layout
 
 \begin_layout Standard
+\noindent
 All mirnsy were the borogoves,
 \end_layout
 
 \begin_layout Standard
+\noindent
 And the momc raths outgrabe.
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Il brilgue: les toves lubricilleux
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Se gyrent en vrillant dans le guave.
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Enmimes sont les gougebosqueux
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
 Et le momerade horsgrave.
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Es brillig war.Die schlichten Toven
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Wirrten und wimmelten in Waben;
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Und aller-mumsige Burggoven
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 Die mohmen Rath' ausgraben.
 \begin_inset Note Comment
 status open
@@ -2372,23 +3357,93 @@ status open
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 有（一）天烹里，那些活济济的㺄子
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 在卫边儿尽着那么跌那么甭；
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
 好难四儿啊，那些鹁鹊鹤子．，
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 还有寮的猪子怄得格儿。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+483
 \end_layout
 
-\begin_layout Standard
-4 8 3
+\end_inset
+
+
 \end_layout
 
 \end_body
