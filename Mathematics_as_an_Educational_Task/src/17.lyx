@@ -127,16 +127,7 @@
 
 \begin_layout Standard
 如果函数是用图象来描述的，那么微商和积分的几何意义就是斜率和（图象下方的）面积。在数值的途径中，这些概念只是模糊地显露出极限的意思；而在图象的途径中，它们给人的
-第一印象便是现成的对象，只有在这里，学生才被迫把它们分析和理解成极限
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-这是把直观事物数学化的一个典型例子。图象的斜率是指切线的斜率，而切线是割线的极限，换句话说，图象在某一点的斜率就是逼近那点的那些区间平均斜率的极限。由曲线围成的
+第一印象便是现成的对象，只有在这里，学生才被迫把它们分析和理解成极限——这是把直观事物数学化的一个典型例子。图象的斜率是指切线的斜率，而切线是割线的极限，换句话说，图象在某一点的斜率就是逼近那点的那些区间平均斜率的极限。由曲线围成的
 平面区域的面积是近似多边形面积的极限，它们是有向面积，位于x轴下方的部分，即负的函数值导致面积为负，并规定积分路线颠倒时，积分要变号。按照这一约定，即使
 \begin_inset Formula $a$
 \end_inset
@@ -3126,16 +3117,7 @@ status open
 \end_inset
 
 同阶。比较这两种结果，显然后者的近似程度更好些，于是自然产生了一个问题：是否能用更高阶的多项式函数图象代替每一小区间上的函数图象以提高精确度昵？这一问题的深入研
-究产生了一个数学分支
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-插值理论。我们还可以思考一个类似的问题：如果用数值方法对一个用表格表示的函数求导，能否可用类似的方法提高精确度？
+究产生了一个数学分支——插值理论。我们还可以思考一个类似的问题：如果用数值方法对一个用表格表示的函数求导，能否可用类似的方法提高精确度？
 \end_layout
 
 \begin_layout Section
@@ -4408,16 +4390,7 @@ height "1pt"
 \begin_inset Formula $\varepsilon$
 \end_inset
 
-。”这正是连续的反面
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-不连续的定义。当然，在此之前学生应该已会对量词表示否定了。在介绍“不连续”概念时，要尽量借助函数图象，如寄信所付邮资的函数图象等。当学生熟悉了量词符号后，要尽量
+。”这正是连续的反面——不连续的定义。当然，在此之前学生应该已会对量词表示否定了。在介绍“不连续”概念时，要尽量借助函数图象，如寄信所付邮资的函数图象等。当学生熟悉了量词符号后，要尽量
 让他们多使用，尤其是要能准确地表示量词的否定。
 \end_layout
 
@@ -4521,16 +4494,7 @@ height "1pt"
 \end_layout
 
 \begin_layout Section
-中学微积分的发展
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-关于微积分的基础
+中学微积分的发展——关于微积分的基础
 \end_layout
 
 \begin_layout Standard
@@ -4867,16 +4831,7 @@ $
 \end_layout
 
 \begin_layout Section
-中学微积分的发展
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-关于三角函数
+中学微积分的发展——关于三角函数
 \end_layout
 
 \begin_layout Standard
@@ -5190,16 +5145,7 @@ status open
 \end_layout
 
 \begin_layout Section
-中学微积分的发展
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-体系之外的知识
+中学微积分的发展——体系之外的知识
 \end_layout
 
 \begin_layout Standard

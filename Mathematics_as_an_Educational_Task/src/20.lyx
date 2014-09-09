@@ -348,16 +348,7 @@ status open
 
 是其中最突出的一本，这不仅是由于它的规格要比其他著作高，而且也因为它在最后一章里集中讨论了许多数学内容。在读他的其他著作时，人们往往会跳过那些几乎没法读懂的有关
 数学的讨论内容，而在读到E的最后一章时，却无法回避这些集中的数学内容。我从这一章中摘选了一节内容，以便读者了解它的本来面目。我的译文可能不那么流畅，因为我不是一
-名专业翻译家
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-一旦当了专业翻译家，那就往往得翻译一些他本人根本不懂的东西了。下述段落摘自E的第566页到570页，其内容是皮亚杰所谓的构成欧氏空间的八种亚逻辑（infralo
+名专业翻译家——一旦当了专业翻译家，那就往往得翻译一些他本人根本不懂的东西了。下述段落摘自E的第566页到570页，其内容是皮亚杰所谓的构成欧氏空间的八种亚逻辑（infralo
 gical）运算。
 \end_layout
 
@@ -447,16 +438,7 @@ des
 \begin_inset space \space{}
 \end_inset
 
-déplacements
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-这样看来，第一类运算是分离和合并，第二类是空间图形或部分空间的位移，例如直线上两段的换位。但是，在groupe
+déplacements——这样看来，第一类运算是分离和合并，第二类是空间图形或部分空间的位移，例如直线上两段的换位。但是，在groupe
 \begin_inset space \space{}
 \end_inset
 
@@ -817,16 +799,7 @@ status open
 \begin_inset Formula $b'_{2}$
 \end_inset
 
-都是恒同的
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-黑点所在的平行性显然保证了这种定性的相等
+都是恒同的——黑点所在的平行性显然保证了这种定性的相等
 \begin_inset Foot
 status open
 
@@ -847,16 +820,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-（原注）垂直方向的联系并不是这一理论的必要环节。但它在二维情况下是由对应方向的极大对立原则给出的
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-现作者注：根据作者的意思，在这一水平上的儿童不可能对不同方向上的区间作比较，尽管他们能通过比较不同方向上的区间得出垂直的概念。
+（原注）垂直方向的联系并不是这一理论的必要环节。但它在二维情况下是由对应方向的极大对立原则给出的——现作者注：根据作者的意思，在这一水平上的儿童不可能对不同方向上的区间作比较，尽管他们能通过比较不同方向上的区间得出垂直的概念。
 \end_layout
 
 \end_inset
@@ -1009,16 +973,7 @@ status open
 
 \end_inset
 
-描述过的八组形式的原因；从运算思想的功能一致性观点看，这种吻合是相当有趣的。在这一思维过程中，“八”这个数毋宁说是下述组合的一个任意的代表
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-这些组合正是根据定性的内包联系所可能有的全部组合：把元素或类（i）以及关系（ii）的简单序列相加；按各种可能的方向把它们相加，从而得出类和元素体系（iii）的互
+描述过的八组形式的原因；从运算思想的功能一致性观点看，这种吻合是相当有趣的。在这一思维过程中，“八”这个数毋宁说是下述组合的一个任意的代表——这些组合正是根据定性的内包联系所可能有的全部组合：把元素或类（i）以及关系（ii）的简单序列相加；按各种可能的方向把它们相加，从而得出类和元素体系（iii）的互
 反性，并构造对称关系（iv），以及将它们相乘，亦即以类或元素（V）或关系（vi）的双重单值对应为工具，或以类和元素（vii）或关系（viii）的多重单值对应为工
 具，把两个或多个可相加序列结合进二维或多维的网格中去。由于从非对称和对称的对立导致的双重单值对应和多重单值对应的本质区别，我们最终得到了如下的组合：
 \end_layout
@@ -1545,16 +1500,7 @@ status open
 
 \begin_layout Plain Layout
 但是，存在着很奇怪的不一致的情形。N的第一，二、四章中，被试者除了在作比较的情况外，都不懂plus（更多）和moins（更少）的意思。但是在第三章中，同样年龄的
-儿童却又很熟悉这些词
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-虽说他们对作比较的情形也较生琉。这是什么原因呢？是因为第二组的儿童进行过使用plus，moins的训练呢，还是因为实验者不同，致使编写原则也不一致了呢？
+儿童却又很熟悉这些词——虽说他们对作比较的情形也较生琉。这是什么原因呢？是因为第二组的儿童进行过使用plus，moins的训练呢，还是因为实验者不同，致使编写原则也不一致了呢？
 \end_layout
 
 \end_inset
@@ -1698,16 +1644,7 @@ chose？”（还是一样么？）（N，64）。对于“它们一样吗？”
 
 \begin_layout Standard
 如果问一个大人，是棕色珠子多，还是木珠子多（棕色珠子都是木珠子），他就会反问：“你是不是指其他的那些木珠子？”同样，有关花的问题，他会问：“你是不是指报春花比其
-他的花多？黄花比其他颜色的花多？”这种将木珠子与棕色珠子，花与报春花相提并论的做法，在日常语言中是被看作明显的错误的
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-虽然它们有时被用来开玩笑，或是用来表示一种贬意，诸如“狗尾巴比狗长”或是“人与黑人”等等。实验者利用这些错误的句法结构对儿童耍把戏。但是，如果儿童竟然也敢这么随
+他的花多？黄花比其他颜色的花多？”这种将木珠子与棕色珠子，花与报春花相提并论的做法，在日常语言中是被看作明显的错误的——虽然它们有时被用来开玩笑，或是用来表示一种贬意，诸如“狗尾巴比狗长”或是“人与黑人”等等。实验者利用这些错误的句法结构对儿童耍把戏。但是，如果儿童竟然也敢这么随
 意乱说，例如他们也说“花与报春花”的话，作者就会评论说：照孩子们这么说法，“似乎报春花不是花了”（L，130）。为什么不能允许儿童也犯一犯他们看到的大人犯过的语
 言“错误”呢？为什么不能在实验者提出错误的问题之后，也让儿童有权思考“似乎报春花不是花”，然后再按实验者是指“其他的花”这个问题的情况来回答这个问题呢？从这些实
 验完全看不出它们是在测试对包含关系是否掌握，实际上还不如说它们是在对语言行为进行测试。G·A·科恩斯坦姆（Kohnstamm）
@@ -1806,16 +1743,7 @@ Quelques
 \begin_inset space \space{}
 \end_inset
 
-tulipes（一些郁金香〉
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-法语中不存在两个不同的词分别对应于英语中的some和a
+tulipes（一些郁金香〉——法语中不存在两个不同的词分别对应于英语中的some和a
 \begin_inset space \space{}
 \end_inset
 

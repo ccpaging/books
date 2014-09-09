@@ -14,7 +14,8 @@ Preamble
     \RequirePackage{xkeyval}
     
     % 设置字体
-    \RequirePackage[boldfont,slantfont,CJKnumber,CJKchecksingle,fallback]{xeCJK} % 允许粗体,斜体,支持\CJKnumber{\thechapter}
+    \RequirePackage{zhnumber} % 支持\zhnumber{\thechapter}
+    \RequirePackage[boldfont,slantfont,CJKchecksingle,fallback]{xeCJK} % 允许粗体,斜体
 	\setmainfont{Komika Text}
     \setCJKmainfont{方正北魏楷书_GB18030}
     
@@ -34,6 +35,10 @@ Preamble
 
     % 调整一个段落的左右缩进
     \usepackage{changepage}
+
+    % 首行缩进
+    \usepackage{indentfirst}
+    \setlength{\parindent}{2em}
 
     % 定制目录格式
     \RequirePackage{titletoc}
@@ -67,8 +72,8 @@ Preamble
     % 章节标题
     \renewcommand{\chaptername}{}
     %\renewcommand\thechapter{\arabic{chapter}}
-    \renewcommand\thechapter{第\CJKnumber{\arabic{chapter}}章}
-    %\renewcommand{\chaptername}{第\CJKnumber{\thechapter}章}
+    \renewcommand\thechapter{第\zhnumber{\arabic{chapter}}章}
+    %\renewcommand{\chaptername}{第\zhnumber{\thechapter}章}
     \titleformat{\chapter}[display] % display 序号和标题分别占用两行
         {\Large\bfseries\raggedleft}  % format 标题格式
         {\starmark \thechapter}               % label 用于定义定义标题的标签,就是标题内容前面的标号

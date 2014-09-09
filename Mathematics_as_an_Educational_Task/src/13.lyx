@@ -81,16 +81,7 @@
 \begin_body
 
 \begin_layout Chapter
-数的概念的发展
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-代数方法
+数的概念的发展——代数方法
 \end_layout
 
 \begin_layout Standard
@@ -1016,16 +1007,7 @@ b，c，……总是表示字母本身或文恩图中的位置。将
 \begin_inset Formula $b$
 \end_inset
 
-是同一东西的必然推论，不必求助于繁琐的公理，那只是一种伪严密性。如果愿意更为形式地描述相等的概念，不妨借用莱布尼兹（Leibniz）的著名定义
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-两个对象是相同的，如果它们所有的性质都相同；两个对象是不相同的：如果它们至少有一个性质不同。我并非建议将以上分析用于中学数学，我只是希望作者与教师应该深思这些问
+是同一东西的必然推论，不必求助于繁琐的公理，那只是一种伪严密性。如果愿意更为形式地描述相等的概念，不妨借用莱布尼兹（Leibniz）的著名定义——两个对象是相同的，如果它们所有的性质都相同；两个对象是不相同的：如果它们至少有一个性质不同。我并非建议将以上分析用于中学数学，我只是希望作者与教师应该深思这些问
 题。 
 \end_layout
 

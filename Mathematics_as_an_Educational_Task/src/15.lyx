@@ -109,16 +109,7 @@
 \begin_layout Standard
 那么，有没合讲解集合论的新方法呢？回答是肯定的。我们可以采用通常处理数或处理几何图形的那种方法去教，就像我们不需要去解释数是什么，点是什么，我们也不必去明确定义
 集合是什么。有人会提出，这两者是不同的，譬如，我们可用集合的一些概念，如基数，去定义数，因此，集合才是最基础的概念。我认为，采用演绎的方法去定义数是一种错误的教
-学法，就如不必去定义呼吸是什么，走路、游泳是什么一样，人们只要作一些观察，都会学着去做，事实上，作明确的定义是旧时的方法论的特征，这就是集合论解释的一个极端
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-形式的伪定义。
+学法，就如不必去定义呼吸是什么，走路、游泳是什么一样，人们只要作一些观察，都会学着去做，事实上，作明确的定义是旧时的方法论的特征，这就是集合论解释的一个极端——形式的伪定义。
 \end_layout
 
 \begin_layout Standard
@@ -1029,16 +1020,7 @@ status open
 \end_layout
 
 \begin_layout Section
-结构化的全集
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-小世界
+结构化的全集——小世界
 \end_layout
 
 \begin_layout Standard

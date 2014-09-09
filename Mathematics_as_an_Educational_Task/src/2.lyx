@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass 作为教育任务的数学
@@ -12,13 +12,13 @@
 \font_roman 方正北魏楷书_GB18030
 \font_sans 方正北魏楷书_GB18030
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -40,15 +40,24 @@
 \pdf_quoted_options "colorlinks=true,linkcolor=blue"
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -97,25 +106,7 @@
 \begin_layout Standard
 不久前，在一次数学讨论会上，一位青年人在他的报告中说：“这可从石器时代的一条定理得到……”。如果我没有搞错的话，他所指的定理才不过是20年前的事。一位年长的听众
 便打断了他的话：“你指的是新石器时代吗？”事实上，石器时代何时结束，在地球上各个地区显然并不相同，他那么说似乎直到现在还有人生活在石器时代似的。类似地，在数学里
-，许多世代
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-前天、今天和明天
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-会同时并存。人们对新事物接受的快慢程度各不相同，年轻人比年长者更易接受新事物。
+，许多世代——前天、今天和明天——会同时并存。人们对新事物接受的快慢程度各不相同，年轻人比年长者更易接受新事物。
 \end_layout
 
 \begin_layout Standard
@@ -126,25 +117,7 @@ height "1pt"
 
 \begin_layout Standard
 的确，在1930年前，并非所有的大学，甚至也不是多数大学都讲授这些题材，更不必说像数学基础、李（Lie）群这样的课了（这两门课在我读的大学里是有的），但这不是主
-要的，问题不在于这些课程开不开，而在于怎样开。从今天大量的或多或少雷同的教科书中所见到的
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-线性代数代替了老的解析几何与行列式；抽象代数代替了传统的复数域上的代数；微积分受到了泛函分析的影响等等
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-这样一类新的课程大致是1935年开始开设的，约在1950年，这些新课程就在大学教育中占了上风，至迟在1935年，它们已在大学里普及。
+要的，问题不在于这些课程开不开，而在于怎样开。从今天大量的或多或少雷同的教科书中所见到的——线性代数代替了老的解析几何与行列式；抽象代数代替了传统的复数域上的代数；微积分受到了泛函分析的影响等等——这样一类新的课程大致是1935年开始开设的，约在1950年，这些新课程就在大学教育中占了上风，至迟在1935年，它们已在大学里普及。
 \end_layout
 
 \begin_layout Section
@@ -153,25 +126,7 @@ height "1pt"
 
 \begin_layout Standard
 应该说，大学数学系与物理系一年级学生所需要的数学基础知识在内容上都不是新的，只是新在表达方式上。为要了解数学方式在这几十年的变化，可以拿本世纪初所写的一本书或一
-篇文章逐字逐句地读，并尝试用今天的语言把它表述出来就会知道的。诚然，那时也有一些书
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-例如1914年豪斯道夫（Hausdortff）写的《集合论》
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-读起来就像是昨天才写成的，但它们是新方式的传播者。只要拿豪斯道夫的书同申弗利斯（Schoenflies）写的同样内容的书《通论》（Berichte）作一比较，就
+篇文章逐字逐句地读，并尝试用今天的语言把它表述出来就会知道的。诚然，那时也有一些书——例如1914年豪斯道夫（Hausdortff）写的《集合论》——读起来就像是昨天才写成的，但它们是新方式的传播者。只要拿豪斯道夫的书同申弗利斯（Schoenflies）写的同样内容的书《通论》（Berichte）作一比较，就
 会知道豪斯道夫的书的先进性了。自然，方式改变的历史至今尚未终结。这种可以称之为形式化（formalizing）的新倾向也许只是才开始。到本世纪末，读起本世纪初所
 写的数学文献来可能像读古文一样。
 \end_layout
@@ -179,25 +134,7 @@ height "1pt"
 \begin_layout Standard
 在这段时期里，进行数学活动与创作的人中，很少人会自觉地意识到这种方式的改变，但是，如果他们拿自己过去的著作同他们今天的著作作一比较，就会发现其中有了很大的变化。
 我记得我在大学读书时，在一堂数学课中，一位学员指出，课中的某些定理可以用群论去解释和证明，对此，教师摇摇头说：“它们之间毫无关系。”而在今天，在证明这些性质时，
-没有人不用群论。直到我读完大学以后才知道伽罗华域
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-以前的人是这样称呼有限域的
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-原来是体（körper）。我读一年级时，有三门不同的课程都讲线性相关与线性无关的概念，讲的是不同的内容，用着三种不同的术语，这使我感到震惊，但不敢相信它们会是相
+没有人不用群论。直到我读完大学以后才知道伽罗华域——以前的人是这样称呼有限域的——原来是体（körper）。我读一年级时，有三门不同的课程都讲线性相关与线性无关的概念，讲的是不同的内容，用着三种不同的术语，这使我感到震惊，但不敢相信它们会是相
 同的东西。当我记起坐标变换有时由于某种神秘的原因而变为“逆步”
 \begin_inset Foot
 status open
@@ -223,16 +160,7 @@ status open
 \begin_inset Formula $f$
 \end_inset
 
-的逆步
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-编译者注。
+的逆步——编译者注。
 \end_layout
 
 \end_inset
@@ -241,16 +169,7 @@ height "1pt"
 \end_layout
 
 \begin_layout Section
-方式的改变
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-变量
+方式的改变——变量
 \end_layout
 
 \begin_layout Standard
@@ -331,30 +250,12 @@ height "1pt"
 \begin_inset Formula $P$
 \end_inset
 
-”这样的命题的影响。但是从另一角度看，这也是一种因循，而只要我们懒得去为一些重要的基础概念
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-诸如拓扑空间集、群集、连续函数集、作为点集的射影平面集等等引进简捷的名称或适当的缩写，这种因循的现象也就会继续存在下去。这种因循的现象在口头上还是常见的，但近年
+”这样的命题的影响。但是从另一角度看，这也是一种因循，而只要我们懒得去为一些重要的基础概念——诸如拓扑空间集、群集、连续函数集、作为点集的射影平面集等等引进简捷的名称或适当的缩写，这种因循的现象也就会继续存在下去。这种因循的现象在口头上还是常见的，但近年
 来在书面上则已少见了。
 \end_layout
 
 \begin_layout Section
-方式的改变
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-函数
+方式的改变——函数
 \end_layout
 
 \begin_layout Standard
@@ -497,16 +398,7 @@ T_{a}(f(x)) & = & f(x+a)\text{。}
 \end_layout
 
 \begin_layout Section
-方式的改变
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-句法结构的前后不连贯
+方式的改变——句法结构的前后不连贯
 \end_layout
 
 \begin_layout Standard
@@ -822,8 +714,8 @@ height "1pt"
 \begin_layout CenterLine
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="1">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
 <row>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
@@ -994,16 +886,7 @@ height "1pt"
 \end_layout
 
 \begin_layout Section
-方式的改变
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-会吠的就是狗
+方式的改变——会吠的就是狗
 \end_layout
 
 \begin_layout Standard
@@ -1289,16 +1172,7 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-一种类似的情况也长久不为人们所理解，即：实数可看作复数，但反不过来；然而一个复向量空间同时是一个实向量空间，但也反不过来
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-因为，一个向量空间如果允许在其中同复数相乘，那么当然也允许在其中同实数相乘，但（一般地）是反不过来的。如果
+一种类似的情况也长久不为人们所理解，即：实数可看作复数，但反不过来；然而一个复向量空间同时是一个实向量空间，但也反不过来——因为，一个向量空间如果允许在其中同复数相乘，那么当然也允许在其中同实数相乘，但（一般地）是反不过来的。如果
 \begin_inset Formula $R$
 \end_inset
 
@@ -1338,25 +1212,7 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-大约从1930年起，各种独立地形成与发展的抽象结构开始系统地互相结合，由此而产生了拓扑群、拓扑环、拓扑域
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-即一个集合，它既有拓扑结构，又有相协调的代数结构，就是说，那代数结构在那拓扑的意义下必须连续；也产生了度量群、度量环、度量域
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-即带有度量的群，等等；也产生了有序群、有序环、有序域、有序拓扑向量空间，等等。这种结合的技巧发展于1930年前后；相应的语言表达方式，如前而所阐述的，则发展于近
+大约从1930年起，各种独立地形成与发展的抽象结构开始系统地互相结合，由此而产生了拓扑群、拓扑环、拓扑域——即一个集合，它既有拓扑结构，又有相协调的代数结构，就是说，那代数结构在那拓扑的意义下必须连续；也产生了度量群、度量环、度量域——即带有度量的群，等等；也产生了有序群、有序环、有序域、有序拓扑向量空间，等等。这种结合的技巧发展于1930年前后；相应的语言表达方式，如前而所阐述的，则发展于近
 二十年内。
 \end_layout
 
@@ -1499,16 +1355,7 @@ height "1pt"
 \end_layout
 
 \begin_layout Section
-方式的改变
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-形式化的工作
+方式的改变——形式化的工作
 \end_layout
 
 \begin_layout Standard
@@ -1551,30 +1398,12 @@ height "1pt"
 
 \begin_layout Standard
 当然，通常作为最重要的东西介绍给非数学家的，并不是“集合”这个词，也不是把一些对象称为集合的这个观念。而且那也不是空集（那是策梅罗（Zennelo）的发明），也
-不是一些已知集合的子集、交、并等形式，也不是集合能被映射到其他集合上去的观念
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-恰恰是集合论的其他特点给了数学以深远的影响。
+不是一些已知集合的子集、交、并等形式，也不是集合能被映射到其他集合上去的观念——恰恰是集合论的其他特点给了数学以深远的影响。
 \end_layout
 
 \begin_layout Standard
 我在前面指出了：克罗内克尔说过上帝创造了整数。在康托之前，自然数从未被分析过，它是预先被外加到数学中来的。而在康托手里，自然数变成了“势”这个更具普遍性概念的一
-种特例。互相之间能建立起一一对应的集合称为等势的集合，等势集合所公有的东西就叫做集合的势。势可以相加
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-通过把代表它们的集合（假设不相交）的相加来进行。这自然要证明：相加结果与所选的代表集合无关。按同样的模式，可定义势的积与幂：一个由集合组成的集合
+种特例。互相之间能建立起一一对应的集合称为等势的集合，等势集合所公有的东西就叫做集合的势。势可以相加——通过把代表它们的集合（假设不相交）的相加来进行。这自然要证明：相加结果与所选的代表集合无关。按同样的模式，可定义势的积与幂：一个由集合组成的集合
 \begin_inset Formula $\Phi$
 \end_inset
 
@@ -1620,16 +1449,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-康托关于势的定义在某一点上不是那么“现代化”的。那就是他说的：势是所有等势集所公有的东西
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-这是一种含糊的概念。今天人们是这样说的：“等势”是一种等价关系；势就是这个关系中的等价类；也就是说，
+康托关于势的定义在某一点上不是那么“现代化”的。那就是他说的：势是所有等势集所公有的东西——这是一种含糊的概念。今天人们是这样说的：“等势”是一种等价关系；势就是这个关系中的等价类；也就是说，
 \begin_inset Formula $M$
 \end_inset
 
@@ -1903,52 +1723,16 @@ Staudt）曾企图对射影几何与复射影几何公理化。帕施（Pasch）
 
 \begin_layout Standard
 当希尔伯特成功地把欧几里得几何建立在公理化的基础上，并用此方式隐性地定义了几何学的诸概念之后，公理化便马上转入了另一个方向，这在希尔伯特的《几何基础》中已见其端
-倪了。希尔伯特的最为重要的目的是在于研究他的各公理间的关系
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-如果抛弃这条或那条公理，会产生什么结果？倘无影响，则此公理可弃。若不可弃，则弃去后而得的较弱公理系所产生的便不是欧氏几何，而是一种较弱的几何学，一种满足截短了的
+倪了。希尔伯特的最为重要的目的是在于研究他的各公理间的关系——如果抛弃这条或那条公理，会产生什么结果？倘无影响，则此公理可弃。若不可弃，则弃去后而得的较弱公理系所产生的便不是欧氏几何，而是一种较弱的几何学，一种满足截短了的
 公理系的几何学。这类公理系有着许多互不同构的“模型”，它们在希尔伯特之后，获得了发展的势头。应该说，这样的公理系在那以前已被知晓，只是到那时为止当人们谈及时还没
-有称之为公理化罢了。今天，对一个集合赋予假设，使之成为群时，也把这些假设称为公理
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-群的公理，这对传统的所谓公理已跨出一大步了。
+有称之为公理化罢了。今天，对一个集合赋予假设，使之成为群时，也把这些假设称为公理——群的公理，这对传统的所谓公理已跨出一大步了。
 \end_layout
 
 \begin_layout Standard
 公理系如何产生？群概念的历史提供了极好的说明。在19世纪几何复活时期，变换是个关键词。射影、仿射、相似、以及其他各样变换和它们的复合，以及它们形成群的事实，这些
 在人们用“群”这个词来表达这个概念之前许久便已被发现；人们甚至知道和说得出什么是一个群；置换群也是在群概念出现前便被研究了的。1870年前后，群的概念形成了，那
 时不但已有了一大堆的群，而且对群的研究也累积了丰富经验，虽然所有的理论都是用各自的特殊术语论述的。群论于是作为一种组织手段应运而生，它是用把所有的群都具有的关键
-性质明显地叙述出来这种办法去组织那一堆具体的结果。这些性质
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-乘法满足结合律、存在单位元与逆元
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-以后就叫做群的公理。利用一些公设来规定什么是群，这和几何学中的做法是相同的。但是，几何学的公理本质上只被一种模型所实现，而群公理却被许多模型所满足。这恰好是群公
+性质明显地叙述出来这种办法去组织那一堆具体的结果。这些性质——乘法满足结合律、存在单位元与逆元——以后就叫做群的公理。利用一些公设来规定什么是群，这和几何学中的做法是相同的。但是，几何学的公理本质上只被一种模型所实现，而群公理却被许多模型所满足。这恰好是群公
 理合理性的所在：用同一工具处理各种个别情况，这样日于好过得多了。
 \end_layout
 
@@ -1961,31 +1745,13 @@ height "1pt"
 \begin_layout Standard
 域概念有相似的历史，几百年间，人们对有理数系与其四则运算（加、减、乘，除）以及这些运算所遵循的法则都十分熟悉；对具有相同运算与法则的实数系虽不那么熟知，也较少阐
 述，但也是知道的；然后是复数系，它除了缺少有序性外，和前面两种数系没有很大差异。复数系也是代数的基砷，在其中代数运算可以施行，并且一切代数方程在其中可解。实际上
-，它对19世纪的代数活动是范围太大了。当时代数研究所涉及的是一切较小的数系，其特性是可以进行四则运算的数系，这样的数系被戴德金称为“体”（Körper）
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-你不要相信是戴德金发明了域的现代概念这种故事。他所知的只是数域，即复数的子域。同样，他的“环”也只是一些数系，在其中四则运算的前三种可以施行。的确，把域概念推广
+，它对19世纪的代数活动是范围太大了。当时代数研究所涉及的是一切较小的数系，其特性是可以进行四则运算的数系，这样的数系被戴德金称为“体”（Körper）——你不要相信是戴德金发明了域的现代概念这种故事。他所知的只是数域，即复数的子域。同样，他的“环”也只是一些数系，在其中四则运算的前三种可以施行。的确，把域概念推广
 到函数域上去的是19世纪的韦伯（Weber，1893）。此外，在数论里，有限域被知晓，虽然当时被称为“伽罗瓦域”（德文是Galoisfelder，以区别子Zah
 lkörper【数域】）但前面的这些都还不足以引到域概念的发现，一直到
 \begin_inset Formula $p$
 \end_inset
 
-进数域这种新的例子出现以后，人们才得以把所有那些例子置于统一的名称
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-即斯泰尼茨（Steinitz，1910）的一般性的域概念之下，现时所称的“抽象代数”或“近世代数”实际上是由此开始的。在一集合中，假设引进了加法与乘法，使它们具
+进数域这种新的例子出现以后，人们才得以把所有那些例子置于统一的名称——即斯泰尼茨（Steinitz，1910）的一般性的域概念之下，现时所称的“抽象代数”或“近世代数”实际上是由此开始的。在一集合中，假设引进了加法与乘法，使它们具
 有旧的域中那些熟知的性质，那么这个体系就叫做一个域，一个抽象域。这样称呼用以区别子那些旧的域，因为它们已久为人知，所以是更为“具体”。
 \end_layout
 
@@ -2000,16 +1766,7 @@ height "1pt"
 \begin_layout Standard
 在希尔伯特以后，代数与拓扑（由弗雷谢（Fréchet）和豪斯道夫（Hausdorff））是最早被公理化了的数学领域（我们前面的例子都取自代数）。现象是相同的：要
 把欧氏空间、黎曼面，流形、函数集等置于统一的名称之下，首先产生的名称是“距离空间”，其次是“拓扑空间”。如果说抽象代数能合理地由旧的代数概念而产生和延续，那么拓
-扑学是在一片零乱中创新概念的；新的基本概念产生于需要，而决不可能从旧的奇特的方法
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-概念中诸如完备性，紧性、可分性、或更为深奥的概念诸如连通性、维数、积空间等当中得到启示。当然，随着时间的推移，代数也需要用新的概念丰满自己。
+扑学是在一片零乱中创新概念的；新的基本概念产生于需要，而决不可能从旧的奇特的方法——概念中诸如完备性，紧性、可分性、或更为深奥的概念诸如连通性、维数、积空间等当中得到启示。当然，随着时间的推移，代数也需要用新的概念丰满自己。
 \end_layout
 
 \begin_layout Standard
@@ -2104,16 +1861,7 @@ Bochner）用抽象形式改述了的殆周期函数的定义，即：对连续�
 \begin_layout Standard
 现在，几何学的情况如何？在布尔巴基的数学体系中它已消失；在杂志中，称为几何的文章不超过篇幅的5%；在大学中，几何学干脆不被提及；可以自称为几何学家的人也因这名称
 显得过时，而不这样称呼自己了。但是，如果仔细考察实际，情况似乎两样。我随机地抽取了一篇文章，按其标题属于分析，但在文章的一段中，我挑出了以下的字眼：“希尔伯特空
-间”、“向量空间”、“维数”、“特征向量”、“相似性”、“映射”、“凸”、“反射”、“邻域”、“数直线”、“中心立方体”、“线性”、“平移”、“包络”、“射影”
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-在一篇非几何的文章中却用了那么多的几何字眼！更引人注目的是还使用了“公理”这个字。这个字是由希尔伯特在他的《几何基础》一书中赋以现代意义的。
+间”、“向量空间”、“维数”、“特征向量”、“相似性”、“映射”、“凸”、“反射”、“邻域”、“数直线”、“中心立方体”、“线性”、“平移”、“包络”、“射影”——在一篇非几何的文章中却用了那么多的几何字眼！更引人注目的是还使用了“公理”这个字。这个字是由希尔伯特在他的《几何基础》一书中赋以现代意义的。
 \end_layout
 
 \begin_layout Standard
@@ -2127,16 +1875,7 @@ height "1pt"
 
 的代数意义通过它的几何解释以及它与高斯平面上正n边形作图的密切关系而变得清晰；椭圆函数的双周期性通过它的几何解释而变得明白而有趣。尽管在19世纪的最后30年间，
 维尔斯特拉斯（Weierstrass）的函数论代数化看来好像是对几何直观取得了绝对的胜利，但是，1900年前后所解决的大问题都来自黎曼、来自黎曼曲面、共形映照和
-单值化的几何概念
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-这些概念起初只是纯粹地用几何方法描述并只用直观方法处理的。
+单值化的几何概念——这些概念起初只是纯粹地用几何方法描述并只用直观方法处理的。
 \end_layout
 
 \begin_layout Standard
@@ -2150,16 +1889,7 @@ height "1pt"
 集合论比它以前的任何数学都显得更为抽象，更为严密。也正因为这种原因，几何直观作为一种组织手段与兴奋剂以防止集合论退化为一些单纯的算法，从来没有在任何别的领域里曾
 经显示过那么重要。康托是从数直线的几何学中提炼出了抽象化的序并建立了点集论。集合论在本世纪初的另一个成就是测度论，它来自几何中的面积概念，并使那时巳成了干枯计算
 工具的古典积分概念产生了一场革命。与此同时，点集论常成为一门新的几何学科：拓扑学，它把“连结”这个直观概念加以详细规定，并用于研究几何图形。拓扑学中最强有力的代
-数方法起源于对直观上最简单的几何图形
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-多面体的研究，如布劳韦尔（L.
+数方法起源于对直观上最简单的几何图形——多面体的研究，如布劳韦尔（L.
 \begin_inset space \space{}
 \end_inset
 
@@ -2213,16 +1943,7 @@ n）测度下的距离平方才能理解明白。
 \begin_layout Standard
 几何学的逻辑状况由公理与公理化的概念所阐明，希尔伯特的《几何基础》对此所作的阐述首先产生影响于拓扑学和代数。豪斯道夫把拓扑空间公理化了；而代数则被重建在用公理化
 定义的群、环、域等的基础之上。今天，公理化方法已渗透到了整个数学。起初，几何工作并没有受到这新方法的很大影响，直到30年代，几何学家才想起人的思想有创造公理的自
-由
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-这种自由只受几何学家的高明的直观与相容性的要求所检验。希尔伯特在证明几何公理系的相容性时，是通过一套满足这些公理的代数体系（解析几何）去进行的，这种做法可以引导
+由——这种自由只受几何学家的高明的直观与相容性的要求所检验。希尔伯特在证明几何公理系的相容性时，是通过一套满足这些公理的代数体系（解析几何）去进行的，这种做法可以引导
 新的重要代数体系的发现。事实上，在30年代，几何学的确引出了交换域（一种在乘法结合律上受到某些限制的域）这个新而有活力的代数概念。
 \end_layout
 
@@ -2269,16 +1990,7 @@ ibn
 \begin_inset space \space{}
 \end_inset
 
-Mûsâ，8世纪）的名字。他整理了印度
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-阿拉伯的计算方法。计算方法或可称为计算诀窍，现在就叫做“算法”。韦达（Vieta）的代数、笛卡儿（Deseartes）的解析几何、莱布尼茨（Leibuiz）的微
+Mûsâ，8世纪）的名字。他整理了印度——阿拉伯的计算方法。计算方法或可称为计算诀窍，现在就叫做“算法”。韦达（Vieta）的代数、笛卡儿（Deseartes）的解析几何、莱布尼茨（Leibuiz）的微
 积分就是一些算法。它们的发明者对此是十分自觉的。韦达在他的著作序言中强调了这一点。笛卡儿把他的《几何》看成是他的《方法论》（Discours
 \begin_inset space \space{}
 \end_inset
@@ -2299,57 +2011,12 @@ méthode）中所论方法的第一个例子；莱布尼茨则着迷于算法的
 \begin_layout Standard
 运用算法可以增强人的自信心，能满足人要游戏的天性，这可能是许许多多无关重要的算法也能在一段时间里蓬勃生长的原因吧。例如：画法几何；不变量理论中的符号方法；计数几
 何学中的舒伯特（Schubert）算法等。那些没有玩过这些算法的人，很难想象出它们多么吸引人。傅里叶（Fourier）级数、更一般地正交函数级数、傅里叶积分、留
-数；高斯
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-格林
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-斯托克斯（Gauas
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-Green
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-Stokes）积分公式；海维赛德（Heaviside）计算法和拉普拉斯（Laplace）变换等，都是19世纪流传下来的著名算法。关于本世纪的算法，最引人注目的例
+数；高斯——格林——斯托克斯（Gauas——Green——Stokes）积分公式；海维赛德（Heaviside）计算法和拉普拉斯（Laplace）变换等，都是19世纪流传下来的著名算法。关于本世纪的算法，最引人注目的例
 子是在拓扑中发明并且还在继续发展的同调理论，以及和它密切联系的同态的图表法。
 \end_layout
 
 \begin_layout Standard
-常有人说：现代数学之不同于古老数学，在于它强调的是思辨的因素而不是算法。我承认这一点，并曾几次指出过：最引人注目的新事物，也就是引起现代化过程发生的事物
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-集合论、抽象代数、分析学、拓扑都是思辨的产物，它们是冲破了算法的僵化外壳喷射而出的。然而，任何熔岩终将凝固，任何思辨的新生事物都在其自身中包含着算法的萌芽，这是
+常有人说：现代数学之不同于古老数学，在于它强调的是思辨的因素而不是算法。我承认这一点，并曾几次指出过：最引人注目的新事物，也就是引起现代化过程发生的事物——集合论、抽象代数、分析学、拓扑都是思辨的产物，它们是冲破了算法的僵化外壳喷射而出的。然而，任何熔岩终将凝固，任何思辨的新生事物都在其自身中包含着算法的萌芽，这是
 数学的特点。计算曾是一门科学，在它机械化以后，数论才能茂盛，如果没有微积分的算法，分析也永远不会发展。算法化意味着巩固，意味着由一个平台向更高点的跳跃，算法为更
 深的发掘提供技巧，把算法数学与思辨数学对立起来，好像其中之一是巍巍高塔，可以从它的顶峰藐视着另一方，这是不公正的；我们也不能把它们看作是新与旧的对立。
 \end_layout
@@ -2362,16 +2029,7 @@ height "1pt"
 科学一旦跨出单纯收集材料的阶段，它便将从事于经验的组织。算术与几何所应组织的经验是哪些，这是不难指出的。用数学方法把实际材料组织起来，这在今天就叫做数学化。但是
 数学家有这样的倾向，一旦依赖逻辑的联系能取得更快的进展，他就置实际于不顾，在一堆数学经验形成后，这些经验又要求组织起来，这时有什么方法可供使用？当然，还是数学方
 法，这就是数学本身被数学化的开始：首先是局部的一一怎样进行定义？导出什么结果作为定理？这事作为那事的根据抑或倒转过来？是否应将此事作为另一事的特殊情况来加以证明
-，抑或应先证明此特殊情况然后加以推广？随着时间的推移，数学化将进入整体性的考虑，自觉地建立理论
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-显性的或公理化的理论。
+，抑或应先证明此特殊情况然后加以推广？随着时间的推移，数学化将进入整体性的考虑，自觉地建立理论——显性的或公理化的理论。
 \end_layout
 
 \begin_layout Standard
@@ -2402,50 +2060,14 @@ s）却从圆锥曲线出发，最后导出了它们的方程。近代，又转�
 我们巳强调说过：不断更新数学的方式，这决不是一时的兴致，而是一种需要。大家知道，科学发展极为迅速。为掌握己有的知识，就需要组织。这对数学是如此，对其他学科也是如
 此，唯一的差别只在于数学家对于组织更为自觉，在更高的水平上进行，这是因为在数学中，组织本身是一项数学活动。毫无疑问，即使数学在不断发展，现在的一位数学家比他五十
 年前的同事能通晓大得多的数学领域，原因就在于借助新的组织形式。从长远看，其他的人将从数学家的组织经验中得益，而数学家也能给他们以帮助。在不久的将来，关于经验的组
-织甚至研究领域间的组织的研究，将成为数学家所研究的应用课题。在那里，他们的形式化经验
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-即语言组织
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-将充分发挥其效力。
+织甚至研究领域间的组织的研究，将成为数学家所研究的应用课题。在那里，他们的形式化经验——即语言组织——将充分发挥其效力。
 \end_layout
 
 \begin_layout Standard
 数学组织的最为壮观的例子自然是布尔巴基，这真是个有说服力的数学组织啊！其说服力如此巨大，以至皮亚杰（Piaget）竟能在发展心理学中重新发现了布尔巴基的体系。真
 是可怜的皮亚杰！他的遭遇不会比康德好。康德才把欧氏空间神化为“一种纯粹的直观”，非欧几何就被发现了！皮亚杰不是数学家，所以他不知道数学体系的建造者是多么地不可信
 赖。当范畴概念的重要性被发现时，布尔巴基的数学体系还未完成。毫无疑问：范畴论将成为重新组建数学的原理，而当布尔巴基的结构被用范畴的式样改建后，旧的痕迹将消失无遗
-。到那时，如果哪位领头的发展心理学家想要来说服我们承认数学概念的范畴发展模式
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-肯定会是这样的
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-那么，那就是范畴式数学体系在尚未完成之际即将被新的原理所代替的时刻来到了，这种新的原理肯定是要来临的。数学永无止境，任何崇拜某一数学体系的人都应留意这份忠告。
+。到那时，如果哪位领头的发展心理学家想要来说服我们承认数学概念的范畴发展模式——肯定会是这样的——那么，那就是范畴式数学体系在尚未完成之际即将被新的原理所代替的时刻来到了，这种新的原理肯定是要来临的。数学永无止境，任何崇拜某一数学体系的人都应留意这份忠告。
 \end_layout
 
 \begin_layout Standard
@@ -2570,16 +2192,7 @@ gäben erst - Ein - - Fragezeichen!!
 \end_layout
 
 \begin_layout Standard
-当然，我应当指出一个例外，那就是通常所谓的应用数学。在中小学里，一些最时髦的应用数学例子将可能比传统的占优势
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-其原因将在本章后面阐明。
+当然，我应当指出一个例外，那就是通常所谓的应用数学。在中小学里，一些最时髦的应用数学例子将可能比传统的占优势——其原因将在本章后面阐明。
 \end_layout
 
 \begin_layout Standard
@@ -2624,16 +2237,7 @@ height "1pt"
 由于这些要求而产生了大的计算机，并对这些计算机发明了各种解题策略，而计算机本身又是问题的源泉，这些问题也要求有解题策略。自古以来，数值方法对天文学非常重要，三角
 函数与对数函数的计算方法就是在其中发展起来的。第二类数值使用者是测量学家与保险学家，他们在19世纪制造了数值计算工具。到世纪末，许多现在流行的数值方法发展起来了
 。计算机的产生，使对数时代宣告结束。1945年自动计算机的问世是真正的计算革命的开始，它们巨大的计算速度使大量数值问题求解成为可能。其结果，数值数学迅猛发展。在
-其中有着层次分明的各种不间的水平，各种各样的人在其中进行工作
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-把实际问题数学化的人，懂得公式并把它变成可以进行数值计算的形式的人，会读公式并把它翻译给机器的人。还有另一个系列：计算机的制造者，策略制订者，计算机语言制订者，
+其中有着层次分明的各种不间的水平，各种各样的人在其中进行工作——把实际问题数学化的人，懂得公式并把它变成可以进行数值计算的形式的人，会读公式并把它翻译给机器的人。还有另一个系列：计算机的制造者，策略制订者，计算机语言制订者，
 程序员。的确，这是一门多面的数学，它被各计算中心所研究。
 \end_layout
 

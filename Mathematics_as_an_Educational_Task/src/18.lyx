@@ -391,16 +391,7 @@ status open
 \begin_layout Standard
 这里，我们巳大致描绘了两种教学流派：一是视概率为一种与现实完全没有联系的抽象体系；二是视其为留待填入数据的关于计算模型的体系。从表面上看，这两种流派是对立的，而
 却以最自然的方式互相补充。如果把应用当作抽象理论的附加物来教，那么除了采用菜谱式的体系外就别无选择。这两种流派甚至能够不可思议地出现在一本教科书里，即理论和问题
-交替出现
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-问题用来说明实际运用，理论使人问心无愧。有本事的教师会跳过理论，通过解例题来演示数学方法的运用。
+交替出现——问题用来说明实际运用，理论使人问心无愧。有本事的教师会跳过理论，通过解例题来演示数学方法的运用。
 \end_layout
 
 \begin_layout Standard
@@ -1058,16 +1049,7 @@ k
 
 \begin_layout Standard
 在我把学生的注意力引向这个一般定理时，学生反对说，这里的随机变量之间是不独立的。我让他们回忆这个定理的条件和证明，他们总算是同意用了，可内心的疑虑并未完全消除。
-大多数学生仍不相信逻辑告诉他们的事实
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-这些只是大脑的推理，与心无关（帕斯卡的著名格言）。
+大多数学生仍不相信逻辑告诉他们的事实——这些只是大脑的推理，与心无关（帕斯卡的著名格言）。
 \end_layout
 
 \begin_layout Standard

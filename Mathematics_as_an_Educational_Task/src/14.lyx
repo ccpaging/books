@@ -85,16 +85,7 @@
 \begin_inset Newline newline
 \end_inset
 
-
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-从代数原理到代数的整体组织
+——从代数原理到代数的整体组织
 \end_layout
 
 \begin_layout Section
@@ -529,16 +520,7 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-最后一行的右式可能是一个新的归纳发现
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-定义也可以被发现。这样做的目的是要给学生创造练习组织的机会，而不是给他一个现成的公式，但以下再扩充两行，类比就不一定行了：
+最后一行的右式可能是一个新的归纳发现——定义也可以被发现。这样做的目的是要给学生创造练习组织的机会，而不是给他一个现成的公式，但以下再扩充两行，类比就不一定行了：
 \end_layout
 
 \begin_layout Standard
@@ -842,16 +824,7 @@ a<b\wedge n<0\rightarrow na>nb\\
 \end_layout
 
 \begin_layout Section
-代数的整体组织
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-计算尺公理
+代数的整体组织——计算尺公理
 \end_layout
 
 \begin_layout Standard

@@ -81,16 +81,7 @@
 \begin_body
 
 \begin_layout Chapter
-数的概念
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-客观的形成途径
+数的概念——客观的形成途径
 \end_layout
 
 \begin_layout Standard
@@ -1072,16 +1063,7 @@ status collapsed
 
 \begin_layout Standard
 我并不忠实信仰传统方法，但我认为，即使人们热衷于现代的教条，也不能对最复杂的教学法中的古老经验视而不见。我对算术的现代方法作了一些比较，发现好的方法都强调计数。
-当然这并不是说要儿童通过数数的笨方法去学习计算，而是说他们应当系统地学计数，进而在一个可数的格式塔（组织结构）中计算。为此，要用到齐性的、有结构的材料
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-我上面提到的例子既违反了齐性，又违反了结构性。要是那样的话，除了让他们依赖乏味的数数外，并不能使他们直观地利用具体材料学到加法。应该让他们在两条水平直线上，或是
+当然这并不是说要儿童通过数数的笨方法去学习计算，而是说他们应当系统地学计数，进而在一个可数的格式塔（组织结构）中计算。为此，要用到齐性的、有结构的材料——我上面提到的例子既违反了齐性，又违反了结构性。要是那样的话，除了让他们依赖乏味的数数外，并不能使他们直观地利用具体材料学到加法。应该让他们在两条水平直线上，或是
 在算盘上给两个数（如8和5）建立结构关系。这时，齐性的、有结构的集合就能发挥作用了。当然，无结构的、非齐性的例子也不能忽视，它们同样存在于世。
 \end_layout
 
@@ -2360,16 +2342,7 @@ height "1pt"
 \end_layout
 
 \begin_layout Standard
-在所有量中，最数学化的是长度。事实上，它是几何的一个基本概念，比时间更具体。所以，最常见的量的模型是长度，它在无限的尺
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-数轴上实现了高度的具体化。另外在数轴上还讨以确定一维向量。
+在所有量中，最数学化的是长度。事实上，它是几何的一个基本概念，比时间更具体。所以，最常见的量的模型是长度，它在无限的尺——数轴上实现了高度的具体化。另外在数轴上还讨以确定一维向量。
 \end_layout
 
 \begin_layout Standard
@@ -2386,16 +2359,7 @@ height "1pt"
 \end_layout
 
 \begin_layout Section
-描述还是创造概念
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "2em"
-height "1pt"
-
-\end_inset
-
-分析还是综合
+描述还是创造概念——分析还是综合
 \end_layout
 
 \begin_layout Standard
