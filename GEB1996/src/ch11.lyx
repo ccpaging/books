@@ -1886,7 +1886,32 @@ Scott
 status open
 
 \begin_layout Plain Layout
-罗伯特·司各特[Robert Scott]，“追溯‘炸脖襞’的真正出处”，1872年2月的《麦克米兰杂志》[Macmillan's Magazine]。
+罗伯特·司各特[Robert Scott]，“追溯‘炸脖
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lower-.9ex
+\backslash
+hbox{
+\backslash
+scalebox{1}[0.5]{卧}}
+\backslash
+lower.1ex
+\backslash
+hbox{
+\backslash
+kern-1em 
+\backslash
+scalebox{1}[0.5]{龙}}
+\end_layout
+
+\end_inset
+
+’的真正出处”，1872年2月的《麦克米兰杂志》[Macmillan's Magazine]。
 \end_layout
 
 \end_inset
@@ -1916,8 +1941,32 @@ status open
 status open
 
 \begin_layout Plain Layout
-赵元任（译），《阿丽思漫游奇境记，附：阿丽思漫游镜中世界》，北京：商务印书馆，1988年版（英汉对照）。其中“炸脖凳”一诗所在的《镜中世界》是他1969年出版的
-译文，与他194 9年前商务版的译本有出入。——译注。
+赵元任（译），《阿丽思漫游奇境记，附：阿丽思漫游镜中世界》，北京：商务印书馆，1988年版（英汉对照）。其中“炸脖
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lower-.9ex
+\backslash
+hbox{
+\backslash
+scalebox{1}[0.5]{卧}}
+\backslash
+lower.1ex
+\backslash
+hbox{
+\backslash
+kern-1em 
+\backslash
+scalebox{1}[0.5]{龙}}
+\end_layout
+
+\end_inset
+
+”一诗所在的《镜中世界》是他1969年出版的译文，与他1949年前商务版的译本有出入。——译注。
 \end_layout
 
 \end_inset
@@ -2057,7 +2106,7 @@ Und aller-mümsige Burggoven
 \begin_inset space \qquad{}
 \end_inset
 
-Die mohmen Räth'ausgraben.
+Die mohmen Räth' ausgraben.
 \end_layout
 
 \begin_layout Standard
@@ -2081,7 +2130,30 @@ Die mohmen Räth'ausgraben.
 \begin_inset space \qquad{}
 \end_inset
 
-有（一）天点里，那些活济济的㺄子
+有（一）天
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lower-.6ex
+\backslash
+hbox{
+\backslash
+scalebox{1}[0.7]{白}}
+\backslash
+hbox{
+\backslash
+kern-1em 
+\backslash
+scalebox{1}[1]{灬}}
+\end_layout
+
+\end_inset
+
+里，那些活济济的㺄子
 \end_layout
 
 \begin_layout Standard
@@ -2101,7 +2173,7 @@ Die mohmen Räth'ausgraben.
 \begin_inset space \quad{}
 \end_inset
 
-在卫边儿尽着那么跌那么覔；
+在卫边儿尽着那么
 \begin_inset ERT
 status open
 
@@ -2111,16 +2183,16 @@ status open
 \backslash
 hbox{
 \backslash
-scalebox{0.7}[1]{扌}
+scalebox{0.4}[1]{足}
 \backslash
-kern-.3em
+kern-.1em
 \backslash
-scalebox{0.6}[1]{中}}
+scalebox{0.7}[1]{共}}
 \end_layout
 
 \end_inset
 
-
+那么覔；
 \end_layout
 
 \begin_layout Standard
@@ -2136,7 +2208,45 @@ scalebox{0.6}[1]{中}}
 \begin_inset space \qquad{}
 \end_inset
 
-好难四儿啊，那些鹁鹩鹕子，
+好难四儿啊，那些鹁
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hbox{
+\backslash
+scalebox{0.4}[1]{若}
+\backslash
+kern-.1em
+\backslash
+scalebox{0.7}[1]{鸟}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hbox{
+\backslash
+scalebox{0.4}[1]{勾}
+\backslash
+kern-.1em
+\backslash
+scalebox{0.7}[1]{鸟}}
+\end_layout
+
+\end_inset
+
+子，
 \end_layout
 
 \begin_layout Standard
@@ -2156,7 +2266,32 @@ scalebox{0.6}[1]{中}}
 \begin_inset space \quad{}
 \end_inset
 
-还有蛮的猎子怄得格儿。
+还有
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lower-.9ex
+\backslash
+hbox{
+\backslash
+scalebox{1}[0.5]{宓}}
+\backslash
+lower.1ex
+\backslash
+hbox{
+\backslash
+kern-0.9em 
+\backslash
+scalebox{0.8}[0.5]{豕}}
+\end_layout
+
+\end_inset
+
+的猎子怄得格儿。
 \end_layout
 
 \begin_layout Standard
@@ -2169,10 +2304,7 @@ scalebox{0.6}[1]{中}}
 
 \begin_layout Standard
 \noindent
-\begin_inset Quotes eld
-\end_inset
-
-Beware the Jabberwock, my son!
+“Beware the Jabberwock, my son!
 \end_layout
 
 \begin_layout Standard
@@ -2229,7 +2361,7 @@ La gueule qui mord; la griffe qui prend!
 \begin_inset space \qquad{}
 \end_inset
 
-Garde-toi de l'oiseau Jube, evite
+Garde-toi de l'oiseau Jube, évite
 \end_layout
 
 \begin_layout Standard
@@ -2237,7 +2369,7 @@ Garde-toi de l'oiseau Jube, evite
 \begin_inset space \qquad{}
 \end_inset
 
-Le frumieux Band-a-prend ! 》
+Le frumieux Band-à-prend ! 》
 \end_layout
 
 \begin_layout Standard
@@ -2257,7 +2389,7 @@ Le frumieux Band-a-prend ! 》
 \begin_inset space \qquad{}
 \end_inset
 
-》Bewahre cioch vor Jammerwoch !
+》Bewahre doch vor Jammerwoch !
 \end_layout
 
 \begin_layout Standard
@@ -2269,7 +2401,7 @@ Le frumieux Band-a-prend ! 》
 \begin_inset space \qquad{}
 \end_inset
 
-Die Zahne knirschen, Krallen kratzen!
+Die Zähne knirschen, Krallen kratzen!
 \end_layout
 
 \begin_layout Standard
@@ -2293,7 +2425,7 @@ Bewahr' vor Jubjub--Vogel, vor
 \begin_inset space \qquad{}
 \end_inset
 
-Frumiosen Banderschnatzchen!《
+Frumiösen Banderschnätzchen!《
 \end_layout
 
 \begin_layout Standard
@@ -2317,7 +2449,32 @@ Frumiosen Banderschnatzchen!《
 \begin_inset space \qquad{}
 \end_inset
 
-“小心那炸脖嚏，我的孩子！
+“小心那炸脖
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lower-.9ex
+\backslash
+hbox{
+\backslash
+scalebox{1}[0.5]{卧}}
+\backslash
+lower.1ex
+\backslash
+hbox{
+\backslash
+kern-1em 
+\backslash
+scalebox{1}[0.5]{龙}}
+\end_layout
+
+\end_inset
+
+，我的孩子！
 \end_layout
 
 \begin_layout Standard
@@ -2337,7 +2494,7 @@ Frumiosen Banderschnatzchen!《
 \begin_inset space \quad{}
 \end_inset
 
-那咬入的牙，那抓人的爪子！
+那咬人的牙，那抓人的爪子！
 \end_layout
 
 \begin_layout Standard
@@ -2373,7 +2530,26 @@ Frumiosen Banderschnatzchen!《
 \begin_inset space \quad{}
 \end_inset
 
-那符命的般得佤子！”
+那符命的般得
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hbox{
+\backslash
+scalebox{0.6}[1]{彳}
+\backslash
+kern-.3em
+\backslash
+scalebox{0.7}[1]{瓦}}
+\end_layout
+
+\end_inset
+
+子！”
 \end_layout
 
 \begin_layout Standard
@@ -2386,12 +2562,12 @@ Frumiosen Banderschnatzchen!《
 
 \begin_layout Standard
 \noindent
-He too his vorpal swcrd in hand:
+He too his vorpal sword in hand:
 \end_layout
 
 \begin_layout Standard
 \noindent
-l.ong time the manxome foe he sought----
+Long time the manxome foe he sought--
 \end_layout
 
 \begin_layout Standard
@@ -2401,7 +2577,7 @@ So rested he by the Tumtum tree,
 
 \begin_layout Standard
 \noindent
-Anct stooci awhile in thought.
+Anct stooci a while in thought.
 \end_layout
 
 \begin_layout Standard
@@ -2425,7 +2601,7 @@ Son glaive vorpal en main, il va-
 \begin_inset space \qquad{}
 \end_inset
 
-T-a la recherche du fauve manscant:
+T-à la recherche du fauve manscant:
 \end_layout
 
 \begin_layout Standard
@@ -2433,7 +2609,7 @@ T-a la recherche du fauve manscant:
 \begin_inset space \qquad{}
 \end_inset
 
-Puis arrive a l'arbre Tc:-t6,
+Puis arrivé à l'arbre Té-té,
 \end_layout
 
 \begin_layout Standard
@@ -2441,7 +2617,7 @@ Puis arrive a l'arbre Tc:-t6,
 \begin_inset space \qquad{}
 \end_inset
 
-Il y restc 9 reflechissant.
+Il y reste, réfléchissant.
 \end_layout
 
 \begin_layout Standard
@@ -2461,7 +2637,7 @@ Il y restc 9 reflechissant.
 \begin_inset space \qquad{}
 \end_inset
 
-Er griff sein vorpals Schwertchen zu,'
+Er griff sein vorpals Schwertchen zu,
 \end_layout
 
 \begin_layout Standard
@@ -2485,7 +2661,7 @@ Er suchte lang das manchsam' Ding;
 \begin_inset space \qquad{}
 \end_inset
 
-Dann9 stchcnd unterm Tumtum Baum,
+Dann, stchcnd unterm Tumtum Baum,
 \begin_inset Note Comment
 status open
 
@@ -2507,7 +2683,7 @@ status open
 \begin_inset space \qquad{}
 \end_inset
 
-Er an-zu-denken-fing.
+Er an-zú-denken-fing.
 \end_layout
 
 \begin_layout Standard
@@ -2551,7 +2727,7 @@ Er an-zu-denken-fing.
 \begin_inset space \quad{}
 \end_inset
 
-他早就要找那个蛮松蟒
+他早就要找那个蛮松蟒——
 \end_layout
 
 \begin_layout Standard
@@ -2600,7 +2776,7 @@ Er an-zu-denken-fing.
 
 \begin_layout Standard
 \noindent
-And, as in uffish thought he stoocl,
+And, as in uffish thought he stood,
 \end_layout
 
 \begin_layout Standard
@@ -2641,7 +2817,7 @@ status open
 \begin_inset space \qquad{}
 \end_inset
 
-Pendant qu'il pense, tout uffuse,
+Pendant qu'il pense, tout uffusé,
 \end_layout
 
 \begin_layout Standard
@@ -2649,7 +2825,7 @@ Pendant qu'il pense, tout uffuse,
 \begin_inset space \qquad{}
 \end_inset
 
-Le Jaseroque, a l'oeil flambant,
+Le Jaseroque, à l'oeil flambant,
 \end_layout
 
 \begin_layout Standard
@@ -2721,7 +2897,7 @@ Durch turgen Wald mit Wiffek kam
 \begin_inset space \qquad{}
 \end_inset
 
-Ein burbelndUngeheuer:
+Ein burbelnd Ungeheuer !
 \end_layout
 
 \begin_layout Standard
@@ -2765,7 +2941,32 @@ Ein burbelndUngeheuer:
 \begin_inset space \quad{}
 \end_inset
 
-那炸脖毙，两个灯笼的眼，
+那炸脖
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lower-.9ex
+\backslash
+hbox{
+\backslash
+scalebox{1}[0.5]{卧}}
+\backslash
+lower.1ex
+\backslash
+hbox{
+\backslash
+kern-1em 
+\backslash
+scalebox{1}[0.5]{龙}}
+\end_layout
+
+\end_inset
+
+，两个灯笼的眼，
 \end_layout
 
 \begin_layout Standard
@@ -2814,7 +3015,7 @@ Ein burbelndUngeheuer:
 
 \begin_layout Standard
 \noindent
-One9 two! One, Two! And through and through
+One, two! One, Two! And through and through
 \end_layout
 
 \begin_layout Standard
@@ -2853,7 +3054,7 @@ Un deux, un deux, par le milieu,
 \begin_inset space \qquad{}
 \end_inset
 
-Le glaive vorpal fait pat-a-pan!
+Le glaive vorpal fait pat-à-pan!
 \end_layout
 
 \begin_layout Standard
@@ -2861,7 +3062,7 @@ Le glaive vorpal fait pat-a-pan!
 \begin_inset space \qquad{}
 \end_inset
 
-La bete defaite, avec sa tete,
+La bête défaite, avec sa tête,
 \end_layout
 
 \begin_layout Standard
@@ -2901,7 +3102,7 @@ Eins, Zwei! Eins, Zwei! Und durch und durch
 \begin_inset space \qquad{}
 \end_inset
 
-Sein vorpals Schwert zerschnifer-schnuck,
+Sein vorpals Schwert zerschnifer-schnück,
 \end_layout
 
 \begin_layout Standard
@@ -2925,7 +3126,7 @@ Da blieb es todt! Er, Kopf in Hand,
 \begin_inset space \qquad{}
 \end_inset
 
-Gelaumfig zog zuri,ck.
+Geläumfig zog zurück.
 \end_layout
 
 \begin_layout Standard
@@ -3018,7 +3219,7 @@ Gelaumfig zog zuri,ck.
 
 \begin_layout Standard
 \noindent
-"And bast thou slain the Jabberwock?
+“And hast thou slain the Jabberwock?
 \end_layout
 
 \begin_layout Standard
@@ -3028,7 +3229,7 @@ Come to my arms, my beamish boy!
 
 \begin_layout Standard
 \noindent
-O frabjous day! Callooh ! Callay ! "
+O frabjous day! Callooh! Callay!”
 \end_layout
 
 \begin_layout Standard
@@ -3049,7 +3250,7 @@ He chortled in his joy.
 \begin_inset space \qquad{}
 \end_inset
 
-《As-tu tue le Jaseroque?
+《As-tu tué le Jaseroque?
 \end_layout
 
 \begin_layout Standard
@@ -3057,17 +3258,7 @@ He chortled in his joy.
 \begin_inset space \qquad{}
 \end_inset
 
-Viens a mon coeur, fils rayonnais !
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-481
-\end_layout
-
-\end_inset
-
-
+Viens à mon coeur, fils rayonnais!
 \end_layout
 
 \begin_layout Standard
@@ -3075,7 +3266,7 @@ status open
 \begin_inset space \qquad{}
 \end_inset
 
-{680 jour frabbejais! Calleau! Callai! 》
+O jour frabbejais! Calleau! Callai!》
 \end_layout
 
 \begin_layout Standard
@@ -3103,7 +3294,7 @@ Il cortuls dans sa joie.
 \begin_inset space \qquad{}
 \end_inset
 
-》Unci schlugst Du ja den Jammerwoch?
+》Und schlugst Du ja den Jammerwoch?
 \end_layout
 
 \begin_layout Standard
@@ -3115,7 +3306,7 @@ Il cortuls dans sa joie.
 \begin_inset space \qquad{}
 \end_inset
 
-Umarme mich, mein Bohm'sches Kind!
+Umarme mich, mein Böhm'sches Kind!
 \end_layout
 
 \begin_layout Standard
@@ -3163,7 +3354,32 @@ Er schortelt froh-gesinnt.
 \begin_inset space \qquad{}
 \end_inset
 
-“你果然斩J，那炸脖鞋了吗？
+“你果然斩了那炸脖
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lower-.9ex
+\backslash
+hbox{
+\backslash
+scalebox{1}[0.5]{卧}}
+\backslash
+lower.1ex
+\backslash
+hbox{
+\backslash
+kern-1em 
+\backslash
+scalebox{1}[0.5]{龙}}
+\end_layout
+
+\end_inset
+
+了吗？
 \end_layout
 
 \begin_layout Standard
@@ -3242,12 +3458,12 @@ Did gyre and gimble in the wabe:
 
 \begin_layout Standard
 \noindent
-All mirnsy were the borogoves,
+All mimsy were the borogoves,
 \end_layout
 
 \begin_layout Standard
 \noindent
-And the momc raths outgrabe.
+And the mome raths outgrabe.
 \end_layout
 
 \begin_layout Standard
@@ -3263,7 +3479,7 @@ And the momc raths outgrabe.
 \begin_inset space \qquad{}
 \end_inset
 
-Il brilgue: les toves lubricilleux
+Il brilgue: les tȏves lubricilleux
 \end_layout
 
 \begin_layout Standard
@@ -3279,7 +3495,7 @@ Se gyrent en vrillant dans le guave.
 \begin_inset space \qquad{}
 \end_inset
 
-Enmimes sont les gougebosqueux
+Enmȋmés sont lesgougebosqueux
 \end_layout
 
 \begin_layout Standard
@@ -3287,7 +3503,7 @@ Enmimes sont les gougebosqueux
 \begin_inset space \qquad{}
 \end_inset
 
-Et le momerade horsgrave.
+Et le mȏmerade horsgrave.
 \end_layout
 
 \begin_layout Standard
@@ -3307,7 +3523,8 @@ Et le momerade horsgrave.
 \begin_inset space \qquad{}
 \end_inset
 
-Es brillig war.Die schlichten Toven
+Es brillig war.
+ Die schlichten Toven
 \end_layout
 
 \begin_layout Standard
@@ -3331,7 +3548,7 @@ Wirrten und wimmelten in Waben;
 \begin_inset space \qquad{}
 \end_inset
 
-Und aller-mumsige Burggoven
+Und aller-mümsige Burggoven
 \end_layout
 
 \begin_layout Standard
@@ -3343,17 +3560,7 @@ Und aller-mumsige Burggoven
 \begin_inset space \qquad{}
 \end_inset
 
-Die mohmen Rath' ausgraben.
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-482
-\end_layout
-
-\end_inset
-
-
+Die mohmen Räth' ausgraben.
 \end_layout
 
 \begin_layout Standard
@@ -3377,73 +3584,168 @@ status open
 \begin_inset space \qquad{}
 \end_inset
 
-有（一）天烹里，那些活济济的㺄子
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset space \qquad{}
-\end_inset
-
-
-\begin_inset space \qquad{}
-\end_inset
-
-
-\begin_inset space \qquad{}
-\end_inset
-
-
-\begin_inset space \quad{}
-\end_inset
-
-在卫边儿尽着那么跌那么甭；
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset space \qquad{}
-\end_inset
-
-
-\begin_inset space \qquad{}
-\end_inset
-
-
-\begin_inset space \qquad{}
-\end_inset
-
-好难四儿啊，那些鹁鹊鹤子．，
-\end_layout
-
-\begin_layout Standard
-\noindent
-\begin_inset space \qquad{}
-\end_inset
-
-
-\begin_inset space \qquad{}
-\end_inset
-
-
-\begin_inset space \qquad{}
-\end_inset
-
-
-\begin_inset space \quad{}
-\end_inset
-
-还有寮的猪子怄得格儿。
-\begin_inset Note Comment
+有（一）天
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-483
+
+
+\backslash
+lower-.6ex
+\backslash
+hbox{
+\backslash
+scalebox{1}[0.7]{白}}
+\backslash
+hbox{
+\backslash
+kern-1em 
+\backslash
+scalebox{1}[1]{灬}}
+\end_layout
+
+\end_inset
+
+里，那些活济济的㺄子
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+在卫边儿尽着那么
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hbox{
+\backslash
+scalebox{0.4}[1]{足}
+\backslash
+kern-.1em
+\backslash
+scalebox{0.7}[1]{共}}
+\end_layout
+
+\end_inset
+
+那么覔；
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+好难四儿啊，那些鹁
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hbox{
+\backslash
+scalebox{0.4}[1]{若}
+\backslash
+kern-.1em
+\backslash
+scalebox{0.7}[1]{鸟}}
 \end_layout
 
 \end_inset
 
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hbox{
+\backslash
+scalebox{0.4}[1]{勾}
+\backslash
+kern-.1em
+\backslash
+scalebox{0.7}[1]{鸟}}
+\end_layout
+
+\end_inset
+
+子，
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+还有
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lower-.9ex
+\backslash
+hbox{
+\backslash
+scalebox{1}[0.5]{宓}}
+\backslash
+lower.1ex
+\backslash
+hbox{
+\backslash
+kern-0.9em 
+\backslash
+scalebox{0.8}[0.5]{豕}}
+\end_layout
+
+\end_inset
+
+的猎子怄得格儿。
 \end_layout
 
 \end_body
