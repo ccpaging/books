@@ -2291,7 +2291,26 @@ scalebox{0.8}[0.5]{豕}}
 
 \end_inset
 
-的猎子怄得格儿。
+的
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hbox{
+\backslash
+scalebox{0.7}[1]{犭}
+\backslash
+kern-.4em
+\backslash
+scalebox{0.7}[1]{若}}
+\end_layout
+
+\end_inset
+
+子怄得格儿。
 \end_layout
 
 \begin_layout Standard
@@ -3745,7 +3764,26 @@ scalebox{0.8}[0.5]{豕}}
 
 \end_inset
 
-的猎子怄得格儿。
+的
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hbox{
+\backslash
+scalebox{0.7}[1]{犭}
+\backslash
+kern-.4em
+\backslash
+scalebox{0.7}[1]{若}}
+\end_layout
+
+\end_inset
+
+子怄得格儿。
 \end_layout
 
 \end_body
