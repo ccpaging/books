@@ -1894,19 +1894,7 @@ status open
 
 
 \backslash
-lower-.9ex
-\backslash
-hbox{
-\backslash
-scalebox{1}[0.5]{卧}}
-\backslash
-lower.1ex
-\backslash
-hbox{
-\backslash
-kern-1em 
-\backslash
-scalebox{1}[0.5]{龙}}
+zhwolong 
 \end_layout
 
 \end_inset
@@ -1949,19 +1937,7 @@ status open
 
 
 \backslash
-lower-.9ex
-\backslash
-hbox{
-\backslash
-scalebox{1}[0.5]{卧}}
-\backslash
-lower.1ex
-\backslash
-hbox{
-\backslash
-kern-1em 
-\backslash
-scalebox{1}[0.5]{龙}}
+zhwolong 
 \end_layout
 
 \end_inset
@@ -2216,13 +2192,7 @@ status open
 
 
 \backslash
-hbox{
-\backslash
-scalebox{0.4}[1]{若}
-\backslash
-kern-.1em
-\backslash
-scalebox{0.7}[1]{鸟}}
+zhruoniao 
 \end_layout
 
 \end_inset
@@ -2235,13 +2205,7 @@ status open
 
 
 \backslash
-hbox{
-\backslash
-scalebox{0.4}[1]{勾}
-\backslash
-kern-.1em
-\backslash
-scalebox{0.7}[1]{鸟}}
+zhgouniao 
 \end_layout
 
 \end_inset
@@ -2274,19 +2238,7 @@ status open
 
 
 \backslash
-lower-.9ex
-\backslash
-hbox{
-\backslash
-scalebox{1}[0.5]{宓}}
-\backslash
-lower.1ex
-\backslash
-hbox{
-\backslash
-kern-0.9em 
-\backslash
-scalebox{0.8}[0.5]{豕}}
+zhbizhu 
 \end_layout
 
 \end_inset
@@ -2476,19 +2428,7 @@ status open
 
 
 \backslash
-lower-.9ex
-\backslash
-hbox{
-\backslash
-scalebox{1}[0.5]{卧}}
-\backslash
-lower.1ex
-\backslash
-hbox{
-\backslash
-kern-1em 
-\backslash
-scalebox{1}[0.5]{龙}}
+zhwolong 
 \end_layout
 
 \end_inset
@@ -2968,19 +2908,7 @@ status open
 
 
 \backslash
-lower-.9ex
-\backslash
-hbox{
-\backslash
-scalebox{1}[0.5]{卧}}
-\backslash
-lower.1ex
-\backslash
-hbox{
-\backslash
-kern-1em 
-\backslash
-scalebox{1}[0.5]{龙}}
+zhwolong 
 \end_layout
 
 \end_inset
@@ -3381,19 +3309,7 @@ status open
 
 
 \backslash
-lower-.9ex
-\backslash
-hbox{
-\backslash
-scalebox{1}[0.5]{卧}}
-\backslash
-lower.1ex
-\backslash
-hbox{
-\backslash
-kern-1em 
-\backslash
-scalebox{1}[0.5]{龙}}
+zhwolong 
 \end_layout
 
 \end_inset
@@ -3689,13 +3605,7 @@ status open
 
 
 \backslash
-hbox{
-\backslash
-scalebox{0.4}[1]{若}
-\backslash
-kern-.1em
-\backslash
-scalebox{0.7}[1]{鸟}}
+zhruoniao 
 \end_layout
 
 \end_inset
@@ -3708,13 +3618,7 @@ status open
 
 
 \backslash
-hbox{
-\backslash
-scalebox{0.4}[1]{勾}
-\backslash
-kern-.1em
-\backslash
-scalebox{0.7}[1]{鸟}}
+zhgouniao 
 \end_layout
 
 \end_inset
@@ -3747,19 +3651,7 @@ status open
 
 
 \backslash
-lower-.9ex
-\backslash
-hbox{
-\backslash
-scalebox{1}[0.5]{宓}}
-\backslash
-lower.1ex
-\backslash
-hbox{
-\backslash
-kern-0.9em 
-\backslash
-scalebox{0.8}[0.5]{豕}}
+zhbizhu 
 \end_layout
 
 \end_inset

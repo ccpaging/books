@@ -1,0 +1,3007 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass GEB1996
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+BlooP和FlooP和GlooP
+\end_layout
+
+\begin_layout Subsection*
+自我意识和无序
+\end_layout
+
+\begin_layout Standard
+BlooP、FlooP和GlooP不是神话中的巨人，不是唐老鸭的小侄子们，也不是船沉时发出的冒泡声——它们是三种计算机语言，其中每种都有特殊的用途。这些语言是专
+门为本书的这一章发明的。它们将被用来解释“递归”这个词的某些新意义——特别是“原始递归”和“一般递归”这两个概念。事实将证明，这些语言有助于阐明TNT中自我相关
+的机制。
+\end_layout
+
+\begin_layout Standard
+我们似乎很突然地从大脑和心智跳到了数学和计算机科学中的技术。虽然这个跳跃从某些方面来看有点突然，但它还是有意义的。我们已经看到，某种自我意识似乎是意识的关键所在
+。现在我们要在更形式化的背景下进一步分析“自我意识”，例如在TNT的背景下。在TNT和心智之间还有很大一段距离，但一些想法将会是富有启发性的，或许会以隐喻的方式
+被传回到我们关于意识的思考之中。
+\end_layout
+
+\begin_layout Standard
+关于TNT的自我意识，令人惊奇的一点就是它密切地联系于自然数中的有序与无序问题。特别是我们将会看到，一个充分复杂以至能反映自身的有序系统不可能是完全有序的——它
+必定包括某种奇怪的无序特征。对于那些具有某种阿基里斯式想法的读者来说，这将是很难接受的。但是，存在一种“魔术式的”补偿——存在某种关于无序的有序，这本身已经形成
+了一个研究领域，称为“递归函数论”。遗憾的是，我们所能做到的，只是略微展示一下这个课题的魅力。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+538
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+可体现性与冰箱
+\end_layout
+
+\begin_layout Standard
+象“足够复杂”或“足够强有力”及类似的说法，在前面已经多次出现了。但这些说法是什么意思呢？让我们回到龟蟹之战，并问这样一个问题：“是什么使某个东西有资格成为一台
+唱机的？”螃蟹可能会声称它的冰箱是一台“完备的”唱机。然后为了证明这一点，它可能会随便拿个唱片放在冰箱顶上，说：“你看——它在播放这张唱片了。”而乌龟，如果想要
+反驳这个禅宗式的行动。就必须说：“不——你的冰箱保真度太低，已经不能算是唱机了：它根本不能重现唱片上记录的声音（更不必说那种让它自我破坏的声音了）”。只有当“唱
+机X"真是一台唱机时，乌龟才能造出一张叫作“我不能在唱机X上播放”的唱片。乌龟的方法很狡猾，因为它抓的是系统的强项，而非弱项。因此他要求“保真度足够高”的唱机。
+\end_layout
+
+\begin_layout Standard
+对形式化的数论系统来讲也是一样。说TNT是一个形式化的N，其原因是TNT的符号以正确的方式活动：这也就是指它的定理不象冰箱似的一声不响——它们确实说出了N中的真
+理。当然，pq系统中的定理也是这样。pq系统也能作为一个“形式化的数论系统”吗？还是说它更象个冰箱？它比冰箱是强一点，但仍然很弱。被pq系统所包含的N中的核心真
+理太少了，因此宅还不能称作是一个“数论系统”。
+\end_layout
+
+\begin_layout Standard
+那么，这些N中的“核心真理”是什么？它们是“原始递归真理”，这就是说，它们仅仅涉及到“可预测其终止”的计算。这些核心，真理在N中的作用就象欧里几得的前四个公设在
+几何学中的作用一样：它们使你可以在比赛开始前就能淘汰掉某些“力量不够强”的选手。从此以后，“全部原始递归真理的可体现性”将作为我们称一个系统为“足够强有力”的判
+别标准。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+539
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+元数学中的岩头之斧
+\end_layout
+
+\begin_layout Standard
+上述观念的重要性表现在下列关键性的事实之中：如果你有数论的一个足够强有力的形式化体现，那么哥德尔定理就是可应用的，结果你的系统即是不完备的。另一方面，如果你的系
+统不是足够强有力的（即不是所有原始递归真理都是定理），那么你的系统由于有这个缺陷，也是不完备的。这里我们在元数学中碰到了“岩头之斧”的另一种形式化体现：不管系统
+怎么办，哥德尔之斧总要砍掉它的脑袋！另一点需要注意的是，这完全平行于《对位藏头诗》中的“高低保真度之别”
+\end_layout
+
+\begin_layout Standard
+实际上，人们发现很弱的系统依然是会受到哥德尔方法攻击的。“所有原始递归真理都需要体现成定理”，这个标准过于严格了。这有点象这样一个贼：他只偷“足够阔气”的人，其
+标准是盗窃对象应当至少带有一百万元现金。幸运的是，对TNT系统来说，我们将能够象这个贼那样动手，因为那里确实有一百万元现金——这就是说，TNT确实包含了所有原始
+递归真理作为其定理。
+\end_layout
+
+\begin_layout Standard
+现在，在我们进入对原始递归函数的谓词的详细讨论之前，我想把这一章的主题和前几章的主题联系起来，以提供一个更好的背景。
+\end_layout
+
+\begin_layout Subsection*
+选择适当的过滤器来发现有序
+\end_layout
+
+\begin_layout Standard
+我们很早就已经看到，形式系统可能是难以驾驭的，因为它们有加长和缩短待号串的规则，这可能会导致在大量符号串中进行无终止的搜索。哥德尔配数法的发现，显示了任何对一个
+具有特殊的符号性质的串的搜索都有一个算术中的表兄弟：对一个具有相应的特殊算术性质的整数的同构搜索。结果，对于形式系统判定过程的要求，涉及了对整数中不可预测其长度
+的搜索之谜（一种无
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+540
+\end_layout
+
+\end_inset
+
+序）的解决。在本章前面的对话中，我可能过分强调了和整数有关的问题中显示出的无序现象。事实上，和“妙极性”问题相比，人们已经驯服了一些更复杂的无序现象，发现它们不
+过是些很温顺的家伙。因此，阿基里斯对数的规则性和可预测性的坚定信仰，应当得到一定的尊敬——特别是由于这反映了到30年代为止几乎所有数学家的信念。为了说明为什么有
+序与无序的对比是这样一个微妙而有意义的问题，也为了把这一问题和对意义的定位及揭示等问题联系起来，我想引用《量子是实在的吗？》一文中优美而又令人难忘的一段——这是
+已故的杰·尧奇写的一篇伽利略式的对话：
+\end_layout
+
+\begin_layout Quotation
+萨尔维亚蒂：假设我给你两个数列，如
+\begin_inset Newline newline
+\end_inset
+
+7
+\begin_inset space \space{}
+\end_inset
+
+8
+\begin_inset space \space{}
+\end_inset
+
+5
+\begin_inset space \space{}
+\end_inset
+
+3
+\begin_inset space \space{}
+\end_inset
+
+9
+\begin_inset space \space{}
+\end_inset
+
+8
+\begin_inset space \space{}
+\end_inset
+
+1
+\begin_inset space \space{}
+\end_inset
+
+6
+\begin_inset space \space{}
+\end_inset
+
+3
+\begin_inset space \space{}
+\end_inset
+
+3
+\begin_inset space \space{}
+\end_inset
+
+9
+\begin_inset space \space{}
+\end_inset
+
+7
+\begin_inset space \space{}
+\end_inset
+
+4
+\begin_inset space \space{}
+\end_inset
+
+4
+\begin_inset space \space{}
+\end_inset
+
+8
+\begin_inset space \space{}
+\end_inset
+
+3
+\begin_inset space \space{}
+\end_inset
+
+0
+\begin_inset space \space{}
+\end_inset
+
+9
+\begin_inset space \space{}
+\end_inset
+
+6
+\begin_inset space \space{}
+\end_inset
+
+1
+\begin_inset space \space{}
+\end_inset
+
+5
+\begin_inset space \space{}
+\end_inset
+
+6
+\begin_inset space \space{}
+\end_inset
+
+6
+\begin_inset space \space{}
+\end_inset
+
+0
+\begin_inset space \space{}
+\end_inset
+
+8
+\begin_inset space \space{}
+\end_inset
+
+4……
+\begin_inset Newline newline
+\end_inset
+
+和
+\begin_inset Newline newline
+\end_inset
+
+1,
+\begin_inset space \space{}
+\end_inset
+
+-1/3,
+\begin_inset space \space{}
+\end_inset
+
++1/5,
+\begin_inset space \space{}
+\end_inset
+
+-1/7,
+\begin_inset space \space{}
+\end_inset
+
++1/9,
+\begin_inset space \space{}
+\end_inset
+
+-1/11,
+\begin_inset space \space{}
+\end_inset
+
++1/13,
+\begin_inset space \space{}
+\end_inset
+
+-1/15……
+\begin_inset Newline newline
+\end_inset
+
+如果我问你，辛普利奇奥，第一个序列的下一个数是什么，你会怎样说？
+\end_layout
+
+\begin_layout Quotation
+辛普利奇奥：我无法告诉你。我觉得它是个随机序列，其中没有规律。
+\end_layout
+
+\begin_layout Quotation
+萨尔维亚蒂：那么第二个序列呢？
+\end_layout
+
+\begin_layout Quotation
+辛普利奇奥：这个容易，下一个一定是+1/17。
+\end_layout
+
+\begin_layout Quotation
+萨尔维亚蒂：正确。但如果我告诉你第一个序列也是按某个规律构造的，而且这个规律事实上和你刚才在第二个序到中发现的一样，你会说什么？
+\end_layout
+
+\begin_layout Quotation
+辛普利奇奥：我看这不大可能。
+\end_layout
+
+\begin_layout Quotation
+萨尔维亚蒂：但事实的确如此。因为第一个序列只不过是第二个序列的和的十进制小数部分（展开式）的开始几位。这个和是π/4。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+54 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+辛普利奇奥：你用的数学技巧太多，但我看不出这与抽象和实在有什么关系。
+\end_layout
+
+\begin_layout Quotation
+萨尔维亚蒂：和抽象的关系显而易见。除非你已经通过抽象过程开发了一种过滤器，用它可以看出在表面的随机性背后的简单结构，否则第一个序列看上去就是随机的。
+\end_layout
+
+\begin_layout Quotation
+自然规律恰恰是以这种方式被发现的。自然只是提供给我们大量的现象，它们表面上杂乱无章，直到我们选择了某些有意义的事件，而且把它们从特定的，关系不大的环境中抽象出来
+，使它们成为理想化的时候为止。只有那时它们才会展现出光彩夺目的真实结构。
+\end_layout
+
+\begin_layout Quotation
+萨哲杜：这个想法太妙了！由此看来当我们设法理解自然时，我们应当把现象看作待理解的消息。只不过每个消息在我们为它设立一种编码之前好象是随机的。这种编码表现为一种抽
+象，就是说，我们有选择地把某些无关的东西忽略掉，这样就通过一种自由选择选取了消息的部分内容。这些无关信号构成了“背景噪声”，它们将限制我们的消息的精确性。
+\end_layout
+
+\begin_layout Quotation
+但由于这种编码不是绝对的，在同一组作为原材料的数据中就可能存在着多个消息，因此改变编码就会在某些以前认为只是噪声的东西中发现同样深刻的意义。相反地，在新的编码中
+以前的消息可能会变得没有意义。
+\end_layout
+
+\begin_layout Quotation
+这样一种编码就预先设定了在不同的、互补的方面之间的一种自由选择。每个方面都同样自称是“真实的”，如果我可以用这个可疑的词的话。
+\end_layout
+
+\begin_layout Quotation
+在这些方面之中，有些可能目前还完全不为我们所知，但它们可能把自己暴露给一个具有完全不同的抽象系统的观察者。
+\end_layout
+
+\begin_layout Quotation
+但请告诉我，萨尔维亚蒂，这样，我们怎么能仍然声称我
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+542
+\end_layout
+
+\end_inset
+
+们在客观的实在世界中发现了某些事物呢？这难道不是意味着我们只不过是根据自己的想象在构造事物，而实在仪仅存在于我们自身之中吗？
+\end_layout
+
+\begin_layout Quotation
+萨尔维亚蒂：我不认为一定是这样的，但这是一个需要进一步反思的问题。
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+尧奇，《量子是实在的吗？》，第63-65页。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+在这里，尧奇所涉及到的消息不是来自一个“有感知能力的物体”，而是来自自然界本身。我们在第六章提出的关于意义和消息的关系的问题同样适用于来自自然的消息。自然是无序
+的还是模式化的？智能在确定这个问题的答案的过程中能起什么作用？
+\end_layout
+
+\begin_layout Standard
+从哲学中退出来，我们仍能考虑表面上的随机序列中深藏的规律性。第五章中的函数Q(n)是否也具有一个简单的非递归解释？是不是每个问题都象《一首无的奉献》中提到的那片
+果树林一样，从某个特定的角度看进去，其中的秘密就一览无余了？还是说在数论中存在着，一些不论从哪个角度看都是神秘的问题？
+\end_layout
+
+\begin_layout Standard
+有了这段开场白，我觉得现在应该继续前进，去定义所谓“长度可预测的搜索”的精确意义了。这将用BlooP语言来完成。
+\end_layout
+
+\begin_layout Subsection*
+BlooP语言的基本步骤
+\end_layout
+
+\begin_layout Standard
+我们的议题是搜寻具有各种性质的自然数。为了讨论任意搜索的“长度”，我们必须定义一些基本“步骤”，任何搜索都由它们组成。这样，搜索长度就可以根据其中的步骤数来度量
+。被我们当怍基本步骤的有：
+\end_layout
+
+\begin_layout Standard
+两个自然数相加；
+\end_layout
+
+\begin_layout Standard
+两个自然数相乘；
+\end_layout
+
+\begin_layout Standard
+确定两个数是否相等；
+\end_layout
+
+\begin_layout Standard
+确定两个数的相对大小。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+543
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+循环和上界
+\end_layout
+
+\begin_layout Standard
+如果我们想用这些步骤严格地构造一个测试，例如测试一个数是否是素数，我们很快就会发现必须在其中包含一个“控制结构”——即对操作次序的描述：何时需要回过头来重新尝试
+某些东西，何时跳过一些步骤，何时停止，以及诸如此类的事情。
+\end_layout
+
+\begin_layout Standard
+在典型的情况下，任何“算法”——即对任务完成过程的明确描述——都由下列成分组成：(1)需完成的特定运算，(2)控制语句。因此，当我们为表示长度可预测的计算开发我
+们的语言时，我们必须同时包括基本控制结构。事实上，BlooP的特色也恰在于其有限的控制结构集。它不允许你转移到任意的步骤或无限制地循环某一步骤。在BIooP中，
+基本上唯一的控制结构就是“有界循环”（即“bounded loop”，这也正是“BlooP”的来历）：重复执行一组指令，重复次数不能大于某个预先确定的最大值。这
+个最大值称为该循环的“上界”，或“顶”o如果顶是300，那么这个循环可以进行o次、7次或300次——但不能是301次。
+\end_layout
+
+\begin_layout Standard
+在一个程序中，并不要求程序员准确地给出所有上界的数值——事实上它们是无法预知的。但是，每个上界都可以在进入该循环之前通过计算来确定。例如，如果你要计算23n的值
+，就该谩置两个循环。首先，你求出3n的值，这包括n次乘法。然后，你求2的3n次方，这包括3n次乘法。这样，第二个循环的上界是第一个循环的计算结果．o
+\end_layout
+
+\begin_layout Standard
+下面说明你怎样才能把这个过程表示在一个BlooP程序之中：DEFINE PROCEDURE"TWO - TO - THE -THREE-TO-THE"[Nl:
+ 定义过程名和参数N
+\end_layout
+
+\begin_layout Standard
+54 4BLOCK O: BEGINCELL(O) 1;
+\end_layout
+
+\begin_layout Standard
+LOOP N TIMES:
+\end_layout
+
+\begin_layout Standard
+BLOCK l: BEGIN
+\end_layout
+
+\begin_layout Standard
+CELL(O)亡=3 * CELL(O) ;BLOCK l: END;CELL(1) 1;LOOP CELL(O) TIMES:BLOCK 2:
+ BEGINCELL (l)《:2 x, CELl.(1) ;
+\end_layout
+
+\begin_layout Standard
+BLOCK 2: END;
+\end_layout
+
+\begin_layout Standard
+OUTPUT <= CELL(1);BLOCK O: END,第0块开始把"1"送入O号单元循环执行N次第1块开始0号单元内容乘“3”，结果仍送入O号单元第1块
+结束把“1”送入1号单元循环次数在O号单元中第2块开始1号单元内容乘“2”，结果仍送入1号单元第2块结束1号单元内容送入输出单元第o块结束BIooP的约定
+\end_layout
+
+\begin_layout Standard
+能够看着一个用计算机语言书写的算法，指出它是做什么的，这需要学习。但是，我希望这个算法足够简单，不必仔细研究就能理解。在上述程序中，定义了一个“过程”，它带有一
+个“输入参数”41】N，它的“输出”就是所要得到的值。
+\end_layout
+
+\begin_layout Standard
+这个过程定义采用所谓“块结构”，这就是说其中某些部分可以被看作一个单元，或“块”o在一块中的所有语句可以被当作一个单元来执行。每一块都有个编号(最外面一层是BL
+()CK O），而且用BEGIN相END标记开始和结束。在我们这个例子中，BLOCK1和BLOCK 2每个仅含一个语句——但不久你就会见到更长的块。一个l。OO
+P语句总是意味着重复地执行紧随其后的块。正象
+\end_layout
+
+\begin_layout Standard
+54 5在上例中所见到的，块可以互相嵌套。
+\end_layout
+
+\begin_layout Standard
+上述算法的策略前面已经描述过了。你首先取一个辅助变量，叫CELL(O)，把它的初值赋为1，然后，在一个循环中反复地把其值乘以3，直到这样做完N次为止。下一步，你
+对CELL(1)做类似处理——把它置成1，反复乘2，做CELL(0)次，然后停止。最后，你把CELL(1)中的值赋给OUTPUT o这个值就是要传回给外部世界的
+——这是该过程唯一的外部可见行为。
+\end_layout
+
+\begin_layout Standard
+关于所用的记号，在这里还有几点需要说明。首先，左箭头“仁”的意思是这样：
+\end_layout
+
+\begin_layout Standard
+求出其右边公式的值，然后把结果赋给其左边的CELL(或OUTPUT)o
+\end_layout
+
+\begin_layout Standard
+因此CELL(1)乞3*CELL(1)这条命令的意义就是把存在CELl．一(1)中的值乘3倍。你可以把每个CELL想象成某个计算机的存贮器中的一个字。在一个CE
+LI。和一个真实的字之间的唯一区别就是：后者只能存放某个确定限度之内的整数，而我们允许一个CELL存放任意自然数，不管有多大。
+\end_layout
+
+\begin_layout Standard
+在BlooP中，每个过程在被调用时都能得出一个值——即称为OUTPUT的变量的值。在开始执行任何过程时，OUTPUT都把o值作为其缺席选择值。这样，既使过程根本
+没给OUTPUT重新赋值，OUTPUT也能始终有一个明确定义的值。
+\end_layout
+
+\begin_layout Subsection*
+IF条件语句和分支
+\end_layout
+
+\begin_layout Standard
+现在让我们看另一个过程，它将展示BLooP的其它特点，这些特点使该语言更加具有一般性。如果只会做加法，你怎样才能求出M-N的值呢？窍门在于把各种各样的数和N相加
+，直至你发现一个与N的和等于M的数为止。但是如果M小于N会发生什么情况呢？如果我们想从2中取走5会怎样？这在自然数域中是没
+\end_layout
+
+\begin_layout Standard
+5 4 6有答案的。但我们希望我们的BlooP过程不管怎样应当给出一个答案——比如说Oo下面就是一个做减法的BlooP过程：DEFINE PROCEDURE
+ 4 1 2“MINUS" [M，N二： 定义过程名和变量M、N
+\end_layout
+
+\begin_layout Standard
+BI。OCK O：BEGIN 第0块开始
+\end_layout
+
+\begin_layout Standard
+IF M<N，THEN: 若M<N，贝q：
+\end_layout
+
+\begin_layout Standard
+QUIT BLOCK O； 退出第O块
+\end_layout
+
+\begin_layout Standard
+LOOP AT MOST M+l TIMES:循环至多M+1次：
+\end_layout
+
+\begin_layout Standard
+BI。OCK l：BEGIN 第1块开始
+\end_layout
+
+\begin_layout Standard
+1F ()UTPUT+N -M, THEN： 若OUTPUT+N -M，则：
+\end_layout
+
+\begin_layout Standard
+ABORT LOOP 1； 止循环r
+\end_layout
+
+\begin_layout Standard
+OUTPUT々OUTPUT+1； OUTPUT的值加1，送回
+\end_layout
+
+\begin_layout Standard
+BLOCK l：END； 第1块结束BLOCK O:END． 第O块结束
+\end_layout
+
+\begin_layout Standard
+这里我们利用了Ol.TTPUT开始时为0这一隐含性质。如果M小于N，那么减法就是不可能的，我们只需直接跳到BLOCK O的末尾，同时答案是Oo这就是QUIT
+ BLOCK O这一行的意思。但如果M不小于N，那么我们就越过这条QUIT语句，按顺序执行下一条命令（在这里是个LOOP语句）o这就是IF语句在BlooP中的工
+作方式。
+\end_layout
+
+\begin_layout Standard
+这样，我们就进入了LOOP lo这样称呼它，是因为它要重复执行的块是BLOCK lo找们试着把o加到N上，然后是l、2、
+\end_layout
+
+\begin_layout Standard
+．．，直到我们找到那个能导出M的数。这时我们对当前循环做ABORT，即跳到紧跟着标识循环块底的END后面的一条语句。
+\end_layout
+
+\begin_layout Standard
+在七述例子中，我们跳到了BLOCK 1：END的后面，即到达了算法的最后一条语句，而且任务已经完成了。现在OUTPUT中放的就是正确答案。
+\end_layout
+
+\begin_layout Standard
+5 47
+\end_layout
+
+\begin_layout Standard
+注意，往下跳有两种不同的指令：QUIT和ABORT。前者从
+\end_layout
+
+\begin_layout Standard
+属于块，后者从属于循环o QUIT BLOCK n意味着跳到BLOCK n
+\end_layout
+
+\begin_layout Standard
+的最后一行，而ABORT LOOP n意味着跳到BLOCK n的最后
+\end_layout
+
+\begin_layout Standard
+一行之后。只有在一种情况下二者的区别是重要的：当你在一个循
+\end_layout
+
+\begin_layout Standard
+环之中，想要继续循环，但又要退出这一轮所在的块。这时你用
+\end_layout
+
+\begin_layout Standard
+QUIT就能达到预期的效果。
+\end_layout
+
+\begin_layout Standard
+还应当注意的是在循环上界前面注有AT MOST（至多），这一 告诫你循环可能在达到上界之前就被中止了。
+\end_layout
+
+\begin_layout Subsection*
+自动组块
+\end_layout
+
+\begin_layout Standard
+‘F面是BlooP的最后两个需要加以说明的特点，它们都是非
+\end_layout
+
+\begin_layout Standard
+常重要的。其一是：一旦一个过程已经被“定义”了，它就可以在后
+\end_layout
+
+\begin_layout Standard
+面的过程定义中被“调用力o其效果是一旦某个操作在一个过程中
+\end_layout
+
+\begin_layout Standard
+被定义了，它就会被认为和基本步骤一样简单。这样，BlooP就具
+\end_layout
+
+\begin_layout Standard
+有了自动组块的特点。你可以把这和一个溜冰好手学习新花样的
+\end_layout
+
+\begin_layout Standard
+过程相比：他不是把新动作看作长长的基本肌肉活动序列，而是看
+\end_layout
+
+\begin_layout Standard
+作以前学过的一些动作的组合，而那些动作自身又是用更早所学4 1 3的动作所组成的，如此等等——这种嵌套或组块可以上溯许多层
+\end_layout
+
+\begin_layout Standard
+次，直至遇到基本肌肉活动为止。这样．BIooP程序的能力就和溜
+\end_layout
+
+\begin_layout Standard
+冰者的技能一样，可以突飞猛进地增饫了。
+\end_layout
+
+\begin_layout Subsection*
+BIooP测试
+\end_layout
+
+\begin_layout Standard
+BlooP的另一个特点是：某些特定过程可以用YES或NO作
+\end_layout
+
+\begin_layout Standard
+其输出，而不是输出一个整数的值。这种过程是“测试”，而非“函
+\end_layout
+
+\begin_layout Standard
+数”o为了说明这个区别，测试的名字必须以一个问号结束。另外，
+\end_layout
+
+\begin_layout Standard
+在一个测试中，OUTPUT的缺省值当然不能是O，而是NOo
+\end_layout
+
+\begin_layout Standard
+让我们看一个例子，其中把BIooP的最后这两个特点表现在
+\end_layout
+
+\begin_layout Standard
+5 48一个算法里。这个算法要测试一个函数的自变量是否是素数。
+\end_layout
+
+\begin_layout Standard
+DEFINE PROCEDURE“PRIME?"[N]： 定义过程名和变量NBLOCK O：BEGIN 第o块开始
+\end_layout
+
+\begin_layout Standard
+1F N=O，THEN： 若N=O，则：
+\end_layout
+
+\begin_layout Standard
+QUIT BLOCK O； 退出第o块
+\end_layout
+
+\begin_layout Standard
+CELL(O)仁2； 把CELL(O)置成2
+\end_layout
+
+\begin_layout Standard
+LOOP AT MOST 循环至多N-2次
+\end_layout
+
+\begin_layout Standard
+MINUS[N，2]TIMES:
+\end_layout
+
+\begin_layout Standard
+BLOCK 1：BF.GIN 第1块开始
+\end_layout
+
+\begin_layout Standard
+IF REMAINDER 若N除以CELL(O)余o．则：
+\end_layout
+
+\begin_layout Standard
+[N，CELL(O)]一o，
+\end_layout
+
+\begin_layout Standard
+THEN:
+\end_layout
+
+\begin_layout Standard
+QUIT BLOCK 0； 退出第O块
+\end_layout
+
+\begin_layout Standard
+CELL(O)仨CELL(O)+1; CELL(O)的值加1
+\end_layout
+
+\begin_layout Standard
+BLOCK 1：END； ；1块结束
+\end_layout
+
+\begin_layout Standard
+OUTPUT仁YES； 把OUTPLT置成YESBI。OCK O：END． 第o块结束
+\end_layout
+
+\begin_layout Standard
+注意，我在这个算法中调用了两个过程：MINUS和RE-MAINDER o（假设后者已经事先定义了．你可以自己完成这个定义，REMAINDER [N，R]的作用是
+求N除以R所得的余数o）这个素数测试过程的工作方式是逐个检查N可能有的因子；从2开始直到N-l为止。如果其中某一个能整除N（即余数为0），则跳到过程尾部，由于此
+时OUTPUT仿然保有其缺省值，故答案为NOo仅当N没有整数因子时，它才能通过整个LOOP 1，那时我们会遇到语句OUTPLTT仨YES，执行了这个语句后，过程
+就结束了。
+\end_layout
+
+\begin_layout Standard
+54 9BIooP程序包含了过程组成的链
+\end_layout
+
+\begin_layout Standard
+我们已经看到了在BIooP中怎样定义过程，但过程定义只是
+\end_layout
+
+\begin_layout Standard
+一个程序的一部分。一个“程序”包括一条“过程定义链”（其中每个
+\end_layout
+
+\begin_layout Standard
+过程仅仅调用前面定义的过程），还可能跟着一个或多个对所定义4 1 4过程的“调用”o这样，一个完整的BlooP程序的例子应当是一个过
+\end_layout
+
+\begin_layout Standard
+程TWO -TO - THE - THREE—TO—THE的定义，后面跟着
+\end_layout
+
+\begin_layout Standard
+一个调用
+\end_layout
+
+\begin_layout Standard
+TWO-TO-THE-THREE-TO-THE[2]
+\end_layout
+
+\begin_layout Standard
+这 会得到答案5 1 2 0图72． ．个待调用的BIooP程序的结构。由 这个概念显示在图72中。
+\end_layout
+
+\begin_layout Standard
+于这个程序是自足的，每个过程定义中只能 现在BlooP是我ff]用来调用定义在它前面的过程。 定义可预知终止的计算的语言。可以用BlooP来计算的函数的标准名称
+是“原始递归函数”；而
+\end_layout
+
+\begin_layout Standard
+5 5 0可以用BlooP测试来验证的性质的标准名称是“原始递归谓词”o这样，函数23n就是个原始递归函数，而命题“n是个素数”则是个原始递归谓词。
+\end_layout
+
+\begin_layout Standard
+凭直觉就能看出哥德巴赫性质是原始递归的。为了使其明确化，这里有一个用BIooP写的过程定义，来显示如何测试这一性质是否存在：DEFINE PROCEDURE“G
+OLDBACH?ⅥN]： 定义过程名和变量NBLOCK O：BEGIN 第O块开始CELL(O)c2； CELL(O)置成2LOOP AT MOST
+ N TIMES: 循环至多N次BLOCK l：BEGIN 第1块开始
+\end_layout
+
+\begin_layout Standard
+IF {PRIME?[CELL(O)] 若CELL(O)和N-
+\end_layout
+
+\begin_layout Standard
+CELL(O)AND RPIMF?[MINUS[N，CELL(O)]])， 均为素数，
+\end_layout
+
+\begin_layout Standard
+THEN： I：
+\end_layout
+
+\begin_layout Standard
+BLOCK 2：BEGIN 第2块开始
+\end_layout
+
+\begin_layout Standard
+OUTPUT乍YES; 旦OUTPUT置成YES
+\end_layout
+
+\begin_layout Standard
+QUIT BLOGK O； 退出第O块
+\end_layout
+
+\begin_layout Standard
+BLOCK 2：END; 第2块结束
+\end_layout
+
+\begin_layout Standard
+CELL(O)e CELL(O)+1; CELL(O)加1BLOCK 1：END; 第1块结束BLOCK O：END． 第O块结束和通常一样，我们先假设心O，直
+到证明YES为止。而且我们是靠一股蛮劲在其和为N的数对之中进衍搜索。如果两个数均为素数，我们就退出最外层的块，否则我们就返回去再试，直至穷尽全部可能性为止。
+\end_layout
+
+\begin_layout Standard
+5 5 1
+\end_layout
+
+\begin_layout Standard
+（警告：哥德巴赫性质是原始递归的，但这一事实并没有使“是否所有的数都具有哥德巴赫性质？”成为一个简单的问题——远非如此！）4 1 5 推荐的练习题你能写一个类似
+的过程来测试乌龟性质（或阿基里斯性质）是否存在吗？如果能，就请写出来。如果不能，是仅仅因为你不知道上界，还是因为在BIooP中刻画这样的算法时遇到了根本性的障碍
+？如果对在对话中提出的“妙极性”性质提同样的问题，会得出什么答案？
+\end_layout
+
+\begin_layout Standard
+下面我将列出一些函数和性质，你最好花一些时间来确定你
+\end_layout
+
+\begin_layout Standard
+是否相信它们是原始递归的（即可用BlooP编程序）o这意味着你
+\end_layout
+
+\begin_layout Standard
+必须认真考虑它们所要求的计算中包含哪些操作，以及是否能给
+\end_layout
+
+\begin_layout Standard
+出其中涉及的全部循环的项。
+\end_layout
+
+\begin_layout Standard
+FACT()RIAL[N]=N!（N的阶乘）
+\end_layout
+
+\begin_layout Standard
+（例如：FACTORIAI。[4l= 24）
+\end_layout
+
+\begin_layout Standard
+REMAINDER[M，N]=用N除M所得的余数
+\end_layout
+
+\begin_layout Standard
+（例如：REMAINDER[24，7]=3）
+\end_layout
+
+\begin_layout Standard
+PI- DIGIT[N]一7c在小数点后的第N位数字
+\end_layout
+
+\begin_layout Standard
+（例如：PI- DIGIT[1]=1，
+\end_layout
+
+\begin_layout Standard
+PI- DIGIT[2]=4，4 1 6 PI- DIGIT[1000000]=1)
+\end_layout
+
+\begin_layout Standard
+FIBO [N]=斐波那契数列的第N项
+\end_layout
+
+\begin_layout Standard
+（锣如：FIB0[9]=34）
+\end_layout
+
+\begin_layout Standard
+PRIME -BEYOND[N]～大于N的最小素数
+\end_layout
+
+\begin_layout Standard
+(侈口:PRIME-BEYOND[33]=37)
+\end_layout
+
+\begin_layout Standard
+PERFECT[N]=第N个“完全”数（一个数的所有约数之和等于
+\end_layout
+
+\begin_layout Standard
+5 5 2它本身，如28-1+2+4+7+14)
+\end_layout
+
+\begin_layout Standard
+(例如：PERFECT[2]=28)PRIME?[N]=YES若N是素数，否则为NOoPERFECT?[N]=YES若N是完全数，否则为NOoTRIVIAL?[
+A,B,C,N]=YES若AN+BN= CN成立，否则为NOo
+\end_layout
+
+\begin_layout Standard
+(例如：TRIVIAL?[3,4,5,2l=YES,
+\end_layout
+
+\begin_layout Standard
+TRIVIAL?[3,4,5 ,3] =NO)PIERRE?[A,B,C]=YES若AN+BN =CN可以被某个大于1的N值所满足，否则为NO
+ o
+\end_layout
+
+\begin_layout Standard
+(例如：PIERRE?[3,4,5] =YES,
+\end_layout
+
+\begin_layout Standard
+PIERRE?[1,2,3] =NO)FERMAT?[N]=YES若AN+BN =CN可以被某一组正数A.B.C所满足，否则为NO.
+\end_layout
+
+\begin_layout Standard
+(例如：FERMAT?[2] - YES)TORTOISE-PAIR?[M,N]=YES若M和M+N均为素数，否则为NOo
+\end_layout
+
+\begin_layout Standard
+(例如：TORTOISE - PAIR?[5,1742]=YES,
+\end_layout
+
+\begin_layout Standard
+TORTOISE-PAIR?[5,100]=NO)TORTOISE?[N]-YES若N为两个素数之差，否则为NOo
+\end_layout
+
+\begin_layout Standard
+(例如：TORTOISE?[1742] =YES,
+\end_layout
+
+\begin_layout Standard
+TORTOISE?[7] =NO)WJU-WELL----FORMED?[N]=YES着N可以看作WJU系统中的一个良构串，否则为NO o
+\end_layout
+
+\begin_layout Standard
+(例如：WJU -WELL - FORMED?[310]=YES,
+\end_layout
+
+\begin_layout Standard
+WJU—WELL-FORMED?[415]=NO)wjU -PROOF-PAIR ?[M,N]=YES若在WJU系统中可以把串序列M看作串N的一个推导，否则为N
+Oo
+\end_layout
+
+\begin_layout Standard
+55 3
+\end_layout
+
+\begin_layout Standard
+（例如：WJU - PROOF - PAIR:?[3131131111301, 301]=
+\end_layout
+
+\begin_layout Standard
+YES，
+\end_layout
+
+\begin_layout Standard
+WJU -PROQF- PAIRl[311130,30] =NO)
+\end_layout
+
+\begin_layout Standard
+WJU-THEOREM?[N]=YES若N对应的WJU系统中的串是
+\end_layout
+
+\begin_layout Standard
+一个定理，否则为NOo
+\end_layout
+
+\begin_layout Standard
+（例如：WJU—THEOREM?[311]=YES,
+\end_layout
+
+\begin_layout Standard
+WJU ~THEOREM?[30] =NO,
+\end_layout
+
+\begin_layout Standard
+WJU-THEOREM?[701]=NO)
+\end_layout
+
+\begin_layout Standard
+TNT-THEOREM?[N] =YES若N对应的TNT串是个定理。
+\end_layout
+
+\begin_layout Standard
+（例如：TNT-THEOREM?[666111666]=YES,
+\end_layout
+
+\begin_layout Standard
+TNT-THEOREM?[123666111666]=NO,
+\end_layout
+
+\begin_layout Standard
+TNT-THEOREIVI?[7014] =NO)4 1 7 FALSE? [N] -YES若N对应的TNT串是数论中的一个假命
+\end_layout
+
+\begin_layout Standard
+题，否则为NOo
+\end_layout
+
+\begin_layout Standard
+（例如：FALSE?[666111666] =N09
+\end_layout
+
+\begin_layout Standard
+FALSE?[223666111666l= YES,
+\end_layout
+
+\begin_layout Standard
+FALSE?[7014l=NO)
+\end_layout
+
+\begin_layout Standard
+后面七个题目与我们将要进行的元数学探索关系密切，因此很值
+\end_layout
+
+\begin_layout Standard
+得你认真分析。可表示性和可体现性
+\end_layout
+
+\begin_layout Standard
+在继续讨论一些关于BIooP及其“亲戚”FlooP的问题之前，让我们先回顾一下当初引进BIooP酌原因，并把它和TNT联系起来。我在前面说过，一旦全部原始递归的
+概念对一个形式系统来说都是可体现的，那么这个系统就达到r使用哥德尔方法所需的“临界质量”o这到底意味着什么呢？首先，我们必须区别这样两个概念：可表示性和可体现性
+。“表示”一个谓词只不过是一个从自然
+\end_layout
+
+\begin_layout Standard
+5 5 4语言到严格的形式化表述的翻译问题。这和该谓词是不是定理没有关系。而要“体现竹一个谓词，这可就是个强得多的概念了。这意味着：
+\end_layout
+
+\begin_layout Standard
+(1)该谓词的全部为真的例均为定理；
+\end_layout
+
+\begin_layout Standard
+(2)全部为假的例均为非定理。“例”在这里是指用数值取代谓词中所有自由变量后所得到的串。
+\end_layout
+
+\begin_layout Standard
+例如，谓词m+n—k在pq系统中是可体现的，因为该谓词的每个为真的例都是定理，每个为假的例都是非定理。这样，任何具体的加式，无论真假，都能被译成pq系统中的“可
+判定串”o但是，pq系统不能表示——更不要说体现——自然数的任何别的性质。因此在对数论进行形式化的竞争之中，它的确不是一个强有力的候选者。
+\end_layout
+
+\begin_layout Standard
+而TNT的优点是能够表示数论中的任何谓词D例如，很容易写一个TNT串来表示谓词“b具有乌龟性质”o因此，根据表示能力来看，TNT满足我们的全部要求。
+\end_layout
+
+\begin_layout Standard
+但是，问“在TNT中哪些性质是可体现的？”，这恰恰就是同“TNT作为一个公理系统有多强？”o是不是所有可能的性质在TNT中都是可体现的？若是如此，那么TNT就能
+回答数论中的任何问题，它就是完全的。
+\end_layout
+
+\begin_layout Standard
+原始递归谓词在TNT中是可体现的
+\end_layout
+
+\begin_layout Standard
+虽然完全性将被发现是个幻梦，TNT至少相对于原始递归谓词来说还是完全的。换句语说，如果数论中的某个陈述的真假能用41 8计算机在一个长度可预知的时间段中判定，那
+它在TNT中一定也是可判定的。也可以把这个问题表述戍如下形式
+\end_layout
+
+\begin_layout Standard
+如果能为自然数的某个性质写出一个BlooP测试，那么这个
+\end_layout
+
+\begin_layout Standard
+性质在TNT中是叮体现的。
+\end_layout
+
+\begin_layout Standard
+5 5 5
+\end_layout
+
+\begin_layout Subsection*
+存在非原始递归的函数吗？
+\end_layout
+
+\begin_layout Standard
+用BIooP测试可以检查许多种不同的性质，包括一个数是否为素数或完全数、是否具有哥德巴赫性质、是否是2的幂，如此等等。这自然地会使人考虑是不是数的每种性质都能被
+某个适当的BlooP程序所检查。虽然我们现在还无法测试一个数是否是妙极的，但我们不必过于因此心烦意乱，因为这也许仅仅是由于我们对妙极性还缺乏认识，随着进一步的挖
+掘，我们也许会为其中包含的循环上界发现一个通用的公式。那时就可以马上为妙极性写出一个BlooP测试了。对乌龟性质可能也是同样的。
+\end_layout
+
+\begin_layout Standard
+因此，这个问题实质上是“是否总能给出运算长度的上界——还是说在自然数系统中存在一种内在的混乱，致使有时无法事先预测运算的长度？”令人震惊的是，恰好是后一种情况出
+现了，其原因我们不久就会看到。这种事情准会把毕达哥拉斯——他第一个证明了二的平方根是无理数——气昏厂头。在我们的论证中，将使用享有盛名的“对角线法”，这是由集合
+论的奠基人康托尔发现的。
+\end_layout
+
+\begin_layout Subsection*
+B库、索引编号和蓝程序
+\end_layout
+
+\begin_layout Standard
+让我们首先设想一个新奇的概念：装着所有可能的BIooP程序的库。不用说，这个库——“B库”是个无穷大的库。我们要考虑由B库通过三个连续的过滤操作所得到的一个子库
+o第一个过滤器为我们选出其中的“待调用”程序。然后我们再去掉这个子库中的全部“测试”，只留下“函数”o（顺便说明一下，在待调用程序中，链中的最后一个过程决定了整
+个程序应当被看成是测试还是函数o）第三个过滤器将选出那些恰有一个输入参数的函数o（同样只是指链中最后一个过程o）剩下来的是
+\end_layout
+
+\begin_layout Standard
+一个包含所有这样的待调用BlooP程序的完整库：这些程序
+\end_layout
+
+\begin_layout Standard
+55 6
+\end_layout
+
+\begin_layout Standard
+计算那些恰有一个输入参数的函数。
+\end_layout
+
+\begin_layout Standard
+让我们称这些特殊的BlooP程序为“蓝程序”(Bloo的发音在英语里和“蓝[blue]"的发音很相近，而P是“程序”[program]的首字母）o现在我们要做的
+事是为每个蓝程序指定一个互不混淆的“索引编号”o怎样做呢？最简单的办法——我们正是要这样做——就是根据长度把它们排列起来：可能的蓝程序中最短的为1号，次短的为2
+号，等等。当然，会有许多长度相同的程序。为解决这个问41 9题，我们使用字典次序。在这里，“字典次序”是在拓广的意义下使用的，其中字母表里包括BlooP中的所有
+附加字符，以某一次序排列起来，例如下面这样：
+\end_layout
+
+\begin_layout Standard
+ABCDEFGHIJKLMN
+\end_layout
+
+\begin_layout Standard
+OPQRSTU VWXYZ+*
+\end_layout
+
+\begin_layout Standard
+012 3 4 5 6 7 8 9仁=<>
+\end_layout
+
+\begin_layout Standard
+()[]{}一，？：；，．——注意：其中最后一个是个空格！这样，一共有五十六个字符。为方便起见，我们可以把所有长度为1的蓝程序放在第一列，两个字符组成的程序放在
+第2列，等等。显然前几列完全是空的，而后面一些列中有许多许多项（虽然每一列中的项数是有限的）o排在第一的蓝程序大概是这样一个：DEFINE PROC.EDURF“
+A"[B]： 定义过程名和参数BBLOCK O；BEGIN 第O块开始Bl。()CK O：END． 第O块结束这个程序实在有点傻：不管输入是什么，输出值总是Oo
+它出现在第5 6列中，因为它有5 6个字符（请数一下必要的空格，包括那些隔开相邻两行的空格）o
+\end_layout
+
+\begin_layout Standard
+在遇到第5 6列之后不久，后面的列变得越来越满，因为把符号组合起来形成蓝程序的方法实在太多了。不过不要紧——我们不
+\end_layout
+
+\begin_layout Standard
+5 5 7
+\end_layout
+
+\begin_layout Standard
+想设法把这个无穷无尽的目录表列出来c抽象地说，我们所关心的
+\end_layout
+
+\begin_layout Standard
+是，这个目录表应当是良定义的，即每个蓝程序能从中得到一个唯
+\end_layout
+
+\begin_layout Standard
+一确定的索引编号。这才是关键所在。
+\end_layout
+
+\begin_layout Standard
+让我们这样指示被第k个蓝程序所计算的函数：
+\end_layout
+
+\begin_layout Standard
+蓝程序{#k）[N]
+\end_layout
+
+\begin_layout Standard
+在这里，k是该程序的索引编号，N是唯一的输入参数。例如，蓝程
+\end_layout
+
+\begin_layout Standard
+序#12可以是送回其输入值的二倍的那个函数：
+\end_layout
+
+\begin_layout Standard
+蓝程序{#12）[N]=2×N
+\end_layout
+
+\begin_layout Standard
+上述等式的意义是：左面指定的程序将给出一个返回值，这个值和
+\end_layout
+
+\begin_layout Standard
+人从右面的常规代数公式中算出的相等。作为另一个例子，或许第
+\end_layout
+
+\begin_layout Standard
+5000个蓝程序计算其输入参数的立方：
+\end_layout
+
+\begin_layout Standard
+蓝程序{#5 000）[N]=N-34 20 对角线法
+\end_layout
+
+\begin_layout Standard
+好，现在我们就要耍那个“花招”了，即使用康托尔的对角线法。我
+\end_layout
+
+\begin_layout Standard
+们将用这个蓝程序的目录表定义一个单变量函数——“蓝对角”
+\end_layout
+
+\begin_layout Standard
+[Nl-而且将会发现这个函数根本不在表中（这就是把它的名
+\end_layout
+
+\begin_layout Standard
+字加上引号的原因）o而“蓝对角一很显然是个良定义的单变量可计
+\end_layout
+
+\begin_layout Standard
+算函数，这样我们就不得不下结论说，存在一些不能在BIooP中编
+\end_layout
+
+\begin_layout Standard
+程序的函数。
+\end_layout
+
+\begin_layout Standard
+下面就是“蓝对角”[N]的定义：
+\end_layout
+
+\begin_layout Standard
+等式(1)．： “蓝对角”[N]一1+蓝程序{#N）[N]
+\end_layout
+
+\begin_layout Standard
+我们的策略是：把每台“绞肉机”的索引编号送给它自己去加I，然
+\end_layout
+
+\begin_layout Standard
+后把它的输出值加1 0为了说清楚这一点，让我们找出“蓝对角”
+\end_layout
+
+\begin_layout Standard
+[12]0我们已经看到蓝程序{#12）就是函数2N，因此，“蓝对角”
+\end_layout
+
+\begin_layout Standard
+[12]的值一定就是1+2×1 2，也就是2 5 0类似地，“蓝对角”[5000]
+\end_layout
+
+\begin_layout Standard
+应该等于125000000001，因为这个数是1加上5000的立方。同理，你
+\end_layout
+
+\begin_layout Standard
+55 8可以为任意选定的自变量找出“蓝对角”的值。
+\end_layout
+
+\begin_layout Standard
+“蓝对角”的独特之处在于：它不出现在全部蓝程序所构成的目录表中。它不可能在那里。理由是这样的：如果它是个蓝程序，它就一定得有个索引编号——比如说它是蓝程序#Xo
+这个假设可以被表示成
+\end_layout
+
+\begin_layout Standard
+等式(2)：“蓝对角”[N]=蓝程序{#X）[N]但等式(1)和(2)是互不相容的a当我们要去计算“蓝对角”[X]的值时，这就会变得很显然。因为我们在计算时要令
+二式中的N均取值为Xo如果在公式(1)中做此代换，我们得到：
+\end_layout
+
+\begin_layout Standard
+“蓝对角”[X]=1+蓝程序{#X）[X]但如果对公式(2)做此代换，我们得到：
+\end_layout
+
+\begin_layout Standard
+“蓝对角”[X]=蓝程序{#X）[X]而“蓝对角”[X]不可能既等于某个数又等于该数加一。但这正是上述两个公式的意思。因此我们只得返回去丢掉某个造成这个矛盾的假
+设。唯一可能的选择是丢掉公式(2)所表示的假设：函数“蓝对角”[N]可以写成一个蓝BIooP程序。而这就证明了“蓝对角处于原始递归函数的范围之外”o这样，我们就
+达到了目的，一举摧毁了阿基里斯所珍爱的那个朴素观念：每个数论中的函数都必定能在可预测的步数内被箅出来。
+\end_layout
+
+\begin_layout Standard
+这里出现了一些很微妙的事情。比如说你可能会考虑这个问遂：对每个特定的N值来说，在计算“蓝对角，，[N]时所包括的步数421总是可预测的——但这些不同的预测方式不
+能全都结合成一个普适的方法，以预测“蓝对角”[N]的运算长度。这是一个“无穷阴谋”，它联系于乌龟那个“无穷巧合打的概念，以及∞不完全性。这里我们不再仔细追寻这些
+联系。
+\end_layout
+
+\begin_layout Standard
+5 5 9
+\end_layout
+
+\begin_layout Subsection*
+康托尔本人给出的对角线论证
+\end_layout
+
+\begin_layout Standard
+为什么这种方法叫作“对角线”论证呢？这个术语来自康托尔本人的对角线论证，而许多其它论证都是后来从其中派生的。为了讲解康托尔当时所创造的这一论证，我们要稍微离开正
+题，不过这样做还是值得的。康托尔也是致力于表明某个项不存在于一个特定的表之中。具体点说，康托尔要表明的是：如果建立了一个实数“登记表”，它就不可避免地要把某些实
+数拒之门外——因此，实际上“一个完全的实数登记表”这个观念本身就是自相矛盾的。
+\end_layout
+
+\begin_layout Standard
+必须看到，这不仅适用于有限的登记表，而且也适用于无穷长，的登记表。这个结果比下述命题深刻得多：“实数有无穷多个，因此显然不能列在一个有限长的登记表中”o康托尔的
+结果的实质在于说明了存在（至少）两种不同类型的无穷：一种无穷描述了在一个无穷长的登记表中能有多少表目，另一种无穷描述了实数的数量（即一条线或线段上点的数量）——
+因此后者“更大”，其理由是实数不能被塞进一个具有前一种无穷的长度的表之中。让我们看看为什么康托尔的论证中涉及了对角线这个词。
+\end_layout
+
+\begin_layout Standard
+我们只考虑O和1之间的实数就够了。为了进行论证，先假设能够给出一个无穷长的表，其中每个正整数N对应于0和1之间的一个实数r(N)，面且o和1之间的每个实数都将出
+现在表中的某个位置上。由于实数都能写成无穷小数，我们可以设想这张表的开始部
+\end_layout
+
+\begin_layout Standard
+、’～分可能是这样的：
+\end_layout
+
+\begin_layout Standard
+r1):．1415 9 2 6 5 3-．
+\end_layout
+
+\begin_layout Standard
+r(2)：．3 3 3 3 3 3 3 3 3-．
+\end_layout
+
+\begin_layout Standard
+r 3 ： ．718 2 818 2 8-．
+\end_layout
+
+\begin_layout Standard
+r 4)：．414213 5 6 2--
+\end_layout
+
+\begin_layout Standard
+r(5)：．5 0 0 0 0 0 0 0 0..
+\end_layout
+
+\begin_layout Standard
+5 60其中对角线上的数字用黑体印出了：1、3、8、2、O……。现在要用这些数字来构造一个特殊的实数d，d在O和1之间，但我们将发现它不在表内。为了构造(l，我
+们依次取出对角线上的数字，然后把其中的每一个都设成别的什么数字。当在这样得到的数字序列前加上小数点之后，你就得到了d o当然把一个数字改成别的什么数字会有许多种
+办法，相应地可以得到许多不同的d o例如，设我们从每个对角线上的数字中减去1（并约定O减1得9）o那么我们得到的422d将是：
+\end_layout
+
+\begin_layout Standard
+．()2 7 1 9．-．．．这时，根据我们的构造方式，有：
+\end_layout
+
+\begin_layout Standard
+d的第1位不同于r(l)的第1位；
+\end_layout
+
+\begin_layout Standard
+d 第2位不同于r(2)的第2位；
+\end_layout
+
+\begin_layout Standard
+d的第3位不同于r(3)的第3位；
+\end_layout
+
+\begin_layout Standard
+……如此等等。因此，我们有
+\end_layout
+
+\begin_layout Standard
+d 同于r(l)；
+\end_layout
+
+\begin_layout Standard
+d不同于r(2)；
+\end_layout
+
+\begin_layout Standard
+d不同于r(3)；
+\end_layout
+
+\begin_layout Standard
+-．如此等等。换句括说，d不在表中！
+\end_layout
+
+\begin_layout Subsection*
+对角线论证证明了什么？
+\end_layout
+
+\begin_layout Standard
+现在来看康托尔的证明和我们的证明之间的根本区别——这涉及到对哪个假设进行否定。在康托尔的论证中，不牢靠的假设是可以写出上述的表。因此，d的构造就保证了下述结论的
+正确性：根本无法写出囊括了一切实数的表——这等于说整数的集合还没有大到足以为实数的集合作索引。而另一方面，在我们的诬明中，
+\end_layout
+
+\begin_layout Standard
+5 61我们知道蓝BIooP程序的登记表叮以被写出来——整数集已经是够大，能够为蓝BlooP程序作索引。这样，我们只得退回去，撤消某个以前用过的更不牢靠的想法，
+而这个想法就是“蓝对角”[N]可以用某个用BlooP写的程序来计算。这是采用对角线法时的一个微妙差别。
+\end_layout
+
+\begin_layout Standard
+I刘73．盖嗅，j：格·康托，J：
+\end_layout
+
+\begin_layout Standard
+如果把这种方法用于对话中提出的¨伟大数学家的完备名单”这个更具体的例子，这一差别就会变得更为清楚。对角线本身是“Dboups"。如果我们完成所要求的对角线减法，
+就能从中得到“Cantor"[康托尔]。这样就有两种可能的结论。如果你坚信这张表是完全的，那你必须下结论说康托尔不是伟大的数学家，因为他的名字和表中所有的名字均
+不同。另一方面，如果你坚信康托尔的确是个伟大的数学家，那你必须卜．结论说这张“伟大数学家的完备名单”是不完全的，因为康托尔的名字没有列在表上！
+\end_layout
+
+\begin_layout Standard
+（那些对两者都坚信的人将多么不幸！）前一种情况相应于我们的证明：“蓝对角”[N]小是原始递归的；后一种情况相应于康托尔的证明：实数表是不完全的。
+\end_layout
+
+\begin_layout Standard
+康托尔的证明按字面上的意义使用了一条对角线。而其它的“对角线”证明则基于一个更加一般的观念，这个观念是从诙词的几何意义中抽象出来的，对角线法的本质在于以两种不同
+的方式使用同一个整数——或者可以说在两个小同层次上使用同一个整数——多亏了这样人们才可能在某个预先给定的序列外面造出一
+\end_layout
+
+\begin_layout Standard
+562个项来。这个整数一会儿被用作一个纵向索引，另一会儿被用作一个横向索引。这在康托尔的构造中表现得很清楚。至于说函数“蓝对角”[N]，它涉及到在两个不同层次上
+使用同一个整数——首先作为一个蓝程序索引编号，然后再作为一个输入参数。
+\end_layout
+
+\begin_layout Subsection*
+对角线论证阴险的重复
+\end_layout
+
+\begin_layout Standard
+初看起来，康托尔的论证可能似乎不足以完全使人信服。难道没有办法摆脱它吗？或许把从对角线上构造出来的数d扔进去，就可能得到一张完全的表。如果你在打这个主意，那你将
+看到把数(扔进去根本于事无补，因为一旦你为它在表中指定了一个位置，对这张新表又可以使用对角线法，能构造出一个不在这张新表中的数d 7 0无论你重复多少次下列操作
+：用对角线法构造一个数，然后把它扔进表中以形成一个“更完全”的表，你仍然无法逃出康托尔方法的巨掌。你甚至可以试着去构造一张实数表，以某种方式提防着康托尔对角线法
+的全套明枪暗箭以及它的阴险重复，设法战胜424它。这是一个有趣的练习。但如果你动手试试看，就会发现无论你怎样腾挪躲闪，还是跑不出康托尔的手心。可以说任何自称构成
+了“包括全部实数的表”之举，都是搬石头砸自己的脚。
+\end_layout
+
+\begin_layout Standard
+康托尔对角线法的可重复性有点象乌龟那种毒辣手法的可重复性。乌龟用这个亦法一个接一个地破坏了螃蟹那些“保真度”越来越高一一至少螃蟹希望如此——越来越“完备”的唱机
+。这个办法就是为每台唱机创作出一支特定的歌，使它不能用那台唱机来播放。康托尔的计谋和乌龟的计谋都具有这种奇妙的可重复性，这可不是巧合。事实上，《对位藏头诗》本来
+就应当被命名为<对角藏头诗》。正象乌龟微妙地暗示给天真的阿基里斯的那样，发生在《对位藏头诗》中的事件，正是哥德尔用来证明不完全性定理的那个构造的一种形象化解释。
+由此可见，哥德尔的构造也很象一个对角线
+\end_layout
+
+\begin_layout Standard
+5 6 3方法。这一点在下面两章中将变得很清楚。
+\end_layout
+
+\begin_layout Subsection*
+从BJooP到FIooP
+\end_layout
+
+\begin_layout Standard
+至此，我们已经用以BlooP语言写的程序为工具，定义了自然数上的原始递归函数和原始递归谓词所组成的类。我们也表明了BlooP不能囊括全部可用词语定义的自然数上的
+函数。我们甚至还用康托尔的对角线法构造了一个“非BIooP可编程的”函数，即“蓝对角”[Nlo为什么在BIooP中不能表示“蓝对角”呢？是否能改进一下BlooP
+，以使得“蓝对角”成为可表示的呢？
+\end_layout
+
+\begin_layout Standard
+BlooP的根本特征就是其中循环的有界性。如果我们抛掉对循环的这种要求，发明另一种语言，称其为FlooP（英文Free有“自由”的意思，我们借此表明FlooP的
+循环是自由的），会出现什么情况呢?FlooP除掉一点之外与BlooP完全相同：在FIooP中我们既可以用无顶的循环，也可以用有顶的循环（虽然在FlooP中写循环
+语句时注明其顶的唯一理由是为了好看）o这些新的循环将被称为MU - LOOP（弘循环）o这是为了遵守数理逻辑中的约定：在其中“自由”搜索（无界搜索）通常被注上一
+个叫“弘算子”的符号。
+\end_layout
+
+\begin_layout Standard
+因此，FlooP中的循环语句看上去会是这样的：
+\end_layout
+
+\begin_layout Standard
+MU -LOOP p循环
+\end_layout
+
+\begin_layout Standard
+BLOCK n：BEGIN 笫n块开始
+\end_layout
+
+\begin_layout Standard
+BLOCK力：END； 第n块结束425 这种特性使得我们可以用FlooP为妙极性及乌龟性质这样的
+\end_layout
+
+\begin_layout Standard
+性质写测试程序——而这样的测试程序我们用BlooP是无法写出
+\end_layout
+
+\begin_layout Standard
+的，因为其中的搜索或许会无穷无尽。我将把对妙极性的测试程序
+\end_layout
+
+\begin_layout Standard
+5 6 4留给有兴趣的读者自己去写，在这个测试中要实现下列功能： ’
+\end_layout
+
+\begin_layout Standard
+(1)如果其输入N是妙极的，则程序结束，给出答案YESo
+\end_layout
+
+\begin_layout Standard
+(2)若N是非妙极的，而且导致一个不同于1-4-2-1-4-2-1--…的封闭循环，则程序停止，给出答案NOo
+\end_layout
+
+\begin_layout Standard
+(3)若N是非妙极的，而且导致一个“无穷上升过程”，程序将不会结束。以这种方式，FlooP的不回答就是回答o FlooP的不回答就象赵洲用“无”来“废问”一样。
+\end_layout
+
+\begin_layout Standard
+在第3种情况下，具有讽刺意味的是：输出变量OUTPUT的值一直是NO．但我们又一直无法得到它，因为程序仍在不停地运转。这个讨厌的第三种可能性是我们写自由循环时所
+必须付出的代价。在所有包含了MU -LOOP的FlooP程序中，无终止总是一种理论上的可能性。当然，有许多FIooP程序实际上相对于其所有可能的输入值都是能终止
+的。例如象我前面提到过的，大多数研究过妙极性的人都认为象上面提出的那样一个FIooP程序将总是能终止的，而且每次的答案都是YES o
+\end_layout
+
+\begin_layout Subsection*
+终止和无终止的FIooP程序
+\end_layout
+
+\begin_layout Standard
+一个看起来很吸引入的想法是：最好能把FIooP过程分成两类：“有终止过程”和“无终止过程”o一个“有终止过程”无论输入什么都将终止，尽管其申的循环具有“p性质”
+o而对一个“无终止过程”来说，则输入中至少有一种选择会使它永远运行下去。如果对每个FlooP程序，我们通过某种复杂的检验总能说出它属于哪一类，这将会有某种相当显
+著的效果（我们很快就会看到）o不必说，这种类别检测操作本身也必须是个有终止操作——否则就什么也得不到了15 65图灵的妙计
+\end_layout
+
+\begin_layout Standard
+立刻我们就会想到，可以让一个BlooP过程完成这个检验6但
+\end_layout
+
+\begin_layout Standard
+BIooP过程只接收数字输入，不能接收程序！不过，我们可以解决
+\end_layout
+
+\begin_layout Standard
+这问题……只要用数字对程序进行编码就行了！这个巧妙的计策
+\end_layout
+
+\begin_layout Standard
+只不过是哥德尔配数法的许多表现形式中的另一种罢了。令
+\end_layout
+
+\begin_layout Standard
+FlooP字母表中的五十六个字符分别对应于“密码子”9 0 1、902、426……、95 6 0这样每个FIooP程序就得到了一个相当长的哥德尔数。
+\end_layout
+
+\begin_layout Standard
+例如，那个最短的BIooP函数（它同时也是一一个有终止的FIooP程
+\end_layout
+
+\begin_layout Standard
+序）一
+\end_layout
+
+\begin_layout Standard
+DEFINE PROCEDURE“A”[B]:
+\end_layout
+
+\begin_layout Standard
+BLOCK O：BEGIN
+\end_layout
+
+\begin_layout Standard
+BLOCK O：END.
+\end_layout
+
+\begin_layout Standard
+一 得到一个哥德尔数，它的一部分如下所示：
+\end_layout
+
+\begin_layout Standard
+904,905,906,909,914,9059..- ,905,914,904,955,
+\end_layout
+
+\begin_layout Standard
+D E F I N E E N D ．
+\end_layout
+
+\begin_layout Standard
+现在我们的计划是写一个名为“TERMINATOR?”的BlooP
+\end_layout
+
+\begin_layout Standard
+测试，其功能是：如果被其输入数字所编码的那个FlooP程序是有
+\end_layout
+
+\begin_layout Standard
+终止的，则回答YES，否则回答NO o用这个办法就可以把这个任
+\end_layout
+
+\begin_layout Standard
+交给机器去完成。如果走运，就能把有终止过程和无终止过程分
+\end_layout
+
+\begin_layout Standard
+开了。但是，阿兰·图灵给出的一一个精巧的论证表明，任何BIooP程
+\end_layout
+
+\begin_layout Standard
+庠都不能一贯正确地完成这种区分工作。图灵所用的技巧实际上
+\end_layout
+
+\begin_layout Standard
+和哥德尔的技巧基本相同，因此也密切联系于康托尔的对角线技
+\end_layout
+
+\begin_layout Standard
+巧。我们将不在这里把它给出来——只需说基本想法是往“终止检
+\end_layout
+
+\begin_layout Standard
+验程序”中送入它自己的哥德尔数。但情况并非如此简单，因为这
+\end_layout
+
+\begin_layout Standard
+很象设法在一个句子内部完整地引用它自己。你必须对引号也加
+\end_layout
+
+\begin_layout Standard
+引号，如此进行下去。这似乎会导致一个无穷回归。但是，图灵指出
+\end_layout
+
+\begin_layout Standard
+5 6 6了一种技巧，可以把一个程序自身的哥德尔数送给它。对这同一个问题在另一个环境下的解决将在下一章中给出。本章里，我们将沿 ’另一条途径来达到相同的目的，即
+证明不可能构成一个终止测试器。如果有些读者希望看到图灵方案的一个漂亮而又简单的表示，我推荐文献目录中提到的霍尔和艾利森[Hoare；Allison]的著作。
+\end_layout
+
+\begin_layout Subsection*
+终止测试器将是法力无边的
+\end_layout
+
+\begin_layout Standard
+在我们摧毁这个观念之前，让我们描述一下为什么说掌握了终止测试器将是一件值得大书特书的事：在某种意义上说，这就象有了一支法力无边的魔杖，用它可以轻而易举地解决数论
+中的一切问题。例如，假设我们想知道哥德巴赫变奏是否是个真实的猜想，也就是要问，是否所有自然数都具有乌龟性质？我们将首先写一个叫“TORTOISE?”的FIooP
+测试，它检查它的输入是否具有乌龟性质。现在这个过程的缺点——即如果乌龟性质不成立，程序将不终止——反到成了一个优点！因为现在我们可以把过程TORTOISE?送入
+终止测试器。如果它回答YES，那意味着TOR-TOISE?对一切输入值都将要终止——换句话说，所有自然数都有乌龟性质。如果它回答NO，那我们就知道存在一个具有阿
+基里斯性质的数。具有讽刺意义的足，我们根本没有实际使用TOR-T()ISE?程序——只是对它做了一次检查！
+\end_layout
+
+\begin_layout Standard
+把数论中的每个问题编成程序，然后用一个终止测试器对它们来一个“一揽子解决”，这个主意有点象前面提过的那个测试公427案的纯正性的想法：把公案编码在一个折叠的串中
+，然后去检查这个折叠的串是否具有佛性。正如阿基里斯所提示的那样，或许我们希望得到的信息在某一种表示法中比在另一种表示法中“更接近表面”o5 6
+ 7F库、索引编号和绿程序
+\end_layout
+
+\begin_layout Standard
+好，白日梦到此收场。我们怎么能证明终止测试器是不可能造出来的呢？我们关于其不可能性的论据联系于下述思路：设法对FlooP运用对角线论证，就象我们对BIooP所做
+的那样c我们将会看到两种情形还是有一些微妙而又关键的差别的。
+\end_layout
+
+\begin_layout Standard
+象我们对BIooP所做的那样，设想包括全部FIooP程序的库。
+\end_layout
+
+\begin_layout Standard
+我们叫它“F库”，然后对它进行那三种过滤操作，这样最后我们将得到：
+\end_layout
+
+\begin_layout Standard
+一个包含所有这样的待调用FIooP程序的完整库：这些程序
+\end_layout
+
+\begin_layout Standard
+计算那些恰有一个输入参数的函数。让我们称这些特殊的FLooP程序为“绿程序”（因为它们可能“一路绿灯”——永远畅行无阻）o
+\end_layout
+
+\begin_layout Standard
+现在正象我们为所有蓝程序指定了索引编号一样，我们也能为绿程序指定索引编号，即把它们排列在一个目录表中，每一列包括具有一定长度的所有绿程序，按字典顺序排列。
+\end_layout
+
+\begin_layout Standard
+到此为止，对FlooP的处理完全照搬了对BlooP的处理。现在让我们看看是否还能照搬下一步：对角线技巧。如果我们试图定义下列对角线函数会怎样呢？
+\end_layout
+
+\begin_layout Standard
+“绿对角”[N]一1+绿程序{#N）[N]
+\end_layout
+
+\begin_layout Standard
+突然，我们碰上一块暗礁：“绿对角”[N]这个函数可能无法为所有输入值N都提供明确定义的输出值。原因很简单：我们役有从F库中剔除那些无终止程序，因此就无法保证我们
+能为N的所有值计算出“绿对角”[N]来。有时我们会进入永无休止的计算。因此对角线论证不能在这种情况下使用，因为它要求对角线上的函数为所有可能的输入算出输出值。
+\end_layout
+
+\begin_layout Standard
+5 68
+\end_layout
+
+\begin_layout Subsection*
+终止测试器提供给我们红程序
+\end_layout
+
+\begin_layout Standard
+为了弥补这个漏洞，我们将不得不使用一个终止测试器，如果它真的存在的话。因此让我们有意识地引入这样一个可疑的假设：它真的存在，并且用它作为我们的第四个过滤器。我们
+逐个检查表中的绿程序，去掉那些无终止的，这样最后我们将得到： 428
+\end_layout
+
+\begin_layout Standard
+一个包含所有这样的待调用FIooP程序的完整库：这些程序
+\end_layout
+
+\begin_layout Standard
+计算那些恰有一个输入参数的函数，并且对所有的输入值都
+\end_layout
+
+\begin_layout Standard
+能终止。让我们称这些特殊的FIooP程序为“红程序”（因为它们早晚会碰上个红灯——都必须停下来）o现在，对角线方法可以一显身手了。
+\end_layout
+
+\begin_layout Subsection*
+我们定义
+\end_layout
+
+\begin_layout Standard
+“红对角”[N]一l+红程序{#N）[N]完全和对“蓝对角”的讨论平行，我们被迫断言“红对角”[N]是个良定义的单变量可计算函数，但不在红程序的目录表内，因此甚
+至在强有力的FlooP语言中也是不可计算的。或许现在该转到GIooP了？
+\end_layout
+
+\begin_layout Standard
+GIooP--．
+\end_layout
+
+\begin_layout Standard
+是的，但GlooP是什么呢？如果说FlooP是去掉限制的BlooP，那么GlooP一定是去掉限制的FlooP o但一个限制怎么可能去掉两次呢？你怎么能构造一个比
+FlooP更强有力的语言呢？在“红对角”中，我们已经发现了一个函数，我们人知道如何去求它的值—～求值方法已经明确地用自然语言描述出来了——但似乎不能用FIooP
+语言编出程序来完成这项工作。这是一个尖锐的二律背反，因为还没有人曾经发现过比FlooP更强有力的计算机语言。
+\end_layout
+
+\begin_layout Standard
+有人曾经详尽地研究过计算机语言的能力，我们不必自己再
+\end_layout
+
+\begin_layout Standard
+569去做这项工作，只须报告这样一项结果：有一大批计算机语言可以被证明是与FlooP具有完全相同的描述能力的，这就是说：任何一个可以用其中某种语言编程序完成的计
+算过程，必然能用所有这些语言中的任何一个来编程序完成a奇怪的是，几乎任何设计计算机语言的合理企图，都以构造出这个类中的一个成员而告终——也就是说，造出了一种能力
+等价于FlooP的语言。当然，通过某种努力也可以构造出一种比这一类语言要弱一些的合理并有趣的计算机语言。显然，BIooP就是弱语言的一个例子，但这是一种例外，而
+不是规律。关键在于存在许多很自然的方式可以用来发明算法语言，而不同的人，循着不同的途径，往往最终创造出等价的语言。
+\end_layout
+
+\begin_layout Standard
+它们只有形式上差别，能力是一样的。
+\end_layout
+
+\begin_layout Standard
+…是个神话
+\end_layout
+
+\begin_layout Standard
+事实上，绝大多数人都相信不会再有描述计算的能力强于
+\end_layout
+
+\begin_layout Standard
+FlooP及其等价物的语言了。这个假说在30年代被两个人互相独
+\end_layout
+
+\begin_layout Standard
+立地表述出来：阿兰·图灵——关于他，后面还会进一步介绍——
+\end_layout
+
+\begin_layout Standard
+和阿朗佐·丘奇，本世纪杰出的逻辑学家之一。他们的结果被称为429“丘奇一图灵论题”o如果我们接受这个论题，我们就必须下结论说
+\end_layout
+
+\begin_layout Standard
+“GIooP”是个神话——在FlooP中已经没有限制可以取消，无法
+\end_layout
+
+\begin_layout Standard
+通过“饵放”来增强它的能力，象我们对BIooP做过的那样。
+\end_layout
+
+\begin_layout Standard
+这把我们置于一种尴尬的境地，即断言人可以为N的任意值，
+\end_layout
+
+\begin_layout Standard
+计算“红对角”，但无法编出程序让计算机来完成这项任务。因为，
+\end_layout
+
+\begin_layout Standard
+如果这项任务可以得到完成，那它一定是用FIooP语言来完成的。
+\end_layout
+
+\begin_layout Standard
+而根据任务的构造方式，它又不可能用FIooP来完成。这个结论实
+\end_layout
+
+\begin_layout Standard
+在太奇特了．，致使我们得非常仔细地研究它赖以建立的基础。而在
+\end_layout
+
+\begin_layout Standard
+这当中，你会想起来，就有我们那个不牢靠的假设，即存在一个可
+\end_layout
+
+\begin_layout Standard
+以区别有终止和无终止的FlooP程序的判定过程。这个判定过程
+\end_layout
+
+\begin_layout Standard
+57 0的想法本来就有点可疑，因为我f『J已经看到它的存在将导致数论中的所有问题以一种统一的方式被解决。现在我们有了双重的理由相信任何终止测试都是一种神话——根
+本就无法把Floc,:．)程孛装到一台“甩干机”里，把有终止程序和无终止程序分离开米：
+\end_layout
+
+\begin_layout Standard
+怀疑论者可能会坚持说这不象对此类终止测试的不存在性的一个严格证明。这种反对意见是合理的。但是，图灵的方案更为严格地论证了这一点：用一个和FIooP同类的语言，不
+可能写出计算机程序，来对所有FIooP程序进行终止测试。
+\end_layout
+
+\begin_layout Standard
+r
+\end_layout
+
+\begin_layout Subsection*
+丘奇一图灵论题
+\end_layout
+
+\begin_layout Standard
+让我们简略地回顾一下丘奇一图灵论题。我们将在第十七章中相当详细地讨论它——以及它的变种，而现在只需要叙述它的几种形式，把关于其价值和意义的讨论推迟到后面去完成a
+这里是三种相互联系的叙述此论题的方式：
+\end_layout
+
+\begin_layout Standard
+(1)人所能计算的也就是机器所能计算的。
+\end_layout
+
+\begin_layout Standard
+(2)机器所能计算的也就是FIooP所能计算的。
+\end_layout
+
+\begin_layout Standard
+(3)入所能计算的也就是FIooP所能计算的（即一般递归或
+\end_layout
+
+\begin_layout Standard
+分递归）o
+\end_layout
+
+\begin_layout Standard
+术语解释：一般递归和部分递归
+\end_layout
+
+\begin_layout Standard
+在本章中，我们对数论中的一些概念及其与可计算函数理论的联系进行了广泛的阐述。这是一个广阔而兴旺的领域，是计算机科学和现代数学的一个吸引人的混合体。找们在结束本章
+之前，还要介绍一一下我们曾与之打过交道的一些观念所对应的标准术语。
+\end_layout
+
+\begin_layout Standard
+前面已经提到过，“BlooP可计算”是“原始递归”的同义语。现在FIooP可计算函数可以被分成两类：(1)那些能用有终止FlooP 430程序计算的被称为“一般
+递归的”，(2)那些只能用无终止FIooP程
+\end_layout
+
+\begin_layout Standard
+571序计算的被称为“部分递归的”（对谓词有类似的定义）o人们常常只说“递归力，其意思是“一般递归"o
+\end_layout
+
+\begin_layout Subsection*
+TNT的能力
+\end_layout
+
+\begin_layout Standard
+有趣的是，TNT是如此有力，以致于不仅能体现全部原始递归谓词，而且能体现全部一般递归谓词。我们将不证明这些事实，因为这对我们的目标说来是没有必要的。我们的目标是
+说明TNT是不完全的。如果TNT不能体现某些原始或一般递归谓词，那这样的不完全就太“没意思”了。——因此我们应该使它能做到这一点。然后，再说明它具有某种有趣的不
+完全性。
+\end_layout
+
+\begin_layout Section-toc*
+G弦上的咏叹调
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
+乌龟和阿基里斯刚刚参观完一家麦片厂。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 换个话题你不介意吧？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 随你便。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 那好。你知道吗，我前几天接到了一个匿名电话。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 听起来挺有意思。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 对。嗯——问题是打电话的人语无伦次，至少现在我只能这样说。他嚷了一句什么之后就把电话挂断了——噢，不，我想起来了，他是把那句话嚷了两遍然后才挂断的。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 你听清是什么话了吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 嗯，整个电话是这样的：
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+我说： 喂？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+电话里（
+\family sans
+大声嚷嚷着
+\family default
+）： 放在其引文形式后面得到假句子！放在
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+572
+\end_layout
+
+\end_inset
+
+其引文形式后面得到假句子！
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+咔嗒。
+\family default
+）
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 这样的匿名电话实在古怪。
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0573.jpg
+	height 90theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+上和下，艾舍尔作（石版画，1947）。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我也是这么想。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 也许那表面上的疯颠下面是有什么意思的。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 也许吧。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+他们走进一所宽敞的庭院，这庭院由一些古怪的石头构造的三层楼房环绕着。院子中央有一棵棕榈树，旁边是一座塔楼。紧挨着塔楼有楼梯，楼梯上坐着一个男孩，正在同窗口里的一
+个年轻女人讲话。
+\family default
+）
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 你要带我去哪儿，阿基？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我想让你从塔楼顶上观赏一下美景。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 噢，那好极了。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+他们走近了那个男孩。男孩先是好奇地瞧着他们，然后对那个年轻女人说了句什么——两人吃吃地笑起来。阿基里斯和乌龟并没有走上男孩坐着的楼梯，而是向左拐，沿着一段通向一
+座小木门的短楼梯走了下去。
+\family default
+）
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+573
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我们可以从这里进去。跟着我。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+阿基里斯推开了门，两人走进去，开始攀登塔内很陡的螺旋形楼梯。
+\family default
+）
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟（
+\family sans
+微微有些气喘
+\family default
+）： 作这类运动我可有点不是材料。我们还得走多久？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 没有几段楼梯了……不过我有个想法。你干嘛非要在楼梯的正面走，你何不在反面走呢？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 在反面怎么走？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你只消手上抓紧点，然后爬转到反面去——那面有足够的空间供你活动的。你会发现，在这些台阶的上面走和下面走是一回事……
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟（
+\family sans
+小心翼翼地爬过去
+\family default
+）： 我做得对吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 就这样。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟（
+\family sans
+声音有点变小
+\family default
+）： 喂——这个小花招真把我搞懵了，我现在应该沿着楼梯向上走还是沿着楼梯向下走？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 同刚才的方向一样。在你那面是下楼梯，在我这面就是上楼梯。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 你是不是想说我下楼梯也可以到达塔楼顶？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我不敢说，不过这也许是行得通的……
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+于是阿基里斯在一面往上，乌龟在另一面往下，同时沿着螺旋形的楼梯绕了起来。不久，他们都走到了楼梯的尽头。
+\family default
+）
+\begin_inset Newline newline
+\end_inset
+
+现在可以用不着这个窍门了，龟兄，这面来——我拉你翻上来。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+他伸手去拉乌龟，把他拽回楼梯的另一面。
+\family default
+）
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 谢谢。从反面上来倒容易些。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+他们走上屋顶，鸟瞰全城。
+\family default
+）
+\begin_inset Newline newline
+\end_inset
+
+这儿真美。阿基，我很高兴你把我带上来——也许我该说带下
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+574
+\end_layout
+
+\end_inset
+
+来。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我料到你会喜欢的。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 我一直在想那个古怪的电话。我觉得现在明白些了。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 是吗？跟我说说好吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 行啊。你是不是跟我一样觉得“放在其引文形式后面”这个短语里有些叫人回味的东西？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 有点儿，是的——很有一点。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 你能想象什么东西被放在其引文后面吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我觉得我能想象出毛主席步入一间宴会厅的情景，那里悬挂着一幅大横幅，上面写着他著作的引文。这样就有了站在其引文后面的毛主席了。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 这倒是个富有想象力的例子。不过假定我们把“放在……后面”的意思限制在仅指一些文字在纸上的先后次序，而不是这种煞费苦心地想出来的步入宴会厅的情景。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 好吧。不过你说的“引文”到底是什么意思呢？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 当你讨论一个词或一个短语时，根据惯例，要把它放在一对引号之内，比如，我们可以说：
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+“哲学家”这个词有五个单字。
+\end_layout
+
+\begin_layout Standard
+这里，我把“哲学家”放在引号之内，以表明我们说的是“哲学家”这个词，而不是某个有血有肉的哲学家本人。这就是所谓，的“使用—谈论之别”。
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 噢？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 我来解释一下，假如我对你说：
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+哲学家挣大钱。
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+那么我是在“使用”这个词，从而在你心目中制造出一个目光睿智的哲人揣着个豉鼓囊囊的大钱包的形象。可是当我把这个词——或随便什么词——加上引号时，我就抽去了它的含
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+575
+\end_layout
+
+\end_inset
+
+义和内涵，只剩下纸上的一些符号，或者说只剩下几个音节。这就叫“谈论”。除了铅字的形状以外，这个词的其它特点都无足轻重——它可能有的任何涵义都被抽掉了。
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 这叫我想起把小提琴当苍蝇拍来使用——或者我该说“谈论”？有关小提琴的一切，除了它是固体以外，一概不重要一它所具有的任何用途、功能都被抽掉了。我看苍蝇
+恐怕也能如此处理。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 这倒是对使用—谈论之别的一个合理推广，即使有点不太正统。不过我现在要你想想一件事物放在它自身的引文形式后面的现象。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 那好吧。你看这个行吗?
+\begin_inset Newline newline
+\end_inset
+
+“挺棒”挺棒。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 不错，再想一个。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 好吧。
+\begin_inset Newline newline
+\end_inset
+
+“‘咣当’不是我所见过的书名”
+\begin_inset Newline newline
+\end_inset
+
+“ 咣当”不是我所见过的书名。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 这个例子稍加修改就能变成一个很有意思的典型。只消去掉“咣当”就行了。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 真的吗？我来看看这会是什么。这一来就成了
+\begin_inset Newline newline
+\end_inset
+
+“不是我所见过的书名”
+\begin_inset Newline newline
+\end_inset
+
+不是我所见过的书名。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 瞧，你造了一个句子。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 是这样。这是个有关“不是我所见过的书名”这个短语的句子，是个很糟的句子。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 怎么叫糟呢？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 因为它没什么意义。我再给你造一个：
+\begin_inset Newline newline
+\end_inset
+
+“总是不了了之”总是不了了之。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+576
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+这是什么意思？说真的，这是一种糟糕透顶的文字游戏。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 我不这么想。依我看，这倒是个重要的素材。事实上，这种把一个短语放在其引文形式后面的办法极其重要，以至于我觉得该给它起个名字才好。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 那你准备用什么名字来增加这种蠢行的尊严呢？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 我想称它为：“㧟摁一个短语”，㧟摁一个短语。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： “㧟摁"？这是什么词？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 要是我没数错的话，这是个双音节词。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我是问你为什么偏要挑这么两个字，把它们按这种顺序组合起来？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 哦，这回我弄懂你问我“这是什么词”的意思了。答案是：一位名叫威拉德·范·奥尔曼·蒯恩的哲学家发明了这种办法。所以我就以他名字的谐音来命名了。但是我没法做
+更多的解释了。至于为什么他的名字是这么两个字——更不用说为什么要按这个顺序排列了——我无可奉告。不过我倒很愿意讲点——
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 不必麻烦了！我其实也并不想知道有关蒯恩这个名字的一切事情。不管怎么说，我现在倒是知道该如何去㧟摁一个短语了。这挺好玩的。下面就是一个被㧟摁了的短语：
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+“是个残句子”是个残句子。
+\end_layout
+
+\begin_layout Standard
+它虽然挺糟，但我们仍然很喜欢它。拿一个残句子来，一㧟摁，瞧，就得到一个整句子！这回还是个真句子。
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 㧟摁一下“是个有所欠缺的国王”这一短语怎么样？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 一个有所欠缺的国王会是——
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 当然是不太称职。你别往旁边岔，咱们先㧟摁了再说。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我来㧟摁这个短语，是吗？那好——
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+“是个有所欠缺的国王”是个有所欠缺的国王。
+\end_layout
+
+\begin_layout Standard
+依我看，兴许说“国王”不如说“句子”更有意义些。得了，再给
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+577
+\end_layout
+
+\end_inset
+
+我一个。
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 好吧——那就再来一个吧。你试试这个：
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+“被㧟摁时得到一首乌龟情歌”
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 这费不了什么劲儿……你听我念这次㧟摁的结果：
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+“ 被㧟摁时得到一首乌龟情歌”
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+被㧟摁时得到一首乌龟情歌。
+\end_layout
+
+\begin_layout Standard
+嗯嗯嗯……这里有点什么蹊跷。噢，我明白了！这个句子在说它自己！你说呢？
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 你这是什么意思？句子可不会说话。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 是不会说话。不过它们都要谈到点什么——而这个句子则是直截了当地——无歧义也无偏差地——谈到它自身！你就不得不转过头来回想一下㧟摁到底是怎么回事了。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 我看不出它在说有关它自己的什么事情。它什么时候说过“我”或“本句子”之类的话？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 哎，你故意装傻吧？其美妙之处就在于它说了自己而又不必直接挑明！
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 那好吧，对我这么个笨朋友，你能不能详细讲讲？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 嗯，他真是个满腹狐疑的乌龟……行啊，让我想想……假定我造出一个句子。就把它叫“句子J”吧，因为它里面有个空位——或者说“洞眼”。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 比如说？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 比如说
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+“——，被㧟摁时，得到一支乌龟情歌”。
+\end_layout
+
+\begin_layout Standard
+那么句子J的论题就依赖于我们如何填充这个空位。不过只要空位上该填的东西选好了，它也就确定了：它就是㧟摁这个空位所得到的那个短语。由于它是由一个㧟摁行为生成的，我
+们就把它叫做“句子K”。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+578
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 这回懂了。如果空位里的句子是“总是被到处宣扬”，那句子K就必定是
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+“总是被到处宣扬”总是被到处宣扬。
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 是的，句子J宣称（
+\family sans
+至于是真是假，我们并不知道
+\family default
+）：句子K是一首乌龟情歌。无论如何，句子J在这里并没有说到它自己，而是说句子K。这些我们都是一致的吧？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 不管怎么说，让我们也都同意这是一首优美的歌曲吧。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 不过此刻我要另造一个东西来填空，那就是：
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+“被㧟摁时得到一首乌龟情歌”
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 啊，天哪，你开始复杂起来了。我希望这一切别太高深得让我摸不着头脑。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 噢，别担心——你肯定能明白。由于这样选择，句子K就变成
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+“被㧟摁摁时得到一首乌龟情歌”
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+被托摁时得到一首乌龟情歌。
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 噢，你这个滑头，我明白了。这样一来句子K就恰好和句子J一样了。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 由于句子K总是句子J的论题，这就有了一个圈，所有J就反过来指向自己。不过你看到了，自指乃是一种巧合。而通常的情形是句子J与句子K彼此完全不同，但随着
+对句子J中空位的恰当选择，㧟摁就能给你变出这种戏法来。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 噢，好机巧啊。真奇怪，我自己怎么就从来没想到过这些呢？那你来说说，下面这个句子是不是个自指的？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+“由六个字组成”由六个字组成。
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 嗯嗯嗯……我恐怕说不好。你刚才给出的这个句子其实不是关于它自己的，而是关于“由六个字组成”这个短语的。当然，不管怎么说这个短语是该句子的一部分……
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 那么这个句子就是在谈论自己的某个部分了——这会怎么
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+579
+\end_layout
+
+\end_inset
+
+样呢？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 这也可以叫做自指吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 依我看，这还远不是自指。不过你也别太为这些鬼事烦恼，以后你会有充裕的时间去进一步思考它们的。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我会吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 你会的。而眼下你何不试着㧟摁一下“放在其引文形式后面得到假句子”这个短语呢？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我明白你发现什么了——就是先前那个古怪电话。㧟摁它就得到：
+\end_layout
+
+\begin_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \qquad{}
+\end_inset
+
+“放在其引文形式后面得到假句子”
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \qquad{}
+\end_inset
+
+放在其引文形式后面得到假句子。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+这正是那个电话里所说的！只是在他说话时我没弄清什么地方有引号！真是句混帐话。说这种话的人都该进监狱。
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 为什么？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 它太让我难受了。它和前面的那些例子不一样，我这回弄不清它到底是真句子还是假句子。我越是使劲想就越理不清楚。我的头都晕了。我真想知道编出这种东西的人得
+了哪种神经病，居然夜里拿它去折磨无辜的人。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 我也不清楚……得了，我们该下去了吧？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 用不着下去——我们已经在地面上了。进去吧——进去你就明白了。
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+（
+\family sans
+他们走进塔楼，来到一个小木门前
+\family default
+）
+\end_layout
+
+\begin_layout Standard
+从这里就能走出去，跟我来。
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 你能肯定吗？我可不想从三楼上掉下去把背壳摔裂。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我还能骗你？
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+（
+\family sans
+他打开门，在他们前面坐着同一个男孩，正和同一个年轻女人说话，周围的一切也都一模一样。阿基里斯和乌龟走上看上
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\family sans
+580
+\end_layout
+
+\end_inset
+
+去和他们进塔楼时走下的那段楼梯完全一样的楼梯，并且发现他们自己是站在一个看上去和他们最初所进的院子完全一样的院子中。
+\family default
+）
+\end_layout
+
+\begin_layout Standard
+谢谢你澄清了那个古怪的电话，龟兄。
+\end_layout
+
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 也要谢谢你，阿基，这次散步十分愉快。希望我们很快还能见面。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+581
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

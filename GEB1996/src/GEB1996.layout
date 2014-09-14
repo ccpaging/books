@@ -184,6 +184,11 @@ Preamble
     \setlist{itemsep=0.2ex,partopsep=0.2pt,parsep=0.2ex,topsep=0.2ex}
     \setlist[enumerate,1]{leftmargin=*,labelindent=2em,align=left} % label在leftmargin的右边，左对齐
     
+    % 造字
+    \newcommand{\zhwolong}{\lower-.9ex\hbox{\scalebox{1}[0.5]{卧}}\lower.1ex\hbox{\kern-1em \scalebox{1}[0.5]{龙}}}
+    \newcommand{\zhbizhu}{\lower-.9ex\hbox{\scalebox{1}[0.5]{宓}}\lower.1ex\hbox{\kern-0.9em \scalebox{0.8}[0.5]{豕}}}
+    \newcommand{\zhruoniao}{\hbox{\scalebox{0.4}[1]{若}\kern-.1em\scalebox{0.7}[1]{鸟}}}
+    \newcommand{\zhgouniao}{\hbox{\scalebox{0.4}[1]{勾}\kern-.1em\scalebox{0.7}[1]{鸟}}}
 EndPreamble
 
 # Default textclass options. The user may need to modify this.
