@@ -206,9 +206,9 @@ status open
 
 \begin_layout Quotation
 萨尔维亚蒂：假设我给你两个数列，如
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout CenterLine
 7
 \begin_inset space \space{}
 \end_inset
@@ -310,13 +310,14 @@ status open
 \end_inset
 
 4……
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Quotation
+\noindent
 和
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout CenterLine
 1,
 \begin_inset space \space{}
 \end_inset
@@ -346,9 +347,10 @@ status open
 \end_inset
 
 -1/15……
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Quotation
+\noindent
 如果我问你，辛普利奇奥，第一个序列的下一个数是什么，你会怎样说？
 \end_layout
 
@@ -508,7 +510,7 @@ status open
 
 \begin_layout Standard
 在典型的情况下，任何“算法”——即对任务完成过程的明确描述——都由下列成分组成：（1）需完成的特定运算，（2）控制语句。因此，当我们为表示长度可预测的计算开发我
-们的语言时，我们必须同时包括基本控制结构。事实上，BlooP的特色也恰在于其有限的控制结构集。它不允许你转移到任意的步骤或无限制地循环某一步骤。在Bloop中，
+们的语言时，我们必须同时包括基本控制结构。事实上，BlooP的特色也恰在于其有限的控制结构集。它不允许你转移到任意的步骤或无限制地循环某一步骤。在BlooP中，
 基本上唯一的控制结构就是“有界循环”（即“bounded
 \begin_inset space \space{}
 \end_inset
@@ -1402,7 +1404,7 @@ BLOCK 0: END.
 \end_layout
 
 \begin_layout Subsection*
-Bloop的约定
+BlooP的约定
 \end_layout
 
 \begin_layout Standard
@@ -1527,7 +1529,7 @@ status open
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="12" columns="2">
+<lyxtabular version="3" rows="15" columns="2">
 <features rotate="0" islongtable="true" longtabularalignment="center">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top">
@@ -1601,7 +1603,39 @@ DEFINE PROCEDURE
 \uwave off
 \noun off
 \color none
-定义过程名和变量M、N
+定义过程名
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+和变量M、N
 \end_layout
 
 \end_inset
@@ -1715,6 +1749,10 @@ IF M<N, THEN:
 \uwave off
 \noun off
 \color none
+\begin_inset space \quad{}
+\end_inset
+
+
 \begin_inset space \quad{}
 \end_inset
 
@@ -1884,7 +1922,39 @@ IF OUTPUT+N=M, THEN：
 \uwave off
 \noun off
 \color none
-若OUTPUT+N=M，则：
+若OUTPUT+N
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+=M，则：
 \end_layout
 
 \end_inset
@@ -1907,6 +1977,10 @@ IF OUTPUT+N=M, THEN：
 \uwave off
 \noun off
 \color none
+\begin_inset space \quad{}
+\end_inset
+
+
 \begin_inset space \quad{}
 \end_inset
 
@@ -1966,10 +2040,8 @@ ABORT LOOP 1;
 \end_inset
 
 OUTPUT
-
 \begin_inset Formula $\Leftarrow$
 \end_inset
-
 
 OUTPUT+1; 
 \end_layout
@@ -1992,7 +2064,39 @@ OUTPUT+1;
 \uwave off
 \noun off
 \color none
-OUTPUT的值加1，送回
+OUTPUT的值
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+加1，送回
 \end_layout
 
 \end_inset
@@ -2154,11 +2258,11 @@ MOST（至多），这一告诫你循环可能在达到上界之前就被中止�
 下面是BlooP的最后两个需要加以说明的特点，它们都是非常重要的。其一是：一旦一个过程已经被“定义”了，它就可以在后面的过程定义中被“调用”。其效果是一旦某个操
 作在一个过程中被定义了，它就会被认为和基本步骤一样简单。这样，BlooP就具有了自动组块的特点。你可以把这和一个溜冰好手学习新花样的过程相比：他不是把新动作看作
 长长的基本肌肉活动序列，而是看作以前学过的一些动作的组合，而那些动作自身又是用更早所学的动作所组成的，如此等等——这种嵌套或组块可以上溯许多层次，直至遇到基本肌
-肉活动为止。这样，Bloop程序的能力就和溜冰者的技能一样，可以突飞猛进地增长了。
+肉活动为止。这样，BlooP程序的能力就和溜冰者的技能一样，可以突飞猛进地增长了。
 \end_layout
 
 \begin_layout Subsection*
-Bloop测试
+BlooP测试
 \end_layout
 
 \begin_layout Standard
@@ -2167,7 +2271,7 @@ BlooP的另一个特点是：某些特定过程可以用YES或NO作其输出，�
 \end_layout
 
 \begin_layout Standard
-让我们看一个例子，其中把Bloop的最后这两个特点表现在
+让我们看一个例子，其中把BlooP的最后这两个特点表现在
 \begin_inset Note Comment
 status open
 
@@ -2182,9 +2286,9 @@ status open
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="17" columns="2">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="left" valignment="top">
+<lyxtabular version="3" rows="18" columns="2">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top">
 <row>
 <cell alignment="left" valignment="top" usebox="none">
@@ -2287,7 +2391,7 @@ DEFINE PROCEDURE
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2397,6 +2501,10 @@ IF N=0, THEN:
 \begin_inset space \quad{}
 \end_inset
 
+
+\begin_inset space \quad{}
+\end_inset
+
 QUIT BLOCK 0;
 \end_layout
 
@@ -2445,10 +2553,8 @@ QUIT BLOCK 0;
 \end_inset
 
 CELL(0)
-
 \begin_inset Formula $\Leftarrow$
 \end_inset
-
 
 2;
 \end_layout
@@ -2651,7 +2757,39 @@ IF REMAINDER
 \uwave off
 \noun off
 \color none
-若N除以CELL(0)余0，则：
+若N除以CELL(0)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+余0，则：
 \end_layout
 
 \end_inset
@@ -2674,6 +2812,10 @@ IF REMAINDER
 \uwave off
 \noun off
 \color none
+\begin_inset space \quad{}
+\end_inset
+
+
 \begin_inset space \quad{}
 \end_inset
 
@@ -2759,6 +2901,10 @@ THEN:
 \begin_inset space \quad{}
 \end_inset
 
+
+\begin_inset space \quad{}
+\end_inset
+
 QUIT BLOCK 0; 
 \end_layout
 
@@ -2811,10 +2957,8 @@ QUIT BLOCK 0;
 \end_inset
 
 CELL(0)
-
 \begin_inset Formula $\Leftarrow$
 \end_inset
-
 
 CELL(0)+1;
 \end_layout
@@ -2911,10 +3055,8 @@ BLOCK 1: END;
 \end_inset
 
 OUTPUT
-
 \begin_inset Formula $\Leftarrow$
 \end_inset
-
 
 YES;
 \end_layout
@@ -3039,20 +3181,7 @@ status open
 \end_layout
 
 \begin_layout Subsection*
-Bloop程序包含了过程组成的链
-\end_layout
-
-\begin_layout Standard
-我们已经看到了在Bloop中怎样定义过程，但过程定义只是一个程序的一部分。一个“程序”包括一条“过程定义链”（其中每个过程仅仅调用前面定义的过程），还可能跟着一
-个或多个对所定义过程的“调用”。这样，一个完整的BlooP程序的例子应当是一个过程TWO-TO-THE-THREE-TO-THE的定义，后面跟着一个调用
-\end_layout
-
-\begin_layout Quotation
-TWO-TO-THE-THREE-TO-THE[2]
-\end_layout
-
-\begin_layout Standard
-这会得到答案512。
+BlooP程序包含了过程组成的链
 \end_layout
 
 \begin_layout Standard
@@ -3082,22 +3211,35 @@ status open
 status open
 
 \begin_layout Plain Layout
-一个待调用的Bloop程序的结构。
+一个待调用的BlooP程序的结构。
 \end_layout
 
 \end_inset
 
-一个待调用的Bloop程序的结构。由于这个程序是自足的，每个过程定义中只能调用定义在它前面的过程。
-\end_layout
-
-\end_inset
-
-
+一个待调用的BlooP程序的结构。由于这个程序是自足的，每个过程定义中只能调用定义在它前面的过程。
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+我们已经看到了在BlooP中怎样定义过程，但过程定义只是一个程序的一部分。一个“程序”包括一条“过程定义链”（其中每个过程仅仅调用前面定义的过程），还可能跟着一
+个或多个对所定义过程的“调用”。这样，一个完整的BlooP程序的例子应当是一个过程TWO-TO-THE-THREE-TO-THE的定义，后面跟着一个调用
+\end_layout
+
+\begin_layout Quotation
+TWO-TO-THE-THREE-TO-THE[2]
+\end_layout
+
+\begin_layout Standard
+这会得到答案512。
 \end_layout
 
 \begin_layout Standard
@@ -3125,7 +3267,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-凭直觉就能看出哥德巴赫性质是原始递归的。为了使其明确化，这里有一个用Bloop写的过程定义，来显示如何测试这一性质是否存在：
+凭直觉就能看出哥德巴赫性质是原始递归的。为了使其明确化，这里有一个用BlooP写的过程定义，来显示如何测试这一性质是否存在：
 \end_layout
 
 \begin_layout Standard
@@ -3275,10 +3417,8 @@ BLOCK 0: BEGIN
 \end_inset
 
 CELL(0)
-
 \begin_inset Formula $\Leftarrow$
 \end_inset
-
 
 2; 
 \end_layout
@@ -3625,6 +3765,10 @@ THEN:
 \begin_inset space \quad{}
 \end_inset
 
+
+\begin_inset space \quad{}
+\end_inset
+
 BLOCK 2: BEGIN
 \end_layout
 
@@ -3680,11 +3824,13 @@ BLOCK 2: BEGIN
 \begin_inset space \quad{}
 \end_inset
 
-OUTPUT
 
-\begin_inset Formula $\Leftarrow$
+\begin_inset space \quad{}
 \end_inset
 
+OUTPUT
+\begin_inset Formula $\Leftarrow$
+\end_inset
 
 YES;
 \end_layout
@@ -3773,6 +3919,10 @@ YES;
 \begin_inset space \quad{}
 \end_inset
 
+
+\begin_inset space \quad{}
+\end_inset
+
 QUIT BLOGK 0;
 \end_layout
 
@@ -3817,6 +3967,10 @@ QUIT BLOGK 0;
 \uwave off
 \noun off
 \color none
+\begin_inset space \quad{}
+\end_inset
+
+
 \begin_inset space \quad{}
 \end_inset
 
@@ -3876,10 +4030,8 @@ BLOCK 2: END;
 \end_inset
 
 CELL(0)
-
 \begin_inset Formula $\Leftarrow$
 \end_inset
-
 
 CELL(0)+1;
 \end_layout
@@ -4031,7 +4183,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-你能写一个类似的过程来测试乌龟性质（或阿基里斯性质）是否存在吗？如果能，就请写出来。如果不能，是仅仅因为你不知道上界，还是因为在Bloop中刻画这样的算法时遇到
+你能写一个类似的过程来测试乌龟性质（或阿基里斯性质）是否存在吗？如果能，就请写出来。如果不能，是仅仅因为你不知道上界，还是因为在BlooP中刻画这样的算法时遇到
 了根本性的障碍？如果对在对话中提出的“妙极性”性质提同样的问题，会得出什么答案？
 \end_layout
 
@@ -4362,34 +4514,48 @@ FALSE?[7014]=NO)
 \end_layout
 
 \begin_layout Standard
-在继续讨论一些关于Bloop及其“亲戚”FlooP的问题之前，让我们先回顾一下当初引进Bloop酌原因，并把它和TNT联系起来。我在前面说过，一旦全部原始递归的
-概念对一个形式系统来说都是可体现的，那么这个系统就达到r使用哥德尔方法所需的“临界质量”o这到底意味着什么呢？首先，我们必须区别这样两个概念：可表示性和可体现性
-。“表示”一个谓词只不过是一个从自然
+在继续讨论一些关于BlooP及其“亲戚”FlooP的问题之前，让我们先回顾一下当初引进BlooPd的原因，并把它和TNT联系起来。我在前面说过，一旦全部原始递归
+的概念对一个形式系统来说都是可体现的，那么这个系统就达到了使用哥德尔方法所需的“临界质量”。这到底意味着什么呢？首先，我们必须区别这样两个概念：可表示性和可体现
+性。“表示”一个谓词只不过是一个从自然
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+554
+\end_layout
+
+\end_inset
+
+语言到严格的形式化表述的翻译问题。这和该谓词是不是定理没有关系。而要“体现”一个谓词，这可就是个强得多的概念了。这意味着：
+\end_layout
+
+\begin_layout Enumerate
+该谓词的全部为真的例均为定理；
+\end_layout
+
+\begin_layout Enumerate
+全部为假的例均为非定理。
 \end_layout
 
 \begin_layout Standard
-5 5 4语言到严格的形式化表述的翻译问题。这和该谓词是不是定理没有关系。而要“体现竹一个谓词，这可就是个强得多的概念了。这意味着：
+“例”在这里是指用数值取代谓词中所有自由变量后所得到的串。
 \end_layout
 
 \begin_layout Standard
-（1）该谓词的全部为真的例均为定理；
+例如，谓词
+\begin_inset Formula $m+n=k$
+\end_inset
+
+在pq系统中是可体现的，因为该谓词的每个为真的例都是定理，每个为假的例都是非定理。这样，任何具体的加式，无论真假，都能被译成pq系统中的“可判定串”。但是，pq
+系统不能表示——更不要说体现——自然数的任何别的性质。因此在对数论进行形式化的竞争之中，它的确不是一个强有力的候选者。
 \end_layout
 
 \begin_layout Standard
-（2）全部为假的例均为非定理。“例”在这里是指用数值取代谓词中所有自由变量后所得到的串。
+而TNT的优点是能够表示数论中的任何谓词。例如，很容易写一个TNT串来表示谓词“b具有乌龟性质”。因此，根据表示能力来看，TNT满足我们的全部要求。
 \end_layout
 
 \begin_layout Standard
-例如，谓词m+n—k在pq系统中是可体现的，因为该谓词的每个为真的例都是定理，每个为假的例都是非定理。这样，任何具体的加式，无论真假，都能被译成pq系统中的“可
-判定串”o但是，pq系统不能表示——更不要说体现——自然数的任何别的性质。因此在对数论进行形式化的竞争之中，它的确不是一个强有力的候选者。
-\end_layout
-
-\begin_layout Standard
-而TNT的优点是能够表示数论中的任何谓词D例如，很容易写一个TNT串来表示谓词“b具有乌龟性质”o因此，根据表示能力来看，TNT满足我们的全部要求。
-\end_layout
-
-\begin_layout Standard
-但是，问“在TNT中哪些性质是可体现的？”，这恰恰就是同“TNT作为一个公理系统有多强？”o是不是所有可能的性质在TNT中都是可体现的？若是如此，那么TNT就能
+但是，问“在TNT中哪些性质是可体现的？”，这恰恰就是同“TNT作为一个公理系统有多强？”。是不是所有可能的性质在TNT中都是可体现的？若是如此，那么TNT就能
 回答数论中的任何问题，它就是完全的。
 \end_layout
 
@@ -4398,20 +4564,22 @@ FALSE?[7014]=NO)
 \end_layout
 
 \begin_layout Standard
-虽然完全性将被发现是个幻梦，TNT至少相对于原始递归谓词来说还是完全的。换句语说，如果数论中的某个陈述的真假能用41 8计算机在一个长度可预知的时间段中判定，那
-它在TNT中一定也是可判定的。也可以把这个问题表述戍如下形式
+虽然完全性将被发现是个幻梦，TNT至少相对于原始递归谓词来说还是完全的。换句语说，如果数论中的某个陈述的真假能用计算机在一个长度可预知的时间段中判定，那它在TN
+T中一定也是可判定的。也可以把这个问题表述成如下形式
 \end_layout
 
-\begin_layout Standard
-如果能为自然数的某个性质写出一个BlooP测试，那么这个
+\begin_layout Quote
+如果能为自然数的某个性质写出一个BlooP测试，那么这个性质在TNT中是叮体现的。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+555
 \end_layout
 
-\begin_layout Standard
-性质在TNT中是叮体现的。
-\end_layout
+\end_inset
 
-\begin_layout Standard
-5 5 5
+
 \end_layout
 
 \begin_layout Subsection*
@@ -4419,14 +4587,14 @@ FALSE?[7014]=NO)
 \end_layout
 
 \begin_layout Standard
-用Bloop测试可以检查许多种不同的性质，包括一个数是否为素数或完全数、是否具有哥德巴赫性质、是否是2的幂，如此等等。这自然地会使人考虑是不是数的每种性质都能被
+用BlooP测试可以检查许多种不同的性质，包括一个数是否为素数或完全数、是否具有哥德巴赫性质、是否是2的幂，如此等等。这自然地会使人考虑是不是数的每种性质都能被
 某个适当的BlooP程序所检查。虽然我们现在还无法测试一个数是否是妙极的，但我们不必过于因此心烦意乱，因为这也许仅仅是由于我们对妙极性还缺乏认识，随着进一步的挖
 掘，我们也许会为其中包含的循环上界发现一个通用的公式。那时就可以马上为妙极性写出一个BlooP测试了。对乌龟性质可能也是同样的。
 \end_layout
 
 \begin_layout Standard
 因此，这个问题实质上是“是否总能给出运算长度的上界——还是说在自然数系统中存在一种内在的混乱，致使有时无法事先预测运算的长度？”令人震惊的是，恰好是后一种情况出
-现了，其原因我们不久就会看到。这种事情准会把毕达哥拉斯——他第一个证明了二的平方根是无理数——气昏厂头。在我们的论证中，将使用享有盛名的“对角线法”，这是由集合
+现了，其原因我们不久就会看到。这种事情准会把毕达哥拉斯——他第一个证明了二的平方根是无理数——气昏了头。在我们的论证中，将使用享有盛名的“对角线法”，这是由集合
 论的奠基人康托尔发现的。
 \end_layout
 
@@ -4435,103 +4603,248 @@ B库、索引编号和蓝程序
 \end_layout
 
 \begin_layout Standard
-让我们首先设想一个新奇的概念：装着所有可能的Bloop程序的库。不用说，这个库——“B库”是个无穷大的库。我们要考虑由B库通过三个连续的过滤操作所得到的一个子库
-o第一个过滤器为我们选出其中的“待调用”程序。然后我们再去掉这个子库中的全部“测试”，只留下“函数”o（顺便说明一下，在待调用程序中，链中的最后一个过程决定了整
-个程序应当被看成是测试还是函数o）第三个过滤器将选出那些恰有一个输入参数的函数o（同样只是指链中最后一个过程o）剩下来的是
+让我们首先设想一个新奇的概念：装着所有可能的BlooP程序的库。不用说，这个库——“B库”是个无穷大的库。我们要考虑由B库通过三个连续的过滤操作所得到的一个子库
+。第一个过滤器为我们选出其中的“待调用”程序。然后我们再去掉这个子库中的全部“测试”，只留下“函数”。（顺便说明一下，在待调用程序中，链中的最后一个过程决定了整
+个程序应当被看成是测试还是函数。）第三个过滤器将选出那些恰有一个输入参数的函数。（同样只是指链中最后一个过程。）剩下来的是
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 一个包含所有这样的待调用BlooP程序的完整库：这些程序
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+556
 \end_layout
 
-\begin_layout Standard
-55 6
-\end_layout
+\end_inset
 
-\begin_layout Standard
 计算那些恰有一个输入参数的函数。
 \end_layout
 
 \begin_layout Standard
-让我们称这些特殊的BlooP程序为“蓝程序”(Bloo的发音在英语里和“蓝[blue]"的发音很相近，而P是“程序”[program]的首字母）o现在我们要做的
-事是为每个蓝程序指定一个互不混淆的“索引编号”o怎样做呢？最简单的办法——我们正是要这样做——就是根据长度把它们排列起来：可能的蓝程序中最短的为1号，次短的为2
-号，等等。当然，会有许多长度相同的程序。为解决这个问41 9题，我们使用字典次序。在这里，“字典次序”是在拓广的意义下使用的，其中字母表里包括BlooP中的所有
-附加字符，以某一次序排列起来，例如下面这样：
+\begin_inset space \qquad{}
+\end_inset
+
+让我们称这些特殊的BlooP程序为“蓝程序”(Bloo的发音在英语里和“蓝[blue]"的发音很相近，而P是“程序”[program]的首字母）。现在我们要做的
+事是为每个蓝程序指定一个互不混淆的“索引编号”。怎样做呢？最简单的办法——我们正是要这样做——就是根据长度把它们排列起来：可能的蓝程序中最短的为1号，次短的为2
+号，等等。当然，会有许多长度相同的程序。为解决这个问题，我们使用字典次序。在这里，“字典次序”是在拓广的意义下使用的，其中字母表里包括BlooP中的所有附加字符
+，以某一次序排列起来，例如下面这样：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{l}
+A\ B\ C\ D\ E\ F\ G\ H\ I\ J\ K\ L\ M\ N\\
+O\ P\ Q\ R\ S\ T\ U\ V\ W\ X\ Y\ Z\ +\ *\\
+0\ 1\ 2\ 3\ 4\ 5\ 6\ 7\ 8\ 9\ \Leftarrow\ =\ <\ >\\
+(\ )\ [\ ]\ \{\ \}\ -\ '\ ?\ :\ ;\ ,\ .
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-ABCDEFGHIJKLMN
+\noindent
+——注意：其中最后一个是个空格！这样，一共有五十六个字符。为方便起见，我们可以把所有长度为1的蓝程序放在第一列，两个字符组成的程序放在第2列，等等。显然前几列完
+全是空的，而后面一些列中有许多许多项（虽然每一列中的项数是有限的）。排在第一的蓝程序大概是这样一个：
 \end_layout
 
 \begin_layout Standard
-OPQRSTU VWXYZ+*
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+DEFINE PROCEDURE “A”[B]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+定义过程名和参数B
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+BLOCK 0: BEGIN 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第0块开始
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+BLOCK 0: END.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第0块结束
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-012 3 4 5 6 7 8 9仁=<>
+\noindent
+这个程序实在有点傻：不管输入是什么，输出值总是0。它出现在第56列中，因为它有56个字符（请数一下必要的空格，包括那些隔开相邻两行的空格）。
 \end_layout
 
 \begin_layout Standard
-()[]{}一，？：；，．——注意：其中最后一个是个空格！这样，一共有五十六个字符。为方便起见，我们可以把所有长度为1的蓝程序放在第一列，两个字符组成的程序放在
-第2列，等等。显然前几列完全是空的，而后面一些列中有许多许多项（虽然每一列中的项数是有限的）o排在第一的蓝程序大概是这样一个：DEFINE PROC.EDURF“
-A"[B]： 定义过程名和参数BBLOCK O；BEGIN 第O块开始Bl。()CK O：END． 第O块结束这个程序实在有点傻：不管输入是什么，输出值总是Oo
-它出现在第5 6列中，因为它有5 6个字符（请数一下必要的空格，包括那些隔开相邻两行的空格）o
+在遇到第56列之后不久，后面的列变得越来越满，因为把符号组合起来形成蓝程序的方法实在太多了。不过不要紧——我们不
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+557
 \end_layout
 
-\begin_layout Standard
-在遇到第5 6列之后不久，后面的列变得越来越满，因为把符号组合起来形成蓝程序的方法实在太多了。不过不要紧——我们不
-\end_layout
+\end_inset
 
-\begin_layout Standard
-5 5 7
-\end_layout
-
-\begin_layout Standard
-想设法把这个无穷无尽的目录表列出来c抽象地说，我们所关心的
-\end_layout
-
-\begin_layout Standard
-是，这个目录表应当是良定义的，即每个蓝程序能从中得到一个唯
-\end_layout
-
-\begin_layout Standard
-一确定的索引编号。这才是关键所在。
+想设法把这个无穷无尽的目录表列出来。抽象地说，我们所关心的是，这个目录表应当是良定义的，即每个蓝程序能从中得到一个唯一确定的索引编号。这才是关键所在。
 \end_layout
 
 \begin_layout Standard
 让我们这样指示被第k个蓝程序所计算的函数：
 \end_layout
 
-\begin_layout Standard
-蓝程序{#k）[N]
+\begin_layout Quotation
+\begin_inset Formula $蓝程序\{\#k\}[N]$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-在这里，k是该程序的索引编号，N是唯一的输入参数。例如，蓝程
+在这里，k是该程序的索引编号，N是唯一的输入参数。例如，蓝程序#12可以是送回其输入值的二倍的那个函数：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $蓝程序\{\#1\}2[N]=2×N$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-序#12可以是送回其输入值的二倍的那个函数：
+上述等式的意义是：左面指定的程序将给出一个返回值，这个值和人从右面的常规代数公式中算出的相等。作为另一个例子，或许第5000个蓝程序计算其输入参数的立方：
 \end_layout
 
-\begin_layout Standard
-蓝程序{#12）[N]=2×N
-\end_layout
+\begin_layout Quotation
+\begin_inset Formula $蓝程序\{\#5000\}[N]=N^{3}$
+\end_inset
 
-\begin_layout Standard
-上述等式的意义是：左面指定的程序将给出一个返回值，这个值和
-\end_layout
 
-\begin_layout Standard
-人从右面的常规代数公式中算出的相等。作为另一个例子，或许第
-\end_layout
-
-\begin_layout Standard
-5000个蓝程序计算其输入参数的立方：
-\end_layout
-
-\begin_layout Standard
-蓝程序{#5 000）[N]=N-34 20
 \end_layout
 
 \begin_layout Subsection*
@@ -4539,47 +4852,21 @@ A"[B]： 定义过程名和参数BBLOCK O；BEGIN 第O块开始Bl。()CK O：END
 \end_layout
 
 \begin_layout Standard
-好，现在我们就要耍那个“花招”了，即使用康托尔的对角线法。我
-\end_layout
-
-\begin_layout Standard
-们将用这个蓝程序的目录表定义一个单变量函数——“蓝对角”
-\end_layout
-
-\begin_layout Standard
-[Nl-而且将会发现这个函数根本不在表中（这就是把它的名
-\end_layout
-
-\begin_layout Standard
-字加上引号的原因）o而“蓝对角一很显然是个良定义的单变量可计
-\end_layout
-
-\begin_layout Standard
-算函数，这样我们就不得不下结论说，存在一些不能在Bloop中编
-\end_layout
-
-\begin_layout Standard
-程序的函数。
+好，现在我们就要耍那个“花招”了，即使用康托尔的对角线法。我们将用这个蓝程序的目录表定义一个单变量函数——“蓝对角”[N]——而且将会发现这个函数根本不在表中（
+这就是把它的名字加上引号的原因）。而“蓝对角”很显然是个良定义的单变量可计算函数，这样我们就不得不下结论说，存在一些不能在BlooP中编程序的函数。
 \end_layout
 
 \begin_layout Standard
 下面就是“蓝对角”[N]的定义：
 \end_layout
 
-\begin_layout Standard
-等式（1）．： “蓝对角”[N]一1+蓝程序{#N）[N]
+\begin_layout Quote
+等式（1）：“蓝对角”[N]=1+蓝程序{#N}[N]
 \end_layout
 
 \begin_layout Standard
-我们的策略是：把每台“绞肉机”的索引编号送给它自己去加I，然
-\end_layout
-
-\begin_layout Standard
-后把它的输出值加1 0为了说清楚这一点，让我们找出“蓝对角”
-\end_layout
-
-\begin_layout Standard
-[12]0我们已经看到蓝程序{#12）就是函数2N，因此，“蓝对角”
+我们的策略是：把每台“绞肉机”的索引编号送给它自己去加1，然后把它的输出值加1。为了说清楚这一点，让我们找出“蓝对角”[12]0我们已经看到蓝程序{#12）就是
+函数2N，因此，“蓝对角”
 \end_layout
 
 \begin_layout Standard
@@ -4610,7 +4897,7 @@ A"[B]： 定义过程名和参数BBLOCK O；BEGIN 第O块开始Bl。()CK O：END
 
 \begin_layout Standard
 “蓝对角”[X]=蓝程序{#X）[X]而“蓝对角”[X]不可能既等于某个数又等于该数加一。但这正是上述两个公式的意思。因此我们只得返回去丢掉某个造成这个矛盾的假
-设。唯一可能的选择是丢掉公式（2）所表示的假设：函数“蓝对角”[N]可以写成一个蓝Bloop程序。而这就证明了“蓝对角处于原始递归函数的范围之外”o这样，我们就
+设。唯一可能的选择是丢掉公式（2）所表示的假设：函数“蓝对角”[N]可以写成一个蓝BlooP程序。而这就证明了“蓝对角处于原始递归函数的范围之外”o这样，我们就
 达到了目的，一举摧毁了阿基里斯所珍爱的那个朴素观念：每个数论中的函数都必定能在可预测的步数内被箅出来。
 \end_layout
 
@@ -4727,7 +5014,7 @@ status open
 
 \end_inset
 
-我们知道蓝Bloop程序的登记表可以被写出来——整数集已经是够大，能够为蓝BlooP程序作索引。这样，我们只得退回去，撤消某个以前用过的更不牢靠的想法，而这个想
+我们知道蓝BlooP程序的登记表可以被写出来——整数集已经是够大，能够为蓝BlooP程序作索引。这样，我们只得退回去，撤消某个以前用过的更不牢靠的想法，而这个想
 法就是“蓝对角”[N]可以用某个用BlooP写的程序来计算。这是采用对角线法时的一个微妙差别。
 \end_layout
 
@@ -4820,7 +5107,7 @@ status open
 
 \begin_layout Standard
 至此，我们已经用以BlooP语言写的程序为工具，定义了自然数上的原始递归函数和原始递归谓词所组成的类。我们也表明了BlooP不能囊括全部可用词语定义的自然数上的
-函数。我们甚至还用康托尔的对角线法构造了一个“非Bloop可编程的”函数，即“蓝对角”[Nlo为什么在Bloop中不能表示“蓝对角”呢？是否能改进一下BlooP
+函数。我们甚至还用康托尔的对角线法构造了一个“非BlooP可编程的”函数，即“蓝对角”[Nlo为什么在BlooP中不能表示“蓝对角”呢？是否能改进一下BlooP
 ，以使得“蓝对角”成为可表示的呢？
 \end_layout
 
@@ -4892,7 +5179,7 @@ o而对一个“无终止过程”来说，则输入中至少有一种选择会�
 \end_layout
 
 \begin_layout Standard
-Bloop过程只接收数字输入，不能接收程序！不过，我们可以解决
+BlooP过程只接收数字输入，不能接收程序！不过，我们可以解决
 \end_layout
 
 \begin_layout Standard
@@ -4908,7 +5195,7 @@ FlooP字母表中的五十六个字符分别对应于“密码子”9 0 1、902�
 \end_layout
 
 \begin_layout Standard
-例如，那个最短的Bloop函数（它同时也是一一个有终止的FIooP程
+例如，那个最短的BlooP函数（它同时也是一一个有终止的FIooP程
 \end_layout
 
 \begin_layout Standard
@@ -4956,7 +5243,7 @@ D E F I N E E N D ．
 \end_layout
 
 \begin_layout Standard
-开了。但是，阿兰·图灵给出的一一个精巧的论证表明，任何Bloop程
+开了。但是，阿兰·图灵给出的一一个精巧的论证表明，任何BlooP程
 \end_layout
 
 \begin_layout Standard
@@ -5007,12 +5294,12 @@ D E F I N E E N D ．
 \end_layout
 
 \begin_layout Standard
-好，白日梦到此收场。我们怎么能证明终止测试器是不可能造出来的呢？我们关于其不可能性的论据联系于下述思路：设法对FlooP运用对角线论证，就象我们对Bloop所做
+好，白日梦到此收场。我们怎么能证明终止测试器是不可能造出来的呢？我们关于其不可能性的论据联系于下述思路：设法对FlooP运用对角线论证，就象我们对BlooP所做
 的那样c我们将会看到两种情形还是有一些微妙而又关键的差别的。
 \end_layout
 
 \begin_layout Standard
-象我们对Bloop所做的那样，设想包括全部FIooP程序的库。
+象我们对BlooP所做的那样，设想包括全部FIooP程序的库。
 \end_layout
 
 \begin_layout Standard
@@ -5095,7 +5382,7 @@ FlooP更强有力的语言呢？在“红对角”中，我们已经发现了一
 \begin_layout Standard
 569去做这项工作，只须报告这样一项结果：有一大批计算机语言可以被证明是与FlooP具有完全相同的描述能力的，这就是说：任何一个可以用其中某种语言编程序完成的计
 算过程，必然能用所有这些语言中的任何一个来编程序完成a奇怪的是，几乎任何设计计算机语言的合理企图，都以构造出这个类中的一个成员而告终——也就是说，造出了一种能力
-等价于FlooP的语言。当然，通过某种努力也可以构造出一种比这一类语言要弱一些的合理并有趣的计算机语言。显然，Bloop就是弱语言的一个例子，但这是一种例外，而
+等价于FlooP的语言。当然，通过某种努力也可以构造出一种比这一类语言要弱一些的合理并有趣的计算机语言。显然，BlooP就是弱语言的一个例子，但这是一种例外，而
 不是规律。关键在于存在许多很自然的方式可以用来发明算法语言，而不同的人，循着不同的途径，往往最终创造出等价的语言。
 \end_layout
 
@@ -5128,7 +5415,7 @@ FlooP及其等价物的语言了。这个假说在30年代被两个人互相独
 \end_layout
 
 \begin_layout Standard
-通过“饵放”来增强它的能力，象我们对Bloop做过的那样。
+通过“饵放”来增强它的能力，象我们对BlooP做过的那样。
 \end_layout
 
 \begin_layout Standard
