@@ -1511,99 +1511,639 @@ IF条件语句和分支
 \end_layout
 
 \begin_layout Standard
-现在让我们看另一个过程，它将展示BLooP的其它特点，这些特点使该语言更加具有一般性。如果只会做加法，你怎样才能求出M-N的值呢？窍门在于把各种各样的数和N相加
+现在让我们看另一个过程，它将展示BlooP的其它特点，这些特点使该语言更加具有一般性。如果只会做加法，你怎样才能求出M-N的值呢？窍门在于把各种各样的数和N相加
 ，直至你发现一个与N的和等于M的数为止。但是如果M小于N会发生什么情况呢？如果我们想从2中取走5会怎样？这在自然数域中是没
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+546
+\end_layout
+
+\end_inset
+
+有答案的。但我们希望我们的BlooP过程不管怎样应当给出一个答案——比如说0。下面就是一个做减法的BlooP过程：
 \end_layout
 
 \begin_layout Standard
-5 4 6有答案的。但我们希望我们的BlooP过程不管怎样应当给出一个答案——比如说Oo下面就是一个做减法的BlooP过程：DEFINE PROCEDURE
- 4 1 2“MINUS" [M，N二： 定义过程名和变量M、N
+\begin_inset Tabular
+<lyxtabular version="3" rows="12" columns="2">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+DEFINE PROCEDURE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+“MINUS”[M，N]: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+定义过程名和变量M、N
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+BLOCK 0: BEGIN 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第0块开始
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+IF M<N, THEN: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+若M<N，则：
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+QUIT BLOCK 0;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+退出第0块
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+LOOP AT MOST M+1 TIMES:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+循环至多M+1次：
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+BLOCK 1: BEGIN 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第1块开始
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+IF OUTPUT+N=M, THEN： 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+若OUTPUT+N=M，则：
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+ABORT LOOP 1;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+中止循环 1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+OUTPUT
+
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+OUTPUT+1; 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+OUTPUT的值加1，送回
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+BLOCK 1: END;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第1块结束
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+BLOCK 0: END.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第0块结束
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-BI。OCK O：BEGIN 第0块开始
+这里我们利用了OUTTPUT开始时为0这一隐含性质。如果M小于N，那么减法就是不可能的，我们只需直接跳到BLOCK0的末尾，同时答案是0。这就是QUIT
+\begin_inset space \space{}
+\end_inset
+
+BLOCK0这一行的意思。但如果M不小于N，那么我们就越过这条QUIT语句，按顺序执行下一条命令（在这里是个LOOP语句）。这就是IF语句在BlooP中的工作方
+式。
 \end_layout
 
 \begin_layout Standard
-IF M<N，THEN: 若M<N，贝q：
+这样，我们就进入了LOOP1。这样称呼它，是因为它要重复执行的块是BLOCK1。我们试着把0加到N上，然后是l、2、……，直到我们找到那个能导出M的数。这时我们
+对当前循环做ABORT，即跳到紧跟着标识循环块底的END后面的一条语句。在上述例子中，我们跳到了BLOCK1:END的后面，即到达了算法的最后一条语句，而且任务
+已经完成了。现在OUTPUT中放的就是正确答案。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+547
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-QUIT BLOCK O； 退出第O块
+注意，往下跳有两种不同的指令：QUIT和ABORT。前者从属于块，后者从属于循环。QUIT
+\begin_inset space \space{}
+\end_inset
+
+BLOCKn意味着跳到BLOCKn的最后一行，而ABORT
+\begin_inset space \space{}
+\end_inset
+
+LOOP
+\begin_inset space \space{}
+\end_inset
+
+n意味着跳到BLOCKn的最后一行之后。只有在一种情况下二者的区别是重要的：当你在一个循环之中，想要继续循环，但又要退出这一轮所在的块。这时你用QUIT就能达到
+预期的效果。
 \end_layout
 
 \begin_layout Standard
-LOOP AT MOST M+l TIMES:循环至多M+1次：
-\end_layout
+还应当注意的是在循环上界前面注有AT
+\begin_inset space \space{}
+\end_inset
 
-\begin_layout Standard
-BI。OCK l：BEGIN 第1块开始
-\end_layout
-
-\begin_layout Standard
-1F ()UTPUT+N -M, THEN： 若OUTPUT+N -M，则：
-\end_layout
-
-\begin_layout Standard
-ABORT LOOP 1； 止循环r
-\end_layout
-
-\begin_layout Standard
-OUTPUT々OUTPUT+1； OUTPUT的值加1，送回
-\end_layout
-
-\begin_layout Standard
-BLOCK l：END； 第1块结束BLOCK O:END． 第O块结束
-\end_layout
-
-\begin_layout Standard
-这里我们利用了Ol.TTPUT开始时为0这一隐含性质。如果M小于N，那么减法就是不可能的，我们只需直接跳到BLOCK O的末尾，同时答案是Oo这就是QUIT
- BLOCK O这一行的意思。但如果M不小于N，那么我们就越过这条QUIT语句，按顺序执行下一条命令（在这里是个LOOP语句）o这就是IF语句在BlooP中的工
-作方式。
-\end_layout
-
-\begin_layout Standard
-这样，我们就进入了LOOP lo这样称呼它，是因为它要重复执行的块是BLOCK lo找们试着把o加到N上，然后是l、2、
-\end_layout
-
-\begin_layout Standard
-．．，直到我们找到那个能导出M的数。这时我们对当前循环做ABORT，即跳到紧跟着标识循环块底的END后面的一条语句。
-\end_layout
-
-\begin_layout Standard
-在七述例子中，我们跳到了BLOCK 1：END的后面，即到达了算法的最后一条语句，而且任务已经完成了。现在OUTPUT中放的就是正确答案。
-\end_layout
-
-\begin_layout Standard
-5 47
-\end_layout
-
-\begin_layout Standard
-注意，往下跳有两种不同的指令：QUIT和ABORT。前者从
-\end_layout
-
-\begin_layout Standard
-属于块，后者从属于循环o QUIT BLOCK n意味着跳到BLOCK n
-\end_layout
-
-\begin_layout Standard
-的最后一行，而ABORT LOOP n意味着跳到BLOCK n的最后
-\end_layout
-
-\begin_layout Standard
-一行之后。只有在一种情况下二者的区别是重要的：当你在一个循
-\end_layout
-
-\begin_layout Standard
-环之中，想要继续循环，但又要退出这一轮所在的块。这时你用
-\end_layout
-
-\begin_layout Standard
-QUIT就能达到预期的效果。
-\end_layout
-
-\begin_layout Standard
-还应当注意的是在循环上界前面注有AT MOST（至多），这一 告诫你循环可能在达到上界之前就被中止了。
+MOST（至多），这一告诫你循环可能在达到上界之前就被中止了。
 \end_layout
 
 \begin_layout Subsection*
@@ -1611,39 +2151,10 @@ QUIT就能达到预期的效果。
 \end_layout
 
 \begin_layout Standard
-‘F面是BlooP的最后两个需要加以说明的特点，它们都是非
-\end_layout
-
-\begin_layout Standard
-常重要的。其一是：一旦一个过程已经被“定义”了，它就可以在后
-\end_layout
-
-\begin_layout Standard
-面的过程定义中被“调用力o其效果是一旦某个操作在一个过程中
-\end_layout
-
-\begin_layout Standard
-被定义了，它就会被认为和基本步骤一样简单。这样，BlooP就具
-\end_layout
-
-\begin_layout Standard
-有了自动组块的特点。你可以把这和一个溜冰好手学习新花样的
-\end_layout
-
-\begin_layout Standard
-过程相比：他不是把新动作看作长长的基本肌肉活动序列，而是看
-\end_layout
-
-\begin_layout Standard
-作以前学过的一些动作的组合，而那些动作自身又是用更早所学4 1 3的动作所组成的，如此等等——这种嵌套或组块可以上溯许多层
-\end_layout
-
-\begin_layout Standard
-次，直至遇到基本肌肉活动为止。这样．Bloop程序的能力就和溜
-\end_layout
-
-\begin_layout Standard
-冰者的技能一样，可以突飞猛进地增饫了。
+下面是BlooP的最后两个需要加以说明的特点，它们都是非常重要的。其一是：一旦一个过程已经被“定义”了，它就可以在后面的过程定义中被“调用”。其效果是一旦某个操
+作在一个过程中被定义了，它就会被认为和基本步骤一样简单。这样，BlooP就具有了自动组块的特点。你可以把这和一个溜冰好手学习新花样的过程相比：他不是把新动作看作
+长长的基本肌肉活动序列，而是看作以前学过的一些动作的组合，而那些动作自身又是用更早所学的动作所组成的，如此等等——这种嵌套或组块可以上溯许多层次，直至遇到基本肌
+肉活动为止。这样，Bloop程序的能力就和溜冰者的技能一样，可以突飞猛进地增长了。
 \end_layout
 
 \begin_layout Subsection*
@@ -1651,262 +2162,2011 @@ Bloop测试
 \end_layout
 
 \begin_layout Standard
-BlooP的另一个特点是：某些特定过程可以用YES或NO作
-\end_layout
-
-\begin_layout Standard
-其输出，而不是输出一个整数的值。这种过程是“测试”，而非“函
-\end_layout
-
-\begin_layout Standard
-数”o为了说明这个区别，测试的名字必须以一个问号结束。另外，
-\end_layout
-
-\begin_layout Standard
-在一个测试中，OUTPUT的缺省值当然不能是O，而是NOo
+BlooP的另一个特点是：某些特定过程可以用YES或NO作其输出，而不是输出一个整数的值。这种过程是“测试”，而非“函数”。为了说明这个区别，测试的名字必须以一
+个问号结束。另外，在一个测试中，OUTPUT的缺省值当然不能是0，而是NO。
 \end_layout
 
 \begin_layout Standard
 让我们看一个例子，其中把Bloop的最后这两个特点表现在
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+548
+\end_layout
+
+\end_inset
+
+一个算法里。这个算法要测试一个函数的自变量是否是素数。
 \end_layout
 
 \begin_layout Standard
-5 48一个算法里。这个算法要测试一个函数的自变量是否是素数。
+\begin_inset Tabular
+<lyxtabular version="3" rows="17" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+DEFINE PROCEDURE
 \end_layout
 
-\begin_layout Standard
-DEFINE PROCEDURE“PRIME?"[N]： 定义过程名和变量NBLOCK O：BEGIN 第o块开始
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-1F N=O，THEN： 若N=O，则：
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+“PRIME?
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+”
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+[N]:
 \end_layout
 
-\begin_layout Standard
-QUIT BLOCK O； 退出第o块
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+定义过程名和变量N
 \end_layout
 
-\begin_layout Standard
-CELL(O)仁2； 把CELL(O)置成2
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+BLOCK 0: BEGIN 
 \end_layout
 
-\begin_layout Standard
-LOOP AT MOST 循环至多N-2次
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第0块开始
 \end_layout
 
-\begin_layout Standard
-MINUS[N，2]TIMES:
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+IF N=0, THEN: 
 \end_layout
 
-\begin_layout Standard
-BLOCK 1：BF.GIN 第1块开始
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+若N=0，则：
 \end_layout
 
-\begin_layout Standard
-IF REMAINDER 若N除以CELL(O)余o．则：
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+QUIT BLOCK 0;
 \end_layout
 
-\begin_layout Standard
-[N，CELL(O)]一o，
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+退出第0块
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+CELL(0)
+
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+2;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+把CELL(0)置成2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+LOOP AT MOST 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+循环至多N-2次
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+MINUS[N, 2] TIMES:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+BLOCK 1: BEGIN 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第1块开始
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+IF REMAINDER 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+若N除以CELL(0)余0，则：
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+[N, CELL(0)]=0,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 THEN:
 \end_layout
 
-\begin_layout Standard
-QUIT BLOCK 0； 退出第O块
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+QUIT BLOCK 0; 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+退出第0块
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+CELL(0)
+
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+CELL(0)+1;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+CELL(0)的值加1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+BLOCK 1: END;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+1块结束
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+OUTPUT
+
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+YES;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+把OUTPUT置成YES
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+BLOCK 0: END.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第0块结束
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-CELL(O)仨CELL(O)+1; CELL(O)的值加1
+注意，我在这个算法中调用了两个过程：MINUS和RE-MAINDER。（假设后者已经事先定义了，你可以自己完成这个定义，REMAINDER[N，R]的作用是求N
+除以R所得的余数。）这个素数测试过程的工作方式是逐个检查N可能有的因子；从2开始直到N-1为止。如果其中某一个能整除N（即余数为0），则跳到过程尾部，由于此时O
+UTPUT仿然保有其缺省值，故答案为NO。仅当N没有整数因子时，它才能通过整个LOOP1，那时我们会遇到语句OUTPUT
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+YES，执行了这个语句后，过程就结束了。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+549
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Bloop程序包含了过程组成的链
 \end_layout
 
 \begin_layout Standard
-BLOCK 1：END； ；1块结束
+我们已经看到了在Bloop中怎样定义过程，但过程定义只是一个程序的一部分。一个“程序”包括一条“过程定义链”（其中每个过程仅仅调用前面定义的过程），还可能跟着一
+个或多个对所定义过程的“调用”。这样，一个完整的BlooP程序的例子应当是一个过程TWO-TO-THE-THREE-TO-THE的定义，后面跟着一个调用
 \end_layout
 
-\begin_layout Standard
-OUTPUT仁YES； 把OUTPLT置成YESBI。OCK O：END． 第o块结束
-\end_layout
-
-\begin_layout Standard
-注意，我在这个算法中调用了两个过程：MINUS和RE-MAINDER o（假设后者已经事先定义了．你可以自己完成这个定义，REMAINDER [N，R]的作用是
-求N除以R所得的余数o）这个素数测试过程的工作方式是逐个检查N可能有的因子；从2开始直到N-l为止。如果其中某一个能整除N（即余数为0），则跳到过程尾部，由于此
-时OUTPUT仿然保有其缺省值，故答案为NOo仅当N没有整数因子时，它才能通过整个LOOP 1，那时我们会遇到语句OUTPLTT仨YES，执行了这个语句后，过程
-就结束了。
-\end_layout
-
-\begin_layout Standard
-54 9Bloop程序包含了过程组成的链
-\end_layout
-
-\begin_layout Standard
-我们已经看到了在Bloop中怎样定义过程，但过程定义只是
-\end_layout
-
-\begin_layout Standard
-一个程序的一部分。一个“程序”包括一条“过程定义链”（其中每个
-\end_layout
-
-\begin_layout Standard
-过程仅仅调用前面定义的过程），还可能跟着一个或多个对所定义4 1 4过程的“调用”o这样，一个完整的BlooP程序的例子应当是一个过
-\end_layout
-
-\begin_layout Standard
-程TWO -TO - THE - THREE—TO—THE的定义，后面跟着
-\end_layout
-
-\begin_layout Standard
-一个调用
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quotation
 TWO-TO-THE-THREE-TO-THE[2]
 \end_layout
 
 \begin_layout Standard
-这 会得到答案5 1 2 0图72． ．个待调用的Bloop程序的结构。由 这个概念显示在图72中。
+这会得到答案512。
 \end_layout
 
 \begin_layout Standard
-于这个程序是自足的，每个过程定义中只能 现在BlooP是我ff]用来调用定义在它前面的过程。 定义可预知终止的计算的语言。可以用BlooP来计算的函数的标准名称
-是“原始递归函数”；而
+\begin_inset Wrap figure
+lines 0
+placement l
+overhang 0in
+width "55col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0550.png
+	lyxscale 50
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+一个待调用的Bloop程序的结构。
+\end_layout
+
+\end_inset
+
+一个待调用的Bloop程序的结构。由于这个程序是自足的，每个过程定义中只能调用定义在它前面的过程。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-5 5 0可以用BlooP测试来验证的性质的标准名称是“原始递归谓词”o这样，函数23n就是个原始递归函数，而命题“n是个素数”则是个原始递归谓词。
+如果你只有一条过程定义链，那什么东西都不会被执行。它们就在那里等着调用，等着用特定的数值启动它们。这就象一台绞肉机等着肉来绞——或者说更象一串连在一起的绞肉机，
+前面—台绞完了就送进后一台……。对于绞肉机来说，这种安排可能没什么必要，但对于BlooP程序来说，这种结构是非常重要的。我们可以称它为一个“待调用程序”。这个概
+念显示在图72中。
 \end_layout
 
 \begin_layout Standard
-凭直觉就能看出哥德巴赫性质是原始递归的。为了使其明确化，这里有一个用Bloop写的过程定义，来显示如何测试这一性质是否存在：DEFINE PROCEDURE“G
-OLDBACH?ⅥN]： 定义过程名和变量NBLOCK O：BEGIN 第O块开始CELL(O)c2； CELL(O)置成2LOOP AT MOST
- N TIMES: 循环至多N次BLOCK l：BEGIN 第1块开始
+现在BlooP是我们用来定义可预知终止的计算的语言。可以用BlooP来计算的函数的标准名称是“原始递归函数”；而
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+550
+\end_layout
+
+\end_inset
+
+可以用BlooP测试来验证的性质的标准名称是“原始递归谓词”。这样，函数
+\begin_inset Formula $2^{3^{n}}$
+\end_inset
+
+就是个原始递归函数，而命题“n是个素数”则是个原始递归谓词。
 \end_layout
 
 \begin_layout Standard
-IF {PRIME?[CELL(O)] 若CELL(O)和N-
+凭直觉就能看出哥德巴赫性质是原始递归的。为了使其明确化，这里有一个用Bloop写的过程定义，来显示如何测试这一性质是否存在：
 \end_layout
 
 \begin_layout Standard
-CELL(O)AND RPIMF?[MINUS[N，CELL(O)]])， 均为素数，
+\begin_inset Tabular
+<lyxtabular version="3" rows="18" columns="2">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+DEFINE PROCEDURE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+“GOLDBACH?”[N]: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+定义过程名和变量N
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+BLOCK 0: BEGIN 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第0块开始
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+CELL(0)
+
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+2; 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+CELL(0)置成2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+LOOP AT MOST N TIMES:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+循环至多N次
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+BLOCK 1: BEGIN 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第1块开始
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+IF [PRIME?[CELL(0)] 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+若CELL(0)和
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+AND RPIME?[
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+N-CELL(0)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+MINUS[N, CELL(0)]]}, 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+均为素数，
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+THEN:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+则：
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+BLOCK 2: BEGIN
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第2块开始
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+OUTPUT
+
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+YES;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+把OUTPUT
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+置成YES
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+QUIT BLOGK 0;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+退出第0块
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+BLOCK 2: END;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第2块结束
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+CELL(0)
+
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+CELL(0)+1;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+CELL(0)加1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset space \quad{}
+\end_inset
+
+BLOCK 1: END;
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第1块结束
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+BLOCK 0: END.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+第0块结束
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-THEN： I：
+\noindent
+和通常一样，我们先假设NO，直到证明YES为止。而且我们是靠一股蛮劲在其和为N的数对之中进行搜索。如果两个数均为素数，我们就退出最外层的块，否则我们就返回去再试
+，直至穷尽全部可能性为止。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+551
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-BLOCK 2：BEGIN 第2块开始
+（警告：哥德巴赫性质是原始递归的，但这一事实并没有使“是否所有的数都具有哥德巴赫性质？”成为一个简单的问题——远非如此！）
+\end_layout
+
+\begin_layout Subsection*
+推荐的练习题
 \end_layout
 
 \begin_layout Standard
-OUTPUT乍YES; 旦OUTPUT置成YES
+你能写一个类似的过程来测试乌龟性质（或阿基里斯性质）是否存在吗？如果能，就请写出来。如果不能，是仅仅因为你不知道上界，还是因为在Bloop中刻画这样的算法时遇到
+了根本性的障碍？如果对在对话中提出的“妙极性”性质提同样的问题，会得出什么答案？
 \end_layout
 
 \begin_layout Standard
-QUIT BLOGK O； 退出第O块
+下面我将列出一些函数和性质，你最好花一些时间来确定你是否相信它们是原始递归的（即可用BlooP编程序）。这意味着你必须认真考虑它们所要求的计算中包含哪些操作，以
+及是否能给出其中涉及的全部循环的项。
 \end_layout
 
 \begin_layout Standard
-BLOCK 2：END; 第2块结束
+\noindent
+FACTORIAL[N]=N!（N的阶乘）
 \end_layout
 
 \begin_layout Standard
-CELL(O)e CELL(O)+1; CELL(O)加1BLOCK 1：END; 第1块结束BLOCK O：END． 第O块结束和通常一样，我们先假设心O，直
-到证明YES为止。而且我们是靠一股蛮劲在其和为N的数对之中进衍搜索。如果两个数均为素数，我们就退出最外层的块，否则我们就返回去再试，直至穷尽全部可能性为止。
+（例如：FACTORIAL[4l=24）
 \end_layout
 
 \begin_layout Standard
-5 5 1
+\noindent
+REMAINDER[M, N]=用N除M所得的余数
 \end_layout
 
 \begin_layout Standard
-（警告：哥德巴赫性质是原始递归的，但这一事实并没有使“是否所有的数都具有哥德巴赫性质？”成为一个简单的问题——远非如此！）4 1 5 推荐的练习题你能写一个类似
-的过程来测试乌龟性质（或阿基里斯性质）是否存在吗？如果能，就请写出来。如果不能，是仅仅因为你不知道上界，还是因为在Bloop中刻画这样的算法时遇到了根本性的障碍
-？如果对在对话中提出的“妙极性”性质提同样的问题，会得出什么答案？
+（例如：REMAINDER[24, 7]=3）
 \end_layout
 
 \begin_layout Standard
-下面我将列出一些函数和性质，你最好花一些时间来确定你
+\noindent
+PI- DIGIT[N]=π在小数点后的第N位数字
 \end_layout
 
 \begin_layout Standard
-是否相信它们是原始递归的（即可用BlooP编程序）o这意味着你
+（例如：PI-DIGIT[1]=1,
 \end_layout
 
 \begin_layout Standard
-必须认真考虑它们所要求的计算中包含哪些操作，以及是否能给
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
+PI-DIGIT[2]=4,
 \end_layout
 
 \begin_layout Standard
-出其中涉及的全部循环的项。
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
+PPI-DIGIT[1000000]=1)
 \end_layout
 
 \begin_layout Standard
-FACT()RIAL[N]=N!（N的阶乘）
-\end_layout
-
-\begin_layout Standard
-（例如：FACTORIAI。[4l= 24）
-\end_layout
-
-\begin_layout Standard
-REMAINDER[M，N]=用N除M所得的余数
-\end_layout
-
-\begin_layout Standard
-（例如：REMAINDER[24，7]=3）
-\end_layout
-
-\begin_layout Standard
-PI- DIGIT[N]一7c在小数点后的第N位数字
-\end_layout
-
-\begin_layout Standard
-（例如：PI- DIGIT[1]=1，
-\end_layout
-
-\begin_layout Standard
-PI- DIGIT[2]=4，4 1 6 PI- DIGIT[1000000]=1)
-\end_layout
-
-\begin_layout Standard
+\noindent
 FIBO [N]=斐波那契数列的第N项
 \end_layout
 
 \begin_layout Standard
-（锣如：FIB0[9]=34）
+（例如：FIBO[9]=34）
 \end_layout
 
 \begin_layout Standard
-PRIME -BEYOND[N]～大于N的最小素数
+\noindent
+PRIME-BEYOND[N]=大于N的最小素数
 \end_layout
 
 \begin_layout Standard
-(侈口:PRIME-BEYOND[33]=37)
+（例如：PRIME-BEYOND[33]=37)
 \end_layout
 
 \begin_layout Standard
+\noindent
 PERFECT[N]=第N个“完全”数（一个数的所有约数之和等于
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\noindent
+552
+\end_layout
+
+\end_inset
+
+它本身，如28=1+2+4+7+14)
 \end_layout
 
 \begin_layout Standard
-5 5 2它本身，如28-1+2+4+7+14)
+（例如：PERFECT[2]=28)
 \end_layout
 
 \begin_layout Standard
-(例如：PERFECT[2]=28)PRIME?[N]=YES若N是素数，否则为NOoPERFECT?[N]=YES若N是完全数，否则为NOoTRIVIAL?[
-A,B,C,N]=YES若AN+BN= CN成立，否则为NOo
+\noindent
+PRIME?[N]=YES若N是素数，否则为NO。
 \end_layout
 
 \begin_layout Standard
-(例如：TRIVIAL?[3,4,5,2l=YES,
+\noindent
+PERFECT?[N]=YES若N是完全数，否则为NO。
 \end_layout
 
 \begin_layout Standard
-TRIVIAL?[3,4,5 ,3] =NO)PIERRE?[A,B,C]=YES若AN+BN =CN可以被某个大于1的N值所满足，否则为NO
- o
+\noindent
+TRIVIAL?[A,B,C,N]=YES若
+\series bold
+
+\begin_inset Formula $A^{N}+B^{N}=C^{N}$
+\end_inset
+
+
+\series default
+成立，否则为NO。
+\end_layout
+
+\begin_layout Standard
+(例如：TRIVIAL?[3,4,5,2]=YES,
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
+PTRIVIAL?[3,4,5 ,3]=NO)
+\end_layout
+
+\begin_layout Standard
+\noindent
+PIERRE?[A,B,C]=YES若
+\series bold
+
+\begin_inset Formula $A^{N}+B^{N}=C^{N}$
+\end_inset
+
+
+\series default
+可以被某个大于1的N值所满足，否则为NO。
 \end_layout
 
 \begin_layout Standard
@@ -1914,19 +4174,50 @@ TRIVIAL?[3,4,5 ,3] =NO)PIERRE?[A,B,C]=YES若AN+BN =CN可以被某个大于1的N�
 \end_layout
 
 \begin_layout Standard
-PIERRE?[1,2,3] =NO)FERMAT?[N]=YES若AN+BN =CN可以被某一组正数A.B.C所满足，否则为NO.
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
+PIERRE?[1,2,3]=NO)
 \end_layout
 
 \begin_layout Standard
-(例如：FERMAT?[2] - YES)TORTOISE-PAIR?[M,N]=YES若M和M+N均为素数，否则为NOo
+\noindent
+FERMAT?[N]=YES若
+\series bold
+
+\begin_inset Formula $A^{N}+B^{N}=C^{N}$
+\end_inset
+
+
+\series default
+可以被某一组正数A、B、C所满足，否则为NO。
 \end_layout
 
 \begin_layout Standard
-(例如：TORTOISE - PAIR?[5,1742]=YES,
+(例如：FERMAT?[2]=YES)
 \end_layout
 
 \begin_layout Standard
-TORTOISE-PAIR?[5,100]=NO)TORTOISE?[N]-YES若N为两个素数之差，否则为NOo
+\noindent
+TORTOISE-PAIR?[M,N]=YES若M和M+N均为素数，否则为NO。
+\end_layout
+
+\begin_layout Standard
+(例如：TORTOISE-PAIR?[5,1742]=YES,
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
+TORTOISE-PAIR?[5,100]=NO)
+\end_layout
+
+\begin_layout Standard
+\noindent
+TORTOISE?[N]-YES若N为两个素数之差，否则为NO。
 \end_layout
 
 \begin_layout Standard
@@ -1934,7 +4225,16 @@ TORTOISE-PAIR?[5,100]=NO)TORTOISE?[N]-YES若N为两个素数之差，否则为NO
 \end_layout
 
 \begin_layout Standard
-TORTOISE?[7] =NO)WJU-WELL----FORMED?[N]=YES着N可以看作WJU系统中的一个良构串，否则为NO o
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
+TORTOISE?[7]=NO)
+\end_layout
+
+\begin_layout Standard
+\noindent
+WJU-WELL----FORMED?[N]=YES着N可以看作WJU系统中的一个良构串，否则为NO。
 \end_layout
 
 \begin_layout Standard
@@ -1942,47 +4242,68 @@ TORTOISE?[7] =NO)WJU-WELL----FORMED?[N]=YES着N可以看作WJU系统中的一个
 \end_layout
 
 \begin_layout Standard
-WJU—WELL-FORMED?[415]=NO)wjU -PROOF-PAIR ?[M,N]=YES若在WJU系统中可以把串序列M看作串N的一个推导，否则为N
-Oo
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
+WJU—WELL-FORMED?[415]=NO)
 \end_layout
 
 \begin_layout Standard
-55 3
+\noindent
+WJU-PROOF-PAIR ?[M,N]=YES若在WJU系统中可以把串序列M看作串N的一个推导，否则为NO。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\noindent
+553
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-（例如：WJU - PROOF - PAIR:?[3131131111301, 301]=
+（例如：
 \end_layout
 
 \begin_layout Standard
-YES，
+WJU-PROOF-PAIR?[3131131111301,301]=YES，
 \end_layout
 
 \begin_layout Standard
-WJU -PROQF- PAIRl[311130,30] =NO)
+WJU-PROOF-PAIR?[311130,30] =NO)
 \end_layout
 
 \begin_layout Standard
-WJU-THEOREM?[N]=YES若N对应的WJU系统中的串是
+\noindent
+WJU-THEOREM?[N]=YES若N对应的WJU系统中的串是一个定理，否则为NO。
 \end_layout
 
 \begin_layout Standard
-一个定理，否则为NOo
+（例如：WJU-THEOREM?[311]=YES,
 \end_layout
 
 \begin_layout Standard
-（例如：WJU—THEOREM?[311]=YES,
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
+WJU-THEOREM?[30] =NO,
 \end_layout
 
 \begin_layout Standard
-WJU ~THEOREM?[30] =NO,
-\end_layout
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
 
-\begin_layout Standard
 WJU-THEOREM?[701]=NO)
 \end_layout
 
 \begin_layout Standard
+\noindent
 TNT-THEOREM?[N] =YES若N对应的TNT串是个定理。
 \end_layout
 
@@ -1991,35 +4312,53 @@ TNT-THEOREM?[N] =YES若N对应的TNT串是个定理。
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
 TNT-THEOREM?[123666111666]=NO,
 \end_layout
 
 \begin_layout Standard
-TNT-THEOREIVI?[7014] =NO)4 1 7 FALSE? [N] -YES若N对应的TNT串是数论中的一个假命
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
+TNT-THEOREIVI?[7014] =NO)
 \end_layout
 
 \begin_layout Standard
-题，否则为NOo
+\noindent
+FALSE? [N]=YES若N对应的TNT串是数论中的一个假命题，否则为NO。
 \end_layout
 
 \begin_layout Standard
-（例如：FALSE?[666111666] =N09
+（例如：FALSE?[666111666] =N0，
 \end_layout
 
 \begin_layout Standard
-FALSE?[223666111666l= YES,
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
+FALSE?[223666111666]= YES,
 \end_layout
 
 \begin_layout Standard
-FALSE?[7014l=NO)
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
+FALSE?[7014]=NO)
 \end_layout
 
 \begin_layout Standard
-后面七个题目与我们将要进行的元数学探索关系密切，因此很值
+\noindent
+后面七个题目与我们将要进行的元数学探索关系密切，因此很值得你认真分析。
 \end_layout
 
-\begin_layout Standard
-得你认真分析。可表示性和可体现性
+\begin_layout Subsection*
+可表示性和可体现性
 \end_layout
 
 \begin_layout Standard
@@ -2054,7 +4393,7 @@ FALSE?[7014l=NO)
 回答数论中的任何问题，它就是完全的。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 原始递归谓词在TNT中是可体现的
 \end_layout
 
@@ -2192,7 +4531,11 @@ A"[B]： 定义过程名和参数BBLOCK O；BEGIN 第O块开始Bl。()CK O：END
 \end_layout
 
 \begin_layout Standard
-蓝程序{#5 000）[N]=N-34 20 对角线法
+蓝程序{#5 000）[N]=N-34 20
+\end_layout
+
+\begin_layout Subsection*
+对角线法
 \end_layout
 
 \begin_layout Standard
@@ -2374,16 +4717,58 @@ d不同于r(3)；
 
 \begin_layout Standard
 现在来看康托尔的证明和我们的证明之间的根本区别——这涉及到对哪个假设进行否定。在康托尔的论证中，不牢靠的假设是可以写出上述的表。因此，d的构造就保证了下述结论的
-正确性：根本无法写出囊括了一切实数的表——这等于说整数的集合还没有大到足以为实数的集合作索引。而另一方面，在我们的诬明中，
+正确性：根本无法写出囊括了一切实数的表——这等于说整数的集合还没有大到足以为实数的集合作索引。而另一方面，在我们的证明中，
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+561
+\end_layout
+
+\end_inset
+
+我们知道蓝Bloop程序的登记表可以被写出来——整数集已经是够大，能够为蓝BlooP程序作索引。这样，我们只得退回去，撤消某个以前用过的更不牢靠的想法，而这个想
+法就是“蓝对角”[N]可以用某个用BlooP写的程序来计算。这是采用对角线法时的一个微妙差别。
 \end_layout
 
 \begin_layout Standard
-5 61我们知道蓝Bloop程序的登记表叮以被写出来——整数集已经是够大，能够为蓝BlooP程序作索引。这样，我们只得退回去，撤消某个以前用过的更不牢靠的想法，
-而这个想法就是“蓝对角”[N]可以用某个用BlooP写的程序来计算。这是采用对角线法时的一个微妙差别。
+\begin_inset Wrap figure
+lines 0
+placement l
+overhang 0in
+width "45col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0562.jpg
+	lyxscale 50
+	width 40text%
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-I刘73．盖嗅，j：格·康托，J：
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+盖奥尔格·康托尔
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2430,7 +4815,7 @@ I刘73．盖嗅，j：格·康托，J：
 \end_layout
 
 \begin_layout Subsection*
-从BJooP到FIooP
+从BlooP到FIooP
 \end_layout
 
 \begin_layout Standard
