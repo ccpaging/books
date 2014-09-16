@@ -4212,7 +4212,7 @@ REMAINDER[M, N]=用N除M所得的余数
 
 \begin_layout Standard
 \noindent
-PI- DIGIT[N]=π在小数点后的第N位数字
+PI-DIGIT[N]=π在小数点后的第N位数字
 \end_layout
 
 \begin_layout Standard
@@ -4232,7 +4232,7 @@ PI-DIGIT[2]=4,
 \length 3em
 \end_inset
 
-PPI-DIGIT[1000000]=1)
+PI-DIGIT[1000000]=1）
 \end_layout
 
 \begin_layout Standard
@@ -4250,7 +4250,7 @@ PRIME-BEYOND[N]=大于N的最小素数
 \end_layout
 
 \begin_layout Standard
-（例如：PRIME-BEYOND[33]=37)
+（例如：PRIME-BEYOND[33]=37）
 \end_layout
 
 \begin_layout Standard
@@ -4266,11 +4266,11 @@ status open
 
 \end_inset
 
-它本身，如28=1+2+4+7+14)
+它本身，如28=1+2+4+7+14）
 \end_layout
 
 \begin_layout Standard
-（例如：PERFECT[2]=28)
+（例如：PERFECT[2]=28）
 \end_layout
 
 \begin_layout Standard
@@ -4297,7 +4297,7 @@ TRIVIAL?[A,B,C,N]=YES若
 \end_layout
 
 \begin_layout Standard
-(例如：TRIVIAL?[3,4,5,2]=YES,
+（例如：TRIVIAL?[3,4,5,2]=YES,
 \end_layout
 
 \begin_layout Standard
@@ -4305,7 +4305,7 @@ TRIVIAL?[A,B,C,N]=YES若
 \length 3em
 \end_inset
 
-PTRIVIAL?[3,4,5 ,3]=NO)
+TRIVIAL?[3,4,5,3]=NO）
 \end_layout
 
 \begin_layout Standard
@@ -4322,7 +4322,7 @@ PIERRE?[A,B,C]=YES若
 \end_layout
 
 \begin_layout Standard
-(例如：PIERRE?[3,4,5] =YES,
+（例如：PIERRE?[3,4,5] =YES,
 \end_layout
 
 \begin_layout Standard
@@ -4330,7 +4330,7 @@ PIERRE?[A,B,C]=YES若
 \length 3em
 \end_inset
 
-PIERRE?[1,2,3]=NO)
+PIERRE?[1,2,3]=NO）
 \end_layout
 
 \begin_layout Standard
@@ -4347,7 +4347,7 @@ FERMAT?[N]=YES若
 \end_layout
 
 \begin_layout Standard
-(例如：FERMAT?[2]=YES)
+（例如：FERMAT?[2]=YES）
 \end_layout
 
 \begin_layout Standard
@@ -4356,7 +4356,7 @@ TORTOISE-PAIR?[M,N]=YES若M和M+N均为素数，否则为NO。
 \end_layout
 
 \begin_layout Standard
-(例如：TORTOISE-PAIR?[5,1742]=YES,
+（例如：TORTOISE-PAIR?[5,1742]=YES,
 \end_layout
 
 \begin_layout Standard
@@ -4364,7 +4364,7 @@ TORTOISE-PAIR?[M,N]=YES若M和M+N均为素数，否则为NO。
 \length 3em
 \end_inset
 
-TORTOISE-PAIR?[5,100]=NO)
+TORTOISE-PAIR?[5,100]=NO）
 \end_layout
 
 \begin_layout Standard
@@ -4373,7 +4373,7 @@ TORTOISE?[N]-YES若N为两个素数之差，否则为NO。
 \end_layout
 
 \begin_layout Standard
-(例如：TORTOISE?[1742] =YES,
+（例如：TORTOISE?[1742] =YES,
 \end_layout
 
 \begin_layout Standard
@@ -4381,16 +4381,16 @@ TORTOISE?[N]-YES若N为两个素数之差，否则为NO。
 \length 3em
 \end_inset
 
-TORTOISE?[7]=NO)
+TORTOISE?[7]=NO）
 \end_layout
 
 \begin_layout Standard
 \noindent
-WJU-WELL----FORMED?[N]=YES着N可以看作WJU系统中的一个良构串，否则为NO。
+WJU-WELL-FORMED?[N]=YES着N可以看作WJU系统中的一个良构串，否则为NO。
 \end_layout
 
 \begin_layout Standard
-(例如：WJU -WELL - FORMED?[310]=YES,
+（例如：WJU-WELL-FORMED?[310]=YES,
 \end_layout
 
 \begin_layout Standard
@@ -4398,12 +4398,12 @@ WJU-WELL----FORMED?[N]=YES着N可以看作WJU系统中的一个良构串，否�
 \length 3em
 \end_inset
 
-WJU—WELL-FORMED?[415]=NO)
+WJU-WELL-FORMED?[415]=NO）
 \end_layout
 
 \begin_layout Standard
 \noindent
-WJU-PROOF-PAIR ?[M,N]=YES若在WJU系统中可以把串序列M看作串N的一个推导，否则为NO。
+WJU-PROOF-PAIR?[M,N]=YES若在WJU系统中可以把串序列M看作串N的一个推导，否则为NO。
 \begin_inset Note Comment
 status open
 
@@ -4426,7 +4426,7 @@ WJU-PROOF-PAIR?[3131131111301,301]=YES，
 \end_layout
 
 \begin_layout Standard
-WJU-PROOF-PAIR?[311130,30] =NO)
+WJU-PROOF-PAIR?[311130,30] =NO）
 \end_layout
 
 \begin_layout Standard
@@ -4451,7 +4451,7 @@ WJU-THEOREM?[30] =NO,
 \length 3em
 \end_inset
 
-WJU-THEOREM?[701]=NO)
+WJU-THEOREM?[701]=NO）
 \end_layout
 
 \begin_layout Standard
@@ -4476,7 +4476,7 @@ TNT-THEOREM?[123666111666]=NO,
 \length 3em
 \end_inset
 
-TNT-THEOREIVI?[7014] =NO)
+TNT-THEOREIVI?[7014] =NO）
 \end_layout
 
 \begin_layout Standard
@@ -4501,7 +4501,7 @@ FALSE?[223666111666]= YES,
 \length 3em
 \end_inset
 
-FALSE?[7014]=NO)
+FALSE?[7014]=NO）
 \end_layout
 
 \begin_layout Standard
@@ -4637,7 +4637,7 @@ status open
 A\ B\ C\ D\ E\ F\ G\ H\ I\ J\ K\ L\ M\ N\\
 O\ P\ Q\ R\ S\ T\ U\ V\ W\ X\ Y\ Z\ +\ *\\
 0\ 1\ 2\ 3\ 4\ 5\ 6\ 7\ 8\ 9\ \Leftarrow\ =\ <\ >\\
-(\ )\ [\ ]\ \{\ \}\ -\ '\ ?\ :\ ;\ ,\ .
+(\ )\ [\ ]\ \{\ \}\ -\ \text{'}\ ?\ :\ ;\ ,\ .
 \end{array}$
 \end_inset
 
@@ -4861,54 +4861,87 @@ status open
 \end_layout
 
 \begin_layout Quote
-等式（1）：“蓝对角”[N]=1+蓝程序{#N}[N]
+等式（1）：
+\begin_inset Formula $“蓝对角”[N]=1+蓝程序\{\#N\}[N]$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 我们的策略是：把每台“绞肉机”的索引编号送给它自己去加1，然后把它的输出值加1。为了说清楚这一点，让我们找出“蓝对角”[12]0我们已经看到蓝程序{#12）就是
-函数2N，因此，“蓝对角”
+函数2N，因此，“蓝对角”[12]的值一定就是
+\begin_inset Formula $1+2×12$
+\end_inset
+
+，也就是25。类似地，“蓝对角”[5000]应该等于125000000001，因为这个数是1加上5000的立方。同理，你
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+558
+\end_layout
+
+\end_inset
+
+可以为任意选定的自变量找出“蓝对角”的值。
 \end_layout
 
 \begin_layout Standard
-[12]的值一定就是1+2×1 2，也就是2 5 0类似地，“蓝对角”[5000]
-\end_layout
-
-\begin_layout Standard
-应该等于125000000001，因为这个数是1加上5000的立方。同理，你
-\end_layout
-
-\begin_layout Standard
-55 8可以为任意选定的自变量找出“蓝对角”的值。
-\end_layout
-
-\begin_layout Standard
-“蓝对角”的独特之处在于：它不出现在全部蓝程序所构成的目录表中。它不可能在那里。理由是这样的：如果它是个蓝程序，它就一定得有个索引编号——比如说它是蓝程序#Xo
+“蓝对角”的独特之处在于：它不出现在全部蓝程序所构成的目录表中。它不可能在那里。理由是这样的：如果它是个蓝程序，它就一定得有个索引编号——比如说它是蓝程序#X。
 这个假设可以被表示成
 \end_layout
 
-\begin_layout Standard
-等式（2）：“蓝对角”[N]=蓝程序{#X）[N]但等式（1）和（2）是互不相容的a当我们要去计算“蓝对角”[X]的值时，这就会变得很显然。因为我们在计算时要令
-二式中的N均取值为Xo如果在公式（1）中做此代换，我们得到：
+\begin_layout Quote
+等式（2）：
+\begin_inset Formula $“蓝对角”[N]=蓝程序\{\#X\}[N]$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“蓝对角”[X]=1+蓝程序{#X）[X]但如果对公式（2）做此代换，我们得到：
+但等式（1）和（2）是互不相容的。当我们要去计算“蓝对角”[X]的值时，这就会变得很显然。因为我们在计算时要令二式中的N均取值为X。如果在公式（1）中做此代换，
+我们得到：
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $“蓝对角”[X]=1+蓝程序\{\#X\}[X]$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“蓝对角”[X]=蓝程序{#X）[X]而“蓝对角”[X]不可能既等于某个数又等于该数加一。但这正是上述两个公式的意思。因此我们只得返回去丢掉某个造成这个矛盾的假
-设。唯一可能的选择是丢掉公式（2）所表示的假设：函数“蓝对角”[N]可以写成一个蓝BlooP程序。而这就证明了“蓝对角处于原始递归函数的范围之外”o这样，我们就
-达到了目的，一举摧毁了阿基里斯所珍爱的那个朴素观念：每个数论中的函数都必定能在可预测的步数内被箅出来。
+但如果对公式（2）做此代换，我们得到：
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $“蓝对角”[X]=蓝程序\{\#X\}[X]$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-这里出现了一些很微妙的事情。比如说你可能会考虑这个问遂：对每个特定的N值来说，在计算“蓝对角，，[N]时所包括的步数421总是可预测的——但这些不同的预测方式不
-能全都结合成一个普适的方法，以预测“蓝对角”[N]的运算长度。这是一个“无穷阴谋”，它联系于乌龟那个“无穷巧合打的概念，以及∞不完全性。这里我们不再仔细追寻这些
-联系。
+而“蓝对角”[X]不可能既等于某个数又等于该数加一。但这正是上述两个公式的意思。因此我们只得返回去丢掉某个造成这个矛盾的假设。唯一可能的选择是丢掉公式（2）所表
+示的假设：函数“蓝对角”[N]可以写成一个蓝BlooP程序。而这就证明了“蓝对角处于原始递归函数的范围之外”。这样，我们就达到了目的，一举摧毁了阿基里斯所珍爱的
+那个朴素观念：每个数论中的函数都必定能在可预测的步数内被箅出来。
 \end_layout
 
 \begin_layout Standard
-5 5 9
+这里出现了一些很微妙的事情。比如说你可能会考虑这个问题：对每个特定的N值来说，在计算“蓝对角”[N]时所包括的步数总是可预测的——但这些不同的预测方式不能全都结
+合成一个普适的方法，以预测“蓝对角”[N]的运算长度。这是一个“无穷阴谋”，它联系于乌龟那个“无穷巧合打的概念，以及ω不完全性。这里我们不再仔细追寻这些联系。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+559
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -4922,48 +4955,85 @@ status open
 \end_layout
 
 \begin_layout Standard
-必须看到，这不仅适用于有限的登记表，而且也适用于无穷长，的登记表。这个结果比下述命题深刻得多：“实数有无穷多个，因此显然不能列在一个有限长的登记表中”o康托尔的
-结果的实质在于说明了存在（至少）两种不同类型的无穷：一种无穷描述了在一个无穷长的登记表中能有多少表目，另一种无穷描述了实数的数量（即一条线或线段上点的数量）——
-因此后者“更大”，其理由是实数不能被塞进一个具有前一种无穷的长度的表之中。让我们看看为什么康托尔的论证中涉及了对角线这个词。
+必须看到，这不仅适用于有限的登记表，而且也适用于无穷长的登记表。这个结果比下述命题深刻得多：“实数有无穷多个，因此显然不能列在一个有限长的登记表中”。康托尔的结
+果的实质在于说明了存在（至少）两种不同类型的无穷：一种无穷描述了在一个无穷长的登记表中能有多少表目，另一种无穷描述了实数的数量（即一条线或线段上点的数量）——因
+此后者“更大”，其理由是实数不能被塞进一个具有前一种无穷的长度的表之中。让我们看看为什么康托尔的论证中涉及了对角线这个词。
 \end_layout
 
 \begin_layout Standard
-我们只考虑O和1之间的实数就够了。为了进行论证，先假设能够给出一个无穷长的表，其中每个正整数N对应于0和1之间的一个实数r(N)，面且o和1之间的每个实数都将出
-现在表中的某个位置上。由于实数都能写成无穷小数，我们可以设想这张表的开始部
+我们只考虑0和1之间的实数就够了。为了进行论证，先假设能够给出一个无穷长的表，其中每个正整数N对应于0和1之间的一个实数r(N)，面且o和1之间的每个实数都将出
+现在表中的某个位置上。由于实数都能写成无穷小数，我们可以设想这张表的开始部分可能是这样的：
 \end_layout
 
 \begin_layout Standard
-、’～分可能是这样的：
+r(1): .
+ 
+\series bold
+1
+\series default
+ 4 1 5 9 2 6 5 3……
 \end_layout
 
 \begin_layout Standard
-r1):．1415 9 2 6 5 3-．
+r(2): .
+ 3 
+\series bold
+3
+\series default
+ 3 3 3 3 3 3 3……
 \end_layout
 
 \begin_layout Standard
-r（2）：．3 3 3 3 3 3 3 3 3-．
+r(3): .
+ 7 1 
+\series bold
+8
+\series default
+ 2 8 1 8 2 8……
 \end_layout
 
 \begin_layout Standard
-r 3 ： ．718 2 818 2 8-．
+r(4): .
+ 4 1 4 
+\series bold
+2
+\series default
+ 1 3 5 6 2……
 \end_layout
 
 \begin_layout Standard
-r 4)：．414213 5 6 2--
+r(5): .
+ 5 0 0 0 
+\series bold
+0
+\series default
+ 0 0 0 0……
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+5 60
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-r(5)：．5 0 0 0 0 0 0 0 0..
+其中对角线上的数字用黑体印出了：1、3、8、2、0……。现在要用这些数字来构造一个特殊的实数d，d在0和1之间，但我们将发现它不在表内。为了构造d，我们依次取出
+对角线上的数字，然后把其中的每一个都设成别的什么数字。当在这样得到的数字序列前加上小数点之后，你就得到了d 。当然把一个数字改成别的什么数字会有许多种办法，相应
+地可以得到许多不同的d。例如，设我们从每个对角线上的数字中减去1（并约定0减1得9）。那么我们得到的d将是：
 \end_layout
 
 \begin_layout Standard
-5 60其中对角线上的数字用黑体印出了：1、3、8、2、O……。现在要用这些数字来构造一个特殊的实数d，d在O和1之间，但我们将发现它不在表内。为了构造(l，我
-们依次取出对角线上的数字，然后把其中的每一个都设成别的什么数字。当在这样得到的数字序列前加上小数点之后，你就得到了d o当然把一个数字改成别的什么数字会有许多种
-办法，相应地可以得到许多不同的d o例如，设我们从每个对角线上的数字中减去1（并约定O减1得9）o那么我们得到的422d将是：
+.
+ 0 2 7 1 9……
 \end_layout
 
 \begin_layout Standard
-．()2 7 1 9．-．．．这时，根据我们的构造方式，有：
+\noindent
+这时，根据我们的构造方式，有：
 \end_layout
 
 \begin_layout Standard
@@ -4971,7 +5041,7 @@ d的第1位不同于r(l)的第1位；
 \end_layout
 
 \begin_layout Standard
-d 第2位不同于r（2）的第2位；
+d的第2位不同于r(2)的第2位；
 \end_layout
 
 \begin_layout Standard
@@ -4979,15 +5049,20 @@ d的第3位不同于r(3)的第3位；
 \end_layout
 
 \begin_layout Standard
-……如此等等。因此，我们有
+……如此等等。
 \end_layout
 
 \begin_layout Standard
-d 同于r(l)；
+\noindent
+因此，我们有
 \end_layout
 
 \begin_layout Standard
-d不同于r（2）；
+d不同于r(l)；
+\end_layout
+
+\begin_layout Standard
+d不同于r(2)；
 \end_layout
 
 \begin_layout Standard
@@ -4995,27 +5070,16 @@ d不同于r(3)；
 \end_layout
 
 \begin_layout Standard
--．如此等等。换句括说，d不在表中！
+……如此等等。
+\end_layout
+
+\begin_layout Standard
+\noindent
+换句括说，d不在表中！
 \end_layout
 
 \begin_layout Subsection*
 对角线论证证明了什么？
-\end_layout
-
-\begin_layout Standard
-现在来看康托尔的证明和我们的证明之间的根本区别——这涉及到对哪个假设进行否定。在康托尔的论证中，不牢靠的假设是可以写出上述的表。因此，d的构造就保证了下述结论的
-正确性：根本无法写出囊括了一切实数的表——这等于说整数的集合还没有大到足以为实数的集合作索引。而另一方面，在我们的证明中，
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-561
-\end_layout
-
-\end_inset
-
-我们知道蓝BlooP程序的登记表可以被写出来——整数集已经是够大，能够为蓝BlooP程序作索引。这样，我们只得退回去，撤消某个以前用过的更不牢靠的想法，而这个想
-法就是“蓝对角”[N]可以用某个用BlooP写的程序来计算。这是采用对角线法时的一个微妙差别。
 \end_layout
 
 \begin_layout Standard
@@ -5049,33 +5113,48 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-如果把这种方法用于对话中提出的¨伟大数学家的完备名单”这个更具体的例子，这一差别就会变得更为清楚。对角线本身是“Dboups"。如果我们完成所要求的对角线减法，
+现在来看康托尔的证明和我们的证明之间的根本区别——这涉及到对哪个假设进行否定。在康托尔的论证中，不牢靠的假设是可以写出上述的表。因此，d的构造就保证了下述结论的
+正确性：根本无法写出囊括了一切实数的表——这等于说整数的集合还没有大到足以为实数的集合作索引。而另一方面，在我们的证明中，
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+561
+\end_layout
+
+\end_inset
+
+我们知道蓝BlooP程序的登记表可以被写出来——整数集已经是够大，能够为蓝BlooP程序作索引。这样，我们只得退回去，撤消某个以前用过的更不牢靠的想法，而这个想
+法就是“蓝对角”[N]可以用某个用BlooP写的程序来计算。这是采用对角线法时的一个微妙差别。
+\end_layout
+
+\begin_layout Standard
+如果把这种方法用于对话中提出的“伟大数学家的完备名单”这个更具体的例子，这一差别就会变得更为清楚。对角线本身是“Dboups”。如果我们完成所要求的对角线减法，
 就能从中得到“Cantor"[康托尔]。这样就有两种可能的结论。如果你坚信这张表是完全的，那你必须下结论说康托尔不是伟大的数学家，因为他的名字和表中所有的名字均
-不同。另一方面，如果你坚信康托尔的确是个伟大的数学家，那你必须卜．结论说这张“伟大数学家的完备名单”是不完全的，因为康托尔的名字没有列在表上！
+不同。另一方面，如果你坚信康托尔的确是个伟大的数学家，那你必须下结论说这张“伟大数学家的完备名单”是不完全的，因为康托尔的名字没有列在表上！（那些对两者都坚信的
+人将多么不幸！）前一种情况相应于我们的证明：“蓝对角”[N]小是原始递归的；后一种情况相应于康托尔的证明：实数表是不完全的。
 \end_layout
 
 \begin_layout Standard
-（那些对两者都坚信的人将多么不幸！）前一种情况相应于我们的证明：“蓝对角”[N]小是原始递归的；后一种情况相应于康托尔的证明：实数表是不完全的。
-\end_layout
-
-\begin_layout Standard
-康托尔的证明按字面上的意义使用了一条对角线。而其它的“对角线”证明则基于一个更加一般的观念，这个观念是从诙词的几何意义中抽象出来的，对角线法的本质在于以两种不同
+康托尔的证明按字面上的意义使用了一条对角线。而其它的“对角线”证明则基于一个更加一般的观念，这个观念是从该词的几何意义中抽象出来的，对角线法的本质在于以两种不同
 的方式使用同一个整数——或者可以说在两个小同层次上使用同一个整数——多亏了这样人们才可能在某个预先给定的序列外面造出一
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+562
 \end_layout
 
-\begin_layout Standard
-562个项来。这个整数一会儿被用作一个纵向索引，另一会儿被用作一个横向索引。这在康托尔的构造中表现得很清楚。至于说函数“蓝对角”[N]，它涉及到在两个不同层次上
-使用同一个整数——首先作为一个蓝程序索引编号，然后再作为一个输入参数。
+\end_inset
+
+个项来。这个整数一会儿被用作一个纵向索引，另一会儿被用作一个横向索引。这在康托尔的构造中表现得很清楚。至于说函数“蓝对角”[N]，它涉及到在两个不同层次上使用同
+一个整数——首先作为一个蓝程序索引编号，然后再作为一个输入参数。
 \end_layout
 
 \begin_layout Subsection*
@@ -5084,21 +5163,27 @@ status open
 
 \begin_layout Standard
 初看起来，康托尔的论证可能似乎不足以完全使人信服。难道没有办法摆脱它吗？或许把从对角线上构造出来的数d扔进去，就可能得到一张完全的表。如果你在打这个主意，那你将
-看到把数(扔进去根本于事无补，因为一旦你为它在表中指定了一个位置，对这张新表又可以使用对角线法，能构造出一个不在这张新表中的数d 7 0无论你重复多少次下列操作
-：用对角线法构造一个数，然后把它扔进表中以形成一个“更完全”的表，你仍然无法逃出康托尔方法的巨掌。你甚至可以试着去构造一张实数表，以某种方式提防着康托尔对角线法
-的全套明枪暗箭以及它的阴险重复，设法战胜424它。这是一个有趣的练习。但如果你动手试试看，就会发现无论你怎样腾挪躲闪，还是跑不出康托尔的手心。可以说任何自称构成
-了“包括全部实数的表”之举，都是搬石头砸自己的脚。
+看到把数d扔进去根本于事无补，因为一旦你为它在表中指定了一个位置，对这张新表又可以使用对角线法，能构造出一个不在这张新表中的数d'。无论你重复多少次下列操作：用
+对角线法构造一个数，然后把它扔进表中以形成一个“更完全”的表，你仍然无法逃出康托尔方法的巨掌。你甚至可以试着去构造一张实数表，以某种方式提防着康托尔对角线法的全
+套明枪暗箭以及它的阴险重复，设法战胜它。这是一个有趣的练习。但如果你动手试试看，就会发现无论你怎样腾挪躲闪，还是跑不出康托尔的手心。可以说任何自称构成了“包括全
+部实数的表”之举，都是搬石头砸自己的脚。
 \end_layout
 
 \begin_layout Standard
-康托尔对角线法的可重复性有点象乌龟那种毒辣手法的可重复性。乌龟用这个亦法一个接一个地破坏了螃蟹那些“保真度”越来越高一一至少螃蟹希望如此——越来越“完备”的唱机
+康托尔对角线法的可重复性有点象乌龟那种毒辣手法的可重复性。乌龟用这个办法一个接一个地破坏了螃蟹那些“保真度”越来越高——至少螃蟹希望如此——越来越“完备”的唱机
 。这个办法就是为每台唱机创作出一支特定的歌，使它不能用那台唱机来播放。康托尔的计谋和乌龟的计谋都具有这种奇妙的可重复性，这可不是巧合。事实上，《对位藏头诗》本来
-就应当被命名为<对角藏头诗》。正象乌龟微妙地暗示给天真的阿基里斯的那样，发生在《对位藏头诗》中的事件，正是哥德尔用来证明不完全性定理的那个构造的一种形象化解释。
+就应当被命名为《对角藏头诗》。正象乌龟微妙地暗示给天真的阿基里斯的那样，发生在《对位藏头诗》中的事件，正是哥德尔用来证明不完全性定理的那个构造的一种形象化解释。
 由此可见，哥德尔的构造也很象一个对角线
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+563
 \end_layout
 
-\begin_layout Standard
-5 6 3方法。这一点在下面两章中将变得很清楚。
+\end_inset
+
+方法。这一点在下面两章中将变得很清楚。
 \end_layout
 
 \begin_layout Subsection*
@@ -5107,61 +5192,208 @@ status open
 
 \begin_layout Standard
 至此，我们已经用以BlooP语言写的程序为工具，定义了自然数上的原始递归函数和原始递归谓词所组成的类。我们也表明了BlooP不能囊括全部可用词语定义的自然数上的
-函数。我们甚至还用康托尔的对角线法构造了一个“非BlooP可编程的”函数，即“蓝对角”[Nlo为什么在BlooP中不能表示“蓝对角”呢？是否能改进一下BlooP
+函数。我们甚至还用康托尔的对角线法构造了一个“非BlooP可编程的”函数，即“蓝对角”[N]。为什么在BlooP中不能表示“蓝对角”呢？是否能改进一下BlooP
 ，以使得“蓝对角”成为可表示的呢？
 \end_layout
 
 \begin_layout Standard
 BlooP的根本特征就是其中循环的有界性。如果我们抛掉对循环的这种要求，发明另一种语言，称其为FlooP（英文Free有“自由”的意思，我们借此表明FlooP的
-循环是自由的），会出现什么情况呢?FlooP除掉一点之外与BlooP完全相同：在FIooP中我们既可以用无顶的循环，也可以用有顶的循环（虽然在FlooP中写循环
-语句时注明其顶的唯一理由是为了好看）o这些新的循环将被称为MU - LOOP（弘循环）o这是为了遵守数理逻辑中的约定：在其中“自由”搜索（无界搜索）通常被注上一
-个叫“弘算子”的符号。
+循环是自由的），会出现什么情况呢？FlooP除掉一点之外与BlooP完全相同：在FIooP中我们既可以用无顶的循环，也可以用有顶的循环（虽然在FlooP中写循环
+语句时注明其顶的唯一理由是为了好看）。这些新的循环将被称为MU-LOOP（μ循环）。这是为了遵守数理逻辑中的约定：在其中“自由”搜索（无界搜索）通常被注上一个叫
+“μ算子”的符号。因此，FlooP中的循环语句看上去会是这样的：
 \end_layout
 
 \begin_layout Standard
-因此，FlooP中的循环语句看上去会是这样的：
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MU -LOOP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+μ循环
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BLOCK n: BEGIN
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+第n块开始
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 3.5em
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 3.5em
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 3.5em
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 3em
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+BLOCK n: END；
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+第n块开始
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-MU -LOOP p循环
+这种特性使得我们可以用FlooP为妙极性及乌龟性质这样的性质写测试程序——而这样的测试程序我们用BlooP是无法写出的，因为其中的搜索或许会无穷无尽。我将把对妙
+极性的测试程序
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+564
+\end_layout
+
+\end_inset
+
+留给有兴趣的读者自己去写，在这个测试中要实现下列功能： ’
+\end_layout
+
+\begin_layout Enumerate
+如果其输入N是妙极的，则程序结束，给出答案YES。
+\end_layout
+
+\begin_layout Enumerate
+若N是非妙极的，而且导致一个不同于1-4-2-1-4-2-1……的封闭循环，则程序停止，给出答案NO。
+\end_layout
+
+\begin_layout Enumerate
+若N是非妙极的，而且导致一个“无穷上升过程”，程序将不会结束。以这种方式，FlooP的不回答就是回答。FlooP的不回答就象赵洲用“无”来“废问”一样。
 \end_layout
 
 \begin_layout Standard
-BLOCK n：BEGIN 笫n块开始
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-BLOCK力：END； 第n块结束425 这种特性使得我们可以用FlooP为妙极性及乌龟性质这样的
-\end_layout
-
-\begin_layout Standard
-性质写测试程序——而这样的测试程序我们用BlooP是无法写出
-\end_layout
-
-\begin_layout Standard
-的，因为其中的搜索或许会无穷无尽。我将把对妙极性的测试程序
-\end_layout
-
-\begin_layout Standard
-5 6 4留给有兴趣的读者自己去写，在这个测试中要实现下列功能： ’
-\end_layout
-
-\begin_layout Standard
-（1）如果其输入N是妙极的，则程序结束，给出答案YESo
-\end_layout
-
-\begin_layout Standard
-（2）若N是非妙极的，而且导致一个不同于1-4-2-1-4-2-1--…的封闭循环，则程序停止，给出答案NOo
-\end_layout
-
-\begin_layout Standard
-(3)若N是非妙极的，而且导致一个“无穷上升过程”，程序将不会结束。以这种方式，FlooP的不回答就是回答o FlooP的不回答就象赵洲用“无”来“废问”一样。
-\end_layout
-
-\begin_layout Standard
-在第3种情况下，具有讽刺意味的是：输出变量OUTPUT的值一直是NO．但我们又一直无法得到它，因为程序仍在不停地运转。这个讨厌的第三种可能性是我们写自由循环时所
-必须付出的代价。在所有包含了MU -LOOP的FlooP程序中，无终止总是一种理论上的可能性。当然，有许多FIooP程序实际上相对于其所有可能的输入值都是能终止
-的。例如象我前面提到过的，大多数研究过妙极性的人都认为象上面提出的那样一个FIooP程序将总是能终止的，而且每次的答案都是YES o
+在第3种情况下，具有讽刺意味的是：输出变量OUTPUT的值一直是NO，但我们又一直无法得到它，因为程序仍在不停地运转。这个讨厌的第三种可能性是我们写自由循环时所
+必须付出的代价。在所有包含了MU-LOOP的FlooP程序中，无终止总是一种理论上的可能性。当然，有许多FIooP程序实际上相对于其所有可能的输入值都是能终止的
+。例如象我前面提到过的，大多数研究过妙极性的人都认为象上面提出的那样一个FIooP程序将总是能终止的，而且每次的答案都是YES。
 \end_layout
 
 \begin_layout Subsection*
@@ -5169,37 +5401,29 @@ BLOCK力：END； 第n块结束425 这种特性使得我们可以用FlooP为妙�
 \end_layout
 
 \begin_layout Standard
-一个看起来很吸引入的想法是：最好能把FIooP过程分成两类：“有终止过程”和“无终止过程”o一个“有终止过程”无论输入什么都将终止，尽管其申的循环具有“p性质”
-o而对一个“无终止过程”来说，则输入中至少有一种选择会使它永远运行下去。如果对每个FlooP程序，我们通过某种复杂的检验总能说出它属于哪一类，这将会有某种相当显
-著的效果（我们很快就会看到）o不必说，这种类别检测操作本身也必须是个有终止操作——否则就什么也得不到了15 65图灵的妙计
+一个看起来很吸引入的想法是：最好能把FIooP过程分成两类：“有终止过程”和“无终止过程”。一个“有终止过程”无论输入什么都将终止，尽管其中的循环具有“μ性质”
+。而对一个“无终止过程”来说，则输入中至少有一种选择会使它永远运行下去。如果对每个FlooP程序，我们通过某种复杂的检验总能说出它属于哪一类，这将会有某种相当显
+著的效果（我们很快就会看到）。不必说，这种类别检测操作本身也必须是个有终止操作——否则就什么也得不到了！
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+565
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+图灵的妙计
 \end_layout
 
 \begin_layout Standard
-立刻我们就会想到，可以让一个BlooP过程完成这个检验6但
-\end_layout
-
-\begin_layout Standard
-BlooP过程只接收数字输入，不能接收程序！不过，我们可以解决
-\end_layout
-
-\begin_layout Standard
-这问题……只要用数字对程序进行编码就行了！这个巧妙的计策
-\end_layout
-
-\begin_layout Standard
-只不过是哥德尔配数法的许多表现形式中的另一种罢了。令
-\end_layout
-
-\begin_layout Standard
-FlooP字母表中的五十六个字符分别对应于“密码子”9 0 1、902、426……、95 6 0这样每个FIooP程序就得到了一个相当长的哥德尔数。
-\end_layout
-
-\begin_layout Standard
-例如，那个最短的BlooP函数（它同时也是一一个有终止的FIooP程
-\end_layout
-
-\begin_layout Standard
-序）一
+立刻我们就会想到，可以让一个BlooP过程完成这个检验。但BlooP过程只接收数字输入，不能接收程序！不过，我们可以解决这问题……只要用数字对程序进行编码就行了
+！这个巧妙的计策只不过是哥德尔配数法的许多表现形式中的另一种罢了。令FlooP字母表中的五十六个字符分别对应于“密码子”901、902、……、956。这样每个F
+looP程序就得到了一个相当长的哥德尔数。例如，那个最短的BlooP函数（它同时也是一个有终止的FlooP程序）——
 \end_layout
 
 \begin_layout Standard
@@ -5207,72 +5431,55 @@ DEFINE PROCEDURE“A”[B]:
 \end_layout
 
 \begin_layout Standard
-BLOCK O：BEGIN
+BLOCK 0: BEGIN
 \end_layout
 
 \begin_layout Standard
-BLOCK O：END.
+BLOCK 0: END.
 \end_layout
 
 \begin_layout Standard
-一 得到一个哥德尔数，它的一部分如下所示：
+\noindent
+——得到一个哥德尔数，它的一部分如下所示：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccccccc}
+904, & 905, & 906, & 909, & 914, & 905, & \cdots\cdots,\\
+D & E & F & I & N & E
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{cccc}
+905, & 914, & 904, & 955,\\
+E & N & D & .
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-904,905,906,909,914,9059..- ,905,914,904,955,
+现在我们的计划是写一个名为“TERMINATOR？”的BlooP测试，其功能是：如果被其输入数字所编码的那个FlooP程序是有终止的，则回答YES，否则回答NO
+。用这个办法就可以把这个任交给机器去完成。如果走运，就能把有终止过程和无终止过程分开了。但是，阿兰·图灵给出的一个精巧的论证表明，任何BlooP程序都不能一贯正
+确地完成这种区分工作。图灵所用的技巧实际上和哥德尔的技巧基本相同，因此也密切联系于康托尔的对角线技巧。我们将不在这里把它给出来——只需说基本想法是往“终止检验程
+序”中送入它自己的哥德尔数。但情况并非如此简单，因为这很象设法在一个句子内部完整地引用它自己。你必须对引号也加引号，如此进行下去。这似乎会导致一个无穷回归。但是
+，图灵指出
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+566
 \end_layout
 
-\begin_layout Standard
-D E F I N E E N D ．
-\end_layout
+\end_inset
 
-\begin_layout Standard
-现在我们的计划是写一个名为“TERMINATOR?”的BlooP
-\end_layout
-
-\begin_layout Standard
-测试，其功能是：如果被其输入数字所编码的那个FlooP程序是有
-\end_layout
-
-\begin_layout Standard
-终止的，则回答YES，否则回答NO o用这个办法就可以把这个任
-\end_layout
-
-\begin_layout Standard
-交给机器去完成。如果走运，就能把有终止过程和无终止过程分
-\end_layout
-
-\begin_layout Standard
-开了。但是，阿兰·图灵给出的一一个精巧的论证表明，任何BlooP程
-\end_layout
-
-\begin_layout Standard
-庠都不能一贯正确地完成这种区分工作。图灵所用的技巧实际上
-\end_layout
-
-\begin_layout Standard
-和哥德尔的技巧基本相同，因此也密切联系于康托尔的对角线技
-\end_layout
-
-\begin_layout Standard
-巧。我们将不在这里把它给出来——只需说基本想法是往“终止检
-\end_layout
-
-\begin_layout Standard
-验程序”中送入它自己的哥德尔数。但情况并非如此简单，因为这
-\end_layout
-
-\begin_layout Standard
-很象设法在一个句子内部完整地引用它自己。你必须对引号也加
-\end_layout
-
-\begin_layout Standard
-引号，如此进行下去。这似乎会导致一个无穷回归。但是，图灵指出
-\end_layout
-
-\begin_layout Standard
-5 6 6了一种技巧，可以把一个程序自身的哥德尔数送给它。对这同一个问题在另一个环境下的解决将在下一章中给出。本章里，我们将沿 ’另一条途径来达到相同的目的，即
-证明不可能构成一个终止测试器。如果有些读者希望看到图灵方案的一个漂亮而又简单的表示，我推荐文献目录中提到的霍尔和艾利森[Hoare；Allison]的著作。
+了一种技巧，可以把一个程序自身的哥德尔数送给它。对这同一个问题在另一个环境下的解决将在下一章中给出。本章里，我们将沿另一条途径来达到相同的目的，即证明不可能构成
+一个终止测试器。如果有些读者希望看到图灵方案的一个漂亮而又简单的表示，我推荐文献目录中提到的霍尔和艾利森[Hoare; Allison]的著作。
 \end_layout
 
 \begin_layout Subsection*
@@ -5281,37 +5488,46 @@ D E F I N E E N D ．
 
 \begin_layout Standard
 在我们摧毁这个观念之前，让我们描述一下为什么说掌握了终止测试器将是一件值得大书特书的事：在某种意义上说，这就象有了一支法力无边的魔杖，用它可以轻而易举地解决数论
-中的一切问题。例如，假设我们想知道哥德巴赫变奏是否是个真实的猜想，也就是要问，是否所有自然数都具有乌龟性质？我们将首先写一个叫“TORTOISE?”的FIooP
-测试，它检查它的输入是否具有乌龟性质。现在这个过程的缺点——即如果乌龟性质不成立，程序将不终止——反到成了一个优点！因为现在我们可以把过程TORTOISE?送入
-终止测试器。如果它回答YES，那意味着TOR-TOISE?对一切输入值都将要终止——换句话说，所有自然数都有乌龟性质。如果它回答NO，那我们就知道存在一个具有阿
-基里斯性质的数。具有讽刺意义的足，我们根本没有实际使用TOR-T()ISE?程序——只是对它做了一次检查！
+中的一切问题。例如，假设我们想知道哥德巴赫变奏是否是个真实的猜想，也就是要问，是否所有自然数都具有乌龟性质？我们将首先写一个叫“TORTOISE？”的FlooP
+测试，它检查它的输入是否具有乌龟性质。现在这个过程的缺点——即如果乌龟性质不成立，程序将不终止——反到成了一个优点！因为现在我们可以把过程TORTOISE？送入
+终止测试器。如果它回答YES，那意味着TORTOISE？对一切输入值都将要终止——换句话说，所有自然数都有乌龟性质。如果它回答NO，那我们就知道存在一个具有阿基
+里斯性质的数。具有讽刺意义的足，我们根本没有实际使用TORTOISE？程序——只是对它做了一次检查！
 \end_layout
 
 \begin_layout Standard
-把数论中的每个问题编成程序，然后用一个终止测试器对它们来一个“一揽子解决”，这个主意有点象前面提过的那个测试公427案的纯正性的想法：把公案编码在一个折叠的串中
-，然后去检查这个折叠的串是否具有佛性。正如阿基里斯所提示的那样，或许我们希望得到的信息在某一种表示法中比在另一种表示法中“更接近表面”o5 6
- 7F库、索引编号和绿程序
+把数论中的每个问题编成程序，然后用一个终止测试器对它们来一个“一揽子解决”，这个主意有点象前面提过的那个测试公案的纯正性的想法：把公案编码在一个折叠的串中，然后
+去检查这个折叠的串是否具有佛性。正如阿基里斯所提示的那样，或许我们希望得到的信息在某一种表示法中比在另一种表示法中“更接近表面”。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+567
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+F库、索引编号和绿程序
 \end_layout
 
 \begin_layout Standard
 好，白日梦到此收场。我们怎么能证明终止测试器是不可能造出来的呢？我们关于其不可能性的论据联系于下述思路：设法对FlooP运用对角线论证，就象我们对BlooP所做
-的那样c我们将会看到两种情形还是有一些微妙而又关键的差别的。
+的那样。我们将会看到两种情形还是有一些微妙而又关键的差别的。
 \end_layout
 
 \begin_layout Standard
-象我们对BlooP所做的那样，设想包括全部FIooP程序的库。
+象我们对BlooP所做的那样，设想包括全部FIooP程序的库。我们叫它“F库”，然后对它进行那三种过滤操作，这样最后我们将得到：
+\end_layout
+
+\begin_layout Quote
+一个包含所有这样的待调用FIooP程序的完整库：这些程序计算那些恰有一个输入参数的函数。
 \end_layout
 
 \begin_layout Standard
-我们叫它“F库”，然后对它进行那三种过滤操作，这样最后我们将得到：
-\end_layout
-
-\begin_layout Standard
-一个包含所有这样的待调用FIooP程序的完整库：这些程序
-\end_layout
-
-\begin_layout Standard
-计算那些恰有一个输入参数的函数。让我们称这些特殊的FLooP程序为“绿程序”（因为它们可能“一路绿灯”——永远畅行无阻）o
+让我们称这些特殊的FlooP程序为“绿程序”（因为它们可能“一路绿灯”——永远畅行无阻）。
 \end_layout
 
 \begin_layout Standard
@@ -5322,17 +5538,23 @@ D E F I N E E N D ．
 到此为止，对FlooP的处理完全照搬了对BlooP的处理。现在让我们看看是否还能照搬下一步：对角线技巧。如果我们试图定义下列对角线函数会怎样呢？
 \end_layout
 
-\begin_layout Standard
-“绿对角”[N]一1+绿程序{#N）[N]
+\begin_layout Quote
+“绿对角”[N]=1+绿程序{#N}[N]
 \end_layout
 
 \begin_layout Standard
-突然，我们碰上一块暗礁：“绿对角”[N]这个函数可能无法为所有输入值N都提供明确定义的输出值。原因很简单：我们役有从F库中剔除那些无终止程序，因此就无法保证我们
+突然，我们碰上一块暗礁：“绿对角”[N]这个函数可能无法为所有输入值N都提供明确定义的输出值。原因很简单：我们没有从F库中剔除那些无终止程序，因此就无法保证我们
 能为N的所有值计算出“绿对角”[N]来。有时我们会进入永无休止的计算。因此对角线论证不能在这种情况下使用，因为它要求对角线上的函数为所有可能的输入算出输出值。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+568
 \end_layout
 
-\begin_layout Standard
-5 68
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -5341,123 +5563,87 @@ D E F I N E E N D ．
 
 \begin_layout Standard
 为了弥补这个漏洞，我们将不得不使用一个终止测试器，如果它真的存在的话。因此让我们有意识地引入这样一个可疑的假设：它真的存在，并且用它作为我们的第四个过滤器。我们
-逐个检查表中的绿程序，去掉那些无终止的，这样最后我们将得到： 428
+逐个检查表中的绿程序，去掉那些无终止的，这样最后我们将得到：
+\end_layout
+
+\begin_layout Quote
+一个包含所有这样的待调用FlooP程序的完整库：这些程序计算那些恰有一个输入参数的函数，并且对所有的输入值都能终止。
 \end_layout
 
 \begin_layout Standard
-一个包含所有这样的待调用FIooP程序的完整库：这些程序
+让我们称这些特殊的FIooP程序为“红程序”（因为它们早晚会碰上个红灯——都必须停下来）。现在，对角线方法可以一显身手了。
 \end_layout
 
 \begin_layout Standard
-计算那些恰有一个输入参数的函数，并且对所有的输入值都
-\end_layout
-
-\begin_layout Standard
-能终止。让我们称这些特殊的FIooP程序为“红程序”（因为它们早晚会碰上个红灯——都必须停下来）o现在，对角线方法可以一显身手了。
-\end_layout
-
-\begin_layout Subsection*
 我们定义
 \end_layout
 
-\begin_layout Standard
-“红对角”[N]一l+红程序{#N）[N]完全和对“蓝对角”的讨论平行，我们被迫断言“红对角”[N]是个良定义的单变量可计算函数，但不在红程序的目录表内，因此甚
-至在强有力的FlooP语言中也是不可计算的。或许现在该转到GIooP了？
+\begin_layout Quote
+“红对角”[N]=1+红程序{#N}[N]
 \end_layout
 
 \begin_layout Standard
-GIooP--．
+完全和对“蓝对角”的讨论平行，我们被迫断言“红对角”[N]是个良定义的单变量可计算函数，但不在红程序的目录表内，因此甚至在强有力的FlooP语言中也是不可计算的
+。或许现在该转到GIooP了？
+\end_layout
+
+\begin_layout Subsection*
+GlooP……
 \end_layout
 
 \begin_layout Standard
-是的，但GlooP是什么呢？如果说FlooP是去掉限制的BlooP，那么GlooP一定是去掉限制的FlooP o但一个限制怎么可能去掉两次呢？你怎么能构造一个比
-FlooP更强有力的语言呢？在“红对角”中，我们已经发现了一个函数，我们人知道如何去求它的值—～求值方法已经明确地用自然语言描述出来了——但似乎不能用FIooP
+是的，但GlooP是什么呢？如果说FlooP是去掉限制的BlooP，那么GlooP一定是去掉限制的FlooP 。但一个限制怎么可能去掉两次呢？你怎么能构造一个比
+FlooP更强有力的语言呢？在“红对角”中，我们已经发现了一个函数，我们人知道如何去求它的值——求值方法已经明确地用自然语言描述出来了——但似乎不能用FlooP
 语言编出程序来完成这项工作。这是一个尖锐的二律背反，因为还没有人曾经发现过比FlooP更强有力的计算机语言。
 \end_layout
 
 \begin_layout Standard
 有人曾经详尽地研究过计算机语言的能力，我们不必自己再
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+569
 \end_layout
 
-\begin_layout Standard
-569去做这项工作，只须报告这样一项结果：有一大批计算机语言可以被证明是与FlooP具有完全相同的描述能力的，这就是说：任何一个可以用其中某种语言编程序完成的计
-算过程，必然能用所有这些语言中的任何一个来编程序完成a奇怪的是，几乎任何设计计算机语言的合理企图，都以构造出这个类中的一个成员而告终——也就是说，造出了一种能力
-等价于FlooP的语言。当然，通过某种努力也可以构造出一种比这一类语言要弱一些的合理并有趣的计算机语言。显然，BlooP就是弱语言的一个例子，但这是一种例外，而
-不是规律。关键在于存在许多很自然的方式可以用来发明算法语言，而不同的人，循着不同的途径，往往最终创造出等价的语言。
+\end_inset
+
+去做这项工作，只须报告这样一项结果：有一大批计算机语言可以被证明是与FlooP具有完全相同的描述能力的，这就是说：任何一个可以用其中某种语言编程序完成的计算过程
+，必然能用所有这些语言中的任何一个来编程序完成。奇怪的是，几乎任何设计计算机语言的合理企图，都以构造出这个类中的一个成员而告终——也就是说，造出了一种能力等价于
+FlooP的语言。当然，通过某种努力也可以构造出一种比这一类语言要弱一些的合理并有趣的计算机语言。显然，BlooP就是弱语言的一个例子，但这是一种例外，而不是规
+律。关键在于存在许多很自然的方式可以用来发明算法语言，而不同的人，循着不同的途径，往往最终创造出等价的语言。它们只有形式上差别，能力是一样的。
 \end_layout
 
-\begin_layout Standard
-它们只有形式上差别，能力是一样的。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Subsection*
 …是个神话
 \end_layout
 
 \begin_layout Standard
-事实上，绝大多数人都相信不会再有描述计算的能力强于
+事实上，绝大多数人都相信不会再有描述计算的能力强于FlooP及其等价物的语言了。这个假说在30年代被两个人互相独立地表述出来：阿兰·图灵——关于他，后面还会进一
+步介绍——和阿朗佐·丘奇，本世纪杰出的逻辑学家之一。他们的结果被称为“丘奇—图灵论题”。如果我们接受这个论题，我们就必须下结论说“GlooP”是个神话——在Fl
+ooP中已经没有限制可以取消，无法通过“解放”来增强它的能力，象我们对BlooP做过的那样。
 \end_layout
 
 \begin_layout Standard
-FlooP及其等价物的语言了。这个假说在30年代被两个人互相独
+这把我们置于一种尴尬的境地，即断言人可以为N的任意值，计算“红对角”，但无法编出程序让计算机来完成这项任务。因为，如果这项任务可以得到完成，那它一定是用Floo
+P语言来完成的。而根据任务的构造方式，它又不可能用FlooP来完成。这个结论实在太奇特了，致使我们得非常仔细地研究它赖以建立的基础。而在这当中，你会想起来，就有
+我们那个不牢靠的假设，即存在一个可以区别有终止和无终止的FlooP程序的判定过程。这个判定过程
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+570
+\end_layout
+
+\end_inset
+
+的想法本来就有点可疑，因为我们已经看到它的存在将导致数论中的所有问题以一种统一的方式被解决。现在我们有了双重的理由相信任何终止测试都是一种神话——根本就无法把F
+looP程序装到一台“甩干机”里，把有终止程序和无终止程序分离开来。
 \end_layout
 
 \begin_layout Standard
-立地表述出来：阿兰·图灵——关于他，后面还会进一步介绍——
-\end_layout
-
-\begin_layout Standard
-和阿朗佐·丘奇，本世纪杰出的逻辑学家之一。他们的结果被称为429“丘奇一图灵论题”o如果我们接受这个论题，我们就必须下结论说
-\end_layout
-
-\begin_layout Standard
-“GIooP”是个神话——在FlooP中已经没有限制可以取消，无法
-\end_layout
-
-\begin_layout Standard
-通过“饵放”来增强它的能力，象我们对BlooP做过的那样。
-\end_layout
-
-\begin_layout Standard
-这把我们置于一种尴尬的境地，即断言人可以为N的任意值，
-\end_layout
-
-\begin_layout Standard
-计算“红对角”，但无法编出程序让计算机来完成这项任务。因为，
-\end_layout
-
-\begin_layout Standard
-如果这项任务可以得到完成，那它一定是用FIooP语言来完成的。
-\end_layout
-
-\begin_layout Standard
-而根据任务的构造方式，它又不可能用FIooP来完成。这个结论实
-\end_layout
-
-\begin_layout Standard
-在太奇特了．，致使我们得非常仔细地研究它赖以建立的基础。而在
-\end_layout
-
-\begin_layout Standard
-这当中，你会想起来，就有我们那个不牢靠的假设，即存在一个可
-\end_layout
-
-\begin_layout Standard
-以区别有终止和无终止的FlooP程序的判定过程。这个判定过程
-\end_layout
-
-\begin_layout Standard
-57 0的想法本来就有点可疑，因为我f『J已经看到它的存在将导致数论中的所有问题以一种统一的方式被解决。现在我们有了双重的理由相信任何终止测试都是一种神话——根
-本就无法把Floc,:．)程孛装到一台“甩干机”里，把有终止程序和无终止程序分离开米：
-\end_layout
-
-\begin_layout Standard
-怀疑论者可能会坚持说这不象对此类终止测试的不存在性的一个严格证明。这种反对意见是合理的。但是，图灵的方案更为严格地论证了这一点：用一个和FIooP同类的语言，不
+怀疑论者可能会坚持说这不象对此类终止测试的不存在性的一个严格证明。这种反对意见是合理的。但是，图灵的方案更为严格地论证了这一点：用一个和FlooP同类的语言，不
 可能写出计算机程序，来对所有FIooP程序进行终止测试。
-\end_layout
-
-\begin_layout Standard
-r
 \end_layout
 
 \begin_layout Subsection*
@@ -5465,42 +5651,44 @@ r
 \end_layout
 
 \begin_layout Standard
-让我们简略地回顾一下丘奇一图灵论题。我们将在第十七章中相当详细地讨论它——以及它的变种，而现在只需要叙述它的几种形式，把关于其价值和意义的讨论推迟到后面去完成a
+让我们简略地回顾一下丘奇—图灵论题。我们将在第十七章中相当详细地讨论它——以及它的变种，而现在只需要叙述它的几种形式，把关于其价值和意义的讨论推迟到后面去完成。
 这里是三种相互联系的叙述此论题的方式：
 \end_layout
 
-\begin_layout Standard
-（1）人所能计算的也就是机器所能计算的。
+\begin_layout Enumerate
+人所能计算的也就是机器所能计算的。
 \end_layout
 
-\begin_layout Standard
-（2）机器所能计算的也就是FIooP所能计算的。
+\begin_layout Enumerate
+机器所能计算的也就是FlooP所能计算的。
 \end_layout
 
-\begin_layout Standard
-(3)入所能计算的也就是FIooP所能计算的（即一般递归或
+\begin_layout Enumerate
+人所能计算的也就是FlooP所能计算的（即一般递归或分递归）。
 \end_layout
 
-\begin_layout Standard
-分递归）o
-\end_layout
-
-\begin_layout Standard
+\begin_layout Subsection*
 术语解释：一般递归和部分递归
 \end_layout
 
 \begin_layout Standard
-在本章中，我们对数论中的一些概念及其与可计算函数理论的联系进行了广泛的阐述。这是一个广阔而兴旺的领域，是计算机科学和现代数学的一个吸引人的混合体。找们在结束本章
-之前，还要介绍一一下我们曾与之打过交道的一些观念所对应的标准术语。
+在本章中，我们对数论中的一些概念及其与可计算函数理论的联系进行了广泛的阐述。这是一个广阔而兴旺的领域，是计算机科学和现代数学的一个吸引人的混合体。我们在结束本章
+之前，还要介绍一下我们曾与之打过交道的一些观念所对应的标准术语。
 \end_layout
 
 \begin_layout Standard
-前面已经提到过，“BlooP可计算”是“原始递归”的同义语。现在FIooP可计算函数可以被分成两类：（1）那些能用有终止FlooP 430程序计算的被称为“一般
-递归的”，（2）那些只能用无终止FIooP程
+前面已经提到过，“BlooP可计算”是“原始递归”的同义语。现在FIooP可计算函数可以被分成两类：（1）那些能用有终止FlooP程序计算的被称为“一般递归的”
+，（2）那些只能用无终止FlooP程
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+571
 \end_layout
 
-\begin_layout Standard
-571序计算的被称为“部分递归的”（对谓词有类似的定义）o人们常常只说“递归力，其意思是“一般递归"o
+\end_inset
+
+序计算的被称为“部分递归的”（对谓词有类似的定义）。人们常常只说“递归”，其意思是“一般递归”。
 \end_layout
 
 \begin_layout Subsection*
@@ -5614,6 +5802,9 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
 乌龟： 这样的匿名电话实在古怪。
 \end_layout
 
@@ -5947,13 +6138,13 @@ status open
 
 \begin_deeper
 \begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
 哲学家挣大钱。
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \qquad{}
-\end_inset
-
 那么我是在“使用”这个词，从而在你心目中制造出一个目光睿智的哲人揣着个豉鼓囊囊的大钱包的形象。可是当我把这个词——或随便什么词——加上引号时，我就抽去了它的含
 \begin_inset Note Comment
 status open
@@ -5984,7 +6175,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 那好吧。你看这个行吗?
+阿基里斯： 那好吧。你看这个行吗？
 \begin_inset Newline newline
 \end_inset
 
@@ -6489,8 +6680,7 @@ status open
 放在其引文形式后面得到假句子。
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
+\begin_layout Standard
 这正是那个电话里所说的！只是在他说话时我没弄清什么地方有引号！真是句混帐话。说这种话的人都该进监狱。
 \end_layout
 
