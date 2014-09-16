@@ -1,0 +1,1705 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass GEB1996
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+论TNT及有关系统中
+\begin_inset Newline newline
+\end_inset
+
+形式上不可判定的命题
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+protect 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+哥德尔1931年论文的标题在最后注有一个罗马数字“I”，意思是他打算沿着它对某些艰深的论证作出更详细的辩护。然而，由于这第一篇论文受到了广泛称赞，再写一篇就显得
+多余了，因此他从未写过第二篇。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+“牡蛎”里的两个想法
+\end_layout
+
+\begin_layout Standard
+本章的标题套用了哥德尔1931年那篇著名论文的标题——只是把“《数学原理)”换成了“TNT"o哥德尔的文章是一篇技术性的论文，致力于他那个精密严格的证明，本章则
+直观得多。我在此所要强调的是属于他那个证明的核心的两个关键想法。首先，是一项深刻的发现：某些TNT符号串能解释成在谈论另一些TNT符号串，简言之，作为一种语言．
+TNT有能力“自省”，或者说是自我审视。这是哥德尔配数法的产物。第二个关键想法是：这种自我审视的性质可以全部集中于一个单个的符号串，于是这个符号串所注视的唯一焦
+点就是它自己了。本质上，这种“聚焦手法”可以上溯到康托尔的对角线方法。
+\end_layout
+
+\begin_layout Standard
+依我看，谁要是有意于深刻地了解哥德尔的证明，就必须得认识到，从根本上说，这个证明就是由这两个主要想法融和而成的。
+\end_layout
+
+\begin_layout Standard
+单独来看，两个都是妙举，揉到一起就是天才的杰作了。不过，若是一定要让我作个选择，说哪一个想法更为深刻的活，我会毫不犹豫地选择第一个——符号演算系统的哥德尔配数想
+法，因为这一想法关系到什么是意义、什么是指称的整个观念。这是个远远超出了数理逻辑范围的想法。在数理逻辑中，糜托尔的手法虽然有十分丰富的数学结果，却与实际生活很少
+关联。
+\end_layout
+
+\begin_layout Subsection*
+第一个想法：证明对
+\end_layout
+
+\begin_layout Standard
+我们现在就来着手分析证明本身。第九章曾给出过一个相当
+\end_layout
+
+\begin_layout Standard
+582精细的概念，说明哥德尔同构是关于什么的。现在则要描述一个数学概念，它使我们能把诸如“符号串O=O是TNT的定理”这类胨述翻译成数论陈述。这得从“证明对”谈
+起。一个证明对是一对以某种特殊方式结合在一起的自然数。这里的想法是：
+\end_layout
+
+\begin_layout Standard
+两个自然数（分别用m和n表示）形成一个TNT证明对，当439
+\end_layout
+
+\begin_layout Standard
+且仅当m是某个TNT推导的哥德尔数，而该推导的最末一行是哥德尔数为n的符号串。
+\end_layout
+
+\begin_layout Standard
+对于WJU系统也有相应的概念，而且，直观上先考虑这种情形要更容易一些。所以，我们离开一会儿TNT证明对，先看看WJU证明对，它们的定义是类似的：
+\end_layout
+
+\begin_layout Standard
+两个自然数m和n形成一个WJU证明对，当且仅当m是
+\end_layout
+
+\begin_layout Standard
+WJU系统的一个推导的哥德尔数，而这个推导的最末一行是
+\end_layout
+
+\begin_layout Standard
+哥 尔数为n的符号串。
+\end_layout
+
+\begin_layout Standard
+让我们看两个WJU证明对的例子。第一个，令m=3 1 3 1 1 3 11 1 1 30 1，n-3010这样一对m和n的值确实构成WJU证明对，因为m是下面的
+WJ乙推导的哥德尔数：
+\end_layout
+
+\begin_layout Standard
+WJ
+\end_layout
+
+\begin_layout Standard
+WJJ
+\end_layout
+
+\begin_layout Standard
+WJJJJ
+\end_layout
+
+\begin_layout Standard
+WUJ其中最后一行WUJ的哥德尔数为301，也就是no与此对照，令m= 31311311130及n- 30，它们为什么就不构成WJU证明对呢？
+\end_layout
+
+\begin_layout Standard
+为了看清答案，我们写出以这个m为码的所谓推导：
+\end_layout
+
+\begin_layout Standard
+WJ
+\end_layout
+
+\begin_layout Standard
+WJJ
+\end_layout
+
+\begin_layout Standard
+WJJJ
+\end_layout
+
+\begin_layout Standard
+WU
+\end_layout
+
+\begin_layout Standard
+583这个所谓的推导中有一步无效！那就是从第二行到第三行，也就是从WJJ到wjjjo WJU系统中没有一条推导规则能产生这样一个形式步骤。相应地——这是至关重要
+的——也就没有一条算术的推导规则能使我们从3 11到3 1 11 0有了第九章的讨论，这大概是一项不足称道的考察，但却是哥德尔同构的核心所在：我们在任何形式系统
+中做的事情都有一个与之平行的算术处理。
+\end_layout
+
+\begin_layout Standard
+在任何时候m - 31311311130和n- 30当然都不构成WJU证明对。不过，仅此并不意味着30不是WJU数。也许会有另一个m 能与30构成WJU证明对o
+（早先的推理使我们知道WU不是WJU定理，所以实际上是不会有一个数能与3 0形成WJU证明对的o）
+\end_layout
+
+\begin_layout Standard
+那么TNT证明对又怎么样呢？下面有面个类似的例子，一个仅仅是自称为TNT证明对，另一个则是真正有效的TNT证明440对。你能指出谁是谁吗？（顺带说一下，有些地方
+编进了密码子“6 1 1修，目的是把TNT推导中相邻的两行隔开。按这个意义，“611"起了标点符号的作用a而在WJU系统中所有的行都以“3"起始，这已足够——无
+需另加标点了o）
+\end_layout
+
+\begin_layout Standard
+(1)m- 626,262,636,223,123,262 ,111,666,611,223,123,
+\end_layout
+
+\begin_layout Standard
+666 ,111,666
+\end_layout
+
+\begin_layout Standard
+n=123,666,111,666
+\end_layout
+
+\begin_layout Standard
+(2)m==626,262,636,223,123,262 ,111,666,611,223,333,
+\end_layout
+
+\begin_layout Standard
+262,636,123,262,111,666
+\end_layout
+
+\begin_layout Standard
+n- 223,333,262,636 ,123,262 ,111,666
+\end_layout
+
+\begin_layout Standard
+谠清哪个是哪个是相当简单的，只要把它们翻译成老记号，再作些
+\end_layout
+
+\begin_layout Standard
+例行公事的测试，看看
+\end_layout
+
+\begin_layout Standard
+(1)这个以m为码的所谓推导是否真是一个合法的推导；
+\end_layout
+
+\begin_layout Standard
+(2)如果是，它的最后一行是否与那个以n为码的符号串相
+\end_layout
+
+\begin_layout Standard
+5 84
+\end_layout
+
+\begin_layout Standard
+符？第二步是不足道的，而第一步在下述的意义上也完全是直截了当的：不会碰到没完没了的搜索，也没有暗藏着的无休止循环。想一想上面有关WJU系统的例子，同时在心里把W
+JU系统的规则换成TNT的规则，把WJU系统的公理换成TNT的公理就行了。两种情形的算法是相同的、把它写明白，就是：
+\end_layout
+
+\begin_layout Standard
+在该推导中一行一行地看下去。
+\end_layout
+
+\begin_layout Standard
+标出哪些是公理。
+\end_layout
+
+\begin_layout Standard
+对不是公理的那些行，逐个检查它们是否能根据某一条推理
+\end_layout
+
+\begin_layout Standard
+规则从这个所谓推导的某些出现在先的行中得到。
+\end_layout
+
+\begin_layout Standard
+如果全部非公理的行都是根据推理规则从出现在先的行中得
+\end_layout
+
+\begin_layout Standard
+到的，那就是一个合法的推导；否则就是一个冒牌的推
+\end_layout
+
+\begin_layout Standard
+导。每一阶段要执行的任务都是明白清楚的，而这些任务的数量是很容易事先确定的。
+\end_layout
+
+\begin_layout Subsection*
+“是证明对”是原始递归的…
+\end_layout
+
+\begin_layout Standard
+读者大约已能察觉，我之所以在此强调这些循环的有界性，是
+\end_layout
+
+\begin_layout Standard
+要宣布基本事实1：“是证明对”这一性质是原始递归的数论
+\end_layout
+
+\begin_layout Standard
+性质，因而可以用一个BIooP程序测试。
+\end_layout
+
+\begin_layout Standard
+这和另一个密切相关的数论性质——“是定理数”——有个值得注意的对比。要断定n是一个定理数，就是要断定有某个m值441能与n形成证明对o（顺带说一下，这些评注对T
+NT和WJU同样适用，把两者都记住也许会有好处，其中WJU作为原型o）耍核对n是不是定理数，你得动手搜索所有可能作为n的证明对“搭档修的m值，从而有可能要进行一
+场无穷尽的追寻。没有人能说清当你想要找到一个数与n（作为第二分量）形成一个证明对时，得找
+\end_layout
+
+\begin_layout Standard
+585多长时间。问题的关键就在于，一个系统之中既有使符号串变长的规则，也有使符号串变短的规则。两种规则的并存导致了某种程度的不可预言性。
+\end_layout
+
+\begin_layout Standard
+哥德巴赫变奏的例子这时候能有所帮助。测试数对(m，n)是否形成乌龟对——即m和m+n是否都是素数——是一件不足道的事情。这之所以容易，是由于“是素数”这一性质是
+原始递归的，对此可进行一个事先就知道必定会有结局的检测。然而，要是想知道n是否具有乌龟性质，也就是问：“有没有什么数能与n形成乌龟对？”——那就又一次使我们陷入
+难以驾驭的由PL循环导致的未知之中了。
+\end_layout
+
+\begin_layout Subsection*
+…因而可在TNT中体现
+\end_layout
+
+\begin_layout Standard
+这个时候，关键的想法就是上述的基本事实1，因为我们可以从它推出
+\end_layout
+
+\begin_layout Standard
+基本事实2：“构成证明对”这一性质可以用BlooP测试，因而
+\end_layout
+
+\begin_layout Standard
+一个有两个自由变元的公式在TNT中所体现。
+\end_layout
+
+\begin_layout Standard
+又一次，我们没有在意这些证明对是相对于哪个系统的，不过这实在无关紧要，因为上述两个基本事实对任何形式系统都成立。
+\end_layout
+
+\begin_layout Standard
+形式系统的本质就在于此：它总能用一种预先知道能有结局的方式，说清一个给定的符号串序列是否构成一个证明——而这一切都能移植到对应的算术概念之中。
+\end_layout
+
+\begin_layout Subsection*
+证明对的威力
+\end_layout
+
+\begin_layout Standard
+为了把话说具体些，不妨就假定我们要讨论WJU系统。读者可能逐记得我们称为“无朋”的那个符号串，它在某个层次上的解释是：“WU是WJU系统的一个定理”o我们可以说
+明如何利用体现wjU证明对概念的那个公式在TNT中表示无朋。我们把体现
+\end_layout
+
+\begin_layout Standard
+5 8 6， WJU证明对的公式（其存在性由基本事实2保证）缩写为：
+\end_layout
+
+\begin_layout Standard
+wjU-PROOF—PAIR{a．a’)
+\end_layout
+
+\begin_layout Standard
+由于它涉及两个数的性质，所以得用含两个自由变元的公式来体44 2
+\end_layout
+
+\begin_layout Standard
+现o（要注意：本章中我们总是使用简朴TNT-因此得小心区分
+\end_layout
+
+\begin_layout Standard
+变元a，a 7，a，，o）为了断言“WU是WJU系统的定理”，我们得作一
+\end_layout
+
+\begin_layout Standard
+个与之同构的陈述“3 0是WJU系统的定理数”，然后再把它翻译
+\end_layout
+
+\begin_layout Standard
+成TNT记号。利用我们的缩写法，这不难做到（同时回忆一一下，第
+\end_layout
+
+\begin_layout Standard
+八章里为了标明每个a 7都用某个数字去替换，我们是在该数字之
+\end_layout
+
+\begin_layout Standard
+后写上“/a'’）：
+\end_layout
+
+\begin_layout Standard
+j a:WJU - PROOF -PAIR
+\end_layout
+
+\begin_layout Standard
+{a,SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSO/a’)
+\end_layout
+
+\begin_layout Standard
+数数S，共30个，应该看到这是TNT的一个闭句子，原有的自由
+\end_layout
+
+\begin_layout Standard
+变元一个量化了，另一个则换成了一个数字。另外，这里作了一件
+\end_layout
+
+\begin_layout Standard
+聪明事口基本事实2给我们指出了一种谈论证明对的办法，我们刚
+\end_layout
+
+\begin_layout Standard
+才又想出了该如何谈论定理数：在前面加一个存在量词就行了！上
+\end_layout
+
+\begin_layout Standard
+面的符号串更直接地翻译过来将是：“存在某个数a能与3 0（作为
+\end_layout
+
+\begin_layout Standard
+第二个分量）形成WJU证明对。”
+\end_layout
+
+\begin_layout Standard
+假使我们要对TNT作类似的事情——比方说要表示“0=O
+\end_layout
+
+\begin_layout Standard
+是TNT定理”这句话，找们可以用类似的方法缩写出一个（仍是
+\end_layout
+
+\begin_layout Standard
+有两个自由变元的）公式（其存在性由基本事实2保证）：
+\end_layout
+
+\begin_layout Standard
+TNT—PROOF—PAIR{a，af)
+\end_layout
+
+\begin_layout Standard
+（这个缩写的TNT公式的解释是：“自然数a和a 7构成TNT证明
+\end_layout
+
+\begin_layout Standard
+对”o）接下来就是按照上述无朋模式把我们的话翻译成数论陈述，
+\end_layout
+
+\begin_layout Standard
+就是：“存在一个自然数a，它与666,111,666（作为后一分量）构成
+\end_layout
+
+\begin_layout Standard
+TNT证明对”，表示它的TNT公式是
+\end_layout
+
+\begin_layout Standard
+了a: TNT - PROOF—PAIR{a,SSSSS--- ---SSSSSO/a')
+\end_layout
+
+\begin_layout Standard
+—————、厂————一
+\end_layout
+
+\begin_layout Standard
+很多很多S（事实上有6 6 6，111，6 6 6个）
+\end_layout
+
+\begin_layout Standard
+5 8 7
+\end_layout
+
+\begin_layout Standard
+一个TNT闭句子o（我们称之为“赵州”，原因一会儿就清楚a）由此我们看到有那么一种方法，它不但可以谈论TNT证明对这样的原始递归概念，而且也能谈论与之有关而又不
+那么靠得住的“TNT定理数”这一概念。
+\end_layout
+
+\begin_layout Standard
+为了检验你对这些想法的理解，请你想想如何把下述有关TNT的元陈述翻译成TNT记号：
+\end_layout
+
+\begin_layout Standard
+(1)O-O不是TNT定理。
+\end_layout
+
+\begin_layout Standard
+(2)～O=O是TNT定理。
+\end_layout
+
+\begin_layout Standard
+(3)～O=O不是TNT定理。443 它们的解答与上述例子有什么不同？彼此之间有什么不同？这里再给你几个翻译练习：
+\end_layout
+
+\begin_layout Standard
+(4)赵州是TNT定理o（表示这句话的符号串称为“元赵
+\end_layout
+
+\begin_layout Standard
+州”o）
+\end_layout
+
+\begin_layout Standard
+(5)元赵州是TNT定理o（表示这句话的符号串称为“元元
+\end_layout
+
+\begin_layout Standard
+赵州”o）
+\end_layout
+
+\begin_layout Standard
+(6)元元赵州是TNT定理。
+\end_layout
+
+\begin_layout Standard
+(7)元元元赵州是TNT定理。
+\end_layout
+
+\begin_layout Standard
+（等等，等等o）
+\end_layout
+
+\begin_layout Standard
+例5表明关于元元TNT的一些陈述能翻译成TNT记号；例6则
+\end_layout
+
+\begin_layout Standard
+表明对元元元TNT的陈述也是如此，等等。
+\end_layout
+
+\begin_layout Standard
+这时候要紧的是要记住：表示一个性质和体现一个性质是不
+\end_layout
+
+\begin_layout Standard
+一样的，例如“是TNT定理数”由公式
+\end_layout
+
+\begin_layout Standard
+j a:TNT-PROOF-PAIR{a,a'}
+\end_layout
+
+\begin_layout Standard
+来表示，翻译为：“a’是TNT定理数”o但我们并不担保此公式体
+\end_layout
+
+\begin_layout Standard
+现了这一概念，因为我们并未能担保这个性质是原始递归的～—
+\end_layout
+
+\begin_layout Standard
+事实上我们至少会暗中怀疑它不是o（这样怀疑是合理的。“是
+\end_layout
+
+\begin_layout Standard
+TNT定理数”这一性质不是原始递归的，因而也就没有一个TNT
+\end_layout
+
+\begin_layout Standard
+588
+\end_layout
+
+\begin_layout Standard
+l公式能体现它！）相比之下，“是证明对”这个性质鉴于它的原始递归性，就既可以用上面引入的这个公式表示，也可用这个公式体现。
+\end_layout
+
+\begin_layout Subsection*
+代人导致第二个想法
+\end_layout
+
+\begin_layout Standard
+通过上面的讨论，我们已经能够看清TNT是怎样对“是否TNT定理”这一概念进行“反省”的了。这是哥德尔证明第一部分的精华。我们现在打算着手讨论证明的第二个主要想法
+，方法是构想一个概念，使我们能把这种反省集中进一个单个句子。要做到这一点，我们先得看看当你用一个简单的方法从结构上修改某个公式时，该公式的哥德尔数会发生什么变化
+。其实，我们要考虑的只是这样一种特殊的修改；
+\end_layout
+
+\begin_layout Standard
+把全部自由变元都用具体数字替换。下面的对照表中，左边一列给出这种运算的一些例子，而右边一列则显示其哥德尔数的对应变化
+\end_layout
+
+\begin_layout Standard
+公式 哥德尔数 444
+\end_layout
+
+\begin_layout Standard
+a=a262 ,111,262
+\end_layout
+
+\begin_layout Standard
+全部自由变元都 ◆
+\end_layout
+
+\begin_layout Standard
+换成2的数字表示
+\end_layout
+
+\begin_layout Standard
+sso= SS0 123 9123,666,111,123,123,666～|a：了a’:a"==(SSa.SSa’)223,333,262,636,333,26
+29163,
+\end_layout
+
+\begin_layout Standard
+636,262,163,163,111,362,123,
+\end_layout
+
+\begin_layout Standard
+123,262 ,236 ,12 3,12 3,262 ,163,323
+\end_layout
+
+\begin_layout Standard
+全部自由变元都 ‘
+\end_layout
+
+\begin_layout Standard
+换成4的数字表示
+\end_layout
+
+\begin_layout Standard
+589～| a:了 a' :sssso= (SSa .
+ SSa' ) 223,333,262,636,333,262,163,636,123,123,123,123,666,111,362,123
+ ,123,262,
+\end_layout
+
+\begin_layout Standard
+236,123,123,262,163,323
+\end_layout
+
+\begin_layout Standard
+右边一列有一个与左边同构的、把一个大数变成一个更大的数的算术过程。依靠加法、乘法和10的幂运算等等，不难算术地描述从旧数到新数的函数。——不过用不着真这么做。问
+题的要点在于：(1)原公式的哥德尔数、(2)其数字表示被插入的那个数以及(3)结果的哥德尔数，这三者之间的关系是原始递归的。也就是说，我们可以写出一个BIooP
+测试，使得对任意输入的三个自然数，若它们之间有这种关系，该测试就能回答“是”，否则就会回答“否”o你可以检查下面的两组数，测验一下自己作这种测试的能力，同时弄清
+楚为什么这一过程不会出现隐蔽的无终止循环。
+\end_layout
+
+\begin_layout Standard
+(1) 362,262 ,112 ,262 9163 ,323 9111,123 ,123 ,123 ,123 ,666;
+\end_layout
+
+\begin_layout Standard
+2；
+\end_layout
+
+\begin_layout Standard
+362 ,123 ,123,666 ,112 ,123 9123,666 ,323 ,111,123 ,12 3,
+\end_layout
+
+\begin_layout Standard
+123,123,666
+\end_layout
+
+\begin_layout Standard
+(2) 223,362,262 ,236 ,262,3239111,262 ,163;
+\end_layout
+
+\begin_layout Standard
+1；
+\end_layout
+
+\begin_layout Standard
+223,362 ,123,666,236,123,666,323 ,111,262 ,163象往常一样，一个例子是对的，另一个是错的。我们称三个数之间的这种关系
+为代入关系。由于这个关系是原始递归的，所以可用某个有三个自由变元的TNT公式体现。我们把这个公式缩写成
+\end_layout
+
+\begin_layout Standard
+SUB{a，a 7，a")445由于这个公式体现代入关系，所以下面给出的公式就必定是TNT定理：
+\end_layout
+
+\begin_layout Standard
+SUB { SSSSS--- ---SSSSSO/a ,SSO/a' ,SSSSSS --- ---SSSSO/a" }590
+\end_layout
+
+\begin_layout Standard
+262,111,262个S 123,123,666,111,123,123,6 6 6个S（此公式基于本节前面用并行两列的表给出的代入关系例子中的第一个o）同样
+也因为SUB公式体现代入关系，于是下面给出的公式自然就不是TNT定理：
+\end_layout
+
+\begin_layout Standard
+SUB{SSSO／a 9SSO/a' ,SO/a")
+\end_layout
+
+\begin_layout Subsection*
+算术扛摁
+\end_layout
+
+\begin_layout Standard
+现在已到了决定关头：可以把拆开的各个部分组合成意义深远的整体了。我们要把TNT - PROOF - PAIR和SUB这两个公式作为部件，以某种方式把它们结合成一
+个单个的TNT句子，其解释为：“本TNT符号串不是TNT定理”o怎么做呢？到了现在，所需的全部零件都摆在眼前，答案却仍然不易找到。
+\end_layout
+
+\begin_layout Standard
+把一个公式自身的哥德尔数代入这个公式似乎是个怪异但却意义不大的想法。这与另一个怪异但却似乎意义不大的想法颇为相似：在《G弦上的咏叹调>上作“扼摁”o托摁显示出了
+一种出乎意料的价值：它表明了一种制造自指句子的新方法。第一次接触了各式各样{}[摁型的自指句子之后，它就会暗暗尾随你——而一旦真的理解了这一原则，你就禁不住要赞
+叹它是如此的简单而又生机勃勃o ji[摁的算术版本——姑且称之为“算术托摁”——能使我们造出一个“谈论自身”的TNT句于。
+\end_layout
+
+\begin_layout Standard
+我们来看一个算术托摁的例子。我们需要一个至少有一个自由变元的公式。用下面的公式就行：
+\end_layout
+
+\begin_layout Standard
+a-so它的哥德尔数是2 62，1 1 1，123，6 6 6 0我们将把这个数插进公式自身中——更确切地说是把这个数的数字形式插进去，结果得到
+\end_layout
+
+\begin_layout Standard
+SSSSS....,.SSSSSO=SO
+\end_layout
+
+\begin_layout Standard
+——、，_——一
+\end_layout
+
+\begin_layout Standard
+5 9 1
+\end_layout
+
+\begin_layout Standard
+2 6 2，1 1 1，123,666个S这个新公式断定了一句笨拙的假理-262，11 1，1 23，666等于1 0要是我们从符号串～a -SO出发来作算术托
+摁，那就会做出一个真句子——这你自己就能看出。
+\end_layout
+
+\begin_layout Standard
+在作算术扼摁时，你自然是在做我们早先定义的代入运算的446一个特例。如果要在TNT内部谈论算术{}[摁，就得使用公式
+\end_layout
+
+\begin_layout Standard
+SUB{a"，a"，a 7）
+\end_layout
+
+\begin_layout Standard
+其中前两个变元是相同的。这是由于我们是在以两种不同的方式
+\end_layout
+
+\begin_layout Standard
+使用同一个数（康托尔对角线方法的幽灵！）o这里的数a”既是
+\end_layout
+
+\begin_layout Standard
+(1)原公式的哥德尔数，又是(2)插进去的数。我们给上述公式造一
+\end_layout
+
+\begin_layout Standard
+个缩写记号：
+\end_layout
+
+\begin_layout Standard
+ARITHMOQUINE{aⅣ，a 7)
+\end_layout
+
+\begin_layout Standard
+用汉语讲，这个公式是说：
+\end_layout
+
+\begin_layout Standard
+a 7是对哥德尔数为a”公式作算术托摁所得公式的哥德尔数。
+\end_layout
+
+\begin_layout Standard
+这句话又长又笨，我们引入一个简明雅致的术语来概括它，我们
+\end_layout
+
+\begin_layout Standard
+说：
+\end_layout
+
+\begin_layout Standard
+a 7是a，，的算术{}[摁化。
+\end_layout
+
+\begin_layout Standard
+这表示同样的意思。例如，2 62，1 1 1，1 2 3，6 6 6的算术扼摁化是一个
+\end_layout
+
+\begin_layout Standard
+大得难以想象的数：
+\end_layout
+
+\begin_layout Standard
+123 ,123 ,123,......123 ,123,123,666 ,111,123 ,666
+\end_layout
+
+\begin_layout Standard
+：
+\end_layout
+
+\begin_layout Standard
+262 ,111,123 ,666个“123"
+\end_layout
+
+\begin_layout Standard
+（这就是我们算术}?[摁a=so所得公式的爵德尔数a）我们能够很
+\end_layout
+
+\begin_layout Standard
+容易地在TNT内部谈论算术扼摁。
+\end_layout
+
+\begin_layout Subsection*
+最后一锤
+\end_layout
+
+\begin_layout Standard
+现在，要是再回顾一下《G弦上的咏叹调》，你就能看清，按蒯
+\end_layout
+
+\begin_layout Standard
+恩的方式达到自指的各种方法中，最复杂的一招是扼摁一个其本
+\end_layout
+
+\begin_layout Standard
+5 92身就在谈论托摁概念的句子。仅仅托摁是不够的——你必须扼摁一个提及{i[摁的句子！那好，在我们的情形，与之平行的手法必定是算术托摁某个其本身就在谈论算术托
+摁概念的公式。
+\end_layout
+
+\begin_layout Standard
+我们立即来写出那个公式，并称它为G的“服”号串：
+\end_layout
+
+\begin_layout Standard
+～|a:|a’: <TNT - PROOF - PAIR{a,a')^ ARITH-
+\end_layout
+
+\begin_layout Standard
+MOQUINE{a"，a’)>你可以明白地看出这一策略是怎样深刻地借助了算术托摁化的。
+\end_layout
+
+\begin_layout Standard
+这个“服”号串当然有一个哥德尔数，我们称之为“u”o u的十进表447达式的两头甚至中间的一小块可以直接读出来：u=223,333,262, 636,333,2
+62 ,163,636,212,...9161,.¨,213至于其余部分，就得知道“TNT - PROOF - PAIR”和“ARITH--MooUINE”写出来时究竟
+是什么样。这过于复杂了，而且不管怎‘么讲都有点离题太远了。
+\end_layout
+
+\begin_layout Standard
+我们现在该做的就是{f[摁这个“服”号串！这意味着把全部自由变元——这里只有一个，即aⅣ——“踢出去”，把所有出现a，，的地方换成数字u o于是得到～|a:|a
+ 7: <TNT- PROOF - PAIR i a,a')八ARITHMO-QUINE{SSS--- ---SSSOlau,a')>
+\end_layout
+
+\begin_layout Standard
+～——-、，—一
+\end_layout
+
+\begin_layout Standard
+u S不管你信不信，这是一个哥德尔符号串，我们可以称之为"G"o于是就有两个刻不容缓必须回答的问题：
+\end_layout
+
+\begin_layout Standard
+(1)G的哥德尔数是什么？
+\end_layout
+
+\begin_layout Standard
+(2)G的解释是什么？先说第一个。我们是怎么造的G呢？噢，是从其“服”号串入手，对之进行算术{?[摁。那末根据算术托摁化的定义，G的哥德尔数就是
+\end_layout
+
+\begin_layout Standard
+u的算术扼摁化。再看第二个。我们分成几步来把G译成汉语，一步比一步更为概
+\end_layout
+
+\begin_layout Standard
+5 9 3括。作为粗略的第一步，我们作一个相当刻板的字面翻译：
+\end_layout
+
+\begin_layout Standard
+“不存在数a和a 7使得：(1)它们形成TNT证明对；并且(2)
+\end_layout
+
+\begin_layout Standard
+a 7是u的算术{?[摁化。”眼下当然是有一个数a 7是u的算术{}[摁化——因而问题就必定出在另一个数a身上。这一考察使我们能把G的译文重新措辞而写成：
+\end_layout
+
+\begin_layout Standard
+“没有一个数a能与u的算术托摁化形成TNT证明对”o（这一步有可能把人搞糊涂，后面还要详细解释o）你该看到发生什么事了吧?G在说：
+\end_layout
+
+\begin_layout Standard
+“以u的算术{汇摁化为哥德尔数的那个公式不是TNT定理”o可是——这时已不再意外了——这个公式不是别的，就是G自己。因此，我们可以把G最终翻译成
+\end_layout
+
+\begin_layout Standard
+“G不是TNT定理”o448——或者，你要是愿意，也可以说成
+\end_layout
+
+\begin_layout Standard
+“我不是TNT定理”o
+\end_layout
+
+\begin_layout Standard
+我们已经逐步得到了一个高层次的解释——一个TNT元语言的句子，它出自先前那个低层次的解释——一个数论句子。
+\end_layout
+
+\begin_layout Subsection*
+TNT说“服了！”
+\end_layout
+
+\begin_layout Standard
+在第九章，我们勾勒过这个惊人的构造的主要结果——TNT的不完全性。重申一下那个论证：
+\end_layout
+
+\begin_layout Standard
+G是不是TNT定理呢？如果是，它说的就一定是一句真理。可实际上G在说什么呢？G就在说它自己的非定理性。于是从它是定理就能得出它不是定理——矛盾。
+\end_layout
+
+\begin_layout Standard
+要是G不是定理又如何呢？逮倒可以接受，此时不会导出矛盾。不过G的非定理性正是G所断定的——因而G讲的是真理，而G又不是定理，所以就存在（至少）一个不是TNT定理
+的真理。
+\end_layout
+
+\begin_layout Standard
+5 94
+\end_layout
+
+\begin_layout Standard
+现在，为了再一次解释解释那个巧妙的步骤，我要使用另一个类似的例子。取符号串
+\end_layout
+
+\begin_layout Standard
+～了a:j a 7: <TORTOISE - PAIR{a,a'）八TENTH -
+\end_layout
+
+\begin_layout Standard
+POWER{SSO/a"．a 7)>其中的两个缩写符号都代表TNT符号串，这些符号串你自己就可以写出。66TENTH—POWER{a"，a 7）”体现陈述“a
+ 7是a"的1 0次幂”o逐字地译成汉语就是
+\end_layout
+
+\begin_layout Standard
+“不存在数a和a 7满足：(1)它们形成乌龟对，(2)a’是2的1 0次幂”o可2的1 0次幂显然是存在的——即1 024，所以这个符号串实际上说的就是
+\end_layout
+
+\begin_layout Standard
+“没有一个数a能与1 024形成乌龟对”o这又可以进一步地归结为
+\end_layout
+
+\begin_layout Standard
+“1024没有乌龟性质”o要点在于我们得到了一种代入方法：把对一个数的描述代入某个谓词，而不是用这个数的数字形式代入。这种做法靠的是另外再用一个量化的变元(a’
+)o这里，是1 024这个数，其描述为“2的1 0次幂”；而上面所说的，是被描述为“u的算术j}[摁力的那个数。
+\end_layout
+
+\begin_layout Subsection*
+“算术托摁时得到非定理”
+\end_layout
+
+\begin_layout Standard
+我们要停下来喘口气，并回顾一下我们做了些什么。就我所知，要想比较透彻地把握住这种代入方法，最好的办法是直截了当地把它与蒯恩形式的说谎者悖论作一个比较。它们之问的
+对应是
+\end_layout
+
+\begin_layout Standard
+假句子一个短语的引文形式在谓语之前放上主语在谓语之前放
+\end_layout
+
+\begin_layout Standard
+一句引语把一个谓语自
+\end_layout
+
+\begin_layout Standard
+非定理一个符号串的哥德尔数代入一开公式把一符号串的哥德尔数
+\end_layout
+
+\begin_layout Standard
+代入一开公式把一个开公式的哥
+\end_layout
+
+\begin_layout Standard
+．59 5甘 铮 甘 甘 镑身作为引语放在该谓语之前（_{i[摁化”）托摁时得到假句子（没有主语。
+\end_layout
+
+\begin_layout Standard
+仅有一个谓语）“}i[摁时得到假句子”
+\end_layout
+
+\begin_layout Standard
+（上面的那个谓语，加上引号）“托摁时得到假句子”托摁时得到假句子（托摁上面那个谓语而形成的一个完整句子）乍亨哥德尔第二定理德尔数代入该公式
+\end_layout
+
+\begin_layout Standard
+自身（“算术托摁化”）G的“服”号串(TNT的一个
+\end_layout
+
+\begin_layout Standard
+开公式)
+\end_layout
+
+\begin_layout Standard
+数u（上述开公式的哥德尔数）
+\end_layout
+
+\begin_layout Standard
+G本身（把u代入“服”号串所形成的句子，
+\end_layout
+
+\begin_layout Standard
+即“服”号串的
+\end_layout
+
+\begin_layout Standard
+算术扼摁）
+\end_layout
+
+\begin_layout Standard
+由于G的解释是真，所以其否定～G的解释就是假。可我们又知道TNT中推不出假的陈述。于是，不论是G还是其否定～G都不会是TNT定理。这样，在我们的系统中就找到了一
+个“漏洞”一 ·个不可判定命题。这会派生出不少结果。从G的不可判定性就可以得到一个古怪的事．实：G和～G都不是定理，但公式<G V～G>却是定理，因为命题演算的
+规则保证全部形如<P V～P>的良构公式都是定理。
+\end_layout
+
+\begin_layout Standard
+这是一个简单的例子，其中，一个系统内的断言和一个谈论该系统的断言似乎很不合拍c这会使人疑惑不定：这个系统是否真的很精确地反映了自己？存在于TN
+ T内部的那种“自我反映的元数学”与我们所用的这种元数学是否非常相符？这是哥德尔写论文时
+\end_layout
+
+\begin_layout Standard
+5 9 6很着迷的问题之…．o具体地说，他对是否可能在这种“自我反映的元数学”内证明TNT的一致性颇感兴趣。读者还该记得，如何证4 50明系统的一致性是当时哲学
+上的一大难题。哥德尔找到了一个用TNT公式表示“TNT一致”这句话的简单方法，然后证明了这个公式（以及表示同一思想的任何其它公式）只在一个条件下才是TNT定理，
+这个条件是：TNT不一致。这个反常的结果对那些乐观地期待可以找到数学无矛盾性的严格证明的人真是当头一棒。
+\end_layout
+
+\begin_layout Standard
+怎样在TNT内部表示“TNT一致”这句话呢？靠的是这样一个简单事实：不一致性是说有两个公式x和～x——一个是另一个的否定——都是定理。于是根据命题演算，全部良构
+公式就都是定理。因而，要说明TNT的一致性，只需提出一个TNT的句子，说明这个句子可以被证明为不是定理，就行了。所以，表示“TNT一致”的一个办法就是说“公式～
+o -O不是TNT定理o"o这在几页以前就作为习题提出了，其翻译为
+\end_layout
+
+\begin_layout Standard
+～j a: TNT—PROOF - PAIR{a,SSSSS------SSSSSO/a')
+\end_layout
+
+\begin_layout Standard
+——、厂——一
+\end_layout
+
+\begin_layout Standard
+2 23，6 66，1 1 1，666个S通过一个冗长但很容易的推理可以证明——只要TNT一致——这个用TNT待号写出的一致性誓言不是个TNT定理。所以说，当T
+NT表示一些事物时，它的反省能力很强，但要让它证明这些事物，其反省能力就很差劲了。如果把这一结果借过来用于人的自我认识问题，恐怕极易引起争论。
+\end_layout
+
+\begin_layout Subsection*
+TNT是c．）不完全的
+\end_layout
+
+\begin_layout Standard
+那么TNT“享有”哪种不完全性呢？我们将要看到，它的不完全性是第八章中定义的那种“欧米伽”型。这意味着有一个无穷的、金字塔形的符号串族，其每个符号串都是定理，但
+与这个族对应的“概述串”却不是定理。不难给出这种不是定理的概述串：
+\end_layout
+
+\begin_layout Standard
+597V a～3 a' : <TNT-PROOF-PAIR{a,a' } A
+\end_layout
+
+\begin_layout Standard
+u个S
+\end_layout
+
+\begin_layout Standard
+／____—L__—__一
+\end_layout
+
+\begin_layout Standard
+，—____ 、
+\end_layout
+
+\begin_layout Standard
+ARITHMOQUINE{ SSS--- ---SSSO/au,a')>要想理解这个符号串何以不是定理，只需注意一下它与G本身是极为相似的——事实上只用一步就能
+从它推得G（根据TNT的量词互变规则），所以，如果它是定理，G也是。而G不是定理，于是这个公式也就不能是定理。
+\end_layout
+
+\begin_layout Standard
+我们现在需要证明与之相应的那个金字塔中的公式都是定理。写出它们是很容易的：451～3 a':<TNT- PROOF-PAIR{ O/a ,a')^
+ ARITHMOQUINE{SSS------SSSO/a" ,a')>
+\end_layout
+
+\begin_layout Standard
+——、广一
+\end_layout
+
+\begin_layout Standard
+u个S
+\end_layout
+
+\begin_layout Standard
+～了a':<TNT—PROOF - PAIR{.SO/a,a’）人ARITHMO-
+\end_layout
+
+\begin_layout Standard
+QUINE{SSS--- ---SSSO／a" ,a')>
+\end_layout
+
+\begin_layout Standard
+～了a 7: <TNT - PROOF - PAIR{SSO/a,a 7>人ARITHMO-
+\end_layout
+
+\begin_layout Standard
+QUINE{SSS------SSSOla" ,a')>
+\end_layout
+
+\begin_layout Standard
+～了a 7: <TNT - PROOF - PAIR{SSSO／a ,a'）八ARITHMO-
+\end_layout
+
+\begin_layout Standard
+QUINE{ SSS...．二．SSSOla" ,at)>这些符号申说的都是什么？逐个翻译出来就是：
+\end_layout
+
+\begin_layout Standard
+“O与u的算术托摁化不形成TNT证明对”
+\end_layout
+
+\begin_layout Standard
+“1t与u的算术}汇摁化不形成TNT证明对”
+\end_layout
+
+\begin_layout Standard
+“2- u的算术瓶摁化不形成TNT证明对”
+\end_layout
+
+\begin_layout Standard
+“3． u的算术{j[摁化不形成TNT证明对”5 98
+\end_layout
+
+\begin_layout Standard
+* * *这里的每个断言都是讲两个特定的自然数是否构成证明对o（与之对照，G本身则是谈一个特定的自然数是否是定理数o）由于G不是定理，当然就没有一个自然数会与G
+的哥德尔数构成证明对。
+\end_layout
+
+\begin_layout Standard
+所以这个族中的每句话都是真的。事情的关键在于“是证明对”这一性质是原始递归的，从而可体现，所以上面列出的每一句话（都是真的）必定都能翻译成TNT的定理。也就是说
+我们这座无穷的金字塔中的每一层都是定理。这就说明了TNT为什么∞不完全。
+\end_layout
+
+\begin_layout Subsection*
+两个不同的补洞方法
+\end_layout
+
+\begin_layout Standard
+由于G的解释为真，其否定～G的解释就为假。而利用TNT一致性的假定，我们又知道在TNT中推不出假陈述，于是无论是G还是其否定～G都不是TNT定理。在我们的系统中
+就找到了‘个漏洞——一个不可判定命题。如果我们在哲学上足够超脱，从而能认清其原因是什么的话，那就不会因此而惊慌。这表明，就象绝对几何一样，TNT能够扩充。事实上
+，和绝对几何一样，TNT也能朝两个不同的方向扩充。它可以朝标准方向扩充——这与绝对几何朝欧几里得的方向扩充相应；它也能朝非标准的方向扩充一这当然就与绝对几何朝非
+欧方向的扩充相应了。标准型的扩充将是：
+\end_layout
+
+\begin_layout Standard
+把G加进去作为新公理。这种见解似乎相当无害甚至颇为称必，因为G毕竟是在说有关自452然数系统的某件真的事情。那么非标准的扩充又如何呢？如果完全平行于平行公设的情
+形去做，就得到：
+\end_layout
+
+\begin_layout Standard
+把G的否定加进去作为一条新公理。我们怎么居然能做这么荒唐而义蹩脚的事呢？其实说到底，借用济罗拉奠·萨彻利那些令人难忘的话，～G不正是“与自然数的本质599相抵触
+”的吗？
+\end_layout
+
+\begin_layout Subsection*
+超自然数
+\end_layout
+
+\begin_layout Standard
+我希望上面的引文的讽刺意味触动你舢济罗拉莫·萨彻利处理几何时的问题恰恰出在他从“什么是真什么不是真”这样一个固定见解出发，而且只打算证明他一开始就估计为真的那些
+内容。尽管他的方法很聪明——包括否定第五公设，从而证明以此得到的几何中的很多“荒唐”命题——但他从未意识到有可能以其它方式来想象点和线。我们现在得提防不要重蹈覆
+辙。我们应该尽可能公正地考察把～G作为新公理加进TNT将意味着什么。试看下列类型的新公理：
+\end_layout
+
+\begin_layout Standard
+了a：(a+a)=SO
+\end_layout
+
+\begin_layout Standard
+] a:Sa=0
+\end_layout
+
+\begin_layout Standard
+了a:(a．a) -SSO
+\end_layout
+
+\begin_layout Standard
+a：S(a．a)==O如果人们从未考虑过引入它化，今天的数学该是什么样呢？这里的每一条都“与原先了解的数系的本质相抵触”，每一条也都提供了对全部数概念的一个深刻
+而又精彩的扩充——有理数、负数、无理数、虚数。这种可能性就是～G试图打开我们的眼界，使我们达到的地方。以往，数概念的每次扩充都要招来一片倒彩和嘘叫，尤其是把诸如
+“无理数”、“虚数”这类不受欢迎的新客叫做数时，你听到的叫声更是特别响亮。遵循这个传统，我们要把～G所揭示的那些数叫做超自然数，以表明我们确是深感其有悖于所有合
+乎常情的概念。
+\end_layout
+
+\begin_layout Standard
+如果要把～G奶进TNT作为第六条公理，那我们最好了解一下它到底怎样与一个带有我们刚讨论过的那个无穷金字塔共存于一个系统之中。明摆出来，～G是讲
+\end_layout
+
+\begin_layout Standard
+600
+\end_layout
+
+\begin_layout Standard
+“存在某个数与u的算术托摁化形成TNT证明对o"——而该金字塔的各层却依次断言：“0不是这个数”
+\end_layout
+
+\begin_layout Standard
+“1不是这个数”“2不是这个数”
+\end_layout
+
+\begin_layout Standard
+这真令人费解，因为看上去这是个十足的矛盾（正因为如此才称之为“∞不一致性”）o费解的根源——与几何分叉的情形极为相似——在于尽管事实上我们明白这个系统是修改过的
+，但还是顽固地拒绝接受对符号解释的修改，总想不重新解释任何符号就混过去——结果当然就证明这是不行的。
+\end_layout
+
+\begin_layout Standard
+和解来自于把j重新解释为“存在一一个广义自然数”，而不再解释成“存在一个自然数”o这样作的时候还得用相应的方法把V也重新解释过。这意味着我们对自然数以外的某些数
+也打开了大门，引进即“超自然数”o自然数和超自然数一起构成整个广义数。
+\end_layout
+
+\begin_layout Standard
+这样一来，这个表面上的矛盾立即化为乌有，因为那个金字塔仍然讲的是老话：“没有一个自然数能与u的算术f-r[摁化形成TNT证明对o"这族句子丝毫没讲到超自然数，因
+为没有关于超自然数的数字形式。而此时～G却是说：“存在一个广义自然数能与u的算术扼摁化产物形成TNT证明对o"把这族句子和-G放在一起，显然是在讲：存在一个超自
+然数能与u的算术{?[摁化产物形成TNT证明对，如此而已—～半点矛盾也没有了，在一个包括超自然数在内的解释下，TNT+～G是一致的系统。
+\end_layout
+
+\begin_layout Standard
+由于我们现在约定了把两个量词的解释加以扩充，这就意味
+\end_layout
+
+\begin_layout Standard
+6 01着包含量词的任何一条定理也都有一个扩充了的意义，例如，交换律定理
+\end_layout
+
+\begin_layout Standard
+V a:V a‘：(a+a 7)=(a 7+a)现在所讲的就是对全体广义自然数加法是可交换的——换句话说，不仅自然数的加法可交换，超自然数的加法也行。类似地，说
+“2不是自然数的平方”的那条TNT定理——
+\end_layout
+
+\begin_layout Standard
+～|’，a：(a．a)一SS0一现在告诉我们2同样也不是超自然数的平方。事实上，自然数454所具有的性质，只要是由TNT定理给出的，超自然数也都具有。
+\end_layout
+
+\begin_layout Standard
+换言之，对于自然数能形式证明的东西，对超自然数也都成立。具体讲，这意味着超自然数不是我们熟悉的诸如分数、负数、复数等等的任何一种东西，最好还是把超自然数设想成比
+全部自然数都大的整数——无穷大的整数。要害是：尽管TNT的定理能排斥负数、有理数、无理数、复数等等，但没有办法排斥无穷大的整数：连表示“不存在无穷量”这句话的办
+法都没有。
+\end_layout
+
+\begin_layout Standard
+这种说法初听起来会让人觉得很怪。与G的哥德尔数形成TNT证明对的那个数，（我们称它为“I”，不过这没什么特殊理由）到底有多大？不幸的是，我们没有什么合用的语言能
+描述无穷大整数的大小，所以我怕是没法表述I的量值了。可话又说回来，l--1的平方根——到底有多大？宅的大小就不能靠我们熟悉的自然数的大小来想象，你不能说：“噢，
+i大约和1 4的一半或24的9/10-样大o"你只好讲：“i的平方是-1"，而且差不多也就只能讲这些。在这里倒好象用得上亚伯拉罕·林肯的一句话。当有人问他：“人
+的两条腿该是多长”的时候，他慢条斯理地说：“够着地就行o"这差不多就是回答I的大小的办法-I恰好就是一个指明G的证明结构的数那么大——不再大，也不再小了。
+\end_layout
+
+\begin_layout Standard
+当然，TNT的任何一个定理都有很多不同的推导，所以你大
+\end_layout
+
+\begin_layout Standard
+602概要怪我对I的刻划不唯一。的确是这么回事。不过，这仍然与i——一1的平方根——的情形类似。你可以回忆一下，还有一个数的平方根也是_1，那就是-1，i和-l
+不是同一个数，它们恰好共同具有某个性质。麻烦仅在于这还恰好就是定义它们的性质！我们只得挑出其中一个——至于是哪个，这无关紧要——把它叫做“i"o其实根本没办法区
+分开它们，所以，也没准我们在这数百年间一直都说的是那个错的“i"，但这完全是无所谓的。现在，与i类似，I也不是唯一定义的。你只须把I看做是很多能与u的算术{汇摁
+化产物形成TNT证明对的荒唐数中特定的某一个就行了。
+\end_layout
+
+\begin_layout Subsection*
+超自然定理有无穷长推导
+\end_layout
+
+\begin_layout Standard
+我们还没有直接面对把～G扔进去作为公理引出的后果。我们说到过，但没有强调。要害在于～G断言G有证明，如果一个系统的公理之一断言它自己的否定有证明，这个系统还能好
+得了吗？
+\end_layout
+
+\begin_layout Standard
+我们现在注定要焦头烂额了！幸好，事情还不那么糟糕。只要我们仅限于构造有穷的证明，就决不会证明Go所以，G与～G之间并不会发生不幸的冲突。超自然数I也不会引来灾难
+。但是，我们现在必须得习惯～G是断言一个真理（“G有证明”），而G是断言一45s个假理（“G没有证明”）这样的想法。在标淮数论中正好相反一不过标准数论中没有什么
+超自然数，要注意．TNT的超自然定理
+\end_layout
+
+\begin_layout Standard
+一即G-可以讲假理，但全部自然定理讲的仍都是真理。
+\end_layout
+
+\begin_layout Subsection*
+超自然数的加法和乘法
+\end_layout
+
+\begin_layout Standard
+我要来讲一个有关超自然数的极为稀奇和意外的事实，但不加证明o（我也不知道证明o）这件事会使人想到量子力学中的海森堡测不准原理。它是这样：我们可以用某种简单而又自
+然的方法对每个超自然数用三个一组的普通整数（包括负整数）来“编号”o这
+\end_layout
+
+\begin_layout Standard
+603样，我们原有的那个超自然数I就可以有一个编号集（9，一8，3）．而它的后继I+l就可以有一个编号集（9，-8，4）o并不是只有一种方式来给超自然数编号，不
+同的方法有各自的优点和缺点。根据某些编号方案，给定两个超自然数的编号之后，很容易算出其和的编号三元组。而按另一些编号方案，则很容易算出两个数的积的编号三元组。然
+而，没有一种编号方案能够方便地既算加法又算乘法。说严格一点，如果和的编号能用递归函数算出，那么积的编号就不是递归函数；反之，如果积的编号是递归函数，和的编号就不
+是。因此如果超自然的小学生在学会超自然加法之后仍不知道超自然的九九表，那只好原谅他们——而且反过来也一样！你不可能同时都知道。
+\end_layout
+
+\begin_layout Subsection*
+超自然数是有用的…
+\end_layout
+
+\begin_layout Standard
+我们还可越出超自然数数论的范围，考虑超自然的分数（两个超自然数的比）、超自然的实数，等等。其实，利用超自然实数的概念可以在一个新的立脚点上建立微积分。诸如clx
+、dy等等长期使数学家头疼的无穷小量，如果看成无穷大实数的倒数，就完全是合乎情理的！高等分析的某些定理依靠“非标准分析”能够更直观地证明出来。
+\end_layout
+
+\begin_layout Subsection*
+…但它们真实吗？
+\end_layout
+
+\begin_layout Standard
+初次接触非标准数论时会被它搞得晕头转向。不过非欧几何4 56也是杷人搞得晕头转向的东西。不管是在哪种情形，人们都不禁要问：“这两种对立的理论中哪个正确？哪个讲的
+是真理呢？”某种意义上这类问题是无法回答的o（而在另一种意义上——后面要讨论——却可以有答案o）这个问题之所以没有答案，原因在于这两种对立的理论尽管使用相同的术
+语，却不是在谈相同的概念。所以它
+\end_layout
+
+\begin_layout Standard
+604们只是表面上对立，正如欧氏几何和非欧几何一样。在几何中，“点”、“线”等字眼都是未定义项，它们的意义是靠用它们写出的公理系统确定的。
+\end_layout
+
+\begin_layout Standard
+对于数论，情形也类似。当我们决定要把TNT形式化时，我们预先就选好了当作解释词的那些术语——例如“数”、“加”、“乘”
+\end_layout
+
+\begin_layout Standard
+等等。采取形式化这一步骤使我们失去了主动权，无条件地接受这些术语可能有的各式各样的被动意义。但是，我们——象萨彻利一样——对意外的事情毫无准备。我们自以为我们完
+全知道有关自然数真的、实在的、唯一的理论是什么。我们并未想到会有一些关于自然数的问题是TNT解决不了的，因而朝不同的方向扩充TNT就能对这些问题随心所欲地回答。
+这样一来，我们就没有一个基础来谈论数论“事实上”该是这一种还是那一种。就象有个人发誓说-1的平方根“事实上”存在，或者"事实上”不存在一样。
+\end_layout
+
+\begin_layout Subsection*
+几何学的分又现象与物理学家‘
+\end_layout
+
+\begin_layout Standard
+可以而且大约应该提出这样一种见解来反对前述的内容：假设在现实的物理世界中有一些实验，用某种特定的几何学来解释它们，要比用别的几何学解释省事得多，那我们说这种几何
+学是“真”的或许就有意义。于是在那些想要使用“正确”几何学的物理学家眼里，区别“真”几何学和其它儿何学就有了某种意义。可是，不能把事情看得太简单了。物理学家总要
+与条件的近似化和理想化打交道。比如第五章谈过的我自己的那篇博士论文，就是以关于磁场中晶体的问题的一个极为理想的情形为出发点的。显露出的数学倒是高度的漂亮和对称。
+尽管——毋宁说是因为——该模型的人为性，某些基本的物理特征明显地反映在图表上了。这些特征就提示着对更现实的条件下可能发生的这类事情的一些推测。可是，要是没有使我
+那图表能够产生的那些简化假设，就决不会有如
+\end_layout
+
+\begin_layout Standard
+605此的见地。可以看到，在物理学中这类事情比比皆是：物理学家用一个“非现实”的情形认识了现实中隐藏很深的一些特性。所以，说物理学家想要使用的几何的某一分支是描
+述了“真几何”时，要特4 5 7别谨慎，因为实际上物理学家总要使用种种不同的几何学：在给定、的情形下挑选看起来最简单、最方便的那一种。
+\end_layout
+
+\begin_layout Standard
+此外——或许这更能说明问题——物理学家并不只研究我们生活在其中的三维空间。有整个一簇的“抽象空间”，在其中都可以进行物理演算，而这些空间与我们所生活的那个物理空
+间有完全不同的几何性质。那么谁会说“真几何”就是天王星和海王星在其中绕着太阳转的那个空间所确定的呢？有一种“希尔伯特”空间，量子力学的波函数就在里面晃动；有一种
+“动量空间”，那里住着傅立叶分量；有一种“互补空间力，其中有波向量跳跃；还有一种“相空间”，其中多粒子构型迅速变幻；等等。绝对没有理由说这些空间的几何学都得一样
+。实际上，它们不可能一样！因此，对物理学家来说，存在不同的和“对立”的几何学是至关重要的。
+\end_layout
+
+\begin_layout Subsection*
+数论的分叉现象与银行家
+\end_layout
+
+\begin_layout Standard
+几何说得够多了，数论又怎么样呢？不同的数论之间的相互依存也是至关重要的吗？你要是去问银行职员，我猜他准会惊诧不已而不肯相倍02加2怎么能不等于4而等于别的什么东
+西呢？要是2加2不得4，由此导致的令人无法忍受的不确定性不是立刻会使整个世界经济坍台吗？其实，并不是这么回事。首先，非标准数论并不危及2加2等于4这个古老观念，
+它与普通数论的不同仅在于它讨论无穷概念的方式。毕竟，每个TNT定理在TNT的任何扩充是定理！所以银行家们犯不上为采用非标准数论会引起混乱而感到绝望。
+\end_layout
+
+\begin_layout Standard
+不管怎么说，对旧有事实的改变怀着恐惧心理，这反映了对数606学和现实世界之间关系的一种误解。只是在你作出了要采取哪类数学这样一个决定性的选择之后，数学才告诉你有
+关现实世界的一些问题的答案。即使有一个与标准效论相左的数论，而且它也使用符号“2"、“3"和“+”，可其中一条定理却说“2+2-3"，那也没什么理由要银行家选用
+这种理论！因为它对金融工作不合用。你得使自己的数学适应世界，而不是相反。比如说，我们并不把数论用于云彩组成的系统，因为整数这个概念很难适应那里的情形。一块云彩和
+另一块云彩跑到一起并不是两块云彩，而仍只是一块。这并不证明1加1等于1，它只证明“一”的数论概念就其全部功用而言都不能用来数云彩。
+\end_layout
+
+\begin_layout Subsection*
+数论中的分叉现象与元数学家 458
+\end_layout
+
+\begin_layout Standard
+总而言之，银行家、数云彩的人、以及其余的绝大多数人，都不必为超自然数的出现而烦恼：它们丝毫不会影响世间的日常观念。实际上可能遇到点麻烦的，只是那些离不开无穷实体
+本质的人。我们周围这类人并不很多——不过数理逻辑学家属于这一范畴c数论中有分叉现象怎么就会影响他们呢？因为，数论在逻辑中有两重身份：(1)当把数论公理化时，它是
+研究对象；(2)非形式地使用数论时，它是研究形式系统的不可少的工具。这又是使用一谈论的区别。这里，(1)是谈论数论，(2)是使用数论。
+\end_layout
+
+\begin_layout Standard
+这样一来，尽管数论不适用于数云彩，但数学家认定它适用于研究形式系统，这就象银行家认定实数算术适用于他们的业务一样。这是在数学之外作出的裁决。这也表明，进行数学研
+究时的思维过程和其它领域的很多思维过程一样，含有“缠结的层次结构”，其中一个层次可以影响别的层次。层与层之间并没有明显的界限。
+\end_layout
+
+\begin_layout Standard
+就象关于“什么是数学”的形式主义观点使人们相信的那样。
+\end_layout
+
+\begin_layout Standard
+形式主义的哲学宣称数学家只讨论抽象的符号，而且可以几
+\end_layout
+
+\begin_layout Standard
+6 07乎不关心这些符号有什么现实用处、与现实有什么关系。然而这是一幅很失真的画面。这在元数学中再清楚不过了。如果是靠数的理论本身的帮助去获得有关形式系统的真实
+知识，那末数学家们就是心照不宣地表明，他们相信这些被叫做“自然数”的飘渺的玩艺其实就是现实世界的组成部分——并不只是想象中的片断。正是由于这个原因，我才在前面的
+一个括号中说，在某种意义上，对“数论的哪种说法为‘真”’有一个答案。关键在于：数理逻辑学家必须选出数论的一种说法来寄托他们的信念，尤其是他们不能在超‘自然数的存
+在与不存在之间保持中立。因为对于元数学中的问题，两个不同的理论可能给出不同的答案。
+\end_layout
+
+\begin_layout Standard
+例如“～G在TNT中有没有有穷推导？”，这个问题实际上没人知道答案。尽管如此，大多数数理逻辑学家还是会毫不犹豫地回答说没有。给出这个答案的直觉基础是下述事实：如
+果～G是定理，TNT就是∞不一致的，这样的话，你要是打算给TNT一个有意义的解释，你就被迫得吞下超自然数——而这对大多数人来讲是一件极不舒服的事。毕竟，我们发明
+TNT时并没打算或者说并不指望超自然数是它的一部分。也就是说，我们——或者我们中的多数人——都相信有可能造出一个形式化数论．它并不会强迫你相信超自然数完全象自然
+数一样真实。在押宝的时候，确定数学家们要把自己的信念寄托在数论的哪一条“岔路”上，靠的就是对现459实世界的直观。不过这种信念可能是错的。也许人们发明的每一种一
+致的形式数论都蕴涵着超自然数的存在，也就是都∞不一致。这当然是个古怪的想法，但却是可以想得到的。
+\end_layout
+
+\begin_layout Standard
+如果真是这样——我抱有怀疑，但却拿不出否证——则G不见得不可判定。其实，也许根本就没有不可判定的TNT公式。可能会简单得只有一个不分叉的数论——其中必定包括了超
+自然’数。这并不是数理逻辑学家所期待的事情，可又是不能彻底排斥的
+\end_layout
+
+\begin_layout Standard
+608事情。一般说来，数理逻辑学家相信TNT——以及与之类似的系统——是∞一致的，从而在任何这样的系统中可以构造出的哥德尔符号串都是该系统内不可判定的。这意味着
+逻辑学家挑选它或它的否定作为新公理都可以。
+\end_layout
+
+\begin_layout Subsection*
+希尔伯特第十问题与乌龟
+\end_layout
+
+\begin_layout Standard
+我打算介绍一下哥德尔定理的扩充以结束这一章o（对此戴维斯[Davis]与赫什[Hersh]的文章《希尔伯特第十问题》有更全面的论述，参看文献索引o）为此，我先得
+定义丢番图方程，即以常量整数为系数和指数的多项式方程。例如
+\end_layout
+
+\begin_layout Standard
+a-0
+\end_layout
+
+\begin_layout Standard
+以及
+\end_layout
+
+\begin_layout Standard
+Sx+13y+l=O
+\end_layout
+
+\begin_layout Standard
+以及
+\end_layout
+
+\begin_layout Standard
+5p2+17ql/-177-O
+\end_layout
+
+\begin_layout Standard
+以及
+\end_layout
+
+\begin_layout Standard
+a (123,666 ,111,666)+b(123,666,111.666)一C(123,666,111, 666)=O都是丢番图方程。一般说来，要知道一个给定
+的丢番图方程有没有整数解是一件很难的事情。事实上，希尔伯特在本世纪初的一次讲演中，就要求数学家寻找能在有穷步内确定一个给出的丢番图方程有无整数解的一般性算法。他
+居然丝毫不怀疑可能没有这种算法存在！
+\end_layout
+
+\begin_layout Standard
+现在可以把对G的讨论简单化了。已经证明，只要你有一个46C足够强有力的形式数论以及它的一个哥德尔配数法，那就有一个丢番图方程等价于Go这种等价住依赖于下述事实：
+当我们在一个元数学的层次上作解释时，该方程断言它自己无解。反过来说就是：如果你找到了一个解，那就可以从这个解构造出该系统内的一
+\end_layout
+
+\begin_layout Standard
+609个关于此方程无解的证明的哥德尔数！这就是乌龟在《前奏曲》中用费马方程作为他的丢番图方程所做的事情q我们高兴地得知，一旦做到了这一点，就能从空气分子中找回老
+巴赫演奏出的声音！
+\end_layout
+
+\begin_layout Section-toc*
+生日大合唱哇哇哇乌阿乌阿乌阿……
+\end_layout
+
+\begin_layout Standard
+五月里的一个晴朗日子，乌龟遇见了阿基里斯，两人便一起漫步在树林里。阿基里斯穿得漂漂亮亮，摇头晃脑地哼着一段曲子，别在他衬衣上的一枚硕大的徽章上写着：“今天是我生
+日！”
+\end_layout
+
+\begin_layout Standard
+乌龟：你好啊，阿基，什么事让你这么高兴？是不是赶上你生日了？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：对，对！是的，今天是我的生日！
+\end_layout
+
+\begin_layout Standard
+乌龟：我猜也是。你那徽章上写着呢。而且，要是我没听错的话，你唱的是巴赫的《生日大合唱》。那是他1727年为萨克森国王奥古斯都五十七岁生日而写的。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你说的对。奥古斯都的生日和我一样，所以这首《生日大合唱》就有双重意义。不过我不想告诉你我的年龄。
+\end_layout
+
+\begin_layout Standard
+乌龟：喔，这完全在你。可我想知道另外一件事，从你已经告诉我的这些情况里，就能得出结论说今天是你的生日，对吗？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：对，对！完全正确。今天是我的生日。
+\end_layout
+
+\begin_layout Standard
+乌龟：好极了。这正和我猜的一样。我将要推定今天是你的生日，除非——
+\end_layout
+
+\begin_layout Standard
+阿基里斯：——除非什么？
+\end_layout
+
+\begin_layout Standard
+乌龟：除非那是一个轻率仓促给出的推断o我们乌龟毕竟不喜欢跳跃推理(我们压根就不喜欢跳，尤其不喜欢跳跃推理o)我深知你也喜欢逻辑思维，那么请问，根据前面那些话，从
+逻辑上演610绎出今天是你的生日，合理不合理？阿基里斯：我相信我已经看出你提问题的规律了，龟兄。但我这回不跳着推理了，我要按字面意思对待你的问题，直截了当地回答
+你：是。
+\end_layout
+
+\begin_layout Standard
+乌龟：好！好！那就只有一件事了，我需要知道它以便完全确定今天是——
+\end_layout
+
+\begin_layout Standard
+阿基里斯：对，对，对，对……我明白你要问些什么，龟兄。我得让你知道，我已不象不久前讨论欧几里得证明时那么容易上当了。
+\end_layout
+
+\begin_layout Standard
+乌龟：哪儿的话呀，谁说过你容易上当啦？正相反，我倒认为你是逻辑思维方面的专家、演绎科学的权威、正确推理方法的泰斗……说真的，阿基，依我看，你是推理艺术的巨匠。正
+因为如462此，我要问你：“前面那些话是否提供了足够的证据，使我不用再 脑筋就能推出今天是你魄生日？”
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你对我真是过重了，龟兄，噢，我是说——过奖了！不过我注意到了你在翻来覆去地提类似的问题——要我说，你（就跟我一样）每次都能回答“是”a
+\end_layout
+
+\begin_layout Standard
+乌龟：我当然能，阿基。可要是那样做就得靠运气了，而我们乌龟一不象那些瞎猫——讨厌撞见死耗子这种事，乌龟只肯作合理猜测。啊，是的——合理猜测的威力。你想量不出有多
+少人在作猜测的时候，没有把全部的相关因素都考虑进去。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：依我看，我觉得这一大堆废话里只有一个楣关因素，那就是我的头一句话。
+\end_layout
+
+\begin_layout Standard
+乌龟：嗯，的确，我承认它至少是一个该考虑的因素——不过，你不会要我无视逻辑吧？那可是一门受人尊敬学问，作合理猜测时，逻辑永远是一个相关因素。现在，既然有一位著名
+的逻辑学家和我在一起，我在思考时就只按符合逻辑的方式借助刚才那个因素，并且要通过直接问你我的直觉是否正确来证实611我的预感。因此，我最后还是得直截了当地问问你
+：“上面那些话是否可以让我丝毫不差地推出今天是你的生日？”
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我再说一遍：是。不过坦率地说，我明确地感到你自己已经可以给出答案了，就象前面几次一样。
+\end_layout
+
+\begin_layout Standard
+乌龟：你也太刻薄了！我倒真想能如你所说的那么聪明呢！可我只不过是只普普通通、极为无知的乌龟，渴望考虑到全部的相关因素，所以我需要所有这些问题的答案。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：那好，我就来一劳永逸地解决这个问题。你先前所提的全部问题，以及你今后按这种方式将提出的全部问题，答案都一样，那就是：是。
+\end_layout
+
+\begin_layout Standard
+乌龟：好极了！一网打尽。你用自己独创的方法，避免了所有麻烦。我把这个巧妙的发明叫做答案模式，你不会见怪吧？答案模式把第一个“是”答案、第．=个“是修答案、第三个
+“是”答案等等，统统缠在一起。事实上，当它缠下去一直缠到头时，它该有个名称：“∞答案模式”，“∞”是最末一个希腊字母——我不必给你讲这个了吧？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我不在乎你叫它什么。现在我总算轻松了，你终于承认了今天是我的生日。现在我们可以谈点别的了——比如说，你打算送我什么礼物？
+\end_layout
+
+\begin_layout Standard
+乌龟：等会儿——别这么急。我会承认今天是你的生日，只是要有一个条件。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：什么条件？足我不要礼物吗？463
+\end_layout
+
+\begin_layout Standard
+乌龟：不是不是。阿基，我其实正打算招待你一顿丰盛的生日晚餐——只要你让我确信，一下子给出全部那些“是"答案（由∞答案模式给出的），我就能不绕弯子而直接推出今天是
+你的生日。是这么回事吧？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：对，就是这么回事。
+\end_layout
+
+\begin_layout Standard
+6 1 2
+\end_layout
+
+\begin_layout Standard
+乌龟：好，那我现在就有第∞+1个“是”答案了。有了它以后，我就可以进一步来试着接受今天是你生日这个假设——如果上面那种做法有效的话。你是不是能在这件事上给我当当
+顾问，阿基？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：都是些什么呀？我以为我现在看穿了你的那个无穷把戏。你不是不满足于第c0+1个"是”答案吗？那好，我就不光给你第a,+2个“是”答案，而且还给你第co+
+3个，第0+4个，一直给下去口乌龟：你真大方，阿基。今天是你的生日，该我送你礼物而不是反过来让你送我。直说了吧，我怀疑今天是不是你的生日。现在，有了这个新的答案
+模式（我要叫它2a答案模式），我想我可以推出今天是你的生日了。不过请你告诉我，阿基，2∞答案模式确实能使我完成这…飞跃吗？我是不是又漏掉了什么东西？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：你用不着再来套我。我已经有办法结束这场无聊的游戏了。我给你一·个结束全部答案模式的答案模式j也就是说，我同时给你一系列答案模式：∞，2∞，3al4a，
+5∞，一直下去。用这个元答案模式，我跳出整个系统，一了百了，超越了你自以为套住了我的这个无聊游戏——现在完事大吉了！
+\end_layout
+
+\begin_layout Standard
+乌龟：嗬！阿基，我很荣幸能接受这样一个强有力的答案模式。我觉得它一定是很少见的，入的头脑竟能发明出如此庞大的东西，我看着都害怕。我来为你这一馈赠起个名字吧，你看
+如何？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：随你便。
+\end_layout
+
+\begin_layout Standard
+乌龟：那我就叫它“c02答案模式”o我们马上就可以干别的了——不过你要告诉我，有了∞2答案模式，我是否就能推导出今天是你的生日？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：唉，真倒霉！这一连串恼人的问题还有没有个完？下一个该什么啦？6 1 3
+\end_layout
+
+\begin_layout Standard
+乌龟：哦，002答案模式之后，还有第002+1个答案。然后还有第o+2个，一直下去。不过你又可以把它们全打成一捆，作为∞2+叫答案模式，然后就会有其它的捆，诸如
+舻+20、∞2+30、4640最后，能到达2coz答案模式，这后面，又有3cr)2答案模式和4w2答案模式。它们后面，还有更进一步的答案模式，诸如∞3、∥、ms
+等等。就是这么进行下去，颇有些共同风格呢。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：我能想象了。我看，过一会就该到■答案模式了。
+\end_layout
+
+\begin_layout Standard
+乌龟：那当然。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：然后是∥和∥，，对吗？
+\end_layout
+
+\begin_layout Standard
+乌龟：你领会的快极了，阿基。要是你不介意，我想提个建议：你干嘛不把这些答案模式全都塞进单独一个答案模式里去呢？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：好吧，我真怀疑这样做能有什么结果。
+\end_layout
+
+\begin_layout Standard
+乌龟：依我看，我们至今所提出的命名惯例显然都不适于给它命名。我们随便起个名字。叫它e0答案模式吧。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：真讨厌！每次都给我的答案起个名字。我本希望这个答案能使你满意，可这么一来我的希望立刻又落空了。我们刚才干嘛不留着这个答案模式不起名字呢？
+\end_layout
+
+\begin_layout Standard
+乌龟：哪有那么容易！不起名字就没法称呼它了。此外，这个特别的答案模式是有点不可避免的，而且还相当漂亮，要是连名字都没有就太不雅观了！你过生曰时总不想做些什么观之
+不雅的事情，对吗？或者，今天不是你的生日吧？要说生日，今天该是我的生日！
+\end_layout
+
+\begin_layout Standard
+阿基里斯：什么？今天是你的生日？
+\end_layout
+
+\begin_layout Standard
+乌龟：对，没错。不过说老实话，今天是我叔叔的生日，但那差不多是一回事。今天晚上你打算怎么请我吃美味可口的生日晚餐啊？
+\end_layout
+
+\begin_layout Standard
+阿基里斯：得了吧，老龟！今天是我的生日，该你作东1
+\end_layout
+
+\begin_layout Standard
+6 1 4
+\end_layout
+
+\begin_layout Standard
+乌龟：啊，可你一直没说服我相信你这个说法是真的。你热衷于用那些答案、答案模式等等东拉西扯，可我想知道的是：今天是不是你的生日。你整个把我搞晕了。唉，太不幸了c不
+过，无论如何，你今晚要是请我吃一顿生日晚餐，我将十分高兴。
+\end_layout
+
+\begin_layout Standard
+阿基里斯：那好吧，我正好知道一个地方，那里有各种各样可口的
+\end_layout
+
+\begin_layout Standard
+汤，而我也恰好知道我们该吃哪一种…．6 1 5
+\end_layout
+
+\end_body
+\end_document

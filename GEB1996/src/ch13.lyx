@@ -5187,7 +5187,7 @@ status open
 \end_layout
 
 \begin_layout Subsection*
-从BlooP到FIooP
+从BlooP到FlooP
 \end_layout
 
 \begin_layout Standard
@@ -5198,7 +5198,7 @@ status open
 
 \begin_layout Standard
 BlooP的根本特征就是其中循环的有界性。如果我们抛掉对循环的这种要求，发明另一种语言，称其为FlooP（英文Free有“自由”的意思，我们借此表明FlooP的
-循环是自由的），会出现什么情况呢？FlooP除掉一点之外与BlooP完全相同：在FIooP中我们既可以用无顶的循环，也可以用有顶的循环（虽然在FlooP中写循环
+循环是自由的），会出现什么情况呢？FlooP除掉一点之外与BlooP完全相同：在FlooP中我们既可以用无顶的循环，也可以用有顶的循环（虽然在FlooP中写循环
 语句时注明其顶的唯一理由是为了好看）。这些新的循环将被称为MU-LOOP（μ循环）。这是为了遵守数理逻辑中的约定：在其中“自由”搜索（无界搜索）通常被注上一个叫
 “μ算子”的符号。因此，FlooP中的循环语句看上去会是这样的：
 \end_layout
@@ -5392,16 +5392,16 @@ status open
 \end_inset
 
 在第3种情况下，具有讽刺意味的是：输出变量OUTPUT的值一直是NO，但我们又一直无法得到它，因为程序仍在不停地运转。这个讨厌的第三种可能性是我们写自由循环时所
-必须付出的代价。在所有包含了MU-LOOP的FlooP程序中，无终止总是一种理论上的可能性。当然，有许多FIooP程序实际上相对于其所有可能的输入值都是能终止的
-。例如象我前面提到过的，大多数研究过妙极性的人都认为象上面提出的那样一个FIooP程序将总是能终止的，而且每次的答案都是YES。
+必须付出的代价。在所有包含了MU-LOOP的FlooP程序中，无终止总是一种理论上的可能性。当然，有许多FlooP程序实际上相对于其所有可能的输入值都是能终止的
+。例如象我前面提到过的，大多数研究过妙极性的人都认为象上面提出的那样一个FlooP程序将总是能终止的，而且每次的答案都是YES。
 \end_layout
 
 \begin_layout Subsection*
-终止和无终止的FIooP程序
+终止和无终止的FlooP程序
 \end_layout
 
 \begin_layout Standard
-一个看起来很吸引入的想法是：最好能把FIooP过程分成两类：“有终止过程”和“无终止过程”。一个“有终止过程”无论输入什么都将终止，尽管其中的循环具有“μ性质”
+一个看起来很吸引入的想法是：最好能把FlooP过程分成两类：“有终止过程”和“无终止过程”。一个“有终止过程”无论输入什么都将终止，尽管其中的循环具有“μ性质”
 。而对一个“无终止过程”来说，则输入中至少有一种选择会使它永远运行下去。如果对每个FlooP程序，我们通过某种复杂的检验总能说出它属于哪一类，这将会有某种相当显
 著的效果（我们很快就会看到）。不必说，这种类别检测操作本身也必须是个有终止操作——否则就什么也得不到了！
 \begin_inset Note Comment
@@ -5519,11 +5519,11 @@ F库、索引编号和绿程序
 \end_layout
 
 \begin_layout Standard
-象我们对BlooP所做的那样，设想包括全部FIooP程序的库。我们叫它“F库”，然后对它进行那三种过滤操作，这样最后我们将得到：
+象我们对BlooP所做的那样，设想包括全部FlooP程序的库。我们叫它“F库”，然后对它进行那三种过滤操作，这样最后我们将得到：
 \end_layout
 
 \begin_layout Quote
-一个包含所有这样的待调用FIooP程序的完整库：这些程序计算那些恰有一个输入参数的函数。
+一个包含所有这样的待调用FlooP程序的完整库：这些程序计算那些恰有一个输入参数的函数。
 \end_layout
 
 \begin_layout Standard
@@ -5539,7 +5539,10 @@ F库、索引编号和绿程序
 \end_layout
 
 \begin_layout Quote
-“绿对角”[N]=1+绿程序{#N}[N]
+\begin_inset Formula $“绿对角”[N]=1+绿程序\{\#N\}[N]$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5571,7 +5574,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-让我们称这些特殊的FIooP程序为“红程序”（因为它们早晚会碰上个红灯——都必须停下来）。现在，对角线方法可以一显身手了。
+让我们称这些特殊的FlooP程序为“红程序”（因为它们早晚会碰上个红灯——都必须停下来）。现在，对角线方法可以一显身手了。
 \end_layout
 
 \begin_layout Standard
@@ -5579,7 +5582,10 @@ status open
 \end_layout
 
 \begin_layout Quote
-“红对角”[N]=1+红程序{#N}[N]
+\begin_inset Formula $“红对角”[N]=1+红程序\{\#N\}[N]$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5643,7 +5649,7 @@ looP程序装到一台“甩干机”里，把有终止程序和无终止程序�
 
 \begin_layout Standard
 怀疑论者可能会坚持说这不象对此类终止测试的不存在性的一个严格证明。这种反对意见是合理的。但是，图灵的方案更为严格地论证了这一点：用一个和FlooP同类的语言，不
-可能写出计算机程序，来对所有FIooP程序进行终止测试。
+可能写出计算机程序，来对所有FlooP程序进行终止测试。
 \end_layout
 
 \begin_layout Subsection*
@@ -5677,7 +5683,7 @@ looP程序装到一台“甩干机”里，把有终止程序和无终止程序�
 \end_layout
 
 \begin_layout Standard
-前面已经提到过，“BlooP可计算”是“原始递归”的同义语。现在FIooP可计算函数可以被分成两类：（1）那些能用有终止FlooP程序计算的被称为“一般递归的”
+前面已经提到过，“BlooP可计算”是“原始递归”的同义语。现在FlooP可计算函数可以被分成两类：（1）那些能用有终止FlooP程序计算的被称为“一般递归的”
 ，（2）那些只能用无终止FlooP程
 \begin_inset Note Comment
 status open
