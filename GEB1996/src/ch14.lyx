@@ -129,20 +129,16 @@ status open
 \end_layout
 
 \begin_layout Standard
-本章的标题套用了哥德尔1931年那篇著名论文的标题——只是把“《数学原理)”换成了“TNT"o哥德尔的文章是一篇技术性的论文，致力于他那个精密严格的证明，本章则
-直观得多。我在此所要强调的是属于他那个证明的核心的两个关键想法。首先，是一项深刻的发现：某些TNT符号串能解释成在谈论另一些TNT符号串，简言之，作为一种语言．
+本章的标题套用了哥德尔1931年那篇著名论文的标题——只是把“《数学原理》”换成了“TNT”。哥德尔的文章是一篇技术性的论文，致力于他那个精密严格的证明，本章则
+直观得多。我在此所要强调的是属于他那个证明的核心的两个关键想法。首先，是一项深刻的发现：某些TNT符号串能解释成在谈论另一些TNT符号串，简言之，作为一种语言，
 TNT有能力“自省”，或者说是自我审视。这是哥德尔配数法的产物。第二个关键想法是：这种自我审视的性质可以全部集中于一个单个的符号串，于是这个符号串所注视的唯一焦
 点就是它自己了。本质上，这种“聚焦手法”可以上溯到康托尔的对角线方法。
 \end_layout
 
 \begin_layout Standard
-依我看，谁要是有意于深刻地了解哥德尔的证明，就必须得认识到，从根本上说，这个证明就是由这两个主要想法融和而成的。
-\end_layout
-
-\begin_layout Standard
-单独来看，两个都是妙举，揉到一起就是天才的杰作了。不过，若是一定要让我作个选择，说哪一个想法更为深刻的活，我会毫不犹豫地选择第一个——符号演算系统的哥德尔配数想
-法，因为这一想法关系到什么是意义、什么是指称的整个观念。这是个远远超出了数理逻辑范围的想法。在数理逻辑中，糜托尔的手法虽然有十分丰富的数学结果，却与实际生活很少
-关联。
+依我看，谁要是有意于深刻地了解哥德尔的证明，就必须得认识到，从根本上说，这个证明就是由这两个主要想法融和而成的。单独来看，两个都是妙举，揉到一起就是天才的杰作了
+。不过，若是一定要让我作个选择，说哪一个想法更为深刻的活，我会毫不犹豫地选择第一个——符号演算系统的哥德尔配数想法，因为这一想法关系到什么是意义、什么是指称的整
+个观念。这是个远远超出了数理逻辑范围的想法。在数理逻辑中，康托尔的手法虽然有十分丰富的数学结果，却与实际生活很少关联。
 \end_layout
 
 \begin_layout Subsection*
@@ -151,93 +147,133 @@ TNT有能力“自省”，或者说是自我审视。这是哥德尔配数法�
 
 \begin_layout Standard
 我们现在就来着手分析证明本身。第九章曾给出过一个相当
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+582
 \end_layout
 
-\begin_layout Standard
-582精细的概念，说明哥德尔同构是关于什么的。现在则要描述一个数学概念，它使我们能把诸如“符号串O=O是TNT的定理”这类胨述翻译成数论陈述。这得从“证明对”谈
-起。一个证明对是一对以某种特殊方式结合在一起的自然数。这里的想法是：
+\end_inset
+
+精细的概念，说明哥德尔同构是关于什么的。现在则要描述一个数学概念，它使我们能把诸如“符号串
+\begin_inset Formula $0=0$
+\end_inset
+
+是TNT的定理”这类胨述翻译成数论陈述。这得从“证明对”谈起。一个证明对是一对以某种特殊方式结合在一起的自然数。这里的想法是：
 \end_layout
 
-\begin_layout Standard
-两个自然数（分别用m和n表示）形成一个TNT证明对，当439
-\end_layout
-
-\begin_layout Standard
-且仅当m是某个TNT推导的哥德尔数，而该推导的最末一行是哥德尔数为n的符号串。
+\begin_layout Quote
+两个自然数（分别用m和n表示）形成一个TNT证明对，当且仅当m是某个TNT推导的哥德尔数，而该推导的最末一行是哥德尔数为n的符号串。
 \end_layout
 
 \begin_layout Standard
 对于WJU系统也有相应的概念，而且，直观上先考虑这种情形要更容易一些。所以，我们离开一会儿TNT证明对，先看看WJU证明对，它们的定义是类似的：
 \end_layout
 
-\begin_layout Standard
-两个自然数m和n形成一个WJU证明对，当且仅当m是
+\begin_layout Quote
+两个自然数m和n形成一个WJU证明对，当且仅当m是WJU系统的一个推导的哥德尔数，而这个推导的最末一行是哥德尔数为n的符号串。
 \end_layout
 
 \begin_layout Standard
-WJU系统的一个推导的哥德尔数，而这个推导的最末一行是
+\begin_inset space \qquad{}
+\end_inset
+
+让我们看两个WJU证明对的例子。第一个，令
+\begin_inset Formula $m=3131131111301$
+\end_inset
+
+，
+\begin_inset Formula $n=301$
+\end_inset
+
+。这样一对m和n的值确实构成WJU证明对，因为m是下面的WJU推导的哥德尔数：
 \end_layout
 
-\begin_layout Standard
-哥 尔数为n的符号串。
-\end_layout
-
-\begin_layout Standard
-让我们看两个WJU证明对的例子。第一个，令m=3 1 3 1 1 3 11 1 1 30 1，n-3010这样一对m和n的值确实构成WJU证明对，因为m是下面的
-WJ乙推导的哥德尔数：
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quotation
 WJ
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 WJJ
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 WJJJJ
 \end_layout
 
-\begin_layout Standard
-WUJ其中最后一行WUJ的哥德尔数为301，也就是no与此对照，令m= 31311311130及n- 30，它们为什么就不构成WJU证明对呢？
+\begin_layout Quotation
+WUJ
 \end_layout
 
 \begin_layout Standard
-为了看清答案，我们写出以这个m为码的所谓推导：
+其中最后一行WUJ的哥德尔数为301，也就是n。与此对照，令
+\begin_inset Formula $m=31311311130$
+\end_inset
+
+及
+\begin_inset Formula $n=30$
+\end_inset
+
+，它们为什么就不构成WJU证明对呢？为了看清答案，我们写出以这个m为码的所谓推导：
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 WJ
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 WJJ
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 WJJJ
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 WU
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+583
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-583这个所谓的推导中有一步无效！那就是从第二行到第三行，也就是从WJJ到wjjjo WJU系统中没有一条推导规则能产生这样一个形式步骤。相应地——这是至关重要
-的——也就没有一条算术的推导规则能使我们从3 11到3 1 11 0有了第九章的讨论，这大概是一项不足称道的考察，但却是哥德尔同构的核心所在：我们在任何形式系统
-中做的事情都有一个与之平行的算术处理。
+这个所谓的推导中有一步无效！那就是从第二行到第三行，也就是从WJJ到WJJJ。WJU系统中没有一条推导规则能产生这样一个形式步骤。相应地——这是至关重要的——也
+就没有一条算术的推导规则能使我们从
+\begin_inset Formula $311$
+\end_inset
+
+到
+\begin_inset Formula $3111$
+\end_inset
+
+。有了第九章的讨论，这大概是一项不足称道的考察，但却是哥德尔同构的核心所在：我们在任何形式系统中做的事情都有一个与之平行的算术处理。
 \end_layout
 
 \begin_layout Standard
-在任何时候m - 31311311130和n- 30当然都不构成WJU证明对。不过，仅此并不意味着30不是WJU数。也许会有另一个m 能与30构成WJU证明对o
-（早先的推理使我们知道WU不是WJU定理，所以实际上是不会有一个数能与3 0形成WJU证明对的o）
+在任何时候
+\begin_inset Formula $m=31311311130$
+\end_inset
+
+和
+\begin_inset Formula $n=30$
+\end_inset
+
+当然都不构成WJU证明对。不过，仅此并不意味着30不是WJU数。也许会有另一个m能与30构成WJU证明对。（早先的推理使我们知道WU不是WJU定理，所以实际上是
+不会有一个数能与30形成WJU证明对的。）
 \end_layout
 
 \begin_layout Standard
-那么TNT证明对又怎么样呢？下面有面个类似的例子，一个仅仅是自称为TNT证明对，另一个则是真正有效的TNT证明440对。你能指出谁是谁吗？（顺带说一下，有些地方
-编进了密码子“6 1 1修，目的是把TNT推导中相邻的两行隔开。按这个意义，“611"起了标点符号的作用a而在WJU系统中所有的行都以“3"起始，这已足够——无
-需另加标点了o）
+那么TNT证明对又怎么样呢？下面有面个类似的例子，一个仅仅是自称为TNT证明对，另一个则是真正有效的TNT证明对。你能指出谁是谁吗？（顺带说一下，有些地方编进了
+密码子“611修，目的是把TNT推导中相邻的两行隔开。按这个意义，“611"起了标点符号的作用a而在WJU系统中所有的行都以“3"起始，这已足够——无需另加标点
+了o）
 \end_layout
 
 \begin_layout Standard
