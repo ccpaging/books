@@ -272,117 +272,137 @@ status open
 
 \begin_layout Standard
 那么TNT证明对又怎么样呢？下面有面个类似的例子，一个仅仅是自称为TNT证明对，另一个则是真正有效的TNT证明对。你能指出谁是谁吗？（顺带说一下，有些地方编进了
-密码子“611修，目的是把TNT推导中相邻的两行隔开。按这个意义，“611"起了标点符号的作用a而在WJU系统中所有的行都以“3"起始，这已足够——无需另加标点
-了o）
+密码子“611
+\begin_inset Quotes erd
+\end_inset
+
+，目的是把TNT推导中相邻的两行隔开。按这个意义，“611”起了标点符号的作用。而在WJU系统中所有的行都以“3”起始，这已足够——无需另加标点了。）
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $m=626,262,636,223,123,262,111,666,611,$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\hphantom{m=\ }223,123,666,111,666$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $n=\ 123,666,111,666$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $m=626,262,636,223,123,262,111,666,611,$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\hphantom{m=\ }223,333,262,636,123,262,111,666$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $n=\ 223,333,262,636,123,262,111,666$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(1)m- 626,262,636,223,123,262 ,111,666,611,223,123,
+说清哪个是哪个是相当简单的，只要把它们翻译成老记号，再作些例行公事的测试，看看
+\end_layout
+
+\begin_layout Enumerate
+这个以m为码的所谓推导是否真是一个合法的推导；
+\end_layout
+
+\begin_layout Enumerate
+如果是，它的最后一行是否与那个以n为码的符号串相
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+584
+\end_layout
+
+\end_inset
+
+符？
 \end_layout
 
 \begin_layout Standard
-666 ,111,666
+第二步是不足道的，而第一步在下述的意义上也完全是直截了当的：不会碰到没完没了的搜索，也没有暗藏着的无休止循环。想一想上面有关WJU系统的例子，同时在心里把WJU
+系统的规则换成TNT的规则，把WJU系统的公理换成TNT的公理就行了。两种情形的算法是相同的,把它写明白，就是：
 \end_layout
 
-\begin_layout Standard
-n=123,666,111,666
-\end_layout
-
-\begin_layout Standard
-(2)m==626,262,636,223,123,262 ,111,666,611,223,333,
-\end_layout
-
-\begin_layout Standard
-262,636,123,262,111,666
-\end_layout
-
-\begin_layout Standard
-n- 223,333,262,636 ,123,262 ,111,666
-\end_layout
-
-\begin_layout Standard
-谠清哪个是哪个是相当简单的，只要把它们翻译成老记号，再作些
-\end_layout
-
-\begin_layout Standard
-例行公事的测试，看看
-\end_layout
-
-\begin_layout Standard
-(1)这个以m为码的所谓推导是否真是一个合法的推导；
-\end_layout
-
-\begin_layout Standard
-(2)如果是，它的最后一行是否与那个以n为码的符号串相
-\end_layout
-
-\begin_layout Standard
-5 84
-\end_layout
-
-\begin_layout Standard
-符？第二步是不足道的，而第一步在下述的意义上也完全是直截了当的：不会碰到没完没了的搜索，也没有暗藏着的无休止循环。想一想上面有关WJU系统的例子，同时在心里把W
-JU系统的规则换成TNT的规则，把WJU系统的公理换成TNT的公理就行了。两种情形的算法是相同的、把它写明白，就是：
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quote
 在该推导中一行一行地看下去。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quote
 标出哪些是公理。
 \end_layout
 
-\begin_layout Standard
-对不是公理的那些行，逐个检查它们是否能根据某一条推理
+\begin_layout Quote
+对不是公理的那些行，逐个检查它们是否能根据某一条推理规则从这个所谓推导的某些出现在先的行中得到。
+\end_layout
+
+\begin_layout Quote
+如果全部非公理的行都是根据推理规则从出现在先的行中得到的，那就是一个合法的推导；否则就是一个冒牌的推导。
 \end_layout
 
 \begin_layout Standard
-规则从这个所谓推导的某些出现在先的行中得到。
-\end_layout
-
-\begin_layout Standard
-如果全部非公理的行都是根据推理规则从出现在先的行中得
-\end_layout
-
-\begin_layout Standard
-到的，那就是一个合法的推导；否则就是一个冒牌的推
-\end_layout
-
-\begin_layout Standard
-导。每一阶段要执行的任务都是明白清楚的，而这些任务的数量是很容易事先确定的。
+每一阶段要执行的任务都是明白清楚的，而这些任务的数量是很容易事先确定的。
 \end_layout
 
 \begin_layout Subsection*
 “是证明对”是原始递归的…
 \end_layout
 
-\begin_layout Standard
-读者大约已能察觉，我之所以在此强调这些循环的有界性，是
+\begin_layout Quote
+读者大约已能察觉，我之所以在此强调这些循环的有界性，是要宣布基本事实1：“是证明对”这一性质是原始递归的数论性质，因而可以用一个BlooP程序测试。
 \end_layout
 
 \begin_layout Standard
-要宣布基本事实1：“是证明对”这一性质是原始递归的数论
+\begin_inset space \qquad{}
+\end_inset
+
+这和另一个密切相关的数论性质——“是定理数”——有个值得注意的对比。要断定n是一个定理数，就是要断定有某个m值能与n形成证明对。（顺带说一下，这些评注对TNT和
+WJU同样适用，把两者都记住也许会有好处，其中WJU作为原型。）要核对n是不是定理数，你得动手搜索所有可能作为n的证明对“搭档”的m值，从而有可能要进行一场无穷
+尽的追寻。没有人能说清当你想要找到一个数与n（作为第二分量）形成一个证明对时，得找
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+585
 \end_layout
 
-\begin_layout Standard
-性质，因而可以用一个BIooP程序测试。
-\end_layout
+\end_inset
 
-\begin_layout Standard
-这和另一个密切相关的数论性质——“是定理数”——有个值得注意的对比。要断定n是一个定理数，就是要断定有某个m值441能与n形成证明对o（顺带说一下，这些评注对T
-NT和WJU同样适用，把两者都记住也许会有好处，其中WJU作为原型o）耍核对n是不是定理数，你得动手搜索所有可能作为n的证明对“搭档修的m值，从而有可能要进行一
-场无穷尽的追寻。没有人能说清当你想要找到一个数与n（作为第二分量）形成一个证明对时，得找
-\end_layout
-
-\begin_layout Standard
-585多长时间。问题的关键就在于，一个系统之中既有使符号串变长的规则，也有使符号串变短的规则。两种规则的并存导致了某种程度的不可预言性。
+多长时间。问题的关键就在于，一个系统之中既有使符号串变长的规则，也有使符号串变短的规则。两种规则的并存导致了某种程度的不可预言性。
 \end_layout
 
 \begin_layout Standard
 哥德巴赫变奏的例子这时候能有所帮助。测试数对(m，n)是否形成乌龟对——即m和m+n是否都是素数——是一件不足道的事情。这之所以容易，是由于“是素数”这一性质是
 原始递归的，对此可进行一个事先就知道必定会有结局的检测。然而，要是想知道n是否具有乌龟性质，也就是问：“有没有什么数能与n形成乌龟对？”——那就又一次使我们陷入
-难以驾驭的由PL循环导致的未知之中了。
+难以驾驭的由μ循环导致的未知之中了。
 \end_layout
 
 \begin_layout Subsection*
@@ -393,20 +413,16 @@ NT和WJU同样适用，把两者都记住也许会有好处，其中WJU作为原
 这个时候，关键的想法就是上述的基本事实1，因为我们可以从它推出
 \end_layout
 
-\begin_layout Standard
-基本事实2：“构成证明对”这一性质可以用BlooP测试，因而
+\begin_layout Quote
+基本事实2：“构成证明对”这一性质可以用BlooP测试，因而一个有两个自由变元的公式在TNT中所体现。
 \end_layout
 
 \begin_layout Standard
-一个有两个自由变元的公式在TNT中所体现。
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-又一次，我们没有在意这些证明对是相对于哪个系统的，不过这实在无关紧要，因为上述两个基本事实对任何形式系统都成立。
-\end_layout
-
-\begin_layout Standard
-形式系统的本质就在于此：它总能用一种预先知道能有结局的方式，说清一个给定的符号串序列是否构成一个证明——而这一切都能移植到对应的算术概念之中。
+又一次，我们没有在意这些证明对是相对于哪个系统的，不过这实在无关紧要，因为上述两个基本事实对任何形式系统都成立。形式系统的本质就在于此：它总能用一种预先知道能有
+结局的方式，说清一个给定的符号串序列是否构成一个证明——而这一切都能移植到对应的算术概念之中。
 \end_layout
 
 \begin_layout Subsection*
@@ -1471,270 +1487,548 @@ TNT时并没打算或者说并不指望超自然数是它的一部分。也就�
 \end_layout
 
 \begin_layout Standard
-我打算介绍一下哥德尔定理的扩充以结束这一章o（对此戴维斯[Davis]与赫什[Hersh]的文章《希尔伯特第十问题》有更全面的论述，参看文献索引o）为此，我先得
+我打算介绍一下哥德尔定理的扩充以结束这一章。（对此戴维斯[Davis]与赫什[Hersh]的文章《希尔伯特第十问题》有更全面的论述，参看文献索引。）为此，我先得
 定义丢番图方程，即以常量整数为系数和指数的多项式方程。例如
 \end_layout
 
-\begin_layout Standard
-a-0
+\begin_layout CenterLine
+\begin_inset Formula $a=0$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 以及
 \end_layout
 
-\begin_layout Standard
-Sx+13y+l=O
+\begin_layout CenterLine
+\begin_inset Formula $5x+13y+1=O$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 以及
 \end_layout
 
-\begin_layout Standard
-5p2+17ql/-177-O
+\begin_layout CenterLine
+\begin_inset Formula $5p^{2}+17q^{17}-177-O$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 以及
 \end_layout
 
-\begin_layout Standard
-a (123,666 ,111,666)+b(123,666,111.666)一C(123,666,111, 666)=O都是丢番图方程。一般说来，要知道一个给定
-的丢番图方程有没有整数解是一件很难的事情。事实上，希尔伯特在本世纪初的一次讲演中，就要求数学家寻找能在有穷步内确定一个给出的丢番图方程有无整数解的一般性算法。他
-居然丝毫不怀疑可能没有这种算法存在！
+\begin_layout CenterLine
+\begin_inset Formula $a^{(123,666,111,666)}+b^{(123,666,111.666)}-c^{(123,666,111,666)}=0$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-现在可以把对G的讨论简单化了。已经证明，只要你有一个46C足够强有力的形式数论以及它的一个哥德尔配数法，那就有一个丢番图方程等价于Go这种等价住依赖于下述事实：
-当我们在一个元数学的层次上作解释时，该方程断言它自己无解。反过来说就是：如果你找到了一个解，那就可以从这个解构造出该系统内的一
+\noindent
+都是丢番图方程。一般说来，要知道一个给定的丢番图方程有没有整数解是一件很难的事情。事实上，希尔伯特在本世纪初的一次讲演中，就要求数学家寻找能在有穷步内确定一个给
+出的丢番图方程有无整数解的一般性算法。他居然丝毫不怀疑可能没有这种算法存在！
 \end_layout
 
 \begin_layout Standard
-609个关于此方程无解的证明的哥德尔数！这就是乌龟在《前奏曲》中用费马方程作为他的丢番图方程所做的事情q我们高兴地得知，一旦做到了这一点，就能从空气分子中找回老
-巴赫演奏出的声音！
+现在可以把对G的讨论简单化了。已经证明，只要你有一个足够强有力的形式数论以及它的一个哥德尔配数法，那就有一个丢番图方程等价于G。这种等价住依赖于下述事实：当我们
+在一个元数学的层次上作解释时，该方程断言它自己无解。反过来说就是：如果你找到了一个解，那就可以从这个解构造出该系统内的一
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+609
+\end_layout
+
+\end_inset
+
+个关于此方程无解的证明的哥德尔数！这就是乌龟在《前奏曲》中用费马方程作为他的丢番图方程所做的事情。我们高兴地得知，一旦做到了这一点，就能从空气分子中找回老巴赫演
+奏出的声音！
 \end_layout
 
 \begin_layout Section-toc*
 生日大合唱哇哇哇乌阿乌阿乌阿……
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
 五月里的一个晴朗日子，乌龟遇见了阿基里斯，两人便一起漫步在树林里。阿基里斯穿得漂漂亮亮，摇头晃脑地哼着一段曲子，别在他衬衣上的一枚硕大的徽章上写着：“今天是我生
 日！”
 \end_layout
 
-\begin_layout Standard
-乌龟：你好啊，阿基，什么事让你这么高兴？是不是赶上你生日了？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 你好啊，阿基，什么事让你这么高兴？是不是赶上你生日了？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：对，对！是的，今天是我的生日！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 对，对！是的，今天是我的生日！
 \end_layout
 
-\begin_layout Standard
-乌龟：我猜也是。你那徽章上写着呢。而且，要是我没听错的话，你唱的是巴赫的《生日大合唱》。那是他1727年为萨克森国王奥古斯都五十七岁生日而写的。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 我猜也是。你那徽章上写着呢。而且，要是我没听错的话，你唱的是巴赫的《生日大合唱》。那是他1727年为萨克森国王奥古斯都五十七岁生日而写的。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：你说的对。奥古斯都的生日和我一样，所以这首《生日大合唱》就有双重意义。不过我不想告诉你我的年龄。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你说的对。奥古斯都的生日和我一样，所以这首《生日大合唱》就有双重意义。不过我不想告诉你我的年龄。
 \end_layout
 
-\begin_layout Standard
-乌龟：喔，这完全在你。可我想知道另外一件事，从你已经告诉我的这些情况里，就能得出结论说今天是你的生日，对吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 喔，这完全在你。可我想知道另外一件事，从你已经告诉我的这些情况里，就能得出结论说今天是你的生日，对吗？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：对，对！完全正确。今天是我的生日。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 对，对！完全正确。今天是我的生日。
 \end_layout
 
-\begin_layout Standard
-乌龟：好极了。这正和我猜的一样。我将要推定今天是你的生日，除非——
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 好极了。这正和我猜的一样。我将要推定今天是你的生日，除非——
 \end_layout
 
-\begin_layout Standard
-阿基里斯：——除非什么？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： ——除非什么？
 \end_layout
 
-\begin_layout Standard
-乌龟：除非那是一个轻率仓促给出的推断o我们乌龟毕竟不喜欢跳跃推理(我们压根就不喜欢跳，尤其不喜欢跳跃推理o)我深知你也喜欢逻辑思维，那么请问，根据前面那些话，从
-逻辑上演610绎出今天是你的生日，合理不合理？阿基里斯：我相信我已经看出你提问题的规律了，龟兄。但我这回不跳着推理了，我要按字面意思对待你的问题，直截了当地回答
-你：是。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 除非那是一个轻率仓促给出的推断。我们乌龟毕竟不喜欢跳跃推理(我们压根就不喜欢跳，尤其不喜欢跳跃推理。)我深知你也喜欢逻辑思维，那么请问，根据前面那些话，
+从逻辑上演
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+610
 \end_layout
 
-\begin_layout Standard
-乌龟：好！好！那就只有一件事了，我需要知道它以便完全确定今天是——
+\end_inset
+
+绎出今天是你的生日，合理不合理？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：对，对，对，对……我明白你要问些什么，龟兄。我得让你知道，我已不象不久前讨论欧几里得证明时那么容易上当了。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我相信我已经看出你提问题的规律了，龟兄。但我这回不跳着推理了，我要按字面意思对待你的问题，直截了当地回答你：是。
 \end_layout
 
-\begin_layout Standard
-乌龟：哪儿的话呀，谁说过你容易上当啦？正相反，我倒认为你是逻辑思维方面的专家、演绎科学的权威、正确推理方法的泰斗……说真的，阿基，依我看，你是推理艺术的巨匠。正
-因为如462此，我要问你：“前面那些话是否提供了足够的证据，使我不用再 脑筋就能推出今天是你魄生日？”
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 好！好！那就只有一件事了，我需要知道它以便完全确定今天是——
 \end_layout
 
-\begin_layout Standard
-阿基里斯：你对我真是过重了，龟兄，噢，我是说——过奖了！不过我注意到了你在翻来覆去地提类似的问题——要我说，你（就跟我一样）每次都能回答“是”a
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 对，对，对，对……我明白你要问些什么，龟兄。我得让你知道，我已不象不久前讨论欧几里得证明时那么容易上当了。
 \end_layout
 
-\begin_layout Standard
-乌龟：我当然能，阿基。可要是那样做就得靠运气了，而我们乌龟一不象那些瞎猫——讨厌撞见死耗子这种事，乌龟只肯作合理猜测。啊，是的——合理猜测的威力。你想量不出有多
-少人在作猜测的时候，没有把全部的相关因素都考虑进去。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 哪儿的话呀，谁说过你容易上当啦？正相反，我倒认为你是逻辑思维方面的专家、演绎科学的权威、正确推理方法的泰斗……说真的，阿基，依我看，你是推理艺术的巨匠。
+正因为如此，我要问你：“前面那些话是否提供了足够的证据，使我不用再脑筋就能推出今天是你的生日？”
 \end_layout
 
-\begin_layout Standard
-阿基里斯：依我看，我觉得这一大堆废话里只有一个楣关因素，那就是我的头一句话。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你对我真是过重了，龟兄，噢，我是说——过奖了！不过我注意到了你在翻来覆去地提类似的问题——要我说，你（就跟我一样）每次都能回答“是”。
 \end_layout
 
-\begin_layout Standard
-乌龟：嗯，的确，我承认它至少是一个该考虑的因素——不过，你不会要我无视逻辑吧？那可是一门受人尊敬学问，作合理猜测时，逻辑永远是一个相关因素。现在，既然有一位著名
-的逻辑学家和我在一起，我在思考时就只按符合逻辑的方式借助刚才那个因素，并且要通过直接问你我的直觉是否正确来证实611我的预感。因此，我最后还是得直截了当地问问你
-：“上面那些话是否可以让我丝毫不差地推出今天是你的生日？”
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 我当然能，阿基。可要是那样做就得靠运气了，而我们乌龟——不象那些瞎猫——讨厌撞见死耗子这种事，乌龟只肯作合理猜测。啊，是的——合理猜测的威力。你想象不出
+有多少人在作猜测的时候，没有把全部的相关因素都考虑进去。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：我再说一遍：是。不过坦率地说，我明确地感到你自己已经可以给出答案了，就象前面几次一样。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 依我看，我觉得这一大堆废话里只有一个相关因素，那就是我的头一句话。
 \end_layout
 
-\begin_layout Standard
-乌龟：你也太刻薄了！我倒真想能如你所说的那么聪明呢！可我只不过是只普普通通、极为无知的乌龟，渴望考虑到全部的相关因素，所以我需要所有这些问题的答案。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 嗯，的确，我承认它至少是一个该考虑的因素——不过，你不会要我无视逻辑吧？那可是一门受人尊敬学问，作合理猜测时，逻辑永远是一个相关因素。现在，既然有一位著
+名的逻辑学家和我在一起，我在思考时就只按符合逻辑的方式借助刚才那个因素，并且要通过直接问你我的直觉是否正确来证实
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+611
 \end_layout
 
-\begin_layout Standard
-阿基里斯：那好，我就来一劳永逸地解决这个问题。你先前所提的全部问题，以及你今后按这种方式将提出的全部问题，答案都一样，那就是：是。
+\end_inset
+
+我的预感。因此，我最后还是得直截了当地问问你：“上面那些话是否可以让我丝毫不差地推出今天是你的生日？”
 \end_layout
 
-\begin_layout Standard
-乌龟：好极了！一网打尽。你用自己独创的方法，避免了所有麻烦。我把这个巧妙的发明叫做答案模式，你不会见怪吧？答案模式把第一个“是”答案、第．=个“是修答案、第三个
-“是”答案等等，统统缠在一起。事实上，当它缠下去一直缠到头时，它该有个名称：“∞答案模式”，“∞”是最末一个希腊字母——我不必给你讲这个了吧？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我再说一遍：是。不过坦率地说，我明确地感到你自己已经可以给出答案了，就象前面几次一样。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：我不在乎你叫它什么。现在我总算轻松了，你终于承认了今天是我的生日。现在我们可以谈点别的了——比如说，你打算送我什么礼物？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 你也太刻薄了！我倒真想能如你所说的那么聪明呢！可我只不过是只普普通通、极为无知的乌龟，渴望考虑到全部的相关因素，所以我需要所有这些问题的答案。
 \end_layout
 
-\begin_layout Standard
-乌龟：等会儿——别这么急。我会承认今天是你的生日，只是要有一个条件。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 那好，我就来一劳永逸地解决这个问题。你先前所提的全部问题，以及你今后按这种方式将提出的全部问题，答案都一样，那就是：是。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：什么条件？足我不要礼物吗？463
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 好极了！一网打尽。你用自己独创的方法，避免了所有麻烦。我把这个巧妙的发明叫做答案模式，你不会见怪吧？答案模式把第一个“是”答案、第二个“是”答案、第三个
+“是”答案等等，统统缠在一起。事实上，当它缠下去一直缠到头时，它该有个名称：“ω答案模式”，“ω”是最末一个希腊字母——我不必给你讲这个了吧？
 \end_layout
 
-\begin_layout Standard
-乌龟：不是不是。阿基，我其实正打算招待你一顿丰盛的生日晚餐——只要你让我确信，一下子给出全部那些“是"答案（由∞答案模式给出的），我就能不绕弯子而直接推出今天是
-你的生日。是这么回事吧？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我不在乎你叫它什么。现在我总算轻松了，你终于承认了今天是我的生日。现在我们可以谈点别的了——比如说，你打算送我什么礼物？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：对，就是这么回事。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 等会儿——别这么急。我会承认今天是你的生日，只是要有一个条件。
 \end_layout
 
-\begin_layout Standard
-6 1 2
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 什么条件？是我不要礼物吗？
 \end_layout
 
-\begin_layout Standard
-乌龟：好，那我现在就有第∞+1个“是”答案了。有了它以后，我就可以进一步来试着接受今天是你生日这个假设——如果上面那种做法有效的话。你是不是能在这件事上给我当当
-顾问，阿基？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 不是不是。阿基，我其实正打算招待你一顿丰盛的生日晚餐——只要你让我确信，一下子给出全部那些“是”答案（由ω答案模式给出的），我就能不绕弯子而直接推出今天
+是你的生日。是这么回事吧？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：都是些什么呀？我以为我现在看穿了你的那个无穷把戏。你不是不满足于第c0+1个"是”答案吗？那好，我就不光给你第a,+2个“是”答案，而且还给你第co+
-3个，第0+4个，一直给下去口乌龟：你真大方，阿基。今天是你的生日，该我送你礼物而不是反过来让你送我。直说了吧，我怀疑今天是不是你的生日。现在，有了这个新的答案
-模式（我要叫它2a答案模式），我想我可以推出今天是你的生日了。不过请你告诉我，阿基，2∞答案模式确实能使我完成这…飞跃吗？我是不是又漏掉了什么东西？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 对，就是这么回事。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+612
 \end_layout
 
-\begin_layout Standard
-阿基里斯：你用不着再来套我。我已经有办法结束这场无聊的游戏了。我给你一·个结束全部答案模式的答案模式j也就是说，我同时给你一系列答案模式：∞，2∞，3al4a，
-5∞，一直下去。用这个元答案模式，我跳出整个系统，一了百了，超越了你自以为套住了我的这个无聊游戏——现在完事大吉了！
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-乌龟：嗬！阿基，我很荣幸能接受这样一个强有力的答案模式。我觉得它一定是很少见的，入的头脑竟能发明出如此庞大的东西，我看着都害怕。我来为你这一馈赠起个名字吧，你看
-如何？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 好，那我现在就有第ω+1个“是”答案了。有了它以后，我就可以进一步来试着接受今天是你生日这个假设——如果上面那种做法有效的话。你是不是能在这件事上给我当
+当顾问，阿基？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：随你便。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 都是些什么呀？我以为我现在看穿了你的那个无穷把戏。你不是不满足于第ω+1个"是”答案吗？那好，我就不光给你第ω+2个“是”答案，而且还给你第ω+3个
+，第ω+4个，一直给下去。
 \end_layout
 
-\begin_layout Standard
-乌龟：那我就叫它“c02答案模式”o我们马上就可以干别的了——不过你要告诉我，有了∞2答案模式，我是否就能推导出今天是你的生日？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 你真大方，阿基。今天是你的生日，该我送你礼物而不是反过来让你送我。直说了吧，我怀疑今天是不是你的生日。现在，有了这个新的答案模式（我要叫它2ω答案模式）
+，我想我可以推出今天是你的生日了。不过请你告诉我，阿基，2ω答案模式确实能使我完成这一飞跃吗？我是不是又漏掉了什么东西？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：唉，真倒霉！这一连串恼人的问题还有没有个完？下一个该什么啦？6 1 3
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你用不着再来套我。我已经有办法结束这场无聊的游戏了。我给你一个结束全部答案模式的答案模式！也就是说，我同时给你一系列答案模式：ω，2ω，3ω，4ω，
+5ω，一直下去。用这个元答案模式，我跳出整个系统，一了百了，超越了你自以为套住了我的这个无聊游戏——现在完事大吉了！
 \end_layout
 
-\begin_layout Standard
-乌龟：哦，002答案模式之后，还有第002+1个答案。然后还有第o+2个，一直下去。不过你又可以把它们全打成一捆，作为∞2+叫答案模式，然后就会有其它的捆，诸如
-舻+20、∞2+30、4640最后，能到达2coz答案模式，这后面，又有3cr)2答案模式和4w2答案模式。它们后面，还有更进一步的答案模式，诸如∞3、∥、ms
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 嗬！阿基，我很荣幸能接受这样一个强有力的答案模式。我觉得它一定是很少见的，人的头脑竟能发明出如此庞大的东西，我看着都害怕。我来为你这一馈赠起个名字吧，你
+看如何？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 随你便。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 那我就叫它“
+\begin_inset Formula $\omega^{2}$
+\end_inset
+
+答案模式”。我们马上就可以干别的了——不过你要告诉我，有了
+\begin_inset Formula $\omega^{2}$
+\end_inset
+
+答案模式，我是否就能推导出今天是你的生日？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 唉，真倒霉！这一连串恼人的问题还有没有个完？下一个该什么啦？
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+613
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 哦，
+\begin_inset Formula $\omega^{2}$
+\end_inset
+
+答案模式之后，还有第
+\begin_inset Formula $\omega^{2}$
+\end_inset
+
++1个答案。然后还有第
+\begin_inset Formula $\omega^{2}$
+\end_inset
+
++2个，一直下去。不过你又可以把它们全打成一捆，作为
+\begin_inset Formula $\omega^{2}+\omega$
+\end_inset
+
+叫答案模式，然后就会有其它的捆，诸如
+\begin_inset Formula $\omega^{2}+2\omega$
+\end_inset
+
+、
+\begin_inset Formula $\omega^{2}+3\omega$
+\end_inset
+
+……。最后，能到达
+\begin_inset Formula $\omega^{2}$
+\end_inset
+
+答案模式，这后面，又有
+\begin_inset Formula $3\omega^{2}$
+\end_inset
+
+答案模式和
+\begin_inset Formula $4\omega^{2}$
+\end_inset
+
+答案模式。它们后面，还有更进一步的答案模式，诸如
+\begin_inset Formula $\omega^{3}$
+\end_inset
+
+、
+\begin_inset Formula $\omega^{4}$
+\end_inset
+
+、
+\begin_inset Formula $\omega^{5}$
+\end_inset
+
 等等。就是这么进行下去，颇有些共同风格呢。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：我能想象了。我看，过一会就该到■答案模式了。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我能想象了。我看，过一会就该到
+\begin_inset Formula $\omega^{3}$
+\end_inset
+
+答案模式了。
 \end_layout
 
-\begin_layout Standard
-乌龟：那当然。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 那当然。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：然后是∥和∥，，对吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 然后是
+\begin_inset Formula $\omega^{\omega^{\omega}}$
+\end_inset
+
+和
+\begin_inset Formula $\omega^{\omega^{\omega^{\omega}}}$
+\end_inset
+
+，对吗？
 \end_layout
 
-\begin_layout Standard
-乌龟：你领会的快极了，阿基。要是你不介意，我想提个建议：你干嘛不把这些答案模式全都塞进单独一个答案模式里去呢？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 你领会的快极了，阿基。要是你不介意，我想提个建议：你干嘛不把这些答案模式全都塞进单独一个答案模式里去呢？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：好吧，我真怀疑这样做能有什么结果。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 好吧，我真怀疑这样做能有什么结果。
 \end_layout
 
-\begin_layout Standard
-乌龟：依我看，我们至今所提出的命名惯例显然都不适于给它命名。我们随便起个名字。叫它e0答案模式吧。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 依我看，我们至今所提出的命名惯例显然都不适于给它命名。我们随便起个名字。叫它
+\begin_inset Formula $\varepsilon_{0}$
+\end_inset
+
+答案模式吧。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：真讨厌！每次都给我的答案起个名字。我本希望这个答案能使你满意，可这么一来我的希望立刻又落空了。我们刚才干嘛不留着这个答案模式不起名字呢？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 真讨厌！每次都给我的答案起个名字。我本希望这个答案能使你满意，可这么一来我的希望立刻又落空了。我们刚才干嘛不留着这个答案模式不起名字呢？
 \end_layout
 
-\begin_layout Standard
-乌龟：哪有那么容易！不起名字就没法称呼它了。此外，这个特别的答案模式是有点不可避免的，而且还相当漂亮，要是连名字都没有就太不雅观了！你过生曰时总不想做些什么观之
-不雅的事情，对吗？或者，今天不是你的生日吧？要说生日，今天该是我的生日！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 哪有那么容易！不起名字就没法称呼它了。此外，这个特别的答案模式是有点不可避免的，而且还相当漂亮，要是连名字都没有就太不雅观了！你过生日时总不想做些什么观
+之不雅的事情，对吗？或者，今天不是你的生日吧？要说生日，今天该是我的生日！
 \end_layout
 
-\begin_layout Standard
-阿基里斯：什么？今天是你的生日？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 什么？今天是你的生日？
 \end_layout
 
-\begin_layout Standard
-乌龟：对，没错。不过说老实话，今天是我叔叔的生日，但那差不多是一回事。今天晚上你打算怎么请我吃美味可口的生日晚餐啊？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 对，没错。不过说老实话，今天是我叔叔的生日，但那差不多是一回事。今天晚上你打算怎么请我吃美味可口的生日晚餐啊？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：得了吧，老龟！今天是我的生日，该你作东1
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 得了吧，老龟！今天是我的生日，该你作东！
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+614
 \end_layout
 
-\begin_layout Standard
-6 1 4
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-乌龟：啊，可你一直没说服我相信你这个说法是真的。你热衷于用那些答案、答案模式等等东拉西扯，可我想知道的是：今天是不是你的生日。你整个把我搞晕了。唉，太不幸了c不
-过，无论如何，你今晚要是请我吃一顿生日晚餐，我将十分高兴。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 啊，可你一直没说服我相信你这个说法是真的。你热衷于用那些答案、答案模式等等东拉西扯，可我想知道的是：今天是不是你的生日。你整个把我搞晕了。唉，太不幸了。
+不过，无论如何，你今晚要是请我吃一顿生日晚餐，我将十分高兴。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：那好吧，我正好知道一个地方，那里有各种各样可口的
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 那好吧，我正好知道一个地方，那里有各种各样可口的汤，而我也恰好知道我们该吃哪一种……
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+615
 \end_layout
 
-\begin_layout Standard
-汤，而我也恰好知道我们该吃哪一种…．6 1 5
+\end_inset
+
+
 \end_layout
 
 \end_body
