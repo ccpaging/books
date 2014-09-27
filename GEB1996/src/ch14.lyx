@@ -430,217 +430,199 @@ status open
 \end_layout
 
 \begin_layout Standard
-为了把话说具体些，不妨就假定我们要讨论WJU系统。读者可能逐记得我们称为“无朋”的那个符号串，它在某个层次上的解释是：“WU是WJU系统的一个定理”o我们可以说
-明如何利用体现wjU证明对概念的那个公式在TNT中表示无朋。我们把体现
+为了把话说具体些，不妨就假定我们要讨论WJU系统。读者可能逐记得我们称为“无朋”的那个符号串，它在某个层次上的解释是：“WU是WJU系统的一个定理”。我们可以说
+明如何利用体现WJU证明对概念的那个公式在TNT中表示无朋。我们把体现
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+586
+\end_layout
+
+\end_inset
+
+，WJU证明对的公式（其存在性由基本事实2保证）缩写为：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $WJU-PROOF-PAIR\{a,a^{\prime}\}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-5 8 6， WJU证明对的公式（其存在性由基本事实2保证）缩写为：
+由于它涉及两个数的性质，所以得用含两个自由变元的公式来体现。（要注意：本章中我们总是使用简朴TNT——因此得小心区分变元
+\begin_inset Formula $a$
+\end_inset
+
+，
+\begin_inset Formula $a^{\prime}$
+\end_inset
+
+，
+\begin_inset Formula $a^{\prime\prime}$
+\end_inset
+
+。）为了断言“WU是WJU系统的定理”，我们得作一个与之同构的陈述“30是WJU系统的定理数”，然后再把它翻译成TNT记号。利用我们的缩写法，这不难做到（同时回
+忆一下，第八章里为了标明每个
+\begin_inset Formula $a^{\prime}$
+\end_inset
+
+都用某个数字去替换，我们是在该数字之后写上“
+\begin_inset Formula $/a^{\prime}$
+\end_inset
+
+”）：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\begin{array}{l}
+\exists a:WJU-PROOF-PAIR\\
+\{a,SSSSSSSSSSSSSSS\\
+\hphantom{\{a,}SSSSSSSSSSSSSSS0/a^{\prime}\}
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-wjU-PROOF—PAIR{a．a’)
+\noindent
+数数S，共30个，应该看到这是TNT的一个闭句子，原有的自由变元一个量化了，另一个则换成了一个数字。另外，这里作了一件聪明事。基本事实2给我们指出了一种谈论证明
+对的办法，我们刚才又想出了该如何谈论定理数：在前面加一个存在量词就行了！上面的符号串更直接地翻译过来将是：“存在某个数a能与30（作为第二个分量）形成WJU证明
+对。”
 \end_layout
 
 \begin_layout Standard
-由于它涉及两个数的性质，所以得用含两个自由变元的公式来体44 2
+假使我们要对TNT作类似的事情——比方说要表示“0=0是TNT定理”这句话，找们可以用类似的方法缩写出一个（仍是有两个自由变元的）公式（其存在性由基本事实2保证
+）：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $TNT-PROOF-PAIR\{a，a^{\prime}\}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-现o（要注意：本章中我们总是使用简朴TNT-因此得小心区分
+（这个缩写的TNT公式的解释是：“自然数
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $a^{\prime}$
+\end_inset
+
+构成TNT证明对”。）接下来就是按照上述无朋模式把我们的话翻译成数论陈述，就是：“存在一个自然数a，它与666,111,666（作为后一分量）构成TNT证明对”
+，表示它的TNT公式是
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\begin{array}{l}
+\exists a:TNT-PROOF-PAIR\\
+\{a,\underset{\text{很多很多}S\text{（事实上有}666,111,666\text{个）}}{\underbrace{SSSSS\cdots\cdots SSSSS}}0/a^{\prime}\}
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-变元a，a 7，a，，o）为了断言“WU是WJU系统的定理”，我们得作一
+\noindent
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+587
 \end_layout
 
-\begin_layout Standard
-个与之同构的陈述“3 0是WJU系统的定理数”，然后再把它翻译
-\end_layout
+\end_inset
 
-\begin_layout Standard
-成TNT记号。利用我们的缩写法，这不难做到（同时回忆一一下，第
-\end_layout
-
-\begin_layout Standard
-八章里为了标明每个a 7都用某个数字去替换，我们是在该数字之
-\end_layout
-
-\begin_layout Standard
-后写上“/a'’）：
-\end_layout
-
-\begin_layout Standard
-j a:WJU - PROOF -PAIR
-\end_layout
-
-\begin_layout Standard
-{a,SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSO/a’)
-\end_layout
-
-\begin_layout Standard
-数数S，共30个，应该看到这是TNT的一个闭句子，原有的自由
-\end_layout
-
-\begin_layout Standard
-变元一个量化了，另一个则换成了一个数字。另外，这里作了一件
-\end_layout
-
-\begin_layout Standard
-聪明事口基本事实2给我们指出了一种谈论证明对的办法，我们刚
-\end_layout
-
-\begin_layout Standard
-才又想出了该如何谈论定理数：在前面加一个存在量词就行了！上
-\end_layout
-
-\begin_layout Standard
-面的符号串更直接地翻译过来将是：“存在某个数a能与3 0（作为
-\end_layout
-
-\begin_layout Standard
-第二个分量）形成WJU证明对。”
-\end_layout
-
-\begin_layout Standard
-假使我们要对TNT作类似的事情——比方说要表示“0=O
-\end_layout
-
-\begin_layout Standard
-是TNT定理”这句话，找们可以用类似的方法缩写出一个（仍是
-\end_layout
-
-\begin_layout Standard
-有两个自由变元的）公式（其存在性由基本事实2保证）：
-\end_layout
-
-\begin_layout Standard
-TNT—PROOF—PAIR{a，af)
-\end_layout
-
-\begin_layout Standard
-（这个缩写的TNT公式的解释是：“自然数a和a 7构成TNT证明
-\end_layout
-
-\begin_layout Standard
-对”o）接下来就是按照上述无朋模式把我们的话翻译成数论陈述，
-\end_layout
-
-\begin_layout Standard
-就是：“存在一个自然数a，它与666,111,666（作为后一分量）构成
-\end_layout
-
-\begin_layout Standard
-TNT证明对”，表示它的TNT公式是
-\end_layout
-
-\begin_layout Standard
-了a: TNT - PROOF—PAIR{a,SSSSS--- ---SSSSSO/a')
-\end_layout
-
-\begin_layout Standard
-—————、厂————一
-\end_layout
-
-\begin_layout Standard
-很多很多S（事实上有6 6 6，111，6 6 6个）
-\end_layout
-
-\begin_layout Standard
-5 8 7
-\end_layout
-
-\begin_layout Standard
-一个TNT闭句子o（我们称之为“赵州”，原因一会儿就清楚a）由此我们看到有那么一种方法，它不但可以谈论TNT证明对这样的原始递归概念，而且也能谈论与之有关而又不
-那么靠得住的“TNT定理数”这一概念。
+……一个TNT闭句子。（我们称之为“赵州”，原因一会儿就清楚。）由此我们看到有那么一种方法，它不但可以谈论TNT证明对这样的原始递归概念，而且也能谈论与之有关而
+又不那么靠得住的“TNT定理数”这一概念。
 \end_layout
 
 \begin_layout Standard
 为了检验你对这些想法的理解，请你想想如何把下述有关TNT的元陈述翻译成TNT记号：
 \end_layout
 
-\begin_layout Standard
-(1)O-O不是TNT定理。
+\begin_layout Enumerate
+0=0不是TNT定理。
+\end_layout
+
+\begin_layout Enumerate
+~0=0是TNT定理。
+\end_layout
+
+\begin_layout Enumerate
+~0=0不是TNT定理。
 \end_layout
 
 \begin_layout Standard
-(2)～O=O是TNT定理。
+\begin_inset space \qquad{}
+\end_inset
+
+它们的解答与上述例子有什么不同？彼此之间有什么不同？这里再给你几个翻译练习：
+\end_layout
+
+\begin_layout Enumerate-Resume
+赵州是TNT定理。（表示这句话的符号串称为“元赵州”。）
+\end_layout
+
+\begin_layout Enumerate-Resume
+元赵州是TNT定理。（表示这句话的符号串称为“元元赵州”。）
+\end_layout
+
+\begin_layout Enumerate-Resume
+元元赵州是TNT定理。
+\end_layout
+
+\begin_layout Enumerate-Resume
+元元元赵州是TNT定理。
 \end_layout
 
 \begin_layout Standard
-(3)～O=O不是TNT定理。443 它们的解答与上述例子有什么不同？彼此之间有什么不同？这里再给你几个翻译练习：
+\begin_inset space \qquad{}
+\end_inset
+
+（等等，等等。）
 \end_layout
 
 \begin_layout Standard
-(4)赵州是TNT定理o（表示这句话的符号串称为“元赵
+\noindent
+例5表明关于元元TNT的一些陈述能翻译成TNT记号；例6则表明对元元元TNT的陈述也是如此，等等。
 \end_layout
 
 \begin_layout Standard
-州”o）
+这时候要紧的是要记住：表示一个性质和体现一个性质是不一样的，例如“是TNT定理数”由公式
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\exists a:TNT-PROOF-PAIR\{a，a^{\prime}\}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(5)元赵州是TNT定理o（表示这句话的符号串称为“元元
-\end_layout
+来表示，翻译为：“
+\begin_inset Formula $a^{\prime}$
+\end_inset
 
-\begin_layout Standard
-赵州”o）
-\end_layout
+是TNT定理数”。但我们并不担保此公式体现了这一概念，因为我们并未能担保这个性质是原始递归的——事实上我们至少会暗中怀疑它不是。（这样怀疑是合理的。“是TNT定
+理数”这一性质不是原始递归的，因而也就没有一个TNT
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-(6)元元赵州是TNT定理。
-\end_layout
-
-\begin_layout Standard
-(7)元元元赵州是TNT定理。
-\end_layout
-
-\begin_layout Standard
-（等等，等等o）
-\end_layout
-
-\begin_layout Standard
-例5表明关于元元TNT的一些陈述能翻译成TNT记号；例6则
-\end_layout
-
-\begin_layout Standard
-表明对元元元TNT的陈述也是如此，等等。
-\end_layout
-
-\begin_layout Standard
-这时候要紧的是要记住：表示一个性质和体现一个性质是不
-\end_layout
-
-\begin_layout Standard
-一样的，例如“是TNT定理数”由公式
-\end_layout
-
-\begin_layout Standard
-j a:TNT-PROOF-PAIR{a,a'}
-\end_layout
-
-\begin_layout Standard
-来表示，翻译为：“a’是TNT定理数”o但我们并不担保此公式体
-\end_layout
-
-\begin_layout Standard
-现了这一概念，因为我们并未能担保这个性质是原始递归的～—
-\end_layout
-
-\begin_layout Standard
-事实上我们至少会暗中怀疑它不是o（这样怀疑是合理的。“是
-\end_layout
-
-\begin_layout Standard
-TNT定理数”这一性质不是原始递归的，因而也就没有一个TNT
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 588
 \end_layout
 
-\begin_layout Standard
-l公式能体现它！）相比之下，“是证明对”这个性质鉴于它的原始递归性，就既可以用上面引入的这个公式表示，也可用这个公式体现。
+\end_inset
+
+公式能体现它！）相比之下，“是证明对”这个性质鉴于它的原始递归性，就既可以用上面引入的这个公式表示，也可用这个公式体现。
 \end_layout
 
 \begin_layout Subsection*
