@@ -632,120 +632,541 @@ status open
 \begin_layout Standard
 通过上面的讨论，我们已经能够看清TNT是怎样对“是否TNT定理”这一概念进行“反省”的了。这是哥德尔证明第一部分的精华。我们现在打算着手讨论证明的第二个主要想法
 ，方法是构想一个概念，使我们能把这种反省集中进一个单个句子。要做到这一点，我们先得看看当你用一个简单的方法从结构上修改某个公式时，该公式的哥德尔数会发生什么变化
-。其实，我们要考虑的只是这样一种特殊的修改；
+。其实，我们要考虑的只是这样一种特殊的修改：
+\end_layout
+
+\begin_layout Quotation
+把全部自由变元都用具体数字替换。
 \end_layout
 
 \begin_layout Standard
-把全部自由变元都用具体数字替换。下面的对照表中，左边一列给出这种运算的一些例子，而右边一列则显示其哥德尔数的对应变化
+下面的对照表中，左边一列给出这种运算的一些例子，而右边一列则显示其哥德尔数的对应变化
 \end_layout
 
 \begin_layout Standard
-公式 哥德尔数 444
+\begin_inset Tabular
+<lyxtabular version="3" rows="18" columns="2">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+公式
 \end_layout
 
-\begin_layout Standard
-a=a262 ,111,262
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+哥德尔数
 \end_layout
 
-\begin_layout Standard
-全部自由变元都 ◆
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $a=a$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-换成2的数字表示
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $262,111,262$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-sso= SS0 123 9123,666,111,123,123,666～|a：了a’:a"==(SSa.SSa’)223,333,262,636,333,26
-29163,
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+全部自由变
 \end_layout
 
-\begin_layout Standard
-636,262,163,163,111,362,123,
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-123,262 ,236 ,12 3,12 3,262 ,163,323
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+元都换成2的
 \end_layout
 
-\begin_layout Standard
-全部自由变元都 ‘
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\downarrow$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-换成4的数字表示
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+数字表示
 \end_layout
 
-\begin_layout Standard
-589～| a:了 a' :sssso= (SSa .
- SSa' ) 223,333,262,636,333,262,163,636,123,123,123,123,666,111,362,123
- ,123,262,
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-236,123,123,262,163,323
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $SS0=SS0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $123,123,666,111,123,123,666$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+*
+\begin_inset space \hspace{}
+\length 4em
+\end_inset
+
+*
+\begin_inset space \hspace{}
+\length 4em
+\end_inset
+
+*
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim\exists a:\exists a^{\prime}:a^{\prime\prime}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $223,333,262,636,333,262,163,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $=(SSa\cdot SSa^{\prime})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $636,262,163,163,111,362,123,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $123,262,236,123,123,262,163,323$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+全部自由变
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+元都换成4的
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\downarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+数字表示
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sim\exists a:\exists a^{\prime}:$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $223,333,262,636,333,262,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $SSSS0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $163,636,123,123,123,123,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $=(SSa\cdot SSa^{\prime})$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $666,111,362,123,123,262,$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $236,123,123,262,163,323$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 右边一列有一个与左边同构的、把一个大数变成一个更大的数的算术过程。依靠加法、乘法和10的幂运算等等，不难算术地描述从旧数到新数的函数。——不过用不着真这么做。问
-题的要点在于：(1)原公式的哥德尔数、(2)其数字表示被插入的那个数以及(3)结果的哥德尔数，这三者之间的关系是原始递归的。也就是说，我们可以写出一个BIooP
-测试，使得对任意输入的三个自然数，若它们之间有这种关系，该测试就能回答“是”，否则就会回答“否”o你可以检查下面的两组数，测验一下自己作这种测试的能力，同时弄清
+题的要点在于：（1）原公式的哥德尔数、（2）其数字表示被插入的那个数以及（3）结果的哥德尔数，这三者之间的关系是原始递归的。也就是说，我们可以写出一个BlooP
+测试，使得对任意输入的三个自然数，若它们之间有这种关系，该测试就能回答“是”，否则就会回答“否”。你可以检查下面的两组数，测验一下自己作这种测试的能力，同时弄清
 楚为什么这一过程不会出现隐蔽的无终止循环。
 \end_layout
 
-\begin_layout Standard
-(1) 362,262 ,112 ,262 9163 ,323 9111,123 ,123 ,123 ,123 ,666;
+\begin_layout Enumerate
+362,262 ,112 ,262 9163 ,323 9111,123 ,123 ,123 ,123 ,666;
+\begin_inset Newline newline
+\end_inset
+
+2;
+\begin_inset Newline newline
+\end_inset
+
+362,123,123,666,112,123,123,666,323,111,123,123,123,123,666
 \end_layout
 
-\begin_layout Standard
-2；
-\end_layout
+\begin_layout Enumerate
+223,362,262 ,236,262,323,111,262,163;
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-362 ,123 ,123,666 ,112 ,123 9123,666 ,323 ,111,123 ,12 3,
-\end_layout
-
-\begin_layout Standard
-123,123,666
-\end_layout
-
-\begin_layout Standard
-(2) 223,362,262 ,236 ,262,3239111,262 ,163;
-\end_layout
-
-\begin_layout Standard
 1；
+\begin_inset Newline newline
+\end_inset
+
+223,362 ,123,666,236,123,666,323 ,111,262 ,163
 \end_layout
 
 \begin_layout Standard
-223,362 ,123,666,236,123,666,323 ,111,262 ,163象往常一样，一个例子是对的，另一个是错的。我们称三个数之间的这种关系
-为代入关系。由于这个关系是原始递归的，所以可用某个有三个自由变元的TNT公式体现。我们把这个公式缩写成
+象往常一样，一个例子是对的，另一个是错的。我们称三个数之间的这种关系为代入关系。由于这个关系是原始递归的，所以可用某个有三个自由变元的TNT公式体现。我们把这个
+公式缩写成
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $SUB\{a,a^{\prime},a^{\prime\prime}\}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-SUB{a，a 7，a")445由于这个公式体现代入关系，所以下面给出的公式就必定是TNT定理：
+由于这个公式体现代入关系，所以下面给出的公式就必定是TNT定理：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{c}
+SUB\{\underset{262,111,262\text{个}S}{\underbrace{SSSSS\cdots\cdots SSSSS}}0/a,SS0/a^{\prime},\\
+\underset{123,123,666,111,123,123,666\text{个}S}{\underbrace{SSSSSS\cdots\cdots SSSS}}0/a^{\prime\prime}\}
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-SUB { SSSSS--- ---SSSSSO/a ,SSO/a' ,SSSSSS --- ---SSSSO/a" }590
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+590
 \end_layout
 
-\begin_layout Standard
-262,111,262个S 123,123,666,111,123,123,6 6 6个S（此公式基于本节前面用并行两列的表给出的代入关系例子中的第一个o）同样
-也因为SUB公式体现代入关系，于是下面给出的公式自然就不是TNT定理：
+\end_inset
+
+（此公式基于本节前面用并行两列的表给出的代入关系例子中的第一个。）同样也因为SUB公式体现代入关系，于是下面给出的公式自然就不是TNT定理：
 \end_layout
 
-\begin_layout Standard
-SUB{SSSO／a 9SSO/a' ,SO/a")
+\begin_layout Quotation
+\begin_inset Formula $SUB\{SSS0/a,SS0/a^{\prime},S0/a^{\prime\prime}\}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
-算术扛摁
+算术㧟摁
 \end_layout
 
 \begin_layout Standard
-现在已到了决定关头：可以把拆开的各个部分组合成意义深远的整体了。我们要把TNT - PROOF - PAIR和SUB这两个公式作为部件，以某种方式把它们结合成一
-个单个的TNT句子，其解释为：“本TNT符号串不是TNT定理”o怎么做呢？到了现在，所需的全部零件都摆在眼前，答案却仍然不易找到。
+现在已到了决定关头：可以把拆开的各个部分组合成意义深远的整体了。我们要把TNT-PROOF-PAIR和SUB这两个公式作为部件，以某种方式把它们结合成一个单个的
+TNT句子，其解释为：“本TNT符号串不是TNT定理”。怎么做呢？到了现在，所需的全部零件都摆在眼前，答案却仍然不易找到。
 \end_layout
 
 \begin_layout Standard

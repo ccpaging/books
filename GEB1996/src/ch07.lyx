@@ -112,13 +112,13 @@ enumitem
 \end_layout
 
 \begin_layout Standard
-我将要介绍的这个新的形式系统称为命题演算。它有点象一个谜题：并不马上把每一件事都解释清楚，而是让你自己多多少少把这些事情想出来。我们从符号表开始：'
+我将要介绍的这个新的形式系统称为命题演算。它有点象一个谜题：并不马上把每一件事都解释清楚，而是让你自己多多少少把这些事情想出来。我们从符号表开始：
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula $\begin{array}{cccc}
  & < & >\\
-P & Q & R & \text{'}\\
+P & Q & R & ^{\prime}\\
 \wedge & \vee & \rightarrow & \sim\\
  & [ & ]
 \end{array}$
@@ -165,8 +165,19 @@ status open
 \labelwidthstring 原子：：
 \noindent
 \align block
-原子： P、Q、R都称作原子。新的原子是在老的原子的右上角加撇构成的——比如，R'、Q''、P'''等等。这便使我们可以源源不断地提供原子。所有的原子都是良构的
-。
+原子： P、Q、R都称作原子。新的原子是在老的原子的右上角加撇构成的——比如，
+\begin_inset Formula $R^{\prime}$
+\end_inset
+
+、
+\begin_inset Formula $Q^{\prime\prime}$
+\end_inset
+
+、
+\begin_inset Formula $P^{\prime\prime\prime}$
+\end_inset
+
+等等。这便使我们可以源源不断地提供原子。所有的原子都是良构的。
 \end_layout
 
 \begin_layout Standard
@@ -290,7 +301,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $Q\text{'}$
+\begin_inset Formula $Q^{\prime}$
 \end_inset
 
 
@@ -313,7 +324,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\sim Q\text{'}$
+\begin_inset Formula $\sim Q^{\prime}$
 \end_inset
 
 
@@ -336,7 +347,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $<P\wedge\sim Q\text{'}>$
+\begin_inset Formula $<P\wedge\sim Q^{\prime}>$
 \end_inset
 
 
@@ -359,7 +370,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $\sim<P\wedge\sim Q\text{'}>$
+\begin_inset Formula $\sim<P\wedge\sim Q^{\prime}>$
 \end_inset
 
 
@@ -382,7 +393,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $<\sim\sim P\rightarrow Q\text{'}>$
+\begin_inset Formula $<\sim\sim P\rightarrow Q^{\prime}>$
 \end_inset
 
 
@@ -405,7 +416,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $<\sim<P\wedge\sim Q\text{'}>\vee<\sim P\rightarrow Q\text{'}>>$
+\begin_inset Formula $<\sim<P\wedge\sim Q^{\prime}>\vee<\sim P\rightarrow Q^{\prime}>>$
 \end_inset
 
 
@@ -494,7 +505,7 @@ status open
 \end_layout
 
 \begin_layout Enumerate
-\begin_inset Formula $<<P\vee<Q\rightarrow R>>\wedge<P\vee R\text{'}>>$
+\begin_inset Formula $<<P\vee<Q\rightarrow R>>\wedge<P\vee R^{\prime}>>$
 \end_inset
 
 

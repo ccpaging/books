@@ -995,7 +995,7 @@ H(0)=0
 \end_layout
 
 \begin_layout Standard
-另一个有趣的问题是关于一对递归地交织在一起的函数F(n)和M(n)——可以说是“联姻’'的两个函数。它们是这样定义的：
+另一个有趣的问题是关于一对递归地交织在一起的函数F(n)和M(n)——可以说是“联姻”的两个函数。它们是这样定义的：
 \end_layout
 
 \begin_layout CenterLine

@@ -41,18 +41,3 @@ http://www.wikiart.org/en/m-c-escher
 保留边码，用单独一行。
 
 注释使用类似 (1) 格式。
-
-## 认领文件
-
-2014-07-29: 自动生成
-
-		00-04-contents
-
-2014-07-29: ccpaging
-
-		00-00.txt  
-		00-01-preface.txt  
-		00-02-translator.txt  
-		00-03-overview.txt  
-		00-04-contents.txt  
-		00-05-thanks.txt  

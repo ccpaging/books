@@ -608,23 +608,38 @@ status open
 \end_layout
 
 \begin_layout Quotation
-e
+\begin_inset Formula $e$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quotation
-d'
+\begin_inset Formula $d^{\prime}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quotation
-c''
+\begin_inset Formula $c^{\prime\prime}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quotation
-b'''
+\begin_inset Formula $b^{\prime\prime\prime}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Quotation
-a''''
+\begin_inset Formula $a^{\prime\prime\prime\prime}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1032,7 +1047,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-却是一个开公式，因为b是自由的。它表达'r未指定的数b可以具有，也可以不具有的一个性质——即，与所有的数c可交换。
+却是一个开公式，因为b是自由的。它表达了未指定的数b可以具有，也可以不具有的一个性质——即，与所有的数c可交换。
 \end_layout
 
 \begin_layout Subsection*
@@ -1307,12 +1322,28 @@ status open
 
 \begin_layout Standard
 \noindent
-在简朴的TNT中，我们可以用a'来代替b，a''代替c，于是这个公式将成为：
+在简朴的TNT中，我们可以用
+\begin_inset Formula $a^{\prime}$
+\end_inset
+
+来代替
+\begin_inset Formula $b$
+\end_inset
+
+，
+\begin_inset Formula $a^{\prime\prime}$
+\end_inset
+
+代替
+\begin_inset Formula $c$
+\end_inset
+
+，于是这个公式将成为：
 \end_layout
 
 \begin_layout CenterLine
 \begin_inset Formula $\begin{array}{cl}
-\sim\exists a:\exists a\text{'}:\exists a\text{''}:((a\cdot a)\cdot a)= & (((Sb\cdot Sb)\cdot Sb)\\
+\sim\exists a:\exists a^{\prime}:\exists a^{\prime\prime}:((a\cdot a)\cdot a)= & (((Sb\cdot Sb)\cdot Sb)\\
  & +((Sc\cdot Sc)\cdot Sc))
 \end{array}$
 \end_inset
@@ -1321,9 +1352,9 @@ status open
 \end_layout
 
 \begin_layout Standard
-那么句子1：“5是素数”又怎么样呢？我们已经把它改写成了这个样子：“不存在数a和b，它们都大于1，使得5等于a乘以b"。我们可以将它稍加改变如下：“不存在数a和
-b，使得5等于a加上2，再乘以b加上2”。这又是一招——因为a和b被限定只能取自然数值，所以这种方法同样也是可行的。现在，"b加上2”可以翻译成(b+SS0)，
-但是还有一个更为简短的写法——SSb 。同样，“c加上2"可以写成SSc 。现在，我们的翻译非常的简洁：
+那么句子1：“5是素数”又怎么样呢？我们已经把它改写成了这个样子：“不存在数a和b，它们都大于1，使得5等于a乘以b”。我们可以将它稍加改变如下：“不存在数a和
+b，使得5等于a加上2，再乘以b加上2”。这又是一招——因为a和b被限定只能取自然数值，所以这种方法同样也是可行的。现在，“b加上2”可以翻译成(b+SS0)，
+但是还有一个更为简短的写法——SSb。同样，“c加上2”可以写成SSc 。现在，我们的翻译非常的简洁：
 \end_layout
 
 \begin_layout Quotation
@@ -1553,23 +1584,43 @@ d以及e同样也都是。
 \end_layout
 
 \begin_layout Standard
-例子：a
+例子：
+\begin_inset Formula $a$
+\end_inset
+
+
 \begin_inset space \quad{}
 \end_inset
 
-b'
+
+\begin_inset Formula $b^{\prime}$
+\end_inset
+
+
 \begin_inset space \quad{}
 \end_inset
 
-c'
+
+\begin_inset Formula $c^{\prime\prime}$
+\end_inset
+
+
 \begin_inset space \quad{}
 \end_inset
 
-d'''
+
+\begin_inset Formula $d^{\prime\prime\prime}$
+\end_inset
+
+
 \begin_inset space \quad{}
 \end_inset
 
-e''''
+
+\begin_inset Formula $e^{\prime\prime\prime\prime}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1615,7 +1666,7 @@ e''''
 \end_inset
 
 
-\begin_inset Formula $SSa\text{'}$
+\begin_inset Formula $SSa^{\prime}$
 \end_inset
 
 
@@ -2150,8 +2201,15 @@ TNT的五条公理及第一组规则
 
 \begin_layout Standard
 \noindent
-（在简朴的版本中，用a'来代替b）。它们都很容易理解。公理1陈述了有关数0的一个特殊事实；公理2和3是关于加法的性质的；公理4和5是关于乘法的性质的，并且特别涉
-及到与加法的关系。
+（在简朴的版本中，用
+\begin_inset Formula $a^{\prime}$
+\end_inset
+
+来代替
+\begin_inset Formula $b$
+\end_inset
+
+）。它们都很容易理解。公理1陈述了有关数0的一个特殊事实；公理2和3是关于加法的性质的；公理4和5是关于乘法的性质的，并且特别涉及到与加法的关系。
 \end_layout
 
 \begin_layout Subsection*
