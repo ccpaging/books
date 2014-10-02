@@ -1091,7 +1091,7 @@ status open
 \end_layout
 
 \begin_layout Enumerate
-362,262 ,112 ,262 9163 ,323 9111,123 ,123 ,123 ,123 ,666;
+362,262,112,262,163,323,111,123,123,123,123, 666;
 \begin_inset Newline newline
 \end_inset
 
@@ -1099,11 +1099,11 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-362,123,123,666,112,123,123,666,323,111,123,123,123,123,666
+362,123,123,666,112,123,123,666,323,111,123, 123,123,123,666
 \end_layout
 
 \begin_layout Enumerate
-223,362,262 ,236,262,323,111,262,163;
+223,362,262,236,262,323,111,262,163;
 \begin_inset Newline newline
 \end_inset
 
@@ -1111,7 +1111,7 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-223,362 ,123,666,236,123,666,323 ,111,262 ,163
+223,362,123,666,236,123,666,323,111,262,163
 \end_layout
 
 \begin_layout Standard
@@ -1170,110 +1170,126 @@ TNT句子，其解释为：“本TNT符号串不是TNT定理”。怎么做呢�
 \end_layout
 
 \begin_layout Standard
-把一个公式自身的哥德尔数代入这个公式似乎是个怪异但却意义不大的想法。这与另一个怪异但却似乎意义不大的想法颇为相似：在《G弦上的咏叹调>上作“扼摁”o托摁显示出了
-一种出乎意料的价值：它表明了一种制造自指句子的新方法。第一次接触了各式各样{}[摁型的自指句子之后，它就会暗暗尾随你——而一旦真的理解了这一原则，你就禁不住要赞
-叹它是如此的简单而又生机勃勃o ji[摁的算术版本——姑且称之为“算术托摁”——能使我们造出一个“谈论自身”的TNT句于。
+把一个公式自身的哥德尔数代入这个公式似乎是个怪异但却意义不大的想法。这与另一个怪异但却似乎意义不大的想法颇为相似：在《G弦上的咏叹调》上作“㧟摁”。㧟摁显示出了
+一种出乎意料的价值：它表明了一种制造自指句子的新方法。第一次接触了各式各样㧟摁型的自指句子之后，它就会暗暗尾随你——而一旦真的理解了这一原则，你就禁不住要赞叹它
+是如此的简单而又生机勃勃。㧟摁的算术版本——姑且称之为“算术㧟摁”——能使我们造出一个“谈论自身”的TNT句子。
 \end_layout
 
 \begin_layout Standard
-我们来看一个算术托摁的例子。我们需要一个至少有一个自由变元的公式。用下面的公式就行：
+我们来看一个算术㧟摁的例子。我们需要一个至少有一个自由变元的公式。用下面的公式就行：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $a=S0$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-a-so它的哥德尔数是2 62，1 1 1，123，6 6 6 0我们将把这个数插进公式自身中——更确切地说是把这个数的数字形式插进去，结果得到
+它的哥德尔数是262，111，123，666。我们将把这个数插进公式自身中——更确切地说是把这个数的数字形式插进去，结果得到
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\underset{262,111,123,666\text{个}S}{\underbrace{SSSSS\cdots\cdots SSSSS}0=S0}$
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+591
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-SSSSS....,.SSSSSO=SO
+这个新公式断定了一句笨拙的假理——262，111，123，666等于1。要是我们从符号串
+\begin_inset Formula $～a=S0$
+\end_inset
+
+出发来作算术㧟摁，那就会做出一个真句子——这你自己就能看出。
 \end_layout
 
 \begin_layout Standard
-——、，_——一
+在作算术㧟摁时，你自然是在做我们早先定义的代入运算的一个特例。如果要在TNT内部谈论算术㧟摁，就得使用公式
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $SUB\{a^{\prime\prime},a^{\prime\prime},a^{\prime}\}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-5 9 1
+其中前两个变元是相同的。这是由于我们是在以两种不同的方式使用同一个数（康托尔对角线方法的幽灵！）。这里的数
+\begin_inset Formula $a^{\prime\prime}$
+\end_inset
+
+既是（1）原公式的哥德尔数，又是（2）插进去的数。我们给上述公式造一个缩写记号：
 \end_layout
 
-\begin_layout Standard
-2 6 2，1 1 1，123,666个S这个新公式断定了一句笨拙的假理-262，11 1，1 23，666等于1 0要是我们从符号串～a -SO出发来作算术托
-摁，那就会做出一个真句子——这你自己就能看出。
-\end_layout
+\begin_layout Quotation
+\begin_inset Formula $ARITHMOQUINE\{a^{\prime\prime},a^{\prime}\}$
+\end_inset
 
-\begin_layout Standard
-在作算术扼摁时，你自然是在做我们早先定义的代入运算的446一个特例。如果要在TNT内部谈论算术{}[摁，就得使用公式
-\end_layout
 
-\begin_layout Standard
-SUB{a"，a"，a 7）
-\end_layout
-
-\begin_layout Standard
-其中前两个变元是相同的。这是由于我们是在以两种不同的方式
-\end_layout
-
-\begin_layout Standard
-使用同一个数（康托尔对角线方法的幽灵！）o这里的数a”既是
-\end_layout
-
-\begin_layout Standard
-(1)原公式的哥德尔数，又是(2)插进去的数。我们给上述公式造一
-\end_layout
-
-\begin_layout Standard
-个缩写记号：
-\end_layout
-
-\begin_layout Standard
-ARITHMOQUINE{aⅣ，a 7)
 \end_layout
 
 \begin_layout Standard
 用汉语讲，这个公式是说：
 \end_layout
 
-\begin_layout Standard
-a 7是对哥德尔数为a”公式作算术托摁所得公式的哥德尔数。
+\begin_layout Quote
+\begin_inset Formula $a^{\prime}$
+\end_inset
+
+是对哥德尔数为
+\begin_inset Formula $a^{\prime\prime}$
+\end_inset
+
+公式作算术㧟摁所得公式的哥德尔数。
 \end_layout
 
 \begin_layout Standard
-这句话又长又笨，我们引入一个简明雅致的术语来概括它，我们
+这句话又长又笨，我们引入一个简明雅致的术语来概括它，我们说：
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $a^{\prime}$
+\end_inset
+
+是
+\begin_inset Formula $a^{\prime\prime}$
+\end_inset
+
+的算术㧟摁化。
 \end_layout
 
 \begin_layout Standard
-说：
+这表示同样的意思。例如，262，111，123，666的算术扼摁化是一个大得难以想象的数：
+\end_layout
+
+\begin_layout CenterLine
+\noindent
+\begin_inset Formula $\underset{262,111,123,666\text{个“}123\text{”}}{\underbrace{123,123,123,\cdots\cdots123,123,123,}}666,111,123,666$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-a 7是a，，的算术{}[摁化。
-\end_layout
+\noindent
+（这就是我们算术㧟摁
+\begin_inset Formula $a=S0$
+\end_inset
 
-\begin_layout Standard
-这表示同样的意思。例如，2 62，1 1 1，1 2 3，6 6 6的算术扼摁化是一个
-\end_layout
-
-\begin_layout Standard
-大得难以想象的数：
-\end_layout
-
-\begin_layout Standard
-123 ,123 ,123,......123 ,123,123,666 ,111,123 ,666
-\end_layout
-
-\begin_layout Standard
-：
-\end_layout
-
-\begin_layout Standard
-262 ,111,123 ,666个“123"
-\end_layout
-
-\begin_layout Standard
-（这就是我们算术}?[摁a=so所得公式的爵德尔数a）我们能够很
-\end_layout
-
-\begin_layout Standard
-容易地在TNT内部谈论算术扼摁。
+所得公式的哥德尔数。）我们能够很容易地在TNT内部谈论算术㧟摁。
 \end_layout
 
 \begin_layout Subsection*
@@ -1281,16 +1297,18 @@ a 7是a，，的算术{}[摁化。
 \end_layout
 
 \begin_layout Standard
-现在，要是再回顾一下《G弦上的咏叹调》，你就能看清，按蒯
+现在，要是再回顾一下《G弦上的咏叹调》，你就能看清，按㧟摁的方式达到自指的各种方法中，最复杂的一招是㧟摁一个其本
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+592
 \end_layout
 
-\begin_layout Standard
-恩的方式达到自指的各种方法中，最复杂的一招是扼摁一个其本
-\end_layout
+\end_inset
 
-\begin_layout Standard
-5 92身就在谈论托摁概念的句子。仅仅托摁是不够的——你必须扼摁一个提及{i[摁的句子！那好，在我们的情形，与之平行的手法必定是算术托摁某个其本身就在谈论算术托
-摁概念的公式。
+身就在谈论㧟摁概念的句子。仅仅㧟摁是不够的——你必须㧟摁一个提及㧟摁的句子！那好，在我们的情形，与之平行的手法必定是算术㧟摁某个其本身就在谈论算术㧟摁概念的公式
+。
 \end_layout
 
 \begin_layout Standard
@@ -1298,81 +1316,165 @@ a 7是a，，的算术{}[摁化。
 \end_layout
 
 \begin_layout Standard
-～|a:|a’: <TNT - PROOF - PAIR{a,a')^ ARITH-
+\begin_inset Formula $\begin{array}{l}
+\sim\exists a:\exists a^{\prime}:<TNT-PROOF-PAIR\{a,a^{\prime}\}\\
+\quad\land ARITH-MOQUINE\{a^{\prime\prime},a^{\prime}\}>
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-MOQUINE{a"，a’)>你可以明白地看出这一策略是怎样深刻地借助了算术托摁化的。
+你可以明白地看出这一策略是怎样深刻地借助了算术㧟摁化的。这个“服”号串当然有一个哥德尔数，我们称之为“u”。u的十进表达式的两头甚至中间的一小块可以直接读出来：
 \end_layout
 
 \begin_layout Standard
-这个“服”号串当然有一个哥德尔数，我们称之为“u”o u的十进表447达式的两头甚至中间的一小块可以直接读出来：u=223,333,262, 636,333,2
-62 ,163,636,212,...9161,.¨,213至于其余部分，就得知道“TNT - PROOF - PAIR”和“ARITH--MooUINE”写出来时究竟
-是什么样。这过于复杂了，而且不管怎‘么讲都有点离题太远了。
+\begin_inset Formula $\begin{array}{l}
+u=223,333,262,636,333,262,163,636,\\
+\hphantom{u=\ }212,\cdots,161,\cdots,213
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-我们现在该做的就是{f[摁这个“服”号串！这意味着把全部自由变元——这里只有一个，即aⅣ——“踢出去”，把所有出现a，，的地方换成数字u o于是得到～|a:|a
- 7: <TNT- PROOF - PAIR i a,a')八ARITHMO-QUINE{SSS--- ---SSSOlau,a')>
+\noindent
+至于其余部分，就得知道“TNT-PROOF-PAIR”和“ARITH-MOQUINE”写出来时究竟是什么样。这过于复杂了，而且不管怎么讲都有点离题太远了。
 \end_layout
 
 \begin_layout Standard
-～——-、，—一
+我们现在该做的就是㧟摁这个“服”号串！这意味着把全部自由变元——这里只有一个，即
+\begin_inset Formula $a^{\prime\prime}$
+\end_inset
+
+——“踢出去”，把所有出现
+\begin_inset Formula $a^{\prime\prime}$
+\end_inset
+
+的地方换成数字u。于是得到
 \end_layout
 
 \begin_layout Standard
-u S不管你信不信，这是一个哥德尔符号串，我们可以称之为"G"o于是就有两个刻不容缓必须回答的问题：
+\noindent
+\begin_inset Formula $\sim\exists a:\exists a^{\prime}:<TNT-PROOF-PAIR\{a,a^{\prime}\}\land ARITH-MOQUINE\{\underset{u\text{个}S}{\underbrace{SSS\cdots\cdots SSS0}}/a^{\prime\prime},a^{\prime}\}>$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-(1)G的哥德尔数是什么？
+\noindent
+不管你信不信，这是一个哥德尔符号串，我们可以称之为“G”。于是就有两个刻不容缓必须回答的问题：
+\end_layout
+
+\begin_layout Enumerate
+G的哥德尔数是什么？
+\end_layout
+
+\begin_layout Enumerate
+G的解释是什么？
 \end_layout
 
 \begin_layout Standard
-(2)G的解释是什么？先说第一个。我们是怎么造的G呢？噢，是从其“服”号串入手，对之进行算术{?[摁。那末根据算术托摁化的定义，G的哥德尔数就是
+先说第一个。我们是怎么造的G呢？噢，是从其“服”号串入手，对之进行算术㧟摁。那末根据算术㧟摁化的定义，G的哥德尔数就是
+\end_layout
+
+\begin_layout Quotation
+u的算术㧟摁化。
 \end_layout
 
 \begin_layout Standard
-u的算术扼摁化。再看第二个。我们分成几步来把G译成汉语，一步比一步更为概
+再看第二个。我们分成几步来把G译成汉语，一步比一步更为概
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+593
+\end_layout
+
+\end_inset
+
+括。作为粗略的第一步，我们作一个相当刻板的字面翻译：
+\end_layout
+
+\begin_layout Quote
+“不存在数
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $a^{\prime}$
+\end_inset
+
+使得：（1）它们形成TNT证明对；并且（2）
+\begin_inset Formula $a^{\prime}$
+\end_inset
+
+是u的算术㧟摁化。”
 \end_layout
 
 \begin_layout Standard
-5 9 3括。作为粗略的第一步，我们作一个相当刻板的字面翻译：
+眼下当然是有一个数
+\begin_inset Formula $a^{\prime}$
+\end_inset
+
+是u的算术㧟摁化——因而问题就必定出在另一个数
+\begin_inset Formula $a$
+\end_inset
+
+身上。这一考察使我们能把G的译文重新措辞而写成：
+\end_layout
+
+\begin_layout Quote
+“没有一个数
+\begin_inset Formula $a$
+\end_inset
+
+能与u的算术㧟摁化形成TNT证明对”。
 \end_layout
 
 \begin_layout Standard
-“不存在数a和a 7使得：(1)它们形成TNT证明对；并且(2)
+（这一步有可能把人搞糊涂，后面还要详细解释。）你该看到发生什么事了吧?G在说：
+\end_layout
+
+\begin_layout Quote
+“以u的算术㧟摁化为哥德尔数的那个公式不是TNT定理”。
 \end_layout
 
 \begin_layout Standard
-a 7是u的算术{?[摁化。”眼下当然是有一个数a 7是u的算术{}[摁化——因而问题就必定出在另一个数a身上。这一考察使我们能把G的译文重新措辞而写成：
+\noindent
+可是——这时已不再意外了——这个公式不是别的，就是G自己。因此，我们可以把G最终翻译成
+\end_layout
+
+\begin_layout Quote
+“G不是TNT定理”。
 \end_layout
 
 \begin_layout Standard
-“没有一个数a能与u的算术托摁化形成TNT证明对”o（这一步有可能把人搞糊涂，后面还要详细解释o）你该看到发生什么事了吧?G在说：
+——或者，你要是愿意，也可以说成
+\end_layout
+
+\begin_layout Quote
+“我不是TNT定理”。
 \end_layout
 
 \begin_layout Standard
-“以u的算术{汇摁化为哥德尔数的那个公式不是TNT定理”o可是——这时已不再意外了——这个公式不是别的，就是G自己。因此，我们可以把G最终翻译成
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-“G不是TNT定理”o448——或者，你要是愿意，也可以说成
-\end_layout
-
-\begin_layout Standard
-“我不是TNT定理”o
-\end_layout
-
-\begin_layout Standard
 我们已经逐步得到了一个高层次的解释——一个TNT元语言的句子，它出自先前那个低层次的解释——一个数论句子。
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Quotation
 TNT说“服了！”
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
 在第九章，我们勾勒过这个惊人的构造的主要结果——TNT的不完全性。重申一下那个论证：
 \end_layout
 
@@ -1381,228 +1483,1654 @@ G是不是TNT定理呢？如果是，它说的就一定是一句真理。可实�
 \end_layout
 
 \begin_layout Standard
-要是G不是定理又如何呢？逮倒可以接受，此时不会导出矛盾。不过G的非定理性正是G所断定的——因而G讲的是真理，而G又不是定理，所以就存在（至少）一个不是TNT定理
+要是G不是定理又如何呢？这倒可以接受，此时不会导出矛盾。不过G的非定理性正是G所断定的——因而G讲的是真理，而G又不是定理，所以就存在（至少）一个不是TNT定理
 的真理。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+594
 \end_layout
 
-\begin_layout Standard
-5 94
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 现在，为了再一次解释解释那个巧妙的步骤，我要使用另一个类似的例子。取符号串
 \end_layout
 
-\begin_layout Standard
-～了a:j a 7: <TORTOISE - PAIR{a,a'）八TENTH -
+\begin_layout Quote
+\noindent
+\begin_inset Formula $\sim\exists a:\exists a^{\prime}:<TORTOISE-PAIR\{a,a^{\prime}\}\wedge TENTH-POWER\{SS0/a^{\prime\prime},a^{\prime}\}>$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-POWER{SSO/a"．a 7)>其中的两个缩写符号都代表TNT符号串，这些符号串你自己就可以写出。66TENTH—POWER{a"，a 7）”体现陈述“a
- 7是a"的1 0次幂”o逐字地译成汉语就是
+其中的两个缩写符号都代表TNT符号串，这些符号串你自己就可以写出。“
+\begin_inset Formula $TENTH—POWER\{a^{\prime\prime}，a^{\prime}\}$
+\end_inset
+
+”体现陈述“
+\begin_inset Formula $a^{\prime}$
+\end_inset
+
+是
+\begin_inset Formula $a^{\prime\prime}$
+\end_inset
+
+的10次幂”。逐字地译成汉语就是
 \end_layout
 
 \begin_layout Standard
-“不存在数a和a 7满足：(1)它们形成乌龟对，(2)a’是2的1 0次幂”o可2的1 0次幂显然是存在的——即1 024，所以这个符号串实际上说的就是
+“不存在数
+\begin_inset Formula $a$
+\end_inset
+
+和
+\begin_inset Formula $a^{\prime}$
+\end_inset
+
+满足：（1）它们形成乌龟对，（2）
+\begin_inset Formula $a^{\prime}$
+\end_inset
+
+是2的10次幂”。可2的10次幂显然是存在的——即1024，所以这个符号串实际上说的就是
+\end_layout
+
+\begin_layout Quotation
+“没有一个数 
+\begin_inset Formula $a$
+\end_inset
+
+能与
+\begin_inset Formula $1024$
+\end_inset
+
+形成乌龟对”。
 \end_layout
 
 \begin_layout Standard
-“没有一个数a能与1 024形成乌龟对”o这又可以进一步地归结为
+\noindent
+这又可以进一步地归结为
+\end_layout
+
+\begin_layout Quotation
+“1024没有乌龟性质”。
 \end_layout
 
 \begin_layout Standard
-“1024没有乌龟性质”o要点在于我们得到了一种代入方法：把对一个数的描述代入某个谓词，而不是用这个数的数字形式代入。这种做法靠的是另外再用一个量化的变元(a’
-)o这里，是1 024这个数，其描述为“2的1 0次幂”；而上面所说的，是被描述为“u的算术j}[摁力的那个数。
+要点在于我们得到了一种代入方法：把对一个数的描述代入某个谓词，而不是用这个数的数字形式代入。这种做法靠的是另外再用一个量化的变元(
+\begin_inset Formula $a^{\prime}$
+\end_inset
+
+)。这里，是1024这个数，其描述为“2的10次幂”；而上面说的，是被描述为“u的算术㧟摁”的那个数。
 \end_layout
 
-\begin_layout Subsection*
-“算术托摁时得到非定理”
+\begin_layout Quotation
+“算术㧟摁时得到非定理”
 \end_layout
 
 \begin_layout Standard
-我们要停下来喘口气，并回顾一下我们做了些什么。就我所知，要想比较透彻地把握住这种代入方法，最好的办法是直截了当地把它与蒯恩形式的说谎者悖论作一个比较。它们之问的
+\begin_inset space \qquad{}
+\end_inset
+
+我们要停下来喘口气，并回顾一下我们做了些什么。就我所知，要想比较透彻地把握住这种代入方法，最好的办法是直截了当地把它与㧟摁形式的说谎者悖论作一个比较。它们之间的
 对应是
 \end_layout
 
 \begin_layout Standard
-假句子一个短语的引文形式在谓语之前放上主语在谓语之前放
+\begin_inset Tabular
+<lyxtabular version="3" rows="20" columns="3">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+假句子
 \end_layout
 
-\begin_layout Standard
-一句引语把一个谓语自
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-非定理一个符号串的哥德尔数代入一开公式把一符号串的哥德尔数
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+非定理
 \end_layout
 
-\begin_layout Standard
-代入一开公式把一个开公式的哥
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+一个短语的引文形式
 \end_layout
 
-\begin_layout Standard
-．59 5甘 铮 甘 甘 镑身作为引语放在该谓语之前（_{i[摁化”）托摁时得到假句子（没有主语。
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-仅有一个谓语）“}i[摁时得到假句子”
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+一个符号串的哥德尔数
 \end_layout
 
-\begin_layout Standard
-（上面的那个谓语，加上引号）“托摁时得到假句子”托摁时得到假句子（托摁上面那个谓语而形成的一个完整句子）乍亨哥德尔第二定理德尔数代入该公式
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+在谓语之前放上主语
 \end_layout
 
-\begin_layout Standard
-自身（“算术托摁化”）G的“服”号串(TNT的一个
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+代入一开公式
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+在谓语之前放
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+把一符号串的哥德尔数
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+一句引语
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+代入一开公式
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+把一个谓语自
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+把一个开公式的哥
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+身作为引语放
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+亨德尔数代入该公式
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+在该谓语之前
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+自身
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+“㧟摁
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+化”）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（“算术
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+㧟摁
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+化”）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+㧟摁
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+时得到假句子
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+G的“服”号串
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（没有主语。
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+(TNT的一个
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+仅有一个谓语）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
 开公式)
 \end_layout
 
-\begin_layout Standard
-数u（上述开公式的哥德尔数）
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+“
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+㧟摁
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+时得到假句子”
 \end_layout
 
-\begin_layout Standard
-G本身（把u代入“服”号串所形成的句子，
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+数u
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（上面的那个谓语，
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（上述开公式的
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+加上引号）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+哥德尔数）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+“
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+㧟摁
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+时得到假句子”
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+G本身
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+㧟摁
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+时得到假句子
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（把u代入“服”号串
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+㧟摁
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+上面那个谓语
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+所形成的句子，
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+而形成的一个完
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
 即“服”号串的
 \end_layout
 
-\begin_layout Standard
-算术扼摁）
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+整句子）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+算术
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+㧟摁
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-由于G的解释是真，所以其否定～G的解释就是假。可我们又知道TNT中推不出假的陈述。于是，不论是G还是其否定～G都不会是TNT定理。这样，在我们的系统中就找到了一
-个“漏洞”一 ·个不可判定命题。这会派生出不少结果。从G的不可判定性就可以得到一个古怪的事．实：G和～G都不是定理，但公式<G V～G>却是定理，因为命题演算的
-规则保证全部形如<P V～P>的良构公式都是定理。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+595
 \end_layout
 
-\begin_layout Standard
-这是一个简单的例子，其中，一个系统内的断言和一个谈论该系统的断言似乎很不合拍c这会使人疑惑不定：这个系统是否真的很精确地反映了自己？存在于TN
- T内部的那种“自我反映的元数学”与我们所用的这种元数学是否非常相符？这是哥德尔写论文时
-\end_layout
+\end_inset
 
-\begin_layout Standard
-5 9 6很着迷的问题之…．o具体地说，他对是否可能在这种“自我反映的元数学”内证明TNT的一致性颇感兴趣。读者还该记得，如何证4 50明系统的一致性是当时哲学
-上的一大难题。哥德尔找到了一个用TNT公式表示“TNT一致”这句话的简单方法，然后证明了这个公式（以及表示同一思想的任何其它公式）只在一个条件下才是TNT定理，
-这个条件是：TNT不一致。这个反常的结果对那些乐观地期待可以找到数学无矛盾性的严格证明的人真是当头一棒。
-\end_layout
 
-\begin_layout Standard
-怎样在TNT内部表示“TNT一致”这句话呢？靠的是这样一个简单事实：不一致性是说有两个公式x和～x——一个是另一个的否定——都是定理。于是根据命题演算，全部良构
-公式就都是定理。因而，要说明TNT的一致性，只需提出一个TNT的句子，说明这个句子可以被证明为不是定理，就行了。所以，表示“TNT一致”的一个办法就是说“公式～
-o -O不是TNT定理o"o这在几页以前就作为习题提出了，其翻译为
-\end_layout
-
-\begin_layout Standard
-～j a: TNT—PROOF - PAIR{a,SSSSS------SSSSSO/a')
-\end_layout
-
-\begin_layout Standard
-——、厂——一
-\end_layout
-
-\begin_layout Standard
-2 23，6 66，1 1 1，666个S通过一个冗长但很容易的推理可以证明——只要TNT一致——这个用TNT待号写出的一致性誓言不是个TNT定理。所以说，当T
-NT表示一些事物时，它的反省能力很强，但要让它证明这些事物，其反省能力就很差劲了。如果把这一结果借过来用于人的自我认识问题，恐怕极易引起争论。
 \end_layout
 
 \begin_layout Subsection*
-TNT是c．）不完全的
+哥德尔第二定理
+\end_layout
+
+\begin_layout Standard
+由于G的解释是真，所以其否定~G的解释就是假。可我们又知道TNT中推不出假的陈述。于是，不论是G还是其否定~G都不会是TNT定理。这样，在我们的系统中就找到了一
+个“漏洞”——一个不可判定命题。这会派生出不少结果。从G的不可判定性就可以得到一个古怪的事实：G和~G都不是定理，但公式
+\begin_inset Formula $<G\vee\sim G>$
+\end_inset
+
+却是定理，因为命题演算的规则保证全部形如
+\begin_inset Formula $<P\vee\sim P>$
+\end_inset
+
+的良构公式都是定理。
+\end_layout
+
+\begin_layout Standard
+这是一个简单的例子，其中，一个系统内的断言和一个谈论该系统的断言似乎很不合拍。这会使人疑惑不定：这个系统是否真的很精确地反映了自己？存在于TNT内部的那种“自我
+反映的元数学”与我们所用的这种元数学是否非常相符？这是哥德尔写论文时
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+596
+\end_layout
+
+\end_inset
+
+很着迷的问题之一。具体地说，他对是否可能在这种“自我反映的元数学”内证明TNT的一致性颇感兴趣。读者还该记得，如何证明系统的一致性是当时哲学上的一大难题。哥德尔
+找到了一个用TNT公式表示“TNT一致”这句话的简单方法，然后证明了这个公式（以及表示同一思想的任何其它公式）只在一个条件下才是TNT定理，这个条件是：TNT不
+一致。这个反常的结果对那些乐观地期待可以找到数学无矛盾性的严格证明的人真是当头一棒。
+\end_layout
+
+\begin_layout Standard
+怎样在TNT内部表示“TNT一致”这句话呢？靠的是这样一个简单事实：不一致性是说有两个公式x和~x——一个是另一个的否定——都是定理。于是根据命题演算，全部良构
+公式就都是定理。因而，要说明TNT的一致性，只需提出一个TNT的句子，说明这个句子可以被证明为不是定理，就行了。所以，表示“TNT一致”的一个办法就是说“公式~
+0=0不是TNT定理。”。这在几页以前就作为习题提出了，其翻译为
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\begin{array}{l}
+\sim\exists a:TNT-PROOF-PAIR\{a,\\
+\quad\underset{223,666,111,666\text{个}S}{\underbrace{SSSSS\cdots\cdots SSSSS}}0/a^{\prime}\}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+通过一个冗长但很容易的推理可以证明——只要TNT一致——这个用TNT符号写出的一致性誓言不是个TNT定理。所以说，当TNT表示一些事物时，它的反省能力很强，但要
+让它证明这些事物，其反省能力就很差劲了。如果把这一结果借过来用于人的自我认识问题，恐怕极易引起争论。
+\end_layout
+
+\begin_layout Subsection*
+TNT是ω不完全的
 \end_layout
 
 \begin_layout Standard
 那么TNT“享有”哪种不完全性呢？我们将要看到，它的不完全性是第八章中定义的那种“欧米伽”型。这意味着有一个无穷的、金字塔形的符号串族，其每个符号串都是定理，但
 与这个族对应的“概述串”却不是定理。不难给出这种不是定理的概述串：
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+597
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-597V a～3 a' : <TNT-PROOF-PAIR{a,a' } A
+\noindent
+\begin_inset Formula $\begin{array}{l}
+\forall a\sim\exists a^{\prime}:<TNT-PROOF-PAIR\{a,a^{\prime}\}\wedge\\
+\quad ARITHMOQUINE\{\overset{u\text{个}S}{\overbrace{SSS\cdots\cdots SSS}}0/a^{\prime\prime},a^{\prime}\}>
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-u个S
+\noindent
+要想理解这个符号串何以不是定理，只需注意一下它与G本身是极为相似的——事实上只用一步就能从它推得G（根据TNT的量词互变规则），所以，如果它是定理，G也是。而G
+不是定理，于是这个公式也就不能是定理。
 \end_layout
 
 \begin_layout Standard
-／____—L__—__一
+我们现在需要证明与之相应的那个金字塔中的公式都是定理。写出它们是很容易的：
 \end_layout
 
 \begin_layout Standard
-，—____ 、
+\noindent
+\begin_inset Formula $\begin{array}{l}
+\sim\exists a^{\prime}:<TNT-PROOF-PAIR\{0/a,a^{\prime}\}\wedge\\
+\quad ARITHMOQUINE\{\underset{u\text{个}S}{\underbrace{SSS\cdots\cdots SSS0}}/a^{\prime\prime},a^{\prime}\}>
+\end{array}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{l}
+\sim\exists a^{\prime}:<TNT-PROOF-PAIR\{S0/a,a^{\prime}\}\wedge\\
+\quad ARITHMOQUINE\{SSS\cdots\cdots SSS0/a^{\prime\prime},a^{\prime}\}>
+\end{array}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{l}
+\sim\exists a^{\prime}:<TNT-PROOF-PAIR\{SS0/a,a^{\prime}\}\wedge\\
+\quad ARITHMOQUINE\{SSS\cdots\cdots SSS0/a^{\prime\prime},a^{\prime}\}>
+\end{array}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{l}
+\sim\exists a^{\prime}:<TNT-PROOF-PAIR\{SSS0/a,a^{\prime}\}\wedge\\
+\quad ARITHMOQUINE\{SSS\cdots\cdots SSS0/a^{\prime\prime},a^{\prime}\}>
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-ARITHMOQUINE{ SSS--- ---SSSO/au,a')>要想理解这个符号串何以不是定理，只需注意一下它与G本身是极为相似的——事实上只用一步就能
-从它推得G（根据TNT的量词互变规则），所以，如果它是定理，G也是。而G不是定理，于是这个公式也就不能是定理。
+\begin_inset space \hfill{}
+\end_inset
+
+.
+ 
+\begin_inset space \hfill{}
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-我们现在需要证明与之相应的那个金字塔中的公式都是定理。写出它们是很容易的：451～3 a':<TNT- PROOF-PAIR{ O/a ,a')^
- ARITHMOQUINE{SSS------SSSO/a" ,a')>
+\begin_inset space \hfill{}
+\end_inset
+
+.
+ 
+\begin_inset space \hfill{}
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-——、广一
+\begin_inset space \hfill{}
+\end_inset
+
+.
+ 
+\begin_inset space \hfill{}
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-u个S
+\noindent
+这些符号申说的都是什么？逐个翻译出来就是：
 \end_layout
 
 \begin_layout Standard
-～了a':<TNT—PROOF - PAIR{.SO/a,a’）人ARITHMO-
+“0与u的算术㧟摁化不形成TNT证明对”
 \end_layout
 
 \begin_layout Standard
-QUINE{SSS--- ---SSSO／a" ,a')>
+“1与u的算术㧟摁化不形成TNT证明对”
 \end_layout
 
 \begin_layout Standard
-～了a 7: <TNT - PROOF - PAIR{SSO/a,a 7>人ARITHMO-
+“2与u的算术㧟摁化不形成TNT证明对”
 \end_layout
 
 \begin_layout Standard
-QUINE{SSS------SSSOla" ,a')>
+“3与u的算术㧟摁化不形成TNT证明对”
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+598
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-～了a 7: <TNT - PROOF - PAIR{SSSO／a ,a'）八ARITHMO-
+\begin_inset space \hfill{}
+\end_inset
+
+.
+ 
+\begin_inset space \hfill{}
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-QUINE{ SSS...．二．SSSOla" ,at)>这些符号申说的都是什么？逐个翻译出来就是：
+\begin_inset space \hfill{}
+\end_inset
+
+.
+ 
+\begin_inset space \hfill{}
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“O与u的算术托摁化不形成TNT证明对”
+\begin_inset space \hfill{}
+\end_inset
+
+.
+ 
+\begin_inset space \hfill{}
+\end_inset
+
+.
+\begin_inset space \hfill{}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“1t与u的算术}汇摁化不形成TNT证明对”
+\begin_inset space \hfill{}
+\end_inset
+
+*
+\begin_inset space \hfill{}
+\end_inset
+
+*
+\begin_inset space \hfill{}
+\end_inset
+
+*
+\begin_inset space \hfill{}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“2- u的算术瓶摁化不形成TNT证明对”
-\end_layout
-
-\begin_layout Standard
-“3． u的算术{j[摁化不形成TNT证明对”5 98
-\end_layout
-
-\begin_layout Standard
-* * *这里的每个断言都是讲两个特定的自然数是否构成证明对o（与之对照，G本身则是谈一个特定的自然数是否是定理数o）由于G不是定理，当然就没有一个自然数会与G
-的哥德尔数构成证明对。
+\noindent
+这里的每个断言都是讲两个特定的自然数是否构成证明对。（与之对照，G本身则是谈一个特定的自然数是否是定理数。）由于G不是定理，当然就没有一个自然数会与G的哥德尔数
+构成证明对。
 \end_layout
 
 \begin_layout Standard
 所以这个族中的每句话都是真的。事情的关键在于“是证明对”这一性质是原始递归的，从而可体现，所以上面列出的每一句话（都是真的）必定都能翻译成TNT的定理。也就是说
-我们这座无穷的金字塔中的每一层都是定理。这就说明了TNT为什么∞不完全。
+我们这座无穷的金字塔中的每一层都是定理。这就说明了TNT为什么ω不完全。
 \end_layout
 
 \begin_layout Subsection*
@@ -1610,20 +3138,36 @@ QUINE{ SSS...．二．SSSOla" ,at)>这些符号申说的都是什么？逐个翻
 \end_layout
 
 \begin_layout Standard
-由于G的解释为真，其否定～G的解释就为假。而利用TNT一致性的假定，我们又知道在TNT中推不出假陈述，于是无论是G还是其否定～G都不是TNT定理。在我们的系统中
-就找到了‘个漏洞——一个不可判定命题。如果我们在哲学上足够超脱，从而能认清其原因是什么的话，那就不会因此而惊慌。这表明，就象绝对几何一样，TNT能够扩充。事实上
-，和绝对几何一样，TNT也能朝两个不同的方向扩充。它可以朝标准方向扩充——这与绝对几何朝欧几里得的方向扩充相应；它也能朝非标准的方向扩充一这当然就与绝对几何朝非
-欧方向的扩充相应了。标准型的扩充将是：
+由于G的解释为真，其否定~G的解释就为假。而利用TNT一致性的假定，我们又知道在TNT中推不出假陈述，于是无论是G还是其否定~G都不是TNT定理。在我们的系统中
+就找到了一个漏洞——一个不可判定命题。如果我们在哲学上足够超脱，从而能认清其原因是什么的话，那就不会因此而惊慌。这表明，就象绝对几何一样，TNT能够扩充。事实上
+，和绝对几何一样，TNT也能朝两个不同的方向扩充。它可以朝标准方向扩充——这与绝对几何朝欧几里得的方向扩充相应；它也能朝非标准的方向扩充——这当然就与绝对几何朝
+非欧方向的扩充相应了。标准型的扩充将是：
+\end_layout
+
+\begin_layout Quotation
+把G加进去作为新公理。
 \end_layout
 
 \begin_layout Standard
-把G加进去作为新公理。这种见解似乎相当无害甚至颇为称必，因为G毕竟是在说有关自452然数系统的某件真的事情。那么非标准的扩充又如何呢？如果完全平行于平行公设的情
-形去做，就得到：
+这种见解似乎相当无害甚至颇为称心，因为G毕竟是在说有关自然数系统的某件真的事情。那么非标准的扩充又如何呢？如果完全平行于平行公设的情形去做，就得到：
+\end_layout
+
+\begin_layout Quotation
+把G的否定加进去作为一条新公理。
 \end_layout
 
 \begin_layout Standard
-把G的否定加进去作为一条新公理。我们怎么居然能做这么荒唐而义蹩脚的事呢？其实说到底，借用济罗拉奠·萨彻利那些令人难忘的话，～G不正是“与自然数的本质599相抵触
-”的吗？
+我们怎么居然能做这么荒唐而义蹩脚的事呢？其实说到底，借用济罗拉奠·萨彻利那些令人难忘的话，~G不正是“与自然数的本质
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+599
+\end_layout
+
+\end_inset
+
+相抵触”的吗？
 \end_layout
 
 \begin_layout Subsection*
@@ -1631,101 +3175,174 @@ QUINE{ SSS...．二．SSSOla" ,at)>这些符号申说的都是什么？逐个翻
 \end_layout
 
 \begin_layout Standard
-我希望上面的引文的讽刺意味触动你舢济罗拉莫·萨彻利处理几何时的问题恰恰出在他从“什么是真什么不是真”这样一个固定见解出发，而且只打算证明他一开始就估计为真的那些
+我希望上面的引文的讽刺意味触动你。济罗拉莫·萨彻利处理几何时的问题恰恰出在他从“什么是真什么不是真”这样一个固定见解出发，而且只打算证明他一开始就估计为真的那些
 内容。尽管他的方法很聪明——包括否定第五公设，从而证明以此得到的几何中的很多“荒唐”命题——但他从未意识到有可能以其它方式来想象点和线。我们现在得提防不要重蹈覆
-辙。我们应该尽可能公正地考察把～G作为新公理加进TNT将意味着什么。试看下列类型的新公理：
+辙。我们应该尽可能公正地考察把~G作为新公理加进TNT将意味着什么。试看下列类型的新公理：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\exists a:(a+a)=S0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\exists a:Sa=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\exists a:(a\cdot a)=SS0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\exists a:S(a\cdot a)=0$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-了a：(a+a)=SO
+如果人们从未考虑过引入它们，今天的数学该是什么样呢？这里的每一条都“与原先了解的数系的本质相抵触”，每一条也都提供了对全部数概念的一个深刻而又精彩的扩充——有理
+数、负数、无理数、虚数。这种可能性就是~G试图打开我们的眼界，使我们达到的地方。以往，数概念的每次扩充都要招来一片倒彩和嘘叫，尤其是把诸如“无理数”、“虚数”这
+类不受欢迎的新客叫做数时，你听到的叫声更是特别响亮。遵循这个传统，我们要把~G所揭示的那些数叫做超自然数，以表明我们确是深感其有悖于所有合乎常情的概念。
 \end_layout
 
 \begin_layout Standard
-] a:Sa=0
-\end_layout
+如果要把~G扔进TNT作为第六条公理，那我们最好了解一下它到底怎样与一个带有我们刚讨论过的那个无穷金字塔共存于一个系统之中。明摆出来，~G是讲
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-了a:(a．a) -SSO
-\end_layout
-
-\begin_layout Standard
-a：S(a．a)==O如果人们从未考虑过引入它化，今天的数学该是什么样呢？这里的每一条都“与原先了解的数系的本质相抵触”，每一条也都提供了对全部数概念的一个深刻
-而又精彩的扩充——有理数、负数、无理数、虚数。这种可能性就是～G试图打开我们的眼界，使我们达到的地方。以往，数概念的每次扩充都要招来一片倒彩和嘘叫，尤其是把诸如
-“无理数”、“虚数”这类不受欢迎的新客叫做数时，你听到的叫声更是特别响亮。遵循这个传统，我们要把～G所揭示的那些数叫做超自然数，以表明我们确是深感其有悖于所有合
-乎常情的概念。
-\end_layout
-
-\begin_layout Standard
-如果要把～G奶进TNT作为第六条公理，那我们最好了解一下它到底怎样与一个带有我们刚讨论过的那个无穷金字塔共存于一个系统之中。明摆出来，～G是讲
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 600
 \end_layout
 
-\begin_layout Standard
-“存在某个数与u的算术托摁化形成TNT证明对o"——而该金字塔的各层却依次断言：“0不是这个数”
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+“存在某个数与u的算术㧟摁化形成TNT证明对。”
 \end_layout
 
 \begin_layout Standard
-“1不是这个数”“2不是这个数”
+——而该金字塔的各层却依次断言：
+\end_layout
+
+\begin_layout CenterLine
+“0不是这个数”
+\end_layout
+
+\begin_layout CenterLine
+“1不是这个数”
+\end_layout
+
+\begin_layout CenterLine
+“2不是这个数”
+\end_layout
+
+\begin_layout CenterLine
+.
+\end_layout
+
+\begin_layout CenterLine
+.
+\end_layout
+
+\begin_layout CenterLine
+.
 \end_layout
 
 \begin_layout Standard
-这真令人费解，因为看上去这是个十足的矛盾（正因为如此才称之为“∞不一致性”）o费解的根源——与几何分叉的情形极为相似——在于尽管事实上我们明白这个系统是修改过的
+这真令人费解，因为看上去这是个十足的矛盾（正因为如此才称之为“ω不一致性”）。费解的根源——与几何分叉的情形极为相似——在于尽管事实上我们明白这个系统是修改过的
 ，但还是顽固地拒绝接受对符号解释的修改，总想不重新解释任何符号就混过去——结果当然就证明这是不行的。
 \end_layout
 
 \begin_layout Standard
-和解来自于把j重新解释为“存在一一个广义自然数”，而不再解释成“存在一个自然数”o这样作的时候还得用相应的方法把V也重新解释过。这意味着我们对自然数以外的某些数
-也打开了大门，引进即“超自然数”o自然数和超自然数一起构成整个广义数。
-\end_layout
+和解来自于把
+\begin_inset Formula $\exists$
+\end_inset
 
-\begin_layout Standard
-这样一来，这个表面上的矛盾立即化为乌有，因为那个金字塔仍然讲的是老话：“没有一个自然数能与u的算术f-r[摁化形成TNT证明对o"这族句子丝毫没讲到超自然数，因
-为没有关于超自然数的数字形式。而此时～G却是说：“存在一个广义自然数能与u的算术扼摁化产物形成TNT证明对o"把这族句子和-G放在一起，显然是在讲：存在一个超自
-然数能与u的算术{?[摁化产物形成TNT证明对，如此而已—～半点矛盾也没有了，在一个包括超自然数在内的解释下，TNT+～G是一致的系统。
+重新解释为“存在一个广义自然数”，而不再解释成“存在一个自然数”。这样作的时候还得用相应的方法把
+\begin_inset Formula $\forall$
+\end_inset
+
+也重新解释过。这意味着我们对自然数以外的某些数也打开了大门，引进即“超自然数”。自然数和超自然数一起构成整个广义数。这样一来，这个表面上的矛盾立即化为乌有，因为
+那个金字塔仍然讲的是老话：“没有一个自然数能与u的算术㧟摁摁化形成TNT证明对。”这族句子丝毫没讲到超自然数，因为没有关于超自然数的数字形式。而此时~G却是说：
+“存在一个广义自然数能与u的算术㧟摁化产物形成TNT证明对。”把这族句子和~G放在一起，显然是在讲：存在一个超自然数能与u的算术㧟摁化产物形成TNT证明对，如此
+而已——半点矛盾也没有了，在一个包括超自然数在内的解释下，TNT+~G是一致的系统。
 \end_layout
 
 \begin_layout Standard
 由于我们现在约定了把两个量词的解释加以扩充，这就意味
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+601
+\end_layout
+
+\end_inset
+
+着包含量词的任何一条定理也都有一个扩充了的意义，例如，交换律定理
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\forall a:\forall a^{\prime}:(a^{\prime})=(a^{\prime}+a)$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-6 01着包含量词的任何一条定理也都有一个扩充了的意义，例如，交换律定理
+现在所讲的就是对全体广义自然数加法是可交换的——换句话说，不仅自然数的加法可交换，超自然数的加法也行。类似地，说“2不是自然数的平方”的那条TNT定理——
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\sim\exists a:(a\cdot a)=SS0$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-V a:V a‘：(a+a 7)=(a 7+a)现在所讲的就是对全体广义自然数加法是可交换的——换句话说，不仅自然数的加法可交换，超自然数的加法也行。类似地，说
-“2不是自然数的平方”的那条TNT定理——
-\end_layout
-
-\begin_layout Standard
-～|’，a：(a．a)一SS0一现在告诉我们2同样也不是超自然数的平方。事实上，自然数454所具有的性质，只要是由TNT定理给出的，超自然数也都具有。
-\end_layout
-
-\begin_layout Standard
-换言之，对于自然数能形式证明的东西，对超自然数也都成立。具体讲，这意味着超自然数不是我们熟悉的诸如分数、负数、复数等等的任何一种东西，最好还是把超自然数设想成比
-全部自然数都大的整数——无穷大的整数。要害是：尽管TNT的定理能排斥负数、有理数、无理数、复数等等，但没有办法排斥无穷大的整数：连表示“不存在无穷量”这句话的办
-法都没有。
+一现在告诉我们2同样也不是超自然数的平方。事实上，自然数所具有的性质，只要是由TNT定理给出的，超自然数也都具有。换言之，对于自然数能形式证明的东西，对超自然数
+也都成立。具体讲，这意味着超自然数不是我们熟悉的诸如分数、负数、复数等等的任何一种东西，最好还是把超自然数设想成比全部自然数都大的整数——无穷大的整数。要害是：
+尽管TNT的定理能排斥负数、有理数、无理数、复数等等，但没有办法排斥无穷大的整数：连表示“不存在无穷量”这句话的办法都没有。
 \end_layout
 
 \begin_layout Standard
 这种说法初听起来会让人觉得很怪。与G的哥德尔数形成TNT证明对的那个数，（我们称它为“I”，不过这没什么特殊理由）到底有多大？不幸的是，我们没有什么合用的语言能
-描述无穷大整数的大小，所以我怕是没法表述I的量值了。可话又说回来，l--1的平方根——到底有多大？宅的大小就不能靠我们熟悉的自然数的大小来想象，你不能说：“噢，
-i大约和1 4的一半或24的9/10-样大o"你只好讲：“i的平方是-1"，而且差不多也就只能讲这些。在这里倒好象用得上亚伯拉罕·林肯的一句话。当有人问他：“人
-的两条腿该是多长”的时候，他慢条斯理地说：“够着地就行o"这差不多就是回答I的大小的办法-I恰好就是一个指明G的证明结构的数那么大——不再大，也不再小了。
+描述无穷大整数的大小，所以我怕是没法表述I的量值了。可话又说回来，i——-1的平方根——到底有多大？它的大小就不能靠我们熟悉的自然数的大小来想象，你不能说：“噢
+，i大约和14的一半或24的9/10一样大。"你只好讲：“i的平方是-1”，而且差不多也就只能讲这些。在这里倒好象用得上亚伯拉罕·林肯的一句话。当有人问他：“人
+的两条腿该是多长”的时候，他慢条斯理地说：“够着地就行。”这差不多就是回答I的大小的办法——I恰好就是一个指明G的证明结构的数那么大——不再大，也不再小了。
 \end_layout
 
 \begin_layout Standard
 当然，TNT的任何一个定理都有很多不同的推导，所以你大
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+602
 \end_layout
 
-\begin_layout Standard
-602概要怪我对I的刻划不唯一。的确是这么回事。不过，这仍然与i——一1的平方根——的情形类似。你可以回忆一下，还有一个数的平方根也是_1，那就是-1，i和-l
-不是同一个数，它们恰好共同具有某个性质。麻烦仅在于这还恰好就是定义它们的性质！我们只得挑出其中一个——至于是哪个，这无关紧要——把它叫做“i"o其实根本没办法区
-分开它们，所以，也没准我们在这数百年间一直都说的是那个错的“i"，但这完全是无所谓的。现在，与i类似，I也不是唯一定义的。你只须把I看做是很多能与u的算术{汇摁
-化产物形成TNT证明对的荒唐数中特定的某一个就行了。
+\end_inset
+
+概要怪我对I的刻划不唯一。的确是这么回事。不过，这仍然与i——-1的平方根——的情形类似。你可以回忆一下，还有一个数的平方根也是-1，那就是-1，i和-1不是同
+一个数，它们恰好共同具有某个性质。麻烦仅在于这还恰好就是定义它们的性质！我们只得挑出其中一个——至于是哪个，这无关紧要——把它叫做“i
+\begin_inset Quotes erd
+\end_inset
+
+。其实根本没办法区分开它们，所以，也没准我们在这数百年间一直都说的是那个错的“i”，但这完全是无所谓的。现在，与i类似，I也不是唯一定义的。你只须把I看做是很多
+能与u的算术㧟摁化产物形成TNT证明对的荒唐数中特定的某一个就行了。
 \end_layout
 
 \begin_layout Subsection*
@@ -1733,18 +3350,10 @@ i大约和1 4的一半或24的9/10-样大o"你只好讲：“i的平方是-1"，
 \end_layout
 
 \begin_layout Standard
-我们还没有直接面对把～G扔进去作为公理引出的后果。我们说到过，但没有强调。要害在于～G断言G有证明，如果一个系统的公理之一断言它自己的否定有证明，这个系统还能好
-得了吗？
-\end_layout
-
-\begin_layout Standard
-我们现在注定要焦头烂额了！幸好，事情还不那么糟糕。只要我们仅限于构造有穷的证明，就决不会证明Go所以，G与～G之间并不会发生不幸的冲突。超自然数I也不会引来灾难
-。但是，我们现在必须得习惯～G是断言一个真理（“G有证明”），而G是断言一45s个假理（“G没有证明”）这样的想法。在标淮数论中正好相反一不过标准数论中没有什么
-超自然数，要注意．TNT的超自然定理
-\end_layout
-
-\begin_layout Standard
-一即G-可以讲假理，但全部自然定理讲的仍都是真理。
+我们还没有直接面对把~G扔进去作为公理引出的后果。我们说到过，但没有强调。要害在于~G断言G有证明，如果一个系统的公理之一断言它自己的否定有证明，这个系统还能好
+得了吗？我们现在注定要焦头烂额了！幸好，事情还不那么糟糕。只要我们仅限于构造有穷的证明，就决不会证明G。所以，G与~G之间并不会发生不幸的冲突。超自然数I也不会
+引来灾难。但是，我们现在必须得习惯~G是断言一个真理（“G有证明”），而G是断言一个假理（“G没有证明”）这样的想法。在标淮数论中正好相反一不过标准数论中没有什
+么超自然数，要注意．TNT的超自然定理——即G——可以讲假理，但全部自然定理讲的仍都是真理。
 \end_layout
 
 \begin_layout Subsection*
@@ -1752,15 +3361,29 @@ i大约和1 4的一半或24的9/10-样大o"你只好讲：“i的平方是-1"，
 \end_layout
 
 \begin_layout Standard
-我要来讲一个有关超自然数的极为稀奇和意外的事实，但不加证明o（我也不知道证明o）这件事会使人想到量子力学中的海森堡测不准原理。它是这样：我们可以用某种简单而又自
-然的方法对每个超自然数用三个一组的普通整数（包括负整数）来“编号”o这
+我要来讲一个有关超自然数的极为稀奇和意外的事实，但不加证明。（我也不知道证明。）这件事会使人想到量子力学中的海森堡测不准原理。它是这样：我们可以用某种简单而又自
+然的方法对每个超自然数用三个一组的普通整数（包括负整数）来“编号”。这
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+603
 \end_layout
 
-\begin_layout Standard
-603样，我们原有的那个超自然数I就可以有一个编号集（9，一8，3）．而它的后继I+l就可以有一个编号集（9，-8，4）o并不是只有一种方式来给超自然数编号，不
-同的方法有各自的优点和缺点。根据某些编号方案，给定两个超自然数的编号之后，很容易算出其和的编号三元组。而按另一些编号方案，则很容易算出两个数的积的编号三元组。然
-而，没有一种编号方案能够方便地既算加法又算乘法。说严格一点，如果和的编号能用递归函数算出，那么积的编号就不是递归函数；反之，如果积的编号是递归函数，和的编号就不
-是。因此如果超自然的小学生在学会超自然加法之后仍不知道超自然的九九表，那只好原谅他们——而且反过来也一样！你不可能同时都知道。
+\end_inset
+
+样，我们原有的那个超自然数I就可以有一个编号集
+\begin_inset Formula $(9,-8,3)$
+\end_inset
+
+，而它的后继I+1就可以有一个编号集
+\begin_inset Formula $(9,-8,4)$
+\end_inset
+
+。并不是只有一种方式来给超自然数编号，不同的方法有各自的优点和缺点。根据某些编号方案，给定两个超自然数的编号之后，很容易算出其和的编号三元组。而按另一些编号方案
+，则很容易算出两个数的积的编号三元组。然而，没有一种编号方案能够方便地既算加法又算乘法。说严格一点，如果和的编号能用递归函数算出，那么积的编号就不是递归函数；反
+之，如果积的编号是递归函数，和的编号就不是。因此如果超自然的小学生在学会超自然加法之后仍不知道超自然的九九表，那只好原谅他们——而且反过来也一样！你不可能同时都
+知道。
 \end_layout
 
 \begin_layout Subsection*
@@ -1768,8 +3391,15 @@ i大约和1 4的一半或24的9/10-样大o"你只好讲：“i的平方是-1"，
 \end_layout
 
 \begin_layout Standard
-我们还可越出超自然数数论的范围，考虑超自然的分数（两个超自然数的比）、超自然的实数，等等。其实，利用超自然实数的概念可以在一个新的立脚点上建立微积分。诸如clx
-、dy等等长期使数学家头疼的无穷小量，如果看成无穷大实数的倒数，就完全是合乎情理的！高等分析的某些定理依靠“非标准分析”能够更直观地证明出来。
+我们还可越出超自然数数论的范围，考虑超自然的分数（两个超自然数的比）、超自然的实数，等等。其实，利用超自然实数的概念可以在一个新的立脚点上建立微积分。诸如
+\begin_inset Formula $dx$
+\end_inset
+
+、
+\begin_inset Formula $dy$
+\end_inset
+
+等等长期使数学家头疼的无穷小量，如果看成无穷大实数的倒数，就完全是合乎情理的！高等分析的某些定理依靠“非标准分析”能够更直观地证明出来。
 \end_layout
 
 \begin_layout Subsection*
@@ -1777,27 +3407,30 @@ i大约和1 4的一半或24的9/10-样大o"你只好讲：“i的平方是-1"，
 \end_layout
 
 \begin_layout Standard
-初次接触非标准数论时会被它搞得晕头转向。不过非欧几何4 56也是杷人搞得晕头转向的东西。不管是在哪种情形，人们都不禁要问：“这两种对立的理论中哪个正确？哪个讲的
-是真理呢？”某种意义上这类问题是无法回答的o（而在另一种意义上——后面要讨论——却可以有答案o）这个问题之所以没有答案，原因在于这两种对立的理论尽管使用相同的术
-语，却不是在谈相同的概念。所以它
+初次接触非标准数论时会被它搞得晕头转向。不过非欧几何也是杷人搞得晕头转向的东西。不管是在哪种情形，人们都不禁要问：“这两种对立的理论中哪个正确？哪个讲的是真理呢
+？”某种意义上这类问题是无法回答的。（而在另一种意义上——后面要讨论——却可以有答案。）这个问题之所以没有答案，原因在于这两种对立的理论尽管使用相同的术语，却不
+是在谈相同的概念。所以它
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+604
+\end_layout
+
+\end_inset
+
+们只是表面上对立，正如欧氏几何和非欧几何一样。在几何中，“点”、“线”等字眼都是未定义项，它们的意义是靠用它们写出的公理系统确定的。
 \end_layout
 
 \begin_layout Standard
-604们只是表面上对立，正如欧氏几何和非欧几何一样。在几何中，“点”、“线”等字眼都是未定义项，它们的意义是靠用它们写出的公理系统确定的。
-\end_layout
-
-\begin_layout Standard
-对于数论，情形也类似。当我们决定要把TNT形式化时，我们预先就选好了当作解释词的那些术语——例如“数”、“加”、“乘”
-\end_layout
-
-\begin_layout Standard
-等等。采取形式化这一步骤使我们失去了主动权，无条件地接受这些术语可能有的各式各样的被动意义。但是，我们——象萨彻利一样——对意外的事情毫无准备。我们自以为我们完
-全知道有关自然数真的、实在的、唯一的理论是什么。我们并未想到会有一些关于自然数的问题是TNT解决不了的，因而朝不同的方向扩充TNT就能对这些问题随心所欲地回答。
-这样一来，我们就没有一个基础来谈论数论“事实上”该是这一种还是那一种。就象有个人发誓说-1的平方根“事实上”存在，或者"事实上”不存在一样。
+对于数论，情形也类似。当我们决定要把TNT形式化时，我们预先就选好了当作解释词的那些术语——例如“数”、“加”、“乘”等等。采取形式化这一步骤使我们失去了主动权
+，无条件地接受这些术语可能有的各式各样的被动意义。但是，我们——象萨彻利一样——对意外的事情毫无准备。我们自以为我们完全知道有关自然数真的、实在的、唯一的理论是
+什么。我们并未想到会有一些关于自然数的问题是TNT解决不了的，因而朝不同的方向扩充TNT就能对这些问题随心所欲地回答。这样一来，我们就没有一个基础来谈论数论“事
+实上”该是这一种还是那一种。就象有个人发誓说-1的平方根“事实上”存在，或者"事实上”不存在一样。
 \end_layout
 
 \begin_layout Subsection*
-几何学的分又现象与物理学家‘
+几何学的分又现象与物理学家
 \end_layout
 
 \begin_layout Standard
@@ -1806,17 +3439,23 @@ i大约和1 4的一半或24的9/10-样大o"你只好讲：“i的平方是-1"，
 与条件的近似化和理想化打交道。比如第五章谈过的我自己的那篇博士论文，就是以关于磁场中晶体的问题的一个极为理想的情形为出发点的。显露出的数学倒是高度的漂亮和对称。
 尽管——毋宁说是因为——该模型的人为性，某些基本的物理特征明显地反映在图表上了。这些特征就提示着对更现实的条件下可能发生的这类事情的一些推测。可是，要是没有使我
 那图表能够产生的那些简化假设，就决不会有如
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+605
 \end_layout
 
-\begin_layout Standard
-605此的见地。可以看到，在物理学中这类事情比比皆是：物理学家用一个“非现实”的情形认识了现实中隐藏很深的一些特性。所以，说物理学家想要使用的几何的某一分支是描
-述了“真几何”时，要特4 5 7别谨慎，因为实际上物理学家总要使用种种不同的几何学：在给定、的情形下挑选看起来最简单、最方便的那一种。
+\end_inset
+
+此的见地。可以看到，在物理学中这类事情比比皆是：物理学家用一个“非现实”的情形认识了现实中隐藏很深的一些特性。所以，说物理学家想要使用的几何的某一分支是描述了“
+真几何”时，要特别谨慎，因为实际上物理学家总要使用种种不同的几何学：在给定、的情形下挑选看起来最简单、最方便的那一种。
 \end_layout
 
 \begin_layout Standard
 此外——或许这更能说明问题——物理学家并不只研究我们生活在其中的三维空间。有整个一簇的“抽象空间”，在其中都可以进行物理演算，而这些空间与我们所生活的那个物理空
 间有完全不同的几何性质。那么谁会说“真几何”就是天王星和海王星在其中绕着太阳转的那个空间所确定的呢？有一种“希尔伯特”空间，量子力学的波函数就在里面晃动；有一种
-“动量空间”，那里住着傅立叶分量；有一种“互补空间力，其中有波向量跳跃；还有一种“相空间”，其中多粒子构型迅速变幻；等等。绝对没有理由说这些空间的几何学都得一样
+“动量空间”，那里住着傅立叶分量；有一种“互补空间”，其中有波向量跳跃；还有一种“相空间”，其中多粒子构型迅速变幻；等等。绝对没有理由说这些空间的几何学都得一样
 。实际上，它们不可能一样！因此，对物理学家来说，存在不同的和“对立”的几何学是至关重要的。
 \end_layout
 
@@ -1825,64 +3464,83 @@ i大约和1 4的一半或24的9/10-样大o"你只好讲：“i的平方是-1"，
 \end_layout
 
 \begin_layout Standard
-几何说得够多了，数论又怎么样呢？不同的数论之间的相互依存也是至关重要的吗？你要是去问银行职员，我猜他准会惊诧不已而不肯相倍02加2怎么能不等于4而等于别的什么东
+几何说得够多了，数论又怎么样呢？不同的数论之间的相互依存也是至关重要的吗？你要是去问银行职员，我猜他准会惊诧不已而不肯相信。2加2怎么能不等于4而等于别的什么东
 西呢？要是2加2不得4，由此导致的令人无法忍受的不确定性不是立刻会使整个世界经济坍台吗？其实，并不是这么回事。首先，非标准数论并不危及2加2等于4这个古老观念，
 它与普通数论的不同仅在于它讨论无穷概念的方式。毕竟，每个TNT定理在TNT的任何扩充是定理！所以银行家们犯不上为采用非标准数论会引起混乱而感到绝望。
 \end_layout
 
 \begin_layout Standard
-不管怎么说，对旧有事实的改变怀着恐惧心理，这反映了对数606学和现实世界之间关系的一种误解。只是在你作出了要采取哪类数学这样一个决定性的选择之后，数学才告诉你有
-关现实世界的一些问题的答案。即使有一个与标准效论相左的数论，而且它也使用符号“2"、“3"和“+”，可其中一条定理却说“2+2-3"，那也没什么理由要银行家选用
-这种理论！因为它对金融工作不合用。你得使自己的数学适应世界，而不是相反。比如说，我们并不把数论用于云彩组成的系统，因为整数这个概念很难适应那里的情形。一块云彩和
-另一块云彩跑到一起并不是两块云彩，而仍只是一块。这并不证明1加1等于1，它只证明“一”的数论概念就其全部功用而言都不能用来数云彩。
+不管怎么说，对旧有事实的改变怀着恐惧心理，这反映了对数
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+606
+\end_layout
+
+\end_inset
+
+学和现实世界之间关系的一种误解。只是在你作出了要采取哪类数学这样一个决定性的选择之后，数学才告诉你有关现实世界的一些问题的答案。即使有一个与标准效论相左的数论，
+而且它也使用符号“2”、“3”和“+”，可其中一条定理却说“2+2=3”，那也没什么理由要银行家选用这种理论！因为它对金融工作不合用。你得使自己的数学适应世界，
+而不是相反。比如说，我们并不把数论用于云彩组成的系统，因为整数这个概念很难适应那里的情形。一块云彩和另一块云彩跑到一起并不是两块云彩，而仍只是一块。这并不证明1
+加1等于1，它只证明“一”的数论概念就其全部功用而言都不能用来数云彩。
 \end_layout
 
 \begin_layout Subsection*
-数论中的分叉现象与元数学家 458
+数论中的分叉现象与元数学家
 \end_layout
 
 \begin_layout Standard
 总而言之，银行家、数云彩的人、以及其余的绝大多数人，都不必为超自然数的出现而烦恼：它们丝毫不会影响世间的日常观念。实际上可能遇到点麻烦的，只是那些离不开无穷实体
-本质的人。我们周围这类人并不很多——不过数理逻辑学家属于这一范畴c数论中有分叉现象怎么就会影响他们呢？因为，数论在逻辑中有两重身份：(1)当把数论公理化时，它是
-研究对象；(2)非形式地使用数论时，它是研究形式系统的不可少的工具。这又是使用一谈论的区别。这里，(1)是谈论数论，(2)是使用数论。
+本质的人。我们周围这类人并不很多——不过数理逻辑学家属于这一范畴。数论中有分叉现象怎么就会影响他们呢？因为，数论在逻辑中有两重身份：（1）当把数论公理化时，它是
+研究对象；（2）非形式地使用数论时，它是研究形式系统的不可少的工具。这又是使用—谈论的区别。这里，（1）是谈论数论，（2）是使用数论。
 \end_layout
 
 \begin_layout Standard
 这样一来，尽管数论不适用于数云彩，但数学家认定它适用于研究形式系统，这就象银行家认定实数算术适用于他们的业务一样。这是在数学之外作出的裁决。这也表明，进行数学研
-究时的思维过程和其它领域的很多思维过程一样，含有“缠结的层次结构”，其中一个层次可以影响别的层次。层与层之间并没有明显的界限。
-\end_layout
-
-\begin_layout Standard
-就象关于“什么是数学”的形式主义观点使人们相信的那样。
+究时的思维过程和其它领域的很多思维过程一样，含有“缠结的层次结构”，其中一个层次可以影响别的层次。层与层之间并没有明显的界限。就象关于“什么是数学”的形式主义观
+点使人们相信的那样。
 \end_layout
 
 \begin_layout Standard
 形式主义的哲学宣称数学家只讨论抽象的符号，而且可以几
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+607
+\end_layout
+
+\end_inset
+
+乎不关心这些符号有什么现实用处、与现实有什么关系。然而这是一幅很失真的画面。这在元数学中再清楚不过了。如果是靠数的理论本身的帮助去获得有关形式系统的真实知识，那
+末数学家们就是心照不宣地表明，他们相信这些被叫做“自然数”的飘渺的玩艺其实就是现实世界的组成部分——并不只是想象中的片断。正是由于这个原因，我才在前面的一个括号
+中说，在某种意义上，对“数论的哪种说法为‘真’”有一个答案。关键在于：数理逻辑学家必须选出数论的一种说法来寄托他们的信念，尤其是他们不能在超自然数的存在与不存在
+之间保持中立。因为对于元数学中的问题，两个不同的理论可能给出不同的答案。
 \end_layout
 
 \begin_layout Standard
-6 07乎不关心这些符号有什么现实用处、与现实有什么关系。然而这是一幅很失真的画面。这在元数学中再清楚不过了。如果是靠数的理论本身的帮助去获得有关形式系统的真实
-知识，那末数学家们就是心照不宣地表明，他们相信这些被叫做“自然数”的飘渺的玩艺其实就是现实世界的组成部分——并不只是想象中的片断。正是由于这个原因，我才在前面的
-一个括号中说，在某种意义上，对“数论的哪种说法为‘真”’有一个答案。关键在于：数理逻辑学家必须选出数论的一种说法来寄托他们的信念，尤其是他们不能在超‘自然数的存
-在与不存在之间保持中立。因为对于元数学中的问题，两个不同的理论可能给出不同的答案。
-\end_layout
-
-\begin_layout Standard
-例如“～G在TNT中有没有有穷推导？”，这个问题实际上没人知道答案。尽管如此，大多数数理逻辑学家还是会毫不犹豫地回答说没有。给出这个答案的直觉基础是下述事实：如
-果～G是定理，TNT就是∞不一致的，这样的话，你要是打算给TNT一个有意义的解释，你就被迫得吞下超自然数——而这对大多数人来讲是一件极不舒服的事。毕竟，我们发明
-TNT时并没打算或者说并不指望超自然数是它的一部分。也就是说，我们——或者我们中的多数人——都相信有可能造出一个形式化数论．它并不会强迫你相信超自然数完全象自然
-数一样真实。在押宝的时候，确定数学家们要把自己的信念寄托在数论的哪一条“岔路”上，靠的就是对现459实世界的直观。不过这种信念可能是错的。也许人们发明的每一种一
-致的形式数论都蕴涵着超自然数的存在，也就是都∞不一致。这当然是个古怪的想法，但却是可以想得到的。
+例如“~G在TNT中有没有有穷推导？”，这个问题实际上没人知道答案。尽管如此，大多数数理逻辑学家还是会毫不犹豫地回答说没有。给出这个答案的直觉基础是下述事实：如
+果~G是定理，TNT就是ω不一致的，这样的话，你要是打算给TNT一个有意义的解释，你就被迫得吞下超自然数——而这对大多数人来讲是一件极不舒服的事。毕竟，我们发明
+TNT时并没打算或者说并不指望超自然数是它的一部分。也就是说，我们——或者我们中的多数人——都相信有可能造出一个形式化数论，它并不会强迫你相信超自然数完全象自然
+数一样真实。在押宝的时候，确定数学家们要把自己的信念寄托在数论的哪一条“岔路”上，靠的就是对现实世界的直观。不过这种信念可能是错的。也许人们发明的每一种一致的形
+式数论都蕴涵着超自然数的存在，也就是都ω不一致。这当然是个古怪的想法，但却是可以想得到的。
 \end_layout
 
 \begin_layout Standard
 如果真是这样——我抱有怀疑，但却拿不出否证——则G不见得不可判定。其实，也许根本就没有不可判定的TNT公式。可能会简单得只有一个不分叉的数论——其中必定包括了超
-自然’数。这并不是数理逻辑学家所期待的事情，可又是不能彻底排斥的
+自然数。这并不是数理逻辑学家所期待的事情，可又是不能彻底排斥的
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+608
 \end_layout
 
-\begin_layout Standard
-608事情。一般说来，数理逻辑学家相信TNT——以及与之类似的系统——是∞一致的，从而在任何这样的系统中可以构造出的哥德尔符号串都是该系统内不可判定的。这意味着
-逻辑学家挑选它或它的否定作为新公理都可以。
+\end_inset
+
+事情。一般说来，数理逻辑学家相信TNT——以及与之类似的系统——是ω一致的，从而在任何这样的系统中可以构造出的哥德尔符号串都是该系统内不可判定的。这意味着逻辑学
+家挑选它或它的否定作为新公理都可以。
 \end_layout
 
 \begin_layout Subsection*
