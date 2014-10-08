@@ -319,7 +319,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0619.png
 	lyxscale 50
-	width 100text%
+	width 90text%
 
 \end_inset
 
@@ -998,6 +998,44 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0628.jpg
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+龙，艾舍尔作（木刻，1952）
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 艾舍尔提供的一个形象画面对于支持这里的直观极有用处：那就是他的作品《龙》(图76)。这幅画最突出的特点——自然也是它的主题——是一条咬着自己尾巴的龙。这里具有全
 部的哥德尔内涵。不过，这幅画还有更深一层的主题，艾舍尔本人曾写了下述很有意思的注释。第一条注释说的是他的一组素描，它们全与“平面和空间的冲突”有关，第二条注释是
 专门讲龙的。
@@ -1064,42 +1102,6 @@ status open
 。然而龙却走不出它的二维空间，因而不能象我们一样知道这一点。事实上，我们还可以把艾舍尔的画里所表述的想法无限地做下去。例如，我们可以把它从书上撕下，叠起来，在上
 面剪个洞，再从洞里把它掏过来，为把这团东西变成二维的，我们再给它照像。对照片，我们还可以施用同样的手法。每一次，只要是最后又变到二维的——不论我们以为已经多么巧
 妙地在二维空间中模拟了三维空间——它就又得遭到切开，再叠起的厄运。
-\end_layout
-
-\begin_layout Standard
-\begin_inset Wrap figure
-lines 0
-placement r
-overhang 0in
-width "60col%"
-status open
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/image-0628.jpg
-	lyxscale 50
-	width 60col%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-龙，艾舍尔作（木刻，1952）
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1434,6 +1436,42 @@ status open
 螃蟹： 细致入微地比较这两个人一定非常引入入胜。
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0636.jpg
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+影子，马格里特作(1966)。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 阿基里斯： 我认为，马格里特对现实的把握是惊人的。比如那儿挂着的那幅画吧，画面上有一棵树，树后面还有一支巨大的烟斗，画得太迷人了。
@@ -1459,12 +1497,6 @@ status open
 
 \end_layout
 
-\begin_deeper
-\begin_layout Standard
-图77．影子，马格里特作(1966)。
-\end_layout
-
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 螃蟹： 我能理解。我的客人们经常被它骗住了。
@@ -1512,7 +1544,41 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-图78.优雅状态，马格里特作(1959)。
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0637.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+优雅状态，马格里特作(1959)。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset Note Comment
 status open
 
