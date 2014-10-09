@@ -108,37 +108,48 @@ enumitem
 作为开篇，我们先看几个句子，这些句子第一眼看去象是最简单的自指。下面是这一类句子中的几个例子：
 \end_layout
 
-\begin_layout Standard
-(1)本句子有七个字。
+\begin_layout Enumerate
+本句子有七个字。
+\end_layout
+
+\begin_layout Enumerate
+本句子无意义，因为它是自指的。
+\end_layout
+
+\begin_layout Enumerate
+本句子无动词。
+\end_layout
+
+\begin_layout Enumerate
+本句子是假的。（说谎者悖论）
+\end_layout
+
+\begin_layout Enumerate
+我正在写的这句话就是你正在读的那句话。
 \end_layout
 
 \begin_layout Standard
-(2)本句子无意义，因为它是自指的。
+除了最后一句（这是个例外），其余的所有句子都涉及一个看上去很简单的、包含在词组“本句子”之内的技巧。其实，这种技巧一点也不简单。全部这些句子都“漂浮”在上下文之
+中。可以把它们与只能看见尖顶的冰山做个比较。这一串串单词就是冰山的尖顶，为了理解它们所必须做的处理就是看不见的那部分。按这种意义，它们的涵义是隐性的，而不是显性
+的。当然，没有一句话的意义完全是显性的，不过，这种自指性越是呈显性，就越能暴露支撑它的那种技巧。在我们这里，为了辨认出上述各句子的自指性，就不仅要熟悉象汉语这样
+的、可以用来讨论语言学问题的语言，而且还得能够领会“本句子”这个词组的所指。这好象很简单，但是却要依赖于
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+656
+\end_layout
+
+\end_inset
+
+我们那种非常复杂而又完全内化了的驾驭语言的能力。这里，尤其重要的一件事是领会一个带有指示代词的名词性词组的所指。这种能力建立得很慢，因而决不能等闲视之。当我们向
+某个不懂得悖论和语言学圈套的人（比方说一个孩子）介绍象第四句话那样的句子时，困难也许就会特别突出。他们可能会问：“什么句子是假的？”而要想使人了解这个句子是谈论
+它自己的，可能就得花上一些功夫。整个思想最初是有点令人吃惊的的。这里有两幅画(图83、图84)或许会有所帮助。图83是一幅能在两个层次上解释的画。在一个层次上，
+它是一个指着自己的句子；在另一个层次上，它是一幅说谎者自杀自语的写照。
 \end_layout
 
 \begin_layout Standard
-(3)本句子无动词。
-\end_layout
-
-\begin_layout Standard
-(4)本句子是假的o（说谎者悖论）
-\end_layout
-
-\begin_layout Standard
-(5)我正在写的这句话就是你正在读的那句话。除了最后一句（这是个例外），其余的所有句子都涉及一个看上去很简单的、包含在词组“本句子”之内的技巧。其实，这种技巧一
-点也不简单。全部这些句子都“漂浮”在一卜下文之中。可以把它们与只能看见尖顶的冰山做个比较。这一串串单词就是冰山的尖顶，为了理解它们所必须做的处理就是看不见的那部
-分。按这种意义，它们的涵义是隐性的，而不是显性的。当然，没有一句话的意义完全是显性的，不过，这种自指性越是呈显性，就越能暴露支撑它的那种技巧。在我们这里，为了辨
-认出上述各句子的自指性，就不仅要熟悉象汉语这样的、可以用来讨论语言学问题的语言，而且还得能够领会“本句子”这个词组的所揩。这好象很简单，但是却要依赖于
-\end_layout
-
-\begin_layout Standard
-6 56我们那种非常复杂而又完全内化了的驾驭语言的能力。这里，尤其重要的一件事是领会一个带有指示代词的名词性词组的所指。这种能力建立得很慢，因而决不能等闲视之。
-当我们向某个不懂得悖论和语言学圈套的人（比方说一个孩子）介绍象第四句话那样的句子时，困难也许就会特别突出。他们可能会问：“什么句子是假的？”
-\end_layout
-
-\begin_layout Standard
-而要想使人了解这个句子是谈论它自己的，可能就得花上一些功夫。整个思想最初是有点令人吃惊的的。这里有两幅画(图83、图84)或许会有所帮助。图83是一幅能在两个层
-次上解释的画。在一个层次上，它是_个指着自己的句子；在另一个层次上，它是一幅说谎者自杀自语的写照。
+图83．刘皓明绘。
 \end_layout
 
 \begin_layout Standard
@@ -146,7 +157,7 @@ enumitem
 \end_layout
 
 \begin_layout Standard
-试着造一个自指句子，而又不用“本句子”等手法，是非常有意思的。可图83．刘皓明绘。
+试着造一个自指句子，而又不用“本句子”等手法，是非常有意思的。可
 \end_layout
 
 \begin_layout Standard
@@ -155,7 +166,21 @@ enumitem
 
 \begin_layout Standard
 “这i话有七个字”这句话有七个字。不过，这种尝试总归要失败，因为任何一个能够在自身内部整个地引用的句子，总得比它自身短。只有当你情愿接受一个无穷长的句子时，这种
-做法才实际可行，例如：6 5 7句子“句子
+做法才实际可行，例如：
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+657
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+句子
 \end_layout
 
 \begin_layout Standard
@@ -163,11 +188,15 @@ enumitem
 \end_layout
 
 \begin_layout Standard
-“句子等等，等等
+“句子
 \end_layout
 
 \begin_layout Standard
-是无穷长的”是无穷长的”
+“句子
+\end_layout
+
+\begin_layout Standard
+等等，等等
 \end_layout
 
 \begin_layout Standard
@@ -175,8 +204,20 @@ enumitem
 \end_layout
 
 \begin_layout Standard
-6 58图84水线言海洋但是对有穷的句子不能这样儆。基于同样的理由，哥德尔的符号串G不能含有其哥德尔数的数字形式：它装不下。没有一个TNT符号串能含有其自身哥德
-尔数的TNT数字，因为这一数字总比该符号串本身含有更多的符号口不过，你可以让G含有其自身哥德尔数的一个描述，再利用“代入”和“尊术托摁化”来绕过去。
+是无穷长的”
+\end_layout
+
+\begin_layout Standard
+是无穷长的”
+\end_layout
+
+\begin_layout Standard
+6 58图84水线言海洋
+\end_layout
+
+\begin_layout Standard
+但是对有穷的句子不能这样做。基于同样的理由，哥德尔的符号串G不能含有其哥德尔数的数字形式：它装不下。没有一个TNT符号串能含有其自身哥德尔数的TNT数字，因为这
+一数字总比该符号串本身含有更多的符号。不过，你可以让G含有其自身哥德尔数的一个描述，再利用“代入”和“算术㧟摁化”来绕过去。
 \end_layout
 
 \begin_layout Standard
