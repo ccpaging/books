@@ -998,16 +998,18 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
+\begin_inset Wrap figure
+lines 0
+placement r
+overhang 0in
+width "50col%"
 status open
 
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0628.jpg
 	lyxscale 50
-	width 100col%
+	width 50col%
 
 \end_inset
 
@@ -1023,10 +1025,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1273,7 +1271,7 @@ status open
 
 \begin_layout Standard
 无论如何，弄清楚“感知自身”和“超越自身”之间的区别是很重要的。你可以用各种各样的方法来看到自己——用镜子、用照片或电影、用录象带、靠别人的描绘、采用精神分析法
-等等，但你决不可能冲破皮肤站到自己外面来（这里不谈那些现代神秘运动和流行的“超心理学"流派）。TNT能够谈论自身，但不能跳出自身。一个计算机程序可以修改自己，但
+等等，但你决不可能冲破皮肤站到自己外面来（这里不谈那些现代神秘运动和流行的“超心理学”流派）。TNT能够谈论自身，但不能跳出自身。一个计算机程序可以修改自己，但
 不能违背自身的指令——充其量也只能通过服从自身的指令来改变自己的某些部分。这倒使人想起一个幽默的悖论问题：“上帝能不能造出一块他自己举不动的石头？”
 \end_layout
 
@@ -1439,6 +1437,7 @@ status open
 \begin_deeper
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1497,6 +1496,43 @@ status open
 
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0637.jpg
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+优雅状态，马格里特作(1959)。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 螃蟹： 我能理解。我的客人们经常被它骗住了。
@@ -1540,45 +1576,6 @@ status open
 把手伸向马格里特的另一幅画，画面上一辆自行车放在一支点燃的雪茄上。
 \family default
 ）
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/image-0637.png
-	lyxscale 50
-	width 80text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-优雅状态，马格里特作(1959)。
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
 \begin_inset Note Comment
 status open
 
@@ -1591,7 +1588,6 @@ status open
 
 \end_layout
 
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 阿基里斯： 噢——不，谢谢，现在还不想抽。
@@ -2169,16 +2165,6 @@ status open
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 阿基里斯： 乖乖！
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-褡蒜
-\end_layout
-
-\begin_layout Standard
-，， ，夕图79．烟草诧叶病毒．！选自莱宁格[A．Leninger]．《生物化学)[Biochemistry]，纽约：Worth Publishers，1976
-年版。]
 \begin_inset Note Comment
 status open
 
@@ -2191,7 +2177,6 @@ status open
 
 \end_layout
 
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 螃蟹： 唱机刚一出声，就听轰隆一声，响彻全屋！整个机器都震散架啦，那个组装—拆卸器损坏得尤其厉害。这时我终于痛苦地意识到乌龟总是能把攻击目标对准系统的那个阿基里
@@ -2229,6 +2214,47 @@ status open
 螃蟹： 我想知道这是他的哪位朋友——不管怎么说。在其中的一篇对话里，我还看到一些富于启发性的思想，涉及烟草花叶病毒、核糖体，以及其它一些我闻所未闻的东西。
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0642.png
+	width 80text%
+	rotateAngle 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+烟草花叶病毒。[选自莱宁格[A．Leninger]．《生物化学》[Biochemistry]，纽约：Worth
+\begin_inset space \space{}
+\end_inset
+
+Publishers，1976年版。]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 阿基里斯： 烟草花叶病毒是什么玩艺儿？核糖体呢？
@@ -2585,15 +2611,9 @@ status open
 \end_inset
 
 屏幕，画有燃烧的大号那幅画的下面的那个屏幕。（
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
+\family sans
 他将摄像机对着阿基里斯，阿基里斯的脸立刻出现在大屏幕上。
-\end_layout
-
-\end_inset
-
+\family default
 ）
 \end_layout
 
@@ -2639,11 +2659,41 @@ status open
 
 \begin_deeper
 \begin_layout Standard
-一’ ．～t-r
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0648.jpg
+	lyxscale 50
+	width 80col%
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-图80.漂亮的俘虏，马格里特作(1947)。
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+漂亮的俘虏，马格里特作(1947)。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \begin_inset Note Comment
 status open
 
@@ -2700,6 +2750,535 @@ status open
 螃蟹： 看仔细些，阿基。你真的看到一条走廊吗？
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0650-1.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+最简单的情况。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0650-2.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+阿基里斯的“走廊”。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0650-3.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+旋转摄像机时的情景。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0650-4.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+不成功的“自噬”。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0650-5.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+移近时的情形。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0650-6.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+既转动又移拉时的情形。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{subfigure}{6}
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0651-1.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+开始变得古怪起来……
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0651-2.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+“星系”出现了。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0651-3.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+星系在演化……
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0651-4.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+星系的晚期。请致敬幅条数。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0651-5.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+星系把自己烧没了，变成了——一个黑洞！
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0651-6.png
+	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+一种“跳动着的花瓣状图像”，摄像时“花瓣”正在跳动。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+十二个自噬的电视屏幕。
+\end_layout
+
+\end_inset
+
+十二个自噬的电视屏幕。如果13不是个素数的话，我会再加上二个的。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+650
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+651
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 阿基里斯： 啊哈，我现在明白了。那是一组叠套在一起的电视屏幕，一个比一个小……没错儿！火焰的形象早没了，因为我的摄像机不再指向那幅画了。当我把摄像机对着屏幕时，
@@ -2732,54 +3311,6 @@ status open
 
 \end_layout
 
-\begin_deeper
-\begin_layout Standard
-4 90(a)最简单的情况。
-\end_layout
-
-\begin_layout Standard
-(b)阿肇Ill斯的“走膪5’。
-\end_layout
-
-\begin_layout Standard
-650(d)不成功的“臼噬“。
-\end_layout
-
-\begin_layout Standard
-ie)移近时的情形．(c)旋转撒像机订’f的情景。 t f）既转动又移拉时的情形。
-\end_layout
-
-\begin_layout Standard
-(g)开始变得古怪起来……(j)星系的晚期。请致敬幅条敬。
-\end_layout
-
-\begin_layout Standard
-(h)。星系”H{现丁。‘ ‘k）星系把自己烧没了，变成了——
-\end_layout
-
-\begin_layout Standard
-一个黑洞！
-\end_layout
-
-\begin_layout Standard
-(i)星系在演化…… (I)一·种“跳动着的花瓣状图像竹，摄
-\end_layout
-
-\begin_layout Standard
-像时“花瓣”正在跳动。491 图81.十‘二个自噬的电视屏幕．如果13不是个素数的话，我会再加上二个的．
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-651
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 阿基里斯： 我用“自噬”一词是指我把摄像机对准屏幕——或对准屏幕的一部分这一操作，这就是“自噬”，也就是自己吞掉自己。
@@ -2953,17 +3484,48 @@ status open
 ）喏，好些了吧？
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0654.jpg
+	lyxscale 50
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+咏叹调和歌曲，马格里特作(1964)。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 阿基里斯： 还是恶心。（指着马格里特的画。）这幅画挺有意思，我喜欢它的外框，很有质感。
 \end_layout
 
-\begin_deeper
-\begin_layout Standard
-圈82.咏叹调和歌曲，马格里特作(1964)。
-\end_layout
-
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 螃蟹： 谢谢。那是我特地请人做的——用烟叶和稻草。

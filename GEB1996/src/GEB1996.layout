@@ -125,6 +125,11 @@ Preamble
         {\titlerule*[8pt]{.}\contentspage}  % filler-page-format
         []  % below code
         
+    \titlespacing*{\chapter}
+       {0pt}% left
+       {1cm}% before
+       {1.2em}% after
+    
     \titlecontents{section}[1em]   % left
         {\addvspace{2pt}\filright}  % above-code
         {\contentspush{\thecontentslabel\quad}}    % numbered-entry-format

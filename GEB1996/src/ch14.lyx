@@ -93,24 +93,15 @@ enumitem
 \begin_body
 
 \begin_layout Chapter
-论TNT及有关系统中
-\begin_inset Newline newline
-\end_inset
-
-形式上不可判定的命题
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-protect 
+论TNT及有关系统中形式上不可判定的命题
 \end_layout
 
-\end_inset
+\begin_layout Subsection*
+“牡蛎”里的两个想法
+\end_layout
 
-
+\begin_layout Standard
+本章的标题
 \begin_inset Foot
 status open
 
@@ -121,18 +112,10 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Subsection*
-“牡蛎”里的两个想法
-\end_layout
-
-\begin_layout Standard
-本章的标题套用了哥德尔1931年那篇著名论文的标题——只是把“《数学原理》”换成了“TNT”。哥德尔的文章是一篇技术性的论文，致力于他那个精密严格的证明，本章则
-直观得多。我在此所要强调的是属于他那个证明的核心的两个关键想法。首先，是一项深刻的发现：某些TNT符号串能解释成在谈论另一些TNT符号串，简言之，作为一种语言，
-TNT有能力“自省”，或者说是自我审视。这是哥德尔配数法的产物。第二个关键想法是：这种自我审视的性质可以全部集中于一个单个的符号串，于是这个符号串所注视的唯一焦
-点就是它自己了。本质上，这种“聚焦手法”可以上溯到康托尔的对角线方法。
+套用了哥德尔1931年那篇著名论文的标题——只是把“《数学原理》”换成了“TNT”。哥德尔的文章是一篇技术性的论文，致力于他那个精密严格的证明，本章则直观得多。
+我在此所要强调的是属于他那个证明的核心的两个关键想法。首先，是一项深刻的发现：某些TNT符号串能解释成在谈论另一些TNT符号串，简言之，作为一种语言，TNT有能
+力“自省”，或者说是自我审视。这是哥德尔配数法的产物。第二个关键想法是：这种自我审视的性质可以全部集中于一个单个的符号串，于是这个符号串所注视的唯一焦点就是它自
+己了。本质上，这种“聚焦手法”可以上溯到康托尔的对角线方法。
 \end_layout
 
 \begin_layout Standard
