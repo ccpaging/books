@@ -149,7 +149,39 @@ status open
 \end_layout
 
 \begin_layout Standard
-图83．刘皓明绘。
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "45col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0657.png
+	lyxscale 50
+	width 45text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+刘皓明绘。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -157,16 +189,12 @@ status open
 \end_layout
 
 \begin_layout Standard
-试着造一个自指句子，而又不用“本句子”等手法，是非常有意思的。可
+试着造一个自指句子，而又不用“本句子”等手法，是非常有意思的。可以试试在一个句子内部引用自己。下面就是一次尝试：
 \end_layout
 
 \begin_layout Standard
-以试试在一个句子内部引用自己。下面就是一次尝试：
-\end_layout
-
-\begin_layout Standard
-“这i话有七个字”这句话有七个字。不过，这种尝试总归要失败，因为任何一个能够在自身内部整个地引用的句子，总得比它自身短。只有当你情愿接受一个无穷长的句子时，这种
-做法才实际可行，例如：
+“这话有七个字”这句话有七个字。不过，这种尝试总归要失败，因为任何一个能够在自身内部整个地引用的句子，总得比它自身短。只有当你情愿接受一个无穷长的句子时，这种做
+法才实际可行，例如：
 \begin_inset Note Comment
 status open
 
@@ -184,65 +212,351 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
 “句子
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 “句子
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 “句子
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 等等，等等
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 是无穷长的”
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
 是无穷长的”
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \quad{}
+\end_inset
+
 是无穷长的”
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+658
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-6 58图84水线言海洋
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0658.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\noindent
 但是对有穷的句子不能这样做。基于同样的理由，哥德尔的符号串G不能含有其哥德尔数的数字形式：它装不下。没有一个TNT符号串能含有其自身哥德尔数的TNT数字，因为这
 一数字总比该符号串本身含有更多的符号。不过，你可以让G含有其自身哥德尔数的一个描述，再利用“代入”和“算术㧟摁化”来绕过去。
 \end_layout
 
 \begin_layout Standard
-水线
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0659.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-图8S
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 在一个汉语句子中利用描述——不利用自引用或使用词组“本句子”——但仍达到自指目的的方法之一就是蒯恩的方法，对话《G弦上的咏叹调》里对这种方法有形象的说明。理解蒯
 恩句子用不着象理解前面举的四个例子那样做精巧的智力加工。虽然乍一看它好象更为诡秘，其实倒是一种更为直接的方法。蒯恩的构造在下述意义上极象哥德尔的构造：它通过描述
 另外一个（已经证明）同构于蒯恩句子的字符串来创造自指。对这串新字符的描述，是由这蒯恩句子的两个部分实现的。一部分是一组指令，它告诉我们如何建立一个词组，而另一部
-分则含有所要的素材，也就是说，这另一部分是一块模板。这也象冰山，但更象一块漂在水面上的肥皂（见图85）o
+分则含有所要的素材，也就是说，这另一部分是一块模板。这也象冰山，但更象一块漂在水面上的肥皂（见图85）。
 \end_layout
 
 \begin_layout Standard
-这个句子的自指性是靠一种比说谎者悖论更为直接的方法达498到的，用不着多少隐蔽的处理。此外，有意思的是，请注意“这个句子"出现在上面的句子里，但它在那里并不引起
-自指。你大约可以理解，它的所指是蒯恩句子，而不是它出现于其中的那个句子。这正好说明了诸如“这个甸子”这类指示词组该如何根据上下文来解释。这还有助于说明对这种词组
-的处理必定是相当复杂的。
+这个句子的自指性是靠一种比说谎者悖论更为直接的方法达到的，用不着多少隐蔽的处理。此外，有意思的是，请注意“这个句子”出现在上面的句子里，但它在那里并不引起自指。
+你大约可以理解，它的所指是蒯恩句子，而不是它出现于其中的那个句子。这正好说明了诸如“这个句子”这类指示词组该如何根据上下文来解释。这还有助于说明对这种词组的处理
+必定是相当复杂的。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+659
 \end_layout
 
-\begin_layout Standard
-6 5 9
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -250,141 +564,169 @@ status open
 \end_layout
 
 \begin_layout Standard
-“{{[摁化”概念以及它在制造自指过程中的用处，对话中已经解释了，所以这里用不着再细讲c我们还是来说明一下计算机程序如何能利用完全相同的技巧复制它自己。下面的自
-复制程序是用一种类似BlooP的语言写出的，用于在一句话之后引用它自己（这与托摁化次序相反，所以我把“{?[摁”倒过来写成“摁ji[修）：DEFINE
- PROCEDURE ”ENIUQ" [TEMPLATE]:PRINT[TEMPLATE, LEFT - BRACKET, QUOTE - MARK,
- TEM-PLATE,QUOTE -MARK,RIGHT - BRACKET ,PERIOD].定义过程“摁托一[模板]：打印[模板，左括号，单引号，模板，单引号
-，右括号，句号]oENIUQ['DEFINE PROCEDURE力ENiuo”[TEMPLATE]: PRINT[TEMPLATE, LEFT
- - BRACKET, QUOTE - MARK,TEM-PLATE,QUOTE-MARK, RIGHT-BRACKET9 PERIOD].ENIUQ']．摁{i
-[[‘定义过程“摁扼气模板]：打印[模板，左括号，单引号，模板，单引号，右括号，句号]o摁{?[，]o“ENIUQ"悬前三行的程序所定义的一个过程，它的输入称作
-“TEMPLATE[模板]"o这个过程的意思是：调用这个过程时，TEMPLATE的值是某一串印刷字符，ENIUQ的结果是执行一项打印操作，其中要把TEMPLAT
-E打印两次：第一次只打印它，第二次在外面加上引号和括号，最后还要缀上一个句号。这样，如果TEMPLATE的值是符号串DOUBLE - BUBBLE（意为“两个·
-泡泡”），执行ENIUQ，就得到
+“㧟摁化”概念以及它在制造自指过程中的用处，对话中已经解释了，所以这里用不着再细讲。我们还是来说明一下计算机程序如何能利用完全相同的技巧复制它自己。下面的自复制
+程序是用一种类似BlooP的语言写出的，用于在一句话之后引用它自己（这与㧟摁化次序相反，所以我把“㧟摁”倒过来写成“摁㧟”）：
 \end_layout
 
 \begin_layout Standard
-6 60
+\noindent
+DEFINE PROCEDURE 
+\begin_inset Quotes erd
+\end_inset
+
+ENIUQ
+\begin_inset Quotes erd
+\end_inset
+
+ [TEMPLATE]: PRINT [ TEMPLATE, LEFT-BRACKET, QUOTE-MARK, TEMPLATE, QUOTE-MARK,
+ RIGHT-BRACKET, PERIOD ].
 \end_layout
 
 \begin_layout Standard
-DOUBLE - BUBBLE[' DOUBLE- BUBBLE'].上面的程序中，后一半是把ENiuo这个过程调来处理一个具体的TEMPLATE值——即单引号内
-的那个长长的字串：DEFINE……ENIUQo这个值是精心挑选出来的，它由ENIUQ的定义后面再加上一个词“ENIUQ”组成。这就把程序本身——或者，如果你喜欢
-，也可以叫做程序的完全复本——给打印出来了。这很象说谎者句子的蒯恩式说法：
+\noindent
+定义过程“摁㧟”[模板]：打印[模板，左括号，单引号，模板，单引号，右括号，句号]。
 \end_layout
 
 \begin_layout Standard
+\noindent
+ENIUQ
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset space \quad{}
+\end_inset
+
+['DEFINE PROCEDURE 
+\begin_inset Quotes erd
+\end_inset
+
+ENiuo”[TEMPLATE]: PRINT [ TEMPLATE, LEFT-BRACKET, QUOTE-MARK, TEMPLATE,
+ QUOTE-MARK, RIGHT-BRACKET, PERIOD].
+\end_layout
+
+\begin_layout Standard
+\noindent
+ENIUQ'].
+\end_layout
+
+\begin_layout Standard
+\noindent
+摁㧟
+\end_layout
+
+\begin_layout Standard
+\noindent
+[‘定义过程“摁扼气模板]：打印[模板，左括号，单引号，模板，单引号，右括号，句号]。摁㧟’]。
+\end_layout
+
+\begin_layout Standard
+\noindent
+“ENIUQ”前三行的程序所定义的一个过程，它的输入称作“TEMPLATE[模板]”。这个过程的意思是：调用这个过程时，TEMPLATE的值是某一串印刷字符，E
+NIUQ的结果是执行一项打印操作，其中要把TEMPLATE打印两次：第一次只打印它，第二次在外面加上引号和括号，最后还要缀上一个句号。这样，如果TEMPLATE
+的值是符号串DOUBLE-BUBBLE（意为“两个泡泡”），执行ENIUQ，就得到
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\noindent
+660
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+DOUBLE-BUBBLE['DOUBLE-BUBBLE'].
+\end_layout
+
+\begin_layout Standard
+上面的程序中，后一半是把ENIUQ这个过程调来处理一个具体的TEMPLATE值——即单引号内的那个长长的字串：DEFINE……ENIUQ。这个值是精心挑选出来的
+，它由ENIUQ的定义后面再加上一个词“ENIUQ”组成。这就把程序本身——或者，如果你喜欢，也可以叫做程序的完全复本——给打印出来了。这很象说谎者句子的蒯恩式
+说法：
+\end_layout
+
+\begin_layout Quotation
 “放在其引文形式后面得到假句子”
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 放在其引文形式后面得到假句子
 \end_layout
 
 \begin_layout Standard
-一定要清楚，上述程序的后一半中引号内所出现的那个印刷499符号串——即TEMPLATE的值——决不能解释为一列指令。如果它碰巧是一组指令◆在某种意义上，也只是巧
-合。如上面指出的，它同样也可以是“DOUBLE - BUBBLE一或任何其它的印刷符号串。这个方案的出色之处在于：当同样的符号串出现在程序的前一半中时，也会被看
-作是一个程序（因为它不在引号之中）o因而，在这个程序中，有一个符号串以两种方式起着作用，首先是作为程序，其次是作为数据。这就是自复制程序的秘密。而且，如我们将要
-看到的，这也是自复制分子的秘密。顺带说一下，把任何种类的自复制的对象或自复创的实体叫做“自复制”是有益的；类似地，我fI’]也把任何自指的对象或自指的实体称为“
-自指”o以后我间或要使用这些术语。
+一定要清楚，上述程序的后一半中引号内所出现的那个印刷符号串——即TEMPLATE的值——决不能解释为一列指令。如果它碰巧是一组指令，在某种意义上，也只是巧合。如
+上面指出的，它同样也可以是“DOUBLE-BUBBLE”或任何其它的印刷符号串。这个方案的出色之处在于：当同样的符号串出现在程序的前一半中时，也会被看作是一个程
+序（因为它不在引号之中）。因而，在这个程序中，有一个符号串以两种方式起着作用，首先是作为程序，其次是作为数据。这就是自复制程序的秘密。而且，如我们将要看到的，这
+也是自复制分子的秘密。顺带说一下，把任何种类的自复制的对象或自复创的实体叫做“自复制”是有益的；类似地，我们也把任何自指的对象或自指的实体称为“自指”。以后我间
+或要使用这些术语。
 \end_layout
 
 \begin_layout Standard
 可以使用一种并非事先设计得易于书写自复制的语言来写自复制的程序，上面那个程序就是一个极好的例子。这时候，为承担起这个任务，就不得不使用一些被看作是该语言的组成部
-分的概念和运算——例如“QUOTE - MARK[引号]"这个词以及"PRINT[打印]力这个命令。但是，假如把一种语言设计得便于书写自复制，那就能写出一些很短
-的自复制。比方说，如果“摁托”运
+分的概念和运算——例如“QUOTE-MARK[引号]”这个词以及“PRINT[打印]”这个命令。但是，假如把一种语言设计得便于书写自复制，那就能写出一些很短的自
+复制。比方说，如果“摁㧟”运
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+661
+\end_layout
+
+\end_inset
+
+算是该语言的内在部分？而不必去做什么显式定义（就象我们对PRINT所做的假定一样），那末，一个极其短小的自复制程序就是
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $ENIUQ[^{\prime}ENIUQ^{\prime}]$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-661算是该语言的内在部分？而不必去做什么显式定义（就象我们对PRINT所做的假定一样），那末，一个极其短小的自复制程序就是
+这与乌龟对蒯恩型说谎者自指句子的说法非常相似，那里要假定：“㧟{摁”这个动词是已知的：
+\end_layout
+
+\begin_layout Quotation
+“被㧟摁时得到假句子”被㧟摁时得到假句子。
 \end_layout
 
 \begin_layout Standard
-ENIUQ['ENIUQ']这与乌龟对蒯恩型说谎者自指句子的说法非常相似，那里要假定-“{汇摁”这个动词是已知的：
+不过，自复制还能更短，比如，在某些计算机程序中可以有这样的约定：任何以星号打头的程序在正式执行前都要复制一遍。这样，这个仅由一个星号组成的程序就是一个自复制！你
+可能会抱怨说这很无聊，而且要依赖一个几乎完全是任意的约定。如果真是这样，那你就在重复我先前的观点：利用词组“本句子”以达到自指，几乎是个骗局——它过多地依赖处理
+者，而不是对自指性的直接揭示。利用一个星号做自复制的例子，就象用“我”字做自指的例子：它们都隐瞒了各自的问题中的一切令人感兴趣的方面。
 \end_layout
 
 \begin_layout Standard
-“ }汇摁时得到假句子”被托摁时得到假句子。
+这使人想起另一种新奇的自复制典型：复印机。可以断定任何手写的文件都是一个自复制，只要把它放进复印机并按一下电钮就行了，但这有点不符合我们的自复制概念。这个过程没
+有征求过这张纸的意见，因此它并没有指挥它自己的复制过程。于是和前面相同，所有奥妙都在处理机内。在把一个东西叫做自复制以前，我们需要有一种感觉：在尽可能的程度上，
+它明显地含有复制自己的指挥过程。
 \end_layout
 
 \begin_layout Standard
-不过，自复制还能更短，比如，在某些计算机程序中可以有这
+确实，这种明显性是个程度问题。不过有一个直观的界限，在界限的这一边，是真正的自指挥的自复制过程，而另一边只有那种通过一台一成不变的、自动的复印机所做的复制。
 \end_layout
 
-\begin_layout Standard
-样的约定：任何以星号打头的程序在正式执行前都要复制一遍。这
-\end_layout
-
-\begin_layout Standard
-样，这个仅由一个星号组成的程序就是一个自复制！你可能会抱怨
-\end_layout
-
-\begin_layout Standard
-说这很无聊，而且要依赖一个几乎完全是任意的约定。如果真是这
-\end_layout
-
-\begin_layout Standard
-样，那你就在重复我先前的观点：利用词组“本句子”以达到自指，
-\end_layout
-
-\begin_layout Standard
-几乎是个骗局——它过多地依赖处理者，而不是对自指性的直接
-\end_layout
-
-\begin_layout Standard
-揭示。利用一个星号做自复制的例子，就象用“我”字做自指的例
-\end_layout
-
-\begin_layout Standard
-子：它们都隐瞒了各自的问题中的一切令人感兴趣的方面。
-\end_layout
-
-\begin_layout Standard
-这使人想起另一种新奇的自复制典型：复印机。可以断定任何500手写的文件都是一个自复制，只要把它放进复印机并按一下电钮
-\end_layout
-
-\begin_layout Standard
-就行了，但这有点不符合我们的自复制概念。这个过程没有征求
-\end_layout
-
-\begin_layout Standard
-过这张纸的意见，因此它并没有指挥它自己的复制过程。于是和前
-\end_layout
-
-\begin_layout Standard
-面相同，所有奥妙都在处理机内。在把一个京西叫做自复制以前，
-\end_layout
-
-\begin_layout Standard
-我们需要有一种感觉：在尽可能的程度上，它明显地含有复制自己
-\end_layout
-
-\begin_layout Standard
-的指挥过程。
-\end_layout
-
-\begin_layout Standard
-确实，这种明显性是个程度问题。不过有一个直观的界限，在
-\end_layout
-
-\begin_layout Standard
-界限的这一边，是真正的自指挥的自复制过程，而另一边只有那种
-\end_layout
-
-\begin_layout Standard
-通过一台一成不变的、自动的复印机所做的复制。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Subsection*
 什么是副本？
 \end_layout
 
 \begin_layout Standard
 在对自指和自复制的任何讨论中，我们早晚都得面临“什么是
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+662
 \end_layout
 
-\begin_layout Standard
-6 6 2副本”这个问题。在第五章和第六章中我们曾相当严肃地讨论过它，现在再来回到这个问题u为了领略这个问题的风味，我们先来看一些高度荒诞而又似乎有理的自复制例
-子。
+\end_inset
+
+副本”这个问题。在第五章和第六章中我们曾相当严肃地讨论过它，现在再来回到这个问题。为了领略这个问题的风味，我们先来看一些高度荒诞而又似乎有理的自复制例子。
 \end_layout
 
 \begin_layout Subsection*
@@ -395,44 +737,86 @@ ENIUQ['ENIUQ']这与乌龟对蒯恩型说谎者自指句子的说法非常相似
 没想在一间酒吧里有一台投币式自动唱机，只要你摁一下按钮7，它就会放出下面这首象情歌一样的曲子：
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 再投一枚硬币吧，放进这台投币唱机，
 \end_layout
 
-\begin_layout Standard
-我 不断地歌唱，要的仅仅就是我7 0我们可以为此画一个小图(图86):
+\begin_layout Quotation
+我不断地歌唱，要的仅仅就是我7。
 \end_layout
 
 \begin_layout Standard
-尽管效果是歌曲复制了自己，但要把这首歌叫做自复制，总感到有些不对（、’一i弋／头。因为事实是，当它通过 、“7”时，全部的信息并不在那里。信息之所以得以返投币唱
-机回，只是由于信息全存在自 图酏一百自制的歌。
+我们可以为此画一个小图（图86）：
 \end_layout
 
 \begin_layout Standard
-动唱机内——也就是说，是在图上的一个箭头里，并非那个椭圆内。这首歌是否包含一个有关如何使它自己被重放的完整描述，是大可怀疑的，因为“7"只是一个触发器，而不是一
-个副本。
+\begin_inset Wrap figure
+lines 0
+placement R
+overhang 0in
+width "50col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0663.png
+	lyxscale 50
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+一首自制的歌。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+尽管效果是歌曲复制了自己，但要把这首歌叫做自复制，总感到有些不对头。因为事实是，当它通过“7”时，全部的信息并不在那里。信息之所以得以返投币唱机回，只是由于信息
+全存在自动唱机内——也就是说，是在图上的一个箭头里，并非那个椭圆内。这首歌是否包含一个有关如何使它自己被重放的完整描述，是大可怀疑的，因为“7”只是一个触发器，
+而不是一个副本。
+\end_layout
+
+\begin_layout Subsection*
 一个“螃蟹”程序
 \end_layout
 
 \begin_layout Standard
-下面来考虑一个把自己倒着打印出来的程序o（某些读者可能会愿意考虑…．下如何利用前面给出的那个自复制模型，用上述类501似BlooP的语言写出这样一个程序o）能不
-能把这样一个滑稽的程序看作自复制呢？在某种意义上说是可以的。因为只要对它的输出做一个不足道昀变换就能恢复原先的程序。说这个输出含有和
+下面来考虑一个把自己倒着打印出来的程序。（某些读者可能会愿意考虑一下如何利用前面给出的那个自复制模型，用上述类似BlooP的语言写出这样一个程序。）能不能把这样
+一个滑稽的程序看作自复制呢？在某种意义上说是可以的。因为只要对它的输出做一个不足道的变换就能恢复原先的程序。说这个输出含有和
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+663
 \end_layout
 
-\begin_layout Standard
-66 3程序本身一样的信息，只是简单的重复，似乎也是公平的。然而很明显，某些人也可以眼看着这个输出而看不出它是个倒着打印出来的程序。回忆一下第六章的术语，我们可
-以说这个输出与这个程序的“内在消息”相同，不过却有不同的“外在消息”——也就是说，必须用不同的解码方式来读它们。现在，如果把外在消息看成信息的一部分——这好象十
-分合理——那末，全部的信息终归并不相同c所以这个程序不能算是自复制。
+\end_inset
+
+程序本身一样的信息，只是简单的重复，似乎也是公平的。然而很明显，某些人也可以眼看着这个输出而看不出它是个倒着打印出来的程序。回忆一下第六章的术语，我们可以说这个
+输出与这个程序的“内在消息”相同，不过却有不同的“外在消息”——也就是说，必须用不同的解码方式来读它们。现在，如果把外在消息看成信息的一部分——这好象十分合理—
+—那末，全部的信息终归并不相同。所以这个程序不能算是自复制。
 \end_layout
 
 \begin_layout Standard
 但是，这是一个使人不安的结论。因为我们习惯于认为一件东西和它的镜象含有相同的信息。不过，回忆一下在第六章中，我们曾使“固有意义”这一概念依赖于把智能假定为一个普
 遍观念。其思想是，在确定一个对象的固有意义时，我们可以忽视某些类型的外在消息——那些能够普遍被理解的信息。也就是说，在某种仍有缺陷的意义上，如果解码机制看上去足
-够基本，那末所要揭示的内在消息就是该考虑的唯一一意义。在这个例子中，就似乎有充分的把握猜想一个“标准智能”会认为两个镜象含有彼此相同的信息。这也就是说，它认为两
-者之间的同构映射十分不足道，以至可以忽略。因而，我们可以认为在某种意义上，该程序算是个十足的自复制。这样的直观是站得住脚的。
+够基本，那末所要揭示的内在消息就是该考虑的唯一意义。在这个例子中，就似乎有充分的把握猜想一个“标准智能”会认为两个镜象含有彼此相同的信息。这也就是说，它认为两者
+之间的同构映射十分不足道，以至可以忽略。因而，我们可以认为在某种意义上，该程序算是个十足的自复制。这样的直观是站得住脚的。
 \end_layout
 
 \begin_layout Subsection*
@@ -443,29 +827,25 @@ ENIUQ['ENIUQ']这与乌龟对蒯恩型说谎者自指句子的说法非常相似
 自复制的另一个稀奇古怪的例子是一个打印自己的程序，不过是翻译成另一种计算机语言以后再打印。可以把它与下述古怪的蒯恩型说谎者自指的说法作个比较：
 \end_layout
 
-\begin_layout Standard
-“is an expression which, when it is preceded by its transla-
-\end_layout
+\begin_layout Quote
+“is an expression which, when it is preceded by its translation, placed
+ in quotation marks, into the language originating on the other side of
+ the Pacific Ocean, yields a falsehood”是一段陈述，说的是把它译成来自太平洋另一侧的语
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-tion, placed in quotation marks, into the language origina-
-\end_layout
-
-\begin_layout Standard
-ting on the other side of the Pacific Ocean, yields a false-
-\end_layout
-
-\begin_layout Standard
-hood”是一段陈述，说的是把它译成来自太平洋另一侧的语
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 664
 \end_layout
 
+\end_inset
+
+言，并加上引号放在前面，就得到假句子。
+\end_layout
+
 \begin_layout Standard
-言，并加上引号放在前面，就得到假句子。你可能要试着写写这个怪诞的混和物所描述的句子o（提示：它不是它自己——或者说？至少当-它自己”取朴素的意义时，它不是它自己
-o）如果“逆行自复制”（即倒着写出自身的程序）的概念让人想起螃蟹卡农，那么“翻译的自复制”概念大概会使人想起带有主题转调的卡农。
+你可能要试着写写这个怪诞的混和物所描述的句子。（提示：它不是它自己——或者说？至少当“它自己”取朴素的意义时，它不是它自己。）如果“逆行自复制”（即倒着写出自身
+的程序）的概念让人想起螃蟹卡农，那么“翻译的自复制”概念大概会使人想起带有主题转调的卡农。
 \end_layout
 
 \begin_layout Subsection*
@@ -473,10 +853,10 @@ o）如果“逆行自复制”（即倒着写出自身的程序）的概念让�
 \end_layout
 
 \begin_layout Standard
-502不打印原程序的严格副本，而打印一份译文，这种想法似乎不着边际。但是，你要是想用BlooP或FlooP写一个自复制程序，你就不得不求助于某种这样的机制，因为
-这些语言输出的总是一个数，而不是一个印刷符号串。所以，你只好编个程序来打印它自己的哥德尔数：一个巨大的整数，其十进展开式中每三个数字作为一个代码，一个符号一个符
-号地为该程序编了码。在这个程序力所能及的范围内，它已是尽其所能在打印它自己了：它打印出自己在另一个“空间修中的副本，而且，在整数空间和符号串空间之间的来回转换是
-很方便的。因此，输出的值不象“7”那样只是起一种触发作用。原程序的全部信息在输出中都是“接近表面”的。
+不打印原程序的严格副本，而打印一份译文，这种想法似乎不着边际。但是，你要是想用BlooP或FlooP写一个自复制程序，你就不得不求助于某种这样的机制，因为这些语
+言输出的总是一个数，而不是一个印刷符号串。所以，你只好编个程序来打印它自己的哥德尔数：一个巨大的整数，其十进展开式中每三个数字作为一个代码，一个符号一个符号地为
+该程序编了码。在这个程序力所能及的范围内，它已是尽其所能在打印它自己了：它打印出自己在另一个“空间修中的副本，而且，在整数空间和符号串空间之间的来回转换是很方便
+的。因此，输出的值不象“7”那样只是起一种触发作用。原程序的全部信息在输出中都是“接近表面”的。
 \end_layout
 
 \begin_layout Subsection*
