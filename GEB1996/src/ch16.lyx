@@ -1016,186 +1016,287 @@ status open
 印符遗传学游戏是在字母符号的序列上进行印符操作。要用到四个字母：
 \end_layout
 
-\begin_layout Standard
-A C G T
+\begin_layout Quotation
+A
+\begin_inset space \quad{}
+\end_inset
+
+C
+\begin_inset space \quad{}
+\end_inset
+
+G
+\begin_inset space \quad{}
+\end_inset
+
+T
 \end_layout
 
 \begin_layout Standard
 由这样四个字母组成的任意序列叫做串。下面就是一些串：
 \end_layout
 
-\begin_layout Standard
-GGGG
+\begin_layout CenterLine
+\begin_inset Formula $GGGG$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $ATTACCA$
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $CATCATCATCAT$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-ATTACCA
+\noindent
+顺便提一下，在印符遗传学中，串充当DNA片断的角色（在实际的遗传学中经常就把它们叫做“串”）。“信使RNA”的功能——它
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\noindent
+669
+\end_layout
+
+\end_inset
+
+在印符遗传学中也用串来表示——是为DNA提供“邮政快递”服务。这将在后面看到。
 \end_layout
 
 \begin_layout Standard
-CATCATCATCAT顺便提一下，在印符遗传学中，串充当DNA片断的角色（在卖际的遗传学中经常就把它们叫做“串”）a“信使RNA"的功能——它
+有时我要把字母A、C、G、T称作基？并把它们所占据的位置称作单元。这样，上述例子中的中间那个串有七个单元，其第四个单元上放着基A。如果你有了一个串，你可以对它进
+行操作，用各种方式变化它。你还可以靠复制一个串或把一个串切成两半而多造出一些串。某些操作使串变长，某些使其变短，还有一些不涉及串的长度。
 \end_layout
 
 \begin_layout Standard
-6 6 9在印符遗传学中也用串来表示——是为DNA提供“邮政快递”服务。这将在后面看到。
-\end_layout
-
-\begin_layout Standard
-。有时我要把字母A、C、G、T称作基？并把它们所占据的位置称作单元。这样，上述例子中的中间那个串有七个单元，其第四个单元上放着基Ao如果你有了一个串，你可以对它
-进行操作，用各种方式变化它。你还可以靠复制一个串或把一个串切成两半而多造出一些串。某些操作使串变长，某些使其变短，还有一些不涉及串的长度。
-\end_layout
-
-\begin_layout Standard
-操作可以集束进行，也就是几项操作按次序接续执行。这样的
-\end_layout
-
-\begin_layout Standard
-一束操作有点象一台程序化的机器在串上移来移去地施加操作。
-\end_layout
-
-\begin_layout Standard
-这些活动着的机器就叫做“印符酶”——简称酶。酶在串上每次作
-\end_layout
-
-\begin_layout Standard
-用于一个单元，我们把这说成是酶“拴”在此刻所作用的那个单元
-\end_layout
-
-\begin_layout Standard
-上a
+操作可以集束进行，也就是几项操作按次序接续执行。这样的一束操作有点象一台程序化的机器在串上移来移去地施加操作。这些活动着的机器就叫做“印符酶”——简称酶。酶在串
+上每次作用于一个单元，我们把这说成是酶“拴”在此刻所作用的那个单元上。
 \end_layout
 
 \begin_layout Standard
 下面谈谈酶（任选几个）如何作用在具体的符号串上。首先该知道的事情是：每一种酶总喜欢一开始拴在某个特殊的字母上。所以就有四种酶——喜欢A的酶、喜欢C的酶、等等。给
-出某个酶执506行的一系列操作之后，你就可以判断出它喜欢哪个字母了。不过现在我就给出它们，不加解释。下面是一个任选的酶，它由三项操作组成：)删除拴着这个酶的苎元
-（并把酶拴在右方的下一个单元上）o)向右移一个单元。
+出某个酶执行的一系列操作之后，你就可以判断出它喜欢哪个字母了。不过现在我就给出它们，不加解释。下面是一个任选的酶，它由三项操作组成：
 \end_layout
 
 \begin_layout Standard
-)（紧换着这个单元．在右边）插进一个To这个酶正巧是喜欢一开始拴在A上的。我们用下面这个串作样本，看看酶怎么工作：
+\begin_inset Formula $\left\{ \begin{array}{ll}
+\text{（1）} & \text{删除拴着这个酶的单元（并把酶拴在右}\\
+\text{} & \text{方的下一个单元上）。}\\
+\text{（2）} & \text{向右移一个单元。}\\
+\text{（3）} & \text{紧换着这个单元，在右边）插进一个T。}
+\end{array}\right.$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-ACA如果我们的酶拴在左边的A上并开始动作，那会发生些什么呢？
+这个酶正巧是喜欢一开始拴在A上的。我们用下面这个串作样本，看看酶怎么工作：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $ACA$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-6 7 0第一步是删除这个A，于是我们是在CA的左边——然后这个酶就拴在C上了。第二步把酶向右滑，到A上。而第三步就把T加在末端，形成CAT这样一个串，这样这个
-酶就完成了它的全部职责：把ACA变成了CATo
+\noindent
+如果我们的酶拴在左边的A上并开始动作，那会发生些什么呢？
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\noindent
+670
+\end_layout
+
+\end_inset
+
+第一步是删除这个A，于是我们是在CA的左边——然后这个酶就拴在C上了。第二步把酶向右滑，到A上。而第三步就把T加在末端，形成CAT这样一个串，这样这个酶就完成了
+它的全部职责：把ACA变成了CAT。
 \end_layout
 
 \begin_layout Standard
-如果酶已经拴在ACA中右边的A上，会怎么样呢？它就要删除这个A，并移出该串的端点。只要发生这种情形，酶就停止工作（这是个一般原则）o于是，全部的效果就是砍掉一个
+如果酶已经拴在ACA中右边的A上，会怎么样呢？它就要删除这个A，并移出该串的端点。只要发生这种情形，酶就停止工作（这是个一般原则）。于是，全部的效果就是砍掉一个
 符号。
 \end_layout
 
 \begin_layout Standard
-我们来再看几个例子。这又是一种酶：寻找本单元右边最近的嘧啶。
+我们来再看几个例子。这又是一种酶：
 \end_layout
 
 \begin_layout Standard
-进入复制状态。
+\begin_inset Formula $\left\{ \begin{array}{ll}
+\text{（1）} & \text{寻找本单元右边最近的嘧啶。}\\
+\text{（2）} & \text{进入复制状态。}\\
+\text{（3）} & \text{寻找本单元右边最近的嘌呤。}\\
+\text{（4）} & \text{从此处切断该串（从当时所在单元的}\\
+ & \text{右边切）。}
+\end{array}\right.$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-寻找本单元右边最近的嘌呤。
+这里有两个术语“嘧啶”和“嘌呤”。它们很简单：A和G叫嘌呤，C和T叫嘧啶。所以找出一个嘧啶就是找出最近的C或T。
 \end_layout
 
-\begin_layout Standard
-从此处切断该串（从当时所在单元的右边切）o这里有两个术语“嘧啶”和“ 呤”o它们很简单：A和G叫嘌 ，C和T叫嘧啶Q所以找出一个嘧啶就是找出最近的C或To
-\end_layout
-
-\begin_layout Standard
+\begin_layout Subsection*
 复制状态和双串
 \end_layout
 
 \begin_layout Standard
-还有一个新术语叫复制状态。任何一个串都能“复制”成另一个串，但方式很有趣。不是把A复制成A，你得把它复制成T，反过来也一样oC也不复制成C，你得把它复制成G，反
-过来也一样。
-\end_layout
-
-\begin_layout Standard
-请注意，嘌呤总是复制成嘧啶，而嘧啶拷贝成嘌呤。这叫做补基对。
+还有一个新术语叫复制状态。任何一个串都能“复制”成另一个串，但方式很有趣。不是把A复制成A，你得把它复制成T，反过来也一样。C也不复制成C，你得把它复制成G，反
+过来也一样。请注意，嘌呤总是复制成嘧啶，而嘧啶拷贝成嘌呤。这叫做补基对。
 \end_layout
 
 \begin_layout Standard
 这种互补关系可表示如下：
 \end_layout
 
-\begin_layout Standard
-互
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{c}
+\text{互补}\\
+\text{嘌呤}\left\{ \begin{array}{ccc}
+A & \Leftrightarrow & T\\
+G & \Leftrightarrow & C
+\end{array}\right\} \text{嘧啶}
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-A ∞T
+\noindent
+顺便说一下，从英文看，这就象是阿基里斯[Achilles]与乌龟[Tortoise]配时，螃蟹[Crab]与其基因[Genes]配对。
 \end_layout
 
 \begin_layout Standard
-嘌呤 嘧啶
+“复制”一个串时，并不是实际复制它，而是产生出它的补串，
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+671
+\end_layout
+
+\end_inset
+
+并把它倒过来写在原串的上方。我们来具体看看，让上述的酶作用在下面的串上（这个酶恰好也喜欢从A出发）：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $CAAAGAGAATCCTCTTTGAT$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-G 甘C顺便说一下，从英文看，这就象是阿基里斯[Achilles]与乌龟[Tor．507toise]配时，螃蟹[Crab]与其基因[Genes]配对。
+\noindent
+有许多地方能当作起点，比方说，我们选取左边第二个A。酶拴在它上面，然后实施步骤1：寻找右边最近的嘧啶。好，这意味着找C或T。第一个是位于该串中央附近的那个T，那
+就是我们到达的地方。然后，步骤2：复制状态，好，把A倒过来放在我们的T上面。不过这并没有完，复制状态会继续保持有效，直到从其中退出——或者直到酶做完为止。这意味
+着复制过程继续进行，于是酶所通过的每一个基上面都放上了一个补基。步骤3是说找到我们的T右边的一个嘌呤。那就是从右端数在第三个位置上的G。随着我们移到这个G上，我
+们一路上都必须“复制”——即创造一个补串。得到的东西是：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{l}
+\hphantom{CAAAGAGAA}\rotatebox[origin=c]{180}{CAAAGAGGA}\\
+CAAAGAGAATCCTCTTTGAT
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-“复制，”一个串时，并不是实际复制它，而是产生出它的补串，
+\noindent
+最后一步是切断这个串，这就得到两段。
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{l}
+\hphantom{CAAAGAGAA}\rotatebox[origin=c]{180}{CAAAGAGGA}\\
+CAAAGAGAATCCTCTTTG
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-671并把它倒过来写在原串的上方。我们来具体看看，让上述的酶作用在下面的串上（这个酶恰好也喜欢从A出发）：
+\noindent
+和
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $AT$
+\end_inset
+
+。
 \end_layout
 
 \begin_layout Standard
-CAAAGAGAATCCTCTTTGAT有许多地方能当作起点，比方说，我们选取左边第二个Ao酶拴在它上面，然后实施步骤1：寻找右边最近的嘧啶。好，这意味着找C或
-To第一个是位于该串中央附近的那个T，那就是我们到达的地方。然后，步骤2：复制状态，好，把A倒过来放在我们的T上面。
+\noindent
+这一束指令做完了。不过，我们得到了一个双串。凡是发生这种事情，我们一律把两个互补的串彼此分开（这是一般原则），所以事实上我们的最终产品是三个串组成的集合：
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $AT$
+\end_inset
+
+、
+\begin_inset Formula $CAAAGAGGA$
+\end_inset
+
+、
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Formula $CAAAGAGAATCCTCTTTG$
+\end_inset
+
+。
 \end_layout
 
 \begin_layout Standard
-不过这并没有完，复制状态会继续保持有效，直到从其中退出——或者直到酶做完为止。这意味着复制过程继续进行，于是酶所通过的每一个基上面都放上了一个补基。步骤3是说找
-到我们的T右边的一个嘌呤。那就是从右端数在第三个位置上的G o随着我们移到这个G上，我们一路上都必须“复制”——即创造一个补串。得到的东西是：
-\end_layout
-
-\begin_layout Standard
-V90VOVVV 3
-\end_layout
-
-\begin_layout Standard
-CAAAGAGAATCCTCTTTGAT最后一步是切断这个串，这就得到两段。
-\end_layout
-
-\begin_layout Standard
-V09V9VVV 3
-\end_layout
-
-\begin_layout Standard
-CAAAGAGAATCCTCTTTG和
-\end_layout
-
-\begin_layout Standard
-AT,这一束指令做完了。不过，我们得到了一个双串。凡是发生这种事情，我们一律把两个互补的串彼此分开（这是一般原则），所以事实上我们的最终产品是三个串组成的集合：
-\end_layout
-
-\begin_layout Standard
-AT、CAAAGAGGA、CAAAGAGAATCCTCTTTGo应当注意到，颠倒的符号串已翻过来正面朝上了，于是左和右也颠倒。
+\noindent
+应当注意到，颠倒的符号串已翻过来正面朝上了，于是左和右也颠倒。
 \end_layout
 
 \begin_layout Standard
 现在，我们已经见过可以施行在串上的各种印符操作中的大
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+672
+\end_layout
+
+\end_inset
+
+部分了。还有两条命令得说一说。一条是退出复制状态，另一条是把酶从一个串转移到倒着放在它上面的串上。这样做的时候，如果你保持纸的方向不变，那就必须把全部命令中的“
+左”和“右”互换。更好的做法是，保持措辞不变而把纸转过来，使放在上面的符号串成为可读的。如果已经给出了“转移”指令，而当时拴着酶的地方没有补基，那末酶就简单地自
+行脱离该串，其工作也就结束了。
 \end_layout
 
 \begin_layout Standard
-6 7 2部分了。还有两条命令得说一说。一条是退出复制状态，另一条是把酶从一个串转移到倒着放在它上面的串上c这样做的时候，如果你保持纸的方向不变，那就必须把全部
-命令中的“左”和“右”互换。
-\end_layout
-
-\begin_layout Standard
-更好的做法是，保持措辞不变而把纸转过来，使放在上面的符号串508成为可读的。如果已经给出了“转移”指令，而当时拴着酶的地方没有补基，那末酶就简晕地自行脱离该串，
-其工作也就结束了。
-\end_layout
-
-\begin_layout Standard
-还应说说，当遇到一条切断”命令时，这与两个串（如果有两个串的话）都有关，然而“删除”只与酶所作用的那个串有关。如果复制养成在持续，那末“插入力指令就与两个串有关
+还应说说，当遇到一条切断”命令时，这与两个串（如果有两个串的话）都有关，然而“删除”只与酶所作用的那个串有关。如果复制养成在持续，那末“插入”指令就与两个串有关
 ——基自身插入酶所工作的串，其补基插入另一个关了，插入其补串的必定是一个空格。
 \end_layout
 
@@ -1204,9 +1305,50 @@ AT、CAAAGAGGA、CAAAGAGAATCCTCTTTGo应当注意到，颠倒的符号串已翻�
 状态，又遇见“退出复制状态”的指令，就什么也不会发生。类似地，如果复制状态已在持续，又遇到“进入复制状态”的指令，那也是什么事都不发生。
 \end_layout
 
+\begin_layout Subsection*
+氨基酸
+\end_layout
+
 \begin_layout Standard
-氨 基 酸共有十五种类型的指令，开列如下：cut-{断串del-从串里删除一个基swi-把酶转移到另一个串上mvr-有移一个单元mvl-左移一个单元cop-进入
-复制状态off-退出复制状态67 3
+共有十五种类型的指令，开列如下：
+\end_layout
+
+\begin_layout Standard
+cut——切断串
+\end_layout
+
+\begin_layout Standard
+del——从串里删除一个基
+\end_layout
+
+\begin_layout Standard
+swi——把酶转移到另一个串上
+\end_layout
+
+\begin_layout Standard
+mvr——右移一个单元
+\end_layout
+
+\begin_layout Standard
+mvl——左移一个单元
+\end_layout
+
+\begin_layout Standard
+cop——进入复制状态
+\end_layout
+
+\begin_layout Standard
+off——退出复制状态
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+673
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1214,7 +1356,7 @@ ina——在本单元右侧插入A
 \end_layout
 
 \begin_layout Standard
-Inc -在本单元右侧插入C
+Inc——在本单元右侧插入C
 \end_layout
 
 \begin_layout Standard
@@ -1222,7 +1364,7 @@ ing——在本单元右侧插入G
 \end_layout
 
 \begin_layout Standard
-int-在本单元右侧插入T
+int——在本单元右侧插入T
 \end_layout
 
 \begin_layout Standard
@@ -1238,124 +1380,635 @@ lpy——寻找左边最近的嘧碇
 \end_layout
 
 \begin_layout Standard
-lpu-寻找左边最近的嘌呤每一类指令都有一个用三个字母缩写的名字。我们把这些用三个字母缩写的指令叫作氨基酸。于是，每个酶都由一系列氨基酸制成。我们随便写一个酶：
+lpu——寻找左边最近的嘌呤
 \end_layout
 
 \begin_layout Standard
-r pu -Inc - cop - mvr - mvl - swi - lpu -int和一个任意的串： ！
+\noindent
+每一类指令都有一个用三个字母缩写的名字。我们把这些用三个字母缩写的指令叫作氨基酸。于是，每个酶都由一系列氨基酸制成。我们随便写一个酶：
+\end_layout
+
+\begin_layout Quotation
+rpu-inc-cop-mvr-mvl-swi-lpu-int
 \end_layout
 
 \begin_layout Standard
-TAGATCCAGTCCATCGA509看看这个酶如何对这个串起作用。碰巧，这个酶只拴在G上，我们就把它拴在中间的G上，并开始工作，向右寻找一个嘧啶(即A或G)
-o我们（即酶）跳过TCC，然后停在A上。插入一个C，于是有
+和一个任意的串：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $TAGATCCAGTCCATCGA$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+看看这个酶如何对这个串起作用。碰巧，这个酶只拴在G上，我们就把它拴在中间的G上，并开始工作，向右寻找一个嘧啶(即A或G)。我们（即酶）跳过TCC，然后停在A上。
+插入一个C，于是有
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\begin{array}{l}
+TAGATCCAGTCCACTCGA\\
+\hphantom{TAGATCCAGTCCA}\uparrow
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+其中的箭头指着酶所拴的单元。进入复制状态。于是在C上放一个倒置的
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+reflectbox{
+\backslash
+rotatebox[origin=c]{180}{G}}
+\end_layout
+
+\end_inset
+
+。右移，再左移，然后转移到另一个串上。迄今为止我们已有 
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\begin{array}{l}
+\hphantom{TAGATCCAGTCCA}\downarrow\\
+\hphantom{TAGATCCAGTCCA}\rotatebox[origin=c]{180}{GA}\\
 TAGATCCAGTCCACTCGA
-\end_layout
+\end{array}$
+\end_inset
 
-\begin_layout Standard
-个其中的箭头指着酶所拴的单元。进入复制状态。于是在C上放一个倒置的0 0右移，再左移，然后转移到另一个串上。迄今为止我们已有 ^
-\end_layout
 
-\begin_layout Standard
-0V
-\end_layout
-
-\begin_layout Standard
-TAGATCCAGTCCACTCGA
 \end_layout
 
 \begin_layout Standard
 把它倒转过来，让酶拴在下面的串上：
 \end_layout
 
-\begin_layout Standard
-V03L了V 3aL9V 33LVOV工
+\begin_layout Quotation
+\begin_inset Formula $\begin{array}{l}
+\rotatebox[origin=c]{180}{TAGATCCAGTCCACTCGA}\\
+\hphantom{CGA}AG\\
+\hphantom{CGAA}\uparrow
+\end{array}$
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+674
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-AG
+现在我们往左寻找一个嘌呤，于是找到Ao复制状态仍在持续，不过其补基已在那里，用不着再做什么。最后我们（在复制状态下）插入一个T。停止：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\begin{array}{l}
+\rotatebox[origin=c]{180}{TAGATCCAGTCCACATCGA}\\
+\hphantom{CGA}ATG\\
+\hphantom{CGAA}\uparrow
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-十
+我们最终的产品是两个串：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $ATG$
+\end_inset
+
+和
+\begin_inset Formula $TAGATCCAGTCCACTCGA$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-67 4现在我们往左寻找一个嘌呤，于是找到Ao复制状态仍在持续，不过其补基已在那里，用不着再做什么。最后我们（在复制状态下）插入一个To停止：
+原先那个串当然就消失了。
 \end_layout
 
-\begin_layout Standard
-V0aLV了矿33工0V 33LVOV上
-\end_layout
-
-\begin_layout Standard
-ATG
-\end_layout
-
-\begin_layout Standard
-千我们最终的产品是两个串：
-\end_layout
-
-\begin_layout Standard
-ATG和TAGATC:CAGTCCACTCGA原先那个串当然就消失了。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Subsection*
 翻译和印符遗传密码
 \end_layout
 
 \begin_layout Standard
 现在你大概很想知道这些酶和串都是哪来的，以及怎样知道一个给定的酶最初该拴在哪里。一个可能的方案是把某些随机的串和某些随机的酶放到一起，看看这些酶作用于这些串及其
 后代会发生什么事情。这有点WU谜题的味道了，在那里是几条给定的推理规则和一条作为出发点的公理。唯一的不同是，这里对一个串每作用一次，其原先的形式就消失了，而在W
-U谜题中，规则作用于WJ得到WJU时，并不清除WJo
+U谜题中，规则作用于WJ得到WJU时，并不清除WJ。
 \end_layout
 
 \begin_layout Standard
 不过，印符遗传学就象实际的遗传学一样，其方案颇有些诡秘。我们从某个任意的串出发，这多少有点象形式系统中的一条公理。但是一开始时我们并没有“推理规则”——也就是说
-并没有酶。
+并没有酶。然而，我们可以把每个串翻译成一种或多种酶！这样，串自己就会口授将要在它们身上施行的操作，而这些操作又会依次产生出新的串，新串又会口授进一步的酶，如此等
+等！这简直是登峰造极的层次混合！为了对比，想想WU谜题，若能把每次生成的新定理都通过某种编码转换成一条新的推理规则，那么WU谜题会是多么的不同！
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+675
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-然而，我们可以把每个串翻译成一种或多种酶！这样，串自己就会口授将要在它们身上施行的操作，而这些操作又会依次产生出新510的串，新串又会口授进一步的酶，如此等等！
-这筒直是登峰遣极的层次混合！为了对比，想想WU谜题，若能把每次生成的新定理都通过某种编码转换成一条新的推理规则，那么WU谜题会是多么的不同1
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+第二个基
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+G
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{l}
+\text{第}\\
+\text{一}\\
+\text{个}\\
+\text{基}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $cut_{s}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $del_{s}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $swi_{r}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $mvr_{s}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $mvl_{s}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $cop_{r}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $off_{l}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+G
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $ina_{s}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $inc_{_{r}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $ing_{r}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $int_{l}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $rpy_{r}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $rpu_{l}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $lpy_{l}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $lpu_{l}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+印符遗传密码。
+\end_layout
+
+\end_inset
+
+印符遗传密码。串中各个二元组按这种对应关系分别给十五种氨基酸（和一个标点符号）编码。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-6 7 5
+这种“翻译”是怎么做的呢？这涉及一种印符遗传密码。根据这种密码，一个串中的各对相邻的基——称作“二元组”——表示各种不同的氨基酸。总共有十六种可能的二元组：AA
+、AC、AG、AT、CA、CC、等等，而氨基酸共有十五种。印符遗传密码如图87所示。
 \end_layout
 
 \begin_layout Standard
-这种“翻译”是怎么做的呢？这涉及一种印符遗传密码。根据这种密码，一个串中的各对相邻的基——称作“二元组”——表示各种不同的氨基酸。总共有十六种可能的二元组：AA.
-AC、AG、AT.CA、CC、等等，而氨基酸共有十五种。印符遗传密码如图87所示。
+按照这个表，二元组GC的翻译是“inc”（“插入C”），AT的翻译是“swi”（“转移”），等等。这样，一个串显然可以十分直截了当地口授一种酶。例如，串
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $TAGATCCAGTCCACATCGA$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-按照这个表，二元组GC的翻译是“inc"（“插入C"），AT的翻译是“swi"（“转移”），等等。这样，一个串显然可以十分直截了当地口授一种酶。例如，串
+断成二元组，就是
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $TA\ GA\ TC\ CA\ GT\ CC\ AC\ AT\ CG\ A$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-TAGATCCAGTCCACATCGA断成二元组，就是┏━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┓┃ ┃ 第二个基 ┃┃
- ┣━━━━┳━━━━┳━━━━━┳━━━━━━┫┃ ┃ A ┃ C ┃ G ┃ T ┃┣━━━━━┳━━╋━━━━╋━━━━╋━━━━━╋━━━━━━┫┃
- ┃A ┃ ┃ cut ┃ cicl ┃ SW1 ┃┃ ┃ ┃ ┃ S ┃ S ┃ r ┃┃ ┣━━╋━━━━╋━━━━╋━━━━━╋━━━━━━┫┃
- ┃ C ┃ m'vr ┃ m订 ┃ cop ┃ O技 ┃┃第 ┃ ┃ S ┃ S ┃ r ┃ 1 ┃┃．．__． ┃ ┃ ┃ ┃ ┃ ┃┃ ┣━━╋━━━━╋
-━━━━╋━━━━━╋━━━━━━┫┃个 ┃ ┃ ┃ ┃ ┃ ┃┃基 ┃ G ┃ 1na ┃ lnC ┃ lng ┃ mt ┃┃ ┃ ┃ S ┃
- r ┃ r ┃ 】 ┃┃ ┣━━╋━━━━╋━━━━╋━━━━━╋━━━━━━┫┃ ┃ T ┃ rpy ┃ rpU ┃ lpy ┃ lpU ┃┃
- ┃ ┃ r ┃ 1 ┃ l ┃ ' I ┃┗━━━━━┻━━┻━━━━┻━━━━┻━━━━━┻━━━━━━┛6 7 6图87．印符遗传密码。串中各个二元组按这
-种对应关系分别给
+有一个A留在边上。翻译成酶，是
+\end_layout
+
+\begin_layout Quotation
+rpy-ina-rpu-mvr-int-mvl-cut-swl-cop。
 \end_layout
 
 \begin_layout Standard
-十五种氨基酸（和一个标点符号）编码。
-\end_layout
-
-\begin_layout Standard
-TA GA TC CA GT CC AC AT CG A有一个A留在边上。翻译成酶，是
-\end_layout
-
-\begin_layout Standard
-rpy -lna - rpu - mvr -int - mvl - cut -swl - cop o（注意：剩下的A没什么用处o）
+（注意：剩下的A没什么用处。）
 \end_layout
 
 \begin_layout Subsection*
@@ -1363,65 +2016,289 @@ rpy -lna - rpu - mvr -int - mvl - cut -swl - cop o（注意：剩下的A没什�
 \end_layout
 
 \begin_layout Standard
-每个方格中右下角的字母“S”，“l”和“r”是干什么的？在确定酶必须拴在哪里时，它们是关键，而且其行为方式也很奇特。要弄511清一个酶喜欢拴在哪个字母上，就得弄
-清这个酶的“三级结构”o这是由其“一级结构”所决定的。所谓“一级结构”指的是其氨基酸序列，所谓“三级结构力指的是它喜欢的“折叠修方式．要紧的是，酶不喜欢象我们前
-面展示的那样成为一条直线a每个内部的氨基酸（两头的氨基酸除外），都可能会是~．个“转弯”，这由角上的字母来决定。具体说。“l”和“r”分别代表“左”和“右”，而
-“S”代表“直”o下面我们拿刚才的那个作样本的酶为例，让它自行折起来以显示其三级结构。我们从酶的一级结构出发，顺着它从左向右移动。在角上有“l”的酶上，我们向左
-转；有“r”的，向右转；而对于“S”，则不转弯。图88显示了我们这个酶的二维造型。
+每个方格中右下角的字母“s”，“l”和“r”是干什么的？在确定酶必须拴在哪里时，它们是关键，而且其行为方式也很奇特。要弄清一个酶喜欢拴在哪个字母上，就得弄清这个
+酶的“三级结构”。这是由其“一级结构”所决定的。所谓“一级结构”指的是其氨基酸序列，所谓“三级结构”指的是它喜欢的“折叠”方式。要紧的是，酶不喜欢象我们前面展示
+的那样成为一条直线。每个内部的氨基酸（两头的氨基酸除外），都可能会是一个“转弯”，这由角上的字母来决定。具体说。“l”和“r”分别代表“左”和“右”，而“s”代
+表“直”。下面我们拿刚才的那个作样本的酶为例，让它自行折起来以显示其三级结构。我们从酶的一级结构出发，顺着它从左向右移动。在角上有“l”的酶上，我们向左转；有“
+r”的，向右转；而对于“S”，则不转弯。图88显示了我们这个酶的二维造型。
 \end_layout
 
 \begin_layout Standard
-注意在“rpu"处的向左转、 cop在“swi"处的向右转，等 价等。还要注意第一段（“rpy swi e Cut仁mvl e int冷ina"）与最后一段(“
-swi 价≥cop”)是正交的。这就 mvr是决定拴在哪里的关键。 价事实上，酶的三级结构中， rpy冷ina今rpu第一段和最后一段的相对 图88印符酶的i级
-结构．方向决定了该酶拴于何处。我们总是可以调整酶的方位，使其第
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Formula $\begin{array}{ccccccc}
+cop\\
+\Uparrow\\
+swi & \Leftarrow & cut & \Leftarrow & mvl & \Leftarrow & int\\
+ &  &  &  &  &  & \Uparrow\\
+ &  &  &  &  &  & mvr\\
+ &  &  &  &  &  & \Uparrow\\
+ &  & rpy & \Rightarrow & ina & \Rightarrow & rpu
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+印符酶的三级结构
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-6 7 7
+注意在“rpu”处的向左转、在“swi
+\begin_inset Quotes erd
+\end_inset
+
+处的向右转，等等。还要注意第一段（“rpy
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ina”）与最后一段(“swi
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+cop”)是正交的。这就是决定拴在哪里的关键。事实上，酶的三级结构中，第一段和最后一段的相对方向决定了该酶拴于何处。我们总是可以调整酶的方位，使其第
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+677
+\end_layout
+
+\end_inset
+
+一段指向右方，如果这样做了，那么最后一段就决定了酶所拴的位置，如图89所示。
 \end_layout
 
 \begin_layout Standard
-一段指向右方，如果这样做了，那么最后一段就决定了酶所拴的位
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+第一段
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+最后一段
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+所拴的字母
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Uparrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Downarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+G
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+印符酶所拴的位置表。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-置，如图89所示。
-\end_layout
-
-\begin_layout Standard
-第一段 最后一段 所拴的字母
-\end_layout
-
-\begin_layout Standard
-=>=>A
-\end_layout
-
-\begin_layout Standard
-≥C
-\end_layout
-
-\begin_layout Standard
-冷G
-\end_layout
-
-\begin_layout Standard
-=>c=T
-\end_layout
-
-\begin_layout Standard
-图89．印符酶所拴的位置表。5 1 2所以，我们现在所讨论的是一个喜欢字母C的酶。如果在折起的
-\end_layout
-
-\begin_layout Standard
-时候，一个酶自己居然会交叉，那也没什么不好——只要把它看成
-\end_layout
-
-\begin_layout Standard
-从自己下方或上方过去的就行了。应当注意，在确定酶的三级结构
-\end_layout
-
-\begin_layout Standard
-时，全部氨基酸都起了作用。
+\noindent
+所以，我们现在所讨论的是一个喜欢字母C的酶。如果在折起的时候，一个酶自己居然会交叉，那也没什么不好——只要把它看成从自己下方或上方过去的就行了。应当注意，在确定
+酶的三级结构时，全部氨基酸都起了作用。
 \end_layout
 
 \begin_layout Subsection*
@@ -1429,63 +2306,52 @@ swi 价≥cop”)是正交的。这就 mvr是决定拴在哪里的关键。 价�
 \end_layout
 
 \begin_layout Standard
-还有一件事有待澄清：印符遗传密码的A A一格为什么是空
+还有一件事有待澄清：印符遗传密码的AA一格为什么是空白？答：二元组AA在串里起标点符号的作用，它标志着一个酶的密码的结束。就是说，如果一个串里有一个或几个二元组
+AA的话，这个串就在给两个或更多的酶编码。例如，串
 \end_layout
 
-\begin_layout Standard
-白？答：二元组AA在串里起标点符号的作用，它标志着一个酶的
-\end_layout
+\begin_layout Quotation
+\begin_inset Formula $CG\ GA\ TA\ CT\ AA\ AC\ CG\ A$
+\end_inset
 
-\begin_layout Standard
-密码的结束。就是说，如果一个串里有一个或几个二元组AA的
-\end_layout
 
-\begin_layout Standard
-话，这个串就在给两个或更多的酶编码。例如，串
-\end_layout
-
-\begin_layout Standard
-CG GA TA CT AA AC CG A
 \end_layout
 
 \begin_layout Standard
 就是为两个酶编码，它们是
 \end_layout
 
-\begin_layout Standard
-cop -ina - rpy - off
+\begin_layout CenterLine
+cop-ina-rpy- off
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 和
 \end_layout
 
-\begin_layout Standard
-Cut -cop o
+\begin_layout CenterLine
+cut-cop。
 \end_layout
 
 \begin_layout Standard
-AA把该串分成两个“基因”o基因的定义是：一个串中给一个酶编
+\noindent
+AA把该串分成两个“基因”。基因的定义是：一个串中给一个酶编码的那个部分。要注意，在一个串内有AA并不就意味着该串是给两个酶编码。比如，CAAG给“mvr-de
+l”编码。这里的AA从偶数单元开始，因而并不读成二元组！
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\noindent
+678
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-码的那个部分。要注意，在一个串内有AA并不就意味着该串是给
-\end_layout
-
-\begin_layout Standard
-两个酶编码。比如，CAAC,给“mvr - del”编码。这里的AA从偶数
-\end_layout
-
-\begin_layout Standard
-单元开始，因而并不读成二元组1
-\end_layout
-
-\begin_layout Standard
-67 8
-\end_layout
-
-\begin_layout Standard
-读串并产生出它们编码的酶，这种装制称作核糖体o（在印符遗传学中，做游戏的人起着核糖体的作用o）核糖体一点也管不着酶的三级结构，因为一旦造出了一级结构，三级结构就
+读串并产生出它们编码的酶，这种装制称作核糖体。（在印符遗传学中，做游戏的人起着核糖体的作用。）核糖体一点也管不着酶的三级结构，因为一旦造出了一级结构，三级结构就
 完全确定了。顺便说一句，翻译的过程总是从串到酶，而从不会反过来进行。
 \end_layout
 
@@ -1495,8 +2361,8 @@ AA把该串分成两个“基因”o基因的定义是：一个串中给一个�
 
 \begin_layout Standard
 印符遗传学的规则都已给出了，你如果试验一下这个游戏，就会发现它是很有趣的。尤为有趣的是设计一个自复制的串，下面我们就来做这件事。写下一个串，核糖体作用在它上面，
-就产生出在该串内编码的所有的酶。然后让这些酶接触原先的串，并在上面工作。这就得到一批“子串”o那些子串本身又通过那些核糖体，得到51 3第二代酶，它们又作用在其
-子串上，如此循环往复。这个过程可以进行任意多阶。我们的希望是：最终，在某一阶段出现的串里，能找到最初那个串的两个副本（副本之一事实上可能就是原先的串）o
+就产生出在该串内编码的所有的酶。然后让这些酶接触原先的串，并在上面工作。这就得到一批“子串”。那些子串本身又通过那些核糖体，得到第二代酶，它们又作用在其子串上，
+如此循环往复。这个过程可以进行任意多阶。我们的希望是：最终，在某一阶段出现的串里，能找到最初那个串的两个副本（副本之一事实上可能就是原先的串）。
 \end_layout
 
 \begin_layout Subsection*
@@ -3348,1040 +4214,1221 @@ CJKFontFang
 明媚的春光里，乌龟和阿基里斯一起在林中散步。他们打算登上一座小山。据说，山顶上有间极好的茶馆，里面有各种精美的糕点。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：（一边爬山一边唱）我心尊主为大，我灵以上帝我的救主
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： （
+\family sans
+一边爬山一边唱
+\family default
+）我心尊主为大，我灵以上帝我的救主为乐。
 \end_layout
 
-\begin_layout Standard
-为乐。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 升D?我对音乐可是个内行，阿基，我敢说你唱的这支曲子是D调的，而不是升D。
 \end_layout
 
-\begin_layout Standard
-乌龟：升D?我对音乐可是个内行，阿基，我敢说你唱的这支曲子是D调的，而不是升Do
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： D确，是D调的。我刚才的唱词是“上帝”，不是“升D”。我唱的这支曲子是巴赫作的《D调的赞美歌》，你难道从没听过？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：D确，是D调的。我刚才的唱词是“上帝”，不是“升D”。我唱的这支曲子是巴赫作的《D调的赞美歌》，你难道从没听
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 恐怕没有。
 \end_layout
 
-\begin_layout Standard
-过？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 真可惜，这的确是一部了不起的作品。这表明你的音乐知识严重不足，龟兄。我敢肯定我们的朋友螃蟹一定非常熟悉这部作品，无论是把它正着演奏，还是倒着演奏。这
+个螃蟹几乎在所有方面都很聪明。呃，他至少要比任何活着的螃蟹聪明
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+721
 \end_layout
 
-\begin_layout Standard
-乌龟：恐怕没有。
+\end_inset
+
+两倍，或许三倍，说不定——
 \end_layout
 
-\begin_layout Standard
-阿基里斯：真可惜，这的确是一部了不起的作品。这表明你的音乐知识严重不足，龟兄。我敢肯定我们的朋友螃蟹一定非常熟悉这部作品，无论是把它正着演奏．还是倒着演奏。这个
-螃蟹几乎在所有方面都很聪明。呃，他至少要比任何活着的螃蟹聪明721两倍，或许三倍，说不定——
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 你心尊蟹为大，你灵以螃蟹你的朋友为乐。
 \end_layout
 
-\begin_layout Standard
-乌龟：你心尊蟹为大，你灵以螃蟹你的朋友为乐。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 的确，我要赞美螃蟹，这是因为我恰好是他的一个崇拜者……
 \end_layout
 
-\begin_layout Standard
-阿基里斯：的确，我要赞美螃蟹，这是因为我恰好是他的一个崇拜者……
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 别解释了。我也很钦佩他。说到螃蟹的崇拜者，我跟你说起
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+722
 \end_layout
 
-\begin_layout Standard
-乌龟：别解释了。我也很钦佩他。说到螃蟹的崇拜者，我跟你说起722图104.
- K斯将罗瓦尔瓦，艾舍尔作（石板画．1 930）。
-\end_layout
+\end_inset
 
-\begin_layout Standard
 过螃蟹不久前收到了一封莫名其妙的崇拜者来的信吗？
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
-阿基里斯：我不信会有这事c谁发的信？
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0722.jpg
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-乌龟：盖着印度邮戳，是一个我们过去谁也没听说过的人来韵——
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+卡斯特罗瓦尔瓦，艾舍尔作（石板画，1930）。
 \end_layout
 
-\begin_layout Standard
-我记得是叫衍奴玛拉。阿基里斯：怪了，从来不认识螃蟹的人怎么会给他来信呢——还
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-有，他怎么会知道他的地址呢？乌龟：看来那准是个误把螃蟹当成个数学家的人。那封信里有一大
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-堆研究结果，全是——哎，嘿！说到曹操，曹操就到！那不是螃
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-蟹来了，正下山呢。螃蟹：再见！很愉快又跟你们聊了一次。哦，我看我最好还是走吧。
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我不信会有这事。谁发的信？
 \end_layout
 
-\begin_layout Standard
-．我撑坏了——无论如何也不能再吃了。我自己刚才就在上面
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 盖着印度邮戳，是一个我们过去谁也没听说过的人来韵——我记得是叫衍奴玛拉。
 \end_layout
 
-\begin_layout Standard
-——很值得去。你们到过山顶上的那家茶馆吗？你好啊，阿基7
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 怪了，从来不认识螃蟹的人怎么会给他来信呢——还有，他怎么会知道他的地址呢？
 \end_layout
 
-\begin_layout Standard
-．阿基也在。哈，哈，噢，噢，那不是龟兄吗。乌龟：你好，蟹兄。你耙上山顶去那家茶馆了吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 看来那准是个误把螃蟹当成个数学家的人。那封信里有一大堆研究结果，全是——哎，嘿！说到曹操，曹操就到！那不是螃蟹来了，正下山呢。
 \end_layout
 
-\begin_layout Standard
-螃蟹：对呀，是的，我去了。你怎么猜着的？我很想吃一点他们那特
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 再见！很愉快又跟你们聊了一次。哦，我看我最好还是走吧。我撑坏了——无论如何也不能再吃了。我自己刚才就在上面——很值得去。你们到过山顶上的那家茶馆吗？你好
+啊，阿基？阿基也在。哈，哈，噢，噢，那不是龟兄吗。
 \end_layout
 
-\begin_layout Standard
-的宫廷点心…一-．一种极美味的小吃。我饿极啦，简直能吞掉
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 你好，蟹兄。你爬上山顶去那家茶馆了吗？
 \end_layout
 
-\begin_layout Standard
-一只青蛙。哦，阿基也在，你好吗，阿基？阿基里斯：不错。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 对呀，是的，我去了。你怎么猜着的？我很想吃一点他们那特有的宫廷点心——一种极美味的小吃。我饿极啦，简直能吞掉一只青蛙。哦，阿基也在，你好吗，阿基？
 \end_layout
 
-\begin_layout Standard
-螃蟹：妙极了！那么我就不插嘴了，你们继续讨论吧。我奉陪了。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 不错。
 \end_layout
 
-\begin_layout Standard
-乌龟：真是有意思透了，我刚要叙说叙说几周前你收到的那封由那
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 妙极了！那么我就不插嘴了，你们继续讨论吧。我奉陪了。
 \end_layout
 
-\begin_layout Standard
-个印度家伙寄给你的神秘的信——可是你现在就在这儿，我
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 真是有意思透了，我刚要叙说叙说几周前你收到的那封由那个印度家伙寄给你的神秘的信——可是你现在就在这儿，我想还是让阿基听听你亲口讲这介故事吧。
 \end_layout
 
-\begin_layout Standard
-想还是让阿基听听你亲口讲这介故事吧。螃蟹：那好吧，事情是这样的。衍奴玛拉这个家伙显然从未受过任
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 那好吧，事情是这样的。衍奴玛拉这个家伙显然从未受过任何正规的数学训练，可他却创立了一套他自己的新方法，推出一些新的数学真理。他的某些发现完全征服了我，不
+管怎么说，我以前从未见过类似的东西。比如说，他搞出一张印度地图，用不少于1729种颜色给它上色。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+723
 \end_layout
 
-\begin_layout Standard
-何正规的数学训练，可他却创立了一套他自己的新方法，推出
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-一些新的数学真理。他的某些发现完全征服了我．不管怎么
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 1729！你是说1729吗？
 \end_layout
 
-\begin_layout Standard
-说，我以前从未见过类似的东西。比如说，他搞出一张印度地
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 是啊——怎么啦？
 \end_layout
 
-\begin_layout Standard
-图，用不少于1 7 29种颜色给它上色c
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 哦，你要知道，1729是个很令人感兴趣的数。
 \end_layout
 
-\begin_layout Standard
-7 23阿基里斯：1729 1你是说1 7 29吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 真的吗，我没看出来。
 \end_layout
 
-\begin_layout Standard
-螃蟹：是啊——怎么啦？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 具体地说，是这么回事，1729碰巧是我今天早晨去找龟兄时所乘的出租汽车的号码！
 \end_layout
 
-\begin_layout Standard
-阿基里斯：哦，你要知道，1729是个很令人感兴趣的数。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 真神！你知不知道你明天早晨去龟兄那儿时所要乘坐的汽车号码？
 \end_layout
 
-\begin_layout Standard
-螃蟹：真的吗，我没看出来。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯（想了一会儿）： 难说，不过我想那个数字一定很大。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：具体地说，是这么回事，1 7 2 9碰巧是我今天早晨去找龟
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 阿基对这些事有一种出色的直觉。
 \end_layout
 
-\begin_layout Standard
-兄时所乘的出租汽车的号码！螃蟹：真神！你知不知道你明天早晨去龟兄那儿时所要乘坐的汽车
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 是的。好了，我接着往下说吧。衍奴玛拉在信里还证明了每个偶素数都是两个奇数之和、方程
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $a^{n}+b^{n}=c^{n}$
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+对
+\begin_inset Formula $n=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+没有正整数解。
 \end_layout
 
-\begin_layout Standard
-号码？阿基里斯（想了一会儿）：难说，不过我想那个数字一定很大。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 什么？这些数学老古董就这么一下子全解决了？他准是第一流的天才！
 \end_layout
 
-\begin_layout Standard
-乌龟：阿基对这些事有一种出色的直觉。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 不过，阿基——你甚至一点都不怀疑吗？
 \end_layout
 
-\begin_layout Standard
-螃蟹：是的。好了，我接着往下说吧。衍奴玛拉在信里还证明了每
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 什么？噢，对——怀疑。我当然怀疑。你不会认为我有那么傻，竟然相信老蟹收到过这样一封信吧？我可是什么当也不会上。龟兄，收到那封信的人一定是你！
 \end_layout
 
-\begin_layout Standard
-个偶素数都是两个奇数之和、方程
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 噢，不，阿基，关于老蟹收到信这一节完全是真的。我的意思是说，你不怀疑这封信的内容——那些言过其实的论断吗？
 \end_layout
 
-\begin_layout Standard
-an+bn—cn 对n-0
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 凭什么我该怀疑？嗯嗯……对，我当然怀疑。我是个多疑的人，这一点你们俩现在应该非常了解了。让我相信什么事惰很难，不管它多真多假。
 \end_layout
 
-\begin_layout Standard
-没有正整数解。阿基里斯：什么？这些数学老古董就这么一下子全解决了？他准是
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 说得好，阿基。你当然对自己的智力活动有极好的自我意识。
 \end_layout
 
-\begin_layout Standard
-第一流的天才！乌龟：不过，阿基——你甚至一点都不怀疑吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我的朋友，你们就没想过衍奴玛拉的这些论断可能不对
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+724
 \end_layout
 
-\begin_layout Standard
-阿基里斯：什么？噢，对——怀疑。我当然怀疑。你不会认为我有
+\end_inset
+
+吗？
 \end_layout
 
-\begin_layout Standard
-那么傻，竟然相信老蟹收到过这样一封信吧？我可是什么当也
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 说老实话，阿基，我自己很保守也很正统，刚收到信时，我也想到了这个问题。其实，我当初就怀疑这是一个彻头彻尾的骗局。不过转念一想，又觉得没有什么人能仅凭想象
+就得出如此前所未闻的复杂结果。事实上，把它归结起来就是这样一个问题：“哪一个更可能呢：到底是一个独出心裁的骗子，还是一个天资过人的数学家？”不久我就明白了，其概
+率显然偏向于前者。
 \end_layout
 
-\begin_layout Standard
-不会上。龟兄，收到那封信的人一定是你！乌龟：噢，不，阿基，关于老蟹收到信这一节完全是真的。我的意思
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 不过，你没有把他这些叫人吃惊的论断拿一个来直接核对一下吗？
 \end_layout
 
-\begin_layout Standard
-是说，你不怀疑这封信的内容——那监言过其实的论断吗？阿基里斯：凭什么我该怀疑？嗯嗯……对，我当然怀疑。我是个多
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 我干嘛要核对？那个基于概率的论证是我所想到的最令人信服的东西：没有一个数学证明能同它媲美。可是这位龟兄要坚持严格性，我最后也只好迁就，把衍奴玛拉的所有结
+果都核对了一遍。令人吃惊的是，他的每个结果都对。可我永远也不会知道他是怎么发现这些结果的。他肯定有一种惊人的、不可思议的东方式的洞察力，而我们这些西方人对此却一
+窍不通。目前在我看来，只有这种理论还多少能说得过去。
 \end_layout
 
-\begin_layout Standard
-疑的人，这一点你们俩现在应该非常了解了。让我相信什么事
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 老蟹总是比我更容易接受那些神秘的或怪诞的解释。我完全有把握认为，不管怎么说，衍奴玛拉用他的方法能做到的事，在正统数学里都有与它完全相对应的东西。依我看，
+在数学研究上不会有什么方法能与我们已知的方法全然不同。
 \end_layout
 
-\begin_layout Standard
-惰很难，不管它多真多假。乌龟：说得好，阿基。你当然对自己的智力活动有极好的自我意识。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 这倒是个有趣的观点。我看这与丘奇—图灵论题和其它一些有关的论题有些关系。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：我的朋友，你们就没想过衍奴玛拉的这些论断可能不对
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 好了，好了，在这样一个好天里，还是把这些学术问题放到一边去吧，让我们好好享受一下森林的宁静、鸟儿的啭鸣和洒在嫩叶新蕾上的阳光吧。嘿！
 \end_layout
 
-\begin_layout Standard
-7 24
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 我赞成这一动议。说到底，世世代代的乌龟都非常迷恋大自
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-吗？螃蟹：说老实话，阿基，我自己很保守也很正统，刚收到信时，我也552
-\end_layout
-
-\begin_layout Standard
-想到了这个问题。其实，我当初就怀疑这是一个彻头彻尾的骗
-\end_layout
-
-\begin_layout Standard
-局。不过转念一想，又觉得没有什么人能仅凭想象就得出如此
-\end_layout
-
-\begin_layout Standard
-前所未闻的复杂结果。事实上，把它砂1结起来就是这样一个问
-\end_layout
-
-\begin_layout Standard
-题：“哪一个更可能呢：到底是一个独出心裁的骗子，还是一个
-\end_layout
-
-\begin_layout Standard
-天资过人的数学家？”不久我就明白了，其概率显然偏向于前
-\end_layout
-
-\begin_layout Standard
-者。阿基里斯：不过，你没有把他这些叫人吃惊的论断拿一个来直接核
-\end_layout
-
-\begin_layout Standard
-对一下吗？螃蟹：我干嘛要核对？那个基于概率的论证是我所想到的最令人信
-\end_layout
-
-\begin_layout Standard
-服的东西：没有一个数学证明能同它媲美。可是这位龟兄要坚
-\end_layout
-
-\begin_layout Standard
-持严格性，我最后也只好迁就，把衍奴玛拉的所有结果都核对
-\end_layout
-
-\begin_layout Standard
-了一遍。令人吃惊的是，他的每个结果都对。可我永远也不会
-\end_layout
-
-\begin_layout Standard
-知道他是怎么发现这些结果的。他肯定有一种惊人的、不可思
-\end_layout
-
-\begin_layout Standard
-议的东方式的洞察力，而我们这些西方人对此却一窍不通。目
-\end_layout
-
-\begin_layout Standard
-前在我看来，只有这种理论还多少能说得过去。乌龟：老蟹总是比我更容易接受那些神秘的或怪诞的解释。我完全
-\end_layout
-
-\begin_layout Standard
-有把握认为，不管怎么说，衍奴玛拉用他的方法能做到的事，
-\end_layout
-
-\begin_layout Standard
-在正统数学里都有与它完全相对应的东西。依我看，在数学研
-\end_layout
-
-\begin_layout Standard
-究上不会有什么方法能与我们已知的方法全然不同o阿基里斯：这倒是个有趣的观点。我看这与丘奇一图灵论题和其它
-\end_layout
-
-\begin_layout Standard
-一些有关的论题有些关系。螃蟹：好了，好了，在这样一个好天里，还是把这些学术问题放到一
-\end_layout
-
-\begin_layout Standard
-边去吧，让我们好好享受一下森林的宁静、鸟儿的啭鸣和洒在
-\end_layout
-
-\begin_layout Standard
-嫩叶新蕾上的阳光吧。嘿！乌龟：我赞成这一动议。说到底，世世代代的乌龟都非常迷恋大自
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 725
 \end_layout
 
-\begin_layout Standard
-然。螃蟹：就象世世代代的螃蟹…样。
-\end_layout
+\end_inset
 
-\begin_layout Standard
-阿基里斯：你没带长笛来吧，老蟹？
+然。
 \end_layout
 
-\begin_layout Standard
-螃蟹：哪儿的话，我当然带了，走到哪儿带到哪儿。你想听上一两首
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 就象世世代代的螃蟹一样。
 \end_layout
 
-\begin_layout Standard
-吗？阿基里斯：在这种田园风光里，一定会令人心旷神怡的。你能凭记
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你没带长笛来吧，老蟹？
 \end_layout
 
-\begin_layout Standard
-忆演奏吗？螃蟹：说来惭愧，我没这个本事，我只能看着乐谱演奏音乐。不过这
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 哪儿的话，我当然带了，走到哪儿带到哪儿。你想听上一两首吗？
 \end_layout
 
-\begin_layout Standard
-没关系。我这只盒子里就有几段十分欢快的乐曲。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 在这种田园风光里，一定会令人心旷神怡的。你能凭记忆演奏吗？
 \end_layout
 
-\begin_layout Standard
-（他打开一只细长的盒子，拿出几张纸来，最上面一张上有下
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 说来惭愧，我没这个本事，我只能看着乐谱演奏音乐。不过这没关系。我这只盒子里就有几段十分欢快的乐曲。
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-面的符号：
-\end_layout
+（他打开一只细长的盒子，拿出几张纸来，最上面一张上有下面的符号：
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-V a:～Sa=0
-\end_layout
 
-\begin_layout Standard
-他把这张纸放到固定在长笛上的一个小谱架上，然后吹了起
-\end_layout
+\begin_inset Formula $\qquad\forall a:\sim Sa=0$
+\end_inset
 
-\begin_layout Standard
-来，曲子很短o）阿基里斯：挺迷人的o（盯着长笛上的那张纸，脸上露出一种疑惑的
-\end_layout
 
-\begin_layout Standard
-表情o）挂在你长笛上的那个数论语句是干什么用的？
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-（螃蟹瞥了一眼长笛，又看了看乐谱，把头摇来摇去的，有点茫
+他把这张纸放到固定在长笛上的一个小谱架上，然后吹了起来，曲子很短。）
 \end_layout
 
-\begin_layout Standard
-然c）55 3螃蟹：我不明白，什么数论语句？
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 挺迷人的。（
+\family sans
+盯着长笛上的那张纸，脸上露出一种疑惑的表情。
+\family default
+）挂在你长笛上的那个数论语句是干什么用的？
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-阿基里斯：“零不是任何自然数的后继。”就在那儿，长笛的谱架上。
+（
+\family sans
+螃蟹瞥了一眼长笛，又看了看乐谱，把头摇来摇去的，有点茫然。
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-螃蟹：这是皮亚诺写的第二首长笛前奏曲。一共有五首来着。它们
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 我不明白，什么数论语句？
 \end_layout
 
-\begin_layout Standard
-很好懂，同时也很吸引人。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： “零不是任何自然数的后继。”就在那儿，长笛的谱架上。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：我所不懂的是，数论语句怎么能当音乐演奏？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 这是皮亚诺写的第二首长笛前奏曲。一共有五首来着。它们很好懂，同时也很吸引人。
 \end_layout
 
-\begin_layout Standard
-螃蟹：我再说一遍，这不是数论语句——它是一支长笛前奏曲！你
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我所不懂的是，数论语句怎么能当音乐演奏？
 \end_layout
 
-\begin_layout Standard
-不想听点别的吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 我再说一遍，这不是数论语句——它是一支长笛前奏曲！你不想听点别的吗？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：我会中魔的。
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我会中魔的。
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-（螃蟹又把一张纸放在长笛上，这次阿基里斯瞧得更仔细了o>
-\end_layout
+（
+\family sans
+螃蟹又把一张纸放在长笛上，这次阿基里斯瞧得更仔细了。
+\family default
+）
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-72 6
+\begin_layout Plain Layout
+726
 \end_layout
 
-\begin_layout Standard
-哦，我看到你的眼光了，你刚才看着纸上的公式。你确实认为
-\end_layout
+\end_inset
 
-\begin_layout Standard
-那是音乐符号吧？我敢发誓，它太象人们在形式化数论中所使
-\end_layout
 
-\begin_layout Standard
-用的那种符号了。螃蟹：真逗！要让我说，毫无疑问这是乐谱，而不是什么数论语句！
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-无论按数学这个词的哪种意义来说，我当然都不是什么数学
+哦，我看到你的眼光了，你刚才看着纸上的公式。你确实认为那是音乐符号吧？我敢发誓，它太象人们在形式化数论中所使用的那种符号了。
 \end_layout
 
-\begin_layout Standard
-家。你还想听别的曲子吗？阿基羁斯：那当然。你还有什么？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 真逗！要让我说，毫无疑问这是乐谱，而不是什么数论语句！无论按数学这个词的哪种意义来说，我当然都不是什么数学家。你还想听别的曲子吗？
 \end_layout
 
-\begin_layout Standard
-螃蟹：多得很。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基羁斯： 那当然。你还有什么？
 \end_layout
 
-\begin_layout Standard
-(他又拿出一张纸，挂在长笛上。纸上有下面这些符号：
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 多得很。
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-～3 a:3 b:(SSa.SSb)-ssssssssssssso
-\end_layout
+(
+\family sans
+他又拿出一张纸，挂在长笛上。纸上有下面这些符号：
+\family default
 
-\begin_layout Standard
-螃蟹演奏时，阿基里斯盯着它o）
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-好听吗？阿基里斯：嗯，的确是支悦耳的小曲。可我不得不说，我越看它越觉
-\end_layout
 
-\begin_layout Standard
-得它象数论。螃蟹：天哪！这只是我通常使用的音乐符号，仅此而已。我简直不
-\end_layout
+\begin_inset Formula $\begin{array}{l}
+\qquad\sim\exists a:\exists b:(SSa\cdot SSb)\\
+\qquad\qquad=SSSSSSSSSSSSS0
+\end{array}$
+\end_inset
 
-\begin_layout Standard
-知道你怎么会把那些非音乐的涵义硬塞进这峰直接代表各种
-\end_layout
 
-\begin_layout Standard
-声音的符号里去。阿基里斯：也许你不会反对演奏…段我自己作的曲子吧？
-\end_layout
+\family sans
 
-\begin_layout Standard
-螃蟹：非常荣幸。你带来了吗？
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-阿基里斯：没有，不过我想我完全可以自己写些曲子。
-\end_layout
+螃蟹演奏时，阿基里斯盯着它。
+\family default
+）
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-乌龟：我必须告诉你，阿基，老蟹对别人的音乐作品可是个苛刻的
+好听吗？
 \end_layout
 
-\begin_layout Standard
-批评家，所以，要是他对你的努力并不热心，你可别觉得失望。阿基里斯：多承关照。可我还是想试试……
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 嗯，的确是支悦耳的小曲。可我不得不说，我越看它越觉得它象数论。
 \end_layout
 
-\begin_layout Standard
-(他写道：
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 天哪！这只是我通常使用的音乐符号，仅此而已。我简直不知道你怎么会把那些非音乐的涵义硬塞进这些直接代表各种声音的符号里去。
 \end_layout
 
-\begin_layout Standard
-(( SSSO.SSSO)+(SSSS().SSSSO》一(SSSSSO.
- 5 54
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 也许你不会反对演奏一段我自己作的曲子吧？
 \end_layout
 
-\begin_layout Standard
-SSSSSO)
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 非常荣幸。你带来了吗？
 \end_layout
 
-\begin_layout Standard
-烤蟹拿过来看了一会儿，然后放在谱架上，吹了起来o）
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 没有，不过我想我完全可以自己写些曲子。
 \end_layout
 
-\begin_layout Standard
-7 27螃蟹：噢，满好。阿基，我喜欢稀奇古怪的节奏。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 我必须告诉你，阿基，老蟹对别人的音乐作品可是个苛刻的批评家，所以，要是他对你的努力并不热心，你可别觉得失望。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：这段曲子的节奏有什么奇特之处吗？
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 多承关照。可我还是想试试……
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-螃蟹：噢，当然啦，以你作曲家的眼光看它，似乎很平常。可对我的
-\end_layout
+(
+\family sans
+他写道：
+\family default
 
-\begin_layout Standard
-耳朵来说，这从3/3到4/4最后到5/5的节奏变化带了点异
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-国情调。如果你还有别的曲子；我也很乐意演奏。阿基里斯：多谢。我过去从来没写过什么曲子，可我必须说，作曲这
-\end_layout
 
-\begin_layout Standard
-种事与我过去婚想象完全不是一码事。让我再试一首o（草草
-\end_layout
+\begin_inset Formula $\begin{array}{l}
+\quad((SSS0\cdot SSS0)+(SSSS0\cdot SSSS0))\\
+\qquad=(SSSSS0\cdot SSSSS0)
+\end{array}$
+\end_inset
 
-\begin_layout Standard
-地写下了一行o）
-\end_layout
 
-\begin_layout Standard
-～| a:] b:(SSa.SSb) -SSSSSSSSSSSSSSO螃蟹：嗯……这不就是把我先前的那段曲子抄了一遍吗？
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-阿基里斯：噢，不！我多加了一个So你那行里有十三个，我这有十
-\end_layout
 
-\begin_layout Standard
-四个。螃蟹：噢，是这么回事。好吧o（他演奏起来，看上去挺严峻o）阿基里斯：我希望你不至于不喜欢我的乐曲吧！
-\end_layout
+\family sans
+螃蟹拿过来看了一会儿，然后放在谱架上，吹了起来。
+\family default
+）
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-螃蟹：阿基，恐怕你完全没有抓住我的那首曲子的精妙之处，你是
+\begin_layout Plain Layout
+727
 \end_layout
 
-\begin_layout Standard
-照猫画虎。可我又怎么能指望你听上一遍就能理解呢？人们
-\end_layout
+\end_inset
 
-\begin_layout Standard
-并不总能了解美的本质所在，很容易把一首曲子表面的东西
-\end_layout
 
-\begin_layout Standard
-锗当成它的美，并且去模仿它。而美本身似乎是不可分析的，
 \end_layout
 
-\begin_layout Standard
-它藏在音乐的深处。阿基里斯：恐怕你这篇深奥的评论把我弄得有点晕头转向了。我知
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 噢，满好。阿基，我喜欢稀奇古怪的节奏。
 \end_layout
 
-\begin_layout Standard
-道我的乐曲够不上你的高标准，可我还没弄清我错在哪星。你
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 这段曲子的节奏有什么奇特之处吗？
 \end_layout
 
-\begin_layout Standard
-也许能告诉我，我这个作品中的哪些方面有毛病吧？螃蟹：阿基，对你的作品可能会有的一种补救方法是：在末尾那一
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 噢，当然啦，以你作曲家的眼光看它，似乎很平常。可对我的耳朵来说，这从3/3到4/4最后到5/5的节奏变化带了点异国情调。如果你还有别的曲子，我也很乐意演
+奏。
 \end_layout
 
-\begin_layout Standard
-串S中再插进三个S（五个也行）o这将会造成一种精巧的不
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 多谢。我过去从来没写过什么曲子，可我必须说，作曲这种事与我过去婚想象完全不是一码事。让我再试一首。（
+\family sans
+草草地写下了一行。
+\family default
+）
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-同寻常的效果。阿基里斯：我明白了。
-\end_layout
 
-\begin_layout Standard
-螃蟹：不过修改你的作品还有一些可以选用的方法。依我个人的看 ．
-\end_layout
+\begin_inset Formula $\begin{array}{l}
+\qquad\sim\exists a:\exists b:(SSa\cdot SSb)\\
+\qquad\qquad=SSSSSSSSSSSSSS0
+\end{array}$
+\end_inset
 
-\begin_layout Standard
-7 28 ，一 ．
-\end_layout
 
-\begin_layout Standard
-法，要是在前面再加一个弯号，会极富于感染力的。那样一来
 \end_layout
 
-\begin_layout Standard
-首和尾之间就会产生很好的平衡。你知道，一行中有两个弯会
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 嗯……这不就是把我先前的那段曲子抄了一遍吗？
 \end_layout
 
-\begin_layout Standard
-给乐曲一个轻快的小转折。阿基里斯：要是我同时采纳你的两项建议，会怎么样呢？那样曲子
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 噢，不！我多加了一个S。你那行里有十三个，我这有十四个。
 \end_layout
 
-\begin_layout Standard
-就成了：
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 噢，是这么回事。好吧。（他演奏起来，看上去挺严峻。）
 \end_layout
 
-\begin_layout Standard
-、,3 a:] b:(SSa.SSb)=SSSSSSSSSSSSSSSSSO螃蟹（脸色一时很难看，掠过一丝不以为然的神情）：好了，阿基，听555
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我希望你不至于不喜欢我的乐曲吧！
 \end_layout
 
-\begin_layout Standard
-听下面这一课对你至关重要：决不要企图把太多的东西加到
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 阿基，恐怕你完全没有抓住我的那首曲子的精妙之处，你是照猫画虎。可我又怎么能指望你听上一遍就能理解呢？人们并不总能了解美的本质所在，很容易把一首曲子表面的
+东西错当成它的美，并且去模仿它。而美本身似乎是不可分析的，它藏在音乐的深处。
 \end_layout
 
-\begin_layout Standard
-一支曲子里。总是有一个界限的，超过了它反而会弄巧成拙。这个例子就是如此。你这种把两条建议兼施并行的想法，并没有获得所期望的更多的美，恰好相反，却造成了一种不平衡
-，这下子把原来所有的妙处都弄没了。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 恐怕你这篇深奥的评论把我弄得有点晕头转向了。我知道我的乐曲够不上你的高标准，可我还没弄清我错在哪星。你也许能告诉我，我这个作品中的哪些方面有毛病吧？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：你那支有十三个S，我这支有十四个S，这样两支十分相
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 阿基，对你的作品可能会有的一种补救方法是：在末尾那一串S中再插进三个S（五个也行）。这将会造成一种精巧的不同寻常的效果。
 \end_layout
 
-\begin_layout Standard
-似的乐曲按你的音乐价值标准衡量，怎么会如此不同呢？除了
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我明白了。
 \end_layout
 
-\begin_layout Standard
-这么一个细节，二者完全一样啊。螃蟹：天哪！你我两人的乐曲有着天壤之别。也许在这里无法用语
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 不过修改你的作品还有一些可以选用的方法。依我个人的看
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-言来表达那种心理感受。确实，我敢说不存在什么现成的规
+\begin_layout Plain Layout
+728
 \end_layout
 
-\begin_layout Standard
-则，可以用来描述究竟是什么决定了一支曲子是不是美，而且
-\end_layout
+\end_inset
 
-\begin_layout Standard
-永远也不会有这样的规则。美感只能存在于有意识的心灵之
+法，要是在前面再加一个弯号，会极富于感染力的。那样一来首和尾之间就会产生很好的平衡。你知道，一行中有两个弯会给乐曲一个轻快的小转折。
 \end_layout
 
-\begin_layout Standard
-，这种心灵靠生活经验的积累所达到的深度，超越了一切仅
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 要是我同时采纳你的两项建议，会怎么样呢？那样曲子就成了：
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-由～组规则所能做到的解释。阿基里斯：我将永远牢记你对美的本质的这种生动的阐述。这么
-\end_layout
 
-\begin_layout Standard
-说，是不是类似的评判也可以用于真理概念，是吧？螃蟹：毫无疑问。真和美密切相关，就象，就象…阿基里斯：比方说，就象数学和音乐？
-\end_layout
+\begin_inset Formula $\begin{array}{l}
+\qquad\sim\sim\exists a:\exists b:(SSa\cdot SSb)\\
+\qquad\qquad=SSSSSSSSSSSSSS0
+\end{array}$
+\end_inset
 
-\begin_layout Standard
-螃蟹：嘿！真是英雄所见略同！你怎么就知道我在想什么呢？
-\end_layout
 
-\begin_layout Standard
-乌龟：阿基十分聪明，老蟹，你千万可别低估他的洞察力。
 \end_layout
 
-\begin_layout Standard
-7 29阿基里斯：你是想说，在一个具体的数学语句是真还是假，与一支
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹（脸色一时很难看，掠过一丝不以为然的神情）： 好了，阿基，听听下面这一课对你至关重要：决不要企图把太多的东西加到一支曲子里。总是有一个界限的，超过了它反而会
+弄巧成拙。这个例子就是如此。你这种把两条建议兼施并行的想法，并没有获得所期望的更多的美，恰好相反，却造成了一种不平衡，这下子把原来所有的妙处都弄没了。
 \end_layout
 
-\begin_layout Standard
-乐曲是美还是不美之间可能有一种可以想见的联系？还是
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你那支有十三个S，我这支有十四个S，这样两支十分相似的乐曲按你的音乐价值标准衡量，怎么会如此不同呢？除了这么一个细节，二者完全一样啊。
 \end_layout
 
-\begin_layout Standard
-说，这只是我的一种缺乏现实根据的猜想？螃蟹：你要是这么说我觉得就太走极端了。在我说到音乐和数学的
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 天哪！你我两人的乐曲有着天壤之别。也许在这里无法用语言来表达那种心理感受。确实，我敢说不存在什么现成的规则，可以用来描述究竟是什么决定了一支曲子是不是美
+，而且永远也不会有这样的规则。美感只能存在于有意识的心灵之，这种心灵靠生活经验的积累所达到的深度，超越了一切仅由一组规则所能做到的解释。
 \end_layout
 
-\begin_layout Standard
-相互关联时，你要明白，我用了一种非常比喻化的说法。至于
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我将永远牢记你对美的本质的这种生动的阐述。这么说，是不是类似的评判也可以用于真理概念，是吧？
 \end_layout
 
-\begin_layout Standard
-说到具体的乐曲和具体的数学语句之间的直接关系，我可是
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 毫无疑问。真和美密切相关，就象，就象……
 \end_layout
 
-\begin_layout Standard
-极怀疑其可能性的。我冒昧地奉劝你不要花过多的时间去做
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 比方说，就象数学和音乐？
 \end_layout
 
-\begin_layout Standard
-这种呆想。阿基里斯：你当然是对的。那样做确实徒劳无益。也许我该集中力，
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 嘿！真是英雄所见略同！你怎么就知道我在想什么呢？
 \end_layout
 
-\begin_layout Standard
-量再作一些新曲子，以增进我的音乐感受力，你愿意做我的辅
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 阿基十分聪明，老蟹，你千万可别低估他的洞察力。
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-导 师吗，老蟹？螃蟹：我非常高兴能帮助你向理解音乐的方向迈进。
+\begin_layout Plain Layout
+729
 \end_layout
 
-\begin_layout Standard
-(于是，阿基里斯拿起笔，显得非常聚精会神，写道：
-\end_layout
+\end_inset
 
-\begin_layout Standard
-/ OOaV，V～八／＼：b+cS(3|=0八啼((～d)<V(V S．
-\end_layout
 
-\begin_layout Standard
-+(>V
 \end_layout
 
-\begin_layout Standard
-螃蟹显得大吃一惊o)螃蟹：你真的想叫我演奏这个——这个——这个莫名其妙的东西
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你是想说，在一个具体的数学语句是真还是假，与一支乐曲是美还是不美之间可能有一种可以想见的联系？还是说，这只是我的一种缺乏现实根据的猜想？
 \end_layout
 
-\begin_layout Standard
-吗？阿基里斯：啊，请吧j
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 你要是这么说我觉得就太走极端了。在我说到音乐和数学的相互关联时，你要明白，我用了一种非常比喻化的说法。至于说到具体的乐曲和具体的数学语句之间的直接关系，
+我可是极怀疑其可能性的。我冒昧地奉劝你不要花过多的时间去做这种呆想。
 \end_layout
 
-\begin_layout Standard
-(螃蟹吹奏起来，显然十分吃力o)乌龟：啊哈！啊哈！阿基，你最喜欢的作曲家是约翰·卡奇吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你当然是对的。那样做确实徒劳无益。也许我该集中力量再作一些新曲子，以增进我的音乐感受力，你愿意做我的辅导师吗，老蟹？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：实际上，他是我最喜欢的“不作曲家”，因为他写了许多
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 我非常高兴能帮助你向理解音乐的方向迈进。
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-部由静默构成的作品，例如《四分三十三秒》等等。不管怎么
-\end_layout
+（
+\family sans
+于是，阿基里斯拿起笔，显得非常聚精会神，写道：
+\family default
 
-\begin_layout Standard
-说，我很希望你喜欢我的音乐o螃蟹：听听这种毫无意义的不合谐音调，你们俩可能觉得挺有趣
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-的，不过我向你们保证，对于一个敏感的作曲家来说，受这种
-\end_layout
 
-\begin_layout Standard
-令人难以忍受的、空洞无物的不和谐音以及毫无内容的节奏
-\end_layout
+\begin_inset Formula $\begin{array}{l}
+\quad\wedge OOa\forall^{\prime}\vee\sim\wedge\wedge:b+cS(\exists\exists\\
+\qquad=O\wedge\rightarrow((\sim d)<\vee(\forall S\cdot+(>\vee
+\end{array}$
+\end_inset
 
-\begin_layout Standard
-7 30
-\end_layout
 
-\begin_layout Standard
-的折磨，一点也不会感到愉快。阿基，我认为你对音乐有某种
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-良好的感觉。你前面的几支曲子都有可取之处，它们难道只
-\end_layout
 
-\begin_layout Standard
-是歪打正着的吗？阿基里斯：哦，请原谅，老蟹。我是在寻找你的这种音乐符号表达能
+\family sans
+螃蟹显得大吃一惊。
+\family default
+)
 \end_layout
 
-\begin_layout Standard
-力的极限。我想直接搞清楚我写下的某种类型的记号序列会
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 你真的想叫我演奏这个——这个——这个莫名其妙的东西吗？
 \end_layout
 
-\begin_layout Standard
-得到哪一一种声音效果，以及你如何评价不同风格的曲子。螃蟹：见鬼！我可不是一台自动音乐机，更不是一只专装音乐垃圾
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 啊，请吧！
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-的垃圾桶。阿基里斯：对不起。不过我觉得，写过这几支曲子之后，我已经学到
+（
+\family sans
+螃蟹吹奏起来，显然十分吃力。
+\family default
+)
 \end_layout
 
-\begin_layout Standard
-了很多东西，而且我敢说，要不是我有意想试试你，我现在肯
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 啊哈！啊哈！阿基，你最喜欢的作曲家是约翰·卡奇吗？
 \end_layout
 
-\begin_layout Standard
-定写的比我以前写的好p如果你肯再演奏一两首我的曲子，我
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 实际上，他是我最喜欢的“不作曲家”，因为他写了许多部由静默构成的作品，例如《四分三十三秒》等等。不管怎么说，我很希望你喜欢我的音乐。
 \end_layout
 
-\begin_layout Standard
-想你会觉得我的乐感已经比以前好些了。螃蟹：那好，你写下来，我再给你一次机会。
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 听听这种毫无意义的不合谐音调，你们俩可能觉得挺有趣的，不过我向你们保证，对于一个敏感的作曲家来说，受这种令人难以忍受的、空洞无物的不和谐音以及毫无内容的
+节奏
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-(阿基里斯写道：
+\begin_layout Plain Layout
+730
 \end_layout
 
-\begin_layout Standard
-V a:V b:<(a.a)=!(SSO.(b.b))—◆a=O>
-\end_layout
+\end_inset
 
-\begin_layout Standard
-随后螃蟹吹了起来o）
+的折磨，一点也不会感到愉快。阿基，我认为你对音乐有某种良好的感觉。你前面的几支曲子都有可取之处，它们难道只是歪打正着的吗？
 \end_layout
 
-\begin_layout Standard
-你行．『，阿基。你好象已经完全恢复了你的音乐敏感力。这可
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 哦，请原谅，老蟹。我是在寻找你的这种音乐符号表达能力的极限。我想直接搞清楚我写下的某种类型的记号序列会得到哪一种声音效果，以及你如何评价不同风格的曲
+子。
 \end_layout
 
-\begin_layout Standard
-是金不换啊！你是怎么创作出来的？我从来没听过这样的东
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 见鬼！我可不是一台自动音乐机，更不是一只专装音乐垃圾的垃圾桶。
 \end_layout
 
-\begin_layout Standard
-西，它符合所有的和声律，而且还有某种——怎么说呢——不
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 对不起。不过我觉得，写过这几支曲子之后，我已经学到了很多东西，而且我敢说，要不是我有意想试试你，我现在肯定写的比我以前写的好。如果你肯再演奏一两首我
+的曲子，我想你会觉得我的乐感已经比以前好些了。
 \end_layout
 
-\begin_layout Standard
-可思议的感染力。我把握不准。可正是由于这个原因，我非常
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 那好，你写下来，我再给你一次机会。
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-喜欢它c阿基里斯：我猜你会喜欢的。
-\end_layout
+（阿基里斯写道：
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-乌龟：你给它起名字了吗，阿基？也许你可以叫它“毕达哥挝斯之
-\end_layout
 
-\begin_layout Standard
-歌”o你该记得，毕达哥拉斯及其弟子是最先研究乐音的人。阿基里斯：是的，确实如此。这是个极好的标题。
-\end_layout
+\begin_inset Formula $\forall a:\forall b:<(a\cdot a)=(SS0\cdot(b\cdot b))\rightarrow a=0>$
+\end_inset
 
-\begin_layout Standard
-螃蟹：毕达哥拉斯不也是最先发现了两个平方数的比值不可能是
-\end_layout
 
-\begin_layout Standard
-2吗？
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-73l,57乌龟：我相信你正确。当时这被看作一项十分不吉利的发现。因为
-\end_layout
+随后螃蟹吹了起来。）
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-在此之前，从未有人认识到会有一些数——诸如2的平方根
+你行了，阿基。你好象已经完全恢复了你的音乐敏感力。这可是金不换啊！你是怎么创作出来的？我从来没听过这样的东西，它符合所有的和声律，而且还有某种——怎么说呢——不
+可思议的感染力。我把握不准。可正是由于这个原因，我非常喜欢它。
 \end_layout
 
-\begin_layout Standard
-——不是整数的比值。这项发现深深地困扰着毕达哥拉斯学
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我猜你会喜欢的。
 \end_layout
 
-\begin_layout Standard
-派的人们，他们认为，它揭示出在数的抽象世界中，有一个不
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 你给它起名字了吗，阿基？也许你可以叫它“毕达哥拉斯之歌”。你该记得，毕达哥拉斯及其弟子是最先研究乐音的人。
 \end_layout
 
-\begin_layout Standard
-容置疑的、怪诞的缺陷。不过，我到不认为这会造成天下呔
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 是的，确实如此。这是个极好的标题。
 \end_layout
 
-\begin_layout Standard
-乱，以至于连中国的茶叶价钱都受影响。
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 毕达哥拉斯不也是最先发现了两个平方数的比值不可能是2吗？
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-阿基里斯：哎，说起茶，前面不正是我们要去的那家茶馆吗？
+\begin_layout Plain Layout
+731
 \end_layout
 
-\begin_layout Standard
-乌龟：是这样，我们三五分钟之内就可以到那儿了。
-\end_layout
+\end_inset
 
-\begin_layout Standard
-阿基里斯z嗯……这段时间正好够我用口哨给你们吹一遍今天早
-\end_layout
 
-\begin_layout Standard
-上出租汽车司机用他的收音机放出的一只曲子。它是这样的：
 \end_layout
 
-\begin_layout Standard
-螃蟹：等一会儿，让我从盒子里拿几张纸把你的曲子记下来（在盒
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 我相信你正确。当时这被看作一项十分不吉利的发现。因为在此之前，从未有人认识到会有一些数——诸如2的平方根——不是整数的比值。这项发现深深地困扰着毕达哥拉
+斯学派的人们，他们认为，它揭示出在数的抽象世界中，有一个不容置疑的、怪诞的缺陷。不过，我到不认为这会造成天下呔乱，以至于连中国的茶叶价钱都受影响。
 \end_layout
 
-\begin_layout Standard
-子里翻了一阵，找出一张白纸），开始吧，我准备好了．
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 哎，说起茶，前面不正是我们要去的那家茶馆吗？
 \end_layout
 
-\begin_layout Standard
-（阿基里斯用口哨吹了一段相当长的曲子。螃蟹手忙脚乱地
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 是这样，我们三五分钟之内就可以到那儿了。
 \end_layout
 
-\begin_layout Standard
-跟 他的口哨记录）
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 嗯……这段时间正好够我用口哨给你们吹一遍今天早上出租汽车司机用他的收音机放出的一只曲子。它是这样的：
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 等一会儿，让我从盒子里拿几张纸把你的曲子记下来（
+\family sans
+在盒子里翻了一阵，找出一张白纸
+\family default
+），开始吧，我准备好了．
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+阿基里斯用口哨吹了一段相当长的曲子。螃蟹手忙脚乱地跟 他的口哨记录
+\family default
+）
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 你能不能把最后几个小节重吹一遍？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：噢，当然可以。
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 噢，当然可以。
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-（这么重复了两遍之后，这一阵子忙乱也就结束了。螃蟹得意
-\end_layout
+（
+\family sans
+这么重复了两遍之后，这一阵子忙乱也就结束了。螃蟹得意地炫耀着它的抄件：
+\family default
 
-\begin_layout Standard
-地炫耀着它的抄件：
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-< 《 SSSSSO.ssssso)+(ssssso.ssssso))=
-\end_layout
 
-\begin_layout Standard
+\begin_inset Formula $<((SSSSS0\cdot SSSSS0)+SSSSS0\cdot SSSSS0))=((SSSSSSS0\cdot SSSSSSS0)+(S0\cdot$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 ccssssssso.ssssssso)+cso.SO》八～j b:<了c:
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 (Sc+b)—《SSSSSSSO.SSSSSSSO)+(SO.SO》人了d:
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 j d’:j e:3 e’:<～<d—e V d=e 7>／＼<b=((Sd.Sd)
-\end_layout
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 +(Sd 7.Sd’))八b=((se.Se)+(Se 7.Se’))>>>>
+\begin_inset Newline newline
+\end_inset
+
+
+\family sans
+随后螃蟹自己吹奏起来
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-随后螃蟹自己吹奏起来）
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 这音乐别具风味，不是吗？我听着有点象印度音乐。
 \end_layout
 
-\begin_layout Standard
-乌龟：这音乐别具风味，不是吗？我听着有点象印度音乐。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+蟹： 我想它太简单了，不象是来自印度。不过当然啦，我对这类事情知道得极少。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+732
 \end_layout
 
-\begin_layout Standard
-蟹：我想它太简单了，不象是来自印度。不过当然啦，我对这类事
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-情知道得极少。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 好了，到茶馆了，我们坐在外边的阳台上好不好？
 \end_layout
 
-\begin_layout Standard
-7 32乌龟：好了，到茶馆了，我们坐在外边的阳台上好不好？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 要是你不反对，我宁愿进去，今天我可晒够太阳了。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+他们走进茶馆，找了一张舒适的木桌子，在旁边坐下，要了蛋糕和茶。一会儿，一辆小车装着看上去美味诱人的点心推了上来。他们各自拣了自己爱吃的
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-螃蟹：要是你不反对，我宁愿进去，今天我可晒够太阳了。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 老蟹，我很愿意知道你对我刚构思好的又一支曲子的看法。
 \end_layout
 
-\begin_layout Standard
-（他们走进茶馆，找了一张舒适的木桌子，在旁边坐下，要了蛋
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 你能让我看看吗？写这儿吧，写在这块儿餐巾上。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+阿基里斯写道：
+\family default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\begin{array}{l}
+\forall a:\exists b:\exists c:\\
+<\sim\exists d:\exists e:\\
+\quad<(SSd\cdot SSe)=b\vee(SSd\cdot SSe)=c>\\
+\quad\wedge(a+a)=(b+c)>
+\end{array}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\family sans
+螃蟹和乌龟颇感兴趣地琢磨着它。
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-糕和茶。一会儿，一辆小车装着看上去美味诱人的点心推了上
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 蟹兄，依你的看法，这一首也很美吗？ 
 \end_layout
 
-\begin_layout Standard
-来。他们各自拣了自己爱吃的）阿基里斯：老蟹，我很愿意知道你对我刚构思好的又一支曲子的看
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 这个，唔……（
+\family sans
+在椅子里挪了一下身子，看上去有点儿不自在
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-法。螃蟹：你能让我看看吗？写这儿吧，写在这块儿餐巾上。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 怎么样？是不是判断这支曲子是否美要比判断别的难些？
 \end_layout
 
-\begin_layout Standard
-(阿基里斯写道：
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 啊，嗯……不，不是的……一点儿也不。是这么回事，哦……在我能说清对一支曲子有多喜欢之前，我确实得先听听它。
 \end_layout
 
-\begin_layout Standard
-V a：了b：了c:<～j d:j e:<(SSd.SSe)=b V(SSd.SSe)
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 那好啊，吹它一遍！再不让我知道你是否觉得它美，我就活不下去了。
 \end_layout
 
-\begin_layout Standard
-一c>八(a+a)=(b+c)>
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 当然，我极愿意为你演奏，唯一的问题是……
 \end_layout
 
-\begin_layout Standard
-螃蟹和乌龟颇感兴趣地琢磨着它o)乌龟：蟹兄，依你的看法，这一首也很美吗？ 558螃蟹：这个，唔……（在椅子里挪了一下身子，看上去有点儿不自
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你不能为我演奏？出了什么事？你怎么不太情愿？
 \end_layout
 
-\begin_layout Standard
-在）阿基里斯：怎么样？是不是判断这支曲子是否美要比判断别的难
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 难道你还不明白吗？阿基，老蟹觉得满足你的要求将会显得极不礼貌，这会打扰这家店铺的顾客和店员。
 \end_layout
 
-\begin_layout Standard
-些？螃蟹：啊，嗯……不，不是的……一点儿也不。是这么回事，哦……
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹（
+\family sans
+突然显得如释重负
+\family default
+）： 是这么回事，我们没有权力把我们的乐曲强加给别人。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+733
 \end_layout
 
-\begin_layout Standard
-在我能说清对一支曲子有多喜欢之前，我确实得先听听它。阿基里斯：那好啊，吹它一遍！再不让我知道你是否觉得它美，我就
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-活不下去了。螃蟹：当然，我极愿意为你演奏，唯一的问题是…阿基里斯：你不能为我演奏？出了什么事？你怎么不太情愿？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯（
+\family sans
+神情沮丧地
+\family default
+）： 噢，咳！可我是多么想知道你对这支曲子的看法啊？
 \end_layout
 
-\begin_layout Standard
-乌龟：难道你还不明白吗？阿基，老蟹觉得淆足你的要求将会显得
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 咳！可算躲过去了！
 \end_layout
 
-\begin_layout Standard
-极不礼貌，这会打扰这家店铺的顾客和店员。螃蟹（突然显得如释重负）：是这么回事，我们没有权力把我们的乐
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你在说什么呢？
 \end_layout
 
-\begin_layout Standard
-曲强加给别人。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 哦！没什么，只不过是那儿的那个侍者，他让另一名侍者撞了一下，差一点把一整壶茶都倒在一位女士的衣襟上，所以我说，差点儿躲不开了，龟兄，你说呢？
 \end_layout
 
-\begin_layout Standard
-733阿基里斯（神情沮丧地）：噢，咳！可我是多么想知道你对这支曲子
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 我想说，茶不多了，你不同意吗，阿基？
 \end_layout
 
-\begin_layout Standard
-的看法啊？螃蟹：咳！可箅躲过去了！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 噢，是喝得差不多了．
 \end_layout
 
-\begin_layout Standard
-阿基里斯：你在说什么呢？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 一点儿不错，不知你们二位意下如何，我觉得我好象是该走了，哎，我们刚才的情景，让我想起我看过的一个片子。
 \end_layout
 
-\begin_layout Standard
-螃蟹：哦！没什么，只不过是那儿的那个侍者，他让另一名侍者撞了
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 什么？你的意思是说我们都是骗子？
 \end_layout
 
-\begin_layout Standard
-一下，差一点把一整壶茶都倒在一位女士的衣襟上，所以我
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 这可是你说的，阿基。
 \end_layout
 
-\begin_layout Standard
-说，差点儿躲不开了，龟兄，你说呢？乌龟：我想说，茶不多了，你不同意吗，阿基7
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我明白了，噢，我得把这记住。
 \end_layout
 
-\begin_layout Standard
-． 1阿基里斯：噢，是喝得差不多了．螃蟹：一点儿不错，不知你们二位意下如何，我觉得我好象是该走
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+螃蟹： 今天下午真快活，阿基，我衷心地希望我们改天再交流更多的音乐作品。
 \end_layout
 
-\begin_layout Standard
-了，哎，我们刚才的情景，让我想起我看过的一个片子。阿基里斯：什么？你的意思是说我们都是骗子？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我热切期待着那一天，老蟹，好，再见。
 \end_layout
 
-\begin_layout Standard
-螃蟹：这可是你说的，阿基。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟： 再见，老蟹。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+螃蟹沿着山的另一边下去了。
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-阿基里斯：我明白了，噢，我得把这记住。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 走了一个才华横溢的伙伴……依我看他至少比所有活着的螃蟹聪明四倍，也许甚至有五……
 \end_layout
 
-\begin_layout Standard
-螃蟹：今天下午真快活，阿基，我衷心地希望我们改天再交流更多
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+乌龟（
+\family sans
+一边下山一边唱
+\family default
+）： 我心尊蟹为大，我灵以螃蟹我的朋友为乐……
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+734
 \end_layout
 
-\begin_layout Standard
-的音乐作品。阿基里斯：我热切期待着那一天，老蟹，好，再见。
-\end_layout
+\end_inset
 
-\begin_layout Standard
-乌龟：再见，老蟹。
-\end_layout
 
-\begin_layout Standard
-（螃蟹沿着山的另一边下去了o）阿基里斯：走了一个才华横溢的伙伴……依我看他至少比所有活
-\end_layout
-
-\begin_layout Standard
-着的螃蟹聪明四倍，也许甚至有五……乌龟（一边下山一边唱）：我心尊蟹为大，我灵以螃蟹我的朋友为乐
-\end_layout
-
-\begin_layout Standard
-7 34
 \end_layout
 
 \end_body
