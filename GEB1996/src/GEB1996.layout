@@ -93,10 +93,10 @@ Preamble
         []                          % after 用于在标题内容后再加些内容
 
     % 节标题
-    %\renewcommand{\sectionrname}{}
+    %\renewcommand{\sectionname}{}
     %\renewcommand\thesection{\arabic{chapter}.\arabic{section}}
     \titleformat{\section}
-        {\large \centering}
+        {\CJKFontFang \large \centering}
         {\starmark \arabic{chapter}.\arabic{section}}
         {1em}
         {}
