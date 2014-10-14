@@ -192,9 +192,16 @@ Preamble
 	\usepackage{tikz}
 
 	\newcommand\encircle[1]{%
-	\tikz[baseline=(X.base)]
-	    \node (X) [draw, shape=circle, inner sep=0] {\strut #1};}
-
+		\tikz[baseline=(X.base)]{
+	    	\node (X) [draw, shape=circle, inner sep=0] {\strut #1};
+	    	}
+	}
+	\newcommand*\circled[1]{
+		\tikz[baseline=(char.base)]{
+			\node[draw, shape=circle, inner sep=2pt] (char) {#1};
+		}
+	}
+  
     % 造字
     \newcommand{\zhwolong}{\lower-.9ex\hbox{\scalebox{1}[0.5]{卧}}\lower.1ex\hbox{\kern-1em \scalebox{1}[0.5]{龙}}}
     \newcommand{\zhbizhu}{\lower-.9ex\hbox{\scalebox{1}[0.5]{宓}}\lower.1ex\hbox{\kern-0.9em \scalebox{0.8}[0.5]{豕}}}
