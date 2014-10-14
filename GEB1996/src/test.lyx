@@ -1034,6 +1034,30 @@ resizebox{10pt}{10pt}{山原}
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Lorem 
+\backslash
+encircle{$f_n$} ipsum 
+\backslash
+encircle{q} dolor 
+\backslash
+encircle{a}  sit 
+\backslash
+encircle{A} amet 
+\backslash
+encircle{Hello}.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset index_print
 LatexCommand printindex
 type "idx"

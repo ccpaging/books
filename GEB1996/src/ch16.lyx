@@ -3897,6 +3897,27 @@ status open
 \begin_layout Standard
 请注意A和T组成的基对（算术化[Arithmetization]和翻译[Translation]），以及G和C的基对（哥德尔[Godel]和克里克[Crick]
 ）。数理逻辑居嘌呤一方，分子生物学居嘧啶一方。
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+encircle{$f_n$} ipsum 
+\backslash
+encircle{q} dolor 
+\backslash
+encircle{a}  sit 
+\backslash
+encircle{A} amet 
+\backslash
+encircle{Hello}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4003,7 +4024,7 @@ a
 
 \begin_layout Plain Layout
 \begin_inset Formula $\begin{array}{c}
-(\forall)\\
+[\forall]\\
 \forall\\
 \forall\\
 \forall
@@ -4020,9 +4041,9 @@ a
 
 \begin_layout Plain Layout
 \begin_inset Formula $\begin{array}{c}
-(\vee)\\
-\vee\\
-(\text{标点})\\
+[\vee]\\
+\vee\\{}
+[\text{标点}]\\
 \text{标点}
 \end{array}$
 \end_inset
@@ -4037,10 +4058,10 @@ a
 
 \begin_layout Plain Layout
 \begin_inset Formula $\begin{array}{c}
-(:)\\
+[:]\\
 :\\
-\text{标点}\\
-(\supset)
+\text{标点}\\{}
+[\supset]
 \end{array}$
 \end_inset
 
@@ -4054,7 +4075,7 @@ a
 
 \begin_layout Plain Layout
 \begin_inset Formula $\begin{array}{c}
-(6)\\
+[6]\\
 2\\
 1\\
 2
@@ -4082,8 +4103,8 @@ a
 
 \begin_layout Plain Layout
 \begin_inset Formula $\begin{array}{c}
-a\\{}
-[a]\\
+a\\
+{}[a]\\
 a\\
 a
 \end{array}$
@@ -4101,8 +4122,8 @@ a
 \begin_inset Formula $\begin{array}{c}
 \sim\\
 \sim\\
-\sim\\{}
-[\sim]
+\sim\\
+{}[\sim]
 \end{array}$
 \end_inset
 
@@ -4116,10 +4137,10 @@ a
 
 \begin_layout Plain Layout
 \begin_inset Formula $\begin{array}{c}
-<\\{}
-[<]\\
->\\{}
-[>]
+<\\
+{}[<]\\
+>\\
+{}[>]
 \end{array}$
 \end_inset
 
@@ -4150,7 +4171,7 @@ a
 
 \begin_layout Plain Layout
 \begin_inset Formula $\begin{array}{c}
-(6)\\
+[6]\\
 2\\
 1\\
 2
@@ -4197,8 +4218,8 @@ a
 \begin_inset Formula $\begin{array}{c}
 s\\
 s\\
-s\\{}
-[s]
+s\\
+{}[s]
 \end{array}$
 \end_inset
 
@@ -4212,9 +4233,9 @@ s\\{}
 
 \begin_layout Plain Layout
 \begin_inset Formula $\begin{array}{c}
-+\\{}
-[+]\\{}
-[=]\\
++\\
+{}[+]\\
+{}[=]\\
 =
 \end{array}$
 \end_inset
@@ -4246,7 +4267,7 @@ s\\{}
 
 \begin_layout Plain Layout
 \begin_inset Formula $\begin{array}{c}
-(6)\\
+[6]\\
 2\\
 1\\
 2
@@ -4342,7 +4363,7 @@ s\\{}
 
 \begin_layout Plain Layout
 \begin_inset Formula $\begin{array}{c}
-(6)\\
+[6]\\
 2\\
 1\\
 2
