@@ -3321,118 +3321,1236 @@ IA组块而形成三元组，那末，利用“遗传解
 （八）物理、精神和心理的品质……伪渐成过程
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 中心法则映射
 \end_layout
 
 \begin_layout Standard
-有'r这个背景，我们就可以’在克里克的“分子生物学中心法
+有了这个背景，我们就可以在克里克的“分子生物学中心法则”（称做法则I，这是一切细胞过程的基础）和我富有诗意的发明——“数理逻辑中心法则”（称作法则II，是哥德尔
+定理的基础）——之间做一个精细的比较。图99和下面的表显示了其间的映射，这个图和表一起构成了“中心法则映射”。
 \end_layout
 
 \begin_layout Standard
-则”（称做法则I，这是一切细胞过程的基础）和我富有诗意的发明
+\begin_inset Tabular
+<lyxtabular version="3" rows="15" columns="3">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="40text%">
+<column alignment="center" valignment="top" width="5text%">
+<column alignment="center" valignment="top" width="40text%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+法则I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+法则II
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（分子生物学）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（数理逻辑）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DNA串
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TNT符号串
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+mRNA串
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+N的陈述
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+蛋白质
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+元TNT的陈述
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+作用在蛋白质上的蛋白质
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+关于元TNT的陈述的陈述
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+作用在作用在蛋白质上的蛋白质上的蛋白质
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+关于关于元TNT陈述的陈述的陈述
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+702
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+转录
+\begin_inset Formula $(DNA\Rightarrow RNA)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+解释
+\begin_inset Formula $(TNT\Rightarrow N)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+翻译
+\begin_inset Formula $(RNA\Rightarrow蛋白质)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+算术化
+\begin_inset Formula $(N\Rightarrow元TNT)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+克里克
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+哥德尔
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+遗传密码（任意约定）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+哥德尔编码（任意约定）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+密码子（基的三元组）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+密码子（数码的三元组）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+氨基酸
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+元TNT中引用的TNT符号
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+自复制
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+自指
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+使自复制得以发生的充分强的细胞系统
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+使自指得以发生的充分强的算术形式系统
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-——“数理逻辑中心法则”（称作法则Ⅱ，是哥德尔定理的基
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0703.jpg
+	lyxscale 50
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+中心法则映射。
+\end_layout
+
+\end_inset
+
+中心法则映射。在两个基本的缠结的层次系统——分子生物学层次系统和数理逻辑层次系统——之间的一个类比。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-础）——之间做一个精细的比较。图9 9和下面的表显示了其间的’
+请注意A和T组成的基对（算术化[Arithmetization]和翻译[Translation]），以及G和C的基对（哥德尔[Godel]和克里克[Crick]
+）。数理逻辑居嘌呤一方，分子生物学居嘧啶一方。
 \end_layout
 
 \begin_layout Standard
-映射，这个图和表一起构成了“中心法则映射”o5 33 法则I 法则Ⅱ
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="6">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+[0]\\
+0\\
+a\\
+a
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+(\forall)\\
+\forall\\
+\forall\\
+\forall
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+(\vee)\\
+\vee\\
+(\text{标点})\\
+\text{标点}
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+(:)\\
+:\\
+\text{标点}\\
+(\supset)
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+(6)\\
+2\\
+1\\
+2
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+a\\{}
+[a]\\
+a\\
+a
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\sim\\
+\sim\\
+\sim\\{}
+[\sim]
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+<\\{}
+[<]\\
+>\\{}
+[>]
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+[.]\\
+.\\
+.\\
+.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+(6)\\
+2\\
+1\\
+2
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\wedge\\
+\wedge\\{}
+[\wedge]\\{}
+[\wedge]
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+s\\
+s\\
+s\\{}
+[s]
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
++\\{}
+[+]\\{}
+[=]\\
+=
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\forall\\
+\forall\\
+.\\
+.
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+(6)\\
+2\\
+1\\
+2
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+(\\{}
+[(]\\
+(\\
+(
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+)\\
+)\\
+)\\{}
+[)]
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+[\\{}
+[[]\\
+]\\
+]
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+\exists\\
+\exists\\
+\exists\\
+\exists
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\begin{array}{c}
+(6)\\
+2\\
+1\\
+2
+\end{array}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+哥德尔编码。
+\end_layout
+
+\end_inset
+
+哥德尔编码。按照这个哥德尔配数方案，每个TNT符号有一个或几个密码子。小椭圆圈（括号）表明这个表怎样包含着第九章中的哥德尔配数表。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-（分子生物学） （数理逻辑）
+为了使这个映射从美学角度看更为完善，我情愿让哥德尔配数法向遗传密码绝对看齐。事实上，只要按下面的对应，遗传密码表也就变成了哥德尔编码表：
 \end_layout
 
 \begin_layout Standard
-DNA串 ∞ TNT符号串
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（奇）1 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A（嘌呤）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（偶）2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C（嘧啶）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（奇）3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+G（嘌呤）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+（偶）6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+U（嘧啶）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+704
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-mRNA串乍> N的陈述
-\end_layout
-
-\begin_layout Standard
-蛋白质 < 元TNT的陈述
-\end_layout
-
-\begin_layout Standard
-作用在蛋白质上 ㈢ 关于元TNT的
-\end_layout
-
-\begin_layout Standard
-的蛋白质 陈述的陈述
-\end_layout
-
-\begin_layout Standard
-作用在作用在蛋白 ㈢ 关于关于元TNT
-\end_layout
-
-\begin_layout Standard
-质上的蛋白质 陈述的陈述
-\end_layout
-
-\begin_layout Standard
-上的蛋白质 的陈述
-\end_layout
-
-\begin_layout Standard
-7 02蛋白质作用于白质作蛋白质
-\end_layout
-
-\begin_layout Standard
-转录（DNA冷RNA）
-\end_layout
-
-\begin_layout Standard
-翻译（RNA>蛋白质）克里克遗传密码（任意约定）密码子（基的三元组）氨基酸中心法则映射图解释（TNT≥N）算术化（N令元TNT）哥德尔哥德尔编码（任意约定）密码
-子（数码的
-\end_layout
-
-\begin_layout Standard
-三元组）元TNT中引用的
-\end_layout
-
-\begin_layout Standard
-TNT符号法则l法则2i牵 534陈述等等图99．中心法则映蔚。在两个基本的缠结的层次系统——分子生物学层次系统和数理逻辑层次系统——之间的一个类比。
-\end_layout
-
-\begin_layout Standard
-703甘 甘 错 § 错 §
-\end_layout
-
-\begin_layout Standard
-自复制 甘使自复制得以发<生的充分强的细胞系统
-\end_layout
-
-\begin_layout Standard
-自指使自指得以发生的充分强的算术形式系统请注意A和T组成的基对（算术化[Arithmetization]和翻译[ Translation]），以及G和C的基对（
-哥德尔[Godel]和克里克[Crick]）o数理逻辑居嘌呤一方，分子生物学居嘧啶一方。
-\end_layout
-
-\begin_layout Standard
-为了使这个映射从美学角度看更为完善，我情愿让哥德尔配┏━━━┳━━━━┳━━━━━┳━━━━━━━┳━━━━┳━━━━┓┃ ┃ 6 ┃ 9 ┃
- l ┃ 3 ┃ ┃┃ ┃ ┃ - ┃ ┃ ┃ ┃┣━━━╋━━━━╋━━━━━╋━━━━━━━╋━━━━╋━━━━┫┃ ┃（D ┃<D ┃（D
- ┃<） ┃ b ┃┃ 6 ┃ O ┃ .
- ┃ 、、，‘ ┃ ┃ q ┃┃ ┃ a ┃ V ┃① ┃坜最点 ┃ I ┃┃ ┃ a ┃ V ┃标点 ┃⑦ ┃ 3 ┃┣━━━╋━━━━╋━━━━━╋━━━━
-━━━╋━━━━╋━━━━┫┃ ┃ a ┃ o_- ┃ < ┃（） ┃ 6 ┃┃ 2 ┃（≥ ┃ -’ ┃<多 ┃ ┃ 0 ┃┃ ┃ a ┃ ．’
- ┃ > ┃ ┃ ┃┃ ┃ a ┃（≥ ┃<≥ ┃ ┃ 3 ┃┣━━━╋━━━━╋━━━━━╋━━━━━━━╋━━━━╋━━━━┫┃ ┃ ┃ S
- ┃ — ┃ V ┃ O ┃┃ ┃ ．^ ┃ S ┃o ┃ V ┃ t ┃┃ 1 ┃ ┃ ┃ ┃ ┃ ┃┃ ┃<≥ ┃ S ┃o ┃ ┃ 1 ┃┃
- ┃（） ┃o ┃ = ┃ ┃ 3 ┃┣━━━╋━━━━╋━━━━━╋━━━━━━━╋━━━━╋━━━━┫┃ ┃ （ ┃ ） ┃ 【 ┃ j ┃
- b ┃┃ 3 ┃<≥ ┃ ） ┃（≥ ┃ j ┃ n ┃┃ ┃ f ┃ ） ┃ ┃ 了 ┃ l ┃┃ ┃ （ ┃（≥ ┃<） ┃（≥ ┃ .3
- ┃┗━━━┻━━━━┻━━━━━┻━━━━━━━┻━━━━┻━━━━┛图100．哥德尔编码。按照这个哥德尔配敷方案，每个TNT符号有一个或几个密码子．小椭圆圈
-表明这个表怎样包含着第九章中的哥德尔配数表。
-\end_layout
-
-\begin_layout Standard
-704数法向遗传密码绝对看齐。事实上，只要按下面的，对应，遗传密码表也就变成了哥德尔编码表：（奇）1 甘 A（嘌呤）（偶）2’甘C（嘧啶）（奇）3
- ∞G（嘌呤）（偶）6 甘U（嘧啶）每种氨基酸（共二十种）恰好对应一个TNT符号（共二十个）o这样，我当初编造“简朴TNT”的动机也就终于明朗了——要它恰好有二
-十个符号！爵德尔编码如图1 00所示。试将它与遗传密码（图94）比较一下。
+每种氨基酸（共二十种）恰好对应一个TNT符号（共二十个）。这样，我当初编造“简朴TNT”的动机也就终于明朗了——要它恰好有二十个符号！哥德尔编码如图100所示。
+试将它与遗传密码（图94）比较一下。
 \end_layout
 
 \begin_layout Standard
@@ -3440,14 +4558,18 @@ TNT符号法则l法则2i牵 534陈述等等图99．中心法则映蔚。在两�
 种理论等价的一个严格证明，不过它清楚地显示了一个意义深远的亲缘关系，这是值得深究的。
 \end_layout
 
-\begin_layout Standard
-中心法则映射中的怪圈这个映射的两边有一个更为有趣的相似，即那种具有任意复杂度的“圈子刀在两边渐渐达到顶层的方式：左边，是作用在作用在蛋白质上的蛋白质上的蛋白质，
-等等，直至无穷；而右边，是关于关于元TNT陈述的陈述的陈述，等等，直至无穷。这些都类似于我们在第五章中讨论过的异层结构，在那里，一个足够复杂的基质就可以使高层怪
-圈出现，并不断地兜圈子，以至完全隔离于较低的层次。我们将在第二十章中详细探究这一思想。
+\begin_layout Subsection*
+中心法则映射中的怪圈
 \end_layout
 
 \begin_layout Standard
-说到这里，你可能奇怪：“按照中心法则映射，I哥德尔不完全性定理I该对应于什么？”这倒是个应该在读下去之前好好想想的问题。
+这个映射的两边有一个更为有趣的相似，即那种具有任意复杂度的“圈子”在两边渐渐达到顶层的方式：左边，是作用在作用在蛋白质上的蛋白质上的蛋白质，等等，直至无穷；而右
+边，是关于关于元TNT陈述的陈述的陈述，等等，直至无穷。这些都类似于我们在第五章中讨论过的异层结构，在那里，一个足够复杂的基质就可以使高层怪圈出现，并不断地兜圈
+子，以至完全隔离于较低的层次。我们将在第二十章中详细探究这一思想。
+\end_layout
+
+\begin_layout Standard
+说到这里，你可能奇怪：“按照中心法则映射，|哥德尔不完全性定理|该对应于什么？”这倒是个应该在读下去之前好好想想的问题。
 \end_layout
 
 \begin_layout Subsection*
@@ -3455,60 +4577,531 @@ TNT符号法则l法则2i牵 534陈述等等图99．中心法则映蔚。在两�
 \end_layout
 
 \begin_layout Standard
-看得出，中心法则映射十．分类似于第九章中建立的《对位藏头诗》与哥德尔定理之间的映射。因此，我们可以找出全部三个系统之间的平行性：
+看得出，中心法则映射十分类似于第九章中建立的《对位藏头诗》与哥德尔定理之间的映射。因此，我们可以找出全部三个系统之间的平行性：
+\end_layout
+
+\begin_layout Enumerate
+形式系统和符号串，
+\end_layout
+
+\begin_layout Enumerate
+细胞和DNA串，
+\end_layout
+
+\begin_layout Enumerate
+唱机和唱片。
 \end_layout
 
 \begin_layout Standard
-（1）形式系统和符号串，
+下面的图表详细解释了系统2和系统3之间的映射：
 \end_layout
 
 \begin_layout Standard
-（2）细胞和DNA串，
+\begin_inset Tabular
+<lyxtabular version="3" rows="14" columns="3">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="40text%">
+<column alignment="center" valignment="top" width="5text%">
+<column alignment="center" valignment="top" width="40text%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+《对位藏头诗》
 \end_layout
 
-\begin_layout Standard
-（3）唱机和唱片。下面的图表详细解释了系统2和系统3之间的映射；《时位藏头诗》唱机 错分子生物学细胞’ 705“完备的”唱机 骨 “完备的”细胞
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-唱 学 DNA串可以在一个给定的 骨 可以由一个给定的口昌机上播放的唱片 细胞复制的DNA串不可在这台唱机 圆 不可由这个细胞复上播放的唱片 制的DNA串把唱片
-的音糟转变 甘 把DNA转录到为声音的过程 mRNA上的过程唱机产生的声音 固 使RNA串声音翻译为唱机的震颤甘 mRNA翻译成蛋白质从外部音响到唱机
- 管 遗传密码（mRNA三元组震颤的映射 到蛋白质的氨基酸的映射）唱机的毁坏 甘 细胞的毁灭为唱机X特制的歌， < 为细胞X特制的DNA标题是“我不能
- 串高层解释：“我不在唱机X上播放” 能由细胞X复制”
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+分子生物学
 \end_layout
 
-\begin_layout Standard
-“不完备”的唱机 甘 至少有一个DNA串
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+唱机
 \end_layout
 
-\begin_layout Standard
-复制不出来的细胞“疙瘩定理力： 铮 免疫定理：“给定一台具体的唱机， “给定一个具体的细胞，总有一张它不能 总有一个它复制播放的唱片o" 不了的DNA串。”
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+细胞
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+705
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“完备的”唱机
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“完备的”细胞
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+唱片
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DNA串
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+可以在一个给定的唱机上播放的唱片
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+可以由一个给定的细胞复制的DNA串
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+不可在这台唱机上播放的唱片
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+不可由这个细胞复制的DNA串
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+把唱片的音槽转变为声音的过程
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+把DNA转录到mRNA上的过程
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+唱机产生的声音
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+信使RNA串
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+声音翻译为唱机的震颤
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+mRNA翻译成蛋白质
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+从外部音响到唱机震颤的映射
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+遗传密码（mRNA三元组到蛋白质的氨基酸的映射）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+唱机的毁坏
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+细胞的毁灭
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+为唱机X特制的歌，标题是“我不能在唱机X上播放”
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+为细胞X特制的DNA串高层解释：“我不能由细胞X复制”
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“不完备”的唱机
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+至少有一个DNA串复制不出来的细胞
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+“疙瘩定理”：“给定一台具体的唱机，总有一张它不能播放的唱片。”
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Leftrightarrow$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+免疫定理：“给定一个具体的细胞，总有一个它复制不了的DNA串。”
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 哥德尔定理的对应物看上去是一个奇怪的东西，也许对分子生物学家来说没什么用处（在他们看来，这似乎十分明显）：
 \end_layout
 
-\begin_layout Standard
-总可以没计一个DNA串，如果把它注入细胞中，在被转
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
+总可以设计一个DNA串，如果把它注入细胞中，在被转录时它将促使一些将会毁掉这个细胞（或DNA）的蛋白质生产出来，而这就造成该DNA的“非复制过程”。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+706
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-录时它将促使一些将会毁掉这个细胞（或DNA）的蛋白质生
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-产出来，而这就造成该DNA的“非复制过程”o
-\end_layout
-
-\begin_layout Standard
-70 6
-\end_layout
-
-\begin_layout Standard
-这会促成一个滑稽有趣的构想，至少从进化论的角度看是如537此：一种入侵型的病毒偷偷摸摸进入了一个细胞，然后精心制作一些具有破坏这个病毒本身的效力的蛋白质！这是一
-种细胞水平上的自杀——如果你愿意，也可说是细胞水平上的说谎者句子。显然，这并没有从物种生存的角度证明有什么好处。不过，如果我们不拘泥于字眼，可以认为这说明了细胞
-与其入侵者各自发展起来的保护和颠覆这两种机制的精神实质。
+这会促成一个滑稽有趣的构想，至少从进化论的角度看是如此：一种入侵型的病毒偷偷摸摸进入了一个细胞，然后精心制作一些具有破坏这个病毒本身的效力的蛋白质！这是一种细胞
+水平上的自杀——如果你愿意，也可说是细胞水平上的说谎者句子。显然，这并没有从物种生存的角度证明有什么好处。不过，如果我们不拘泥于字眼，可以认为这说明了细胞与其入
+侵者各自发展起来的保护和颠覆这两种机制的精神实质。
 \end_layout
 
 \begin_layout Subsection*
@@ -3516,365 +5109,500 @@ TNT符号法则l法则2i牵 534陈述等等图99．中心法则映蔚。在两�
 \end_layout
 
 \begin_layout Standard
-我们来考虑生物学家特别宠爱的一种细胞：大肠杆菌细胞，以及生物学家特别宠爱的入侵这种细胞的家伙：凶恶可怕的T4嗲
-\end_layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
 
-\begin_layout Standard
-／-， 。
-\end_layout
+\begin_layout Plain Layout
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-．f，jf1 ．芷盘：”{
-\end_layout
 
-\begin_layout Standard
-b
-\end_layout
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
 
-\begin_layout Standard
-,i/美白质外 ,,.
-\end_layout
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0707-1.jpg
+	width 30text%
 
-\begin_layout Standard
-:
-\end_layout
+\end_inset
 
-\begin_layout Standard
-.
- 6.
-\end_layout
 
-\begin_layout Standard
-.j ◆
 \end_layout
 
-\begin_layout Standard
-.r : "
-\end_layout
+\begin_layout Plain Layout
+\begin_inset Caption Standard
 
-\begin_layout Standard
-*'- r
-\end_layout
+\begin_layout Plain Layout
 
-\begin_layout Standard
-.
- .
 \end_layout
 
-\begin_layout Standard
-'.-
-\end_layout
+\end_inset
 
-\begin_layout Standard
-（b）图1 01．T4'细菌病毒是一个蛋白质聚合体（a）。它的“头”是形如一种具有三十面的扁长的正十二面体的蛋白质膜，里面充满jP DNA，头通过一个颈与尾部相
-连。尾部是包在一个可收缩的鞘内的空心芯子，安在四周有六条须根、下面有若干钉子的底盘上。钉子和须根使病毒牢牢地粘在细菌的细胞壁上（b）。鞘的收缩使芯子穿透细胞壁，
-病毒的DNA进入细胞．[选自哈那瓦尔特和海因斯，《生命的化学基础》，第230页。]茵体，其形状如图1 0 1 0这种神奇的小东西看上去有点象登月舱和
-\end_layout
 
-\begin_layout Standard
-707蚊子的混血儿，可它却比蚊子凶得多。它有一个“头”，里面储存着它的全部“知识”——即它的DNA；它有六条“腿”，以便抓牢它选定入侵的细胞；它有一个象蚊子那样
-的“剌针”（叫“刺尾”可能更合适些）o主要的区别是，蚊子利用它的刺针来吸血，而T4噬菌体则利用它的刺针违背它的牺牲品的意志，把自己的遗传物质强行注入细胞Q所以噬
-菌体在那个小小的天地里犯有“强奸”罪。
 \end_layout
 
-\begin_layout Standard
-k o、曩，．{◇．曼t：搿＼弋多--- :.
- N:
-\end_layout
+\end_inset
 
-\begin_layout Standard
-v
-\end_layout
 
-\begin_layout Standard
-i ?4 ,
-\end_layout
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-:538 图102．当病毒的DNA进入细菌之后，病毒感染就开始了。细菌的DNA破
-\end_layout
 
-\begin_layout Standard
-瓦解，而病毒的DNA得到复制。病毒结构蛋白的合成以及它们装配成病
-\end_layout
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
 
-\begin_layout Standard
-毒的过程一直在继续，宜到撵破细胞，释放出微粒为止。[选自哈那瓦尔特
-\end_layout
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0707-2.jpg
+	width 35text%
 
-\begin_layout Standard
-和海因斯，《生命的化学基础》，第230页。]
-\end_layout
+\end_inset
 
-\begin_layout Standard
-分子特洛伊木马 ，
-\end_layout
 
-\begin_layout Standard
-病毒DNA进入细胞后会发生什么事呢？按拟人的说法，病毒
 \end_layout
 
-\begin_layout Standard
-“ 望”它的DNA能得到与宿主细胞的DNA完全相同的待遇。这
-\end_layout
+\begin_layout Plain Layout
+\begin_inset Caption Standard
 
-\begin_layout Standard
-就意味着要能被转录和被翻译，于是就使它可以指挥合成它自己
-\end_layout
+\begin_layout Plain Layout
 
-\begin_layout Standard
-的特殊的、与宿主细胞相异的蛋白质，然后这些蛋白质就开始各司
 \end_layout
 
-\begin_layout Standard
-其职。这相当于利用“密码”（即遗传密码）秘密地把外来蛋白质输
-\end_layout
+\end_inset
 
-\begin_layout Standard
-送到宿主细胞中，然后再来“解码"（制造它们）o在某种意义上，这
-\end_layout
 
-\begin_layout Standard
-很象特洛伊木马的故事：数百名战士藏进一个看上去无害的巨大
 \end_layout
 
-\begin_layout Standard
-木马，当他们进城之后，就钻出来占领城市。这些异己的蛋白质一
-\end_layout
+\end_inset
 
-\begin_layout Standard
-旦从它们的载体DNA中被“翻译”出来（合成出来），就投入行动。
-\end_layout
 
-\begin_layout Standard
-7 08
-\end_layout
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-r1J彳，飞蕊摹露萋譬t~—rf一．-．卜h”htkr'．．”r“3
-\end_layout
 
-\begin_layout Standard
-1
 \end_layout
 
-\begin_layout Standard
-芒000．夕@融 ，
-\end_layout
+\begin_layout Plain Layout
+\begin_inset Caption Standard
 
-\begin_layout Standard
-；．卜一．∥．i：~一。。'
-\end_layout
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
 
-\begin_layout Standard
-一图1 03．T4病毒的形态539发生通道有三个主分支，分别形成头、尾和尾须，然后结合起来形成完整的病毒微粒。[选自哈那瓦尔特和海凶斯，《生命的化学基础》，第2
-37页。]70 9
+\begin_layout Plain Layout
+图案G和H的扩展
 \end_layout
 
-\begin_layout Standard
-..
- 的
-\end_layout
+\end_inset
 
-\begin_layout Standard
-'L .头 ----:lV 0 ---""'◆0-070垦 :
+T4细菌病毒是一个蛋白质聚合体（a）。它的“头”是形如一种具有三十面的扁长的正十二面体的蛋白质膜，里面充满了DNA，头通过一个颈与尾部相连。尾部是包在一个可收缩
+的鞘内的空心芯子，安在四周有六条须根、下面有若干钉子的底盘上。钉子和须根使病毒牢牢地粘在细菌的细胞壁上（b）。鞘的收缩使芯子穿透细胞壁，病毒的DNA进入细胞．[
+选自哈那瓦尔特和海因斯，《生命的化学基础》，第230页。]
 \end_layout
 
-\begin_layout Standard
-：A斟鼎
-\end_layout
+\end_inset
 
-\begin_layout Standard
-'/
+
 \end_layout
 
-\begin_layout Standard
-G
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-P
+我们来考虑生物学家特别宠爱的一种细胞：大肠杆菌细胞，以及生物学家特别宠爱的入侵这种细胞的家伙：凶恶可怕的T4菌体，其形状如图101。这种神奇的小东西看上去有点象
+登月舱和
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+707
 \end_layout
 
-\begin_layout Standard
-'L' Ori t >
+\end_inset
+
+蚊子的混血儿，可它却比蚊子凶得多。它有一个“头”，里面储存着它的全部“知识”——即它的DNA；它有六条“腿”，以便抓牢它选定入侵的细胞；它有一个象蚊子那样的“剌
+针”（叫“刺尾”可能更合适些）。主要的区别是，蚊子利用它的刺针来吸血，而T4噬菌体则利用它的刺针违背它的牺牲品的意志，把自己的遗传物质强行注入细胞。所以噬菌体在
+那个小小的天地里犯有“强奸”罪。
 \end_layout
 
 \begin_layout Standard
-..lI
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0708.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-.t .
- .
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+当病毒的DNA进入细菌之后
 \end_layout
 
-\begin_layout Standard
-" .
- il
+\end_inset
+
+当病毒的DNA进入细菌之后，病毒感染就开始了。细菌的DNA被瓦解，而病毒的DNA得到复制。病毒结构蛋白的合成以及它们装配成病毒的过程一直在继续，直到撑破细胞，释
+放出微粒为止。[选自哈那瓦尔特和海因斯，《生命的化学基础》，第230页。]
 \end_layout
 
-\begin_layout Standard
-.t.
- 二
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-:I
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-.
- .：
+\begin_layout Subsection*
+分子特洛伊木马 
 \end_layout
 
 \begin_layout Standard
-- -_N.
- - - - ->
+病毒DNA进入细胞后会发生什么事呢？按拟人的说法，病毒“希望”它的DNA能得到与宿主细胞的DNA完全相同的待遇。这就意味着要能被转录和被翻译，于是就使它可以指挥
+合成它自己的特殊的、与宿主细胞相异的蛋白质，然后这些蛋白质就开始各司其职。这相当于利用“密码”（即遗传密码）秘密地把外来蛋白质输送到宿主细胞中，然后再来“解码"
+（制造它们）。在某种意义上，这很象特洛伊木马的故事：数百名战士藏进一个看上去无害的巨大木马，当他们进城之后，就钻出来占领城市。这些异己的蛋白质一旦从它们的载体D
+NA中被“翻译”出来（合成出来），就投入行动。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+708
 \end_layout
 
-\begin_layout Standard
-由噬菌体T4所指挥的一·系列行为已得到仔细研究，差不多是如
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-下所述（也见图102和图1 0 3）：
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "70text%"
+special "none"
+height "100theight%"
+height_special "none"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/image-0709.jpg
+	width 100text%
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-发生的时刻 发生的行为
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "30text%"
+special "none"
+height "100theight%"
+height_special "none"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+T4病毒的形态
 \end_layout
 
-\begin_layout Standard
-第O分 注入病毒DNA o
+\end_inset
+
+T4病毒的形态发生通道有三个主分支，分别形成头、尾和尾须，然后结合起来形成完整的病毒微粒。[选自哈那瓦尔特和海凶斯，《生命的化学基础》，第237页。]
 \end_layout
 
-\begin_layout Standard
-第1分 破坏了主体的DNAo细胞本身的蛋白质停止生
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-产，异己的（T4）蛋白质开始生产c最先生产出
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-的一批蛋白质是负责指挥复制异己（T4）DNA
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-的。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+709
 \end_layout
 
-\begin_layout Standard
-第5分 开始复制病毒DNA
+\end_inset
+
+由噬菌体T4所指挥的一系列行为已得到仔细研究，差不多是如下所述（也见图102和图103）：
 \end_layout
 
 \begin_layout Standard
-第8分 开始生产将要组成新噬菌体“躯体”的结构蛋
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="6em">
+<column alignment="left" valignment="top" width="55text%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+发生的时刻
 \end_layout
 
-\begin_layout Standard
-白。
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 10text%
+\end_inset
+
+发生的行为
 \end_layout
 
-\begin_layout Standard
-第1 3分 T4入侵物的第一个完整的复制品被生产出来。
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+第0分
 \end_layout
 
-\begin_layout Standard
-第．25分 溶菌酶（一种蛋白质）攻击寄主的细胞壁，打破
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+注入病毒DNA。
 \end_layout
 
-\begin_layout Standard
-细菌，“二百元组”出现。540 这样，当噬菌体T4侵入大肠杆菌细胞时，经过大约二十四、
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+第1分
 \end_layout
 
-\begin_layout Standard
-五分钟这样一段不长的时间，这个细胞就完全被颠覆、撕裂。啪的
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+破坏了主体的DNA。细胞本身的蛋白质停止生产，异己的（T4）蛋白质开始生产。最先生产出的一批蛋白质是负责指挥复制异己（T4）DNA的。
 \end_layout
 
-\begin_layout Standard
-一下，大约二百个与原先的病毒完全相同，的复制品——“二百元
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+第5分
 \end_layout
 
-\begin_layout Standard
-组”——跑了出来，准备去攻击更多的细菌细胞，而原先的细胞在
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+开始复制病毒DNA。
 \end_layout
 
-\begin_layout Standard
-‘ 、．
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+第8分
 \end_layout
 
-\begin_layout Standard
-这个过程中被大幅度地毁坏。
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+开始生产将要组成新噬菌体“躯体”的结构蛋白。
 \end_layout
 
-\begin_layout Standard
-尽管从一个细菌的角度来看，这种事情是一种极为严重的威
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+第13分
 \end_layout
 
-\begin_layout Standard
-胁，但从我们的大尺度的优劣观点来看，可以把它看成两名对手之
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+T4入侵物的第一个完整的复制品被生产出来。
 \end_layout
 
-\begin_layout Standard
-间的一种娱乐性博弈：入侵者，或T方（依照病毒的T偶数族命
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+第25分
 \end_layout
 
-\begin_layout Standard
-名，包括T2,T4，等等）．和“C'’方（代表“细胞”[Cell]） oT方的目标
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+溶菌酶（一种蛋白质）攻击寄主的细胞壁，打破细菌，“二百元组”出现。
 \end_layout
 
-\begin_layout Standard
-是：为了复刮自己而侵入C的细胞，并从内部接管C的细胞oC方
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-的目标则是：保护自己并消灭入侵者。用这种方式描述的话，分子
+这样，当噬菌体T4侵入大肠杆菌细胞时，经过大约二十四、五分钟这样一段不长的时间，这个细胞就完全被颠覆、撕裂。啪的一下，大约二百个与原先的病毒完全相同，的复制品—
+—“二百元组”——跑了出来，准备去攻击更多的细菌细胞，而原先的细胞在这个过程中被大幅度地毁坏。
 \end_layout
 
 \begin_layout Standard
-TC -博弈可以被认为是十分类似于前面对话中描述的宏观龟
+尽管从一个细菌的角度来看，这种事情是一种极为严重的威胁，但从我们的大尺度的优劣观点来看，可以把它看成两名对手之间的一种娱乐性博弈：入侵者，或T方（依照病毒的T偶
+数族命名，包括T2，T4，等等），和“C”方（代表“细胞”[Cell]）。T方的目标是：为了复制自己而侵入C的细胞，并从内部接管C的细胞。C方的目标则是：保护自
+己并消灭入侵者。用这种方式描述的话，分子TC —博弈可以被认为是十分类似于前面对话中描述的宏观龟[Tortoise]蟹[Crab]之战。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+710
 \end_layout
 
-\begin_layout Standard
-[Tortoise]蟹[Crab]之战c
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-7 1 0识别、伪装、标识
+\begin_layout Subsection*
+识别、伪装、标识
 \end_layout
 
 \begin_layout Standard
-这种“博弈”强调了一个事实：识别过程是细胞和亚细胞生物学的中心主题。分子（或一些高层结构）如何互相识别？为了做到·这一点，酶必须能锁在其基质的特殊“拴缚部位一上
-，细菌必须能区别它自己的DNA和噬菌体的DNA，两个细胞必须能通过一种有控制的方式彼此识别和相互作用。这种识别问题可能会使你想起当初关于形式系统的那个关键问题：
-你怎么才能说清一个符号串有没有某种性质（比方说“是定理”）?有没有一个判定过程？这类问题并不限于数理逻辑：它还渗入计算机科学乃至（我们已经看到了）分子生物学。
+这种“博弈”强调了一个事实：识别过程是细胞和亚细胞生物学的中心主题。分子（或一些高层结构）如何互相识别？为了做到这一点，酶必须能锁在其基质的特殊“拴缚部位”上，
+细菌必须能区别它自己的DNA和噬菌体的DNA，两个细胞必须能通过一种有控制的方式彼此识别和相互作用。这种识别问题可能会使你想起当初关于形式系统的那个关键问题：你
+怎么才能说清一个符号串有没有某种性质（比方说“是定理”）?有没有一个判定过程？这类问题并不限于数理逻辑：它还渗入计算机科学乃至（我们已经看到了）分子生物学。
 \end_layout
 
 \begin_layout Standard
 对话中描述的那种标识技术，实际上就是大肠杆菌智斗噬菌体入侵者的计策。其思想是：DNA串能通过一种化学手段来标识，即把一个小分子——甲基——排在各种核苷酸上。这种
 标识操作并不改变DNA的正常生物性质，换句话说，甲基化（标识了的）的DNA能够转录得和未甲基化（未标识的）的DNA一样，所以它仍然能指挥蛋白质的合成。但是，如果
-主体细胞有某些特殊机制能检验DNA是否有标识，那末这种标识就会是非常重要的了。具体地54l说，主体细胞可能有一个酶系统来搜寻未加标识的DNA，而且只要找到这样的
-DNA就毫不留情地把它砍碑破坏掉。此刻，呜呼哀哉的是所有未加标识的入侵者。
+主体细胞有某些特殊机制能检验DNA是否有标识，那末这种标识就会是非常重要的了。具体地说，主体细胞可能有一个酶系统来搜寻未加标识的DNA，而且只要找到这样的DNA
+就毫不留情地把它砍碎破坏掉。此刻，呜呼哀哉的是所有未加标识的入侵者。
 \end_layout
 
 \begin_layout Standard
-核苷酸上甲基标识可以比作一个书法流派的特征。利用这种比喻，我们可以说大肠杆菌细胞在寻找以其“本派字体力——即与它自己特征一致的书法一～写下的DNA，并砍掉以“异
-端”书法写下的一切DNAc当然，噬菌体的反策略则是学会标识自己，从而哄骗那些它们打算侵入的细胞来复制它们。
+核苷酸上甲基标识可以比作一个书法流派的特征。利用这种比喻，我们可以说大肠杆菌细胞在寻找以其“本派字体”——即与它自己特征一致的书法——写下的DNA，并砍掉以“异
+端”书法写下的一切DNA。当然，噬菌体的反策略则是学会标识自己，从而哄骗那些它们打算侵入的细胞来复制它们。
 \end_layout
 
 \begin_layout Standard
 这种TC之战一类的博奕可以继续到任意复杂的层次，但我
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+711
 \end_layout
 
-\begin_layout Standard
-7 1 1们不再继续了。基本的事实是：这是一场力图排斥全部入侵者的主体细胞与力图把自己的DNA渗入宿主细胞、并使它把这个DNA转录成mRNA（从而保证它的复制）
-的噬菌体之间的战斗。任何一种成功地获得这种自复制方法的病毒DNA，都可以说是具有这样一种高层次的解释：“我可以在X型细胞内被复制o" -定要把这与早先谈到的、在
-进化论上没有什么意义的那种噬菌体区别开来。
-\end_layout
+\end_inset
 
-\begin_layout Standard
-早先谈的那种噬菌体是给破坏自己的那些蛋白质编码，其高层解释则是一个自戕句子：“我不能在X型细胞内被复制o"
+们不再继续了。基本的事实是：这是一场力图排斥全部入侵者的主体细胞与力图把自己的DNA渗入宿主细胞、并使它把这个DNA转录成mRNA（从而保证它的复制）的噬菌体之
+间的战斗。任何一种成功地获得这种自复制方法的病毒DNA，都可以说是具有这样一种高层次的解释：“我可以在X型细胞内被复制。”一定要把这与早先谈到的、在进化论上没有
+什么意义的那种噬菌体区别开来。早先谈的那种噬菌体是给破坏自己的那些蛋白质编码，其高层解释则是一个自戕句子：“我不能在X型细胞内被复制。”
 \end_layout
 
 \begin_layout Subsection*
@@ -3888,23 +5616,40 @@ DNA就毫不留情地把它砍碑破坏掉。此刻，呜呼哀哉的是所有�
 \end_layout
 
 \begin_layout Standard
-了a:] a 7:<TNT - PROOF - PAIR{a,a'）／＼ARITHMO-QUINE{a",a'）>燃后利标准的手段继续下去，令上述“服”号串的哥
-德尔数是h，于是就对这个“服”号串作算术扼摁，从而得到一个汉肯句子：3 a:]a’:<TNT-PROOF-PAIR{a,a'）人ARITHMOQUINE{
- SSS-..SSSOlau．a 7）>
+\begin_inset Formula $\exists a:\exists a^{\prime}:<TNT-PROOF-PAIR\{a,a^{\prime}\}\wedge ARITHMO-QUINE\{a^{\prime\prime},a^{\prime}\}>$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-‘————、，．——一
+\noindent
+然后利（用）标准的手段继续下去，令上述“服”号串的哥德尔数是h，于是就对这个“服”号串作算术扼摁，从而得到一个汉肯句子：
 \end_layout
 
 \begin_layout Standard
-h个S542（顺便说一句，你能看出这个句子与～G的不同点吗？）我明白地把它写出来，是为了指出：汉肯句子并没有给它自己的推导开出完整
+\begin_inset Formula $\exists a:\exists a^{\prime}:<TNT-PROOF-PAIR\{a,a^{\prime}\}\wedge ARITHMOQUINE\{\underset{h\text{个}S}{\underbrace{SSS\cdots SSS}}0/a^{\prime\prime},a^{\prime}\}>$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-7 1 2的处方，它只是断言存在一个推导。你可能对它的断定能不能得到验证深感怀疑。汉肯句子真有推导吗？它们的确象它们自己宣称的那样是个定理吗？想一下下面的情形是
-会有所帮助的：人们怎么会相信一个自称“一贯正确”的“死亡研究专家”呢——他可能正确，但也可能不正确。汉肯句子就比那种专家更靠得住吗？如果那种专家对你说：“其实，
-人都会死于饭前洗手一，你相信吗？
+\noindent
+（顺便说一句，你能看出这个句子与~G的不同点吗？）我明白地把它写出来，是为了指出：汉肯句子并没有给它自己的推导开出完整
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+\noindent
+712
+\end_layout
+
+\end_inset
+
+的处方，它只是断言存在一个推导。你可能对它的断定能不能得到验证深感怀疑。汉肯句子真有推导吗？它们的确象它们自己宣称的那样是个定理吗？想一下下面的情形是会有所帮助
+的：人们怎么会相信一个自称“一贯正确”的“死亡研究专家”呢——他可能正确，但也可能不正确。汉肯句子就比那种专家更靠得住吗？如果那种专家对你说：“其实，人都会死于
+饭前洗手”，你相信吗？
 \end_layout
 
 \begin_layout Standard
@@ -3917,13 +5662,9 @@ h个S542（顺便说一句，你能看出这个句子与～G的不同点吗？�
 
 \begin_layout Standard
 刚才说了，一个汉肯句子对于它自己的推导过程并没说出什么，只是断言有那么一个推导存在。现在，就有可能发明出汉肯句子这一主题的一个变奏——明确描述了自己的推导过程的
-句子。
-\end_layout
-
-\begin_layout Standard
-这种句子的高层解释就不是“存在某个符号串序列是我的推导”，而“此处描述的符号串序列……是我的推导。”我们把前一种句型叫隐性汉肯句子，而把这种新型的句子称作显性汉
-肯句子，因为它们显式地描述了自己的推导。应当注意的是，显性汉肯句子与其隐性的弟兄们不同，它们不一定是定理。事实上，很容易写出一个符号串，它断言自己的推导由单个符
-号串O=O组成，但这是个假句子，因为0-0木是任何东西的推导。不过，也可以写出一个是定理的显性汉肯句子——即事实上给出它自己的推导方案的句子。
+句子。这种句子的高层解释就不是“存在某个符号串序列是我的推导”，而“此处描述的符号串序列……是我的推导。”我们把前一种句型叫隐性汉肯句子，而把这种新型的句子称作
+显性汉肯句子，因为它们显式地描述了自己的推导。应当注意的是，显性汉肯句子与其隐性的弟兄们不同，它们不一定是定理。事实上，很容易写出一个符号串，它断言自己的推导由
+单个符号串0=0组成，但这是个假句子，因为0=0不是任何东西的推导。不过，也可以写出一个是定理的显性汉肯句子——即事实上给出它自己的推导方案的句子。
 \end_layout
 
 \begin_layout Subsection*
@@ -3931,21 +5672,24 @@ h个S542（顺便说一句，你能看出这个句子与～G的不同点吗？�
 \end_layout
 
 \begin_layout Standard
-我之所以要区分显性和隐性汉肯句子j是因为这很好地对应着两类病毒之间的一个重要的区别。有一类病毒（比如所谓的“烟草花叶病毒”）．叫做自组装病毒；同时也还有另一类病
+我之所以要区分显性和隐性汉肯句子，是因为这很好地对应着两类病毒之间的一个重要的区别。有一类病毒（比如所谓的“烟草花叶病毒”），叫做自组装病毒；同时也还有另一类病
 毒，比如我们最喜欢用的T偶数族病毒，叫做非自组装病毒。区别何在？这可
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+713
+\end_layout
+
+\end_inset
+
+以直接类比于隐性和显性的汉肯句子。
 \end_layout
 
 \begin_layout Standard
-7 1 3以直接类比于隐性和显性的汉肯句子。
-\end_layout
-
-\begin_layout Standard
-一个自组装病毒的DNA只给新病毒的各个部分编了码，而不给任何酶编码。一旦这些部分都造了出来，那个诡秘的病毒就依513靠它们自行连接起来，而毋需什么酶的帮助。这样
-的过程依赖于各个部分在细胞的醇厚饮料中游泳时彼此之间所具有的化学亲和力。不光是病毒，某些细胞器——例如核糖体——也是自组装的。
-\end_layout
-
-\begin_layout Standard
-有些时候可能也需要酶——不过在这种情形，酶是从宿主细胞中硬拉来为其所奴役的，这就是自组装的含义所在。
+一个自组装病毒的DNA只给新病毒的各个部分编了码，而不给任何酶编码。一旦这些部分都造了出来，那个诡秘的病毒就依靠它们自行连接起来，而毋需什么酶的帮助。这样的过程
+依赖于各个部分在细胞的醇厚饮料中游泳时彼此之间所具有的化学亲和力。不光是病毒，某些细胞器——例如核糖体——也是自组装的。有些时候可能也需要酶——不过在这种情形，
+酶是从宿主细胞中硬拉来为其所奴役的，这就是自组装的含义所在。
 \end_layout
 
 \begin_layout Standard
@@ -3955,69 +5699,31 @@ h个S542（顺便说一句，你能看出这个句子与～G的不同点吗？�
 \end_layout
 
 \begin_layout Standard
-这样一来，与隐性汉肯句子和显性汉肯句子相平行的东西也
+这样一来，与隐性汉肯句子和显性汉肯句子相平行的东西也就非常清楚了。隐性汉肯句子是自证明的，但关于它们的证明却什么也没说出来——它们类似于自组装病毒；显性汉肯句子
+指示了自己证明的构造——这类似于在复制自己的过程中指挥圭体细胞的那些比较复杂的病毒。
 \end_layout
 
 \begin_layout Standard
-就非常清楚了。隐性汉肯句子是自证明的，但关于它们的证明却什
+象病毒这样复杂的自组装生物结构的概念，会使我们想到建造复杂的自组装机器的可能性。设想有这样一系列的零部件，当把它们放入一个适当的背景环境中时，就能通过某种方式自
+动地集合起来形成一台复杂的机器。这似乎不着边际，实际上却是描述烟草花叶病毒依靠自组装来进行自复制的过程的一种精确方式。有机体（或机器）的整个构造的信息，散布在它
+的各个部分之中，而不是集中在某一个地方。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+714
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-么也没说出来——它们类似于自组装病毒；显性汉肯句子指示了
-\end_layout
-
-\begin_layout Standard
-自己证明的构造——这类似于在复制自己的过程中指挥圭体细胞
-\end_layout
-
-\begin_layout Standard
-的那些比较复杂的病毒。
-\end_layout
-
-\begin_layout Standard
-象病毒这样复杂的自组装生物结构的概念，会使我们想到建
-\end_layout
-
-\begin_layout Standard
-造复杂的自组装机器的可能性。设想有这样一一系列的零部件，当把
-\end_layout
-
-\begin_layout Standard
-它们放入一个适当的背景环境中时，就能通过某种方式自动地集
-\end_layout
-
-\begin_layout Standard
-合起来形成一台复杂的机器。这似乎不着边际，实际上却是描述烟
-\end_layout
-
-\begin_layout Standard
-草花叶病毒依靠自组装来进行自复制的过程的一种精确方式。有
-\end_layout
-
-\begin_layout Standard
-机体（或机器）的整个构造的信息，散布在它的各个部分之中，而不
-\end_layout
-
-\begin_layout Standard
-是集中在某一个地方。
-\end_layout
-
-\begin_layout Standard
-7 1 4
-\end_layout
-
-\begin_layout Standard
-这个概念还能引导我们走向一个奇怪的方向，如在《一位烟民富于启发性的思想>中所看到的那样。在那里，我们看到螃蟹如何利用这样一种思想：自组装信息可以四下散开，而不集
-中在一处。
-\end_layout
-
-\begin_layout Standard
-他希望这能防止他的唱机毁于乌龟的破坏手段。不幸的是，正象那些最最精致的公理模式一样，一旦这个系统建立起来并“梳理”完毕，它的良定义性就使它要受到一个足够聪明的“
-哥德尔化算子”
-\end_layout
-
-\begin_layout Standard
-的攻击，而这就是螃蟹所讲的那些令人伤心的故事。尽管看起来荒唐，对话中异想天开情节的与现实的距离并不那么遥远，它就存在于陌生的、梦幻般的细胞世界之中。
+这个概念还能引导我们走向一个奇怪的方向，如在《一位烟民富于启发性的思想》中所看到的那样。在那里，我们看到螃蟹如何利用这样一种思想：自组装信息可以四下散开，而不集
+中在一处。他希望这能防止他的唱机毁于乌龟的破坏手段。不幸的是，正象那些最最精致的公理模式一样，一旦这个系统建立起来并“梳理”完毕，它的良定义性就使它要受到一个足
+够聪明的“哥德尔化算子”的攻击，而这就是螃蟹所讲的那些令人伤心的故事。尽管看起来荒唐，对话中异想天开情节的与现实的距离并不那么遥远，它就存在于陌生的、梦幻般的细
+胞世界之中。
 \end_layout
 
 \begin_layout Subsection*
