@@ -201,6 +201,8 @@ Preamble
 			\node[draw, shape=circle, inner sep=2pt] (char) {#1};
 		}
 	}
+	
+	\usepackage{picinpar}
   
     % 造字
     \newcommand{\zhwolong}{\lower-.9ex\hbox{\scalebox{1}[0.5]{卧}}\lower.1ex\hbox{\kern-1em \scalebox{1}[0.5]{龙}}}
