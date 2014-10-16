@@ -2374,87 +2374,91 @@ status open
 \end_layout
 
 \begin_layout Standard
-这个图说明了印符遗传学 ’酶'_．
+\begin_inset Wrap figure
+lines 0
+placement r
+overhang 0in
+width "50col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0679.jpg
+	lyxscale 50
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+“印符遗传学的中心法则”：缠结的层决结构”的一个例子。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-j，的中心法则。它显示了串如何核糖体的翻译 少印符操作（借助于印符遗传密码）定义 ，＼ ／／酶，以及酶反过来如何作用于 图90．“印符遗传学的中心法则一：那些导
-出它们的串，从而得到 _缠结的层决结构”的一个例子。
-\end_layout
-
-\begin_layout Standard
-新的串。因此，左边一条线绘出了老信息怎样流上去，因为酶是串的一个翻译，从而含有和串相同的信息，只不过形式不同，特别是作用的形式不同。然而右边那条线并不表示信息流
-下来，而是表示如何通过在串中调动符号，创造新的信息。
+这个图说明了印符遗传学的中心法则。它显示了串如何核糖体的翻译 （借助于印符遗传密码）定义酶，以及酶反过来如何作用于那些导出它们的串，从而得到新的串。因此，左边一
+条线绘出了老信息怎样流上去，因为酶是串的一个翻译，从而含有和串相同的信息，只不过形式不同，特别是作用的形式不同。然而右边那条线并不表示信息流下来，而是表示如何通
+过在串中调动符号，创造新的信息。
 \end_layout
 
 \begin_layout Standard
 印符遗传学中的酶就象形式系统中的推理规则，它们闭着眼
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+679
+\end_layout
+
+\end_inset
+
+睛调动串中的符号，而不顾有可能潜藏在符号内的任何“意义”。所以这里就有一个怪异的层次混合状态。一方面，串是被作用的，因而充当了数据的角色（如图90中右边的箭头所
+指出的）；另一方面，它们又支配这个施加在数据上的作用，因而又充当了程序的角色（如左边的箭头所指出的）。当然，起解释程序和处理机作用的是做游戏的人。联结“上”“下
+”两个印符遗传层次的这个双向通道表明：事实上，不管是串还是酶，哪个也不能认为比另一个高。作为对照，WJU系统的中心法则图示是：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $\begin{array}{cc}
+\text{推理规则}\\
+\downarrow & \text{印符操作}\\
+\text{符号串}
+\end{array}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-6 7 9睛调动串中的符号，而不顾有可能潜藏在符号内的任何“意义”o所以这里就有一个怪异的层次混合状态。一方面，串是被作用的，因而充当了数据的角色（如图90中右
-边的箭头所指出的）；另一方面，它们又支配这个施加在数据上的作用，因而又充当了程序的角色（如左边的箭头所指出的）o当然，起解释程序和处理机作用的是做游戏的人。联结
-“上”"下”两个印符遗传层次的这个双向通道表明：事实上，不管是串还是酶，哪个也不能认为比另一个高。作为对照，WJU系统的中心法则图示是：
+在WJU系统中，层次有明显的区别：推理规则绝对属于比符号串高的层次。对于TNT以及所有的形式系统，情况都类似。
+\end_layout
+
+\begin_layout Subsection*
+怪圈、TNT及实际的遗传学
 \end_layout
 
 \begin_layout Standard
-推理规则
-\end_layout
-
-\begin_layout Standard
-◆ （E手操作）
-\end_layout
-
-\begin_layout Standard
-符号串
-\end_layout
-
-\begin_layout Standard
-在WJU系统中，层次有明显的区别：推理规则绝对属于比符号串
-\end_layout
-
-\begin_layout Standard
-高的层次。对于TNT以及所有的形式系统，情况都类似。514 怪圈、TNT及实际的遗传学
-\end_layout
-
-\begin_layout Standard
-但是，我们已经看到，在另一个意义上，TNT中的各层次是混
-\end_layout
-
-\begin_layout Standard
-合在一起的。事实上，语言和元语言之间的界限已经打破了：谈论
-\end_layout
-
-\begin_layout Standard
-该系统的句子在该系统内部有一个镜象。这表明，如果我们画一个
-\end_layout
-
-\begin_layout Standard
-表示TNT与其元语言之间的关系的图，那它就将以一种十分醒
-\end_layout
-
-\begin_layout Standard
-目的方式相似于表示分子生物学中心法则的图。事实上，详细做这
-\end_layout
-
-\begin_layout Standard
-个对比正是我们的目标。不过，要想这样做，就得指出在哪些地方
-\end_layout
-
-\begin_layout Standard
-印符遗传学与真正的遗传学一致，哪些地有又不一致。当然，实际
-\end_layout
-
-\begin_layout Standard
-的遗传学远比印符遗传学复杂——不过，读者在了解印符遗传学
-\end_layout
-
-\begin_layout Standard
-的过程中所掌握的“概念骨架”，作为实际遗传学迷宫中的向导，还
-\end_layout
-
-\begin_layout Standard
-是十分有用的。
+但是，我们已经看到，在另一个意义上，TNT中的各层次是混合在一起的。事实上，语言和元语言之间的界限已经打破了：谈论该系统的句子在该系统内部有一个镜象。这表明，如
+果我们画一个表示TNT与其元语言之间的关系的图，那它就将以一种十分醒目的方式相似于表示分子生物学中心法则的图。事实上，详细做这个对比正是我们的目标。不过，要想这
+样做，就得指出在哪些地方印符遗传学与真正的遗传学一致，哪些地有又不一致。当然，实际的遗传学远比印符遗传学复杂——不过，读者在了解印符遗传学的过程中所掌握的“概念
+骨架”，作为实际遗传学迷宫中的向导，还是十分有用的。
 \end_layout
 
 \begin_layout Subsection*
@@ -2462,13 +2466,19 @@ DNA与核苷酸
 \end_layout
 
 \begin_layout Standard
-我们从讨论“串修和DNA之间的关系入手。缩写“DNA"表示
+我们从讨论“串”和DNA之间的关系入手。缩写“DNA"表示
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+680
 \end_layout
 
-\begin_layout Standard
-680“脱氧核糖核酸竹o大多数细胞的DNA位于细胞核内，有一层膜保护着。冈瑟·斯坦特曾把细胞核描述成是细胞的“金銮殿”，DNA就充当着里面的君主o
- DNA由比较简单的、称为核苷酸的分子的长链组成，每一个核苷酸由三个部分构成：（1）脱去一个特殊氧原子的、称为“核糖”的一种醣，所谓擘脱氧骨就是指这个；（2）磷
-酸基；以及（3）-个基。区别各种核苷酸的东西只是基，因而完全可以用基来鉴别核苷酸。出现在DNA核苷酸中的四种类型的基是：
+\end_inset
+
+“脱氧核糖核酸竹o大多数细胞的DNA位于细胞核内，有一层膜保护着。冈瑟·斯坦特曾把细胞核描述成是细胞的“金銮殿”，DNA就充当着里面的君主o DNA由比较简单的
+、称为核苷酸的分子的长链组成，每一个核苷酸由三个部分构成：（1）脱去一个特殊氧原子的、称为“核糖”的一种醣，所谓擘脱氧骨就是指这个；（2）磷酸基；以及（3）-个
+基。区别各种核苷酸的东西只是基，因而完全可以用基来鉴别核苷酸。出现在DNA核苷酸中的四种类型的基是：
 \end_layout
 
 \begin_layout Standard
@@ -2601,54 +2611,77 @@ G配c一的基形成，基之间分别由易结合。这一事实对细胞的工
 
 \begin_layout Standard
 6 82图93．DNA的双螺旋分子模型。【摘自维农·英格莱姆（_Vernon M．In-grarnl，《生物合成》CBiosynt hesis]．加利福尼亚州．
-Menlo Park:W．A．Ben-jamin，1 972年版，第1 3页。]信使RNA与核糖体
+Menlo Park:W．A．Ben-jamin，1 972年版，第1 3页。]
+\end_layout
+
+\begin_layout Subsection*
+信使RNA与核糖体
 \end_layout
 
 \begin_layout Standard
-如上所述，在很多细胞里，DNA这个细胞君主住在隐蔽的“金銮殿”——细胞核——之内。但细胞中的大多数“活物”都在核外，即在细胞质中—— 个相对于细胞核“图形”而言
-的“衬底”o特别是实际主宰着每个生命进程的酶，是在细胞质中由核糖体产生的，而且酶的大多数工作都在细胞质中进行。如印符遗传学一样，全部酶的蓝图都储存在串里——即在
+如上所述，在很多细胞里，DNA这个细胞君主住在隐蔽的“金銮殿”——细胞核——之内。但细胞中的大多数“活物”都在核外，即在细胞质中——那个相对于细胞核“图形”而言
+的“衬底”。特别是实际主宰着每个生命进程的酶，是在细胞质中由核糖体产生的，而且酶的大多数工作都在细胞质中进行。如印符遗传学一样，全部酶的蓝图都储存在串里——即在
 DNA里，而DNA又藏在小小的细胞核之中。那么有关酶的结构的信息是怎样从细胞核里传给核糖体的呢？
 \end_layout
 
 \begin_layout Standard
-这就该引入信使RIxlA- mRN A了。早先，mRNA曾被戏
+这就该引入信使RNA—mRNA了。早先，mRNA曾被戏
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+683
 \end_layout
 
-\begin_layout Standard
-6 83称为一种DNA“邮政快递”服务机构。这并不意味着mRNA在物理意义上把DNA带到什么地方去，而是说它把储存在细胞核内的DNA中的信息或命令，传递给细胞质
-中的核糖体。这是怎么做的呢？很简单；细胞核内部一种特殊类型的酶把DNA基序列中的
-\end_layout
+\end_inset
 
-\begin_layout Standard
-一个个长段忠实地复制到一个新串——信使RNA串——上。然后，这个mRNA就离开细胞核，漫步走入细胞质，在那里它又跑进很多核糖体内，这些核糖体就开始根据它来制造酶
-。
+称为一种DNA“邮政快递”服务机构。这并不意味着mRNA在物理意义上把DNA带到什么地方去，而是说它把储存在细胞核内的DNA中的信息或命令，传递给细胞质中的核糖
+体。这是怎么做的呢？很简单：细胞核内部一种特殊类型的酶把DNA基序列中的一个个长段忠实地复制到一个新串——信使RNA串——上。然后，这个mRNA就离开细胞核，漫
+步走入细胞质，在那里它又跑进很多核糖体内，这些核糖体就开始根据它来制造酶。
 \end_layout
 
 \begin_layout Standard
 在细胞核内把DNA复制到mRNA上的过程叫转录。在这一过程中，双串型的DNA必须暂时拆成两个单串，其中的一个用作mRNA的模板。顺便说说，“RNA"表示“核糖核
 酸”，它很象DNA，只不过其全部核苷酸里的核糖中都有DNA核苷酸所缺的那个特殊的氧原子，所以去掉了“脱氧”这个词头。而且RNA使用尿嘧啶这个基，而没有胸腺嘧啶，
-所以RNA串中的信息可以用“A"、“C"、“G"、“U9四个字母的任意序列来表示。从mRNA转录出DNA时，转录过程可以通过常用的基配对法来进行（不过这时不再有
+所以RNA串中的信息可以用“A”、“C”、“G”、“U”四个字母的任意序列来表示。从mRNA转录出DNA时，转录过程可以通过常用的基配对法来进行（不过这时不再有
 T了，而是U），所以，这种DNA模板与其mRNA伴侣看上去有点象是这样：
 \end_layout
 
-\begin_layout Standard
-DNA：一一 .
- CGTAAATCAAGTCA..·一．<模板）
+\begin_layout CenterLine
+DNA：
+\begin_inset Formula $\ldots\ldots CGTAAATCAAGTCA\ldots\ldots$
+\end_inset
+
+（模板）
+\end_layout
+
+\begin_layout CenterLine
+mRNA：
+\begin_inset Formula $\ldots\ldots GCAUUUAGUUCAGU\ldots\ldots$
+\end_inset
+
+（“副本”）
 \end_layout
 
 \begin_layout Standard
-mRNA：一， 一．GCAUUUAGUUCAGU......（“副本”）RNA并不总与自己形成长的双串，尽管它能这样做。所以一般说来，它不是处于DNA的那种螺旋状态中，而是
-一个长长的、有时带点弯的串。
+\noindent
+RNA并不总与自己形成长的双串，尽管它能这样做。所以一般说来，它不是处于DNA的那种螺旋状态中，而是一个长长的、有时带点弯的串。
 \end_layout
 
 \begin_layout Standard
-一个mRNA串一旦离开细胞核，就会遇到那些奇妙的亚细胞518物质——“核糖体”o不过，在继续解释核糖体如何使用mRNA之前，我想对酶和蛋白质做些说明。酶属于分子
-生物学中所谓的蛋白质这样一个一般性范畴，而核糖体的工作是制造所有的蛋白质，并
+一个mRNA串一旦离开细胞核，就会遇到那些奇妙的亚细胞物质——“核糖体”。不过，在继续解释核糖体如何使用mRNA之前，我想对酶和蛋白质做些说明。酶属于分子生物学
+中所谓的蛋白质这样一个一般性范畴，而核糖体的工作是制造所有的蛋白质，并
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+684
 \end_layout
 
-\begin_layout Standard
-684不只是制造酶。不是酶的那些蛋白质多是一些不活跃的家伙，例如，它们中有很多是结构分子，这意味着它们象是建筑物中的梁、柱等等：它们把细胞的各个部分连在一起。还
-有其他一些种类的蛋白质。不过就我们的目的而言，主要的蛋白质是酶，今后就不再特别区分了。
+\end_inset
+
+不只是制造酶。不是酶的那些蛋白质多是一些不活跃的家伙，例如，它们中有很多是结构分子，这意味着它们象是建筑物中的梁、柱等等：它们把细胞的各个部分连在一起。还有其他
+一些种类的蛋白质。不过就我们的目的而言，主要的蛋白质是酶，今后就不再特别区分了。
 \end_layout
 
 \begin_layout Subsection*
@@ -2660,89 +2693,1289 @@ mRNA：一， 一．GCAUUUAGUUCAGU......（“副本”）RNA并不总与自己�
 \end_layout
 
 \begin_layout Standard
-ala 丙氨酸
+\begin_inset Tabular
+<lyxtabular version="3" rows="20" columns="4">
+<features rotate="0" islongtable="true" longtabularalignment="left">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-arg 精氨酸
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ala
 \end_layout
 
-\begin_layout Standard
-asn 天门冬氨酰胺
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
 \end_layout
 
-\begin_layout Standard
-asp 天门冬氨酸
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+丙氨酸
 \end_layout
 
-\begin_layout Standard
-cys 胱氨酸
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-gln 谷酰胺
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+arg
 \end_layout
 
-\begin_layout Standard
-gln 谷氨酸
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
 \end_layout
 
-\begin_layout Standard
-gly 甘氨酸
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+精氨酸
 \end_layout
 
-\begin_layout Standard
-his 组氨酸
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-ile 异白氨酸
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+asn
 \end_layout
 
-\begin_layout Standard
-leu 白氨酸
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
 \end_layout
 
-\begin_layout Standard
-lys 赖氨酸
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+天门冬氨酰胺
 \end_layout
 
-\begin_layout Standard
-mef 蛋氨酸
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-phe 苯基丙氨酸
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+asp
 \end_layout
 
-\begin_layout Standard
-pro 脯氨酸
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
 \end_layout
 
-\begin_layout Standard
-ser 丝氨+酸
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+天门冬氨酸
 \end_layout
 
-\begin_layout Standard
-thr 苏氨酸
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-trp 色氨酸
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+cys
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+胱氨酸
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+gln
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+谷酰胺
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+gln
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+谷氨酸
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+gly
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+甘氨酸
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+his
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+组氨酸
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ile
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+异白氨酸
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+leu
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+白氨酸
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+lys
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+赖氨酸
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+mef
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+蛋氨酸
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+phe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+蛋氨酸
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+pro
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+脯氨酸
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ser
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+丝氨酸
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+thr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+苏氨酸
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+trp
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+色氨酸
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
 685
 \end_layout
 
-\begin_layout Standard
-tyr 酪氨酸
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+tyr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+酪氨酸
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+val
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+——
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+缬氨酸
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-val 缬氨酸应当注意到这里与印符遗传学在数目上的轻微差别，在那里，我们只有十五种用以组成酶的氨基酸。氨基酸是大体上与核苷酸同样复杂的一个小分子，因而，建造蛋白
-质的砖块与建造核酸（DNA、DNA）的砖块差不多大。但是蛋白质是由短得多的序列组成的：在典型的情形，大约三百个氨基酸就组成一个完整的蛋白质，而一个DNA串却可以
-含有数十万乃至上百万个核苷酸。
+应当注意到这里与印符遗传学在数目上的轻微差别，在那里，我们只有十五种用以组成酶的氨基酸。氨基酸是大体上与核苷酸同样复杂的一个小分子，因而，建造蛋白质的砖块与建造
+核酸（DNA、DNA）的砖块差不多大。但是蛋白质是由短得多的序列组成的：在典型的情形，大约三百个氨基酸就组成一个完整的蛋白质，而一个DNA串却可以含有数十万乃至
+上百万个核苷酸。
 \end_layout
 
 \begin_layout Subsection*
@@ -2750,10 +3983,10 @@ val 缬氨酸应当注意到这里与印符遗传学在数目上的轻微差别�
 \end_layout
 
 \begin_layout Standard
-当一个mRNA串游离出来进入细胞质，然后遇到一个核糖体51 9时，会发生一个极其复杂而又精彩的过程，我们称之为翻译。可以说，这个翻译过程就是一切生命的根本所在，
-其上罩着许多神秘的光环。不过，从本质上说，描述它并不难。我们先做一个形象化的比喻，然后再比较严格地加以说明。把mRNA设想成一长条录音磁带，而核糖体就象一台录音
-机。当磁带通过录音机的放音磁头时，信号就被“读出”并转变成音乐或其它声响。就这样，磁记号“翻译”成了音符。与此类似，当mRNA“磁带”通过核糖体的“放音磁头”时
-，产生出的音符是氨基酸，而作出的“乐曲”是蛋白质。所谓翻译也就是这些。图96表明了这一点。
+当一个mRNA串游离出来进入细胞质，然后遇到一个核糖体时，会发生一个极其复杂而又精彩的过程，我们称之为翻译。可以说，这个翻译过程就是一切生命的根本所在，其上罩着
+许多神秘的光环。不过，从本质上说，描述它并不难。我们先做一个形象化的比喻，然后再比较严格地加以说明。把mRNA设想成一长条录音磁带，而核糖体就象一台录音机。当磁
+带通过录音机的放音磁头时，信号就被“读出”并转变成音乐或其它声响。就这样，磁记号“翻译”成了音符。与此类似，当mRNA“磁带”通过核糖体的“放音磁头”时，产生出
+的音符是氨基酸，而作出的“乐曲”是蛋白质。所谓翻译也就是这些。图96表明了这一点。
 \end_layout
 
 \begin_layout Subsection*
@@ -2761,31 +3994,58 @@ val 缬氨酸应当注意到这里与印符遗传学在数目上的轻微差别�
 \end_layout
 
 \begin_layout Standard
-可是，一个核糖体在读到一系列核苷酸时，怎么能生产＆一系
+可是，一个核糖体在读到一系列核苷酸时，怎么能生产出一系列氨基酸呢？经过很多人的努力，这个秘密在六十年代初被揭开了。答案的核心是遗传密码——从核苷酸的三元组到氨基
+酸的映射（见图94）。这与印符遗传密码在精神上极为相似，除了这里是三个连续的基（或核苷酸）形成一个密码子，而在那里只要两个基
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+686
 \end_layout
 
-\begin_layout Standard
-列氨基酸呢？经过很多人的努力，这个秘密在六十年代初被揭开
+\end_inset
+
+就行了。因而，现在的表上必定要有
+\begin_inset Formula $4×4×4$
+\end_inset
+
+（即64）个不同条目，而不只是十六个。核糖体一次从RNA串上切下三个核苷酸——也就是说？一次切一个密码子——而且，
+\begin_inset Wrap figure
+lines 0
+placement i
+overhang 0in
+width "50col%"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "48col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\family sans
+\size footnotesize
+一个典型的mRNA片段，先读成两个三元组（上面），然后读成三个二元组（下面）：生物化学中一个“三比二”的例子。
 \end_layout
 
-\begin_layout Standard
-了。答案的核心是遗传密码——从核苷酸的三元组到氨基酸的映
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-射（见图9 4）o这与印符遗传密码在精神上极为相似，除了这里是
-\end_layout
+\end_inset
 
-\begin_layout Standard
-三个连续的基（或核苷酸）形成一个密码子，而在那里只要两个基
-\end_layout
-
-\begin_layout Standard
-686就行了。因而，现在的表上必定要有4×4 X 4（即64）个不同条目，而不只是十六个。核糖体一次从RNA串上切下三个核苷酸——也就是说？
-\end_layout
-
-\begin_layout Standard
-一次切一个密码子——而且，它每这样做一次，
+它每这样做一次，就把一个单独的新氨基酸加到了正在生产的蛋白质上。于是，蛋白质就一个氨基酸接一个氨基酸地从核糖体中制造出来了。
 \end_layout
 
 \begin_layout Subsection*
@@ -2799,10 +4059,6 @@ val 缬氨酸应当注意到这里与印符遗传学在数目上的轻微差别�
 
 \begin_layout Standard
 这个三级结构暗含在…一级结构之中，这正和印符遗传学的情形一样。
-\end_layout
-
-\begin_layout Standard
-就把一个单独的新氨基酸加到了正在生产的蛋白质上。于是，蛋白质就一个氨基酸接一个氨基酸地从核糖体中制造出来了。
 \end_layout
 
 \begin_layout Standard
@@ -4042,8 +5298,8 @@ a
 \begin_layout Plain Layout
 \begin_inset Formula $\begin{array}{c}
 [\vee]\\
-\vee\\{}
-[\text{标点}]\\
+\vee\\
+{}[\text{标点}]\\
 \text{标点}
 \end{array}$
 \end_inset
@@ -4060,8 +5316,8 @@ a
 \begin_inset Formula $\begin{array}{c}
 [:]\\
 :\\
-\text{标点}\\{}
-[\supset]
+\text{标点}\\
+{}[\supset]
 \end{array}$
 \end_inset
 
@@ -4200,9 +5456,9 @@ a
 \begin_layout Plain Layout
 \begin_inset Formula $\begin{array}{c}
 \wedge\\
-\wedge\\{}
-[\wedge]\\{}
-[\wedge]
+\wedge\\
+{}[\wedge]\\
+{}[\wedge]
 \end{array}$
 \end_inset
 
@@ -4295,8 +5551,8 @@ s\\
 
 \begin_layout Plain Layout
 \begin_inset Formula $\begin{array}{c}
-(\\{}
-[(]\\
+(\\
+{}[(]\\
 (\\
 (
 \end{array}$
@@ -4314,8 +5570,8 @@ s\\
 \begin_inset Formula $\begin{array}{c}
 )\\
 )\\
-)\\{}
-[)]
+)\\
+{}[)]
 \end{array}$
 \end_inset
 
@@ -4329,8 +5585,8 @@ s\\
 
 \begin_layout Plain Layout
 \begin_inset Formula $\begin{array}{c}
-[\\{}
-[[]\\
+[\\
+{}[[]\\
 ]\\
 ]
 \end{array}$
