@@ -5844,76 +5844,90 @@ reference "fig:60"
 \end_layout
 
 \begin_layout Standard
-我们再来看看把磁带翻译成音乐的录音机，与把mRNA翻译戍蛋白质的核糖体两者之间的另一个优美的平行关系。设想有许多磁带录音机一字排开，间隔相等。我们可以把这个阵势
-叫做“多录音机”c再设想同一条磁带陆续通过各个录音机的放音磁头，如果磁带上录有一个完整的长旋律，那末输出自然是一个多部轮唱，各声部之间的延迟由磁带从一台录音机起
+我们再来看看把磁带翻译成音乐的录音机，与把mRNA翻译成蛋白质的核糖体两者之间的另一个优美的平行关系。设想有许多磁带录音机一字排开，间隔相等。我们可以把这个阵势
+叫做“多录音机”。再设想同一条磁带陆续通过各个录音机的放音磁头，如果磁带上录有一个完整的长旋律，那末输出自然是一个多部轮唱，各声部之间的延迟由磁带从一台录音机起
 到下一台录音机所用的时间来确定。在细胞中，确实也存在这种“分子卡农”，那里，很多核糖体一字排开，形成所谓多核糖体。它们全都“使用”同一个mR-NA串，错开一定时
-间，生产同样的蛋白质（见图97）o
+间，生产同样的蛋白质（见图97）。
 \end_layout
 
 \begin_layout Standard
 不仅如此，大自然做得还要好些。我们还记得，mRNA是通过转录DNA而制成的，负责这个过程的酶叫RNA聚合酶。常有这样的事发生：一系列RNA聚合酶会并排工作在同一
 个DNA申上，结果就造出很多彼此分离（但却相同）的mRNA串，每一串都相对上一串延迟一点时间，这正是DNA从一个RNA聚合酶移到下一个聚合酶所需要的时间。同时，
-在并排出现的每一个mRNA上，又可以有若干不同的核糖体在工作。这样，就达到了一个双层的或二排的“分子卡农”（图98）o在音乐中的对应形象是一个十分527荒唐但却
-很有意思的情景：若干名誊写员同时工作，每个人都把一份原稿从长笛手无法演奏的谱表抄成一个他们能演奏的谱表。每个誊写员抄完一页原稿，就把原稿传给下个人，然后自己再抄
-新的
+在并排出现的每一个mRNA上，又可以有若干不同的核糖体在工作。这样，就达到了一个双层的或二排的“分子卡农”（图98）。在音乐中的对应形象是一个十分荒唐但却很有意
+思的情景：若干名誊写员同时工作，每个人都把一份原稿从长笛手无法演奏的谱表抄成一个他们能演奏的谱表。每个誊写员抄完一页原稿，就把原稿传给下个人，然后自己再抄新的
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+695
+\end_layout
+
+\end_inset
+
+一页。与此同时，根据出自每个誊写员笔下的抄件，有一组长笛在吹奏这个旋律，每个长笛手相对于其他吹奏同一张曲谱的人又有所延迟。也许这个极度夸张的形象能使你对你身体中
+每分每秒都在进行着的过程的复杂性的某些方面有所想象。
 \end_layout
 
 \begin_layout Standard
-6 95一页。与此同时，根据出自每个誊写员笔下的抄件，有一组长笛在吹奏这个旋律，每个长笛手相对于其他吹奏同一张曲谱的人又有所延迟。也许这个极度夸张的形象能使你对
-你身体中每分每秒都在进行着的过程的复杂性的某些方面有所想象。
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0696.jpg
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+这里是一个更为复杂的图示，不只一个而是有若干个mRNA串，它们全都转录自同一个DNA串，并受到多核糖体作用，其结果是一个二排的分子卡农。[选自哈那瓦尔特和海因斯
+，《生命的化学基础》，第271页。]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+谁生谁——核糖体与蛋白质
 \end_layout
 
 \begin_layout Standard
-图98．这里是·个更为复杂的图示，不只．．．个而是有若干个mRNA串，它们全都转录自同一个DNA串，并受到多核糖体作用，其结果是一个二排的分子卡农。[选自哈那瓦
-尔特和海因斯，《生命的化学基础》，第271页。J谁生谁——核糖体与蛋白质 ，
-\end_layout
+我们一直在谈论那些称为核糖体的惊人活物，可它们自己又是怎么构成的、如何制造的呢？核糖体由两种东西构成：（1）各类蛋白质，（2）另一种RNA，叫做核糖体RNA（r
+RNA）。于是，为了造出核糖体，得有某些种类的蛋白质，还得有rRNA。自然，要有蛋白质就得有核糖体来制造它。那末，你怎么应付这个恶性循环呢？先有谁——核糖体还是
+蛋白质？谁制造谁？当然不会有答案，因为总是要追溯到同一种类次序在先的成员身上——就象先有鸡还是先有蛋的问题一样——直到一切都消失在时间的地平线上为止。无论何时，
+核糖体总是由两块东西制成，一大一小，每一块中都含有一个rRNA和几介蛋白质。核糖体差不多和大的蛋白质一样大小。它们远远小于作为它们的输入并且它们要顺着移动的mR
+NA串。
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-我们一直在谈论那些称为核糖体的惊人活物，可它们自己又528是怎么构成的、如何制造的呢？核糖体由两种东西构成：（1）各类蛋
-\end_layout
-
-\begin_layout Standard
-白质，（2）另一种RNA，叫做核糖体RNA（rRNA）o于是，为了造
-\end_layout
-
-\begin_layout Standard
-出核糖体，得有某些种类的蛋白质，还得有rRNAo自然，要有蛋白
-\end_layout
-
-\begin_layout Standard
-质就得有核糖体来制造它。那末，你怎么应付这个恶性循环呢？先
-\end_layout
-
-\begin_layout Standard
-有谁——核糖体还是蛋白质？谁制造谁？当然不会有答案，因为总
-\end_layout
-
-\begin_layout Standard
-是要追溯到同一种类次序在先的成员身上——就象先有鸡还是先
-\end_layout
-
-\begin_layout Standard
-有蛋的问题一样——直到一切都消失在时间的地平线上为止。无
-\end_layout
-
-\begin_layout Standard
-论何时，核糖体总是由两块东西制成，一大一小，每一块中都含有
-\end_layout
-
-\begin_layout Standard
-一个rRNA和几介蛋白质。核糖体差不多和大的蛋白质一样大
-\end_layout
-
-\begin_layout Standard
-小。它们远远小于作为它们的输入并且它们要顺着移动的mRNA
-\end_layout
-
-\begin_layout Standard
-串。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 696
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -5922,35 +5936,38 @@ reference "fig:60"
 
 \begin_layout Standard
 我们已经淡过一些蛋白质的结构，尤其是酶的结构，但我们还没有实际讲述它们在细胞内执行什么任务，以及如何去做。全部的酶都是催化剂，这意味着，在某种意义上，它不过是有
-选择地加速细胞中的一些化学过程，而不是使那些没有它们就不能发生的事情发生。每种酶都使千万条潜在通道中的一条特定通道得以实现。
+选择地加速细胞中的一些化学过程，而不是使那些没有它们就不能发生的事情发生。每种酶都使千万条潜在通道中的一条特定通道得以实现。因此，在选定要引入哪一种酶的同时，你
+也就选定了将要发生的事情和将不发生的事情——尽管从理论上说，任何细胞过程不靠催化剂帮助而自动发生的概率都不是零。
 \end_layout
 
 \begin_layout Standard
-因此，在选定要引入哪…．种酶的同时，你也就选定了将要发生的事情和将不发生的事情——尽管从理论上说，任何细胞过程不靠催化剂帮助而自动发生的概率都不是零。
-\end_layout
-
-\begin_layout Standard
-酶怎样在细胞里的分子上起作用呢？如已经讲过的那咩，酶是折起的多肽链，在每个酶中都有一个裂缝或口袋或别的某种界说529清楚的外貌牲，酶在那里拴住某个其它种类的分子
+酶怎样在细胞里的分子上起作用呢？如已经讲过的那咩，酶是折起的多肽链，在每个酶中都有一个裂缝或口袋或别的某种界说清楚的外貌性（牲），酶在那里拴住某个其它种类的分子
 。这个地点叫活性部位，拴在那里的分子叫基质。酶可以有不止一个活性部位和不只一个基质。象印符遗传学一样，酶对于它们所要发挥作用的部位实在是很挑剔的。活性部位通常都
 很“挑食”：只许一种分子拴在上面。尽管如此，有时也会遇上“画饼”——一些其它分子，它们也能适应这个作用点并赘在上面，哄骗这个酶，从而事实上使酶起不了作用。
 \end_layout
 
 \begin_layout Standard
-一旦把酶与其基质拴在一起，就会发生某种电荷不平衡状态，随后，电荷——以电子或质予的形式——就围绕着拴住的分子流动并重新排布自己。达到平衡时，基质可能已经发生了意
-义深刻的化学变化。例如：可能已经发生了一个“焊接”过程，把一些标准的小分子连成核苷酸、氨基酸或其它的普通细胞分予；一个DNA串可能已在一个特殊的部位“豁开”；一
+一旦把酶与其基质拴在一起，就会发生某种电荷不平衡状态，随后，电荷——以电子或质子的形式——就围绕着拴住的分子流动并重新排布自己。达到平衡时，基质可能已经发生了意
+义深刻的化学变化。例如：可能已经发生了一个“焊接”过程，把一些标准的小分子连成核苷酸、氨基酸或其它的普通细胞分子；一个DNA串可能已在一个特殊的部位“豁开”；一
 个分子的某一部分可能已被割掉；等等，等等。事实上，生物酶对分子所起的作用十分类似于印符酶所执行的印符操作。只不过大多数酶基本上都只执行单项任
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+697
 \end_layout
 
-\begin_layout Standard
-697务，而不是执行一系列任务。印符酶和生物酶之间还有一个显著的区别，那就是：印符酶只作用在串上，而生物酶则可以作用在DNA、RNA、其它蛋白质、核糖体以及细胞
-膜之上——简言之，作用于细胞里的每一样东西。换句话说，酶是在细胞内使各种事件得以发生的通用机器。有各种各样的酶，有的能把东西粘在一起，有的又把它们分开，有的修改
-它们，有的激活它们，有的安定它们，有的复制它们，有的恢复它们，有的毁坏它们，…
+\end_inset
+
+务，而不是执行一系列任务。印符酶和生物酶之间还有一个显著的区别，那就是：印符酶只作用在串上，而生物酶则可以作用在DNA、RNA、其它蛋白质、核糖体以及细胞膜之上
+——简言之，作用于细胞里的每一样东西。换句话说，酶是在细胞内使各种事件得以发生的通用机器。有各种各样的酶，有的能把东西粘在一起，有的又把它们分开，有的修改它们，
+有的激活它们，有的安定它们，有的复制它们，有的恢复它们，有的毁坏它们，……
 \end_layout
 
 \begin_layout Standard
 细胞内某些极为复杂的过程是“多级瀑布”形的，在那里面，某种类型的单个分子导致某种酶的生产过程；生产过程开始后，从“组装线”中制出的酶又开辟一条新的化学途经使第二
 种酶开始生产。这种事情可以持续三、四层，每一种新生产出的酶又引起另一类型的生产过程。到头来，生产出最后定型的酶的副本的一个“指示器”，然后所有的副本就脱离出来，
-去执行它们各自的任务，也许是去除掉某个“异端”DNA，或协助制作细胞所“渴望”的某种氨基，．酸，或是别的什么事情。
+去执行它们各自的任务，也许是去除掉某个“异端”DNA，或协助制作细胞所“渴望”的某种氨基酸，或是别的什么事情。
 \end_layout
 
 \begin_layout Subsection*
@@ -5958,14 +5975,20 @@ reference "fig:60"
 \end_layout
 
 \begin_layout Standard
-我们来说说印符遗传学所揭示的大自然对“什么样的DNA串能指挥自己的复制？”这个谜题的解答。当然，并非每个DNA串530生来都是自复制。关键在干：任何一个想要指挥
-自己的复制工作的串，都必须含有一些命令，以便能恰好调集那些能够执行这一任务的酶。指望一个DNA串孤家寡人就能成为自复制，这是枉费心机。因为，要把那些潜在的蛋白质
-从DNA中拽出来，不仅得有核糖体，而且还得有RNA催化酶。后者要用来制造输送给核糖体的mRNA o所以我们必须从假定有一种刚好强到允许转录过程和翻译过程得以进行
-的“极小支撑系统”开始。于是，这个极小支撑系统就得包括：（1）某些保证mRNA能从DNA制造出来的蛋白质
+我们来说说印符遗传学所揭示的大自然对“什么样的DNA串能指挥自己的复制？”这个谜题的解答。当然，并非每个DNA串生来都是自复制。关键在干：任何一个想要指挥自己的
+复制工作的串，都必须含有一些命令，以便能恰好调集那些能够执行这一任务的酶。指望一个DNA串孤家寡人就能成为自复制，这是枉费心机。因为，要把那些潜在的蛋白质从DN
+A中拽出来，不仅得有核糖体，而且还得有RNA催化酶。后者要用来制造输送给核糖体的mRNA。所以我们必须从假定有一种刚好强到允许转录过程和翻译过程得以进行的“极小
+支撑系统”开始。于是，这个极小支撑系统就得包括：（1）某些保证mRNA能从DNA制造出来的蛋白质
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+698
 \end_layout
 
-\begin_layout Standard
-6 98——例如RNA聚合酶，（2）某些核糖体。
+\end_inset
+
+——例如RNA聚合酶，（2）某些核糖体。
 \end_layout
 
 \begin_layout Subsection*
@@ -5978,102 +6001,53 @@ DNA如何自复制
 \end_layout
 
 \begin_layout Standard
-DNA必定含有一组蛋白质的密码，而这组蛋白质就将复制这，个DNAo有一种十分有效而精致的办法能复制一个由互补的两个串组成的双串DNA,这包括两步：
+DNA必定含有一组蛋白质的密码，而这组蛋白质就将复制这个DNA。有一种十分有效而精致的办法能复制一个由互补的两个串组成的双串DNA，这包括两步：
+\end_layout
+
+\begin_layout Enumerate
+把两个串彼此分开，
+\end_layout
+
+\begin_layout Enumerate
+给刚刚得到的两个新的单串各“配”上一个新串。
 \end_layout
 
 \begin_layout Standard
-（1）把两个串彼此分开，
-\end_layout
-
-\begin_layout Standard
-（2）给刚刚得到的两个新的单串各“配”上一个新串。‘这个过程能造出两个新的DNA串，每一个都与原先的双串等同。
-\end_layout
-
-\begin_layout Standard
-如果我们的解决办法是建立在这个想法上的，那就必定要涉及一组在DNA中有自己的密码、并将要执行这两个步骤的蛋白质。
+这个过程能造出两个新的DNA串，每一个都与原先的双串等同。如果我们的解决办法是建立在这个想法上的，那就必定要涉及一组在DNA中有自己的密码、并将要执行这两个步骤
+的蛋白质。
 \end_layout
 
 \begin_layout Standard
 据信，在细胞内这两个步骤是通过一种协调的方式一起进行的，而且需要三种主要的酶：DNA核酸内切酶，DNA催化酶和DNA连接酶。第一种是个“拉开酶”：它把原有的两个
-串剥开一小段距离，然后停止。这之后，另外两种酶登场。催化酶基本上是一种完成“复制并移动"操作的酶：它切下DNA的一个短短的单串，以一种会使人联想起印符遗传学中的
-复制状态的方式用戈卜基来复制它们。为了复制，它要利用在细胞质中四处漂浮的一些原料——尤其是核苷酸。由于这个过程是阵发性的，每次都剥开一些东西，复制一些东西，所以
-就产生了一些小缝隙，而DNA连接酶就是堵缝的东西。这个过程一遍又一遍地重复。这部精密的三酶机就以
+串剥开一小段距离，然后停止。这之后，另外两种酶登场。催化酶基本上是一种完成“复制并移动”操作的酶：它切下DNA的一个短短的单串，以一种会使人联想起印符遗传学中的
+复制状态的方式用补基来复制它们。为了复制，它要利用在细胞质中四处漂浮的一些原料——尤其是核苷酸。由于这个过程是阵发性的，每次都剥开一些东西，复制一些东西，所以就
+产生了一些小缝隙，而DNA连接酶就是堵缝的东西。这个过程一遍又一遍地重复。这部精密的三酶机就以
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+699
+\end_layout
+
+\end_inset
+
+一种小心翼翼的方式一路沿着DNA分子运行着，直到整个东西都被剥开，同时也被复制，最后有了两个副本为止。
+\end_layout
+
+\begin_layout Subsection*
+DNA的自复制方法与㧟摁相比较
 \end_layout
 
 \begin_layout Standard
-69 9
+应该注意，在酶对DNA串的作用过程中，全然没有用到信息储存在DNA之中这一事实。酶只是在执行调拨符号的职能，就象WJU系统中的推理规则一样。这三种酶在某一时刻就
+在实际复制作为他们自身的密码的那些基因，但它们对此却无动于衷。对它们来说，DNA只是一块既无意义也无趣味的模板。
 \end_layout
 
 \begin_layout Standard
-一种小心翼翼的方式一路沿着DNA分子运行着，直到整个东西
-\end_layout
-
-\begin_layout Standard
-都被剥开，同时也被复制，最后有了两个副本为止。J31DNA的自复制方法与扛摁相比较
-\end_layout
-
-\begin_layout Standard
-应该注意，在酶对DNA串的作用过程中，全然没有用到信息
-\end_layout
-
-\begin_layout Standard
-储存在DNA之中这一事实。酶只是在执行调拨符号的职能，就象
-\end_layout
-
-\begin_layout Standard
-WJU系统中的推理规则一样。这三种酶在某一时刻就在实际复制
-\end_layout
-
-\begin_layout Standard
-作为他们自身的密码的那些基因，但它们对此却无动于衷。对它们
-\end_layout
-
-\begin_layout Standard
-来说，DNA只是一块既无意义也无趣味的模板。
-\end_layout
-
-\begin_layout Standard
-把这与蒯恩句子那种描述如何构造自己的副本的方法作个比
-\end_layout
-
-\begin_layout Standard
-较是颇为有趣的。在那里，也有一种“双串”——同一信息的两个副
-\end_layout
-
-\begin_layout Standard
-本，其中一个起指令作用，另一个起模板作用。在DNA中，过程有
-\end_layout
-
-\begin_layout Standard
-一点类似，因为三种酶（DNA核酸内切酶、DNA催化酶、DNA连
-\end_layout
-
-\begin_layout Standard
-接酶）只在其中的一个串中被编码，这个串就起着程序的作用，而
-\end_layout
-
-\begin_layout Standard
-另一个串只是块模板。这个平行还不完美，因为在执行一个复制动
-\end_layout
-
-\begin_layout Standard
-作时，两个串都作模板使用，而不只是一个串。即便如此，这个类比
-\end_layout
-
-\begin_layout Standard
-也是具有高度启发性的。对这种使用与谈论的二重性，有一个生物
-\end_layout
-
-\begin_layout Standard
-化学的类比：当DNA被看作只是一系列有待复制的化学物质时，
-\end_layout
-
-\begin_layout Standard
-就相当于谈论印刷符号；而当DNA指示该执行哪些操作时，就相
-\end_layout
-
-\begin_layout Standard
-当干便用印刷符号a
+把这与蒯恩句子那种描述如何构造自己的副本的方法作个比较是颇为有趣的。在那里，也有一种“双串”——同一信息的两个副本，其中一个起指令作用，另一个起模板作用。在DN
+A中，过程有一点类似，因为三种酶（DNA核酸内切酶、DNA催化酶、DNA连接酶）只在其中的一个串中被编码，这个串就起着程序的作用，而另一个串只是块模板。这个平行
+还不完美，因为在执行一个复制动作时，两个串都作模板使用，而不只是一个串。即便如此，这个类比也是具有高度启发性的。对这种使用与谈论的二重性，有一个生物化学的类比：
+当DNA被看作只是一系列有待复制的化学物质时，就相当于谈论印刷符号；而当DNA指示该执行哪些操作时，就相当干便用印刷符号。
 \end_layout
 
 \begin_layout Subsection*
@@ -6081,33 +6055,18 @@ DNA的意义层次
 \end_layout
 
 \begin_layout Standard
-从一个DNA串里可以读出好几个不同层次的意义，这要看
+从一个DNA串里可以读出好几个不同层次的意义，这要看你把DNA划成多大的块，以及你使用的解码器有多强。在最低的层次上，每一个DNA串给一个等效的RNA串编码——
+作为转录的编码过程。如果将DNA组块而形成三元组，那末，利用“遗传解码器”就能把DNA读成一系列氨基酸。这是（在转录之上的）一个
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+700
 \end_layout
 
-\begin_layout Standard
-你把DNA划成多大的块，以及你使用的解码器有多强。在最低的
-\end_layout
+\end_inset
 
-\begin_layout Standard
-层次上，每一个DNA串给一个等效的RNA串编码——作为转录
-\end_layout
-
-\begin_layout Standard
-的编码过程。如果将D
-\backslash
-IA组块而形成三元组，那末，利用“遗传解
-\end_layout
-
-\begin_layout Standard
-码器”就能把DNA读成一系列氨基酸。这是（在转录之上的）一个
-\end_layout
-
-\begin_layout Standard
-7 00翻译。在下一个自然的层次上，DNA又可读成一组蛋白质的代码。
-\end_layout
-
-\begin_layout Standard
-这个把蛋白质从基因里拽出来的物理过程叫做基因表示。目前，这是我们所了解的DNA意义的最高层次了。
+翻译。在下一个自然的层次上，DNA又可读成一组蛋白质的代码。这个把蛋白质从基因里拽出来的物理过程叫做基因表示。目前，这是我们所了解的DNA意义的最高层次了。
 \end_layout
 
 \begin_layout Standard
@@ -6118,62 +6077,437 @@ IA组块而形成三元组，那末，利用“遗传解
 \end_layout
 
 \begin_layout Standard
-另外还有一种（极其微弱的）可能：我们毋需去同构模拟渐成．532过程，而是通过找到某种较为简单的解码器，直接从遗传型读出表现型来。这可以叫做“捷径伪渐成过程”o捷
-径也好，非捷径也好，伪渐成过程目前当然还远未达到——尽管有个惹人注目的例外：对于猫科的一个种- Felis-catus，深入的探索已经揭示出，确有可能直接从遗传
-型读出表现型来。直接观察一下Felis-catus酌DNA中下述典型节段，可能就会更好地体会这个值得注意的事实：
+另外还有一种（极其微弱的）可能：我们毋需去同构模拟渐成过程，而是通过找到某种较为简单的解码器，直接从遗传型读出表现型来。这可以叫做“捷径伪渐成过程”。捷径也好，
+非捷径也好，伪渐成过程目前当然还远未达到——尽管有个惹人注目的例外：对于猫科的一个种—— Felis-catus，深入的探索已经揭示出，确有可能直接从遗传型读出
+表现型来。直接观察一下Felis-catus的DNA中下述典型节段，可能就会更好地体会这个值得注意的事实：
+\end_layout
+
+\begin_layout Quotation
+……CATCATCATCATCATCATCATCATCATCAT……
 \end_layout
 
 \begin_layout Standard
-....
- CATCATCATCATCATCATCATCATCATCAT
+下面列出了各个层次上DNA读出方式的一览表，以及不同的译码层次的名称。DNA能被读成这样的序列：
 \end_layout
 
 \begin_layout Standard
-下面列出了各个层次上DNA读出方式的一览表，以及不同的译码层次的名称oDNA能被读成这样的序列：
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="2">
+<features rotate="0" islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（1）
 \end_layout
 
-\begin_layout Standard
-（1）基（核苷酸）…………………转录
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+基（核苷酸）……转录
 \end_layout
 
-\begin_layout Standard
-（2）氨基酸．．．．．．．．．．．．．．．．．．．．．．．．．．．．．．
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（2）
 \end_layout
 
-\begin_layout Standard
-7 01
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+氨基酸……………翻译
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+701
 \end_layout
 
-\begin_layout Standard
-（3）蛋白质（一级结构）
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-（ …．-基因表示
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（3）
 \end_layout
 
-\begin_layout Standard
-（4）蛋白质（三级结构）
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left.\begin{array}{c}
+\text{蛋白质（一级结构）}\\
+\text{蛋白质（三级结构）}
+\end{array}\right\} $
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+基因表示
 \end_layout
 
-\begin_layout Standard
-（5）蛋白质束…… …．．高层基因表示
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（4）
 \end_layout
 
-\begin_layout Standard
-（6） ? ? ?
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-：‘}．． …DN A意义的未知层次
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（5）
 \end_layout
 
-\begin_layout Standard
-（N-l） ? ? ?
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+蛋白质束…………高层基因表示
 \end_layout
 
-\begin_layout Standard
-（八）物理、精神和心理的品质……伪渐成过程
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（6）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+? ? ?
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left.\begin{array}{ccc}
+. &  & .\\
+. &  & .\\
+. &  & .
+\end{array}\right\} $
+\end_inset
+
+……
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+……………DNA意义的未知层次
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（N-1）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+? ? ?
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+（N）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+物理、精神和心理的品质…伪渐成过程
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -6703,7 +7037,13 @@ status open
 \end_layout
 
 \begin_layout Standard
+请注意A和T组成的基对（算术化[Arithmetization]和翻译[Translation]），以及G和C的基对（哥德尔[Godel]和克里克[Crick]
+）。数理逻辑居嘌呤一方，分子生物学居嘧啶一方。
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -6712,7 +7052,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0703.jpg
 	lyxscale 50
-	width 90text%
+	width 100text%
 
 \end_inset
 
@@ -6723,16 +7063,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-中心法则映射。
-\end_layout
-
-\end_inset
-
-中心法则映射。在两个基本的缠结的层次系统——分子生物学层次系统和数理逻辑层次系统——之间的一个类比。
+中心法则映射。在两个基本的缠结构的层次系统——分子生物学层次系统和数理逻辑层次系统——之间的一个类比。
 \end_layout
 
 \end_inset
@@ -6750,17 +7081,20 @@ status open
 \end_layout
 
 \begin_layout Standard
-请注意A和T组成的基对（算术化[Arithmetization]和翻译[Translation]），以及G和C的基对（哥德尔[Godel]和克里克[Crick]
-）。数理逻辑居嘌呤一方，分子生物学居嘧啶一方。
+为了使这个映射从美学角度看更为完善，我情愿让哥德尔配数法向遗传密码绝对看齐。事实上，只要按下面的对应，遗传密码表也就变成了哥德尔编码表：
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
+\begin_inset Wrap figure
+lines 0
+placement l
+overhang 0in
+width "60text%"
 status open
 
 \begin_layout CenterLine
+
+\size scriptsize
 \begin_inset Tabular
 <lyxtabular version="3" rows="17" columns="6">
 <features rotate="0" tabularvalignment="middle">
@@ -6785,7 +7119,7 @@ status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size scriptsize
 6
 \end_layout
 
@@ -6796,7 +7130,7 @@ status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size scriptsize
 2
 \end_layout
 
@@ -6807,7 +7141,7 @@ status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size scriptsize
 1
 \end_layout
 
@@ -6818,7 +7152,7 @@ status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size scriptsize
 3
 \end_layout
 
@@ -6840,7 +7174,7 @@ status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size scriptsize
 6
 \end_layout
 
@@ -7268,7 +7602,7 @@ status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size scriptsize
 2
 \end_layout
 
@@ -7626,7 +7960,7 @@ status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size scriptsize
 1
 \end_layout
 
@@ -8027,7 +8361,7 @@ status open
 
 \begin_layout Plain Layout
 
-\size footnotesize
+\size scriptsize
 3
 \end_layout
 
@@ -8443,159 +8777,45 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-为了使这个映射从美学角度看更为完善，我情愿让哥德尔配数法向遗传密码绝对看齐。事实上，只要按下面的对应，遗传密码表也就变成了哥德尔编码表：
-\end_layout
-
-\begin_layout Standard
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="3">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-（奇）1 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
+\noindent
+（奇）1
 \begin_inset Formula $\Leftrightarrow$
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 A（嘌呤）
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
+\begin_layout Standard
+\noindent
 （偶）2
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 \begin_inset Formula $\Leftrightarrow$
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 C（嘧啶）
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
+\begin_layout Standard
+\noindent
 （奇）3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 \begin_inset Formula $\Leftrightarrow$
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 G（嘌呤）
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
+\begin_layout Standard
+\noindent
 （偶）6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 \begin_inset Formula $\Leftrightarrow$
 \end_inset
 
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 U（嘧啶）
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
 \begin_inset Note Comment
 status open
 
@@ -9257,13 +9477,13 @@ status collapsed
 status open
 
 \begin_layout Plain Layout
-图案G和H的扩展
+T4细菌病毒
 \end_layout
 
 \end_inset
 
-T4细菌病毒是一个蛋白质聚合体（a）。它的“头”是形如一种具有三十面的扁长的正十二面体的蛋白质膜，里面充满了DNA，头通过一个颈与尾部相连。尾部是包在一个可收缩
-的鞘内的空心芯子，安在四周有六条须根、下面有若干钉子的底盘上。钉子和须根使病毒牢牢地粘在细菌的细胞壁上（b）。鞘的收缩使芯子穿透细胞壁，病毒的DNA进入细胞．[
+T4细菌病毒是一个蛋白质聚合体(a)。它的“头”是形如一种具有三十面的扁长的正十二面体的蛋白质膜，里面充满了DNA，头通过一个颈与尾部相连。尾部是包在一个可收缩
+的鞘内的空心芯子，安在四周有六条须根、下面有若干钉子的底盘上。钉子和须根使病毒牢牢地粘在细菌的细胞壁上(b)。鞘的收缩使芯子穿透细胞壁，病毒的DNA进入细胞。[
 选自哈那瓦尔特和海因斯，《生命的化学基础》，第230页。]
 \end_layout
 
@@ -9343,27 +9563,10 @@ status open
 \end_layout
 
 \begin_layout Standard
-病毒DNA进入细胞后会发生什么事呢？按拟人的说法，病毒“希望”它的DNA能得到与宿主细胞的DNA完全相同的待遇。这就意味着要能被转录和被翻译，于是就使它可以指挥
-合成它自己的特殊的、与宿主细胞相异的蛋白质，然后这些蛋白质就开始各司其职。这相当于利用“密码”（即遗传密码）秘密地把外来蛋白质输送到宿主细胞中，然后再来“解码"
-（制造它们）。在某种意义上，这很象特洛伊木马的故事：数百名战士藏进一个看上去无害的巨大木马，当他们进城之后，就钻出来占领城市。这些异己的蛋白质一旦从它们的载体D
-NA中被“翻译”出来（合成出来），就投入行动。
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-708
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Box Frameless
@@ -9377,7 +9580,7 @@ width "70text%"
 special "none"
 height "100theight%"
 height_special "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -9437,6 +9640,23 @@ T4病毒的形态发生通道有三个主分支，分别形成头、尾和尾须
 \end_layout
 
 \begin_layout Standard
+病毒DNA进入细胞后会发生什么事呢？按拟人的说法，病毒“希望”它的DNA能得到与宿主细胞的DNA完全相同的待遇。这就意味着要能被转录和被翻译，于是就使它可以指挥
+合成它自己的特殊的、与宿主细胞相异的蛋白质，然后这些蛋白质就开始各司其职。这相当于利用“密码”（即遗传密码）秘密地把外来蛋白质输送到宿主细胞中，然后再来“解码"
+（制造它们）。在某种意义上，这很象特洛伊木马的故事：数百名战士藏进一个看上去无害的巨大木马，当他们进城之后，就钻出来占领城市。这些异己的蛋白质一旦从它们的载体D
+NA中被“翻译”出来（合成出来），就投入行动。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+708
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Comment
 status open
 
@@ -9452,7 +9672,7 @@ status open
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="2">
-<features rotate="0" tabularvalignment="middle">
+<features rotate="0" islongtable="true" longtabularalignment="center">
 <column alignment="center" valignment="top" width="6em">
 <column alignment="left" valignment="top" width="55text%">
 <row>
@@ -9614,7 +9834,7 @@ T4入侵物的第一个完整的复制品被生产出来。
 \begin_layout Standard
 尽管从一个细菌的角度来看，这种事情是一种极为严重的威胁，但从我们的大尺度的优劣观点来看，可以把它看成两名对手之间的一种娱乐性博弈：入侵者，或T方（依照病毒的T偶
 数族命名，包括T2，T4，等等），和“C”方（代表“细胞”[Cell]）。T方的目标是：为了复制自己而侵入C的细胞，并从内部接管C的细胞。C方的目标则是：保护自
-己并消灭入侵者。用这种方式描述的话，分子TC —博弈可以被认为是十分类似于前面对话中描述的宏观龟[Tortoise]蟹[Crab]之战。
+己并消灭入侵者。用这种方式描述的话，分子TC—博弈可以被认为是十分类似于前面对话中描述的宏观龟[Tortoise]蟹[Crab]之战。
 \begin_inset Note Comment
 status open
 
@@ -9728,7 +9948,7 @@ status open
 \end_layout
 
 \begin_layout Subsection*
-汉肯句子和自组蓑
+汉肯句子和自组装
 \end_layout
 
 \begin_layout Standard
