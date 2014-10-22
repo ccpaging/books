@@ -1459,8 +1459,12 @@ status open
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 阿基里斯： 还有一把吉他？太奇怪啦。说到音乐，你想过来听一听那位最对你口味的作曲家巴赫的无伴奏小提琴奏鸣曲吗？我刚买到一张这些奏鸣曲的唱片，那效果真是太捧啦。我
-现在还没从那里面醒过劲儿来呢。巴赫只用了一把小提琴就创作出了这么有趣的作品！阿基里斯： 怎么，还没劲儿？我知道到了你这样的岁数会怎么样。真遗憾，也许你应该上床读
-会儿书什么的。
+现在还没从那里面醒过劲儿来呢。巴赫只用了一把小提琴就创作出了这么有趣的作品！
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 怎么，还没劲儿？我知道到了你这样的岁数会怎么样。真遗憾，也许你应该上床读会儿书什么的。
 \end_layout
 
 \begin_layout Labeling
@@ -1571,6 +1575,7 @@ status open
 \begin_deeper
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1579,7 +1584,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0082.jpg
 	lyxscale 50
-	width 70text%
+	width 100text%
 
 \end_inset
 
@@ -1643,7 +1648,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 那好吧。也许到那时我会想出你那个字谜的正确答案，对，用你那个“图形一衬底”的暗示，把它同我的那个字谜联系起来。
+阿基里斯： 那好吧。也许到那时我会想出你那个字谜的正确答案，对，用你那个“图形—衬底”的暗示，把它同我的那个字谜联系起来。
 \end_layout
 
 \begin_layout Labeling

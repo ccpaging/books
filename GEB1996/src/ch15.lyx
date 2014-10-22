@@ -315,6 +315,7 @@ status open
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1002,18 +1003,16 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Wrap figure
-lines 0
-placement r
-overhang 0in
-width "50col%"
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0628.jpg
 	lyxscale 50
-	width 50col%
+	width 100col%
 
 \end_inset
 
@@ -1090,7 +1089,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-6 2 7
+627
 \end_layout
 
 \end_inset
@@ -2313,6 +2312,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+烟草花叶病毒。
+\end_layout
+
+\end_inset
+
 烟草花叶病毒。[选自莱宁格[A．Leninger]．《生物化学》[Biochemistry]，纽约：Worth
 \begin_inset space \space{}
 \end_inset

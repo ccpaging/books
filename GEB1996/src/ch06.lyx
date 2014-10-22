@@ -586,7 +586,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0219.jpg
 	lyxscale 50
-	width 80text%
+	width 90text%
 
 \end_inset
 
@@ -1027,6 +1027,7 @@ DNA中的消息有多大普遍性？
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1035,7 +1036,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0230.jpg
 	lyxscale 50
-	width 80text%
+	width 100text%
 
 \end_inset
 

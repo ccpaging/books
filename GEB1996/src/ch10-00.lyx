@@ -311,21 +311,10 @@ status open
 食蚁兽： 我说不好……听起来怪熟的，可我想不起来了。
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-阿基里斯： 内容非常简单。彼埃尔·德·费马，这位专业律师、业余数学家，在读一本丢番图的经典教本《算术》时，看到了这样一个方程式：
-\end_layout
-
 \begin_deeper
-\begin_layout CenterLine
-\begin_inset Formula $a^{2}+b^{2}=c^{2}$
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -334,7 +323,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0361.jpg
 	lyxscale 50
-	width 40text%
+	width 60text%
 
 \end_inset
 
@@ -353,10 +342,20 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
+
 
 \end_layout
 
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 内容非常简单。彼埃尔·德·费马，这位专业律师、业余数学家，在读一本丢番图的经典教本《算术》时，看到了这样一个方程式：
+\end_layout
+
+\begin_deeper
+\begin_layout CenterLine
+\begin_inset Formula $a^{2}+b^{2}=c^{2}$
 \end_inset
 
 
@@ -862,6 +861,43 @@ status open
 阿基里斯： 这可真有意思。那激动在你身体里休眠了，而你自己却无法从你的潜意识中把它勾出来。
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0366.jpg
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+魔带和立方架，艾舍尔（蚀版画，1957）。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 螃蟹： 正是这样。在我的大脑结构中，那种激动的潜在的复苏以某种未知的方式“编了码”，我无法随意唤醒它，必须等着偶然的环境来触发。
@@ -895,42 +931,6 @@ status open
 阿基里斯： 谢谢。让我找一个合适的角度来提这个问题。你们对艾舍尔的画《魔带和立方架》熟悉吗？
 \end_layout
 
-\begin_deeper
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/image-0366.jpg
-	lyxscale 50
-	width 60text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-魔带和立方架，艾舍尔（蚀版画，1957）。
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 \begin_inset space \hfill{}

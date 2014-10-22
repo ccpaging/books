@@ -2346,6 +2346,7 @@ status open
 \begin_deeper
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -2354,7 +2355,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0527.jpg
 	lyxscale 50
-	width 100text%
+	width 95text%
 
 \end_inset
 

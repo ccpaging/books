@@ -241,6 +241,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+“组块化”的想法
+\end_layout
+
+\end_inset
+
 “组块化”的想法：一组对象被当作一个“块”而重新看成是一个单位。其边界有点象细胞膜或国境线：它使得其内部的那一组对象构成一个独立的单位。根据不同的需要，可以考虑
 组块的内部结构，也可以不考虑。
 \end_layout
@@ -535,9 +544,9 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "48text%"
+width "40text%"
 special "none"
-height "35theight%"
+height "25theight%"
 height_special "none"
 status open
 
@@ -565,9 +574,9 @@ has_inner_box 1
 inner_pos "b"
 use_parbox 0
 use_makebox 0
-width "48text%"
+width "58text%"
 special "none"
-height "30theight%"
+height "25theight%"
 height_special "none"
 status collapsed
 
@@ -841,6 +850,7 @@ status open
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -855,9 +865,9 @@ use_parbox 0
 use_makebox 0
 width "50text%"
 special "none"
-height "35theight%"
+height "37theight%"
 height_special "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -897,7 +907,7 @@ use_parbox 0
 use_makebox 0
 width "45text%"
 special "none"
-height "35theight%"
+height "37theight%"
 height_special "none"
 status collapsed
 
@@ -1258,46 +1268,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/image-0402.png
-	lyxscale 50
-	width 90text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:60"
-
-\end_inset
-
-刘友庄绘。
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 在后面几章中，我们将讨论大脑，检验一下是否可以理解大脑的顶层——心智——而不必先去理解那些它既依赖又不依赖的较低层次。是否存在这样一些思维定律：它们可以被“隔离
 ”于那些控制着微观的脑细胞活动的低层定律？是否能把心智从大脑上“撇出来”——就象把油从汤的表面上撇出来那样——然后移植到其
 \begin_inset Note Comment
@@ -1349,6 +1319,49 @@ CJKFontFang
 阿基里斯： 我知道你们大家肯定不会相信：这个问题的答案其实近在眼前，就藏在这张图里。全部答案就是一个字——但是个无比重要的字：“无”！
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0402.png
+	lyxscale 50
+	width 70text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:60"
+
+\end_inset
+
+刘友庄绘。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 \noindent
@@ -2659,41 +2672,6 @@ status open
 
 \end_layout
 
-\begin_deeper
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/image-0421.jpg
-	width 80text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-“蚂蚁赋格”，艾舍尔作(木刻，1953)。
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 阿基里斯： ——跟踪其中某一个声部——
@@ -2741,6 +2719,42 @@ status open
 螃蟹： ——转眼就得！
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0421.jpg
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+“蚂蚁赋格”，艾舍尔作(木刻，1953)。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 \begin_inset space \hfill{}
@@ -3632,6 +3646,7 @@ status open
 \begin_deeper
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -3639,7 +3654,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0433.png
-	width 75text%
+	width 90text%
 
 \end_inset
 
@@ -3932,9 +3947,24 @@ status open
 食蚁兽： 我从未听说过这种现象。不过我承认在这一领域里我完全是个外行。
 \end_layout
 
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我也没听说过——而我对这一学科是颇为精通的，也许我自己不该这么说。我怀疑龟兄不过是在打哈哈。如今我可太了解他了。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+食蚁兽： 说到数论，又叫我想起了蚁·塞·蜚蚂，因为数论是他拿手的领域之一。事实上，他对数论作出过某些十分了不起的贡献。而马姨则在任何哪怕跟数学沾一丁点儿边的事情
+上都极其迟钝。此外，她在音乐方面的趣味不过平平而已，而塞巴斯蚁安在音乐方面极有天才。
+\end_layout
+
 \begin_deeper
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -3942,7 +3972,7 @@ status open
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0436.png
-	width 80text%
+	width 100text%
 
 \end_inset
 
@@ -3953,6 +3983,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+徙途中，兵蚁有时会用它们自己的身体搭起一座活桥。
+\end_layout
+
+\end_inset
+
 徙途中，兵蚁有时会用它们自己的身体搭起一座活桥。在这幅照片中就是这样一座桥。可以看到一个蚁群的工蚁们腿脚相连，它们的跗节肢钩在一起，顺着桥头形成许多不规则的链系
 统，一只共生的蠢鱼正在过桥，此时它处在中心部位。引自爱德华·威尔逊的《昆虫社会》！
 \end_layout
@@ -3968,20 +4007,6 @@ status open
 \end_layout
 
 \end_deeper
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-阿基里斯： 我也没听说过——而我对这一学科是颇为精通的，也许我自己不该这么说。我怀疑龟兄不过是在打哈哈。如今我可太了解他了。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-\begin_inset space \hfill{}
-\end_inset
-
-食蚁兽： 说到数论，又叫我想起了蚁·塞·蜚蚂，因为数论是他拿手的领域之一。事实上，他对数论作出过某些十分了不起的贡献。而马姨则在任何哪怕跟数学沾一丁点儿边的事情
-上都极其迟钝。此外，她在音乐方面的趣味不过平平而已，而塞巴斯蚁安在音乐方面极有天才。
-\end_layout
-
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 阿基里斯： 我非常喜欢数论。你能大能给我们讲一讲塞巴斯蚁安做

@@ -135,6 +135,24 @@ enumitem
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+frontmatter
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "ch00.lyx"
@@ -170,6 +188,22 @@ listfigurename}
 \begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mainmatter
+\end_layout
 
 \end_inset
 
@@ -350,6 +384,22 @@ filename "ch15.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "ch16.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+backmatter
+\end_layout
 
 \end_inset
 

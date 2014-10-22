@@ -522,7 +522,7 @@ status open
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Float figure
@@ -1343,7 +1343,7 @@ width "55text%"
 special "none"
 height "35theight%"
 height_special "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard
@@ -1456,7 +1456,25 @@ status open
 \end_layout
 
 \begin_layout Standard
+这里我们要回到蚁群那神秘的集体行为。它们能建造巨大而复杂的蚁穴，尽管事实上一只蚂蚁的脑中仅有约十万个神经原，几乎不可能载有关于蚁穴结构的任何信息。那么蚁穴是如何
+构造的呢？信息来自何处？特别是可以考虑一下从哪里能找到描述一个图69所示的拱的信息。它们一定是以某种方式散布在蚁群中，在等级分布中，在年龄分布中——而且很可能大
+部分在蚂蚁身体内
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+468
+\end_layout
+
+\end_inset
+
+部的物理性质中。那就是说，蚂蚁间的相互作用被其脑中存贮的信息所左右的程度，差不多等同于被其下列特点所左右的程度：如它们有六条腿，它们的身体长度是多少多少，如此等
+等。有可能存在一个人工蚁群吗？
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
@@ -1465,7 +1483,7 @@ status open
 \begin_inset Graphics
 	filename images/image-0468.png
 	lyxscale 50
-	width 100text%
+	width 90text%
 
 \end_inset
 
@@ -1498,23 +1516,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-这里我们要回到蚁群那神秘的集体行为。它们能建造巨大而复杂的蚁穴，尽管事实上一只蚂蚁的脑中仅有约十万个神经原，几乎不可能载有关于蚁穴结构的任何信息。那么蚁穴是如何
-构造的呢？信息来自何处？特别是可以考虑一下从哪里能找到描述一个图69所示的拱的信息。它们一定是以某种方式散布在蚁群中，在等级分布中，在年龄分布中——而且很可能大
-部分在蚂蚁身体内
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-468
-\end_layout
-
-\end_inset
-
-部的物理性质中。那就是说，蚂蚁间的相互作用被其脑中存贮的信息所左右的程度，差不多等同于被其下列特点所左右的程度：如它们有六条腿，它们的身体长度是多少多少，如此等
-等。有可能存在一个人工蚁群吗？
 \end_layout
 
 \begin_layout Subsection

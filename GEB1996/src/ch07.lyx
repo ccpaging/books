@@ -994,10 +994,10 @@ status open
 为了说明搬入是怎样起作用的，并且说明幻想规则是怎样能够递归地使用的，我们给出如下的推导：
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 \begin_inset Tabular
 <lyxtabular version="3" rows="12" columns="2">
-<features rotate="0" islongtable="true" longtabularalignment="center">
+<features rotate="0" tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="0pt">
 <row>
@@ -1162,7 +1162,7 @@ status open
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1231,7 +1231,7 @@ status open
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3888,6 +3888,40 @@ CJKFontFang
 周末在公园散步时，乌龟碰巧遇见了阿基里斯。
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0261.jpg
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+“螃蟹卡农”，艾舍尔作。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 \noindent
@@ -3954,41 +3988,6 @@ CJKFontFang
 阿基里斯： 啊，你在这方面真是个外行，你的口味不行。你不认为荷兰人的玩艺儿都很糟吗？
 \end_layout
 
-\begin_deeper
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout CenterLine
-\begin_inset Graphics
-	filename images/image-0261.jpg
-	width 60text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-“螃蟹卡农”，艾舍尔作。
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 \begin_inset space \hfill{}
@@ -4105,7 +4104,7 @@ width "80text%"
 special "none"
 height "40theight%"
 height_special "none"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard

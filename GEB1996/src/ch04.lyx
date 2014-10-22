@@ -175,10 +175,10 @@ status open
 
 \begin_layout Standard
 \begin_inset Float figure
-placement t
+placement h
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout CenterLine
 \begin_inset Graphics
@@ -1719,7 +1719,12 @@ CJKFontFang
 
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
-乌龟： 这是我最喜欢的游艺项目。坐在上面你感觉似乎移动了很远，其实仍在原地。阿基里斯：我知道它为什么叫你着迷。你系好安全带了吗？
+乌龟： 这是我最喜欢的游艺项目。坐在上面你感觉似乎移动了很远，其实仍在原地。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 乌龟：：
+阿基里斯： 我知道它为什么叫你着迷。你系好安全带了吗？
 \end_layout
 
 \begin_layout Labeling
@@ -1754,13 +1759,22 @@ CJKFontFang
 
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
-乌龟： 啊，风景多美啊。你看这片海滩、海边上游泳的人们、蓝色的大海、还有这座城市…阿基里斯；对，的确美不胜收。喂，瞧那边那架直升飞机，似乎朝我们这儿飞来了。现在
-它实际上几乎就在我们头顶上了。
+乌龟： 啊，风景多美啊。你看这片海滩、海边上游泳的人们、蓝色的大海、还有这座城市……
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
-乌龟： 怪事——飞机上还垂下一条缆绳来，离我们非常近。我们只要伸手就能抓得到。阿基里斯：瞧！那条缆绳的头儿上有个大钩子，上面挂着一张纸条。
+阿基里斯： 对，的确美不胜收。喂，瞧那边那架直升飞机，似乎朝我们这儿飞来了。现在它实际上几乎就在我们头顶上了。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 乌龟：：
+乌龟： 怪事——飞机上还垂下一条缆绳来，离我们非常近。我们只要伸手就能抓得到。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 乌龟：：
+阿基里斯： 瞧！那条缆绳的头儿上有个大钩子，上面挂着一张纸条。
 \begin_inset Newline newline
 \end_inset
 
@@ -1859,7 +1873,12 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
-郝晕（恶魔般地大笑）： 哈哈哈！你竟敢这么放肆！朋友，有你好瞧的。哈哈！阿基里斯：天哪！他这话是什么意思！
+郝晕（恶魔般地大笑）： 哈哈哈！你竟敢这么放肆！朋友，有你好瞧的。哈哈！
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 乌龟：：
+阿基里斯： 天哪！他这话是什么意思！
 \end_layout
 
 \begin_layout Labeling
@@ -2103,7 +2122,12 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 乌龟：：
-乌龟： 在某种情况下事情没有那么糟。事实上还有另外一种露——嗯，实际不是一种露，而是一种制剂——不，不是什么制剂，是一种、一种一乌龟：他可能是想说“煮调饮”。
+乌龟： 在某种情况下事情没有那么糟。事实上还有另外一种露——嗯，实际不是一种露，而是一种制剂——不，不是什么制剂，是一种、一种——
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 乌龟：：
+乌龟： 他可能是想说“煮调饮”。
 \end_layout
 
 \begin_layout Labeling
@@ -2306,8 +2330,12 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
-乌龟： 来过很多次，虽然我总是从艾舍尔其它的画中进来。你知道，它们在画框背后彼此相连。你一旦进了其中的一幅画，你也可以进入别的里面。阿基里斯：真的？！要是我不是
-在这儿亲眼看到了这些事，我肯定不会相信。（他们穿过一座小拱门，走了出来。）哦，瞧这两只逗人喜爱的蜥蜴！
+乌龟： 来过很多次，虽然我总是从艾舍尔其它的画中进来。你知道，它们在画框背后彼此相连。你一旦进了其中的一幅画，你也可以进入别的里面。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+阿基里斯： 真的？！要是我不是在这儿亲眼看到了这些事，我肯定不会相信。（他们穿过一座小拱门，走了出来。）哦，瞧这两只逗人喜爱的蜥蜴！
 \end_layout
 
 \begin_layout Labeling
@@ -2502,7 +2530,7 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 怪物：：
-阿基里斯： 真是活见鬼：你不觉得是这样吗，龟兄？
+阿基里斯： 真是活见鬼！你不觉得是这样吗，龟兄？
 \end_layout
 
 \begin_layout Labeling
@@ -2566,7 +2594,12 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 怪物：：
-乌龟： 嗯，你刚才说“我愿……”，你既然只是在问一件事，干吗不用问句？阿基里斯：好吧，虽然我不明白为什么。告诉我，怪物——什么是元愿望？
+乌龟： 嗯，你刚才说“我愿……”，你既然只是在问一件事，干吗不用问句？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 怪物：：
+阿基里斯： 好吧，虽然我不明白为什么。告诉我，怪物——什么是元愿望？
 \end_layout
 
 \begin_layout Labeling

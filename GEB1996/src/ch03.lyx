@@ -197,178 +197,37 @@ status open
 的推导：
 \end_layout
 
-\begin_layout Standard
-\begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="3">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="left" valignment="top">
-<column alignment="left" valignment="top">
-<column alignment="left" valignment="top">
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-（1）
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
+\begin_layout Enumerate
 \begin_inset Formula $--q--t-$
 \end_inset
 
 
-\end_layout
-
+\begin_inset space \qquad{}
 \end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
 
-\begin_layout Plain Layout
 （公理）
 \end_layout
 
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-（2）
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
+\begin_layout Enumerate
 \begin_inset Formula $----q--t--$
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+（用推理规则，（1）作为已有定理）
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-（用推理规则，
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset space \qquad{}
-\end_inset
-
-（1）作为已有定理）
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-（3）
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
+\begin_layout Enumerate
 \begin_inset Formula $------q--t--$
 \end_inset
 
 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-（用推理规则，
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset space \qquad{}
+\begin_inset Newline newline
 \end_inset
 
-（2）作为已有定理）
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
+（用推理规则，（2）作为已有定理）
 \end_layout
 
 \begin_layout Standard
@@ -673,14 +532,14 @@ status open
 lines 0
 placement L
 overhang 0in
-width "45text%"
+width "50text%"
 status open
 
 \begin_layout CenterLine
 \begin_inset Graphics
 	filename images/image-0092.jpg
 	lyxscale 50
-	width 40text%
+	width 50text%
 
 \end_inset
 
