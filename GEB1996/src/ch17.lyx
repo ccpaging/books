@@ -93,7 +93,11 @@ enumitem
 \begin_body
 
 \begin_layout Chapter
-丘奇、图灵、塔斯基及别的人
+丘奇、图灵、
+\begin_inset Newline newline
+\end_inset
+
+塔斯基及别的人
 \end_layout
 
 \begin_layout Subsection*
@@ -109,55 +113,50 @@ enumitem
 
 \begin_layout Standard
 象这样一种对大脑的看法，肯定会有很多哲学的和其它方面的推论。我打算在这一章里详细地说明这样一些推论。其中之一是说，这种看法似乎蕴涵着：从本质上讲，大脑是某种“数
-学”对象。
+学”对象。其实，这充其量也不过是看待大脑的一种十分笨拙的办法。因为即便在技术意义或抽象意义上说大脑是某种类型的形式系统，仍然无法摆脱下面的事实：数学家只与那些简
+单的、考究的形式系统打变道，在那些系统中，一切东西都有着极为清晰的定义。而大脑则与此大相径庭，它的上百亿个不完全独立的神经原彼此是近乎随机地相联接的。所以，数学
+家决不会去研究实际的大脑网络。如果
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+735
 \end_layout
 
-\begin_layout Standard
-其实，这充其量也不过是看待大脑的一种十分笨拙的办法。因为即便在技术意义或抽象意义上说大脑是某种类型的形式系统，仍然无法摆脱下面的事实：数学家只与那些简单的、考究
-的形式系统打变道，在那些系统中，一切东西都有着极为清晰的定义。而大脑则与此大相径庭，它的上百亿个不完全独立的神经原彼此是近乎随机地相联接的。所以，数学家决不会去
-研究实际的大脑网络。如果
+\end_inset
+
+你把“数学”定义为数学家喜欢作的事情，那么大脑的性质就不是数学性质了。要想了解象大脑这样的复杂系统，唯一的方法是在越来越高的层次上对之组块，因而每一步都要损失一
+些严格性。出现在最顶层上的，是一个“非形式系统”，它要服从许多复杂到我们找不到合适的词汇去思考的规律。而这正是人工智能的研究所想找到的东西。它具有与数学研究大不
+相同的味道。尽管如此，还是与数学有个松散的联系：从事人工智能研究的人，通常都有很强的数学背景，并且，数学家有时也会对自己大脑的工作感兴趣。下面这段文字引自斯坦尼
+斯拉夫·乌兰姆的自传《一位数学家的奇遇》，正好说明了这一点。
 \end_layout
 
-\begin_layout Standard
-735你把“数学”定义为数学家喜欢作的事情，那么大脑的性质就不是数学性质了。
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
 \end_layout
 
-\begin_layout Standard
-要想了解象大脑这样的复杂系统，唯一的方法是在越来越高的层次上对之组块，因而每一步都要损失一些严格性。出现在最顶层上的，是一个“非形式系统”，它要服从许多复杂到我
-们找不到合适的词汇去思考的规律。而这正是人工智能的研究所想找到的东西。它具有与数学研究大不相同的味道。尽管如此，还是与数学有个松散的联系：从事人工智能研究的人，
-通常都有很强的数学背景，并且，数学家有时也会对自己大脑的工作感兴趣。下面这段文560字引自斯坦尼斯拉夫·乌兰姆的自传《一位数学家的奇遇》，正好说明了这一点。
+\end_inset
+
+依我看，在揭示……联想的本质时，有了计算机提供的实验手段，就可以做更多的事情了。这种研究必定要把概念、符号、符号组成的类、类组成的类等等进行分级，就象在研究数学
+和物理结构的复杂性时所做的那样。人脑的思维过程一定有某种窍门——某种递归公式。一组神经原能自动开始工作，有时用不着外来刺激，而是靠一个具有递增模式的迭代过程。它
+在大脑中游来荡去，而且，它的发生方式必定依赖于对类似模式的记忆。
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+斯坦尼斯拉夫·鸟兰姆，《一位数学家的奇遇》，第13页。
 \end_layout
 
-\begin_layout Standard
-依我看，在揭示……联想的本质时，有了计算机提供的
-\end_layout
+\end_inset
 
-\begin_layout Standard
-实验手段，就可以做更多的事情了。这种研究必定要把概念、
-\end_layout
 
-\begin_layout Standard
-符号、符号组成的类、类组成的类等等进行分级，就象在研究
-\end_layout
-
-\begin_layout Standard
-数学和物理结构的复杂性时所做的那样。
-\end_layout
-
-\begin_layout Standard
-人脑的思维过程一定有某种窍门——某种递归公式。一
-\end_layout
-
-\begin_layout Standard
-组神经原能自动开始工作，有时用不着外来刺激，而是靠一个
-\end_layout
-
-\begin_layout Standard
-具有递增模式的迭代过程。它在大脑中游来荡去，而且，它的
-\end_layout
-
-\begin_layout Standard
-发生方式必定依赖于对类似模式的记忆。①
 \end_layout
 
 \begin_layout Subsection*
@@ -165,161 +164,180 @@ enumitem
 \end_layout
 
 \begin_layout Standard
-人工智能[Artificial Intelligence]带被简称为“Al"。如果要我
+人工智能[Artificial
+\begin_inset space \space{}
+\end_inset
+
+Intelligence]带被简称为“AI”。如果要我来解释这两个字母的涵义，我会说它也可以被理解为“人工直觉[Artificial
+\begin_inset space \space{}
+\end_inset
+
+Intuition]
+\begin_inset Quotes erd
+\end_inset
+
+或“人工意象[Artificial
+\begin_inset space \space{}
+\end_inset
+
+Imagery]
+\begin_inset Quotes erd
+\end_inset
+
+。人工智能的目标是要弄清，当人的大脑在一种十分复杂的环境中不动声色地从大量可能性中选择哪一种最为合理时，会发生什么事。在现实生活的许多场合，演绎推理之所以不适用
+，并不是因为它会得出
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+736
+\end_layout
+
+\end_inset
+
+错误答案，而是因为它会得到过多的正确然而无关的断言。为了满足推理本身的充分性，需要同时考虑的东西也就太多了。请看这样一段很短的对话：
+\end_layout
+
+\begin_layout Quote
+“天，我从报上读到——”
+\end_layout
+
+\begin_layout Quote
+“噢——你曾读报来着？那就可知你有眼睛。或者说至少有一只眼睛。或者更确切地说你那时至少有一只眼睛。
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-来解释这两个字母的涵义，我会说它也可以被理解为“人工直觉
-\end_layout
-
-\begin_layout Standard
-[Artificial Intuition]力或“人工意象[Artificiallmagery]一。人工智
-\end_layout
-
-\begin_layout Standard
-能的目标是要弄清，当人的大脑在一种十分复杂的环境中不动声
-\end_layout
-
-\begin_layout Standard
-色地从大量可能性中选择哪一种最为合理时，会发生什么事。在现
-\end_layout
-
-\begin_layout Standard
-实生活的许多场合，演绎推理之所以不适用，并不是因为它会得出
-\end_layout
-
-\begin_layout Standard
-7 36错误答案，而是因为它会得到过多的正确然而无关的断言。为了满足推理本身的充分性，需要同时考虑的东西也就太多了。请看这样一段很短的对话：
-\end_layout
-
-\begin_layout Standard
-“ 天，我从报上读到——”
-\end_layout
-
-\begin_layout Standard
-“噢——你曾读报来着？那就可知你有眼睛。或者说至少有一
-\end_layout
-
-\begin_layout Standard
-只眼睛。或者更确切地说你那时至少有一只眼睛。"
-\end_layout
-
-\begin_layout Standard
-这就需要一种辨别的能力——“在这里，什么东西重要，什么不重要？”与此相关联的，是一种对简洁的感受力和对美的感受力。
-\end_layout
-
-\begin_layout Standard
-这些直觉是从哪来的呢？它们是怎样从作为基础的形式系统中显现出来的？
+这就需要一种辨别的能力——“在这里，什么东西重要，什么不重要？”与此相关联的，是一种对简洁的感受力和对美的感受力。这些直觉是从哪来的呢？它们是怎样从作为基础的形
+式系统中显现出来的？
 \end_layout
 
 \begin_layout Standard
 《的确该赞美螃蟹》里显示了螃蟹智慧的一些非凡力量。按他自己对这种力量的说法，他只不过是在听音乐，并区分优美的音乐和不优美的音乐。（显然，他有一条明确的分界线。）
 然后，阿基里斯找到了另一种描述螃蟹能力的方法：螃蟹把数论陈述分为真的和假的两个范畴。可是螃蟹坚持说，如果他真的做到了这一点，那也纯属偶然，因为按照他自己所承认的
-，他在数学方面是无知的。然而更加使阿基里斯不解的是，螃蟹的行为看上去直接违背了阿基里斯所熟悉的一项备受称颂的元数学结果：丘奇定理：没有一个切实可靠的方法总能区分
-开TNT的定理和
+，他在数学方面是无知的。然而更加使阿基里斯不解的是，螃蟹的行为看上去直接违背了阿基里斯所熟悉的一项备受称颂的元数学结果：
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 丘奇
+
+\family typewriter
+丘奇定理
+\family default
+： 没有一个切实可靠的方法总能区分开TNT的定理和非定理。
 \end_layout
 
 \begin_layout Standard
-非定理0 561这是美国逻辑学家丘奇于1936年证明的。与此密切相关妁是下面这个结果，我称之为塔斯基一丘奇一图灵定理：没有一种切实可靠的方法总能区分开
+这是美国逻辑学家丘奇于1936年证明的。与此密切相关的是下面这个结果，我称之为
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 丘奇
+
+\family typewriter
+塔斯基—丘奇—图灵定理
+\family default
+： 没有一种切实可靠的方法总能区分开真的数论语句和假的数论语句。
+\end_layout
+
+\begin_layout Subsection*
+丘奇—图灵论题
 \end_layout
 
 \begin_layout Standard
-真的数论语句和假的数论语句。丘奇一图灵论题为了更好地理解丘奇定理和塔斯基一丘奇一图灵定理，我们
+为了更好地理解
+\family typewriter
+丘奇定理
+\family default
+和
+\family typewriter
+塔斯基—丘奇—图灵定理
+\family default
+，我们
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+737
+\end_layout
+
+\end_inset
+
+先得描述一下作为它们的基础的一种思想，那就是丘奇—图灵论题（通常也叫“丘奇论题”），因为丘奇—图灵论题确实是数学、大脑及思维的哲学中最重要的概念之一。
 \end_layout
 
 \begin_layout Standard
-73 7先得描述一下作为它们的基础的一种思想，那就是丘奇一图灵论题（通常也叫“丘奇论题”），因为丘奇一图灵论题确实是数学、大脑及思维的哲学中最重要的概念之一。
+实际上，象泡茶一样，丘奇—图灵论题也能有各种不同的浓度。所以，我要以好几种形式来表述它，并且看看这些不同的形式各自蕴涵着什么。
 \end_layout
 
 \begin_layout Standard
-实际上，象泡茶一样，丘奇一图灵论题也能有各种不同的浓度。所以，我要以好几种形式来表述它，并且看看这些不同的形式各自蕴涵着什么。
+第一种形式听起来十分幼稚——事实上几乎是空洞无物：丘奇—图灵论题，同义反复形式：数学问题只能通过数学推演来解决。
 \end_layout
 
 \begin_layout Standard
-第一种形式听起来十分幼稚——事实上几乎是空洞无物：丘奇一图灵论题，同义反复形式：数学问题只能通过数学推演来解决。
+自然，整体的意义寓于作为组成成分的各术语的意义之中。所谓“数学问题”，我指的是判定某个数是否具有一个给定的算术性质。看得出，借助于哥法尔配数法和相应的编码手段，
+几乎每一个数学分支的每一个问题都能归入这种形式。所以，“数学问题”一词仍保持其通常含义。“数学推演”又怎么讲呢？当你试图确定一个数是否具有某种性质时，似乎只有一
+遍又一遍地结合使用很少量的几个运算——加法、乘法、验证相等与不等。这就是说，循环地使用这些运算，好象就是使我们得以深究数的世界的唯一工具。要注意“好象”这个词。
+这是有关丘奇—图灵论题的关键字眼。我们可以给出一个“修订本”：
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 丘奇
+丘奇—图灵论题，标准形式： 假设有一种方法，一个有感知能力的生物可以棂据这种方法逐个把数分成两类。又假定这种方法总能在有穷时间内得出答案，而且对于给定的数，这种
+方法总给出相同的答案。那么：存在一个有终止的FlooP程序（即一般递归函数），它给出的答案恰好与这个有感知能力的生物的方法所得到的答案一样。
 \end_layout
 
 \begin_layout Standard
-自然，整体的意义寓于作为组成成分的各术语的意义之中。所谓“数学问题珑，我指的是判定某个数是否具有一个给定的算术性质。看得出，借助于哥法尔配数法和相应的编码手段，
-几乎每一个数学分支的每一个问题都能归入这种形式。所以，“数学问题’’一词仍保持其通常含义。“数学推演”又怎么讲呢？当你试图确定一个数是否具有某种性质时，似乎只有
-一遍又一遍地结合使用很少量的几个运算——加法、乘法、验证相等与不等。这就是说，循环地使用这些运算，好象就是使我们得以深究数的世界的唯一工具。要注意“好象”这个词
-。这是有关丘奇一图灵论题的关键字眼。我们可以给出一个“修订本”：丘奇一图灵论题，标准形式：假设有一种方法，一个有感知能力的
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-生物可以棂据这种方法逐个把数分成两类。又假定这种方法
-\end_layout
-
-\begin_layout Standard
-总能在有穷时间内得出答案，而且对于给定的数，这种方法
-\end_layout
-
-\begin_layout Standard
-总给出相同的答案。那么：存在一个有终止的FIooP程序（即
-\end_layout
-
-\begin_layout Standard
-一般递归函数），它给出的答案恰好与这个有感知能力的生
-\end_layout
-
-\begin_layout Standard
-物的方法所得到的答案一样。
-\end_layout
-
-\begin_layout Standard
 中心假设说穿了就是：把数分成两类的任何一个心智过程都可以用FlooP程序来描述。直觉上的一个信念是，这种心智过程中
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+738
 \end_layout
 
-\begin_layout Standard
-7 3 8没有使用什么超出了FlooP能力的工具，而且使用这些工具的方562式也没有超出不限次数的迭代(FlooP允许这么做)。丘奇一图灵论题不是数学定理意义上
-的一个可证的事实——它是有关人脑中所使用的过程的一个假设。
+\end_inset
+
+没有使用什么超出了FlooP能力的工具，而且使用这些工具的方式也没有超出不限次数的迭代(FlooP允许这么做)。丘奇—图灵论题不是数学定理意义上的一个可证的事实
+——它是有关人脑中所使用的过程的一个假设。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 大众过程形式
 \end_layout
 
 \begin_layout Standard
-此刻，有些人可能会感到，丘奇一图灵论题的这种形式断定的东西太多。这些人可以提出如F的反对意见：“也许有象螃蟹这样的人——他对数学有着几乎是神奇的洞察力，但象其他
-人一样，他自己对这种特殊能力也一无所知——那么这种人的心智机制大概就能执行在FIooP中找不到对应物的运算。”这釉想法就是说：或， 许我们会有一些下意识的潜力，
-可以做出超越意识过程的事情一这些事情大概无法用基本FloaP运算表示。对这些反对派，我们将给出该论题的一个弱形式，它在大？众的和个人的心智过程之间作了区分。
+此刻，有些人可能会感到，丘奇—图灵论题的这种形式断定的东西太多。这些人可以提出如下的反对意见：“也许有象螃蟹这样的人——他对数学有着几乎是神奇的洞察力，但象其他
+人一样，他自己对这种特殊能力也一无所知——那么这种人的心智机制大概就能执行在FlooP中找不到对应物的运算。”这种想法就是说：或许我们会有一些下意识的潜力，可以
+做出超越意识过程的事情——这些事情大概无法用基本FlooP运算表示。对这些反对派，我们将给出该论题的一个弱形式，它在大众的和个人的心智过程之间作了区分。
 \end_layout
 
-\begin_layout Standard
-丘奇一图灵论题，大众过程形式：假设有一种方法，一个有感
-\end_layout
-
-\begin_layout Standard
-知能力的生物可以根据它逐个把数分成两类。又假设这
-\end_layout
-
-\begin_layout Standard
-种方法总能在有穷的时间内得出结果，并且对给定的数
-\end_layout
-
-\begin_layout Standard
-它总能给出相同的结果。伺时，还要假定这种方法可以
-\end_layout
-
-\begin_layout Standard
-通过语言由一个有感知能力的生物不走样地传达给另
-\end_layout
-
-\begin_layout Standard
-一个有感知能力的生物。那么，存在一个有终止的FlooP
-\end_layout
-
-\begin_layout Standard
-程序（郎一般递归函数），它给出的答案恰好和这个有感
-\end_layout
-
-\begin_layout Standard
-知能力的生物的方法所得到的答案一样。
+\begin_layout Labeling
+\labelwidthstring 丘奇
+丘奇—图灵论题，大众过程形式： 假设有一种方法，一个有感知能力的生物可以根据它逐个把数分成两类。又假设这种方法总能在有穷的时间内得出结果，并且对给定的数它总能给
+出相同的结果。同时，还要假定这种方法可以通过语言由一个有感知能力的生物不走样地传达给另一个有感知能力的生物。那么，存在一个有终止的FlooP程序（即一般递归函数
+），它给出的答案恰好和这个有感知能力的生物的方法所得到的答案一样。
 \end_layout
 
 \begin_layout Standard
 这就是说，大众接受的方法受“FlooP化过程”的管辖，但对个人特有的方法，它却什么也没断定。当然它并没有说个人特有的方法都是FlooP力所不及的，不过至少还是留
-有这样的余地。73 9
+有这样的余地。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+739
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -327,108 +345,82 @@ enumitem
 \end_layout
 
 \begin_layout Standard
-作为反驳任何一种强形式丘奇一图灵论题的证据，我们来看看二十世纪初叶著名的印度数学家湿利尼吠萨·拉玛奴衍(1887-1920)（图1 05）这个实例。他出生于印度
-最南部的泰米尔邦，高中时学过一点数学。一天，一个认为拉玛奴衍有数学天分的人，介绍他看一本略为过时的分析教科书，拉玛奴衍立即狼吞虎咽起来。于是他开始突入分析世界，
-二十三岁前后，他就已作出了一些他认为值得花费时间的发现。他不知道该向谁求教。可不知怎么回事，有入就谈到了远在英国的一位数学教授——哈代。于是拉563玛奴衍把他最
-好的一些结果全都装进一个纸袋，连同朋友们帮他用英文写的一封说明信一起，寄给事先毫不知情的哈代。下面这段话录自哈代对自己接到这包东西时的描述：
+作为反驳任何一种强形式丘奇—图灵论题的证据，我们来看看二十世纪初叶著名的印度数学家湿利尼吠萨·拉玛奴衍(1887-1920)（图105）这个实例。他出生于印度最
+南部的泰米尔邦，高中时学过一点数学。一天，一个认为拉玛奴衍有数学天分的人，介绍他看一本略为过时的分析教科书，拉玛奴衍立即狼吞虎咽起来。于是他开始突入分析世界，二
+十三岁前后，他就已作出了一些他认为值得花费时间的发现。他不知道该向谁求教。可不知怎么回事，有入就谈到了远在英国的一位数学教授——哈代。于是拉玛奴衍把他最好的一些
+结果全都装进一个纸袋，连同朋友们帮他用英文写的一封说明信一起，寄给事先毫不知情的哈代。下面这段话录自哈代对自己接到这包东西时的描述：
+\end_layout
+
+\begin_layout Quotation
+……一下子就能看出，拉玛奴衍一定还有很多更普遍的定理，肯定还藏着很多东西……。（有些公式）完全使我折服了。以前我从未见过任何一种哪怕是稍许类似的东西。仅仅看一眼
+就足以说明只有最高水平的数学家才写得出来。它们必定是真的，因为假如它们不真，不可能会有人具备杜撰它们的想象力。最后……作者肯定百分之百地诚实，因为大数学家比具有
+如此难以置信的技巧的窃贼或骗子更常见
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+詹姆斯·纽曼[James
+\begin_inset space \space{}
+\end_inset
+
+R.
+\begin_inset space \space{}
+\end_inset
+
+Neuman]．“湿利尼吠萨·拉玛奴衍”，载詹姆斯·纽曼编的《数学世界》[The Worlcl of Mathematics]，纽约，Simon
+ and Schuster.
+ 1956年版，第一卷，第372- 373页。
+\end_layout
+
+\end_inset
+
+。
 \end_layout
 
 \begin_layout Standard
-．．一下子就能看出，拉玛奴衍一定还有很多更普遍的
+\begin_inset space \qquad{}
+\end_inset
+
+这次通信的结果是，拉玛奴衍根据哈代的建议，于1913年来到英国，随后就开始了一场以拉玛奴衍三十三岁早逝于肺结核为结局的紧张合作。
 \end_layout
 
 \begin_layout Standard
-定理，肯定还藏着很多东西……。（有些公式）完全使我折服
+拉玛奴衍具有一些使他有别于大多数数学家的极不寻常的特点。其中之一是他缺乏严格性。他常常会简单地陈述一个结果，他坚持认为他只是靠模糊的直觉得出这个结果的，与那个自
+觉地进行研究探索的王国全不相干。事实上，他常说女神娜摩吉利在梦中
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+740
+\end_layout
+
+\end_inset
+
+给他灵感。这种情形一再发生。使之更加神秘——也许甚至是使之充满了神奇特性——的是，拉玛奴衍的这些“直觉定理”中有很多是错的。世上有一种奇怪的悖论效果：一件你认为
+不会促使人们轻信，而是会使易轻信的人变得开始怀疑的事情，实际上却具有相反的效果。因为它击中了轻信者心理上的弱点，用暗示人类本性中一些令人困惑的非理性侧面的办法吊
+起了他们的胃口。这就是拉玛奴衍出错时所发生的情形：很多受过教育的人，以一种强烈的倾慕之心，相信某些被看成拉玛奴衍的直觉能力的东西，认为它证明了有一种神奇的、洞察
+真理的力量存在，而他难免出错这一事实甚至可能是加强了——而不是削弱了——这种信念。
 \end_layout
 
 \begin_layout Standard
-了。以前我从未见过任何一种哪怕是稍许类似的东西。仅仅
-\end_layout
+图105.湿利尼吠·拉玛奴衍及其神奇的印度旋律之一。
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-看一眼就足以说明只有最高水平的数学家才写得出来。它们
-\end_layout
-
-\begin_layout Standard
-必定是真的，因为假如它们不真，不可能会有人具备杜撰它们
-\end_layout
-
-\begin_layout Standard
-的想象力。最后……作者肯定百分之百地诚实，因为大数学家
-\end_layout
-
-\begin_layout Standard
-比具有如此难以置信的技巧的窃贼或骗子更常见@o
-\end_layout
-
-\begin_layout Standard
-逮次通信的结果是，拉玛奴衍根据哈代的建议，于1 9 1 3年来
-\end_layout
-
-\begin_layout Standard
-到英国，随后就开始了一场以拉玛奴衍三十三岁早逝于肺结核为
-\end_layout
-
-\begin_layout Standard
-结局的紧张合作。
-\end_layout
-
-\begin_layout Standard
-拉玛奴衍具有一些使他有别于大多数数学家的极不寻常的特
-\end_layout
-
-\begin_layout Standard
-点。其中之一是他缺乏严格性口他常常会简单地陈述_个结果，他564坚持认为他只是靠模糊的直觉得出这个结果的，与那个自觉地进
-\end_layout
-
-\begin_layout Standard
-行研究探索的王国全不相干。事实上，他常说女神娜摩吉利在梦中
-\end_layout
-
-\begin_layout Standard
-740给他灵感。这种情形一再发生。使之更加神秘——也许甚至是使之充满了神奇特性——的是，拉玛奴衍的这些“直觉定理”中有很多是错的。世上有一种奇怪的悖论效果：一件
-你认为不会促使人们轻信，而是会使易轻信的人变得开始怀疑的事情，实际上却具有相反的效果。因为它击中了轻信者心理上的弱点，用暗示人类本性中一些令人困惑的非理性侧面的
-办法吊起了他们的胃
-\end_layout
-
-\begin_layout Standard
-1T≯：矿一一
-\end_layout
-
-\begin_layout Standard
-l+e6 r-
-\end_layout
-
-\begin_layout Standard
-1+
-\end_layout
-
-\begin_layout Standard
-焉厢，<一∽孑咖
-\end_layout
-
-\begin_layout Standard
-2
-\end_layout
-
-\begin_layout Standard
-／
-\end_layout
-
-\begin_layout Standard
-图105.湿利尼吠v·拉玛奴衍及其神奇的印度旋律之一。口。这就是拉玛奴衍出错时所发生的情形：很多受过教育的人，以一种强烈的倾慕之心，相信某些被看成拉玛奴衍的直觉能
-力的东西，认为它证明了有一种神奇的、洞察真理的力量存在，而他难免出错这一事实甚至可能是加强了——而不是削弱了——这种信念。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 741
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 当然，没人否认拉玛奴衍来自印度最落后的地区。在那里，行乞化缘和其它一些古里古怪的印度习俗已经沿袭了数千年，而且还将继续下去，其频繁程度大概要超过高等数学课。拉玛
-奴衍的那些偶然的失误并没有提醒人们认清他只是个人，反倒自相矛盾地激起了一种想法：他的错误总有某种“更深刻的正确性’’——某种西方人的心智或许不可企及的“东方的”
-正确性。这是多么诱人而且近乎无法抵御的想法啊！即便是哈代——他该是第一个否认拉玛奴衍有特异功能的人——在谈到拉玛奴衍的某次失败时也说：“从某种意义上说，我并不认
-为他的这次失败就不比任何一次成功更精彩。力
+奴衍的那些偶然的失误并没有提醒人们认清他只是个人，反倒自相矛盾地激起了一种想法：他的错误总有某种“更深刻的正确性”——某种西方人的心智或许不可企及的“东方的”正
+确性。这是多么诱人而且近乎无法抵御的想法啊！即便是哈代——他该是第一个否认拉玛奴衍有特异功能的人——在谈到拉玛奴衍的某次失败时也说：“从某种意义上说，我并不认为
+他的这次失败就不比任何一次成功更精彩。”
 \end_layout
 
 \begin_layout Standard
@@ -436,278 +428,335 @@ l+e6 r-
 轶事可以说明他的这种特殊能力。第一则为哈代所讲：
 \end_layout
 
-\begin_layout Standard
-记得有一次他生病住在普特涅，我去看他，乘的是一部
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
+记得有一次他生病住在普特涅，我去看他，乘的是一部号码为1729的出租马车，我注意到对这个数我翻不出什么花样，只希望它不是什么凶兆。“不”，他听后答道，“这是个很
+有意思的数：它是能用两种不同方法表示成两个数的立方和的最小的数。”自然，我就问他是否知道对应于四次方的这样一个问题的答案。他想了一会，回答说他一下子找不到例子，
+第一个这样的数一定很大。
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+同上，第375页。
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-号码为1 7 2 9的出租马车，我注意到对这个数我翻不出什么花
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-样，只希望它不是什么凶兆。“不”，他听后答道，“这是个很有
-\end_layout
-
-\begin_layout Standard
-意思的数：它是能用两种不同方法表示成两个数的立方和的
-\end_layout
-
-\begin_layout Standard
-最小的数。"自然，我就问他是否知道对应于四次方的这样一
-\end_layout
-
-\begin_layout Standard
-介问题的答案。他想了一会，回答说他一下子找不到例子，第
-\end_layout
-
-\begin_layout Standard
-一个这样的数一定很大。③
-\end_layout
-
-\begin_layout Standard
 实际上，对于四次方，答案是：
 \end_layout
 
 \begin_layout Standard
-635318657—l344+1334 =1584+594565 读者会发现，动手解一解有关二次方的类似问题肯定很有意思，而这就要容易得多了。
+\begin_inset Formula $635318657=134^{4}+133^{4}=158^{4}+59^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+读者会发现，动手解一解有关二次方的类似问题肯定很有意思，而这就要容易得多了。
 \end_layout
 
 \begin_layout Standard
 考虑一下哈代为什么会直接跳到四次方去，其实是很有意思的。因为毕竟是存在好几种合理而又自然的方式，能在不同的维
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+742
+\end_layout
+
+\end_inset
+
+度上推广方程
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $u^{3}+v^{3}=x^{3}+y^{3}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-7 42度上推广方程
+例如，把一个数用三种不同方法表示成两个立方之和的问题：
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $r^{3}+s^{3}=u^{3}+v^{3}=x^{3}+y^{3}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-U3+V3= X3+y3例如，把一个数用三种不同方法表示成两个立方之和的问题：
+或者，可以用三个不同的立方数：
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $u^{3}+v^{3}+w^{3}=x^{3}+y^{3}+z^{3}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-r3+s3= U3+V3= X3+y3或者，可以用三个不同的立方数：
+或者，甚至可以同时对所有的维度都推广：
+\end_layout
+
+\begin_layout Quote
+\begin_inset Formula $r^{4}+s^{4}+t^{4}=u^{4}+v^{4}+w^{4}=x^{4}+y^{4}+z^{4}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-LI3+V3+W3= X3+y3+23或者，甚至可以同时对所有的维度都推广：
-\end_layout
-
-\begin_layout Standard
-r4+s4+t4=U4+V4+W4= x'+y4+zt即：“能用三种不同方法表示成三个数的四次方之和的最小数是什么？”不过，从某种意义上来说，哈代的推广是“大多
-数数学家所倾向的”。这样一种数学美学的意义最终能不能得以程序化呢？
+即：“能用三种不同方法表示成三个数的四次方之和的最小数是什么？”不过，从某种意义上来说，哈代的推广是“大多数数学家所倾向的”。这样一种数学美学的意义最终能不能得
+以程序化呢？
 \end_layout
 
 \begin_layout Standard
 另一则轶事出自拉玛奴衍的同胞拉戈那罕为他所写的传记，传记中称这件事为“拉玛奴衍的闪念”，那是拉玛奴衍在剑桥时代的印度朋友玛哈拉诺比斯博士讲述的。
 \end_layout
 
-\begin_layout Standard
-又有一次，我去他家吃午饭，当时第一次世界大战已经
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
 \end_layout
 
-\begin_layout Standard
-打了一些时候了。我手里拿着一份《海滨杂志》月刊，当时这家
+\end_inset
+
+又有一次，我去他家吃午饭，当时第一次世界大战已经打了一些时候了。我手里拿着一份《海滨杂志》月刊，当时这家杂志常发表一些谜题供读者解答。拉玛奴衍正把锅坐在火上，在
+里面搅拌着什么东西准备午饭，我则坐在桌子旁边翻阅杂志。有一个涉及两个数之间的关系的问题吸引了我。问题的细节已经忘了，不过我还记得它的类型。是说两名英国军官住在巴
+黎一条长街上的两所房子里，其门牌号码有某种特殊的联系，问题就是：求出这两个数。题目并不难，我通过尝试、订正，花了几分钟就解出来了。
 \end_layout
 
-\begin_layout Standard
-杂志常发表一些谜题供读者解答。拉玛奴衍正把锅坐在火上，
-\end_layout
-
-\begin_layout Standard
-在里面搅拌着什么东西准备午饭，我则坐在桌子旁边翻阅杂
-\end_layout
-
-\begin_layout Standard
-志。有一个涉及两个数之间的关系的问题吸引了我。问题的
-\end_layout
-
-\begin_layout Standard
-细节已经忘了，不过我还记得它的类型。是说两名英国军官住
-\end_layout
-
-\begin_layout Standard
-在巴黎一条长街上的两所房子里，其门牌号码有某种特殊的
-\end_layout
-
-\begin_layout Standard
-联系，问题就是：求出这两个数。题目并环难，我通过尝试、订
-\end_layout
-
-\begin_layout Standard
-正，花了几分钟就解出来了。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quotation
 玛哈拉诺比斯（开玩笑地）：有个问题你。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 拉玛奴衍：什么问题？说吧。（他继续在锅里搅着。）
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
+\noindent
 我把《海滨杂志》上的问题读了一遍。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 拉玛奴衍：请把答案记下来。（他念出一个连分数。）
-\end_layout
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 743
 \end_layout
 
-\begin_layout Standard
-连分数的第一项是我已经得到的解，以后的逐个的项则表示
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-了如果街上的门牌号数可以无限制地增长下去时，两个数之
+\begin_layout Quotation
+\noindent
+连分数的第一项是我已经得到的解，以后的逐个的项则表示了如果街上的门牌号数可以无限制地增长下去时，两个数之间的同种类型的关系的问题的逐个答案。我感到十分惊奇。
 \end_layout
 
-\begin_layout Standard
-间的同种类型的关系的问题的逐个答案。我感到十分惊奇。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quotation
 玛拉哈诺比斯：你一眨眼之间就得到这个解了吗？
 \end_layout
 
-\begin_layout Standard
-拉玛奴衍：我一听到这个问题就明显感到，解显然是一个
+\begin_layout Quotation
+拉玛奴衍：我一听到这个问题就明显感到，解显然是一个连分数，于是我就想：“是个什么样的连分数呢？”然后答案就在我脑子是出现了。就是这么简单。
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+拉戈纳罕[S.
+ R.
+ Ranganathan]，《拉玛奴衍》，第81-82页。
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-连分数，于是我就想：“是个什么样的连分数呢？”然
+\begin_inset space \qquad{}
+\end_inset
+
+拉玛奴衍逝世之后，常有人向他的最密切的合作者哈代问起，拉玛奴衍的思维方式是否有什么超自然的或异国情调的奇异因素。哈代作了如下的评述：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
+我曾不时地被人问起：拉玛奴衍是否有什么特殊的奥秘？他的方法是否与其他数学家有实质上的不同？他的思维方式是否确实有什么不正规的东西？我无法以任何自信的或有说服力的
+方式来回答这些问题，不过我并不相信那些假设。我的信念是，从本质上讲，所有的数学家都在用同一性质的方法思维，拉玛奴衍也不例外。
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+纽曼书，第375页。
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-后答案就在我脑子是出现了。就是这么简单。④
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-拉玛奴衍逝世之后，常有人向他的最密切的合作者哈代问起，拉玛奴衍的思维方式是否有什么超自然的或异国情调的奇异因566紊。哈代作了如下的评述：
-\end_layout
-
-\begin_layout Standard
-我曾不时地被人问起：拉玛奴衍是否有什么特殊的奥
-\end_layout
-
-\begin_layout Standard
-秘？他的方法是否与其他数学家有实质上的不同？他的思维
-\end_layout
-
-\begin_layout Standard
-方式是否确实有什么不正规的东西？我无法以任何自信的或
-\end_layout
-
-\begin_layout Standard
-有说服力的方式来回答这些问题，不过我并不相信那些假设t
-\end_layout
-
-\begin_layout Standard
-我的信念是，从本质上讲，所有的数学家都在用同一性质的方
-\end_layout
-
-\begin_layout Standard
-法思维，拉玛奴衍也不例外。国
-\end_layout
-
-\begin_layout Standard
-哈代在这里其实是在陈述他自己对丘奇一图灵论题的一种说
-\end_layout
-
-\begin_layout Standard
-法。我来发挥一下，就是：
-\end_layout
-
-\begin_layout Standard
-丘奇一图灵论题，哈代形式：从本质上讲，所有的数学家都同构。 ．
-\end_layout
-
-\begin_layout Standard
-这还没有把每个数学家的数学潜力都等同于一般递归函数的潜
-\end_layout
-
-\begin_layout Standard
-力。要想做到这一点，你所需要做的事情也就是设洼说明某个数学
-\end_layout
-
-\begin_layout Standard
-家的心智能力与递归函数的能力是一样的。这样，如果你相信丘奇
-\end_layout
-
-\begin_layout Standard
-一图灵论题的哈代形式，那就可以知道全体数学家都是如此了。
+哈代在这里其实是在陈述他自己对丘奇—图灵论题的一种说法。我来发挥一下，就是：丘奇—图灵论题，哈代形式：从本质上讲，所有的数学家都同构。这还没有把每个数学家的数学
+潜力都等同于一般递归函数的潜力。要想做到这一点，你所需要做的事情也就是设法说明某个数学家的心智能力与递归函数的能力是一样的。这样，如果你相信丘奇—图灵论题的哈代
+形式，那就可以知道全体数学家都是如此了。
 \end_layout
 
 \begin_layout Standard
 此后，哈代将拉玛奴衍和一些计算奇才作了比较：
 \end_layout
 
-\begin_layout Standard
-他的记忆力和计算能力很不寻常，不过也不能说它们“反
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
+他的记忆力和计算能力很不寻常，不过也不能说它们“反常”。当他需要做两个大数的乘法时，他是用普通的方法，只是他可以用不同寻常的速度和准确来做好它，但也并不比任何
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+744
+\end_layout
+
+\end_inset
+
+一名天生迅速而又有计算习惯的数学家更快。
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+同上，第375页。
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-常”。当他需要做两个大数的乘法时，他是用普通的方法，只是
+哈代描述了他所发现的拉玛奴衍突出的智力特征：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
+由于他的记忆、耐心和计算才能，他把综合能力、对形式的感觉能力和对假设的快速修订能力结合了起来，这经常出人意料，并使他在那个时代中自己的那个领域内无可匹致。
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+同上，第375- 376页。
+\end_layout
+
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
-他可以用不同寻常的速度和准确来做好它，但也并不比任何
+这段文字中提到的那几种能力，依我看是对一般智能的某些最微妙的特征的精彩刻划。最后哈代颇怀眷恋地总结说：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
+[他的工作]没有最伟大的工作所必须具备的那种简洁性和必然性。如果不那么古怪，它就会更伟大一些。他的工作具有一种不可否认的天赋——意义深刻和无往不胜的独创性。如果
+他早在青年时代就被发现并受到一些训练，他就可能成为一名伟大的数学家，他就会完成更多新的、而且无疑是极为重要的发现。另一方面，那也将使他变得不那么象拉玛奴衍，而更
+象一名欧洲教授。这也许是得不偿失的。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+同上，第376页。
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-7 44 '
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-一名天生迅速而又有计算习惯的数学家更快。⑨哈代描述了他所发现的拉玛奴衍突出的智力特征：
-\end_layout
-
-\begin_layout Standard
-由于他的记忆、耐心和计算才能，他把综合能力、对形式
-\end_layout
-
-\begin_layout Standard
-的感觉能力和对假设的快速修订能力结合了起来，这经常出0火意料，并使他在那个时代中自己的那个领域内无可匹致。 。这段文字中提到的那几种能力，依我看是对一般智能的某
-些最微
-\end_layout
-
-\begin_layout Standard
-．+，‘妙的特征的精彩刻划。最后哈代颇怀眷恋地总结说：
-\end_layout
-
-\begin_layout Standard
-[他的工作]没有最伟大的工作所必须具备的那种简洁性
-\end_layout
-
-\begin_layout Standard
-和必然性。如果不那么古怪，它就会更伟大一些。他的工作具
-\end_layout
-
-\begin_layout Standard
-有一种不可否认的天赋——意义深刻和无往不胜的独创性。
-\end_layout
-
-\begin_layout Standard
-如果他早在青年时代就被发现并受到一些训练，他就可能成
-\end_layout
-
-\begin_layout Standard
-为一名伟大的数学家，他就会完成更多新的、而且无疑是极为
-\end_layout
-
-\begin_layout Standard
-重要的发现。另一方面，那也将使他变得不那么象拉玛奴衍，
-\end_layout
-
-\begin_layout Standard
-而更象一名欧洲教授。这也许是得不偿失的。⑥
-\end_layout
-
-\begin_layout Standard
-哈 在说起拉玛奴衍时所用的浪漫方式，充分表达了他对拉玛奴衍的珍重。
+哈代在说起拉玛奴衍时所用的浪漫方式，充分表达了他对拉玛奴衍的珍重。
 \end_layout
 
 \begin_layout Subsection*
@@ -715,102 +764,99 @@ r4+s4+t4=U4+V4+W4= x'+y4+zt即：“能用三种不同方法表示成三个数�
 \end_layout
 
 \begin_layout Standard
-还有一类人，他们的数学能力似乎得不到合理的解释——那就是所谓“心算家刀，这些人能在心中（或别的什么地方）一眨眼之间完成复杂的计算。生于1 8 24年，卒于1
- 861年，并为欧洲的好几个政府雇来作计算工作的戴斯就是～个突出的例子．他不仅能心算两个一百位数的乘法，而且有一种不可思议的数量感。也就是说，他可以不用数数就？
-分辨出’’-块地里有多少只羊或者一个句子里有多少个词等等，可以多到30个左右——这和我们大多数人显著不同，我们的这种感觉只在6个以内时才是可信的。
+还有一类人，他们的数学能力似乎得不到合理的解释——那就是所谓“心算家”，这些人能在心中（或别的什么地方）一眨眼之间完成复杂的计算。生于1824年，卒于1861年
+，并为欧洲的好几个政府雇来作计算工作的戴斯就是一个突出的例子。他不仅能心算两个一百位数的乘法，而且有一种不可思议的数量感。也就是说，他可以不用数数就“分辨出”一
+块地里有多少只羊或者一个句子里有多少个词等等，可以多到30个左右——这和我们大多数人显著不同，我们的这种感觉只在6个以内时才是可信的。
 \end_layout
 
 \begin_layout Standard
 我不打算描述很多这类让人眼花缭乱的、但却有案可稽的“瞬
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+745
+\end_layout
+
+\end_inset
+
+息计算者”，因为这不是我此处的目的。不过我觉得，消除那种认为他们是用某种神秘的、不可分析的方法计算的想法，是重要的。尽管实际情况常常是：这种奇才的计算能力远远超
+过他们解释自己的结果的能力，不过偶尔也会出现一个具有其它智力天赋，同时也具有这种惊人的数字能力的人。根据这些人的自省以及广泛的心理学研究已经弄清：在瞬息计算者进
+行运算的过程中，并没有发生什么超自然的事情，而只是他们的心智非常自信地加速越过了各个中间步骤，就象天生的运动员迅速完美地从事一项复杂运动时那样。他们不是依赖某种
+顿悟般的瞬息闪念来得到答案（尽管在主观上他们当中有些人似乎感到是这么一回事，而是——象我们这些人一样——由一系列计算得到的，也就是说用FlooP(或BlooP)
+之类的过程得到的。
 \end_layout
 
 \begin_layout Standard
-74 5息计算者”，因为这不是我此处的目的。不过我觉得，消除那种认为他们是用某种神秘的、不可分析的方法计算的想法，是重要的。尽管实际情况常常是：这种奇才的计算能
-力远远超过他们解释自己的结果的能力，不过偶尔也会出现一个具有其它智力天赋，同时也具有这种惊人的数字能力的人。根据这些人的自省以及广泛的心理学研究已经弄清：在瞬息
-计算者进行运算的过程中，并没有发生什么超自然的事情，而只是他们的心智非常自信地加速越过了各个中间步骤，就象天生的运动员迅速完美地从事一项复杂运动时那样。他们不是
-依赖某种顿悟般的瞬息闪念来得到答案（尽管在主观上他们当中有些人似乎感到是这么一回事，而是——象我们这些人一样——由一系列计算得到的，也就是说用FIooP(或BI
-ooP)之类的过程得到的。
-\end_layout
-
-\begin_layout Standard
-此外，能够说明并不存在‘什么“通往上帝的热线”的一条最明显的线索，是一个简单的事实：当用到的数字变大时，答案就出来得慢。可以设想，如果是上帝或“神谕”在提供答案
-，那么当数字变大时就不该变慢。人们也许可以找到_个更好的解释，说明瞬息计算所花的时间是如何随用到的数字的大小及用到的运算种类而变化的，并由此来推定所用的算法的某
-些特征。
+此外，能够说明并不存在什么“通往上帝的热线”的一条最明显的线索，是一个简单的事实：当用到的数字变大时，答案就出来得慢。可以设想，如果是上帝或“神谕”在提供答案，
+那么当数字变大时就不该变慢。人们也许可以找到一个更好的解释，说明瞬息计算所花的时间是如何随用到的数字的大小及用到的运算种类而变化的，并由此来推定所用的算法的某些
+特征。
 \end_layout
 
 \begin_layout Subsection*
-丘奇—图灵论魉的同构形式
+丘奇—图灵论题的同构形式
 \end_layout
 
 \begin_layout Standard
-这最终把我们带到加强了的丘奇一图灵论题标准形式：
+这最终把我们带到加强了的丘奇—图灵论题标准形式：
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 丘奇
+丘奇—图灵论题，同构形式： 假定有一种方法，一个有感知能力的生物可以利用它逐个把数分成两类。又假定这种方法总能在有穷的时间内得到答案，而且对于一个给定的数总是给
+出相同的答案。那么，存在某个有终止的FlooP程序（即一般递归函数），它给出的答案恰好与这个有感知能力的生物的方法所得到的答案一样。而且，这个心智过程与这个Fl
+ooP程序
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+746
+\end_layout
+
+\end_inset
+
+在下述意义上同构：在某个层次上，计算机和大脑各自执行的那些步骤之间存在一个对应。
 \end_layout
 
 \begin_layout Standard
-丘奇一图灵论题，同构形式：假定有一种方法，一个有感知能力的
+\noindent
+应当注意，在这里，不仅结论加强了，而且也抹去了吞吞吐吐的大众过程形式中的那个有关通迅的附加条件。这个大胆的形式正是我们现在所要讨论的。
 \end_layout
 
 \begin_layout Standard
-生物可以利用它逐个把数分成两类。又假定这种方法总能在
+简而言之，丘奇—图灵论题的这种形式断言：当一个人计算某个问题时，他的心智活动可以同构地在某个FlooP程序中得到反映。不过读者应该清楚，这并不意味着大脑实际上是
+按照一个用FlooP语言写下的、尽是些BEGIN、END、ABOUT之类的FlooP程序而运行的——完全不是。这只不过是说各个步骤之间的次序与FlooP程序中相
+应的次序完全相同，而且计算的逻辑结构也可以在FlooP程序中得到反映。
 \end_layout
 
 \begin_layout Standard
-有穷的时间内得到答案，而且对于一个给定的数总是给出相
+图106．自然敬的性质能在人类大脑和计算机程序中得到反映。这两个不同的描述因而能在一个适当的抽象层次上彼此对应．
 \end_layout
 
 \begin_layout Standard
-同的答案。那么，存在某个有终止的FlooP程序（即一般递归
+现在，为了弄清这一思想的含义，我们得在计算机以及大脑中区分出不同的层次，否则这就会被误认为是十足的胡说。很可能，在人的头脑中进行的这些计算步骤都处于最高层次，并
+从较低的层次上得到支持，因而最终是被“硬件”所支持。所以如果我们说到同构，那就意味着我们心照不宣地做了一个假设，即能把最高层隔离开来，从而使我们得以脱离其它层次
+来讨论这里发生的事情，并能把这个顶层对应到FlooP，说得更严格一些，这个假定就是说：存在一些软件实体充当着种种数学思维的角色，它们以某些能够严格反映为Floo
+P的方法起着作用（见图106）。使这些软件实体得以实现的东西，是第十一章、第十二章以及《前奏曲，蚂蚁赋格》中讨论过的整
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+747
+\end_layout
+
+\end_inset
+
+个基础结构。对大脑和计算机的较低层次（例如神经原和位）上的同构作用，则没下任何断言。
 \end_layout
 
 \begin_layout Standard
-函数），它给出的答案恰好与这个有感知能力的生物的方法气68 所得到的答案一样。而且，这个心智过程与这个FlooP程序
-\end_layout
+如果不拘泥于字面，丘奇—图灵论题的同构形式之所以能为人理解，是由于它说一个心算家在计算（比如说
+\begin_inset Formula $\pi$
+\end_inset
 
-\begin_layout Standard
-7 46
-\end_layout
-
-\begin_layout Standard
-在下述意义上同构：在某个层次上，计算机和大脑各自执行的
-\end_layout
-
-\begin_layout Standard
-那些步骤之间存在一个对应。应当注意，在这里，不仅结论加强了，而且也抹去了吞吞吐吐的大众过程形式中的那个有关通迅的附加条件。这个大胆的形式正是我们现在所要讨论的。
-\end_layout
-
-\begin_layout Standard
-简而言之，丘奇一图灵论题的这种形式断言：当一个人计算某个问题时，他的心智活动可以同构地在某个FIooP程序中得到反映。不过读者应该清楚，这并不意味着大脑实际上是
-按照一个用FIooP语言写下的、尽是些BEGIN、END、ABOUT之类的FlooP程序而运行的——完全不是。这只不过是说各个步骤之间的次序与FIooP程序中相
-应的次序完全相同，而且计算的逻辑结构也可以在FIooP程序中得到反映。
-\end_layout
-
-\begin_layout Standard
-现在，为了弄清这一思想的含义，我们得在计算机以及大脑中区分出不同的层次，否则这就会被误认为是十足的胡说。很可能，在人的头脑中进行的 一一厂一二
-\end_layout
-
-\begin_layout Standard
-计笋觇程序 ，蜘舅 一一一．．： k桷这些计算步骤都处于 ‘高级i盘-剐＼（譬号堪’／
-\end_layout
-
-\begin_layout Standard
-‘弋：一 ／，／一最高层次，并从较低 F日小＼ ，．，‘同均的层次上得到支持， ＼＼丫i磊、／7／因而最终是被“硬件” 世兰乡所支持。所以如果我
- 图106．自然敬的性质能在人类大脑和计算机
-\end_layout
-
-\begin_layout Standard
-控序中得到反映。这两个不同的描述因而能在们说到同构，那就意 一个适当的抽象层次上彼此对应．味着我们心照不宣地做了一个假设，即能把最高层隔离开来，从而使我们得以脱
-离其它层次来讨论这里发生的事情，并能把这个顶层对应到FlooP，说得更严格一些，这个假定就是说：存在一些软件实体充当着种种数学思维的角色，它们以某些能够严格反映
-为FlooP的方法起着作用（见图106）。使这些软件实体得以实现的东西，是第十一章、第十二章以及《前奏曲，蚂蚁赋格》中讨论过的整
-\end_layout
-
-\begin_layout Standard
-7 4 7个基础结构。对大脑和计算机的较低层次（例如神经原和位）上的同构作用，则没下任何断言。
-\end_layout
-
-\begin_layout Standard
-如果不拘泥于字面，丘奇一图灵论题的同构形式之所以能为人理解，是由于它说一个心算家在计算（比如说兀的对数）时所做的事情，同构于一部袖珍计算器在计算它时所做的事情。
-这里的同构是在算术步骤的层次上成立，而不是在更低的层次——神经原和集成电路之间——成立的。（当然，计算任何东西都可以有不同的方法，但不妨假定那部袖珍计算器——如
-果不提那个人——可以接任意特定的方式完成所要求的计算。）
+的对数）时所做的事情，同构于一部袖珍计算器在计算它时所做的事情。这里的同构是在算术步骤的层次上成立，而不是在更低的层次——神经原和集成电路之间——成立的。（当然
+，计算任何东西都可以有不同的方法，但不妨假定那部袖珍计算器——如果不提那个人——可以接任意特定的方式完成所要求的计算。）
 \end_layout
 
 \begin_layout Subsection*
@@ -818,71 +864,12 @@ ooP)之类的过程得到的。
 \end_layout
 
 \begin_layout Standard
-当我们所考虑的范围是数论的时候，这件事看上去的确是合
-\end_layout
-
-\begin_layout Standard
-情合理的，因为此时发生各种事件的那个论域既小又清晰。而论域
-\end_layout
-
-\begin_layout Standard
-本身的边界、居民、法规也都是良定义的，就象用标准几何图形画
-\end_layout
-
-\begin_layout Standard
-出的迷宫。这样的一个天地远不如我们生活于其中的那个无边无
-\end_layout
-
-\begin_layout Standard
-际且定义模糊的天地来得复杂。一个数论问题一经提出就完全是
-\end_layout
-
-\begin_layout Standard
-自足的了，然而现实问题却不然，根本不能绝对有把握地把它与现
-\end_layout
-
-\begin_layout Standard
-实世界的任何一个部分隔离开来。比方说换一只烧蹩了的电灯泡
-\end_layout
-
-\begin_layout Standard
-的任务，大概免不了要拿●个板凳来；而这又可能意外地弄撒一盒
-\end_layout
-
-\begin_layout Standard
-药，于是又不得不去扫地以免孩子误食撤了的药丸l等等、等筹。药
-\end_layout
-
-\begin_layout Standard
-丸、凳子、小孩及灯泡本是现实世界中风马牛不相及的几个部分
-\end_layout
-
-\begin_layout Standard
-——然而某些日常事件却会把它们紧密地联系起来。这里还没有
-\end_layout
-
-\begin_layout Standard
-说到其它微小变化会使预期的事情变成什么样。总之，如果给你一
-\end_layout
-
-\begin_layout Standard
-个数论问题，那么要想解决它，就决不致于手忙脚乱地考虑什么药
-\end_layout
-
-\begin_layout Standard
-丸、小孩、凳子乃至扫帚之类的无关事物。（当然，你对这些东西的
-\end_layout
-
-\begin_layout Standard
-直观知识可能有助于你下意识地生成一种内心的图象，从而有助
-\end_layout
-
-\begin_layout Standard
-于用几何术语想象问题的解答——不过这是另外一回事了。）
-\end_layout
-
-\begin_layout Standard
-748
+当我们所考虑的范围是数论的时候，这件事看上去的确是合情合理的，因为此时发生各种事件的那个论域既小又清晰。而论域本身的边界、居民、法规也都是良定义的，就象用标准几
+何图形画出的迷宫。这样的一个天地远不如我们生活于其中的那个无边无际且定义模糊的天地来得复杂。一个数论问题一经提出就完全是自足的了，然而现实问题却不然，根本不能绝
+对有把握地把它与现实世界的任何一个部分隔离开来。比方说换一只烧蹩了的电灯泡的任务，大概免不了要拿●个板凳来；而这又可能意外地弄撒一盒药，于是又不得不去扫地以免孩
+子误食撤了的药丸l等等、等筹。药丸、凳子、小孩及灯泡本是现实世界中风马牛不相及的几个部分——然而某些日常事件却会把它们紧密地联系起来。这里还没有说到其它微小变化
+会使预期的事情变成什么样。总之，如果给你一个数论问题，那么要想解决它，就决不致于手忙脚乱地考虑什么药丸、小孩、凳子乃至扫帚之类的无关事物。（当然，你对这些东西的
+直观知识可能有助于你下意识地生成一种内心的图象，从而有助于用几何术语想象问题的解答——不过这是另外一回事了。）748
 \end_layout
 
 \begin_layout Standard
@@ -895,7 +882,7 @@ ooP)之类的过程得到的。
 
 \begin_layout Standard
 关于现实世界的思维与我们作两个数的乘法时所发生的事情很不相同。作乘法时一切东西都在“明面上”，随时可以检验。在算术中，可以“撇出劳顶层，并使用很多不同种类的硬件
-等效地完成它，例如用机械加法器、袖珍计算器、大型计算机、人脑等等。而这正是丘奇一图灵论题所说到的全部东西。但是，谈到现实世界中的理解问题，好象并没有什么简单的方
+等效地完成它，例如用机械加法器、袖珍计算器、大型计算机、人脑等等。而这正是丘奇—图灵论题所说到的全部东西。但是，谈到现实世界中的理解问题，好象并没有什么简单的方
 法。撇出”这个顶层而单用程序来卖现：那个“符号的触发模式”太复杂了。必须得有若干个层次使思维得以“渗透”和“冒出”。
 \end_layout
 
@@ -924,9 +911,9 @@ ooP)之类的过程得到的。
 \end_layout
 
 \begin_layout Standard
-如果为了达到对“在外面”的东西有一个“智能的’’（即类似于人的）内部表示，而开发一个程序，那么在开发过程中，有时可能要被迫使用一些结构和过程，它们不容许有任何直
-接了当的解释一也就是说，它们不能直接映到现实世界的成分之上。要想理解该程序的这些较低的层次，只能靠它们对高于自己的那些层次的催化关系，而不是靠它们与外部世界之间
-所具有的某种直接联系。
+如果为了达到对“在外面”的东西有一个“智能的”（即类似于人的）内部表示，而开发一个程序，那么在开发过程中，有时可能要被迫使用一些结构和过程，它们不容许有任何直接
+了当的解释一也就是说，它们不能直接映到现实世界的成分之上。要想理解该程序的这些较低的层次，只能靠它们对高于自己的那些层次的催化关系，而不是靠它们与外部世界之间所
+具有的某种直接联系。
 \end_layout
 
 \begin_layout Standard
@@ -1010,7 +997,7 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 \end_layout
 
 \begin_layout Standard
-把它看成丘奇一图灵论题的“微观形式”。下面就把它明确地叙述
+把它看成丘奇—图灵论题的“微观形式”。下面就把它明确地叙述
 \end_layout
 
 \begin_layout Standard
@@ -1018,7 +1005,7 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 \end_layout
 
 \begin_layout Standard
-丘奇一图灵论题，微观形式：一个生物体的各组成部分的行为能用
+丘奇—图灵论题，微观形式：一个生物体的各组成部分的行为能用
 \end_layout
 
 \begin_layout Standard
@@ -1038,7 +1025,7 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 \end_layout
 
 \begin_layout Standard
-丘奇一图灵论题的这种形式是说：大脑过程——尽管拥有更
+丘奇—图灵论题的这种形式是说：大脑过程——尽管拥有更
 \end_layout
 
 \begin_layout Standard
@@ -1066,7 +1053,7 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 \end_layout
 
 \begin_layout Standard
-微观的丘奇一图灵论题的一项推论，是下面这样一个十分简
+微观的丘奇—图灵论题的一项推论，是下面这样一个十分简
 \end_layout
 
 \begin_layout Standard
@@ -1074,7 +1061,7 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 \end_layout
 
 \begin_layout Standard
-丘奇一图灵论题，简化论形式：全部的大脑过程都可以从一个可计
+丘奇—图灵论题，简化论形式：全部的大脑过程都可以从一个可计
 \end_layout
 
 \begin_layout Standard
@@ -1213,7 +1200,7 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 \end_layout
 
 \begin_layout Standard
-先来答复(1)。如果允许背离丘奇一图灵论题，那么，对话中的
+先来答复(1)。如果允许背离丘奇—图灵论题，那么，对话中的
 \end_layout
 
 \begin_layout Standard
@@ -1221,11 +1208,11 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 \end_layout
 
 \begin_layout Standard
-的是，一个相信丘奇一图灵论题的人是不是必然不相信螃蟹的能
+的是，一个相信丘奇—图灵论题的人是不是必然不相信螃蟹的能
 \end_layout
 
 \begin_layout Standard
-力。这完全依赖于究竟相信丘奇一图灵论题的哪种形式。比方说，
+力。这完全依赖于究竟相信丘奇—图灵论题的哪种形式。比方说，
 \end_layout
 
 \begin_layout Standard
@@ -1242,10 +1229,10 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 \end_layout
 
 \begin_layout Standard
-好象我们还应当再给出丘奇一图灵论题的一种新的形式，一种为相当大量的人所心领神会的形式，一种为很多著作者以各种方式公开使用的形式。这批作者中，较为著名的有：哲学家
+好象我们还应当再给出丘奇—图灵论题的一种新的形式，一种为相当大量的人所心领神会的形式，一种为很多著作者以各种方式公开使用的形式。这批作者中，较为著名的有：哲学家
 休伯特·德雷福斯、贾基、摩蒂莫·陶布以及卢卡斯，生物学家兼哲学家迈克尔·波拉尼（最出色的整体论者），杰出的澳大利亚神经生理学家约翰·埃克勒斯。我确信还有很多其他
 人的著作也表达过类似的思想，也有不计其数的读者是赞同的。下面我来尽量概括出他们的立场中共同的部分。我做得可能并不完全正确，但我将力图尽可能准确地保持其原有的韵味
-：丘奇一图灵论题，唯灵论形式：大脑所能做的某些种类的事情可以
+：丘奇—图灵论题，唯灵论形式：大脑所能做的某些种类的事情可以
 \end_layout
 
 \begin_layout Standard
@@ -1265,17 +1252,17 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 \end_layout
 
 \begin_layout Standard
-丘奇一图灵论题的这种形式与《赞美螃蟹》中的故事有两种关联。第一种情形是，信奉它的人可能会把那个故事看成不可相信的傻话，不过原则上并不蔡止它。第二种情形，他们可能
+丘奇—图灵论题的这种形式与《赞美螃蟹》中的故事有两种关联。第一种情形是，信奉它的人可能会把那个故事看成不可相信的傻话，不过原则上并不蔡止它。第二种情形，他们可能
 会断言，对于诸如美感这类品德的评价，是与难以捉摸的心灵相联的一种特性，因而生来就只能为人所具有，单单机器是不行的。
 \end_layout
 
 \begin_layout Standard
-我们过些时候再回到这第二点，但首先，既然我们在讨论“唯灵论”，我们得先把上面的丘奇一图灵论题表述成一种更为极端的形式，因为近年来大量受过良好教育的人都认可这种形
+我们过些时候再回到这第二点，但首先，既然我们在讨论“唯灵论”，我们得先把上面的丘奇—图灵论题表述成一种更为极端的形式，因为近年来大量受过良好教育的人都认可这种形
 式。
 \end_layout
 
 \begin_layout Standard
-丘奇一图灵论题，反科学形式：计算机是荒唐的。一般说来科学也都如此。
+丘奇—图灵论题，反科学形式：计算机是荒唐的。一般说来科学也都如此。
 \end_layout
 
 \begin_layout Standard
@@ -1296,7 +1283,7 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 \end_layout
 
 \begin_layout Standard
-的人，仍是按照他们相信丘奇一图灵论题的哪种形式而取不同的
+的人，仍是按照他们相信丘奇—图灵论题的哪种形式而取不同的
 \end_layout
 
 \begin_layout Standard
@@ -1407,8 +1394,8 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 
 \begin_layout Standard
 如我们已经看到的．在硬件层次上这是真的——然而由于或许还存在更高的层次，所以这不是关于这个论题的最后断语。卢卡斯强调说，在他所讨论的模拟意识的机器里，只有一个层
-次上发生了符号操作。例如分离规则（在他的文章中叫“假言推理’’）就要做成硬件，并将成为这样一台机器的一个不可改变的特性。他更进~ 578步地宣称，如果假言推理不
-是该机器系统的永远不变的栋梁，而是可以偶然撇开的，那么：
+次上发生了符号操作。例如分离规则（在他的文章中叫“假言推理”）就要做成硬件，并将成为这样一台机器的一个不可改变的特性。他更进~ 578步地宣称，如果假言推理不是
+该机器系统的永远不变的栋梁，而是可以偶然撇开的，那么：
 \end_layout
 
 \begin_layout Standard
@@ -1469,7 +1456,7 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 \end_layout
 
 \begin_layout Standard
-题之前，我们给出丘奇一图灵论题的一个最强的——也是最后的
+题之前，我们给出丘奇—图灵论题的一个最强的——也是最后的
 \end_layout
 
 \begin_layout Standard
@@ -1477,7 +1464,7 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 \end_layout
 
 \begin_layout Standard
-丘奇一图灵论题，人工智能形式：任何种类的心智过程都可以用一579 个计算机程序来模拟，而该程序的基础语言与FIooP～样强，
+丘奇—图灵论题，人工智能形式：任何种类的心智过程都可以用一579 个计算机程序来模拟，而该程序的基础语言与FlooP～样强，
 \end_layout
 
 \begin_layout Standard
@@ -1520,7 +1507,7 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 \begin_layout Standard
 现在，让我们回过头来看螃蟹，再看看他的定理资格判定过程（伪装成一种判定音乐美的过滤器）是否与现实世界相容这一问题。实际上，根据对话中提到的事实，我们没有办法推定
 螃蟹的才智是不是一种分清定理和非定理的能力，或者换个说法，分清真陈述和假陈述的能力。当然，在很多情形下这是一回事，不过哥德尔定理表明这并不总是一回事。但是，这没
-有关系：如果我们相信丘奇一图灵论题的人工智能形式，那么这两种说法都不可能是真的。
+有关系：如果我们相信丘奇—图灵论题的人工智能形式，那么这两种说法都不可能是真的。
 \end_layout
 
 \begin_layout Standard
@@ -1530,22 +1517,22 @@ k经原组 ，这一 a随意性的联系事实并不见得一厅面而 |厂{磊
 
 \begin_layout Standard
 这两个极为重要的元数学结果的证明是很相似的。它们都可以很快地从一个自指结构中得到。我们先来考虑TNT定理酌判定过程。如果存在一个统一的方法使人们可以判定一个给定
-的公式X究竟应归入“定理”类还是“非定理一类，那么，根据丘奇一图灵论题（标准形式），就该有一个有终止的FlooP程序（一般递归函数），当给出公式X的哥德尔数作为
+的公式X究竟应归入“定理”类还是“非定理一类，那么，根据丘奇—图灵论题（标准形式），就该有一个有终止的FlooP程序（一般递归函数），当给出公式X的哥德尔数作为
 输入时，该程序能给出与上述方法相同的判定。其关键步骤在于（读者应该还记得）：能用一个有
 \end_layout
 
 \begin_layout Standard
 76 1终止的FlooP程序检测的任何一种性质在TNT中都有一个体现。这意味着“是飞’NT定理”这条性质能在TNT内部体现（与仅仅表示是不同的）。然而，如我们马
-上就能看到的那样，这会使我们580陷入困境，因为如果“是定理’’是一个可体现的属性，那么哥德尔公式G就会是与说谎者悖论同样可怕了。
+上就能看到的那样，这会使我们580陷入困境，因为如果“是定理”是一个可体现的属性，那么哥德尔公式G就会是与说谎者悖论同样可怕了。
 \end_layout
 
 \begin_layout Standard
 这全是因为G在说：“G不是TNT定理修。假如G是定理，那么由于“是定理”按假定应可体现，所以断言“G是定理一的那个TNT公式应当是7J:，NT定理。而这个公式就
 是—G，即G的否定。所以TNT就不一致了。另一方面，假如G不是定理，那么根据假设的定理资格的可体现性，断言“G不是定理”的那个公式就应是TNT定理。然而这个公式
 就是G，所以我们仍得到悖论。与前面的情形不同，这里根本无法消除这个悖论。问题之所以出现，就是由假定“是定理”这一性质可由某个TNT’公式体现。因而，我们就必须追
-溯回去，摒弃这个假设。这就迫使我们得出：没有一个FIooP程序能分清定理的哥德尔数和非定理的哥德尔数。最后，如果我们接受丘奇一图灵论题的人工智能形式，那我们就得
-进一步地回溯，得出：无论如何都不会有什么方法能使人类可靠地分清定理和非定理—～这也包括基于美感的判断。那些只同意丘奇一图灵论题的大众过程形式的人，可能仍然认为螃
-蟹的成就是可能的D不过，在丘奇一图灵论题的所有各种形式当中，这一个也许是最难得到支持的。
+溯回去，摒弃这个假设。这就迫使我们得出：没有一个FlooP程序能分清定理的哥德尔数和非定理的哥德尔数。最后，如果我们接受丘奇—图灵论题的人工智能形式，那我们就得
+进一步地回溯，得出：无论如何都不会有什么方法能使人类可靠地分清定理和非定理—～这也包括基于美感的判断。那些只同意丘奇—图灵论题的大众过程形式的人，可能仍然认为螃
+蟹的成就是可能的D不过，在丘奇—图灵论题的所有各种形式当中，这一个也许是最难得到支持的。
 \end_layout
 
 \begin_layout Subsection*
@@ -1582,11 +1569,11 @@ TNT中体现数论真理概念的方法口一是定理力这个性质是可表�
 \end_layout
 
 \begin_layout Standard
-| a:<～TRUE{a)人ARITHMOQUINE{a",a)>把这个“服”号串的哥德尔数记作t，然后就算术}i[摁它，从而得到塔斯基公式T：
+| a:<～TRUE{a)人ARITHMOQUINE{a”,a)>把这个“服”号串的哥德尔数记作t，然后就算术}i[摁它，从而得到塔斯基公式T：
 \end_layout
 
 \begin_layout Standard
-]a:<～TRUE{a)^ARITHMooUINE{SSS--- ---SSSO/a",
+]a:<～TRUE{a)^ARITHMooUINE{SSS--- ---SSSO/a”,
 \end_layout
 
 \begin_layout Standard
@@ -1594,7 +1581,7 @@ TNT中体现数论真理概念的方法口一是定理力这个性质是可表�
 \end_layout
 
 \begin_layout Standard
-“t的算术托摁化是个假陈述的哥德尔数。"可是由于t的算术托摁化是T自身的哥德尔数，所以塔斯基公式T恰好在TNT中重现了说谎者悖论，它在说自己：“我是假话”。当然
+“t的算术托摁化是个假陈述的哥德尔数。”可是由于t的算术托摁化是T自身的哥德尔数，所以塔斯基公式T恰好在TNT中重现了说谎者悖论，它在说自己：“我是假话”。当然
 ，这就导致了结论：它既真又假（或既不真又不假）。于是又产生了一个令人感兴趣的问题：说谎者悖论的出现有什么不好？这有什么要紧的吗？毕竟汉语中已经有了这个悖论，而中
 国语言并没有因此就灰飞烟灭。
 \end_layout
@@ -1611,7 +1598,7 @@ TNT中体现数论真理概念的方法口一是定理力这个性质是可表�
 
 \begin_layout Standard
 763笑的事态，那就只好丢掉TRUE{a）是存在的这一假设。就是说没有一种方法能在TNT内部表示真理的概念。应当看到，这个结果就使得“是真理”成为比“是定理”更
-难以捉摸的性质，因为“是定理’’还是可表示的。按照前面（涉及丘奇一图灵论题的人工智能形式）谈过的回溯推理，我们得到结论：
+难以捉摸的性质，因为“是定理”还是可表示的。按照前面（涉及丘奇—图灵论题的人工智能形式）谈过的回溯推理，我们得到结论：
 \end_layout
 
 \begin_layout Standard
@@ -1619,7 +1606,7 @@ TNT中体现数论真理概念的方法口一是定理力这个性质是可表�
 \end_layout
 
 \begin_layout Standard
-更强。"因为前一种辨认违背塔斯基一丘奇一囝灵定理（“不存在确认算术真理的判定过程”），而后者则违背了丘奇定理。
+更强。”因为前一种辨认违背塔斯基一丘奇一囝灵定理（“不存在确认算术真理的判定过程”），而后者则违背了丘奇定理。
 \end_layout
 
 \begin_layout Subsection*
@@ -1905,11 +1892,11 @@ CJKFontFang
 \end_layout
 
 \begin_layout Standard
-块；“比……大的’’也应指方块。名词短语中可能含有复杂
+块；“比……大的”也应指方块。名词短语中可能含有复杂
 \end_layout
 
 \begin_layout Standard
-的数量词，如“至少一块”、“三块以上’’、“恰好七块”等。为
+的数量词，如“至少一块”、“三块以上”、“恰好七块”等。为
 \end_layout
 
 \begin_layout Standard
@@ -2393,7 +2380,7 @@ CJKFontFang
 \end_layout
 
 \begin_layout Standard
-36．伊她·娥英：一个塔…．．施德鲁：对不起，我不明白什么叫“塔’’。格拉德·维维诺诺博士：施德鲁读到一个不知道的字，就会打断你的话。
+36．伊她·娥英：一个塔…．．施德鲁：对不起，我不明白什么叫“塔”。格拉德·维维诺诺博士：施德鲁读到一个不知道的字，就会打断你的话。
 \end_layout
 
 \begin_layout Standard
@@ -2469,7 +2456,7 @@ CJKFontFang
 \end_layout
 
 \begin_layout Standard
-格拉德·维维诺诺博士：“动过’’当然是指从对话开始以来。
+格拉德·维维诺诺博士：“动过”当然是指从对话开始以来。
 \end_layout
 
 \begin_layout Standard
