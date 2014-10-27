@@ -2063,6 +2063,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:38"
+
+\end_inset
+
 三子棋开始两步的超前搜索树。
 \end_layout
 
