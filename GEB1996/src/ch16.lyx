@@ -171,6 +171,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+本句子是假的
+\end_layout
+
+\end_inset
+
 刘皓明绘。
 \end_layout
 
@@ -478,6 +487,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+说谎者句子
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -523,6 +541,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+蒯恩句子
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -638,8 +665,11 @@ status open
 
 \end_layout
 
-\begin_layout Quotation
-DOUBLE-BUBBLE['DOUBLE-BUBBLE'].
+\begin_layout CenterLine
+\begin_inset Formula $DOUBLE-BUBBLE[^{\prime}DOUBLE-BUBBLE^{\prime}].$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -688,7 +718,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-这与乌龟对蒯恩型说谎者自指句子的说法非常相似，那里要假定：“㧟{摁”这个动词是已知的：
+这与乌龟对蒯恩型说谎者自指句子的说法非常相似，那里要假定：“㧟摁”这个动词是已知的：
 \end_layout
 
 \begin_layout Quotation

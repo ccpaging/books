@@ -175,9 +175,7 @@ status open
 
 
 \backslash
-addcontentsline{toc}{chapter}{
-\backslash
-listfigurename}
+addcontentsline{toc}{chapter}{插图目录}
 \end_layout
 
 \end_inset
@@ -203,6 +201,73 @@ status open
 
 \backslash
 mainmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+contentsname}{目录}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+listfigurename} {插图目录}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+listtablename} {表格目录}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+indexname}{索引}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+tablename}{表}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+figurename}{图}
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset

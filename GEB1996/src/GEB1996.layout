@@ -154,16 +154,6 @@ Preamble
     \RequirePackage{CJKfntef}
     % \CJKunderdot{中文}
 
-    % 中文文档习惯
-    \renewcommand{\contentsname}{目录}
-    \renewcommand{\listfigurename} {插图目录}
-    \renewcommand{\listtablename} {表格目录}
-    %\renewcommand{\refname}{参考文献}
-    %\renewcommand{\abstractname}{摘要}
-    \renewcommand{\indexname}{索引}
-    \renewcommand{\tablename}{表}
-    \renewcommand{\figurename}{图}
-
     % 图编号不依赖章节
     \usepackage{chngcntr}
     \counterwithout{figure}{chapter}
@@ -207,6 +197,16 @@ Preamble
     \newcommand{\zhbizhu}{\lower-.9ex\hbox{\scalebox{1}[0.5]{宓}}\lower.1ex\hbox{\kern-0.9em \scalebox{0.8}[0.5]{豕}}}
     \newcommand{\zhruoniao}{\hbox{\scalebox{0.4}[1]{若}\kern-.1em\scalebox{0.7}[1]{鸟}}}
     \newcommand{\zhgouniao}{\hbox{\scalebox{0.4}[1]{勾}\kern-.1em\scalebox{0.7}[1]{鸟}}}
+
+    % 中文文档习惯
+    \renewcommand{\contentsname}{目录}
+    \renewcommand{\listfigurename} {插图目录}
+    \renewcommand{\listtablename} {表格目录}
+    % \renewcommand{\refname}{参考文献}
+    % \renewcommand{\abstractname}{摘要}
+    \renewcommand{\indexname}{索引}
+    \renewcommand{\tablename}{表}
+    \renewcommand{\figurename}{图}
 EndPreamble
 
 # Default textclass options. The user may need to modify this.
