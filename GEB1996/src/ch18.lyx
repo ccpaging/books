@@ -3399,7 +3399,7 @@ status open
 对实
 \end_layout
 
-\begin_layout CenterLine
+\begin_layout Quotation
 \begin_inset ERT
 status open
 
@@ -3412,573 +3412,1155 @@ CJKFontFang
 
 \end_inset
 
-螃蟹邀请了几令朋友来看星期六下午电视中播放的橄榄球赛。
+螃蟹邀请了几令朋友来看星期六下午电视中播放的橄榄球赛。阿基里斯已经到了，可还要等等乌龟和他的朋友树懒。
 \end_layout
 
-\begin_layout CenterLine
-\begin_inset ERT
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 驭骑在那辆与众不同的独轮车上的两个人，会是我们那两位朋友吗？
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+树懒和乌龟下了车走进来。
+\family default
+）
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 哦，朋友们，你们光临我真高兴。请让我介绍一下我最爱戴的老朋友，树懒先生——这是阿基里斯。我敢肯定你认识乌龟。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 就我记忆所及，这是我有生以来第一次结识一位双目独眼龙。很高兴见到你，阿基里斯。关于双目独眼类的生物，我已经与闻不少了。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我也是。我可以了解了解你那别致的交通工具吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 你是问我们那辆双轴独轮车？谈不上什么别致。只不过是供两个人以同一速度从A到B的一种交通工具。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 它是由生产“双头翘”翘翘板的公司制造的。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 噢，原来是这样。车上那个球形把手是什么东西？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 那是调挡装置。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 哦！那它有多少种速度？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 一种，包括回动。许多别的型号的比速更少，可这辆是特型的。
+\begin_inset Note Comment
 status open
 
 \begin_layout Plain Layout
-
-
-\backslash
-CJKFontFang 
+834
 \end_layout
 
 \end_inset
 
-阿基里斯已经到了，可还要等等乌龟和他的朋友树懒。
-\end_layout
 
-\begin_layout Standard
-阿基里斯：驭骑在那辆与众不同的独轮车上的两个人，会是我们那两位朋友吗？
 \end_layout
 
-\begin_layout Standard
-（树懒和乌龟下了车走进来。）
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 一看就是辆挺不错的双轴独轮车。噢，老蟹，我早就要告诉你，昨晚你的管弦乐队的演出我非常喜欢。
 \end_layout
 
-\begin_layout Standard
-螃蟹：哦，朋友们，你们光临我真高兴。请让我介绍一下我最爱戴的老朋友，树懒先生——这是阿基里斯。我敢肯定你认识乌龟。
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-树懒：就我记忆所及，这是我有生以来第一次结识一位双目独眼龙。很高兴见到你，阿基里斯。关于双目独眼类的生物，我已经与闻不少了。
+螃蟹： 谢谢，阿基。你当时也在吗？小懒？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：我也是。我可以了解了解你那别致的交通工具吗？
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-乌龟：你是问我们那辆双轴独轮车？谈不上什么别致。只不过是供两个人以同一速度从A到B的一种交通工具。
+树懒： 不，我不巧没能到场。我那时正参加一场混合单打乒乓球锦标赛。由于我所在的队陷入了无对手的争夺冠军的决赛，所以特别扣人心弦。
 \end_layout
 
-\begin_layout Standard
-树懒：它是由生产“双头翘”翘翘板的公司制造的。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你获得什么奖品了吗？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：噢，原来是这样。车上那个球形把手是什么东西？
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-树懒：那是调挡装置。
+树懒： 当然——是一条一面镀金、一面镀银的铜制莫比乌斯带。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：哦！那它有多少种速度？
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-乌龟：一种，包括回动。许多别的型号的比速更少，可这辆是特型的。8 34
+螃蟹： 祝贺你，小懒。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：一看就是辆挺不错的双轴独轮车。噢，老蟹，我早就要告诉你，昨晚你的管弦乐队的演出我非常喜欢a
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-螃蟹：谢谢，阿基。你当时也在吗？小懒？
+树懒： 谢谢。哎，跟我讲讲那个音乐会吧。
 \end_layout
 
-\begin_layout Standard
-树懒：不，我不巧没能到场。我那时正参加一场混合单打乒乓球锦
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-标赛。由于我所在的队陷入了无对手的争夺冠军的决赛，所以特别扣人心弦。阿基里斯：你获得什么奖品了吗？
+螃蟹： 那是场最美妙的演出。我们演奏了一些巴赫孪生兄弟的作品——
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-树懒：当然——是一条一面镀金、一面镀银的铜制莫比乌斯带。
+树懒： 是著名的约翰和塞巴斯第安吗？
 \end_layout
 
-\begin_layout Standard
-螃蟹：祝贺你，小懒。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 反正都是一回事。有一部作品让我想到了你，小懒——那是一首用两只左手弹的了不起的钢琴协奏曲。其中倒数第二个乐章（也是仅有的一个乐章）是一支单声部的赋格。你
+简直没法儿想象它有多复杂。我们还演奏了贝多芬的第九较象曲作为压轴节目。演出结束时，听众们全体起立，每个人都用一只手鼓掌，真是掌声雷动啊。
 \end_layout
 
-\begin_layout Standard
-树懒：谢谢。哎，跟我讲讲那个音乐会吧。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 哦，我没看上真是太可惜了。不过，不知你录了音没有？我家里有一台高保真的录音机——这是你所能买到的最好的双声道单喇叭的音响系统。
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-螃蟹：那是场最美妙的演出。我们演奏了一些巴赫孪生兄弟的作品树懒：是著名的约翰和塞巴斯第安吗？
+螃蟹： 我敢肯定你能搞到那录音。好啦，朋友们，球赛就要开始啦。
 \end_layout
 
-\begin_layout Standard
-螃蟹：反正都是一回事。有一部作品让我想到了你，小懒——那是634一首用两只左手弹的了不起的钢琴协奏曲。其中倒数第二个乐章（也是仅有的~．个乐章）是一支单声部的赋
-格。你简直没法儿想象它有多复杂D我们还演奏了贝多芬的第九较象曲作‘为压轴节目。演出结束时，听众们全体起立，每个人都用一只手鼓掌，真是掌声雷动啊。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿墓里斯： 今天谁跟谁比赛，老蟹？
 \end_layout
 
-\begin_layout Standard
-树懒：哦，我没看上真是太可惜了。不过，不知你录了音没有？我家里有一台高保真的录音机——这是你所能买到的最好的双声道单喇叭的音响系统。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 一定是主队对客队。哦，不——那是上周。我想这周是本地队对外地队。
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我为本地队加油。我一向这么做。
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-螃蟹：我敢肯定你能搞到那录音。好啦，朋友们，球赛就要开始啦。
+\begin_layout Plain Layout
+835
 \end_layout
 
-\begin_layout Standard
-阿墓里斯：今天谁跟谁比赛，老蟹？
+\end_inset
+
+
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-螃蟹：一定是主队对客队。哦，不——那是上周。我想这周是本地队对外地队。阿基里斯：我为本地队加油a我一向这么做。83 5
+树懒： 啊，那你可太地方主义了。我从不为本地队加油。越是远在十万八千里的队，我越是要给他们加油。
 \end_layout
 
-\begin_layout Standard
-树懒：啊，那你可太地方主义了。我从不为本地队加油。越是远在十万八千里的队，我越是要给他们加油。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 噢，那么你是住在十万八千里啦？我听说那儿很迷人，不过我还是不想去那儿。毕竟太遥远了。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：噢，那么你是住在十万八千里啦？我听说那儿很迷人，不过我还是不想去那儿。毕竟太遥远了。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 而且奇怪的是，你无论走哪条路，都不会更近些。
 \end_layout
 
-\begin_layout Standard
-树懒：而且奇怪的是，你无论走哪条路，都不会更近些。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 那是种对我路子的地方。
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-乌龟：那是种对我路子的地方。
+螃蟹： 球赛就要开始了。我看得打开电视了。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+他走到一个有屏幕的巨大的箱子前，箱子下面有个仪表盘，复杂得跟喷气式飞机上的一样。他轻轻按了一下一个球形开关，屏暮上出现了色彩鲜亮、图像清晰的橄揽球场。
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-螃蟹：球赛就要开始了。我看得打开电视了。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+解说员： 下午好，球迷们。一年一度的本地队和外地队在绿茵场上的较量又拉开战幕了。今天下午断断续续地下了点小雨，场地多少有点湿。不过，尽管天公不作美，这场比赛肯定
+会非常精彩，特别是本地队有两名著名的八分位，他们是提里趿拉和回文斯。大家知道，根据规则，美式足球——也就是这种橄榄球——每个球队里应该只有一名四分位指挥进攻，不
+过只要比赛精彩，弄成两名八分位也没有关系，不是吗？
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-（他走到一个有屏幕的巨大的箱子前，箱子下面有个仪表盘，复杂得跟喷气式飞机上的一样。他轻轻按了一下一个球形开关，屏暮上出现了色彩鲜亮、图像清晰的橄揽球场。）
+乌龟： 天哪！这种比赛我还从没见识过。
 \end_layout
 
-\begin_layout Standard
-解说员：下午好，球迷们。一年一度的本地队和外地队在绿茵场上．的较量又拉开战幕了。今天下午断断续续地下了点小雨，场地多少有点湿。不过，尽管天公不作美，这场比赛肯定
-会非常精彩，特别是本地队有两名著名的八分位，他们是提里趿拉和回文斯。大家知道，根据规则，美式足球——也就是这种橄榄球一每个球队里应该只有一名四分位指挥进攻，不过
-只要比赛精彩，弄成两名八分位也没有关系，不是吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+解说员： 现在丕里帕拉为本地队开球。球飞在空中！外地队的法兰孙接到了皮球，他抱球往回跑——跑到了20码线的地方，到了25码线，到30码线．他在32码的地方摔倒了
+。是本地队的哞呕一个擒抱，把他摔倒的。
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-乌龟：天哪！这种比赛我还从没见识过。
+螃蟹： 好漂亮的反攻！你们看到没有，他差一点叫悟诡给擒抱住——可他还是挣脱掉了。
 \end_layout
 
-\begin_layout Standard
-解说员：现在丕里帕拉为本地队开球。球飞在空中！外地队的法兰孙接到了皮球，他抱球往回跑——跑到了20码线的地方，到了2 5码线，到30码线．他在3
- 2码的地方摔倒了。是本地队的哞呕一个擒抱，把他摔倒的。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 叫谁擒抱？
 \end_layout
 
-\begin_layout Standard
-螃蟹：好漂亮的反攻！你们看到没有，他差一点叫悟诡给擒抱住一可他还是挣脱掉了。乌龟：叫谁擒抱？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 悟诡！
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-螃蟹：悟诡！
+乌龟： 怎么跟我的名字就差一点儿？
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+836
 \end_layout
+
+\end_inset
+
 
-\begin_layout Standard
-乌龟：怎么跟我的名字就差一点儿？836
 \end_layout
 
-\begin_layout Standard
-树懒：别犯傻了，老蟹。没这么回事，悟诡没有擒抱法兰孙。没有必要用这种“差一点”发生的事儿蒙可怜的阿基里斯（和我们别人）。事实就是事实——没有什么“差一点”啦、“
-要是”啦、“还修啦、“可是”啦这些东西a
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 别犯傻了，老蟹。没这么回事，悟诡没有擒抱法兰孙。没有必要用这种“差一点”发生的事儿蒙可怜的阿基里斯（和我们别人）。事实就是事实——没有什么“差一点”啦、
+“要是”啦、“还”啦、“可是”啦这些东西。
 \end_layout
 
-\begin_layout Standard
-解说员：这是重放的镜头。注意79号队员悟诡，他从边路包抄过来，威胁法兰孙，打算擒抱他！树懒：“打算”！哼！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+解说员： 这是重放的镜头。注意79号队员悟诡，他从边路包抄过来，威胁法兰孙，打算擒抱他！
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-阿基里斯：这一·招儿可太漂亮啦！要是没有重放镜头我们怎么能看得到！
+树懒： “打算”！哼！
 \end_layout
 
-\begin_layout Standard
-解说员：外地队第一次进攻，攻进十码。现在球在闹得乐手中，他把635皮球传给了牛韦——这是个后传球——牛韦绕到右面，把球掷给了法兰孙——这是个双后传球，诸位！——
-现在法兰孙把球递给华果树，华在争球线后面十二码的地方达阵得分口这个三后传球丢了十二码！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 这一招儿可太漂亮啦！要是没有重放镜头我们怎么能看得到！
 \end_layout
 
-\begin_layout Standard
-树懒：太棒了！真是一场扣人心弦的比赛！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+解说员： 外地队第一次进攻，攻进十码。现在球在闹得乐手中，他把皮球传给了牛韦——这是个后传球——牛韦绕到右面，把球掷给了法兰孙——这是个双后传球，诸位！——现在
+法兰孙把球递给华果树，华在争球线后面十二码的地方达阵得分。这个三后传球丢了十二码！
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-阿基里斯：哦，小懒，我还以为你一直在为外地队加油呢。这场球他们丢了十二码。树懒：他们丢了十二码？啊_一只要他们表演得出色，管它输还是赢呢！我们再看一遍吧。
+树懒： 太棒了！真是一场扣人心弦的比赛！
 \end_layout
 
-\begin_layout Standard
-（……就这样，上半场比赛结束了。在第三个四分之一场比赛就要结束的时候，本地队决定性的时刻来到了。这时他们落后八分。这是他们第三次进攻，还一码未进，他们这时急需继
-续进攻的机会。）
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 哦，小懒，我还以为你一直在为外地队加油呢。这场球他们丢了十二码。
 \end_layout
 
-\begin_layout Standard
-解说员：球被挑到提里趿拉手里，他退后几步，找人传球，晃过了悟诡。这时回文斯在紧右边，附近没有别的队员。提里趿拉看到了他，来了一个低传，把球传到回文斯手里。回文斯
-接住球以后，就——（可以听到人群中发出的惋惜声。）——唉，他跨出837了边线l各位观众，这对本地队可是个沉重打击。要是回文斯没有跨，出边线，他会一直跑到底线区，
-达阵得分的。现在让我们看一看虚拟的重放镜头。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 他们丢了十二码？啊——只要他们表演得出色，管它输还是赢呢！我们再看一遍吧。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+……就这样，上半场比赛结束了。在第三个四分之一场比赛就要结束的时候，本地队决定性的时刻来到了。这时他们落后八分。这是他们第三次进攻，还一码未进，他们这时急需继续
+进攻的机会。
+\family default
+）
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-（屏幕上出现了同刚才一样的阵容。）
+解说员： 球被挑到提里趿拉手里，他退后几步，找人传球，晃过了悟诡。这时回文斯在紧右边，附近没有别的队员。提里趿拉看到了他，来了一个低传，把球传到回文斯手里。回文
+斯接住球以后，就——（可以听到人群中发出的惋惜声。）——唉，他跨出
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+837
 \end_layout
+
+\end_inset
+
+了边线！各位观众，这对本地队可是个沉重打击。要是回文斯没有跨出边线，他会一直跑到底线区，达阵得分的。现在让我们看一看虚拟的重放镜头。
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-球被抛到提里趿拉手里，他退后几步，找人传球，晃过了悟诡口这时回文斯在紧右边，附近没有别的队员。提里趿拉看到了他，来了一一个低传，把球传到回文斯手里。回文斯接住球
-以后，就——（可以听到人群中发出的紧张的惊叹声。）-他差一点跨出边线！不过他仍在界内，通向得分区的路上完全没有对方队员。回文斯一往直前，达阵得分！（球场内欢声雷
-动。）啊，球迷们，要是回文斯没有跨出边线，这就是将会发生的情形。
+（
+\family sans
+屏幕上出现了同刚才一样的阵容。
+\family default
+）
+\begin_inset Newline newline
+\end_inset
+
+球被抛到提里趿拉手里，他退后几步，找人传球，晃过了悟诡。这时回文斯在紧右边，附近没有别的队员。提里趿拉看到了他，来了一个低传，把球传到回文斯手里。回文斯接住球以
+后，就——（
+\family sans
+可以听到人群中发出的紧张的惊叹声。
+\family default
+）他差一点跨出边线！不过他仍在界内，通向得分区的路上完全没有对方队员。回文斯一往直前，达阵得分！（
+\family sans
+球场内欢声雷动。
+\family default
+）啊，球迷们，要是回文斯没有跨出边线，这就是将会发生的情形。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：等等……达阵得分这事有还是没有？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 等等……达阵得分这事有还是没有？
 \end_layout
 
-\begin_layout Standard
-螃蟹：哦，没有。这只是虚拟的重放镜头。这只不过是演示了一下假设而已。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 哦，没有。这只是虚拟的重放镜头。这只不过是演示了一下假设而已。
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-树懒：这是我听到过的最荒唐的事。我看他们还会发明水泥护耳皮套呢。． 
+树懒： 这是我听到过的最荒唐的事。我看他们还会发明水泥护耳皮套呢。
 \end_layout
 
-\begin_layout Standard
-乌龟：虚拟的重放镜头有点少见，是吧？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 虚拟的重放镜头有点少见，是吧？
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-螃蟹：要是你有一台虚拟电视，也没有什么特别的。
+螃蟹： 要是你有一台虚拟电视，也没有什么特别的。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：需你电视？是一种非得你亲自操作不可的电视吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 需你电视？是一种非得你亲自操作不可的电视吗？
 \end_layout
 
-\begin_layout Standard
-螃蟹：不，你理解岔了。这是种可以进入虚拟状态的新型电视，特别适用于观看球赛之类的节目。这是我刚搞到的。636
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 不，你理解岔了。这是种可以进入虚拟状态的新型电视，特别适用于观看球赛之类的节目。这是我刚搞到的。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：它上面为什么有这幺多的球形开关和叫人眼花缭乱的仪表盘？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 它上面为什么有这么多的球形开关和叫人眼花缭乱的仪表盘？
 \end_layout
 
-\begin_layout Standard
-螃蟹：你可以用它们来调你所需要的频道。有很多频道都在广播虚拟的节目，你能很方便地从中选择。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 你可以用它们来调你所需要的频道。有很多频道都在广播虚拟的节目，你能很方便地从中选择。
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你能把你说的表演给我们看看吗？恐怕我还不太明白
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-阿基里斯：你能把你说的表演给我们看看吗？恐怕我还不太明白838“广播虚拟的节目”是什么意思。螃蟹：哦，其实很简单。你自己也能弄明白。我现在去厨房做点油炸土豆片，
-我知道小懒很爱吃。
+\begin_layout Plain Layout
+838
 \end_layout
 
-\begin_layout Standard
-树懒：噢！去吧，老蟹！油炸土豆片是最对我口味的食品。
+\end_inset
+
+“广播虚拟的节目”是什么意思。
 \end_layout
 
-\begin_layout Standard
-螃蟹：你们别的人呢？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 哦，其实很简单。你自己也能弄明白。我现在去厨房做点油炸土豆片，我知道小懒很爱吃。
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-乌龟：我也想吃点。
+树懒： 噢！去吧，老蟹！油炸土豆片是最对我口味的食品。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：我也想。可等等——在你去厨房之前，能告诉我使用你的虚拟电视有什么窍门吗7．
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 你们别的人呢？
 \end_layout
 
-\begin_layout Standard
-螃蟹：没什么特别之处，尽管接着往下看，什么时候有某种几乎要成却没成的事，什么时候你希望某件事情不是这样发生，而是换一个样子，你就摆弄摆弄那些开关，看看会发生什么
-事。你也许会调出些稀奇古怪的频道来，但你不会把它们弄坏的。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 我也想吃点。
 \end_layout
 
-\begin_layout Standard
-（他进了厨房。）
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯 ：我也想。可等等——在你去厨房之前，能告诉我使用你的虚拟电视有什么窍门吗？
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-阿基里斯：我不明白他是什么意思。嗯，好吧，我们还是回到这场比赛上来吧，我真叫它迷住了。
+螃蟹： 没什么特别之处，尽管接着往下看，什么时候有某种几乎要成却没成的事，什么时候你希望某件事情不是这样发生，而是换一个样子，你就摆弄摆弄那些开关，看看会发生什
+么事。你也许会调出些稀奇古怪的频道来，但你不会把它们弄坏的。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+他进了厨房。
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-解说员：这是外地队第四次进攻，本地队为守方。外地队采取踢悬空 的战术，提里趿拉位置靠近得分线。牛韦将球踢回——这637是个高飘球，皮球朝着提里趿拉落下去——
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我不明白他是什么意思。嗯，好吧，我们还是回到这场比赛上来吧，我真叫它迷住了。
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-阿基里斯：接球，提里趿拉！给外地队一点颜色看看。
+解说员： 这是外地队第四次进攻，本地队为守方。外地队采取踢悬空的战术，提里趿拉位置靠近得分线。牛韦将球踢回——这是个高飘球，皮球朝着提里趿拉落下去——
 \end_layout
 
-\begin_layout Standard
-解说员：——球落到了水坑里——噗哧！球反弹的方向很奇怪！斯普鲁克猛地一个飞身接球！反弹起的皮球几乎擦着提里趿拉的身边滑开了——这个球被判为失球。裁判判凶猛的斯普
-鲁克为外地队得分，本地队落盾七码。这对本地队是很不利的。这只能说是老天不想成全他们。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 接球，提里趿拉！给外地队一点颜色看看。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：噢，不！要是没有这场雨……（绝望地绞着双手。）
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+解说员： ——球落到了水坑里——噗哧！球反弹的方向很奇怪！斯普鲁克猛地一个飞身接球！反弹起的皮球几乎擦着提里趿拉的身边滑开了——这个球被判为失球。裁判判凶猛的斯
+普鲁克为外地队得分，本地队落侯七码。这对本地队是很不利的。这只能说是老天不想成全他们。
 \end_layout
 
-\begin_layout Standard
-树懒：又一个该死的假设！你们怎么都陷进自己幻想的荒诞世界里去了！我要是你们，我就不会违背现实。我的格言是“避免虚839拟的谵语”。即使别人给我一百块——不，一百
-一十二块——油炸土豆片，我也不会放弃我的格言。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 噢，不！要是没有这场雨……（绝望地绞着双手。）
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 又一个该死的假设！你们怎么都陷进自己幻想的荒诞世界里去了！我要是你们，我就不会违背现实。我的格言是“避免虚
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-阿基里斯：哎，这倒提醒了我。没准儿摆弄摆弄这些球形开关，就能碰巧找到不下雨的虚拟重放镜头，那样一来就没有泥水坑了，皮球也不会向稀奇古怪的方向弹了，提里趿拉也就不
-会失球。我想知道……（走到虚拟电视机前，盯着它瞧了一会儿。）可我一点也不知道这些球形开关都是管什么的。（随便拧了几下。）
+\begin_layout Plain Layout
+839
 \end_layout
 
-\begin_layout Standard
-解说员：这是外地队第四次进攻，本地队为守方。外地队采取踢悬空球的战术，提里趿拉位置靠近得分线。牛韦将球踢回——这是个高飘球，皮球朝着提里趿拉落下去——
+\end_inset
+
+拟的谵语”。即使别人给我一百块——不，一百一十二块——油炸土豆片，我也不会放弃我的格言。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：接球，提里趿拉！给外地队一点颜色看看。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 哎，这倒提醒了我。没准儿摆弄摆弄这些球形开关，就能碰巧找到不下雨的虚拟重放镜头，那样一来就没有泥水坑了，皮球也不会向稀奇古怪的方向弹了，提里趿拉也就
+不会失球。我想知道……（
+\family sans
+走到虚拟电视机前，盯着它瞧了一会儿。
+\family default
+）可我一点也不知道这些球形开关都是管什么的。（
+\family sans
+随便拧了几下。
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-解说员：——球落到了水坑里——噗哧！‘球反弹到他手里。斯普鲁克猛地从他身后飞起抢球，却被他有效地阻挡住了，他避开凶猛的斯普鲁克，在他前面是一片无人之境。注意，他
-到了50码，到了40码，30码了，到20码，10码——达阵得分，本地队得分！（本地队一方欢声如雷。）球迷们，要是橄榄球不是橄榄形的，而是西瓜形的，这就是将会出现
-的情况！不过，在现实中，本地队失了球，而外地队攻到了本地队的七码线上。这真是皮球无知，不解人心！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+解说员： 这是外地队第四次进攻，本地队为守方。外地队采取踢悬空球的战术，提里趿拉位置靠近得分线。牛韦将球踢回——这是个高飘球，皮球朝着提里趿拉落下去——
 \end_layout
 
-\begin_layout Standard
-阿基里斯：这你怎幺想，小懒？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 接球，提里趿拉！给外地队一点颜色看看。
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-（阿基里斯冲着树懒得意洋洋地笑了一声，可后者却完全没有注意，他正全神贯注地瞧着螃蟹端着一只大盘于走了进来，那盘子上盛着一百一十二块——不一一百块又大又馋人的油炸
-土豆片，以及为每个人准备的餐巾。）
+解说员： ——球落到了水坑里——噗哧！球反弹到他手里。斯普鲁克猛地从他身后飞起抢球，却被他有效地阻挡住了，他避开凶猛的斯普鲁克，在他前面是一片无人之境。注意，他
+到了50码，到了40码，30码了，到20码，10码——达阵得分，本地队得分！（
+\family sans
+本地队一方欢声如雷。
+\family default
+）球迷们，要是橄榄球不是橄榄形的，而是西瓜形的，这就是将会出现的情况！不过，在现实中，本地队失了球，而外地队攻到了本地队的七码线上。这真是皮球无知，不解人心！
 \end_layout
 
-\begin_layout Standard
-螃蟹：你们觉得我的虚拟电视怎么样？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 这你怎，么想，小懒？
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+阿基里斯冲着树懒得意洋洋地笑了一声，可后者却完全没有注意，他正全神贯注地瞧着螃蟹端着一只大盘子走了进来，那盘子上盛着一百一十二块——不——一百块又大又馋人的油炸
+土豆片，以及为每个人准备的餐巾。
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-树懒：坦率地说，老蟹，真叫人失望。它好象出了毛病。至少有一半时间里它是在瞎捣乱。这要是我的，我会马上不要了，把它给840一个象你这样的人，不过，这当然不是我的电
-视。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 你们觉得我的虚拟电视怎么样？
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-阿基里斯：这是件很古怪的玩艺儿。我想让它重演在另一种天气下的比赛，可这玩艺儿似乎自有一套想法！它不去改变天气，而是把橄榄球变得不是橄榄形的，却是西瓜形的！那么请
-告诉我——橄榄球怎么能不是橄榄形的？这真是自相矛盾。太荒诞了！
+树懒： 坦率地说，老蟹，真叫人失望。它好象出了毛病。至少有一半时间里它是在瞎捣乱。这要是我的，我会马上不要了，把它给
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+840
 \end_layout
+
+\end_inset
 
-\begin_layout Standard
-螃蟹：真没劲！我还以为你们会发现什么有趣的虚拟呢。要是把橄榄球赛改成棒球赛，刚才那场比赛的结局会怎么样，你们想看看吗？
+一个象你这样的人，不过，这当然不是我的电视。
 \end_layout
 
-\begin_layout Standard
-乌龟：噢，这主意太伟大啦！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 这是件很古怪的玩艺儿。我想让它重演在另一种天气下的比赛，可这玩艺儿似乎自有一套想法！它不去改变天气，而是把橄榄球变得不是橄榄形的，却是西瓜形的！那么
+请告诉我——橄榄球怎么能不是橄榄形的？这真是自相矛盾。太荒诞了！
 \end_layout
 
-\begin_layout Standard
-（螃蟹拧了拧两个球形开关，然后退了几步。）
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 真没劲！我还以为你们会发现什么有趣的虚拟呢。要是把橄榄球赛改成棒球赛，刚才那场比赛的结局会怎么样，你们想看看吗？
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 噢，这主意太伟大啦！
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-解说员：现在有四个人出局，还——
+（
+\family sans
+螃蟹拧了拧两个球形开关，然后退了几步。
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-阿基里斯：四人出局？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+解说员： 现在有四个人出局，还——
 \end_layout
 
-\begin_layout Standard
-解说员：对，球迷们——四人出局。你一旦把橄榄球赛改成棒球赛，就得接受：一些既成事实！我还是要说，四人出局，外地队是守队，本地队进攻。现在提里趿拉打垒。外地队采取
-触击战术。牛韦现在举手投球——他投了一个上升球。球朝着提里趿拉直飞过来一阿基里斯：狠扣它一个，提里趿拉！给外地队一点颜色看看！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 四人出局？
 \end_layout
 
-\begin_layout Standard
-解说员：——但是球好象沾了水，在空中划了一道奇怪的弧线。斯638普鲁克猛地飞身抱球！那球看去险些擦过提里趿拉的球棒，从他身边弹开了——这被判为飞球。裁判判凶猛的
-斯普鲁克为外地队得分，从而结束了第七局的比赛。这肘本地队很不利。要是把橄榄球赛改成棒球赛，这就是刚才的比赛将出现的结局。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+解说员： 对，球迷们——四人出局。你一旦把橄榄球赛改成棒球赛，就得接受一些既成事实！我还是要说，四人出局，外地队是守队，本地队进攻。现在提里趿拉打垒。外地队采取
+触击战术。牛韦现在举手投球——他投了一个上升球。球朝着提里趿拉直飞过来——
 \end_layout
 
-\begin_layout Standard
-树懒：哼！你们干脆把比赛挪到月球上去算啦。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 狠扣它一个，提里趿拉！给外地队一点颜色看看！
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-螃蟹：说干就干！只要在这儿拧一下，在那儿拧一下……84 1
+解说员： ——但是球好象沾了水，在空中划了一道奇怪的弧线。斯普鲁克猛地飞身抱球！那球看去险些擦过提里趿拉的球棒，从他身边弹开了——这被判为飞球。裁判判凶猛的斯普
+鲁克为外地队得分，从而结束了第七局的比赛。这对本地队很不利。要是把橄榄球赛改成棒球赛，这就是刚才的比赛将出现的结局。
 \end_layout
 
-\begin_layout Standard
-（屏幕上出现了一块孤零零的火山口样的场地，双方队员都穿着太空服定在原地不动。但很快，两队队员同时动起来，队员们跳得很高，有时都高过了其他队员的头顶。球被抛向空中
-，高到几乎看不见了。然后再缓慢地落到某个身穿太空服的队员手里，球落下的地方离它被抛起的地方几乎有四分之一公里远口）
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 哼！你们干脆把比赛挪到月球上去算啦。
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 说干就干！只要在这儿拧一下，在那儿拧一下……
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-解说员：朋友们，你们现在看到的是虚拟的比赛在月球上进行时的情景。现在让我们先抽空儿告诉大家一点重要的商业行情。提供这一信息的好心人专酿古鲁皮啤酒——这是最对我口
-味的啤酒——待会儿我们再回到球赛上去。
+\begin_layout Plain Layout
+841
 \end_layout
 
-\begin_layout Standard
-树懒：要是我不这么懒的话，我一定要亲自把这台破电视奉还给卖主！可是，唉，我已经命中注定要做一个懒惰的树懒了……（嚼了一大口油炸土豆片c）
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+屏幕上出现了一块孤零零的火山口样的场地，双方队员都穿着太空服定在原地不动。但很快，两队队员同时动起来，队员们跳得很高，有时都高过了其他队员的头顶。球被抛向空中，
+高到几乎看不见了。然后再缓慢地落到某个身穿太空服的队员手里，球落下的地方离它被抛起的地方几乎有四分之一公里远。
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-乌龟：嘿，这可是个了不起的设想，老蟹。我可以提出一种假设情况吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+解说员： 朋友们，你们现在看到的是虚拟的比赛在月球上进行时的情景。现在让我们先抽空儿告诉大家一点重要的商业行情。提供这一信息的好心人专酿古鲁皮啤酒——这是最对我
+口味的啤酒——待会儿我们再回到球赛上去。
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-螃蟹：当然可以。
+树懒： 要是我不这么懒的话，我一定要亲自把这台破电视奉还给卖主！可是，唉，我已经命中注定要做一个懒惰的树懒了……（
+\family sans
+嚼了一大口油炸土豆片。
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-乌龟：要是空间变成四维的，刚才那场比赛会怎么样？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 嘿，这可是个了不起的设想，老蟹。我可以提出一种假设情况吗？
 \end_layout
 
-\begin_layout Standard
-螃蟹：哦，这可够复杂的，龟兄，不过我看我还是能够把这种构想输进仪器里面。请稍候。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 当然可以。
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
 
-\begin_layout Standard
-（他走上前去，看来是第一次充分使用了那台虚拟电视机的·控制盘，几乎每只球形开关都被拧了两三次。他仔细地检查了各种控制器的数据，然后退回来，脸上带着--j哼满意的
-神情。）
+乌龟： 要是空间变成四维的，刚才那场比赛会怎么样？
 \end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 哦，这可够复杂的，龟兄，不过我看我还是能够把这种构想输进仪器里面。请稍候。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+他走上前去，看来是第一次充分使用了那台虚拟电视机的控制盘，几乎每只球形开关都被拧了两三次。他仔细地检查了各种控制器的数据，然后退回来，脸上带着一幅满意的神情。
+\family default
+）
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 我看这下行了。
 \end_layout
 
-\begin_layout Standard
-觯说员：现在让我们来看看虚拟的重放镜头。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+解说员： 现在让我们来看看虚拟的重放镜头。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+屏幕上出现了许多混乱地绞在一起的管。一会儿变大，一会儿变小，有时又似乎在旋转。随后又变成某种奇特的蘑菇状的东西，到最后又回到管的形状。就在那些图像一会儿这样、一
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\family sans
+842
 \end_layout
 
-\begin_layout Standard
-（屏幕上出现了许多混乱地绞在一起的管。一会儿变大，一会儿变小，有时又似乎在旋转。随后又变成某种奇特的蘑菇状的东西，到最后又回到管的形状。就在那些图像一会儿这样、
-一84 2会儿那样，变成各种稀奇古怪的图形时，解说员又开始解说了。）
+\end_inset
+
+会儿那样，变成各种稀奇古怪的图形时，解说员又开始解说了。
+\family default
+）
+\begin_inset Newline newline
+\end_inset
+
+提里趿拉退后几步。他看到了场外十码处的回文斯，把球向右向外抛给了回文斯——看来很成功！回文斯现在到了35码平面，40码，他在场地上自己一方43码的平面上被擒抱了
+。三维的球迷们，要是球赛在四维空间里举行，这就是将会发生的情况。
 \end_layout
 
-\begin_layout Standard
-提里趿拉退后几步a他看到了场外十码处的回文斯，把球向右向外抛给了回文斯——看来很成功！回文斯现在到了35码平面，40码，他在场地上自己一方43码的平面上被擒抱了
-q三639维的球迷们，要是球赛在四维空间里举行，这就是将会发生的情况a
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你对它做了些什么，老蟹，你是怎么摆弄控制盘上那些各式各样的开关的？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：你对它做了些什么，老蟹，你是怎么摆弄控制盘上那些各式各样的开关的？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 我选择了适当的虚拟频道。喏，有这么多的虚拟频道同时广播，我只是把它调到广播我们所要求的那种虚拟的频道上。
 \end_layout
 
-\begin_layout Standard
-螃蟹：我选择了适当的虚拟频道。喏，有这么多的虚拟频道同时广播，我只是把它调到广播我们所要求的那种虚拟的频道上。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 随便什么电视机都能这么来吗？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：随便什么电视机都能这么来吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 不，大多数电视机无法接收虚拟频道。这需要一套特殊的、极难制作的电路。
 \end_layout
 
-\begin_layout Standard
-螃蟹：不，大多数电视机无法接收虚拟频道。这需要一套特殊的、极难制作的电路。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 你怎么知道哪一个频道播放哪一种节目？看报纸上的电视节目预告吗？
 \end_layout
 
-\begin_layout Standard
-树懒：你怎么知道哪一个频道播放哪一种节目？看报纸上的电视节目预告吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 我不需知道每种频道的呼叫代号，而是用编码的方法在这些开关上调出我想要的虚拟情景。用行话讲，这就叫作“通过对实参数调用某一频道”。总是有大量频道在播放各种
+可能设想的情景。那些内容“相近似”的各频道，其呼叫代号也彼此相近似。
 \end_layout
 
-\begin_layout Standard
-螃蟹：我不需知道每种频道的呼叫代号，而是用编码的方法在这些开关上调出我想要的虚拟情景。用行话讲，这就叫作“通过对实参数调用某一频道”。总是有大量频道在播放各种可
-能设想的情景‘那些内容“相近似”的各频道，其呼叫代号也彼此相近似。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 为什么刚才在我们第一次看虚拟的重放镜头时，你不用动那些开关呢？
 \end_layout
 
-\begin_layout Standard
-乌龟：为什么刚才在我们第一次看虚拟的重放镜头时，你不用动那些开关呢？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 这是因为我只是把它调到一个跟事实频道很相近的频道中，跟事实相差很小。所以它只是同事实偶有不同。把它完全调到事实频道几乎是不可能的。不过这没关系，因为事实
+总是很乏味的。所有的重放镜头都是事实的本来面目，这你能想象
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+843
 \end_layout
 
-\begin_layout Standard
-螃蟹：这是因为我只是把它调到一个跟事实频道很相近的颍道中，跟事实相差很小。所以它只是同事实偶有不同。把它完全调到事实频道几乎是不可能的。不过这没关系，因为事实总
-是很乏味的。所有的重放镜头都是事实的本来面目，这你能想象843吗？多没劲！
+\end_inset
+
+吗？多没劲！
 \end_layout
 
-\begin_layout Standard
-树懒：可我觉得虚拟电视这种构想整个儿就没劲。不过，要是有证据说明你这台机器可以搞出点有趣的对实节目的话，我没准儿会改变对它的看法。比方说，要是加法不满足交换律，
-刚才那场比赛会怎么样？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 可我觉得虚拟电视这种构想整个儿就没劲。不过，要是有证据说明你这台机器可以搞出点有趣的对实节目的话，我没准儿会改变对它的看法。比方说，要是加法不满足交换律
+，刚才那场比赛会怎么样？
 \end_layout
 
-\begin_layout Standard
-螃蟹：噢，老天，噢，老天爷！我担心对于这种型号的机器来说，这个要求所需要的推理过程太复杂了。无奈我现在还没有一台在这方面很完备的超拟电视机。有了这样一台超拟电视
-机，就可以满足你各种花样的要求了。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 噢，老天，噢，老天爷！我担心对于这种型号的机器来说，这个要求所需要的推理过程太复杂了。无奈我现在还没有一台在这方面很完备的超拟电视机。有了这样一台超拟电
+视机，就可以满足你各种花样的要求了。
 \end_layout
 
-\begin_layout Standard
-树懒：嗬J
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 嗬！
 \end_layout
 
-\begin_layout Standard
-螃蟹：不过请看——这差不多也能做到。你们想不想瞧瞧要是13不是个素数，刚才那场比赛会怎么样？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 不过请看——这差不多也能做到。你们想不想瞧瞧要是13不是个素数，刚才那场比赛会怎么样？
 \end_layout
 
-\begin_layout Standard
-树懒：多谢l不必了。这毫无意义！我要是刚才那场比赛的话，一定会叫你们这样随心所欲地播来放去弄得厌烦透顶啦。哼，你们这群头脑不清的家伙在这里没完没了地改换概念3接
-着往下看球赛吧！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 多谢！不必了。这毫无意义！我要是刚才那场比赛的话，一定会叫你们这样随心所欲地播来放去弄得厌烦透顶啦。哼，你们这群头脑不清的家伙在这里没完没了地改换概念！
+接着往下看球赛吧！
 \end_layout
 
-\begin_layout Standard
-阿基里斯：你从哪儿搞来的这么一套虚拟电视机，老蟹？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你从哪儿搞来的这么一套虚拟电视机，老蟹？
 \end_layout
 
-\begin_layout Standard
-螃蟹：信不信由你：小懒和我有天晚上去了趟乡村市场，这电视机就是我们在一次抽彩中得的头奖。一般地说，对这种无聊玩艺儿我一向不感兴趣，可当时我被某种疯狂的冲动抓住了
-，于是640 就买了一张彩票。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 信不信由你：小懒和我有天晚上去了趟乡村市场，这电视机就是我们在一次抽彩中得的头奖。一般地说，对这种无聊玩艺儿我一向不感兴趣，可当时我被某种疯狂的冲动抓住
+了，于是就买了一张彩票。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：你呢，小懒？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 你呢，小懒？
 \end_layout
 
-\begin_layout Standard
-树懒：我承认我也买了一张，只不过是为了迁就迁就老蟹。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 我承认我也买了一张，只不过是为了迁就迁就老蟹。
 \end_layout
 
-\begin_layout Standard
-螃蟹：等宣布了中奖号玛，我才大吃一惊，我中彩啦！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 等宣布了中奖号玛，我才大吃一惊，我中彩啦！
 \end_layout
 
-\begin_layout Standard
-阿基里斯：不可思议！在我认识的人里，还从没有谁中过彩！
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 不可思议！在我认识的人里，还从没有谁中过彩！
 \end_layout
 
-\begin_layout Standard
-螃蟹：当时我也是目瞪口呆，觉得难以置信。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 当时我也是目瞪口呆，觉得难以置信。
 \end_layout
 
-\begin_layout Standard
-树懒：关于中彩的事，你还有什么别的话要讲吗，老蟹？844
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 关于中彩的事，你还有什么别的话要讲吗，老蟹？
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+844
 \end_layout
 
-\begin_layout Standard
-螃蟹：没有了。哦——我那张彩票号码是1290他们宣布的中彩号码是128，只差一点。
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-树懒：所以，你们明白了吧，他事实上根本没中。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 没有了。哦——我那张彩票号码是129。他们宣布的中彩号码是128，只差一点。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：不过他差一点中了…
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 所以，你们明白了吧，他事实上根本没中。
 \end_layout
 
-\begin_layout Standard
-螃蟹：我更倾向于说我中了，因为我是那么接近……要是我的号码再减去个一，我就会中了。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 不过他差一点中了……
 \end_layout
 
-\begin_layout Standard
-树懒：但可惜的是，老蟹，在这种情况下q差一点”和“差十万八千里”没什么两样儿。乌龟：没错。哎，你呢，小懒？你的号码是多少？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+螃蟹： 我更倾向于说我中了，因为我是那么接近……要是我的号码再减去个一，我就会中了。
 \end_layout
 
-\begin_layout Standard
-树懒：我的号码是256-是128的两倍。太接近了，是吧！可我不明白那些市场官员的脑袋为什么死不开窍。他们拒绝给我完全应该归我的奖品。有个家伙声称他应该得这个奖，
-因为他的号码是128 0我觉得我的号码比他的更接近，可对那些官僚们是一点辙都没有。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 但可惜的是，老蟹，在这种情况下“差一点”和“差十万八千里”没什么两样儿。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：我整个儿一个糊涂。要是你根本就没有赢得虚拟电视机，老蟹，我们怎么能今天一下午坐在这儿看这台电视？看来我们自己好象也是呆在某个可能会存在的虚拟世界里，只
-要环境稍有些变化……
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 没错。哎，你呢，小懒？你的号码是多少？
 \end_layout
 
-\begin_layout Standard
-解说员：各位观众，要是螃蟹赢得了虚拟电视机的话，这就是这个下午在螃蟹家将会发生的事情。但是因为他并没有中彩，所以这四个朋友事实上只是观看了一场本地队被打得落花流
-水的比赛，用这种方式度过了一个愉快的下午。本地队在这场比赛中似0比128失利——也许是0比2567哦，对于一场在五维空间中的冥王星上举行的西瓜球比赛，这是无关紧
-要的。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 我的号码是256——是128的两倍。太接近了，是吧！可我不明白那些市场官员的脑袋为什么死不开窍。他们拒绝给我完全应该归我的奖品。有个家伙声称他应该得这个
+奖，因为他的号码是128。我觉得我的号码比他的更接近，可对那些官僚们是一点辙都没有。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我整个儿一个糊涂。要是你根本就没有赢得虚拟电视机，老蟹，我们怎么能今天一下午坐在这儿看这台电视？看来我们自己好象也是呆在某个可能会存在的虚拟世界里，
+只要环境稍有些变化……
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+解说员： 各位观众，要是螃蟹赢得了虚拟电视机的话，这就是这个下午在螃蟹家将会发生的事情。但是因为他并没有中彩，所以这四个朋友事实上只是观看了一场本地队被打得落花
+流水的比赛，用这种方式度过了一个愉快的下午。本地队在这场比赛中以0比128失利——也许是0比256？哦，对于一场在五维空间中的冥王星上举行的西瓜球比赛，这是无关
+紧要的。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
 845
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
