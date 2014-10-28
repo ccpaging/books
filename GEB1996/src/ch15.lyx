@@ -1654,6 +1654,20 @@ status open
 
 \begin_deeper
 \begin_layout Verse
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+
+\lang chinese-simplified
+
 \begin_inset ERT
 status open
 
@@ -1667,24 +1681,22 @@ CJKFontFang
 \end_inset
 
 一位烟民富于启发性的思想
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-巴赫此诗的英译引自大卫和曼德尔的《巴赫读本》，第97-98页。
-\end_layout
-
-\end_inset
-
-
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
- 
-\backslash
-CJKFontSong 
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+巴赫此诗的英译引自大卫和曼德尔的《巴赫读本》，第97-98页。
 \end_layout
 
 \end_inset

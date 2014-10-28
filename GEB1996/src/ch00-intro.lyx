@@ -448,22 +448,6 @@ status open
 
 \end_layout
 
-\begin_layout Quotation
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-CJKFontSong
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 \begin_inset Float figure
 wide false
@@ -593,22 +577,6 @@ status open
 
 \begin_layout Quotation
 莱比锡
-\end_layout
-
-\begin_layout Quotation
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-CJKFontSong
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard

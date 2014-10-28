@@ -604,6 +604,17 @@ status open
 
 \begin_layout Plain Layout
 
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
 
 \backslash
 CJKFontFang 
@@ -614,21 +625,20 @@ CJKFontFang
 又有一次，我去他家吃午饭，当时第一次世界大战已经打了一些时候了。我手里拿着一份《海滨杂志》月刊，当时这家杂志常发表一些谜题供读者解答。拉玛奴衍正把锅坐在火上，在
 里面搅拌着什么东西准备午饭，我则坐在桌子旁边翻阅杂志。有一个涉及两个数之间的关系的问题吸引了我。问题的细节已经忘了，不过我还记得它的类型。是说两名英国军官住在巴
 黎一条长街上的两所房子里，其门牌号码有某种特殊的联系，问题就是：求出这两个数。题目并不难，我通过尝试、订正，花了几分钟就解出来了。
-\end_layout
-
-\begin_layout Quotation
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-
-\backslash
-CJKFontSong 
+}
 \end_layout
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Quotation
 玛哈拉诺比斯（开玩笑地）：有个问题你。
 \end_layout
 
