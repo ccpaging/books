@@ -431,39 +431,231 @@ status open
 \end_layout
 
 \begin_layout Standard
-“邦加德问题”的一般形式是俄罗斯科学家莫·邦加德在其著图1 1 9．邦加德问题5 1号。[摘自莫·邦加德，《模式识男j）。]85 3
+“邦加德问题”的一般形式是俄罗斯科学家莫·邦加德在其著作《模式识别》中给出的。一个典型的邦加德问题——在他的一百个问题中的第51号——见图119。
 \end_layout
 
 \begin_layout Standard
-■
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0853.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+邦加德问题51号。[摘自莫·邦加德，《模式识别》。]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-1作《模式识别>中给出的。一个典型的邦加德问题——在他的一百个问题中的第5 1号一~见图1 1 9 0
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+853
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-这些有趣的问题是为模式识别者准备的，不管是人还是机器（也可以扔一个给外星入）。每个问题包括十二幅用方框围住的图像（以后简称为“框”）：六个在左面，形成第1组，六
-个在右面，形成第Ⅱ组。这些框可按下列方式编号：
+这些有趣的问题是为模式识别者准备的，不管是人还是机器（也可以扔一个给外星入）。每个问题包括十二幅用方框围住的图像（以后简称为“框”）：六个在左面，形成第I组，六
+个在右面，形成第II组。这些框可按下列方式编号：
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I-A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I-B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+II-A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+II-B
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I-C
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I-D
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+II-C
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+II-D
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I-C
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I-F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+II-E
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+II-F
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-I -A I-B Ⅱ-AⅡ--B
-\end_layout
-
-\begin_layout Standard
-I—C I -D Ⅱ-C I-D
-\end_layout
-
-\begin_layout Standard
-I -C I-F Ⅱ-EⅡ-F问题是“第1组和第Ⅱ组中的框有何不同？”
+问题是“第I组和第II组中的框有何不同？”
 \end_layout
 
 \begin_layout Standard
 一个求解邦加德问题的程序可能会包括若干阶段，原始数据通过它得以逐步转换成描述。初级阶段相对来说灵活性不大，而高级阶段逐渐变得更灵活一些。最终的阶段具有一种我称之
-为“尝试性”的性质，就是说一幅图像的表达方式总是带有尝试性的。只须出现微小的变化，用后面几个阶段提供的手段就能重新构造出一64 7个高层描述来。下面要提出的想法
-本身也具有一定的尝试性。我将设法先传达总体想法，回避巨大的困难。然后我将回过头来设法解释那些微妙复杂之处。这样你在阅读时对于整个工作方式的认识也要经过某种修正。
-但这是体现在讨论的精神之中的。
+为“尝试性”的性质，就是说一幅图像的表达方式总是带有尝试性的。只须出现微小的变化，用后面几个阶段提供的手段就能重新构造出一个高层描述来。下面要提出的想法本身也具
+有一定的尝试性。我将设法先传达总体想法，回避巨大的困难。然后我将回过头来设法解释那些微妙复杂之处。这样你在阅读时对于整个工作方式的认识也要经过某种修正。但这是体
+现在讨论的精神之中的。
 \end_layout
 
 \begin_layout Subsection*
@@ -471,182 +663,258 @@ I -C I-F Ⅱ-EⅡ-F问题是“第1组和第Ⅱ组中的框有何不同？”
 \end_layout
 
 \begin_layout Standard
-假设我们要解某个邦加德问题。题目被送到一台电视摄像机前，逮样原始数据就被读进去了。然后对原始数据进行“预处理”，这就是说某些显著特征可以被检测出来。这些特征的“
+假设我们要解某个邦加德问题。题目被送到一台电视摄像机前，这样原始数据就被读进去了。然后对原始数据进行“预处理”，这就是说某些显著特征可以被检测出来。这些特征的“
 名字”构成了该问题的一个“微词汇表”，而它们是从一个通用的“显著特征词汇表”中抽取出来的。这个显著特征词汇表中的一些典型项是：
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+854
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+线段、曲线、水平的、垂直的、黑的、白的、大的、小的、尖的、圆的……
 \end_layout
 
 \begin_layout Standard
-8 54
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-线段、曲线、水平的、垂直的、黑的、白的、大的、小的、尖
-\end_layout
-
-\begin_layout Standard
-的、圆的．．
-\end_layout
-
-\begin_layout Standard
 在预处理的第二阶段，使用了某些关于“基本图形”的知识。如果发现了基本图形，它们的名字也要被包括进来。这样，可能会选出下列的项：
 \end_layout
 
-\begin_layout Standard
-三角形、圆形、矩形、凹入，凸出、直角、顶点、尖端、箭头
+\begin_layout Quotation
+三角形、圆形、矩形、凹入，凸出、直角、顶点、尖端、箭头……
 \end_layout
 
 \begin_layout Standard
-．．．．．．．
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
 在人脑中，这里差不多就是意识和潜意识的，交汇点。以上的讨论主要是为了对此后发生的过程进行描述。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
 高层描述
 \end_layout
 
 \begin_layout Standard
 至此，这幅图像已经根据某些已知的概念，在一定程序上被“理解”了，而且完成了一些检查工作。对于十二个框中的某一个或几个，已经作出了尝试性的描述。在这种描述中一般只
-使用下面这些简单的描述词：■■4 7图1 20．邦加德问题47号。【-摘自莫·邦加德，g模式识别》。] 648在上、在下、在左、在右、在里、在外、靠近、远离、平
-行、垂
+使用下面这些简单的描述词：
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0855.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+邦加德问题47号。[摘自莫·邦加德，《模式识别》。]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+在上、在下、在左、在右、在里、在外、靠近、远离、平行、垂
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
 855
 \end_layout
 
-\begin_layout Standard
-直、在一行中，分散的、间隔均匀的、间隔参差不一的、等等。
+\end_inset
+
+直、在一行中，分散的、间隔均匀的、间隔参差不一的、等等。同时，还可能用到确定的或不确的数量描述词：
 \end_layout
 
-\begin_layout Standard
-同时，还可能用到确定的或不确的数量描述词：
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quotation
 1、2、3、4、5、……、许多、很少、等等。
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
+\noindent
 以此可以构成较复杂的描述词，例如：
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 在右方远处、不太靠近、几乎平行、等等。
 \end_layout
 
 \begin_layout Standard
-这样，对一个典型框的内容——例如邦加德问题4 7号(图120)中的I—F——可以有下列不同的描述：
+\begin_inset space \qquad{}
+\end_inset
+
+这样，对一个典型框的内容——例如邦加德问题47号（图120）中的I-F——可以有下列不同的描述：
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 三个图形、
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 或
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 三个白图形
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 或
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 右边有一个圆形
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 或
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 两个尖朝上的三角形
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 或
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 两个三角形和一个圆形
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 或
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 一个大图形和两个小图形
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 或
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 一个曲线图形和两个直边图形
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 或
 \end_layout
 
-\begin_layout Standard
+\begin_layout CenterLine
 一个里面和外面有同类图形的圆形
 \end_layout
 
 \begin_layout Standard
 这些描述中的每一个都是通过一个“过滤器”来观察这个框的。脱离环境来看，其中每一个都可能是个有用的描述。但我们发现，在它们所处的特定的邦加德问题的环境中，它们全都
-是“错的”。换句话说，如果你知道邦加德问题4 7号中第1组和第1组的
+是“错的”。换句话说，如果你知道邦加德问题4 7号中第I组和第II组的
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+856
 \end_layout
 
-\begin_layout Standard
-856区别，然后给你一个上面那样的描述，作为对某个你未见到的图像的描述，那么这种信息将无法使你断定这个图像应该属于哪一组。
+\end_inset
+
+区别，然后给你一个上面那样的描述，作为对某个你未见到的图像的描述，那么这种信息将无法使你断定这个图像应该属于哪一组。在这个环境中，这个框的本质特征是它包括了；
 \end_layout
 
-\begin_layout Standard
-在这个环境中，这个框的本质特征是它包括了；
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quotation
 一个圆形包含一个三角形
 \end_layout
 
 \begin_layout Standard
-注意，如果某个人听到了这一描述，他无法据此“重建”原始图形，但他能“识别”某个图形是否具有这种性质。这有点象音乐的风649格：你可能会准确无误地辨别出莫扎特的作
-品，但同时又写不出一首能让别人以为是出于莫扎特之手的曲子来。
+\begin_inset space \qquad{}
+\end_inset
+
+注意，如果某个人听到了这一描述，他无法据此“重建”原始图形，但他能“识别”某个图形是否具有这种性质。这有点象音乐的风格：你可能会准确无误地辨别出莫扎特的作品，但
+同时又写不出一首能让别人以为是出于莫扎特之手的曲子来。
 \end_layout
 
 \begin_layout Standard
-91
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0857.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+邦加德问题91号。[摘自莫·邦加德，《模式识别》。]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-图1 21．邦加德问题91号。二摘自莫·邦加德，《模式jvcl别争。]
+现在考虑一下邦加德问题91号（图121）中的I-D框。在邦加德问题91号的环境中，一个繁琐然而是“正确”的描述是
 \end_layout
 
-\begin_layout Standard
-现在考虑一下邦加德问题9 1号（图1 2 1）中的I -D框。在邦加德问题9 1号的环境巾，一个繁琐然而是“正确”的描述是
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quotation
 一个带有三个矩形凹入的圆形。
 \end_layout
 
 \begin_layout Standard
-请注意这种描述的复杂性，其中“带有”这个词起了某种否定作用，意思是那个“圆”实际上并不是个圆：它差一点就是个圆了，只是……。进一步来说，凹入的也并非标准的矩形。
-在我们使用语言描述事物的方式之中，存在着许多“宽松”之处。显然，许多信息已经被扔掉了，甚至本应扔掉得更多些。想预先得知哪些该扔、哪
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-857些该留，这是很困难的。因此，为了得到一个适当的折中方案，必须采用恰当的方法。当然，如果不得不恢复已经丢掉的信息，那就需要求助于低层的描述了（即模块化程度较
-弱的描述），就好象人能够不断地观察该图形，以求重组关于它的想法一样。那么，关键就在于想出一些明确的规则来说明如何完成下列任务：
+请注意这种描述的复杂性，其中“带有”这个词起了某种否定作用，意思是那个“圆”实际上并不是个圆：它差一点就是个圆了，只是……。进一步来说，凹入的也并非标准的矩形。
+在我们使用语言描述事物的方式之中，存在着许多“宽松”之处。显然，许多信息已经被扔掉了，甚至本应扔掉得更多些。想预先得知哪些该扔、哪些该留，这是很困难的。因此，为
+了得到一个适当的折中方案，必须采用恰当的方法。当然，如果不得不恢复已经丢掉的信息，那就需要求助于低层的描述了（即模块化程度较弱的描述），就好象人能够不断地观察该
+图形，以求重组关于它的想法一样。那么，关键就在于想出一些明确的规则来说明如何完成下列任务：
 \end_layout
 
 \begin_layout Standard
@@ -662,137 +930,195 @@ I -C I-F Ⅱ-EⅡ-F问题是“第1组和第Ⅱ组中的框有何不同？”
 \end_layout
 
 \begin_layout Standard
-(i)添加信息，
+\begin_inset space \qquad{}
+\end_inset
+
+（i）添加信息，
 \end_layout
 
 \begin_layout Standard
-(ii)去掉信息，
+\begin_inset space \qquad{}
+\end_inset
+
+（ii）去掉信息，
 \end_layout
 
 \begin_layout Standard
-或(iii)从另一个角度看同样的信息；
+\begin_inset space \qquad{}
+\end_inset
+
+或（iii）从另一个角度看同样的信息；
 \end_layout
 
 \begin_layout Standard
 重复这一过程，直到发现能把两组图形区别开的东西为止。
 \end_layout
 
-\begin_layout Standard
-模板和同一性检测器650 尽最大可能使描述“在结构上彼此相似”，这可能会是个好的策略。它们所共同具有的结构将使它们之间的比较变得容易一些。
+\begin_layout Subsection*
+模板和同一性检测器
 \end_layout
 
 \begin_layout Standard
-在这种理论中有两个要素与该策略有关，其一是关于“描述模式”，或称“模板”的想法，其二是关于“同一性检测器”的想法。
+尽最大可能使描述“在结构上彼此相似”，这可能会是个好的策略。它们所共同具有的结构将使它们之间的比较变得容易一些。在这种理论中有两个要素与该策略有关，其一是关于“
+描述模式”，或称“模板”的想法，其二是关于“同一性检测器”的想法。
 \end_layout
 
 \begin_layout Standard
-先谈同一性检测器。它是出现在程序的各个层次上的“特派
+先谈同一性检测器。它是出现在程序的各个层次上的“特派员”。（事实上，不同的层次上可能会有不同种类的同一性检测器。）它不断地在个别的描述之中和不同的描述之间巡视，
+寻找重复出现的描述词或其它东西。一旦发现了某种同一性，就会触发各种重构操作，这既可能发生在单个描述水平上，也可能同时涉及多个描述。
 \end_layout
 
 \begin_layout Standard
-员”。（事实上，不同的层次上可能会有不同种类的同一性检测器。）
+现在来谈模板。在预处理完成后，首先要做的是设法构造一块模板，或者叫描述模式——一种适用于描述问题中所有框的“统一
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+858
+\end_layout
+
+\end_inset
+
+格式”。其基本想法是：描述常常可以通过某种自然的方式被分解成子描述，然后如果需要的话还可以把它们再变成子子描述。当你碰到属于预处理层次的基本概念时，这个分解过程
+就终止了。现在重要的是选择描述的分解方式，以反映所有框之间的共同点，否则将会引入一些多余而且无意义的“伪规律”。
 \end_layout
 
 \begin_layout Standard
-它不断地在个别的描述之中和不同的描述之间巡视，寻找重复出
+模板是在什么样的信息的基础上被构造出来的呢？最好还是看一个例子。请看邦加德问题49号（图122）。预处理得到的信息是每个框都包含若干个小圈和一个较大的封闭曲线。
+这个观察是很有价值的，应当被加到模板中去。这样关于模板的第一个设想可能是：
+\end_layout
+
+\begin_layout Quotation
+大封闭曲线：——
+\end_layout
+
+\begin_layout Quotation
+小圈：——
 \end_layout
 
 \begin_layout Standard
-现的描述词或其它东西。一旦发现了某种同一性，就会触发各种重
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-构操作，这既可能发生在单个拮述水平上，也可能同时涉及多个描
-\end_layout
-
-\begin_layout Standard
-述。
-\end_layout
-
-\begin_layout Standard
-现在来谈模板。在预处理完成后，首先要做的是设法构造一块
-\end_layout
-
-\begin_layout Standard
-模板，或者叫描述模式一一一种适用于描述问题中所有框的“统一
-\end_layout
-
-\begin_layout Standard
-85 8格式钐。其基本想法是：描述常常可以通过某种自然的方式被分解成子描述，然后如果需要的话还可以把它们再变成子子描述。当你碰到属于预处理层次的基本概念时，这个
-分解过程就终止了。现在重要的是选择描述的分解方式，以反映所有框之间的共同点，否则将会引入一些多余而且无意义的“伪规律”。
-\end_layout
-
-\begin_layout Standard
-模板是在什么样的信息的基础上被构造出来的呢？最好还是看一个例子。请看邦加德问题4 9号（图122）。预处理得到的信息是每个框都包含若干个小圈和一个较大的封闭曲线
-。这个观察是很有价值的，应当被加到模板中去。这样关于模板的第一个设想可能是：
-\end_layout
-
-\begin_layout Standard
-大封闭曲线：一
-\end_layout
-
-\begin_layout Standard
-小圈：一
-\end_layout
-
-\begin_layout Standard
 这很简单：在描述模板中有两个明确的“槽”，需要用子描述来把它们填上。
 \end_layout
 
 \begin_layout Standard
-4 9图1 22．邦加德问题4 9号。二摘自奠·邦加德，《：模式识别》。]一个异层结构程序“封闭曲线”这个词触发了一件有趣的事情。这个程序中最熏
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0859.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+邦加德问题49号。[摘自莫·邦加德，《模式识别》。]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+一个异层结构程序
 \end_layout
 
 \begin_layout Standard
-85 9要的模块之一是一种语义网络——_概念网修，在这个网络中所有已知名词、形容词等等被相互联接起来了，而联接的方式就说明了它们的相互关系。例如，“封闭曲线”紧
-密地联接于“内部”和“外部”这两个词。概念网充满了关于词间关系的信息，例如谁和谁是相反的、谁和谁是相似的、谁和谁经常同时出现，如此等等。在图1
- 2 3中表示了一张概念网的一小部分，对此，我们不久就会加以解释。但让我们先来追寻在解决第4 9号问题时所发生的事情。“内部”和“外部”这两个词被激活了，因为它
-们在网络中与“封闭曲线”
+“封闭曲线”这个词触发了一件有趣的事情。这个程序中最重
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+859
+\end_layout
+
+\end_inset
+
+要的模块之一是一种语义网络——“概念网”，在这个网络中所有已知名词、形容词等等被相互联接起来了，而联接的方式就说明了它们的相互关系。例如，“封闭曲线”紧密地联接
+于“内部”和“外部”这两个词。概念网充满了关于词间关系的信息，例如谁和谁是相反的、谁和谁是相似的、谁和谁经常同时出现，如此等等。在图123中表示了一张概念网的一
+小部分，对此，我们不久就会加以解释。但让我们先来追寻在解决第49号问题时所发生的事情。“内部”和“外部”这两个词被激活了，因为它们在网络中与“封闭曲线”相邻。这
+就提示模板构造者：最好还能为该曲线的内部和外部分别设立槽。因此，根据“尝试性”的精神，模板被尝试着改组成下列形式：
+\end_layout
+
+\begin_layout Quotation
+大封闭曲线：——
+\end_layout
+
+\begin_layout Quotation
+内部的小圈：——
+\end_layout
+
+\begin_layout Quotation
+外部的小圈：——
 \end_layout
 
 \begin_layout Standard
-相邻。这就提示模板构造者：最好还能为该曲线的内部和外部分别设立槽。因此，根据“尝试性”的精神，模板被尝试着改组成下列形式：
+\begin_inset space \qquad{}
+\end_inset
+
+在找到子描述之后，“内部”和“外部”这两个词将调用有关过程去检查框中那些特定的区域。在邦加德问题49号中的I-A框内会发现下列情况：
 \end_layout
 
-\begin_layout Standard
-大封闭曲线：一一
-\end_layout
-
-\begin_layout Standard
-内部的小圈：一一
-\end_layout
-
-\begin_layout Standard
-外部的小圈：一一
-\end_layout
-
-\begin_layout Standard
-在找到子描述之后，“内部”和“外部”这两个词将调用有关过程去检查框中那些特定的区域。在邦加德问题49号中的I -A框内会发现下列情况：
-\end_layout
-
-\begin_layout Standard
+\begin_layout Quotation
 大封闭曲线：圆形
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 内部的小圈：三个
 \end_layout
 
-\begin_layout Standard
-外部的小圈：三个对同一个邦加德问题中的Ⅱ一A框有下列描述：
+\begin_layout Quotation
+外部的小圈：三个
 \end_layout
 
 \begin_layout Standard
+对同一个邦加德问题中的II-A框有下列描述：
+\end_layout
+
+\begin_layout Quotation
 大封闭曲线：雪茄形
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
 内部的小圈：三个
 \end_layout
 
+\begin_layout Quotation
+外部的小圈：三个
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+860
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
-外部的小圈：三个8 60图1 23．一个求解邦加德问题的程序的概念网络片段．“结点一通过_连线竹彼此相联，而连线又可能被联接。通过把连线看成动词，把它所联接的结
-点看成主语和宾语，你可以从图中抽取出一些句子来．
+图1 23．一个求解邦加德问题的程序的概念网络片段．“结点一通过_连线竹彼此相联，而连线又可能被联接。通过把连线看成动词，把它所联接的结点看成主语和宾语，你可以
+从图中抽取出一些句子来．
 \end_layout
 
 \begin_layout Standard
