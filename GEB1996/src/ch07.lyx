@@ -3909,6 +3909,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:42"
+
+\end_inset
+
 “螃蟹卡农”，艾舍尔作。
 \end_layout
 
@@ -4110,6 +4116,13 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:43"
+
+\end_inset
+
+
 \begin_inset Argument 1
 status open
 

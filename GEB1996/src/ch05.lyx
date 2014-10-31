@@ -1109,6 +1109,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:32"
+
+\end_inset
+
+
 \begin_inset Argument 1
 status open
 
@@ -1204,6 +1211,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:33"
+
+\end_inset
+
+
 \begin_inset Argument 1
 status open
 
@@ -1373,6 +1387,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:34"
+
+\end_inset
+
+
 \begin_inset Argument 1
 status open
 
