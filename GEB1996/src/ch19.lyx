@@ -1970,7 +1970,7 @@ status open
 
 \end_inset
 
-人在说“手套[Handschuhe]"时是否真的想到了“穿在手上的鞋”（该词的字面意义）?到底这些部分在多大程度上与整体产生共鸣，恐怕是因人而异、因地而异的。
+人在说“手套[Handschuhe]"时是否真的想到了“穿在手上的鞋”（该词的字面意义）？到底这些部分在多大程度上与整体产生共鸣，恐怕是因人而异、因地而异的。
 \end_layout
 
 \begin_layout Standard
@@ -2669,7 +2669,10 @@ status open
 \end_layout
 
 \begin_layout Standard
-倒霉，他一下掉到半空中a
+\begin_inset space \qquad{}
+\end_inset
+
+倒霉，他一下掉到半空中。
 \end_layout
 
 \begin_layout Standard
@@ -2677,6 +2680,9 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
 倒霉，那玩艺儿一点儿不管用。
 \end_layout
 
@@ -2685,6 +2691,9 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
 倒霉，一杆钢叉在上面戳。
 \end_layout
 
@@ -2693,6 +2702,9 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
 倒霉，他也错过了干草垛。
 \end_layout
 
@@ -2701,42 +2713,75 @@ status open
 等。
 \end_layout
 
-\begin_layout Standard
-智 ；与情感
+\begin_layout Subsection*
+智能与情感
 \end_layout
 
 \begin_layout Standard
 请考虑下面这个简短但能说明问题的故事：
 \end_layout
 
-\begin_layout Standard
-玛吉紧紧拉着一条线，上面系着她美丽的新气球。忽然，
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
+玛吉紧紧拉着一条线，上面系着她美丽的新气球。忽然，一阵风把它带走了。风把它吹向一棵树。气球在一只树枝上碰破了。玛吉哭个不停。
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+大卫·鲁美尔哈特[David
+\begin_inset space \space{}
+\end_inset
+
+E.
+\begin_inset space \space{}
+\end_inset
+
+Rumelhart]，“评故事模式”，载鲍布罗和科林斯[D.
+ Bobrow；A.
+ Collins]编的《表示与理解》，第211页。
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-一阵风把它带走了。风把它吹向一棵树。气球在一只树枝上
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-碰破了。玛吉哭个不停。④
-\end_layout
-
-\begin_layout Standard
 为了理解这个故事，你必须从字缝里读出许多东西来。例如，玛吉是个女孩子。这是个玩具气球，上面有一条可以让孩子拉着的线。它对大人来说可能并不美丽，但在孩子眼里的确如
-此。她是在室外。风所带走的“它力是指气球。凤没有把玛吉和气球一起吹走，
+此。她是在室外。风所带走的“它”是指气球。风没有把玛吉和气球一起吹走，
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+892
 \end_layout
 
-\begin_layout Standard
-892玛吉撒手了。气球碰上尖锐的东西就会破。它们一旦破了就无法弥补。孩子们喜爱气球，而且一旦它破了他们就会很伤心。玛古再见她的气球破了。孩子们伤心时就会哭。“哭
-个不停”是指哭的时间很长，哭得很厉害。玛吉哭个不停是因为她的气球破了，她很伤心c
+\end_inset
+
+玛吉撒手了。气球碰上尖锐的东西就会破。它们一旦破了就无法弥补。孩子们喜爱气球，而且一旦它破了他们就会很伤心。玛古看见她的气球破了。孩子们伤心时就会哭。“哭个不停
+”是指哭的时间很长，哭得很厉害。玛吉哭个不停是因为她的气球破了，她很伤心。
 \end_layout
 
 \begin_layout Standard
 对于表层上所缺少的东西来说，上面写出的或许只是其中一小部分而已。一个程序要想懂得所发生的事情，就必须全部拥有这些知识。你可能会反对说：即使它在某种理智的意义下“
-理解”了所说的事情，它也绝不会真正理解，除非它也会哭个不停。一台计算机何时才能做到这一点呢？这是1种人本主义的观点，约瑟夫·魏．增鲍姆在他的著作<计算机的能力和
-人类理性》中就涉及到了这一点。我认为这是一个重要的问题，事实上是个极其深刻的问题。遗憾的是，现在许多人工智能工作者出于各种原因不愿意认真考虑这种问题。但从某一方
-面来说，这些人工智能工作者是对的：现在考虑让计算机会哭未免为时过早，我们必须首先考虑计算机处理676语言和其它问题的规则。到时候，我们就会发现我们已经直接面对那
-个更深刻的问题了。
+理解”了所说的事情，它也绝不会真正理解，除非它也会哭个不停。一台计算机何时才能做到这一点呢？这是一种人本主义的观点，约瑟夫·魏增鲍姆在他的著作《计算机的能力和人
+类理性》中就涉及到了这一点。我认为这是一个重要的问题，事实上是个极其深刻的问题。遗憾的是，现在许多人工智能工作者出于各种原因不愿意认真考虑这种问题。但从某一方面
+来说，这些人工智能工作者是对的：现在考虑让计算机会哭未免为时过早，我们必须首先考虑计算机处理语言和其它问题的规则。到时候，我们就会发现我们已经直接面对那个更深刻
+的问题了。
 \end_layout
 
 \begin_layout Subsection*
@@ -2744,42 +2789,54 @@ status open
 \end_layout
 
 \begin_layout Standard
-在人类的行为中，有时完全找不到受规则控制的迹象，好象人类的确不是受规则所控制的。但这是一种锴觉——有点象认为晶体和金属具有刻板的内在规律，而液体和花朵则不然。我
+在人类的行为中，有时完全找不到受规则控制的迹象，好象人类的确不是受规则所控制的。但这是一种错觉——有点象认为晶体和金属具有刻板的内在规律，而液体和花朵则不然。我
 们将在下一章再回到这个问题上来。
 \end_layout
 
-\begin_layout Standard
-大脑中工作着的逻辑过程本身可能更类似于一系列对象
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
 \end_layout
 
-\begin_layout Standard
-形文字的操作，这种文字抽象地看类似于汉字或玛雅语中的
-\end_layout
+\end_inset
 
-\begin_layout Standard
-事件描述——唯一的例外是大脑中的逻辑过程的基本元素不
-\end_layout
+大脑中工作着的逻辑过程本身可能更类似于一系列对象形文字的操作，这种文字抽象地看类似于汉字或玛雅语中的事件描述——唯一的例外是大脑中的逻辑过程的基本元素不仅是字词
+，而更象是句子或整个故事，在它们之中存在着相互
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-仅是字词，而更象是句子或整个故事，在它们之中存在着相互
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 893
 \end_layout
 
-\begin_layout Standard
-联系，形成一种具有自己的规则的元逻辑或超逻辑。⑤
+\end_inset
+
+联系，形成一种具有自己的规则的元逻辑或超逻辑。
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+斯坦尼斯拉夫·乌兰姆，《一位数学家的奇遇》，第183页。
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
 对大多数专家来说，让他们生动地叙述最初是什么激励他们进入他们的领域，这往往是很困难的。他们甚至可能根本记不起来了。与此相反，某些站在外面的人却可能理解一个领域所
-特有的传奇故事，而且能清楚地把它表达出来。我想这就是．卜面引用的乌兰姆那段话吸引我的原因，因为它富有想象力地传达了人工智能事业的奇妙之处，而且显示了对它所抱有的
-信心。现在我们必须依靠 ‘我们的信心，因为前面的路还长着呢！
-\end_layout
-
-\begin_layout Standard
-f
+特有的传奇故事，而且能清楚地把它表达出来。我想这就是上面引用的乌兰姆那段话吸引我的原因，因为它富有想象力地传达了人工智能事业的奇妙之处，而且显示了对它所抱有的信
+心。现在我们必须依靠我们的信心，因为前面的路还长着呢！
 \end_layout
 
 \begin_layout Subsection*
@@ -2787,696 +2844,651 @@ f
 \end_layout
 
 \begin_layout Standard
-下面我要提出十个关于人工智能的“问题与推测”，以此作为本章的结束。‘我还没有大胆到称它们为-答案”的地步——它们只是我的个人见解。一旦我学到更多东西，或人工智能
-有了进一步发展，这些意见都可能以某种方式改变。（在下面，“人工智能程序”一词意指那种远比现在运行的种种程序先进得多的程序，是一种“确实有智能的修程序。而“程序”
-、“计算机”这些词恐怕是带有更多的机械论内涵了，不过让我们还是依旧用这些词吧。）问题：是否计算机程序终将谱写出优美的乐曲？
+下面我要提出十个关于人工智能的“问题与推测”，以此作为本章的结束。我还没有大胆到称它们为“答案”的地步——它们只是我的个人见解。一旦我学到更多东西，或人工智能有
+了进一步发展，这些意见都可能以某种方式改变。（在下面，“人工智能程序”一词意指那种远比现在运行的种种程序先进得多的程序，是一种“确实有智能的修程序。而“程序”、
+“计算机”这些词恐怕是带有更多的机械论内涵了，不过让我们还是依旧用这些词吧。）
 \end_layout
 
-\begin_layout Standard
-推测：会的，但不是近期的事情。音乐是种情感的语言，在程序能
+\begin_layout Labeling
+\labelwidthstring 问题
+问题： 是否计算机程序终将谱写出优美的乐曲？
 \end_layout
 
-\begin_layout Standard
-有象我们那么复杂的情感之前，它无论如何无法谱出什么优
+\begin_layout Labeling
+\labelwidthstring 问题
+\begin_inset space \quad{}
+\end_inset
+
+推测： 会的，但不是近期的事情。音乐是种情感的语言，在程序能有象我们那么复杂的情感之前，它无论如何无法谱出什么优美酌旋律。“赝品”——对已有音乐的句法进行肤浅的
+模仿——是容易达到的，但无论人们开始时是怎么想的，音乐表现远比句法规则所能捕捉到的东西要多得多。在相当长的一段时间之内，计算机作曲程序谱出的乐曲不会产生新的美感
+。下面我来把这一思想进一步展开。设想——我听到过这种暗示我们很快就能有一种程序化了的“乐盒”：台式的、可大批生产、二十块钱就能邮购，这“乐盒”中那没有生殖能力的
+电路
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+894
 \end_layout
 
-\begin_layout Standard
-美酌旋律。“赝品”——对已有音乐的句法进行肤浅的模仿
+\end_inset
+
+产生的乐曲会让人觉得是出自肖邦或巴赫之手（如果他们能活到现在的话）。真要是这么想的话，那就是对人类精神的深度的一种荒唐可耻的低估。能有如此功能的“程序”必须得能
+自己走进这个世界，在纷繁的生活中抗争，并每时每刻体验到来自生活的感受。它必须懂得暗夜里的凉风所带来的喜悦与孤独，懂得对于带来温暖爱抚的手掌的渴望，懂得遥远异地的
+不可企及，还要能体验到一个人死去后引起的心碎与升华。它必须明了放弃与厌世、悲伤与失望、决心与胜利、虔诚与敬畏。它里面得能把诸如希望与恐惧、苦恼与欢乐、宁静与不安
+等等相对立的情绪混合在一起。它的核心部分必须能体验优美感、幽默感、韵律感、惊讶感——当然，也包括能精妙地觉察到清新的作品中那魔幻般的魅力。音乐的意义与源泉正是来
+自这些东西，也仅仅是来自这些东西。
 \end_layout
 
-\begin_layout Standard
-——是容易达到的，但无论人们开始时是怎么想的，音乐表现
+\begin_layout Labeling
+\labelwidthstring 问题
+问题： 情感是否能显明地在一台机器中程序化？
 \end_layout
 
-\begin_layout Standard
-远比句法规则所能捕捉到的东西要多得多。在相当长的一段
+\begin_layout Labeling
+\labelwidthstring 问题
+\begin_inset space \quad{}
+\end_inset
+
+推测： 不能。那将是荒唐的。任何对于情感的直接模拟——比如“帕里”——都不可能达到人类情感的复杂性。后者间接地源于我们人类的心智组织，而程序或计算机可能以类似的
+方式获得它们自己的情感：作为它们的结构，即它们组织起来的方式的副产品——而非直接程序化的产物。因此，打个比方说，没人能写出一介“坠入爱河”的子程序，更不能写出什
+么“犯错误”子程序。“坠入爱河”是我们用于对一个复杂系统的一个复杂过程的描述。而且，这个描述并不单单来自系统中的任何一个单独的模块！ 
 \end_layout
 
-\begin_layout Standard
-时间之内，计算机作曲程序谱出的乐曲不会产生新的美感。下
+\begin_layout Labeling
+\labelwidthstring 问题
+问题： 智能计算机是否能更快地做加法？
 \end_layout
 
-\begin_layout Standard
-面我来把这～思想进一步展开。设想——我听到过这种暗示67 7 我们很快就能有一种程序化了的“乐盒”：台式的、可大批
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
-生产、二十块钱就能邮购，这“乐盒”中那没有生殖能力的电路
-\end_layout
+推测： 可能不会。组成我们自身的硬件的确在做着各种各样的运算，但这并不等于说“我们”所在的符号层知道如何完成同样的运算。让我们这样说：你无法把数字装进你的神经原
+中，以
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-894产生的乐曲会让人觉得是出自肖邦或巴赫之手（如果他们能活到现在的话）。真要是这么想的话，那就是对人类精神啪深度的一种荒唐可耻的低估。能有如此功能的“程序”必
-须得能自己走进这个世界，在纷繁的生活中抗争，并每时每刻体验到来自生活的感受。它必须懂得暗夜里的凉风所带来的喜悦与孤独，懂得对于带来温暖爱抚的手掌的渴望，懂得遥远
-异地的不可企及，还要能体验到一个人死去后引起的心碎与升华。它必须明了放弃与厌世、悲伤与失望、决心与胜利、虔诚与敬畏。
-\end_layout
-
-\begin_layout Standard
-它里面得能把诸如希望与恐惧、苦恼与欢乐、宁静与不安等等相对立的情绪混合在一起。它的核心部分必须能体验优美感、幽默感、韵律感、惊讶感——当然，也包括能精妙地觉察到
-清新的作品中那魔幻般的魅力。音乐的意义与源泉正是来自这些东西，也仅仅是来自这些东西。
-\end_layout
-
-\begin_layout Standard
-问题：情感是否能显明地在一台机器中程序化？
-\end_layout
-
-\begin_layout Standard
-推测：不能。那将是荒唐的。任何对于情感的直接模拟——比如
-\end_layout
-
-\begin_layout Standard
-“帕里”——都不可能达到人类情感的复杂性。后者间接地源
-\end_layout
-
-\begin_layout Standard
-于我们人类的心智组织，而程序或计算机可能以类似的方式
-\end_layout
-
-\begin_layout Standard
-获得它们自己的情感：作为它们的结构，即它们组织起来的方
-\end_layout
-
-\begin_layout Standard
-式的副产品——而非直接程序化的产物。因此，打个比方说，
-\end_layout
-
-\begin_layout Standard
-没人能写出一介“坠入爱河”的子程序，更不能写出什么“犯错
-\end_layout
-
-\begin_layout Standard
-误”子程序。“坠入爱河”是我们用于对一个复杂系统的一个复
-\end_layout
-
-\begin_layout Standard
-杂过程的描述。而且，这个描述并不单单来自系统中的任何一
-\end_layout
-
-\begin_layout Standard
-个单独的模块！ ，问题：智能计算机是否能更快地做加法？
-\end_layout
-
-\begin_layout Standard
-推测：可能不会。组成我们自身的硬件的确在做着各种各样的运
-\end_layout
-
-\begin_layout Standard
-算，但这并不等于说“我们”所在的符号层知道如何完成同样
-\end_layout
-
-\begin_layout Standard
-的运算。让我们这样说：你无法把数字装进你的神经原中，以
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 895
 \end_layout
 
-\begin_layout Standard
-此来计算你的购货账单。幸亏你的符号层（也就是“你修）不能
-\end_layout
-
-\begin_layout Standard
-干预正在进行着你的思维活动的神经原——否则你非得搞昏
-\end_layout
-
-\begin_layout Standard
-了头不可口让我们重新解释笛卡尔的话：
-\end_layout
-
-\begin_layout Standard
-“我思，故我无法进入我算的层次。"
-\end_layout
-
-\begin_layout Standard
-为什么这对一个智能程序就不能同样成立呢？一定不能
-\end_layout
-
-\begin_layout Standard
-允许它干预正在进行着它的思维活动的电路——否则它非得678 搞昏了CPU不可。说正经的，一台能通过图灵测验的机器作
-\end_layout
-
-\begin_layout Standard
-起加法来可能和你一样慢，其原因也是类似的。它将不是把数
-\end_layout
-
-\begin_layout Standard
-字2仅仅表示成两个二进制位"10"，而是象我们那样把它表
-\end_layout
-
-\begin_layout Standard
-示成一个五脏俱全的“概念”，充满了各种联想。例如它的同义
-\end_layout
-
-\begin_layout Standard
-词有“两修、“一对”、“一双”，还有一大堆内心想象，如麻将牌上
-\end_layout
-
-\begin_layout Standard
-的点，数字“2"的形状，关于交替、偶数、奇数的概念，如此等等
-\end_layout
-
-\begin_layout Standard
-． 。背着这些“额外负担”前进，一个智能程序作起加法来会
-\end_layout
-
-\begin_layout Standard
-象树懒一样慢。当然，我们可以给它一个“袖珍计算器弦，如果
-\end_layout
-
-\begin_layout Standard
-能这样说的话（或在它内部构造一个）。那样它就能很快做出
-\end_layout
-
-\begin_layout Standard
-回答，但它的表现和一个用袖珍计算器的人就完全一样了。在
-\end_layout
-
-\begin_layout Standard
-这种机器中将有两个彼此隔离的部分：一个可靠但呆板的部
-\end_layout
-
-\begin_layout Standard
-分和一个聪明但易错的部分。而且无法保证这样的合成系统
-\end_layout
-
-\begin_layout Standard
-是可靠的，正象无法保证人机合成系统必然是可靠的一样。因
-\end_layout
-
-\begin_layout Standard
-此如果你只需要一个正确的答案，最好单独使用那个袖珍计
-\end_layout
-
-\begin_layout Standard
-算器——不要往里边加智能！
-\end_layout
-
-\begin_layout Standard
-问题：是否会出现能击败任何人的下棋程序？
-\end_layout
-
-\begin_layout Standard
-推测：不会。可能会出现这样一些程序，它们在下棋时能击败任
-\end_layout
-
-\begin_layout Standard
-何人，但它们不是只会下棋的程序。它们将具有“通用的”智
-\end_layout
-
-\begin_layout Standard
-能，而且和人一样会发脾气。“你想下盘棋吗？躺不，我下棋都
-\end_layout
-
-\begin_layout Standard
-下腻了，我们来谈谈诗吧：修在你和那个能击败任何入的程序
-\end_layout
-
-\begin_layout Standard
-之间可能会出现这样的对话。这是因为真正的智能必然依赖
-\end_layout
-
-\begin_layout Standard
-89 6
-\end_layout
-
-\begin_layout Standard
-于一种纵览全局的能力——即可以说是在程序中编入了一种
-\end_layout
-
-\begin_layout Standard
-“跳出系统外哆的能力——至少大致能达到我们所具有的水
-\end_layout
-
-\begin_layout Standard
-平。一旦实现了这一步，你就无法再遏止这个程序了，它将越
-\end_layout
-
-\begin_layout Standard
-过这个特定的临界点，那时你将不得不面对面地与你造出来
-\end_layout
+\end_inset
 
-\begin_layout Standard
-的东西打交道。问题：在存储器中是否有一个特定位置被用来存控制程序行为的
-\end_layout
+此来计算你的购货账单。幸亏你的符号层（也就是“你”）不能干预正在进行着你的思维活动的神经原——否则你非得搞昏了头不可。让我们重新解释笛卡尔的话：
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-参数，这样，如果找到并修改了它们，你就能使得该程序再灵
-\end_layout
 
-\begin_layout Standard
-一点或再笨一点或更有创造力或更喜欢足球？简而言之，你
-\end_layout
+\begin_inset Phantom HPhantom
+status open
 
-\begin_layout Standard
-是否能在较低的层次摆弄它一下就可以对程序进行调整？推测：不行。它将对存储器中任意特定单元的改变毫不在意，正
-\end_layout
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-象我们身体中虽然每天要死掉几千个神经原(1)，但我们却几
-\end_layout
 
-\begin_layout Standard
-乎没事一样。但如果你折腾得太厉害，就有可能伤害它，正象
 \end_layout
 
-\begin_layout Standard
-你不负责任地给一个人做了神经外科手术一样。在存储器中
-\end_layout
+\end_inset
 
-\begin_layout Standard
-不存在“有魔力”的位置用以存储诸如程序的_智商”之类的东
-\end_layout
+“我思，故我无法进入我算的层次。”
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-西。同样，那将是一个作为低层行为的结果而产生的性质，并
-\end_layout
 
-\begin_layout Standard
-非明确地存储在某个地方。对于象“短时记忆中所能保存的项
-\end_layout
+\begin_inset Phantom HPhantom
+status open
 
-\begin_layout Standard
-目的数量力、“它喜欢物理学的程度”之类的东西也是一样。问题：你是否可能把一个人工智能程序的行为调整得象我或象你
-\end_layout
+\begin_layout Plain Layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-——或恰好介于我们两个中间？推测：不能。人工智能程序和人一样不能象条变包龙。它将依赖679
-\end_layout
 
-\begin_layout Standard
-于它的记忆的稳定性，不能在不同的人格之间变来变去。那种
 \end_layout
 
-\begin_layout Standard
-想通过改变内部参数“调出一个新人格来”的想法暴露了对人
-\end_layout
+\end_inset
 
-\begin_layout Standard
-格复杂性的一种可笑的低估。问题：一个人工智能程序是否有个“心脏”？还是说它只不过包含了
+为什么这对一个智能程序就不能同样成立呢？一定不能允许它干预正在进行着它的思维活动的电路——否则它非得搞昏了CPU不可。说正经的，一台能通过图灵测验的机器作起加法
+来可能和你一样慢，其原因也是类似的。它将不是把数字2仅仅表示成两个二进制位“10”，而是象我们那样把它表示成一个五脏俱全的“概念”，充满了各种联想。例如它的同义
+词有“两”、“一对”、“一双”，还有一大堆内心想象，如麻将牌上的点，数字“2”的形状，关于交替、偶数、奇数的概念，如此等等……。背着这些“额外负担”前进，一个智
+能程序作起加法来会象树懒一样慢。当然，我们可以给它一个“袖珍计算器”，如果能这样说的话（或在它内部构造一个）。那样它就能很快做出回答，但它的表现和一个用袖珍计算
+器的人就完全一样了。在这种机器中将有两个彼此隔离的部分：一个可靠但呆板的部分和一个聪明但易错的部分。而且无法保证这样的合成系统是可靠的，正象无法保证人机合成系统
+必然是可靠的一样。因此如果你只需要一个正确的答案，最好单独使用那个袖珍计算器——不要往里边加智能！
 \end_layout
 
-\begin_layout Standard
-一堆“无意义的循环和平凡操作的序列”（用马尔文·明斯基
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+问题： 是否会出现能击败任何人的下棋程序？
 \end_layout
 
-\begin_layout Standard
-的话说@）?推测：如果我们对它能象对一个浅潭那样一眼看到底，我们无疑
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
-89 7只能看到“无意义的循环和平凡操作的序列”——而且肯定看不见什么“心脏力。现在关于人工智能有两种极端主义的观点：一种认为由于本质而又神秘的原因，人的心灵是
-无法程序化的。而另一种认为你只需去汇集适当的“启发式装置——多重优化器、模式识别技巧、规划代数、递归管理过程、诸如此类”，⑦你就能得到智能。我觉得我自己在二者之
-间的某个位置上，相信我们将发现人工智能程序这个“水潭”很深而且黑洞洞的，无法一眼看到底。如果我们从上面看下去，那些循环是看不到的，正象今天对大多数程序员来说，载
-流电子是看不到的一样。一旦我们造出了一个能通过图灵测验的程序，我们将会看到其中有个“心脏”，尽管我们知道它并非实际存在。
-\end_layout
+推测： 不会。可能会出现这样一些程序，它们在下棋时能击败任何人，但它们不是只会下棋的程序。它们将具有“通用的”智能，而且和人一样会发脾气。“你想下盘棋吗？”“不
+，我下棋都下腻了，我们来谈谈诗吧。”在你和那个能击败任何人的程序之间可能会出现这样的对话。这是因为真正的智能必然依赖
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-问题：人工智能程序能否具有“超智能”？
+\begin_layout Plain Layout
+896
 \end_layout
 
-\begin_layout Standard
-推测：我不知道。我不清楚我们是否能理解“超智能"或与它发生
-\end_layout
+\end_inset
 
-\begin_layout Standard
-关系，甚至不清楚这个概念是否有意义口例如，我们自己的智
+于一种纵览全局的能力——即可以说是在程序中编入了一种“跳出系统外哆的能力——至少大致能达到我们所具有的水平。一旦实现了这一步，你就无法再遏止这个程序了，它将越过
+这个特定的临界点，那时你将不得不面对面地与你造出来的东西打交道。
 \end_layout
 
-\begin_layout Standard
-能是联系于我们的思维速度的。如果我们的反应速度被提高
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+问题： 在存储器中是否有一个特定位置被用来存控制程序行为的参数，这样，如果找到并修改了它们，你就能使得该程序再灵一点或再笨一点或更有创造力或更喜欢足球？简而言之
+，你是否能在较低的层次摆弄它一下就可以对程序进行调整？
 \end_layout
 
-\begin_layout Standard
-或降低了一个数量级，那我们可能已经发展出一套完全不同
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
-的概念，以此来描述这个世界。一种对世界有完全不同的看法
+推测： 不行。它将对存储器中任意特定单元的改变毫不在意，正象我们身体中虽然每天要死掉几千个神经原（！），但我们却几乎没事一样。但如果你折腾得太厉害，就有可能伤害
+它，正象你不负责任地给一个人做了神经外科手术一样。在存储器中不存在“有魔力”的位置用以存储诸如程序的“智商”之类的东西。同样，那将是一个作为低层行为的结果而产生
+的性质，并非明确地存储在某个地方。对于象“短时记忆中所能保存的项目的数量”、“它喜欢物理学的程度”之类的东西也是一样。
 \end_layout
 
-\begin_layout Standard
-的生物和我们之间可能不会有很多接触。我常常在想，如果存
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+问题： 你是否可能把一个人工智能程序的行为调整得象我或象你——或恰好介于我们两个中间？
 \end_layout
 
-\begin_layout Standard
-在着某种乐曲，比如说它们和巴赫的关系就象巴赫相民歌的． 关系一样——可以称它们为“巴赫的平方”——那我有可能理
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
-解它们吗？也许在我周围已经有这样的音乐，只不过我不能识
+推测： 不能。人工智能程序和人一样不能象条变色龙。它将依赖于它的记忆的稳定性，不能在不同的人格之间变来变去。那种想通过改变内部参数“调出一个新人格来”的想法暴露
+了对人格复杂性的一种可笑的低估。
 \end_layout
 
-\begin_layout Standard
-别它们，就象狗不能理解语言一样。超智能是个很奇怪的想
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+问题： 一个人工智能程序是否有个“心脏”？还是说它只不过包含了一堆“无意义的循环和平凡操作的序列”（用马尔文·明斯基的话说
+\begin_inset Foot
+status open
 
-\begin_layout Standard
-法。不管怎么说，我都不认为它是人工智能研究的目标，尽管
-\end_layout
+\begin_layout Plain Layout
 
-\begin_layout Standard
-如果我们终于达到了人类智能的水平，超智能无疑将成为下
 \end_layout
 
-\begin_layout Standard
-一个目标——不仅对我们是这样，而且对作为我们的同事的
-\end_layout
+\end_inset
 
-\begin_layout Standard
-人工智能程序们也是如此。它们对人工智能和超智能也会具
-\end_layout
+@马尔文·明斯基，“通向人工智能之路”，载费根鲍姆和费尔德曼[E.
+\begin_inset space \space{}
+\end_inset
 
-\begin_layout Standard
-有同样的好奇心。很可能人工智能程序会对人工智能的一般
-\end_layout
+Feigenbaum；J.
+\begin_inset space \space{}
+\end_inset
 
-\begin_layout Standard
-8 98
+Feldman]编的《计算机与思维》，第447页。）
 \end_layout
 
-\begin_layout Standard
-问题怀有极大的兴趣——这是可以理解的。问题：那你的意思似乎是说人工智能程序实际上和人完全一样了。
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
-难道就一点差别也没有吗？
-\end_layout
+推测： 如果我们对它能象对一个浅潭那样一眼看到底，我们无疑
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-推测：人工智能程序与人之间的差别或许要大于大多数人之间680
+\begin_layout Plain Layout
+897
 \end_layout
 
-\begin_layout Standard
-的差别。几乎无法想象人工智能程序所寓的“躯体”会对它不
-\end_layout
+\end_inset
 
-\begin_layout Standard
-产生深入的影响。因此，除非它有一个人类躯体的忠实得惊人
-\end_layout
+只能看到“无意义的循环和平凡操作的序列”——而且肯定看不见什么“心脏”。现在关于人工智能有两种极端主义的观点：一种认为由于本质而又神秘的原因，人的心灵是无法程序
+化的。而另一种认为你只需去汇集适当的“启发式装置——多重优化器、模式识别技巧、规划代数、递归管理过程、诸如此类”，
+\begin_inset Foot
+status open
 
-\begin_layout Standard
-的复制品——为什么它要这样？——否则它对于什么是重要
+\begin_layout Plain Layout
+同上，第446页。
 \end_layout
 
-\begin_layout Standard
-的、什么是有趣的等问题或许会有极其不同的看法。维特根斯
-\end_layout
+\end_inset
 
-\begin_layout Standard
-坦曾作过一个有趣的评论，“如果狮子会说话，那我们也无法
+你就能得到智能。我觉得我自己在二者之间的某个位置上，相信我们将发现人工智能程序这个“水潭”很深而且黑洞洞的，无法一眼看到底。如果我们从上面看下去，那些循环是看不
+到的，正象今天对大多数程序员来说，载流电子是看不到的一样。一旦我们造出了一个能通过图灵测验的程序，我们将会看到其中有个“心脏”，尽管我们知道它并非实际存在。
 \end_layout
 
-\begin_layout Standard
-理解它。”这使我想起了卢梭的一幅画：在月光皎洁的沙漠上，
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+问题： 人工智能程序能否具有“超智能”？
 \end_layout
 
-\begin_layout Standard
-一头温顺的狮子守在睡着了的吉普赛人身旁。但维特根斯坦
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
-是怎样知道的呢？我猜任何人工智能即使是我们所能理解的，
-\end_layout
+推测： 我不知道。我不清楚我们是否能理解“超智能"或与它发生关系，甚至不清楚这个概念是否有意义口例如，我们自己的智能是联系于我们的思维速度的。如果我们的反应速度
+被提高或降低了一个数量级，那我们可能已经发展出一套完全不同的概念，以此来描述这个世界。一种对世界有完全不同的看法的生物和我们之间可能不会有很多接触。我常常在想，
+如果存在着某种乐曲，比如说它们和巴赫的关系就象巴赫和民歌的关系一样——可以称它们为“巴赫的平方”——那我有可能理解它们吗？也许在我周围已经有这样的音乐，只不过我
+不能识别它们，就象狗不能理解语言一样。超智能是个很奇怪的想法。不管怎么说，我都不认为它是人工智能研究的目标，尽管如果我们终于达到了人类智能的水平，超智能无疑将成
+为下一个目标——不仅对我们是这样，而且对作为我们的同事的人工智能程序们也是如此。它们对人工智能和超智能也会具有同样的好奇心。很可能人工智能程序会对人工智能的一般
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-那也一定是看上去和我们很不词。出于这种原因，我们到时候
+\begin_layout Plain Layout
+898
 \end_layout
 
-\begin_layout Standard
-可能会难于断定和我们打交道的是一个真正的人工智能程
-\end_layout
+\end_inset
 
-\begin_layout Standard
-序，还是说它只不过是一个“古怪”程序而已。问题：一旦我们造出了一个智能程序，我们是否就能理解什么是智
+问题怀有极大的兴趣——这是可以理解的。
 \end_layout
 
-\begin_layout Standard
-能、意识、自由意志和“我”了？推测：在某种程度上是这样——这完全取决于你说的“理解”是
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+问题： 那你的意思似乎是说人工智能程序实际上和人完全一样了。难道就一点差别也没有吗？
 \end_layout
 
-\begin_layout Standard
-什么意思。首先，在某个关键性的层次上看，我ff丁中的每个人
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
-大概都对这些东西有尽可能好的理解。这就象足听音乐。是
+推测： 人工智能程序与人之间的差别或许要大于大多数人之间的差别。几乎无法想象人工智能程序所寓的“躯体”会对它不产生深入的影响。因此，除非它有一个人类躯体的忠实得
+惊人的复制品——为什么它要这样？——否则它对于什么是重要的、什么是有趣的等问题或许会有极其不同的看法。维特根斯坦曾作过一个有趣的评论，“如果狮子会说话，那我们也
+无法理解它。”这使我想起了卢梭的一幅画：在月光皎洁的沙漠上，一头温顺的狮子守在睡着了的吉普赛人身旁。但维特根斯坦是怎样知道的呢？我猜任何人工智能即使是我们所能理
+解的，那也一定是看上去和我们很不词。出于这种原因，我们到时候可能会难于断定和我们打交道的是一个真正的人工智能程序，还是说它只不过是一个“古怪”程序而已。
 \end_layout
 
-\begin_layout Standard
-不是因为你已经把巴赫拆散了，你就算真的理解他了呢？或
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+问题： 一旦我们造出了一个智能程序，我们是否就能理解什么是智能、意识、自由意志和“我”了？
 \end_layout
 
-\begin_layout Standard
-者说当你感到全身的每一根神经都很兴奋，那时你就算理解
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset space \quad{}
+\end_inset
 
-\begin_layout Standard
-他了？我们是否理解光速在每个惯性参照系中保持恒定到底
-\end_layout
+推测： 在某种程度上是这样——这完全取决于你说的“理解”是什么意思。首先，在某个关键性的层次上看，我们中的每个人大概都对这些东西有尽可能好的理解。这就象足听音乐
+。是不是因为你已经把巴赫拆散了，你就算真的理解他了呢？或者说当你感到全身的每一根神经都很兴奋，那时你就算理解他了？我们是否理解光速在每个惯性参照系中保持恒定到底
+是怎么回事？我们可以算出它来，但世界上没有一个人具有真正的相对论性的直觉。而且大概永远没人能以一种直观的方式理解智能与意识之谜。我们中的每一个都能理解“人”，而
+这或许也就是你所能达到的。
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-是怎么回事？我们可以算出它来，但世界上没有一个人具有
+\begin_layout Plain Layout
+899
 \end_layout
 
-\begin_layout Standard
-真正的相对论性的直觉。而且大概永远没人能以一种直观的
-\end_layout
+\end_inset
 
-\begin_layout Standard
-方式理解智能与意识之谜。我们中的每一个都能理解“人”，
-\end_layout
 
-\begin_layout Standard
-而这或许也就是你所能达到的。89 9
 \end_layout
 
 \begin_layout Section-toc*
 树懒卡农
 \end_layout
 
-\begin_layout Standard
+\begin_layout Quotation
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+CJKFontFang 
+\end_layout
+
+\end_inset
+
 这一回，我们看到阿基里斯和乌龟去拜访树懒。在他们谈话的时候，树懒倒吊在树上，阿基里斯坐在地上，而乌龟在下面的水塘里泅水。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：小懒，我跟你说说我跟龟兄进行的那场滑稽至极的赛跑
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 小懒，我跟你说说我跟龟兄进行的那场滑稽至极的赛跑怎么样？
 \end_layout
 
-\begin_layout Standard
-怎么样？树懒：请吧。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 请吧。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：这件事在这一带已经尽人皆知了。我想它甚至已经被人
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 这件事在这一带已经尽人皆知了。我想它甚至已经被人写出来了，是芝诺写的。
 \end_layout
 
-\begin_layout Standard
-写出来了，是芝诺写的。树懒：听上去叫人高兴。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 听上去叫人高兴。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：是这样。你知道，龟兄在我前面的地方起跑。他比我靠
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 是这样。你知道，龟兄在我前面的地方起跑。他比我靠前好长一截路，然而——
 \end_layout
 
-\begin_layout Standard
-前好长一截路，然而一树懒：你追上他了，不是吗？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 你追上他了，不是吗？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：没错儿—— 长着一双飞毛腿嘛。我先是以一定的速度
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 没错儿——长着一双飞毛腿嘛。我先是以一定的速度缩短我们两个之间的距离，然后很快就超过了他。
 \end_layout
 
-\begin_layout Standard
-缩短我们两个之间的距离，然后很快就超过了他。树懒：差距越来越小，所以你赢了。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 差距越来越小，所以你赢了。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：正是。哦，瞧——龟兄把他的小提琴带来了。我可以试
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 正是。哦，瞧——龟兄把他的小提琴带来了。我可以试拉两下吗，龟兄？
 \end_layout
 
-\begin_layout Standard
-拉两下吗，龟兄？乌龟：请别。听上去叫人心烦。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 请别。听上去叫人心烦。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：噢，很抱歉。可我现在特别想听音乐。我真不知道这是
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 噢，很抱歉。可我现在特别想听音乐。我真不知道这是怎么回事。
 \end_layout
 
-\begin_layout Standard
-怎么回事。树懒：我记得你会弹钢琴，阿基。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 我记得你会弹钢琴，阿基。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：是的。我马上就来两下。我刚才只是想补充说我跟龟兄
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 是的。我马上就来两下。我刚才只是想补充说我跟龟兄在那之后还有过一场“比赛”呢。不幸的是在那场比赛里——
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+900
 \end_layout
 
-\begin_layout Standard
-在那之后还有过一场“比赛”呢。不幸的是在那场比赛里——
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-900乌龟：你追不上我了，是吗？差距越来越大，所以你赢不了。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 你追不上我了，是吗？差距越来越大，所以你赢不了。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：完全正确。我想这场比赛甚至也已经被人写出来了，是
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 完全正确。我想这场比赛甚至也已经被人写出来了，是刘易斯·卡罗尔写的。现在，小懒，我要接受你的提醒，弹弹钢琴。可我钢琴弹得太糟了，我不敢说我能弹好。
 \end_layout
 
-\begin_layout Standard
-刘易斯·卡罗尔写的。现在，小懒，我要接受你的提醒，弹弹钢
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 你应该尝试。
+\begin_inset Newline newline
+\end_inset
+
+（
+\family sans
+阿基里斯坐下来，开始弹一支简单的曲子。
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-琴。可我钢琴弹得太糟了，我不敢说我能弹好。树懒：你应该尝试。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 唉——听起来很古怪。不该是这种调儿啊！有什么东西不对头。
 \end_layout
 
-\begin_layout Standard
-（阿基里斯坐下来，开始弹一支简单的曲子。）阿基里斯：唉——听起来很古怪。不该是这种调儿啊！有什么东西
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 我记得你不会弹钢琴，阿基。你不应该尝试。
 \end_layout
 
-\begin_layout Standard
-不对头。乌龟：我记得你不会弹钢琴，阿基。你不应该尝试。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 简直象镜子里的什么钢琴。高音键在左边，低音键在右边。所有曲子都成了反的，好象倒悬着似的。谁会鼓捣出这么一个荒唐的玩艺儿来？
 \end_layout
 
-\begin_layout Standard
-阿基里斯：简直象镜子里的什么钢琴。高音键在左边，低音键在右
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 这很符合树懒的本性。他们是——
 \end_layout
 
-\begin_layout Standard
-边。所有曲子都成了反的，好象倒悬着似的。谁会鼓捣出这么
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 哦，我知道——挂在树枝上——当然是倒悬着。这架树懒钢琴要是用来演奏某些赋格和卡农中的倒奏曲子倒挺合适。但是要想学会挂在树上弹钢琴可太难了。你必须竭尽
+全力。
 \end_layout
 
-\begin_layout Standard
-一个荒唐的玩艺儿来？乌龟：这很符合树懒的本性。他们是一阿基里斯：哦，我知道——挂在树枝上——当然是倒悬着。这架树
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 这很不符合树懒的本性。
 \end_layout
 
-\begin_layout Standard
-懒钢琴要是用来演奏某些赋格和卡农中的倒奏曲子倒挺合
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 对，我认为树懒是愿意过得舒适些的。他们无论干什么，比正常速度慢得多。此外，他们还倒悬着。这是种多么奇特的生活方式啊！说到具有倒个儿和减速这类特征的事
+物，倒让我想起了《音乐的奉献》中《反向进行的增值卡农》。在我那本谱子里，三行谱线前各有“高”、“中”、“低”三个字。我不明白这是什么意思。不过，不管怎么说，我认
+为巴赫把这一技巧运用得很娴熟。你以为呢，龟兄？
 \end_layout
 
-\begin_layout Standard
-适。但是要想学会挂在树上弹钢琴可太难了。你必须竭尽全
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 这在他是很轻松自如的。至于“高”、“中”、“低”三个字，你一定猜得出它们指什么。
 \end_layout
 
+\begin_deeper
 \begin_layout Standard
-力。树懒：这很不符合树懒的本性。
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0902.jpg
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-阿基里斯：对，我认为树懒是愿意过得舒适些的。他们无论干什么，
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+“树懒卡农”，选自巴赫的《音乐的奉献》。[乐谱是用唐纳德·伯德的程序“斯马特”印制的，美术字由陈春光设计。]
 \end_layout
 
-\begin_layout Standard
-比正常速度慢得多。此外，他们还倒悬着。这是种多么奇特
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-的生活方式啊！说到具有倒个儿和减速这类特征的事物，倒让
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
-我想起了《音乐的奉献》中《反向进行的增值卡农》。在我那本．
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+901
 \end_layout
 
-\begin_layout Standard
-谱子里，三行谱线前各有“高”、“中"、“低哆三个字。我不明白这
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+902
 \end_layout
 
-\begin_layout Standard
-是什么意思。不过，不管怎么说，我认为巴赫把这一技巧运用
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-得很娴熟。你以为呢，龟兄？乌龟：这在他是很轻松自如的。
+\end_deeper
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 我想是代表“女高音”、“女中音”、“女低音”，因为三个声部的作品常常用这种方式构成。你说呢，小懒？
 \end_layout
 
-\begin_layout Standard
-定猜得出它们指什么。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 它们不是——
 \end_layout
 
-\begin_layout Standard
-至于“高”、“中”、“低”三个字，你一
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 等一下，我们三个现在呆的地方很有意思：你，小懒，位置最高，挂在树上；我在中间，坐在地上；龟兄最低，泡在下面的小塘里。哎——你怎么出来了，龟兄，还穿上
+了你的外套？你看去很疲倦。怎么啦？
 \end_layout
 
-\begin_layout Standard
-901682高：≠：死玉：j菩罩-遣箩-巨三挲挲
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+乌龟： 精疲力尽了。我得先走一步。（
+\family sans
+步履疲惫地走远了。
+\family default
+）
 \end_layout
 
-\begin_layout Standard
-釉·蜜·巴赫图133．“树懒卡农竹，选自巴赫的《音乐的奉献>。[乐谱是用唐纳德·伯德的程序_斯马特”印制的，美术字由陈春光设计。]902．阿基里斯：我想是代表“
-女高音”、“女中音”、“女低音”，因为三个声
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 他真可怜——看来他确实顶不住了。他一上午都在颠来颠去的。为了同我再较量一次，他正接受训练呢。
 \end_layout
 
-\begin_layout Standard
-部的作品常常用这种方式构成c你说呢，小懒？树懒：它们不是一阿基里斯：等一下，我们三个现在呆的地方很有意思：你，小懒，位683
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 这在他可是竭尽了全力。
 \end_layout
 
-\begin_layout Standard
-置最高，挂在树上；我在中间，坐在地上；龟兄最低，泡在下面
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 是的，但是没用。他也许能赢一只树懒……可要想赢我一决不可能！哎，你不是要告诉我那三个字的意思吗？
 \end_layout
 
-\begin_layout Standard
-的小塘里。哎一一你怎么出来了，龟兄，还穿上了你的外套？
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 至于“高”、“中”、“低”三个字，你根本猜不出它们指什么。
 \end_layout
 
-\begin_layout Standard
-你看去很疲倦。怎么啦？乌龟：精疲力尽了。我得先走一步。（步履疲惫地走远了。）阿基里斯：他真可怜——看来他确实顶不住了。他一上午都在颠来
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 要是我刚才猜得不对，这倒更让我好奇了。算啦，我们先不谈这个了。我真有点想吃东西了，我上次在老蟹那儿吃过一次油炸土豆片，听说你也会做？据说那东西有一种
+神奇的功效：当你觉得懒洋洋时，吃上它几片，马上就能——
 \end_layout
 
-\begin_layout Standard
-颠去的。为了同我再较量一次，他正接受训练呢。树懒：这在他可是竭尽了全力。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 精力充沛了。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：是的，但是没用。他也许能赢一只树懒……可要想赢我
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 对，他们是这么说的。可是，象你这样常吃它的人，说话、办事的速度居然只是以慢吞吞而著称于世的龟兄的一半，这不免让我对这种传说产生怀疑。不过，不管怎么说
+，它还是挺好吃的。炸的时候有什么要领吗？
 \end_layout
 
-\begin_layout Standard
-一决不可能！‘哎，你不是要告诉我那三个字的意思吗？树懒：至于“高”、“中”、“低”三个字，你根本猜不出它们指什么。
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+树懒： 你得后退一步。
 \end_layout
 
-\begin_layout Standard
-阿基里斯：要是我刚才猜得不对，这倒更让我好奇了。算啦，我们先
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 对，这样就不会被溅出的热油烫着了，是吧？我现在就去试试，我想我会做成功的，只可惜龟兄也许尝不到了。
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
-不谈这个了。我真有点想吃东西了，我上次在老蟹那儿吃过～
-\end_layout
-
-\begin_layout Standard
-次油炸土豆片，听说你也会做？据说那东西有一种神奇的功
-\end_layout
-
-\begin_layout Standard
-效：当你觉得懒洋洋时，吃上它几片，马上就能一树懒：精力充沛了。
-\end_layout
-
-\begin_layout Standard
-阿基里斯：对，他们是这么说的。可是，象你这样常吃它的人，说话、
-\end_layout
-
-\begin_layout Standard
-办事的速度居然只是以慢吞吞丽著称于世的龟兄的一半，这
-\end_layout
-
-\begin_layout Standard
-不免让我对这种传说产生怀疑。不过，不管怎么说，它还是挺
-\end_layout
-
-\begin_layout Standard
-好吃的。炸的时候有什么要领吗？树懒：你得后退一步。
-\end_layout
-
-\begin_layout Standard
-阿基里斯：对，这样就不会被溅出的热油烫着了，是吧？我现在就去
-\end_layout
-
-\begin_layout Standard
-试试，我想我会做成功的，只可惜龟兄也许尝不到了。
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 903
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
