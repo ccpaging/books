@@ -770,7 +770,14 @@ status open
 在和解释证据有关的所有问题之中，最严峻的问题之一，就是设法通过对来自外界的混乱信号的解释来说明一个人到底是谁。在这种情况下，层次内部和层次之间都蕴藏着大量的冲突
 。每个人的心智都不得不同时应付个人对自我评价的内在需要和外界不断流入的影响自我印象的证据。其结果是信息在人格的不同层次之间乱转，而在它转来转去的时候，其中一部分
 放大了，一部分缩小了，一部分否定了，一部分变形了，然后这些部分又依次被卷入到一种旋转之中，如此反复进行下去——所有这一切，都是为了要在一个人是谁和他希望自己是谁
-之间进行调和。（见图81）
+之间进行调和。（见图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:81"
+
+\end_inset
+
+）
 \end_layout
 
 \begin_layout Standard
@@ -1020,7 +1027,38 @@ status open
 \end_layout
 
 \begin_layout Standard
-图137．常识，马格里特作(1945-46)。
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0927.jpg
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+常识，马格里特作（1945-46）。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1043,16 +1081,50 @@ status open
 \end_layout
 
 \begin_layout Standard
-图138．两个谜．玛格里特作(1966)。
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0928.jpg
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+两个谜，马格里特作（1966）。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-图139．以烟为号。[作者绘]
-\end_layout
+《咏叹调与歌曲》（图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:82"
 
-\begin_layout Standard
-《咏叹调与歌曲》（图82）是取自于马格里特烟斗画系列中的一幅，它完成了《两个谜》所做的一切，不过是在一个层次上，而非两个。我所画的《以烟为号》和《如烟似梦》(图
-139，140)构成了“马格里特主题变奏曲”。请盯着《以烟为号》看一阵，你不久就会发现一条隐藏在其中的消息：“Ceci
+\end_inset
+
+）是取自于马格里特烟斗画系列中的一幅，它完成了《两个谜》所做的一切，不过是在一个层次上，而非两个。我所画的《以烟为号》和《如烟似梦》(图139，140)构成了“
+马格里特主题变奏曲”。请盯着《以烟为号》看一阵，你不久就会发现一条隐藏在其中的消息：“Ceci
 \begin_inset space \space{}
 \end_inset
 
@@ -1073,6 +1145,41 @@ message”[法文：“这不是消息”]。这样，如果你发现了这条�
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0929.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+以烟为号。[作者绘]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 绘画中把“使用”与“谈论”相混淆的一个经典范例就是在画中出现一块调色板。虽然这块调色板是画家的表示技巧所创造出来的错觉，但这块画出来的调色板上的颜料又的确是从画
 家的调色板上来的颜料。颜料代表它自己——它不是代表任何其他东西的符号。在《唐·乔万尼》中，莫扎特使用了一个与此相关的技巧：他在乐谱中明确地写出r管弦乐队调弦的声
 音。与此相类似，如果我想让“我”这个字代表它自己（而不是作为我的符号），我就把“我”直接写进我的文章中，然后我给“我”加上引号。这就得到一个““我””（而非“我
@@ -1090,7 +1197,38 @@ status open
 \end_layout
 
 \begin_layout Standard
-图140．如烟似梦。[作者绘]
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0930.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+如烟似梦。[作者绘]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -1246,7 +1384,40 @@ status open
 \end_layout
 
 \begin_layout Standard
-图141．人类的处境1．马格里特作(1933)。
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0933.jpg
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+人类的处境I，马格里特作（1933）。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Comment
 status open
 
@@ -1575,7 +1746,7 @@ status open
 
 \begin_layout Standard
 现在让我们接着来设想一个拥有一堆符号的机器人。这个机器人被放在一个T型迷津中。但是，给它编的程序不是让它去寻找奖品，而是让它在2的平方根中的下一位数字是偶数时就
-向左转弯，是奇数时就向右转弯。现在这个机器人能够用它的符号来为外部环境建立模型，这样它就能观察到它自己所作的选择。每当走到T型路口时，如果你问这个机器人说：¨你
+向左转弯，是奇数时就向右转弯。现在这个机器人能够用它的符号来为外部环境建立模型，这样它就能观察到它自己所作的选择。每当走到T型路口时，如果你问这个机器人说：“你
 知道你这次会往那边
 \begin_inset Note Comment
 status open
@@ -1645,24 +1816,87 @@ status open
 核心之中，而且是所有理解人类心智工作方式的尝试的焦点。因此，我才把哥德尔这块稀世瑰璧深深地镶嵌在我这本书之中。
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0945.jpg
+	lyxscale 50
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+画廊，艾舍尔作（石版画，1956）。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 一个层次交错的艾舍尔漩涡
 \end_layout
 
 \begin_layout Standard
-图142．画磨，艾舍尔作‘石版画．1956)．
+\begin_inset Wrap figure
+lines 0
+placement l
+overhang 0in
+width "50col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0946-1.jpg
+	lyxscale 50
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+艾舍尔的《画廊》的抽象图示。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-图1 4 3．艾舍置；的《画廊》的抽象图示。
-\end_layout
-
-\begin_layout Standard
-图144． 上图的一种压缩形式。
-\end_layout
-
-\begin_layout Standard
-在存艾舍尔的《画廓)（图142）中，为我们提供了对一个缠结的
+在艾舍尔的《画廓)（图142）中，为我们提供了对一个缠结的
 \begin_inset Note Comment
 status open
 
@@ -1680,6 +1914,42 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement l
+overhang 0in
+width "50col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0946-2.jpg
+	lyxscale 50
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+上图的一种压缩形式。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 这张图所表示的是三种“之中”。画廊是物理地处于城镇之中（“包含”），城镇是艺术地处于图画之中（“描绘”），而图画又是心理地处于人脑之中（“表现”）！
 \begin_inset Note Comment
 status open
@@ -1694,7 +1964,39 @@ status open
 \end_layout
 
 \begin_layout Standard
-图1 4 3的进一步压缩形式。
+\begin_inset Wrap figure
+lines 0
+placement r
+overhang 0in
+width "30col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0947-1.jpg
+	lyxscale 50
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+图143的进一步压缩形式。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1707,11 +2009,43 @@ status open
 \end_layout
 
 \begin_layout Standard
-这样，我们就看到这个青年“在他自身之中”，这是在“之中”的三种不同意思联合起来所形成的一种有趣意义下而言的。
+\begin_inset Wrap figure
+lines 0
+placement r
+overhang 0in
+width "30col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0947-2.jpg
+	lyxscale 50
+	width 30text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+图143进行压缩的另一种方式。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-图143进行压缩的另一种方式。
+这样，我们就看到这个青年“在他自身之中”，这是在“之中”的三种不同意思联合起来所形成的一种有趣意义下而言的。
 \end_layout
 
 \begin_layout Standard
@@ -1730,7 +2064,7 @@ reference "fig:6"
 
 \end_inset
 
-）同构。层次的数目要依我们看来怎样才算¨自然”而定，这可能会取决
+）同构。层次的数目要依我们看来怎样才算“自然”而定，这可能会取决
 \begin_inset Note Comment
 status open
 
@@ -1744,7 +2078,39 @@ status open
 \end_layout
 
 \begin_layout Standard
-图147．巴赫的_无穷升高的卡农”的六角形示意图。在使用谢泼德音调的条件F，它形成了一个不折不扣的闭合循环。
+\begin_inset Wrap figure
+lines 0
+placement l
+overhang 0in
+width "50col%"
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0948.png
+	lyxscale 50
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+巴赫的“无穷升高的卡农”的六角形示意图。在使用谢泼德音调的条件下，它形成了一个不折不扣的闭合循环。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1760,8 +2126,43 @@ status open
 \end_layout
 
 \begin_layout Standard
-图148谢泼德音阶的两个完整周期的钢琴谱。每个音符的音量与其大小成正比，因此，当最上面的声部消失时，下面一个新的声部出现了[该图为唐纳德・伯德的程序“斯马特”所
-印出]
+\begin_inset Float figure
+wide false
+sideways true
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0949.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+谢泼德音阶的两个完整周期的钢琴谱。每个音符的音量与其大小成正比，因此，当最上面的声部消失时，下面一个新的声部出现了[该图为唐纳德・伯德的程序“斯马特”所印出]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

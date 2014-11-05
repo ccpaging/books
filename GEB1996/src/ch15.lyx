@@ -1654,7 +1654,6 @@ status open
 
 \begin_deeper
 \begin_layout Verse
-
 \begin_inset ERT
 status open
 
@@ -1665,8 +1664,6 @@ status open
 
 \end_inset
 
-
-\lang chinese-simplified
 
 \begin_inset ERT
 status open
@@ -3435,6 +3432,13 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:81"
+
+\end_inset
+
+
 \begin_inset Argument 1
 status open
 
@@ -3747,6 +3751,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:82"
+
+\end_inset
+
 咏叹调和歌曲，马格里特作(1964)。
 \end_layout
 
