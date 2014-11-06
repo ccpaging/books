@@ -3389,11 +3389,15 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-（突然，巴比奇指法优美而熟练地按动键盘，输入了一个又一个指令。几秒钟后，他停下来，几乎同时，屏幕上开始出现数
+（
+\family sans
+突然，巴比奇指法优美而熟练地按动键盘，输入了一个又一个指令。几秒钟后，他停下来，几乎同时，屏幕上开始出现数
 \begin_inset Note Comment
 status open
 
 \begin_layout Plain Layout
+
+\family sans
 962
 \end_layout
 
@@ -3403,7 +3407,9 @@ status open
 \begin_inset Formula $3.14159265358979323846264$
 \end_inset
 
-……)
+……
+\family default
+)
 \end_layout
 
 \begin_layout Labeling
@@ -3853,6 +3859,43 @@ status open
 
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0967.jpg
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+辞，艾舍尔作（蚀版画,1942）。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 \begin_inset space \hfill{}
@@ -3860,10 +3903,6 @@ status open
 
 巴比奇： 甭提多棒了！外边的光线正够让我们看见花园拾掇得有多好。蟹先生，我敢说您的园丁一定是一位精通园艺学的行家。——哎，我这个设计还真迷住您了？您也许看出来了
 吧，下象棋我是个二把刀，所以我的程序也不怎么样。您一定瞧出它的短处来了。我知道它没有多少值得夸奖的地方，那么……
-\begin_inset Newline newline
-\end_inset
-
-图l49．辞，艾舍尔作（蚀版画,1942）。
 \end_layout
 
 \begin_layout Labeling
@@ -3887,7 +3926,11 @@ status open
 \family typewriter
 赋
 \family default
-予该机器出格的智慧。
+予该机器出
+\family typewriter
+格
+\family default
+的智慧。
 \family typewriter
 无
 \family default
@@ -4023,6 +4066,43 @@ status open
 倍的灵笨机！
 \end_layout
 
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0969.png
+	lyxscale 50
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+螃蟹的客人：查尔斯·巴比奇
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 \begin_inset space \hfill{}
@@ -4037,12 +4117,6 @@ status open
 阿基里斯： 说的是！说的是！
 \end_layout
 
-\begin_deeper
-\begin_layout Standard
-图150．螃置的客人：查尔斯·巴比奇
-\end_layout
-
-\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 \begin_inset space \hfill{}
@@ -4108,7 +4182,23 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-图灵： 没有这种噪音我照样行。无误地插人严格的内部编码可赋予一台计算机格外了不起的音乐才能。可我并不是一台计算机。
+图灵： 没有这种噪音我照样行。
+\family typewriter
+无
+\family default
+误地
+\family typewriter
+插入
+\family default
+严格的内部编码可
+\family typewriter
+赋
+\family default
+予一台计算机
+\family typewriter
+格
+\family default
+外了不起的音乐才能。可我并不是一台计算机。
 \end_layout
 
 \begin_layout Labeling
@@ -4117,7 +4207,11 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-（屏幕上出现了他们正坐在其中的那个房间的图象，上面有一张人验看着他们。）
+（
+\family sans
+屏幕上出现了他们正坐在其中的那个房间的图象，上面有一张人脸看着他们。
+\family default
+）
 \end_layout
 
 \begin_layout Labeling
@@ -4127,7 +4221,17 @@ status open
 
 图灵： 如果我没出太多错误的话，这台灵笨机能模拟智力比我高六倍的人，我已想好把它称作“查尔斯·巴比奇”，这个巴比奇将因此——哦，我怎敢斗胆以己说为准——具有中等
 水平的智力。在此程序中我倾力以赋予查尔斯·巴比奇六倍于我的音乐能力，虽然这一切都是通过严格的内部编码完成的。我不知道程序的这一部分产生的效果怎么样，但是，这个程
-序在运行970时会使计算机发出一些噪音，这是这一程序唯一的缺憾。
+序在运行
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+970
+\end_layout
+
+\end_inset
+
+时会使计算机发出一些噪音，这是这一程序唯一的缺憾。
 \end_layout
 
 \begin_layout Labeling
@@ -4141,7 +4245,19 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-图灵： 绝无插人受控反应这种事，也没被赋予格式化的行为，我一直清清楚楚地我行我素。
+图灵： 绝
+\family typewriter
+无插人
+\family default
+受控反应这种事，也没被
+\family typewriter
+赋
+\family default
+予
+\family typewriter
+格
+\family default
+式化的行为，我一直清清楚楚地我行我素。
 \end_layout
 
 \begin_layout Labeling
@@ -4169,13 +4285,13 @@ status open
 \end_inset
 
 图灵： 没错儿。正象你对没有人一分钟之前才把你创造出来这一点深信不疑一样，我对我自己不是一分钟之前才被别人创造出来这点也深信不疑。我在你们这些最令人愉快的、虽然
-也许是过于易于相处的人们中度过了今宵，并作了一番即兴表演，显示了怎样将一撮智力编成程序输入到灵笨机中c没有什么比这更实在了。但是，你们干吗不试试我的程序，而要跟
+也许是过于易于相处的人们中度过了今宵，并作了一番即兴表演，显示了怎样将一撮智力编成程序输入到灵笨机中。没有什么比这更实在了。但是，你们干吗不试试我的程序，而要跟
 我饶舌呢？来，可以向“查尔斯·巴比奇”问任何事！
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 好吧，咱们就迁就迁就阿兰·网灵吧。嗯，巴先生：您是有自由意志呢，还是为那种事实上使您成为确定性的自动装置的潜在规律所支配呢？
+阿基里斯： 好吧，咱们就迁就迁就阿兰·图灵吧。嗯，巴先生：您是有自由意志呢，还是为那种事实上使您成为确定性的自动装置的潜在规律所支配呢？
 \end_layout
 
 \begin_layout Labeling
@@ -4191,8 +4307,17 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-螃蟹： 啊哈！我早就猜测，智能机一旦建立，如果发现它们在对心灵、意识、自由意志诸如此类事物上的信念同人一样混乱、一971样固执，那将是不足为怪的。现在，我的预言
-被证实了！
+螃蟹： 啊哈！我早就猜测，智能机一旦建立，如果发现它们在对心灵、意识、自由意志诸如此类事物上的信念同人一样混乱、一
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+971
+\end_layout
+
+\end_inset
+
+样固执，那将是不足为怪的。现在，我的预言被证实了！
 \end_layout
 
 \begin_layout Labeling
@@ -4224,7 +4349,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-螃蟹： 天哪j图一巴之战的火焰愈烧愈烈，我们难道不能让他们冷静些吗？
+螃蟹： 天哪！图—巴之战的火焰愈烧愈烈，我们难道不能让他们冷静些吗？
 \end_layout
 
 \begin_layout Labeling
@@ -4242,7 +4367,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-图灵： 当然，这实际上是我的主意，但是为什么不让巴先生得到这一荣誉呢？因为，作为我所写下的一个程序，他会错以岛这完全是他自己的发明哩。
+图灵： 当然，这实际上是我的主意，但是为什么不让巴先生得到这一荣誉呢？因为，作为我所写下的一个程序，他会错以为这完全是他自己的发明哩。
 \end_layout
 
 \begin_layout Labeling
@@ -4258,7 +4383,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-图灵： 我的测验？请把它看作是您的吧。7 36
+图灵： 我的测验？请把它看作是您的吧。
 \end_layout
 
 \begin_layout Labeling
@@ -4278,7 +4403,11 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-（巴比奇走到门前，打开门，出去后又关上。同时，在灵笨机屏幕上，图灵走到一扇看去极为相象的门前，打开，出去后又关上c）
+（
+\family sans
+巴比奇走到门前，打开门，出去后又关上。同时，在灵笨机屏幕上，图灵走到一扇看去极为相象的门前，打开，出去后又关上。
+\family default
+）
 \end_layout
 
 \begin_layout Labeling
@@ -4291,7 +4420,17 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-螃蟹： 我建议龟兄应享此荣誉，他索以客观和智慧闻名。9 7 2
+螃蟹： 我建议龟兄应享此荣誉，他索以客观和智慧闻名。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+972
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Labeling
@@ -4299,11 +4438,19 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-乌龟： 你的提名使我感到光荣，我愉快地接受。（在一台尚未动用过的灵笨机的键盘前坐下来，键入下面一行字：）请给我写一首以福特桥为题的十四行诗。
+乌龟： 你的提名使我感到光荣，我愉快地接受。（
+\family sans
+在一台尚未动用过的灵笨机的键盘前坐下来，键入下面一行字：
+\family default
+）请给我写一首以福特桥为题的十四行诗。
 \begin_inset Newline newline
 \end_inset
 
-（他刚敲完最后一个字，屏幕X上就出现了下面这首诗。）
+（
+\family sans
+他刚敲完最后一个字，屏幕X上就出现了下面这首诗。
+\family default
+）
 \end_layout
 
 \begin_layout Labeling
@@ -4315,8 +4462,34 @@ status open
 \begin_inset Newline newline
 \end_inset
 
+
+\begin_inset Phantom HPhantom
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
 一心就想往北走。
 \begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Phantom HPhantom
+status open
+
+\begin_layout Plain Layout
+\begin_inset space \quad{}
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 遥遥大地无尽头，
@@ -4375,7 +4548,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-乌龟： 我只有一个王在Kl位，没别的子儿，你也只有个王在一’
+乌龟： 我只有一个王在K1位，没别的子儿，你也只有个王在——
 \end_layout
 
 \begin_layout Labeling
@@ -4420,7 +4593,17 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 我知道谁是谁了！显然，屏幕X只会机械地回答问题，所以它一定是图灵。97 3
+阿基里斯： 我知道谁是谁了！显然，屏幕X只会机械地回答问题，所以它一定是图灵。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+973
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Labeling
@@ -4436,7 +4619,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-乌龟： 我认为两者都不是巴比奇——我觉得两个屏幕都是图灵。737
+乌龟： 我认为两者都不是巴比奇——我觉得两个屏幕都是图灵。
 \end_layout
 
 \begin_layout Labeling
@@ -4448,7 +4631,11 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-（正在他们谈话时，前厅的门打开了；与此同时，屏幕上同一扇门也打开了。屏幕上巴比奇穿门而过；同时，真人大小的图灵从真实的门中走了进来。）
+（
+\family sans
+正在他们谈话时，前厅的门打开了；与此同时，屏幕上同一扇门也打开了。屏幕上巴比奇穿门而过；同时，真人大小的图灵从真实的门中走了进来。
+\family default
+）
 \end_layout
 
 \begin_layout Labeling
@@ -4469,7 +4656,23 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 可刚才你是在灵笨机里的！怎么回事？巴比奇怎么跑到了灵笨机里，而图灵现在却成了真人呢？无端的颠倒！这一插曲加入得没道理，谈话被赋予了新格局。
+阿基里斯： 可刚才你是在灵笨机里的！怎么回事？巴比奇怎么跑到了灵笨机里，而图灵现在却成了真人呢？
+\family typewriter
+无
+\family default
+端的颠倒！这一
+\family typewriter
+插
+\family default
+曲加
+\family typewriter
+入
+\family default
+得没道理，
+\family typewriter
+谈话被赋予了新格局
+\family default
+。
 \end_layout
 
 \begin_layout Labeling
@@ -4519,7 +4722,11 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-（他们两个人坐在一起，阿基里斯就在旁边。）
+（
+\family sans
+他们两个人坐在一起，阿基里斯就在旁边。
+\family default
+）
 \end_layout
 
 \begin_layout Labeling
@@ -4527,8 +4734,17 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-作者： 它的格式有点不同寻常，它由章节和对话交替组成。每一篇对话都以这样或那样的方式模仿巴赫的某一部作品。举个例9 7 4子来说——你瞧这里是《前奏曲，蚂蚁赋格
-》。
+作者： 它的格式有点不同寻常，它由章节和对话交替组成。每一篇对话都以这样或那样的方式模仿巴赫的某一部作品。举个例
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+974
+\end_layout
+
+\end_inset
+
+子来说——你瞧这里是《前奏曲，蚂蚁赋格》。
 \end_layout
 
 \begin_layout Labeling
@@ -4574,7 +4790,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-作者： 当然用了。我的《螃蟹卡农》运用了对话的逆行法，而我的《树738懒卡农》既用了转位，也用了增值法等文字技巧。
+作者： 当然用了。我的《螃蟹卡农》运用了对话的逆行法，而我的《树懒卡农》既用了转位，也用了增值法等文字技巧。
 \end_layout
 
 \begin_layout Labeling
@@ -4583,7 +4799,28 @@ status open
 \end_inset
 
 螃蟹： 是吗——很有趣。我没有研究过卡农式对话，可我研究过一些音乐中的卡农。并不是所有的卡农听起来都同样容易理解。当然，这是因为有些卡农写得很蹩脚。不管怎么说，
-对技巧的不同选择会产生不同的效果。格式一旦被赋予，化人对话，穿插于其间，无疑它就会成为真正赋格式的了口阿基里斯：坦率地说，我觉得这话有点难懂。
+对技巧的不同选择会产生不同的效果。
+\family typewriter
+格式一旦被赋予
+\family default
+，化
+\family typewriter
+入
+\family default
+对话，穿
+\family typewriter
+插
+\family default
+于其间，
+\family typewriter
+无
+\family default
+疑它就会成为真正赋格式的了。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 坦率地说，我觉得这话有点难懂。
 \end_layout
 
 \begin_layout Labeling
@@ -4591,7 +4828,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-作者： 别担心。阿基——息有一天你能理解的。
+作者： 别担心。阿基——总有一天你能理解的。
 \end_layout
 
 \begin_layout Labeling
@@ -4607,7 +4844,27 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-作者： 当然。同巴赫一样，我也喜欢把词拆散了嵌在句子中。“无一插一入一赋一格”插到句中央人词里可赋予句子以递归风格。
+作者： 当然。同巴赫一样，我也喜欢把词拆散了嵌在句子中。“
+\family typewriter
+无
+\family default
+—插—入—赋—格”
+\family typewriter
+插
+\family default
+到句中夹
+\family typewriter
+入
+\family default
+词里可
+\family typewriter
+赋
+\family default
+予句子以递归风
+\family typewriter
+格
+\family default
+。
 \end_layout
 
 \begin_layout Labeling
@@ -4615,8 +4872,37 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-螃蟹： 哦，真的吗？让我瞧瞧……格式被赋予递归形式，加入或插进的黑体字无疑是自指的。是的，我想是这样……（盯着手稿，不975时随意地翻来翻去。）我注意到在你的《
-蚂蚁赋格》里，你运用了提前进入法，随后，乌龟对它作了评论。
+螃蟹： 哦，真的吗？让我瞧瞧……
+\family typewriter
+格
+\family default
+式被
+\family typewriter
+赋
+\family default
+予递归形式，加
+\family typewriter
+入
+\family default
+或
+\family typewriter
+插
+\family default
+进的黑体字
+\family typewriter
+无
+\family default
+疑是自指的。是的，我想是这样……（盯着手稿，不
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+975
+\end_layout
+
+\end_inset
+
+时随意地翻来翻去。）我注意到在你的《蚂蚁赋格》里，你运用了提前进入法，随后，乌龟对它作了评论。
 \end_layout
 
 \begin_layout Labeling
@@ -4649,7 +4935,12 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-螃蟹： 嗯，在Lisp程序语言中，你可以直接而不是间接地谈论你自己的程序，因为程序和数据正好具有相同的结构，最好是哥德尔自己发明了Lisp，然后一作者：但是——
+螃蟹： 嗯，在Lisp程序语言中，你可以直接而不是间接地谈论你自己的程序，因为程序和数据正好具有相同的结构，最好是哥德尔自己发明了Lisp，然后——
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+作者： 但是——
 \end_layout
 
 \begin_layout Labeling
@@ -4665,9 +4956,9 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-作者： 我明白你的意思，但是我不同意你这观点的核心。哥德尔配数的全部意义在于它指明了即使没有关于引文的形式化，通过编码如伺能得到自指。而听了你的话，人们会得到这
-样一种印象：凭着关于引文的形式化，你会得到某些新东西，某些不能因编码而可行的东西，而事实并非如此a木管怎么说，我觉739得间接自指是个比直接自指更普遍、更有用的
-概念。而且，没有什么指谓是直接的，甚至在Lisp中也没有。阿基里斯：你怎么想起大谈特谈间接自指来了？
+作者： 我明白你的意思，但是我不同意你这观点的核心。哥德尔配数的全部意义在于它指明了即使没有关于引文的形式化，通过编码如何能得到自指。而听了你的话，人们会得到这
+样一种印象：凭着关于引文的形式化，你会得到某些新东西，某些不能因编码而可行的东西，而事实并非如此。不管怎么说，我觉得间接自指是个比直接自指更普遍、更有用的概念。
+而且，没有什么指谓是直接的，甚至在Lisp中也没有。阿基里斯：你怎么想起大谈特谈间接自指来了？
 \end_layout
 
 \begin_layout Labeling
@@ -4691,8 +4982,18 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-作者： 肯定有。话题可以显出变化来，虽然在一个更抽象的层次上，976主题依然未变。这一手法反复出现在《前奏曲，蚂蚁赋格》和其他对话里。我们可以有一系列的“转调”
-，把你从一个话题引到另一个话题，最后形成一个完整的循环，因此你结尾于主调音——就是说，结尾于最初的话题上。
+作者： 肯定有。话题可以显出变化来，虽然在一个更抽象的层次上，
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+976
+\end_layout
+
+\end_inset
+
+主题依然未变。这一手法反复出现在《前奏曲，蚂蚁赋格》和其他对话里。我们可以有一系列的“转调”，把你从一个话题引到另一个话题，最后形成一个完整的循环，因此你结尾于
+主调音——就是说，结尾于最初的话题上。
 \end_layout
 
 \begin_layout Labeling
@@ -4704,7 +5005,18 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-（他翻阅着手稿，翻到图3时，他停下来，拿出他的长笛，按着写在那里的曲子吹了起来。）
+（
+\family sans
+他翻阅着手稿，翻到图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3"
+
+\end_inset
+
+时，他停下来，拿出他的长笛，按着写在那里的曲子吹了起来。
+\family default
+）
 \end_layout
 
 \begin_layout Labeling
@@ -4732,7 +5044,11 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-（他继续翻弄着，翻到最后那篇对话时，停了下来t）
+（
+\family sans
+他继续翻弄着，翻到最后那篇对话时，停了下来。
+\family default
+）
 \end_layout
 
 \begin_layout Labeling
@@ -4777,7 +5093,27 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 无论我随便插嘴进入什么对话，都出不了被赋予的格局吗？
+阿基里斯： 
+\family typewriter
+无
+\family default
+论我随便
+\family typewriter
+插
+\family default
+嘴进
+\family typewriter
+入
+\family default
+什么对话，都出不了被
+\family typewriter
+赋
+\family default
+予的
+\family typewriter
+格
+\family default
+局吗？
 \end_layout
 
 \begin_layout Labeling
@@ -4806,7 +5142,17 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-作者： 是的——确切地说，是一首六部无插入赋格。我的灵感得自《音乐的奉献》中的一首曲子——也来自有关《音乐的奉献》的977那个故事。
+作者： 是的——确切地说，是一首六部无插入赋格。我的灵感得自《音乐的奉献》中的一首曲子——也来自有关《音乐的奉献》的
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+977
+\end_layout
+
+\end_inset
+
+那个故事。
 \end_layout
 
 \begin_layout Labeling
@@ -4839,7 +5185,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-作者： 如果这是真的，那么它就会是思维过程的一个有趣而根本的限度了。740 
+作者： 如果这是真的，那么它就会是思维过程的一个有趣而根本的限度了。
 \end_layout
 
 \begin_layout Labeling
@@ -4847,7 +5193,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-螃蟹： 的确有哥德尔的味道。告诉我一一你的《六部无插入赋格》这篇对话是想摹仿巴赫那部作品的结构吗？
+螃蟹： 的确有哥德尔的味道。告诉我——你的《六部无插入赋格》这篇对话是想摹仿巴赫那部作品的结构吗？
 \end_layout
 
 \begin_layout Labeling
@@ -4855,9 +5201,9 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-作者： 在许多方面都是这样。例如，巴赫的《六部无插入赋格》中有六个声部，我的对话里也有六种声音。在巴赫的作品中大约进行到三分之二的时候有一首建立在同·一主题上的
-五部卡农，我的对话里也有同样的结构。在巴赫的作品里他把他的名字[BACH]嵌入到两个最高的声部里，在我的对话里，我也用我的名字如法炮制厂这一结构。在巴赫那里，有
-一个小节逐渐变薄弱，最后只剩下三个声部，找在我的对话里也摹仿了这一处理，在一段时间里，只有三个人物在互相交谈。
+作者： 在许多方面都是这样。例如，巴赫的《六部无插入赋格》中有六个声部，我的对话里也有六种声音。在巴赫的作品中大约进行到三分之二的时候有一首建立在同一主题上的五
+部卡农，我的对话里也有同样的结构。在巴赫的作品里他把他的名字[BACH]嵌入到两个最高的声部里，在我的对话里，我也用我的名字如法炮制了这一结构。在巴赫那里，有一
+个小节逐渐变薄弱，最后只剩下三个声部，找在我的对话里也摹仿了这一处理，在一段时间里，只有三个人物在互相交谈。
 \end_layout
 
 \begin_layout Labeling
@@ -4886,7 +5232,17 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-作者： 我是用螃蟹主题来表现的——我这就要给你们看。老蟹，你978能不能不仅给我们这里聚在一起的音乐家们、而且也给我的读者们唱一唱你的主题？
+作者： 我是用螃蟹主题来表现的——我这就要给你们看。老蟹，你
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+978
+\end_layout
+
+\end_inset
+
+能不能不仅给我们这里聚在一起的音乐家们、而且也给我的读者们唱一唱你的主题？
 \end_layout
 
 \begin_layout Labeling
@@ -4894,25 +5250,64 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-螃蟹（唱）： 奇妙无比的人造大脑啊，我巴望你早日出现！
+螃蟹（唱）： 
+\family typewriter
+奇
+\family default
+妙无
+\family typewriter
+比
+\family default
+的人造大脑啊，我
+\family typewriter
+巴
+\family default
+望你早日出现！
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-图151.螃董主题：C-Eb-G-Ab-B-B-A-B。：把查·巴比奇的英文
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0979.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 阿基里斯：：
-名字“Babbagc，C”倒过来念就是C-E-G-A-B-B-A-B]
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+螃蟹主题：C-Eb-G-Ab-B-B-A-B。把查·巴比奇的英文名字“Babbagc, C”倒过来念就是C-E-G-A-B-B-A-B]
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
 \begin_inset space \hfill{}
 \end_inset
 
-巴比奇： 嘿，但愿是我一 ·个优美的主题！我喜欢你最后插进来的那个音符，那是个波音。
+巴比奇： 嘿，但愿是我——一个优美的主题！我喜欢你最后插进来的那个音符，那是个波音。
 \end_layout
 
 \begin_layout Labeling
@@ -4938,7 +5333,7 @@ status open
 
 巴比奇： 我知道，你只不过是不得不。无论如何，这是对那些狂妄和急躁的现代人的一种一针见血的批评，因为他们似乎在想象这样一支国王主题的内涵能被很快地发掘出来。而在
 我看来，对这个主题的充分发掘将会需要整整一百年的时间——如果不是更长的话。但是我起誓，在我告别了本世纪之后，我会竭尽全力去实现它，在下一个世纪我将向臂下您贡献我
-的劳动成果。我还要不太谦虚地预言‘，我将经历人类心灵所曾有过的最复杂和最令人困扰的历程。
+的劳动成果。我还要不太谦虚地预言，我将经历人类心灵所曾有过的最复杂和最令人困扰的历程。
 \end_layout
 
 \begin_layout Labeling
@@ -4947,6 +5342,46 @@ status open
 \end_inset
 
 螃蟹： 我很高兴能预先知道您打算奉献的作品的形式，巴先生。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways true
+status open
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0980.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+《六部无插入赋格》的最后一页，选自巴赫《音乐的奉献》的初版。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Labeling
@@ -4962,7 +5397,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-作者： 正是这样。当然．还插入了别的主题a
+作者： 正是这样。当然，还插入了别的主题。
 \end_layout
 
 \begin_layout Labeling
@@ -4978,12 +5413,44 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-作者： 它以奇特的方式比较哥德尔、艾舍尔和巴赫。97 99800娶詹窨A釜摊g长恤》接口皿螋．随1妲曝譬I[靶《Y耀氓话Kv“吣一匝
+作者： 它以
+\family typewriter
+奇
+\family default
+特的方式
+\family typewriter
+比
+\family default
+较哥德尔、艾舍尔和
+\family typewriter
+巴
+\family default
+赫。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+979
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+980
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 我不知道这三个人怎么会连到一块儿。他们乍看起来似乎不可能结合在一起。我最喜欢的艺术家，龟兄最喜欢的作曲家，和一
+阿基里斯： 我不知道这三个人怎么会连到一块儿。他们乍看起来似乎不可能结合在一起。我最喜欢的艺术家，龟兄最喜欢的作曲家，和——
 \end_layout
 
 \begin_layout Labeling
@@ -5024,14 +5491,38 @@ status open
 \end_inset
 
 作者： 我觉得这在于你如何看它。但是不管是大三还是小三，阿基，我都很愿意告诉你我是如何把这三个人联在一起的。当然，这不是一下子就能完成的——这可能需要两打课时呢
-。开头我给你讲《音乐的奉献》的故事，强调无穷升高的卡农，然后——阿基里斯：哦，妙极了！我很喜欢听你和老蟹谈论《音乐的奉献》和有关它的故事。从你们俩对它的谈论里，
-我得到了这样一个印象：《音乐的奉献》是献给一个达官贵人的，是吗？作者：可不是普通的世袭公侯6它是献给腓德烈大帝的。在描述了无穷升高的卡农之后，我接着描述了形式系
-统和递归，还讨论了衬底和图形。然后我们讲到了自指和自复制，随后又转到了层次系统和螃蟹主题上。
+。开头我给你讲《音乐的奉献》的故事，强调无穷升高的卡农，然后——
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 听起来引入入胜。我们就开始吗？ 74 2
+阿基里斯： 哦，妙极了！我很喜欢听你和老蟹谈论《音乐的奉献》和有关它的故事。从你们俩对它的谈论里，我得到了这样一个印象：《音乐的奉献》是献给一个
+\family typewriter
+达
+\family default
+官贵人的，是吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+\begin_inset space \hfill{}
+\end_inset
+
+作者： 可不是普通的
+\family typewriter
+世
+\family default
+袭公
+\family typewriter
+侯
+\family default
+。它是献给腓德烈大帝的。在描述了无穷升高的卡农之后，我接着描述了形式系统和递归，还讨论了衬底和图形。然后我们讲到了自指和自复制，随后又转到了层次系统和螃蟹主题上
+。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 阿基里斯：：
+阿基里斯： 听起来引入入胜。我们就开始吗？
 \end_layout
 
 \begin_layout Labeling
@@ -5060,7 +5551,17 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 阿基里斯：：
-阿基里斯： 刚才老蟹还担心我们这种水平的演奏几同噪音，现在他会不会认为……．98 1
+阿基里斯： 刚才老蟹还担心我们这种水平的演奏几同噪音，现在他会不会认为……
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+981
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Labeling
@@ -5076,7 +5577,7 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-作者： 说得好，老蟹。我们一演完，就开始我的《大成>。阿基，我想你会喜欢它的口
+作者： 说得好，老蟹。我们一演完，就开始我的《大成》。阿基，我想你会喜欢它的。
 \end_layout
 
 \begin_layout Labeling
@@ -5090,7 +5591,51 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-乌龟： “无插入赋格”之后插入导言将赋有“无穷升高的卡农”的风格。9 8 2
+乌龟： “
+\family typewriter
+无插入赋格
+\family default
+”之后
+\family typewriter
+插入
+\family default
+导言将
+\family typewriter
+赋
+\family default
+有“无穷升高的卡农”的风
+\family typewriter
+格
+\family default
+。
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+982
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout CenterLine
+\begin_inset Graphics
+	filename images/image-0982.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
 \end_layout
 
 \end_body
