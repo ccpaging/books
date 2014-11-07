@@ -144,8 +144,8 @@ of
 \begin_inset space \space{}
 \end_inset
 
-Lisp《Lisp剖析》， 纽约：McGraw-Hill，1978年版。这是有关Lisp语言的最全面的书。这种计算机语言主宰了人工智能的研究达二十年之久。清楚而
-扼要。
+Lisp《Lisp剖析》， 纽约：McGraw - Hill，1978年版。这是有关Lisp语言的最全面的书。这种计算机语言主宰了人工智能的研究达二十年之久。清
+楚而扼要。
 \end_layout
 
 \begin_layout Labeling
@@ -168,9 +168,10 @@ Ross
 \begin_inset space \space{}
 \end_inset
 
-[安德森，阿兰·罗斯]， Minds and Machines《心智与机器》，新泽酉，Englewood Cliffs: Prentice-Hall，1964年
-版，平装本。这是一部由许多赞同和反对人工智能的富于启发性的文章组成的集子，其中收有图灵著名的论文“Computing Machinery and
- Intelligence”[计算机器和智能]，以及卢卡斯那篇惹人恼怒的文章“Minds, Machines, and Gödel”[心智、机器和哥德尔]。
+[安德森，阿兰·罗斯]， Minds and Machines《心智与机器》，新泽酉，Englewood Cliffs: Prentice -
+ Hall，1964年版，平装本。这是一部由许多赞同和反对人工智能的富于启发性的文章组成的集子，其中收有图灵著名的论文“Computing Machinery
+ and Intelligence”[计算机器和智能]，以及卢卡斯那篇惹人恼怒的文章“Minds, Machines, and Gödel”[心智、机器和哥德尔
+]。
 \end_layout
 
 \begin_layout Labeling
@@ -225,21 +226,9 @@ Adotph
 \begin_inset space \space{}
 \end_inset
 
-[贝克，阿道夫]， Modern
-\begin_inset space \space{}
-\end_inset
-
-Physics
-\begin_inset space \space{}
-\end_inset
-
-and
-\begin_inset space \space{}
-\end_inset
-
-Anti-Physics《现代物理学与反物理学》，马萨诸塞，Reading: Addison-Wesley，1970年版，平装本。这是一部关于现代物理学——特别
-是量子力学和相对论——的书，其不同凡响之处在于其中有一组由一位“诗人”（一位反科学的“畸人”）和一位“物理学家”进行的对话。这些对话揭示了当一个人使用逻辑思维来
-为逻辑辩护，而另一个人用逻辑反对逻辑自身时所产生的奇怪问题。
+[贝克，阿道夫]， Modern Physics and Anti - Physics《现代物理学与反物理学》，马萨诸塞，Reading: Addison-We
+sley，1970年版，平装本。这是一部关于现代物理学——特别是量子力学和相对论——的书，其不同凡响之处在于其中有一组由一位“诗人”（一位反科学的“畸人”）和一
+位“物理学家”进行的对话。这些对话揭示了当一个人使用逻辑思维来为逻辑辩护，而另一个人用逻辑反对逻辑自身时所产生的奇怪问题。
 \end_layout
 
 \begin_layout Labeling
@@ -351,9 +340,40 @@ Paul
 \labelwidthstring 书
 
 \size footnotesize
-Benacerraf，Paul and Hilary Putnam[贝纳塞拉夫，保罗；希拉里·普特南二，Pbilosophy of Mathematics-
- Selected Readings《数学哲学选读》，新泽99 1西，Englewood Cliffs：Prentice - Hall，1964年版。由哥德尔、
-罗素、纳格尔、冯·诺意曼、布劳威、弗雷格、希尔伯特、彭加勒]、维特根斯坦、卡尔纳普、蒯恩等人就数和集合的实在性、数学真理的本质等问题的论文组成。
+Benacerraf,
+\begin_inset space \space{}
+\end_inset
+
+Paul
+\begin_inset space \space{}
+\end_inset
+
+and
+\begin_inset space \space{}
+\end_inset
+
+Hilary
+\begin_inset space \space{}
+\end_inset
+
+Putnam
+\begin_inset space \space{}
+\end_inset
+
+[贝纳塞拉夫，保罗，希拉里·普特南]， Pbilosophy of Mathematics -- Selected Readings《数学哲学选读》，新泽
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\size footnotesize
+991
+\end_layout
+
+\end_inset
+
+西，Englewood Cliffs: Prentice - Hall，1964年版。由哥德尔、罗素、纳格尔、冯·诺意曼、布劳威、弗雷格、希尔伯特、彭加勒、维特
+根斯坦、卡尔纳普、蒯恩等人就数和集合的实在性、数学真理的本质等问题的论文组成。
 \end_layout
 
 \begin_layout Labeling
@@ -364,320 +384,459 @@ Benacerraf，Paul and Hilary Putnam[贝纳塞拉夫，保罗；希拉里·普特
 \begin_inset space \space{}
 \end_inset
 
-Bergerson，Howard[柏格森，霍华德]o Palindromes and Anagrams《回文与拼字游戏》，纽约：Dover Publicatio
-ns，1 973年版，平装本。英语中某些最占怪和最令人难以相信的文字游戏的不可思议的汇集。有回文诗、剧、故事
+Bergerson,
+\begin_inset space \space{}
+\end_inset
+
+Howard
+\begin_inset space \space{}
+\end_inset
+
+[柏格森，霍华德]。 Palindromes and Anagrams《回文与拼字游戏》，纽约：Dover Publications，1973年版，平装本。英语
+中某些最古怪和最令人难以相信的文字游戏的不可思议的汇集。有回文诗、剧、故事等等。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-Bobrow，D．G．，and Allan Collins[鲍布罗；阿兰·科林斯]， Representationand Understanding:Studi
-es in Cognitive Science《表示与理解：认知科学研究》，纽约；Academic Press，1975年版。人工智能的各种专家切磋，争论“框架
-”这一难以捉摸的概念的本质以及知识的过程化与描述化表示等问题。
+Bobrow,
+\begin_inset space \space{}
+\end_inset
+
+D.
+\begin_inset space \space{}
+\end_inset
+
+G.,
+\begin_inset space \space{}
+\end_inset
+
+and
+\begin_inset space \space{}
+\end_inset
+
+Allan
+\begin_inset space \space{}
+\end_inset
+
+Collins
+\begin_inset space \space{}
+\end_inset
+
+[鲍布罗；阿兰·科林斯]， Representationand Understanding: Studies in Cognitive Science《表示与理
+解：认知科学研究》，纽约：Academic Press，1975年版。人工智能的各种专家切磋，争论“框架”这一难以捉摸的概念的本质以及知识的过程化与描述化表示等
+问题。在某种方式上，这本书标志着人工智能的一个新时代的开始，即表示的时代。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-在某种方式上，这本书标志着人工智能的一个新时代的开始，即表示的时
+*
+\begin_inset space \space{}
+\end_inset
+
+Boden,
+\begin_inset space \space{}
+\end_inset
+
+Margaret
+\begin_inset space \space{}
+\end_inset
+
+[鲍登，马格里特]， Artificial Intelligence and NaturalMan（入工智能与自然人》，纽约：Basic Books，1977年
+版。这是我所见过的涉及人工智能几乎所有方面的最好的书，包括了技术问题、哲学问题等等。这是一本丰富的书，在我看来是一本经典。延续了对心智、自由意志等问题进行清晰思
+维和表述的英国传统，还包括有一份广博的专业书目。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-代。74 7
+——,
+\begin_inset space \space{}
+\end_inset
+
+Purposive
+\begin_inset space \space{}
+\end_inset
+
+Explanation
+\begin_inset space \space{}
+\end_inset
+
+in
+\begin_inset space \space{}
+\end_inset
+
+Psychology
+\begin_inset space \space{}
+\end_inset
+
+《心理学中的目的性解释》，马萨诸塞，Cambridge: Harvard UniversIty Press，1972年版。鲍登说，对于这本书来说，她那本关于人工
+智能的书只是一篇“扩展了的注解”。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-*Boden，Margaret[鲍登，马格里特二． Artificial Intelligence and NaturalMan（入工智能与自然人》，纽约：Ba
-sic Books，1 977年版。这是我所见过的涉及人工智能几乎所有方面的最好的书，包括了技术问题、哲学问题等等．这是一本丰富的书，在我看来是一本经典。延续了
-对心智、自由意志等问题进行清晰思维和表述的英国传统，还包括有一份广博的专业书目。
+*
+\begin_inset space \space{}
+\end_inset
+
+Boeke,
+\begin_inset space \space{}
+\end_inset
+
+Kees
+\begin_inset space \space{}
+\end_inset
+
+[毕克，基斯]， Cosmic View: The Universe in 40 Jumps《宇宙观：40个步骤的世界》纽约：John Day，1957年版。关
+于描述层次的一本登峰造极的书。人人都应该在一生中的某个时间里读一读这本书。适宜儿童。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-一～，Purposive Explanation in Psychology《心理学中的目的性解释》，马萨
+**
+\begin_inset space \space{}
+\end_inset
+
+Bongard,
+\begin_inset space \space{}
+\end_inset
+
+M.
+\begin_inset space \space{}
+\end_inset
+
+[邦加德]， Pattern Recognition《模式识别》，新泽西：Rochelle Park:Hayden Book Co., Spartan
+ Books [新巴达丛书]，1970年版。该作者所关注的是在一个定义不良的空间里确定范畴的问题。书中，他汇集了100个出色的（我称之为）“邦加德问题”——一组
+为图案识别者（人或机器）设计的的谜题以检验其机智。对于任何对智能的本质感兴趣
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\size footnotesize
+992
+\end_layout
+
+\end_inset
+
+的人来说，它们的启发性都是难以估价的。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-诸塞，Cambridge:Harvard UniversIty Press，1 97 2年版。鲍登说，对于这本
+Boolos,
+\begin_inset space \space{}
+\end_inset
+
+George
+\begin_inset space \space{}
+\end_inset
+
+S.,
+\begin_inset space \space{}
+\end_inset
+
+and
+\begin_inset space \space{}
+\end_inset
+
+Richard
+\begin_inset space \space{}
+\end_inset
+
+Jeffrey
+\begin_inset space \space{}
+\end_inset
+
+[布罗斯，乔治；里查德·杰弗里]， Computability and Logic《可计算性与逻辑》，纽约：Cambridge University
+ Press，1974年版。是杰弗里的《形式逻辑》一书的续集。它包括大量别处不易获得的结果。十分严格，但并不因此影响它的可读性。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-书来说，她那本关于人工智能的书只是一篇“扩展了的注解”o
+Carroll,
+\begin_inset space \space{}
+\end_inset
+
+John
+\begin_inset space \space{}
+\end_inset
+
+B.,
+\begin_inset space \space{}
+\end_inset
+
+Peter
+\begin_inset space \space{}
+\end_inset
+
+Davies,
+\begin_inset space \space{}
+\end_inset
+
+and
+\begin_inset space \space{}
+\end_inset
+
+Barry
+\begin_inset space \space{}
+\end_inset
+
+Rickman
+\begin_inset space \space{}
+\end_inset
+
+[卡罗尔，约翰；彼得·戴维斯；巴里·里克曼]， The American Heritage Word Frequency Book《美国传统词频手册》，波士顿：
+Houghton Mifflin, American Heritage Publishing Co.,
+\begin_inset space \space{}
+\end_inset
+
+1971年版。依照现代书面美国英语词频顺序而编排的词汇表，浏览它你会发现我们思维过程中的奇异之处。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-* Boeke，Kees[毕克，基斯二，Cosmic Vievr:The Universe in 40 Jumps《宇宙
+Cerf,
+\begin_inset space \space{}
+\end_inset
+
+Vinton
+\begin_inset space \space{}
+\end_inset
+
+[瑟夫，文顿]， “Parry Encounters the Doctor”[帕里遇见了医生]，Datamation，1973(7)，62-64。
+ 人工“心智”的第一次会面——多么令人振奋啊！
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-观：40个步骤的世界》赳约：John Day，1 95 7年版。关于描述层次的一本登
+Chadwick,
+\begin_inset space \space{}
+\end_inset
+
+John
+\begin_inset space \space{}
+\end_inset
+
+[查德威克，约翰]， The Decipherment of Linear B《线形文字B的释读》，纽约：Cambridge University
+ Press, 1958年版，平装本。这本书讲一个人——米凯尔·文特里斯 [Micheal Ventris] 单枪匹马完成经典释读——释读克里特岛上的一种文字—
+—的故事。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-峰造极的书。人人都应该在一生中的某个时间里读一读这本书。适宜儿童。
+Chaitin,
+\begin_inset space \space{}
+\end_inset
+
+Gregory
+\begin_inset space \space{}
+\end_inset
+
+J.
+\begin_inset space \space{}
+\end_inset
+
+[柴汀，格里高里]， “Randomness and Mathematical Proof”[随意性与数学证明]，Scientific American《科学美
+国人》，1975年5月号。一篇关于随意性的代数定义与它同简洁性的密切关系的论文。这两个概念与哥德尔定理紧密相关，只是后者假定了新的意义。一篇重要文章。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-**Bongard，M．[邦加德]．Pattern Recognition《模式识别》，新泽西：
+Cohen.
+\begin_inset space \space{}
+\end_inset
+
+Paul
+\begin_inset space \space{}
+\end_inset
+
+C.
+\begin_inset space \space{}
+\end_inset
+
+[科恩，保罗]， Set Theory and the Continuum Hypothesis《集合论与连续统假设》，加利福尼亚：Menlo
+ Park: W.
+ A.
+ Benjamin，1966年版。对现代数学的一个伟大贡献——证明了集合论所用的常见形式化方案中存在各种不可判定的陈述——在这里由其发现者向门外汉进行了解释。快
+速、简洁、又十分清楚地表述了数理逻辑中的必要前提。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-Rochelle Park:Hayden Book Co．，Spartan Books[新巴达丛书]，1 970年
-\end_layout
+Cooke,
+\begin_inset space \space{}
+\end_inset
 
-\begin_layout Labeling
-\labelwidthstring 书
+Deryck
+\begin_inset space \space{}
+\end_inset
 
-\size footnotesize
-版。该作者所关注的是在一个定义不良的空间里确定范畴的问题。书中，
-\end_layout
+[库克，德里克]， The Language of Music《音乐语言》，纽约：Oxford University Press, 1959年版，平装本。我所知
+道的唯一一本试图在音乐因素与人类情感因素之间找出明确联系的书。对于通向理解音乐和
+\begin_inset Note Comment
+status open
 
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-他汇集了1 00个出色的（我称之为）“邦加德问题”一一一组为图案识别者
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-（人或机器）设计的的谜题以检验其机智。对于任何对智能的本质感兴趣
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-99 2的人来说，它们的启发性都是难以估价的。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-Boolos，George S．，and Richard Jeffrey[布罗斯，乔治；里查德·杰弗里]，Computability and Logic《可计算
-性与逻辑》，纽约：Cambridge UniversityPress，1974年版。是杰弗里的《形式逻辑>一书的续集。它包括大量别处不易获得的结果。十分严格，但
-并不因此影响它的可读性。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-Carroll，John B．，Peter Davies，and Barry Rickman[卡罗尔，约翰；彼得·戴维斯；巴里·里克曼]，The
- American Heritage Word Frequency Book《美国传统词频手册》，波士顿：Houghton 
-\backslash
-/Iifflin，American Heritage PublishingCo．，1 971年版。依照现代书面美国英语词频顺序而编排的词汇表，浏览它你会发现我们
-思维过程中的奇异之处。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-Cerf，V．inton[瑟夫，文顿]，”Parry Encounters the Doctor”[帕里遇见了医生]，Datamation，1973（7），62
-…64 0人工“心智”的第一次会面——多么令人振奋啁！
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-Chadwick，John[查德威克，约翰二，The Decipherment of Linear B<线形文字B的释读》，纽约：Cambridge
- University Press，1 958年版，平装本。这本书讲一个人——米凯尔·文特里斯[Micheal Ventris]单枪匹马完成经典释读
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-一释读克里特岛上的一种文字——的故事。Chaitin，Gregory J．[柴汀，格里高里]，“Randomness and MathematicalProof
-”二随意性与数学证明二，Scientific American《科学美国人》，1975年5月号。一篇关于随意性的代数定义与它同简洁性的密切关系的论文。这两个概念
-与哥德尔定理紧密相关，只是后者假定了新的意义。一篇重要文章。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-Cohen．Paul C．[科恩，保罗]．Set Theory and the Continuum Hypothesis<集
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-合论与连续统假设》，加利福尼亚：Menlo Park:W．A．Benjamin．1966年版。对现代数学的一个伟大贡献一一证明了集合论所用的常见形式化方案中存在
-各种不可判定的陈述r．一在这里由其发现者向门外汉进行了解释。快速、简洁、叉十分清楚地表述了数理逻辑中的必要前提。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-Cooke．Deryck[库克，德里克]．The Language of Music《音乐语言》，纽约：Oxford University Press，1
- 95 9年版，平装本。我所知道的唯一一本试图在音乐因素与人类情感因素之间找出明确联系的书。对于通向理解音乐和
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
+\begin_layout Plain Layout
 
 \size footnotesize
 9 93
 \end_layout
 
-\begin_layout Labeling
-\labelwidthstring 书
+\end_inset
 
-\size footnotesize
-人类心智的那条注定是漫长而艰难的道路来说，这是一个有价值的开始。* David，Hans Theodore[大卫，汉斯·西奥多]，J．S．Bach's
- Musical Offering
+人类心智的那条注定是漫长而艰难的道路来说，这是一个有价值的开始。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-《巴赫的（音乐的奉献>》，纽约：Dover Publications，1972年版，平装本。副标
+*
+\begin_inset space \space{}
+\end_inset
+
+David,
+\begin_inset space \space{}
+\end_inset
+
+Hans
+\begin_inset space \space{}
+\end_inset
+
+Theodore
+\begin_inset space \space{}
+\end_inset
+
+[大卫，汉斯·西奥多]， J.
+ S.
+ Bach's Musical Offering《巴赫的<音乐的奉献>》，纽约：Dover Publications，1972年版，平装本。副标题是“历史、解释
+和分析”。是有关巴赫这一力作的珍贵材料。文笔引入入胜。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-题是“历史、解释和分析”o是有关巴赫这一力作的珍贵材料。文笔引入入
+*
+\begin_inset space \space{}
+\end_inset
+
+David,
+\begin_inset space \space{}
+\end_inset
+
+Hans
+\begin_inset space \space{}
+\end_inset
+
+Theodore,
+\begin_inset space \space{}
+\end_inset
+
+and
+\begin_inset space \space{}
+\end_inset
+
+Arthur
+\begin_inset space \space{}
+\end_inset
+
+Mendel
+\begin_inset space \space{}
+\end_inset
+
+[大卫，汉斯·西奥多；阿瑟·曼德尔]， The Bach Reader《巴赫读本》，纽约：W.
+ W.
+ Norton，1966年版，平装本。是有关巴赫生平的原始资料的出色集注，包括图画、手稿复制品、简短的引自同代人的评论、轶事等等。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-胜口
+Davis,
+\begin_inset space \space{}
+\end_inset
+
+Martin
+\begin_inset space \space{}
+\end_inset
+
+[戴维斯，马丁]， The Undecidable《不可判定的》，纽约，Hewlett: Raven Press，1965年版。1931年以来元数学方面最重要的
+论文的汇编（因此是对范·海耶奴尔特 [van Heijenoort] 的那部汇编的补充）。包含哥德尔1931年的论文、哥德尔一次就他的结果所讲的课的讲稿笔记的翻
+译、然后是丘奇、克里尼、罗瑟、波斯持和图灵的论文。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-_* David，Hans Theodore，and Arthur Mendel L大卫，汉斯·西奥多；阿瑟·曼
+Davis,
+\begin_inset space \space{}
+\end_inset
+
+Martin,
+\begin_inset space \space{}
+\end_inset
+
+and
+\begin_inset space \space{}
+\end_inset
+
+Reuben
+\begin_inset space \space{}
+\end_inset
+
+Hersh
+\begin_inset space \space{}
+\end_inset
+
+[戴维斯，马丁；鲁伊本·赫什]， “Hilbert's Tenth Problem”[希尔伯特第十问题]，Scientific American《科学美国人》，
+1973年11月号，第84页。一位二十二岁的俄罗斯人指明了数论中的一个著名问题为何最终是不可解决的。
 \end_layout
 
 \begin_layout Labeling
 \labelwidthstring 书
 
 \size footnotesize
-德尔]，The Bach Reader《巴赫读本》，纽约：W．W．Norton，1966年版，平装
-\end_layout
+**
+\begin_inset space \space{}
+\end_inset
 
-\begin_layout Labeling
-\labelwidthstring 书
+Delong,
+\begin_inset space \space{}
+\end_inset
 
-\size footnotesize
-本。是有关巴赫生平的原始资料的出色集注，包括图画、手稿复制品、简短
-\end_layout
+Howard
+\begin_inset space \space{}
+\end_inset
 
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-的引自同代人的评论、轶事等等。Davis，Martin[戴维斯，马丁]，The Undecidable《不可判定的》，纽约，
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-Hewlett:Raven Press，1 965年版0 193 1年以来元数学方面最重要的论文的
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-汇编（因此是对范·海耶奴尔特[van Heijenoort]的那部汇编的补充）o包含
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-哥德尔1931年的论文、哥德尔一次就他的结果所讲的课的讲稿笔记的翻
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-译、然后是丘奇、克里尼、罗瑟、波斯持和图灵的论文。Davis, Martin．and Reuben Hersb[戴维斯，马丁；鲁伊本·赫什]，“Hilbert'
-s
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-Tenth Problem”r希尔伯特第十问题]，Scientific American《科学美国人》．
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-1 973年1 1月号，第84页口一位二十二岁的俄罗斯人指明了数论中的一个著
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-名问题为何最终是不可解决的。
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-**Delong，Howard[德朗，霍华德]，A Profile of Mathematical Logic<数理
-\end_layout
-
-\begin_layout Labeling
-\labelwidthstring 书
-
-\size footnotesize
-逻辑概况》，马萨诸塞，Reading: Addison - Wesley，1 970年版。一本精心写
+[德朗，霍华德]， A Profile of Mathematical Logic《数理逻辑概况》，马萨诸塞，Reading: Addison
+ - Wesley，1 970年版。一本精心写
 \end_layout
 
 \begin_layout Labeling
