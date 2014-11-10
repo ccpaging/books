@@ -491,6 +491,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:135"
+
+\end_inset
+
 画手，艾舍尔作（石版画，1948）
 \end_layout
 
@@ -1166,6 +1172,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:139"
+
+\end_inset
+
 以烟为号。[作者绘]
 \end_layout
 
@@ -1838,6 +1850,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:142"
+
+\end_inset
+
 画廊，艾舍尔作（石版画，1956）。
 \end_layout
 
@@ -3878,6 +3896,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:149"
+
+\end_inset
+
 辞，艾舍尔作（蚀版画,1942）。
 \end_layout
 

@@ -483,7 +483,14 @@ status open
 \end_layout
 
 \begin_layout Standard
-类似的效果可以在我画的《以烟为号》（图139）中看到。沿着这条思路下去，你可以考虑一下下面这个谜题：你能否想个什么办法作一幅画，使其中的图形及衬底都是图形？
+类似的效果可以在我画的《以烟为号》（图
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:139"
+
+\end_inset
+
+）中看到。沿着这条思路下去，你可以考虑一下下面这个谜题：你能否想个什么办法作一幅画，使其中的图形及衬底都是图形？
 \end_layout
 
 \begin_layout Standard
