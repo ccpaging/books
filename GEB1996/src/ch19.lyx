@@ -1104,6 +1104,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+一个求解邦加德问题的程序的概念网络片段。
+\end_layout
+
+\end_inset
+
 一个求解邦加德问题的程序的概念网络片段。“结点”通过“连线”彼此相联，而连线又可能被联接。通过把连线看成动词，把它所联接的结点看成主语和宾语，你可以从图中抽取出
 一些句子来。
 \end_layout
@@ -3353,6 +3362,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+“树懒卡农”，选自巴赫的《音乐的奉献》。
+\end_layout
+
+\end_inset
+
 “树懒卡农”，选自巴赫的《音乐的奉献》。[乐谱是用唐纳德·伯德的程序“斯马特”印制的，美术字由陈春光设计。]
 \end_layout
 

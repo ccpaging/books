@@ -10,7 +10,7 @@ enumitem
 \end_modules
 \maintain_unincluded_children false
 \language chinese-simplified
-\language_package default
+\language_package babel
 \inputencoding utf8-plain
 \fontencoding global
 \font_roman 方正新书宋_GB18030
@@ -135,6 +135,35 @@ enumitem
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+frontmatter
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "ch00.lyx"
@@ -196,73 +225,6 @@ status open
 
 \backslash
 mainmatter
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-contentsname}{目录}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-listfigurename} {插图目录}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-listtablename} {表格目录}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-indexname}{索引}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-tablename}{表}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-figurename}{图}
-\end_layout
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset

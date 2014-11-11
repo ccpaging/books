@@ -143,10 +143,10 @@ Preamble
     %\setfoot[偶页脚左][偶页脚中][偶页脚右]{奇页脚左}{奇页脚中}{奇页脚右}
     \renewpagestyle{plain}{
         \setfoot[$\cdot$\ \thepage\ $\cdot$][][]{}{}{$\cdot$\ \thepage\ $\cdot$}
-    }
+                  }
     \newpagestyle{main}{
         \setfoot[$\cdot$\ \thepage\ $\cdot$][][]{}{}{$\cdot$\ \thepage\ $\cdot$}
-    }
+                  }
     \pagestyle{main}
 
     % 下划线折行和着重号
@@ -199,20 +199,17 @@ Preamble
     \newcommand{\zhgouniao}{\hbox{\scalebox{0.4}[1]{勾}\kern-.1em\scalebox{0.7}[1]{鸟}}}
 
     % 中文文档习惯
-    \renewcommand{\contentsname}{目录}
-    \renewcommand{\listfigurename} {插图目录}
-    \renewcommand{\listtablename} {表格目录}
-    % \renewcommand{\refname}{参考文献}
-    % \renewcommand{\abstractname}{摘要}
-    \renewcommand{\indexname}{索引}
-    \renewcommand{\tablename}{表}
-    \renewcommand{\figurename}{图}
+    \addto\captionsenglish{
+	    \renewcommand{\contentsname}{目录}
+	    \renewcommand{\listfigurename}{插图目录}
+	    \renewcommand{\listtablename}{表格目录}
+	    % \renewcommand{\refname}{参考文献}
+	    % \renewcommand{\abstractname}{摘要}
+	    \renewcommand{\indexname}{索引}
+	    \renewcommand{\tablename}{表}
+	    \renewcommand{\figurename}{图}
+         }
 EndPreamble
-
-# Default textclass options. The user may need to modify this.
-ClassOptions
-    Other                 "unicode"#,doctor"
-End
 
 # 参考 logicalmkup.module
 InsetLayout Flex:CJKunderdot
