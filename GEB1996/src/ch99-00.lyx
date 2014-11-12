@@ -168,7 +168,7 @@ Ross
 \begin_inset space \space{}
 \end_inset
 
-[安德森，阿兰·罗斯]， Minds and Machines《心智与机器》，新泽酉，Englewood Cliffs: Prentice -
+[安德森，阿兰·罗斯]， Minds and Machines《心智与机器》，新泽西，Englewood Cliffs: Prentice -
  Hall，1964年版，平装本。这是一部由许多赞同和反对人工智能的富于启发性的文章组成的集子，其中收有图灵著名的论文“Computing Machinery
  and Intelligence”[计算机器和智能]，以及卢卡斯那篇惹人恼怒的文章“Minds, Machines, and Gödel”[心智、机器和哥德尔
 ]。
@@ -424,7 +424,7 @@ Collins
 \begin_inset space \space{}
 \end_inset
 
-[鲍布罗；阿兰·科林斯]， Representationand Understanding: Studies in Cognitive Science
+[鲍布罗；阿兰·科林斯]， Representation and Understanding: Studies in Cognitive Science
  《表示与理解：认知科学研究》，纽约：Academic Press， 1975年版。人工智能的各种专家切磋，争论“框架”这一难以捉摸的概念的本质以及知识的过程化
 与描述化表示等问题。在某种方式上，这本书标志着人工智能的一个新时代的开始，即表示的时代。
 \end_layout
@@ -445,7 +445,7 @@ Margaret
 \begin_inset space \space{}
 \end_inset
 
-[鲍登，马格里特]， Artificial Intelligence and NaturalMan （入工智能与自然人》，纽约：Basic Books，
+[鲍登，马格里特]， Artificial Intelligence and Natural Man （入工智能与自然人》，纽约：Basic Books，
  1977年版。这是我所见过的涉及人工智能几乎所有方面的最好的书，包括了技术问题、哲学问题等等。这是一本丰富的书，在我看来是一本经典。延续了对心智、自由意志等问
 题进行清晰思维和表述的英国传统，还包括有一份广博的专业书目。
 \begin_inset Newline newline
@@ -1503,9 +1503,9 @@ Jean
 \begin_inset space \space{}
 \end_inset
 
-[范·海耶奴承特，让]， From Frege to Gödel: A SourceBook in Mathematical Logic 《从弗雷格到哥德尔：数
-理逻辑的来源手册》，马萨诸塞，Cambridge: Harvard University Press，1977年版，平装本。数理逻辑方面划时代论文选，所有论文都
-引向作为该书压卷之篇的哥德尔
+[范·海耶奴承特，让]， From Frege to Gödel: A Source Book in Mathematical Logic 《从弗雷格到哥德尔：
+数理逻辑的来源手册》，马萨诸塞，Cambridge: Harvard University Press，1977年版，平装本。数理逻辑方面划时代论文选，所有论文
+都引向作为该书压卷之篇的哥德尔
 \begin_inset Note Comment
 status open
 
@@ -1602,7 +1602,7 @@ R.
 \end_inset
 
 [侯世达]， “Energy levels and wave functions of Bloch electrons in rational
- and irrational magnetic fields”[有理和无理磁场中的Bloch电子的能级和波函数]，Physical Reveiw
+ and irrational magnetic fields”[有理和无理磁场中的Bloch电子的能级和波函数]，Physical Review
  B《物理学评论》14，第6期（1976年9月15日）。本作者的博士论文。详论了“G图”的起源，其递归图见图34。
 \end_layout
 
@@ -1618,8 +1618,8 @@ Sidney
 \begin_inset space \space{}
 \end_inset
 
-[胡克，西尼]（编）， Dimensions of Minci《心智的维度》，纽约：Macmillan, Collier Books, 1961年版，平装本。心
-—身问题与心—机问题论文选。
+[胡克，西尼]（编）， Dimensions of Mind《心智的维度》，纽约：Macmillan, Collier Books, 1961年版，平装本。心—
+身问题与心—机问题论文选。
 \end_layout
 
 \begin_layout Labeling
@@ -1659,7 +1659,7 @@ John
 \begin_inset space \space{}
 \end_inset
 
-[胡巴德，约翰]， The Biological Basis of Mental Activityt 《智力活动的生物学基础》，马萨诸塞，Reading:
+[胡巴德，约翰]， The Biological Basis of Mental Activity 《智力活动的生物学基础》，马萨诸塞，Reading:
  Addison Wesley， 1975年版，平装本。 还是讲大脑的书，但却有新颖之处：含有许多供读者思考的长长的问题单，还开列了探讨这些问题的论文目录。
 \end_layout
 
@@ -1691,7 +1691,7 @@ status open
 \begin_layout Plain Layout
 
 \size footnotesize
-99 9
+999
 \end_layout
 
 \end_inset
@@ -2308,7 +2308,7 @@ B.
 \begin_inset space \space{}
 \end_inset
 
-[迈尔，列奥纳德]， Emotion and Meaning in Music 《音乐中的情感与意义》，芝加哥： Universlty of Chicago
+[迈尔，列奥纳德]， Emotion and Meaning in Music 《音乐中的情感与意义》，芝加哥： University of Chicago
  Press，1956年版，平装本。 这本书力图用格式塔心理学和知觉理论来解释音乐结构何以是这样的。是有关音乐和心智方面颇不寻常的一本书。
 \end_layout
 
@@ -2750,7 +2750,7 @@ Rogers,
 \begin_inset space \space{}
 \end_inset
 
-Hartley[罗杰斯，哈特利]， Theory of Recursive Functions and Eftective Computability
+Hartley[罗杰斯，哈特利]， Theory of Recursive Functions and Effective Computability
  《递归函数和能行可计算性的理论》，纽约：McGraw - Hill，1967年版。一篇高度专业性的论文，却也是学习的好教材。内有对集合论和递归函数论中许多复杂
 问题的讨论。
 \end_layout
@@ -3307,7 +3307,7 @@ Heinrich
 \begin_inset space \space{}
 \end_inset
 
-[铁策，海因里希]， Famous Problems of Mathematies 《数学中的著名问题》，巴尔的摩： Graylock Press，1965年版
+[铁策，海因里希]， Famous Problems of Mathematics 《数学中的著名问题》，巴尔的摩： Graylock Press，1965年版
 。 关于著名问题的一本书，用一种非常有个性和非常博学的风格写成。插图精良，含历史资料。
 \end_layout
 
@@ -3589,8 +3589,8 @@ rersity Artificial Intelligence Laboratory, 1974年，平装本。描述了人�
 \labelwidthstring 书
 
 \size footnotesize
-——, “On some contested suppasitions of generative linguistics about thescientifi
-c study of language”，[论有关语言的科学研究中某些相互竞争的
+——, “On some contested suppositions of generative linguistics about the
+ scientific study of language”，[论有关语言的科学研究中某些相互竞争的
 \begin_inset Note Comment
 status open
 
@@ -3651,9 +3651,9 @@ Wooldridge，Dean
 \begin_inset space \space{}
 \end_inset
 
-[伍尔德里奇，迪恩]， MeChanical Man -- The Physical Basis of Intelligence Life《机械的人——智力生活
-的生理基础》，纽约：Mc - Graw - Hill， 1968年版， 平装本。对智力现象和大脑现象之间关系的详尽讨论，用明快的语言写成。用新颖的方式探讨了艰深
-的哲学问题，用具体例子来说明问题。
+[伍尔德里奇，迪恩]， Mechanical Man -- The Physical Basis of Intelligence Life《机械的人——智力生活
+的生理基础》，纽约：McGraw - Hill， 1968年版， 平装本。对智力现象和大脑现象之间关系的详尽讨论，用明快的语言写成。用新颖的方式探讨了艰深的哲学
+问题，用具体例子来说明问题。
 \begin_inset Note Comment
 status open
 
