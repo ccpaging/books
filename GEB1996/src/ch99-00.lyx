@@ -360,7 +360,7 @@ Putnam
 \begin_inset space \space{}
 \end_inset
 
-[贝纳塞拉夫，保罗，希拉里·普特南]， Pbilosophy of Mathematics -- Selected Readings 《数学哲学选读》，新泽
+[贝纳塞拉夫，保罗，希拉里·普特南]， Philosophy of Mathematics -- Selected Readings 《数学哲学选读》，新泽
 \begin_inset Note Comment
 status open
 
@@ -445,7 +445,7 @@ Margaret
 \begin_inset space \space{}
 \end_inset
 
-[鲍登，马格里特]， Artificial Intelligence and Natural Man （入工智能与自然人》，纽约：Basic Books，
+[鲍登，马格里特]， Artificial Intelligence and Natural Man 《人工智能与自然人》，纽约：Basic Books，
  1977年版。这是我所见过的涉及人工智能几乎所有方面的最好的书，包括了技术问题、哲学问题等等。这是一本丰富的书，在我看来是一本经典。延续了对心智、自由意志等问
 题进行清晰思维和表述的英国传统，还包括有一份广博的专业书目。
 \begin_inset Newline newline
@@ -715,7 +715,7 @@ Theodore
 [大卫，汉斯·西奥多]， J.
  S.
  Bach's Musical Offering 《巴赫的<音乐的奉献>》，纽约：Dover Publications， 1972年版，平装本。副标题是“历史、
-解释和分析”。是有关巴赫这一力作的珍贵材料。文笔引入入胜。
+解释和分析”。是有关巴赫这一力作的珍贵材料。文笔引人入胜。
 \end_layout
 
 \begin_layout Labeling
@@ -1000,9 +1000,43 @@ J.
 \end_inset
 
 [费茨帕特里克] “To Gödel via Babel” [经巴别塔到哥德尔]，Mind《心智》75卷（1966），332~350。是哥德尔证明的一个创新解释
-，使用了三种不同的语言——英语、法语和拉丁语——来区分相应的层次！von Foerster, Heinz and James W.
- Beauchamp [冯·福尔斯特，海因茨；詹姆斯·鲍尚] 编：Music by Computers 《计算机作曲》，纽约：John Wiley，
- 1969年版。 这本书不仅包括有一组论备类计算机创作的音乐的文章，而且还有四张小唱片使你可以实际听一听（并判断一下）里面描述的作品。这些作
+，使用了三种不同的语言——英语、法语和拉丁语——来区分相应的层次！
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 书
+
+\size footnotesize
+von
+\begin_inset space \space{}
+\end_inset
+
+Foerster,
+\begin_inset space \space{}
+\end_inset
+
+Heinz
+\begin_inset space \space{}
+\end_inset
+
+and
+\begin_inset space \space{}
+\end_inset
+
+James
+\begin_inset space \space{}
+\end_inset
+
+W.
+\begin_inset space \space{}
+\end_inset
+
+Beauchamp
+\begin_inset space \space{}
+\end_inset
+
+[冯·福尔斯特，海因茨；詹姆斯·鲍尚] 编：Music by Computers 《计算机作曲》，纽约：John Wiley， 1969年版。
+ 这本书不仅包括有一组论各类计算机创作的音乐的文章，而且还有四张小唱片使你可以实际听一听（并判断一下）里面描述的作品。这些作
 \begin_inset Note Comment
 status open
 
@@ -1159,7 +1193,7 @@ B.
 \begin_inset space \space{}
 \end_inset
 
-[吉世达]， 《金、银、铜——聚宝藏之精华》，珀斯·哑西迪克出版社。1979年版。一部令人望而生畏的庞然大物，浮夸而混乱——然而同本书极为相象。在吉世达教授的东
+[吉世达]， 《金、银、铜——聚宝藏之精华》，珀斯·亚西迪克出版社。1979年版。一部令人望而生畏的庞然大物，浮夸而混乱——然而同本书极为相象。在吉世达教授的东
 拉西扯中有一些间接自指的出色例子。特别有趣的是在其注释详尽的文献目录中提到了一都与之同构的、但却是虚构的书。
 \end_layout
 
@@ -1197,8 +1231,8 @@ status open
 \size footnotesize
 ——，“Uber formal unentscheidbare sätze der principia mathematica und verwandter
  systeme, I.
- ” [论《数学原理》及有关系统中形式上不可判定的命题，I] “Monatshefte für Mathematik und Physik 《数学和物理月刊》，
-38（1931），173-198。哥德尔1931年的论文。
+ ” [论《数学原理》及有关系统中形式上不可判定的命题，I] “Monatshefte für Mathematik und Physik” 《数学和物理月刊》
+，38（1931），173-198。哥德尔1931年的论文。
 \end_layout
 
 \begin_layout Labeling
@@ -1267,7 +1301,7 @@ J.
 \begin_inset space \space{}
 \end_inset
 
-[古德]， “Human and Machine Logic”[人与机器的逻辑]，British Journal for the Pbilosophy
+[古德]， “Human and Machine Logic”[人与机器的逻辑]，British Journal for the Philosophy
  of Science 《大英科学哲学杂志》18（1967），第144页。是反驳卢卡奇的尝试中最有趣的一个，涉及了不断重复使用对角线法本身是否就是一个可机械化的
 操作的问题。
 \end_layout
@@ -1278,7 +1312,7 @@ J.
 \size footnotesize
 ——，“Gödel's Theorem Is a Red Herring”[哥德尔定理是迷魂汤]，British Journal for the
  Philosophy of Science《大英科学哲学杂志》19 （1969），第357页。古德在文中坚持认为声卡斯的论点同哥德尔定理毫无关系，其实卢卡斯应
-该把他的论文命名为“心智，机器，和超穷计数”。古德—卢卡斯的巧辩是引入入胜的。
+该把他的论文命名为“心智，机器，和超穷计数”。古德—卢卡斯的巧辩是引人入胜的。
 \end_layout
 
 \begin_layout Labeling
@@ -1294,7 +1328,7 @@ Nelson
 \end_inset
 
 [古德曼，奈尔森]， Fact, Fiction and Forecast 《事实、虚均和预测》第三次修订版，印第安纳：Indianapolis:
- Bobbs - Merrill， 1973年版，平装本。讨论反事实条件句裥归纳逻辑，包括古德曼著名的问题词“bleen”和“grue”。着重讨论了“人是如何看
+ Bobbs - Merrill， 1973年版，平装本。讨论反事实条件句和归纳逻辑，包括古德曼著名的问题词“bleen”和“grue”。着重讨论了“人是如何看
 世界的”这一问题，因此从人工智能的角度看特别有趣。
 \end_layout
 
@@ -1436,7 +1470,7 @@ H.
 
 Haynes[哈那瓦尔特，菲利普；罗伯特·海因斯]， The Chemical Basis of Life 《生命的化学基础》，旧金山：W.
  H.
- Freeman，1973年版，平装本。一本出色的《科学美国入》中的文章选集。是了解分子生物学的一条最好的途径。
+ Freeman，1973年版，平装本。一本出色的《科学美国人》中的文章选集。是了解分子生物学的一条最好的途径。
 \end_layout
 
 \begin_layout Labeling
@@ -1484,7 +1518,7 @@ Harmon,
 \end_inset
 
 Leon[哈蒙，莱昂]， “The Recognition of Faces”[面孔识别]，Scientific American 《科学美国人》，1973年1
-1月号，第70页。探讨了我们是如何在记忆中重现面孔的，以及为使我们能够识别一张面孔需要多少信息、采用哪种形式。是图形识别中一个最引入入胜的问题。
+1月号，第70页。探讨了我们是如何在记忆中重现面孔的，以及为使我们能够识别一张面孔需要多少信息、采用哪种形式。是图形识别中一个最引人入胜的问题。
 \end_layout
 
 \begin_layout Labeling
@@ -1640,7 +1674,7 @@ Karen
 
 [荷尼，卡伦]， Self - Analysis 《自我分析》，纽约：W.
  W.
- Norton， 1942年版， 平装本。引人入胜地描述了自我的种种层次如何缠结在一起，以应付在这样一个复杂的世界里任何个人的自定义问题。既有人情昧又有洞察力。
+ Norton， 1942年版， 平装本。引人入胜地描述了自我的种种层次如何缠结在一起，以应付在这样一个复杂的世界里任何个人的自定义问题。既有人情味又有洞察力。
 \end_layout
 
 \begin_layout Labeling
@@ -1884,7 +1918,7 @@ C.
 \begin_inset space \space{}
 \end_inset
 
-[克利尼，斯蒂芬]， Introduction to Mathematical Logic 《数理逻辑导沦》， 纽约，John Wiley，1967年版。
+[克利尼，斯蒂芬]， Introduction to Mathematical Logic 《数理逻辑导论》， 纽约，John Wiley，1967年版。
  一本由这一领域中的重要人物所写的详尽、 富于思想性的教材。很值得一读。我每次重读一遍，都能发现一些我以前没有读出的东西。
 \end_layout
 
@@ -1993,7 +2027,7 @@ status open
 
 \end_inset
 
-Regnery，1973年版，平装本。是可以找得到的一本最好的公案汇编。很引入入胜。是关于禅宗的必备著作。
+Regnery，1973年版，平装本。是可以找得到的一本最好的公案汇编。很引人入胜。是关于禅宗的必备著作。
 \end_layout
 
 \begin_layout Labeling
@@ -2119,7 +2153,7 @@ R.
 
 [卢卡斯]， “Minds，Machines，and Gödel” [心智、机器和哥德尔]， Philosophy《哲学》36（1961），第112页。这篇文章
 重印于Anderson[安德森]编的《心智和机器》，还见于Sayre[萨耶尔]和Crosson[克罗松]的The Modeling of Mind
- 《塑造心智》。 一篇引起很大争议和富于启发性的文章，它声称要表明人脑在根本上不能用计算机的程序塑造出来。其论据完全建立在哥德尔不完全性定理上，因而非常育趣。其
+ 《塑造心智》。 一篇引起很大争议和富于启发性的文章，它声称要表明人脑在根本上不能用计算机的程序塑造出来。其论据完全建立在哥德尔不完全性定理上，因而非常有趣。其
 文风（在我看来）是异常暴躁恼怒的——然而也正是由于这一点，使它读起来非常有趣。
 \end_layout
 
@@ -2128,7 +2162,7 @@ R.
 
 \size footnotesize
 ——， “Satan Stultified: A Rejoinder to Paul Benacerraf”[被愚弄的撒旦：对保罗·贝纳塞拉夫的答辩]，Moni
-st《一-元论者》52（1968）：第145页。反贝纳塞拉夫的论文，博学得令人发晕：在其中，卢卡斯把贝纳塞拉夫称作“自我
+st《一元论者》52（1968）：第145页。反贝纳塞拉夫的论文，博学得令人发晕：在其中，卢卡斯把贝纳塞拉夫称作“自我
 \begin_inset Note Comment
 status open
 
@@ -2171,10 +2205,10 @@ H.
 \begin_inset space \space{}
 \end_inset
 
-[麦克吉拉弗里，卡洛林]， Symmetry Aspects ofthe Periodic Drawings of M.
+[麦克吉拉弗里，卡洛林]， Symmetry Aspects of the Periodic Drawings of M.
  C.
  Escher《艾舍尔周期循环式绘画中的对称问题》，荷兰，Utrecht: A.
- Oostboek's Uitgevermaatschappij，1965年版。汇集了艾舍尔的版画，并由一位晶体学家作出科学的评注。我的一些插图就是来自这里——
+ Oosthoek's Uitgevermaatschappij，1965年版。汇集了艾舍尔的版画，并由一位晶体学家作出科学的评注。我的一些插图就是来自这里——
 如《蚂蚁赋格》和《螃蟹卡农》。1976年以Fantasy and Symmetry 《奇想与对称》的标题由 Harry N.
  Abrams [哈里·阿布拉姆斯]再次发表于纽约。
 \end_layout
@@ -2238,7 +2272,7 @@ John
 \end_inset
 
 [麦卡锡，约翰]， “Ascribing Mental Qualities to Machines” [把心理特性赋予机器]，见于Martin
- Ringle[马丁·林格尔]编的：Philoscphical Perspective in Artificial Intelligence 《对人工智能的哲学
+ Ringle[马丁·林格尔]编的：Philosophical Perspective in Artificial Intelligence 《对人工智能的哲学
 透视》，纽约：Humanities Press，1979年版。一篇深入的文章，论及在什么情况下说机器有信念、欲望、主意、意识或自由意志才有意义。把这篇论文同格里
 芬[Griffin]那本书作一番比较是很有趣的。
 \end_layout
@@ -2452,7 +2486,7 @@ Jacques
 \end_inset
 
 [莫诺，雅克]， Chance and Necessity《机遇和必然性》，纽约：Random House, Vintage Books， 1971年版，平装本
-。一个极为富于想象力的心智用一种独特的方式讨论引入入胜的问题，诸如生命是如何从无生命中构造出来的、似乎违反了热力学第二定律的进化是如何在事实上依赖于它的。这本书
+。一个极为富于想象力的心智用一种独特的方式讨论引人入胜的问题，诸如生命是如何从无生命中构造出来的、似乎违反了热力学第二定律的进化是如何在事实上依赖于它的。这本书
 深深地打动了我。
 \end_layout
 
@@ -2780,7 +2814,7 @@ status open
 
 \end_inset
 
-症和患者中古怪的“一致性”。讲了精神病院中三个人之间的冲突，很吸引入。他们全都想象自己是上帝。书中讲了他们是如何面对面地相处了好几个月的。
+症和患者中古怪的“一致性”。讲了精神病院中三个人之间的冲突，很吸引人。他们全都想象自己是上帝。书中讲了他们是如何面对面地相处了好几个月的。
 \end_layout
 
 \begin_layout Labeling
@@ -2917,7 +2951,7 @@ Crosson
 \end_inset
 
 [萨耶尔，肯尼斯；弗里德里克·克罗松]， The Modeling of Mind: Computers and Intelligence《塑造心智：计算机与智
-能》，纽约：Simon and Schuster, Clarion Books， 1963年版。 辑集了各类不同学术背录的人们对人工智能思想的哲学评论。这些人包
+能》，纽约：Simon and Schuster, Clarion Books， 1963年版。 辑集了各类不同学术背景的人们对人工智能思想的哲学评论。这些人包
 括Anatol Rapoport [阿纳托尔·拉波珀特]、Ludwig Wittgenstein[路德维希·维特
 \begin_inset Note Comment
 status open
@@ -3272,7 +3306,7 @@ Alfred
 \begin_inset space \space{}
 \end_inset
 
-塔斯基，阿尔弗雷德]， Logic, Semantics, Metamatbematics, Papers from 1923 to 1938《逻辑学、语义学、
+塔斯基，阿尔弗雷德]， Logic, Semantics, Metamathematics, Papers from 1923 to 1938《逻辑学、语义学、
 数学：从1923年到1938年的论文》，J.
  H.
  Woodger[伍哲]英译， 纽约：Oxford University Press，1956年版。 包含了塔斯基关于真理以及语言和它所表现的世界之间的关系的思
@@ -3541,7 +3575,7 @@ O.
 \end_inset
 
 [威尔逊，爱德华]， The Insect Societies 《昆虫社会》，马萨诸塞，Cambridge: Harvard University
- Press, Belknap Press， 1971年版，平装本。论昆虫的集体行为的一本权威著作。虽然很详尽，却依然有可读性，讨论了许多引入入胜的思想。配有出
+ Press, Belknap Press， 1971年版，平装本。论昆虫的集体行为的一本权威著作。虽然很详尽，却依然有可读性，讨论了许多引人入胜的思想。配有出
 色的插图和一份庞大的（遗憾的是未加注释的）文献目录。
 \end_layout
 
