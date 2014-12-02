@@ -10,7 +10,7 @@ enumitem
 \end_modules
 \maintain_unincluded_children false
 \language chinese-simplified
-\language_package babel
+\language_package default
 \inputencoding utf8-plain
 \fontencoding global
 \font_roman 方正新书宋_GB18030

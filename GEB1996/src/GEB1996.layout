@@ -199,7 +199,7 @@ Preamble
     \newcommand{\zhgouniao}{\hbox{\scalebox{0.4}[1]{勾}\kern-.1em\scalebox{0.7}[1]{鸟}}}
 
     % 中文文档习惯
-    \addto\captionsenglish{
+  %  \addto\captionsenglish{
 	    \renewcommand{\contentsname}{目录}
 	    \renewcommand{\listfigurename}{插图目录}
 	    \renewcommand{\listtablename}{表格目录}
@@ -208,7 +208,7 @@ Preamble
 	    \renewcommand{\indexname}{索引}
 	    \renewcommand{\tablename}{表}
 	    \renewcommand{\figurename}{图}
-         }
+    %     }
 EndPreamble
 
 # 参考 logicalmkup.module
