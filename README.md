@@ -78,7 +78,7 @@ Mathematics as an Educational Task
 
 如果你喜欢或受益于这个项目的话， 可以通过捐款的方式， 支持作者继续更新或者做出其他更多好玩方便的应用。
 
-捐款地址： https://me.alipay.com/ccpaging
+支付宝捐款帐号： ecc.hy@139.com
 
 Help 帮助该项目
 ----
