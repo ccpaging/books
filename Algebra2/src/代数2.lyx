@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass 数理化自学丛书－代数
@@ -13,13 +13,13 @@
 \font_roman 微软雅黑
 \font_sans 微软雅黑
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts true
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format pdf4
 \output_sync 0
@@ -41,15 +41,24 @@
 \pdf_quoted_options "colorlinks=true,linkcolor=blue"
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 1
-\use_mhchem 1
-\use_mathdots 1
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 1
 \index Index
 \shortcut idx
@@ -125,70 +134,70 @@ mainmatter
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "01-一元一次方程.lyx"
+filename "ch01.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "02-一元一次不等式.lyx"
+filename "ch02.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "03-一次方程组.lyx"
+filename "ch03.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "04-数的开方和实数.lyx"
+filename "ch04.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "05-根式.lyx"
+filename "ch05.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "06-有理数指数幂.lyx"
+filename "ch06.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "07-一元二次方程.lyx"
+filename "ch07.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "08-二元二次方程组.lyx"
+filename "ch08.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "09-总复习.lyx"
+filename "ch09.lyx"
 
 \end_inset
 
 
 \begin_inset CommandInset include
 LatexCommand include
-filename "10-习题答案.lyx"
+filename "ch10.lyx"
 
 \end_inset
 
