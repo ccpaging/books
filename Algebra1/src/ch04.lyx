@@ -14712,33 +14712,7 @@ egroup
 \begin_inset Formula $x^{2}-y^{2}$
 \end_inset
 
-能
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang english
-被
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang chinese-simplified
-
+能被
 \begin_inset Formula $x-y$
 \end_inset
 

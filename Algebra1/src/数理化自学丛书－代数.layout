@@ -19,11 +19,25 @@ Preamble
     \RequirePackage{xkeyval}
     
     % 设置字体
-    \RequirePackage{xltxtra,fontspec,xunicode}
+    \RequirePackage{xltxtra,fontspec,xunicode,zhnumber} % 支持\zhnumber{\thechapter}
     \newfontfamily\uipa{Lucida Sans Unicode} % 在正文中用{\uipa ...}来显示音标
 
-    \RequirePackage[boldfont,slantfont,CJKnumber,CJKchecksingle,fallback]{xeCJK} % 允许粗体,斜体,支持\CJKnumber{\thechapter}
-    \setmainfont[Mapping=tex-text,Ligatures=TeX]{Microsoft YaHei} 
+    \RequirePackage[boldfont,slantfont,CJKchecksingle,fallback]{xeCJK} % 允许粗体,斜体,
+
+    % 设置字体
+    % \setmainfont[Mapping=tex-text,Ligatures=TeX]{Microsoft YaHei} 
+
+    \setmainfont{Microsoft YaHei}
+
+    \RequirePackage{xltxtra,fontspec,xunicode,zhnumber} % 支持\zhnumber{\thechapter}
+    \RequirePackage[boldfont,slantfont,CJKchecksingle,fallback]{xeCJK} % 允许粗体,斜体,
+    
+    % CJK 全局选项
+    \defaultCJKfontfeatures{AutoFakeBold=2,AutoFakeSlant=.4}
+    % AutoFakeBold   设定粗体字要多粗
+    % AutoFakeSlant  设定斜体字要多斜，范围-0.999到0.999，负值往左斜
+
+    \setCJKmainfont{Microsoft YaHei}  % 设置正文罗马族的 CJK 字体，影响 \rmfamily 和 \textrm 的字体
      
     \punctstyle{kaiming} % 标点处理，开明式
 
@@ -56,8 +70,8 @@ Preamble
     \titlecontents{section}
         [0pt]   % left
         {\addvspace{2pt}\filright}  % above-code
-        {\contentspush{\thecontentslabel\ }}    % numbered-entry-format
-        {\contentspush{\thecontentslabel\ }}    % numberless-entry-format
+        {\contentspush{\hspace{1em} \thecontentslabel\ }}    % numbered-entry-format
+        {\contentspush{\hspace{1em} \thecontentslabel\ }}    % numberless-entry-format
         {\titlerule*[8pt]{.}\contentspage}  % filler-page-format
         []  % below code
               
@@ -78,14 +92,14 @@ Preamble
 
     \newcommand{\starmark}{}
     \newenvironment{addstarbefore}
-        {\renewcommand{\starmark}{*}}
+        {\renewcommand{\starmark}{\hspace{-0.5em}*}}
         {}
 
     % 章节标题改成"1"，居中
     \renewcommand{\chaptername}{}
     \renewcommand\thechapter{\arabic{chapter}}
     \titleformat{\chapter}[display] % display 序号和标题分别占用两行
-        {\centering\Huge\bfseries}  % format 标题格式
+        {\centering \Huge \bfseries}  % format 标题格式
         {\starmark \thechapter}               % label 用于定义定义标题的标签,就是标题内容前面的标号
         {1em}                       % sep 定义标题的标签与标题内容之间的间隔距离
         {}                          % before 用于在标题内容前再加些内容
@@ -97,16 +111,17 @@ Preamble
 
     % 节标题
     %\titleformat*{\section}{\centering}
-    %\renewcommand\thesection{§ \arabic{chapter}.\arabic{section}}
-    \titleformat{\section}
-        {\centering\Large\bfseries}
-        {\starmark \arabic{chapter}.\arabic{section}}
-        {1em}
-        {}
+    \renewcommand\thesection{\starmark § \arabic{chapter}･\arabic{section}}
+    \titleformat{\section}			% command
+        {\centering \Large}	% format
+        {\thesection}	% label
+        {1em}						% sep
+        {}							% before
+		[]							% after
 
     % 子小节编号从 1.1.1 改成 1.
     \titleformat{\subsection}
-        {\flushleft\large\bfseries}       % format
+        {\flushleft \large \bfseries}       % format
         {\starmark \arabic{subsection}.}  % label
         {1em}  % sep
         {}     % beforecode
@@ -115,7 +130,6 @@ Preamble
     \RequirePackage{color}  % 需要顏色放前面, 不需要顏色放後面
     \RequirePackage{CJKfntef}
     % \CJKunderdot{中文}
-
 
     % 中文文档习惯
     \renewcommand{\contentsname}{目录}
@@ -127,9 +141,10 @@ Preamble
     \renewcommand{\tablename}{表}
     \renewcommand{\figurename}{图}
 
-    \RequirePackage[font=small,labelsep=quad]{caption}
     % 图的编号改成 1.1 的方式，清零用“\setcounter{figure}{0}”
     \renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
+    \RequirePackage[font=small,labelsep=quad]{caption}
+
     \setlength{\abovecaptionskip}{0ex} %caption和图像之间的距离
     \setlength{\belowcaptionskip}{-3ex} %caption和下方文字的距离
 

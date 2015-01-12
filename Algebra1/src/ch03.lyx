@@ -10160,7 +10160,7 @@ hsize}{}
 \begin_inset Newline newline
 \end_inset
 
-这个做法在添括号时注意了变换性质符号,但这祥括法并没有作用,因为两个因式中后面的一项不相同,一个是
+这个做法在添括号时注意了变换性质符号,但这样括法并没有作用,因为两个因式中后面的一项不相同,一个是
 \begin_inset Formula $4b-5c$
 \end_inset
 

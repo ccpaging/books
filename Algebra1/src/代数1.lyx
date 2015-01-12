@@ -10,9 +10,9 @@
 \language_package default
 \inputencoding utf8-plain
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
+\font_roman 微软雅黑
+\font_sans 微软雅黑
+\font_typewriter 微软雅黑
 \font_math auto
 \font_default_family default
 \use_non_tex_fonts true
@@ -105,46 +105,6 @@ frontmatter
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-contentsname}{目录}    
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-tablename}{表} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-figurename}{图} 
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
@@ -172,7 +132,7 @@ mainmatter
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "代数1.1有理数.lyx"
+filename "ch01.lyx"
 
 \end_inset
 
@@ -182,7 +142,7 @@ filename "代数1.1有理数.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "代数1.2代数式.lyx"
+filename "ch02.lyx"
 
 \end_inset
 
@@ -192,7 +152,7 @@ filename "代数1.2代数式.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "代数1.3整式的运算.lyx"
+filename "ch03.lyx"
 
 \end_inset
 
@@ -202,7 +162,7 @@ filename "代数1.3整式的运算.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "代数1.4因式分解.lyx"
+filename "ch04.lyx"
 
 \end_inset
 
@@ -212,7 +172,7 @@ filename "代数1.4因式分解.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "代数1.5分式的变形和运算.lyx"
+filename "ch05.lyx"
 
 \end_inset
 
@@ -222,7 +182,7 @@ filename "代数1.5分式的变形和运算.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "代数1.6数的进位制.lyx"
+filename "ch06.lyx"
 
 \end_inset
 
@@ -232,7 +192,7 @@ filename "代数1.6数的进位制.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "代数1.7总复习.lyx"
+filename "ch07.lyx"
 
 \end_inset
 
@@ -242,7 +202,7 @@ filename "代数1.7总复习.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "代数1.8习题答案.lyx"
+filename "ch08.lyx"
 
 \end_inset
 
