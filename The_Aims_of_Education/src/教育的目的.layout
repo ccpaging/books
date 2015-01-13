@@ -90,7 +90,7 @@ Preamble
         {\starmark \zhnumber{\thechapter}}     % label 用于定义定义标题的标签,就是标题内容前面的标号
         {1em}                       % sep 定义标题的标签与标题内容之间的间隔距离
         {}                          % before 用于在标题内容前再加些内容
-        [\bigskip{}]                          % after 用于在标题内容后再加些内容
+        []                          % after 用于在标题内容后再加些内容
 
     % 节标题
     %\renewcommand{\sectionname}{}
