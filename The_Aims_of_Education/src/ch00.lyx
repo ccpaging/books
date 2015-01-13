@@ -1,0 +1,206 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass 教育的目的
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter*
+序言
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{序言}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{footnote}{0}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+本序言是林塞为伦敦恩斯持本有限公司(Erncst
+\begin_inset space \space{}
+\end_inset
+
+Benn
+\begin_inset space \space{}
+\end_inset
+
+Limited)1950年出版的《教育的目的及其他论文》一书而写。林塞，（Alexander
+\begin_inset space \space{}
+\end_inset
+
+Dunlop
+\begin_inset space \space{}
+\end_inset
+
+Lindsay，1879—1952），英国著名的教育家，曾任格拉斯可大学教授、英国工党的教育政策顾问和牛津大学副校长。著有《民主的本质》（1929）、《现代世界
+中的宗教、科学与社会》 （1943）等。
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+出版社再版怀特海教授的论文集《教育的目的技其他论文》，要我写一篇序言。我想，最好的序言也许莫过于那句话：“酒好客自来”。由于某种原因，教育常常是一个枯燥的话题，
+但怀特海教授的论述却使人兴奋不巳。他理应如此，因为他不断追寻的主题就是，教育应该充满生气和活力。“成功的教育所传授的知识必有某种创新……陈旧的知识会像鱼一样腐烂
+。”
+\end_layout
+
+\begin_layout Standard
+本书收集的论文表达了一位伟人的观点。他那广博的知识涉及人类探索各个领域所取得的成就，加上他天赋特有的洞察力，使他的观点具有不同寻常的新意。看看迄今人们就大学的作
+用是教育还是繁荣学术所发表的种种论述，与这些论述相比，怀特海的评论完全出人意料：“大学存在的理由是，它使青年和老年人融为一体，对学术进行充满想像力的探索，从而在
+知识和追求生命的热情之间架起桥梁。”
+\end_layout
+
+\begin_layout Standard
+凡是阅读这些论文的人必然会问：我们能否做些什么使这些显然正确的原理付诸实践。这些论文对通行刻板的考试制度持否定态度。怀特海是一位教育公理主义者。他主张学校对考试
+拥有自主权。“每一所学校应根据本校的课程授予自己的毕业证书。对这些学校的标准应该进行抽样评估和修正。但教育改革的首要条件是，学校作为一个独立的单位，应有经过批准
+的课程，而这些课程是由本校教师根据学校自身的需要而设计制定的。”
+\end_layout
+
+\begin_layout Standard
+上述建议见于他的《思想的组织》第一章，该文发表于1917年。我从未听到人们把这个建议作为教育管理中一项切实可行的改革措施而加以认真的讨论。我想，现在是我们对怀特
+海教授的这个观点和其他种种建议进行认真讨论的时候了。
+\end_layout
+
+\begin_layout Standard
+教育和教育管理中自有一种节奏。英国的教育体制过去如此缺乏条理，有如此多的缺漏和失败，尤其是发展得如此不平衡，以至于多年来，改革家们始终在进行着艰苦的努力，并取得
+可观的成绩。既然我们已经建立起某种制度，我们就应该大力提倡试验和灵活性。教育属于一种精神范畴的事物，但我们在教育自己的子女时，必须使精神附着于躯体，还要给躯体一
+副骨架。我们面临的最艰难而又最重要的任务，是为精神、探索性试验以及生活提供自由的空间。我们应该这样做，而当我们这样做时会发现，怀特海教授的这些论文充满了真正的智
+慧。
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+林 塞
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout RightLine
+1949年9月
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

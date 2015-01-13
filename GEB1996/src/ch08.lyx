@@ -6727,6 +6727,19 @@ protect
 \end_inset
 
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{footnote}{0}
+\end_layout
+
+\end_inset
+
+
 \begin_inset Foot
 status open
 
