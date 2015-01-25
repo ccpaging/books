@@ -69,48 +69,31 @@ Preamble
         {\renewcommand{\starmark}{*}}
         {}
 
-    \titleclass{\part}{top} % make part like a chapter
-    \titleformat{\part}[display]
-    {\CJKFontHei \Large \centering}
-    {\starmark \thepart}
-    {1em}
-    {}
-    []
-    
-    \titlespacing*{\part}
-    {0pt}
-    {0pt}
-    {20pt}
-
     % 章标题
     %\renewcommand\thechapter{\arabic{chapter}}
-    %\renewcommand\thechapter{第\zhnumber{\arabic{chapter}}章}
-    \titleformat{\chapter}          % display 序号和标题分别占用两行
-        {\Large \centering}          % format 标题格式
-        {\starmark 第\zhnumber{\thechapter}章}     % label 用于定义定义标题的标签,就是标题内容前面的标号
-        {1em}                       % sep 定义标题的标签与标题内容之间的间隔距离
-        {}                          % before 用于在标题内容前再加些内容
-        []                          % after 用于在标题内容后再加些内容
+    %\renewcommand\thechapter{\zhnumber{\arabic{chapter}}}
+    \titleformat{\chapter} 	% display 序号和标题分别占用两行
+        {\Large \centering}		% format 标题格式
+        {\starmark 第\zhnumber{\thechapter}章} 	% label 用于定义定义标题的标签,就是标题内容前面的标号
+        {1em}           % sep 定义标题的标签与标题内容之间的间隔距离
+        {}              % before 用于在标题内容前再加些内容
+        []              % after 用于在标题内容后再加些内容
 
-    \titlespacing*{\chapter}
-       {0pt}% left
-       {1cm}% before
-       {1.2em}% after
-    
     % 节标题
     %\renewcommand{\sectionname}{}
     %\renewcommand\thesection{\arabic{chapter}.\arabic{section}}
     \titleformat{\section}
-        {\CJKFontFang \large \centering}
+        {\CJKFontHei \large \centering}
         {\starmark \arabic{chapter}.\arabic{section}}
         {1em}
         {}
+        []
         
-    \titleformat{\subsection}
-        {\CJKFontHei \centering}
-        {\starmark \arabic{subsection}}
-        {1em}
-        {}
+    \titlespacing*{\section}
+		{0pt}	% left
+		{1ex}	% before-sep
+		{1ex}	% after-sep
+		[0pt]	% right-sep
 
     % 定制目录格式
     \RequirePackage{titletoc}
@@ -126,11 +109,11 @@ Preamble
     \titlecontents{chapter}[0pt]   % left
         {\addvspace{2pt}\filright}  % above-code
         {\contentspush{第\zhnumber{\thecontentslabel}章\quad}}    % numbered-entry-format
-        {}    % numberless-entry-format
+        {\qquad\qquad}    % numberless-entry-format
         {\titlerule*[8pt]{.}\contentspage}  % filler-page-format
         []  % below code
         
-    \titlecontents{section}[1em]   % left
+    \titlecontents{section}[3em]   % left
         {\addvspace{2pt}\filright}  % above-code
         {\contentspush{\thecontentslabel\quad}}    % numbered-entry-format
         {}    % numberless-entry-format
@@ -321,6 +304,7 @@ Style Section
 	NextNoIndent    0
     Align           Center
     Font
+      Family        Typewriter
       Series        Default
       Size          Larger
     EndFont

@@ -1,0 +1,237 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass wdj
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter-toc*
+小序
+\end_layout
+
+\begin_layout Standard
+我听说作家的第一本书是写他自己，最后一本书也是写他自己。“第一本书”指自传式的小说，“最后一本书”指作家的回忆录。
+\end_layout
+
+\begin_layout Standard
+我曾经想写“第一本书”，始终没写出来。现在，我想写“最后一本书”了。
+\end_layout
+
+\begin_layout Standard
+从前乾隆皇帝站在黄鹤楼上，望江心帆船往来，问左右“船上装的是什么东西”，一臣子回奏：“只有两样东西，一样是名，一样是利。”这个有名的答案并不周全，船上载运的东西
+乃是四种，除了名利以外，还有一样是情、一样是义。
+\end_layout
+
+\begin_layout Standard
+乾隆皇帝雄才大略，希望天下英雄入我彀中而以名利为饵，对世人之争名夺利当然乐见乐闻，所以那个臣子的答案是做官的标准答案，不是做人的标准答案。
+\end_layout
+
+\begin_layout Standard
+倘若只有名利，这“最后一本书”就不必写了，至少我不必写。
+\end_layout
+
+\begin_layout Standard
+我向不热中歌颂名利，虽然在我举目所及之处也曾出现雍正乾隆。
+\end_layout
+
+\begin_layout Standard
+竞逐名利是向前看，恋念情义是向后看。人，从情义中过来，向名利中走去。
+\end_layout
+
+\begin_layout Standard
+有些人再回情义，有些人掉头不顾。
+\end_layout
+
+\begin_layout Standard
+这是一本向后看的书。所谓情义，内容广泛，支持帮助是情义，安慰勉励也是情义。潜移默化是情义，棒喝吿诫也是情义。嘉言懿行是情义，趣事轶话也是情义。
+\end_layout
+
+\begin_layout Standard
+这“最后一本书”为生平所见的情义立传，是对情义的回报。无情义处也涂抹几笔，烘云托月。
+\end_layout
+
+\begin_layout Standard
+我并不是写历史。历史如江河，我的书只是江河外侧的池泊。
+\end_layout
+
+\begin_layout Standard
+不错，池泊和江河之间有支流相通，水量互相调节。
+\end_layout
+
+\begin_layout Standard
+一位历史学者说，“历史是个小姑娘，任人打扮。”这也没什么，小姑娘尽管穿衣戴帽，而出水当风，体态宛然。
+\end_layout
+
+\begin_layout Standard
+也许，历史是一架钢琴，任人弹奏乐曲。因此才有书，才有第一本书和最后一本书。
+\end_layout
+
+\begin_layout Standard
+我不是在写历史，历史如云，我只是抬头看过；历史如雷，我只是掩耳听过；历史如霞，我一直思量“落霞孤鹜齐飞”何以成为千古名句。
+\end_layout
+
+\begin_layout Standard
+或以为大人物才写回忆录。但人物如果太“大”，反而没法留下许多自述，中国现代史上两位最大的人物连个遗嘱也没有准备妥当。
+\end_layout
+
+\begin_layout Standard
+或以为只有小人物才可以从心所欲写回忆录，其实真正的“小”人物没有声音，苍生默默，余欲无言。
+\end_layout
+
+\begin_layout Standard
+所谓大人物，小人物，是两个不同的角度，左手做的、右手不知道，台下看见的台上看不见，两者需要互补。大人物的传记是给小人物看的，小人物的传记是给大人物看的。这世界的
+缺憾之一是，小人物不写回忆录，即使写了，大人物也不看。
+\end_layout
+
+\begin_layout Standard
+有人说，他的一生是一部史诗。
+\end_layout
+
+\begin_layout Standard
+有人说，他的一生是一部长篇小说。
+\end_layout
+
+\begin_layout Standard
+有人说，他的一生是一部连续剧。
+\end_layout
+
+\begin_layout Standard
+我以为都不是。人的一生只能是一部回忆录，是长长的散文。
+\end_layout
+
+\begin_layout Standard
+诗，剧，小说，都有形式问题，都要求你把人生照着它们的样子削足适履。
+\end_layout
+
+\begin_layout Standard
+而回忆录不预设规格，不预谋效果。
+\end_layout
+
+\begin_layout Standard
+回忆录是一种平淡的文章，“由绚烂归于平淡”。诗，剧，小说，都岂容你平淡？
+\end_layout
+
+\begin_layout Standard
+西谚有云：“退休的人说实话”。
+\end_layout
+
+\begin_layout Standard
+退休的人退出名利的竞技场，退出是非漩涡，他说话不必再存心和人家交换什么或是间接为自己争取什么。有些机构为退休的人安排一场退休演讲，可以听到许多真心话。
+\end_layout
+
+\begin_layout Standard
+古代的帝王“询于刍荛”，向打柴割草的人问长问短，正因为这些人没有政治目的，肯说实话。
+\end_layout
+
+\begin_layout Standard
+所以回忆录要退休以后过若干年抄写，这时他已没资格参加说谎俱乐部。
+\end_layout
+
+\begin_layout Standard
+回忆录的无上要件是真实，个人主观上的真实。这是一所独家博物馆，有些东西与人“不得不同，不敢苟同”，或是与人“不得不异，不敢立异”。孔子曰：“举尔所知。尔所不知，
+人岂舍诸。”“今天的云抄袭昨天的云”，诗人痖弦的名句。白云苍狗，变幻无常而有常，否则如何能下“苍狗”二字？
+\end_layout
+
+\begin_layout Standard
+人间事千变万幻，今非昔比，仔细观察体会，所变者大抵是服装道具布景，例如元宝改支票、刀剑换枪弹而已，用抵抗刀剑的办法抵抗子弹当然不行，但是，何等人为何等事在何等情
+况下流血拚命，却是古今如一。
+\end_layout
+
+\begin_layout Standard
+人到了写回忆录的时候，大致掌握了人类行为的规律，人生中已没有秘密也没有奇迹，幻想退位，激动消失，看云仍然是云，“今天的云抄袭昨天的云。”一本回忆录是一片昨天的云
+，使片云再现，就是这本书的情义所在。
+\end_layout
+
+\begin_layout Standard
+这“最后一本书”不是两三百页能够写完的，它将若断若续，飘去飘来。
+\end_layout
+
+\end_body
+\end_document
