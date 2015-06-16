@@ -1,0 +1,151 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass HWT
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter*
+杜威小传
+\end_layout
+
+\begin_layout Standard
+约翰·杜威于1859年10月20日出生于佛蒙特州伯灵顿城一个杂货店商人家庭。1875年进佛蒙特大学，1879年毕业后先后在一所中学和一所乡村学校教书。这期间他阅
+读了大量的哲学著作，深受当时美国圣路易学派的刊物《思辨哲学杂志》的影响，在该刊物发表了《唯物主义的形而上学假定》等三篇哲学论文，深受鼓舞，从此决定以哲学为业。1
+882年杜威成了约翰·霍普金斯大学的研究生，在此他听了皮尔士的逻辑讲座，深受影响。两年后他以《康德的心理学》论文获得哲学博士学位。
+\end_layout
+
+\begin_layout Standard
+1884年杜威到密执安大学教授哲学，1888年任明尼苏达大学哲学教授，一学年后仍回密执安大学任教，直至1894年。在此期间出版了他的头两部著作《心理学》（Psy
+chology）（1887）和《人类悟性论》（Leibniz's New Essays Concerning the Human Understanding）（
+1888），这时他的哲学观点大休上接近新黑格尔主义。他对心理学研究很感兴趣，并将其融合进哲学研究中。正是这种研究使他走上实用主义道路。在这方面，当时已出版并享有
+盛誉的威廉·詹姆斯的《心理学原理》对他产生了强烈影响。杜威对心理学的研究又促使他进一步去研究教育学。他主张用心理学观点去进行教学，并认为应当把教育实脸当作哲学在
+实际生活中的运用的重要内容。1894年他应聘去了刚建立不久的芝加哥大学，并长期任哲学系主任。他在芝加哥大学任教10年，正是在此期间，杜威的思想从早期的新黑格尔主
+义转向实用主义。他团结了一批志同道合者，形成了美国实用主义运动中一个最重要的派别—芝加哥学派。这种思想的转变集中体现在他们共同创作的《逻辑理论研究》（Studi
+es in Logical Theory）（1903）论文集中，杜威称这本书是工具主义学派的“第一个宣言”。他还在芝加哥大学创办了有名的实验学校，把他尚不成熟的
+想法直接运用于教育实践。这个学校抛弃传统的教学法，不注重书本而注重接触实际生活。不注重理论知识的传授而注重实际技能的训练。他后来一直倡导的“教育即生活”“从做中
+学”等口号就是对这种教学法的概括。
+\end_layout
+
+\begin_layout Standard
+1904年，由于与芝加哥大学管理者在实验学校上产生分歧，杜威辞去芝加哥大学的教职。这时他的哲学地位已经得到巩固，因此很快就受邀于哥伦比亚大学哲学系。杜威后来的哲
+学生涯都在哥伦比亚大学度过。
+\end_layout
+
+\begin_layout Standard
+在哥伦比亚大学的前十年，杜威撰写了大量关于知识理论和形而上学的文章，并结集出版在两部著作中:《达尔文对哲学的影响及其他当代思想论文》（The Influence
+ of Darwin on Philosophy and Other Essays in Contemporary Thought）（1910）与《实验逻辑文集
+》（Essays in Experimental Logic）（1916）。同时，他对教育理论的兴趣更为浓厚，并创作出版了两部重要著作，一部是《我们如何思维》（
+How We Think）（1910）。这是其知识理论在教育方面的运用，另外一部是《民主与教育》（Democracy and Education）（1916），
+本书也许是他在这一领域最重要的著作。
+\end_layout
+
+\begin_layout Standard
+杜威作为最重要的哲学家和教育理论家的声誉在哥伦比亚日益显赫，而且在公众心目当中，他还是一位重要的社会问题评论家。他经常为诸如《新共和》《民族》等大众杂志撰稿，并
+不断参与争取妇女选举权和成立教师工会等各种政治活动。这种声名让他不断受邀在学术和大众场合发表演讲。他在该期间最重要的作品都是这些演讲的结果，如《哲学的重建》（R
+econstruction in Philosophy） （1920），《人性与行为》 （Human Nature and Conduct） （1922），《经
+验与自然》（Experience and Nature）（1925），《公众及其问题》（The Public and its Problems）
+ （1927），《确定性的寻求》（The Quest for Certainty） （1929）。
+\end_layout
+
+\begin_layout Standard
+杜威于1930年从教学岗位上退休，但作为公众人物的活动并未减少，在哲学论著方面也笔耕不辍，相继出版了《艺术即经验》（Art as Experience）
+ （1934），《一种共同信仰》（A Common Faith） （1934），《逻辑:探索的理论》（Logic: The Theory of
+ Inquiry） （1938），《自由与文化》（Freedom and Culture） （1939），《价值理论》（Theory of Valuation）
+（1939），《认知与所知》（Knowing and the Known） （194９，与F.
+ Bentley合著）。
+\end_layout
+
+\begin_layout Standard
+杜威于1952年6月2日去世，享车92岁。
+\end_layout
+
+\end_body
+\end_document
