@@ -24,7 +24,7 @@ enumitem
 \font_sf_scale 100
 \font_tt_scale 100
 \graphics default
-\default_output_format pdf4
+\default_output_format default
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
@@ -76,7 +76,7 @@ enumitem
 \headsep 20mm
 \footskip 0mm
 \secnumdepth 1
-\tocdepth 1
+\tocdepth 0
 \paragraph_separation indent
 \paragraph_indentation 2em
 \quotes_language english

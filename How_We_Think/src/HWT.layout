@@ -9,7 +9,7 @@ PageStyle               Headers
 Input stdclass.inc
 Preamble
     % 自定义页边距
-    \RequirePackage[paperwidth=9cm,paperheight=12cm,top=0.5cm,bottom=0.5cm,left=0.5cm,right=0.5cm]{geometry}
+    \RequirePackage[paperwidth=9cm,paperheight=12cm,top=0.5cm,bottom=0.5cm,left=2em,right=4em,marginparwidth={2.1em},marginparsep={0.2cm}]{geometry}
     \special{papersize=9cm,12cm}
     \RequirePackage{xkeyval}
     
@@ -69,40 +69,40 @@ Preamble
         {\renewcommand{\starmark}{*}}
         {}
 
-    \titleclass{\part}{top} % make part like a chapter
+    %\titleclass{\part}{top} % make part like a chapter
     \titleformat{\part}[display]
-    {\CJKFontHei \Large \centering}
-    {\starmark \thepart}
-    {1em}
-    {}
-    []
+		{\CJKFontHei \Large \centering}
+		{\starmark 第\zhnumber{\arabic{part}}部分}
+		{0.5ex}
+		{\rule{12em}{0.5pt}\newline}
+		[]
     
     \titlespacing*{\part}
-    {0pt}
-    {0pt}
-    {20pt}
+		{0pt}
+		{0pt}
+		{0pt}
 
     % 章标题
     %\renewcommand\thechapter{\arabic{chapter}}
     %\renewcommand\thechapter{第\zhnumber{\arabic{chapter}}章}
-    \titleformat{\chapter}          % display 序号和标题分别占用两行
-        {\Large \centering}          % format 标题格式
-        {\starmark 第\zhnumber{\thechapter}章}     % label 用于定义定义标题的标签,就是标题内容前面的标号
-        {1em}                       % sep 定义标题的标签与标题内容之间的间隔距离
+    \titleformat{\chapter}[display]  % display 序号和标题分别占用两行
+        {\CJKFontHei \Large}          % format 标题格式
+        {\starmark 第\zhnumber{\arabic{chapter}}章}     % label 用于定义定义标题的标签,就是标题内容前面的标号
+        {0.5ex}                       % sep 定义标题的标签与标题内容之间的间隔距离
         {}                          % before 用于在标题内容前再加些内容
         []                          % after 用于在标题内容后再加些内容
 
     \titlespacing*{\chapter}
        {0pt}% left
        {1cm}% before
-       {1.2em}% after
+       {2ex}% after
     
     % 节标题
     %\renewcommand{\sectionname}{}
     %\renewcommand\thesection{\arabic{chapter}.\arabic{section}}
     \titleformat{\section}
-        {\CJKFontHei \large \centering}
-        {\starmark \arabic{chapter}.\arabic{section}}
+        {\CJKFontHei \large}
+        {\starmark \zhnumber{\arabic{section}}、}
         {1em}
         {}
         
@@ -115,15 +115,15 @@ Preamble
     % 定制目录格式
     \RequirePackage{titletoc}
 
+    \renewcommand\thepart{第\zhnumber{\arabic{part}}部分}
     \titlecontents{part}[0pt]
-        {\addvspace{0.5pc}%
-        \filcenter}
-        {\CJKFontHei\thecontentslabel\\*[.2pc]}
+        {\addvspace{2pt}\filright}
+        {\CJKFontHei \contentspush{第\zhnumber{\thecontentslabel}部分\quad}}
         {\CJKFontHei}
         {} % That is, without page number
         [\addvspace{.5pc}]
 
-    \titlecontents{chapter}[0pt]   % left
+    \titlecontents{chapter}[1em]   % left
         {\addvspace{2pt}\filright}  % above-code
         {\contentspush{第\zhnumber{\thecontentslabel}章\quad}}    % numbered-entry-format
         {}    % numberless-entry-format
@@ -171,7 +171,7 @@ Preamble
     
     % 设置边码格式
     \let\OriginalMarginpar\marginpar
-    \def\marginpar#1{\OriginalMarginpar{\footnotesize #1}}
+    \def\marginpar#1{\OriginalMarginpar{\scriptsize\CJKFontKai #1}}
     
     % 设置编号列表
     \RequirePackage[inline]{enumitem}  % inline 支持inlist
@@ -294,7 +294,7 @@ Style Chapter
     LabelType       Static        # Above
 	NextNoIndent    0
     LabelSep        xx
-    Align           Center
+    Align           Left
     Font
         Series      Default
         Size        Largest
@@ -319,7 +319,7 @@ End
 Style Section
     CopyStyle       Section
 	NextNoIndent    0
-    Align           Center
+    Align           Left
     Font
       Series        Default
       Size          Larger
