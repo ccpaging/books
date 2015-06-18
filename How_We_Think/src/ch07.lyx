@@ -1,0 +1,681 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass HWT
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+系统推理：归纳和演绎
+\end_layout
+
+\begin_layout Section
+思维的双向运动
+\end_layout
+
+\begin_layout Standard
+我们已看到思维的具有特性的结果，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+在事实和意义之间来回思索
+\end_layout
+
+\end_inset
+
+就是将一些本来孤立的、零碎的、不一致的事实和情况组织起来，实现这一组织的办法就是引入一些连接环节，即逻辑学中所说的中项。那些事实构成资讯，供思索的原材料。随后就
+联想某种内涵、外延的意义，若能得到证实，就会让那些零碎的、似乎不相容的资讯各就各位，构成一个整体。联想到的内涵外延会提供一个思维平台、智力和观察角度，供进一步细
+心注意和界定那些资讯，寻求更多的观察，通过实验，来建立改变了的情况。
+\end_layout
+
+\begin_layout Standard
+因此，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+归纳和演绎
+\end_layout
+
+\end_inset
+
+思维表现为双向运动：从一些既定的局部性和凌乱的资讯，联想到综合的（或包含的）整体情况；再从这一整体（一定的内涵、外延的意义，一种看法）回过来思索那些具体的事实，
+使它们互相连接，而且与留心联想到的事实相连接。粗略地说，前一思维运动是归纳，后一思维运动是演绎。一次完整的思维包含着这两种运动，即包含着观察到的（或回想到的）一
+些特定的思虑与综合、深远的总体思虑之间的有成果的互动。
+\end_layout
+
+\begin_layout Standard
+然而
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+匆忙与审慎
+\end_layout
+
+\end_inset
+
+思维的这种来回的运动既可能是随意的和未加严密思索的，也可能是严谨和精心安顿的。无论如何，思维意味着弥合经验中的差距，将本来互相隔开的事实或情况连接到一起。但我们
+可能只是匆忙从一点考虑跳跃到另一点考虑，免得多伤脑筋；也可能坚持细想走过的路以建立起联系。总之，我们可能愿意接受任何一个似乎有道理的联；也可能要仔细搜寻出进一步
+的因素，找出新的困难，琢磨已推测到的结论是否真能解决问题。后一种做法包括明确形成连接的环节，提出一条信念，用逻辑学术语来说就是使用一个全称命题。这样，如果我们明
+确表述出整个的情况，原先的资讯就变成推理的前提；最后的信念则是逻辑的或者说理性的结论，而不只是一个事实上的结束。
+\end_layout
+
+\begin_layout Standard
+分隔的事物联结成一个整体时，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+前提与结论：关系的连续性
+\end_layout
+
+\end_inset
+
+这种联结的重要性就体现于前提与结论的如下关系：（1）前提被称为结论的根据和基础，结论赖前提支撑而成立。（2）我们可以从前提“下”到结论，也可以从结论“上”到前提
+，恰如江河可从源头“下”到人海口，也可以从人海口“上”至源头。所以结论是出自或者说是流自、引出自前提。（3）结论一词本身就表明它是将前提中列出的各不同因素归结、
+总结、拴结起来。我们说前提“隐含”结论，结论“隐含”前提，这标志着我们的相容、综合的一体感，推理的元素均紧紧结合于其中。总之，系统推理意味着承认原先无组织和无联
+系的一些想法（考虑）之间存在着一定的相互依存关系，而这一承认是来自发现和注入了新的事实和属性。
+\end_layout
+
+\begin_layout Standard
+然而，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+科学的归纳和演绎
+\end_layout
+
+\end_inset
+
+如同思维的较粗略形式的双向运动一样，这种较系统的思维也是包含着走向联想或假说的运动以及回过来走向事实的运动。区别在于这一过程的每一个阶段都完成得更加小心慎重。必
+须在符合一定条件的情况下才可提出和演进联想。不可以匆匆忙忙就接受那种似乎有理、似乎会解决问题的想法；这些想法必须符合一定的条件，而且经得住下一步的探究。这种想法
+只是作为一种“工作假说，用以指引调查和发现新的事实，而不是作为最后的结论。当思维运动的每一步方方面面都仔细用心做到尽可能准确无误时，走向建立观念的运动就称之为归
+纳性发现（简称归纳），而走向展现、应用和检验的运动则称之为演绎性证明（简称演绎）。
+\end_layout
+
+\begin_layout Standard
+归纳
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+特称命题和全称命题
+\end_layout
+
+\end_inset
+
+是从零碎细节（特称命题）走向对情况的联结起来的观点（全称命题）。演绎则是从全称命题走向特称命题，将这些特称命题联结在一起。归纳性运动是要发现能起联结作用的基本信
+念；演绎性运动则是要检验这一基本信念———检验它能不能统一解释各分隔的细节，从而在此基础上将它予以肯定或否定或修正。我们在完成这样每一个思维过程时，都考虑到另一
+思维过程，使之彼此参照，就可以得到实在的发现或者得到核实的重要见解。
+\end_layout
+
+\begin_layout Standard
+现在用
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+一个日常生活中的事例
+\end_layout
+
+\end_inset
+
+一个普通的事例来进一步说明这一道理。一个人出门时，他的房间是整整齐齐的，可是他回来后发现房间里的东西被扔得乱七八糟，撒满了一地。他立刻想到准是进来过小偷了。他不
+曾看见小偷，来过小偷只是他的一个想法。此外，他也想不出小偷是什么人。只是抽象笼统地想到这可能是小偷干的。房间被人弄得乱糟糟的；他联想到小偷，这只是对房间现状的原
+因的一种可能的解释。
+\end_layout
+
+\begin_layout Standard
+到此为止，他只是根据眼前的事实进行推想，是一种归纳性思维。同样的归纳性思维还使他想到这又有可能是他的顽皮的孩子们干的。这是另一种可能的解释，另一个假说，这使得他
+一时还难以下定论，而是需要进行判断。
+\end_layout
+
+\begin_layout Standard
+这时演绎思维运动开始了。在已有联想的基础上，需要作进一步的观察、回忆和推理。他想，如果这真是小偷干的，就应该发生了什么什么事，他的一些值钱的东西就该丢失了。这样
+，他的思维就是从一般转向具体，但不是回到原先的特称命题（那只会是无效的兜圈子），而是转向新的特称命题，即新的细节，这些细节的发现或无发现将是对自己见解的检测。他
+打开了他放有一些值钱东西的箱子，看到有的东西不在了，但有的东西还在。那些不见了的东西是不是他自己移动过了呢?他记不清了。所以这一实验解决不了问题。这时他想到壁柜
+里的一套银餐具——孩子们不会动它们，他自己也不会漫不经心地挪走它们。打开壁柜一看，银餐具没有了。他再看看门和窗，门窗有撬损的痕迹。来过小偷的想法得到证实了。信念
+最终确立，原先那些孤立的事实联结成了完整的图景。最初归纳出的想法被用来进行推理，演绎出进一步的特称命题，若想法正确，那些特称命题就应当是成立的。这时，新的观察行
+动表明那些特称命题存在，这样，想法得到证实。思维是在观察到的事实和推想之间来回运动，直到原先一些不相联结的细节构成了一次完整的体验为止——若不是这样，那就说明整
+个思维过程不成功。
+\end_layout
+
+\begin_layout Standard
+学术界也用事例阐述了类似的态度和行动，只是阐述得更加仔细、精确和透彻。这样下工夫以后，就出现了专业化，将各种不同类型的问题加以明确区分，将各类型问题相关联的材料
+加以分类。本章下文中将谈谈学术界用于内涵外延的发现、展示和检验的一些手法。
+\end_layout
+
+\begin_layout Section
+归纳性思维运动的引导
+\end_layout
+
+\begin_layout Standard
+对于联想的形成
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+引导是间接的
+\end_layout
+
+\end_inset
+
+的引导必然是间接的，而不是直接的；是不完善的，而不是完善的。对于事物的新的思维的发现和领悟都是从已知的、现有的事物走向未知的、不在眼前的事物，因此不可能有什么规
+则能保证推理正确。一个人在一定情况下会有什么样的想法，这取决于他的素质（思考能力，天分），性情，主要兴趣之所在，阅历，原先处过的环境，专业知识，近来他一直操心或
+十分操心的事情，如此等等。在一定程度上，这还取决于当时当地的事态的偶然组合。这些因素只要是存在于过去或是外部，就显然是调控不了的。可能出现一个想法，也可能不出现
+一个想法：冒出的也许是这一个想法，也可能是另一个想法。然而，如果原有的经验和训练已经让人养成了耐心的态度和不轻信的态度，能沉住气而不轻易做出判断，愿意多查询探究
+，那么联想的过程就有可能受到间接的调控。个人对于产生联想的那些事实可以再加审视，重新修正，重加陈述，加以放大和分析。严格说来，归纳方法都应该是对观察、记忆以及对
+他人证词的接受（提供新资讯的行动）这一切所发生之时的条件加以调控。
+\end_layout
+
+\begin_layout Standard
+现在假定一方面是事实A、B、C、D，另一方面是个人的一定习惯，联想是自然而然地产生。但是，如果事实A、B、C、D经过仔细审慎而演变成事实A'、B''、R、S，由
+此产生的联想自然就会与原先不一样。要查清事实，准确地和缜密地看清它们的特性，将那些模糊不清的事实加以放大，将那些炫目耀眼而分散自己注意力的事实加以压缩——正是用
+这样一些办法来修饰那些引出联想力的事实，从而间接地引导联想推理的形成。
+\end_layout
+
+\begin_layout Standard
+试以医生
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+医生诊病一例
+\end_layout
+
+\end_inset
+
+如何进行诊断为例来说明这一归纳过程。有科学头脑的医生不会只看看病人表面症状就匆忙下结论。病人一些症状很像是伤寒，但他会避免下这一结论，甚至避免这方面的强烈联想，
+而是要首先努力从许多方面扩大他掌握的资讯，再用心审视。他不但要问病人感觉如何和发病前的活动情况，而且要亲手触摸（包括使用专门工具），看出病人自己并不完全感受到的
+事实。他要准确了解病人的体温、呼吸和心率，记录其变化。他一定要用种种办法争取更广泛地细致地掌握情况。然后才会加以归纳。
+\end_layout
+
+\begin_layout Standard
+总之，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+科学的归纳
+\end_layout
+
+\end_inset
+
+科学的归纳意味着，观察和积累资讯的所有过程均受到调节，着眼于促进能说明问题的理念和理论的形成。这些手法均应致力于选择那些能为联想或观念的形成提供有分量、有意义依
+据的确凿事实。具体说来，这一选择过程包括：（1）通过分析，排除那些很可能造成误导和不相干的事实；（2）收集情况并加以对照，突出重要的事情；（3）
+ 实验变异，慎重构建资讯。
+\end_layout
+
+\begin_layout Standard
+1.
+\begin_inset space \space{}
+\end_inset
+
+人们常说，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+排除不相干的意义
+\end_layout
+
+\end_inset
+
+要对观察到的事实和根据这事物作出的判断这二者加以区分。有些情况下，这一点是无法做到的。观察到的事物若是本身就具有一定意义，排除这一意义就会变得空洞无物。一个人说
+：“我见到了我的朋友。”这里的“朋友”是由人与人的关系推理而来的理念，并不是能直接观察的。如果他这句话改成“我看见了一个人”，这“一个人”比“朋友”在理念上是要
+简单一些，但仍含有推理成分。这句话若是进一步改为“我看见了有颜色的东西”，这话含有的推理成分更少了，但仍多多少少存在而无法排除。从理论上说，这“有颜色的东西”甚
+至有可能根本不存在，而只是视觉神经的错觉。然而，学会将观察到的事物与推理而来的观念加以区分，仍有重要的实际意义。这就是说，有的推理若是根据经验来看极有犯错误的可
+能，就应予以排除。在通常情况下，一个人说“我看见了我的朋友”是不必加以简化，不必将“我的朋友”简化为“一个人”或其他。然而，一个人说“我看见了有颜色的东西”，就
+成为真正的问题。这“东西”可能存在，也可能不存在，而是视觉神经受刺激而产生的错觉（例如受打击时“两眼直冒金星”）或是血液循环紊乱造成的错觉。有科学思维的人懂得，
+自己有遇事就下判断的习惯，这就有匆忙之间犯错误的可能，因此自己一定要对此保持警惕，防止自己的习惯和先入之见导致错误的结论。
+\end_layout
+
+\begin_layout Standard
+因此，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+下结论的立场
+\end_layout
+
+\end_inset
+
+科学的思索应当避免匆忙过早下结论，要努力做到纯“客观”而毫无偏见地解读资讯。面颊发红通常意味着体温升高，脸色苍白则通常意味着体温降低。然而仅凭这一点就下结论是有
+可能出错的，所以还要用体温计测量体温。各式各样的仪、表、计、镜等等用于观察的工具都有助于科学思维，消除自己由于习惯、偏见、过度兴奋或热切期盼之心以及当前流行的理
+论的影响而造成的错误见解。各种摄影和录音器材、记波器、曝光计、心震描记仪、体积描记器等等设备能提供可长久查阅的记录，可供不同的人使用。亦可供一人用于不同时间和不
+同心理状态。这样。由于个人习惯、愿望以及近期经历余波而出现的纯个人偏见，就可以大体上得到排除。用普通话来说，就是要客观地判定事实，而不能主观地予以限定。这样，过
+早阐释的趋势就会得到控制。
+\end_layout
+
+\begin_layout Standard
+2.
+\begin_inset space \space{}
+\end_inset
+
+另一个重要的控制方法，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+多取事例
+\end_layout
+
+\end_inset
+
+在于多取事例进行对比。在检查一车谷物的质量时，只检查一把是不够的，要从不同部位抓出好几把，加以对照。若是它们质量都一样，当然不错；若是它们水平参差不齐，那就需要
+再抽查足够多的样品，把这许多样品仔细拌和在一起，以评价其质量。这一例子大致表明了归纳过程这一科学控制方法，即多多观察，不要只凭一个或很少几个情况就下结论。
+\end_layout
+
+\begin_layout Standard
+归纳方法的这一个方面确实很重要，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+这一方法并不是归纳的全部
+\end_layout
+
+\end_inset
+
+所以人们往往把它视为归纳的全部。他们认为所有的归纳推理都是立足于收集和对比一些类似的事例。然而，这种收集和对比类似事例的做法只是在某种单一事件中为确保结论正确而
+采取的第二位的做法。在抽查一车粮食质量时，只抽查一把样品，也是归纳，在某些场合还会是一种合理的归纳；而多抽取一些样品，则是为了让这一归纳更可靠，更可能正确无误。
+在上文中谈到的判断房间遭过小偷一例中，则是审视了并不相类似的、性质不同的情况后，做出了来过小偷的结论。当问题一时模糊不清而难以判明时，就需要对一些并不相似的事例
+加以对照，而收集类似的事例加以对照只是为了让归纳更有把握。考虑众多事例的目的，是为了选择证据性的或重要的特征，用作在某种单一事件中进行推理的基础。
+\end_layout
+
+\begin_layout Standard
+因此，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+不相似性是与相似性同样重要
+\end_layout
+
+\end_inset
+
+在审视事例中，事例的不相似性是与相似性同样重要。只有相似性对比而没有不相似性的对照，不等于合乎逻辑。倘若我们观察的或回忆的其他事例仅仅是重复所要思考的同题，那么
+就推理而言，就跟自己从原先的那一个事例而下结论是差不多，好不了多少。在抽查谷物一例中，重要的是那些样品应不相同，至少是从粮车的不同部位抽取而来的。假如都是从同一
+部位取出的，那么对这一车谷物质量的评估就没有什么意义。从逻辑上说，比较相似与对照不相似总是联系在一起的。如果我们让儿童观察植物种子怎样发芽生长，虽然有许多种子，
+但都是放置在彼此没有什么区别的环境里。孩子不会悟出多少道理。但若是有的种子放在沙里，有的放在土壤里，有的放在一卷吸墨纸里，而且每一种环境又分浇水和不浇水，从这些
+不相似因素的对照，孩子很快会懂得种子发芽长苗的必备因素是什么。总之，一个人进行观察时，既要用心观察相似的情况，也要用心观察不相似的情况，尽可能广泛对照各种不同的
+情况，他才能判断能为他所面临的问题提供证据的力量是什么。
+\end_layout
+
+\begin_layout Standard
+显示出不相似性的
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+例外和相反的情况重要
+\end_layout
+
+\end_inset
+
+这种重要性的另一个方面，在于科学家重视反面事例，即重视有哪些事例看起来似乎应该符合要求，但事实上却并非如此。反常的情况，例外的情况，在大多数方面均一致但在关键的
+某一点上却并不一致的情况，都十分重要，所以科学家们想了许多办法来发现、记录和铭记这些形成对照的事例。达尔文曾指出，一些与普遍规律有出入的情况很容易被忽略，因此他
+有意养成一种习惯，不但仔细搜索那些与众不同的事例，而且还把他见到和想到的每一点例外情况都写下来，否则就很可能会忘记。
+\end_layout
+
+\begin_layout Section
+条件的实验变异
+\end_layout
+
+\begin_layout Standard
+我们在上文中已经提到过
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+实验是引进对照因素的典型方法
+\end_layout
+
+\end_inset
+
+归纳法这一因素，只要有可能运用它，它就是最重要的。从理论上说，“正确合适”的一个例证就足以构成推理的基础，其作用不亚于一千个例证。然而“正确合适”的例证极少有可
+能自发性出现。我们不得不寻找这样的例证，有时还不得不制作它们。我们在发现一个事例或许多事例中，如果只是原封不动地看待它们，那就会看到，它们包含的内容有许多并不涉
+及我们所面临的问题，而涉及这一问题的许多内容又是模糊不清，或者是隐蔽的。实验的目的，就是要按照预先设想好的计划，采取有规则的步骤，构成典型的、关键性的事例，使之
+能明显启迪我们解决面临的难题。所有的归纳方法（如上文中所述）均有赖于调控观察和记忆的条件，而实验则是最佳的调控办法。我们力图做到进人我们观察视野的每一因素及其运
+行模式和运行量均可清楚识别。如此构建观察，就是实验。
+\end_layout
+
+\begin_layout Standard
+通常的观察
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+实验的三大优点
+\end_layout
+
+\end_inset
+
+只是等待事件发生或事物呈现，通过实验进行的观察则显然有许多优越性。实验能克服我们所要观察的事实的（1）罕见性；（2）微妙性和纤细性（或剧烈性）；以及（3）固定性
+这样一些缺点。杰文斯
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+杰文斯（Jevons, William Stanley, 1835-1882），英国经济学家，逻辑学家。——译注
+\end_layout
+
+\end_inset
+
+在他的《逻辑基本课程》一书中对此均有阐述：
+\end_layout
+
+\begin_layout Standard
+1.
+\begin_inset space \space{}
+\end_inset
+
+“我们也许要等待几年或几个世纪才会偶然碰巧遇上我们在实验室中随时能造出的情况。现在已知的多数化学物质以及许多十分有用的产品，倘若当初我们一直等待大自然把它们自发
+地送到我们面前，那就很有可能是永远也发现不了的。”
+\end_layout
+
+\begin_layout Standard
+这一引语说明了自然界的一些事实，包括一些很重要的事实，是罕见的、很少自发出现的。杰文斯接着指出自然界一些现象是微妙的、纤细的，很容易避开人们一般的目光。
+\end_layout
+
+\begin_layout Standard
+2.
+\begin_inset space \space{}
+\end_inset
+
+“电无疑运行于物质的每一粒子之中，而且大概是时刻不停的。古人大概也不会看不到电在磁石、闪电、北极光以及琥珀摩擦中的作用。但是闪电中的电太强烈和危险，而另几种情况
+中的电又太弱，难以得到适当理解。只有当人们能从普通的发电机或伽尔伐尼电池得到经常的电力供应以及能制造大功率电磁体以后，关于电和磁的科学才得以发展。电的作用，即使
+不是全部也是大部分，一定都进行于自然界之中，只是太模糊费解而无法观察。”
+\end_layout
+
+\begin_layout Standard
+杰文斯接着谈到，在通常的经验条件下，那些只有在各种情况下看得见才能加以理解的现象，都是呈现于固定的、统一的状态。
+\end_layout
+
+\begin_layout Standard
+3.
+\begin_inset space \space{}
+\end_inset
+
+“例如人们看得见的碳酸只是从碳的燃烧冒出的气体。但它遇到极高压力和低温时，会凝结成液体，甚至变成雪似的固体。许多其他气体也与此相似能成为液体或固体。有理由认为，
+只要有足够合适的温度和压力的变化，每一种物质都能呈现为固体、液体和气体三种状态。与此相反，若是仅仅观察自然界，就会以为几乎所有的物质都只会呈现为一种状态，而不会
+从固体变成液体以及从液体变成气体。”
+\end_layout
+
+\begin_layout Standard
+各个不同学科的科研人员都已研制出种种不同的方法，来分析和重新阐释普通经历到的各种事实，从而让我们能避开那些老一套的和胡乱的联想，从适当的形式和角度理解事实，得到
+准确的和影响深远的解释，而摆脱那些含混不清的和有限的解释。若要细说这样的方法，那就得写好多本厚书。但所有这些归纳探索方法都着眼于一个目的，即间接调控联想功能，或
+者说间接调控概念的形成。大体说来，它们还可以归结为上面所说的选择和安排题材的三种类型的某种组合。
+\end_layout
+
+\begin_layout Section
+演绎性思维运动的引导
+\end_layout
+
+\begin_layout Standard
+在直接谈这一话题之前，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+演绎对于引导归纳的价值
+\end_layout
+
+\end_inset
+
+我们必须看到，归纳的系统调控有赖于掌握一批能以演绎方式应用于审视或构建所遇到的问题的一般性原则。一位医生若是不懂得人体生理学的一般原理，就很难判明他接诊的病人的
+病情中，什么是特别重要或特别异常的。如果他懂得血液循环、消化和呼吸的原理，他就能推断出一个人正常情况如何，在此基础上他就能估量一个病人病情如何，判定病情的部位。
+与此无关的特征即使明显也不必多想，注意力将会集中到那些反常而需要诊断的特征之上。问题提得准确就等于回答了一半，这就是说，问题的难点明确了，就不难为它找到答案了。
+相反，问题模糊不清，就只会在暗中摸索。为了把问题提得明确而有成效，就必须运用演绎法。
+\end_layout
+
+\begin_layout Standard
+然而，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+推理的完备
+\end_layout
+
+\end_inset
+
+通过演绎掌握假说的起源和展开，还不只是停留于界定问题之所在。概念刚呈现时，还是不完善、不完备的。在第六章中已谈到，演绎就是使概念的意义臻于完备。一个医生看到病人
+的症状像是伤寒。伤寒这一概念是能够展开的。如果是伤寒，只要是伤寒，就应该还有一些特征性的症状。医生思索伤寒时，会充分琢磨伤寒的种种表现，进一步探明相关的现象。他
+会进一步询问、观察和实验。他会用心研究病人的种种情况，考虑伤寒这一假设是否正确。演绎的结果构成与观察到的结果相对比的基础。进行理论上的推理，必须有一整套可用的原
+理，否则，对假设命题的检验（或求证）就会是不完全的、有风险的。
+\end_layout
+
+\begin_layout Standard
+这样的考虑
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+这种推理意味着系统的知识
+\end_layout
+
+\end_inset
+
+就表明了引导演绎性思维运动的方法。演绎要求有一套相关连的概念，它们可以按照通常的或分级的步骤彼此互换。现在问题是我们面对的事实可否确定为伤寒。表面看到的现象与伤
+寒之间还有很大一段差距。如果我们能运用某种替换法，通过一系列中项，就可以弥合这一差距，得出肯定或否定的结论。伤寒可意味着p，p又意味着o，o又意味着n,
+ n又意味着m, m则很类似于选择来解答问题的资讯。
+\end_layout
+
+\begin_layout Standard
+科学的主要目的之一在于为每一典型科目提供一系列彼此密切相连接的内涵外延和原则，其中任何一个在一定条件下意味着另一个，另一个在另一定条件下又意味着再一个，如此等等
+。这样，有可能作出各种不同的相等者的替代，不必求助于具体的观察，即可将推理追踪到一项信念的遥远后果。推理所依靠的手段是下定义，遵循公式，以及进行分类。它们本身并
+不是目的，而只是手段，使理念呈现为合适的形式，其对于一定事实的适用性可得到最好检验。（这些过程将在第九章作进一步讨论。）
+\end_layout
+
+\begin_layout Standard
+演绎的最后检测
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+演绎的最后检测
+\end_layout
+
+\end_inset
+
+在于实验观察。精心推理可以使联想到的概念显得很丰满和看来合情合理，但这一概念正确与否，尚不能下定论。只有当相关的事实可以通过收集或者实验的办法得到观察，在细节上
+均与演绎的结果相符而无例外时，我们才有理由将演绎的结果视为正确的结论。总之，思维必须始于具体观察而又终于具体观察，才能是完全的思维。演绎过程的最终教育价值如何，
+就要看它们在多大程度上能成为创立和发展新经验的有效工具。
+\end_layout
+
+\begin_layout Section
+这一讨论的某些教育意义
+\end_layout
+
+\begin_layout Standard
+上面谈的逻辑分析的重要性，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+错误逻辑理论在教学中的表现
+\end_layout
+
+\end_inset
+
+一部分在于考虑它们对于教育的意义，这尤其是因为教育界现在有一些错误的做法，将思维分隔为互不相连的想法。
+\end_layout
+
+\begin_layout Standard
+（1）在某些学校科目中，至少在某些课堂上，学生们被浸沉于细节之中，给他们头脑灌输的是一些互不相连的条目（通过观察和记忆或者凭道听途说和权威训示而来的内容）。归纳
+的开头和结尾都是堆积事实，堆积孤立片段的信息。这些条目只有呈现一个更大的情况，能包括和说明这些特称命题时，才有教育意义，可是这一点却被忽视了。在初等教育的实际课
+程以及高等教育的实验教学中，学生往往是“只见树木不见森林”。各种事物及其性质都被零敲碎打，而未提及它们所代表的和说明的更带普遍性的情形。在实验室里，学生只全神贯
+注于操作过程，而不理解如此操作的理由，不认识他们这样做所要解决的典型问题是什么。只有演绎才能表明和着重指出事物按逻辑顺序的关系，而只有看到这些关系；学习才不再是
+碎纸篓。
+\end_layout
+
+\begin_layout Standard
+（2）对于包含零碎事实的整体，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+未能再作推理
+\end_layout
+
+\end_inset
+
+只让学生匆匆忙忙有一个模糊的概念，而没有让学生意识到它们在这一整体之中是如何联结到一起的。学生们是“一般地”感觉到科目（例如历史和地理）的各种事实的相互关系，这
+里的“一般地”也就是“模糊地”，并不了解其关系究竟如何。
+\end_layout
+
+\begin_layout Standard
+学生被鼓励在一些特定事实的基础上形成一个一般性的概念，即这些事实相联系而形成的理念；但并没有费心思督促学生进一步探究这一概念，思索它对当前这一事例及类似事例有何
+意义。归纳推理成了学生完成的猜测。若是猜对了，教师立即予以肯定；若是猜错了，就予以否定。如果说对这一理念有所引申，那也完全可能是由老师，智力发挥成了教师的责任。
+但是一个人的思维活动要做到完整，就应当在作出联想（猜测）以后再进一步推想它对自己所面临的同题意义何在，要至少想到它如何适用于当前的具体资讯，如何说明这些资讯。当
+课堂教学不在于简单检测学生展现某种技巧或重复教科书或讲义陈述的事实和原则的能力时，教师却走到相反的极端，听到了学生们的自发反应、猜测或想法以后，只是表示对或不对
+，然后自己承担起进一步发挥的责任。这样，联想和阐释的功能受到了激发，却没有得到指导和训练。归纳受到了兴奋，却没有推进到推理完成的阶段。
+\end_layout
+
+\begin_layout Standard
+在另一些科目中，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+以演绎开始，使之孤立
+\end_layout
+
+\end_inset
+
+演绎阶段被孤立了，似乎它自身就是完全的了。这种错误的做法可能出现于思维程序的开始或结束。
+\end_layout
+
+\begin_layout Standard
+（3）第一个错误的一种常见的形式就是一开始就提出定义、规律、原理或分类等等。这种做法已受到教育改良派的一致批评，因此已没有必要再细说这种错误，只需指出，从逻辑上
+来说，出现这种错误，是因为在引进演绎考虑时没有首先指出是什么样的事实要求演绎法的运用。可惜改良派人士有时把批评意见说得过了头，或是指错了地方，有时变成了一概反对
+使用定义、系统化和原理。其实，它们只有在并非人们具体经验所熟悉却用于思维的开头时，才是应该反对的。
+\end_layout
+
+\begin_layout Standard
+（4）从另一头来看，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+未将归纳用于新观察
+\end_layout
+
+\end_inset
+
+在一般推理过程的最后，没有用新的具体事例来论证和检测推理的结果，这也是使演绎陷于孤立。演绎法的最后要点在于它们用于各个事例的消化和认识。对于自己通过事例概括而想
+到的一条普遍原则，必须能够运用它掌握新的情况，才能说对它有了充分的认识，否则，不论怎样会说会重复，那也都是不够的。然而，教科书和教师往往满足于提供一系列多多少少
+是敷衍了事的例子，而没有要求学生将他想到的原则运用于他自己经验中的其他事例。这样，他这条原则就是没有生气和无活力的。
+\end_layout
+
+\begin_layout Standard
+（5）现在换一个角度谈同一话题：
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+缺乏实验安排
+\end_layout
+
+\end_inset
+
+每一个完整的探索性思维行动都会为实验预作安排，准备对推想到的和已认可的原则进行检测，用以积极构建新的事例，看是否有新的品质出现。我们的学校只是缓慢地接受科学方法
+的推广。从科学方面看，现已证明，只有采用了某种形式的实验方法，有效的和完整的思维才有可能。在高等院校和中学中，这一道理已得到一定程度的承认。但在初等教育中，多数
+人仍然认为，对于孩子的智力成长来说，天然的见闻就已够用了。当然小学校不必都为此建立实验室，更不必购置精密仪器，但是人类的整个科学发展史证明，要具备完整思维活动的
+条件，就必须做好充分的安排来实施那些实际改善物质生活条件的活动，而书本、图画乃至仅消极观察却不加以操纵的物体都是不会提供这样的安排的。
+\end_layout
+
+\end_body
+\end_document
