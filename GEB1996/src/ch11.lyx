@@ -528,7 +528,7 @@ status collapsed
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -544,9 +544,30 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
 
-\size scriptsize
+\begin_layout Plain Layout
+
+
+\backslash
+scriptsize{
+\end_layout
+
+\end_inset
+
 复杂细胞（17区）
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -564,7 +585,7 @@ status collapsed
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -580,9 +601,30 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
 
-\size scriptsize
+\begin_layout Plain Layout
+
+
+\backslash
+scriptsize{
+\end_layout
+
+\end_inset
+
 超复杂细胞（19区）
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -600,7 +642,7 @@ status collapsed
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -616,9 +658,30 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset ERT
+status open
 
-\size scriptsize
+\begin_layout Plain Layout
+
+
+\backslash
+scriptsize{
+\end_layout
+
+\end_inset
+
 极端超复杂细胞（1729区）
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -773,8 +836,8 @@ status open
 \begin_layout Standard
 但这种“汇集”是必须的吗？或许一个被辨认的物体就是以它在视觉皮层上的“印迹”来隐含地标识的——所谓“印迹”，是指来自简单、复杂和超复杂细胞的集体反应。或许大脑并
 不需要什么进一步的识别机制来识别一个特定形状。但是，这种理论将造成一系列问题。假设你在欣赏风景，这在你的视觉皮层上留下了印迹，但此后你怎样才能从中得到关于这个景
-象的词语描述呢？举例来说，法国后印象派画象爱德华·维亚尔的作品，往往需要几秒钟（种）的审视，然后一个人的形象才突然呈现在你面前。大概只须片刻其印迹就能形成于视觉皮层上
-——但这幅画是在几秒钟（种）后才被理解的。
+象的词语描述呢？举例来说，法国后印象派画象爱德华·维亚尔的作品，往往需要几秒钟（种）的审视，然后一个人的形象才突然呈现在你面前。大概只须片刻其印迹就能形成于视觉
+皮层上——但这幅画是在几秒钟（种）后才被理解的。
 \end_layout
 
 \begin_layout Standard

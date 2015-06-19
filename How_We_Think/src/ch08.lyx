@@ -1,0 +1,608 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass HWT
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+判断：对事实的解释
+\end_layout
+
+\begin_layout Section
+判断的三个要素
+\end_layout
+
+\begin_layout Standard
+一个有健全判断能力的人，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+良好的判断力
+\end_layout
+
+\end_inset
+
+在任何事务中，不论其学识或受到的训练如何，都表明他是有文化的人。如果我们的学校造就出来的学生，在他们遇到的各类事务中，其思维态度能有助于作出良好的判断，那就比学
+生单纯拥有大量知识，或在专门学科分支中具有高度技能要好得多。
+\end_layout
+
+\begin_layout Standard
+判断和推理
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+判断与推理
+\end_layout
+
+\end_inset
+
+之间的密切关系显而易见。推理的目的在于得出一个合理的判断。推理的过程涉及一系列不完全和尝试性的判断。那这些推理到底是什么呢？判断的重要特点可以从使用判断这个词的
+作用去考虑，那就是在法律辩论中，对种种问题作出权威的决定——法官的判断。它有三个特点：（1）辩论，对立的双方对同一件客观情境有相反的要求；（2）对这些要求加以审
+查和限定，并且清查支持那些要求的事实，（3）作出最后的决定，结束对特定事项的辩论，并且作为判定未来案件的规则或原则。
+\end_layout
+
+\begin_layout Standard
+1。
+\begin_inset space \space{}
+\end_inset
+
+如果没有对某种事物的疑惑，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+判断前提的不确定性
+\end_layout
+
+\end_inset
+
+那么对于情境一下子就能了如指掌；一眼就能看明白，即此时人们只有单纯的知觉和知识，而没有判断。如果对事物完全持怀疑态度，如果它完全晦涩难懂，那么它也是神秘不可思议
+的，也不会发生什么判断。但是如果情境暗示了模糊的各种不同的意义，各种可能对立的解释，那么就有了某些争论点，有了某些利害相关的事实。疑惑采取了在头脑中互相辩论的形
+式。各个不同的方面相互竞争，都为了取得合乎自己利益的结论。对于交付审判的案件，判断要作出简洁明确的说明，在两种可供选择的解释中，对其中之一作出肯定的表示；但是，
+对于有怀疑的情境，期望从理智上把它搞明白，也应以此为范例，它具有同样的特点。我们远远地看一个活动的模糊不清的东西，我们便要发问：“那是什么？那是一片旋风卷起的尘
+土吗？是一棵树摇晃着的树枝吗？是一个人招手向我们示意吗？”在整个情境中，这些可能的意义都有一些暗示。其中只有一种可能是正确的；也许它们都不适当；然而，这个事实本
+身一定具有某种意义。究竟哪一种暗示的意义有合理的要求呢？感知到的东西究竟意味着什么呢？它究竟应当怎样去理解、估计、评价和处置呢？每一个判断都是从这样的一些情境中
+产生出来的。
+\end_layout
+
+\begin_layout Standard
+2。
+\begin_inset space \space{}
+\end_inset
+
+在听取争论和审判时，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+判断界定问题
+\end_layout
+
+\end_inset
+
+或在权衡两种要求以取舍时，常分为两派。在特定的情境中，其中一方可能比另一方更为引人注目。在考虑进行法庭辩论时，这两派均在精选证据和挑选适用的规则；它们就成为这个
+案件的“事实”和“法律”。通常所说的判断包括：
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+scriptsize{1}}
+\end_layout
+
+\end_inset
+
+确定在特定事件中具有重要意义的资料；
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+scriptsize{2}}
+\end_layout
+
+\end_inset
+
+周密考虑由原始资料引起的暗示的概念或意义。它与两个问题有关：
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+scriptsize{1}}
+\end_layout
+
+\end_inset
+
+在作出某种解释时，情境的哪些部分或方面具有重要意义？
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+scriptsize{2}}
+\end_layout
+
+\end_inset
+
+用作解释的观念其充分的意义和影响究竟是什么？这些问题是紧密相关的；各个问题的答案也是相互依存的。然而，为了方便，我们也可以将它们分开考虑。
+\end_layout
+
+\begin_layout Standard
+\noindent
+（1）争论过程中并无重要意义。
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+（1）选取什么事实作为证据
+\end_layout
+
+\end_inset
+
+一种经验的所有部分虽然同等存在，但作为标记和证据，它们的价值却远远不同。没有什么有特点的标签或符号来表明“这是重要的”或“这是无价值的”，也没有强烈、活泼或显著
+等最为表明价值的标尺。最显眼的事情也许在特殊的情境中完全没有意义，而理解整个事情的关键却可能往往是细小而隐蔽的。那些并无重要意义的特点总是让我们分心。人们坚持认
+为，它们的要求可以作为说明的线索或暗示，而真正具有重要意义的特点又并不完全显露在表面上。因此，在感觉中出现的情境或事件也需要判断。一定要进行排除、淘汰、选择、发
+现和理解。在我们获得最后结论之前，淘汰和选择是尝试性的和有条件的。我们选择那些我们希望提示意义的事实。但是，如果这些事实并不能暗示和包括某种情境，我们就得重新组
+织资料或事实；通过这些事实其特点可以用来作为证据，以求得到一个结论或形成一个决定。
+\end_layout
+
+\begin_layout Standard
+选择、淘汰或组织并没有严格和固定的规则。如同我们所说，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+选取证据的专业度
+\end_layout
+
+\end_inset
+
+这完全要靠良好的判断。所谓良好的判断能力，就是对疑难情况的各个特点具有指明其价值的能力，能够知道什么是无价值的，应当排除哪些不相干的材料，应当保留哪些能导致结果
+的材料，什么应当作为疑难中的线索加以强调。在通常事物中，这种能力称为技巧、机智、聪明；在更重要的事物中，它们被称为洞察力和辨别力。这种能力，一部分是生来就有的或
+先天的，但是它也是对过去活动长期熟悉的基本结果。有了这种能力，就可以掌握可作证据用的事实，或可以掌握意义重大的事实，并能把这种能力用于任何事物中，这就是专家、行
+家和法官的特征。
+\end_layout
+
+\begin_layout Standard
+米尔援引下面的事例，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+直观判断
+\end_layout
+
+\end_inset
+
+说明从情境中找出具有重要意义的因素的能力可以发展到非常完美和精确的地步。“一位苏格兰的厂主，以高薪从英格兰请来一位染色工人。这名染色工人以配制上等的颜色而闻名。
+厂主要求他向其他工人传授这种技能。这位工人来了。但他调和染料的各种成分时用手抓配各种染料，而不是用秤。他配制颜料的秘诀就在于此。厂主要求这位工人改变手抓的方法，
+采用通常的秤法，这样，其独特的人工的生产方法的一般原理就可以查清了。然而，这位工人发现他自己不会以秤代手，所以他无法向任何人传授他的技艺。在他个人的经验中，颜色
+的作用和他手捏颜料的知觉之间已经建立了一种联系；他在任何特殊情况下均能凭知觉推断出使用的方法和用这种方法所产生的效果。”对于情境做长期周密的考虑，以强烈的兴趣热
+衷于大量的类似的经验，由此产生的判断称为直觉判断；这是真实的判断，因为它们立足于明智的选择和估量，以解决问题作为控制的标准。对于这种能力的占有与否，就形成了专家
+能手与仅凭脑力的笨拙的人的区别。
+\end_layout
+
+\begin_layout Standard
+这是判断能力的最完美形式。但是，无论如何，这种方式总伴有某种感觉；伴随区别某些特质的试验，弄清对它们的强调会导致什么；伴随谋求得到最后的客观评价的期望；如果别的
+特点更能说明暗示，便期望完全排除一些因素，或者把它们放到不同的地位。机警、灵活和好奇心是基本的要素，独断、顽固、偏见、人性、因循守旧、激怒和轻率则必然导致失败。
+\end_layout
+
+\begin_layout Standard
+\noindent
+（2）选择资料是为了控制暗示意义的发展，从而可以得出关于暗示意义的解释。概念的形成同事实的确定是同时发生的；在头脑中，一个可能的意义接着另一种可能的意义相继发生
+，考虑资料同暗示的关系，发展为更详细的情节，然后决定舍弃它，或者把它接受下来并加以试用。我们不能以自然朴素的心灵来处理任何问题；我们是以习惯性的理解方法以及先前
+逐渐积累的某种意义，或者至少是从意义中引申出来的经验来处理问题的。如果习惯被终止，并受到抑制，人们心中便出现了对于所争议事实的种种可能的意义。并没有严格和固定的
+规则可以决定哪一个暗示的意义是对的和合适的。这要由个人良好的(或不好的)判断作为指导。在任何观念或原则上面，都没贴标签自动地告诉人们：“在这种情境中，使用我吧！
+”——如同《奇遇记》中艾利斯的魔饼上写着“吃我吧”那样。这要靠思维者去决定去选择；而且，此举常有风险。所以，稳健的思维者要慎重地选择主题，即通过后来的事件确认其
+正确或证明其错误。如果一个人不能明智地估计什么是对于疑难问题的合适解释，那么即使他通过艰苦的学习，有了一大堆概念，也无济于事。因为知识并不等于智慧，知识也不能保
+证良好的判断。记忆就如同一个冷藏室，里面储存着大量的意义，以备将来使用。但是，在紧急情况下，判断只是从里面选择和采用其中之一——如果没有紧急情况(某些较轻微的或
+重大的危机)，那就不能引起判断。任何概念，即使它在抽象上是细心地坚固地建立起来的，在解释事物时，起初也只不过是一个候选者，只有那些能指明黑暗困境的出路，打开紧紧
+的绳结，使矛盾得到缓解，在这些特定的情境中被挑选出来，而且被证明是确切的观念，才能在所有的候选者竞争中取胜。
+\end_layout
+
+\begin_layout Standard
+3.
+\begin_inset space \space{}
+\end_inset
+
+一个判断形成之后，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+在一项决策或声明中判断终止
+\end_layout
+
+\end_inset
+
+它就是决定；判断就终结了，或者说争论的问题便结束了。这一决定不仅解决了那个特殊的事项，同时，对决定未来的类似事项也提供了一种规则或方法。就像法庭上的判决一样，它
+就结束了这场争论，同时也为将来的判决提供了一个判决的范例。如果对于决定的解释同后来发生的时间并无不合之处。那么，就建立起一个事实的推断，这有利于解释其他的案例，
+只要其他案件的特点同以前的案件没有明显的不同，援引前一案件的解释就是适当的。这样，判断的原则就逐渐形成了；某种解释的方法就获得了影响力和权威性。总之，意义得到了
+标准化，它们变成了逻辑的概念。
+\end_layout
+
+\begin_layout Section
+观念的起源和性质
+\end_layout
+
+\begin_layout Standard
+这使我们想到与判断有关的观点
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+“观点”(idea)一词通常也被用来指
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+scriptsize{a}}
+\end_layout
+
+\end_inset
+
+一种纯种的想象，
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+scriptsize{b}}
+\end_layout
+
+\end_inset
+
+一种被接受的看法，
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textcircled{
+\backslash
+scriptsize{c}}
+\end_layout
+
+\end_inset
+
+判断本身。但更符合逻辑的是，观点指在判断中的某项因素(factor)，正如文中所解释的。
+\end_layout
+
+\end_inset
+
+。
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+观点就是在判断中使用的推测
+\end_layout
+
+\end_inset
+
+在令人费解的情境中总有一些什么暗示。如果这些意义被立即接受，那么就不存在反思思维，也不存在真正的判断。思考被停滞；带来的只是教条的相信，以及伴随的危险。如果这些
+意义被怀疑，被检验和调查，那就会出现真正的判断。我们停下来思考，迟迟不作出结论，只是为了让推理更加全面。只有当整个过程都被接受，并通过检验，意义才能变成观念。观
+念是能够在令人费解的情境中解决问题的意义———意义是作为判断的工具。
+\end_layout
+
+\begin_layout Standard
+让我们举个例子。如果有一种模糊的东西出现在不远处。
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+或者口译工作
+\end_layout
+
+\end_inset
+
+我们就会存在疑问：那东西是什么？那模糊不清的东西有什么意义？一个人晃动他的手臂，一个朋友向我们招手示意，这些都是可能性。如果马上接受其中一个暗示，就抑制了判断。
+但如果我们仅是把暗示当作一种假定，一种可能性，那么它就变成一种观念了，并具有以下几个特点。（1）单纯作为一种暗示，它是一种推测，一种猜想，或者在更庄重的场合下，
+我们称之为一种“假设”或“推理”。这就是说，这是一种可能的但又存在疑问的解释模式。（2）虽然存在疑问，但它还是有任务，即指导探索和调查。如果那个模糊不清的东西是
+一位朋友在招手示意，那么，通过细心观察就能看出某些别的特点。如果是一个人赶着难驾驭的牲口，那么，也会发现一些别的特点。我们可以看一看是否能发现那些特点。如果只把
+观念当作是疑问，那就不能进行调查。如果把观念当作是必然的事，那也会阻碍调查研究。如果把观念当作是存在疑问的可能性，那它就给探究提供了一个立足点，一个立场和一种方
+法。
+\end_layout
+
+\begin_layout Standard
+如果不把观念当作研究事实，解决问题的工具，那么就不是真正的观念。
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+假想
+\end_layout
+
+\end_inset
+
+假如希望学生理解“地球是圆的”的观念，这和教给学生圆形这一事实是不相同的。让学生看(或者提醒学生去回想)一个皮球或一架地球仪，并且告诉学生，地球就像这些东西一样
+是圆形的；然后，让学生日复一日地重复诵读这句话，直到在学生的头脑中把大地的形状和皮球的形状结合到一起为止。但是，学生并不因此就取得了大地是圆形的观念；学生至多可
+以用某种球形的意象，最终是同皮球的意象加以比拟，而得到大地的意象而已。要理解“地圆”这个观念，学生首先必须从观察事实中认清某些令人困惑不解的特点，然后向学生暗示
+地圆的观念，作为理解这些现象的可能的解释。例如，船体在海上消失以后，仍然可以看到桅杆的顶部，以及在月食中地球投影的形状，等等。只有用这种方法去解释资料，使资料有
+更充实的意义，“地圆"才能成为一种真正的观念。生动的意象并不等于观念；而一个短暂的、模糊的意象，如果它能激励和指导对于事实的观察和对事实之间关系的理解，那么它也
+能成为一种观念。
+\end_layout
+
+\begin_layout Standard
+逻辑的观念
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+想法给唯一的替换物以不定的方式
+\end_layout
+
+\end_inset
+
+就像一把可以打开锁的钥匙。将一条梭鱼同一条可被捕食的小鱼用玻璃隔开，梭鱼的头碰撞玻璃，直到搞得它确实筋疲力尽了，它也不能得到它的食物。动物的学习都是通过试验性的
+方法一样地漫无目标地乱碰，如此继续下去，直到取得成功。人类的学习如果不在观念的基础上进行，也会如此。就如同最聪明的低级动物的胡乱行为一样——我们可以用“瞎胡闹”
+这个词来形容这种行为。以观念自觉指导行动(即采用暗示的意义，以便用其进行试验)，是唯一的选择，它既不是顽固倔犟的愚蠢行为，又不必依靠代价很高的教师——偶然性的试
+验——去获得知识。
+\end_layout
+
+\begin_layout Standard
+值得注意的
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+它们是简介的攻击方式
+\end_layout
+
+\end_inset
+
+是有许多形容智慧的字眼，暗示了隐匿的观念和不可捉摸的活动———甚至往往带有道德行为不正的提示。比如这句话：爽快的（虚张声势的），诚恳的（猛烈的）人做事是正直的（
+含有愚笨的意思）。聪明的人是灵巧的（狡猾的），敏捷的（欺诈的）。足智多谋的（诡计多端的），精巧的（阴险的），能干的（诡诈的），机灵的（狡猾的），有远见的（有野心
+的）——这些观念都含有另一层意思。所谓观念就是经过反思思维避免或克服障碍的方法，否则人们就只会用盲目的力量。但是，若习惯性地使用观念，观念就可能失去它的理智性质
+。当儿童初次学认猫、狗、房子、弹子、树、鞋或其他物体时，伴随某种程度的含混不清，此时具有直觉的、试验性的观念就参与进来，作为辨别的方法。这样一来，按照通常的惯例
+，事物和意义便完全融合在一起，就没有严格意义上的观念了，而只有机械的自动认识。另外，对于那些熟悉的已经认识了的事物，即使没有观念的参与，也能出现在一种异常的关系
+中，并引起问题；为了理解这个事物，则又需要观念的参与：如我们在画它们时会考虑形状、距离、大小和位置；这些形状从几何学的角度看还需要儿童运用智力的力量去形成观念。
+\end_layout
+
+\begin_layout Section
+分析和综合
+\end_layout
+
+\begin_layout Standard
+通过判断，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+判断整理思绪：分析
+\end_layout
+
+\end_inset
+
+混乱的资料得到澄清，表面上支离破碎和互不联系的事实得以串联起来。这种澄清便是分析，这种连贯或形成整体便是综合。对我们来说，种种事物可以有特殊的感觉；它们可能使我
+们有某种难以表达的印象。这一物体可能被觉得是圆的（就是说，后来我们才能把这种表现的性质规定成“圆”）；一种行动可能是粗鲁的；然而这种印象，这种性质可能被融化，被
+吸收，混合在整个情境中。只有当我们在另外的情境中遇到困惑或难以理解的事物时，我们才需要利用原先情境的特点作为理解的工具。这样我们才能把那种特点分离出来，使之成为
+个别化的东西。只是因为我们需要说明某些新的物体的形状，或某些新的行动的道德性质，我们才把经验中的圆形或粗鲁的因素分离出来，使之成为显著的特点。如果选择出的因素能
+使经验中含糊的成分得到澄清，如果它把不确定的成分搞清楚了，那么它的意义也就确定了。在下一章中，我们还会遇到这个问题，这里，我们所说的只是同分析和综合有关的方面。
+\end_layout
+
+\begin_layout Standard
+即使明确地
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+精神分析不同于物理分类
+\end_layout
+
+\end_inset
+
+叙述了智力的分析和物质的分析具有不同的作用，人们还总是把两者进行类比，好像不是在空间，而是在头脑中把整体分割成所有的组成部分一样。任何人都不能说出在头脑中把整体
+分割成部分意味着什么，于是，这个概念就引导人们进一步认为逻辑分析只是列举出可以想象到的全部性质和关系。这个概念对教育的影响很大。学校课程中的每一个学科都经过（或
+仍然停留在）所谓“解剖学的”或“形态学的”方法的阶段：在这个阶段中，把学科理解为由性质、形式、关系等的区别而组成，并且对每个区别的因素加上某种名称。在正常的发展
+中，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+在教育中误解的分析
+\end_layout
+
+\end_inset
+
+当某些专门特点能使现时的困难得到澄清时，这些专门的特点才能被强调，并且得到个别化。只有在判断某些特别的情境时，才产生动机，运用分析强调某些因素或关系，具有特殊的
+重要意义。
+\end_layout
+
+\begin_layout Standard
+就如同把车放在马前一样，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+早熟形成的影响
+\end_layout
+
+\end_inset
+
+把结果放在过程的前面，这种现象在初等学校里也存在着，那里非常明显地流行着程序方法的公式。在发现过程中和反思思维过程中所使用的方法，同发现完成之后形成的方法，两者
+不是一回事。在真正的推理活动中，思维的态度是寻求、搜查、预测和试探；结论一经得到，寻求就终止了。希腊人曾辩论过“学习（或研究）怎样才是可能的？如果我们已经知道我
+们所要追求的东西，那么我们便不用再去学习或研究；如果我们不知道我们所要追求的东西，那么我们就不能去研究。”这种二难推论表明，真正的推理活动应当运用怀疑的探究，尝
+试的联想和实验。当我们获得结论之后。回想整个过程的各个步骤，看一看哪些是有帮助的，哪些是有害的，哪些是无用的，从而有助于迅速有效地应付未来的类似的问题。这样，组
+织思维的方法就建立起来了。（比较一下有关心理学和逻辑学的讨论）
+\end_layout
+
+\begin_layout Standard
+　　人们普遍认为，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+选于其形成前采取的方式
+\end_layout
+
+\end_inset
+
+学生必须从一开始就有意识地认识并明确地说明，在其取得结果的过程中所使用的合乎逻辑的方法，否则他就找不到方法，他的思维必然陷入混乱和无政府的状态。其实，这种认识是
+荒谬的。如果认为学生学习的时候伴有对某些程序形式（大纲、论题分析、标题目录和细目、统一的公式）的有意识的说明，学生的思维就得到维护和加强，这也是一种错误的观点。
+事实上，逻辑态度和习惯的逐步，主要是由于无意识的发展是首先出现的。只有在无意识的和尝试的方法首先取得结果之后，才可能明确地显示出适合于达到目的的有意识的合乎逻辑
+的方法。这种有意识的明确显示出来的方法，检查其在特定场合下取得的成就，对于搞清楚新的类似事件是很有价值的。过早的强调已有的明确准则，反而妨碍学生以抽象和分析的手
+段找出那些最合乎逻辑的个人经验的特点。反复的使用，可以使方法具有明确性；一旦有了这种明确性，公式化的叙述方法自然就跟着出现。但是因为教师们觉得他们自己深刻理解的
+那些事物都是划分开来的，而且限定在轮廓鲜明的方式上，所以我们的学校中就充满了迷信，认为孩子们的学习应当以明确化的公式为开端。
+\end_layout
+
+\begin_layout Standard
+既然人们认为分析是把整体拆开，那么就自然认为综合是把物质的碎片拼凑起来。如果这样想象，那就过于神秘了。事实上，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+判断揭示了事实的承载及意义：综合
+\end_layout
+
+\end_inset
+
+我们掌握了事实同结论的关系或者原则同事实的关系时，便已经是综合了。当分析被强调时，综合也就出现了。一方是引出被强调的事实或特征，使其有明显的意义；另一方则把所选
+取出来的事实安置在它们的关系上，安置在有意义的联结上。事实同某些其他的意义连成一体，二者都增强了重要性。汞同铁和锡结合时，作为金属，所有这些物质便都具有了新的智
+力认识价值。每一个判断，只要它动用辨别力和鉴赏力把重要的和无价值的区别开来，把无关的细枝末节同关系结论的要点区别开来，便是分析的；每一个判断，只要在头脑中把选择
+出的事实安置到范围广泛的情境中，这便是综合。
+\end_layout
+
+\begin_layout Standard
+那些自我标榜为唯一的分析和综合
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+分析和综合是相互关联的
+\end_layout
+
+\end_inset
+
+的教育方法（到目前为止，他们还是在自吹自擂）是同正常的判断活动背道而驰的。这样，就出现了争论。例如，地理教学应该是分析的还是综合的？综合的方法是先从学生已经熟悉
+的事物开始，教授地球表面的局部的、有限的一部分，然后逐渐扩大到邻近的地区（郡、国家、洲等等），直到获得整个地球的概念，或者，包括地球在内的太阳系的观念；分析的方
+法是从自然界的整体开始，从太阳系或地球开始，然后涉及它们的各个构成部分，直到获得学生自身所处的环境的观念。这里基本的概念是物质的整体和物质的部分。事实上，我们不
+能假定，孩子们已经熟悉的地球的一部分，在他们心中就是确定的东西，也不能把他们现有的观念作为实际的出发点。孩子现有的知识是不完全的，也是模糊笼统的。因此，智力上的
+进步一定包含着对于环境的分析———强调具有重耍意义的特点，使它们突出地显示出来。而且，学生自己所处的地区也不是截然划分开来，不是有着固定的界线能加以测量的。学生
+对于环境的经验，已经包含了作为他观察到的事物的部分，如太阳、月亮、星星等的经验；也包含了每当他活动时，地平线也随着变化的经验。总之，他的很有限的和本地区的经验，
+也包含了比他自己想象的街道和村庄范围更远的一些因素，包含了同更大的整体的联结和关系。但是，对这些关系的理解是不充分的、含糊的、不正确的。他必须规定本地区环境的性
+质，必须澄清和扩大他所属的更大的地理范围的概念。同时，他对更大范围的情景有所理解时，他对本地区环境中的许多最普通的特征也可以理解了。分析导向综合，综合改善分析。
+当学生增长了对更复杂的地球的理解时，他也就能更确切地了解他所熟悉的所处地区的那些详细的意义。把需要强调的特性挑选出来，并且通过与整体的关系加以解释，这种情形在正
+常的反思思维中总是相互影响的。所以，试图把分析与综合看作是彼此对立的观点是愚蠢的。
+\end_layout
+
+\end_body
+\end_document
