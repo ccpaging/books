@@ -96,22 +96,6 @@ enumitem
 逻辑的探讨
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-setcounter{chapter}{5}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Chapter
 完整思维行为的分析
 \end_layout

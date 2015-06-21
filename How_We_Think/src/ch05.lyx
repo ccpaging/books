@@ -1,0 +1,473 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass HWT
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+智力训练的手段和目的：心理与逻辑
+\end_layout
+
+\begin_layout Section
+引言：逻辑的意义
+\end_layout
+
+\begin_layout Standard
+在前面几章，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+本章主题
+\end_layout
+
+\end_inset
+
+我们已谈过：（1）什么是思维；（2）专门的思维训练的重要性；（3）思维训练中起作用的自然趋势；（4）思维训练在学校中遇到的若干障碍。现在我们谈谈逻辑与智力训练的
+关系。
+\end_layout
+
+\begin_layout Standard
+从最广泛的意义上来说，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+逻辑一词的三重意义
+\end_layout
+
+\end_inset
+
+逻辑包括一切经过思维而得出了结论的过程，不论结论对错如何，均是如此。这就是说逻辑一词涵盖了合乎逻辑和非符合逻辑这两个方面。从最狭窄的意义上来说，逻辑一词仅指合乎
+逻辑的，其推理的前提必须是意义明确的，是不证自明或业经证明是正确的。在这里，逻辑的关键在于论证的严密性。从这一意义上说，只有数学和形式逻辑（也许可视为数学的一个
+分支）才是严格合乎逻辑的。然而，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+切实有用的意义
+\end_layout
+
+\end_inset
+
+逻辑一词还有第三层意义，它更关紧要和更切合实际，这就是：要从正负两方面系统地用心，确保思维能产生出一定条件下最佳的结果。如果我们对artificial一词只取它
+的“经过自愿训练而掌握了专业技能”这一含义，而撇开它的“虚假”、“人为”的贬义，那么我们可以说逻辑是指artificial思维。
+\end_layout
+
+\begin_layout Standard
+从这一意义上说，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+细心，周全，准确，才能合逻辑
+\end_layout
+
+\end_inset
+
+合乎逻辑的思维是指思虑周全、透彻和仔细的思考，即最佳意义上的思维（见本书第一章第一节）。这样的思维就是从各个不同的方面和角度审视事物，不漏过任何重要之处——就像
+是看一块石头，还要把它翻过来看看它朝下的那一面以及它覆盖之下的东西。认真思索就是细心端详一个事物，细看细想，下一番工夫。一说到思考，我们就会想到“斟酌”、“权衡
+”、“仔细掂量”，就是要考虑到方方面面；加以精心对比而求得平衡。与此密切相关的名词还有“审视”、“考察”、“琢磨”、“检验”等等，都是说要密切注意和仔细思索，形
+成综合全面。还会联想到数学上的精确计算和准确对比。注意，细致，准确，精细，动脑筋，有条理，井然有序，这些都是逻辑的特点，既不同于粗枝大叶和随心所欲，也不同于墨守
+成规和迂腐学究。
+\end_layout
+
+\begin_layout Standard
+毋庸讳言，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+智力教育旨在养成逻辑习性
+\end_layout
+
+\end_inset
+
+教育工作者关心的是这种切合实际的重要意义上的逻辑。也许需要说明的是智育（不同于德育）的全部和唯一目的正是在于这一意义上的逻辑。也就是要养成细心、警觉和透彻的思维
+习惯。认识这一原则，其主要困难在于一种错误的观念，即以为个人的心理倾向与逻辑思维二者毫无共同之处，将逻辑训练视为某种由外部施加给个人的东西，因而认为将教育的目的
+与逻辑思维能力的培养联系在一起是荒谬的。
+\end_layout
+
+\begin_layout Standard
+相当奇怪的是，有彼此对立的两派教育理论都认为个人的心理与逻辑的方法和成果这二者之间不存在任何固有的联系。一派认为个人的天然本性和功能是首要的和根本的，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+将天性与逻辑相对立
+\end_layout
+
+\end_inset
+
+而天性的趋势是不大理会纯智力的培育的。这一派的箴言是自由，自我表现，发扬个性和自发性，提倡游戏和兴趣，自然成长，如此等等。他们很不重视有组织的课程和学习材料，认
+为教育的方法就在于以各种办法刺激和促进个人发扬其天性潜力，按个人自然的成长循序渐进。
+\end_layout
+
+\begin_layout Standard
+另一派
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+忽视内在的逻辑资源
+\end_layout
+
+\end_inset
+
+则是高度重视逻辑的价值，但认为个人的天性是嫌恶逻辑，至少是不在乎逻辑的。因此这一派强调要依靠课程业已明确和分类的材料，采用各种方法，将逻辑性灌输到人们天性不喜爱
+逻辑的头脑之中。这一派的箴言
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+ 将逻辑因素仅限于课程内容
+\end_layout
+
+\end_inset
+
+则是强调纪律、教诲、约束、自觉自愿努力以及强调完成任务的必要性，如此等等。按照这一派的观点，在教育中体现逻辑因素的不是态度和习惯，而是学业。只有学习遵守外在的科
+目内容的要求，思想才会有逻辑。为了做到这一点，学业内容应首先通过教科书或由教师加以分析而成为逻辑元素；然后对每一元素加以界定；最后将所有这些元素按照逻辑公式或一
+般原则排成序列或组别。这时，学生逐一学习每一元素的定义，逐步叠加而构成逻辑体系，从而做到逐渐从外部给自己注入逻辑素质。
+\end_layout
+
+\begin_layout Standard
+现在以地理课
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+以地理为例
+\end_layout
+
+\end_inset
+
+为例说明这一派的见解。首先是给地理下定义，使之区别于其他每一门学科。然后列出地理学的发展所依据的一些抽象名词，例如地极，赤道，黄道，气候带，逐一列出，予以界定，
+由简入繁；然后一些较具体的元素也排成类似序列，这包括：洲，岛，岸，呷，角，地峡，半岛，洋，湖，海湾，等等。据认为，学生掌握了这些材料，不仅获得了重要的信息，而且
+让自己的思想顺应于这些现成的逻辑定义、概括和分类，从而逐渐掌握逻辑习惯。
+\end_layout
+
+\begin_layout Standard
+这种方法
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+图画一例
+\end_layout
+
+\end_inset
+
+已应用于学校讲授的所有科目，如阅读，写作，音乐，物理，语法，数学。以图画为例。这一派理论认为，所有图形均由直线和曲线组成，最简单的程序就是让学生首先学会画各种直
+线（平行线，垂直线，各种角度的对角线），再学会画各种典型的曲线，最后将直线和曲线按照不同的排列而组合成实际的图像。这似乎提供了理想的“逻辑”方法，首先分析成各种
+元素，然后按常规序列转向日益复杂的综合，此时每一元素得到使用时均经过界定，因而是得到了清晰的理解。
+\end_layout
+
+\begin_layout Standard
+即便
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+形式方法
+\end_layout
+
+\end_inset
+
+是没有遵循这种极端的做法，学校，尤其是中学，还有小学的高年级，也几乎都是过分注重一些形式，据说学生只有运用这些形式才能达到合乎逻辑的结果。据说每一科目都有按一定
+顺序排列的一定步骤，能卓有成效地引导学生理解每一科目，因而要求学生“分析”自己应按照什么程序进人这些步骤，即学习一套陈述公式。这一方法最明显地应用于语法和算术，
+它也渗进了历史乃至文学的教学，它们也在智力训练的借口下被归结为层层“纲要”、“图表”以及分类、再分类。孩子被要求死记硬背这一套干巴巴的模仿成年人的逻辑，就使得孩
+子本来的充满活力的微妙的逻辑思维变得迟钝了。这种错误的逻辑教学法让“教学法”这一专名背上了坏名声，许多人感到“教学法”就是用一套机械死板的条条框框来取代个人的思
+维活动。
+\end_layout
+
+\begin_layout Standard
+这类自称为“逻辑”的做法造成的不良后果必然会引起学生们的反应。学习兴趣下降，漫不经心，拖拖拉拉，对知识应用明显反感，勉强死记硬背一点东西，有时自己也不知所云，凡
+此种种都说明那一套逻辑定义、分类、分级和系统的理论实际上并不是像它理论上所说的那样起作用。随之而来的倾向就如同人们所预料的反应一样走到相反的极端。“逻辑”被认为
+完全是人为的和额外的，教师和学生都对它不屑一顾，转而致力于表现各人现有的秉性和爱好。强调以个人自然的性格倾向和能力作为唯一可能的发展起点，是确实有益的。但上述的
+反应却是不对的，因而是误导的，因为它忽视和否认了重要的一点，即人们现有的能力和兴趣之中都存在着智能因素。
+\end_layout
+
+\begin_layout Standard
+人们通常所说的逻辑
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+逻辑课所讲的是经过训练的成年人的思维模式
+\end_layout
+
+\end_inset
+
+（就是从教学课程角度所说的逻辑），实际上指的是成年人的受过训练的思维逻辑。能够分解一个主题，界定它的各个元素，再按照一般原则将它们加以分类，这是经过了透彻思维训
+练之后所要掌握的逻辑能力。已习惯于如此分类、定义、综合、概述之后，就不需要再经受逻辑方法训练了。然而，如果以为人们不经过逻辑训练就没有逻辑思维的能力，那是荒谬的
+。教学课程上所说的逻辑是指思维训练所要最后达到的目标，而不是出发点。
+\end_layout
+
+\begin_layout Standard
+实际上，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+未成年的思维也有自己的逻辑
+\end_layout
+
+\end_inset
+
+一个人的每一个发展阶段都有它自己的逻辑。有人以为自发的思维倾向无逻辑可言，是错误的，没有看到即便是在一个小学生的生活中，好奇、推理、实验和检测就已经起着重大作用
+。这种错误的看法低估了智力因素在个人自发思维和活动中所起的作用，而这一智力因素就已很有教育意义。一位教师只要用心观察正常儿童的自然起作用的思维模式，就不难看出逻
+辑并非仅限于逻辑课程中的那一套内容，不难看出思维教育的真正问题是在于将自然的思维能力转化为经受过检验的专业性的思维能力，将多多少少偶然出现的好奇心和零散的联想转
+化为时刻保持警觉的、小心谨慎和贯彻始终的探索。他会看到心理和逻辑这二者并非彼此对立（并非彼此独立），而是正常成长的持续过程之中的前后两个阶段。自然的或者说心理上
+的思维活动，即使没有自觉地受到逻辑考虑的调控，也仍然具有自己的智力功能和健全性；而在达到了自觉的、有意识的思维技巧以后，这种思维技巧就成为习惯性的或者说第二天性
+的。前者已经具有逻辑精神，而后者依然存在着固有的习性和态度，仍然属于个人的心理活动，在这一点上跟个人一时的冲动或随想并无区别。
+\end_layout
+
+\begin_layout Section
+纪律与自由
+\end_layout
+
+\begin_layout Standard
+因此，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+对纪律的正确和错误看法
+\end_layout
+
+\end_inset
+
+思想的纪律实际上是结果，而不是原因。任何一个人达到了独立的理智和控制力以后，其思想都会是自律的。原始的一种天赋通过逐渐的锻炼就成为有效的律己力量。一个人思想有律
+己力以后，就可以在没有外在指教的情况下自己掌握合适的行事方式。教育的目的就是让人培养这种有律己力的精神。纪律是正面的和建设性的。
+\end_layout
+
+\begin_layout Standard
+然而，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+将纪律视为磨炼
+\end_layout
+
+\end_inset
+
+人们往往将纪律视为负面的，是令人痛苦难以接受的，对人的思想起强制作用，迫使它脱离自己的爱好而接受约束，这一过程一开头是痛苦的，但却是为了迎接未来而必要的一种准备
+。纪律通常被等同于磨炼，就像是通过无情的不断锤锤打打，把一块有杂质的铁锻造成一块好钢，或是像军训将新兵训练成一举一动都合乎要求的好兵。这后一种训练，不论是否称作
+纪律，都不是智力纪律。它的目的和结果并不在于思维习惯，而是在于整齐划一的外在行动模式。许多教师没有弄明白思想的纪律是什么，以为自己是在培养学生的智力和思维效率，
+可是他们采用的方法却是限制和压抑学生的思维活动，造成机械死板的格局或者心理上的被动和屈从。
+\end_layout
+
+\begin_layout Standard
+当我们从智力角度
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+将纪律视为独立力量或自由
+\end_layout
+
+\end_inset
+
+认识纪律时（将纪律视为有效智力活动的习惯性力量），纪律实际上就等同于自由。智力上的自由不只是不受阻碍的外在行动，而且是独立思考的力量，不盲从别人的引导。思维的自
+发性或自然性往往是指比较偶然出现的一时的念头，因此教育工作者往往采取种种办法促使学生的思维自发性得以保持下去。
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+自由与外在的自发性
+\end_layout
+
+\end_inset
+
+这包括提供各种各样的有趣的材料、设备、工具和活动模式，促使学生的个性表现不致萎缩。这种做法忽视了达到真正自由所必须具备的若干条件。
+\end_layout
+
+\begin_layout Standard
+1.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+思维所需要的障碍
+\end_layout
+
+\end_inset
+
+一种冲动倾向的直接即时释放或表现是思维所必不可少的。当这一冲动在某种程度上受到抑制或反弹时，才会出现思索。若是以为必须从外部布置任意性的任务，才能提供思维所必需
+的困惑和困难因素，那就实在是一种愚蠢的错误。凡是有一定深度和广度的有活力的活动，在其努力自我实现的过程之中，都必然会遇到障碍——因此再寻找人为的或外部的问题就完
+全是多余的。在一种经历的发展过程内部呈现出来的困难，则应受到教育工作者珍视，不应加以缩小，因为这些困难正是引起深思探索的天然刺激因素。自由并不是让外在的活动保持
+畅通无阻，而是在于通过个人内在的思索，找到一条出路，来摆脱那阻碍自发思绪畅流的困难。
+\end_layout
+
+\begin_layout Standard
+2.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+智力的因素是自然的
+\end_layout
+
+\end_inset
+
+只强调心理和自然因素，但却看不到自然倾向在好奇、推理及检测愿望的每一成长阶段都起着多么重要的作用，这样的方法是不可能保障自然的发展的。在自然成长过程中，每一个阶
+段都是不自觉地但却透彻地为下一个阶段的表现准备条件——如同植物生长的周期一样。如果以为“思维”是一种独特的、孤立的自然倾向，只是因为各种感官和肌肉活动先前有过自
+由表现，或者说只是因为观察、记忆、想象和体力活动先前已在没有思维的情况下动作过了，“思维”就必定会到一定时候活跃起来，那么这种看法是没有根据的。思维是始终不断的
+，人是通过思维来运用感官和肌肉，指引和利用观察及运动，从而为下一步更高类型的思维做好准备。
+\end_layout
+
+\begin_layout Standard
+现在流行一种着法，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+思维是与人的任何智力活动同时开始出现的
+\end_layout
+
+\end_inset
+
+说童年是几乎完全没有思虑的，在童年阶段只有感官和肌肉的动作以及记忆力的成长，而到了青春期才突然出现思维和理智。
+\end_layout
+
+\begin_layout Standard
+然而，青春期决不是魔术的同义词。当然，青春期会带来童年见识的扩大，会对更多的事情和问题产生敏感，会对自然和社会生活占据更宽更广的视点。这一发展会让人有机会产生比
+原先童年时期更全面和抽象的思维。可是思维本身仍然是如同原先一样，是追随生活中的所见所闻和各种感受，并检测由此联想到的结论。思维在婴儿时即已开始，婴儿玩的球丢了，
+就会想到尚不存在的事情，就是再把球捡回来，会预见到怎样实现这一可能的步骤，以自己的想法指引自己的动作，通过实验检验自己的想法是否正确。童年时期就有思维的积极活动
+，充分发扬这一思维要素，到了青春期才会有出色的思考能力，并随着年岁增长而进一步发扬这一能力。
+\end_layout
+
+\begin_layout Standard
+3.
+\begin_inset space \space{}
+\end_inset
+
+无论如何，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+提防不良思维习惯
+\end_layout
+
+\end_inset
+
+思维习惯都会慢慢形成。这习惯可能是遇事都动脑筋好好思索，也可能是漫不经心，草率匆忙，浮光掠影；可能是思绪不断，寻根究底，也可能是蜻蜓点水，马虎了事；可能是不轻易
+下结论，要证据确凿才下判断，也可能是遇事将信将疑，容易上当受骗。要做到细心谨慎、缜密周全和连接贯通，也就是符合逻辑思维的要求，就要一开始就培养这样的习惯，认真而
+不马虎。
+\end_layout
+
+\begin_layout Standard
+总之，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+真正的自由在于智力而不在于身外享受
+\end_layout
+
+\end_inset
+
+真正的自由在于智力，在于训练有素的思维力，能遇事周密思考，下决心之前要仔细想想所需要的根据是否齐全，若不齐全，应如何再搜寻。若不是深思熟虑才采取行动，那就会让自
+己听命于心血来潮，轻率鲁莽，或是随波逐流，听天由命。若是从外部创造条件让人无忧无虑，不动脑子，就会是反而害了他，让他听从欲望、感觉和环境的摆布。
+\end_layout
+
+\end_body
+\end_document
