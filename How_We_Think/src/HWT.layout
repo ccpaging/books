@@ -107,8 +107,8 @@ Preamble
         {}
         
     \titleformat{\subsection}
-        {\CJKFontHei \centering}
-        {\starmark \arabic{subsection}}
+        {\CJKFontKai \large}
+        {\starmark （\zhnumber{\arabic{subsection}}）}
         {1em}
         {}
 
@@ -352,20 +352,13 @@ Style Section-toc*
 End
 
 Style Subsection
-    CopyStyle       Section
-    LabelCounter    subsection
-    TocLevel        2
-    LatexName       subsection
-    TopSep          0.9
-    BottomSep       0.5
-    ParSep          0.5
+    CopyStyle       SubSection
 	NextNoIndent    0
-    Align           Center
+    Align           Left
     Font
-        Family      Typewriter
-        Size        Normal
+      Series        Default
+      Size          Larger
     EndFont
-    HTMLTag         h3
 End
 
 Style Subsection*

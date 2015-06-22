@@ -1,0 +1,366 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass HWT
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+具象思维和抽象思维
+\end_layout
+
+\begin_layout Standard
+老师下过的命令
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+具体和抽象的错误观念
+\end_layout
+
+\end_inset
+
+——“由具象到抽象”，尽管我们熟知，却未必理解。很少有人在读过或听过这句话后对具象这一出发点有一个清晰的概念；理解抽象这一目标的性质；以及从一端向另一端所走的路
+的准确性质。有时这个命令的用意是积极的，用来表明教育应该前进的方向，从事例到思想——好像任何不带思考的处理事情的过程都可能是有教育意义的。这样理解，这句箴言所倡
+导的教育标杆是低级的学术和机械程式或感官反应未应用在高端学习。
+\end_layout
+
+\begin_layout Standard
+名义上，所有事情的处理，甚至是孩子对事情的处理，都是充满着推理的；事情由他们的建议引起，被得出的推论所包围，结论对解释该事物是一种强有力的证据，或成为证明某个观
+点的重要论据。没有思想的指示也不可能具有教育意义；没有判断感官理解的依据也是一样。如果我们最终取得的抽象的思想游离于事物之外，那么得到的目标只是形式上的，空洞的
+，因为有效的思维总是或多或少与事例相关。
+\end_layout
+
+\begin_layout Standard
+以上原则在理解补充之后
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+再一次直接和间接的理解
+\end_layout
+
+\end_inset
+
+便有了一个含义——表达了逻辑能力发展的脉络。它有何重要意义？具体的现象表明的这种意义明显区别于其他的意义，以便它本身容易被理解。当我们听到这些词，桌子、椅子、炉
+子、大衣，我们不必思考就知道其意思。这些词清楚地表明其含义所以无须解释。然而，一些词和事物只有先想想其他更熟悉的事物，然后找到两者的联系，找出理解的盲点在哪，最
+后才能知晓。大致来说，前一种意义是具体的，后一种意义是抽象的。
+\end_layout
+
+\begin_layout Standard
+对一个非常熟悉
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+熟悉什么是精神上的具体形式
+\end_layout
+
+\end_inset
+
+物理化学的人来说，原子和分子就相当具体。运用它们根本无须思考其含义。但是对于一个外行或科学的新手来说，他们不得不先回忆一下较为熟悉的内容，然后进行缓慢的理解过程
+，如果熟悉的事物及由此过渡到陌生事物的线索思维中断的话，原子和分子便很容易丢失难得的含义。同样，不同点也可以从专业性术语上看出来:代数中的系数和指数，几何中的三
+角和直角，这些词都与日常含义有别；以及政治经济学中的资本和价格等等。
+\end_layout
+
+\begin_layout Standard
+以上所说的
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+实际的事物是熟悉的
+\end_layout
+
+\end_inset
+
+不同纯粹只和个人智力发展有关；一个时期抽象的物体在另一个阶段可能就是具体的；或者相反，有人会发现完全熟悉的事情涉及陌生的因素及未解决的问题。尽管如此，依靠整体判
+断熟悉的和不熟悉的范畴，还是有一条区别抽象与具体的比较恒定的分界线。这些界限主要是由实际生活的需要所决定的。诸如木棍和石头、肉和马铃薯、房屋和树木等事物都是生活
+中不可或缺的恒常元素，其重要意义在于为其他事物尽快熟悉，并与其他事物永存。当某个事物与我们有关（或者是我们所熟悉的事物），我们便会熟悉它，甚至会熟悉它陌生而且未
+曾预料的方面。由于社会交往的必要，成年人便不断补充着对税、选举、工资、法律等术语的具体理解。那些我们不能立刻明白的东西，像厨具、木工工具、编织工具，也会毫不犹豫
+地归于具体一类，因为它们与我们的普通社会生活息息相关。
+\end_layout
+
+\begin_layout Standard
+相对而言，抽象的是理论的，或者不与实际行为紧密相连的。抽象的思想者（正如通常所叫的纯科学工作者）有意从生活的实际应用中抽象出来；也就是说，他根本不考虑实际用途。
+然而这种考虑是消极的看法。去除了与实际应用的联系之后，还剩下什么呢？很明显只剩下与思考的内容本身相关的目标了。很多的科学观点是抽象的，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+理论上或在智力上严格的是抽象的
+\end_layout
+
+\end_inset
+
+不仅是因为尽管在该科学中长期学习后仍无法理解（这与艺术中的技巧问题是一样的）。还因为它们的全部意义的形成就是为了促进更多知识，达到探索和推断这一纯粹的目的。当思
+考用于一个超越自身的更好的目标时，它才是具体的；当它仅是作为纯粹思考的手段，它就是抽象的。对于一个理论家来说，一个想法是足够的完整的，仅仅是因为想法本身；对于医
+生、工程师、艺术家、商人、政治家，想法只有给生活带来好处它才是完整的——健康、财富、美貌、善良、成功，或者你想要的东西。
+\end_layout
+
+\begin_layout Standard
+普通情况下对大多数人来说，生活中的实际需要几乎是紧迫的。
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+对理论的轻蔑
+\end_layout
+
+\end_inset
+
+他们的主要事务是合理指导他们的行为。任何只能够带来思考范围的东西都是无效而遥远的——几乎是虚假的。所以现实的成功的执行官对“纯粹的理论家”心怀蔑视；所以尽管理论
+家的想法认为有些事情在理论上是非常完美的，但是实际上却不适用；总体来说，实干家在使用抽象的、理论的、思维的这些词语时，总有一种蔑视的口气，与脑子聪明是有区别的。
+\end_layout
+
+\begin_layout Standard
+当然，这种态度在特定的情况是合理的。但是从常识或实际中得知，理论的贬低并不能包含所有的事实。即使是从常识的角度来说，某个事物因其“太朴实”，人们只专注了其即刻的
+现实情况，以至于看不到它的未来，或者说如同切断了支撑它的枝干。
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+但理论却高度实际
+\end_layout
+
+\end_inset
+
+关键是要找到一个界限，一个度，作出调整，而不是绝对分离。真正实际的人会自由地思考一件事，却不会死钻牛角尖，以获得最大的益处；完全投入事物的实际应用只会封闭自己的
+视野，并在将来毁掉自己。用短绳将我们的思想束缚到实际用途这根柱子上，并不能带来好处。行动的力量需要一些远见和想象力。人们至少要拥有对思考的兴趣，至少能够摆脱陈规
+陋俗的束缚.对知识本身的兴趣，即思考本身成为一种游戏，是解放实际生活并使之丰富进步的必备条件。
+\end_layout
+
+\begin_layout Standard
+1.
+\begin_inset space \space{}
+\end_inset
+
+因为
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+开始于具体意义，开始于实际操作
+\end_layout
+
+\end_inset
+
+具象表明思考将运用于一切活动，以求有效地解决展现出的实际问题，“从具象开始”意味着我们需从一开始就行动，尤其要运用那些并非惯例或机械的措施，由此需要聪明的选择和
+方法内容的调整。当我们仅仅增加感触或收集物理事实时，我们并没有“听从自然的命令”。对数字的教学，不是仅仅因为使用了木板、豆子或点等手段就变得具象起来，只要清楚认
+识数字关系的使用和特性，只要使用数字，数字的概念就是具象的。正如在一些时候一定的物体被用来代表—不论是木块、线条，或者数字——一定的事物。如果在教授数字或地理或
+其他东西时，使用实物并不能让学习者认清实体之外的意义的话，那么这样的教学跟直接给出定义和定律的方法一样抽象；因为它只会转移学生对概念的理解，而只是觉得事物好玩。
+\end_layout
+
+\begin_layout Standard
+这样一个观点，即只需将实体放在学生眼前感知一下，就能在大脑中留下一定的概念思想，是一种迷信。
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+带有明显的具体混乱
+\end_layout
+
+\end_inset
+
+将实物课程引入思考训练比起之前的纯语言教学要进步很多，但这个进步也会误导教学者，最后的事实只能是一知半解的应用。事实上，对事物的感知能够发展孩子的思维，但前提是
+他们能够在自身的活动范围中应用实物。合适的不间断的活动和任务能让他们使用自然资源、工具和各种能力，并促使大脑思考它们意味着什么，它们是如何相互联系的，以及如何实
+现目标；而独立存在的事物只能是无用的和僵死的。几代人以前，基础教育改革的最大障碍在于对语言形式（包括数字）的一味的迷信，并据此去训练思维.今天，对实物的迷信阻碍着
+改革的道路.“较好”就经常成为我们寻找“最好”的障碍。
+\end_layout
+
+\begin_layout Standard
+2.
+\begin_inset space \space{}
+\end_inset
+
+对结果的兴趣，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+将兴趣转移到智力活动
+\end_layout
+
+\end_inset
+
+对成功完成一个活动的兴趣，应当逐渐转移到研究事物的智力目标上来——特性、结果、结构、原因和效果。在工作中的职业成年人很少有时间和精力——在立即行动需要之外的—去
+学习自己从事的事业。应该如此安排儿童时期的教育活动:安排直接感兴趣的活动以及提供创造成果的注意事项，创造出与原来活动越来越多的间接和远程连接的需求。在木工和车间
+工作的直接兴趣应逐步转化为对几何和机械问题的兴趣。做饭的兴趣应滋生对化学实验、生理学和成长健康的兴趣。制作图画的兴趣应该过渡到对雕塑技巧及美的欣赏等兴趣。这一发
+展才是“由具象到抽象”的重要含义，它代表了这一过程中动态的真正的教育因素。
+\end_layout
+
+\begin_layout Standard
+3.
+\begin_inset space \space{}
+\end_inset
+
+结果，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+思考活动愉悦的发展
+\end_layout
+
+\end_inset
+
+教育所达到的抽象，是对智力问题本身的兴趣，乐于为思考而思考。开始的行动和过程需借助其他事作准备的这一情况已经是老生常谈了，并发展成了具有自身吸引力的价值。因此它
+是与思考与知识相关的；起初依附于自身之外的结果和调整，渐渐吸引了越来越多的注意力而从途径成为目的本身。这样，孩子就把兴趣渐渐地毫不困难地运用到反思性观察和检验，
+并成功完成了感兴趣的事情。这样就可以大幅度增长和扩大产生的思考，最终这种思考习惯变得非常重要。
+\end_layout
+
+\begin_layout Standard
+第六章举的三种情况
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+转换的例子
+\end_layout
+
+\end_inset
+
+代表了由实际到理论的循环上升。为了履行约定而进行的思考显然是一个具体的例子。想要弄明白船体一部分的意义显然是中间情形。杆子存在的理由和位置是实际性的，对于建筑设
+计者而言便是完全具象的——为了保证一系列的活动。但对于船上的乘客而言，这个问题就是理论的，带有或多或少的猜测。不论他得出杆子的用途与否，对他抵达目的地都没有影响
+。第三个例子，起跑的出现和运动，显示的是严格的理论或抽象问题。没有解决实际困难的危险，也没有调整外部条件达成目的的必要。好奇心，求知欲，被反常的情形所困惑，思考
+仅仅是尝试解释普遍公理的例外。
+\end_layout
+
+\begin_layout Standard
+（1）抽象思考，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+理论知识从未停止
+\end_layout
+
+\end_inset
+
+应该注意到，代表了一个目标，但不是终极目标。远程持续思考距离直接使用还有一段差距，是实际和直接思维模式的衍生品，但不能是替代品。教育的目标不是毁掉思考的能力，跳
+过障碍，调整途径和目标；也不是由抽象思考来代替。理论思考也井不是比实际思考更高一级。掌握两种思考形式的人比只懂一种的要高明。发展抽象思维能力的方法若减弱了实际和
+具体的思维习惯，就不算实现教育的理想，如同在培养计划、发明、安排、预测的能力时，忽略了与实际结果无关的思考的乐趣一样失败。
+\end_layout
+
+\begin_layout Standard
+（2）教育者
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+大多数小学生并不是意气相授的
+\end_layout
+
+\end_inset
+
+应该注意到个人之间存在的不同；他们不能将一种模式和类型强加给所有学生。很多学生（可能是大部分）的实际执行倾向占据主要的目标导向，其思维习惯是想完成任务取得成绩，
+而不是仅为知道而已。工程师、律师、医生、商人在成人中比学者、科学家和哲学家的数量要多得多。当然教育应当使人都具有学者、科学家和哲学家的精神，不论他们的职业兴趣和
+目的如何。但却投有道理认为一种思维习惯就比另一种优越，也没理由强制地将实际型的转变为理论型的。我们的学校不正是单方面倾向更加抽象的思考，因此给大部分学生带来不公
+了吗？难道不是由于缺乏“不拘一格”和“仁爱”的教育，才培育出了过于专门化的技术类思想家吗？
+\end_layout
+
+\begin_layout Standard
+教育的目标
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+教育的目标在于有效的平衡
+\end_layout
+
+\end_inset
+
+应该保证两种思考态度的平衡融合，并充分考虑到个人的性格，不能阻碍和限制他自身所具有的强大力量。对个人强烈的具体爱好或天分的限制应当放宽。应该抓住每一个能够发展对
+智力问题产生好奇和兴趣的实际的活动。不能依靠暴力来抑制自然性情。对于那些对抽象的纯粹的智力问题非常有兴趣的少数人来说，应该努力去增加应用思想的机会和需要：将象征
+性的真理运用到社会生活的目标中去。每一个人都有这两种能力，如果这两种能力能够紧密地联系起来，那么每个人的生活都会更有效更快乐。
+\end_layout
+
+\end_body
+\end_document
