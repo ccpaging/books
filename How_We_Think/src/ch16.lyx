@@ -1,0 +1,428 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass HWT
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 1
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+一般性的结论
+\end_layout
+
+\begin_layout Standard
+某些思维因素应该是相互平衡的，但却常常趋于互相分离和对抗的状态，而不是相互协作，形成富有成效的反省的探究。我们提出这几个思维的因素，综合地评述我们是怎样思维的，
+以及我们应当怎样思维，作为本书的总结。
+\end_layout
+
+\begin_layout Section
+无意识的和有意识的
+\end_layout
+
+\begin_layout Standard
+“理解了”
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+理解作为无意识的假定
+\end_layout
+
+\end_inset
+
+这一名词的一种重要意义是完全掌握了某一事物，作为一种假定，完全同某一事物符合；这就是说，已被理解的事物是当然如此的，无须再有明确的说明。我们平常所熟悉的“不言而
+喻”这句话，其中“而喻”的意思就是“某事已经理解了。如果两个人能够相互理解地进行谈话，那是因为他们有共同的经验，这一共同的经验提供了他们之间相互理解各自言谈的背
+景。探讨和阐明这种共同的背景是愚笨的；这种背景是“已经理解了的”；就是说，这种背景默默地提供了理所当然的媒介，这就是观念的理智交流的媒介。
+\end_layout
+
+\begin_layout Standard
+然而，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+询问作为有意识的构想
+\end_layout
+
+\end_inset
+
+如果两个人发现他们各自的意见是矛盾的，就有必要以各自的意见为基础，去查找和比较它们的前提，隐含的关系。这样，隐含的就变成了明确的；无意识的假定，经过阐明论证，成
+为有意识的了。用这种方法，就消除了误解的根源。一切富有成效的想法，都包含着有意和无意的节律。一个追求对思维不断训练的人，理所当然认可这些理念(因此对无意识不做任
+何表述)，并确信和他人交流时坚持了这些理念。某些情形、某些条件和控制目的完全地支配了他的思路，以至于不需要进行有意识的构造和阐述。明确的思路仅在有暗示或能理解的
+内容的范围内奏效。但是，在某些情形下，问题的反映有必要对相似的背景进行有意识的检查核实。我们必须进行部分无意识的假设，并使之更加明确。
+\end_layout
+
+\begin_layout Standard
+对于怎样才能使两个方面的心智生活达到适当的平衡和有节奏的变化，我们无法拟定出任何规则来。
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+不能通过获得平衡来赋予规则
+\end_layout
+
+\end_inset
+
+同样，对于自发的、无意识的态度和习惯，到了何种程度便应该受到检查控制，使其隐含的意义变得明确起来，我们也不能规定任何的条例。对于到了什么时候什么限度，才应当从事
+分析性的检查和有意识的说明，也没有人能明智而详细地作出回答。我们可以说，他们必须进行足够的检测和防范，即足以使个人知道他是如何指导他自己的思维；但是，在特定的场
+合下，这又是怎样的程度呢？我们可以说，必须进行到足以发觉和预防一些错误的感觉和推理，并获得研究的方法；但是，这种方法仅仅是重申了原先的困难而已。因为在特殊的事件
+中，我们所依靠的是个人的倾向和机智，检验教育的成功与否，最为重要的是看这种教育是否培养出一种思维形式，能够在无意识的和有意识的之间保持平衡的关系。
+\end_layout
+
+\begin_layout Standard
+我们前面
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+要避免过度分析
+\end_layout
+
+\end_inset
+
+批评了错误的“分析”的教学方法。它的错误就是因为放弃了无意识的态度和有效的假定，而追求直接明确的注意和阐述，以求取得较好的效果。单纯为了有意识地去阐述它，而把眼
+睛紧紧盯住熟知的、一般的、机械的事物，这既是一种不恰当的干涉，也会引起厌烦的心情。被迫去有意识地详细阐述习惯了的事物，是无聊的本源。这种教学方法减弱了学生的好奇
+心。
+\end_layout
+
+\begin_layout Standard
+另一方面，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+对错误的察觉和对真理的紧握，需要有意识的陈述
+\end_layout
+
+\end_inset
+
+是指我们前面批评过的，单纯的机械的技能。我们曾经说过，提出真正的问题，提出新异的事物，获得大量的一般意义，其重要性也应加以考虑。眼睛紧紧盯住那些顺利有效的事，而
+不去有意识地搞清错误或反复失败的根源，也会导致有效思维的失败。过分地简单化，以及为了追求迅速的技能而排斥新异的情境，为了防止错误而故意回避障碍，这和试图让学生去
+阐述他们已知的每一件事情，去说明获得结果的过程中的每一步骤一样，是有害的。遇到困难的问题，就需要进行分析性的检查。每当解决了一个难题，就应当把有关这一问题的知识
+积存起来，使之成为解决更深一层问题的有效资源。因此，有意识的总结和组织是绝对必要的。在学习某一学科的早期阶段，大量自发的、无意识的心理活动，即使冒有随意实验的危
+险，也还是允许的。但到了学习的后一阶段，就应当鼓励有意识的阐述和复习。推测和反省，直接前进和回顾检查，应当交互为用。无意识为我们提供了自发性行为和新鲜的兴趣，而
+意识则为我们提供了控制和掌握思维的能力。
+\end_layout
+
+\begin_layout Section
+过程和结果
+\end_layout
+
+\begin_layout Standard
+在心智活动中，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+再次玩耍和工作
+\end_layout
+
+\end_inset
+
+过程和结果也同样具有平衡的特征。在考虑游戏与工作的关系时，我们就可以发现调节这一平衡的一个重要方面。在游戏中，兴趣集中于活动，与结果并无多大的关系。连续发生的行
+为、印象、情绪，依靠这些表现就可得到满足。而在工作中，却由结果来控制着注意力和手段。二者只是兴趣的方向有所不同，强调的重点有差异，它们并不是根本分裂开来的。如果
+把活动或结果中比较突出的方面，有意识地彼此孤立起来，造成二者分离，游戏就会退化为傻打傻闹，工作也就变成苦役了。
+\end_layout
+
+\begin_layout Standard
+所谓“傻打傻闹”，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+玩耍不可以糊弄
+\end_layout
+
+\end_inset
+
+我们理解为，依靠一时的怪想和偶发事件，来发泄过剩精力的一系列毫不相关的即时活动。如果把所有同结果有关的认识都从连续的观念和行为中排除掉，这连续的观念和行为便各自
+分开，变成幻想的、任意的、无目的的，即只是傻打傻闹了。儿童和动物都有根深蒂固的顽皮好闹的倾向；这一倾向也并不完全是坏的，因为它有抵制常规旧套的作用。即使纵情于梦
+想和幻想之中，也可以启动心扉于新的方向。但是，过度地沉溺于梦幻之中，便会招致精力的浪费和溃散。而唯一可以防止这种结果的方法是使儿童能在某种程度上预测他们活动的结
+果，以及大体上可能产生的影响。
+\end_layout
+
+\begin_layout Standard
+然而，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+不可以做苦差事
+\end_layout
+
+\end_inset
+
+如果唯一的兴趣仅限于结果，那么工作就变成苦役了。所谓苦役，是只对结果产生兴趣的那些活动，而对这些活动取得结果的过程并没有兴趣。每当一项工作变成苦役时，做事的人就
+对工作过程的价值失去了兴趣，而只关心行为的结果。工作本身需要付出能量，这是令人生厌的；但这又是必要的，因为没有它，一些重要的结果就无法得到。众所周知，世界上有许
+多必须去做的工作，对此，人们并没有内在的强烈的兴趣。然而，有一种观点认为，儿童应当去干一些苦差事，从而养成忠于令人生厌的职责的能力，这种观点是完全错误的。强制儿
+童去做令人生厌的工作，结果只能是对于职责的厌恶、躲避和推诿，而不是对于职责的忠诚和热爱。要使儿童愿意做本来并不吸引人的事，最好的方法是让他理解工作结果的价值，使
+对价值的意识转移到工作的过程之中。工作本身并没有兴趣，而是借用了结果的兴趣，把工作过程与结果联系起来。
+\end_layout
+
+\begin_layout Standard
+工作和游戏的分离，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+要平衡玩耍和严肃这种智力上的想法
+\end_layout
+
+\end_inset
+
+结果和过程的分离，造成了对理智的危害。有谚语为证:“不游戏，光干事儿，小孩变成傻宝贝儿。”相反，如果儿童仅有游戏而无工作，事实将充分表明，傻打傻闹是近于愚蠢的。
+既爱游戏，同时又严肃正经是可以做到的，这正是理想的心智生活的状态。心智针对一个主题，在自由的游戏中，表现出理智的好奇心和灵活性，而没有独断和偏见。这种自由的游戏
+，并不是鼓励把某一问题当作玩耍取乐的手段，而是超脱成见和习惯的目的，其兴趣在于剖析问题的各个方面，使其意义充分展现出来。理智的游戏具有开通的头脑，相信思维的力量
+，保持思维的完整性，不受外部的诱惑或专横的限制。因此，理智的自由游戏就包含严肃性，它热切的追求问题的发展，它与粗心或轻率是不相容的，因为它要求精确地说明取得的结
+果，使每一结论有更长远的用途。
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+心灵的自由嬉戏，在童年是很正常的
+\end_layout
+
+\end_inset
+
+所谓“为真理而求真理的兴趣”，当然是一件严肃的事情，然而，这种纯粹的兴趣，实际上是与爱好探究性的自由游戏的思维相一致的。
+\end_layout
+
+\begin_layout Standard
+尽管有许多相反的表面迹象(通常因为社会条件，或者是财富过剩，导致了人们闲散的玩耍，或者是过度的经济压力，强使人们去干苦差事)，但是，在正常情况下，在儿童时期，把
+自由的游戏和认真的思考结合起来的理想是可以实现的。关于儿童生活的许多成功的描绘，既显示出了他们对于未来的无忧无虑，也至少明显地表现了他们的专心致志的沉思。为现在
+而生活，同提炼现在生活中的深远意义并不矛盾。这种充实的现实生活，正是儿童正当的继承物，也是他们将来成长的最好保障。迫使儿童过早地关心遥远的经济成果，在某一特殊的
+方面，虽可以惊人地磨炼他们的才智，但是这种过早的专门化却要付出代价，即形成漠不关心和感觉迟钝的状态，这是很危险的。
+\end_layout
+
+\begin_layout Standard
+艺术起源于游戏，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+艺术家的态度
+\end_layout
+
+\end_inset
+
+这是老生常谈了。不论这句话从历史上看是否正确，它指出了理智游戏和严肃态度的和谐，从而描述了艺术的理想。艺术家如果过多地专心于方法和材料上，他虽可以获得精妙的技巧
+，但却没有得到优秀的艺术精神。相反，如果生动活泼的意念超过了已经掌握的方法，虽然可以表现艺术的感觉，但是因艺术表现的技巧过于贫乏，因而不能彻底表现艺术的感觉。思
+维的目的要相当适当，才能转化成手段，使手段体现适当的目的，或者通过对目的的认识，又激发了为此目的服务的手段，这样，才会有艺术家的典型的态度。这种态度在我们的一切
+活动里都是可以表现出来的，即使不是传统上所说的“艺术”，也能表现出这种态度。 
+\end_layout
+
+\begin_layout Standard
+教学是一种艺术，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+老师教学的艺术以养成这种态度而告终
+\end_layout
+
+\end_inset
+
+而真正的教师就是艺术家。这也是一句老生常谈。教师是否有权加入艺术家的行列，要看他是否能够培养青年或儿童也具有艺术家的态度。有些教师能够激发热情，交流思想，唤起活
+力。果然如此。当然是好的。但是最后的检验还要看他能否成功地把这一热情转化为有效的力量。也就是说，他能否使学生注意事物的详情细节，以保证能够掌握实施的手段。如果不
+能，学生的热情就会减少，兴趣就会消失，而理想也只能成为糊涂的记忆了。另有一些教师，能够成功地训练学生的灵巧，技能及对技术的精通。到了这种程度，当然也是好的。但是
+，如果不能扩大理智的视野，提高价值的辨别能力，以及增强对观念和原则的感受，这种训练即使能获得某些技能，也往往会与目的相去甚远。而且，随着情境的不同，这种技能也仅
+仅表现为合于私利的灵巧，俯首帖耳地接受别人的指派，或者在常规旧套中，干着令人不可想象的苦差事。既要提出激动人心的目的，又能训练实施的手段，并使两者和谐一致，这既
+是教师的难题，又是对教师的酬报。
+\end_layout
+
+\begin_layout Section
+远和近
+\end_layout
+
+\begin_layout Standard
+有些教师
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+对熟悉内容不感兴趣
+\end_layout
+
+\end_inset
+
+留心避免那些和儿童经验毫不相干的教材，但他们常会惊奇地发现，学生们对于他们知识范围之外的事情感到兴趣盎然，而对于很熟悉的教材反感到索然无味。在地理学科上，儿童似
+乎对乡土环境的理智魅力毫无异常反应。但是，对于山或海却津津乐道。教师从学生的作文中可以看到，他们很不愿意描述十分熟悉的事物，有时甚至渴望去写那些玄虚虚假的题目。
+一个受过教育的妇女，记录了她当工厂工人的经历，并在上班时间里，把《小妇人》的故事讲给女工们听。女工们毫无兴趣，只是说:“那些女孩子的经历有什么稀奇?还比不上我们
+呢!”她们想听的是有关大富翁和社会名流的故事。一个关心日常劳动心理问题的人，曾经问过苏格兰棉厂里的一位女工，她们整天在想些什么。她回答说，只要机器一开动，她的心
+闲下来，便想要同一位公爵结婚，有朝一日继承他的遗产。
+\end_layout
+
+\begin_layout Standard
+当然，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+从那以后只有少数需要关注
+\end_layout
+
+\end_inset
+
+我们讲这些偶然的事例，并不是为了鼓励人们去采用那些耸人听闻的，离奇的或令人费解的教学方法。而是为了强调这么一点：熟悉的和相近的教材，本身并不能引起思维或使思维作
+出反应，只有用它们来理解陌生的和相远的教材时，才是有用处的。心理学常识告诉我们，旧的或者我们完全熟悉了的事物，并不能引起我们的注意。这是有充分的道理的，因为新环
+境不断地要求人们去适应，如果仅仅注意于旧的事物，那就会浪费精力，而且是很危险的。思维必须准备用来对付新的，不确定的和疑难的问题。因此，如果使学生的思维仅限于他们
+业已熟悉的教材上，便会压制他们的理智，涣散他们的感觉能力。我们不必去注意旧的，近的，习惯了的事物，但是要利用它们；它们不提出问题，但提供解决问题的材料。
+\end_layout
+
+\begin_layout Standard
+前面谈到的内容，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+反过来，只有通过旧事物才能被给予关注
+\end_layout
+
+\end_inset
+
+引出了思维中新与旧，远与近的平衡的问题。比较远的提供刺激和动机；比较近的供给观点和可以利用的材料。这一原则也可以变换一种说法：只有当难和易之间有适当的比例时，才
+会出现更好的思维。容易和熟悉，就像奇异和困难一样，有相同的意义。太容易了，没有探究的基础；太困难了，探究就无法进行。
+\end_layout
+
+\begin_layout Standard
+近和远
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+给予的和建议的
+\end_layout
+
+\end_inset
+
+的相互作用是不可缺少的，这是直接由思维的本质所决定的。只要有思维，那么当前存在的事物就可以暗示或象征尚未出现的事物。同样，熟悉的，旧的事物必须在新的情境中提示出
+来，才能推动思维前进；才能找出新的和不同的事物。如果所提供的材料全是新奇的事物，那么就失去了可以用来理解任何事物的暗示的基础。例如，一个人开始学习分数的时候，若
+不向他指出与他已经掌握了的整数之间的关系，他就会感到很困惑。而等到他彻底地熟悉了分数的时候，他对分数的感知便成为某些行为的单纯的符号了；它们是“替代符号”，他不
+用思维就可以马上对这些符号作出反应。不过，如果情境中全部是新异的和不确定的事物，则全部的反应就不是自动的，而是解决一个问题，就是利用这种自动的反应。新教材通过思
+维变成了熟知的旧经验以后，又用来判断和融化更新的教材。这种螺旋上升的过程是永远没有止境的。
+\end_layout
+
+\begin_layout Standard
+在每一个心智活动里，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+观察提供了相近的和遥远的想象
+\end_layout
+
+\end_inset
+
+既需要想象又需要观察，这说明观察提供了了上述原则的另一个方面。一些教师试图采用传统形式的“实物教学”，他们通常会发现，学生被新的课程所吸引，认为这是一种消遣，但
+一旦新课程变成了理所当然的事情，他们就像以前机械地学习符号一样，感到单调和厌倦。想象不能仅仅拘泥于实物，而应使之丰富起来。教学中，“从事实到事实”就会使学生成为
+一种追求狭隘的平庸之辈，这不是因为事实本身有局限性，而是因为把事实分成了一成不变的，预先准备好的若干条目，想象的余地就没有了。提出事实是为了刺激想象，如果能在新
+的情境中提示出事实来，那么想象也就自然地随之丰富了。反过来讲，也是对的。想象也并不一定是空幻的，即是说，不一定是不真实的。想象所特有的作用，在于发现在现有的感官
+知觉条件下，不能显示出来的现实性和可能性.想象的目标是对于遥远的、模糊的和难解的事物，具有明晰的洞察力。历史、文学、地理、自然科学，甚至几何学和算术，都有大量材料
+，要想完全理解，必须依靠想象。想象补充，加深了观察，只有当它沦为幻想时，它才妨碍观察，而失去其逻辑的力量。
+\end_layout
+
+\begin_layout Standard
+最后需要说明的是，
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+通过与他人交流的经验
+\end_layout
+
+\end_inset
+
+一个人对于人和物相接触所获得的狭隘的经验，以及从知识传播中所获得的广泛的种族经验，这两者之间的关系，也可以表示近与远之间所要求的平衡。在大量知识需要传播的条件下
+，教育上常有淹没学生个人的生动经验(虽然这种经验是狭隘的)的危险。充满活力的教师能够传播知识，激励学生通过感官知觉和肌肉活动的狭窄的门户，进入更完满，更有意义的
+人生；而单纯的教书匠却止步不前，无所作为。真正的传播知识，包含着思想的传导；如果传播知识不能使儿童和他的民族之间发生共同的思想和目的，那么所谓传播知识不过是徒有
+虚名而已。
+\end_layout
+
+\end_body
+\end_document
