@@ -24,7 +24,7 @@ enumitem
 \font_sf_scale 100
 \font_tt_scale 100
 \graphics default
-\default_output_format default
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
@@ -37,10 +37,10 @@ enumitem
 \pdf_bookmarksopenlevel 1
 \pdf_breaklinks true
 \pdf_pdfborder true
-\pdf_colorlinks false
+\pdf_colorlinks true
 \pdf_backref false
 \pdf_pdfusetitle true
-\pdf_quoted_options "colorlinks=true,linkcolor=blue"
+\pdf_quoted_options "linkcolor=blue"
 \papersize default
 \use_geometry false
 \use_package amsmath 1

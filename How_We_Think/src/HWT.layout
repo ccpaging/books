@@ -1,7 +1,7 @@
 #  \DeclareLaTeXClass[book]{mybook}
 Format 11
 Columns                 1
-Sides                   1
+Sides                   2
 PageStyle               Headers
 #Provides natbib-internal   1
 #Provides url       1
@@ -13,7 +13,7 @@ Preamble
     \special{papersize=9cm,12cm}
     \RequirePackage{xkeyval}
     
-    \RequirePackage{amssymb} %this package conflicts with xeCJK, place it before xeCJK to avoid the coflict.
+    \RequirePackage{amssymb} %this package conflicts with xeCJK, place it before xeCJK to avoid the conflict.
     
     %\setmainfont{SimSun-18030}
     %\setsansfont{Komika Text}
@@ -170,6 +170,7 @@ Preamble
     \renewcommand{\thefootnote}{\scriptsize{\textcircled{\tiny{\arabic{footnote}}}}} % 编号带圈
     
     % 设置边码格式
+    \usepackage{marginnote}
     \let\OriginalMarginpar\marginpar
     \def\marginpar#1{\OriginalMarginpar{\scriptsize\CJKFontKai #1}}
     
