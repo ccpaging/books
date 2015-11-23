@@ -13,7 +13,7 @@ Preamble
     \special{papersize=9cm,12cm}
     \RequirePackage{xkeyval}
     
-    \RequirePackage{amssymb} %this package conflicts with xeCJK, place it before xeCJK to avoid the coflict.
+    \RequirePackage{amssymb} %this package conflicts with xeCJK, place it before xeCJK to avoid the conflict.
     
     %\setmainfont{SimSun-18030}
     %\setsansfont{Komika Text}

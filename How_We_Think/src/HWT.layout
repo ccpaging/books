@@ -18,7 +18,8 @@ Preamble
     %\setmainfont{SimSun-18030}
     %\setsansfont{Komika Text}
 
-    \setmainfont{Times New Roman}
+    %\setmainfont{Times New Roman}	% 生成的pdf在windows中无法拷贝，原因未知
+    \setmainfont{方正新书宋_GB18030}
 
     % 设置字体
     \RequirePackage{xltxtra,fontspec,xunicode,zhnumber} % 支持\zhnumber{\thechapter}
