@@ -74,29 +74,29 @@ Preamble
     \titleformat{\part}[display]
 		{\CJKFontHei \Large \centering}
 		{\starmark 第\zhnumber{\arabic{part}}部分}
-		{0.5ex}
-		{\rule{12em}{0.5pt}\newline}
+		{1em}
+		{}
 		[]
     
     \titlespacing*{\part}
 		{0pt}
 		{0pt}
-		{0pt}
+		{20pt}
 
     % 章标题
     %\renewcommand\thechapter{\arabic{chapter}}
-    %\renewcommand\thechapter{第\zhnumber{\arabic{chapter}}章}
+    \renewcommand\thechapter{第\zhnumber{\arabic{chapter}}章}
     \titleformat{\chapter}[display]  % display 序号和标题分别占用两行
-        {\CJKFontHei\Large\centering}          % format 标题格式
-        {\starmark 第\zhnumber{\arabic{chapter}}章}     % label 用于定义定义标题的标签,就是标题内容前面的标号
-        {0.5ex}                       % sep 定义标题的标签与标题内容之间的间隔距离
+        {\Large \centering}          % format 标题格式
+        {\starmark \thechapter}     % label 用于定义定义标题的标签,就是标题内容前面的标号
+        {1em}                       % sep 定义标题的标签与标题内容之间的间隔距离
         {}                          % before 用于在标题内容前再加些内容
         []                          % after 用于在标题内容后再加些内容
 
     \titlespacing*{\chapter}
        {0pt}% left
        {1cm}% before
-       {2ex}% after
+       {1.2ex}% after
     
     % 节标题
     %\renewcommand{\sectionname}{}
@@ -124,8 +124,8 @@ Preamble
         {} % That is, without page number
         [\addvspace{.5pc}]
 
-    \titlecontents{chapter}[display]   % left
-        {\Large\bfseries\centering}  % above-code
+    \titlecontents{chapter}[0pt]   % left
+        {\addvspace{2pt}\filright}  % above-code
         {\contentspush{第\zhnumber{\thecontentslabel}章\quad}}    % numbered-entry-format
         {}    % numberless-entry-format
         {\titlerule*[8pt]{.}\contentspage}  % filler-page-format
@@ -290,7 +290,8 @@ Style Chapter
     LabelType       Static        # Above
 	NextNoIndent    0
     LabelSep        xx
-    Align           Left
+    Align           Center
+    Alignpossible   Center
     Font
         Series      Default
         Size        Largest
@@ -355,6 +356,7 @@ Style Subsection
       Series        Default
       Size          Larger
     EndFont
+    HTMLTag         h3
 End
 
 Style Subsection*
