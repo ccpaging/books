@@ -107,9 +107,7 @@ quad}
 \backslash
 textsf{
 \backslash
-footnotesize{
-\backslash
-enskip{}齐斯·德福林}}}
+footnotesize{齐斯·德福林}}}
 \end_layout
 
 \end_inset
@@ -251,9 +249,9 @@ addcontentsline{toc}{chapter}{
 \backslash
 texttt{
 \backslash
-footnotesize{推荐序}}{
+footnotesize{推荐序}}
 \backslash
-quad}大破大立
+hspace{0.7em}大破大立
 \backslash
 protect 
 \backslash
@@ -261,7 +259,7 @@ protect
 \backslash
  
 \backslash
-hspace{3.5em}
+hspace{3.2em}
 \backslash
 footnotesize{——难得一见的数学教育好书
 \backslash
@@ -414,9 +412,9 @@ addcontentsline{toc}{chapter}{
 \backslash
 texttt{
 \backslash
-footnotesize{推荐序}}{
+footnotesize{推荐序}}
 \backslash
-quad}数学差，不是你的错
+hspace{0.7em}数学差，不是你的错
 \backslash
 protect 
 \backslash
@@ -424,7 +422,7 @@ protect
 \backslash
  
 \backslash
-hspace{3.5em}
+hspace{3.2em}
 \backslash
 footnotesize{——别让学校扼杀了创意！
 \backslash

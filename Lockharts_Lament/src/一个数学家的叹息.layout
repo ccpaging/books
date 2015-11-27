@@ -102,7 +102,7 @@ Preamble
     %\renewcommand{\sectionname}{}
     %\renewcommand\thesection{\arabic{chapter}.\arabic{section}}
     \titleformat{\section}
-        {\CJKFontHei \large}
+        {\large \centering}
         {\starmark \zhnumber{\arabic{section}}、}
         {1em}
         {}
@@ -121,7 +121,7 @@ Preamble
         {\addvspace{2pt}\filright}
         {\CJKFontHei \contentspush{第\zhnumber{\thecontentslabel}部分\quad}}
         {\CJKFontHei}
-        {} % That is, without page number
+        {\titlerule*[8pt]{.}\contentspage} % That is, without page number
         [\addvspace{.5pc}]
 
     \titlecontents{chapter}[0pt]   % left
@@ -131,7 +131,7 @@ Preamble
         {\titlerule*[8pt]{.}\contentspage}  % filler-page-format
         []  % below code
         
-    \titlecontents{section}[1em]   % left
+    \titlecontents{section}[3em]   % left
         {\addvspace{2pt}\filright}  % above-code
         {\contentspush{\thecontentslabel\quad}}    % numbered-entry-format
         {}    % numberless-entry-format
@@ -298,6 +298,16 @@ Style Chapter
     EndFont
 End
 
+Style Chapter*
+    CopyStyle       Chapter
+    Category        Unnumbered
+    Margin          Static
+    LatexName       chapter*
+    LabelType       No_Label
+    LabelCounter    ""
+    ResetArgs       1
+End
+
 Style Chapter-toc*
     CopyStyle       Chapter
     Category        Unnumbered
@@ -316,7 +326,7 @@ End
 Style Section
     CopyStyle       Section
 	NextNoIndent    0
-    Align           Left
+    Align           Center
     Font
       Series        Default
       Size          Larger
@@ -346,27 +356,6 @@ Style Section-toc*
         \section*{#1\addcontentsline{toc}{section}{#1}}
         }{}
     EndPreamble
-End
-
-Style Subsection
-    CopyStyle       SubSection
-	NextNoIndent    0
-    Align           Left
-    Font
-      Series        Default
-      Size          Larger
-    EndFont
-    HTMLTag         h3
-End
-
-Style Subsection*
-    CopyStyle       Subsection
-    Category        Unnumbered
-    Margin          Static
-    LatexName       subsection*
-    LabelType       No_Label
-    LabelCounter    ""
-    ResetArgs       1
 End
 
 Style Enumerate

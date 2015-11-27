@@ -24,7 +24,7 @@ enumitem
 \font_sf_scale 100
 \font_tt_scale 100
 \graphics default
-\default_output_format pdf4
+\default_output_format default
 \output_sync 0
 \bibtex_command default
 \index_command makeindex
@@ -38,7 +38,7 @@ enumitem
 \pdf_breaklinks true
 \pdf_pdfborder true
 \pdf_colorlinks true
-\pdf_backref false
+\pdf_backref section
 \pdf_pdfusetitle true
 \pdf_quoted_options "linkcolor=blue"
 \papersize default
@@ -76,7 +76,7 @@ enumitem
 \headsep 20mm
 \footskip 0mm
 \secnumdepth 1
-\tocdepth 0
+\tocdepth 1
 \paragraph_separation indent
 \paragraph_indentation 2em
 \quotes_language english
@@ -492,7 +492,7 @@ width "95text%"
 special "none"
 height "1in"
 height_special "totalheight"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset VSpace 30theight%
@@ -534,7 +534,27 @@ status open
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "ch00.lyx"
+filename "00.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "01.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "01-1.lyx"
 
 \end_inset
 
