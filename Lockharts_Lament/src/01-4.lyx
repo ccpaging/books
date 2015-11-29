@@ -1,0 +1,236 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass 一个数学家的叹息
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter*
+中学几何：邪恶的工具
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+hspace{3em}中学几何：邪恶的工具}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+对于一位提出严厉指控的作者来说，最恼人的是，他所指控的对象却表示愿意支持他。中学里的几何课程比披着羊皮的狼更狡猾，比假朋友更不忠。正因为学校尝试籍此课程向学生介
+绍论证的艺术，使得它变得如此危险。
+\end_layout
+
+\begin_layout Standard
+假冒成一个竞技场，在这里学生终于要参与真正的数学推论，这个病毒击中了数学的要害，摧毁了创造性理性论证的本质、毒害学生对这个迷迷人又美妙学科的喜爱、使他们永远都不
+能以自然又直觉的方式来思考数学。
+\end_layout
+
+\begin_layout Standard
+这背后的机制是微妙而迂回的。它先以一堆不得要领的定义、命题、符号来惊吓且麻痹被害的学生，再又系统地引导其进入娇柔做作的语言，以及人为的所谓“正统几何证明”公式，
+缓慢地、精心地阻断了学生对形状及其模式的自然好奇心或直觉。
+\end_layout
+
+\begin_layout Standard
+撇开所有的隐喻，我直白地说，整个K-12数学课程纲要当中，几何是目前为止最具心灵及情绪杀伤力的。其他的课程可能还隐藏着美丽的小岛，或是把小鸟关在笼子里，但是几何
+课，则是公开的、残忍的酷刑。（显然我 还是得用到隐喻）。
+\end_layout
+
+\begin_layout Standard
+问题就出在系统性地从根摧毁学生的直觉。证明，是数学论证，是一部小说，是一首诗。它的目的是在“满足”（satisfy）。一个完美的证明应当是要说明，而且应该说明得
+清楚、巧妙且直截了当。一份完美、制作完善的论证，应当感觉像是醍醐灌顶，应该是指路的明灯——它应该要提振我们的精神、照亮我们的心灵，而且应该是有趣迷人的。
+\end_layout
+
+\begin_layout Standard
+但是在我们几何课上的证明却没有一丁点有趣迷人之处。呈现给学生的是僵硬、教条式的公式，由这些公式来进行所谓的“证明”——这些公式是不必要且不适当的，就如同要求孩子
+们必须更具花朵的属别和种别来种花一样。
+\end_layout
+
+\begin_layout Standard
+我们来看看这个疯狂事迹的一些例子。我们先来看，这两条交叉的直线：
+\end_layout
+
+\begin_layout Standard
+通常会做的第一件事就是不必要地加入过多符号，搅浑了这摊水。显然，我们没有办法简单地说出两条相交的 直线：必须给予名称。而不只是简单的名称，像是“第一条线”和“第
+二条线”，或甚至“a”和“b”。我们必须（根 据中学几何课程）在这些直线上选择随机且不相关的点，然后使用特殊的“直线符号”来表示这些直线。 你看，现在我们得称它
+们为和。然后上帝特准你可以省略掉它们顶上 的小横杠——“AB”代表直线的长度（至少我认为是这个意思）。不管这是多么没意义的复 杂，大家都必须学习这样做。现在来看
+实际上的陈述，通常是以一些荒谬的名称来称呼，像是：
+\end_layout
+
+\begin_layout Standard
+命题 2.1.1 令和相交于P。则∠APC≌∠BPD。
+\end_layout
+
+\begin_layout Standard
+换言之，两侧的角度是相等的。我的天啊，两条相交的直线，它们的组成当然是对称的。然后呢，好像弄成这 样还不够糟，对于直线和角度这样显而易见的叙述，还必须要加以“证
+明”。 证明： 叙述 理由 1. m∠APC+m∠APD=180  1. 角度加法公理(Angel Addition Postule)   m∠BPD+m∠APD=
+180 2. m∠APC+m∠APD 2. 代换(Substition Property)  =m∠BPD+m∠APD 3. m∠APD=m∠APD
+ 3. 反身性(Reflexive Property of Equality) 4. m∠APC=m∠BPD 4. 等式减法性质(Subtraction
+ Property of Equality) 5. ∠APC≌∠BPD 5. 角度公理(Angle Measurement Postulate) 原本应该是由人以世
+界上的自然语言写出来的饶富机智及有趣的论证，我们却把它搞成这样沉闷、没有灵魂、 官样文章的证明。层层堆砌成山！我们的要将这么直截了当的观察，弄成这么长的论文吗？
+老实说：你真的有 在读它吗？当然没有。谁会要读呢？ 在这么简单的是情商搞得那么隆重，结果就是让人们怀疑起自己的直觉。对于如此显而易见的事情，减持要
+ “严格的证明”（就像它会构成法律上正式的证据似的），就像是对学生说：“你的感觉和想法是可疑的，你必 须以我们的方式来思考和说话。” 毫无疑问，我们的确有要做数
+学正式证明的时候，但是当学生第一次接触到数学论证时，不应该这么做。至少 让他们熟悉一些数学主题，以及了解对这些主题能有什么期待之后，再开始正式严谨的讨论。只有在
+有危机的 时候————当你发现你想象的物件，它的行为违反了直觉，以及当有矛盾发生时，严格的正式证明才变得很重 要。但是这种过分的预防性保健措施，在这里是完完全全
+没有必要的——疾病还没发生哪！当然，如果有逻辑危 机发生的时候，那么很明显的应该要加以研究，论证必须做的清楚明白，但那个过程可疑进行得直觉一些，也
+ 不必那么正式。事实上，数学的精髓，就是和自己的证明进行这样的对话。 所以，不是只有大部分的小孩被这个假学问完全搞迷糊了——没有什么比去证明明显的事更让人困惑了
+——即使那 些还保有直觉的少数人，也必须将他们优异、绝妙的点子转换置入这个荒诞难解的框架里，好让他们的老师说 它是“正确的”。老师则沾沾自喜地认为他让学生的心智
+变敏锐了。 再来是一个比较严肃的例子。我们来看看一个半圆里面的三角形：
+\end_layout
+
+\begin_layout Standard
+这个模式的美丽真相在于，无论三角形的顶点是在圆周的哪里，它都是直角。（我不反对用“直角”(right angle)，如果这个名词与问题有关，而且方便讨论的话。我
+反对的不是专有名词本身，而是没有要领、没有 必要的专有名词。如果学生喜欢的话，我也很乐意用“转角”或“角落”。）
+\end_layout
+
+\begin_layout Standard
+我们的直觉在这里会有些疑问。这会一直都成立吗？不是那么清楚，甚至看起来不太可能——如果我移动 那个顶点，角度不会改变吗？此处我们有一个绝妙的数学题目！这是真的吗
+？如果是真的，为什么是真的？这是多么伟大的作业呀！这是可以让我们的智慧和想象力动起来的一个绝佳机会！
+\end_layout
+
+\begin_layout Standard
+……当然学生不会得到这样的机会，他们的好奇心和兴趣立刻就会被泼了冷水： 定理 9.5 令△ABC内接于一个直径为的半圆。 则∠ABC为直角。
+\end_layout
+
+\begin_layout Standard
+证明： 叙述 理由 1. 画半径，则OB=OC=OA 1. 已知 2. m∠OBC=m∠BCA 2. 等腰三角形定理   m∠OBA=m∠BAC 3. m∠ABC=m∠O
+BA+m∠OBC 3. 角度和公理 4. m∠ABC+m∠BCA+m∠BAC=180 4. 三角形内角和为180度 5. m∠ABC+m∠OBC+m∠OBA=180
+ 5. 代换（叙述2） 6. 2m∠ABC=180 6. 代换（叙述3） 7. m∠ABC=90 7. 等式的可除性 8. ∠ABC为直角 8. 直角的定义
+ 还有什么比这更无聊，更不直截了当的？有什么论证能更令人困惑，更难读？这绝不是数学！一个证明应该是 神迹的显现，而不是来自五角大厦的密码讯息。这是把逻辑严谨性摆
+错了地方的结果：丑陋。论证的精神 被令人迷惑的形式主义给埋藏了。 没有任何数学家是这样工作的。从来没有任何数学家以这种方式工作。这是对数学这门学问完全的、彻底的
+误 解。数学不是在我们自己和我们的直觉之间升起屏障，也不是要让简单的事情变得复杂。数学是移除通往直觉 的障碍，以及让简单的事情维持简单。 前述令人倒胃口的证明，
+拿来对比我七年级学生所做的论证： 将这个三角形旋转半圆，使其成为一个圆里边的四边形，由于三角形是完全的旋转过来的，此四边形的边 必然是平行的，因此这是一个平行四
+边形。然而它也不是斜边四边形，因为它的两条对角线都是这个圆的 直径，因此它们是等长的，也就是说，它必然是一个长方形，这就是为什么它的角是直角。
+\end_layout
+
+\begin_layout Standard
+这不是很轻松愉快吗？重点不在这项论点的点子是否比另一个高明，而是在点子的出现。（事实上，第一 个证明的点子是相当美妙的，可惜被隔上了一层深黑色的玻璃。）
+ 更重要的是，这是学生自己的点子。在课堂上有个好题目给学生做，他们做出猜测、试着证明、然后其中 一名学生就做出了结果。当然这花了好几天功夫，而且是一连串失败后的
+结果。 老实说，我曾经大幅改述这个证明。最初版本有些迂回，且含有许多不必要的赘词（以及拼字和文法错误）。 但是我认为我了解他的意思。这些缺点是好事；让我这个老师
+有事情可做。我得以指出一些文体上和逻辑上的 问题，学生则因而得以改进他的论证。举例而言，我对于两条对角线都是直径这一点不是很满意——我不认为这
+ 是完全显而易见的——但这只是表示需要对这文体多一点思考，以及可从中获得多一些了解。事实上，这名学生 可以把它修补得很好： 由于这个三角形绕着图形转了半圈，顶点
+必然正好和原来的位置处于正对面的位置。这就是为什么四边形的 对角线是圆的直径。 这就是一项伟大的作业，一个美妙的数学作品。我不确定谁对此更引以为傲，是学生还是我
+自己。我就是我的 学生们体验到这类的经验。 几何学的标准课程的问题在于，艺术家挣扎奋斗的个人经验，全都被消灭了。证明的艺术性，被毫无生气、形 式化的演绎法的僵硬
+步骤所取代了。教科书呈现出一整套定义、定理及证明，教师们照抄在黑板上，学生们照 抄在笔记簿上。然后要求学生再依样画葫芦的写习题。谁能快速学会这种模式的，就是“好
+”学生。 结果，在创造的行动里学生变成了被动的参与者。学生做出叙述，去符合现成的证明模式，而不是因为他们 的确这样子想。他们被训练去模仿论证，而不是去想出论证。
+因此，他们不只不知道老师在说些什么， 他们也不知道自己在说些什么。 即使是定义的传统表达方式，也是个谎言。为了创造出简洁的假象，在进行典型的一系列命题和定理之前
+，先 提供一套定义，让叙述及证明可以尽可能的简洁。表面上，这似乎是无害的：做一些化繁为简的定义，这样叙 述起来可以轻松便利，不是很好吗？问题在于，定义非常重要。
+定义是身为艺术家的你认为重要，而做的美学 决定。而且它是因问题而产生的。定义是要彰显出来，并让人们注意到一项特质或结构上的属性。在历史 上，这是从问题研究的过程
+中产生的，而不是问题的前提。 重点是，你不会从定义开始，你是从问题开始。一直到毕达哥拉斯（Pythagoras）试图测量正方形的对角线， 因而发现它无法以分数来
+表示，在那之前没有人想过，数可能是“无理的”（irrational）。只有在你的论证 达到某一点，你必须要做出区别来厘清时，定义才有意义。在没有动机的时候做出的
+定义，更可能造成 混淆。 这只是将学生排除在数学过程之外的一个例子。学生必须在有需要的时候能够做出自定的定义——自己为辩论 做架构。我不要学生说“定义、定理、证
+明”，我要他们说“我的定义、我的定理、我的证明”。 把这些抱怨都摆在一旁吧，这种呈现方式的真正问题在于，它很枯燥。效率和经济性并不是好的教学方法。我
+ 很难说欧几里得（Euclid）是否赞同此点，但是我知道阿基米德（Archimedes）绝对不会赞同。
+\end_layout
+
+\begin_layout Standard
+辛普利西奥：我们这里先停一下。我不知道你的情况如何，不过我是真的喜欢我的中学几何课。我习惯那个 架构，也喜欢在僵硬的证明形式中做几何。 萨尔维亚蒂：我相信你是喜
+欢的。你可能偶尔也会做到一些不错的题目。很多人喜欢几何课（虽然更多人痛恨 它）。但是这不是支持目前制度的好理由。这反而强而有力地证实了数学本身的魅力。要完全摧毁
+这么美丽的事 物，是非常困难的；即使是数学还残留的影子，仍是如此吸引人并让人满足。许多人也还是喜欢按数字涂色，那 是令人放松而且有趣的动手活动，虽然那并不是真正
+的绘画。 辛普利西奥：可是我是在告诉你，我喜欢它。 萨尔维亚蒂：如果你还有过更自然的数学经验，你会更喜欢它。 辛普利西奥：所以，我们应该设立一些没有任何形式的数
+学旅程，学生遇到什么就学什么吗？ 萨尔维亚蒂：正是如此。问题会引导出其他的问题，在有需要时，就会发展出技巧，新的主题就会自然地产生。 如果有些课题在求学的十三年
+之间都没有遇到过，它会多有趣或多重要呢？ 辛普利西奥：你完全疯了。 萨尔维亚蒂：我也许是疯了。但是即使在传统的框架下工作，一位好的老师也可以引导讨论及问题的走向
+，使得 学生能自己发现及发明数学。真正的问题是，行政官僚制度不容许个别教师做这样的事。因为要遵循一套课程纲 要，老师无法主导教学内容。标准还有课纲都是不应该存在
+的。应该让老师做他们觉得对他们的学生最好的事。 辛普利西奥：但这样一来，学校怎么保证所有的学生都获得相同的基本知识？我们要如何精确地衡量他们的相对知识程度？
+ 萨尔维亚蒂：学校不能做保证，而且我们也不用这么做。就像在真实的人生中一样，最终你必须面对一个事实， 就是人都不一样，但并没有关系。无论如何，这没有什么大不了。
+一个高中毕业生不知道什么是半角公式（说得 好像他们现在就了解似的！），又怎样？至少那个人对于这个科目到底是怎么回事还有些概念，而且还曾经看过 美妙的事物。
+ 对标准课程纲要的批评，在结束的此时，我要为社会提供一项服务，就是首次完全诚实地呈现K-12数学的 课程纲要：
+\end_layout
+
+\end_body
+\end_document

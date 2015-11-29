@@ -92,88 +92,18 @@ enumitem
 
 \begin_body
 
-\begin_layout Chapter-toc*
-学校里的数学
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Comment
+\begin_layout Chapter*
+数学与文化
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-051
-\end_layout
 
-\end_inset
 
-要抹煞学生对一门科目的热情与兴趣，最有效的方法就是把它列为必修课。把它列入标准化测验的主要科目,就能保证让它失去生命力。学校董事会不了解数学的本质，教育家、教科
-书的作者、出版商也不了解，悲哀的是，大部分的数学老师也不了解。问题的范围大到我都不知道要从何说起了。
-\end_layout
-
-\begin_layout Standard
-让我们从“数学改革”的溃败开始说吧。多年来，觉得数学教育现状有问题的觉醒不断升高。为了“修正问题”，开始进行一堆研究；举办一堆研讨会；组成数不清的教师、教科书出
-版商及教育家（不管他们是谁）的专家小组。除了有利可图的教科书产业（任何一点点政治动荡就可以让他们将无法下咽的天书“改版”，从中得利），整个改革运动一直都是失焦的
-。数学课程不需要被改革，它需要的是被“砍掉重练”。
-\end_layout
-
-\begin_layout Standard
-对于要以什么样的顺序教授哪些“主题”，或是要用
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-０５２
-\end_layout
-
-\end_inset
-
-这个符号而不是那个符号、要用什么型号的计算机，这种种的过度关注和细细斟酌，天呀！就像是对铁达尼号甲板上的座椅做重新排列！数学是理性的音乐（the
- music of 　reason）。做数学是从事发现与猜测、直觉与灵感的活动；是进入疑惑的状态——不是因为它让你搞不懂，而是因为你给了它意义，而你还不知道你的
-创造会走向何处；是产生一个突破性的想法；是像艺术家一般遭遇挫折；是被几近痛苦的美丽所折服与赞叹；是感觉活着（alive）。瞭吗？把这些从数学里拿掉，无论你开多少
-研讨会，都不重要。医生，随便你动多少手术，反正你的病人已经死了。
-\end_layout
-
-\begin_layout Standard
-所有的这些“改革”最悲哀的地方是企图“要让数学变有趣”和“与孩子们的生活产生关连”。你不需要让数学有趣——它本来就远超过你了解的有趣！而它的骄傲就在与我们的生活
-完全无关。这就是为什么它是如此有趣！
-\end_layout
-
-\begin_layout Standard
-想要让数学呈现出和日常生活是相关联的，不可避免地就会牵强而做作：“小朋友，如果你会代数，那你就能算出来玛丽亚现在的年龄，如果我们知道她现在的年龄是她七年前年龄的
-两倍！”（难道有人会知道这样荒谬的资
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-０５３
-\end_layout
-
-\end_inset
-
-讯，而不知道她的年龄吗！）代数不是跟日常生活有关，而是跟数与对称性有关——这是它的本质所要追寻的。
-\end_layout
-
-\begin_layout Standard
-假设我知道两个数字的和与差，我要如何找出它们是哪两个数字？
-\end_layout
-
-\begin_layout Standard
-这是一个结构简单且确切的提问，它不需要弄得吸引人。古时候的巴比伦人喜欢解答这类的问题，我们的学生也是。（我希望你也能喜欢思考这个问题！）我们不需要把问题弯来折去
-的，让数学与生活产生关联。它和其他形式的艺术用同样的方式来与生活产生关联：成为有意义的人类经验。
-\end_layout
-
-\begin_layout Standard
-无论如何，你真的认为小孩子会想要和他们日常生活有关的东西吗？你认为像“複利”这样实用的东西会让小孩子觉得很兴奋吗？人们喜欢“奇幻”，而这正是数学能够提供的——日
-常生活中的消遣、现实工作世界的调剂。
-\end_layout
-
-\begin_layout Standard
-当老师或教科书屈服于“做作”时，也会产生同样的问题。为了对抗所谓的“数学焦虑”学校“造成”的一系列疾病之一），而把数学弄得看起来“友善，便利”。
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-０５4
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+hspace{3em}数学与文化}
 \end_layout
 
 \end_inset
@@ -182,24 +112,206 @@ status open
 \end_layout
 
 \begin_layout Standard
-例如，为了帮助学生记忆圆的面积和圆周的公式，老师可能会发明一整套关于“圆周先生”（Mr.C）的故事，他绕着“面积太太”（Mrs.A）说，他的“两个派”如何地好（C=
-2Пr）,然后她的“派是方形的”（square,另一个意思是数学上的“平方”）（A=Пr2），还有许多这类没有意义的故事。然而“真正的故事”是什么呢？是关于人类
-为了测量曲线所做的种种努力；是关于欧多克斯（Eudoxus）、阿基米德（Ar chimedes）和“穷尽法”（method of exhaustion）；是关于
-神奇的∏。到底什么比较有趣—－用方格纸估算粗略的圆周？用别人给你的公式（不加解释，只是要你背起来然后不断地练习）来计算圆周？还是听听这个人类史上最美妙又奇幻的题
-目，最聪明和最具震撼力的想法是如何发生的？我们这不是在抹减人们对“圆”的兴趣吗？
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+P37
+\end_layout
+
+\end_inset
+
+首先我们要了解，数学是一门艺术。数学和其它类型的艺术如音乐和绘画的差别只在于，我们的文化不认同数学是一门艺术。每个人都了解，诗人、画家、音乐家创造出艺术作品，以
+文字、图像及声音来表达自我。事实上，我们社会对创造性的表达是相当大方的，建筑师、厨师、甚至电视导播都被认为是职业上的艺术家。那么，为何数学家不是呢？
 \end_layout
 
 \begin_layout Standard
-我们为什么不给学生一个机会聆听这些事情，让他们有机会真正地做一些数学，得出自己的想法、意见和回应呢？有哪个科目的惯常教法是不提来历、哲理、主题的发展、美学标准及
-目前状况的呢？有哪个科目会避而不谈它
+这个问题，有一部分原因出在，没有人知道数学家到底在做些什么。社会上的普遍认知似乎是，数学家和科学是有关联的——也许是因为数学家提供给科学家一些公式和定理，或者协
+助将一大堆数字输入电脑。如果这个世界必须要分成“诗意梦想家”和“理性思考家”两部分，毫无疑问，绝大多数人会把数学家放在后面那一类。
 \end_layout
 
 \begin_layout Standard
-055
+然而，事实上，没有什么像数学那样梦幻及诗意，那样基进、具破坏力和带有奇幻色彩。我们觉得天文学或物理学很震撼人心，在这一点上，数学完全一样（在天文学家发现黑洞之前
+，数学家老早就有黑洞的构想了），而且数学还比诗、美术或音乐容许更多的表达自由，后者高度依赖这个世界的物理特质。数学是最纯粹的艺术，同时也最容易受到误解。
 \end_layout
 
 \begin_layout Standard
-最初的来源---历史上一些最有创造力的人所创造出来的美妙艺术作品---而选择让三流的教科书把它低俗化？
+因此让我试着解释数学是什么，以及数学家做些什么。我以哈帝（G.
+\begin_inset space \space{}
+\end_inset
+
+H.
+\begin_inset space \space{}
+\end_inset
+
+Hardy，英国数学家，1877—1947）绝佳的叙述作为开场：
+\end_layout
+
+\begin_layout Quotation
+
+\family sans
+一位数学家，就像一位画家或诗人，是模式（pattern）的创造者。如果他的模式比画家或诗人的模式能留存得更久，那是因为这些模式是用理念（ideas）创造出来的。
+\end_layout
+
+\begin_layout Standard
+所有数学家的工作是做出理念的模式（making
+\begin_inset space \space{}
+\end_inset
+
+patterns
+\begin_inset space \space{}
+\end_inset
+
+of
+\begin_inset space \space{}
+\end_inset
+
+ideas）。什么样的模式？什么样的理念？是关于犀牛的理念吗？不是的，那些留给生物学家吧。是关于语言和文化的理念吗？不通常不是这些对大部分数学家的审美观而言，都
+太复杂了。如果数学有一个统一的美学原则的话，那将是：简单就是美（simple
+\begin_inset space \space{}
+\end_inset
+
+is
+\begin_inset space \space{}
+\end_inset
+
+beautiful）。数学家喜欢思考最简单的可能性，而这种最简单的可能性是想像的，不见的是现实存在的。
+\end_layout
+
+\begin_layout Standard
+例如，如果现在我在思考形状——这是我常常做的——我可能会想象在长方形中有一个三角形：
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/p37.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+我想知道，这个三角形占据了长方形多少的空间？三份之二吗？重要的是要了解，我现在探讨的不是长方形内有三角形的这幅画。我探讨的，也不是一座组成桥梁上梁柱架构的那些金
+属三角形。在此，并没有那些深谋远虑的实用目的存在。我纯粹就是在玩。这就是数学——想知道（wondering）、游戏（playing）、用自己的想象力来娱乐（am
+using）自己。首先，三角形在长方形中占据了多少空间，甚至没有任何真实、实体上的目的。即使是最谨慎小心制造出来的实体三角形，仍然是不断震动的原子所组成的；它的
+形状每分钟都在改变。也就是说，除非你要探讨“近似”（approximate）的度量。好了，这里就会牵扯到数学的“美学”了。因为那样就不单纯了，它成为一个仰赖真实
+世界各式各样细节的丑陋问题了。那些留给科学家去解决吧。数学提出的问题是，在一个想象的长方形中那一个想象的三角形。它的形状边缘很完美，因为我要它们很完美——这就是
+我喜欢思考的问题类型。这就是数学的一个主要特征：你想要它是什么样，它就是什么样。你有无限多的选项；没有真实世界来挡路。
+\end_layout
+
+\begin_layout Standard
+另一个方面，一旦你做了选择（例如，我可能选择我的三角形是对称的，或不是对称的），然后，你这个新创造就会自行发展下去，不管你是否喜欢它的后续发展。这就是创造想象的
+模式时有趣的地方：它们会回应！这个三角形在长方形中占据了某个空间比例，而我完全无法控制这个比例为何。这个数字就摆在那里，可能是三分之二，可能不是，但可不是我说了
+就算。我必须
+\family sans
+找出
+\family default
+这个数字。
+\end_layout
+
+\begin_layout Standard
+因此，我们可以玩玩看，想象一下我们要什么，然后做出模式，再对这套模式提出问题。但是我们要如何解答这些问题呢？这一点都不像科学，我没办法用试管、设备或是任何东西做
+实验来告诉我，我想象出来的虚拟物的真相。能得知我们想象物的真相的唯一方法，就是运用我们的想象力，然而。这是件艰苦的差事。
+\end_layout
+
+\begin_layout Standard
+在这个例子中，我的确看到了简单又美妙的地方：
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/p39.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+如果我把长方形像上面那样切成两个部分，我可以看到这两个部分都被三角形的斜边斜切成一半，所以三角形里面和外面的空间是相等的。也就是说，这个三角形一定是正好占了长方
+形的一半！
+\end_layout
+
+\begin_layout Standard
+这就是数学的外貌和感觉。数学家的艺术就像这样：对于我们想像的创造物提出简单而直接的问题，然后制作出令人满意又美丽的解释。没有其他事务能达到如此纯粹的概念世界；令
+人着迷、充满趣味，而且不花半毛钱！
+\end_layout
+
+\begin_layout Standard
+你也许要问了，我的这个想法又是从何而来的？我怎么知道要画那条辅助线？那我要问你了，画家又是怎么知道要在哪里画上一笔？灵感、经验、尝试错误、运气。这就是艺术，创造
+出那些思想的美丽小诗，创造出那些纯粹理性的诗篇。这个艺术形态有着某种东西，能做如此神奇的转变。三角形和长方形之间的关系原本是个谜，然后那条小小的辅助线让谜底浮现
+出来。我本来看不出来的，突然间我就看见了。然而，我能够从“无”当中创造出全然简单的美丽，并且在这个过程当中改变了我自己。这不正是艺术吗？
+\end_layout
+
+\begin_layout Standard
+这就是为什么看到现在学校里的数学教育会让人如此痛心。这么丰富且迷人的想象力探索过程，却一直遭到贬抑，沦落成一套要硬背死记、毫无生气的“事实”（facts），以及
+必须遵循的演算程序。关于“形状”的一个简单而自然的问题，一个富创造性和收获的发明与发现的过程，却被取代为：
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+三角形面积公式：
+\family default
+
+\begin_inset Formula $A=\nicefrac{1}{2}\ bh$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/p41.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+“三角形面积等于底乘以高的一半”，学生被要求要死背这个公式，然后在“习题”中反复“应用”。兴奋之情、乐趣、甚至创造的过程会有的痛苦与挫折，全都消磨殆尽了。再也没
+有任何“困难”了。问题在提出来时也同时被解答了——学生没事可做。
+\end_layout
+
+\begin_layout Standard
+现在，让我说清楚我到底在反对什么。不是公式，也不是背记一些有趣的事实。在某种情境下，这是可以的，就像学习字汇必须要记忆一样——这可以帮助我们创造更丰富、更微妙的
+艺术作品。但是，三角形是长方形面积的一半，这个“事实”并不重要。重要的是，以辅助线来切割的这个巧妙构思，以及这个构思可能激发出其他美妙的构思，进而引导出在其他问
+题上的创造性突破——光是事实的陈述绝不可能给你这些的。
+\end_layout
+
+\begin_layout Standard
+拿掉了创造性的过程。只留下过程的结果，保证没有人能真正全心全意投入这个科目。这就像是“说”米开朗基罗创造了美丽的雕塑却不让我“看”它。我要如何受到激发而产生灵感
+？（当然实际上还更糟——至少我还知道有一个雕塑艺术存在，只是不让我去欣赏它。）
+\end_layout
+
+\begin_layout Standard
+由于将焦点集中在“什么”，排除掉“为什么”，数学被降格为一个空壳子。数学不是在“真相”里，而是在说明、论证之中。论证的本身赋予真相一个情境，并确认到底我们在谈论
+什么、其意义何在。数学是
+\family sans
+说明的艺术
+\family default
+（the
+\begin_inset space \space{}
+\end_inset
+
+art
+\begin_inset space \space{}
+\end_inset
+
+of
+\begin_inset space \space{}
+\end_inset
+
+explanation）。如果你不让学生有机会参与这项活动——提出自己的问题、自己猜测与发现、尝试错误、经历创造性的挫折、产生灵感、拼凑出他们的解释和证明——你
+就是不让他们学习数学。所以，我不是在抱怨我们数学课堂上出现的事实与公式，我抱怨的是我们的数学课里没有数学。
 \end_layout
 
 \begin_layout Standard
@@ -208,187 +320,182 @@ status open
 \end_layout
 
 \begin_layout Standard
-学校里的数学，最主要的问题出在没有“问题”。我知道大家都认为在数学课堂里的问题，就是那些枯燥的“习题”。“这里有一个题型。这里是解答它的方法。这个会出现在考试里
-。今天的家庭作业是习题1-35题。”这样学习数学是很可悲的：人类成了训练有素的黑猩猩。
+如果你的美术老师告诉你，绘画就是在标了数字的区块上涂上颜色，你会知道这是不对的。我们的文化让你了解这些——我们有博物馆、画廊，你自己家里也有挂画。我们的社会非常
+了解绘画是媒介，人类借由绘画来表达、展现自我。同样的，如果你的科学老师说，天文学是根据人们的出生日期来预测人们未来行为的一门学科，你会知道这个老师有问题——科学
+深入我们的文化，几乎每个人都知道原子、星系、以及一些自然定律。但是如果你的数学老师给你一个印象，不管是明白说出来或是大家默认的，让你觉得数学是公式、定义、以及背
+记一堆演算法，谁来帮你矫正这个印象呢？
 \end_layout
 
 \begin_layout Standard
-但是一个问题，一个真正符合人类天性的提问---是完全不同的。一个立方体的对角线，其长度为何？质数是无止尽的吗？无限大是一个数字吗？在一个平面上用对称的方式铺磁砖
-的方法有多少种？数学的历史，就是人类专注于像这类问题的历史，而不是无须动脑的反刍公式和演算（再加上那些设计来应用它们的做作习题）。
+文化是自我复制繁衍的怪物：学生从他们老师那里学习数学，而老师又是从他们的老师那里学习数学，所以对于数学的欠缺了解与欣赏，会在我们的文化中无止境的复制下去。更糟的
+是，这种“伪数学”以及这种强调精准却无灵魂地操弄符号，它们的延续，创造了自己的文化和自己的一套价值观。那些已经精熟这一套的人，从他们的成功当中衍生出了极大的自负
+。他们最听不进去的就是，数学其实是原始的创造力和美学的感受力。许多数学研究生在被人说“数学很强”说了十年之后，才发现自己其实没有真正的数学天分，只是很会遵循指示
+而已，他们感到伤心、失败。数学不是遵循指示，而是要创造出新的方向。
 \end_layout
 
 \begin_layout Standard
-一个好的问题是你不知道“如何”解决的。这也使它成为一个好的谜题、一个好的机会。一个好的问题不会只单独待在那里，而是会引导至其他有趣提问的跳板。一个
+到现在我还没提到学校里缺乏数学评论这件事呢。学校里的数学教育，不让学生窥见数学的秘密，亦即数学和任何文学作品一样，都是人类为了自己娱乐所创造出来的；数学作品需要
+评论性的评价；任何人都可以拥有对数学的审美品味，并发展出对数学的审美观。数学和诗一样，我们可以质疑它是否符合我们的美学原则：这项数学论证扎实吗？它有道理吗？它简
+单而优美吗？它能否让我更接近事实的核心？当然，在学校里没有对数学进行任何评论——因为根本就没有艺术作品可供评论！
 \end_layout
 
 \begin_layout Standard
-056
+为什么我们不让我们的孩子学习如何做数学呢？难道是我们认为数学太难了，不信任孩子的能力？我们似乎觉得他们有能力谈拿破仑，并得出自己的结论，为什么对三角形就不能呢？
+我认为这只是我们的文化不了解数学。我们得到的印象是，数学是很冷酷而且高度技术性的东西，不可能有人搞得懂——如果这个世上真的有自我实现的预言，这就是一例。
 \end_layout
 
 \begin_layout Standard
-三角形占外框长方形面积的一半。那么，一个长方体中的金字塔呢？我们可以用类似的方法来解决这个问题吗？
+我们的文化如果只是对数学无知，这已经够糟了，但更糟的是，人们真的以为他们了解数学——普遍地误以为数学对人类社会具有实用价值！这就已经构成数学和其他艺术之间的极大
+差异。数学被我们的文化看作是科学和技术的一种工具。大家都知道诗和音乐是纯欣赏，能提升人类的心灵，让我们的生命更高尚（因此在公立学校的课程安排中几乎都被拿掉了），
+但是数学则不然，数学是很“重要的”。
 \end_layout
 
-\begin_layout Standard
-我可以理解训练学生娴熟于特定技巧的想法---我也会这样做。但这绝不是训练的目的。数学上的技巧，就如同其他艺术里的技巧，应该是配合背景而为的。伟大的问题、问题的历
-史、创意的过程—这才是完整的背景。丢给学生一个好的问题，让他们花力气去解决并尝到挫折。看看他们能得到什么 。直到他们极需一个想法时，再给他们一些技巧。但是不要给
-太多。
+\begin_layout Labeling
+\labelwidthstring 萨尔维亚蒂：：
+
+\family typewriter
+辛普利西奥：
+\family default
+ 你的意思真的是说数学对社会没有用，或没有使用价值吗？
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family sans
+译注：此处的人物对话系模拟伽利略的《两种世界体系的对话》。1632年，伽利略出版了《两种世界体系的对话》，这是一本以对话形式论辩的书，书中内容以三个人物的对话展
+开——辛普利西奥（Simplicio，主张地球为中心说的亚里士多德学派支持者），萨尔维亚蒂（Salviati，主张太阳为中心说的哥白尼学派支持者）和萨格莱多（S
+agredo，在这场辩论中持中立态度的博学智者）。但最后一位并未出现在此对话中。
 \end_layout
 
-\begin_layout Standard
-所以，丢开你的授课计划、投影机、讨人厌的彩色教科书、光碟机、以及现代教育马戏园里的所有东西，就单纯地和学生们一起做数学吧！美术老师不会浪费时间在教科书和特定技巧
-的机械式训练上。他们做他们学科里最自然的事情---让小孩子画画。他们在画架间走动，逐一给予建议和指导：
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
-学生：“我在思考我们的三角形问题，然后我发现了一件事。如果这 
+\begin_layout Labeling
+\labelwidthstring 萨尔维亚蒂：：
+
+\family typewriter
+萨尔维亚蒂：
+\family default
+ 当然不是。我只是说一件事物如果有实际上的用途，并不表示它的本质就是如此。音乐可以让人上战场，但这不是人们作曲的目的。米开朗基罗为天花板做装饰，我相信他心中其实
+有更崇高的目的。
 \end_layout
 
-\begin_layout Standard
-个三角形是斜的，那它就不是外框长方形的一半！你看---”
+\begin_layout Labeling
+\labelwidthstring 萨尔维亚蒂：：
+
+\family typewriter
+辛普利西奥：
+\family default
+ 但是我们不需要人们学习数学的实用结果吗？难道我们不需要会计师、木匠之类的人吗？
 \end_layout
 
-\begin_layout Standard
-057
+\begin_layout Labeling
+\labelwidthstring 萨尔维亚蒂：：
+
+\family typewriter
+萨尔维亚蒂：
+\family default
+ 有多少人真正使用这些在学校里学的“实用的数学”呢？你认为外面的木匠有使用三角函数吗？有多少成年人还记得分数的除法，或是如何解二次方程式呢？很显然，目前的实务训
+练课程根本就没用，因为：它不但是让人难以忍受地无趣，也根本没有人会去用它。因此，人们为什么会认为它很重要？让所有的人都“隐约”记得代数公式和几何图形，却“清楚”
+记得对它们的憎恨，我实在看不出这样的教育对社会有什么好处。然而，如果展现给人们看美妙的事物，让他们有机会享受当一个有创造力、有弹性、心胸开放的思想家——这是真正
+的数学教育可能提供的东西，这可能还有点好处。
 \end_layout
 
-\begin_layout Standard
-老师：“非常好的观察！我们的切割方式假设三角形的顶点是落在其底部的范围内。现在我们需要新的想法了。”
+\begin_layout Labeling
+\labelwidthstring 萨尔维亚蒂：：
+
+\family typewriter
+辛普利西奥：
+\family default
+ 但是人们日常生活至少要会算账，不是吗？
 \end_layout
 
-\begin_layout Standard
-学生：“我应该要用其他的方法来切割吗？”
+\begin_layout Labeling
+\labelwidthstring 萨尔维亚蒂：：
+
+\family typewriter
+萨尔维亚蒂：
+\family default
+ 我敢说大多数人在日常计算时都是使用计算机。为什么不用计算机呢？肯定是容易多了，而且更可靠吧。但是我的重点不只是说目前的制度非常糟糕，而是这个制度错失掉如此美好
+的东西！数学应该被当做艺术来教的。这些世俗上认为“有用”的特点，是不重要的副产品，会自然而然地跟着产生。贝多芬能够轻易地写出响亮的广告配乐，但是他当初学习音乐的
+动机是为了创造美好的事物。
 \end_layout
 
-\begin_layout Standard
-老师：“当然，各种想法都试试看吧。想到了什么就跟我说。”
+\begin_layout Labeling
+\labelwidthstring 萨尔维亚蒂：：
+
+\family typewriter
+辛普利西奥：
+\family default
+ 但不是每个人都是当艺术家的料。那些没有“数学天分”的孩子怎么办？他们要如何融入你的计划呢？
 \end_layout
 
-\begin_layout Standard
-那么，我们要如何教导学生做数学呢？我们可以选择适合他们喜
+\begin_layout Labeling
+\labelwidthstring 萨尔维亚蒂：：
+
+\family typewriter
+萨尔维亚蒂：
+\family default
+ 如果每个人都能接触到数学的原始面貌，沉浸在它所带来的挑战性乐趣及惊奇之中，我认为我们会看到学生对数学的态度有极大的转变，同时我们对“数学很强”这个观念的定义，
+也会有极大的转变。我们已经失去了许多有潜能的天才数学家——那些抗拒看起来没有意义又死板科目的有创造力又聪明的学生。他们因为太聪明了，不会浪费时间在这种无聊傻事上
+。
 \end_layout
 
-\begin_layout Standard
-好、个性和经验程度，能吸引他们又不做作的问题。我们给他们时间
+\begin_layout Labeling
+\labelwidthstring 萨尔维亚蒂：：
+
+\family typewriter
+辛普利西奥：
+\family default
+ 但是你难道不认为如果把数学课变得比较像是艺术课，会让大部分的孩子学不到东西吗？
 \end_layout
 
-\begin_layout Standard
-去探索发现，以及形成推理。我们帮助他们精炼他们的论述，并创造
+\begin_layout Labeling
+\labelwidthstring 萨尔维亚蒂：：
+
+\family typewriter
+萨尔维亚蒂：
+\family default
+ 他们现在就学不到东西了呀！根本不要有数学课都强过现在这样，至少有些人还能有机会靠自己去发现一些美好的东西。
 \end_layout
 
-\begin_layout Standard
-一个健全有活力的数学评论氛围。对于他们好奇心的突然转向，我们
+\begin_layout Labeling
+\labelwidthstring 萨尔维亚蒂：：
+
+\family typewriter
+辛普利西奥：
+\family default
+ 那么你是要把数学课从学校的课程中拿掉吗？
 \end_layout
 
-\begin_layout Standard
-保持弹性和开放的态度。简而言之，我们和学生及学科之间要有真诚
+\begin_layout Labeling
+\labelwidthstring 萨尔维亚蒂：：
+
+\family typewriter
+萨尔维亚蒂：
+\family default
+ 数学课早就被拿掉了！唯一的问题是要怎么处理剩下的这副死气沉沉的空壳子。当然，与其取消掉这门课程，我比较想要用生气勃勃、有趣味的数学课来取代。
 \end_layout
 
-\begin_layout Standard
-的知识上的关系。
+\begin_layout Labeling
+\labelwidthstring 萨尔维亚蒂：：
+
+\family typewriter
+辛普利西奥：
+\family default
+ 但是有多少数学老师具备足够的知识，可以用那种方式来教学呢？
 \end_layout
 
-\begin_layout Standard
-当然因为许多原因，我的建议无法实行。现在全国性
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 萨尔维亚蒂：：
 
-\begin_layout Standard
-058
-\end_layout
-
-\begin_layout Standard
-的课程表和测验标准实质上已经抹减了教师的自主权。即使撇开这个
-\end_layout
-
-\begin_layout Standard
-事实，我也怀疑大多数的教师会想要和学生建立这样紧密的关系。这
-\end_layout
-
-\begin_layout Standard
-太容易受到责难，也承担太大的责任—简单地说，这个工作太繁重了！
-\end_layout
-
-\begin_layout Standard
-被动地灌输出版商的“教材”遵照洗发精瓶上的指示“讲课、测
-\end_layout
-
-\begin_layout Standard
-验、反复练习”，这要容易多了。深入且周延地思考一个学科的意义，
-\end_layout
-
-\begin_layout Standard
-以及思考如何将那个意义直接且如实地传达给学生，则是太辛苦了。对于依据个人智慧和良知来做决定，这样困难的差事，我们都被鼓励要
-\end_layout
-
-\begin_layout Standard
-放弃，“按表操课”就好。因为这是阻力最小的路径：
-\end_layout
-
-\begin_layout Standard
-教科书出版商：教师：：
-\end_layout
-
-\begin_layout Standard
-A)药厂：医师
-\end_layout
-
-\begin_layout Standard
-B)唱片公司：音乐节目主持人
-\end_layout
-
-\begin_layout Standard
-C)企业：国会议员
-\end_layout
-
-\begin_layout Standard
-D)以上皆是2
-\end_layout
-
-\begin_layout Standard
-2 编按：a:b::c:d是a:b=c:d的传统写法，原意为“a对b好比是c对d”.
-\end_layout
-
-\begin_layout Standard
-059
-\end_layout
-
-\begin_layout Standard
-麻烦的是，数学就像绘画或诗篇，是“费劲的创意作品”（hard creative work），因此很难教。数学是一个缓慢、沉思的过程。要产生一个艺术作品需要时间，
-而且需要有能力的老师可以辨识出来。当然，公布一套规则，比起指导有抱负的年轻艺术家，要容易多了。写一本录影机的使用手册，比起写一本有观点的书，要容易多了。
-\end_layout
-
-\begin_layout Standard
-数学是一门“艺术”，而艺术应该由职业艺术家来教授，如果不是，至少也应该由能够欣赏这种艺术型态，看到作品时能辨识出来的人来担纲。我们不一定要跟职业的作曲家学习音乐
-，但是你会希望你自己或你的小孩向一个不懂任何乐器、从没听过一首乐曲的人学习音乐吗？你会接受一人从未拿过画笔或从未去过美术馆的人当美术老师吗？那我们为什么能接受那
-些从未有过数学原创作品、不了解这个学科的历史和哲理、最近的发展、这些教材以外更深远意义的人，来当数学老师？我不会跳舞，因而我从未想过我可以教舞蹈课（我可以尝试，
-但肯定不会好看）。差别在于，我“知道”我不会跳舞。也不会有人因为我知道很多舞蹈术语就说我擅长舞蹈。
-\end_layout
-
-\begin_layout Standard
-060
-\end_layout
-
-\begin_layout Standard
-我并不是主张数学老师必须是职业的数学家----这绝非我的意思。但是他们 不是至少应该要了解数学的本质、擅长数学、喜欢做数学吗？
-\end_layout
-
-\begin_layout Standard
-\align center
-* * *
-\end_layout
-
-\begin_layout Standard
-如果教学降格到只是在做资料的转换，如果没有兴奋与惊喜之情的分享，如果老师自己就只是资讯的被动接收者，而非新理念的创造者，那么学生们还有什么希望呢？如果对老师来说
-，分数的加法是一套既定的规则，而不是创造性过程的产物及美学的抉择与追求的结果，那么学生当然也会觉得教学就是一套规则而已。
-\end_layout
-
-\begin_layout Standard
-教学跟资讯无关，而是要和学生建立起真诚的智性关系。教学不需要方法、工具、训练。你只需要真诚。如果你不能真诚，那你就没有权利打扰那些孩子。
-\end_layout
-
-\begin_layout Standard
-尤其是，你没有资格去教“数学”。教育大学完全是胡说八道。你可以修习一些儿童早期发展之类的课程，你可以受一些训练学习如何“有效的”使用黑板及如何准备“教学计划”（
-这是要确保你的课程是有计划的，因此也就
+\family typewriter
+萨尔维亚蒂：
+\family default
+ 很少。但那只是冰山一角......
 \end_layout
 
 \end_body

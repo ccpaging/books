@@ -80,8 +80,8 @@ Preamble
     
     \titlespacing*{\part}
 		{0pt}
+		{3cm}
 		{0pt}
-		{20pt}
 
     % 章标题
     %\renewcommand\thechapter{\arabic{chapter}}
@@ -118,11 +118,11 @@ Preamble
 
     \renewcommand\thepart{第\zhnumber{\arabic{part}}部分}
     \titlecontents{part}[0pt]
-        {\addvspace{2pt}\filright}
-        {\CJKFontHei \contentspush{第\zhnumber{\thecontentslabel}部分\quad}}
-        {\CJKFontHei}
+        {\addvspace{.5pc}\filright}
+        {\contentspush{第\zhnumber{\thecontentslabel}部分\quad}}
+        {}
         {\titlerule*[8pt]{.}\contentspage} % That is, without page number
-        [\addvspace{.5pc}]
+        []
 
     \titlecontents{chapter}[0pt]   % left
         {\addvspace{2pt}\filright}  % above-code
@@ -195,7 +195,7 @@ Preamble
 	}
   
     % 中文文档习惯
-  %  \addto\captionsenglish{
+    % \addto\captionsenglish{
 	    \renewcommand{\contentsname}{目次}
 	    \renewcommand{\listfigurename}{插图目录}
 	    \renewcommand{\listtablename}{表格目录}
@@ -296,16 +296,6 @@ Style Chapter
         Series      Default
         Size        Largest
     EndFont
-End
-
-Style Chapter*
-    CopyStyle       Chapter
-    Category        Unnumbered
-    Margin          Static
-    LatexName       chapter*
-    LabelType       No_Label
-    LabelCounter    ""
-    ResetArgs       1
 End
 
 Style Chapter-toc*
