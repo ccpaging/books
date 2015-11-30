@@ -296,7 +296,9 @@ Paul
 Lockhart
 \size default
 \color inherit
- 保罗拉克哈特 博士
+ 保罗·拉克哈特 
+\size footnotesize
+博士
 \end_layout
 
 \begin_layout Standard
@@ -605,6 +607,16 @@ filename "01-5.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "02.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "99.lyx"
 
 \end_inset
 

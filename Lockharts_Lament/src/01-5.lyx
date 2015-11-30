@@ -114,21 +114,31 @@ hspace{3em}“标准”数学课程}
 \begin_layout Standard
 \noindent
 
-\series bold
-低年级数学。
-\series default
-教化就此展开。学生要学会，数学不是你做的事，而是对你做的事。强调的重点是坐好不动、填空作业纸、遵照指示。孩子们必须熟悉一套综合的演算法，运用印度阿拉伯符号，但与
-他们真实的想望或好奇无关，只关心在几百年前对一般成年人而言都是还太难的事。父母、教师和小孩本身，都要着重在乘法表。
+\family typewriter
+低年级数学
+\family default
+。
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+P096 – P110
+\end_layout
+
+\end_inset
+
+教化就此展开。学生要学会：数学不是你做的事，而是对你做的事。强调的重点是坐好不动，填写作业纸、遵照指示。孩子们必须熟悉一套综合的演算法，运用印度阿拉伯符号，但与
+他们真实的想望或好奇无关，只关心在几百年前对一般成年人而言都还太难的事。父母、老师和小孩本身，都要着重在乘法表。
 \end_layout
 
 \begin_layout Standard
 \noindent
 
-\series bold
-中年级数学。
-\series default
-教导学生将数学视为一套程序，就像是宗教仪式，是永恒的且铭刻于金石之上。颁发圣书，就是数学课本，然后学生学会称呼教会长老“他们”（“此处他们要什么？他们是否要我做
-除法？”）。做作的“应用题”在此时引入，让这些不虚用脑的单调计算，看起来似乎有趣一些。测验学生一大堆不必要的专有名词，像是“整数”（whole
+\family typewriter
+中年级数学
+\family default
+。教导学生将数学视为一套程序，就像是宗教仪式，是永恒的且铭刻于金石之上。颁发圣书，就是数学课本，然后学生学会称呼教会长老“他们”（“此处他们要什么？他们是否要我
+做除法？”）。做作的“应用题”在此时引入，让这些不需用脑的单调计算，看起来似乎有趣一些。测验学生一大堆不必要的专有名词，像是“整数”（whole
 \begin_inset space \space{}
 \end_inset
 
@@ -137,6 +147,154 @@ number）及“真分数”（proper
 \end_inset
 
 fraction），却对于做这样的区分完全不给理由。为代数一做好准备。
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+代数一
+\family default
+。为了不浪费宝贵时间去思考数字及其模式，这门课程将焦点集中在运算时的符号和规则。从古代美索不达米亚楔形泥版的课题，到文艺复兴时期代数学家的高等技术，这一路走来每
+段阶梯的事迹，完全略过不提，代之以令人困惑的支离破碎、后现代式的重述，没有人物、图形、或主题。坚持所有的数字和表达都要用各式各样的标准格式，这对于例如恒等式和等
+式的意义，会造成额外的混淆。因为某些原因。学生必须要背记二次方程式的公式。
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+几何
+\family default
+。这在课程当中是独立出来的，让希望投入有意义数学活动的学生燃起一丝希望，然后又希望破灭。介绍了一堆不方便又让人分心的符号，不遗余力地让简单的事物看起来很复杂。这
+门课的目标是将残余的数学自然直觉连根拔除，为代数二做准备。
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+代数二
+\family default
+。这门课的主题是令人不知所以和不合理地使用坐标几何（coordinate
+\begin_inset space \space{}
+\end_inset
+
+geometry）。在坐标架构下介绍圆锥曲线，来逃避圆锥体及其截线的美学单纯性。学生要学习没来由地把二次方程式重写成各种标准格式。在代数二，还会介绍指数及对数方
+程式，尽管这并不属于代数，显然就只是因为必须找个地方塞这些主题。这门课选择这样的名称，是为了强化阶梯教学的神话。为什么把几何摆在代数一和代数二之间，至今仍是个谜
+。
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+三角函数
+\family default
+。两个星期的课程内容，靠着反复耍弄定义，硬是拉成一个学期的课。真正有趣及美妙的现象，像三角形的边是由夹角决定的，将会和不相关的简写及过时的符号，占据同样的重要性
+，以避免学生对于这个主题的真义产生一点清晰的概念。学生要学习像是“SohCahToa”
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family sans
+译注：一种计算sine，cosine，tangent的记忆法，可参考
+\begin_inset CommandInset href
+LatexCommand href
+name "www.mathwords.com"
+target "http://www.mathwords.com"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+及“All
+\begin_inset space \space{}
+\end_inset
+
+Students
+\begin_inset space \space{}
+\end_inset
+
+Take
+\begin_inset space \space{}
+\end_inset
+
+Calculus”
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family sans
+译注：一种计算三角函数的记忆法，可参考
+\family default
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://en.wikipedia.org/wiki/All_Students_Takes_Calculus"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+这类的记忆法，以取代对于方位和对称性的自然直觉感受。讨论三角测量，但不要提及三角函数的超越特性，或是这类测量具有的语言及哲学问题。必须用计算机，好让这些课题更为
+模糊。
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+预修微积分
+\family default
+。一堆没有关联性的主题无意义的大杂烩。主要是来自浅薄的意图，想要一整套地介绍十九世纪晚期的解析法，然而这样的整合是既不必要也没有帮助。极限（limits）和连续
+（continuity）的技术性定义在此处出现，以混淆对于平滑变化的直觉概念。如课程名称所示，这是要让学生为将来学习微积分做准备的，对形状（shape）和运动（
+motion）的自然概念进行系统性地混淆的最后一个阶段，至此大功告成。
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+微积分
+\family default
+。这个课程将探索关于运动的数学，用一堆不必要的公式来埋葬它是最好的办法。尽管在此是要介绍微分和积分，但将掠过牛顿和莱布尼兹（Leibniz）的简单而深刻的想法，
+代之以更复杂的以函数为主的方法，但那是为了对应各种分析危机而开发出来的，在这套课程中并不会真正应用到。当然这些都不会在课程中提到。在大学里，同样的东西会逐字地再
+上一遍。
+\end_layout
+
+\begin_layout Standard
+\align center
+* * *
+\end_layout
+
+\begin_layout Standard
+以上所述，一贴能永久瘫痪年轻心灵的完整处方——能有效对治好奇心。这就是他们对数学做的好事！
+\end_layout
+
+\begin_layout Standard
+这门远古的艺术形式，蕴藏着让人屏息的内涵及让人心碎的美丽。人们将数学当作是创造力的反面事物而远离它，这是多么讽刺的是呀。他们错过了这门比任何书籍都古老、比任何诗
+都深刻、比任何抽象画都抽象的艺术形式。而这正是学校做得好事！无辜的老师对无辜的学生造成伤害，这是多么可悲的无间轮回。我们全部的人，原本可以享有多少的乐趣呀？
+\end_layout
+
+\begin_layout Standard
+辛普利西奥：好的，我已经彻底沮丧了。再来呢？
+\end_layout
+
+\begin_layout Standard
+萨尔维亚蒂：嗯，关于一个立方体当中的金字塔，我想我有一些点子可以试试......
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body

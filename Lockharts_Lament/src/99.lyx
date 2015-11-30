@@ -1,0 +1,172 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass 一个数学家的叹息
+\use_default_options true
+\begin_modules
+hanging
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman 方正新书宋_GB18030
+\font_sans 方正新楷体_GB18030
+\font_typewriter 方正兰亭黑_GB18030
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command makeindex
+\paperfontsize 10
+\spacing other 1.2
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 9cm
+\paperheight 12cm
+\leftmargin 10mm
+\topmargin 5pheight%
+\rightmargin 20mm
+\bottommargin 5pheight%
+\headheight 10mm
+\headsep 20mm
+\footskip 0mm
+\secnumdepth 1
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation 2em
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+各界好评：
+\end_layout
+
+\begin_layout Standard
+这本书，以于每一位要人事数学教育的人、每一位学龄孩子的家长、每一位负责数学教学的学校或政府官员，都应该是必读之人。
+\end_layout
+
+\begin_layout Standard
+——齐斯·德福林（Keith Devlin）
+\end_layout
+
+\begin_layout Standard
+史丹佛大学教授，《数学的语言》（商周）作者
+\end_layout
+
+\begin_layout Standard
+作者写出了很重要、很平易近人的悲叹和狂喜。他哀叹的是今天数学教育的现状；而他也热切盼望老师们能得到鼓舞，带领学生们体验数学里头十分刺激的“概念的诗意”，而且真的
+是如此。
+\end_layout
+
+\begin_layout Standard
+——贝利·马祖尔（Barry Mazur）
+\end_layout
+
+\begin_layout Standard
+哈佛大学校数学教授
+\end_layout
+
+\begin_layout Standard
+本书的论述精妙，任何对数学教育有兴趣的人都应该要读。我保证他们会喜欢这个阅读经验，不论他们是否完全同意拉克哈特所写的内容。 ——布莱恩·帮区（Bryan
+ Bunch）
+\end_layout
+
+\begin_layout Standard
+The Kingdom of Infinite Number作者
+\end_layout
+
+\begin_layout Standard
+这本关于数学的简短又中肯的小书，对你我当初学习这个科目的方法提出了强烈的抗议。绘画只是在有数字的区块里涂上颜色吗？落日夕阳只是一系列的光谱及方向的指示吗？拉克哈
+特主张，数学不只是定义和公式。想要寻回数学课堂上的游戏和欢乐，他告诉我们，需要伏特 只是回复到真正的数学。
+\end_layout
+
+\begin_layout Standard
+——罗伯·克里斯（Robert P.
+ Crease）
+\end_layout
+
+\begin_layout Standard
+《史上最美的十项科学实验 》（脸谱）作者
+\end_layout
+
+\begin_layout Standard
+A Mathematician ‘s Lament
+\end_layout
+
+\begin_layout Standard
+这本薄薄的小书，用最简洁的方式描述数学之美与乐趣所在，并指头今天拿货的数学教育（背公式、大量的习题）而忽略了带领学生思考问题的“过程”；而正是在对数学的思考当中
+，孩子的心智才会打开，主动产生兴趣。
+\end_layout
+
+\begin_layout Standard
+本书对于美国今日的数学教育做出了沉痛的控诉，然而在台湾，情况也是类似的。我们本来可以给孩子更好的数学体验，让他们数学，有好奇心，这全看我们怎么教。只要那一点点的
+改变。
+\end_layout
+
+\begin_layout Standard
+作者拉克哈特本来是个杰出的大学数学教授，他发愿来教小孩子基础数学，是希望带给孩子们数学的趣味、和充满想像力的一面，因为数学是一门艺术，重要的是过程，是游戏，是玩
+，是去做。因此他非常指头“死记硬背”、“强调效率”、“省略思考过程”的教学方式。
+\end_layout
+
+\begin_layout Standard
+他于2002年写成本书的初稿，只有薄薄的25页，然而在史丹佛大学的齐斯·德福林教授的推动下，于“美国数学协会”的杂志上发布后，在数学社群中引起极大的反响，因而出
+版成书。
+\end_layout
+
+\end_body
+\end_document
