@@ -258,8 +258,8 @@ hspace{3em}中学几何：邪恶的工具}
 \noindent
 \begin_inset Tabular
 <lyxtabular version="3" rows="8" columns="2">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="left" valignment="top">
+<features rotate="0" islongtable="true" longtabularalignment="left">
+<column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="38text%">
 <row>
 <cell alignment="left" valignment="top" usebox="none">
@@ -440,7 +440,7 @@ status open
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -480,7 +480,7 @@ Property of Equality)
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -520,7 +520,7 @@ Property of Equality)
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
+<cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1231,7 +1231,7 @@ Archimedes）绝对不会赞同。
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 辛普利西奥：：
 
 \family typewriter
 辛普利西奥：
@@ -1240,7 +1240,7 @@ Archimedes）绝对不会赞同。
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 辛普利西奥：：
 
 \family typewriter
 萨尔维亚蒂：
@@ -1251,7 +1251,7 @@ Archimedes）绝对不会赞同。
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 辛普利西奥：：
 
 \family typewriter
 辛普利西奥：
@@ -1260,7 +1260,7 @@ Archimedes）绝对不会赞同。
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 辛普利西奥：：
 
 \family typewriter
 萨尔维亚蒂：
@@ -1269,7 +1269,7 @@ Archimedes）绝对不会赞同。
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 辛普利西奥：：
 
 \family typewriter
 辛普利西奥：
@@ -1278,7 +1278,7 @@ Archimedes）绝对不会赞同。
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 辛普利西奥：：
 
 \family typewriter
 萨尔维亚蒂：
@@ -1287,7 +1287,7 @@ Archimedes）绝对不会赞同。
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 辛普利西奥：：
 
 \family typewriter
 辛普利西奥：
@@ -1296,7 +1296,7 @@ Archimedes）绝对不会赞同。
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 辛普利西奥：：
 
 \family typewriter
 萨尔维亚蒂：
@@ -1306,7 +1306,7 @@ Archimedes）绝对不会赞同。
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 辛普利西奥：：
 
 \family typewriter
 辛普利西奥：
@@ -1315,7 +1315,7 @@ Archimedes）绝对不会赞同。
 \end_layout
 
 \begin_layout Labeling
-\labelwidthstring 00.00.0000
+\labelwidthstring 辛普利西奥：：
 
 \family typewriter
 萨尔维亚蒂：
@@ -1325,6 +1325,9 @@ Archimedes）绝对不会赞同。
 \end_layout
 
 \begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
 对标准课程纲要的批评，在结束的此时，我要为社会提供一项服务，就是首次
 \family sans
 完全诚实地

@@ -93,77 +93,224 @@ enumitem
 \begin_body
 
 \begin_layout Standard
+\noindent
+
+\family typewriter
+\size scriptsize
 各界好评：
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+\size footnotesize
 这本书，以于每一位要人事数学教育的人、每一位学龄孩子的家长、每一位负责数学教学的学校或政府官员，都应该是必读之人。
 \end_layout
 
-\begin_layout Standard
+\begin_layout RightLine
+
+\family typewriter
+\size footnotesize
+\color cyan
 ——齐斯·德福林（Keith Devlin）
 \end_layout
 
-\begin_layout Standard
+\begin_layout RightLine
+
+\family typewriter
+\size footnotesize
+\color cyan
 史丹佛大学教授，《数学的语言》（商周）作者
 \end_layout
 
 \begin_layout Standard
+
+\size footnotesize
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+\size footnotesize
 作者写出了很重要、很平易近人的悲叹和狂喜。他哀叹的是今天数学教育的现状；而他也热切盼望老师们能得到鼓舞，带领学生们体验数学里头十分刺激的“概念的诗意”，而且真的
 是如此。
 \end_layout
 
-\begin_layout Standard
+\begin_layout RightLine
+
+\family typewriter
+\size footnotesize
+\color cyan
 ——贝利·马祖尔（Barry Mazur）
 \end_layout
 
-\begin_layout Standard
+\begin_layout RightLine
+
+\family typewriter
+\size footnotesize
+\color cyan
 哈佛大学校数学教授
 \end_layout
 
 \begin_layout Standard
-本书的论述精妙，任何对数学教育有兴趣的人都应该要读。我保证他们会喜欢这个阅读经验，不论他们是否完全同意拉克哈特所写的内容。 ——布莱恩·帮区（Bryan
- Bunch）
+
+\size footnotesize
+\begin_inset VSpace smallskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\noindent
+
+\family typewriter
+\size footnotesize
+本书的论述精妙，任何对数学教育有兴趣的人都应该要读。我保证他们会喜欢这个阅读经验，不论他们是否完全同意拉克哈特所写的内容。
+\end_layout
+
+\begin_layout RightLine
+
+\family typewriter
+\size footnotesize
+\color cyan
+——布莱恩·帮区（Bryan Bunch）
+\end_layout
+
+\begin_layout RightLine
+
+\family typewriter
+\size footnotesize
+\color cyan
 The Kingdom of Infinite Number作者
 \end_layout
 
 \begin_layout Standard
-这本关于数学的简短又中肯的小书，对你我当初学习这个科目的方法提出了强烈的抗议。绘画只是在有数字的区块里涂上颜色吗？落日夕阳只是一系列的光谱及方向的指示吗？拉克哈
-特主张，数学不只是定义和公式。想要寻回数学课堂上的游戏和欢乐，他告诉我们，需要伏特 只是回复到真正的数学。
+
+\size footnotesize
+\begin_inset VSpace smallskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\noindent
+
+\family typewriter
+\size footnotesize
+这本关于数学的简短又中肯的小书，对你我当初学习这个科目的方法提出了强烈的抗议。绘画只是在有数字的区块里涂上颜色吗？落日夕阳只是一系列的光谱及方向的指示吗？拉克哈
+特主张，数学不只是定义和公式。想要寻回数学课堂上的游戏和欢乐，他告诉我们，需要做的只是回复到真正的数学。
+\end_layout
+
+\begin_layout RightLine
+
+\family typewriter
+\size footnotesize
+\color cyan
 ——罗伯·克里斯（Robert P.
  Crease）
 \end_layout
 
-\begin_layout Standard
+\begin_layout RightLine
+
+\family typewriter
+\size footnotesize
+\color cyan
 《史上最美的十项科学实验 》（脸谱）作者
 \end_layout
 
 \begin_layout Standard
-A Mathematician ‘s Lament
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-这本薄薄的小书，用最简洁的方式描述数学之美与乐趣所在，并指头今天拿货的数学教育（背公式、大量的习题）而忽略了带领学生思考问题的“过程”；而正是在对数学的思考当中
+\noindent
+
+\color cyan
+A Mathematician's Lament
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+\size small
+这本薄薄的小书，用最简洁的方式描述数学之美与乐趣所在，并批判今天僵化的数学教育（背公式、大量的习题）而忽略了带领学生思考问题的“过程”；而正是在对数学的思考当中
 ，孩子的心智才会打开，主动产生兴趣。
 \end_layout
 
 \begin_layout Standard
+\noindent
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+\size small
 本书对于美国今日的数学教育做出了沉痛的控诉，然而在台湾，情况也是类似的。我们本来可以给孩子更好的数学体验，让他们数学，有好奇心，这全看我们怎么教。只要那一点点的
 改变。
 \end_layout
 
 \begin_layout Standard
-作者拉克哈特本来是个杰出的大学数学教授，他发愿来教小孩子基础数学，是希望带给孩子们数学的趣味、和充满想像力的一面，因为数学是一门艺术，重要的是过程，是游戏，是玩
-，是去做。因此他非常指头“死记硬背”、“强调效率”、“省略思考过程”的教学方式。
+\noindent
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\noindent
+
+\family typewriter
+\size small
+作者拉克哈特本来是个杰出的大学数学教授，他发愿来教小孩子基础数学，是希望带给孩子们数学的趣味、和充满想像力的一面，因为数学是一门艺术，重要的是过程，是游戏，是玩
+，是去做。因此他非常批判“死记硬背”、“强调效率”、“省略思考过程”的教学方式。
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family typewriter
+\size small
 他于2002年写成本书的初稿，只有薄薄的25页，然而在史丹佛大学的齐斯·德福林教授的推动下，于“美国数学协会”的杂志上发布后，在数学社群中引起极大的反响，因而出
 版成书。
 \end_layout

@@ -653,7 +653,7 @@ perspective]有关）先摆在一边不谈，我们至少能欣赏到一项事�
 \begin_layout Standard
 有时候我们会将数学评论想像成是一只“双头怪兽”。第一颗头要求的是滴水不漏的严谨逻辑解释，在推理上绝对不能有缺口，或是有任何打马虎眼的模糊空间。这颗头是非常注重细
 节，且全然的冷酷无情。我们都恨它实在太唠叨，但在我们心底，我们都知道它是对的。第二颗头要的是纯然的美丽与简洁，让我们感到愉悦，不光是能确认它，而且要得到深刻的理
-解。通常是更难让这颗头满意的。任何人都可以符合逻辑（事实上，演绎法［deduction］的有效性甚至可以机械式的加以检验)，但是要产生一个真正的证明，确实需要灵
+解。通常是更难让这颗头满意的。任何人都可以符合逻辑（事实上，演绎法（deduction）的有效性甚至可以机械式的加以检验)，但是要产生一个真正的证明，确实需要灵
 感和神誌的体现。相类似的，要画一幅精确的画作，不是那么困难，可以靠训练观察力和娴熟的技巧来达成。但是要画出有内涵的画，能传达情绪，与我们对话的画——则完全是另一
 回事。简而言之，我们的目标是要安抚住这只双头怪兽。
 \end_layout
@@ -1188,8 +1188,30 @@ status open
 \end_layout
 
 \begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/139.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 这表示赤道线（当我们将球体对半切时的切口曲线）是“直线”在球面上的自然类比。事实上，在球面上两个点之间最短的路径，是走赤道线（这就是为什么飞机常采取此航线的原因
 ）。
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/140-1.jpg
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1197,63 +1219,139 @@ status open
 \end_layout
 
 \begin_layout Standard
-如果我们有两个点在一个平面同一侧的空间里呢？
+\align center
+\begin_inset Graphics
+	filename images/140-2.jpg
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+如果我们有两个点在一个平面同一侧的空间里呢？
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
 141
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/141.jpg
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 我要说的就是，证明会比它的诞生背景来得重要。一个证明会告诉你什么是真正重要的，什么只是一堆尘埃或是不相关的细节；证明将面粉和粗糠分开。当然，就这个观点而言，有些
-证明是优于其他证明的。常常新的论证被发现出来后，显示出过去认为重要的假设实际上是没有必要的。我在这 里真正想告诉你的是，数学结构与其说是我们设计和建造的，还不如
-说是我们的证明所设计和建造的。
+证明是优于其他证明的。常常新的论证被发现出来后，显示出过去认为重要的假设实际上是没有必要的。我在这里真正想告诉你的是，数学结构与其说是我们设计和建造的，还不如说
+是
+\family sans
+我们的证明
+\family default
+所设计和建造的。
 \end_layout
 
 \begin_layout Standard
-数学的历史发展（尤其在过去两，三个世纪）显现出一致，无可否认的模式：先是问题（题目），来源众多且多样，常常是受到真实世界启发产生的。最终，在不同的问题间建立连结
-，通常是因为在各种证明中出现的共同元素，然后设计出抽像结构，可以“承载”形成连结的那类资讯（典型的例子是“群”｛group｝的概念，它抽像地捕捉了封闭的为行系统
+数学的历史发展（尤其在过去两、三个世纪）显现出一致，无可否认的模式：先是问题（题目），来源众多且多样，常常是受到真实世界启发产生的。最终，在不同的问题间建立
+\family sans
+连结
+\family default
+，通常是因为在各种证明中出现的共同元素，然后设计出抽像结构，可以“承载”形成连结的那类资讯（典型的例子是“群”（group）的概念，它抽像地捕捉了封闭的为行系统
 的概念，
-\end_layout
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 142
 \end_layout
 
-\begin_layout Standard
+\end_inset
+
 例如，代数运算如加法，或是像旋转或重排这类的几何或组合系统的转换）。然后，新抽像结构的行为相关问题被提了出来——分类法问题，不变量的建构，子物件（sub-obj
 ect）的结构,等等。而过程会继续下去，因为抽像结构之间的新连结被发现，产生了更强有力的抽像化。因此，数学与它“朴素的”起源是愈走愈远了。数学的某些领域，像是逻
-辑和范畴论（category theory）,它们开心的所谓空间，里面的“点”竟是数学理论本身！
+辑和范畴论（category
+\begin_inset space \space{}
+\end_inset
+
+theory），它们关心的所谓空间，里面的“点”竟是数学理论本身！
 \end_layout
 
 \begin_layout Standard
 举个小例子来说明，我们路径问题的关键想法在于镜射。镜射有个有趣的特性，就是当你做两次镜射，结果会回到原来，就像是你根本没做镜射一样。这是否让你想起什么呢？这就像
-是我们自我毁灭的仓鼠一样——新版本的1，会让1+1=0的1。在这里，我们在代数结构和几何结构之间有了连结。这提出了一大堆问题，不同的数系可以具备几何“表徵”（r
-epresentation）以什么程序。你是否能建构出一个数系，它的行为像是三角形的旋转呢？
-\end_layout
+是我们自我毁灭的仓鼠一样——新版本的
+\begin_inset Formula $1$
+\end_inset
 
-\begin_layout Standard
+，会让
+\begin_inset Formula $1+1=0$
+\end_inset
+
+的
+\begin_inset Formula $1$
+\end_inset
+
+。在这里，我们在代数结构和几何结构之间有了连结。这提出了一大堆问题，不同的数系可以具备几何“表征”（representation）以什么程序。你是否能建构出一个
+数系，它的行为像是三角形的旋转呢？
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
 143
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
-我真正尝试要解释的是，身为一个现代数学字，我们总是费心寻找结构，以及可以保持结构的转换。这个方法不只提供我们一个有意义的方式，可以将问题归类在一起，以及可以了解
+我真正尝试要解释的是，身为一个现代数学家，我们总是费心寻找结构，以及可以保持结构的转换。这个方法不只提供我们一个有意义的方式，可以将问题归类在一起，以及可以了解
 它们的本质，同时也帮助我们在寻找证明的方法时，能缩小范围。如果一个新的题目，和我们已经有解的题目，属于相同的结构类别，我们就可以使用或修正的方法就好。
 \end_layout
 
 \begin_layout Standard
 好了，现在抓起你的登山砍刀，我们回到树林里去吧。我禁不住就是要再给你至少一个数学美学的例子。我喜欢称这个题目为“派对上的朋友”（Friends
- at a Party）:在一个派对上，一定会有两个人有相同数目的朋友吗？
+\begin_inset space \space{}
+\end_inset
+
+at
+\begin_inset space \space{}
+\end_inset
+
+a
+\begin_inset space \space{}
+\end_inset
+
+Party）：在一个派对上，一定会有两个人有相同数目的朋友吗？
 \end_layout
 
 \begin_layout Standard
-首先，要决定我们字词的定义。人是指什么？朋友是什么？派对又是什么？数学家如何处理这些议题民？当然，我们不要处理真正的人类和他们复杂的社交生活。简单的美学，要求我
-们甩开所有这类不必要的复杂性，直捣事件的核心。这不是一个关于人和朋友的问题，这是关于“抽像的”朋友关系 。因此，派对变成“朋友关系结构”，包含了一组的物件（它们
-是什么并不重要），以及它们之间（可能是双向的）关系的集合。
-\end_layout
+首先，要决定我们字词的定义。人是指什么？朋友是什么？派对又是什么？数学家如何处理这些议题？当然，我们不要处理真正的人类和他们复杂的社交生活。简单的美学，要求我们
+甩开所有这类不必要的复杂性，直捣事件的核心。这不是一个关于人和朋友的问题，这是关于“抽像的”朋友关系 。因此，派对变成“朋友关系结构”，包含了一组的物件（它们是
+什么并不重要），以及它们之间（可能是双向的）关系的集合。
+\begin_inset Note Comment
+status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 144
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1261,12 +1359,30 @@ epresentation）以什么程序。你是否能建构出一个数系，它的行�
 \end_layout
 
 \begin_layout Standard
-这里是有五个人的派对，包括一个陌生人（没有朋友）以及一个相对活泼的人（有三位朋友）。而刚好有两个物件有相同数目的连结（假设为两个朋友，就是2）。
+\align center
+\begin_inset Graphics
+	filename images/144.jpg
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-因此，在这里的是一个简单而美妙的数学结构类型（在数学这一行称为组合图“combinatorial graphs”）,关于它们有一个自然又有趣的问题：是否每个圆形
-都有一对（两个）物件有相同数目的连结？（当然我们假设我们图形中有一个以上的物件）。
+这里是有五个人的派对，包括一个陌生人（没有朋友）以及一个相对活泼的人（有三位朋友）。而刚好有两个物件有相同数目的连结（假设为两个朋友，就是
+\begin_inset Formula $2$
+\end_inset
+
+）。
+\end_layout
+
+\begin_layout Standard
+因此，在这里的是一个简单而美妙的数学结构类型（在数学这一行称为组合图“combinatorial
+\begin_inset space \space{}
+\end_inset
+
+graphs”）,关于它们有一个自然又有趣的问题：是否每个圆形都有一对（两个）物件有相同数目的连结？（当然我们假设我们图形中有一个以上的物件）。
 \end_layout
 
 \begin_layout Standard
@@ -1274,75 +1390,159 @@ epresentation）以什么程序。你是否能建构出一个数系，它的行�
 走不到三步，你就会被有趣的事物给绊倒：
 \end_layout
 
-\begin_layout Standard
-倒：
+\begin_layout Labeling
+\labelwidthstring 我：：
+你： 保罗，我刚才在想你之前说过的问题，将数字排成列，然后我注意到有些数字非常奇特，它们没办法排成任何平整的行列。像十三就是一个例子。
 \end_layout
 
-\begin_layout Standard
-你：保罗，我刚才在想你之前说过的问题，将数字排成列，然后我注意到有些数字非常奇特，它们没办法排成任何平整的行列。像十三就是一个例子。
+\begin_layout Labeling
+\labelwidthstring 我：：
+我： 你总是可以把十三个排成一列……或是每列一个排成十三列！
 \end_layout
 
-\begin_layout Standard
-我：你总是可以把十三个排成一列……或是每列一个排成十三列！
-\end_layout
+\begin_layout Labeling
+\labelwidthstring 我：：
+你： 是的，但是那很无趣呀。任何数字你都可以这样做的。我是指至少排成两列。无论如何，我就开始把这些奇怪的数字列出来，就像这样：
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-你：是的，但是那很无趣呀。任何数字你都可以这样做的。我是指至少排成两列。无论如何，我就开始把这些奇怪的数字列出来，就像这样：
-\end_layout
 
-\begin_layout Standard
-1，2，3，5，7，11，13，17，19，23，29，31，37，41，43，47，…
-\end_layout
+\begin_inset Formula $1,2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,\ldots$
+\end_inset
 
-\begin_layout Standard
+
+\begin_inset Newline newline
+\end_inset
+
 这个清单似乎会一直继续下去去，但我还找不到它的任何模式。
 \end_layout
 
-\begin_layout Standard
-我：喔，你发现某件非常神秘的事物了。实际上，我们对于你的这些奇怪数字，所知并不太多。我们确实知道的一件事，是它们会一直继续下去——那些不能排成列的数字是无限多的
-。也许你可心深度去证明这一点。
+\begin_layout Labeling
+\labelwidthstring 我：：
+我： 喔，你发现某件非常神秘的事物了。实际上，我们对于你的这些奇怪数字，所知并不太多。我们确实知道的一件事，是它们会一直继续下去——那些不能排成列的数字是无限多
+的。也许你可心深度去证明这一点。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 我：：
+你： 是的，我会好好想想。无论如何，我注意到这份清单上的一件事，就是数字间的间距。随着数字变大，间距似乎通常会变大，但是有时候，你会得到这些小团块，像是
+\begin_inset Formula $17$
+\end_inset
+
+，
+\begin_inset Formula $19$
+\end_inset
+
+还有
+\begin_inset Formula $101$
+\end_inset
+
+，
+\begin_inset Formula $103$
+\end_inset
+
+，它们的距离只有二，这样的情况会持续发生吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 我：：
+我： 没人知道！你的奇怪数字被称为“质数”（primes），而那些成对的被称为“孪生质数”（prime
+\begin_inset space \space{}
+\end_inset
+
+twins）。它们是否一直出现。这个问题被称为孪生质数猜测（twin
+\begin_inset space \space{}
+\end_inset
+
+prime conjecture）。事实上，这是算术上最有名的未解问题之一。研究这个问题的大多数人（包括我自己）感觉到这可能是真的——孪生质数应该会一直出现——
+但是没有人能确定这一点。我希望在我有生之年能见到证明，但对此我不是非常乐观。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 我：：
+你： 真是诡异呀，这么简单的事物，却变成这么的问题！我还注意到另外一件事，在
+\begin_inset Formula $3$
+\end_inset
+
+，
+\begin_inset Formula $5$
+\end_inset
+
+，
+\begin_inset Formula $7$
+\end_inset
+
+之后，似乎不再出现连续三个质数。这是真的吗？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 我：：
+我： 三胞胎质数（prime
+\begin_inset space \space{}
+\end_inset
+
+triplets）！你找到一个很棒的题目。你何不研究一下这个问题，然后看看你会得到什么结果……
 \end_layout
 
 \begin_layout Standard
-你：是的，我会好好想想。无论如何，我注意到这份清单上的一件事，就是数字间的间距。随着数字变大，间距似乎通常会变大，但是有时候，你会得到这些小团块，像是17，19
-还有10，103，它们的距离只有二，这样的情况会持续发生吗？
-\end_layout
+\align center
 
-\begin_layout Standard
-我：没人知道！你的奇怪数字被称为“质数”（primes），而那些成对的被称为“孪生质数”（prime twins）。它们是否一直出现。这个问题被称为孪生质数猪油
-（twin prime conjecture）。事实上，这是算述上最有名的未解问题之一。研究这个问题的大多数人（包括我自己）感觉到这可能是真的——孪生质数应该会
-一直出现——但是没有人能确定这一点。我希望在我有生之年能见到证明，但对此我不是非常乐观。
-\end_layout
-
-\begin_layout Standard
-你：真是诡异呀，这么简单的事物，却变成这么的问题！我还注意到另外一件事，在3，5，7之后，似乎不再出现连续三个质数。这是真的吗？
-\end_layout
-
-\begin_layout Standard
-我：三胞胎质数（prime triplets）！你找到一个很棒的题目。你何不研究一下这个问题，然后看看你会得到什么结果……
-\end_layout
-
-\begin_layout Standard
+\family sans
 （几天之后）
 \end_layout
 
-\begin_layout Standard
-你：我想到我有所发现喔！我找的是三胞胎质数，而我却注意到另一件事：当你有三个连续奇数，其中一个必是三的倍数。例如13，15，17，中间的数字就是5*3。
+\begin_layout Labeling
+\labelwidthstring 你：：
+你： 我想到我有所发现喔！我找的是三胞胎质数，而我却注意到另一件事：当你有三个连续奇数，其中一个必是三的倍数。例如
+\begin_inset Formula $13$
+\end_inset
+
+，
+\begin_inset Formula $15$
+\end_inset
+
+，
+\begin_inset Formula $17$
+\end_inset
+
+，中间的数字就是
+\begin_inset Formula $5\times3$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 你：：
+我： 太棒了！这确实解释了为什么
+\begin_inset Formula $3$
+\end_inset
+
+，
+\begin_inset Formula $5$
+\end_inset
+
+，
+\begin_inset Formula $7$
+\end_inset
+
+是仅有的三胞胎质数——唯一是三的位数的质数就是三本身。现在你只需要找出为什么三个连续奇数中必然包含有三的倍数。
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 你：：
+你： 这个过程会不会有结束的时候？数学会不会有尽头呢？
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 你：：
+我： 不会的，因为为题目求解总是会带来新的问题。例如，现在你已经让我开始想五个连续的奇数中是否一定包含有五的倍数……
 \end_layout
 
 \begin_layout Standard
-我：太棒了！这确实解释了为什么3，5，7是仅有的三胞胎质数——唯一是三的位数的质数就是三本身。现在你只需要找出为什么三个连续奇数中必然包含有三的倍数。
-\end_layout
+\begin_inset space \qquad{}
+\end_inset
 
-\begin_layout Standard
-你：这个过程会不会有结束的时候？数学会不会有尽头呢？
-\end_layout
-
-\begin_layout Standard
-我：不会的，因为为题目求解总是会带来新的问题。例如，现在你已经让我开始想五个连续的奇数中是否一定包含有五的倍数……
-\end_layout
-
-\begin_layout Standard
 数学问题就是这样产生的——出自真诚而有意外收获的探索。而这不是生活中每一件伟大事物的动作方式吗？小孩子了解这一点的。他们知道学习和游戏是同一件事。悲哀的是，成年
 人已经忘却。他们把学习想成是讨厌的工作，所以学习就变成讨厌的工作了。他们的问题是意念所生（intentionality）。
 \end_layout
@@ -1353,16 +1553,38 @@ epresentation）以什么程序。你是否能建构出一个数系，它的行�
 \end_layout
 
 \begin_layout Standard
-如果你刚好是学校里的学生（我为你哀悼），那么请试着不要去与时俱进数学课程中无来由的荒谬。如果你想要的话，你可以真正去余数常来逃离无聊和厌烦。当你盯着窗外，等待下
-课铃声之际，能想点有趣的事，这还挺不错的。
+如果你刚好是学校里的学生（我为你哀悼），那么请试着不要去与时俱进数学课程中无来由的荒谬。如果你想要的话，你可以
+\family sans
+真正去做数学
+\family default
+来逃离无聊和厌烦。当你盯着窗外，等待下课铃声之际，能想点有趣的事，这还挺不错的。
 \end_layout
 
 \begin_layout Standard
-如果你是数学老师，那么你更是需要在数学实境中悠游。你的教学应该是从你自己在丛林中的体验很自然地湧出来，而不是出自那些在紧闭窗户车厢里的假游客观点。所以，丢掉那些
-愚蠢的课程纲要和教科书吧！然后，你和你的学生可以开始一起做些数学。严肃地说，如果你没有兴趣探索你自己个人的想你宇宙，没有兴趣去发现和尝试了解你的发现，那么你干嘛
-称自己为数学老师？如果你的学科没有亲身的关系，如果它不能感动你，让你起鸡皮疙瘩，那你必须找其他的工作做。如果你喜欢和小孩相处，你真的想要当老师，那很好——但是去
-教那些对你真正有意义、你能说出名堂的学科。对这一点诚实是很重要的，否则我想我们这些老师会在无意间对学生造成很大的伤害。而如果你不是学生，也不是老师，仅仅是生活在
-这个世界上、和其他人一样在寻找爱和意义的人，我希望我有尽力做到让你窥得美妙与纯粹，一个无害且愉悦的活动，数百年来，它带给许多人无法形容的欣喜。
+如果你是数学老师，那么你
+\family sans
+更
+\family default
+是需要在数学实境中悠游。你的教学应该是从你
+\family sans
+自己
+\family default
+在丛林中的体验很自然地涌出来，而不是出自那些在紧闭窗户车厢里的假游客观点。所以，丢掉那些愚蠢的课程纲要和教科书吧！然后，你和你的学生可以开始一起做些数学。严肃地
+说，如果你没有兴趣探索你自己个人的想你宇宙，没有兴趣去发现和尝试了解你的发现，那么你干嘛称自己为数学老师？如果你的学科没有亲身的关系，如果它不能感动你，让你起鸡
+皮疙瘩，那你必须找其他的工作做。如果你喜欢和小孩相处，你真的想要当老师，那很好——但是去教那些对你真正有意义、你能说出名堂的学科。对这一点诚实是很重要的，否则我
+想我们这些老师会在无意间对学生造成很大的伤害。
+\end_layout
+
+\begin_layout Standard
+而如果你不是学生，也不是老师，仅仅是生活在这个世界上、和其他人一样在寻找爱和意义的人，我希望我有尽力做到让你窥得美妙与纯粹，一个无害且愉悦的活动，数百年来，它带
+给许多人无法形容的欣喜。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
 \end_layout
 
 \end_body

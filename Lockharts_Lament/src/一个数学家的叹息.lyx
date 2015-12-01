@@ -240,6 +240,25 @@ Lockhart
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size huge
+\begin_inset space \quad{}
+\end_inset
+
+
+\family typewriter
+\size large
+（仅限于内部学习交流使用）
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage newpage
 \end_inset
 
