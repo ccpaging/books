@@ -132,8 +132,11 @@ hspace{3em}中学几何：邪恶的工具}
 \end_layout
 
 \begin_layout Standard
-问题就出在系统性地从根摧毁学生的直觉。证明，是数学论证，是一部小说，是一首诗。它的目的是在“满足”（satisfy）。一个完美的证明应当是要说明，而且应该说明得
-清楚、巧妙且直截了当。一份完美、制作完善的论证，应当感觉像是醍醐灌顶，应该是指路的明灯——它应该要提振我们的精神、照亮我们的心灵，而且应该是有趣迷人的。
+问题就出在系统性地从根摧毁学生的直觉。证明，是数学论证，是一部小说，是一首诗。它的目的是在“满足”（satisfy）。
+\family sans
+一个完美的证明应当是要说明，而且应该说明得清楚、巧妙且直截了当。
+\family default
+一份完美、制作完善的论证，应当感觉像是醍醐灌顶，应该是指路的明灯——它应该要提振我们的精神、照亮我们的心灵，而且应该是有趣迷人的。
 \end_layout
 
 \begin_layout Standard
@@ -146,76 +149,1061 @@ hspace{3em}中学几何：邪恶的工具}
 \end_layout
 
 \begin_layout Standard
-通常会做的第一件事就是不必要地加入过多符号，搅浑了这摊水。显然，我们没有办法简单地说出两条相交的 直线：必须给予名称。而不只是简单的名称，像是“第一条线”和“第
-二条线”，或甚至“a”和“b”。我们必须（根 据中学几何课程）在这些直线上选择随机且不相关的点，然后使用特殊的“直线符号”来表示这些直线。 你看，现在我们得称它
-们为和。然后上帝特准你可以省略掉它们顶上 的小横杠——“AB”代表直线的长度（至少我认为是这个意思）。不管这是多么没意义的复 杂，大家都必须学习这样做。现在来看
-实际上的陈述，通常是以一些荒谬的名称来称呼，像是：
+\align center
+\begin_inset Graphics
+	filename images/p82-1.jpg
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-命题 2.1.1 令和相交于P。则∠APC≌∠BPD。
+通常会做的第一件事就是不必要地加入过多符号，搅浑了这摊水。显然，我们没有办法简单地说出两条相交的直线：必须给予名称。而不只是简单的名称，像是“第一条线”和“第二
+条线”，或甚至“
+\begin_inset Formula $a$
+\end_inset
+
+”和“
+\begin_inset Formula $b$
+\end_inset
+
+”。我们必须（根据中学几何课程）在这些直线上选择随机且不相关的点，然后使用特殊的“直线符号”来表示这些直线。
 \end_layout
 
 \begin_layout Standard
-换言之，两侧的角度是相等的。我的天啊，两条相交的直线，它们的组成当然是对称的。然后呢，好像弄成这 样还不够糟，对于直线和角度这样显而易见的叙述，还必须要加以“证
-明”。 证明： 叙述 理由 1. m∠APC+m∠APD=180  1. 角度加法公理(Angel Addition Postule)   m∠BPD+m∠APD=
-180 2. m∠APC+m∠APD 2. 代换(Substition Property)  =m∠BPD+m∠APD 3. m∠APD=m∠APD
- 3. 反身性(Reflexive Property of Equality) 4. m∠APC=m∠BPD 4. 等式减法性质(Subtraction
- Property of Equality) 5. ∠APC≌∠BPD 5. 角度公理(Angle Measurement Postulate) 原本应该是由人以世
-界上的自然语言写出来的饶富机智及有趣的论证，我们却把它搞成这样沉闷、没有灵魂、 官样文章的证明。层层堆砌成山！我们的要将这么直截了当的观察，弄成这么长的论文吗？
-老实说：你真的有 在读它吗？当然没有。谁会要读呢？ 在这么简单的是情商搞得那么隆重，结果就是让人们怀疑起自己的直觉。对于如此显而易见的事情，减持要
- “严格的证明”（就像它会构成法律上正式的证据似的），就像是对学生说：“你的感觉和想法是可疑的，你必 须以我们的方式来思考和说话。” 毫无疑问，我们的确有要做数
-学正式证明的时候，但是当学生第一次接触到数学论证时，不应该这么做。至少 让他们熟悉一些数学主题，以及了解对这些主题能有什么期待之后，再开始正式严谨的讨论。只有在
-有危机的 时候————当你发现你想象的物件，它的行为违反了直觉，以及当有矛盾发生时，严格的正式证明才变得很重 要。但是这种过分的预防性保健措施，在这里是完完全全
-没有必要的——疾病还没发生哪！当然，如果有逻辑危 机发生的时候，那么很明显的应该要加以研究，论证必须做的清楚明白，但那个过程可疑进行得直觉一些，也
- 不必那么正式。事实上，数学的精髓，就是和自己的证明进行这样的对话。 所以，不是只有大部分的小孩被这个假学问完全搞迷糊了——没有什么比去证明明显的事更让人困惑了
-——即使那 些还保有直觉的少数人，也必须将他们优异、绝妙的点子转换置入这个荒诞难解的框架里，好让他们的老师说 它是“正确的”。老师则沾沾自喜地认为他让学生的心智
-变敏锐了。 再来是一个比较严肃的例子。我们来看看一个半圆里面的三角形：
+\align center
+\begin_inset Graphics
+	filename images/p82-2.jpg
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-这个模式的美丽真相在于，无论三角形的顶点是在圆周的哪里，它都是直角。（我不反对用“直角”(right angle)，如果这个名词与问题有关，而且方便讨论的话。我
-反对的不是专有名词本身，而是没有要领、没有 必要的专有名词。如果学生喜欢的话，我也很乐意用“转角”或“角落”。）
+你看，现在我们得称它们为
+\begin_inset Formula $\overline{AB}$
+\end_inset
+
+和
+\begin_inset Formula $\overline{CD}$
+\end_inset
+
+。然后上帝特准你可以省略掉它们顶上的小横杠——“
+\begin_inset Formula $AB$
+\end_inset
+
+”代表直线的长度（至少我认为是这个意思）。不管这是多么没意义的复杂，大家都必须学习这样做。现在来看实际上的陈述，通常是以一些荒谬的名称来称呼，像是：
 \end_layout
 
 \begin_layout Standard
-我们的直觉在这里会有些疑问。这会一直都成立吗？不是那么清楚，甚至看起来不太可能——如果我移动 那个顶点，角度不会改变吗？此处我们有一个绝妙的数学题目！这是真的吗
-？如果是真的，为什么是真的？这是多么伟大的作业呀！这是可以让我们的智慧和想象力动起来的一个绝佳机会！
+\noindent
+
+\series bold
+命题 2.1.1
 \end_layout
 
 \begin_layout Standard
-……当然学生不会得到这样的机会，他们的好奇心和兴趣立刻就会被泼了冷水： 定理 9.5 令△ABC内接于一个直径为的半圆。 则∠ABC为直角。
+令
+\begin_inset Formula $\overline{AB}$
+\end_inset
+
+和
+\begin_inset Formula $\overline{CD}$
+\end_inset
+
+相交于
+\begin_inset Formula $P$
+\end_inset
+
+。则
+\begin_inset Formula $\angle APC\cong\angle BPD$
+\end_inset
+
+。
 \end_layout
 
 \begin_layout Standard
-证明： 叙述 理由 1. 画半径，则OB=OC=OA 1. 已知 2. m∠OBC=m∠BCA 2. 等腰三角形定理   m∠OBA=m∠BAC 3. m∠ABC=m∠O
-BA+m∠OBC 3. 角度和公理 4. m∠ABC+m∠BCA+m∠BAC=180 4. 三角形内角和为180度 5. m∠ABC+m∠OBC+m∠OBA=180
- 5. 代换（叙述2） 6. 2m∠ABC=180 6. 代换（叙述3） 7. m∠ABC=90 7. 等式的可除性 8. ∠ABC为直角 8. 直角的定义
- 还有什么比这更无聊，更不直截了当的？有什么论证能更令人困惑，更难读？这绝不是数学！一个证明应该是 神迹的显现，而不是来自五角大厦的密码讯息。这是把逻辑严谨性摆
-错了地方的结果：丑陋。论证的精神 被令人迷惑的形式主义给埋藏了。 没有任何数学家是这样工作的。从来没有任何数学家以这种方式工作。这是对数学这门学问完全的、彻底的
-误 解。数学不是在我们自己和我们的直觉之间升起屏障，也不是要让简单的事情变得复杂。数学是移除通往直觉 的障碍，以及让简单的事情维持简单。 前述令人倒胃口的证明，
-拿来对比我七年级学生所做的论证： 将这个三角形旋转半圆，使其成为一个圆里边的四边形，由于三角形是完全的旋转过来的，此四边形的边 必然是平行的，因此这是一个平行四
-边形。然而它也不是斜边四边形，因为它的两条对角线都是这个圆的 直径，因此它们是等长的，也就是说，它必然是一个长方形，这就是为什么它的角是直角。
+\align center
+\begin_inset Graphics
+	filename images/p83.jpg
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-这不是很轻松愉快吗？重点不在这项论点的点子是否比另一个高明，而是在点子的出现。（事实上，第一 个证明的点子是相当美妙的，可惜被隔上了一层深黑色的玻璃。）
- 更重要的是，这是学生自己的点子。在课堂上有个好题目给学生做，他们做出猜测、试着证明、然后其中 一名学生就做出了结果。当然这花了好几天功夫，而且是一连串失败后的
-结果。 老实说，我曾经大幅改述这个证明。最初版本有些迂回，且含有许多不必要的赘词（以及拼字和文法错误）。 但是我认为我了解他的意思。这些缺点是好事；让我这个老师
-有事情可做。我得以指出一些文体上和逻辑上的 问题，学生则因而得以改进他的论证。举例而言，我对于两条对角线都是直径这一点不是很满意——我不认为这
- 是完全显而易见的——但这只是表示需要对这文体多一点思考，以及可从中获得多一些了解。事实上，这名学生 可以把它修补得很好： 由于这个三角形绕着图形转了半圈，顶点
-必然正好和原来的位置处于正对面的位置。这就是为什么四边形的 对角线是圆的直径。 这就是一项伟大的作业，一个美妙的数学作品。我不确定谁对此更引以为傲，是学生还是我
-自己。我就是我的 学生们体验到这类的经验。 几何学的标准课程的问题在于，艺术家挣扎奋斗的个人经验，全都被消灭了。证明的艺术性，被毫无生气、形 式化的演绎法的僵硬
-步骤所取代了。教科书呈现出一整套定义、定理及证明，教师们照抄在黑板上，学生们照 抄在笔记簿上。然后要求学生再依样画葫芦的写习题。谁能快速学会这种模式的，就是“好
-”学生。 结果，在创造的行动里学生变成了被动的参与者。学生做出叙述，去符合现成的证明模式，而不是因为他们 的确这样子想。他们被训练去模仿论证，而不是去想出论证。
-因此，他们不只不知道老师在说些什么， 他们也不知道自己在说些什么。 即使是定义的传统表达方式，也是个谎言。为了创造出简洁的假象，在进行典型的一系列命题和定理之前
-，先 提供一套定义，让叙述及证明可以尽可能的简洁。表面上，这似乎是无害的：做一些化繁为简的定义，这样叙 述起来可以轻松便利，不是很好吗？问题在于，定义非常重要。
-定义是身为艺术家的你认为重要，而做的美学 决定。而且它是因问题而产生的。定义是要彰显出来，并让人们注意到一项特质或结构上的属性。在历史 上，这是从问题研究的过程
-中产生的，而不是问题的前提。 重点是，你不会从定义开始，你是从问题开始。一直到毕达哥拉斯（Pythagoras）试图测量正方形的对角线， 因而发现它无法以分数来
-表示，在那之前没有人想过，数可能是“无理的”（irrational）。只有在你的论证 达到某一点，你必须要做出区别来厘清时，定义才有意义。在没有动机的时候做出的
-定义，更可能造成 混淆。 这只是将学生排除在数学过程之外的一个例子。学生必须在有需要的时候能够做出自定的定义——自己为辩论 做架构。我不要学生说“定义、定理、证
-明”，我要他们说“我的定义、我的定理、我的证明”。 把这些抱怨都摆在一旁吧，这种呈现方式的真正问题在于，它很枯燥。效率和经济性并不是好的教学方法。我
- 很难说欧几里得（Euclid）是否赞同此点，但是我知道阿基米德（Archimedes）绝对不会赞同。
+换言之，两侧的角度是相等的。我的天啊，两条相交的直线，它们的组成当然是对称的。然后呢，好像弄成这样还不够糟，对于直线和角度这样显而易见的叙述，还必须要加以“证明
+”。
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+证明：
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top" width="38text%">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+叙述
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+理由
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+1.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $m∠APC+m∠APD=180$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+1.
+\begin_inset space \space{}
+\end_inset
+
+角度加法公理
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Phantom HPhantom
+status open
+
+\begin_layout Plain Layout
+1.
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $m∠BPD+m∠APD=180$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(Angel Addition Postule)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+2.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $m∠APC+m∠APD=$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+2.
+\begin_inset space \space{}
+\end_inset
+
+代换
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Phantom HPhantom
+status open
+
+\begin_layout Plain Layout
+2.
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $m∠BPD+m∠APD$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(Substition Property)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+3.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $m∠APD=m∠APD$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+3.
+\begin_inset space \space{}
+\end_inset
+
+反身性(Reflexive
+\begin_inset Newline newline
+\end_inset
+
+Property of Equality)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+4.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $m∠APC=m∠BPD$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+4.
+\begin_inset space \space{}
+\end_inset
+
+等式减法性质
+\begin_inset Newline newline
+\end_inset
+
+(Subtraction Property of Equality)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+5.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $∠APC≌∠BPD$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+5.
+\begin_inset space \space{}
+\end_inset
+
+角度公理(Angle
+\begin_inset Newline newline
+\end_inset
+
+Measurement Postulate)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+原本应该是由人以世界上的自然语言写出来的饶富机智及有趣的论证，我们却把它搞成这样沉闷、没有灵魂、官样文章的证明。层层堆砌成山！我们的要将这么直截了当的观察，弄成
+这么长的论文吗？老实说：你真的有在读它吗？当然没有。谁会要读呢？
+\end_layout
+
+\begin_layout Standard
+在这么简单的是情商搞得那么隆重，结果就是让人们怀疑起自己的直觉。对于如此显而易见的事情，减持要“严格的证明”（就像它会构成法律上正式的证据似的），就像是对学生说
+：“你的感觉和想法是可疑的，你必须以我们的方式来思考和说话。”
+\end_layout
+
+\begin_layout Standard
+毫无疑问，我们的确有要做数学正式证明的时候，但是当学生第一次接触到数学论证时，不应该这么做。至少让他们熟悉一些数学主题，以及了解对这些主题能有什么期待之后，再开
+始正式严谨的讨论。只有在有危机的时候————当你发现你想象的物件，它的行为违反了直觉，以及当有矛盾发生时，严格的正式证明才变得很重要。但是这种过分的预防性保健措
+施，在这里是完完全全没有必要的——疾病还没发生哪！当然，如果有逻辑危机发生的时候，那么很明显的应该要加以研究，论证必须做的清楚明白，但那个过程可疑进行得直觉一些
+，也不必那么正式。事实上，数学的精髓，就是和自己的证明进行这样的对话。
+\end_layout
+
+\begin_layout Standard
+所以，不是只有大部分的小孩被这个假学问完全搞迷糊了——没有什么比去证明明显的事更让人困惑了——即使那些还保有直觉的少数人，也必须将他们优异、绝妙的点子转换置入这
+个荒诞难解的框架里，好让他们的老师说它是“正确的”。老师则沾沾自喜地认为他让学生的心智变敏锐了。
+\end_layout
+
+\begin_layout Standard
+再来是一个比较严肃的例子。我们来看看一个半圆里面的三角形：
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/p85.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这个模式的美丽真相在于，无论三角形的顶点是在圆周的哪里，它都是直角。（我不反对用“直角”(right
+\begin_inset space \space{}
+\end_inset
+
+angle)，如果这个名词与问题有关，而且方便讨论的话。我反对的不是专有名词本身，而是没有要领、没有必要的专有名词。如果学生喜欢的话，我也很乐意用“转角”或“角
+落”。）
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/p86.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+我们的直觉在这里会有些疑问。这会一直都成立吗？不是那么清楚，甚至看起来
+\family sans
+\size small
+不太可能
+\family default
+\size default
+——如果我移动那个顶点，角度不会改变吗？此处我们有一个绝妙的数学题目！这是真的吗？如果是真的，
+\family sans
+\size small
+为什么
+\family default
+\size default
+是真的？这是多么伟大的作业呀！这是可以让我们的智慧和想象力动起来的一个绝佳机会！当然学生不会得到这样的机会，他们的好奇心和兴趣立刻就会被泼了冷水：
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+定理 9.5
+\end_layout
+
+\begin_layout Standard
+令
+\begin_inset Formula $△ABC$
+\end_inset
+
+内接于一个直径为
+\begin_inset Formula $\overline{AC}$
+\end_inset
+
+的半圆。
+\end_layout
+
+\begin_layout Standard
+则
+\begin_inset Formula $∠ABC$
+\end_inset
+
+为直角。
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/p87.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset VSpace medskip
+\end_inset
+
+证明：
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Tabular
+<lyxtabular version="3" rows="12" columns="2">
+<features rotate="0" islongtable="true" longtabularalignment="left">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="30text%">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+叙述
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+理由
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+1.
+\begin_inset space \space{}
+\end_inset
+
+画半径，则
+\begin_inset Formula $OB=OC=OA$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+1.
+\begin_inset space \space{}
+\end_inset
+
+已知
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+2.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $m∠OBC=m∠BCA$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+2.
+\begin_inset space \space{}
+\end_inset
+
+等腰三角形定理
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Phantom HPhantom
+status open
+
+\begin_layout Plain Layout
+2.
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $m∠OBA=m∠BAC$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+3.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $m∠ABC=m∠OBA+m∠OBC$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+3.
+\begin_inset space \space{}
+\end_inset
+
+角度和公理
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+4.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $m∠ABC+m∠BCA+m∠BAC=$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+4.
+\begin_inset space \space{}
+\end_inset
+
+三角形内角和为
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Phantom HPhantom
+status open
+
+\begin_layout Plain Layout
+2.
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $180$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+180度
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+5.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $m∠ABC+m∠OBC+m∠OBA=$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+5.
+\begin_inset space \space{}
+\end_inset
+
+代换（叙述2）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Phantom HPhantom
+status open
+
+\begin_layout Plain Layout
+2.
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $180$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+6.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $2m∠ABC=180$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+6.
+\begin_inset space \space{}
+\end_inset
+
+代换（叙述3）
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+7.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $m∠ABC=90$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+7.
+\begin_inset space \space{}
+\end_inset
+
+等式的可除性
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+8.
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Formula $∠ABC$
+\end_inset
+
+为直角
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+8.
+\begin_inset space \space{}
+\end_inset
+
+直角的定义
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+还有什么比这更无聊，更不直截了当的？有什么论证能更令人困惑，更难读？这绝不是数学！一个证明应该是神迹的显现，而不是来自五角大厦的密码讯息。这是把逻辑严谨性摆错了
+地方的结果：丑陋。论证的精神被令人迷惑的形式主义给埋藏了。
+\end_layout
+
+\begin_layout Standard
+没有任何数学家是这样工作的。从来没有任何数学家以这种方式工作。这是对数学这门学问完全的、彻底的误解。数学不是在我们自己和我们的直觉之间升起屏障，也不是要让简单的
+事情变得复杂。数学是移除通往直觉的障碍，以及让简单的事情维持简单。
+\end_layout
+
+\begin_layout Standard
+前述令人倒胃口的证明，拿来对比我七年级学生所做的论证：
+\end_layout
+
+\begin_layout Quotation
+
+\family sans
+将这个三角形旋转半圆，使其成为一个圆里边的四边形，由于三角形是完全的旋转过来的，此四边形的边必然是平行的，因此这是一个平行四边形。然而它也不是斜边四边形，因为它
+的两条对角线都是这个圆的直径，因此它们是等长的，也就是说，它必然是一个长方形，这就是为什么它的角是直角。
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images/p89.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+这不是很轻松愉快吗？重点不在这项论点的点子是否比另一个高明，而是在点子的出现。（事实上，第一个证明的点子是相当美妙的，可惜被隔上了一层深黑色的玻璃。）
+\end_layout
+
+\begin_layout Standard
+更重要的是，这是学生自己的点子。在课堂上有个好题目给学生做，他们做出猜测、试着证明、然后其中一名学生就做出了结果。当然这花了好几天功夫，而且是一连串失败后的结果
+。
+\end_layout
+
+\begin_layout Standard
+老实说，我曾经大幅改述这个证明。最初版本有些迂回，且含有许多不必要的赘词（以及拼字和文法错误）。但是我认为我了解他的意思。这些缺点是好事；让我这个老师有事情可做
+。我得以指出一些文体上和逻辑上的问题，学生则因而得以改进他的论证。举例而言，我对于两条对角线都是直径这一点不是很满意——我不认为这是完全显而易见的——但这只是表
+示需要对这文体多一点思考，以及可从中获得多一些了解。事实上，这名学生可以把它修补得很好：
+\end_layout
+
+\begin_layout Quotation
+
+\family sans
+由于这个三角形绕着图形转了半圈，顶点必然正好和原来的位置处于正对面的位置。这就是为什么四边形的对角线是圆的直径。
+\end_layout
+
+\begin_layout Standard
+这就是一项伟大的作业，一个美妙的数学作品。我不确定谁对此更引以为傲，是学生还是我自己。我就是我的学生们体验到这类的经验。
+\end_layout
+
+\begin_layout Standard
+\align center
+* * *
+\end_layout
+
+\begin_layout Standard
+几何学的标准课程的问题在于，艺术家挣扎奋斗的个人经验，全都被消灭了。证明的艺术性，被毫无生气、形 式化的演绎法的僵硬步骤所取代了。教科书呈现出一整套定义、定理及
+证明，教师们照抄在黑板上，学生们照 抄在笔记簿上。然后要求学生再依样画葫芦的写习题。谁能快速学会这种模式的，就是“好”学生。 结果，在创造的行动里学生变成了被动
+的参与者。学生做出叙述，去符合现成的证明模式，而不是因为他们 的确这样子想。他们被训练去模仿论证，而不是去想出论证。因此，他们不只不知道老师在说些什么，
+ 他们也不知道自己在说些什么。 即使是定义的传统表达方式，也是个谎言。为了创造出简洁的假象，在进行典型的一系列命题和定理之前，先 提供一套定义，让叙述及证明可以
+尽可能的简洁。表面上，这似乎是无害的：做一些化繁为简的定义，这样叙 述起来可以轻松便利，不是很好吗？问题在于，定义非常重要。定义是身为艺术家的你认为重要，而做的
+美学 决定。而且它是因问题而产生的。定义是要彰显出来，并让人们注意到一项特质或结构上的属性。在历史 上，这是从问题研究的过程中产生的，而不是问题的前提。
+ 重点是，你不会从定义开始，你是从问题开始。一直到毕达哥拉斯（Pythagoras）试图测量正方形的对角线， 因而发现它无法以分数来表示，在那之前没有人想过，数
+可能是“无理的”（irrational）。只有在你的论证 达到某一点，你必须要做出区别来厘清时，定义才有意义。在没有动机的时候做出的定义，更可能造成
+ 混淆。 这只是将学生排除在数学过程之外的一个例子。学生必须在有需要的时候能够做出自定的定义——自己为辩论 做架构。我不要学生说“定义、定理、证明”，我要他们说
+“我的定义、我的定理、我的证明”。 把这些抱怨都摆在一旁吧，这种呈现方式的真正问题在于，它很枯燥。效率和经济性并不是好的教学方法。我 很难说欧几里得（Eucli
+d）是否赞同此点，但是我知道阿基米德（Archimedes）绝对不会赞同。
 \end_layout
 
 \begin_layout Standard
