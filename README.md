@@ -10,7 +10,7 @@ books
 在线阅读
 ----
 
-[**《数理化自学丛书第二版》代数 第二册**](Algebra2/00-index.html)
+[**《数理化自学丛书第二版》代数 第二册**](http://ccpaging.github.io/books/Algebra2/00-index.html)
 
 特别鸣谢
 ----
