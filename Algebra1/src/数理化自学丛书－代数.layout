@@ -9,8 +9,7 @@ PageStyle               Headers
 Input stdclass.inc
 Preamble
     % 自定义页边距
-    %\RequirePackage[top=1.5cm,bottom=1.5cm,left=2cm,right=2cm]{geometry}
-    \RequirePackage[paperheight=160mm,paperwidth=120mm,top=0.5cm,bottom=0.5cm,left=1.5cm,right=0.5cm]{geometry}
+    \RequirePackage[paperwidth=12cm,paperheight=16cm,top=0.5cm,bottom=0.5cm,left=1.5cm,right=0.5cm]{geometry}
 
     % Kindle
     %\RequirePackage[paperwidth=9cm,paperheight=12cm,top=0.5cm,bottom=0.5cm,left=1.5cm,right=1.5cm]{geometry}
@@ -18,20 +17,16 @@ Preamble
 
     \RequirePackage{xkeyval}
     
+    \RequirePackage{amssymb} %this package conflicts with xeCJK, place it before xeCJK to avoid the conflict.
+
     % 设置字体
-    \RequirePackage{xltxtra,fontspec,xunicode,zhnumber} % 支持\zhnumber{\thechapter}
+    \RequirePackage{xltxtra,xunicode,zhnumber} % 支持\zhnumber{\thechapter}
+    % \setmainfont[Mapping=tex-text,Ligatures=TeX]{Microsoft YaHei} 
+    \setmainfont{Microsoft YaHei}
     \newfontfamily\uipa{Lucida Sans Unicode} % 在正文中用{\uipa ...}来显示音标
 
     \RequirePackage[boldfont,slantfont,CJKchecksingle,fallback]{xeCJK} % 允许粗体,斜体,
 
-    % 设置字体
-    % \setmainfont[Mapping=tex-text,Ligatures=TeX]{Microsoft YaHei} 
-
-    \setmainfont{Microsoft YaHei}
-
-    \RequirePackage{xltxtra,fontspec,xunicode,zhnumber} % 支持\zhnumber{\thechapter}
-    \RequirePackage[boldfont,slantfont,CJKchecksingle,fallback]{xeCJK} % 允许粗体,斜体,
-    
     % CJK 全局选项
     \defaultCJKfontfeatures{AutoFakeBold=2,AutoFakeSlant=.4}
     % AutoFakeBold   设定粗体字要多粗
