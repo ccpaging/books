@@ -1,7 +1,7 @@
 #  \DeclareLaTeXClass[book]{mybook}
 Format 11
 Columns                 1
-Sides                   1
+Sides                   2
 PageStyle               Headers
 #Provides natbib-internal   1
 #Provides url           1
@@ -9,7 +9,7 @@ PageStyle               Headers
 Input stdclass.inc
 Preamble
     % 自定义页边距
-    \RequirePackage[paperwidth=12cm,paperheight=16cm,top=0.5cm,bottom=0.5cm,left=1.5cm,right=0.5cm]{geometry}
+    \RequirePackage[a5paper,top=2cm,bottom=2cm,left=1.5cm,right=1.5cm]{geometry}
 
     % Kindle
     %\RequirePackage[paperwidth=9cm,paperheight=12cm,top=0.5cm,bottom=0.5cm,left=1.5cm,right=1.5cm]{geometry}
@@ -19,10 +19,12 @@ Preamble
     
     \RequirePackage{amssymb} %this package conflicts with xeCJK, place it before xeCJK to avoid the conflict.
 
+    \setmainfont{Times New Roman}
+
     % 设置字体
-    \RequirePackage{xltxtra,xunicode,zhnumber} % 支持\zhnumber{\thechapter}
+    \RequirePackage{xltxtra,fontspec,xunicode,zhnumber} % 支持\zhnumber{\thechapter}
     % \setmainfont[Mapping=tex-text,Ligatures=TeX]{Microsoft YaHei} 
-    \setmainfont{Microsoft YaHei}
+    % \setmainfont{Microsoft YaHei}
     \newfontfamily\uipa{Lucida Sans Unicode} % 在正文中用{\uipa ...}来显示音标
 
     \RequirePackage[boldfont,slantfont,CJKchecksingle,fallback]{xeCJK} % 允许粗体,斜体,
@@ -32,9 +34,18 @@ Preamble
     % AutoFakeBold   设定粗体字要多粗
     % AutoFakeSlant  设定斜体字要多斜，范围-0.999到0.999，负值往左斜
 
-    \setCJKmainfont{Microsoft YaHei}  % 设置正文罗马族的 CJK 字体，影响 \rmfamily 和 \textrm 的字体
-     
-    \punctstyle{kaiming} % 标点处理，开明式
+    \setCJKmainfont{方正仿宋_GB18030}  % 设置正文罗马族的 CJK 字体，影响 \rmfamily 和 \textrm 的字体
+    \setCJKsansfont{方正新楷体_GB18030}  % 设置正文无衬线族的 CJK 字体，影响 \sffamily 和 \textsf 的字体
+    \setCJKmonofont{方正兰亭黑_GB18030}  % 设置正文等宽族的 CJK 字体，影响 \ttfamily 和 \texttt 的字体
+
+    % 定义指令切换字体
+    \newCJKfontfamily\CJKFontSong{方正新书宋_GB18030}
+    \newCJKfontfamily\CJKFontKai{方正新楷体_GB18030}
+    \newCJKfontfamily\CJKFontHei{方正兰亭黑_GB18030}
+    \newCJKfontfamily\CJKFontFang{方正仿宋_GB18030}
+    
+    \RequirePackage{CJKpunct}
+    \punctstyle{quanjiao} % 标点处理，开明式
 
     % PDF超链接无“红色”边框
     %\RequirePackage[unicode=true,colorlinks=no,pdfborder=no]{hyperref}
@@ -54,9 +65,9 @@ Preamble
     % \renewcommand\baselinestretch{1.5}
 
     % 首行缩进
-    %\RequirePackage{indentfirst}
-    %\setlength{\parindent}{2em}
-    %{\indent},{\noindent}
+    \usepackage{indentfirst}
+    \setlength{\parindent}{2em}
+
     % 正文左移
     \setlength{\leftskip}{2em}
     
@@ -78,10 +89,10 @@ Preamble
     %\sethead[偶页眉左][偶页眉中][偶页眉右]{奇页眉左}{奇页眉中}{奇页眉右}
     %\setfoot[偶页脚左][偶页脚中][偶页脚右]{奇页脚左}{奇页脚中}{奇页脚右}
     \renewpagestyle{plain}{
-        \setfoot[$\cdot$\ \thepage\ $\cdot$][][]{}{}{$\cdot$\ \thepage\ $\cdot$}
+        \setfoot[][$\cdot$\ \thepage\ $\cdot$][]{}{$\cdot$\ \thepage\ $\cdot$}{}
     }
     \newpagestyle{main}{
-        \setfoot[$\cdot$\ \thepage\ $\cdot$][][]{}{}{$\cdot$\ \thepage\ $\cdot$}
+        \setfoot[][$\cdot$\ \thepage\ $\cdot$][]{}{$\cdot$\ \thepage\ $\cdot$}{}
     }
     \pagestyle{main}
 
@@ -106,7 +117,7 @@ Preamble
 
     % 节标题
     %\titleformat*{\section}{\centering}
-    \renewcommand\thesection{\starmark § \arabic{chapter}･\arabic{section}}
+    \renewcommand\thesection{\starmark § \arabic{chapter}·\arabic{section}}
     \titleformat{\section}			% command
         {\centering \Large}	% format
         {\thesection}	% label

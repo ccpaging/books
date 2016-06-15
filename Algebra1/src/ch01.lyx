@@ -350,7 +350,23 @@
 \end_layout
 
 \begin_layout Standard
-在算术里所学过的小数,实际上就是分母为10,100,1000,…的分数.例如,
+在算术里所学过的小数,实际上就是分母为
+\begin_inset Formula $10$
+\end_inset
+
+,
+\begin_inset Formula $100$
+\end_inset
+
+,
+\begin_inset Formula $1000$
+\end_inset
+
+,
+\begin_inset Formula $\cdots$
+\end_inset
+
+的分数.例如,
 \begin_inset Formula $3.5$
 \end_inset
 
